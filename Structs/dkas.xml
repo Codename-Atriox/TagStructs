@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="DarkRoomAssetSpec" Parents="aTag" Index="-102">
+	<_7B8E4B7D04071AFE867632EFA27EC9BE Name="i343::DarkRoom::AssetSpecDefinition" Size="B0">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_D Name="AssetSpecFlags" Offset="10" StructName1="i343::DarkRoom::AssetSpecFlags">
+			<Flag n="CanEquipWeapon" />
+			<Flag n="InheritTransforms" />
+			<Flag n="OverrideTransforms" />
+		</_D>
+		<_41 Name="Object" Offset="14" Allowed="obje" Flags="0" />
+		<_2 Name="Variant" Offset="30" />
+		<_2 Name="External Name" Offset="34" />
+		<_41 Name="Configuration" Offset="38" Allowed="ocfg" Flags="0" />
+		<_41 Name="Equipped Weapon" Offset="54" Allowed="obje" Flags="0" />
+		<_14 Name="Weapon Scale" Offset="70" />
+		<_41 Name="Inherit Transforms" Offset="74" Allowed="dkas" Flags="0" />
+		<_19 Name="Position" Offset="90" />
+		<_19 Name="Rotation" Offset="9C" />
+		<_14 Name="Scale" Offset="A8" />
+		<_34 Name="generated_pad7450" Offset="AC" Length="4" />
+	</_7B8E4B7D04071AFE867632EFA27EC9BE>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

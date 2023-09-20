@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="skeleton" Parents="aTag" Index="-383">
+	<_31EA4E8C6C1AEA4BBD1D9034B019756E Name="SkeletonTag" Size="158">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Imported data" Offset="10" GUID="BBF8141B979B6F6112CCF19B6BF80C04" StructName1="SkeletonTag" Min="0" Max="1" />
+		<_40 Name="Joint usage" Offset="24" GUID="86F1A2179BA152F4E4C42B194F13C19C" StructName1="SkeletonTag" Min="0" Max="1024" />
+		<_40 Name="Nav joint" Offset="38" GUID="68756566705EB00D257606846A2AE904" StructName1="SkeletonTag" Min="0" Max="1024" />
+		<_40 Name="Detail Joints" Offset="4C" GUID="F823A9DA2C58C93F1334CB7A2214FDFD" StructName1="SkeletonTag" Min="0" Max="1024" />
+		<_40 Name="Procedural Joints" Offset="60" GUID="D88A49DE1C68193113466670AC6CFDFD" StructName1="SkeletonTag" Min="0" Max="1024" />
+		<_40 Name="Joint masks" Offset="74" GUID="AB79E640B41D03EA9CE2AEAD1882FA05" StructName1="SkeletonTag" Min="0" Max="32" />
+		<_40 Name="User parameter masks" Offset="88" GUID="E4A0416390911A0CE0E0454694CE4E59" StructName1="SkeletonTag" Min="0" Max="32" />
+		<_40 Name="Stepped user parameters" Offset="9C" GUID="BBC042EE929F35B2EACF243F813387A1" StructName1="SkeletonTag" Min="0" Max="1024" />
+		<_40 Name="Joint animation filtering" Offset="B0" GUID="86F1A3179BA152D4EDC42B194F1DC19C" StructName1="SkeletonTag" Min="0" Max="1024" />
+		<_37 Name="IK Settings" type="fgrb" Offset="C4" />
+		<_36 Name="IK Junctions" Offset="C4" />
+		<_40 Name="IK junctions" Offset="C4" GUID="3935BCFB2231200373F970DF48E9511C" StructName1="SkeletonTag" Min="0" Max="4" />
+		<_36 Name="IK Chains" Offset="D8" />
+		<_40 Name="IK chains" Offset="D8" GUID="8E17754524B930B1AF233E33D0A21B1B" StructName1="SkeletonTag" Min="0" Max="8" />
+		<_36 Name="IK Leg Definitions" Offset="EC" />
+		<_40 Name="IK leg definitions" Offset="EC" GUID="E6354BE1A3A4F10416B9DAE7A654EE79" StructName1="SkeletonTag" Min="0" Max="2" />
+		<_40 Name="IK arm definitions" Offset="100" GUID="7E124FBC02CA2EF2CA9A4A9DA8486C3E" StructName1="SkeletonTag" Min="0" Max="2" />
+		<_36 Name="Points and Sets" Offset="114" />
+		<_40 Name="IK point" Offset="114" GUID="8FB93DE7DAC1A8A16FDAF0EEC635C320" StructName1="SkeletonTag" Min="0" Max="64" />
+		<_40 Name="IK sets" Offset="128" GUID="919761B0B2E49276E017A5A1ED1A4B18" StructName1="SkeletonTag" Min="0" Max="32" />
+		<_37 Name="" type="fgre" Offset="13C" />
+		<_37 Name="ACL Settings" type="fgrb" Offset="13C" />
+		<_14 Name="Error Threshold" Offset="13C" />
+		<_14 Name="Default Shell Radius" Offset="140" />
+		<_40 Name="Shell Radius Overrides" Offset="144" GUID="7B0F412D47DA1701A55316D983903CBE" StructName1="SkeletonTag" Min="0" Max="32" />
+		<_37 Name="" type="fgre" Offset="158" />
+	</_31EA4E8C6C1AEA4BBD1D9034B019756E>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_BBF8141B979B6F6112CCF19B6BF80C04 Name="SkeletonTagImportedData" Size="2C">
+		<_40 Name="Joints" Offset="0" GUID="17E6C7BC1CD712E329874BE2A274E5BE" StructName1="SkeletonTagImportedData" Min="0" Max="1024" />
+		<_40 Name="User parameters" Offset="14" GUID="85A713AF1CDB9D0C7D535F18B972F936" StructName1="SkeletonTagImportedData" Min="0" Max="1024" />
+		<_6 Name="Joint checksum" Offset="28" />
+	</_BBF8141B979B6F6112CCF19B6BF80C04>
+	<_86F1A2179BA152F4E4C42B194F13C19C Name="JointUsage" Size="8">
+		<_2 Name="Joint name" type="sted" Offset="0" />
+		<_B Name="Joint usage type" Offset="4" StructName1="c_animation_node_usage">
+			<Flag n="physics control" />
+			<Flag n="camera control" />
+			<Flag n="origin marker" />
+			<Flag n="left clavicle" />
+			<Flag n="left upperarm" />
+			<Flag n="pose blend pitch" />
+			<Flag n="pose blend yaw" />
+			<Flag n="pedestal" />
+			<Flag n="pelvis" />
+			<Flag n="left foot" />
+			<Flag n="right foot" />
+			<Flag n="damage root gut" />
+			<Flag n="damage root chest" />
+			<Flag n="damage root head" />
+			<Flag n="damage root left shoulder" />
+			<Flag n="damage root left arm" />
+			<Flag n="damage root left leg" />
+			<Flag n="damage root left foot" />
+			<Flag n="damage root right shoulder" />
+			<Flag n="damage root right arm" />
+			<Flag n="damage root right leg" />
+			<Flag n="damage root right foot" />
+			<Flag n="left hand" />
+			<Flag n="right hand" />
+			<Flag n="weapon ik" />
+			<Flag n="head" />
+			<Flag n="helmet" />
+			<Flag n="right clavicle" />
+			<Flag n="left forearm" />
+			<Flag n="right forearm" />
+			<Flag n="left front foot" />
+			<Flag n="right front foot" />
+			<Flag n="left eye" />
+			<Flag n="right eye" />
+			<Flag n="overlay object space parent" />
+		</_B>
+		<_34 Name="generated_pade9c7" Offset="6" Length="2" />
+	</_86F1A2179BA152F4E4C42B194F13C19C>
+	<_68756566705EB00D257606846A2AE904 Name="JointNavMark" Size="4">
+		<_2 Name="Joint name" type="sted" Offset="0" />
+	</_68756566705EB00D257606846A2AE904>
+	<_F823A9DA2C58C93F1334CB7A2214FDFD Name="DetailJoint" Size="4">
+		<_2 Name="Joint Name" type="sted" Offset="0" />
+	</_F823A9DA2C58C93F1334CB7A2214FDFD>
+	<_D88A49DE1C68193113466670AC6CFDFD Name="ProceduralJoint" Size="24">
+		<_2 Name="Joint Name" type="sted" Offset="0" />
+		<_A Name="procedure" Offset="4" StructName1="ProceduralJointProcedure">
+			<Flag n="none" />
+			<Flag n="multiply rotation" />
+			<Flag n="copy scaled twist" />
+			<Flag n="look at" />
+			<Flag n="copy local orientation" />
+			<Flag n="copy scaled twist legacy" />
+		</_A>
+		<_A Name="procedure axis" Offset="5" StructName1="ProceduralJointProcedureAxis">
+			<Flag n="all" />
+			<Flag n="yaw" />
+			<Flag n="pitch" />
+			<Flag n="roll" />
+		</_A>
+		<_34 Name="generated_pad9cf3" Offset="6" Length="2" />
+		<_2 Name="procedure node A" type="sted" Offset="8" />
+		<_2 Name="procedure node B" type="sted" Offset="C" />
+		<_14 Name="procedure var 1" Offset="10" />
+		<_14 Name="procedure var 2" Offset="14" />
+		<_1C Name="procedure neutral offset" Offset="18" />
+	</_D88A49DE1C68193113466670AC6CFDFD>
+	<_AB79E640B41D03EA9CE2AEAD1882FA05 Name="JointMask" Size="38">
+		<_2 Name="Name" Offset="0" />
+		<_A Name="Mask selection behavior" Offset="4" StructName1="JointMaskEnum">
+			<Flag n="MaskAllSelected" />
+			<Flag n="MaskAllNotSelected" />
+		</_A>
+		<_34 Name="generated_padf204" Offset="5" Length="3" />
+		<_2 Name="Joint selection chain start" type="sted" Offset="8" />
+		<_40 Name="Joint selection chain ends" Offset="C" GUID="2FD15612678095118CDE46C617D4C285" StructName1="JointMask" Min="0" Max="1024" />
+		<_40 Name="Explicit joint selections" Offset="20" GUID="2FD15612678095118CDE46C617D4C285" StructName1="JointMask" Min="0" Max="1024" />
+		<_2E Name="Add joints from other mask" Offset="34" GUID="AB79E640B41D03EA9CE2AEAD1882FA05" StructName1="JointMask" Min="0" Max="32" />
+		<_2E Name="Remove joints from other mask" Offset="36" GUID="AB79E640B41D03EA9CE2AEAD1882FA05" StructName1="JointMask" Min="0" Max="32" />
+	</_AB79E640B41D03EA9CE2AEAD1882FA05>
+	<_E4A0416390911A0CE0E0454694CE4E59 Name="UserParamMask" Size="20">
+		<_2 Name="Name" Offset="0" />
+		<_A Name="Mask selection behavior" Offset="4" StructName1="JointMaskEnum">
+			<Flag n="MaskAllSelected" />
+			<Flag n="MaskAllNotSelected" />
+		</_A>
+		<_34 Name="generated_pad2330" Offset="5" Length="3" />
+		<_40 Name="Explicit user parameter selections" Offset="8" GUID="7D404CCE667DF83B002635D28D5B9835" StructName1="UserParamMask" Min="0" Max="512" />
+		<_2E Name="Add user parameter from other mask" Offset="1C" GUID="E4A0416390911A0CE0E0454694CE4E59" StructName1="UserParamMask" Min="0" Max="32" />
+		<_2E Name="Remove user parameter from other mask" Offset="1E" GUID="E4A0416390911A0CE0E0454694CE4E59" StructName1="UserParamMask" Min="0" Max="32" />
+	</_E4A0416390911A0CE0E0454694CE4E59>
+	<_BBC042EE929F35B2EACF243F813387A1 Name="SteppedUserParameters" Size="4">
+		<_2 Name="User parameter name" type="sted" Offset="0" />
+	</_BBC042EE929F35B2EACF243F813387A1>
+	<_86F1A3179BA152D4EDC42B194F1DC19C Name="FilteredJoint" Size="4">
+		<_2 Name="Joint name" type="sted" Offset="0" />
+	</_86F1A3179BA152D4EDC42B194F1DC19C>
+	<_3935BCFB2231200373F970DF48E9511C Name="SkeletonIKJunction" Size="C">
+		<_2 Name="Name" Offset="0" />
+		<_2 Name="Pivot joint" type="sted" Offset="4" />
+		<_14 Name="Pull passthrough" Offset="8" />
+	</_3935BCFB2231200373F970DF48E9511C>
+	<_8E17754524B930B1AF233E33D0A21B1B Name="SkeletonIKChain" Size="54">
+		<_2 Name="Name" Offset="0" />
+		<_B Name="Type" Offset="4" StructName1="c_animation_ik_chain_type">
+			<Flag n="standard" />
+			<Flag n="spine" />
+			<Flag n="spline driven spine" />
+		</_B>
+		<_34 Name="generated_pad7620" Offset="6" Length="2" />
+		<_2 Name="Start joint" type="sted" Offset="8" />
+		<_2 Name="Effector joint" type="sted" Offset="C" />
+		<_40 Name="Special joints" Offset="10" GUID="E73216D7F7AD58ACCF5151B224C9E007" StructName1="SkeletonIKChain" Min="0" Max="32" />
+		<_36 Name="Pull settings" Offset="24" />
+		<_14 Name="Pull strength" Offset="24" />
+		<_14 Name="Push strength" Offset="28" />
+		<_14 Name="Over extent pull strength" Offset="2C" />
+		<_14 Name="Under extent push strength" Offset="30" />
+		<_36 Name="Effector Cone Limits" Offset="34" />
+		<_14 Name="Effector cone limit power" Offset="34" />
+		<_24 Name="Pitch bounds" Offset="38" />
+		<_24 Name="Yaw bounds" Offset="40" />
+		<_25 Name="Offset bounds" Offset="48" />
+		<_36 Name="Spline settings" Offset="50" />
+		<_14 Name="Spline reversal strength" Offset="50" />
+	</_8E17754524B930B1AF233E33D0A21B1B>
+	<_E6354BE1A3A4F10416B9DAE7A654EE79 Name="SkeletonIKLegDefinition" Size="24">
+		<_30 Name="IK Chain" Offset="0" GUID="8E17754524B930B1AF233E33D0A21B1B" StructName1="SkeletonIKLegDefinition" Min="0" Max="8" />
+		<_25 Name="Standing Compression Limits" Offset="4" />
+		<_25 Name="Crouching Compression Limits" Offset="C" />
+		<_25 Name="Foot Pitch Limits" Offset="14" />
+		<_25 Name="Foot Yaw Limits" Offset="1C" />
+	</_E6354BE1A3A4F10416B9DAE7A654EE79>
+	<_7E124FBC02CA2EF2CA9A4A9DA8486C3E Name="SkeletonIKArmDefinition" Size="10">
+		<_30 Name="IK Chain" Offset="0" GUID="8E17754524B930B1AF233E33D0A21B1B" StructName1="SkeletonIKArmDefinition" Min="0" Max="8" />
+		<_14 Name="Wrist Break Threshold" Offset="4" />
+		<_2 Name="Fixup Axis Marker" Offset="8" />
+		<_36 Name="Advanced" Offset="C" />
+		<_14 Name="Wrist Break Acceptable Min Angle" Offset="C" />
+	</_7E124FBC02CA2EF2CA9A4A9DA8486C3E>
+	<_8FB93DE7DAC1A8A16FDAF0EEC635C320 Name="SkeletonIKPoint" Size="28">
+		<_2 Name="Name" Offset="0" />
+		<_2 Name="Source marker" Offset="4" />
+		<_C Name="Attach to" Offset="8" StructName1="IKAttachmentTargetType">
+			<Flag n="parent" />
+			<Flag n="NYI any child" />
+			<Flag n="primary weapon" />
+			<Flag n="secondary weapon" />
+		</_C>
+		<_2 Name="Destination marker" Offset="C" />
+		<_19 Name="Pole marker" Offset="10" />
+		<_30 Name="IK chain to use" Offset="1C" GUID="8E17754524B930B1AF233E33D0A21B1B" StructName1="SkeletonIKPoint" Min="0" Max="8" />
+		<_2 Name="Weight source object function" Offset="20" />
+		<_2 Name="Priority source object function" Offset="24" />
+	</_8FB93DE7DAC1A8A16FDAF0EEC635C320>
+	<_919761B0B2E49276E017A5A1ED1A4B18 Name="SkeletonIKSet" Size="1C">
+		<_2 Name="Name" Offset="0" />
+		<_D Name="Flags" Offset="4" StructName1="IKSetFlags">
+			<Flag n="Disable Quadruped Footlocking" />
+			<Flag n="Enable Biped Handlocking" />
+		</_D>
+		<_40 Name="IK points" Offset="8" GUID="CAF298218A5E3EEDB6AB807901326333" StructName1="SkeletonIKSet" Min="0" Max="8" />
+	</_919761B0B2E49276E017A5A1ED1A4B18>
+	<_7B0F412D47DA1701A55316D983903CBE Name="ACLShellRadiusOverrideJoint" Size="8">
+		<_2 Name="Name" type="sted" Offset="0" />
+		<_14 Name="Shell Radius" Offset="4" />
+	</_7B0F412D47DA1701A55316D983903CBE>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_17E6C7BC1CD712E329874BE2A274E5BE Name="SkeletonJoint" Size="2C">
+		<_2 Name="name" Offset="0" />
+		<_2E Name="parent node" Offset="4" GUID="17E6C7BC1CD712E329874BE2A274E5BE" StructName1="SkeletonJoint" Min="0" Max="1024" />
+		<_2E Name="first child node" Offset="6" GUID="17E6C7BC1CD712E329874BE2A274E5BE" StructName1="SkeletonJoint" Min="0" Max="1024" />
+		<_2E Name="next sibling node" Offset="8" GUID="17E6C7BC1CD712E329874BE2A274E5BE" StructName1="SkeletonJoint" Min="0" Max="1024" />
+		<_34 Name="generated_pad95e7" Offset="A" Length="2" />
+		<_17 Name="default translation" Offset="C" />
+		<_1A Name="default rotation" Offset="18" />
+		<_D Name="importer_flags" Offset="28" StructName1="SkeletonJoint::JointDefinitionFlags">
+			<Flag n="world bone" />
+		</_D>
+	</_17E6C7BC1CD712E329874BE2A274E5BE>
+	<_85A713AF1CDB9D0C7D535F18B972F936 Name="SkeletonUserParameter" Size="8">
+		<_2 Name="name" Offset="0" />
+		<_14 Name="initial value" Offset="4" />
+	</_85A713AF1CDB9D0C7D535F18B972F936>
+	<_2FD15612678095118CDE46C617D4C285 Name="JointMaskName" Size="4">
+		<_2 Name="Joint name" type="sted" Offset="0" />
+	</_2FD15612678095118CDE46C617D4C285>
+	<_7D404CCE667DF83B002635D28D5B9835 Name="UserParamMaskName" Size="4">
+		<_2 Name="User parameter name" type="sted" Offset="0" />
+	</_7D404CCE667DF83B002635D28D5B9835>
+	<_E73216D7F7AD58ACCF5151B224C9E007 Name="SkeletonIKJoint" Size="8">
+		<_2 Name="joint" type="sted" Offset="0" />
+		<_E Name="flags" Offset="4" StructName1="AnimationIKJointFlags">
+			<Flag n="static" />
+			<Flag n="hinge" />
+		</_E>
+		<_34 Name="generated_pada927" Offset="6" Length="2" />
+	</_E73216D7F7AD58ACCF5151B224C9E007>
+	<_CAF298218A5E3EEDB6AB807901326333 Name="SkeletonIKSetItem" Size="4">
+		<_2E Name="IK point" Offset="0" GUID="8FB93DE7DAC1A8A16FDAF0EEC635C320" StructName1="SkeletonIKSetItem" Min="0" Max="64" />
+		<_A Name="Point usage toggle" Offset="2" StructName1="SkeletonIKSetItemEnabledEnum">
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_A>
+		<_34 Name="generated_pad4862" Offset="3" Length="1" />
+	</_CAF298218A5E3EEDB6AB807901326333>
+</root>

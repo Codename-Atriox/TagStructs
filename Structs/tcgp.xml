@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="terrain_collision_cgo_params" Parents="aTag" Index="-419">
+	<_1E8E44A78A4D05E2DBFF40A0B5737D7E Name="i343::Physics::TerrainCollisionGeoParams" Size="20">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_F Name="flags" Offset="10" StructName1="i343::Physics::CollisionGeometryOptimizerFlags">
+			<Flag n="enabled" />
+			<Flag n="protect naked boundaries" />
+			<Flag n="protect material boundaries" />
+		</_F>
+		<_34 Name="generated_pad7b4e" Offset="11" Length="3" />
+		<_14 Name="max distance" Offset="14" />
+		<_14 Name="max shrink" Offset="18" />
+		<_34 Name="generated_padc803" Offset="1C" Length="4" />
+	</_1E8E44A78A4D05E2DBFF40A0B5737D7E>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

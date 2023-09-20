@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="SubtitleGlobalsDefinition" Parents="aTag" Index="-193">
+	<_72294EB8FB0BDFCC601E5F9E86C097E5 Name="i343::SubtitleGlobals" Size="E0">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_26 Name="subtitle rect width" Offset="10" />
+		<_26 Name="subtitle rect height" Offset="18" />
+		<_6 Name="absolute minimum font size allowed for subtitles" Offset="20" />
+		<_6 Name="default subtitle size" Offset="24" />
+		<_6 Name="maximum font size allowed for subtitles at the minimum horizontal resolution" Offset="28" />
+		<_6 Name="absolute maximum font size allowed at max horizontal resolution (or anything bigger than it)" Offset="2C" />
+		<_14 Name="horizontal padding at minimum horizontal resolution" Offset="30" />
+		<_14 Name="horizontal padding at max horizontal resolution" Offset="34" />
+		<_14 Name="vertical padding at minimum horizontal resolution" Offset="38" />
+		<_14 Name="vertical padding at max horizontal resolution" Offset="3C" />
+		<_A Name="default subtitle vertical anchoring" Offset="40" StructName1="i343::SubtitleVerticalAnchoring">
+			<Flag n="Bottom" />
+			<Flag n="Center" />
+			<Flag n="Top" />
+			<Flag n="Unspecified" />
+		</_A>
+		<_34 Name="generated_padf9a9" Offset="41" Length="3" />
+		<_14 Name="minimum horizontal resolution for font and padding scaling purposes" Offset="44" />
+		<_14 Name="maximum horizontal resolution for font and paddingscaling purposes" Offset="48" />
+		<_6 Name="step size for the subtitle slider between font sizes" Offset="4C" />
+		<_1F Name="default subtitle color" Offset="50" />
+		<_1F Name="default subtitle shadow color" Offset="5C" />
+		<_20 Name="default subtitle background color" Offset="68" />
+		<_14 Name="minimum display time per word" Offset="78" />
+		<_14 Name="minimum display time per page of subtitles" Offset="7C" />
+		<_A Name="use uniform durations for autopaginated subtitles" Offset="80" StructName1="i343::SubtitleUseEqualAutoPaginationDurations">
+			<Flag n="Disabled" />
+			<Flag n="Enabled" />
+		</_A>
+		<_34 Name="generated_paddfc8" Offset="81" Length="3" />
+		<_14 Name="time to fade out completed subtitles" Offset="84" />
+		<_14 Name="duplicate subtitles requests are allowed only after this many seconds" Offset="88" />
+		<_14 Name="priority lock cooldown duration" Offset="8C" />
+		<_6 Name="minimum subtitle priority threshold" Offset="90" />
+		<_A Name="pending preservation mode" Offset="94" StructName1="i343::SubtitleQueuePreservationSettings">
+			<Flag n="Disabled" />
+			<Flag n="PreserveHighestOnly" />
+			<Flag n="PreserveAnyAboveThreshold" />
+			<Flag n="PreserveAll" />
+		</_A>
+		<_34 Name="generated_pad9313" Offset="95" Length="3" />
+		<_14 Name="percent of a subtitle duration required to pass before we allow it to be ejected" Offset="98" />
+		<_5 Name="max lines of text per page of subtitles" Offset="9C" />
+		<_34 Name="generated_pad138a" Offset="9E" Length="2" />
+		<_14 Name="subtitle threshold to reset character moniker in seconds" Offset="A0" />
+		<_41 Name="Unicode tag reference to subtitles character IDs list" Offset="A4" Allowed="uslg" Flags="0" />
+		<_1F Name="Default subtitle speaker color" Offset="C0" />
+		<_40 Name="Subtitle speaker colors" Offset="CC" GUID="818D4FB9EA751062DEE153019FF00201" StructName1="i343::SubtitleGlobals" Min="0" Max="128" />
+	</_72294EB8FB0BDFCC601E5F9E86C097E5>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_818D4FB9EA751062DEE153019FF00201 Name="i343::SubtitleSpeakerColors" Size="14">
+		<_2 Name="Character Id" Offset="0" />
+		<_A Name="Disposition" Offset="4" StructName1="i343::SubtitleSpeakerDisposition">
+			<Flag n="Neutral" />
+			<Flag n="Allied" />
+			<Flag n="Enemy" />
+		</_A>
+		<_F Name="Allow color override" Offset="5" StructName1="i343::SubtitleColorOverrideFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_34 Name="generated_padc00e" Offset="6" Length="2" />
+		<_1F Name="Color" Offset="8" />
+	</_818D4FB9EA751062DEE153019FF00201>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

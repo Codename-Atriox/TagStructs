@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:04 PM" Name="effect_global_force" Parents="aTag" Index="-124">
+	<_75B148BB0D721FE10CDCE8678B019D51 Name="EffectGlobalForceDefinitionTag" Size="38">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="force" Offset="10" GUID="769F4B02395EDDAE1D58C7E1BF35082B" />
+	</_75B148BB0D721FE10CDCE8678B019D51>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_769F4B02395EDDAE1D58C7E1BF35082B Name="EffectGlobalForceDefinition" Size="28">
+		<_F Name="flags" Offset="0" StructName1="EffectGlobalForceDefinition::Flags">
+			<Flag n="is infinitely long cylinder" />
+			<Flag n="multiply force by attached object speed" />
+			<Flag n="override force direction" />
+		</_F>
+		<_A Name="shape" Offset="1" StructName1="EffectGlobalForceDefinition::Shape">
+			<Flag n="sphere" />
+			<Flag n="cylinder" />
+			<Flag n="plane" />
+		</_A>
+		<_3C Name="version" Offset="2" />
+		<_34 Name="generated_pad5f24" Offset="3" Length="1" />
+		<_14 Name="normal force strength" Offset="4" />
+		<_14 Name="tangent force strength" Offset="8" />
+		<_14 Name="binormal force strength" Offset="C" />
+		<_14 Name="falloff begin" Offset="10" />
+		<_14 Name="falloff end" Offset="14" />
+		<_14 Name="max speed" Offset="18" />
+		<_19 Name="direction override" Offset="1C" />
+	</_769F4B02395EDDAE1D58C7E1BF35082B>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

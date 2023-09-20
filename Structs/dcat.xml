@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="decorator_asset" Parents="aTag" Index="-92">
+	<_C59744B1FE72584876504B06AFFF6741 Name="DecoratorAssetTag" Size="158">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="General" type="fgrb" Offset="10" />
+		<_41 Name="Asset" Offset="10" Allowed="aset" Flags="1" />
+		<_41 Name="Settings" Offset="2C" Allowed="dcst" Flags="0" />
+		<_37 Name="" type="fgre" Offset="48" />
+		<_37 Name="LOD Overrides" type="fgrb" Offset="48" />
+		<_38 Name="LOD Settings" Offset="48" GUID="437614BB4A3F17B221631BE7A24317BC" />
+		<_14 Name="First LOD Fade Factor" Offset="60" />
+		<_14 Name="Last LOD Fade Factor" Offset="64" />
+		<_C Name="Last LOD Designation" Offset="68" StructName1="LastLODDesignation">
+			<Flag n="Geometry" />
+			<Flag n="Billboard" />
+			<Flag n="Impostor" />
+		</_C>
+		<_37 Name="Spec Control - LOD Multiplier" type="fgrb" Offset="6C" />
+		<_25 Name="LOD Multiplier Low" Offset="6C" />
+		<_17 Name="LOD Multiplier Splitscreen Multiplier Low" Offset="74" />
+		<_25 Name="LOD Multiplier Medium" Offset="80" />
+		<_17 Name="LOD Multiplier Splitscreen Multiplier Medium" Offset="88" />
+		<_25 Name="LOD Multiplier High" Offset="94" />
+		<_17 Name="LOD Multiplier Splitscreen Multiplier High" Offset="9C" />
+		<_25 Name="LOD Multiplier Ultra" Offset="A8" />
+		<_17 Name="LOD Multiplier Splitscreen Multiplier Ultra" Offset="B0" />
+		<_38 Name="Distance Dither Start" Offset="BC" GUID="42A51C651EBA162A521651FA165ADBAC" />
+		<_14 Name="Distance Dither Transition Width" Offset="D8" />
+		<_14 Name="Distance Dither Density Multiplier Low" Offset="DC" />
+		<_17 Name="Distance Dither Density Multiplier Splitscreen Multiplier Low" Offset="E0" />
+		<_14 Name="Distance Dither Density Multiplier Medium" Offset="EC" />
+		<_17 Name="Distance Dither Density Multiplier Splitscreen Multiplier Medium" Offset="F0" />
+		<_14 Name="Distance Dither Density Multiplier High" Offset="FC" />
+		<_17 Name="Distance Dither Density Multiplier Splitscreen Multiplier High" Offset="100" />
+		<_14 Name="Distance Dither Density Multiplier Ultra" Offset="10C" />
+		<_17 Name="Distance Dither Density Multiplier Splitscreen Multiplier Ultra" Offset="110" />
+		<_37 Name="" type="fgre" Offset="11C" />
+		<_37 Name="" type="fgre" Offset="11C" />
+		<_37 Name="Terrain influence" type="fgrb" Offset="11C" />
+		<_14 Name="Terrain albedo distance" Offset="11C" />
+		<_14 Name="Terrain normal distance" Offset="120" />
+		<_37 Name="" type="fgre" Offset="124" />
+		<_40 Name="Variants" Offset="124" GUID="43AB14BD4ACB11B521B31B27A2BC15B3" StructName1="DecoratorAssetTag" Min="0" Max="64" />
+		<_41 Name="Reference to generated decorator" Offset="138" Allowed="dcrt" Flags="0" />
+		<_6 Name="LoadError" Offset="154" />
+	</_C59744B1FE72584876504B06AFFF6741>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_437614BB4A3F17B221631BE7A24317BC Name="LODParameters" Size="18">
+		<_40 Name="LOD Transitions" Offset="0" GUID="43AC14BB4ACA11B221C31B20A2AC15BC" StructName1="LODParameters" Min="0" Max="16" />
+		<_14 Name="Max Shadow Distance" Offset="14" />
+	</_437614BB4A3F17B221631BE7A24317BC>
+	<_42A51C651EBA162A521651FA165ADBAC Name="s_basic_spec_control_setting_float" Size="1C">
+		<_14 Name="Low" Offset="0" />
+		<_14 Name="Medium" Offset="4" />
+		<_14 Name="High" Offset="8" />
+		<_14 Name="Ultra" Offset="C" />
+		<_14 Name="2 Player Splitscreen" Offset="10" />
+		<_14 Name="3 Player Splitscreen" Offset="14" />
+		<_14 Name="4 Player Splitscreen" Offset="18" />
+	</_42A51C651EBA162A521651FA165ADBAC>
+	<_43AB14BD4ACB11B521B31B27A2BC15B3 Name="DecoratorVariant" Size="4C">
+		<_2 Name="Visual Region name" type="sted" Offset="0" />
+		<_2 Name="Geometry name" type="sted" Offset="4" />
+		<_2 Name="Preset name" type="sted" Offset="8" />
+		<_C Name="Alignment" Offset="C" StructName1="Alignments">
+			<Flag n="default" />
+			<Flag n="normal" />
+			<Flag n="up" />
+			<Flag n="down" />
+			<Flag n="left" />
+			<Flag n="right" />
+			<Flag n="forward" />
+			<Flag n="backward" />
+			<Flag n="random" />
+		</_C>
+		<_C Name="Random Rotate" Offset="10" StructName1="Tristate">
+			<Flag n="default" />
+			<Flag n="enabled" />
+			<Flag n="disabled" />
+		</_C>
+		<_37 Name="Color Tint Triangle" type="fgrb" Offset="14" />
+		<_1F Name="Tint Scale0" Offset="14" />
+		<_1F Name="Tint Scale1" Offset="20" />
+		<_1F Name="Tint Scale2" Offset="2C" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_40 Name="Parameter Overrides" Offset="38" GUID="43AC14BE4ACA11B521C31B28A2AC15B4" StructName1="DecoratorVariant" Min="0" Max="4096" />
+	</_43AB14BD4ACB11B521B31B27A2BC15B3>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_43AC14BB4ACA11B221C31B20A2AC15BC Name="LODTransition" Size="8">
+		<_14 Name="Transition start" Offset="0" />
+		<_14 Name="Transition end" Offset="4" />
+	</_43AC14BB4ACA11B221C31B20A2AC15BC>
+	<_43AC14BE4ACA11B521C31B28A2AC15B4 Name="ParameterOverride" Size="8">
+		<_C Name="Name" Offset="0" StructName1="OverrideNames">
+			<Flag n="Placement Weight" />
+			<Flag n="Separation Min" />
+			<Flag n="Scale Min" />
+			<Flag n="Scale Max" />
+			<Flag n="Tilt Min" />
+			<Flag n="Tilt Max" />
+			<Flag n="Stiffness Min" />
+			<Flag n="Stiffness Max" />
+			<Flag n="Ground Tint Min" />
+			<Flag n="Ground Tint Max" />
+			<Flag n="Hover Min" />
+			<Flag n="Hover Max" />
+			<Flag n="Roughness Min" />
+			<Flag n="Roughness Max" />
+			<Flag n="Slope Min" />
+			<Flag n="Slope Max" />
+			<Flag n="Rotation Min" />
+			<Flag n="Rotation Max" />
+		</_C>
+		<_14 Name="Value" Offset="4" />
+	</_43AC14BE4ACA11B521C31B28A2AC15B4>
+</root>

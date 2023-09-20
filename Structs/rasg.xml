@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="rasterizer_globals" Parents="aTag" Index="-331">
+	<_9D3048D51E0FE0EACAA91C4A9D86E7F7 Name="RasterizerGlobalsTag" Size="1B8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="default bitmaps" Offset="10" />
+		<_40 Name="default bitmaps" Offset="10" GUID="D39D47C87B0790D88A80F12885721089" StructName1="RasterizerGlobalsTag" Min="0" Max="32" />
+		<_40 Name="explicit shaders" Offset="24" GUID="0692479C9B879E503F65E5B19C30AA0D" StructName1="RasterizerGlobalsTag" Min="0" Max="1024" />
+		<_36 Name="global materials" Offset="38" />
+		<_40 Name="global materials" Offset="38" GUID="9E49458ED8FAF27AD7C1EE4B91E20F13" StructName1="RasterizerGlobalsTag" Min="0" Max="32" />
+		<_41 Name="default performance throttles" Offset="4C" Allowed="perf" Flags="0" />
+		<_41 Name="default scenario render data" Offset="68" Allowed="sred" Flags="0" />
+		<_41 Name="Cheap Particle Type Library" Offset="84" Allowed="cptl" Flags="0" />
+		<_40 Name="Display output transformations" Offset="A0" GUID="24C24948BB6082996CFA6AE7916C92BF" StructName1="RasterizerGlobalsTag" Min="0" Max="256" />
+		<_14 Name="HDR bloom intensity scale" Offset="B4" />
+		<_14 Name="Bloom max pixel intensity" Offset="B8" />
+		<_36 Name="Motion blur parameters" Offset="BC" />
+		<_14 Name="max blur" Offset="BC" />
+		<_14 Name="blur scale" Offset="C0" />
+		<_14 Name="center falloff x" Offset="C4" />
+		<_14 Name="center falloff y" Offset="C8" />
+		<_41 Name="Hologram Camera FX" Offset="CC" Allowed="cfxs" Flags="0" />
+		<_36 Name="lighting debug parameters" Offset="E8" />
+		<_41 Name="airprobe render model" Offset="E8" Allowed="mode" Flags="0" />
+		<_14 Name="debug lighting value" Offset="104" />
+		<_14 Name="albedo clip min" Offset="108" />
+		<_14 Name="albedo clip max" Offset="10C" />
+		<_41 Name="Post-process Graph" Offset="110" Allowed="rgrf" Flags="0" />
+		<_41 Name="Default Ripple Definition" Offset="12C" Allowed="rwrd" Flags="0" />
+		<_41 Name="Subsurface Scatter Profile tag" Offset="148" Allowed="sspg" Flags="0" />
+		<_41 Name="Empty Swatch Tag" Offset="164" Allowed="mwsw" Flags="0" />
+		<_41 Name="Hair Profile tag" Offset="180" Allowed="hair" Flags="0" />
+		<_41 Name="psoDictionaryReference" Offset="19C" Allowed="psod" Flags="1" />
+	</_9D3048D51E0FE0EACAA91C4A9D86E7F7>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_D39D47C87B0790D88A80F12885721089 Name="GlobalBitmaps" Size="1C">
+		<_41 Name="default bitmaps" Offset="0" Allowed="bitm" Flags="2" />
+	</_D39D47C87B0790D88A80F12885721089>
+	<_0692479C9B879E503F65E5B19C30AA0D Name="ExplicitShaderReference" Size="1C">
+		<_41 Name="explicit shader reference" Offset="0" Allowed="exsh" Flags="2" />
+	</_0692479C9B879E503F65E5B19C30AA0D>
+	<_9E49458ED8FAF27AD7C1EE4B91E20F13 Name="i343::Graphics::GlobalMaterial" Size="30">
+		<_2 Name="name" Offset="0" />
+		<_41 Name="material" Offset="4" Allowed="mat " Flags="0" />
+		<_34 Name="countPSOs" Offset="20" Length="4" />
+		<_34 Name="generated_pad8d40" Offset="24" Length="4" />
+		<_7 Name="ptr PSOs" Offset="28" />
+	</_9E49458ED8FAF27AD7C1EE4B91E20F13>
+	<_24C24948BB6082996CFA6AE7916C92BF Name="i343::Graphics::DisplayOutputTransform" Size="74">
+		<_2 Name="Display Output Preset Name" Offset="0" />
+		<_41 Name="Reference Rendering Transform" Offset="4" Allowed="bitm" Flags="0" />
+		<_41 Name="HDR to LDR LUT" Offset="20" Allowed="bitm" Flags="0" />
+		<_41 Name="HDR Output LUT" Offset="3C" Allowed="bitm" Flags="0" />
+		<_41 Name="HDR Output LUT 10K" Offset="58" Allowed="bitm" Flags="0" />
+	</_24C24948BB6082996CFA6AE7916C92BF>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

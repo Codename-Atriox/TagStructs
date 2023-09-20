@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="game_medal_globals" Parents="aTag" Index="-194">
+	<_6C6B435232C934ED76D54461B86FFA53 Name="s_game_medal_globals" Size="60">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="difficulty definitions" Offset="10" GUID="9E664F4FC1C2D85EDAB1CD0E9B76ABC1" StructName1="s_game_medal_globals" Min="0" Max="10" />
+		<_40 Name="type definitions" Offset="24" GUID="A7C14B8F4ADA70548A130C3A8F04BE20" StructName1="s_game_medal_globals" Min="0" Max="10" />
+		<_40 Name="medals" Offset="38" GUID="751346A0F9F8912F799A1799B670D5B7" StructName1="s_game_medal_globals" Min="0" Max="512" />
+		<_40 Name="personal score event definitions" Offset="4C" GUID="3DBA4A6DE31AB3781A66BF50B5B3FC93" StructName1="s_game_medal_globals" Min="0" Max="512" />
+	</_6C6B435232C934ED76D54461B86FFA53>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_9E664F4FC1C2D85EDAB1CD0E9B76ABC1 Name="GameMedalDifficultyDefinition" Size="C">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="description" Offset="4" />
+		<_5 Name="sprite index" Offset="8" />
+		<_34 Name="generated_pad3403" Offset="A" Length="2" />
+	</_9E664F4FC1C2D85EDAB1CD0E9B76ABC1>
+	<_A7C14B8F4ADA70548A130C3A8F04BE20 Name="GameMedalTypeDefinition" Size="C">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="description" Offset="4" />
+		<_6 Name="sprite index" Offset="8" />
+	</_A7C14B8F4ADA70548A130C3A8F04BE20>
+	<_751346A0F9F8912F799A1799B670D5B7 Name="s_game_medal_definition" Size="14">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="description" Offset="4" />
+		<_5 Name="sprite index" Offset="8" />
+		<_3C Name="sorting weight" Offset="A" />
+		<_3C Name="difficulty index" Offset="B" />
+		<_3C Name="type index" Offset="C" />
+		<_34 Name="generated_pad7cd0" Offset="D" Length="3" />
+		<_6 Name="personal score" Offset="10" />
+	</_751346A0F9F8912F799A1799B670D5B7>
+	<_3DBA4A6DE31AB3781A66BF50B5B3FC93 Name="PersonalScoreEventDefinition" Size="10">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="description" Offset="4" />
+		<_6 Name="default score value" Offset="8" />
+		<_3C Name="weight" Offset="C" />
+		<_A Name="event type" Offset="D" StructName1="PersonalScoreEventType">
+			<Flag n="general" />
+			<Flag n="mode" />
+		</_A>
+		<_F Name="suppress event spam" Offset="E" StructName1="EnableSuppressEventSpam">
+			<Flag n="enabled" />
+		</_F>
+		<_34 Name="generated_pad6307" Offset="F" Length="1" />
+	</_3DBA4A6DE31AB3781A66BF50B5B3FC93>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="customizationglobalsdefinition" Parents="aTag" Index="-289">
+	<_BD434F30545665A478D1DA2E92E8659A Name="i343::ObjectCustomization::Globals" Size="1A0">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="Armor properties" type="fgrb" Offset="10" />
+		<_40 Name="Themes" Offset="10" GUID="DEC644EADD56180A35285AD4A543CB5F" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="100" />
+		<_40 Name="Shared Armor Emblems" Offset="24" GUID="EBDE4002CABEF73BFE7D7B3FAF4F7A08" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="1" />
+		<_40 Name="Effect Overrides" Offset="38" GUID="C0BE4ADD95FDF5755486249BBE816919" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="4096" />
+		<_40 Name="Object Attachments" Offset="4C" GUID="7D7A4CE72ECFB7C692F4124D83576EF2" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="256" />
+		<_37 Name="" type="fgre" Offset="60" />
+		<_37 Name="Weapon properties" type="fgrb" Offset="60" />
+		<_40 Name="Weapon Themes" Offset="60" GUID="9B19422F874575A7DF5840729864167F" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="100" />
+		<_40 Name="Shared Weapon Emblems" Offset="74" GUID="EBDE4002CABEF73BFE7D7B3FAF4F7A08" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="1" />
+		<_40 Name="Player kill effects" Offset="88" GUID="8C554A3E93F23F20091B315AB8F02739" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="4096" />
+		<_40 Name="Shared Weapon Charms" Offset="9C" GUID="3F0B4EEACFB6771D292D3C629D7D6B43" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="4096" />
+		<_37 Name="" type="fgre" Offset="B0" />
+		<_37 Name="Vehicle properties" type="fgrb" Offset="B0" />
+		<_40 Name="Vehicle Themes" Offset="B0" GUID="695B4DEEF83A6FD22DE5D90AA8120F25" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="100" />
+		<_40 Name="Shared Vehicle Emblems" Offset="C4" GUID="EBDE4002CABEF73BFE7D7B3FAF4F7A08" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="1" />
+		<_40 Name="Shared Vehicle Charms" Offset="D8" GUID="3F0B4EEACFB6771D292D3C629D7D6B43" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="4096" />
+		<_37 Name="" type="fgre" Offset="EC" />
+		<_37 Name="Spartan properties" type="fgrb" Offset="EC" />
+		<_40 Name="Stances" Offset="EC" GUID="151F49FB86D2BF5F70FDA5DC8AF8297C" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="256" />
+		<_40 Name="Action poses" Offset="100" GUID="151F49FB86D2BF5F70FDA5DC8AF8297C" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="256" />
+		<_37 Name="" type="fgre" Offset="114" />
+		<_37 Name="Ai properties" type="fgrb" Offset="114" />
+		<_41 Name="Ai Object Reference" Offset="114" Allowed="aTag" Flags="4" />
+		<_41 Name="Ai Device Reference" Offset="130" Allowed="aTag" Flags="4" />
+		<_37 Name="" type="fgre" Offset="14C" />
+		<_37 Name="Other properties" type="fgrb" Offset="14C" />
+		<_40 Name="XpBoosts" Offset="14C" GUID="FF8749A947A0E29722E9FB0183819C95" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="16" />
+		<_40 Name="XpGrants" Offset="160" GUID="FF8749A947A0E29722E9FB0183819C95" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="16" />
+		<_40 Name="Rerolls" Offset="174" GUID="FF8749A947A0E29722E9FB0183819C95" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="16" />
+		<_40 Name="VirtualCurrency" Offset="188" GUID="FF8749A947A0E29722E9FB0183819C95" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="16" />
+		<_34 Name="generated_pad3f21" Offset="19C" Length="4" />
+	</_BD434F30545665A478D1DA2E92E8659A>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_DEC644EADD56180A35285AD4A543CB5F Name="i343::ObjectCustomization::Theme" Size="50">
+		<_2 Name="Asset Name" Offset="0" />
+		<_41 Name="Model" Offset="4" Allowed="mode" Flags="1" />
+		<_41 Name="Object Reference" Offset="20" Allowed="obje" Flags="4" />
+		<_40 Name="Theme Configurations" Offset="3C" GUID="486449606055B1509A34ADB5A1EFC3CB" StructName1="i343::ObjectCustomization::Theme" Min="0" Max="256" />
+	</_DEC644EADD56180A35285AD4A543CB5F>
+	<_EBDE4002CABEF73BFE7D7B3FAF4F7A08 Name="i343::ObjectCustomization::EmblemConfiguration" Size="3C">
+		<_40 Name="Theme Ids" Offset="0" GUID="BC814A093C466860D7399F7A8F796FAD" StructName1="i343::ObjectCustomization::EmblemConfiguration" Min="0" Max="1024" />
+		<_40 Name="Markers" Offset="14" GUID="F1E411E9B09FDEE6E2DBCCE4A7132A2A" StructName1="i343::ObjectCustomization::EmblemConfiguration" Min="0" Max="256" />
+		<_40 Name="BigEmblems" Offset="28" GUID="183841DF8A139DACC060C1CA9088A4B1" StructName1="i343::ObjectCustomization::EmblemConfiguration" Min="0" Max="100" />
+	</_EBDE4002CABEF73BFE7D7B3FAF4F7A08>
+	<_C0BE4ADD95FDF5755486249BBE816919 Name="i343::ObjectCustomization::ConfigurationThemeEffectOverride" Size="1C">
+		<_41 Name="Effect Override Definition" Offset="0" Allowed="oceo" Flags="4" />
+	</_C0BE4ADD95FDF5755486249BBE816919>
+	<_7D7A4CE72ECFB7C692F4124D83576EF2 Name="i343::ObjectCustomization::ObjectAttachmentCustomization" Size="1C">
+		<_41 Name="Attachments" Offset="0" Allowed="oatd" Flags="4" />
+	</_7D7A4CE72ECFB7C692F4124D83576EF2>
+	<_9B19422F874575A7DF5840729864167F Name="i343::ObjectCustomization::WeaponTheme" Size="50">
+		<_2 Name="Asset Name" Offset="0" />
+		<_41 Name="Model" Offset="4" Allowed="mode" Flags="1" />
+		<_41 Name="Object Reference" Offset="20" Allowed="obje" Flags="4" />
+		<_40 Name="Theme Configurations" Offset="3C" GUID="BDC74B583560A28274E02123B003F772" StructName1="i343::ObjectCustomization::WeaponTheme" Min="0" Max="256" />
+	</_9B19422F874575A7DF5840729864167F>
+	<_8C554A3E93F23F20091B315AB8F02739 Name="i343::ObjectCustomization::PlayerKillEffect" Size="38">
+		<_41 Name="Weapon definition" Offset="0" Allowed="weap" Flags="1" />
+		<_41 Name="Player kill effects" Offset="1C" Allowed="effe" Flags="4" />
+	</_8C554A3E93F23F20091B315AB8F02739>
+	<_3F0B4EEACFB6771D292D3C629D7D6B43 Name="i343::ObjectCustomization::Charm" Size="1C">
+		<_41 Name="Charm" Offset="0" Allowed="ocad" Flags="4" />
+	</_3F0B4EEACFB6771D292D3C629D7D6B43>
+	<_695B4DEEF83A6FD22DE5D90AA8120F25 Name="i343::ObjectCustomization::VehicleTheme" Size="50">
+		<_2 Name="Asset Name" Offset="0" />
+		<_41 Name="Model" Offset="4" Allowed="mode" Flags="1" />
+		<_41 Name="Object Reference" Offset="20" Allowed="obje" Flags="4" />
+		<_40 Name="Theme Configurations" Offset="3C" GUID="4E1541379CB9FFB51F34ACA0BB854DF0" StructName1="i343::ObjectCustomization::VehicleTheme" Min="0" Max="256" />
+	</_695B4DEEF83A6FD22DE5D90AA8120F25>
+	<_151F49FB86D2BF5F70FDA5DC8AF8297C Name="i343::ObjectCustomization::StanceAndPoseAnimations" Size="3C">
+		<_2 Name="Animation" Offset="0" />
+		<_41 Name="Weapon Reference" Offset="4" Allowed="obje" Flags="4" />
+		<_41 Name="Composition Reference" Offset="20" Allowed="comp" Flags="4" />
+	</_151F49FB86D2BF5F70FDA5DC8AF8297C>
+	<_FF8749A947A0E29722E9FB0183819C95 Name="i343::ObjectCustomization::ConsumableObjects" Size="1C">
+		<_41 Name="Object Reference" Offset="0" Allowed="obje" Flags="4" />
+	</_FF8749A947A0E29722E9FB0183819C95>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_486449606055B1509A34ADB5A1EFC3CB Name="i343::ObjectCustomization::ThemeConfigs" Size="38">
+		<_2 Name="Theme Name" Offset="0" />
+		<_2 Name="Theme Variant Name" Offset="4" />
+		<_41 Name="Theme Configs" Offset="8" Allowed="ocur" Flags="4" />
+		<_40 Name="Kit Configurations" Offset="24" GUID="8418431214724F060FFA5C66816D0B3E" StructName1="i343::ObjectCustomization::ThemeConfigs" Min="0" Max="256" />
+	</_486449606055B1509A34ADB5A1EFC3CB>
+	<_BC814A093C466860D7399F7A8F796FAD Name="Interface::EmblemElementName" Size="4">
+		<_2 Name="id" Offset="0" />
+	</_BC814A093C466860D7399F7A8F796FAD>
+	<_F1E411E9B09FDEE6E2DBCCE4A7132A2A Name="i343::ObjectCustomization::EmblemMarker" Size="4">
+		<_2 Name="Marker" type="sted" Offset="0" />
+	</_F1E411E9B09FDEE6E2DBCCE4A7132A2A>
+	<_183841DF8A139DACC060C1CA9088A4B1 Name="i343::ObjectCustomization::BigEmblemConfiguration" Size="8">
+		<_2 Name="Theme Id" Offset="0" />
+		<_2 Name="Marker" type="sted" Offset="4" />
+	</_183841DF8A139DACC060C1CA9088A4B1>
+	<_BDC74B583560A28274E02123B003F772 Name="i343::ObjectCustomization::WeaponThemeConfigs" Size="54">
+		<_2 Name="Theme Name" Offset="0" />
+		<_2 Name="Theme Variant Name" Offset="4" />
+		<_41 Name="Object Configuration" Offset="8" Allowed="aTag" Flags="4" />
+		<_41 Name="Theme Configs" Offset="24" Allowed="ocuw" Flags="4" />
+		<_40 Name="Kit Configurations" Offset="40" GUID="8418431214724F060FFA5C66816D0B3E" StructName1="i343::ObjectCustomization::WeaponThemeConfigs" Min="0" Max="256" />
+	</_BDC74B583560A28274E02123B003F772>
+	<_4E1541379CB9FFB51F34ACA0BB854DF0 Name="i343::ObjectCustomization::VehicleThemeConfigs" Size="54">
+		<_2 Name="Theme Name" Offset="0" />
+		<_2 Name="Theme Variant Name" Offset="4" />
+		<_41 Name="Object Configuration" Offset="8" Allowed="aTag" Flags="4" />
+		<_41 Name="Theme Configs" Offset="24" Allowed="ocuv" Flags="4" />
+		<_40 Name="Kit Configurations" Offset="40" GUID="8418431214724F060FFA5C66816D0B3E" StructName1="i343::ObjectCustomization::VehicleThemeConfigs" Min="0" Max="256" />
+	</_4E1541379CB9FFB51F34ACA0BB854DF0>
+	<_8418431214724F060FFA5C66816D0B3E Name="i343::ObjectCustomization::BaseThemeConfig" Size="8">
+		<_2 Name="Theme Name" Offset="0" />
+		<_2 Name="Theme Variant Name" Offset="4" />
+	</_8418431214724F060FFA5C66816D0B3E>
+</root>

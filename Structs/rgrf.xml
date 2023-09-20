@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:15 PM" Name="RenderGraph" Parents="aTag" Index="-334">
+	<_AAEE4463BDF708494E92857C8DD006A7 Name="i343::Graphics::RenderGraph::GraphDefinition" Size="88">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_2 Name="Name" Offset="10" />
+		<_D Name="Flags" Offset="14" StructName1="i343::Graphics::RenderGraph::GraphFlag">
+			<Flag n="Allow as sub graph" />
+		</_D>
+		<_40 Name="Nodes" Offset="18" GUID="32F948029F2DCED1D1882D32BF4A0A54" StructName1="i343::Graphics::RenderGraph::GraphDefinition" Min="0" Max="128" />
+		<_40 Name="Connections" Offset="2C" GUID="7B324D65A9B8FBC7ACC6BBBF8CBFEEFF" StructName1="i343::Graphics::RenderGraph::GraphDefinition" Min="0" Max="1024" />
+		<_40 Name="Inputs" Offset="40" GUID="924D425ED4BE1C00F61ABC4285718920" StructName1="i343::Graphics::RenderGraph::GraphDefinition" Min="0" Max="32" />
+		<_40 Name="Outputs" Offset="54" GUID="F6C4414741E7504841DCBFAE9D9F8A41" StructName1="i343::Graphics::RenderGraph::GraphDefinition" Min="0" Max="16" />
+		<_40 Name="Constants" Offset="68" GUID="A1F14573FA83C591D997DCF79EEA5EEF" StructName1="i343::Graphics::RenderGraph::GraphDefinition" Min="0" Max="64" />
+		<_34 Name="generated_pad0e69" Offset="7C" Length="4" />
+		<_7 Name="RenderGraph" Offset="80" />
+	</_AAEE4463BDF708494E92857C8DD006A7>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_32F948029F2DCED1D1882D32BF4A0A54 Name="i343::Graphics::RenderGraph::NodeDefinition" Size="30">
+		<_2 Name="Name" Offset="0" />
+		<_C Name="Type" Offset="4" StructName1="i343::Graphics::RenderGraph::NodeType">
+			<Flag n="ExecuteGraph" />
+			<Flag n="GetTemporaryBuffer" />
+			<Flag n="GetTemporarySurface" />
+			<Flag n="CopyBuffer" />
+			<Flag n="CopySurface" />
+			<Flag n="DiscardTemporaryMemory" />
+			<Flag n="SetDrawOutput" />
+			<Flag n="DrawFullscreenQuad" />
+			<Flag n="DrawTerrain" />
+			<Flag n="DispatchCompute" />
+			<Flag n="GetGlobalSurface" />
+			<Flag n="DrawDrawableList" />
+			<Flag n="GetSurfaceComputeParameters" />
+			<Flag n="GetSurfaceDimensions" />
+			<Flag n="ClearBuffer" />
+			<Flag n="ClearSurface" />
+			<Flag n="GetShaderResourceBindlessIndex" />
+			<Flag n="GetUnorderedAccessBindlessIndex" />
+			<Flag n="InsertUavBarrier" />
+			<Flag n="SetVariable" />
+			<Flag n="GetVariable" />
+			<Flag n="Branch" />
+			<Flag n="Sequence" />
+			<Flag n="EntryPoint" />
+		</_C>
+		<_40 Name="Parameters" Offset="8" GUID="3E85466591856061F2A997648C4777C3" StructName1="i343::Graphics::RenderGraph::NodeDefinition" Min="0" Max="64" />
+		<_40 Name="EditorMetadata" Offset="1C" GUID="582B41C356E2D1BC2436B28389704A64" StructName1="i343::Graphics::RenderGraph::NodeDefinition" Min="0" Max="1" />
+	</_32F948029F2DCED1D1882D32BF4A0A54>
+	<_7B324D65A9B8FBC7ACC6BBBF8CBFEEFF Name="i343::Graphics::RenderGraph::ConnectionDefinition" Size="2C">
+		<_37 Name="From..." type="fgrb" Offset="0" />
+		<_36 Name="Connection From Port" Offset="0" />
+		<_37 Name="From Graph Input" type="fgrb" Offset="0" />
+		<_30 Name="From Graph Input" Offset="0" GUID="924D425ED4BE1C00F61ABC4285718920" StructName1="i343::Graphics::RenderGraph::ConnectionDefinition" Min="0" Max="32" />
+		<_37 Name="" type="fgre" Offset="4" />
+		<_37 Name="From Graph Node" type="fgrb" Offset="4" />
+		<_30 Name="From Node" Offset="4" GUID="32F948029F2DCED1D1882D32BF4A0A54" StructName1="i343::Graphics::RenderGraph::ConnectionDefinition" Min="0" Max="128" />
+		<_2 Name="From Output Name" Offset="8" />
+		<_6 Name="From Output Index" Offset="C" />
+		<_2 Name="From Output Key" Offset="10" />
+		<_37 Name="" type="fgre" Offset="14" />
+		<_37 Name="From Graph Constant" type="fgrb" Offset="14" />
+		<_30 Name="From Graph Constant" Offset="14" GUID="A1F14573FA83C591D997DCF79EEA5EEF" StructName1="i343::Graphics::RenderGraph::ConnectionDefinition" Min="0" Max="64" />
+		<_37 Name="" type="fgre" Offset="18" />
+		<_37 Name="" type="fgre" Offset="18" />
+		<_37 Name="To..." type="fgrb" Offset="18" />
+		<_36 Name="Connection To Port" Offset="18" />
+		<_37 Name="To Graph Node" type="fgrb" Offset="18" />
+		<_30 Name="To Node" Offset="18" GUID="32F948029F2DCED1D1882D32BF4A0A54" StructName1="i343::Graphics::RenderGraph::ConnectionDefinition" Min="0" Max="128" />
+		<_2 Name="To Input Name" Offset="1C" />
+		<_6 Name="To Input Index" Offset="20" />
+		<_2 Name="To Input Key" Offset="24" />
+		<_37 Name="" type="fgre" Offset="28" />
+		<_37 Name="To Graph Output" type="fgrb" Offset="28" />
+		<_30 Name="To Graph Output" Offset="28" GUID="F6C4414741E7504841DCBFAE9D9F8A41" StructName1="i343::Graphics::RenderGraph::ConnectionDefinition" Min="0" Max="16" />
+		<_37 Name="" type="fgre" Offset="2C" />
+		<_37 Name="" type="fgre" Offset="2C" />
+	</_7B324D65A9B8FBC7ACC6BBBF8CBFEEFF>
+	<_924D425ED4BE1C00F61ABC4285718920 Name="i343::Graphics::RenderGraph::InputDefinition" Size="30">
+		<_2 Name="Name" Offset="0" />
+		<_C Name="Type" Offset="4" StructName1="i343::Graphics::RenderGraph::ParameterType">
+			<Flag n="None" />
+			<Flag n="Any" />
+			<Flag n="Boolean" />
+			<Flag n="Integer" />
+			<Flag n="Float" />
+			<Flag n="Float2" />
+			<Flag n="Float3" />
+			<Flag n="Float4" />
+			<Flag n="Material" />
+			<Flag n="MaterialPreset" />
+			<Flag n="RenderGraph" />
+			<Flag n="Buffer" />
+			<Flag n="Surface" />
+			<Flag n="DataBlob" />
+			<Flag n="Viewport" />
+			<Flag n="Rect" />
+			<Flag n="DrawParameters" />
+			<Flag n="DispatchParameters" />
+			<Flag n="SamplerStateView" />
+			<Flag n="TerrainChunk" />
+			<Flag n="DrawableList" />
+			<Flag n="TextureDataPath" />
+		</_C>
+		<_40 Name="UI Property" Offset="8" GUID="38624FFEEB59DFEA0633C803AC5466B4" StructName1="i343::Graphics::RenderGraph::InputDefinition" Min="0" Max="1" />
+		<_40 Name="EditorMetadata" Offset="1C" GUID="582B41C356E2D1BC2436B28389704A64" StructName1="i343::Graphics::RenderGraph::InputDefinition" Min="0" Max="1" />
+	</_924D425ED4BE1C00F61ABC4285718920>
+	<_F6C4414741E7504841DCBFAE9D9F8A41 Name="i343::Graphics::RenderGraph::OutputDefinition" Size="1C">
+		<_2 Name="Name" Offset="0" />
+		<_C Name="Type" Offset="4" StructName1="i343::Graphics::RenderGraph::ParameterType">
+			<Flag n="None" />
+			<Flag n="Any" />
+			<Flag n="Boolean" />
+			<Flag n="Integer" />
+			<Flag n="Float" />
+			<Flag n="Float2" />
+			<Flag n="Float3" />
+			<Flag n="Float4" />
+			<Flag n="Material" />
+			<Flag n="MaterialPreset" />
+			<Flag n="RenderGraph" />
+			<Flag n="Buffer" />
+			<Flag n="Surface" />
+			<Flag n="DataBlob" />
+			<Flag n="Viewport" />
+			<Flag n="Rect" />
+			<Flag n="DrawParameters" />
+			<Flag n="DispatchParameters" />
+			<Flag n="SamplerStateView" />
+			<Flag n="TerrainChunk" />
+			<Flag n="DrawableList" />
+			<Flag n="TextureDataPath" />
+		</_C>
+		<_40 Name="EditorMetadata" Offset="8" GUID="582B41C356E2D1BC2436B28389704A64" StructName1="i343::Graphics::RenderGraph::OutputDefinition" Min="0" Max="1" />
+	</_F6C4414741E7504841DCBFAE9D9F8A41>
+	<_A1F14573FA83C591D997DCF79EEA5EEF Name="i343::Graphics::RenderGraph::ConstantDefinition" Size="68">
+		<_38 Name="Parameter" Offset="0" GUID="99F149216967F6C06615190E816B1BE0" />
+		<_40 Name="EditorMetadata" Offset="54" GUID="582B41C356E2D1BC2436B28389704A64" StructName1="i343::Graphics::RenderGraph::ConstantDefinition" Min="0" Max="1" />
+	</_A1F14573FA83C591D997DCF79EEA5EEF>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_3E85466591856061F2A997648C4777C3 Name="i343::Graphics::RenderGraph::ParameterDefinitionB" Size="54">
+		<_38 Name="Parameter" Offset="0" GUID="99F149216967F6C06615190E816B1BE0" />
+	</_3E85466591856061F2A997648C4777C3>
+	<_582B41C356E2D1BC2436B28389704A64 Name="i343::Graphics::RenderGraph::EditorMetadataDefinition" Size="8">
+		<_18 Name="UI Position" Offset="0" />
+	</_582B41C356E2D1BC2436B28389704A64>
+	<_38624FFEEB59DFEA0633C803AC5466B4 Name="i343::Graphics::RenderGraph::UIPropertyDefinition" Size="1A8">
+		<_D Name="Flags" Offset="0" StructName1="i343::Graphics::RenderGraph::GraphUIPropertyFlag">
+			<Flag n="Hide from UI" />
+		</_D>
+		<_0 Name="Display Name" Offset="4" />
+		<_1 Name="Description" Offset="24" />
+		<_0 Name="Category" Offset="124" />
+		<_6 Name="Order" Offset="144" />
+		<_C Name="Type" Offset="148" StructName1="i343::Graphics::RenderGraph::ParameterType">
+			<Flag n="None" />
+			<Flag n="Any" />
+			<Flag n="Boolean" />
+			<Flag n="Integer" />
+			<Flag n="Float" />
+			<Flag n="Float2" />
+			<Flag n="Float3" />
+			<Flag n="Float4" />
+			<Flag n="Material" />
+			<Flag n="MaterialPreset" />
+			<Flag n="RenderGraph" />
+			<Flag n="Buffer" />
+			<Flag n="Surface" />
+			<Flag n="DataBlob" />
+			<Flag n="Viewport" />
+			<Flag n="Rect" />
+			<Flag n="DrawParameters" />
+			<Flag n="DispatchParameters" />
+			<Flag n="SamplerStateView" />
+			<Flag n="TerrainChunk" />
+			<Flag n="DrawableList" />
+			<Flag n="TextureDataPath" />
+		</_C>
+		<_0 Name="Range Min" Offset="14C" />
+		<_C Name="Range Min Setting" Offset="16C" StructName1="i343::Graphics::RenderGraph::GraphUIPropertyRangeSetting">
+			<Flag n="None" />
+			<Flag n="Absolute" />
+			<Flag n="Flexible" />
+		</_C>
+		<_0 Name="Range Max" Offset="170" />
+		<_C Name="Range Max Setting" Offset="190" StructName1="i343::Graphics::RenderGraph::GraphUIPropertyRangeSetting">
+			<Flag n="None" />
+			<Flag n="Absolute" />
+			<Flag n="Flexible" />
+		</_C>
+		<_40 Name="Enum Values" Offset="194" GUID="65074C2F5288EDBA05F3630B92761C5B" StructName1="i343::Graphics::RenderGraph::UIPropertyDefinition" Min="0" Max="32" />
+	</_38624FFEEB59DFEA0633C803AC5466B4>
+	<_99F149216967F6C06615190E816B1BE0 Name="i343::Graphics::RenderGraph::ParameterDefinition" Size="54">
+		<_2 Name="Name" Offset="0" />
+		<_C Name="Type" Offset="4" StructName1="i343::Graphics::RenderGraph::ParameterType">
+			<Flag n="None" />
+			<Flag n="Any" />
+			<Flag n="Boolean" />
+			<Flag n="Integer" />
+			<Flag n="Float" />
+			<Flag n="Float2" />
+			<Flag n="Float3" />
+			<Flag n="Float4" />
+			<Flag n="Material" />
+			<Flag n="MaterialPreset" />
+			<Flag n="RenderGraph" />
+			<Flag n="Buffer" />
+			<Flag n="Surface" />
+			<Flag n="DataBlob" />
+			<Flag n="Viewport" />
+			<Flag n="Rect" />
+			<Flag n="DrawParameters" />
+			<Flag n="DispatchParameters" />
+			<Flag n="SamplerStateView" />
+			<Flag n="TerrainChunk" />
+			<Flag n="DrawableList" />
+			<Flag n="TextureDataPath" />
+		</_C>
+		<_6 Name="Int" Offset="8" />
+		<_14 Name="Float" Offset="C" />
+		<_19 Name="Float3" Offset="10" />
+		<_41 Name="Tag" Offset="1C" Allowed="mat , matp, rgrf, bitm, tif*" Flags="0" />
+		<_42 Name="DataPath" Offset="38" StructName1="i343::Graphics::RenderGraph::ParameterDefinition.DataPath" Int1="34" Int2="0" Flags="104" />
+		<_2 Name="String" Offset="50" />
+	</_99F149216967F6C06615190E816B1BE0>
+	<_65074C2F5288EDBA05F3630B92761C5B Name="i343::Graphics::RenderGraph::UIEnumValueDefinition" Size="24">
+		<_0 Name="Display Name" Offset="0" />
+		<_6 Name="Value" Offset="20" />
+	</_65074C2F5288EDBA05F3630B92761C5B>
+</root>

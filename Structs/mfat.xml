@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="MeleeFrameAttachment" Parents="aTag" Index="-253">
+	<_98224B7F2BA666FE4B09BA3792FF26ED Name="i343::Melee::MeleeFrameAttachmentTag" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Damage Parameters" Offset="10" GUID="E895A76CB9EBA02E409CC1A5AB8BEA74" StructName1="i343::Melee::MeleeFrameAttachmentTag" Min="0" Max="2" />
+		<_2 Name="Animation Set" Offset="24" />
+	</_98224B7F2BA666FE4B09BA3792FF26ED>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_E895A76CB9EBA02E409CC1A5AB8BEA74 Name="s_melee_damage_parameters" Size="188">
+		<_36 Name="melee damage parameters" Offset="0" />
+		<_1B Name="damage pyramid angles" Offset="0" />
+		<_14 Name="damage pyramid depth" Offset="8" />
+		<_14 Name="damage pyramid depth when lunging" Offset="C" />
+		<_14 Name="maximum lunge range" Offset="10" />
+		<_14 Name="damage lunge explosive depth" Offset="14" />
+		<_14 Name="runtime damage lunge explosive fraction" Offset="18" />
+		<_41 Name="melee damage" Offset="1C" Allowed="jpt!" Flags="0" />
+		<_41 Name="melee response" Offset="38" Allowed="jpt!, drdf" Flags="0" />
+		<_41 Name="lunge melee damage" Offset="54" Allowed="jpt!" Flags="0" />
+		<_41 Name="lunge melee response" Offset="70" Allowed="jpt!, drdf" Flags="0" />
+		<_41 Name="empty melee damage" Offset="8C" Allowed="jpt!" Flags="0" />
+		<_41 Name="empty melee response" Offset="A8" Allowed="jpt!, drdf" Flags="0" />
+		<_41 Name="clang melee damage" Offset="C4" Allowed="jpt!" Flags="0" />
+		<_41 Name="clang melee response" Offset="E0" Allowed="jpt!, drdf" Flags="0" />
+		<_41 Name="clang melee against melee weapon damage" Offset="FC" Allowed="jpt!" Flags="0" />
+		<_41 Name="clang melee against melee weapon damage response" Offset="118" Allowed="jpt!, drdf" Flags="0" />
+		<_41 Name="lunge melee explosive damage" Offset="134" Allowed="effe" Flags="0" />
+		<_41 Name="melee attack effect" Offset="150" Allowed="effe" Flags="0" />
+		<_41 Name="biped melee hit effect" Offset="16C" Allowed="effe" Flags="0" />
+	</_E895A76CB9EBA02E409CC1A5AB8BEA74>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

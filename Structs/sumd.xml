@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="ShieldUpgradeMetadata" Parents="aTag" Index="-413">
+	<_D753457DD38F4BB452A66D4CA68243CE Name="i343::Objects::ShieldUpgradeMetadata" Size="18">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="SHIELD UPGRADE METADATA" Offset="10" />
+		<_6 Name="upgrade level" Offset="10" />
+		<_34 Name="generated_paddc67" Offset="14" Length="4" />
+	</_D753457DD38F4BB452A66D4CA68243CE>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

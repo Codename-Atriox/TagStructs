@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="CoatingSwatch" Parents="aTag" Index="-70">
+	<_F05C40B7AD696130CFFEC2559B813788 Name="CoatingSwatchPODTag" Size="D8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="Parent" type="parr" Offset="10" Allowed="cmsw" Flags="1" />
+		<_37 Name="Base" type="fgrb" Offset="2C" />
+		<_18 Name="colorAndRoughnessTextureTransform" Offset="2C" />
+		<_18 Name="normalTextureTransform" Offset="34" />
+		<_41 Name="colorGradientMap" Offset="3C" Allowed="bitm" Flags="0" />
+		<_1F Name="gradientTopColor" Offset="58" />
+		<_1F Name="gradientMidColor" Offset="64" />
+		<_1F Name="gradientBottomColor" Offset="70" />
+		<_14 Name="roughnessWhite" Offset="7C" />
+		<_14 Name="roughnessBlack" Offset="80" />
+		<_41 Name="normalDetailMap" Offset="84" Allowed="bitm" Flags="0" />
+		<_14 Name="metallic" Offset="A0" />
+		<_14 Name="ior" Offset="A4" />
+		<_14 Name="albedoTintSpec" Offset="A8" />
+		<_37 Name="" type="fgre" Offset="AC" />
+		<_37 Name="Scratches" type="fgrb" Offset="AC" />
+		<_1F Name="scratchColor" Offset="AC" />
+		<_14 Name="scratchBrightness" Offset="B8" />
+		<_14 Name="scratchRoughness" Offset="BC" />
+		<_14 Name="scratchMetallic" Offset="C0" />
+		<_14 Name="scratchIOR" Offset="C4" />
+		<_14 Name="scratchAlbedoTintSpec" Offset="C8" />
+		<_37 Name="" type="fgre" Offset="CC" />
+		<_37 Name="Subsurface" type="fgrb" Offset="CC" />
+		<_14 Name="sssIntensity" Offset="CC" />
+		<_37 Name="" type="fgre" Offset="D0" />
+		<_37 Name="Emissive" type="fgrb" Offset="D0" />
+		<_14 Name="emissiveIntensity" Offset="D0" />
+		<_14 Name="emissiveAmount" Offset="D4" />
+		<_37 Name="" type="fgre" Offset="D8" />
+	</_F05C40B7AD696130CFFEC2559B813788>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

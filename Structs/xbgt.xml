@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:22 PM" Name="XAnimBlendGraphNG" Parents="aTag" Index="-483">
+	<_54164230F62D6D816E248B42A46D1EC7 Name="ExportedBlendGraphTag" Size="70">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="Source Graph" Offset="10" Allowed="ngfc" Flags="1" />
+		<_C Name="Blend Type" Offset="2C" StructName1="AnimBlendNodeType">
+			<Flag n="Blend1d" />
+			<Flag n="Blend2d" />
+			<Flag n="RadialBlend" />
+			<Flag n="AimScreen" />
+			<Flag n="RadialLocomotion" />
+		</_C>
+		<_40 Name="Animation Tokens" Offset="30" GUID="2B0F47834232ECCCEDD4D4E8BD902634" StructName1="ExportedBlendGraphTag" Min="0" Max="2048" />
+		<_40 Name="Subgraph Nodes" Offset="44" GUID="8DFB458AAF74DF08BFE2B7099DB6D966" StructName1="ExportedBlendGraphTag" Min="0" Max="2048" />
+		<_14 Name="Alpha Min" Offset="58" />
+		<_14 Name="Alpha Max" Offset="5C" />
+		<_14 Name="Beta Min" Offset="60" />
+		<_14 Name="Beta Max" Offset="64" />
+		<_6 Name="Partition Count" Offset="68" />
+		<_34 Name="generated_pad9fc6" Offset="6C" Length="4" />
+	</_54164230F62D6D816E248B42A46D1EC7>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_2B0F47834232ECCCEDD4D4E8BD902634 Name="BlendAnimationTokenNode" Size="1C">
+		<_2 Name="Animation Name" Offset="0" />
+		<_C Name="Mode" Offset="4" StructName1="AnimationMode">
+			<Flag n="Frame" />
+			<Flag n="Seconds" />
+			<Flag n="Frame Ratio" />
+		</_C>
+		<_2 Name="Group Name" Offset="8" />
+		<_14 Name="Playback Rate" Offset="C" />
+		<_E Name="Animation Token Flags" Offset="10" StructName1="BlendAnimTokenFlags">
+			<Flag n="Looping" />
+			<Flag n="Play Loops From Start" />
+			<Flag n="Auto Detect Speed" />
+			<Flag n="Auto Detect Angle" />
+			<Flag n="Root Motion" />
+		</_E>
+		<_34 Name="generated_pad8928" Offset="12" Length="2" />
+		<_14 Name="Alpha" Offset="14" />
+		<_14 Name="Beta" Offset="18" />
+	</_2B0F47834232ECCCEDD4D4E8BD902634>
+	<_8DFB458AAF74DF08BFE2B7099DB6D966 Name="BlendSubgraphNode" Size="28">
+		<_2 Name="Coordinate Source Token" Offset="0" />
+		<_14 Name="Alpha" Offset="4" />
+		<_14 Name="Beta" Offset="8" />
+		<_38 Name="Subgraph Reference" Offset="C" GUID="97634F3D6C666E05AD23FE6BBC70A7CD" />
+	</_8DFB458AAF74DF08BFE2B7099DB6D966>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_97634F3D6C666E05AD23FE6BBC70A7CD Name="SubgraphReferenceExportedAnimNodeGraph" Size="1C">
+		<_41 Name="Anim Subgraph" Offset="0" Allowed="angt" Flags="0" />
+	</_97634F3D6C666E05AD23FE6BBC70A7CD>
+</root>

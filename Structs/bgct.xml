@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="BlackboardNodeGraph" Parents="ngfc,aTag" Index="-34">
+	<_CBD74755616342B789698E67945C04FC Name="NodeGraph::Content::BlackboardContentTag" Size="58">
+		<_38 Name="NodeGraph" Offset="0" GUID="83E93AB87081C57D53DF1FC7C058FB9E" />
+	</_CBD74755616342B789698E67945C04FC>
+	<_83E93AB87081C57D53DF1FC7C058FB9E Name="NodeGraph::Content::NodeGraphContentTag" Size="58">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_42 Name="graphContent" Offset="10" StructName1="NodeGraph::Content::NodeGraphContentTag.graphContent" Int1="2" Int2="0" Flags="3200000" />
+		<_40 Name="Graph References" Offset="28" GUID="0E8F41F56570683E0B137A8BABA42DEF" StructName1="NodeGraph::Content::NodeGraphContentTag" Min="0" Max="1024" />
+		<_40 Name="Tag References" Offset="3C" GUID="5B624691380006F0EBFB33B885313649" StructName1="NodeGraph::Content::NodeGraphContentTag" Min="0" Max="1024" />
+		<_C Name="Graph Export Status" Offset="50" StructName1="NodeGraphExportStatus">
+			<Flag n="OutOfDate" />
+			<Flag n="Failed" />
+			<Flag n="Succeeded" />
+		</_C>
+		<_34 Name="generated_padefa8" Offset="54" Length="4" />
+	</_83E93AB87081C57D53DF1FC7C058FB9E>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_0E8F41F56570683E0B137A8BABA42DEF Name="NodeGraph::Content::GraphReference" Size="1C">
+		<_41 Name="Graph Reference" Offset="0" Allowed="ngfc" Flags="0" />
+	</_0E8F41F56570683E0B137A8BABA42DEF>
+	<_5B624691380006F0EBFB33B885313649 Name="NodeGraph::Content::TagReferenceInGraph" Size="1C">
+		<_41 Name="Tag Reference" Offset="0" Allowed="aTag" Flags="0" />
+	</_5B624691380006F0EBFB33B885313649>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="DarkRoomAssembly" Parents="aTag" Index="-101">
+	<_F0FB4BC65BACEE3DD3D4B205AE0716B7 Name="i343::DarkRoom::DarkRoomAssemblyDefinition" Size="88">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Lighting Specs" Offset="10" GUID="C94B490EB5B082A3D6FF36ED87214B58" StructName1="i343::DarkRoom::DarkRoomAssemblyDefinition" Min="0" Max="32" />
+		<_40 Name="Asset Specs" Offset="24" GUID="733048EFE1E63C7AB6488DA48FE017CD" StructName1="i343::DarkRoom::DarkRoomAssemblyDefinition" Min="0" Max="4096" />
+		<_40 Name="Camera Specs" Offset="38" GUID="73D94D7CA2DA92E4D6E7F1A2B2003614" StructName1="i343::DarkRoom::DarkRoomAssemblyDefinition" Min="0" Max="128" />
+		<_40 Name="Render Specs" Offset="4C" GUID="C62A4605E2327CEB37F6EE78AFAF8AD0" StructName1="i343::DarkRoom::DarkRoomAssemblyDefinition" Min="0" Max="128" />
+		<_40 Name="Screenshot Specs" Offset="60" GUID="B03E493A383116F0B5143AB7AC898D6F" StructName1="i343::DarkRoom::DarkRoomAssemblyDefinition" Min="0" Max="128" />
+		<_40 Name="Animation Specs" Offset="74" GUID="72574394D51EB155ADCB4E44BEFF48E5" StructName1="i343::DarkRoom::DarkRoomAssemblyDefinition" Min="0" Max="32" />
+	</_F0FB4BC65BACEE3DD3D4B205AE0716B7>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_C94B490EB5B082A3D6FF36ED87214B58 Name="i343::DarkRoom::DarkRoomLightingSpecReferenceDefinition" Size="1C">
+		<_41 Name="Lighting Specs" Offset="0" Allowed="dkls" Flags="0" />
+	</_C94B490EB5B082A3D6FF36ED87214B58>
+	<_733048EFE1E63C7AB6488DA48FE017CD Name="i343::DarkRoom::DarkRoomAssetSpecReferenceDefinition" Size="1C">
+		<_41 Name="Asset Spec" Offset="0" Allowed="dkas" Flags="0" />
+	</_733048EFE1E63C7AB6488DA48FE017CD>
+	<_73D94D7CA2DA92E4D6E7F1A2B2003614 Name="i343::DarkRoom::DarkRoomCameraSpecReferenceDefinition" Size="1C">
+		<_41 Name="Camera Spec" Offset="0" Allowed="dkcs" Flags="0" />
+	</_73D94D7CA2DA92E4D6E7F1A2B2003614>
+	<_C62A4605E2327CEB37F6EE78AFAF8AD0 Name="i343::DarkRoom::DarkRoomRenderSpecReferenceDefinition" Size="1C">
+		<_41 Name="Render Spec" Offset="0" Allowed="dkrs" Flags="0" />
+	</_C62A4605E2327CEB37F6EE78AFAF8AD0>
+	<_B03E493A383116F0B5143AB7AC898D6F Name="i343::DarkRoom::DarkRoomScreenshotSpecReferenceDefinition" Size="1C">
+		<_41 Name="Screenshot Spec" Offset="0" Allowed="dkss" Flags="0" />
+	</_B03E493A383116F0B5143AB7AC898D6F>
+	<_72574394D51EB155ADCB4E44BEFF48E5 Name="i343::DarkRoom::DarkRoomAnimationSpecReferenceDefinition" Size="1C">
+		<_41 Name="Animation Specs" Offset="0" Allowed="dkms" Flags="0" />
+	</_72574394D51EB155ADCB4E44BEFF48E5>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

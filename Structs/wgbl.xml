@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:22 PM" Name="weapon_globals" Parents="aTag" Index="-478">
+	<_FAD5481BBD4BC6CF9256504186FCC224 Name="i343::Weapon::WeaponGlobalsDefinition" Size="100">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_24 Name="gunkick yaw mapping bounds" Offset="10" />
+		<_38 Name="gunkick yaw to roll" Offset="18" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_24 Name="viewkick yaw mapping bounds" Offset="30" />
+		<_38 Name="viewkick yaw to roll" Offset="38" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_14 Name="max player additive velocity for flag throw" Offset="50" />
+		<_14 Name="descope magnetism transition time" Offset="54" />
+		<_38 Name="descope magnetism transition" Offset="58" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_38 Name="flag throw forward additive velocity " Offset="70" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_38 Name="flag throw backward additive velocity " Offset="88" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_38 Name="flag throw pitch" Offset="A0" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_40 Name="ads reticle movement thresholds" Offset="B8" GUID="2BE44DF683614930D34CD39BAEAA8937" StructName1="i343::Weapon::WeaponGlobalsDefinition" Min="0" Max="8" />
+		<_F Name="suppression flags" Offset="CC" StructName1="i343::Weapon::ZoomSuppressionFlags">
+			<Flag n="supppression zeros aim assist cones" />
+		</_F>
+		<_34 Name="generated_pad7ec6" Offset="CD" Length="3" />
+		<_40 Name="First Person Weapon Offset Controls" Offset="D0" GUID="2BE44DF683614930E45DE50CAEAA8937" StructName1="i343::Weapon::WeaponGlobalsDefinition" Min="0" Max="5" />
+		<_39 Name="First Person Weapon Offset Controls Index Cache" Offset="E4" GUID="7AC443D92F65071E7D228F44B1109562" Count="5" StructName1="First Person Weapon Offset Controls Index Cache" />
+		<_14 Name="game options - weapon offset scaling factor" Offset="F8" />
+		<_34 Name="generated_padcb7b" Offset="FC" Length="4" />
+	</_FAD5481BBD4BC6CF9256504186FCC224>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+	<_2BE44DF683614930D34CD39BAEAA8937 Name="i343::Weapon::DebugAdsReticleMovmementThreshold" Size="30">
+		<_0 Name="ads reticle movement threshold name" Offset="0" />
+		<_8 Name="ads reticle movement threshold angle" Offset="20" />
+		<_1F Name="ads reticle movement threshold color" Offset="24" />
+	</_2BE44DF683614930D34CD39BAEAA8937>
+	<_2BE44DF683614930E45DE50CAEAA8937 Name="i343::Weapon::FirstPersonWeaponOffsetControl" Size="30">
+		<_B Name="First Person Weapon Group" Offset="0" StructName1="i343::Weapon::FirstPersonWeaponGroup">
+			<Flag n="Undefined" />
+			<Flag n="Melee" />
+			<Flag n="Pistols" />
+			<Flag n="Rifles" />
+			<Flag n="Heavy" />
+		</_B>
+		<_34 Name="generated_padfc06" Offset="2" Length="2" />
+		<_2 Name="Weapon Group Header String" Offset="4" />
+		<_25 Name="Depth Offset Bounds" Offset="8" />
+		<_25 Name="Horizontal Offset Bounds" Offset="10" />
+		<_25 Name="Vertical Offset Bounds" Offset="18" />
+		<_19 Name="Maximum Computed Offset Extents" Offset="20" />
+		<_F Name="Depth Axis Flags" Offset="2C" StructName1="i343::Weapon::WeaponOffsetAxisControlFlag">
+			<Flag n="Inverted Axis" />
+		</_F>
+		<_F Name="Horizontal Axis Flags" Offset="2D" StructName1="i343::Weapon::WeaponOffsetAxisControlFlag">
+			<Flag n="Inverted Axis" />
+		</_F>
+		<_F Name="Vertical Axis Flags" Offset="2E" StructName1="i343::Weapon::WeaponOffsetAxisControlFlag">
+			<Flag n="Inverted Axis" />
+		</_F>
+		<_34 Name="generated_pad48bb" Offset="2F" Length="1" />
+	</_2BE44DF683614930E45DE50CAEAA8937>
+	<_7AC443D92F65071E7D228F44B1109562 Name="i343::Weapon::FirstPersonWeaponOffsetControlIndex" Size="4">
+		<_6 Name="Index" Offset="0" />
+	</_7AC443D92F65071E7D228F44B1109562>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

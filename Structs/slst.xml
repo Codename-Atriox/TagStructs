@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="SilentSubtitleInstance" Parents="aTag" Index="-385">
+	<_F8CC4948D3F47F39A663B9659CF7B168 Name="i343::SilentSubtitle" Size="38">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_2 Name="Subtitle string id" Offset="10" />
+		<_2 Name="Subtitle Character Id" Offset="14" />
+		<_14 Name="Subtitle duration" Offset="18" />
+		<_41 Name="Unicode Subtitles Tag" Offset="1C" Allowed="uslg" Flags="0" />
+	</_F8CC4948D3F47F39A663B9659CF7B168>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

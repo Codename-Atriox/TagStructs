@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="NarrativeGlobals" Parents="aTag" Index="-269">
+	<_90FF467E36763B334247C615B6AE9A3F Name="i343::Narrative::NarrativeGlobalsTag" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="First to First Transitions" Offset="10" GUID="BBC24D7527F12C4586BA8DA2B75EAAE5" StructName1="i343::Narrative::NarrativeGlobalsTag" Min="0" Max="16" />
+		<_34 Name="generated_pad40b9" Offset="24" Length="4" />
+	</_90FF467E36763B334247C615B6AE9A3F>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_BBC24D7527F12C4586BA8DA2B75EAAE5 Name="i343::Narrative::NarrativeFirstToFirstTransitionPreset" Size="64">
+		<_2 Name="Name" Offset="0" />
+		<_14 Name="Camera Blend-In Time" Offset="4" />
+		<_A Name="Camera Blend In Curve" Offset="8" StructName1="i343::Curve::CurveBuiltIn">
+			<Flag n="None" />
+			<Flag n="Linear" />
+			<Flag n="Zero" />
+			<Flag n="One" />
+			<Flag n="EaseInQuad" />
+			<Flag n="EaseOutQuad" />
+			<Flag n="EaseInOutQuad" />
+			<Flag n="EaseInCubic" />
+			<Flag n="EaseOutCubic" />
+			<Flag n="EaseInOutCubic" />
+			<Flag n="EaseInQuart" />
+			<Flag n="EaseOutQuart" />
+			<Flag n="EaseInOutQuart" />
+			<Flag n="EaseInQuint" />
+			<Flag n="EaseOutQuint" />
+			<Flag n="EaseInOutQuint" />
+			<Flag n="EaseInSine" />
+			<Flag n="EaseOutSine" />
+			<Flag n="EaseInOutSine" />
+			<Flag n="EaseInExpo" />
+			<Flag n="EaseOutExpo" />
+			<Flag n="EaseInOutExpo" />
+			<Flag n="EaseInCirc" />
+			<Flag n="EaseOutCirc" />
+			<Flag n="EaseInOutCirc" />
+			<Flag n="EaseInOutLight" />
+			<Flag n="EaseInOutHeavy" />
+		</_A>
+		<_34 Name="generated_pada170" Offset="9" Length="3" />
+		<_14 Name="Camera Blend-Out Time" Offset="C" />
+		<_A Name="Camera Blend Out Curve" Offset="10" StructName1="i343::Curve::CurveBuiltIn">
+			<Flag n="None" />
+			<Flag n="Linear" />
+			<Flag n="Zero" />
+			<Flag n="One" />
+			<Flag n="EaseInQuad" />
+			<Flag n="EaseOutQuad" />
+			<Flag n="EaseInOutQuad" />
+			<Flag n="EaseInCubic" />
+			<Flag n="EaseOutCubic" />
+			<Flag n="EaseInOutCubic" />
+			<Flag n="EaseInQuart" />
+			<Flag n="EaseOutQuart" />
+			<Flag n="EaseInOutQuart" />
+			<Flag n="EaseInQuint" />
+			<Flag n="EaseOutQuint" />
+			<Flag n="EaseInOutQuint" />
+			<Flag n="EaseInSine" />
+			<Flag n="EaseOutSine" />
+			<Flag n="EaseInOutSine" />
+			<Flag n="EaseInExpo" />
+			<Flag n="EaseOutExpo" />
+			<Flag n="EaseInOutExpo" />
+			<Flag n="EaseInCirc" />
+			<Flag n="EaseOutCirc" />
+			<Flag n="EaseInOutCirc" />
+			<Flag n="EaseInOutLight" />
+			<Flag n="EaseInOutHeavy" />
+		</_A>
+		<_34 Name="generated_padbb51" Offset="11" Length="3" />
+		<_38 Name="Transition Data" Offset="14" GUID="D1724CC5459608C83A0C905F8B4EAB20" />
+	</_BBC24D7527F12C4586BA8DA2B75EAAE5>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_D1724CC5459608C83A0C905F8B4EAB20 Name="ComposerFirstToFirstTransition" Size="50">
+		<_2 Name="Preset" Offset="0" />
+		<_E Name="Override Flags" Offset="4" StructName1="ComposerCageTransitionOverrideFlags">
+			<Flag n="Override Flags" />
+			<Flag n="Override Close Enough Distances" />
+			<Flag n="Override Close Enough Angles" />
+			<Flag n="Override Linear Velocities" />
+			<Flag n="Override Angular Velocities" />
+			<Flag n="Override Lower and Raise Weapon Times" />
+			<Flag n="Override Hide Player Time" />
+			<Flag n="Override Move To Slide Curve and Move To Time" />
+			<Flag n="Override Delays" />
+			<Flag n="Override Blend Times and Curves" />
+		</_E>
+		<_F Name="Flags" Offset="6" StructName1="ComposerCageTransitionFlags">
+			<Flag n="No Transition In" />
+			<Flag n="No Transition Out" />
+			<Flag n="No HUD Off" />
+			<Flag n="No HUD On" />
+			<Flag n="Use Time Instead" />
+			<Flag n="Transition Out Trigger on Event" />
+			<Flag n="Don't Wait for HUD" />
+			<Flag n="Don't Hide FPS HUD Elements" />
+		</_F>
+		<_34 Name="generated_pad1960" Offset="7" Length="1" />
+		<_14 Name="Close Enough Distance Min" Offset="8" />
+		<_14 Name="Close Enough Distance Max" Offset="C" />
+		<_8 Name="Close Enough Angle Min" Offset="10" />
+		<_8 Name="Close Enough Angle Max" Offset="14" />
+		<_14 Name="Linear Velocity Min" Offset="18" />
+		<_14 Name="Linear Velocity Max" Offset="1C" />
+		<_8 Name="Angular Velocity Min" Offset="20" />
+		<_8 Name="Angular Velocity Max" Offset="24" />
+		<_14 Name="Lower Weapon Time" Offset="28" />
+		<_14 Name="Raise Weapon Time" Offset="2C" />
+		<_14 Name="Hide Player Time" Offset="30" />
+		<_A Name="Move To Slide Curve" Offset="34" StructName1="i343::Curve::CurveBuiltIn">
+			<Flag n="None" />
+			<Flag n="Linear" />
+			<Flag n="Zero" />
+			<Flag n="One" />
+			<Flag n="EaseInQuad" />
+			<Flag n="EaseOutQuad" />
+			<Flag n="EaseInOutQuad" />
+			<Flag n="EaseInCubic" />
+			<Flag n="EaseOutCubic" />
+			<Flag n="EaseInOutCubic" />
+			<Flag n="EaseInQuart" />
+			<Flag n="EaseOutQuart" />
+			<Flag n="EaseInOutQuart" />
+			<Flag n="EaseInQuint" />
+			<Flag n="EaseOutQuint" />
+			<Flag n="EaseInOutQuint" />
+			<Flag n="EaseInSine" />
+			<Flag n="EaseOutSine" />
+			<Flag n="EaseInOutSine" />
+			<Flag n="EaseInExpo" />
+			<Flag n="EaseOutExpo" />
+			<Flag n="EaseInOutExpo" />
+			<Flag n="EaseInCirc" />
+			<Flag n="EaseOutCirc" />
+			<Flag n="EaseInOutCirc" />
+			<Flag n="EaseInOutLight" />
+			<Flag n="EaseInOutHeavy" />
+		</_A>
+		<_34 Name="generated_pad3341" Offset="35" Length="3" />
+		<_14 Name="Move To Time" Offset="38" />
+		<_14 Name="Lower Weapon Delay Override" Offset="3C" />
+		<_14 Name="Raise Weapon Delay Override" Offset="40" />
+		<_14 Name="HUD Off Delay Override" Offset="44" />
+		<_14 Name="HUD On Delay Override" Offset="48" />
+		<_14 Name="Move To Delay Override" Offset="4C" />
+	</_D1724CC5459608C83A0C905F8B4EAB20>
+</root>

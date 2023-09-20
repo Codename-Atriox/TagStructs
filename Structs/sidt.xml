@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="simulated_input" Parents="aTag" Index="-377">
+	<_845845C792B9F13EEF28014D98EE12D2 Name="s_simulated_input_definition" Size="98">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="Simulated Input (SI)" Offset="10" />
+		<_36 Name="Impulse" Offset="10" />
+		<_36 Name="Scalers" Offset="10" />
+		<_36 Name="Screen Space angles" Offset="10" />
+		<_36 Name="Move" Offset="10" />
+		<_38 Name="move" Offset="10" GUID="0D744048259EAC93555158319B737CB9" />
+		<_36 Name="Look" Offset="54" />
+		<_38 Name="look" Offset="54" GUID="0D744048259EAC93555158319B737CB9" />
+	</_845845C792B9F13EEF28014D98EE12D2>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_0D744048259EAC93555158319B737CB9 Name="s_simulated_input_stick_definition" Size="44">
+		<_D Name="flags" Offset="0" StructName1="s_simulated_input_stick_definition::stickFlags">
+			<Flag n="ignore base scaler" />
+			<Flag n="ignore area control falloff" />
+			<Flag n="ignore elapsed time function scaler" />
+			<Flag n="ignore zoom scaler" />
+			<Flag n="ignore tick_delta_secs scaler" />
+		</_D>
+		<_B Name="response type" Offset="4" StructName1="e_simulated_input_direction">
+			<Flag n="aim vector" />
+			<Flag n="hit vector" />
+			<Flag n="inverse hit vector" />
+			<Flag n="attacker origin to victim origin" />
+			<Flag n="victim origin to attacker origin" />
+		</_B>
+		<_B Name="mapping type" Offset="6" StructName1="e_simulated_input_mapping_type">
+			<Flag n="top down" />
+			<Flag n="screen space" />
+		</_B>
+		<_25 Name="angle" Offset="8" />
+		<_37 Name="Mapping" type="fned" Offset="10" />
+		<_38 Name="Mapping" Offset="10" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_14 Name="duration" Offset="28" />
+		<_14 Name="inverse duration" Offset="2C" />
+		<_14 Name="inverse random length" Offset="30" />
+		<_25 Name="inverse random angle" Offset="34" />
+		<_14 Name="linear zoom penalty" Offset="3C" />
+		<_14 Name="square root zoom penalty" Offset="40" />
+	</_0D744048259EAC93555158319B737CB9>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

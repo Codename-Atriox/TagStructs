@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="cheap_light" Parents="aTag" Index="-183">
+	<_784D4BDFAEBDE19544951FC2956CCC15 Name="s_cheap_light_definition" Size="D8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="Cheap Lights" Offset="10" />
+		<_4 Name="version" Offset="10" />
+		<_F Name="flags" Offset="11" StructName1="CheapLightFlags">
+			<Flag n="use color override as tint" />
+		</_F>
+		<_36 Name="COLOR" Offset="12" />
+		<_A Name="color override mode" Offset="12" StructName1="i343::Effects::ColorOverrideMode">
+			<Flag n="None" />
+			<Flag n="Color Override 1" />
+			<Flag n="Color Override 2" />
+			<Flag n="Team Color" />
+			<Flag n="DWS Sun Color" />
+		</_A>
+		<_34 Name="generated_padb984" Offset="13" Length="1" />
+		<_38 Name="color" Offset="14" GUID="0405425183CEABD90BECB5E08AE1FD47" />
+		<_38 Name="intensity" Offset="3C" GUID="AD7A44A2E05174A3CD251BE9B39C2852" />
+		<_36 Name="SIZE" Offset="64" />
+		<_38 Name="Far Attenuation" Offset="64" GUID="AD7A44A2E05174A3CD251BE9B39C2852" />
+		<_14 Name="Falloff Begin Ratio" Offset="8C" />
+		<_14 Name="near fade distance" Offset="90" />
+		<_14 Name="Camera Distance Fade Start" Offset="94" />
+		<_14 Name="Camera Distance Fade End" Offset="98" />
+		<_14 Name="diffuse scalar" Offset="9C" />
+		<_14 Name="specular scalar" Offset="A0" />
+		<_14 Name="Fog Intensity" Offset="A4" />
+		<_14 Name="Particle Intensity" Offset="A8" />
+		<_14 Name="Mininum Roughness" Offset="AC" />
+		<_14 Name="Intensity Balancing" Offset="B0" />
+		<_14 Name="Area Light Radius" Offset="B4" />
+		<_41 Name="Light Group" Offset="B8" Allowed="ligr" Flags="0" />
+		<_34 Name="generated_padd365" Offset="D4" Length="4" />
+	</_784D4BDFAEBDE19544951FC2956CCC15>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_0405425183CEABD90BECB5E08AE1FD47 Name="i343::Effects::ColorCheapLightFunction" Size="28">
+		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="i343::Effects::CheapLightInputs">
+			<Flag n="Time/Age" />
+			<Flag n="Effect Scale A" />
+			<Flag n="Effect Scale B" />
+		</_A>
+		<_34 Name="generated_pad09bd" Offset="1" Length="3" />
+		<_2 Name="Range Variable" type="fnir" Offset="4" />
+		<_B Name="Output Modifier" type="fnop" Offset="8" StructName1="LightOutputModifier">
+			<Flag n=" " />
+			<Flag n="Plus" />
+			<Flag n="Times" />
+		</_B>
+		<_34 Name="generated_padefdc" Offset="A" Length="2" />
+		<_2 Name="Output Modifier Input" type="fnom" Offset="C" />
+		<_37 Name="Mapping" type="fned" Offset="10" />
+		<_38 Name="Mapping" Offset="10" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0405425183CEABD90BECB5E08AE1FD47>
+	<_AD7A44A2E05174A3CD251BE9B39C2852 Name="i343::Effects::ScalarCheapLightFunction" Size="28">
+		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="i343::Effects::CheapLightInputs">
+			<Flag n="Time/Age" />
+			<Flag n="Effect Scale A" />
+			<Flag n="Effect Scale B" />
+		</_A>
+		<_34 Name="generated_pad2660" Offset="1" Length="3" />
+		<_2 Name="Range Variable" type="fnir" Offset="4" />
+		<_B Name="Output Modifier" type="fnop" Offset="8" StructName1="LightOutputModifier">
+			<Flag n=" " />
+			<Flag n="Plus" />
+			<Flag n="Times" />
+		</_B>
+		<_34 Name="generated_pad4041" Offset="A" Length="2" />
+		<_2 Name="Output Modifier Input" type="fnom" Offset="C" />
+		<_37 Name="Mapping" type="fned" Offset="10" />
+		<_38 Name="Mapping" Offset="10" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_AD7A44A2E05174A3CD251BE9B39C2852>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

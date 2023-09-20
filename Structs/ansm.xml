@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="XAnimStateGraph" Parents="aTag" Index="-22">
+	<_9D04479D7340606B6EB76B348C492820 Name="AnimStateGraph" Size="B0">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="Source Graph" Offset="10" Allowed="asct" Flags="1" />
+		<_40 Name="Anim Node Subgraphs" Offset="2C" GUID="97634F3D6C666E05AD23FE6BBC70A7CD" StructName1="AnimStateGraph" Min="0" Max="2048" />
+		<_40 Name="Transition Logic Subgraphs" Offset="40" GUID="FFD54AFAD8961A486692E1B59BD9963D" StructName1="AnimStateGraph" Min="0" Max="2048" />
+		<_40 Name="States" Offset="54" GUID="4794462BDE7382E5EC4B108689C983EA" StructName1="AnimStateGraph" Min="0" Max="512" />
+		<_40 Name="Connections" Offset="68" GUID="B08A40E6C37743CA412BC49C9B5D0C82" StructName1="AnimStateGraph" Min="0" Max="2048" />
+		<_40 Name="Start Transitions" Offset="7C" GUID="B08A40E6C37743CA412BC49D9B5D0C82" StructName1="AnimStateGraph" Min="0" Max="2048" />
+		<_41 Name="Transition Blend" Offset="90" Allowed="angt" Flags="1" />
+		<_34 Name="generated_pad2a58" Offset="AC" Length="4" />
+	</_9D04479D7340606B6EB76B348C492820>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_97634F3D6C666E05AD23FE6BBC70A7CD Name="SubgraphReferenceExportedAnimNodeGraph" Size="1C">
+		<_41 Name="Anim Subgraph" Offset="0" Allowed="angt" Flags="0" />
+	</_97634F3D6C666E05AD23FE6BBC70A7CD>
+	<_FFD54AFAD8961A486692E1B59BD9963D Name="SubgraphReferenceTransitionLogicGraph" Size="1C">
+		<_41 Name="Transition Logic Subgraph" Offset="0" Allowed="tlgt" Flags="0" />
+	</_FFD54AFAD8961A486692E1B59BD9963D>
+	<_4794462BDE7382E5EC4B108689C983EA Name="AnimStateNode" Size="24">
+		<_2 Name="Name" Offset="0" />
+		<_41 Name="Animation Sub-Graph" Offset="4" Allowed="angt" Flags="1" />
+		<_E Name="State Flags" Offset="20" StructName1="AnimStateFlags">
+			<Flag n="Is Default Fallback State" />
+			<Flag n="Opt Out Of Procedural Footsteps" />
+		</_E>
+		<_34 Name="generated_padde0e" Offset="22" Length="2" />
+	</_4794462BDE7382E5EC4B108689C983EA>
+	<_B08A40E6C37743CA412BC49C9B5D0C82 Name="AnimStateConnection" Size="48">
+		<_2E Name="Start State" Offset="0" GUID="4794462BDE7382E5EC4B108689C983EA" StructName1="AnimStateConnection" Min="0" Max="512" />
+		<_2E Name="End State" Offset="2" GUID="4794462BDE7382E5EC4B108689C983EA" StructName1="AnimStateConnection" Min="0" Max="512" />
+		<_41 Name="Condition Graph" Offset="4" Allowed="tlgt" Flags="0" />
+		<_41 Name="Transition Blend" Offset="20" Allowed="angt" Flags="1" />
+		<_6 Name="Priority" Offset="3C" />
+		<_14 Name="Duration" Offset="40" />
+		<_E Name="Inertialize" Offset="44" StructName1="AnimStateConnectionFlags">
+			<Flag n="Inertialize" />
+			<Flag n="Disable Inertialization Velocity" />
+		</_E>
+		<_E Name="Process Events From Both States" Offset="46" StructName1="AnimStateEventsFlags">
+			<Flag n="Apply All Events" />
+		</_E>
+	</_B08A40E6C37743CA412BC49C9B5D0C82>
+	<_B08A40E6C37743CA412BC49D9B5D0C82 Name="AnimDefaultStateConnection" Size="20">
+		<_2E Name="State" Offset="0" GUID="4794462BDE7382E5EC4B108689C983EA" StructName1="AnimDefaultStateConnection" Min="0" Max="512" />
+		<_34 Name="generated_paddb5f" Offset="2" Length="2" />
+		<_41 Name="Condition Graph" Offset="4" Allowed="tlgt" Flags="0" />
+	</_B08A40E6C37743CA412BC49D9B5D0C82>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

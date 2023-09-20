@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:20 PM" Name="VehicleAttachment" Parents="aTag" Index="-460">
+	<_73D24CF159D081ADEDD4FD7F93959994 Name="i343::Vehicle::VehicleAttachment" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="properties" Offset="10" GUID="50744BB899C9F0709B980C02AD3936B2" />
+		<_36 Name="Attachment Name" Offset="24" />
+		<_38 Name="attachmentName" Offset="24" GUID="60FC40907166D96B7D15F0919CBF2E1C" />
+	</_73D24CF159D081ADEDD4FD7F93959994>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_50744BB899C9F0709B980C02AD3936B2 Name="i343::Vehicle::VehicleModifiers" Size="14">
+		<_37 Name="Vehicle Attachment" type="fgrb" Offset="0" />
+		<_40 Name="maximum vitality" Offset="0" GUID="22B7492A72FAD036FE0A20E9809A7A13" StructName1="i343::Vehicle::VehicleModifiers" Min="0" Max="1" />
+		<_37 Name="" type="fgre" Offset="14" />
+	</_50744BB899C9F0709B980C02AD3936B2>
+	<_60FC40907166D96B7D15F0919CBF2E1C Name="i343::Damage::AttachmentNameDefinition" Size="4">
+		<_2 Name="Attachment Name" Offset="0" />
+	</_60FC40907166D96B7D15F0919CBF2E1C>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_22B7492A72FAD036FE0A20E9809A7A13 Name="i343::Vehicle::VehicleVitalityPropertyModifiersDefinition" Size="4">
+		<_14 Name="health scalar" Offset="0" />
+	</_22B7492A72FAD036FE0A20E9809A7A13>
+</root>

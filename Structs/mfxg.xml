@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="materialeffectsglobals" Parents="aTag" Index="-254">
+	<_E56A44C73E8E184DBCB67A81AD77E447 Name="i343::MaterialEffects::GlobalsDefinition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Default max distances" Offset="10" GUID="1D2A48F37E59C582EB66CC28A1D609A1" StructName1="i343::MaterialEffects::GlobalsDefinition" Min="0" Max="34" />
+		<_34 Name="generated_pada5a3" Offset="24" Length="4" />
+	</_E56A44C73E8E184DBCB67A81AD77E447>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_1D2A48F37E59C582EB66CC28A1D609A1 Name="i343::MaterialEffects::DefaultDistances" Size="8">
+		<_14 Name="visual effect distance" Offset="0" />
+		<_14 Name="sound effect distance" Offset="4" />
+	</_1D2A48F37E59C582EB66CC28A1D609A1>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

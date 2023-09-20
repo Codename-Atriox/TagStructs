@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="sssProfile" Parents="aTag" Index="-404">
+	<_C3B640103DBB547D779D5721AC739C29 Name="i343::Graphics::SssProfileGlobals" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Scattering Profiles" Offset="10" GUID="74A74F73250454EEFC80A26BA7718247" StructName1="i343::Graphics::SssProfileGlobals" Min="0" Max="64" />
+		<_34 Name="generated_pad7610" Offset="24" Length="4" />
+	</_C3B640103DBB547D779D5721AC739C29>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_74A74F73250454EEFC80A26BA7718247 Name="i343::Graphics::SssProfile" Size="6C">
+		<_2 Name="Name" Offset="0" />
+		<_36 Name="Subsurface Layer" Offset="4" />
+		<_1F Name="Subsurface Layer Weight" Offset="4" />
+		<_14 Name="Subsurface Layer Scale" Offset="10" />
+		<_36 Name="Shallow Layer" Offset="14" />
+		<_1F Name="Shallow Layer Weight" Offset="14" />
+		<_14 Name="Shallow Layer Scale" Offset="20" />
+		<_36 Name="Middle Layer" Offset="24" />
+		<_1F Name="Middle Layer Weight" Offset="24" />
+		<_14 Name="Middle Layer Scale" Offset="30" />
+		<_36 Name="Deep Layer" Offset="34" />
+		<_1F Name="Deep Layer Weight" Offset="34" />
+		<_14 Name="Deep Layer Scale" Offset="40" />
+		<_14 Name="Post-Scatter Amount" Offset="44" />
+		<_1F Name="AO Color" Offset="48" />
+		<_14 Name="AO Color Amount" Offset="54" />
+		<_14 Name="AO Specular Power" Offset="58" />
+		<_14 Name="Glancing Roughness" Offset="5C" />
+		<_14 Name="Specular Intensity" Offset="60" />
+		<_36 Name="Scale Modifiers" Offset="64" />
+		<_14 Name="Scale Modifier (Subsurface and Shallow Layers)" Offset="64" />
+		<_14 Name="Scale Modifier (Middle and Deep Layers)" Offset="68" />
+	</_74A74F73250454EEFC80A26BA7718247>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

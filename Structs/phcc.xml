@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="ClamberingDefinition" Parents="aTag" Index="-308">
+	<_B1E84B1BDDD7D89588EA88EAB0AAB88B Name="i343::Physics::Character::ClamberingDefinition" Size="B8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="parameters" Offset="10" GUID="FF3143A1EC5D052734F3E4F183F4FCC6" />
+		<_34 Name="generated_padba18" Offset="B4" Length="4" />
+	</_B1E84B1BDDD7D89588EA88EAB0AAB88B>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_FF3143A1EC5D052734F3E4F183F4FCC6 Name="i343::Physics::Character::ClamberingParameters" Size="A4">
+		<_37 Name="Step jump" type="fgrb" Offset="0" />
+		<_36 Name="explanation" Offset="0" />
+		<_25 Name="step jump range" Offset="0" />
+		<_8 Name="step jump contact max angle" Offset="8" />
+		<_14 Name="step jump extra height" Offset="C" />
+		<_37 Name="" type="fgre" Offset="10" />
+		<_14 Name="horizontal range" Offset="10" />
+		<_14 Name="vertical range min (ascending)" Offset="14" />
+		<_14 Name="vertical range min (descending)" Offset="18" />
+		<_14 Name="ascending velocity threshold" Offset="1C" />
+		<_14 Name="vertical range max" Offset="20" />
+		<_14 Name="entry point vertical offset to apex" Offset="24" />
+		<_14 Name="entry point adjustment benchmark speed" Offset="28" />
+		<_14 Name="entry point horizontal adjustment range" Offset="2C" />
+		<_14 Name="minimum downward speed required to move entry point down" Offset="30" />
+		<_14 Name="entry point vertical adjustment range" Offset="34" />
+		<_F Name="clamber flags" Offset="38" StructName1="i343::Physics::Character::ClamberingFlags">
+			<Flag n="allow with support weapons" />
+			<Flag n="drops support weapons" />
+			<Flag n="drops must be readied weapons" />
+		</_F>
+		<_34 Name="generated_pad9eaf" Offset="39" Length="3" />
+		<_14 Name="post exit block time" Offset="3C" />
+		<_14 Name="cancel weapon block time" Offset="40" />
+		<_14 Name="melee clamber delay" Offset="44" />
+		<_38 Name="common parameters" Offset="48" GUID="7FF2414CB72FD7A9869C49C1A6954A91" />
+	</_FF3143A1EC5D052734F3E4F183F4FCC6>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_7FF2414CB72FD7A9869C49C1A6954A91 Name="i343::Physics::Character::CommonMobilityParameters" Size="5C">
+		<_F Name="flags" Offset="0" StructName1="i343::Physics::Character::CommonMobilityFlags">
+			<Flag n="allow auto if crouching" />
+			<Flag n="allow auto with support weapon" />
+			<Flag n="allow auto with must be readied weapon" />
+			<Flag n="allow auto if firing" />
+			<Flag n="allow auto if grappling" />
+			<Flag n="can use weapons" />
+		</_F>
+		<_A Name="activation throttle requirements" Offset="1" StructName1="i343::Physics::Character::CommonMobilityThrottle">
+			<Flag n="unset" />
+			<Flag n="positive" />
+			<Flag n="positive or neutral" />
+			<Flag n="negative or neutral" />
+			<Flag n="negative" />
+		</_A>
+		<_A Name="cancellation throttle requirements" Offset="2" StructName1="i343::Physics::Character::CommonMobilityThrottle">
+			<Flag n="unset" />
+			<Flag n="positive" />
+			<Flag n="positive or neutral" />
+			<Flag n="negative or neutral" />
+			<Flag n="negative" />
+		</_A>
+		<_34 Name="generated_pad8441" Offset="3" Length="1" />
+		<_15 Name="throttle cancellation point of no return" Offset="4" />
+		<_15 Name="firing cancellation start point" Offset="8" />
+		<_15 Name="throttle threshold" Offset="C" />
+		<_14 Name="initial button press hold time to trigger" Offset="10" />
+		<_8 Name="maximum ledge slope" Offset="14" />
+		<_8 Name="minimum edge sharpness" Offset="18" />
+		<_14 Name="maximum backward reach" Offset="1C" />
+		<_14 Name="apex vertical offset" Offset="20" />
+		<_14 Name="max exit speed" Offset="24" />
+		<_36 Name="entry time" Offset="28" />
+		<_14 Name="min entry time" Offset="28" />
+		<_14 Name="max entry time" Offset="2C" />
+		<_36 Name="movement time" Offset="30" />
+		<_14 Name="min movement time" Offset="30" />
+		<_14 Name="max movement time" Offset="34" />
+		<_36 Name="camera height function" Offset="38" />
+		<_37 Name="camera height function" type="fned" Offset="38" />
+		<_38 Name="camera height function" Offset="38" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_14 Name="max anchor object relative speed" Offset="50" />
+		<_37 Name="auto" type="fgrb" Offset="54" />
+		<_14 Name="auto push time min" Offset="54" />
+		<_8 Name="auto push contact max angle" Offset="58" />
+		<_37 Name="" type="fgre" Offset="5C" />
+	</_7FF2414CB72FD7A9869C49C1A6954A91>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

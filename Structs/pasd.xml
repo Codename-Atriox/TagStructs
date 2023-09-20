@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="UIPersonalAiSounds" Parents="aTag" Index="-301">
+	<_CEB941DB904FA70F40DF83B38B69FB5E Name="Interface::Customization::UIPersonalAiSoundsTag" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Transition sounds" Offset="10" GUID="580848DA221210DCA659473D847F1B2C" StructName1="Interface::Customization::UIPersonalAiSoundsTag" Min="0" Max="16" />
+		<_34 Name="generated_pad87b4" Offset="24" Length="4" />
+	</_CEB941DB904FA70F40DF83B38B69FB5E>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_580848DA221210DCA659473D847F1B2C Name="Interface::Customization::UIPersonalAiSound" Size="24">
+		<_2 Name="Display Name" Offset="0" />
+		<_C Name="Avatar Type" Offset="4" StructName1="i343::PersonalAI::AvatarType">
+			<Flag n="Prism" />
+			<Flag n="Pyramid" />
+			<Flag n="Sphere" />
+			<Flag n="Teardrop" />
+			<Flag n="Superintendent" />
+			<Flag n="Mister Chief" />
+			<Flag n="Iratus" />
+			<Flag n="Mati" />
+			<Flag n="Auntie Dot" />
+			<Flag n="Proto1" />
+			<Flag n="Proto2" />
+		</_C>
+		<_41 Name="Sound" Offset="8" Allowed="snd!" Flags="0" />
+	</_580848DA221210DCA659473D847F1B2C>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

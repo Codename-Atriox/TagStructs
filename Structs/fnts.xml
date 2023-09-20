@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="wpf_font_set" Parents="aTag" Index="-152">
+	<_2FB540E9954BE8262EE4DF8E968D78EF Name="WPFFontSetDefinition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="font references" Offset="10" GUID="BFC34183BFCEC7C460E804BE94781D24" StructName1="WPFFontSetDefinition" Min="0" Max="512" />
+		<_34 Name="generated_padab5f" Offset="24" Length="4" />
+	</_2FB540E9954BE8262EE4DF8E968D78EF>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_BFC34183BFCEC7C460E804BE94781D24 Name="WPFFontSetReferencesDefinition" Size="2C">
+		<_41 Name="font" Offset="0" Allowed="font" Flags="0" />
+		<_D Name="WPF All Languages" Offset="1C" StructName1="WPFFontSetReferencesDefinition::AllLanagugesEnabled">
+			<Flag n="All" />
+		</_D>
+		<_D Name="WPF Flags" Offset="20" StructName1="FontSetLanguagFlags">
+			<Flag n="English" />
+			<Flag n="Japanese" />
+			<Flag n="German" />
+			<Flag n="French" />
+			<Flag n="Spanish" />
+			<Flag n="Mexican-Spanish" />
+			<Flag n="Italian" />
+			<Flag n="Korean" />
+			<Flag n="Traditional-Chinese" />
+			<Flag n="Simplified-Chinese" />
+			<Flag n="Portuguese" />
+			<Flag n="Polish" />
+			<Flag n="Russian" />
+			<Flag n="Danish" />
+			<Flag n="Finnish" />
+			<Flag n="Dutch" />
+			<Flag n="Norwegian" />
+			<Flag n="Brazilian-Portuguese" />
+		</_D>
+		<_D Name="FastHud All Languages" Offset="24" StructName1="WPFFontSetReferencesDefinition::AllLanagugesEnabled">
+			<Flag n="All" />
+		</_D>
+		<_D Name="FastHud Flags" Offset="28" StructName1="FontSetLanguagFlags">
+			<Flag n="English" />
+			<Flag n="Japanese" />
+			<Flag n="German" />
+			<Flag n="French" />
+			<Flag n="Spanish" />
+			<Flag n="Mexican-Spanish" />
+			<Flag n="Italian" />
+			<Flag n="Korean" />
+			<Flag n="Traditional-Chinese" />
+			<Flag n="Simplified-Chinese" />
+			<Flag n="Portuguese" />
+			<Flag n="Polish" />
+			<Flag n="Russian" />
+			<Flag n="Danish" />
+			<Flag n="Finnish" />
+			<Flag n="Dutch" />
+			<Flag n="Norwegian" />
+			<Flag n="Brazilian-Portuguese" />
+		</_D>
+	</_BFC34183BFCEC7C460E804BE94781D24>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

@@ -1,0 +1,1535 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="model_animation_graph" Parents="aTag" Index="-219">
+	<_CC9140F547CD5B92F15D10108388F80F Name="c_model_animation_graph" Size="488">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="content" Offset="10" GUID="BF4D4757397B3F13CAEB6DDCBCAE2F88" />
+		<_37 Name="Runtime Data" type="fgrb" Offset="30C" />
+		<_38 Name="run time data" Offset="30C" GUID="FC474475B1091BBF2FAF2F3085A2D6A5" />
+		<_40 Name="additional node data" type="slap" Offset="420" GUID="BB8948F729A1DD97A4728C90B606A4F9" StructName1="c_model_animation_graph" Min="0" Max="1024" />
+		<_40 Name="tag resource groups" type="slap" Offset="434" GUID="26C74AF547846C50972458F68CBDED72" StructName1="c_model_animation_graph" Min="0" Max="12288" />
+		<_38 Name="codec data" Offset="448" GUID="10A34D1EA5200D6D08252592BDB5A4C5" />
+		<_37 Name="" type="fgre" Offset="484" />
+		<_34 Name="generated_pad6f43" Offset="484" Length="4" />
+	</_CC9140F547CD5B92F15D10108388F80F>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_BF4D4757397B3F13CAEB6DDCBCAE2F88 Name="AnimationGraphContents" Size="2FC">
+		<_37 Name="Links and Settings" type="fgrb" Offset="0" />
+		<_38 Name="links" Offset="0" GUID="844B43CFFD503C234E40FB9AA4FE2453" />
+		<_38 Name="settings" Offset="88" GUID="E0BE485D346F956739015342A153B5B0" />
+		<_37 Name="" type="fgre" Offset="90" />
+		<_37 Name="Skeleton and IK" type="fgrb" Offset="90" />
+		<_36 Name="Warning" Offset="90" />
+		<_37 Name="local data" type="fgrb" Offset="90" />
+		<_41 Name="skeleton link" Offset="90" Allowed="askt" Flags="0" />
+		<_38 Name="skeleton" Offset="AC" GUID="A1C14C0FF8D51E5947473E49937F3EB8" />
+		<_38 Name="ik" Offset="114" GUID="F4D540A557E6624B421EFA46A53BEC0C" />
+		<_37 Name="" type="fgre" Offset="1A0" />
+		<_37 Name="" type="fgre" Offset="1A0" />
+		<_37 Name="Animation Pool" type="fgrb" Offset="1A0" />
+		<_40 Name="animations" type="slap" Offset="1A0" GUID="2D124DF5AB063E746B6A9B389FC7F4EB" StructName1="AnimationGraphContents" Min="0" Max="4096" />
+		<_38 Name="pca data" Offset="1B4" GUID="F53B48FBE265E891079BCACA9B66A292" />
+		<_40 Name="composites" type="slap" Offset="1D0" GUID="50AB45EDCE71BB1A047FF66490C7C874" StructName1="AnimationGraphContents" Min="0" Max="256" />
+		<_40 Name="action tokens" type="slap" Offset="1E4" GUID="D3DC4200AAC64AA8318FEEB08A4C39F2" StructName1="AnimationGraphContents" Min="0" Max="4096" />
+		<_40 Name="overlay tokens" type="slap" Offset="1F8" GUID="6DC34E251423AA4FEB2F7540B67DBB5C" StructName1="AnimationGraphContents" Min="0" Max="4096" />
+		<_40 Name="poseBlend tokens" type="slap" Offset="20C" GUID="63EE4156DD798A93437E35B99D371E4D" StructName1="AnimationGraphContents" Min="0" Max="4096" />
+		<_37 Name="" type="fgre" Offset="220" />
+		<_37 Name="Blending and Overlays" type="fgrb" Offset="220" />
+		<_40 Name="functions" type="slap" Offset="220" GUID="42A447C1EA6DD3E1DD681208A68A00FD" StructName1="AnimationGraphContents" Min="0" Max="64" />
+		<_40 Name="blend screens" type="slap" Offset="234" GUID="33704B09A19A4F54CBDA74EE8889289B" StructName1="AnimationGraphContents" Min="0" Max="1024" />
+		<_40 Name="function overlays" type="slap" Offset="248" GUID="40FD4B0691C2724442BF1AB9ACBDAAB1" StructName1="AnimationGraphContents" Min="0" Max="32" />
+		<_40 Name="overlay groups" type="slap" Offset="25C" GUID="AD92455CB0C28EAA116D2507BCF71470" StructName1="AnimationGraphContents" Min="0" Max="1056" />
+		<_37 Name="" type="fgre" Offset="270" />
+		<_37 Name="Interpolators" type="fgrb" Offset="270" />
+		<_40 Name="interpolators" type="slap" Offset="270" GUID="6B0241138DD55035B2B7B7B5831A13DB" StructName1="AnimationGraphContents" Min="0" Max="256" />
+		<_40 Name="interpolation sets" type="slap" Offset="284" GUID="93B54204E5AC9EB285BAB4E58F9A3469" StructName1="AnimationGraphContents" Min="0" Max="256" />
+		<_37 Name="" type="fgre" Offset="298" />
+		<_37 Name="Animation Lookup Tables" type="fgrb" Offset="298" />
+		<_40 Name="model animation variants" type="slap" Offset="298" GUID="0C884058FD63AA7E53B1BCA69FA74CD9" StructName1="AnimationGraphContents" Min="0" Max="64" />
+		<_40 Name="object function variants" type="slap" Offset="2AC" GUID="47554383D275562E264DBC2D893D0659" StructName1="AnimationGraphContents" Min="0" Max="64" />
+		<_40 Name="modes" type="slap" Offset="2C0" GUID="83E7433C8D89D744063E43E4B92A43A6" StructName1="AnimationGraphContents" Min="0" Max="512" />
+		<_37 Name="" type="fgre" Offset="2D4" />
+		<_37 Name="Special Case Animations" type="fgrb" Offset="2D4" />
+		<_40 Name="vehicle suspension" type="slap" Offset="2D4" GUID="E9614E598896A049A399CF0C9E0BC659" StructName1="AnimationGraphContents" Min="0" Max="32" />
+		<_40 Name="constant overlays" type="slap" Offset="2E8" GUID="7EF04B56C89466F6DE675B3EAF1ACD05" StructName1="AnimationGraphContents" Min="0" Max="32" />
+		<_37 Name="" type="fgre" Offset="2FC" />
+	</_BF4D4757397B3F13CAEB6DDCBCAE2F88>
+	<_FC474475B1091BBF2FAF2F3085A2D6A5 Name="s_model_animation_runtime_data" Size="114">
+		<_40 Name="weapon list" type="slap" Offset="0" GUID="902C4457829BCBD4178C3288B3D2562B" StructName1="s_model_animation_runtime_data" Min="0" Max="64" />
+		<_39 Name="left arm bit vector" Offset="14" GUID="31004754FA382E96C9AA134CA73B7ADD" Count="32" StructName1="left arm bit vector" />
+		<_39 Name="right arm bit vector" Offset="94" GUID="31004754FA382E96C9AA134CA73B7ADD" Count="32" StructName1="right arm bit vector" />
+	</_FC474475B1091BBF2FAF2F3085A2D6A5>
+	<_BB8948F729A1DD97A4728C90B606A4F9 Name="s_additional_node_data" Size="3C">
+		<_2 Name="node name" Offset="0" />
+		<_1A Name="default rotation" Offset="4" />
+		<_17 Name="default translation" Offset="14" />
+		<_14 Name="default scale" Offset="20" />
+		<_17 Name="min bounds" Offset="24" />
+		<_17 Name="max bounds" Offset="30" />
+	</_BB8948F729A1DD97A4728C90B606A4F9>
+	<_26C74AF547846C50972458F68CBDED72 Name="c_model_animation_tag_refrence_counted_resource" Size="14">
+		<_6 Name="reference_count" Offset="0" />
+		<_43 Name="tag_resource" Offset="4" StructName1="c_model_animation_tag_animation_group_resource" Int1="0" GUID="3BDA48B109439BE6A12806119947AD2E" />
+	</_26C74AF547846C50972458F68CBDED72>
+	<_10A34D1EA5200D6D08252592BDB5A4C5 Name="s_animation_codec_data" Size="3C">
+		<_36 Name="CODEC-SPECIFIC DATA" Offset="0" />
+		<_38 Name="shared_static_codec" Offset="0" GUID="2ADD4D4D76EB40D762F2704AB535E99D" />
+	</_10A34D1EA5200D6D08252592BDB5A4C5>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_844B43CFFD503C234E40FB9AA4FE2453 Name="AnimationGraphExternalReferences" Size="88">
+		<_37 Name="Links" type="fgrb" Offset="0" />
+		<_36 Name="inheritance" Offset="0" />
+		<_38 Name="inheritance" Offset="0" GUID="F7524CC83177B52A8270E615BC26BA0A" />
+		<_36 Name="events" Offset="14" />
+		<_38 Name="events" Offset="14" GUID="26224EC42FF66E3C4D6C7CD3B32E361B" />
+		<_36 Name="pca animation" Offset="6C" />
+		<_38 Name="pca" Offset="6C" GUID="1A0B4B25EA5D63AEE5E0212FB543979C" />
+		<_37 Name="" type="fgre" Offset="88" />
+	</_844B43CFFD503C234E40FB9AA4FE2453>
+	<_E0BE485D346F956739015342A153B5B0 Name="AnimationGraphSettings" Size="8">
+		<_37 Name="Settings" type="fgrb" Offset="0" />
+		<_E Name="graph flags" Offset="0" StructName1="AnimationGraphMiscFlagsType">
+			<Flag n="use dual mixing boards" />
+		</_E>
+		<_E Name="private flags" Offset="2" StructName1="AnimationGraphPrivateFlagsType">
+			<Flag n="prepared for cache" />
+			<Flag n="imported with codec compressors" />
+			<Flag n="written to cache" />
+			<Flag n="animation data reordered" />
+			<Flag n="ready for use" />
+			<Flag n="possesses default ik chains for a biped" />
+			<Flag n="built flat inheritance list" />
+			<Flag n="Updated bone count to use shorts" />
+			<Flag n="model animation graph was built by a chore" />
+			<Flag n="has any transition animations" />
+		</_E>
+		<_36 Name="Compression" Offset="4" />
+		<_B Name="force compression setting" Offset="4" StructName1="c_animation_compression_force_setting">
+			<Flag n="none" />
+			<Flag n="medium compression" />
+			<Flag n="rough compression" />
+			<Flag n="light compression" />
+			<Flag n="uncompressed" />
+			<Flag n="ACL auto" />
+			<Flag n="old codec" />
+			<Flag n="reach medium compression" />
+			<Flag n="reach rough compression" />
+		</_B>
+		<_5 Name="animation codec pack" Offset="6" />
+		<_37 Name="" type="fgre" Offset="8" />
+	</_E0BE485D346F956739015342A153B5B0>
+	<_A1C14C0FF8D51E5947473E49937F3EB8 Name="AnimationGraphSkeleton" Size="68">
+		<_6 Name="skeleton checksum" Offset="0" />
+		<_40 Name="skeleton bones" type="slap" Offset="4" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="AnimationGraphSkeleton" Min="0" Max="1024" />
+		<_40 Name="bone usage" type="slap" Offset="18" GUID="4EF942A3342555EE6713E11581E1346D" StructName1="AnimationGraphSkeleton" Min="0" Max="35" />
+		<_40 Name="bone masks" type="slap" Offset="2C" GUID="6F224C2252C3A3B1E0F3E55389363C08" StructName1="AnimationGraphSkeleton" Min="0" Max="32" />
+		<_40 Name="user parameters" type="slap" Offset="40" GUID="C2BDFC6C3D28C66EE4DF4541E5E2ECC9" StructName1="AnimationGraphSkeleton" Min="0" Max="512" />
+		<_40 Name="user parameter masks" type="slap" Offset="54" GUID="000F4EBE661ABF225572CEE38A7B1CD6" StructName1="AnimationGraphSkeleton" Min="0" Max="32" />
+	</_A1C14C0FF8D51E5947473E49937F3EB8>
+	<_F4D540A557E6624B421EFA46A53BEC0C Name="AnimationGraphIK" Size="8C">
+		<_36 Name="IK Junctions" Offset="0" />
+		<_40 Name="ik junctions" type="slap" Offset="0" GUID="43A6438787FEEB30EE05E0C89ABEF9D1" StructName1="AnimationGraphIK" Min="0" Max="4" />
+		<_36 Name="IK Chains" Offset="14" />
+		<_40 Name="ik chains" type="slap" Offset="14" GUID="3B0B454AF1678803BA9D2A3F96C8B5D3" StructName1="AnimationGraphIK" Min="0" Max="8" />
+		<_40 Name="ik leg definitions" type="slap" Offset="28" GUID="C0094D9D6CF8A04C91FD07D6A7D93135" StructName1="AnimationGraphIK" Min="0" Max="2" />
+		<_40 Name="ik arm definitions" type="slap" Offset="3C" GUID="B6C449223241BB249A0DDE94B6FB45A1" StructName1="AnimationGraphIK" Min="0" Max="2" />
+		<_36 Name="Points and Sets" Offset="50" />
+		<_40 Name="ik point" type="slap" Offset="50" GUID="D36A4D89732332F9C36A39FC8815B353" StructName1="AnimationGraphIK" Min="0" Max="64" />
+		<_40 Name="ik sets" type="slap" Offset="64" GUID="C0D04CDFBC56DF325E7C50D8BC3D6BF1" StructName1="AnimationGraphIK" Min="0" Max="32" />
+		<_36 Name="Ground-fit chains" Offset="78" />
+		<_40 Name="groundfit ik chains" type="slap" Offset="78" GUID="F9984F694A249F4D1E706D3A9600A535" StructName1="AnimationGraphIK" Min="0" Max="8" />
+	</_F4D540A557E6624B421EFA46A53BEC0C>
+	<_2D124DF5AB063E746B6A9B389FC7F4EB Name="c_model_animation" Size="78">
+		<_2 Name="name" Offset="0" />
+		<_37 Name="Play on player" type="edit" Offset="4" />
+		<_5 Name="frame count" Offset="4" />
+		<_3D Name="node count" Offset="6" />
+		<_A Name="animation type" Offset="8" StructName1="c_animation_type">
+			<Flag n="none" />
+			<Flag n="base" />
+			<Flag n="overlay" />
+			<Flag n="replacement" />
+		</_A>
+		<_A Name="frame info type" Offset="9" StructName1="c_animation_frame_info_type">
+			<Flag n="none" />
+			<Flag n="dx,dy" />
+			<Flag n="dx,dy,dyaw" />
+			<Flag n="dx,dy,dz,dyaw" />
+			<Flag n="dx,dy,dz,dangle-axis" />
+			<Flag n="x,y,z - absolute" />
+			<Flag n="auto" />
+		</_A>
+		<_A Name="desired frame info type" Offset="A" StructName1="c_animation_frame_info_type">
+			<Flag n="none" />
+			<Flag n="dx,dy" />
+			<Flag n="dx,dy,dyaw" />
+			<Flag n="dx,dy,dz,dyaw" />
+			<Flag n="dx,dy,dz,dangle-axis" />
+			<Flag n="x,y,z - absolute" />
+			<Flag n="auto" />
+		</_A>
+		<_A Name="desired compression" Offset="B" StructName1="c_animation_compression_setting">
+			<Flag n="best score" />
+			<Flag n="best compression" />
+			<Flag n="light compression" />
+			<Flag n="best accuracy" />
+			<Flag n="ACL auto" />
+			<Flag n="old codec" />
+			<Flag n="reach medium compression" />
+			<Flag n="reach rough compression" />
+		</_A>
+		<_A Name="current compression" Offset="C" StructName1="c_animation_compression_setting">
+			<Flag n="best score" />
+			<Flag n="best compression" />
+			<Flag n="light compression" />
+			<Flag n="best accuracy" />
+			<Flag n="ACL auto" />
+			<Flag n="old codec" />
+			<Flag n="reach medium compression" />
+			<Flag n="reach rough compression" />
+		</_A>
+		<_34 Name="generated_padafd6" Offset="D" Length="1" />
+		<_2E Name="parent animation" Offset="E" GUID="2D124DF5AB063E746B6A9B389FC7F4EB" StructName1="c_model_animation" Min="0" Max="4096" />
+		<_2E Name="next animation" Offset="10" GUID="2D124DF5AB063E746B6A9B389FC7F4EB" StructName1="c_model_animation" Min="0" Max="4096" />
+		<_2E Name="composite" Offset="12" GUID="50AB45EDCE71BB1A047FF66490C7C874" StructName1="c_model_animation" Min="0" Max="256" />
+		<_14 Name="weight" Offset="14" />
+		<_5 Name="loop frame index" Offset="18" />
+		<_E Name="user flags" Offset="1A" StructName1="c_animation_user_flags">
+			<Flag n="disable interpolation in" />
+			<Flag n="disable interpolation out" />
+			<Flag n="disable mode ik" />
+			<Flag n="disable weapon ik" />
+			<Flag n="disable weapon aim/1st person" />
+			<Flag n="disable look screen" />
+			<Flag n="force weapon ik on" />
+			<Flag n="enable replacement interpolation" />
+			<Flag n="enable blend-in on replacement anims" />
+			<Flag n="use custom blend-in time" />
+			<Flag n="disable ik sets" />
+			<Flag n="disable ik chains" />
+			<Flag n="translate and scale root only" />
+			<Flag n="enable blend-out on replacement anims" />
+			<Flag n="use custom replacement blend-out time" />
+			<Flag n="override player input" />
+		</_E>
+		<_30 Name="replacement interpolator" Offset="1C" GUID="93B54204E5AC9EB285BAB4E58F9A3469" StructName1="c_model_animation" Min="0" Max="256" />
+		<_14 Name="override blend in time" Offset="20" />
+		<_2 Name="replacement blend in weight function" type="sted" Offset="24" />
+		<_14 Name="override blend out time" Offset="28" />
+		<_2 Name="replacement blend out weight function" type="sted" Offset="2C" />
+		<_2 Name="pca group name" type="sted" Offset="30" />
+		<_40 Name="first person overlay channel slider weight function map" Offset="34" GUID="859E43BF63E4C89FC32298C28CF9355D" StructName1="c_model_animation" Min="0" Max="7" />
+		<_E Name="internal flags" Offset="48" StructName1="c_animation_internal_flags">
+			<Flag n="&lt;unused0&gt;" />
+			<Flag n="&lt;unused1&gt;" />
+			<Flag n="&lt;unused2&gt;" />
+			<Flag n="&lt;unused3&gt;" />
+			<Flag n="&lt;unused4&gt;" />
+			<Flag n="&lt;unused5&gt;" />
+			<Flag n="compression disabled" />
+			<Flag n="&lt;unused6&gt;" />
+			<Flag n="valid production checksum" />
+			<Flag n="override force compression" />
+			<Flag n="contains pca data" />
+			<Flag n="authored at 60Hz" />
+			<Flag n="contains bamf function" />
+			<Flag n="whole frame playback" />
+			<Flag n="pose blend overlay" />
+		</_E>
+		<_3D Name="compressor_version" Offset="4A" />
+		<_19 Name="heading" Offset="4C" />
+		<_14 Name="heading angle" Offset="58" />
+		<_14 Name="average translation magnitude" Offset="5C" />
+		<_14 Name="average pivot yaw" Offset="60" />
+		<_14 Name="original object space yaw" Offset="64" />
+		<_14 Name="maxElevationOffset" Offset="68" />
+		<_6 Name="uid" Offset="6C" />
+		<_3E Name="node list checksum" Offset="70" />
+		<_38 Name="resource index" Offset="74" GUID="686F47A2288464EF9588326695306B80" />
+	</_2D124DF5AB063E746B6A9B389FC7F4EB>
+	<_F53B48FBE265E891079BCACA9B66A292 Name="AnimationGraphPCAData" Size="1C">
+		<_36 Name="PCA Groups" Offset="0" />
+		<_40 Name="PCA Groups" Offset="0" GUID="0089498E400515734733185098DE188D" StructName1="AnimationGraphPCAData" Min="0" Max="4096" />
+		<_6 Name="PCA Animation Count" Offset="14" />
+		<_6 Name="PCA Checksum" Offset="18" />
+	</_F53B48FBE265E891079BCACA9B66A292>
+	<_50AB45EDCE71BB1A047FF66490C7C874 Name="CompositeTag" Size="5C">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="axes" Offset="4" GUID="9B0A4844168DE62EE440F78E8A388EE4" StructName1="CompositeTag" Min="0" Max="16" />
+		<_40 Name="anims" Offset="18" GUID="E025466376AF98750EEE3D79A0BF321B" StructName1="CompositeTag" Min="0" Max="256" />
+		<_40 Name="sets" Offset="2C" GUID="07ED44201C6DD71A5F2604DA97E43A00" StructName1="CompositeTag" Min="0" Max="16" />
+		<_40 Name="strings" Offset="40" GUID="EA3C4FFDB75016D85680313287191515" StructName1="CompositeTag" Min="0" Max="1024" />
+		<_2 Name="timing source" Offset="54" />
+		<_5 Name="timingAnimIndex" Offset="58" />
+		<_5 Name="medianThrottleMag" Offset="5A" />
+	</_50AB45EDCE71BB1A047FF66490C7C874>
+	<_D3DC4200AAC64AA8318FEEB08A4C39F2 Name="AnimationTokenEntry" Size="4">
+		<_2 Name="name" Offset="0" />
+	</_D3DC4200AAC64AA8318FEEB08A4C39F2>
+	<_6DC34E251423AA4FEB2F7540B67DBB5C Name="OverlayTokenEntry" Size="4">
+		<_2 Name="name" Offset="0" />
+	</_6DC34E251423AA4FEB2F7540B67DBB5C>
+	<_63EE4156DD798A93437E35B99D371E4D Name="PoseBlendTokenEntry" Size="4">
+		<_2 Name="name" Offset="0" />
+	</_63EE4156DD798A93437E35B99D371E4D>
+	<_42A447C1EA6DD3E1DD681208A68A00FD Name="s_animation_function" Size="1C">
+		<_2 Name="name" Offset="0" />
+		<_38 Name="function" Offset="4" GUID="0276481E72CB9289F56D7C189467A351" />
+	</_42A447C1EA6DD3E1DD681208A68A00FD>
+	<_33704B09A19A4F54CBDA74EE8889289B Name="AnimationBlendScreenDefinition" Size="34">
+		<_2 Name="name" Offset="0" />
+		<_D Name="flags" Offset="4" StructName1="c_animation_blend_screen_flags">
+			<Flag n="active only when weapon down" />
+			<Flag n="attempt piece-wise blending" />
+			<Flag n="allow parent adjustment" />
+			<Flag n="active only when weapon precise" />
+			<Flag n="generates IK Offsets" />
+		</_D>
+		<_14 Name="weight" Offset="8" />
+		<_15 Name="interpolation rate" Offset="C" />
+		<_B Name="yaw source" Offset="10" StructName1="c_animation_blend_screen_variable_source">
+			<Flag n="none" />
+			<Flag n="object function" />
+			<Flag n="horizontal test" />
+			<Flag n="vertical test" />
+			<Flag n="aim yaw" />
+			<Flag n="aim pitch" />
+			<Flag n="look yaw" />
+			<Flag n="look pitch" />
+			<Flag n="object yaw" />
+			<Flag n="object pitch" />
+			<Flag n="acceleration yaw" />
+			<Flag n="acceleration pitch" />
+			<Flag n="steering" />
+			<Flag n="velocity yaw" />
+			<Flag n="velocity pitch" />
+			<Flag n="damage gut yaw" />
+			<Flag n="damage gut pitch" />
+			<Flag n="damage chest yaw" />
+			<Flag n="damage chest pitch" />
+			<Flag n="damage head yaw" />
+			<Flag n="damage head pitch" />
+			<Flag n="damage left shoulder yaw" />
+			<Flag n="damage left shoulder pitch" />
+			<Flag n="damage left arm yaw" />
+			<Flag n="damage left arm pitch" />
+			<Flag n="damage left leg yaw" />
+			<Flag n="damage left leg pitch" />
+			<Flag n="damage left foot yaw" />
+			<Flag n="damage left foot pitch" />
+			<Flag n="damage right shoulder yaw" />
+			<Flag n="damage right shoulder pitch" />
+			<Flag n="damage right arm yaw" />
+			<Flag n="damage right arm pitch" />
+			<Flag n="damage right leg yaw" />
+			<Flag n="damage right leg pitch" />
+			<Flag n="damage right foot yaw" />
+			<Flag n="damage right foot pitch" />
+			<Flag n="defense yaw" />
+			<Flag n="defense pitch" />
+			<Flag n="first person pitch" />
+			<Flag n="first person turn" />
+			<Flag n="throttle side" />
+			<Flag n="throttle_forward" />
+			<Flag n="fp_look_offset_yaw" />
+			<Flag n="fp_look_offset_pitch" />
+			<Flag n="fp_look_accel_yaw" />
+			<Flag n="fp_look_accel_pitch" />
+			<Flag n="fp_grapple_target_yaw" />
+			<Flag n="fp_grapple_target_pitch" />
+		</_B>
+		<_B Name="pitch source" Offset="12" StructName1="c_animation_blend_screen_variable_source">
+			<Flag n="none" />
+			<Flag n="object function" />
+			<Flag n="horizontal test" />
+			<Flag n="vertical test" />
+			<Flag n="aim yaw" />
+			<Flag n="aim pitch" />
+			<Flag n="look yaw" />
+			<Flag n="look pitch" />
+			<Flag n="object yaw" />
+			<Flag n="object pitch" />
+			<Flag n="acceleration yaw" />
+			<Flag n="acceleration pitch" />
+			<Flag n="steering" />
+			<Flag n="velocity yaw" />
+			<Flag n="velocity pitch" />
+			<Flag n="damage gut yaw" />
+			<Flag n="damage gut pitch" />
+			<Flag n="damage chest yaw" />
+			<Flag n="damage chest pitch" />
+			<Flag n="damage head yaw" />
+			<Flag n="damage head pitch" />
+			<Flag n="damage left shoulder yaw" />
+			<Flag n="damage left shoulder pitch" />
+			<Flag n="damage left arm yaw" />
+			<Flag n="damage left arm pitch" />
+			<Flag n="damage left leg yaw" />
+			<Flag n="damage left leg pitch" />
+			<Flag n="damage left foot yaw" />
+			<Flag n="damage left foot pitch" />
+			<Flag n="damage right shoulder yaw" />
+			<Flag n="damage right shoulder pitch" />
+			<Flag n="damage right arm yaw" />
+			<Flag n="damage right arm pitch" />
+			<Flag n="damage right leg yaw" />
+			<Flag n="damage right leg pitch" />
+			<Flag n="damage right foot yaw" />
+			<Flag n="damage right foot pitch" />
+			<Flag n="defense yaw" />
+			<Flag n="defense pitch" />
+			<Flag n="first person pitch" />
+			<Flag n="first person turn" />
+			<Flag n="throttle side" />
+			<Flag n="throttle_forward" />
+			<Flag n="fp_look_offset_yaw" />
+			<Flag n="fp_look_offset_pitch" />
+			<Flag n="fp_look_accel_yaw" />
+			<Flag n="fp_look_accel_pitch" />
+			<Flag n="fp_grapple_target_yaw" />
+			<Flag n="fp_grapple_target_pitch" />
+		</_B>
+		<_37 Name="" type="coff" Offset="14" />
+		<_2 Name="yaw source object function" Offset="14" />
+		<_37 Name="" type="coff" Offset="18" />
+		<_2 Name="pitch source object function" Offset="18" />
+		<_B Name="weight source" Offset="1C" StructName1="c_animation_blend_screen_weight_source">
+			<Flag n="none" />
+			<Flag n="object function" />
+			<Flag n="acceleration magnitude" />
+			<Flag n="velocity magnitude" />
+			<Flag n="state function a" />
+			<Flag n="state function b" />
+			<Flag n="state function c" />
+			<Flag n="state function d" />
+			<Flag n="damage chest(damage focus chest)" />
+			<Flag n="damage gut(damage focus gut)" />
+			<Flag n="damage head(damage focus head)" />
+			<Flag n="damage left shoulder(damage focus left shoulder)" />
+			<Flag n="damage left arm(damage focus left arm)" />
+			<Flag n="damage left leg(damage focus left leg)" />
+			<Flag n="damage left foot(damage focus left foot)" />
+			<Flag n="damage right shoulder(damage focus right shoulder)" />
+			<Flag n="damage right arm(damage focus right arm)" />
+			<Flag n="damage right leg(damage focus right leg)" />
+			<Flag n="damage right foot(damage focus right foot)" />
+			<Flag n="defense" />
+		</_B>
+		<_B Name="secondary weight source" Offset="1E" StructName1="c_animation_blend_screen_weight_source">
+			<Flag n="none" />
+			<Flag n="object function" />
+			<Flag n="acceleration magnitude" />
+			<Flag n="velocity magnitude" />
+			<Flag n="state function a" />
+			<Flag n="state function b" />
+			<Flag n="state function c" />
+			<Flag n="state function d" />
+			<Flag n="damage chest(damage focus chest)" />
+			<Flag n="damage gut(damage focus gut)" />
+			<Flag n="damage head(damage focus head)" />
+			<Flag n="damage left shoulder(damage focus left shoulder)" />
+			<Flag n="damage left arm(damage focus left arm)" />
+			<Flag n="damage left leg(damage focus left leg)" />
+			<Flag n="damage left foot(damage focus left foot)" />
+			<Flag n="damage right shoulder(damage focus right shoulder)" />
+			<Flag n="damage right arm(damage focus right arm)" />
+			<Flag n="damage right leg(damage focus right leg)" />
+			<Flag n="damage right foot(damage focus right foot)" />
+			<Flag n="defense" />
+		</_B>
+		<_37 Name="" type="coff" Offset="20" />
+		<_2 Name="weight source object function" Offset="20" />
+		<_37 Name="" type="coff" Offset="24" />
+		<_2 Name="secondary weight object function" Offset="24" />
+		<_2E Name="weight function" Offset="28" GUID="42A447C1EA6DD3E1DD681208A68A00FD" StructName1="AnimationBlendScreenDefinition" Min="0" Max="64" />
+		<_38 Name="animation" Offset="2A" GUID="858248DE4A044829CE9548D6AEF43025" />
+		<_34 Name="generated_pade4f6" Offset="2E" Length="2" />
+		<_30 Name="animation token" Offset="30" GUID="63EE4156DD798A93437E35B99D371E4D" StructName1="AnimationBlendScreenDefinition" Min="0" Max="4096" />
+	</_33704B09A19A4F54CBDA74EE8889289B>
+	<_40FD4B0691C2724442BF1AB9ACBDAAB1 Name="s_new_animation_function_overlay" Size="2C">
+		<_2 Name="name" Offset="0" />
+		<_D Name="flags" Offset="4" StructName1="c_animation_function_overlay_flags">
+			<Flag n="strict looping" />
+			<Flag n="hold last frame" />
+		</_D>
+		<_37 Name="" type="coff" Offset="8" />
+		<_2 Name="frame ratio object function" type="sted" Offset="8" />
+		<_37 Name="" type="coff" Offset="C" />
+		<_2 Name="playback speed object function" type="sted" Offset="C" />
+		<_37 Name="" type="coff" Offset="10" />
+		<_2 Name="blend weight object function" type="sted" Offset="10" />
+		<_37 Name="" type="coff" Offset="14" />
+		<_2 Name="unlock function" type="sted" Offset="14" />
+		<_25 Name="unlock range" Offset="18" />
+		<_38 Name="animation" Offset="20" GUID="858248DE4A044829CE9548D6AEF43025" />
+		<_30 Name="animation token" Offset="24" GUID="6DC34E251423AA4FEB2F7540B67DBB5C" StructName1="s_new_animation_function_overlay" Min="0" Max="4096" />
+		<_5 Name="start LOD taper" Offset="28" />
+		<_5 Name="end LOD taper" Offset="2A" />
+	</_40FD4B0691C2724442BF1AB9ACBDAAB1>
+	<_AD92455CB0C28EAA116D2507BCF71470 Name="s_overlay_group" Size="2C">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="blend screens" Offset="4" GUID="E4964C6BE8D056F950267C7BB217CB43" StructName1="s_overlay_group" Min="0" Max="16" />
+		<_40 Name="function overlays" Offset="18" GUID="ED3344A688CDC66F49C999559832DB93" StructName1="s_overlay_group" Min="0" Max="32" />
+	</_AD92455CB0C28EAA116D2507BCF71470>
+	<_6B0241138DD55035B2B7B7B5831A13DB Name="AnimationInterpolator" Size="20">
+		<_2 Name="name" Offset="0" />
+		<_30 Name="bone mask" Offset="4" GUID="6F224C2252C3A3B1E0F3E55389363C08" StructName1="AnimationInterpolator" Min="0" Max="32" />
+		<_38 Name="function" Offset="8" GUID="0276481E72CB9289F56D7C189467A351" />
+	</_6B0241138DD55035B2B7B7B5831A13DB>
+	<_93B54204E5AC9EB285BAB4E58F9A3469 Name="AnimationInterpolationSet" Size="34">
+		<_2 Name="name" Offset="0" />
+		<_14 Name="seconds" Offset="4" />
+		<_40 Name="interpolators" Offset="8" GUID="E2F442BB2DF76527D3448217878FF74F" StructName1="AnimationInterpolationSet" Min="0" Max="32" />
+		<_38 Name="default curve" Offset="1C" GUID="0276481E72CB9289F56D7C189467A351" />
+	</_93B54204E5AC9EB285BAB4E58F9A3469>
+	<_0C884058FD63AA7E53B1BCA69FA74CD9 Name="s_model_animation_variant" Size="18">
+		<_2 Name="variant name" Offset="0" />
+		<_40 Name="mode or stance aliases" Offset="4" GUID="369245FFC7C10AFC3A3A5FA68F012522" StructName1="s_model_animation_variant" Min="0" Max="64" />
+	</_0C884058FD63AA7E53B1BCA69FA74CD9>
+	<_47554383D275562E264DBC2D893D0659 Name="s_function_driven_variant" Size="18">
+		<_37 Name="" type="coff" Offset="0" />
+		<_2 Name="function name" Offset="0" />
+		<_40 Name="mode or stance aliases" Offset="4" GUID="369245FFC7C10AFC3A3A5FA68F012522" StructName1="s_function_driven_variant" Min="0" Max="64" />
+	</_47554383D275562E264DBC2D893D0659>
+	<_83E7433C8D89D744063E43E4B92A43A6 Name="c_animation_mode" Size="34">
+		<_2 Name="label" Offset="0" />
+		<_2E Name="overlay group" Offset="4" GUID="AD92455CB0C28EAA116D2507BCF71470" StructName1="c_animation_mode" Min="0" Max="1056" />
+		<_2E Name="ik set" Offset="6" GUID="C0D04CDFBC56DF325E7C50D8BC3D6BF1" StructName1="c_animation_mode" Min="0" Max="32" />
+		<_D Name="flags" Offset="8" StructName1="AnimationGraphNodeFlags">
+			<Flag n="this is a stance" />
+		</_D>
+		<_40 Name="weapon class" Offset="C" GUID="D23D4E204ECAAE41F261D1BBAAF8CE65" StructName1="c_animation_mode" Min="0" Max="64" />
+		<_40 Name="mode ik" Offset="20" GUID="24ED45D8298A3519956878DDB9C03830" StructName1="c_animation_mode" Min="0" Max="64" />
+	</_83E7433C8D89D744063E43E4B92A43A6>
+	<_E9614E598896A049A399CF0C9E0BC659 Name="c_vehicle_suspension" Size="30">
+		<_2 Name="label" Offset="0" />
+		<_38 Name="animation" Offset="4" GUID="858248DE4A044829CE9548D6AEF43025" />
+		<_2 Name="function name" type="sted" Offset="8" />
+		<_37 Name="" type="amkr" Offset="C" />
+		<_2 Name="marker name" Offset="C" />
+		<_37 Name="" type="amkr" Offset="10" />
+		<_2 Name="contact marker name" Offset="10" />
+		<_14 Name="mass point offset" Offset="14" />
+		<_14 Name="full extension ground_depth" Offset="18" />
+		<_14 Name="full compression ground_depth" Offset="1C" />
+		<_36 Name="Destroyed Suspension" Offset="20" />
+		<_2 Name="region name" Offset="20" />
+		<_14 Name="destroyed mass point offset" Offset="24" />
+		<_14 Name="destroyed full extension ground_depth" Offset="28" />
+		<_14 Name="destroyed full compression ground_depth" Offset="2C" />
+	</_E9614E598896A049A399CF0C9E0BC659>
+	<_7EF04B56C89466F6DE675B3EAF1ACD05 Name="s_function_overlay" Size="10">
+		<_2 Name="label" Offset="0" />
+		<_38 Name="animation" Offset="4" GUID="858248DE4A044829CE9548D6AEF43025" />
+		<_B Name="function controls" Offset="8" StructName1="c_function_overlay_animation_mode">
+			<Flag n="frame" />
+			<Flag n="scale" />
+		</_B>
+		<_34 Name="generated_padb2fd" Offset="A" Length="2" />
+		<_2 Name="function" Offset="C" />
+	</_7EF04B56C89466F6DE675B3EAF1ACD05>
+	<_902C4457829BCBD4178C3288B3D2562B Name="s_weapon_class_listing" Size="8">
+		<_2 Name="weapon name" Offset="0" />
+		<_2 Name="weapon class" Offset="4" />
+	</_902C4457829BCBD4178C3288B3D2562B>
+	<_31004754FA382E96C9AA134CA73B7ADD Name="NodeFlagStorageArray" Size="4">
+		<_6 Name="flag data" Offset="0" />
+	</_31004754FA382E96C9AA134CA73B7ADD>
+	<_3BDA48B109439BE6A12806119947AD2E Name="c_model_animation_tag_animation_group_resource" Size="14">
+		<_40 Name="group_members" Offset="0" GUID="BB494C5CF84A790E9758A12CA5D85B12" StructName1="c_model_animation_tag_animation_group_resource" Min="0" Max="4096" />
+	</_3BDA48B109439BE6A12806119947AD2E>
+	<_2ADD4D4D76EB40D762F2704AB535E99D Name="s_shared_static_data_codec_graph_data" Size="3C">
+		<_36 Name="Shared Static Codec" Offset="0" />
+		<_40 Name="rotations" type="slap" Offset="0" GUID="8E12471CBE3BF367920CDCF08AC19374" StructName1="s_shared_static_data_codec_graph_data" Min="0" Max="4194304" />
+		<_40 Name="translations" type="slap" Offset="14" GUID="59DD4D8E85720F55298BB47290AC3678" StructName1="s_shared_static_data_codec_graph_data" Min="0" Max="4194304" />
+		<_40 Name="scale" type="slap" Offset="28" GUID="522744404269C49331AA1D26A14084B5" StructName1="s_shared_static_data_codec_graph_data" Min="0" Max="4194304" />
+	</_2ADD4D4D76EB40D762F2704AB535E99D>
+	<_F7524CC83177B52A8270E615BC26BA0A Name="AnimationGraphInheritanceSettings" Size="14">
+		<_40 Name="inherited graph" type="slap" Offset="0" GUID="612F4D9DA25A6F65C739D346BF01F414" StructName1="AnimationGraphInheritanceSettings" Min="0" Max="256" />
+	</_F7524CC83177B52A8270E615BC26BA0A>
+	<_26224EC42FF66E3C4D6C7CD3B32E361B Name="AnimationGraphEventReferences" Size="58">
+		<_41 Name="events file" Offset="0" Allowed="frms" Flags="0" />
+		<_40 Name="sound references" Offset="1C" GUID="62BA4FBF44FF5AD9CACD391D8BB4DB29" StructName1="AnimationGraphEventReferences" Min="0" Max="4096" />
+		<_40 Name="dialogue references" Offset="30" GUID="153AB5047E2418A6970CB5DAA6E98612" StructName1="AnimationGraphEventReferences" Min="0" Max="4096" />
+		<_40 Name="effect references" Offset="44" GUID="DC344E87BDB82602FAE0C8C7A9919561" StructName1="AnimationGraphEventReferences" Min="0" Max="4096" />
+	</_26224EC42FF66E3C4D6C7CD3B32E361B>
+	<_1A0B4B25EA5D63AEE5E0212FB543979C Name="AnimationGraphPCAReference" Size="1C">
+		<_41 Name="pca animation" Offset="0" Allowed="pcaa" Flags="0" />
+	</_1A0B4B25EA5D63AEE5E0212FB543979C>
+	<_A8A1454CA1BC3EC92CAC13688C893F2D Name="s_animation_graph_node" Size="18">
+		<_2 Name="name" Offset="0" />
+		<_2E Name="next sibling node index" Offset="4" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_graph_node" Min="0" Max="1024" />
+		<_2E Name="first child node index" Offset="6" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_graph_node" Min="0" Max="1024" />
+		<_2E Name="parent node index" Offset="8" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_graph_node" Min="0" Max="1024" />
+		<_E Name="model flags" Offset="A" StructName1="AnimationNodeModelFlags">
+			<Flag n="primary model" />
+			<Flag n="secondary model" />
+			<Flag n="local root" />
+			<Flag n="left hand" />
+			<Flag n="right hand" />
+			<Flag n="left arm member" />
+			<Flag n="detail joint" />
+		</_E>
+		<_14 Name="z_pos" Offset="C" />
+		<_6 Name="frame_ID1" Offset="10" />
+		<_6 Name="frame_ID2" Offset="14" />
+	</_A8A1454CA1BC3EC92CAC13688C893F2D>
+	<_4EF942A3342555EE6713E11581E1346D Name="s_animation_node_usage_entry" Size="4">
+		<_B Name="usage" Offset="0" StructName1="c_animation_node_usage">
+			<Flag n="physics control" />
+			<Flag n="camera control" />
+			<Flag n="origin marker" />
+			<Flag n="left clavicle" />
+			<Flag n="left upperarm" />
+			<Flag n="pose blend pitch" />
+			<Flag n="pose blend yaw" />
+			<Flag n="pedestal" />
+			<Flag n="pelvis" />
+			<Flag n="left foot" />
+			<Flag n="right foot" />
+			<Flag n="damage root gut" />
+			<Flag n="damage root chest" />
+			<Flag n="damage root head" />
+			<Flag n="damage root left shoulder" />
+			<Flag n="damage root left arm" />
+			<Flag n="damage root left leg" />
+			<Flag n="damage root left foot" />
+			<Flag n="damage root right shoulder" />
+			<Flag n="damage root right arm" />
+			<Flag n="damage root right leg" />
+			<Flag n="damage root right foot" />
+			<Flag n="left hand" />
+			<Flag n="right hand" />
+			<Flag n="weapon ik" />
+			<Flag n="head" />
+			<Flag n="helmet" />
+			<Flag n="right clavicle" />
+			<Flag n="left forearm" />
+			<Flag n="right forearm" />
+			<Flag n="left front foot" />
+			<Flag n="right front foot" />
+			<Flag n="left eye" />
+			<Flag n="right eye" />
+			<Flag n="overlay object space parent" />
+		</_B>
+		<_2E Name="node to use" Offset="2" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_node_usage_entry" Min="0" Max="1024" />
+	</_4EF942A3342555EE6713E11581E1346D>
+	<_6F224C2252C3A3B1E0F3E55389363C08 Name="s_animation_node_mask" Size="B4">
+		<_2 Name="name" Offset="0" />
+		<_E Name="flags" Offset="4" StructName1="NodeMaskFlags">
+			<Flag n="invert" />
+		</_E>
+		<_2E Name="chain start" Offset="6" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_node_mask" Min="0" Max="1024" />
+		<_40 Name="chain ends" Offset="8" GUID="6A2B4DED7A9DBE1FD964D836BE03214D" StructName1="s_animation_node_mask" Min="0" Max="1024" />
+		<_40 Name="nodes" Offset="1C" GUID="6A2B4DED7A9DBE1FD964D836BE03214D" StructName1="s_animation_node_mask" Min="0" Max="1024" />
+		<_2E Name="add nodes" Offset="30" GUID="6F224C2252C3A3B1E0F3E55389363C08" StructName1="s_animation_node_mask" Min="0" Max="32" />
+		<_2E Name="remove nodes" Offset="32" GUID="6F224C2252C3A3B1E0F3E55389363C08" StructName1="s_animation_node_mask" Min="0" Max="32" />
+		<_39 Name="node flags" Offset="34" GUID="31004754FA382E96C9AA134CA73B7ADD" Count="32" StructName1="node flags" />
+	</_6F224C2252C3A3B1E0F3E55389363C08>
+	<_C2BDFC6C3D28C66EE4DF4541E5E2ECC9 Name="AnimationGraphUserParameter" Size="C">
+		<_2 Name="name" Offset="0" />
+		<_14 Name="default value" Offset="4" />
+		<_F Name="flags" Offset="8" StructName1="UserParameterFlags">
+			<Flag n="SteppedCurve" />
+		</_F>
+		<_34 Name="generated_pad54cc" Offset="9" Length="3" />
+	</_C2BDFC6C3D28C66EE4DF4541E5E2ECC9>
+	<_000F4EBE661ABF225572CEE38A7B1CD6 Name="s_animation_userparam_mask" Size="60">
+		<_2 Name="name" Offset="0" />
+		<_E Name="flags" Offset="4" StructName1="NodeMaskFlags">
+			<Flag n="invert" />
+		</_E>
+		<_34 Name="generated_pade566" Offset="6" Length="2" />
+		<_40 Name="userparams" Offset="8" GUID="A0384CF8158DB9555275E7CC94F787A7" StructName1="s_animation_userparam_mask" Min="0" Max="512" />
+		<_2E Name="add nodes" Offset="1C" GUID="000F4EBE661ABF225572CEE38A7B1CD6" StructName1="s_animation_userparam_mask" Min="0" Max="32" />
+		<_2E Name="remove nodes" Offset="1E" GUID="000F4EBE661ABF225572CEE38A7B1CD6" StructName1="s_animation_userparam_mask" Min="0" Max="32" />
+		<_39 Name="user parameter flags" Offset="20" GUID="31004754FA382E96C9AA134CA73B7ADD" Count="16" StructName1="user parameter flags" />
+	</_000F4EBE661ABF225572CEE38A7B1CD6>
+	<_43A6438787FEEB30EE05E0C89ABEF9D1 Name="AnimationIKJunction" Size="10">
+		<_2 Name="name" Offset="0" />
+		<_2E Name="pivot node" Offset="4" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="AnimationIKJunction" Min="0" Max="1024" />
+		<_2E Name="parent junction" Offset="6" GUID="43A6438787FEEB30EE05E0C89ABEF9D1" StructName1="AnimationIKJunction" Min="0" Max="4" />
+		<_5 Name="supporting chain" Offset="8" />
+		<_2E Name="supporting node" Offset="A" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="AnimationIKJunction" Min="0" Max="1024" />
+		<_15 Name="pull passthrough" Offset="C" />
+	</_43A6438787FEEB30EE05E0C89ABEF9D1>
+	<_3B0B454AF1678803BA9D2A3F96C8B5D3 Name="s_animation_ik_chain" Size="68">
+		<_2 Name="name" Offset="0" />
+		<_B Name="type" Offset="4" StructName1="c_animation_ik_chain_type">
+			<Flag n="standard" />
+			<Flag n="spine" />
+			<Flag n="spline driven spine" />
+		</_B>
+		<_2E Name="start node" Offset="6" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_ik_chain" Min="0" Max="1024" />
+		<_2E Name="effector node" Offset="8" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_ik_chain" Min="0" Max="1024" />
+		<_2E Name="parent junction" Offset="A" GUID="43A6438787FEEB30EE05E0C89ABEF9D1" StructName1="s_animation_ik_chain" Min="0" Max="4" />
+		<_5 Name="rank" Offset="C" />
+		<_5 Name="antecedents" Offset="E" />
+		<_40 Name="special joints" Offset="10" GUID="6FE446DD5256FDE8BA9041B0903B15CE" StructName1="s_animation_ik_chain" Min="0" Max="32" />
+		<_36 Name="Pull settings" Offset="24" />
+		<_15 Name="native pull strength" Offset="24" />
+		<_15 Name="native push strength" Offset="28" />
+		<_15 Name="over extent pull strength" Offset="2C" />
+		<_15 Name="under extent push strength" Offset="30" />
+		<_36 Name="Effector Cone Limits" Offset="34" />
+		<_15 Name="effector cone limit power" Offset="34" />
+		<_24 Name="pitch bounds" Offset="38" />
+		<_24 Name="yaw bounds" Offset="40" />
+		<_25 Name="offset bounds" Offset="48" />
+		<_40 Name="full joint chain" Offset="50" GUID="6FE446DD5256FDE8BA9041B0903B15CE" StructName1="s_animation_ik_chain" Min="0" Max="32" />
+		<_15 Name="spline reversal strength" Offset="64" />
+	</_3B0B454AF1678803BA9D2A3F96C8B5D3>
+	<_C0094D9D6CF8A04C91FD07D6A7D93135 Name="s_animation_ik_leg_definition" Size="24">
+		<_30 Name="leg ik chain" Offset="0" GUID="3B0B454AF1678803BA9D2A3F96C8B5D3" StructName1="s_animation_ik_leg_definition" Min="0" Max="8" />
+		<_25 Name="standing compression limits" Offset="4" />
+		<_25 Name="crouching compression limits" Offset="C" />
+		<_25 Name="foot pitch limits" Offset="14" />
+		<_25 Name="foot yaw limits" Offset="1C" />
+	</_C0094D9D6CF8A04C91FD07D6A7D93135>
+	<_B6C449223241BB249A0DDE94B6FB45A1 Name="s_animation_ik_arm_definition" Size="10">
+		<_30 Name="arm ik chain" Offset="0" GUID="3B0B454AF1678803BA9D2A3F96C8B5D3" StructName1="s_animation_ik_arm_definition" Min="0" Max="8" />
+		<_14 Name="wrist break threshold" Offset="4" />
+		<_2 Name="fixup axis marker" Offset="8" />
+		<_14 Name="ik wrist break acceptable min angle" Offset="C" />
+	</_B6C449223241BB249A0DDE94B6FB45A1>
+	<_D36A4D89732332F9C36A39FC8815B353 Name="s_animation_ik_point" Size="28">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="source marker" Offset="4" />
+		<_C Name="attach to" Offset="8" StructName1="IKAttachmentTargetType">
+			<Flag n="parent" />
+			<Flag n="NYI any child" />
+			<Flag n="primary weapon" />
+			<Flag n="secondary weapon" />
+		</_C>
+		<_2 Name="destination marker" Offset="C" />
+		<_17 Name="pole marker" Offset="10" />
+		<_30 Name="chain to use" Offset="1C" GUID="3B0B454AF1678803BA9D2A3F96C8B5D3" StructName1="s_animation_ik_point" Min="0" Max="8" />
+		<_37 Name="" type="coff" Offset="20" />
+		<_2 Name="weight source object function" Offset="20" />
+		<_37 Name="" type="coff" Offset="24" />
+		<_2 Name="priority source object function" Offset="24" />
+	</_D36A4D89732332F9C36A39FC8815B353>
+	<_C0D04CDFBC56DF325E7C50D8BC3D6BF1 Name="s_animation_ik_set" Size="1C">
+		<_2 Name="name" Offset="0" />
+		<_D Name="flags" Offset="4" StructName1="IKSetFlags">
+			<Flag n="Disable Quadruped Footlocking" />
+			<Flag n="Enable Biped Handlocking" />
+		</_D>
+		<_40 Name="ik points" Offset="8" GUID="59874CF7B344E2EDFB3DEA228590B239" StructName1="s_animation_ik_set" Min="0" Max="8" />
+	</_C0D04CDFBC56DF325E7C50D8BC3D6BF1>
+	<_F9984F694A249F4D1E706D3A9600A535 Name="i343::Animation::IKGroundFittingChain" Size="14">
+		<_36 Name="Chain Drivers" Offset="0" />
+		<_30 Name="start junction" Offset="0" GUID="43A6438787FEEB30EE05E0C89ABEF9D1" StructName1="i343::Animation::IKGroundFittingChain" Min="0" Max="4" />
+		<_30 Name="end junction" Offset="4" GUID="43A6438787FEEB30EE05E0C89ABEF9D1" StructName1="i343::Animation::IKGroundFittingChain" Min="0" Max="4" />
+		<_14 Name="probe distance" Offset="8" />
+		<_14 Name="angle threshold" Offset="C" />
+		<_14 Name="maximum rate" Offset="10" />
+	</_F9984F694A249F4D1E706D3A9600A535>
+	<_859E43BF63E4C89FC32298C28CF9355D Name="i343::Animation::FirstPersonOverlayChannelSliderWeightFunctionMap" Size="8">
+		<_36 Name="FIRST PERSON OVERLAY CHANNEL WEIGHT SCALING" Offset="0" />
+		<_2 Name="overlay animation name" type="sted" Offset="0" />
+		<_37 Name="" type="coff" Offset="4" />
+		<_2 Name="channel weight scale source" type="sted" Offset="4" />
+	</_859E43BF63E4C89FC32298C28CF9355D>
+	<_686F47A2288464EF9588326695306B80 Name="AnimationResourceIndex" Size="4">
+		<_2E Name="resource group" Offset="0" GUID="26C74AF547846C50972458F68CBDED72" StructName1="AnimationResourceIndex" Min="0" Max="12288" />
+		<_5 Name="resource member index" Offset="2" />
+	</_686F47A2288464EF9588326695306B80>
+	<_0089498E400515734733185098DE188D Name="PCAGroupSettings" Size="24">
+		<_2 Name="Group Name" Offset="0" />
+		<_6 Name="Desired Mesh Count" Offset="4" />
+		<_36 Name="PCA Component Importance" Offset="8" />
+		<_19 Name="Position Importance Scale" Offset="8" />
+		<_18 Name="Normal Importance Scale" Offset="14" />
+		<_18 Name="Tension Importance Scale" Offset="1C" />
+	</_0089498E400515734733185098DE188D>
+	<_9B0A4844168DE62EE440F78E8A388EE4 Name="CompositeAxis" Size="44">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="animation source" Offset="4" />
+		<_37 Name="" type="coff" Offset="8" />
+		<_2 Name="input function" Offset="8" />
+		<_25 Name="animation bounds" Offset="C" />
+		<_25 Name="input bounds" Offset="14" />
+		<_25 Name="clamp bounds" Offset="1C" />
+		<_14 Name="blend limit" Offset="24" />
+		<_40 Name="dead zones" Offset="28" GUID="2C9E462F48E34FCAFFF4A197AD47F2DC" StructName1="CompositeAxis" Min="0" Max="16" />
+		<_3C Name="divisions" Offset="3C" />
+		<_3C Name="priority" Offset="3D" />
+		<_3C Name="update" Offset="3E" />
+		<_3C Name="functionIndex" Offset="3F" />
+		<_D Name="flags" Offset="40" StructName1="c_composite_axis_flags">
+			<Flag n="wrapped" />
+			<Flag n="clamped" />
+		</_D>
+	</_9B0A4844168DE62EE440F78E8A388EE4>
+	<_E025466376AF98750EEE3D79A0BF321B Name="CompositeEntry" Size="20">
+		<_2 Name="source" Offset="0" />
+		<_40 Name="values" Offset="4" GUID="E3824A072C6E4B321FF851B6B95A6F5D" StructName1="CompositeEntry" Min="0" Max="16" />
+		<_6 Name="overridden" Offset="18" />
+		<_5 Name="animIndex" Offset="1C" />
+		<_3C Name="slideAxis" Offset="1E" />
+		<_34 Name="generated_padd329" Offset="1F" Length="1" />
+	</_E025466376AF98750EEE3D79A0BF321B>
+	<_07ED44201C6DD71A5F2604DA97E43A00 Name="CompositePhaseSet" Size="A0">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="timing source" Offset="4" />
+		<_40 Name="sync points" Offset="8" GUID="FAD949D9FB3CC58F357D10858879258F" StructName1="CompositePhaseSet" Min="0" Max="8" />
+		<_42 Name="sync frames" Offset="1C" StructName1="CompositePhaseSet.sync frames" Int1="0" Int2="0" Flags="400" />
+		<_42 Name="facets" Offset="34" StructName1="CompositePhaseSet.facets" Int1="0" Int2="0" Flags="400" />
+		<_42 Name="neighbors" Offset="4C" StructName1="CompositePhaseSet.neighbors" Int1="0" Int2="0" Flags="400" />
+		<_42 Name="containment" Offset="64" StructName1="CompositePhaseSet.containment" Int1="0" Int2="0" Flags="400" />
+		<_42 Name="example grid" Offset="7C" StructName1="CompositePhaseSet.example grid" Int1="0" Int2="0" Flags="800" />
+		<_25 Name="normalized bounds" Offset="94" />
+		<_3C Name="offset" Offset="9C" />
+		<_34 Name="generated_pad597a" Offset="9D" Length="1" />
+		<_5 Name="timingAnimIndex" Offset="9E" />
+	</_07ED44201C6DD71A5F2604DA97E43A00>
+	<_EA3C4FFDB75016D85680313287191515 Name="AnimationOrDefaultStringIDBlockType" Size="4">
+		<_2 Name="name" Offset="0" />
+	</_EA3C4FFDB75016D85680313287191515>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+	<_858248DE4A044829CE9548D6AEF43025 Name="c_animation_id" Size="4">
+		<_2E Name="parent graph" Offset="0" GUID="612F4D9DA25A6F65C739D346BF01F414" StructName1="c_animation_id" Min="0" Max="256" />
+		<_2F Name="animation" Offset="2" />
+	</_858248DE4A044829CE9548D6AEF43025>
+	<_E4964C6BE8D056F950267C7BB217CB43 Name="s_blend_screen_item" Size="6">
+		<_2E Name="blend screen" Offset="0" GUID="33704B09A19A4F54CBDA74EE8889289B" StructName1="s_blend_screen_item" Min="0" Max="1024" />
+		<_E Name="flags" Offset="2" StructName1="c_overlay_group_item_definition_flags">
+			<Flag n="disable" />
+		</_E>
+		<_2E Name="node mask" Offset="4" GUID="6F224C2252C3A3B1E0F3E55389363C08" StructName1="s_blend_screen_item" Min="0" Max="32" />
+	</_E4964C6BE8D056F950267C7BB217CB43>
+	<_ED3344A688CDC66F49C999559832DB93 Name="s_function_overlay_item" Size="4">
+		<_2E Name="function overlay" Offset="0" GUID="40FD4B0691C2724442BF1AB9ACBDAAB1" StructName1="s_function_overlay_item" Min="0" Max="32" />
+		<_E Name="flags" Offset="2" StructName1="c_overlay_group_item_definition_flags">
+			<Flag n="disable" />
+		</_E>
+	</_ED3344A688CDC66F49C999559832DB93>
+	<_E2F442BB2DF76527D3448217878FF74F Name="AnimationInterpolationEntry" Size="4">
+		<_30 Name="interpolator" Offset="0" GUID="6B0241138DD55035B2B7B7B5831A13DB" StructName1="AnimationInterpolationEntry" Min="0" Max="256" />
+	</_E2F442BB2DF76527D3448217878FF74F>
+	<_369245FFC7C10AFC3A3A5FA68F012522 Name="s_mode_or_stance_alias" Size="8">
+		<_2 Name="mode or stance" Offset="0" />
+		<_2 Name="alias" Offset="4" />
+	</_369245FFC7C10AFC3A3A5FA68F012522>
+	<_D23D4E204ECAAE41F261D1BBAAF8CE65 Name="c_weapon_class" Size="58">
+		<_2 Name="label" Offset="0" />
+		<_2E Name="overlay group" Offset="4" GUID="AD92455CB0C28EAA116D2507BCF71470" StructName1="c_weapon_class" Min="0" Max="1056" />
+		<_2E Name="ik set" Offset="6" GUID="C0D04CDFBC56DF325E7C50D8BC3D6BF1" StructName1="c_weapon_class" Min="0" Max="32" />
+		<_40 Name="weapon type" Offset="8" GUID="57964DFD8238C4F449275A4A95379F24" StructName1="c_weapon_class" Min="0" Max="64" />
+		<_40 Name="weapon ik" Offset="1C" GUID="24ED45D8298A3519956878DDB9C03830" StructName1="c_weapon_class" Min="0" Max="64" />
+		<_40 Name="ranged actions" Offset="30" GUID="09CE456195A9A8F2A6B04BCFB1077B2B" StructName1="c_weapon_class" Min="0" Max="16" />
+		<_40 Name="sync actions groups" Offset="44" GUID="77E847EF9718D376311586508249C13C" StructName1="c_weapon_class" Min="0" Max="128" />
+	</_D23D4E204ECAAE41F261D1BBAAF8CE65>
+	<_24ED45D8298A3519956878DDB9C03830 Name="s_animation_ik_point_v1" Size="10">
+		<_37 Name="" type="amkr" Offset="0" />
+		<_2 Name="marker" Offset="0" />
+		<_37 Name="" type="amkr" Offset="4" />
+		<_2 Name="attach to marker" Offset="4" />
+		<_37 Name="" type="coff" Offset="8" />
+		<_2 Name="weight source object function" Offset="8" />
+		<_37 Name="" type="coff" Offset="C" />
+		<_2 Name="priority source object function" Offset="C" />
+	</_24ED45D8298A3519956878DDB9C03830>
+	<_BB494C5CF84A790E9758A12CA5D85B12 Name="c_model_animation_tag_resource_member" Size="18C">
+		<_2 Name="name" Offset="0" />
+		<_3E Name="animation_checksum" Offset="4" />
+		<_5 Name="frame count" Offset="8" />
+		<_3D Name="node count" Offset="A" />
+		<_A Name="movement_data_type" Offset="C" StructName1="c_animation_frame_info_type">
+			<Flag n="none" />
+			<Flag n="dx,dy" />
+			<Flag n="dx,dy,dyaw" />
+			<Flag n="dx,dy,dz,dyaw" />
+			<Flag n="dx,dy,dz,dangle-axis" />
+			<Flag n="x,y,z - absolute" />
+			<Flag n="auto" />
+		</_A>
+		<_34 Name="generated_pad63bf" Offset="D" Length="3" />
+		<_38 Name="data blocks" Offset="10" GUID="525D45A0E35A164D3F26614F83A4523E" />
+		<_38 Name="data sizes" Offset="128" GUID="840641F21FBE28A202D54A2E8852141E" />
+		<_42 Name="animation_data" Offset="174" StructName1="c_model_animation_tag_resource_member.animation_data" Int1="0" Int2="4" Flags="84E5D90" />
+	</_BB494C5CF84A790E9758A12CA5D85B12>
+	<_8E12471CBE3BF367920CDCF08AC19374 Name="c_quantized_quaternion_8byte_revised" Size="8">
+		<_5 Name="i" Offset="0" />
+		<_5 Name="j" Offset="2" />
+		<_5 Name="k" Offset="4" />
+		<_5 Name="w" Offset="6" />
+	</_8E12471CBE3BF367920CDCF08AC19374>
+	<_59DD4D8E85720F55298BB47290AC3678 Name="SharedStaticDataCodecTranslation" Size="C">
+		<_14 Name="x" Offset="0" />
+		<_14 Name="y" Offset="4" />
+		<_14 Name="z" Offset="8" />
+	</_59DD4D8E85720F55298BB47290AC3678>
+	<_522744404269C49331AA1D26A14084B5 Name="SharedStaticDataCodecScale" Size="4">
+		<_14 Name="scale" Offset="0" />
+	</_522744404269C49331AA1D26A14084B5>
+	<_612F4D9DA25A6F65C739D346BF01F414 Name="AnimationGraphParentData" Size="68">
+		<_41 Name="parent graph" Offset="0" Allowed="jmad" Flags="0" />
+		<_D Name="inheritance_flags" Offset="1C" StructName1="AnimationGraphInheritanceFlags">
+			<Flag n="inherit root trans scale only" />
+			<Flag n="inherit for use on player" />
+		</_D>
+		<_40 Name="node map" type="slap" Offset="20" GUID="215248B51268AB4EA15E169F946D03DB" StructName1="AnimationGraphParentData" Min="0" Max="1024" />
+		<_40 Name="node map flags" type="slap" Offset="34" GUID="0F524FC03ED77110168D8C7FA34B0BE3" StructName1="AnimationGraphParentData" Min="0" Max="1024" />
+		<_14 Name="uniform translation scale" Offset="48" />
+		<_6 Name="alias index" Offset="4C" />
+		<_6 Name="base index" Offset="50" />
+		<_40 Name="temp anim list" type="slap" Offset="54" GUID="3278434A32722AA4BC48C131ABF79D87" StructName1="AnimationGraphParentData" Min="0" Max="4096" />
+	</_612F4D9DA25A6F65C739D346BF01F414>
+	<_62BA4FBF44FF5AD9CACD391D8BB4DB29 Name="SoundEventReferenceSet" Size="18">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="sounds" Offset="4" GUID="0ED046283B0B92F2A8A93A27A1DBB76E" StructName1="SoundEventReferenceSet" Min="0" Max="256" />
+	</_62BA4FBF44FF5AD9CACD391D8BB4DB29>
+	<_153AB5047E2418A6970CB5DAA6E98612 Name="AnimationGraphDialogueReference" Size="8">
+		<_2 Name="vocalization name" Offset="0" />
+		<_A Name="play restriction" Offset="4" StructName1="eDialoguePlayRestriction">
+			<Flag n="Unrestricted" />
+			<Flag n="Only With Shield" />
+			<Flag n="Only With Shield Empty" />
+		</_A>
+		<_34 Name="generated_padf213" Offset="5" Length="3" />
+	</_153AB5047E2418A6970CB5DAA6E98612>
+	<_DC344E87BDB82602FAE0C8C7A9919561 Name="EffectEventReferenceSet" Size="18">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="effects" Offset="4" GUID="CA1C43884D6A825DD3DDF65DB4C05693" StructName1="EffectEventReferenceSet" Min="0" Max="256" />
+	</_DC344E87BDB82602FAE0C8C7A9919561>
+	<_6A2B4DED7A9DBE1FD964D836BE03214D Name="s_animation_node_mask_entry" Size="2">
+		<_2E Name="node" Offset="0" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_node_mask_entry" Min="0" Max="1024" />
+	</_6A2B4DED7A9DBE1FD964D836BE03214D>
+	<_A0384CF8158DB9555275E7CC94F787A7 Name="s_animation_userparam_mask_entry" Size="2">
+		<_2E Name="userparam index" Offset="0" GUID="C2BDFC6C3D28C66EE4DF4541E5E2ECC9" StructName1="s_animation_userparam_mask_entry" Min="0" Max="512" />
+	</_A0384CF8158DB9555275E7CC94F787A7>
+	<_6FE446DD5256FDE8BA9041B0903B15CE Name="AnimationIKJoint" Size="4">
+		<_2E Name="joint index" Offset="0" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="AnimationIKJoint" Min="0" Max="1024" />
+		<_E Name="flags" Offset="2" StructName1="AnimationIKJointFlags">
+			<Flag n="static" />
+			<Flag n="hinge" />
+		</_E>
+	</_6FE446DD5256FDE8BA9041B0903B15CE>
+	<_59874CF7B344E2EDFB3DEA228590B239 Name="s_animation_ik_set_item" Size="4">
+		<_2E Name="ik point" Offset="0" GUID="D36A4D89732332F9C36A39FC8815B353" StructName1="s_animation_ik_set_item" Min="0" Max="64" />
+		<_E Name="flags" Offset="2" StructName1="IKSetItemFlags">
+			<Flag n="disable" />
+		</_E>
+	</_59874CF7B344E2EDFB3DEA228590B239>
+	<_2C9E462F48E34FCAFFF4A197AD47F2DC Name="CompositeDeadZone" Size="1C">
+		<_25 Name="bounds" Offset="0" />
+		<_14 Name="rate" Offset="8" />
+		<_14 Name="center" Offset="C" />
+		<_14 Name="radius" Offset="10" />
+		<_14 Name="amount" Offset="14" />
+		<_14 Name="delay" Offset="18" />
+	</_2C9E462F48E34FCAFFF4A197AD47F2DC>
+	<_E3824A072C6E4B321FF851B6B95A6F5D Name="CompositeEntryValue" Size="4">
+		<_14 Name="value" Offset="0" />
+	</_E3824A072C6E4B321FF851B6B95A6F5D>
+	<_FAD949D9FB3CC58F357D10858879258F Name="SyncKey" Size="2">
+		<_B Name="key" Offset="0" StructName1="AnimationFrameEventType">
+			<Flag n="none" />
+			<Flag n="primary_keyframe" />
+			<Flag n="secondary_keyframe" />
+			<Flag n="tertiary_keyframe" />
+			<Flag n="left_foot" />
+			<Flag n="right_foot" />
+			<Flag n="allow_interruption" />
+			<Flag n="do_not_allow_interruption" />
+			<Flag n="both_feet_shuffle" />
+			<Flag n="body_impact" />
+			<Flag n="left_foot_lock" />
+			<Flag n="left_foot_unlock" />
+			<Flag n="right_foot_lock" />
+			<Flag n="right_foot_unlock" />
+			<Flag n="blend_range_marker" />
+			<Flag n="stride_expansion" />
+			<Flag n="stride_contraction" />
+			<Flag n="ragdoll_keyframe" />
+			<Flag n="drop_weapon_keyframe" />
+			<Flag n="match_a" />
+			<Flag n="match_b" />
+			<Flag n="match_c" />
+			<Flag n="match_d" />
+			<Flag n="jetpack_closed" />
+			<Flag n="jetpack_open" />
+			<Flag n="sound_event" />
+			<Flag n="effect_event" />
+			<Flag n="left_hand" />
+			<Flag n="right_hand" />
+			<Flag n="grenade" />
+			<Flag n="melee" />
+			<Flag n="interact_device" />
+			<Flag n="shield_raise" />
+			<Flag n="activate_equipment" />
+			<Flag n="aoe_attack" />
+			<Flag n="equipment" />
+			<Flag n="jink_fire" />
+			<Flag n="align_to_target" />
+			<Flag n="block_exiting" />
+			<Flag n="set_interruptable" />
+			<Flag n="disable_shooting" />
+			<Flag n="re_enable_shooting" />
+			<Flag n="skip_crouch_transition" />
+			<Flag n="start_bamf" />
+			<Flag n="end_bamf" />
+			<Flag n="hide" />
+			<Flag n="frame_attachment_objects_show" />
+			<Flag n="frame_attachment_objects_hide" />
+			<Flag n="creature_physics_mode_change" />
+			<Flag n="melee_range" />
+			<Flag n="frame_attachment_switch_to_secondary_parent_marker" />
+			<Flag n="frame_attachment_switch_to_default_parent_marker" />
+			<Flag n="allow_sprint_interrupt" />
+			<Flag n="hide_3p_primary_weapon" />
+			<Flag n="show_3p_primary_weapon" />
+		</_B>
+	</_FAD949D9FB3CC58F357D10858879258F>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+	<_57964DFD8238C4F449275A4A95379F24 Name="c_weapon_type" Size="1C">
+		<_2 Name="label" Offset="0" />
+		<_2E Name="overlay group" Offset="4" GUID="AD92455CB0C28EAA116D2507BCF71470" StructName1="c_weapon_type" Min="0" Max="1056" />
+		<_2E Name="ik set" Offset="6" GUID="C0D04CDFBC56DF325E7C50D8BC3D6BF1" StructName1="c_weapon_type" Min="0" Max="32" />
+		<_40 Name="sets" Offset="8" GUID="96FE4EBE76D6B7C8FD2B9FDAA4EA7C64" StructName1="c_weapon_type" Min="0" Max="64" />
+	</_57964DFD8238C4F449275A4A95379F24>
+	<_09CE456195A9A8F2A6B04BCFB1077B2B Name="s_animation_ranged_action" Size="34">
+		<_2 Name="label" Offset="0" />
+		<_40 Name="animations" Offset="4" GUID="A1C6432B951AB02D7BBE629D96E32919" StructName1="s_animation_ranged_action" Min="0" Max="256" />
+		<_40 Name="triangulation data" Offset="18" GUID="381A41C58234CC8BE104828789E7A030" StructName1="s_animation_ranged_action" Min="0" Max="1" />
+		<_B Name="horizontal source" Offset="2C" StructName1="c_animation_ranged_action_variable_source">
+			<Flag n="none" />
+			<Flag n="offset x" />
+			<Flag n="offset y" />
+			<Flag n="offset z" />
+			<Flag n="offset horizontal" />
+			<Flag n="negative offset x" />
+			<Flag n="negative offset y" />
+		</_B>
+		<_B Name="vertical source" Offset="2E" StructName1="c_animation_ranged_action_variable_source">
+			<Flag n="none" />
+			<Flag n="offset x" />
+			<Flag n="offset y" />
+			<Flag n="offset z" />
+			<Flag n="offset horizontal" />
+			<Flag n="negative offset x" />
+			<Flag n="negative offset y" />
+		</_B>
+		<_B Name="start key" Offset="30" StructName1="AnimationFrameEventType">
+			<Flag n="none" />
+			<Flag n="primary_keyframe" />
+			<Flag n="secondary_keyframe" />
+			<Flag n="tertiary_keyframe" />
+			<Flag n="left_foot" />
+			<Flag n="right_foot" />
+			<Flag n="allow_interruption" />
+			<Flag n="do_not_allow_interruption" />
+			<Flag n="both_feet_shuffle" />
+			<Flag n="body_impact" />
+			<Flag n="left_foot_lock" />
+			<Flag n="left_foot_unlock" />
+			<Flag n="right_foot_lock" />
+			<Flag n="right_foot_unlock" />
+			<Flag n="blend_range_marker" />
+			<Flag n="stride_expansion" />
+			<Flag n="stride_contraction" />
+			<Flag n="ragdoll_keyframe" />
+			<Flag n="drop_weapon_keyframe" />
+			<Flag n="match_a" />
+			<Flag n="match_b" />
+			<Flag n="match_c" />
+			<Flag n="match_d" />
+			<Flag n="jetpack_closed" />
+			<Flag n="jetpack_open" />
+			<Flag n="sound_event" />
+			<Flag n="effect_event" />
+			<Flag n="left_hand" />
+			<Flag n="right_hand" />
+			<Flag n="grenade" />
+			<Flag n="melee" />
+			<Flag n="interact_device" />
+			<Flag n="shield_raise" />
+			<Flag n="activate_equipment" />
+			<Flag n="aoe_attack" />
+			<Flag n="equipment" />
+			<Flag n="jink_fire" />
+			<Flag n="align_to_target" />
+			<Flag n="block_exiting" />
+			<Flag n="set_interruptable" />
+			<Flag n="disable_shooting" />
+			<Flag n="re_enable_shooting" />
+			<Flag n="skip_crouch_transition" />
+			<Flag n="start_bamf" />
+			<Flag n="end_bamf" />
+			<Flag n="hide" />
+			<Flag n="frame_attachment_objects_show" />
+			<Flag n="frame_attachment_objects_hide" />
+			<Flag n="creature_physics_mode_change" />
+			<Flag n="melee_range" />
+			<Flag n="frame_attachment_switch_to_secondary_parent_marker" />
+			<Flag n="frame_attachment_switch_to_default_parent_marker" />
+			<Flag n="allow_sprint_interrupt" />
+			<Flag n="hide_3p_primary_weapon" />
+			<Flag n="show_3p_primary_weapon" />
+		</_B>
+		<_B Name="end key" Offset="32" StructName1="AnimationFrameEventType">
+			<Flag n="none" />
+			<Flag n="primary_keyframe" />
+			<Flag n="secondary_keyframe" />
+			<Flag n="tertiary_keyframe" />
+			<Flag n="left_foot" />
+			<Flag n="right_foot" />
+			<Flag n="allow_interruption" />
+			<Flag n="do_not_allow_interruption" />
+			<Flag n="both_feet_shuffle" />
+			<Flag n="body_impact" />
+			<Flag n="left_foot_lock" />
+			<Flag n="left_foot_unlock" />
+			<Flag n="right_foot_lock" />
+			<Flag n="right_foot_unlock" />
+			<Flag n="blend_range_marker" />
+			<Flag n="stride_expansion" />
+			<Flag n="stride_contraction" />
+			<Flag n="ragdoll_keyframe" />
+			<Flag n="drop_weapon_keyframe" />
+			<Flag n="match_a" />
+			<Flag n="match_b" />
+			<Flag n="match_c" />
+			<Flag n="match_d" />
+			<Flag n="jetpack_closed" />
+			<Flag n="jetpack_open" />
+			<Flag n="sound_event" />
+			<Flag n="effect_event" />
+			<Flag n="left_hand" />
+			<Flag n="right_hand" />
+			<Flag n="grenade" />
+			<Flag n="melee" />
+			<Flag n="interact_device" />
+			<Flag n="shield_raise" />
+			<Flag n="activate_equipment" />
+			<Flag n="aoe_attack" />
+			<Flag n="equipment" />
+			<Flag n="jink_fire" />
+			<Flag n="align_to_target" />
+			<Flag n="block_exiting" />
+			<Flag n="set_interruptable" />
+			<Flag n="disable_shooting" />
+			<Flag n="re_enable_shooting" />
+			<Flag n="skip_crouch_transition" />
+			<Flag n="start_bamf" />
+			<Flag n="end_bamf" />
+			<Flag n="hide" />
+			<Flag n="frame_attachment_objects_show" />
+			<Flag n="frame_attachment_objects_hide" />
+			<Flag n="creature_physics_mode_change" />
+			<Flag n="melee_range" />
+			<Flag n="frame_attachment_switch_to_secondary_parent_marker" />
+			<Flag n="frame_attachment_switch_to_default_parent_marker" />
+			<Flag n="allow_sprint_interrupt" />
+			<Flag n="hide_3p_primary_weapon" />
+			<Flag n="show_3p_primary_weapon" />
+		</_B>
+	</_09CE456195A9A8F2A6B04BCFB1077B2B>
+	<_77E847EF9718D376311586508249C13C Name="s_animation_sync_action_group" Size="18">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="sync actions" Offset="4" GUID="72E64BF0BDCF8448E77BBEFBA4F898C8" StructName1="s_animation_sync_action_group" Min="0" Max="32" />
+	</_77E847EF9718D376311586508249C13C>
+	<_525D45A0E35A164D3F26614F83A4523E Name="AnimationEventBlocks" Size="118">
+		<_36 Name="a" Offset="0" />
+		<_40 Name="frame events" Offset="0" GUID="086345404B5424547CF531E194899D46" StructName1="AnimationEventBlocks" Min="0" Max="512" />
+		<_40 Name="sound events" Offset="14" GUID="13E84535B35BC4A28C7AEE2F99DC4BB0" StructName1="AnimationEventBlocks" Min="0" Max="512" />
+		<_40 Name="effect events" Offset="28" GUID="8A8342C9E4CD073073E441C9B1A8EE0B" StructName1="AnimationEventBlocks" Min="0" Max="512" />
+		<_40 Name="dialogue events" Offset="3C" GUID="9AAD473C2A844863D1BF6F0E93A75C3E" StructName1="AnimationEventBlocks" Min="0" Max="512" />
+		<_36 Name="b" Offset="50" />
+		<_40 Name="object-space parent nodes" Offset="50" GUID="04C147A127BCCD47FA16E7029D4D4A77" StructName1="AnimationEventBlocks" Min="0" Max="1024" />
+		<_40 Name="object space offset nodes" Offset="64" GUID="00154F22F10FB882BBEBAE8A8BF8942F" StructName1="AnimationEventBlocks" Min="0" Max="16" />
+		<_40 Name="forward-invert kinetic anchor nodes" Offset="78" GUID="B26A414B34216E16926F5CFFA0C0515C" StructName1="AnimationEventBlocks" Min="0" Max="5" />
+		<_40 Name="ik chain events" Offset="8C" GUID="2C2B4D5E093101E5699BE416B71AF5DE" StructName1="AnimationEventBlocks" Min="0" Max="32" />
+		<_40 Name="ik chain proxies" Offset="A0" GUID="038D4FBBCC1A00C4A19647E08F1F3051" StructName1="AnimationEventBlocks" Min="0" Max="16" />
+		<_40 Name="facial wrinkle events" Offset="B4" GUID="41204C755D78B2BAA7383DE1AAC24254" StructName1="AnimationEventBlocks" Min="0" Max="32" />
+		<_40 Name="extended data events" Offset="C8" GUID="876B4FA920B7F5412667B4FAAD5F76AC" StructName1="AnimationEventBlocks" Min="0" Max="32" />
+		<_40 Name="animation object functions" Offset="DC" GUID="FC974C482C6B2EE2EBF8E9149127F7F0" StructName1="AnimationEventBlocks" Min="0" Max="4" />
+		<_40 Name="key orientations" Offset="F0" GUID="242447FBB78775108D84DFE8B8C1E705" StructName1="AnimationEventBlocks" Min="0" Max="1" />
+		<_40 Name="reference orientations" Offset="104" GUID="CA52447FA7063B3FE5917264A1733B29" StructName1="AnimationEventBlocks" Min="0" Max="1024" />
+	</_525D45A0E35A164D3F26614F83A4523E>
+	<_840641F21FBE28A202D54A2E8852141E Name="c_animation_data_sizes" Size="4C">
+		<_36 Name="Bad Names Warning" Offset="0" />
+		<_6 Name="static_node_flags" Offset="0" />
+		<_6 Name="animated_node_flags" Offset="4" />
+		<_6 Name="movement_data" Offset="8" />
+		<_6 Name="pill_offset_data" Offset="C" />
+		<_6 Name="default_data" Offset="10" />
+		<_6 Name="uncompressed_data" Offset="14" />
+		<_6 Name="compressed_data" Offset="18" />
+		<_6 Name="blend_screen_data" Offset="1C" />
+		<_6 Name="object_space_offset_data" Offset="20" />
+		<_6 Name="ik_chain_event_data" Offset="24" />
+		<_6 Name="ik_chain_control_data" Offset="28" />
+		<_6 Name="ik_chain_proxy_data" Offset="2C" />
+		<_6 Name="ik_chain_pole_vector_data" Offset="30" />
+		<_6 Name="uncompressed_object_space_data" Offset="34" />
+		<_6 Name="fik_anchor_data" Offset="38" />
+		<_6 Name="uncompressed_object_space_node_flags" Offset="3C" />
+		<_6 Name="compressed_event_curve" Offset="40" />
+		<_6 Name="compressed_static_pose" Offset="44" />
+		<_6 Name="user_parameter" Offset="48" />
+	</_840641F21FBE28A202D54A2E8852141E>
+	<_215248B51268AB4EA15E169F946D03DB Name="InheritedAnimationNodeMap" Size="2">
+		<_5 Name="local node" Offset="0" />
+	</_215248B51268AB4EA15E169F946D03DB>
+	<_0F524FC03ED77110168D8C7FA34B0BE3 Name="InheritedAnimationNodeMapFlag" Size="4">
+		<_3E Name="local node flags" Offset="0" />
+	</_0F524FC03ED77110168D8C7FA34B0BE3>
+	<_3278434A32722AA4BC48C131ABF79D87 Name="InheritedAnimationData" Size="4">
+		<_2 Name="name" Offset="0" />
+	</_3278434A32722AA4BC48C131ABF79D87>
+	<_0ED046283B0B92F2A8A93A27A1DBB76E Name="SoundEventReference" Size="60">
+		<_41 Name="sound" Offset="0" Allowed="snd!" Flags="0" />
+		<_E Name="flags" Offset="1C" StructName1="c_animation_key_event_flags">
+			<Flag n="allow on player" />
+			<Flag n="left arm only" />
+			<Flag n="right arm only" />
+			<Flag n="first-person only" />
+			<Flag n="third-person only" />
+			<Flag n="forward only" />
+			<Flag n="reverse only" />
+			<Flag n="fp no aged weapons" />
+		</_E>
+		<_34 Name="generated_padeb82" Offset="1E" Length="2" />
+		<_41 Name="model" Offset="20" Allowed="hlmt" Flags="1" />
+		<_2 Name="model variant" Offset="3C" />
+		<_41 Name="weapon" Offset="40" Allowed="weap" Flags="1" />
+		<_2 Name="weapon variant" Offset="5C" />
+	</_0ED046283B0B92F2A8A93A27A1DBB76E>
+	<_CA1C43884D6A825DD3DDF65DB4C05693 Name="EffectEventReference" Size="60">
+		<_41 Name="effect" Offset="0" Allowed="effe" Flags="0" />
+		<_E Name="flags" Offset="1C" StructName1="c_animation_key_event_flags">
+			<Flag n="allow on player" />
+			<Flag n="left arm only" />
+			<Flag n="right arm only" />
+			<Flag n="first-person only" />
+			<Flag n="third-person only" />
+			<Flag n="forward only" />
+			<Flag n="reverse only" />
+			<Flag n="fp no aged weapons" />
+		</_E>
+		<_34 Name="generated_pad9456" Offset="1E" Length="2" />
+		<_41 Name="model" Offset="20" Allowed="hlmt" Flags="1" />
+		<_2 Name="model variant" Offset="3C" />
+		<_41 Name="weapon" Offset="40" Allowed="weap" Flags="1" />
+		<_2 Name="weapon variant" Offset="5C" />
+	</_CA1C43884D6A825DD3DDF65DB4C05693>
+	<_96FE4EBE76D6B7C8FD2B9FDAA4EA7C64 Name="c_animation_set" Size="6C">
+		<_2 Name="label" Offset="0" />
+		<_2E Name="overlay group" Offset="4" GUID="AD92455CB0C28EAA116D2507BCF71470" StructName1="c_animation_set" Min="0" Max="1056" />
+		<_2E Name="ik set" Offset="6" GUID="C0D04CDFBC56DF325E7C50D8BC3D6BF1" StructName1="c_animation_set" Min="0" Max="32" />
+		<_40 Name="actions" Offset="8" GUID="B4F24A9BED6254573C760EF5864B5469" StructName1="c_animation_set" Min="0" Max="256" />
+		<_40 Name="overlay animations" Offset="1C" GUID="B4F24A9BED6254573C760EF5864B5469" StructName1="c_animation_set" Min="0" Max="256" />
+		<_40 Name="death and damage" Offset="30" GUID="68F24D9F3ACB8A45727902FDA55254BA" StructName1="c_animation_set" Min="0" Max="8" />
+		<_40 Name="transitions" Offset="44" GUID="4CB746B821A980DD14E7A714AB7E811F" StructName1="c_animation_set" Min="0" Max="256" />
+		<_40 Name="velocity boundaries" Offset="58" GUID="0F92412A7DB78F2373473212A5FFBF86" StructName1="c_animation_set" Min="0" Max="1" />
+	</_96FE4EBE76D6B7C8FD2B9FDAA4EA7C64>
+	<_A1C6432B951AB02D7BBE629D96E32919 Name="s_ranged_animation_entry" Size="10">
+		<_2E Name="overlay group" Offset="0" GUID="AD92455CB0C28EAA116D2507BCF71470" StructName1="s_ranged_animation_entry" Min="0" Max="1056" />
+		<_2E Name="ik set" Offset="2" GUID="C0D04CDFBC56DF325E7C50D8BC3D6BF1" StructName1="s_ranged_animation_entry" Min="0" Max="32" />
+		<_38 Name="animation" Offset="4" GUID="858248DE4A044829CE9548D6AEF43025" />
+		<_14 Name="animation parameter" Offset="8" />
+		<_14 Name="animation parameter b" Offset="C" />
+	</_A1C6432B951AB02D7BBE629D96E32919>
+	<_381A41C58234CC8BE104828789E7A030 Name="s_triangulation_tag_struct" Size="28">
+		<_40 Name="points" Offset="0" GUID="3051498A71BE4C3BB1712567AF9A5CC0" StructName1="s_triangulation_tag_struct" Min="0" Max="255" />
+		<_40 Name="triangles" Offset="14" GUID="59ED4E6B833E138E9FAEC6858327B280" StructName1="s_triangulation_tag_struct" Min="0" Max="255" />
+	</_381A41C58234CC8BE104828789E7A030>
+	<_72E64BF0BDCF8448E77BBEFBA4F898C8 Name="s_animation_sync_action" Size="30">
+		<_2 Name="name" Offset="0" />
+		<_C Name="sync action type" Offset="4" StructName1="eAnimationSyncActionStyle">
+			<Flag n="default" />
+			<Flag n="destroy defenses" />
+		</_C>
+		<_40 Name="same type participants" Offset="8" GUID="54BF4D319B2539FA278CFCA885ACE0CF" StructName1="s_animation_sync_action" Min="0" Max="6" />
+		<_40 Name="other participants" Offset="1C" GUID="CA1144ED273EAFFB43CC22438801C947" StructName1="s_animation_sync_action" Min="0" Max="6" />
+	</_72E64BF0BDCF8448E77BBEFBA4F898C8>
+	<_086345404B5424547CF531E194899D46 Name="s_frame_event" Size="4">
+		<_B Name="type" Offset="0" StructName1="AnimationFrameEventType">
+			<Flag n="none" />
+			<Flag n="primary_keyframe" />
+			<Flag n="secondary_keyframe" />
+			<Flag n="tertiary_keyframe" />
+			<Flag n="left_foot" />
+			<Flag n="right_foot" />
+			<Flag n="allow_interruption" />
+			<Flag n="do_not_allow_interruption" />
+			<Flag n="both_feet_shuffle" />
+			<Flag n="body_impact" />
+			<Flag n="left_foot_lock" />
+			<Flag n="left_foot_unlock" />
+			<Flag n="right_foot_lock" />
+			<Flag n="right_foot_unlock" />
+			<Flag n="blend_range_marker" />
+			<Flag n="stride_expansion" />
+			<Flag n="stride_contraction" />
+			<Flag n="ragdoll_keyframe" />
+			<Flag n="drop_weapon_keyframe" />
+			<Flag n="match_a" />
+			<Flag n="match_b" />
+			<Flag n="match_c" />
+			<Flag n="match_d" />
+			<Flag n="jetpack_closed" />
+			<Flag n="jetpack_open" />
+			<Flag n="sound_event" />
+			<Flag n="effect_event" />
+			<Flag n="left_hand" />
+			<Flag n="right_hand" />
+			<Flag n="grenade" />
+			<Flag n="melee" />
+			<Flag n="interact_device" />
+			<Flag n="shield_raise" />
+			<Flag n="activate_equipment" />
+			<Flag n="aoe_attack" />
+			<Flag n="equipment" />
+			<Flag n="jink_fire" />
+			<Flag n="align_to_target" />
+			<Flag n="block_exiting" />
+			<Flag n="set_interruptable" />
+			<Flag n="disable_shooting" />
+			<Flag n="re_enable_shooting" />
+			<Flag n="skip_crouch_transition" />
+			<Flag n="start_bamf" />
+			<Flag n="end_bamf" />
+			<Flag n="hide" />
+			<Flag n="frame_attachment_objects_show" />
+			<Flag n="frame_attachment_objects_hide" />
+			<Flag n="creature_physics_mode_change" />
+			<Flag n="melee_range" />
+			<Flag n="frame_attachment_switch_to_secondary_parent_marker" />
+			<Flag n="frame_attachment_switch_to_default_parent_marker" />
+			<Flag n="allow_sprint_interrupt" />
+			<Flag n="hide_3p_primary_weapon" />
+			<Flag n="show_3p_primary_weapon" />
+		</_B>
+		<_5 Name="frame" Offset="2" />
+	</_086345404B5424547CF531E194899D46>
+	<_13E84535B35BC4A28C7AEE2F99DC4BB0 Name="s_sound_event" Size="8">
+		<_2E Name="sound" Offset="0" GUID="62BA4FBF44FF5AD9CACD391D8BB4DB29" StructName1="s_sound_event" Min="0" Max="4096" />
+		<_5 Name="frame" Offset="2" />
+		<_37 Name="" type="amkr" Offset="4" />
+		<_2 Name="marker name" Offset="4" />
+	</_13E84535B35BC4A28C7AEE2F99DC4BB0>
+	<_8A8342C9E4CD073073E441C9B1A8EE0B Name="s_effect_event" Size="8">
+		<_2E Name="effect" Offset="0" GUID="DC344E87BDB82602FAE0C8C7A9919561" StructName1="s_effect_event" Min="0" Max="4096" />
+		<_5 Name="frame" Offset="2" />
+		<_37 Name="" type="amkr" Offset="4" />
+		<_2 Name="marker name" Offset="4" />
+	</_8A8342C9E4CD073073E441C9B1A8EE0B>
+	<_9AAD473C2A844863D1BF6F0E93A75C3E Name="s_dialogue_event" Size="4">
+		<_2E Name="dialogue event" Offset="0" GUID="153AB5047E2418A6970CB5DAA6E98612" StructName1="s_dialogue_event" Min="0" Max="4096" />
+		<_5 Name="frame" Offset="2" />
+	</_9AAD473C2A844863D1BF6F0E93A75C3E>
+	<_04C147A127BCCD47FA16E7029D4D4A77 Name="s_object_space_node_data" Size="1C">
+		<_2E Name="node index" Offset="0" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_object_space_node_data" Min="0" Max="1024" />
+		<_E Name="flags" Offset="2" StructName1="c_object_space_node_flags">
+			<Flag n="rotation" />
+			<Flag n="translation" />
+			<Flag n="scale" />
+			<Flag n="motion root" />
+		</_E>
+		<_38 Name="parent orientation" Offset="4" GUID="146C45DD214A383678CBEE5D91315D22" />
+	</_04C147A127BCCD47FA16E7029D4D4A77>
+	<_00154F22F10FB882BBEBAE8A8BF8942F Name="s_object_space_offset_node_reference" Size="2">
+		<_2E Name="object space offset node" Offset="0" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_object_space_offset_node_reference" Min="0" Max="1024" />
+	</_00154F22F10FB882BBEBAE8A8BF8942F>
+	<_B26A414B34216E16926F5CFFA0C0515C Name="s_fik_anchor_node_reference" Size="2">
+		<_2E Name="anchor node" Offset="0" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_fik_anchor_node_reference" Min="0" Max="1024" />
+	</_B26A414B34216E16926F5CFFA0C0515C>
+	<_2C2B4D5E093101E5699BE416B71AF5DE Name="s_animation_ik_chain_event" Size="1C">
+		<_36 Name="REFERENCE IK CHAIN INFO" Offset="0" />
+		<_2 Name="chain name" Offset="0" />
+		<_B Name="chain type" Offset="4" StructName1="c_animation_ik_chain_type">
+			<Flag n="standard" />
+			<Flag n="spine" />
+			<Flag n="spline driven spine" />
+		</_B>
+		<_2E Name="chain start node" Offset="6" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_ik_chain_event" Min="0" Max="1024" />
+		<_2E Name="chain effector node" Offset="8" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_ik_chain_event" Min="0" Max="1024" />
+		<_36 Name="IMPORTED IK CHAIN INFO" Offset="A" />
+		<_B Name="chain usage" Offset="A" StructName1="c_animation_ik_chain_event_usage">
+			<Flag n="none" />
+			<Flag n="world" />
+			<Flag n="self" />
+			<Flag n="parent" />
+			<Flag n="primary weapon" />
+			<Flag n="secondary weapon" />
+			<Flag n="assassination" />
+		</_B>
+		<_2 Name="proxy marker" Offset="C" />
+		<_6 Name="proxy id" Offset="10" />
+		<_A Name="event type" Offset="14" StructName1="c_animation_ik_chain_event_type">
+			<Flag n="active" />
+			<Flag n="passive" />
+		</_A>
+		<_3C Name="effector transform data index" Offset="15" />
+		<_3C Name="effector weight data index" Offset="16" />
+		<_3C Name="pole point data index" Offset="17" />
+		<_36 Name="POST PROCESS IK CHAIN INFO" Offset="18" />
+		<_3C Name="chain index" Offset="18" />
+		<_34 Name="generated_pad365a" Offset="19" Length="3" />
+	</_2C2B4D5E093101E5699BE416B71AF5DE>
+	<_038D4FBBCC1A00C4A19647E08F1F3051 Name="s_animation_ik_chain_proxy" Size="C">
+		<_6 Name="id" Offset="0" />
+		<_37 Name="" type="amkr" Offset="4" />
+		<_2 Name="target marker" Offset="4" />
+		<_3C Name="proxy transform data index" Offset="8" />
+		<_34 Name="generated_pade6ae" Offset="9" Length="3" />
+	</_038D4FBBCC1A00C4A19647E08F1F3051>
+	<_41204C755D78B2BAA7383DE1AAC24254 Name="s_animation_wrinkle_event" Size="10">
+		<_36 Name="REFERENCE FACIAL WRINKLE EVENT INFO" Offset="0" />
+		<_2 Name="wrinkle name" Offset="0" />
+		<_14 Name="default value" Offset="4" />
+		<_36 Name="IMPORTED FACIAL WRINKLE INFO" Offset="8" />
+		<_5 Name="start frame" Offset="8" />
+		<_5 Name="frame count" Offset="A" />
+		<_A Name="region" Offset="C" StructName1="c_animation_facial_wrinkle_region">
+			<Flag n="Upper Brow" />
+			<Flag n="Center Brow" />
+			<Flag n="Left Squint" />
+			<Flag n="Right Squint" />
+			<Flag n="Left Smile" />
+			<Flag n="Right Smile" />
+			<Flag n="Left Sneer" />
+			<Flag n="Right Sneer" />
+		</_A>
+		<_34 Name="generated_padfa84" Offset="D" Length="1" />
+		<_36 Name="POST PROCESS WRINKLE EVENT INFO" Offset="E" />
+		<_5 Name="wrinkle data index" Offset="E" />
+	</_41204C755D78B2BAA7383DE1AAC24254>
+	<_876B4FA920B7F5412667B4FAAD5F76AC Name="s_animation_extended_event" Size="10">
+		<_36 Name="IMPORTED EXTENDED DATA EVENT INFO" Offset="0" />
+		<_2 Name="name" Offset="0" />
+		<_5 Name="start frame" Offset="4" />
+		<_5 Name="frame count" Offset="6" />
+		<_14 Name="default value" Offset="8" />
+		<_5 Name="data index" Offset="C" />
+		<_34 Name="generated_pad91d3" Offset="E" Length="2" />
+	</_876B4FA920B7F5412667B4FAAD5F76AC>
+	<_FC974C482C6B2EE2EBF8E9149127F7F0 Name="s_animation_object_function" Size="24">
+		<_2 Name="real_name" Offset="0" />
+		<_C Name="name" Offset="4" StructName1="c_animation_object_function_name">
+			<Flag n="animation_object_function_a" />
+			<Flag n="animation_object_function_b" />
+			<Flag n="animation_object_function_c" />
+			<Flag n="animation_object_function_d" />
+		</_C>
+		<_5 Name="start frame" Offset="8" />
+		<_5 Name="frame count" Offset="A" />
+		<_38 Name="function curve" Offset="C" GUID="0276481E72CB9289F56D7C189467A351" />
+	</_FC974C482C6B2EE2EBF8E9149127F7F0>
+	<_242447FBB78775108D84DFE8B8C1E705 Name="AnimationKeyJointOrientations" Size="60">
+		<_37 Name="world anchor" type="fgrb" Offset="0" />
+		<_38 Name="world anchor" Offset="0" GUID="E04945A89670DCEE87A7F58E8C8228C2" />
+		<_37 Name="" type="fgre" Offset="20" />
+		<_37 Name="pedestal start" type="fgrb" Offset="20" />
+		<_38 Name="pedestal start" Offset="20" GUID="E04945A89670DCEE87A7F58E8C8228C2" />
+		<_37 Name="" type="fgre" Offset="40" />
+		<_37 Name="pedestal end" type="fgrb" Offset="40" />
+		<_38 Name="pedestal end" Offset="40" GUID="E04945A89670DCEE87A7F58E8C8228C2" />
+		<_37 Name="" type="fgre" Offset="60" />
+	</_242447FBB78775108D84DFE8B8C1E705>
+	<_CA52447FA7063B3FE5917264A1733B29 Name="ReferenceData" Size="20">
+		<_38 Name="reference orientation" Offset="0" GUID="E04945A89670DCEE87A7F58E8C8228C2" />
+	</_CA52447FA7063B3FE5917264A1733B29>
+	<_B4F24A9BED6254573C760EF5864B5469 Name="s_animation_entry" Size="C">
+		<_2 Name="label" Offset="0" />
+		<_2E Name="overlay group" Offset="4" GUID="AD92455CB0C28EAA116D2507BCF71470" StructName1="s_animation_entry" Min="0" Max="1056" />
+		<_2E Name="ik set" Offset="6" GUID="C0D04CDFBC56DF325E7C50D8BC3D6BF1" StructName1="s_animation_entry" Min="0" Max="32" />
+		<_38 Name="animation" Offset="8" GUID="858248DE4A044829CE9548D6AEF43025" />
+	</_B4F24A9BED6254573C760EF5864B5469>
+	<_68F24D9F3ACB8A45727902FDA55254BA Name="s_animation_damage_actions" Size="18">
+		<_2 Name="label" Offset="0" />
+		<_40 Name="directions" Offset="4" GUID="4DFE4AA908E94A961BE40FEDB50211A8" StructName1="s_animation_damage_actions" Min="0" Max="4" />
+	</_68F24D9F3ACB8A45727902FDA55254BA>
+	<_4CB746B821A980DD14E7A714AB7E811F Name="s_animation_transition_source" Size="18">
+		<_2 Name="state name" Offset="0" />
+		<_40 Name="destinations" Offset="4" GUID="F28149B7AD90B6C6111F16FB802AFF7D" StructName1="s_animation_transition_source" Min="0" Max="32" />
+	</_4CB746B821A980DD14E7A714AB7E811F>
+	<_0F92412A7DB78F2373473212A5FFBF86 Name="s_animation_velocity_boundaries" Size="20">
+		<_39 Name="velocity boundary entries" Offset="0" GUID="58E04B93D512B00172E1442C8363AD46" Count="8" StructName1="velocity boundary entries" />
+	</_0F92412A7DB78F2373473212A5FFBF86>
+	<_3051498A71BE4C3BB1712567AF9A5CC0 Name="TriangulationPoint" Size="8">
+		<_18 Name="point" Offset="0" />
+	</_3051498A71BE4C3BB1712567AF9A5CC0>
+	<_59ED4E6B833E138E9FAEC6858327B280 Name="s_blend_screen_delaunay_triangle" Size="8">
+		<_3C Name="vertex1" Offset="0" />
+		<_3C Name="vertex2" Offset="1" />
+		<_3C Name="vertex3" Offset="2" />
+		<_3C Name="link12" Offset="3" />
+		<_3C Name="link23" Offset="4" />
+		<_3C Name="link31" Offset="5" />
+		<_34 Name="padding" Offset="6" Length="2" />
+	</_59ED4E6B833E138E9FAEC6858327B280>
+	<_54BF4D319B2539FA278CFCA885ACE0CF Name="s_animation_sync_action_same_type_participant" Size="3C">
+		<_D Name="flags" Offset="0" StructName1="c_animation_sync_action_flags">
+			<Flag n="Initiator" />
+			<Flag n="Critical Participant" />
+			<Flag n="Disabled" />
+			<Flag n="Airborne" />
+			<Flag n="Partner" />
+		</_D>
+		<_38 Name="animation" Offset="4" GUID="858248DE4A044829CE9548D6AEF43025" />
+		<_17 Name="start offset" Offset="8" />
+		<_19 Name="start facing" Offset="14" />
+		<_17 Name="end offset" Offset="20" />
+		<_14 Name="time_until_hurt" Offset="2C" />
+		<_17 Name="apex offset" Offset="30" />
+	</_54BF4D319B2539FA278CFCA885ACE0CF>
+	<_CA1144ED273EAFFB43CC22438801C947 Name="s_animation_sync_action_other_type_participant" Size="20">
+		<_D Name="flags" Offset="0" StructName1="c_animation_sync_action_other_type_flags">
+			<Flag n="Supports any type" />
+			<Flag n="Disabled" />
+		</_D>
+		<_41 Name="object type" Offset="4" Allowed="unit, scen" Flags="1" />
+	</_CA1144ED273EAFFB43CC22438801C947>
+	<_146C45DD214A383678CBEE5D91315D22 Name="c_quantized_orientation" Size="18">
+		<_5 Name="rotation x" Offset="0" />
+		<_5 Name="rotation y" Offset="2" />
+		<_5 Name="rotation z" Offset="4" />
+		<_5 Name="rotation w" Offset="6" />
+		<_17 Name="default translation" Offset="8" />
+		<_14 Name="default scale" Offset="14" />
+	</_146C45DD214A383678CBEE5D91315D22>
+	<_E04945A89670DCEE87A7F58E8C8228C2 Name="RealOrientationTagStruct" Size="20">
+		<_1A Name="rotation" Offset="0" />
+		<_17 Name="translation" Offset="10" />
+		<_14 Name="scale" Offset="1C" />
+	</_E04945A89670DCEE87A7F58E8C8228C2>
+	<_4DFE4AA908E94A961BE40FEDB50211A8 Name="s_animation_damage_direction" Size="14">
+		<_40 Name="regions" Offset="0" GUID="33324424C4A06F8478C5D41C85ABA033" StructName1="s_animation_damage_direction" Min="0" Max="11" />
+	</_4DFE4AA908E94A961BE40FEDB50211A8>
+	<_F28149B7AD90B6C6111F16FB802AFF7D Name="s_animation_transition_destination" Size="1C">
+		<_2 Name="mode name" Offset="0" />
+		<_2 Name="state name" Offset="4" />
+		<_38 Name="transition settings" Offset="8" GUID="A6DE4052BC288A36653BF05B99EEE501" />
+	</_F28149B7AD90B6C6111F16FB802AFF7D>
+	<_58E04B93D512B00172E1442C8363AD46 Name="AnimationVelocityBoundary" Size="4">
+		<_14 Name="values" Offset="0" />
+	</_58E04B93D512B00172E1442C8363AD46>
+	<_33324424C4A06F8478C5D41C85ABA033 Name="DamageRegionParam" Size="4">
+		<_38 Name="animation" Offset="0" GUID="858248DE4A044829CE9548D6AEF43025" />
+	</_33324424C4A06F8478C5D41C85ABA033>
+	<_A6DE4052BC288A36653BF05B99EEE501 Name="AnimationTransitionSettings" Size="14">
+		<_30 Name="transition lerp" Offset="0" GUID="93B54204E5AC9EB285BAB4E58F9A3469" StructName1="AnimationTransitionSettings" Min="0" Max="256" />
+		<_38 Name="transition anim" Offset="4" GUID="858248DE4A044829CE9548D6AEF43025" />
+		<_37 Name="" type="coff" Offset="8" />
+		<_2 Name="anim timing function" Offset="8" />
+		<_30 Name="anim lerp in" Offset="C" GUID="93B54204E5AC9EB285BAB4E58F9A3469" StructName1="AnimationTransitionSettings" Min="0" Max="256" />
+		<_30 Name="anim lerp out" Offset="10" GUID="93B54204E5AC9EB285BAB4E58F9A3469" StructName1="AnimationTransitionSettings" Min="0" Max="256" />
+	</_A6DE4052BC288A36653BF05B99EEE501>
+</root>

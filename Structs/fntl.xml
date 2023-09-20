@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="ForgeNamedTagLists" Parents="aTag" Index="-151">
+	<_E18A41AB0B80E1022C006FBB9829C07F Name="ForgeNamedTagLists" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Lists" Offset="10" GUID="00F246876520BDF9F934C8ED9D0776AF" StructName1="ForgeNamedTagLists" Min="0" Max="64" />
+		<_34 Name="generated_pad31c9" Offset="24" Length="4" />
+	</_E18A41AB0B80E1022C006FBB9829C07F>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_00F246876520BDF9F934C8ED9D0776AF Name="ForgeNamedTagList" Size="18">
+		<_2 Name="ListId" Offset="0" />
+		<_40 Name="Items" Offset="4" GUID="13B24B5D82F87F1C5C9D31E896BD573C" StructName1="ForgeNamedTagList" Min="0" Max="32" />
+	</_00F246876520BDF9F934C8ED9D0776AF>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_13B24B5D82F87F1C5C9D31E896BD573C Name="ForgeNamedTagRef" Size="120">
+		<_2 Name="Name" Offset="0" />
+		<_1 Name="String Literal" Offset="4" />
+		<_41 Name="Tag" Offset="104" Allowed="aTag" Flags="4" />
+	</_13B24B5D82F87F1C5C9D31E896BD573C>
+</root>

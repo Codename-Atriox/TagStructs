@@ -1,0 +1,1438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:16 PM" Name="scenario_structure_bsp" Parents="aTag" Index="-359">
+	<_E3624E5A5043D2DD4E2109D4BB518106 Name="structure_bsp" Size="2518">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="build identifier" Offset="10" GUID="DA4642BFDDFB3371BCB969ECCD893004" />
+		<_38 Name="parent build identifier" Offset="28" GUID="DA4642BFDDFB3371BCB969ECCD893004" />
+		<_6 Name="import info checksum" Offset="40" />
+		<_6 Name="import version" Offset="44" />
+		<_41 Name="owner level" Offset="48" Allowed="levl" Flags="2" />
+		<_41 Name="structure meta data" Offset="64" Allowed="smet" Flags="0" />
+		<_E Name="flags" Offset="80" StructName1="StructureBspFlags">
+			<Flag n="has processed prefab instances" />
+			<Flag n="Collision geometry is over double the budget" />
+			<Flag n="prefab placements limit exceeded" />
+			<Flag n="hidden ios have changed" />
+			<Flag n="get data from hlods" />
+		</_E>
+		<_E Name="content policy flags" Offset="82" StructName1="c_structure_bsp_content_policy_flags">
+			<Flag n="has working pathfinding" />
+			<Flag n="convex decomposition enabled" />
+		</_E>
+		<_E Name="failed content policy flags" Offset="84" StructName1="c_structure_bsp_content_policy_flags">
+			<Flag n="has working pathfinding" />
+			<Flag n="convex decomposition enabled" />
+		</_E>
+		<_34 Name="generated_pad7169" Offset="86" Length="2" />
+		<_40 Name="seam identifiers" Offset="88" GUID="E89545BCB9EF902E40C7C1A5ABE91A74" StructName1="structure_bsp" Min="0" Max="3072" />
+		<_40 Name="collision materials" Offset="9C" GUID="4F274C739B46AC254CCC324BA712E380" StructName1="structure_bsp" Min="0" Max="4096" />
+		<_40 Name="leaves" Offset="B0" GUID="C92C4779B611DF65521261668227AAFA" StructName1="structure_bsp" Min="0" Max="134217728" />
+		<_40 Name="super node parent mappings" Offset="C4" GUID="0A04416161AA468ACB2716BFB167CA2F" StructName1="structure_bsp" Min="0" Max="2048" />
+		<_40 Name="super node recursable_masks" Offset="D8" GUID="CA04416161AB468A1B2716BFB167CAAF" StructName1="structure_bsp" Min="0" Max="2048" />
+		<_40 Name="structure_super_node_traversal_geometry_block" Offset="EC" GUID="1004416161AAAB8ACB4716BFC167CA2F" StructName1="structure_bsp" Min="0" Max="32767" />
+		<_25 Name="world bounds x" Offset="100" />
+		<_25 Name="world bounds y" Offset="108" />
+		<_25 Name="world bounds z" Offset="110" />
+		<_40 Name="cluster portals" Offset="118" GUID="87494090515C51A43C6C550F95104547" StructName1="structure_bsp" Min="0" Max="1000" />
+		<_40 Name="clusters" Offset="12C" GUID="F3A4493E443EB80879F9A8DEAAB7DADD" StructName1="structure_bsp" Min="0" Max="256" />
+		<_40 Name="cookie cutters" Offset="140" GUID="F5FA4BA324E4D3157A6F48AC96C80371" StructName1="structure_bsp" Min="0" Max="1024" />
+		<_40 Name="markers" Offset="154" GUID="F2C84524E4B2C51D3E9F70178F67A353" StructName1="structure_bsp" Min="0" Max="1024" />
+		<_40 Name="leaf map leaves" Offset="168" GUID="35ED4A237963BAF0C947708391FEC7CC" StructName1="structure_bsp" Min="0" Max="134217728" />
+		<_40 Name="leaf map connections" Offset="17C" GUID="88974F2E7FE10580D47E3481810AB1B9" StructName1="structure_bsp" Min="0" Max="1073741824" />
+		<_40 Name="errors" Offset="190" GUID="CA074D833CBB78D58E13F4968994291A" StructName1="structure_bsp" Min="0" Max="512" />
+		<_40 Name="instanced geometry instances" Offset="1A4" GUID="F1AC46B41AED06E6DA51B54A8A2AF2D2" StructName1="structure_bsp" Min="0" Max="32768" />
+		<_6 Name="instanced geometry instances Flags" type="nuke" Offset="1B8" />
+		<_6 Name="instanced geometry instances Vector1" type="nuke" Offset="1BC" />
+		<_6 Name="instanced geometry instances Vector2" type="nuke" Offset="1C0" />
+		<_40 Name="instanced foliage instances" Offset="1C4" GUID="F1AC46B41AED06E6DA51B54A8A2AF2D2" StructName1="structure_bsp" Min="0" Max="32768" />
+		<_6 Name="instanced foliage instances Flags" type="nuke" Offset="1D8" />
+		<_6 Name="instanced foliage instances Vector1" type="nuke" Offset="1DC" />
+		<_6 Name="instanced foliage instances Vector2" type="nuke" Offset="1E0" />
+		<_40 Name="instanced physics instances" Offset="1E4" GUID="D94923C49B2721C767AA19B695A0480D" StructName1="structure_bsp" Min="0" Max="262144" />
+		<_6 Name="instanced physics instances Flags" type="nuke" Offset="1F8" />
+		<_6 Name="instanced physics instances Vector1" type="nuke" Offset="1FC" />
+		<_6 Name="instanced physics instances Vector2" type="nuke" Offset="200" />
+		<_6 Name="Instance Geometry Tag Instance Count" Offset="204" />
+		<_7 Name="Instance Postprocess Checksum" Offset="208" />
+		<_38 Name="render geometry" Offset="210" GUID="8FB042BA97D423E43A363C6CB0E025A9" />
+		<_40 Name="widget references" Offset="360" GUID="49136A81FE7DCA2CABAA5A82B9652900" StructName1="structure_bsp" Min="0" Max="1024" />
+		<_38 Name="resource interface" Offset="374" GUID="92E24683B024FA1952E5E222B26BDF83" />
+		<_40 Name="external references" Offset="39C" GUID="E935415787C8EF26447B03B885B70AF5" StructName1="structure_bsp" Min="0" Max="262144" />
+		<_6 Name="base material count" Offset="3B0" />
+		<_40 Name="obb volume list" Offset="3B4" GUID="85E1496D7B8CD0054F842706AE545C18" StructName1="structure_bsp" Min="0" Max="4096" />
+		<_7 Name="m_instanceGroupPipelineStateCache" Offset="3C8" />
+		<_42 Name="growable dataof" Offset="3D0" StructName1="ContiguousGrowableDataOfByte.growable dataof" Int1="0" Int2="0" Flags="400000" />
+		<_7 Name="heap array pointer" Offset="3E8" />
+		<_6 Name="heap current size" Offset="3F0" />
+		<_6 Name="active growth state" Offset="3F4" />
+		<_7 Name="instanceData" Offset="3F8" />
+		<_7 Name="instanceBufferConstants" Offset="400" />
+		<_7 Name="ioPlacementGpuTestingBuffer" Offset="408" />
+		<_7 Name="ioLodStaticInfoBuffer" Offset="410" />
+		<_7 Name="ioLodIndexBuffer" Offset="418" />
+		<_7 Name="ioLodTransitionsOffsets" Offset="420" />
+		<_38 Name="activeIoBitfield" type="nuke" Offset="428" GUID="79B040723E9C4BAC054794B2B66ECF72" />
+		<_7 Name="newlyVisibleIoBitfieldBuffer" type="nuke" Offset="1430" />
+		<_7 Name="ioPlacementLodInfoBuffer" Offset="1438" />
+		<_41 Name="acoustics data" Offset="1440" Allowed="snad" Flags="0" />
+		<_6 Name="number of IO over the limit" Offset="145C" />
+		<_6 Name="needToClearShadowSubmissionsBuffers" Offset="1460" />
+		<_34 Name="generated_pad5788" Offset="1464" Length="4" />
+		<_7 Name="gpuFloatingShadowSubmissionData" Offset="1468" />
+		<_7 Name="BSPRuntimeData" Offset="1470" />
+		<_7 Name="View GPU Submission Data" Offset="1478" />
+		<_39 Name="Instances with non-Gpu submission parts" Offset="1480" GUID="2E1A4EBBE46D5A4A82EDA3C38B343C87" Count="1024" StructName1="Instances with non-Gpu submission parts" />
+		<_7 Name="Raytracing Submission Data" Offset="2480" />
+		<_40 Name="bitmaps" Offset="2488" GUID="2BF94C13A51C7E1429E7D24091D52870" StructName1="structure_bsp" Min="0" Max="1048576" />
+		<_6 Name="bitmaps Flags" type="nuke" Offset="249C" />
+		<_6 Name="bitmaps Vector1" type="nuke" Offset="24A0" />
+		<_6 Name="bitmaps Vector2" type="nuke" Offset="24A4" />
+		<_40 Name="uniqueIos" Offset="24A8" GUID="BAE241326A85A96354A11B62B87353A9" StructName1="structure_bsp" Min="0" Max="32768" />
+		<_6 Name="uniqueIos Flags" type="nuke" Offset="24BC" />
+		<_6 Name="uniqueIos Vector1" type="nuke" Offset="24C0" />
+		<_6 Name="uniqueIos Vector2" type="nuke" Offset="24C4" />
+		<_40 Name="uniqueFoliage" Offset="24C8" GUID="BAE241326A85A96354A11B62B87353A9" StructName1="structure_bsp" Min="0" Max="32768" />
+		<_6 Name="uniqueFoliage Flags" type="nuke" Offset="24DC" />
+		<_6 Name="uniqueFoliage Vector1" type="nuke" Offset="24E0" />
+		<_6 Name="uniqueFoliage Vector2" type="nuke" Offset="24E4" />
+		<_40 Name="decorator sets" Offset="24E8" GUID="4FC747DD40576308BE229502AED99352" StructName1="structure_bsp" Min="0" Max="65536" />
+		<_40 Name="decorator runtime" Offset="24FC" GUID="385A4ACAAD52B2C58C9DD5E4AF2A596D" StructName1="structure_bsp" Min="0" Max="1024" />
+		<_F Name="render flags" Offset="2510" StructName1="StructureBspRenderFlags">
+			<Flag n="Has Coatings" />
+			<Flag n="Coatings Are Finalized" />
+			<Flag n="Disable Gpu Submission" />
+		</_F>
+		<_34 Name="generated_pad0ad3" Offset="2511" Length="7" />
+	</_E3624E5A5043D2DD4E2109D4BB518106>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_DA4642BFDDFB3371BCB969ECCD893004 Name="s_structure_manifest_build_identifier_definition" Size="18">
+		<_6 Name="manifest_id0" Offset="0" />
+		<_6 Name="manifest_id1" Offset="4" />
+		<_6 Name="manifest_id2" Offset="8" />
+		<_6 Name="manifest_id3" Offset="C" />
+		<_6 Name="build_index" Offset="10" />
+		<_6 Name="structure importer version" Offset="14" />
+	</_DA4642BFDDFB3371BCB969ECCD893004>
+	<_E89545BCB9EF902E40C7C1A5ABE91A74 Name="s_structure_seam_mapping" Size="38">
+		<_38 Name="seams identifier" Offset="0" GUID="DF8642BFDDF67371BC6869ECAC893004" />
+		<_40 Name="edge mapping" Offset="10" GUID="67CC4351758F902F0590C91F9A174FC4" StructName1="s_structure_seam_mapping" Min="0" Max="32767" />
+		<_40 Name="cluster mapping" Offset="24" GUID="487745EFE1A86C0A3E39C08A922F5821" StructName1="s_structure_seam_mapping" Min="0" Max="256" />
+	</_E89545BCB9EF902E40C7C1A5ABE91A74>
+	<_4F274C739B46AC254CCC324BA712E380 Name="structure_collision_material" Size="6">
+		<_2E Name="conveyor surface index" Offset="0" GUID="20BF49D0CD0C6613A1729B489379FD49" StructName1="structure_collision_material" Min="0" Max="4096" />
+		<_2E Name="seam mapping index" Offset="2" GUID="E89545BCB9EF902E40C7C1A5ABE91A74" StructName1="structure_collision_material" Min="0" Max="3072" />
+		<_E Name="flags" Offset="4" StructName1="structure_collision_material::c_flags">
+			<Flag n="is seam" />
+		</_E>
+	</_4F274C739B46AC254CCC324BA712E380>
+	<_C92C4779B611DF65521261668227AAFA Name="structure_leaf" Size="1">
+		<_3C Name="cluster" Offset="0" />
+	</_C92C4779B611DF65521261668227AAFA>
+	<_0A04416161AA468ACB2716BFB167CA2F Name="s_structure_super_node_mapping" Size="14">
+		<_5 Name="parent_super_node_index" Offset="0" />
+		<_4 Name="parent_internal_node_index" Offset="2" />
+		<_F Name="flags" Offset="3" StructName1="s_structure_super_node_mapping::t_flags">
+			<Flag n="above" />
+		</_F>
+		<_6 Name="has_traversal_geometry_mask" Offset="4" />
+		<_2E Name="first_traversal_geometry_index" Offset="8" GUID="8004416161AAAA8ACD4716BF3167CA2F" StructName1="s_structure_super_node_mapping" Min="0" Max="3072" />
+		<_2E Name="first_aabb_index" Offset="A" GUID="32044161ABAAAA8AAD4716BF3467CA2F" StructName1="s_structure_super_node_mapping" Min="0" Max="32768" />
+		<_6 Name="aabb_mask" Offset="C" />
+		<_2E Name="non_terminal_traversal_geometry_index" Offset="10" GUID="8004416161AAAA8ACD4716BF3167CA2F" StructName1="s_structure_super_node_mapping" Min="0" Max="3072" />
+		<_34 Name="generated_pad5df5" Offset="12" Length="2" />
+	</_0A04416161AA468ACB2716BFB167CA2F>
+	<_CA04416161AB468A1B2716BFB167CAAF Name="SuperNodeRecursableMasks" Size="2">
+		<_3D Name="mask" Offset="0" />
+	</_CA04416161AB468A1B2716BFB167CAAF>
+	<_1004416161AAAB8ACB4716BFC167CA2F Name="s_structure_super_node_traversal_geometry" Size="28">
+		<_40 Name="portal_indices" Offset="0" GUID="8004416161AAAA8ACD4716BF3167CA2F" StructName1="s_structure_super_node_traversal_geometry" Min="0" Max="3072" />
+		<_40 Name="seam_indices" Offset="14" GUID="8004416161AAAA8ACD4716BF3167CA2F" StructName1="s_structure_super_node_traversal_geometry" Min="0" Max="3072" />
+	</_1004416161AAAB8ACB4716BFC167CA2F>
+	<_87494090515C51A43C6C550F95104547 Name="cluster_portal" Size="58">
+		<_38 Name="oriented bounds" Offset="0" GUID="3B5842F1224A23F33C5CE7F2421067FE" />
+		<_5 Name="back cluster" Offset="28" />
+		<_5 Name="front cluster" Offset="2A" />
+		<_6 Name="plane index" Offset="2C" />
+		<_17 Name="centroid" Offset="30" />
+		<_14 Name="bounding radius" Offset="3C" />
+		<_D Name="flags" Offset="40" StructName1="ClusterPortalFlags">
+			<Flag n="ai can't hear through this shit" />
+			<Flag n="one-way" />
+			<Flag n="no-way" />
+			<Flag n="one-way-reversed" />
+			<Flag n="no one can hear through this" />
+		</_D>
+		<_40 Name="vertices" Offset="44" GUID="1DD34CA8CE56A99FF8F748ECAA366F5F" StructName1="cluster_portal" Min="0" Max="128" />
+	</_87494090515C51A43C6C550F95104547>
+	<_F3A4493E443EB80879F9A8DEAAB7DADD Name="structure_cluster" Size="64">
+		<_36 Name="CLUSTER INFO" Offset="0" />
+		<_25 Name="bounds x" Offset="0" />
+		<_25 Name="bounds y" Offset="8" />
+		<_25 Name="bounds z" Offset="10" />
+		<_40 Name="portals" Offset="18" GUID="400B45198C1C3A41710AC71595B2C6B8" StructName1="structure_cluster" Min="0" Max="512" />
+		<_5 Name="mesh index" Offset="2C" />
+		<_5 Name="instance imposter cluster mopp index" Offset="2E" />
+		<_40 Name="seam indices" Offset="30" GUID="293440E94DD47B87ECAD8B6295732E53" StructName1="structure_cluster" Min="0" Max="3072" />
+		<_40 Name="instance Buckets Block" Offset="44" GUID="C7904BAA0C556069D9B27120A39F96E0" StructName1="structure_cluster" Min="0" Max="32768" />
+		<_6 Name="instance Buckets Flags" type="nuke" Offset="58" />
+		<_6 Name="instance Buckets Vector1" type="nuke" Offset="5C" />
+		<_6 Name="instance Buckets Vector2" type="nuke" Offset="60" />
+	</_F3A4493E443EB80879F9A8DEAAB7DADD>
+	<_F5FA4BA324E4D3157A6F48AC96C80371 Name="s_structure_cookie_cutter" Size="B4">
+		<_37 Name="Cookie Cutter" type="fgrb" Offset="0" />
+		<_38 Name="collision model" Offset="0" GUID="A4684A1E130D16E93BDAA7ECA91958AD" />
+		<_37 Name="" type="fgre" Offset="B4" />
+	</_F5FA4BA324E4D3157A6F48AC96C80371>
+	<_F2C84524E4B2C51D3E9F70178F67A353 Name="structure_marker" Size="40">
+		<_A Name="marker type" Offset="0" StructName1="e_structure_marker_type">
+			<Flag n="none" />
+			<Flag n="falling leaf generator" />
+			<Flag n="sky (unused)" />
+			<Flag n="model" />
+		</_A>
+		<_0 Name="marker parameter" Offset="1" />
+		<_34 Name="generated_padbec6" Offset="21" Length="3" />
+		<_1A Name="rotation" Offset="24" />
+		<_17 Name="position" Offset="34" />
+	</_F2C84524E4B2C51D3E9F70178F67A353>
+	<_35ED4A237963BAF0C947708391FEC7CC Name="map_leaf" Size="28">
+		<_40 Name="faces" Offset="0" GUID="504B49E676C7822963A16B1EAE70E1D0" StructName1="map_leaf" Min="0" Max="1048576" />
+		<_40 Name="connection indices" Offset="14" GUID="242A469DDE3F27EDFB3C81EAAF139C96" StructName1="map_leaf" Min="0" Max="1048576" />
+	</_35ED4A237963BAF0C947708391FEC7CC>
+	<_88974F2E7FE10580D47E3481810AB1B9 Name="leaf_connection" Size="24">
+		<_6 Name="plane index" Offset="0" />
+		<_6 Name="back leaf index" Offset="4" />
+		<_6 Name="front leaf index" Offset="8" />
+		<_40 Name="vertices" Offset="C" GUID="11484CA1421E487D69284A5C853701FC" StructName1="leaf_connection" Min="0" Max="512" />
+		<_14 Name="area" Offset="20" />
+	</_88974F2E7FE10580D47E3481810AB1B9>
+	<_CA074D833CBB78D58E13F4968994291A Name="error_report_category" Size="120">
+		<_1 Name="name" Offset="0" />
+		<_A Name="report type" Offset="100" StructName1="ErrorReportTypes">
+			<Flag n="silent" />
+			<Flag n="comment" />
+			<Flag n="warning" />
+			<Flag n="error" />
+		</_A>
+		<_34 Name="generated_padf276" Offset="101" Length="1" />
+		<_E Name="flags" Offset="102" StructName1="ErrorReportFlags">
+			<Flag n="rendered" />
+			<Flag n="tangent-space" />
+			<Flag n="non-critical" />
+			<Flag n="lightmap light" />
+			<Flag n="report key is valid" />
+		</_E>
+		<_3D Name="runtime generation flags" Offset="104" />
+		<_34 Name="generated_pad3f2b" Offset="106" Length="2" />
+		<_6 Name="runtime something" Offset="108" />
+		<_40 Name="reports" Offset="10C" GUID="3227499FEE6AAB2040FCAA9E914508D6" StructName1="error_report_category" Min="0" Max="1048576" />
+	</_CA074D833CBB78D58E13F4968994291A>
+	<_F1AC46B41AED06E6DA51B54A8A2AF2D2 Name="structure_instanced_geometry_instance" Size="140">
+		<_19 Name="scale" Offset="0" />
+		<_19 Name="forward" Offset="C" />
+		<_19 Name="left" Offset="18" />
+		<_19 Name="up" Offset="24" />
+		<_17 Name="position" Offset="30" />
+		<_41 Name="Runtime geo mesh reference" Offset="3C" Allowed="rtgo" Flags="0" />
+		<_41 Name="Foliage material palette reference" Offset="58" Allowed="rtmp" Flags="1" />
+		<_5 Name="Runtime geo mesh index" Offset="74" />
+		<_5 Name="unique io index" Offset="76" />
+		<_E Name="flags" Offset="78" StructName1="InstancedGeometryFlags">
+			<Flag n="render only" />
+			<Flag n="does not block aoe damage" />
+			<Flag n="remove from dynamic shadow geometry" />
+			<Flag n="cinema only" />
+			<Flag n="exclude from cinema" />
+			<Flag n="disable play collision" />
+			<Flag n="disable bullet collision" />
+			<Flag n="ignore cubemap volume" />
+			<Flag n="always generate floating shadow" />
+			<Flag n="PVS always visible" />
+			<Flag n="PVS always use LOD 0" />
+			<Flag n="PVS don't use as an occluder" />
+			<Flag n="exclude from intel map" />
+			<Flag n="Exclude from broadphase calculation" />
+			<Flag n="can generate decorators" />
+			<Flag n="isHLOD" />
+		</_E>
+		<_34 Name="generated_pad89b2" Offset="7A" Length="2" />
+		<_14 Name="bounds x0" Offset="7C" />
+		<_14 Name="bounds x1" Offset="80" />
+		<_14 Name="bounds y0" Offset="84" />
+		<_14 Name="bounds y1" Offset="88" />
+		<_14 Name="bounds z0" Offset="8C" />
+		<_14 Name="bounds z1" Offset="90" />
+		<_17 Name="world bounding sphere center" Offset="94" />
+		<_14 Name="world bounding sphere radius" Offset="A0" />
+		<_34 Name="generated_padd667" Offset="A4" Length="4" />
+		<_7 Name="Placement Checksum" Offset="A8" />
+		<_A Name="pathfinding policy" Offset="B0" StructName1="InstancedGeometryPathfindingPolicy">
+			<Flag n="cut-out" />
+			<Flag n="static" />
+			<Flag n="none" />
+		</_A>
+		<_A Name="streaming priority" Offset="B1" StructName1="InstancedGeometryStreamingPriority">
+			<Flag n="default" />
+			<Flag n="higher" />
+			<Flag n="highest" />
+		</_A>
+		<_E Name="flags2" Offset="B2" StructName1="InstancedGeometryGfxFlags">
+			<Flag n="contains decal parts" />
+			<Flag n="negative scale" />
+			<Flag n="is quick deleted" />
+			<Flag n="Supports Coatings" />
+			<Flag n="wants hologram override" />
+			<Flag n="Coatings Setup On Initial Frame" />
+		</_E>
+		<_3D Name="hlod index" Offset="B4" />
+		<_34 Name="generated_pad231c" Offset="B6" Length="2" />
+		<_38 Name="lod Overrides" Offset="B8" GUID="A061449E2DB8179DC92A2DE2A83FDA2D" />
+		<_2 Name="style id" Offset="DC" />
+		<_6 Name="damage style index" Offset="E0" />
+		<_34 Name="generated_pad6fd1" Offset="E4" Length="4" />
+		<_7 Name="style tag override data" Offset="E8" />
+		<_38 Name="material override data" Offset="F0" GUID="F1AC46B51AED06E7DA51B54B8A2AF2D3" />
+		<_17 Name="rectMin" Offset="114" />
+		<_17 Name="rectMax" Offset="120" />
+		<_6 Name="external_guid" Offset="12C" />
+		<_7 Name="coating entry" Offset="130" />
+		<_7 Name="editorData" Offset="138" />
+	</_F1AC46B41AED06E6DA51B54A8A2AF2D2>
+	<_D94923C49B2721C767AA19B695A0480D Name="i343::Physics::InstancedPhysicsInstance" Size="C0">
+		<_41 Name="m_collisionTagReference" Offset="0" Allowed="scgt" Flags="0" />
+		<_40 Name="instanced physics instances" Offset="1C" GUID="D91923C49B1721C717AA19B615A0480D" StructName1="i343::Physics::InstancedPhysicsInstance" Min="0" Max="262144" />
+		<_6 Name="instanced physics instances Flags" type="nuke" Offset="30" />
+		<_6 Name="instanced physics instances Vector1" type="nuke" Offset="34" />
+		<_6 Name="instanced physics instances Vector2" type="nuke" Offset="38" />
+		<_19 Name="Scale" Offset="3C" />
+		<_19 Name="Forward" Offset="48" />
+		<_19 Name="Left" Offset="54" />
+		<_19 Name="Up" Offset="60" />
+		<_17 Name="Position" Offset="6C" />
+		<_D Name="m_typeMask" Offset="78" StructName1="CollisionTypeEnableBitmask">
+			<Flag n="Bullet" />
+			<Flag n="Play" />
+			<Flag n="InvisibleWall" />
+			<Flag n="Render" />
+		</_D>
+		<_6 Name="m_guid" Offset="7C" />
+		<_39 Name="havok body ID array" Offset="80" GUID="D0BA63AFBD01A5ED9A6083A88E172C5F" Count="4" StructName1="havok body ID array" />
+		<_F Name="flags" Offset="A0" StructName1="i343::Physics::InstancedPhysicsFlags">
+			<Flag n="Allow decals" />
+			<Flag n="Is Trigger Volume" />
+		</_F>
+		<_34 Name="generated_pad119d" Offset="A1" Length="7" />
+		<_7 Name="m_scene" Offset="A8" />
+		<_A Name="Trigger Volume Callback Type" Offset="B0" StructName1="i343::Physics::TriggerVolumeCallbackType">
+			<Flag n="None" />
+		</_A>
+		<_34 Name="generated_padf7bc" Offset="B1" Length="3" />
+		<_36 Name="bullet collision layer override" Offset="B4" />
+		<_2 Name="bullet collision layer override" type="sted" Offset="B4" />
+		<_36 Name="play collision layer override" Offset="B8" />
+		<_2 Name="play collision layer override" type="sted" Offset="B8" />
+		<_34 Name="generated_padab07" Offset="BC" Length="4" />
+	</_D94923C49B2721C767AA19B695A0480D>
+	<_8FB042BA97D423E43A363C6CB0E025A9 Name="s_render_geometry" Size="150">
+		<_D Name="runtime flags" Offset="0" StructName1="RenderGeometryFlags">
+			<Flag n="processed" />
+			<Flag n="available" />
+			<Flag n="has valid budgets (really)" />
+			<Flag n="manual resource creation" />
+			<Flag n="keep raw geometry" />
+			<Flag n="dont use compressed vertex positions" />
+			<Flag n="pca animation table sorted" />
+			<Flag n="has dual quat" />
+			<Flag n="mesh streaming" />
+		</_D>
+		<_40 Name="meshes import info" Offset="4" GUID="883D4E7D67FAC4968DFF93F7B794F7A2" StructName1="s_render_geometry" Min="0" Max="8191" />
+		<_40 Name="meshes" Offset="18" GUID="A7C04CC8EBB348BBA5A99C7DA6E51515" StructName1="s_render_geometry" Min="0" Max="8191" />
+		<_40 Name="PCA Mesh Indices" Offset="2C" GUID="1F274D1647C61323CCA9FFA597CD4802" StructName1="s_render_geometry" Min="0" Max="8191" />
+		<_40 Name="compression info" Offset="40" GUID="62FF4778FE51FDACA023A96CA8C33054" StructName1="s_render_geometry" Min="0" Max="65536" />
+		<_40 Name="per mesh node map" Offset="54" GUID="2AA6450CC23B20036C50810F8B2497D9" StructName1="s_render_geometry" Min="0" Max="8191" />
+		<_40 Name="Optional animated mesh tag references" Offset="68" GUID="1CBD4D7EF74AC124B2C4E377BB4B2E2D" StructName1="s_render_geometry" Min="0" Max="64" />
+		<_40 Name="Optional LOD volumes data" Offset="7C" GUID="54E84536D7CC9A5EA18919C9AF913B97" StructName1="s_render_geometry" Min="0" Max="4096" />
+		<_38 Name="mesh package" Offset="90" GUID="78F044A88BBCA247625FBE28BDE44CC0" />
+		<_40 Name="blendshape compression info" Offset="EC" GUID="9AF7420FB700DE5AEE5229CD868B4AF3" StructName1="s_render_geometry" Min="0" Max="65535" />
+		<_40 Name="blendshape Procedural Deformation function list" Offset="100" GUID="F7BA4A0745F051EBF08F18E1890B36E2" StructName1="s_render_geometry" Min="0" Max="65535" />
+		<_40 Name="Procedural Deformation function Remap Table List" Offset="114" GUID="FB6245162643567C58DDA664BD71CC11" StructName1="s_render_geometry" Min="0" Max="65535" />
+		<_40 Name="Deformation parameter default value table from skeleton" Offset="128" GUID="43624166A05BCB61E1B36FB1BA76CDE2" StructName1="s_render_geometry" Min="0" Max="65535" />
+		<_34 Name="generated_paddf2d" Offset="13C" Length="4" />
+		<_7 Name="perMeshPartConstantBuffer" type="nuke" Offset="140" />
+		<_4 Name="target platformization" Offset="148" />
+		<_34 Name="generated_padc54c" Offset="149" Length="7" />
+	</_8FB042BA97D423E43A363C6CB0E025A9>
+	<_49136A81FE7DCA2CABAA5A82B9652900 Name="s_widget_marker_reference" Size="20">
+		<_5 Name="marker index" Offset="0" />
+		<_34 Name="generated_pad3469" Offset="2" Length="2" />
+		<_41 Name="widget ref" Offset="4" Allowed="lswd" Flags="0" />
+	</_49136A81FE7DCA2CABAA5A82B9652900>
+	<_92E24683B024FA1952E5E222B26BDF83 Name="c_structure_bsp_resource_interface" Size="28">
+		<_40 Name="raw_resources" Offset="0" GUID="A1FA41203A39EBF454DCAE268CA7C0AC" StructName1="c_structure_bsp_resource_interface" Min="0" Max="1" />
+		<_43 Name="tag_resources" Offset="14" StructName1="StructureBspTagResources" Int1="0" GUID="5BCF4E2872D3359DD923E60CA26904A5" />
+		<_6 Name="use resource items" Offset="24" />
+	</_92E24683B024FA1952E5E222B26BDF83>
+	<_E935415787C8EF26447B03B885B70AF5 Name="structure_external_instanced_geometry_reference" Size="140">
+		<_41 Name="static render geometry" Offset="0" Allowed="rtgo" Flags="0" />
+		<_41 Name="static collision geometry" Offset="1C" Allowed="scgt" Flags="0" />
+		<_41 Name="material palette" Offset="38" Allowed="rtmp" Flags="0" />
+		<_2 Name="name" Offset="54" />
+		<_2 Name="material override variant name" Offset="58" />
+		<_19 Name="scale" Offset="5C" />
+		<_19 Name="forward" Offset="68" />
+		<_19 Name="left" Offset="74" />
+		<_19 Name="up" Offset="80" />
+		<_17 Name="position" Offset="8C" />
+		<_E Name="override flags" Offset="98" StructName1="InstancedGeometryFlags">
+			<Flag n="render only" />
+			<Flag n="does not block aoe damage" />
+			<Flag n="remove from dynamic shadow geometry" />
+			<Flag n="cinema only" />
+			<Flag n="exclude from cinema" />
+			<Flag n="disable play collision" />
+			<Flag n="disable bullet collision" />
+			<Flag n="ignore cubemap volume" />
+			<Flag n="always generate floating shadow" />
+			<Flag n="PVS always visible" />
+			<Flag n="PVS always use LOD 0" />
+			<Flag n="PVS don't use as an occluder" />
+			<Flag n="exclude from intel map" />
+			<Flag n="Exclude from broadphase calculation" />
+			<Flag n="can generate decorators" />
+			<Flag n="isHLOD" />
+		</_E>
+		<_E Name="instance flags Mask" Offset="9A" StructName1="InstancedGeometryFlags">
+			<Flag n="render only" />
+			<Flag n="does not block aoe damage" />
+			<Flag n="remove from dynamic shadow geometry" />
+			<Flag n="cinema only" />
+			<Flag n="exclude from cinema" />
+			<Flag n="disable play collision" />
+			<Flag n="disable bullet collision" />
+			<Flag n="ignore cubemap volume" />
+			<Flag n="always generate floating shadow" />
+			<Flag n="PVS always visible" />
+			<Flag n="PVS always use LOD 0" />
+			<Flag n="PVS don't use as an occluder" />
+			<Flag n="exclude from intel map" />
+			<Flag n="Exclude from broadphase calculation" />
+			<Flag n="can generate decorators" />
+			<Flag n="isHLOD" />
+		</_E>
+		<_F Name="physics override flags" Offset="9C" StructName1="i343::Physics::InstancedPhysicsFlags">
+			<Flag n="Allow decals" />
+			<Flag n="Is Trigger Volume" />
+		</_F>
+		<_F Name="physics instance flags Mask" Offset="9D" StructName1="i343::Physics::InstancedPhysicsFlags">
+			<Flag n="Allow decals" />
+			<Flag n="Is Trigger Volume" />
+		</_F>
+		<_A Name="override pathfinding policy" Offset="9E" StructName1="InstancedGeometryPathfindingPolicy">
+			<Flag n="cut-out" />
+			<Flag n="static" />
+			<Flag n="none" />
+		</_A>
+		<_A Name="override streaming priority" Offset="9F" StructName1="InstancedGeometryStreamingPriority">
+			<Flag n="default" />
+			<Flag n="higher" />
+			<Flag n="highest" />
+		</_A>
+		<_E Name="instance policy mask" Offset="A0" StructName1="PrefabOverrideFlags">
+			<Flag n="override pathfinding policy" />
+		</_E>
+		<_34 Name="generated_pad81ce" Offset="A2" Length="2" />
+		<_39 Name="LOD distance overrides" Offset="A4" GUID="87364985698D371CF3E3E84E8D633F05" Count="16" StructName1="LOD distance overrides" />
+		<_14 Name="LOD fade after override" Offset="E4" />
+		<_C Name="instance type" Offset="E8" StructName1="StaticGeoType">
+			<Flag n="Default" />
+			<Flag n="Foliage" />
+		</_C>
+		<_6 Name="guid" Offset="EC" />
+		<_3E Name="hlodIndex" Offset="F0" />
+		<_E Name="placementFlags" Offset="F4" StructName1="PlacementFlagsDefinition">
+			<Flag n="Is HLOD" />
+		</_E>
+		<_34 Name="generated_padce83" Offset="F6" Length="2" />
+		<_2 Name="styleId" Offset="F8" />
+		<_34 Name="generated_pad1b38" Offset="FC" Length="4" />
+		<_7 Name="styleTagOverride" Offset="100" />
+		<_A Name="Trigger Volume Callback" Offset="108" StructName1="i343::Physics::TriggerVolumeCallbackType">
+			<Flag n="None" />
+		</_A>
+		<_34 Name="generated_pad0245" Offset="109" Length="3" />
+		<_36 Name="bullet collision layer override" Offset="10C" />
+		<_2 Name="bullet collision layer override" type="sted" Offset="10C" />
+		<_36 Name="play collision layer override" Offset="110" />
+		<_2 Name="play collision layer override" type="sted" Offset="110" />
+		<_34 Name="generated_pad4efa" Offset="114" Length="4" />
+		<_40 Name="instance material overrides" Offset="118" GUID="4563C4BC4A5F3FB324691B31A23663BD" StructName1="structure_external_instanced_geometry_reference" Min="0" Max="64" />
+		<_40 Name="material overrides" Offset="12C" GUID="4563C4BC4A5F3FB324691B31A23663BD" StructName1="structure_external_instanced_geometry_reference" Min="0" Max="64" />
+	</_E935415787C8EF26447B03B885B70AF5>
+	<_85E1496D7B8CD0054F842706AE545C18 Name="s_structure_bsp_obb_volume" Size="34">
+		<_17 Name="origin" Offset="0" />
+		<_19 Name="axis 1" Offset="C" />
+		<_19 Name="axis 2" Offset="18" />
+		<_19 Name="axis 3" Offset="24" />
+		<_3E Name="type" Offset="30" />
+	</_85E1496D7B8CD0054F842706AE545C18>
+	<_79B040723E9C4BAC054794B2B66ECF72 Name="GpuVisibilityBitfield" Size="1008">
+		<_7 Name="Bsp Structure Bitfield Buffer" Offset="0" />
+		<_39 Name="CPU Bsp Structure  Bitfield" Offset="8" GUID="2E1A4EBBE46D5A4A82EDA3C38B343C87" Count="1024" StructName1="CPU Bsp Structure  Bitfield" />
+	</_79B040723E9C4BAC054794B2B66ECF72>
+	<_2E1A4EBBE46D5A4A82EDA3C38B343C87 Name="BspStructureBitfieldStorageType" Size="4">
+		<_3E Name="chunk" Offset="0" />
+	</_2E1A4EBBE46D5A4A82EDA3C38B343C87>
+	<_2BF94C13A51C7E1429E7D24091D52870 Name="BspBitmapReference" Size="1C">
+		<_41 Name="bitmap" Offset="0" Allowed="bitm" Flags="0" />
+	</_2BF94C13A51C7E1429E7D24091D52870>
+	<_BAE241326A85A96354A11B62B87353A9 Name="BspUniqueStreamingIO" Size="24">
+		<_40 Name="PerLodBitmaps Block" Offset="0" GUID="89AE411230842F5C0D352162B561B95E" StructName1="BspUniqueStreamingIO" Min="0" Max="16" />
+		<_6 Name="PerLodBitmaps Block Flags" type="nuke" Offset="14" />
+		<_6 Name="PerLodBitmaps Block Vector1" type="nuke" Offset="18" />
+		<_6 Name="PerLodBitmaps Block Vector2" type="nuke" Offset="1C" />
+		<_5 Name="io index" Offset="20" />
+		<_34 Name="generated_pad5360" Offset="22" Length="2" />
+	</_BAE241326A85A96354A11B62B87353A9>
+	<_4FC747DD40576308BE229502AED99352 Name="s_decorator_scenario_set_placements" Size="4C">
+		<_41 Name="decorator asset" Offset="0" Allowed="dcat" Flags="1" />
+		<_40 Name="decorator placements" Offset="1C" GUID="257649DF04F0AFBFEC5FBF80916C1650" StructName1="s_decorator_scenario_set_placements" Min="0" Max="2147483647" />
+		<_41 Name="owning layer default bsp" Offset="30" Allowed="sbsp" Flags="0" />
+	</_4FC747DD40576308BE229502AED99352>
+	<_385A4ACAAD52B2C58C9DD5E4AF2A596D Name="i343::Decorators::DecoratorRuntime" Size="40">
+		<_40 Name="sets" Offset="0" GUID="9C50459A20D0528A0694F29E9C206B3D" StructName1="i343::Decorators::DecoratorRuntime" Min="0" Max="1024" />
+		<_40 Name="clusters" Offset="14" GUID="2C0B416E56A2745D817663D1B1D037DB" StructName1="i343::Decorators::DecoratorRuntime" Min="0" Max="256" />
+		<_6 Name="bspIndex" Offset="28" />
+		<_34 Name="generated_pad92da" Offset="2C" Length="4" />
+		<_7 Name="decorator runtime gpu" Offset="30" />
+		<_7 Name="decorator runtime cpu" Offset="38" />
+	</_385A4ACAAD52B2C58C9DD5E4AF2A596D>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_DF8642BFDDF67371BC6869ECAC893004 Name="s_structure_seam_identifier" Size="10">
+		<_6 Name="seam_id0" Offset="0" />
+		<_6 Name="seam_id1" Offset="4" />
+		<_6 Name="seam_id2" Offset="8" />
+		<_6 Name="seam_id3" Offset="C" />
+	</_DF8642BFDDF67371BC6869ECAC893004>
+	<_67CC4351758F902F0590C91F9A174FC4 Name="StructureSeamEdgeMapping" Size="4">
+		<_6 Name="structure edge index" Offset="0" />
+	</_67CC4351758F902F0590C91F9A174FC4>
+	<_487745EFE1A86C0A3E39C08A922F5821 Name="s_structure_seam_cluster_mapping" Size="10">
+		<_6 Name="cluster_index" Offset="0" />
+		<_17 Name="cluster center" Offset="4" />
+	</_487745EFE1A86C0A3E39C08A922F5821>
+	<_20BF49D0CD0C6613A1729B489379FD49 Name="structure_conveyor_surface" Size="0" />
+	<_8004416161AAAA8ACD4716BF3167CA2F Name="StructureSuperNodeTraversalGeometryIndices" Size="2">
+		<_5 Name="index" Offset="0" />
+	</_8004416161AAAA8ACD4716BF3167CA2F>
+	<_32044161ABAAAA8AAD4716BF3467CA2F Name="StructureSuperNodeAabbs" Size="0" />
+	<_3B5842F1224A23F33C5CE7F2421067FE Name="cluster_portal::s_oriented_bounds" Size="28">
+		<_17 Name="center" Offset="0" />
+		<_19 Name="extents" Offset="C" />
+		<_1A Name="orientation" Offset="18" />
+	</_3B5842F1224A23F33C5CE7F2421067FE>
+	<_1DD34CA8CE56A99FF8F748ECAA366F5F Name="cluster_portal::StructureBSPClusterPortalVertexBlock" Size="C">
+		<_17 Name="point" Offset="0" />
+	</_1DD34CA8CE56A99FF8F748ECAA366F5F>
+	<_400B45198C1C3A41710AC71595B2C6B8 Name="StructureBSPClusterPortalIndex" Size="2">
+		<_5 Name="portal index" Offset="0" />
+	</_400B45198C1C3A41710AC71595B2C6B8>
+	<_293440E94DD47B87ECAD8B6295732E53 Name="SeamIndicesBlockDefinition" Size="2">
+		<_5 Name="seam index" Offset="0" />
+	</_293440E94DD47B87ECAD8B6295732E53>
+	<_C7904BAA0C556069D9B27120A39F96E0 Name="s_instance_bucket" Size="44">
+		<_6 Name="runtime geo mesh index" Offset="0" />
+		<_41 Name="runtime geo tag reference" Offset="4" Allowed="rtgo" Flags="0" />
+		<_6 Name="pad" Offset="20" />
+		<_40 Name="instances Data Block" Offset="24" GUID="52524BACBB11BC2A8027853E993757BE" StructName1="s_instance_bucket" Min="0" Max="65535" />
+		<_6 Name="instances Data Block Flags" type="nuke" Offset="38" />
+		<_6 Name="instances Data Block Vector1" type="nuke" Offset="3C" />
+		<_6 Name="instances Data Block Vector2" type="nuke" Offset="40" />
+	</_C7904BAA0C556069D9B27120A39F96E0>
+	<_A4684A1E130D16E93BDAA7ECA91958AD Name="collision_bsp" Size="B4">
+		<_40 Name="bsp3d nodes" Offset="0" GUID="FF8E48E7B5D8FC213E7371A392611F52" StructName1="collision_bsp" Min="0" Max="8388608" />
+		<_40 Name="bsp3d supernodes" Offset="14" GUID="10124FA9ABCDC201E01AB4BCA7400AB4" StructName1="collision_bsp" Min="0" Max="2048" />
+		<_40 Name="planes" Offset="28" GUID="719C4E0D5D188A8D22E342EB8015A6DA" StructName1="collision_bsp" Min="0" Max="536870911" />
+		<_40 Name="leaves" Offset="3C" GUID="9A644ECCA5FD8EE345030CA19CEBF2FB" StructName1="collision_bsp" Min="0" Max="8388608" />
+		<_40 Name="bsp2d references" Offset="50" GUID="8C38445F591E809E3B5474FFB889DE6F" StructName1="collision_bsp" Min="0" Max="196608" />
+		<_40 Name="bsp2d nodes" Offset="64" GUID="C73B41246CD60C8C966AD3BEB339408C" StructName1="collision_bsp" Min="0" Max="32767" />
+		<_40 Name="surfaces" Offset="78" GUID="010A4B887AB8193585CD9139AB12DE80" StructName1="collision_bsp" Min="0" Max="32767" />
+		<_40 Name="edges" Offset="8C" GUID="EC534400B51DA635D1DCCAFD81B58C33" StructName1="collision_bsp" Min="0" Max="65535" />
+		<_40 Name="vertices" Offset="A0" GUID="1FCE4C6A6C3F6A60E56D2F608F89E265" StructName1="collision_bsp" Min="0" Max="131072" />
+	</_A4684A1E130D16E93BDAA7ECA91958AD>
+	<_504B49E676C7822963A16B1EAE70E1D0 Name="map_leaf_face" Size="18">
+		<_6 Name="node index" Offset="0" />
+		<_40 Name="vertices" Offset="4" GUID="67E04ADBF918DB0A21A4734D9440FD77" StructName1="map_leaf_face" Min="0" Max="512" />
+	</_504B49E676C7822963A16B1EAE70E1D0>
+	<_242A469DDE3F27EDFB3C81EAAF139C96 Name="MapLeafConnectionIndex" Size="4">
+		<_6 Name="connection index" Offset="0" />
+	</_242A469DDE3F27EDFB3C81EAAF139C96>
+	<_11484CA1421E487D69284A5C853701FC Name="LeafConnectionVertex" Size="C">
+		<_17 Name="vertex" Offset="0" />
+	</_11484CA1421E487D69284A5C853701FC>
+	<_3227499FEE6AAB2040FCAA9E914508D6 Name="error_report" Size="EC">
+		<_A Name="type" Offset="0" StructName1="ErrorReportTypes">
+			<Flag n="silent" />
+			<Flag n="comment" />
+			<Flag n="warning" />
+			<Flag n="error" />
+		</_A>
+		<_A Name="source" Offset="1" StructName1="e_error_report_source">
+			<Flag n="none" />
+			<Flag n="structure" />
+			<Flag n="poop" />
+			<Flag n="lightmap" />
+			<Flag n="pathfinding" />
+		</_A>
+		<_E Name="flags" Offset="2" StructName1="ErrorReportFlags">
+			<Flag n="rendered" />
+			<Flag n="tangent-space" />
+			<Flag n="non-critical" />
+			<Flag n="lightmap light" />
+			<Flag n="report key is valid" />
+		</_E>
+		<_42 Name="text" Offset="4" StructName1="error_report.text" Int1="2" Int2="0" Flags="2000" />
+		<_6 Name="source identifier" Offset="1C" />
+		<_0 Name="source filename" Offset="20" />
+		<_6 Name="source line number" Offset="40" />
+		<_40 Name="vertices" Offset="44" GUID="A884463DB44D11D10E390450B9552513" StructName1="error_report" Min="0" Max="1048576" />
+		<_40 Name="vectors" Offset="58" GUID="0B4E4E8DF617E03802745E1FAF4F86B9" StructName1="error_report" Min="0" Max="1048576" />
+		<_40 Name="lines" Offset="6C" GUID="604A43561C172D3CE0CA82848F1BDE48" StructName1="error_report" Min="0" Max="1048576" />
+		<_40 Name="triangles" Offset="80" GUID="001244E3F926E7612B96347A85173116" StructName1="error_report" Min="0" Max="1048576" />
+		<_40 Name="quads" Offset="94" GUID="E7D84305D1071621C52955BF8AEA9FCC" StructName1="error_report" Min="0" Max="1048576" />
+		<_40 Name="comments" Offset="A8" GUID="DEA34617709A9566DB6DE9508AFF50B9" StructName1="error_report" Min="0" Max="1048576" />
+		<_6 Name="report key" Offset="BC" />
+		<_6 Name="node index" Offset="C0" />
+		<_25 Name="bounds x" Offset="C4" />
+		<_25 Name="bounds y" Offset="CC" />
+		<_25 Name="bounds z" Offset="D4" />
+		<_20 Name="color" Offset="DC" />
+	</_3227499FEE6AAB2040FCAA9E914508D6>
+	<_A061449E2DB8179DC92A2DE2A83FDA2D Name="LODInfoOverrides" Size="24">
+		<_40 Name="Lod Levels Block" Offset="0" GUID="1F374D1647361323C3A9FFA497C34802" StructName1="LODInfoOverrides" Min="0" Max="16" />
+		<_6 Name="Lod Levels Block Flags" type="nuke" Offset="14" />
+		<_6 Name="Lod Levels Block Vector1" type="nuke" Offset="18" />
+		<_6 Name="Lod Levels Block Vector2" type="nuke" Offset="1C" />
+		<_14 Name="lod fade after Distance" Offset="20" />
+	</_A061449E2DB8179DC92A2DE2A83FDA2D>
+	<_F1AC46B51AED06E7DA51B54B8A2AF2D3 Name="StructureInstanceMaterialOverrideData" Size="24">
+		<_40 Name="per Instance Material Block" Offset="0" GUID="34A54DC5B1135973B0B5E57399901631" StructName1="StructureInstanceMaterialOverrideData" Min="0" Max="10240" />
+		<_6 Name="per Instance Material Flags" type="nuke" Offset="14" />
+		<_6 Name="per Instance Material Vector1" type="nuke" Offset="18" />
+		<_6 Name="per Instance Material Vector2" type="nuke" Offset="1C" />
+		<_E Name="mesh flags override" Offset="20" StructName1="MeshFlags">
+			<Flag n="mesh has vertex color" />
+			<Flag n="use region index for sorting" />
+			<Flag n="can be rendered in draw bundles" />
+			<Flag n="mesh is custom shadow caster" />
+			<Flag n="mesh is unindexed (do not modify)" />
+			<Flag n="mash should render in z prepass" />
+			<Flag n="use uncompressed vertex format" />
+			<Flag n="mesh is PCA" />
+			<Flag n="mesh has a useful set of second texture coords" />
+			<Flag n="mesh has a useful set of third texture coords" />
+			<Flag n="Use UV3 Tangent Rotation" />
+		</_E>
+		<_34 Name="generated_pad58dd" Offset="22" Length="2" />
+	</_F1AC46B51AED06E7DA51B54B8A2AF2D3>
+	<_D91923C49B1721C717AA19B615A0480D Name="i343::Physics::InstancedPhysicsMaterial" Size="2">
+		<_5 Name="per-instance material palette" Offset="0" />
+	</_D91923C49B1721C717AA19B615A0480D>
+	<_D0BA63AFBD01A5ED9A6083A88E172C5F Name="havokBodyIdArray" Size="8">
+		<_3F Name="havok body ID" Offset="0" />
+	</_D0BA63AFBD01A5ED9A6083A88E172C5F>
+	<_883D4E7D67FAC4968DFF93F7B794F7A2 Name="MeshImportInfo" Size="2C">
+		<_3E Name="CRC" Offset="0" />
+		<_17 Name="position bounds 0" Offset="4" />
+		<_17 Name="position bounds 1" Offset="10" />
+		<_16 Name="texcoord bounds 0" Offset="1C" />
+		<_16 Name="texcoord bounds 1" Offset="24" />
+	</_883D4E7D67FAC4968DFF93F7B794F7A2>
+	<_A7C04CC8EBB348BBA5A99C7DA6E51515 Name="s_mesh" Size="3C">
+		<_40 Name="LOD render data" Offset="0" GUID="883D4E7D67FAC4978DFF93F8B794F7A2" StructName1="s_mesh" Min="0" Max="16" />
+		<_E Name="mesh flags" Offset="14" StructName1="MeshFlags">
+			<Flag n="mesh has vertex color" />
+			<Flag n="use region index for sorting" />
+			<Flag n="can be rendered in draw bundles" />
+			<Flag n="mesh is custom shadow caster" />
+			<Flag n="mesh is unindexed (do not modify)" />
+			<Flag n="mash should render in z prepass" />
+			<Flag n="use uncompressed vertex format" />
+			<Flag n="mesh is PCA" />
+			<Flag n="mesh has a useful set of second texture coords" />
+			<Flag n="mesh has a useful set of third texture coords" />
+			<Flag n="Use UV3 Tangent Rotation" />
+		</_E>
+		<_3C Name="rigid node index" Offset="16" />
+		<_A Name="vertex type" Offset="17" StructName1="VertexType">
+			<Flag n="world" />
+			<Flag n="rigid" />
+			<Flag n="skinned" />
+			<Flag n="particle_model" />
+			<Flag n="screen" />
+			<Flag n="debug" />
+			<Flag n="transparent" />
+			<Flag n="particle" />
+			<Flag n="removed08" />
+			<Flag n="removed09" />
+			<Flag n="chud_simple" />
+			<Flag n="decorator" />
+			<Flag n="position only" />
+			<Flag n="removed13" />
+			<Flag n="ripple" />
+			<Flag n="removed15" />
+			<Flag n="tessellatedTerrain" />
+			<Flag n="empty" />
+			<Flag n="decal" />
+			<Flag n="removed19" />
+			<Flag n="removed20" />
+			<Flag n="position_only" />
+			<Flag n="tracer" />
+			<Flag n="rigid_boned" />
+			<Flag n="removed24" />
+			<Flag n="CheapParticle" />
+			<Flag n="dq_skinned" />
+			<Flag n="skinned 8 weights" />
+			<Flag n="tessellated vector" />
+			<Flag n="interaction" />
+			<Flag n="number of standard vertex types" />
+		</_A>
+		<_4 Name="use dual quat" Offset="18" />
+		<_A Name="index buffer type" Offset="19" StructName1="IndexBufferPrimitiveType">
+			<Flag n="DEFAULT" />
+			<Flag n="line list" />
+			<Flag n="line strip" />
+			<Flag n="triangle list" />
+			<Flag n="triangle patch" />
+			<Flag n="triangle strip" />
+			<Flag n="quad list" />
+		</_A>
+		<_5 Name="pca mesh index" Offset="1A" />
+		<_40 Name="vertex keys" Offset="1C" GUID="570F4E4EDAD1C118860BB1E0AF86840B" StructName1="s_mesh" Min="0" Max="16777216" />
+		<_2E Name="clone index" Offset="30" GUID="A7C04CC8EBB348BBA5A99C7DA6E51515" StructName1="s_mesh" Min="0" Max="8191" />
+		<_5 Name="optional LOD volume index" Offset="32" />
+		<_5 Name="Procedural Deformation Remap Table" Offset="34" />
+		<_34 Name="generated_pad8fb3" Offset="36" Length="2" />
+		<_6 Name="lod state cache slot" Offset="38" />
+	</_A7C04CC8EBB348BBA5A99C7DA6E51515>
+	<_1F274D1647C61323CCA9FFA597CD4802 Name="PCAMeshIndex" Size="4">
+		<_30 Name="mesh index" Offset="0" GUID="A7C04CC8EBB348BBA5A99C7DA6E51515" StructName1="PCAMeshIndex" Min="0" Max="8191" />
+	</_1F274D1647C61323CCA9FFA597CD4802>
+	<_62FF4778FE51FDACA023A96CA8C33054 Name="s_compression_info" Size="54">
+		<_E Name="compression flags" Offset="0" StructName1="CompressionFlags">
+			<Flag n="compressed position" />
+			<Flag n="compressed texcoord" />
+			<Flag n="compression optimized" />
+		</_E>
+		<_34 Name="generated_pad1711" Offset="2" Length="2" />
+		<_36 Name="WARNING" Offset="4" />
+		<_17 Name="position bounds 0" Offset="4" />
+		<_17 Name="position bounds 1" Offset="10" />
+		<_16 Name="texcoord bounds 0" Offset="1C" />
+		<_16 Name="texcoord bounds 1" Offset="24" />
+		<_16 Name="texcoord bounds2 0" Offset="2C" />
+		<_16 Name="texcoord bounds2 1" Offset="34" />
+		<_16 Name="texcoord bounds3 0" Offset="3C" />
+		<_16 Name="texcoord bounds3 1" Offset="44" />
+		<_14 Name="unused0" Offset="4C" />
+		<_14 Name="unused1" Offset="50" />
+	</_62FF4778FE51FDACA023A96CA8C33054>
+	<_2AA6450CC23B20036C50810F8B2497D9 Name="s_per_mesh_node_map" Size="14">
+		<_40 Name="node map" Offset="0" GUID="0EC6490D77DB2A4A3026F880822EA727" StructName1="s_per_mesh_node_map" Min="0" Max="255" />
+	</_2AA6450CC23B20036C50810F8B2497D9>
+	<_1CBD4D7EF74AC124B2C4E377BB4B2E2D Name="RenderGeometryAnimatedMeshRef" Size="20">
+		<_41 Name="Animated mesh tag reference" Offset="0" Allowed="ames" Flags="0" />
+		<_2 Name="Name" Offset="1C" />
+	</_1CBD4D7EF74AC124B2C4E377BB4B2E2D>
+	<_54E84536D7CC9A5EA18919C9AF913B97 Name="s_render_geometry_lod_volume" Size="2C">
+		<_17 Name="position bounds 0" Offset="0" />
+		<_17 Name="position bounds 1" Offset="C" />
+		<_40 Name="position data" Offset="18" GUID="B52E4111684EF46DEEFB1C9E8E20FEFB" StructName1="s_render_geometry_lod_volume" Min="0" Max="65535" />
+	</_54E84536D7CC9A5EA18919C9AF913B97>
+	<_78F044A88BBCA247625FBE28BDE44CC0 Name="RenderGeometryMeshPackage" Size="5C">
+		<_3D Name="flags" Offset="0" />
+		<_B Name="mesh resource packing policy" Offset="2" StructName1="RenderGeometryMeshPackage::Policy">
+			<Flag n="Single Resource" />
+			<Flag n="N Meshes Per Resource" />
+		</_B>
+		<_3D Name="total index buffer count" Offset="4" />
+		<_3D Name="total vertex buffer count" Offset="6" />
+		<_3D Name="total raytracing metadata count" Offset="8" />
+		<_34 Name="generated_pad4c35" Offset="A" Length="2" />
+		<_40 Name="mesh resource groups" Offset="C" GUID="41C34C98211C66F6E044689C99478E8C" StructName1="RenderGeometryMeshPackage" Min="0" Max="16384" />
+		<_40 Name="index resource look up" Offset="20" GUID="05754FE2B12CFDD4480A4799BAE034FB" StructName1="RenderGeometryMeshPackage" Min="0" Max="16384" />
+		<_40 Name="vertex resource look up" Offset="34" GUID="05754FE2B12CFDD4480A4799BAE034FB" StructName1="RenderGeometryMeshPackage" Min="0" Max="16384" />
+		<_40 Name="raytracing resource look up" Offset="48" GUID="05754FE2B12CFDD4480A4799BAE034FB" StructName1="RenderGeometryMeshPackage" Min="0" Max="16384" />
+	</_78F044A88BBCA247625FBE28BDE44CC0>
+	<_9AF7420FB700DE5AEE5229CD868B4AF3 Name="s_blendshape_compression_info" Size="44">
+		<_17 Name="position scale" Offset="0" />
+		<_17 Name="position offset" Offset="C" />
+		<_17 Name="normal scale" Offset="18" />
+		<_17 Name="normal offset" Offset="24" />
+		<_40 Name="raw target hash name" Offset="30" GUID="5EA5497873514B8E39E1C24C8AAA440D" StructName1="s_blendshape_compression_info" Min="0" Max="67108864" />
+	</_9AF7420FB700DE5AEE5229CD868B4AF3>
+	<_F7BA4A0745F051EBF08F18E1890B36E2 Name="RenderGeometryProceduralDeformation" Size="18">
+		<_40 Name="parameter list" Offset="0" GUID="B8624F3F50829B5859DBA60E9808AA62" StructName1="RenderGeometryProceduralDeformation" Min="0" Max="65535" />
+		<_2 Name="Procedural deformation function name" Offset="14" />
+	</_F7BA4A0745F051EBF08F18E1890B36E2>
+	<_FB6245162643567C58DDA664BD71CC11 Name="RenderGeometryProceduralRemapTable" Size="14">
+		<_40 Name="Procedural Remap Table" Offset="0" GUID="FC5B45B592F5E99B688E96A8A594973C" StructName1="RenderGeometryProceduralRemapTable" Min="0" Max="2621400" />
+	</_FB6245162643567C58DDA664BD71CC11>
+	<_43624166A05BCB61E1B36FB1BA76CDE2 Name="DeformationParameterDefaultValue" Size="8">
+		<_2 Name="parameter name" Offset="0" />
+		<_14 Name="parameter default value" Offset="4" />
+	</_43624166A05BCB61E1B36FB1BA76CDE2>
+	<_A1FA41203A39EBF454DCAE268CA7C0AC Name="StructureBspRawResources" Size="28">
+		<_38 Name="raw_items" Offset="0" GUID="2F7A473A03A9EF852DE335AF8A86F093" />
+	</_A1FA41203A39EBF454DCAE268CA7C0AC>
+	<_5BCF4E2872D3359DD923E60CA26904A5 Name="StructureBspTagResources" Size="28">
+		<_38 Name="resource_items" Offset="0" GUID="2F7A473A03A9EF852DE335AF8A86F093" />
+	</_5BCF4E2872D3359DD923E60CA26904A5>
+	<_87364985698D371CF3E3E84E8D633F05 Name="PrefabLODOverrideArray" Size="4">
+		<_14 Name="LOD Transition Distance Override" Offset="0" />
+	</_87364985698D371CF3E3E84E8D633F05>
+	<_4563C4BC4A5F3FB324691B31A23663BD Name="MaterialOverrideEntry" Size="38">
+		<_41 Name="Original material ref" Offset="0" Allowed="mat " Flags="9" />
+		<_41 Name="Override material ref" Offset="1C" Allowed="mat " Flags="9" />
+	</_4563C4BC4A5F3FB324691B31A23663BD>
+	<_89AE411230842F5C0D352162B561B95E Name="PerLodBitmaps" Size="20">
+		<_40 Name="StreamingBitmapScale Block" Offset="0" GUID="684D4DA65604D90DFA32E985BBA92BC0" StructName1="PerLodBitmaps" Min="0" Max="1048576" />
+		<_6 Name="StreamingBitmapScale Block Flags" type="nuke" Offset="14" />
+		<_6 Name="StreamingBitmapScale Block Vector1" type="nuke" Offset="18" />
+		<_6 Name="StreamingBitmapScale Block Vector2" type="nuke" Offset="1C" />
+	</_89AE411230842F5C0D352162B561B95E>
+	<_257649DF04F0AFBFEC5FBF80916C1650 Name="s_decorator_placement" Size="50">
+		<_17 Name="position" Offset="0" />
+		<_3C Name="type index" Offset="C" />
+		<_3C Name="motion scale" Offset="D" />
+		<_3C Name="ground tint" Offset="E" />
+		<_F Name="flags" Offset="F" StructName1="s_decorator_placement::DecoratorPlacementFlags">
+			<Flag n="delete_bit" />
+			<Flag n="adjusted_bit" />
+			<Flag n="approximated_position_bit" />
+		</_F>
+		<_1A Name="rotation" Offset="10" />
+		<_14 Name="scale" Offset="20" />
+		<_17 Name="tint color" Offset="24" />
+		<_17 Name="original point" Offset="30" />
+		<_17 Name="original normal" Offset="3C" />
+		<_6 Name="extra" Offset="48" />
+		<_3D Name="placement surface albedo" Offset="4C" />
+		<_3D Name="placement surface normal" Offset="4E" />
+	</_257649DF04F0AFBFEC5FBF80916C1650>
+	<_9C50459A20D0528A0694F29E9C206B3D Name="i343::Decorators::DecoratorSetPlacementRange" Size="28">
+		<_41 Name="decorator asset" Offset="0" Allowed="dcrt" Flags="0" />
+		<_6 Name="offset" Offset="1C" />
+		<_6 Name="count" Offset="20" />
+		<_3C Name="set type index" Offset="24" />
+		<_34 Name="generated_pad961e" Offset="25" Length="3" />
+	</_9C50459A20D0528A0694F29E9C206B3D>
+	<_2C0B416E56A2745D817663D1B1D037DB Name="i343::Decorators::DecoratorCluster" Size="44">
+		<_19 Name="scale" Offset="0" />
+		<_14 Name="max render distance squared" Offset="C" />
+		<_19 Name="offset" Offset="10" />
+		<_19 Name="Bounding sphere center" Offset="1C" />
+		<_14 Name="Bounding sphere radius" Offset="28" />
+		<_19 Name="Bounding AABB Min" Offset="2C" />
+		<_19 Name="Bounding AABB Max" Offset="38" />
+	</_2C0B416E56A2745D817663D1B1D037DB>
+	<_52524BACBB11BC2A8027853E993757BE Name="InstanceIndex" Size="2">
+		<_5 Name="instance index" Offset="0" />
+	</_52524BACBB11BC2A8027853E993757BE>
+	<_FF8E48E7B5D8FC213E7371A392611F52 Name="bsp3d_node" Size="8">
+		<_7 Name="node data designator" Offset="0" />
+	</_FF8E48E7B5D8FC213E7371A392611F52>
+	<_10124FA9ABCDC201E01AB4BCA7400AB4 Name="s_bsp3d_kd_super_node" Size="80">
+		<_14 Name="plane 0" Offset="0" />
+		<_14 Name="plane 1" Offset="4" />
+		<_14 Name="plane 2" Offset="8" />
+		<_14 Name="plane 3" Offset="C" />
+		<_14 Name="plane 4" Offset="10" />
+		<_14 Name="plane 5" Offset="14" />
+		<_14 Name="plane 6" Offset="18" />
+		<_14 Name="plane 7" Offset="1C" />
+		<_14 Name="plane 8" Offset="20" />
+		<_14 Name="plane 9" Offset="24" />
+		<_14 Name="plane10" Offset="28" />
+		<_14 Name="plane11" Offset="2C" />
+		<_14 Name="plane12" Offset="30" />
+		<_14 Name="plane13" Offset="34" />
+		<_14 Name="plane14" Offset="38" />
+		<_6 Name="plane dimensions" Offset="3C" />
+		<_6 Name="child index 0" Offset="40" />
+		<_6 Name="child index 1" Offset="44" />
+		<_6 Name="child index 2" Offset="48" />
+		<_6 Name="child index 3" Offset="4C" />
+		<_6 Name="child index 4" Offset="50" />
+		<_6 Name="child index 5" Offset="54" />
+		<_6 Name="child index 6" Offset="58" />
+		<_6 Name="child index 7" Offset="5C" />
+		<_6 Name="child index 8" Offset="60" />
+		<_6 Name="child index 9" Offset="64" />
+		<_6 Name="child index10" Offset="68" />
+		<_6 Name="child index11" Offset="6C" />
+		<_6 Name="child index12" Offset="70" />
+		<_6 Name="child index13" Offset="74" />
+		<_6 Name="child index14" Offset="78" />
+		<_6 Name="child index15" Offset="7C" />
+	</_10124FA9ABCDC201E01AB4BCA7400AB4>
+	<_719C4E0D5D188A8D22E342EB8015A6DA Name="PlanesParams" Size="10">
+		<_1E Name="plane" Offset="0" />
+	</_719C4E0D5D188A8D22E342EB8015A6DA>
+	<_9A644ECCA5FD8EE345030CA19CEBF2FB Name="collision_leaf" Size="8">
+		<_F Name="flags" Offset="0" StructName1="LeafFlags">
+			<Flag n="contains double-sided surfaces" />
+		</_F>
+		<_34 Name="generated_padd325" Offset="1" Length="1" />
+		<_3D Name="bsp2d reference count" Offset="2" />
+		<_3E Name="first bsp2d reference" Offset="4" />
+	</_9A644ECCA5FD8EE345030CA19CEBF2FB>
+	<_8C38445F591E809E3B5474FFB889DE6F Name="bsp2d_reference" Size="4">
+		<_5 Name="plane" Offset="0" />
+		<_5 Name="bsp2d node" Offset="2" />
+	</_8C38445F591E809E3B5474FFB889DE6F>
+	<_C73B41246CD60C8C966AD3BEB339408C Name="bsp2d_node" Size="10">
+		<_1D Name="plane" Offset="0" />
+		<_5 Name="left child" Offset="C" />
+		<_5 Name="right child" Offset="E" />
+	</_C73B41246CD60C8C966AD3BEB339408C>
+	<_010A4B887AB8193585CD9139AB12DE80 Name="collision_surface" Size="8">
+		<_3D Name="plane index" Offset="0" />
+		<_3D Name="first edge" Offset="2" />
+		<_5 Name="material" Offset="4" />
+		<_F Name="flags" Offset="6" StructName1="SurfaceFlags">
+			<Flag n="two sided" />
+			<Flag n="invisible" />
+			<Flag n="climbable" />
+			<Flag n="invalid" />
+			<Flag n="conveyor" />
+			<Flag n="slip" />
+			<Flag n="plane negated" />
+		</_F>
+		<_3C Name="best plane calculation vertex index " Offset="7" />
+	</_010A4B887AB8193585CD9139AB12DE80>
+	<_EC534400B51DA635D1DCCAFD81B58C33 Name="collision_edge" Size="C">
+		<_3D Name="start vertex" Offset="0" />
+		<_3D Name="end vertex" Offset="2" />
+		<_3D Name="forward edge" Offset="4" />
+		<_3D Name="reverse edge" Offset="6" />
+		<_3D Name="left surface" Offset="8" />
+		<_3D Name="right surface" Offset="A" />
+	</_EC534400B51DA635D1DCCAFD81B58C33>
+	<_1FCE4C6A6C3F6A60E56D2F608F89E265 Name="collision_vertex" Size="10">
+		<_17 Name="point" Offset="0" />
+		<_3D Name="first edge" Offset="C" />
+		<_5 Name="sink" Offset="E" />
+	</_1FCE4C6A6C3F6A60E56D2F608F89E265>
+	<_67E04ADBF918DB0A21A4734D9440FD77 Name="MapLeafFaceVertex" Size="C">
+		<_17 Name="vertex" Offset="0" />
+	</_67E04ADBF918DB0A21A4734D9440FD77>
+	<_A884463DB44D11D10E390450B9552513 Name="error_report_vertex" Size="34">
+		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
+		<_20 Name="color" Offset="20" />
+		<_14 Name="screen size" Offset="30" />
+	</_A884463DB44D11D10E390450B9552513>
+	<_0B4E4E8DF617E03802745E1FAF4F86B9 Name="error_report_vector" Size="40">
+		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
+		<_20 Name="color" Offset="20" />
+		<_19 Name="normal" Offset="30" />
+		<_14 Name="screen length" Offset="3C" />
+	</_0B4E4E8DF617E03802745E1FAF4F86B9>
+	<_604A43561C172D3CE0CA82848F1BDE48 Name="error_report_line" Size="50">
+		<_39 Name="points" Offset="0" GUID="338142C90F4729E04888C89ABB1ABDAE" Count="2" StructName1="points" />
+		<_20 Name="color" Offset="40" />
+	</_604A43561C172D3CE0CA82848F1BDE48>
+	<_001244E3F926E7612B96347A85173116 Name="error_report_triangle" Size="70">
+		<_39 Name="points" Offset="0" GUID="DDD84F94D717639859AEA1898AFE9068" Count="3" StructName1="points" />
+		<_20 Name="color" Offset="60" />
+	</_001244E3F926E7612B96347A85173116>
+	<_E7D84305D1071621C52955BF8AEA9FCC Name="error_report_quad" Size="90">
+		<_39 Name="points" Offset="0" GUID="0A0E42FD81027CE96EB082A3AE95FE26" Count="4" StructName1="points" />
+		<_20 Name="color" Offset="80" />
+	</_E7D84305D1071621C52955BF8AEA9FCC>
+	<_DEA34617709A9566DB6DE9508AFF50B9 Name="error_report_comment" Size="48">
+		<_42 Name="text" Offset="0" StructName1="error_report_comment.text" Int1="2" Int2="0" Flags="2000" />
+		<_38 Name="point" Offset="18" GUID="78534A62B6C2368CE2181EF59882F40C" />
+		<_20 Name="color" Offset="38" />
+	</_DEA34617709A9566DB6DE9508AFF50B9>
+	<_1F374D1647361323C3A9FFA497C34802 Name="LODTransitionDistanceBlock" Size="4">
+		<_14 Name="lodTransitionDistance" Offset="0" />
+	</_1F374D1647361323C3A9FFA497C34802>
+	<_34A54DC5B1135973B0B5E57399901631 Name="geometry_material" Size="1C">
+		<_41 Name="material" Offset="0" Allowed="mat " Flags="0" />
+	</_34A54DC5B1135973B0B5E57399901631>
+	<_883D4E7D67FAC4978DFF93F8B794F7A2 Name="LODRenderData" Size="94">
+		<_40 Name="per mesh temporary" Offset="0" GUID="23054B6452900AB02CC95C01BA861C13" StructName1="LODRenderData" Min="0" Max="8191" />
+		<_40 Name="part sorting position" Offset="14" GUID="B52E4111684EF46DEEFB1C9E8E20FEFB" StructName1="LODRenderData" Min="0" Max="65535" />
+		<_40 Name="parts" Offset="28" GUID="FBEE42B44A81849DE6530F18A3C956AC" StructName1="LODRenderData" Min="0" Max="255" />
+		<_40 Name="subparts" Offset="3C" GUID="9C27436F09109A33B6971BAEB438BFBA" StructName1="LODRenderData" Min="0" Max="65535" />
+		<_40 Name="material streaming scale" Offset="50" GUID="ECD54CCA474555496ADFBA56B9D76429" StructName1="LODRenderData" Min="0" Max="10240" />
+		<_39 Name="vertex buffer indices" Offset="64" GUID="376042765E95A6C952D11A96BD4EEEA3" Count="19" StructName1="vertex buffer indices" />
+		<_3D Name="index buffer index" Offset="8A" />
+		<_E Name="lod flags" Offset="8C" StructName1="LODFlags">
+			<Flag n="lod 0" />
+			<Flag n="lod 1" />
+			<Flag n="lod 2" />
+			<Flag n="lod 3" />
+			<Flag n="lod 4" />
+			<Flag n="lod 5" />
+			<Flag n="lod 6" />
+			<Flag n="lod 7" />
+			<Flag n="lod 8" />
+			<Flag n="lod 9" />
+			<Flag n="lod 10" />
+			<Flag n="lod 11" />
+			<Flag n="lod 12" />
+			<Flag n="lod 13" />
+			<Flag n="lod 14" />
+			<Flag n="lod 15" />
+		</_E>
+		<_E Name="lod render flags" Offset="8E" StructName1="LODRenderFlags">
+			<Flag n="LOD has shadow proxies" />
+		</_E>
+		<_3D Name="raytracing metadata index" Offset="90" />
+		<_34 Name="generated_paddaed" Offset="92" Length="2" />
+	</_883D4E7D67FAC4978DFF93F8B794F7A2>
+	<_570F4E4EDAD1C118860BB1E0AF86840B Name="MeshVertexKey" Size="8">
+		<_6 Name="key1" Offset="0" />
+		<_6 Name="key2" Offset="4" />
+	</_570F4E4EDAD1C118860BB1E0AF86840B>
+	<_0EC6490D77DB2A4A3026F880822EA727 Name="NodeIndexStruct" Size="2">
+		<_3D Name="node index" Offset="0" />
+	</_0EC6490D77DB2A4A3026F880822EA727>
+	<_B52E4111684EF46DEEFB1C9E8E20FEFB Name="s_positioning" Size="44">
+		<_1E Name="plane" Offset="0" />
+		<_17 Name="position" Offset="10" />
+		<_14 Name="radius" Offset="1C" />
+		<_39 Name="node indices" Offset="20" GUID="7D854A1A96D9B8773D993ECB94447B36" Count="8" StructName1="node indices" />
+		<_39 Name="node weights" Offset="28" GUID="93AA40C8688AC37688C1B821B49A447E" Count="7" StructName1="node weights" />
+	</_B52E4111684EF46DEEFB1C9E8E20FEFB>
+	<_41C34C98211C66F6E044689C99478E8C Name="RenderGeometryMeshPackageResourceGroup" Size="10">
+		<_43 Name="mesh resource" Offset="0" StructName1="s_render_geometry_api_resource" Int1="0" GUID="F60A41648AEB802123365545970C7091" />
+	</_41C34C98211C66F6E044689C99478E8C>
+	<_05754FE2B12CFDD4480A4799BAE034FB Name="RenderGeometryMeshPackage::ResourceLookup" Size="4">
+		<_5 Name="resource group index" Offset="0" />
+		<_5 Name="group item index" Offset="2" />
+	</_05754FE2B12CFDD4480A4799BAE034FB>
+	<_5EA5497873514B8E39E1C24C8AAA440D Name="DwordIndex" Size="4">
+		<_3E Name="dword" Offset="0" />
+	</_5EA5497873514B8E39E1C24C8AAA440D>
+	<_B8624F3F50829B5859DBA60E9808AA62 Name="RenderGeometryDeformationParameter" Size="C">
+		<_2 Name="parameter name" Offset="0" />
+		<_3C Name="parameter mode" Offset="4" />
+		<_34 Name="generated_pad8065" Offset="5" Length="3" />
+		<_14 Name="constant input" Offset="8" />
+	</_B8624F3F50829B5859DBA60E9808AA62>
+	<_FC5B45B592F5E99B688E96A8A594973C Name="WordIndex" Size="2">
+		<_3D Name="word" Offset="0" />
+	</_FC5B45B592F5E99B688E96A8A594973C>
+	<_2F7A473A03A9EF852DE335AF8A86F093 Name="s_structure_bsp_resources" Size="28">
+		<_40 Name="collision bsp" Offset="0" GUID="1F17442DE15E4F1BC0E020458730F6BB" StructName1="s_structure_bsp_resources" Min="0" Max="1" />
+		<_40 Name="large collision bsp" Offset="14" GUID="BF17422DE15AAF1BCDE02043B730F6DB" StructName1="s_structure_bsp_resources" Min="0" Max="1" />
+	</_2F7A473A03A9EF852DE335AF8A86F093>
+	<_684D4DA65604D90DFA32E985BBA92BC0 Name="StreamingBitmapScale" Size="8">
+		<_6 Name="bitmap index in bsp" Offset="0" />
+		<_14 Name="scale" Offset="4" />
+	</_684D4DA65604D90DFA32E985BBA92BC0>
+	<_78534A62B6C2368CE2181EF59882F40C Name="error_report_point" Size="20">
+		<_17 Name="position" Offset="0" />
+		<_39 Name="node indices" Offset="C" GUID="F4FF4938B0BC81FECE3EBDC0BA0BD7A5" Count="4" StructName1="node indices" />
+		<_39 Name="node weights" Offset="10" GUID="A37C4DC7FA12933312F05638B1050C1B" Count="4" StructName1="node weights" />
+	</_78534A62B6C2368CE2181EF59882F40C>
+	<_338142C90F4729E04888C89ABB1ABDAE Name="ErrorReportLinePoint" Size="20">
+		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
+	</_338142C90F4729E04888C89ABB1ABDAE>
+	<_DDD84F94D717639859AEA1898AFE9068 Name="ErrorReportTrianglePoint" Size="20">
+		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
+	</_DDD84F94D717639859AEA1898AFE9068>
+	<_0A0E42FD81027CE96EB082A3AE95FE26 Name="ErrorReportQuadPoint" Size="20">
+		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
+	</_0A0E42FD81027CE96EB082A3AE95FE26>
+	<_23054B6452900AB02CC95C01BA861C13 Name="s_per_mesh_raw_data" Size="CC">
+		<_40 Name="raw vertices" Offset="0" GUID="CD9343C598F6C83605BDBA77BA313188" StructName1="s_per_mesh_raw_data" Min="0" Max="16777214" />
+		<_40 Name="raw indices" Offset="14" GUID="FC5B45B592F5E99B688E96A8A594973C" StructName1="s_per_mesh_raw_data" Min="0" Max="2621400" />
+		<_40 Name="raw indices32" Offset="28" GUID="5EA5497873514B8E39E1C24C8AAA440D" StructName1="s_per_mesh_raw_data" Min="0" Max="67108864" />
+		<_40 Name="raw water data" Offset="3C" GUID="93ED4F124F09C6446E7054C7A9D754E1" StructName1="s_per_mesh_raw_data" Min="0" Max="32" />
+		<_40 Name="raw blendshapes" Offset="50" GUID="F97E4DB97D5E559372EC5CE98E97BC00" StructName1="s_per_mesh_raw_data" Min="0" Max="16777216" />
+		<_40 Name="raw blendshapes indices" Offset="64" GUID="5EA5497873514B8E39E1C24C8AAA440D" StructName1="s_per_mesh_raw_data" Min="0" Max="67108864" />
+		<_40 Name="raw tension edges" Offset="78" GUID="7FD2498E44A4D456145DDA1495F79DA7" StructName1="s_per_mesh_raw_data" Min="0" Max="262144" />
+		<_40 Name="raw blendshapes triangle and edge Indices" Offset="8C" GUID="5EA5497873514B8E39E1C24C8AAA440D" StructName1="s_per_mesh_raw_data" Min="0" Max="67108864" />
+		<_40 Name="raw blendshapes triangle and edge index info" Offset="A0" GUID="5F2D4E16AAFDA4300C08366E84256C0F" StructName1="s_per_mesh_raw_data" Min="0" Max="262144" />
+		<_D Name="flags" Offset="B4" StructName1="PerMeshRawDataFlags">
+			<Flag n="indices are triangle strips" />
+			<Flag n="indices are triangle lists" />
+			<Flag n="indices are quad lists" />
+		</_D>
+		<_40 Name="level breakdown data" Offset="B8" GUID="F7F849F56DBDC6997B768A8198C9A0EC" StructName1="s_per_mesh_raw_data" Min="0" Max="1" />
+	</_23054B6452900AB02CC95C01BA861C13>
+	<_FBEE42B44A81849DE6530F18A3C956AC Name="s_part" Size="18">
+		<_2E Name="material index" Offset="0" GUID="34A54DC5B1135973B0B5E57399901631" StructName1="s_part" Min="0" Max="10240" />
+		<_2E Name="transparent sorting index" Offset="2" GUID="B52E4111684EF46DEEFB1C9E8E20FEFB" StructName1="s_part" Min="0" Max="65535" />
+		<_6 Name="index start" Offset="4" />
+		<_6 Name="index count" Offset="8" />
+		<_6 Name="perMeshPartConstantsOffset" Offset="C" />
+		<_3C Name="part type" Offset="10" />
+		<_34 Name="generated_pad5c53" Offset="11" Length="1" />
+		<_E Name="part flags" Offset="12" StructName1="PartFlags">
+			<Flag n="draw cull rendering shields" />
+			<Flag n="blendshape" />
+			<Flag n="colormask Control NormalBlend" />
+			<Flag n="draw cull rendering active camo" />
+			<Flag n="Don't use virtual texturing" />
+			<Flag n="Virtual texturing UV shell skirt" />
+		</_E>
+		<_3D Name="budget vertex count" Offset="14" />
+		<_34 Name="generated_pad0f9e" Offset="16" Length="2" />
+	</_FBEE42B44A81849DE6530F18A3C956AC>
+	<_9C27436F09109A33B6971BAEB438BFBA Name="s_subpart" Size="C">
+		<_6 Name="index start" Offset="0" />
+		<_6 Name="index count" Offset="4" />
+		<_2E Name="part index" Offset="8" GUID="FBEE42B44A81849DE6530F18A3C956AC" StructName1="s_subpart" Min="0" Max="255" />
+		<_3D Name="budget vertex count" Offset="A" />
+	</_9C27436F09109A33B6971BAEB438BFBA>
+	<_ECD54CCA474555496ADFBA56B9D76429 Name="MaterialStreamingScale" Size="8">
+		<_6 Name="material index" Offset="0" />
+		<_14 Name="material scale" Offset="4" />
+	</_ECD54CCA474555496ADFBA56B9D76429>
+	<_376042765E95A6C952D11A96BD4EEEA3 Name="LODRenderDataVertexBufferIndex" Size="2">
+		<_3D Name="vertex buffer index" Offset="0" />
+	</_376042765E95A6C952D11A96BD4EEEA3>
+	<_7D854A1A96D9B8773D993ECB94447B36 Name="GeometryNodeIndex" Size="1">
+		<_3C Name="node index" Offset="0" />
+	</_7D854A1A96D9B8773D993ECB94447B36>
+	<_93AA40C8688AC37688C1B821B49A447E Name="PositioningNodeWeight" Size="4">
+		<_14 Name="node weight" Offset="0" />
+	</_93AA40C8688AC37688C1B821B49A447E>
+	<_F60A41648AEB802123365545970C7091 Name="s_render_geometry_api_resource" Size="138">
+		<_40 Name="pc vertex buffers" Offset="0" GUID="E07F488010DD7329253227EEBC8BB79A" StructName1="s_render_geometry_api_resource" Min="0" Max="65535" />
+		<_40 Name="pc index buffers" Offset="14" GUID="88D1483BC747C29EF00BDD099336EC15" StructName1="s_render_geometry_api_resource" Min="0" Max="8191" />
+		<_40 Name="raytracing metadata" Offset="28" GUID="E03F4D15B98AA29BC7FFCE68871C3B54" StructName1="s_render_geometry_api_resource" Min="0" Max="131056" />
+		<_40 Name="Streaming Meshes" Offset="3C" GUID="BF91471CD187ADACAD0A6F3DB1221ED0" StructName1="s_render_geometry_api_resource" Min="0" Max="8191" />
+		<_40 Name="Streaming Chunks" Offset="50" GUID="65FE439F850DD75065AC45B18672391E" StructName1="s_render_geometry_api_resource" Min="0" Max="8192" />
+		<_40 Name="Streaming Buffers" Offset="64" GUID="F8F248923C60BDCF3C432E0F85CE17ED" StructName1="s_render_geometry_api_resource" Min="0" Max="1048576" />
+		<_7 Name="m_sharedDXResources" type="nuke" Offset="78" />
+		<_7 Name="m_sharedDXResourceRawView" type="nuke" Offset="80" />
+		<_39 Name="m_sharedDXResourceTypedViews" type="nuke" Offset="88" GUID="C9A74D928B59ABF6747AF7E4B185B6CE" Count="21" StructName1="m_sharedDXResourceTypedViews" />
+		<_7 Name="Runtime Data" type="nuke" Offset="130" />
+	</_F60A41648AEB802123365545970C7091>
+	<_1F17442DE15E4F1BC0E020458730F6BB Name="CollisionBspBlock" Size="B4">
+		<_40 Name="bsp3d nodes" Offset="0" GUID="FF8E48E7B5D8FC213E7371A392611F52" StructName1="CollisionBspBlock" Min="0" Max="8388608" />
+		<_40 Name="bsp3d supernodes" Offset="14" GUID="10124FA9ABCDC201E01AB4BCA7400AB4" StructName1="CollisionBspBlock" Min="0" Max="2048" />
+		<_40 Name="planes" Offset="28" GUID="719C4E0D5D188A8D22E342EB8015A6DA" StructName1="CollisionBspBlock" Min="0" Max="536870911" />
+		<_40 Name="leaves" Offset="3C" GUID="9A644ECCA5FD8EE345030CA19CEBF2FB" StructName1="CollisionBspBlock" Min="0" Max="8388608" />
+		<_40 Name="bsp2d references" Offset="50" GUID="8C38445F591E809E3B5474FFB889DE6F" StructName1="CollisionBspBlock" Min="0" Max="196608" />
+		<_40 Name="bsp2d nodes" Offset="64" GUID="C73B41246CD60C8C966AD3BEB339408C" StructName1="CollisionBspBlock" Min="0" Max="32767" />
+		<_40 Name="surfaces" Offset="78" GUID="010A4B887AB8193585CD9139AB12DE80" StructName1="CollisionBspBlock" Min="0" Max="32767" />
+		<_40 Name="edges" Offset="8C" GUID="EC534400B51DA635D1DCCAFD81B58C33" StructName1="CollisionBspBlock" Min="0" Max="65535" />
+		<_40 Name="vertices" Offset="A0" GUID="1FCE4C6A6C3F6A60E56D2F608F89E265" StructName1="CollisionBspBlock" Min="0" Max="131072" />
+	</_1F17442DE15E4F1BC0E020458730F6BB>
+	<_BF17422DE15AAF1BCDE02043B730F6DB Name="large_collision_bsp" Size="B4">
+		<_40 Name="bsp3d nodes" Offset="0" GUID="373C48DDB16070E2A979E2E0BC536E38" StructName1="large_collision_bsp" Min="0" Max="536870911" />
+		<_40 Name="bsp3d supernodes" Offset="14" GUID="10124FA9ABCDC201E01AB4BCA7400AB4" StructName1="large_collision_bsp" Min="0" Max="2048" />
+		<_40 Name="planes" Offset="28" GUID="719C4E0D5D188A8D22E342EB8015A6DA" StructName1="large_collision_bsp" Min="0" Max="536870911" />
+		<_40 Name="leaves" Offset="3C" GUID="8B1C4C586FACAFAA7C8A9E94913373AA" StructName1="large_collision_bsp" Min="0" Max="134217728" />
+		<_40 Name="bsp2d references" Offset="50" GUID="481349EE7E6008654FD9C2BBAA595566" StructName1="large_collision_bsp" Min="0" Max="536870911" />
+		<_40 Name="bsp2d nodes" Offset="64" GUID="16C14EE5C17973C7212D8050A40FA277" StructName1="large_collision_bsp" Min="0" Max="536870911" />
+		<_40 Name="surfaces" Offset="78" GUID="00164C5BABF80B9804A14589BACE563D" StructName1="large_collision_bsp" Min="0" Max="262136" />
+		<_40 Name="edges" Offset="8C" GUID="E157446476B24BE8948F3471B7C09C61" StructName1="large_collision_bsp" Min="0" Max="2621440" />
+		<_40 Name="vertices" Offset="A0" GUID="F03B41860459797BD41B79DDAA638C78" StructName1="large_collision_bsp" Min="0" Max="1310720" />
+	</_BF17422DE15AAF1BCDE02043B730F6DB>
+	<_F4FF4938B0BC81FECE3EBDC0BA0BD7A5 Name="ErrorReportNodeIndex" Size="1">
+		<_3C Name="node index" Offset="0" />
+	</_F4FF4938B0BC81FECE3EBDC0BA0BD7A5>
+	<_A37C4DC7FA12933312F05638B1050C1B Name="ErrorReportNodeWeight" Size="4">
+		<_14 Name="node weight" Offset="0" />
+	</_A37C4DC7FA12933312F05638B1050C1B>
+	<_CD9343C598F6C83605BDBA77BA313188 Name="RawVertex" Size="A4">
+		<_17 Name="position" Offset="0" />
+		<_16 Name="texcoord" Offset="C" />
+		<_17 Name="normal" Offset="14" />
+		<_17 Name="binormal" Offset="20" />
+		<_17 Name="tangent" Offset="2C" />
+		<_16 Name="lightmap texcoord" Offset="38" />
+		<_39 Name="node indices" Offset="40" GUID="7D854A1A96D9B8773D993ECB94447B36" Count="8" StructName1="node indices" />
+		<_39 Name="node weights" Offset="48" GUID="935C482493F6CB70199C0BA7AFBCAA80" Count="8" StructName1="node weights" />
+		<_17 Name="vertex color" Offset="68" />
+		<_16 Name="texcoord1" Offset="74" />
+		<_14 Name="dual quat weight" Offset="7C" />
+		<_14 Name="vertex alpha" Offset="80" />
+		<_17 Name="tangent UV2" Offset="84" />
+		<_16 Name="texcoord2" Offset="90" />
+		<_17 Name="tangent UV3" Offset="98" />
+	</_CD9343C598F6C83605BDBA77BA313188>
+	<_93ED4F124F09C6446E7054C7A9D754E1 Name="s_raw_water_data" Size="28">
+		<_40 Name="raw water indices" Offset="0" GUID="FC5B45B592F5E99B688E96A8A594973C" StructName1="s_raw_water_data" Min="0" Max="2621400" />
+		<_40 Name="raw water vertices" Offset="14" GUID="C99A41B1B6F830855AE2008EB7F454A8" StructName1="s_raw_water_data" Min="0" Max="65535" />
+	</_93ED4F124F09C6446E7054C7A9D754E1>
+	<_F97E4DB97D5E559372EC5CE98E97BC00 Name="RawBlendshapeVertex" Size="2C">
+		<_19 Name="position" Offset="0" />
+		<_19 Name="normal" Offset="C" />
+		<_20 Name="tension and ambient occlusion" Offset="18" />
+		<_3E Name="target Id" Offset="28" />
+	</_F97E4DB97D5E559372EC5CE98E97BC00>
+	<_7FD2498E44A4D456145DDA1495F79DA7 Name="RawTensionEdge" Size="C">
+		<_3E Name="start vertex index" Offset="0" />
+		<_3E Name="end vertex index" Offset="4" />
+		<_14 Name="edge rest length" Offset="8" />
+	</_7FD2498E44A4D456145DDA1495F79DA7>
+	<_5F2D4E16AAFDA4300C08366E84256C0F Name="RawTriangleEdgeIndexInfo" Size="8">
+		<_3E Name="triangle and edge index pos" Offset="0" />
+		<_3E Name="encoded triangle and edge size" Offset="4" />
+	</_5F2D4E16AAFDA4300C08366E84256C0F>
+	<_F7F849F56DBDC6997B768A8198C9A0EC Name="i343::LevelBreakdown::RuntimeGeoLevelBreakdownData" Size="58">
+		<_41 Name="Asset tag" Offset="0" Allowed="aset" Flags="9" />
+		<_2 Name="Default variant name" Offset="1C" />
+		<_41 Name="LOD settings tag" Offset="20" Allowed="lods" Flags="9" />
+		<_2 Name="LOD settings name" Offset="3C" />
+		<_6 Name="Convert Collision to Shadow Geometry" Offset="40" />
+		<_40 Name="Asset variants" Offset="44" GUID="E5C04865750CB47DC9F25EA09D4D86AE" StructName1="i343::LevelBreakdown::RuntimeGeoLevelBreakdownData" Min="0" Max="2048" />
+	</_F7F849F56DBDC6997B768A8198C9A0EC>
+	<_E07F488010DD7329253227EEBC8BB79A Name="RasterizerVertexBuffer" Size="50">
+		<_C Name="usage" Offset="0" StructName1="eVertexBufferUsage">
+			<Flag n="Position" />
+			<Flag n="UV0" />
+			<Flag n="UV1" />
+			<Flag n="UV2" />
+			<Flag n="Color" />
+			<Flag n="Normal" />
+			<Flag n="Tangent" />
+			<Flag n="BlendIndices0" />
+			<Flag n="BlendWeights0" />
+			<Flag n="BlendIndices1" />
+			<Flag n="BlendWeights1" />
+			<Flag n="PrevPosition" />
+			<Flag n="InstanceData" />
+			<Flag n="BlendshapePosition" />
+			<Flag n="BlendshapeNormal" />
+			<Flag n="BlendshapeIndex" />
+			<Flag n="Edge" />
+			<Flag n="EdgeIndex" />
+			<Flag n="EdgeIndexInfo" />
+		</_C>
+		<_C Name="format" Offset="4" StructName1="eRasterizerVertexFormat">
+			<Flag n="real" />
+			<Flag n="realVector2D" />
+			<Flag n="realVector3D" />
+			<Flag n="realVector4D" />
+			<Flag n="byteVector4D" />
+			<Flag n="byteARGBColor" />
+			<Flag n="shortVector2D" />
+			<Flag n="shortVector2DNormalized" />
+			<Flag n="shortVector4DNormalized" />
+			<Flag n="wordVector2DNormalized" />
+			<Flag n="wordVector4DNormalized" />
+			<Flag n="real16Vector2D" />
+			<Flag n="real16Vector4D" />
+			<Flag n="10_10_10_normalized" />
+			<Flag n="10_10_10_2" />
+			<Flag n="10_10_10_2_signedNormalizedPackedAsUnorm" />
+			<Flag n="dword" />
+			<Flag n="dwordVector2D" />
+			<Flag n="11_11_10_float" />
+			<Flag n="byteUnitVector3D" />
+			<Flag n="wordVector3DNormalizedWith4Word" />
+		</_C>
+		<_3C Name="stride" Offset="8" />
+		<_3C Name="ownsD3DResource" type="nuke" Offset="9" />
+		<_34 Name="generated_pad9e95" Offset="A" Length="2" />
+		<_3E Name="count" Offset="C" />
+		<_3E Name="offset" Offset="10" />
+		<_38 Name="d3dbuffer" Offset="14" GUID="E3E04E6E298CB894B11817718E961916" />
+		<_7 Name="m_resource" Offset="40" />
+		<_7 Name="m_resourceView" Offset="48" />
+	</_E07F488010DD7329253227EEBC8BB79A>
+	<_88D1483BC747C29EF00BDD099336EC15 Name="RasterizerIndexBuffer" Size="48">
+		<_3C Name="declaration type" Offset="0" />
+		<_3C Name="stride" Offset="1" />
+		<_3C Name="ownsD3DResource" type="nuke" Offset="2" />
+		<_34 Name="generated_pad8bf7" Offset="3" Length="1" />
+		<_3E Name="count" Offset="4" />
+		<_3E Name="offset" Offset="8" />
+		<_38 Name="d3dbuffer" Offset="C" GUID="E3E04E6E298CB894B11817718E961916" />
+		<_7 Name="m_resource" Offset="38" />
+		<_7 Name="m_resourceView" Offset="40" />
+	</_88D1483BC747C29EF00BDD099336EC15>
+	<_E03F4D15B98AA29BC7FFCE68871C3B54 Name="RaytracingMetaData" Size="70">
+		<_3D Name="index buffer index" Offset="0" />
+		<_3D Name="vertex buffer index" Offset="2" />
+		<_C Name="vertex format" Offset="4" StructName1="eRasterizerVertexFormat">
+			<Flag n="real" />
+			<Flag n="realVector2D" />
+			<Flag n="realVector3D" />
+			<Flag n="realVector4D" />
+			<Flag n="byteVector4D" />
+			<Flag n="byteARGBColor" />
+			<Flag n="shortVector2D" />
+			<Flag n="shortVector2DNormalized" />
+			<Flag n="shortVector4DNormalized" />
+			<Flag n="wordVector2DNormalized" />
+			<Flag n="wordVector4DNormalized" />
+			<Flag n="real16Vector2D" />
+			<Flag n="real16Vector4D" />
+			<Flag n="10_10_10_normalized" />
+			<Flag n="10_10_10_2" />
+			<Flag n="10_10_10_2_signedNormalizedPackedAsUnorm" />
+			<Flag n="dword" />
+			<Flag n="dwordVector2D" />
+			<Flag n="11_11_10_float" />
+			<Flag n="byteUnitVector3D" />
+			<Flag n="wordVector3DNormalizedWith4Word" />
+		</_C>
+		<_A Name="vertex type" Offset="8" StructName1="VertexType">
+			<Flag n="world" />
+			<Flag n="rigid" />
+			<Flag n="skinned" />
+			<Flag n="particle_model" />
+			<Flag n="screen" />
+			<Flag n="debug" />
+			<Flag n="transparent" />
+			<Flag n="particle" />
+			<Flag n="removed08" />
+			<Flag n="removed09" />
+			<Flag n="chud_simple" />
+			<Flag n="decorator" />
+			<Flag n="position only" />
+			<Flag n="removed13" />
+			<Flag n="ripple" />
+			<Flag n="removed15" />
+			<Flag n="tessellatedTerrain" />
+			<Flag n="empty" />
+			<Flag n="decal" />
+			<Flag n="removed19" />
+			<Flag n="removed20" />
+			<Flag n="position_only" />
+			<Flag n="tracer" />
+			<Flag n="rigid_boned" />
+			<Flag n="removed24" />
+			<Flag n="CheapParticle" />
+			<Flag n="dq_skinned" />
+			<Flag n="skinned 8 weights" />
+			<Flag n="tessellated vector" />
+			<Flag n="interaction" />
+			<Flag n="number of standard vertex types" />
+		</_A>
+		<_34 Name="generated_pad35fb" Offset="9" Length="3" />
+		<_19 Name="decompression Scale" Offset="C" />
+		<_19 Name="decompression Translation" Offset="18" />
+		<_40 Name="mesh part metadata" Offset="24" GUID="2A8243165F4F96B2FC3C653099BE3C67" StructName1="RaytracingMetaData" Min="0" Max="255" />
+		<_E Name="meta data flags" Offset="38" StructName1="RaytracingMetaDataFlags">
+			<Flag n="has blendshape" />
+		</_E>
+		<_34 Name="generated_pade946" Offset="3A" Length="6" />
+		<_38 Name="blas offline data" Offset="40" GUID="9E5746289CB282E82B490C0C87CE22DD" />
+	</_E03F4D15B98AA29BC7FFCE68871C3B54>
+	<_BF91471CD187ADACAD0A6F3DB1221ED0 Name="StreamingGeometryMesh" Size="34">
+		<_6 Name="lod state cache slot" Offset="0" />
+		<_4 Name="required lod" Offset="4" />
+		<_34 Name="generated_pad413f" Offset="5" Length="3" />
+		<_42 Name="lod raytracing meta data" Offset="8" StructName1="StreamingGeometryMesh.lod raytracing meta data" Int1="0" Int2="0" Flags="20" />
+		<_40 Name="mesh lod chunks" Offset="20" GUID="EF4442568081AD34602D9DD0B563A894" StructName1="StreamingGeometryMesh" Min="0" Max="16" />
+	</_BF91471CD187ADACAD0A6F3DB1221ED0>
+	<_65FE439F850DD75065AC45B18672391E Name="StreamingGeometryChunk" Size="C">
+		<_3D Name="buffer index" Offset="0" />
+		<_3D Name="allocation priority" Offset="2" />
+		<_3E Name="buffer start" Offset="4" />
+		<_3E Name="buffer end" Offset="8" />
+	</_65FE439F850DD75065AC45B18672391E>
+	<_F8F248923C60BDCF3C432E0F85CE17ED Name="StreamingGeometryBuffer" Size="20">
+		<_3E Name="buffer size" Offset="0" />
+		<_3E Name="bind flags" Offset="4" />
+		<_42 Name="Temp buffer for pipeline" Offset="8" StructName1="StreamingGeometryBuffer.Temp buffer for pipeline" Int1="0" Int2="0" Flags="3E800000" />
+	</_F8F248923C60BDCF3C432E0F85CE17ED>
+	<_C9A74D928B59ABF6747AF7E4B185B6CE Name="IResourceViewPointer" Size="8">
+		<_7 Name="IResourceView" Offset="0" />
+	</_C9A74D928B59ABF6747AF7E4B185B6CE>
+	<_373C48DDB16070E2A979E2E0BC536E38 Name="bsp3d node" Name2="large_bsp3d_node" Size="C">
+		<_6 Name="plane" Offset="0" />
+		<_6 Name="back child" Offset="4" />
+		<_6 Name="front child" Offset="8" />
+	</_373C48DDB16070E2A979E2E0BC536E38>
+	<_8B1C4C586FACAFAA7C8A9E94913373AA Name="leaf" Name2="large_collision_leaf" Size="8">
+		<_F Name="flags" Offset="0" StructName1="LeafFlags">
+			<Flag n="contains double-sided surfaces" />
+		</_F>
+		<_34 Name="generated_pad7ea5" Offset="1" Length="1" />
+		<_5 Name="bsp2d reference count" Offset="2" />
+		<_6 Name="first bsp2d reference" Offset="4" />
+	</_8B1C4C586FACAFAA7C8A9E94913373AA>
+	<_481349EE7E6008654FD9C2BBAA595566 Name="bsp2d reference" Name2="large_bsp2d_reference" Size="8">
+		<_6 Name="plane" Offset="0" />
+		<_6 Name="bsp2d node" Offset="4" />
+	</_481349EE7E6008654FD9C2BBAA595566>
+	<_16C14EE5C17973C7212D8050A40FA277 Name="bsp2d node" Name2="large_bsp2d_node" Size="14">
+		<_1D Name="plane" Offset="0" />
+		<_6 Name="left child" Offset="C" />
+		<_6 Name="right child" Offset="10" />
+	</_16C14EE5C17973C7212D8050A40FA277>
+	<_00164C5BABF80B9804A14589BACE563D Name="large_collision_surface" Size="C">
+		<_6 Name="plane index" Offset="0" />
+		<_6 Name="first edge" Offset="4" />
+		<_5 Name="material" Offset="8" />
+		<_F Name="flags" Offset="A" StructName1="SurfaceFlags">
+			<Flag n="two sided" />
+			<Flag n="invisible" />
+			<Flag n="climbable" />
+			<Flag n="invalid" />
+			<Flag n="conveyor" />
+			<Flag n="slip" />
+			<Flag n="plane negated" />
+		</_F>
+		<_3C Name="best plane calculation vertex index " Offset="B" />
+	</_00164C5BABF80B9804A14589BACE563D>
+	<_E157446476B24BE8948F3471B7C09C61 Name="edge" Name2="large_collision_edge" Size="18">
+		<_6 Name="start vertex" Offset="0" />
+		<_6 Name="end vertex" Offset="4" />
+		<_6 Name="forward edge" Offset="8" />
+		<_6 Name="reverse edge" Offset="C" />
+		<_6 Name="left surface" Offset="10" />
+		<_6 Name="right surface" Offset="14" />
+	</_E157446476B24BE8948F3471B7C09C61>
+	<_F03B41860459797BD41B79DDAA638C78 Name="vertex" Name2="large_collision_vertex" Size="14">
+		<_17 Name="point" Offset="0" />
+		<_6 Name="first edge" Offset="C" />
+		<_5 Name="sink" Offset="10" />
+		<_34 Name="generated_pad06d3" Offset="12" Length="2" />
+	</_F03B41860459797BD41B79DDAA638C78>
+	<_935C482493F6CB70199C0BA7AFBCAA80 Name="GeometryNodeWeight" Size="4">
+		<_14 Name="node weight" Offset="0" />
+	</_935C482493F6CB70199C0BA7AFBCAA80>
+	<_C99A41B1B6F830855AE2008EB7F454A8 Name="s_raw_water_append" Size="8">
+		<_16 Name="base texcoord" Offset="0" />
+	</_C99A41B1B6F830855AE2008EB7F454A8>
+	<_E5C04865750CB47DC9F25EA09D4D86AE Name="i343::LevelBreakdown::AssetVariantLevelBreakdownData" Size="3C">
+		<_2 Name="Variant name" Offset="0" />
+		<_41 Name="Runtime Geo" Offset="4" Allowed="rtgo" Flags="9" />
+		<_41 Name="Static Collision Geo" Offset="20" Allowed="scgt" Flags="9" />
+	</_E5C04865750CB47DC9F25EA09D4D86AE>
+	<_E3E04E6E298CB894B11817718E961916 Name="D3DBufferData" Size="2C">
+		<_3E Name="byte width" Offset="0" />
+		<_3E Name="bind flags" Offset="4" />
+		<_3E Name="misc flags" Offset="8" />
+		<_3E Name="stride" Offset="C" />
+		<_42 Name="d3d buffer" Offset="10" StructName1="D3DBufferData.d3d buffer" Int1="128" Int2="4" Flags="40000000" />
+		<_3D Name="usage" Offset="28" />
+		<_3D Name="cpu flags" Offset="2A" />
+	</_E3E04E6E298CB894B11817718E961916>
+	<_2A8243165F4F96B2FC3C653099BE3C67 Name="MeshPartRaytracingMetaData" Size="C">
+		<_3E Name="index count" Offset="0" />
+		<_3E Name="index offset" Offset="4" />
+		<_3C Name="geo type" Offset="8" />
+		<_34 Name="generated_padf9a7" Offset="9" Length="3" />
+	</_2A8243165F4F96B2FC3C653099BE3C67>
+	<_9E5746289CB282E82B490C0C87CE22DD Name="BLASOfflineData" Size="30">
+		<_42 Name="Temp BLAS buffer" Offset="0" StructName1="BLASOfflineData.Temp BLAS buffer" Int1="0" Int2="8" Flags="40000000" />
+		<_6 Name="PostbuildCurrentSize" Offset="18" />
+		<_6 Name="PostbuildSerializedSize" Offset="1C" />
+		<_3E Name="offset" Offset="20" />
+		<_34 Name="generated_pad707f" Offset="24" Length="4" />
+		<_7 Name="m_resource" Offset="28" />
+	</_9E5746289CB282E82B490C0C87CE22DD>
+	<_EF4442568081AD34602D9DD0B563A894 Name="StreamingChunkList" Size="18">
+		<_42 Name="chunks" Offset="0" StructName1="StreamingChunkList.chunks" Int1="0" Int2="0" Flags="4000" />
+	</_EF4442568081AD34602D9DD0B563A894>
+</root>

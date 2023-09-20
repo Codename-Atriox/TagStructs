@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="PlayerGlobalsDefinition" Parents="aTag" Index="-189">
+	<_B38A47DC89AF47DDAF1947529D296814 Name="i343::PlayerGlobals" Size="D8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_2 Name="Default representation" Offset="10" />
+		<_37 Name="Player Representations" type="fgrb" Offset="14" />
+		<_36 Name="Notes" Offset="14" />
+		<_40 Name="@player representations" Offset="14" GUID="9D3049E347CBA42076B77226A3EB3FEE" StructName1="i343::PlayerGlobals" Min="0" Max="256" />
+		<_37 Name="" type="fgre" Offset="28" />
+		<_40 Name="@player information" Offset="28" GUID="4D24477D45AF4745E5CAEBE7A205702C" StructName1="i343::PlayerGlobals" Min="0" Max="256" />
+		<_40 Name="@player camera" Offset="3C" GUID="C46741F64C73792C50BB4C798D4AAA44" StructName1="i343::PlayerGlobals" Min="0" Max="1" />
+		<_40 Name="@first person weapon" Offset="50" GUID="316C465EF1A9E9E7F0BF16898A22BAFB" StructName1="i343::PlayerGlobals" Min="0" Max="1" />
+		<_40 Name="@predictable collisions" Offset="64" GUID="E99A47DBB707D90E1E3AF022B16630D1" StructName1="i343::PlayerGlobals" Min="0" Max="1" />
+		<_38 Name="participant malleable properties" Offset="78" GUID="57B74AD68FD75840D6CB8EC399F13FC6" />
+		<_38 Name="inventory limits" Offset="C0" GUID="EE0A4EA8868F43AFA9AE87B9B6CC95E7" />
+		<_38 Name="interaction priorities" Offset="C1" GUID="73B34AD748633C2DCA7484019C07E526" />
+		<_34 Name="generated_pad9d6c" Offset="D3" Length="5" />
+	</_B38A47DC89AF47DDAF1947529D296814>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_9D3049E347CBA42076B77226A3EB3FEE Name="i343::Player::Representation" Size="264">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="first person interface name" Offset="4" />
+		<_2 Name="customization set" Offset="8" />
+		<_41 Name="customization" Offset="C" Allowed="ocgd" Flags="0" />
+		<_F Name="flags" Offset="28" StructName1="i343::Player::RepresentationFlags">
+			<Flag n="can use health packs" />
+			<Flag n="use teammate chatter dialogue" />
+		</_F>
+		<_34 Name="generated_pad3e61" Offset="29" Length="3" />
+		<_41 Name="third person unit" Offset="2C" Allowed="unit" Flags="0" />
+		<_2 Name="third person variant" Offset="48" />
+		<_40 Name="additional third person variants" Offset="4C" GUID="1163427C00BCA946F8FBC3CB998C7662" StructName1="i343::Player::Representation" Min="0" Max="1024" />
+		<_41 Name="frame override" Offset="60" Allowed="sofd" Flags="0" />
+		<_30 Name="player information" Offset="7C" GUID="4D24477D45AF4745E5CAEBE7A205702C" StructName1="i343::Player::Representation" Min="0" Max="256" />
+		<_41 Name="hud screen reference" Offset="80" Allowed="cusc" Flags="0" />
+		<_2 Name="hud transition event name" Offset="9C" />
+		<_41 Name="buddy teleport effects" Offset="A0" Allowed="obte" Flags="0" />
+		<_41 Name="first person hands model" Offset="BC" Allowed="aset, hlmt" Flags="9" />
+		<_41 Name="generatedFirstPersonHandsModel" Offset="D8" Allowed="hlmt" Flags="0" />
+		<_2 Name="first person hands variant" Offset="F4" />
+		<_2 Name="first person body variant" Offset="F8" />
+		<_40 Name="hidden fpBody regions" Offset="FC" GUID="2D744D11B6C7F81F50F32BC59CA9B38F" StructName1="i343::Player::Representation" Min="0" Max="32" />
+		<_2 Name="override default style id" Offset="110" />
+		<_41 Name="bot reference" Offset="114" Allowed="char" Flags="0" />
+		<_41 Name="outline to use for enemy" Offset="130" Allowed="ostd" Flags="0" />
+		<_41 Name="non-occluded outline to use for enemy" Offset="14C" Allowed="ostd" Flags="0" />
+		<_41 Name="outline to use when we need only characters" Offset="168" Allowed="ostd" Flags="0" />
+		<_41 Name="non-occluded outline to use when we need only characters" Offset="184" Allowed="ostd" Flags="0" />
+		<_41 Name="outline to use for enemy near reticle" Offset="1A0" Allowed="ostd" Flags="0" />
+		<_41 Name="outline to use for enemy flash acquire" Offset="1BC" Allowed="ostd" Flags="0" />
+		<_41 Name="outline to use for friendly" Offset="1D8" Allowed="ostd" Flags="0" />
+		<_41 Name="outline to use for friendly near reticle" Offset="1F4" Allowed="ostd" Flags="0" />
+		<_41 Name="non-occluded outline to use for friendly" Offset="210" Allowed="ostd" Flags="0" />
+		<_41 Name="outline to use when viewed by spectators" Offset="22C" Allowed="ostd" Flags="0" />
+		<_41 Name="non-occluded outline to use when viewed by spectators" Offset="248" Allowed="ostd" Flags="0" />
+	</_9D3049E347CBA42076B77226A3EB3FEE>
+	<_4D24477D45AF4745E5CAEBE7A205702C Name="s_game_globals_player_information" Size="74">
+		<_2 Name="name" Offset="0" />
+		<_14 Name="walking speed" Offset="4" />
+		<_14 Name="run forward" Offset="8" />
+		<_14 Name="run backward" Offset="C" />
+		<_14 Name="run sideways" Offset="10" />
+		<_14 Name="run acceleration" Offset="14" />
+		<_14 Name="sneak forward" Offset="18" />
+		<_14 Name="sneak backward" Offset="1C" />
+		<_14 Name="sneak sideways" Offset="20" />
+		<_14 Name="sneak acceleration" Offset="24" />
+		<_14 Name="downed forward" Offset="28" />
+		<_14 Name="downed backward" Offset="2C" />
+		<_14 Name="downed sideways" Offset="30" />
+		<_14 Name="downed acceleration" Offset="34" />
+		<_14 Name="airborne acceleration" Offset="38" />
+		<_17 Name="grenade origin" Offset="3C" />
+		<_38 Name="grenade aiming" Offset="48" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_25 Name="first person idle time" Offset="60" />
+		<_15 Name="first person skip fraction" Offset="68" />
+		<_14 Name="tracking detection locked decay time" Offset="6C" />
+		<_14 Name="tracking detection locking decay time" Offset="70" />
+	</_4D24477D45AF4745E5CAEBE7A205702C>
+	<_C46741F64C73792C50BB4C798D4AAA44 Name="i343::Player::CameraGlobals" Size="50">
+		<_36 Name="Default camera values" Offset="0" />
+		<_14 Name="look velocity base (pitch)" Offset="0" />
+		<_14 Name="look velocity step (pitch)" Offset="4" />
+		<_14 Name="look velocity base (yaw)" Offset="8" />
+		<_14 Name="look velocity step (yaw)" Offset="C" />
+		<_14 Name="mouse input velocity scale" Offset="10" />
+		<_36 Name="Flying camera pitch values" Offset="14" />
+		<_39 Name="flying camera pitch values" Offset="14" GUID="B41F4004B6889635C9CE3DFA8DA1700D" Count="4" StructName1="flying camera pitch values" />
+		<_36 Name="Flying camera yaw values" Offset="24" />
+		<_39 Name="flying camera yaw values" Offset="24" GUID="B41F4004B6889635C9CE3DFA8DA1700D" Count="4" StructName1="flying camera yaw values" />
+		<_36 Name="Flying camera speed values" Offset="34" />
+		<_39 Name="flying camera speed values" Offset="34" GUID="558B46FCF539B3ADE842B3CF92846396" Count="4" StructName1="flying camera speed values" />
+		<_36 Name="Flying camera thrust values" Offset="44" />
+		<_39 Name="flying camera thrust values" Offset="44" GUID="7FD3464807CAB31A825BCBE3A1DCE184" Count="3" StructName1="flying camera thrust values" />
+	</_C46741F64C73792C50BB4C798D4AAA44>
+	<_316C465EF1A9E9E7F0BF16898A22BAFB Name="i343::FirstPersonWeapon::Globals" Size="4">
+		<_36 Name="Body Render Max FOV" Offset="0" />
+		<_14 Name="body render max fov" Offset="0" />
+	</_316C465EF1A9E9E7F0BF16898A22BAFB>
+	<_E99A47DBB707D90E1E3AF022B16630D1 Name="i343::Biped::PredictableCollisionGlobals" Size="10">
+		<_36 Name="Predictable Collision" Offset="0" />
+		<_D Name="flags" Offset="0" StructName1="i343::Biped::PredictableCollisionGlobalFlags">
+			<Flag n="enable" />
+			<Flag n="include ai" />
+		</_D>
+		<_14 Name="bounding sphere extrapolation time" Offset="4" />
+		<_14 Name="bounding sphere scalar" Offset="8" />
+		<_14 Name="linear correction velocity max" Offset="C" />
+	</_E99A47DBB707D90E1E3AF022B16630D1>
+	<_57B74AD68FD75840D6CB8EC399F13FC6 Name="i343::Participant::MalleablePropertiesDefinition" Size="48">
+		<_37 Name="motion tracker normal range" type="mpfi" Offset="0" />
+		<_38 Name="motion tracker normal range" Offset="0" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_37 Name="motion tracker extended range" type="mpfi" Offset="C" />
+		<_38 Name="motion tracker extended range" Offset="C" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_37 Name="motion tracker vehicle range" type="mpfi" Offset="18" />
+		<_38 Name="motion tracker vehicle range" Offset="18" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_37 Name="motion tracker threshold speed (friendly)" type="mpfi" Offset="24" />
+		<_38 Name="motion tracker threshold speed (friendly)" Offset="24" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_37 Name="motion tracker threshold speed (enemy)" type="mpfi" Offset="30" />
+		<_38 Name="motion tracker threshold speed (enemy)" Offset="30" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_37 Name="motion tracker visibility scalar" type="mpfi" Offset="3C" />
+		<_38 Name="motion tracker visibility scalar" Offset="3C" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+	</_57B74AD68FD75840D6CB8EC399F13FC6>
+	<_EE0A4EA8868F43AFA9AE87B9B6CC95E7 Name="i343::Player::InventoryLimits" Size="1">
+		<_3C Name="maximum allowed weapons per player" Offset="0" />
+	</_EE0A4EA8868F43AFA9AE87B9B6CC95E7>
+	<_73B34AD748633C2DCA7484019C07E526 Name="i343::Player::InteractionPriorities" Size="12">
+		<_36 Name="Interaction Priorities" Offset="0" />
+		<_3C Name="None" Offset="0" />
+		<_3C Name="WeaponPickUpDisabled" Offset="1" />
+		<_3C Name="DeviceInteractDenied" Offset="2" />
+		<_3C Name="BannedVehicleEntrance" Offset="3" />
+		<_3C Name="PickUpGrenade" Offset="4" />
+		<_3C Name="PickUpWeapon" Offset="5" />
+		<_3C Name="PickUpAbility" Offset="6" />
+		<_3C Name="PickUpEquipment" Offset="7" />
+		<_3C Name="PickUpDispenserWeapon" Offset="8" />
+		<_3C Name="TouchDevice" Offset="9" />
+		<_3C Name="EvictFromVehicle" Offset="A" />
+		<_3C Name="EnterVehicle" Offset="B" />
+		<_3C Name="TradeWeapon" Offset="C" />
+		<_3C Name="BoardVehicle" Offset="D" />
+		<_3C Name="PickUpMultiplayerObject" Offset="E" />
+		<_3C Name="FlipVehicle" Offset="F" />
+		<_3C Name="HighPriorityDevice" Offset="10" />
+		<_3C Name="LookingAt" Offset="11" />
+	</_73B34AD748633C2DCA7484019C07E526>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_1163427C00BCA946F8FBC3CB998C7662 Name="i343::Player::Variant" Size="4">
+		<_2 Name="Variant" Offset="0" />
+	</_1163427C00BCA946F8FBC3CB998C7662>
+	<_2D744D11B6C7F81F50F32BC59CA9B38F Name="i343::Player::FirstPersonHiddenBodyRegion" Size="8">
+		<_2 Name="hidden region" Offset="0" />
+		<_F Name="flags" Offset="4" StructName1="i343::Player::BodyRegionFlags">
+			<Flag n="visible in ICS" />
+		</_F>
+		<_34 Name="generated_pad9af5" Offset="5" Length="3" />
+	</_2D744D11B6C7F81F50F32BC59CA9B38F>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+	<_B41F4004B6889635C9CE3DFA8DA1700D Name="i343::Player::FlyingLookSensitivityArrayDefinition" Size="4">
+		<_14 Name="Angular velocity" Offset="0" />
+	</_B41F4004B6889635C9CE3DFA8DA1700D>
+	<_558B46FCF539B3ADE842B3CF92846396 Name="i343::Player::FlyingSpeedArrayDefinition" Size="4">
+		<_14 Name="Speed" Offset="0" />
+	</_558B46FCF539B3ADE842B3CF92846396>
+	<_7FD3464807CAB31A825BCBE3A1DCE184 Name="i343::Player::FlyingThrustArrayDefinition" Size="4">
+		<_14 Name="Thrust" Offset="0" />
+	</_7FD3464807CAB31A825BCBE3A1DCE184>
+	<_DB6340E6F8D8B4A163AE2E8B97EA8CBB Name="i343::MalleableProperty::BaseFloatStructDefinition" Size="C">
+		<_14 Name="Base Value" Offset="0" />
+		<_25 Name="Value Bounds" Offset="4" />
+	</_DB6340E6F8D8B4A163AE2E8B97EA8CBB>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

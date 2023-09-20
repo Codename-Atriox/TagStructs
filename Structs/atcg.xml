@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="asset_category_globals" Parents="aTag" Index="-29">
+	<_49B5A983444699DA88C05575769BA4B3 Name="AssetCategoryGlobalsTag" Size="40">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="parent" type="parr" Offset="10" Allowed="atcg" Flags="9" />
+		<_40 Name="Asset Category Globals" Offset="2C" GUID="8679FFF3E9112533F0038180DD756FEA" StructName1="AssetCategoryGlobalsTag" Min="0" Max="256" />
+	</_49B5A983444699DA88C05575769BA4B3>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_8679FFF3E9112533F0038180DD756FEA Name="AssetCategorySetting" Size="144">
+		<_2 Name="Name" Offset="0" />
+		<_2 Name="editor group" Offset="4" />
+		<_37 Name="Low Setting" type="fgrb" Offset="8" />
+		<_38 Name="Low Setting" Offset="8" GUID="8E7641419495249F7A491B2C834F961B" />
+		<_37 Name="" type="fgre" Offset="54" />
+		<_37 Name="Medium Setting" type="fgrb" Offset="54" />
+		<_38 Name="Medium Setting" Offset="54" GUID="8E7641419495249F7A491B2C834F961B" />
+		<_37 Name="" type="fgre" Offset="A0" />
+		<_37 Name="High Setting" type="fgrb" Offset="A0" />
+		<_38 Name="High Setting" Offset="A0" GUID="8E7641419495249F7A491B2C834F961B" />
+		<_37 Name="" type="fgre" Offset="EC" />
+		<_37 Name="Ultra Setting" type="fgrb" Offset="EC" />
+		<_38 Name="Ultra Setting" Offset="EC" GUID="8E7641419495249F7A491B2C834F961B" />
+		<_37 Name="" type="fgre" Offset="138" />
+		<_A Name="Shadow Casting" Offset="138" StructName1="AssetCategorySetting::ShadowCastingOption">
+			<Flag n="Disabled" />
+			<Flag n="Enabled" />
+		</_A>
+		<_34 Name="generated_pad4ade" Offset="139" Length="3" />
+		<_14 Name="Shadow Distance" Offset="13C" />
+		<_A Name="Exclude From DDGI" Offset="140" StructName1="AssetCategorySetting::ExcludeFromDDGIOption">
+			<Flag n="Disabled" />
+			<Flag n="Enabled" />
+		</_A>
+		<_A Name="Exclude From DXR" Offset="141" StructName1="AssetCategorySetting::ExcludeFromDXROption">
+			<Flag n="Disabled" />
+			<Flag n="Enabled" />
+		</_A>
+		<_34 Name="generated_pad9793" Offset="142" Length="2" />
+	</_8679FFF3E9112533F0038180DD756FEA>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_8E7641419495249F7A491B2C834F961B Name="AssetCategorySettingPerSKU" Size="4C">
+		<_25 Name="LOD Distance Multiplier" Offset="0" />
+		<_37 Name="LOD Splitscreen Multipliers" type="fgrb" Offset="8" />
+		<_14 Name="LOD - 2 Player Splitscreen" Offset="8" />
+		<_14 Name="LOD - 3 Player Splitscreen" Offset="C" />
+		<_14 Name="LOD - 4 Player Splitscreen" Offset="10" />
+		<_37 Name="" type="fgre" Offset="14" />
+		<_3E Name="Number of LODs to skip" Offset="14" />
+		<_37 Name="Number of LODs to skip for Splitscreen" type="fgrb" Offset="18" />
+		<_3E Name="LOD Skip - 2 Player Splitscreen" Offset="18" />
+		<_3E Name="LOD Skip - 3 Player Splitscreen" Offset="1C" />
+		<_3E Name="LOD Skip - 4 Player Splitscreen" Offset="20" />
+		<_37 Name="" type="fgre" Offset="24" />
+		<_25 Name="Hide After Distance Multiplier" Offset="24" />
+		<_37 Name="Hide After Distance Splitscreen Multipliers" type="fgrb" Offset="2C" />
+		<_14 Name="HAD - 2 Player Splitscreen" Offset="2C" />
+		<_14 Name="HAD - 3 Player Splitscreen" Offset="30" />
+		<_14 Name="HAD - 4 Player Splitscreen" Offset="34" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_14 Name="Static IO Shadow Casting Maximum Distance" Offset="38" />
+		<_14 Name="Dynamic Object Shadow Casting Maximum Distance" Offset="3C" />
+		<_14 Name="Dynamic Object Cast Shadow Outside of Camera Frustum Distance" Offset="40" />
+		<_14 Name="Dynamic Object BLAS Update Area Multiplier" Offset="44" />
+		<_14 Name="Dynamic Object BLAS Update Outside of Camera Frustum Distance Multiplier" Offset="48" />
+	</_8E7641419495249F7A491B2C834F961B>
+</root>

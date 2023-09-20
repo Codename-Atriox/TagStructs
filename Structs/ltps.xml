@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:12 PM" Name="UILightPresets" Parents="aTag" Index="-242">
+	<_66D64A530D8ABBCC813432F9B95D6820 Name="Interface::Customization::UILightPresetsTag" Size="38">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Light Presets Settings" Offset="10" GUID="39754F1B265BB943C1E40842A8279C8B" StructName1="Interface::Customization::UILightPresetsTag" Min="0" Max="512" />
+		<_40 Name="Light Scene Presets Settings" Offset="24" GUID="7D32403EA1C747469DE338D584295EF8" StructName1="Interface::Customization::UILightPresetsTag" Min="0" Max="9" />
+	</_66D64A530D8ABBCC813432F9B95D6820>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_39754F1B265BB943C1E40842A8279C8B Name="Interface::Customization::UILightPreset" Size="3C">
+		<_2 Name="Preset Name" Offset="0" />
+		<_B Name="Core Type" Offset="4" StructName1="Interface::Customization::CoreType">
+			<Flag n="Unknown" />
+			<Flag n="Armor" />
+			<Flag n="Ai" />
+			<Flag n="WeaponSidekick" />
+			<Flag n="WeaponAR" />
+			<Flag n="WeaponBR" />
+			<Flag n="WeaponCommando" />
+			<Flag n="WeaponSPnKr" />
+			<Flag n="WeaponSniper" />
+			<Flag n="WeaponShotgun" />
+			<Flag n="WeaponHydra" />
+			<Flag n="WeaponBandit" />
+			<Flag n="VehicleWarthog" />
+			<Flag n="VehicleMongoose" />
+			<Flag n="VehicleScorpion" />
+			<Flag n="VehicleWasp" />
+			<Flag n="VehicleRazorBack" />
+			<Flag n="VehicleGungoose" />
+			<Flag n="VehicleRockethog" />
+		</_B>
+		<_B Name="Item Type" Offset="6" StructName1="Interface::Customization::SocketItemType">
+			<Flag n="None" />
+			<Flag n="ArmorChestAttachment" />
+			<Flag n="ArmorCoating" />
+			<Flag n="ArmorGlove" />
+			<Flag n="ArmorHelmetAttachment" />
+			<Flag n="ArmorHelmet" />
+			<Flag n="ArmorKneePad" />
+			<Flag n="ArmorTheme" />
+			<Flag n="ArmorLeftShoulderPad" />
+			<Flag n="ArmorRightShoulderPad" />
+			<Flag n="ArmorHipAttachment" />
+			<Flag n="ArmorWristAttachment" />
+			<Flag n="ArmorVisor" />
+			<Flag n="ArmorEmblem" />
+			<Flag n="ArmorFx" />
+			<Flag n="ArmorMythicFx" />
+			<Flag n="ArmorCore" />
+			<Flag n="SpartanActionPose" />
+			<Flag n="SpartanStance" />
+			<Flag n="SpartanBackdropImage" />
+			<Flag n="SpartanEmblem" />
+			<Flag n="SpartanVoice" />
+			<Flag n="WeaponCharm" />
+			<Flag n="WeaponAmmoCounterColor" />
+			<Flag n="WeaponCoating" />
+			<Flag n="WeaponDeathFx" />
+			<Flag n="WeaponEmblem" />
+			<Flag n="WeaponTheme" />
+			<Flag n="WeaponStatTracker" />
+			<Flag n="WeaponCore" />
+			<Flag n="WeaponAlternateGeometryRegion" />
+			<Flag n="AiColor" />
+			<Flag n="AiModel" />
+			<Flag n="AiTheme" />
+			<Flag n="AiCore" />
+			<Flag n="VehicleAlternateGeometryRegion" />
+			<Flag n="VehicleCharm" />
+			<Flag n="VehicleCoating" />
+			<Flag n="VehicleEmblem" />
+			<Flag n="VehicleFx" />
+			<Flag n="VehicleHorn" />
+			<Flag n="VehicleTheme" />
+			<Flag n="VehicleCore" />
+			<Flag n="ArmorEmblemCoating" />
+			<Flag n="WeaponEmblemCoating" />
+			<Flag n="VehicleEmblemCoating" />
+			<Flag n="SpartanEmblemCoating" />
+			<Flag n="Consumable" />
+			<Flag n="XPGrant" />
+			<Flag n="XPBoost" />
+			<Flag n="ChallengeReroll" />
+			<Flag n="VirtualCurrency" />
+		</_B>
+		<_B Name="Position Type" Offset="8" StructName1="Interface::Customization::ItemInspectionPosition">
+			<Flag n="Default" />
+			<Flag n="Custom" />
+			<Flag n="Custom1" />
+		</_B>
+		<_34 Name="generated_pad7823" Offset="A" Length="2" />
+		<_14 Name="Dimmer transition time" Offset="C" />
+		<_F Name="Skip Light Transition" Offset="10" StructName1="Interface::Customization::SkipLightTransitionFlag">
+			<Flag n="True" />
+		</_F>
+		<_34 Name="generated_pad2b6e" Offset="11" Length="3" />
+		<_40 Name="Lights" Offset="14" GUID="129B460BB68FDBBE7093EA8DA3882D05" StructName1="Interface::Customization::UILightPreset" Min="0" Max="128" />
+		<_40 Name="Cubemap Volume" Offset="28" GUID="88BC491DAA36376B4121B3645EC1D5EF" StructName1="Interface::Customization::UILightPreset" Min="0" Max="30" />
+	</_39754F1B265BB943C1E40842A8279C8B>
+	<_7D32403EA1C747469DE338D584295EF8 Name="Interface::Customization::UILightScenePreset" Size="18">
+		<_B Name="Scene type" Offset="0" StructName1="Interface::Customization::SpartanCustomizationSceneTypes">
+			<Flag n="SpartanArmor" />
+			<Flag n="Weapons" />
+			<Flag n="Vehicle" />
+			<Flag n="Ai" />
+			<Flag n="Fireteam" />
+			<Flag n="Presentation" />
+			<Flag n="Inspect" />
+			<Flag n="InspectPlayer" />
+			<Flag n="PGCR" />
+		</_B>
+		<_34 Name="generated_padf35d" Offset="2" Length="2" />
+		<_40 Name="Light Presets Settings" Offset="4" GUID="39754F1B265BB943C1E40842A8279C8B" StructName1="Interface::Customization::UILightScenePreset" Min="0" Max="512" />
+	</_7D32403EA1C747469DE338D584295EF8>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_129B460BB68FDBBE7093EA8DA3882D05 Name="Interface::Customization::UISceneLightSource" Size="7C">
+		<_2 Name="Light Name" Offset="0" />
+		<_19 Name="Light Position Offset" Offset="4" />
+		<_1C Name="Facing" Offset="10" />
+		<_1F Name="Color" Offset="1C" />
+		<_14 Name="Source Energy" Offset="28" />
+		<_14 Name="Dimmer Value" Offset="2C" />
+		<_14 Name="Minimum Roughness" Offset="30" />
+		<_14 Name="Fog Intensity" Offset="34" />
+		<_14 Name="Near Attenuation" Offset="38" />
+		<_14 Name="Far Attenuation" Offset="3C" />
+		<_36 Name="Shared Spot Parameters" Offset="40" />
+		<_14 Name="Inner Cone Angle" Offset="40" />
+		<_14 Name="Outer Cone Angle" Offset="44" />
+		<_14 Name="Shadow Near Clip Plane" Offset="48" />
+		<_14 Name="Shadow Far Clip Plane" Offset="4C" />
+		<_14 Name="Shadow Bias Offset" Offset="50" />
+		<_14 Name="Shadow Filter Width" Offset="54" />
+		<_14 Name="Near Begin" Offset="58" />
+		<_14 Name="Far Begin" Offset="5C" />
+		<_14 Name="Camera Near Distance Fade End" Offset="60" />
+		<_14 Name="Camera Near Distance Fade Start" Offset="64" />
+		<_14 Name="Camera Distance Fade Start" Offset="68" />
+		<_14 Name="Camera Distance Fade End" Offset="6C" />
+		<_14 Name="Area Light Radius" Offset="70" />
+		<_14 Name="Area Light Length" Offset="74" />
+		<_14 Name="Override Source Intensity Multiplier" Offset="78" />
+	</_129B460BB68FDBBE7093EA8DA3882D05>
+	<_88BC491DAA36376B4121B3645EC1D5EF Name="Interface::Customization::UICubemapVolume" Size="10">
+		<_2 Name="Cubemap Name" Offset="0" />
+		<_19 Name="Cubemap Position Offset" Offset="4" />
+	</_88BC491DAA36376B4121B3645EC1D5EF>
+</root>

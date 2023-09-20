@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:12 PM" Name="InGameMapSettings" Parents="aTag" Index="-247">
+	<_510143DD0707965BDE1EDB1EA193CFBE Name="InGameMapSettingsTag" Size="558">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Map lights" Offset="10" GUID="E53143A000EA2867441937AEBADEB64E" StructName1="InGameMapSettingsTag" Min="0" Max="256" />
+		<_40 Name="Map light placements" Offset="24" GUID="6B7449E128375872E2BE3FBA83E1C722" StructName1="InGameMapSettingsTag" Min="0" Max="256" />
+		<_41 Name="Lightmap" Offset="38" Allowed="stlm" Flags="0" />
+		<_41 Name="Dynamic World State Globals" Offset="54" Allowed="dwsg" Flags="0" />
+		<_41 Name="Material variations" Offset="70" Allowed="immo" Flags="0" />
+		<_41 Name="Sky Object" Offset="8C" Allowed="scen" Flags="0" />
+		<_1C Name="Sky Orientation" Offset="A8" />
+		<_41 Name="Ray collision asset" Offset="B4" Allowed="aset" Flags="9" />
+		<_41 Name="Ray Collision Quad Tree" Offset="D0" Allowed="fdqt" Flags="4" />
+		<_D Name="Flags" Offset="EC" StructName1="InGameMapRenderFlags">
+			<Flag n="Enable map post-process" />
+			<Flag n="Enable line detection post-process step" />
+			<Flag n="Enable screen-space blur post-process step" />
+			<Flag n="Enable terrain" />
+			<Flag n="Enable atmosphere fog" />
+			<Flag n="Enable chromatic aberration" />
+			<Flag n="Enable vignette" />
+		</_D>
+		<_14 Name="Min Z for fade-out" Offset="F0" />
+		<_14 Name="Max Z for fade-out" Offset="F4" />
+		<_14 Name="Line frequency" Offset="F8" />
+		<_B Name="Explicit shader for explicit lighting pass" Offset="FC" StructName1="InGameMapExplicitShader">
+			<Flag n="Forge shader" />
+			<Flag n="MP shader" />
+			<Flag n="Campaign shader" />
+		</_B>
+		<_34 Name="generated_pad7316" Offset="FE" Length="2" />
+		<_18 Name="Red offset in pixels" Offset="100" />
+		<_18 Name="Blue offset in pixels" Offset="108" />
+		<_14 Name="Center weight" Offset="110" />
+		<_F Name="animatedModelTypes" Offset="114" StructName1="i343::InGameMaps::ModelTypeFlags">
+			<Flag n="Base" />
+			<Flag n="Base Vertical Line" />
+			<Flag n="Main" />
+			<Flag n="Top Vertical Line" />
+		</_F>
+		<_34 Name="generated_pad9a6d" Offset="115" Length="3" />
+		<_14 Name="mainPOIModelOffset" Offset="118" />
+		<_1C Name="mainPOIModelOrientation" Offset="11C" />
+		<_14 Name="mainPOIModelScale" Offset="128" />
+		<_41 Name="basePOIModel" Offset="12C" Allowed="bloc" Flags="0" />
+		<_14 Name="basePOIModelOffset" Offset="148" />
+		<_1C Name="basePOIModelOrientation" Offset="14C" />
+		<_14 Name="basePOIModelScale" Offset="158" />
+		<_41 Name="baseVerticalLinePOIModel" Offset="15C" Allowed="bloc" Flags="0" />
+		<_14 Name="baseVerticalLinePOIModelOffset" Offset="178" />
+		<_1C Name="baseVerticalLinePOIModelOrientation" Offset="17C" />
+		<_14 Name="baseVerticalLinePOIModelScale" Offset="188" />
+		<_41 Name="topVerticalLinePOIModel" Offset="18C" Allowed="bloc" Flags="0" />
+		<_14 Name="topVerticalLinePOIModelOffset" Offset="1A8" />
+		<_1C Name="topVerticalLinePOIModelOrientation" Offset="1AC" />
+		<_14 Name="topVerticalLinePOIModelScale" Offset="1B8" />
+		<_38 Name="POI Animation" Offset="1BC" GUID="1C7544821415A15B83F7D2F8A111C244" />
+		<_38 Name="LOD Settings" Offset="228" GUID="78A54C9E2125246AA827C5E69DA7DAFA" />
+		<_38 Name="Icon Settings" Offset="24C" GUID="A45D4058A2134C29D16C190DB104BE2D" />
+		<_38 Name="Camera Settings" Offset="31C" GUID="2699402C2FAD01DCD14D33F18A57204C" />
+		<_40 Name="Area of Interest Settings" Offset="3FC" GUID="0CFE4509BE3C862D5A6A141EB00ECA0D" StructName1="InGameMapSettingsTag" Min="0" Max="5" />
+		<_40 Name="Async Loaded Display Assets" Offset="410" GUID="F03246D6350A0D2B8D92D15AB1B16D95" StructName1="InGameMapSettingsTag" Min="0" Max="256" />
+		<_41 Name="Async Loaded Asset List" Offset="424" Allowed="mapa" Flags="4" />
+		<_40 Name="Collectible Settings" Offset="440" GUID="11EE4712E9F48B5F409FF3CBA3C6ECAE" StructName1="InGameMapSettingsTag" Min="0" Max="10" />
+		<_40 Name="Regions" Offset="454" GUID="D7F1494EB44D11E9B64D44C5BC0AC07F" StructName1="InGameMapSettingsTag" Min="0" Max="20" />
+		<_38 Name="Vignette Settings" Offset="468" GUID="A29F427E9AB28ACC1236D352BDE03E3E" />
+		<_40 Name="Model Dictionary" Offset="484" GUID="FDD34392F614BAB2D1D7BC1C88E4AAF9" StructName1="InGameMapSettingsTag" Min="0" Max="256" />
+		<_38 Name="Transition Settings" Offset="498" GUID="D6424D49DCBE5D9167E97586AD3299AA" />
+		<_38 Name="POI Visual Settings" Offset="4B0" GUID="7FF4BC4111F83073D073F41FA4FFE792" />
+		<_38 Name="Gak Settings" Offset="4EC" GUID="625C4B10BA099CDB6E5F2FF8827A9924" />
+		<_38 Name="Player Position Override Settings" Offset="538" GUID="665D47BA5002600D0DE7E6E99D04D13E" />
+		<_6 Name="TacMap Tab Index" Offset="54C" />
+		<_F Name="Settings And Feature Flags" Offset="550" StructName1="InGameMapSettingsFlags">
+			<Flag n="Mission Replay Option Enabled" />
+		</_F>
+		<_34 Name="generated_padbfcb" Offset="551" Length="7" />
+	</_510143DD0707965BDE1EDB1EA193CFBE>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_E53143A000EA2867441937AEBADEB64E Name="InGameMapLightReference" Size="1C">
+		<_41 Name="Reference" Offset="0" Allowed="ligh" Flags="0" />
+	</_E53143A000EA2867441937AEBADEB64E>
+	<_6B7449E128375872E2BE3FBA83E1C722 Name="InGameMapLightPlacement" Size="24">
+		<_17 Name="position" Offset="0" />
+		<_17 Name="direction" Offset="C" />
+		<_17 Name="up" Offset="18" />
+	</_6B7449E128375872E2BE3FBA83E1C722>
+	<_1C7544821415A15B83F7D2F8A111C244 Name="InGameMapAnimationSettings" Size="6C">
+		<_B Name="verticalTranslationMode" Offset="0" StructName1="InGameMapAnimationMode">
+			<Flag n="Loop" />
+			<Flag n="Mirror" />
+			<Flag n="Once" />
+		</_B>
+		<_34 Name="generated_pad6126" Offset="2" Length="2" />
+		<_14 Name="verticalTranslationDuration" Offset="4" />
+		<_14 Name="verticalTranslationCooldownDuration" Offset="8" />
+		<_38 Name="verticalTranslationFunction" Offset="C" GUID="4C0543E1483112B5AC4316FD8350E8C2" />
+		<_B Name="zRotationMode" Offset="24" StructName1="InGameMapAnimationMode">
+			<Flag n="Loop" />
+			<Flag n="Mirror" />
+			<Flag n="Once" />
+		</_B>
+		<_34 Name="generated_padaddb" Offset="26" Length="2" />
+		<_14 Name="zRotationDuration" Offset="28" />
+		<_14 Name="zRotationCooldownDuration" Offset="2C" />
+		<_38 Name="zRotationFunction" Offset="30" GUID="4C0543E1483112B5AC4316FD8350E8C2" />
+		<_B Name="scaleMode" Offset="48" StructName1="InGameMapAnimationMode">
+			<Flag n="Loop" />
+			<Flag n="Mirror" />
+			<Flag n="Once" />
+		</_B>
+		<_34 Name="generated_padfa90" Offset="4A" Length="2" />
+		<_14 Name="scaleDuration" Offset="4C" />
+		<_14 Name="scaleCooldownDuration" Offset="50" />
+		<_38 Name="scaleFunction" Offset="54" GUID="4C0543E1483112B5AC4316FD8350E8C2" />
+	</_1C7544821415A15B83F7D2F8A111C244>
+	<_78A54C9E2125246AA827C5E69DA7DAFA Name="i343::InGameMaps::LODSettings" Size="24">
+		<_B Name="lodMode" Offset="0" StructName1="i343::InGameMaps::LODMode">
+			<Flag n="Object Distance to Camera" />
+			<Flag n="Camera Height" />
+		</_B>
+		<_34 Name="generated_pad4e7d" Offset="2" Length="2" />
+		<_38 Name="lodCollisionResolution" Offset="4" GUID="B5BD4A6F74A7EB8D09C31346A1DC2A3B" />
+		<_14 Name="spotlightRadiusScale" Offset="C" />
+		<_40 Name="Per-tier settings for POIs" Offset="10" GUID="525549605E160D767BCA2C5791EA8A4F" StructName1="i343::InGameMaps::LODSettings" Min="0" Max="32" />
+	</_78A54C9E2125246AA827C5E69DA7DAFA>
+	<_A45D4058A2134C29D16C190DB104BE2D Name="i343::InGameMaps::IconSettings" Size="D0">
+		<_41 Name="fullIcons" Offset="0" Allowed="bitd" Flags="0" />
+		<_41 Name="smallIcons" Offset="1C" Allowed="bitd" Flags="0" />
+		<_41 Name="detailIcons" Offset="38" Allowed="bitd" Flags="0" />
+		<_41 Name="highlightedOverlayIcons" Offset="54" Allowed="bitd" Flags="0" />
+		<_41 Name="outerMissionListIcons" Offset="70" Allowed="bitd" Flags="0" />
+		<_41 Name="innerMissionListIcons" Offset="8C" Allowed="bitd" Flags="0" />
+		<_40 Name="markerColors" Offset="A8" GUID="39D44DDB90AA32DE624E1399B2E4572E" StructName1="i343::InGameMaps::IconSettings" Min="0" Max="48" />
+		<_40 Name="markerVisibilitySettings" Offset="BC" GUID="9AD54A2AFA92CCB291D5DDB2889324FF" StructName1="i343::InGameMaps::IconSettings" Min="0" Max="35" />
+	</_A45D4058A2134C29D16C190DB104BE2D>
+	<_2699402C2FAD01DCD14D33F18A57204C Name="i343::InGameMaps::CameraSettings" Size="E0">
+		<_F Name="Flags" Offset="0" StructName1="i343::InGameMaps::CameraSettingsFlags">
+			<Flag n="DOF Enabled" />
+		</_F>
+		<_34 Name="generated_pad38bd" Offset="1" Length="3" />
+		<_14 Name="defaultHitTestRangeMinZoom" Offset="4" />
+		<_14 Name="defaultHitTestRangeMaxZoom" Offset="8" />
+		<_14 Name="defaultPoiSnapHitTestRange" Offset="C" />
+		<_14 Name="poiSnappingThreshold" Offset="10" />
+		<_14 Name="playerIconCollisionDistance" Offset="14" />
+		<_14 Name="panningVelocityDeadzone" Offset="18" />
+		<_14 Name="zoomingVelocityDeadzone" Offset="1C" />
+		<_14 Name="Min Pan X" Offset="20" />
+		<_14 Name="Min Pan Y" Offset="24" />
+		<_14 Name="Max Pan X" Offset="28" />
+		<_14 Name="Max Pan Y" Offset="2C" />
+		<_14 Name="Min Zoom" Offset="30" />
+		<_14 Name="Max Zoom" Offset="34" />
+		<_14 Name="Tilt Point" Offset="38" />
+		<_14 Name="Tilt Width" Offset="3C" />
+		<_14 Name="Pan Accel Duration" Offset="40" />
+		<_14 Name="Pan Decel Duration" Offset="44" />
+		<_14 Name="Min Pan Speed" Offset="48" />
+		<_14 Name="Max Pan Speed" Offset="4C" />
+		<_14 Name="Highlight Distance" Offset="50" />
+		<_14 Name="Max Zoom Factor" Offset="54" />
+		<_14 Name="Zoom Accel Duration" Offset="58" />
+		<_14 Name="Zoom Decel Duration" Offset="5C" />
+		<_14 Name="Max Zoom Speed" Offset="60" />
+		<_14 Name="Mission Pan Speed" Offset="64" />
+		<_14 Name="AutoPan Time Delay" Offset="68" />
+		<_14 Name="Mission List AutoPan Duration" Offset="6C" />
+		<_14 Name="Mission List AutoPan Zoom" Offset="70" />
+		<_14 Name="AutoPan Slow Down Speed Ratio" Offset="74" />
+		<_14 Name="AutoPan Speed" Offset="78" />
+		<_14 Name="AutoPan Slow Down Range" Offset="7C" />
+		<_14 Name="AutoPanner Bezier Curve MidPoint Height" Offset="80" />
+		<_14 Name="AutoPanner Bezier Curve P1 Height" Offset="84" />
+		<_14 Name="AutoPanner Bezier Curve P3 Height" Offset="88" />
+		<_14 Name="Duration for Centering on Player" Offset="8C" />
+		<_14 Name="Min Zoom Spotlight Cone Scale" Offset="90" />
+		<_14 Name="Max Zoom Spotlight Cone Scale" Offset="94" />
+		<_14 Name="Spotlight Moving Speed" Offset="98" />
+		<_14 Name="Initial Pitch" Offset="9C" />
+		<_14 Name="Initial Yaw" Offset="A0" />
+		<_14 Name="Initial Zoom" Offset="A4" />
+		<_14 Name="Pan Height" Offset="A8" />
+		<_14 Name="Initial Camera X" Offset="AC" />
+		<_14 Name="Initial Camera Y" Offset="B0" />
+		<_14 Name="Initial Camera Z" Offset="B4" />
+		<_14 Name="Initial Camera Look X" Offset="B8" />
+		<_14 Name="Initial Camera Look Y" Offset="BC" />
+		<_14 Name="Initial Camera Look Z" Offset="C0" />
+		<_14 Name="Camera XY Axis Offset" Offset="C4" />
+		<_14 Name="Camera Field of View" Offset="C8" />
+		<_14 Name="Edge Pan Screen Margin X" Offset="CC" />
+		<_14 Name="Edge Pan Screen Margin Y" Offset="D0" />
+		<_14 Name="Help Bar Height" Offset="D4" />
+		<_14 Name="Edge Pan Start Delay" Offset="D8" />
+		<_14 Name="Back Menu Tab Bar Height" Offset="DC" />
+	</_2699402C2FAD01DCD14D33F18A57204C>
+	<_0CFE4509BE3C862D5A6A141EB00ECA0D Name="i343::InGameMaps::MarkerSettings" Size="40">
+		<_B Name="markerType" Offset="0" StructName1="i343::InGameMaps::CampaignMapMarkerType">
+			<Flag n="Invalid" />
+			<Flag n="Critical Path" />
+			<Flag n="Enemy" />
+			<Flag n="Friendly" />
+			<Flag n="Equipment or Upgrade" />
+		</_B>
+		<_34 Name="generated_pad8446" Offset="2" Length="2" />
+		<_41 Name="model" Offset="4" Allowed="bloc" Flags="0" />
+		<_41 Name="bitmap" Offset="20" Allowed="bitm" Flags="0" />
+		<_14 Name="bitmapCorrectiveScale" Offset="3C" />
+	</_0CFE4509BE3C862D5A6A141EB00ECA0D>
+	<_F03246D6350A0D2B8D92D15AB1B16D95 Name="InGameMapDisplayAssetDefinition" Size="40">
+		<_2 Name="Name" Offset="0" />
+		<_41 Name="Model" Offset="4" Allowed="bloc" Flags="4" />
+		<_17 Name="Rotation" Offset="20" />
+		<_14 Name="Scale" Offset="2C" />
+		<_17 Name="Icon Offset" Offset="30" />
+		<_F Name="Flags" Offset="3C" StructName1="InGameMapDisplayAssetFlags">
+			<Flag n="Animate on Hover" />
+			<Flag n="Draw Indicator Line" />
+		</_F>
+		<_34 Name="generated_pad21a6" Offset="3D" Length="3" />
+	</_F03246D6350A0D2B8D92D15AB1B16D95>
+	<_11EE4712E9F48B5F409FF3CBA3C6ECAE Name="i343::InGameMaps::CollectibleSettings" Size="C">
+		<_2 Name="name" Offset="0" />
+		<_A Name="type" Offset="4" StructName1="i343::Collectibles::CollectibleType">
+			<Flag n="None" />
+			<Flag n="Halsey_DataPad" />
+			<Flag n="ArmorLocker" />
+			<Flag n="GameSkull" />
+			<Flag n="DeadSpartan" />
+			<Flag n="MemoryCore" />
+			<Flag n="UNSC_DataPad" />
+			<Flag n="Ban_DataPad" />
+			<Flag n="ForerunnerTotem" />
+			<Flag n="CommTower" />
+		</_A>
+		<_34 Name="generated_padf32a" Offset="5" Length="1" />
+		<_B Name="missionType" Offset="6" StructName1="i343::InGameMaps::CampaignMapMissionType">
+			<Flag n="Invalid" />
+			<Flag n="Spire" />
+			<Flag n="Base" />
+			<Flag n="PilotBase" />
+			<Flag n="PrisonBase" />
+			<Flag n="RefineryBase" />
+			<Flag n="BossHQInterior" />
+			<Flag n="BossHQExterior" />
+			<Flag n="Outpost" />
+			<Flag n="DeadSpartan" />
+			<Flag n="MemoryCore" />
+			<Flag n="Dungeon" />
+			<Flag n="AaGun" />
+			<Flag n="Fob" />
+			<Flag n="FobFriendly" />
+			<Flag n="Epoi" />
+			<Flag n="Scanner" />
+			<Flag n="BanishedShip" />
+			<Flag n="Underbelly" />
+			<Flag n="CortanaPalace" />
+			<Flag n="Skull" />
+			<Flag n="Hvt" />
+			<Flag n="MarineSupport" />
+			<Flag n="Totem" />
+			<Flag n="ArmorLocker" />
+			<Flag n="Bridge" />
+			<Flag n="Collectible" />
+			<Flag n="ForerunnerTower" />
+			<Flag n="SpartanSuperMission" />
+			<Flag n="HvtSuperMission" />
+			<Flag n="MarineSuperMission" />
+			<Flag n="CollectibleSuperMission" />
+			<Flag n="ScannerSuperMission" />
+			<Flag n="BanishedDatapad" />
+			<Flag n="UnscDatapad" />
+		</_B>
+		<_6 Name="spriteIndex" Offset="8" />
+	</_11EE4712E9F48B5F409FF3CBA3C6ECAE>
+	<_D7F1494EB44D11E9B64D44C5BC0AC07F Name="i343::InGameMaps::RegionSettings" Size="18">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="Region Polygons" Offset="4" GUID="969B456C706099205917EA4791AD16A4" StructName1="i343::InGameMaps::RegionSettings" Min="0" Max="10" />
+	</_D7F1494EB44D11E9B64D44C5BC0AC07F>
+	<_A29F427E9AB28ACC1236D352BDE03E3E Name="i343::InGameMaps::VignetteSettings" Size="1C">
+		<_1F Name="color" Offset="0" />
+		<_14 Name="opacity" Offset="C" />
+		<_14 Name="innerRadius" Offset="10" />
+		<_14 Name="outerRadius" Offset="14" />
+		<_14 Name="darkenRatio" Offset="18" />
+	</_A29F427E9AB28ACC1236D352BDE03E3E>
+	<_FDD34392F614BAB2D1D7BC1C88E4AAF9 Name="InGameMapModelLookup" Size="20">
+		<_2 Name="Name" Offset="0" />
+		<_41 Name="Model" Offset="4" Allowed="bloc" Flags="4" />
+	</_FDD34392F614BAB2D1D7BC1C88E4AAF9>
+	<_D6424D49DCBE5D9167E97586AD3299AA Name="InGameMapTransitionSettings" Size="18">
+		<_14 Name="IntroMinLoadTime" Offset="0" />
+		<_14 Name="IntroTotalTransitionTime" Offset="4" />
+		<_14 Name="MissionDataUpdateMaxDelayTime" Offset="8" />
+		<_14 Name="OuttroMapTransitionTime" Offset="C" />
+		<_14 Name="OuttroMinUnloadTime" Offset="10" />
+		<_14 Name="OuttroGameplayTransitionTime" Offset="14" />
+	</_D6424D49DCBE5D9167E97586AD3299AA>
+	<_7FF4BC4111F83073D073F41FA4FFE792 Name="InGameMapPOIVisualSettings" Size="3C">
+		<_14 Name="Captured Collectible Opacity" Offset="0" />
+		<_14 Name="Default Collectible Opacity" Offset="4" />
+		<_1F Name="Text Tint Color" Offset="8" />
+		<_1F Name="Captured POI Tint Color" Offset="14" />
+		<_1F Name="Captured Tint Color" Offset="20" />
+		<_6 Name="Multi-Stage Parent Sprite Index" Offset="2C" />
+		<_14 Name="Waypoint Over POI Offset" Offset="30" />
+		<_14 Name="Default Waypoint Offset" Offset="34" />
+		<_14 Name="Safe Region Bounds" Offset="38" />
+	</_7FF4BC4111F83073D073F41FA4FFE792>
+	<_625C4B10BA099CDB6E5F2FF8827A9924 Name="InGameMapGakSettings" Size="4C">
+		<_14 Name="Gak POI Spawn Frequency" Offset="0" />
+		<_14 Name="Gak POI Spawn Chance" Offset="4" />
+		<_6 Name="Gak Max POI Count" Offset="8" />
+		<_6 Name="Gak POI Num Types" Offset="C" />
+		<_14 Name="Gak POI Lifetime Min" Offset="10" />
+		<_14 Name="Gak POI Lifetime Max" Offset="14" />
+		<_14 Name="Gak POI Fade Out" Offset="18" />
+		<_14 Name="Gak Tile Origin X" Offset="1C" />
+		<_14 Name="Gak Tile Origin Y" Offset="20" />
+		<_14 Name="Gak Tile Size X" Offset="24" />
+		<_14 Name="Gak Tile Size Y" Offset="28" />
+		<_6 Name="Gak Tile Count X" Offset="2C" />
+		<_6 Name="Gak Tile Count Y" Offset="30" />
+		<_14 Name="Gak Tile Margin" Offset="34" />
+		<_40 Name="Gak Invalid Tiles" Offset="38" GUID="01A6454597DC98F53A27E2E5BD8DDA81" StructName1="InGameMapGakSettings" Min="0" Max="64" />
+	</_625C4B10BA099CDB6E5F2FF8827A9924>
+	<_665D47BA5002600D0DE7E6E99D04D13E Name="i343::InGameMaps::PlayerPositionOverrideSettings" Size="14">
+		<_40 Name="Zone Set Settings" Offset="0" GUID="FDEA44914351C79428038392B02C0E1F" StructName1="i343::InGameMaps::PlayerPositionOverrideSettings" Min="0" Max="32" />
+	</_665D47BA5002600D0DE7E6E99D04D13E>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_4C0543E1483112B5AC4316FD8350E8C2 Name="InGameMapFunction" Size="18">
+		<_37 Name="Mapping" type="fned" Offset="0" />
+		<_38 Name="Mapping" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_4C0543E1483112B5AC4316FD8350E8C2>
+	<_B5BD4A6F74A7EB8D09C31346A1DC2A3B Name="i343::InGameMaps::LODCollisionResolution" Size="8">
+		<_B Name="resolutionMode" Offset="0" StructName1="i343::InGameMaps::LODCollisionResolutionMode">
+			<Flag n="Hide Lower Tier" />
+			<Flag n="No Collision Resolution" />
+		</_B>
+		<_34 Name="generated_pad21e2" Offset="2" Length="2" />
+		<_14 Name="collisionNormalizedScreenDistance" Offset="4" />
+	</_B5BD4A6F74A7EB8D09C31346A1DC2A3B>
+	<_525549605E160D767BCA2C5791EA8A4F Name="i343::InGameMaps::LODTier" Size="8">
+		<_14 Name="fullIconAndLabelWithModelFadeStart" Offset="0" />
+		<_36 Name="3D Model Fading" Offset="4" />
+		<_14 Name="fullIconAndLabelFadeStart" Offset="4" />
+	</_525549605E160D767BCA2C5791EA8A4F>
+	<_39D44DDB90AA32DE624E1399B2E4572E Name="i343::InGameMaps::MarkerColor" Size="10">
+		<_B Name="markerType" Offset="0" StructName1="i343::InGameMaps::CampaignMapMarkerType">
+			<Flag n="Invalid" />
+			<Flag n="Critical Path" />
+			<Flag n="Enemy" />
+			<Flag n="Friendly" />
+			<Flag n="Equipment or Upgrade" />
+		</_B>
+		<_B Name="missionType" Offset="2" StructName1="i343::InGameMaps::CampaignMapMissionType">
+			<Flag n="Invalid" />
+			<Flag n="Spire" />
+			<Flag n="Base" />
+			<Flag n="PilotBase" />
+			<Flag n="PrisonBase" />
+			<Flag n="RefineryBase" />
+			<Flag n="BossHQInterior" />
+			<Flag n="BossHQExterior" />
+			<Flag n="Outpost" />
+			<Flag n="DeadSpartan" />
+			<Flag n="MemoryCore" />
+			<Flag n="Dungeon" />
+			<Flag n="AaGun" />
+			<Flag n="Fob" />
+			<Flag n="FobFriendly" />
+			<Flag n="Epoi" />
+			<Flag n="Scanner" />
+			<Flag n="BanishedShip" />
+			<Flag n="Underbelly" />
+			<Flag n="CortanaPalace" />
+			<Flag n="Skull" />
+			<Flag n="Hvt" />
+			<Flag n="MarineSupport" />
+			<Flag n="Totem" />
+			<Flag n="ArmorLocker" />
+			<Flag n="Bridge" />
+			<Flag n="Collectible" />
+			<Flag n="ForerunnerTower" />
+			<Flag n="SpartanSuperMission" />
+			<Flag n="HvtSuperMission" />
+			<Flag n="MarineSuperMission" />
+			<Flag n="CollectibleSuperMission" />
+			<Flag n="ScannerSuperMission" />
+			<Flag n="BanishedDatapad" />
+			<Flag n="UnscDatapad" />
+		</_B>
+		<_1F Name="color" Offset="4" />
+	</_39D44DDB90AA32DE624E1399B2E4572E>
+	<_9AD54A2AFA92CCB291D5DDB2889324FF Name="i343::InGameMaps::MarkerVisibilitySettings" Size="18">
+		<_B Name="missionType" Offset="0" StructName1="i343::InGameMaps::CampaignMapMissionType">
+			<Flag n="Invalid" />
+			<Flag n="Spire" />
+			<Flag n="Base" />
+			<Flag n="PilotBase" />
+			<Flag n="PrisonBase" />
+			<Flag n="RefineryBase" />
+			<Flag n="BossHQInterior" />
+			<Flag n="BossHQExterior" />
+			<Flag n="Outpost" />
+			<Flag n="DeadSpartan" />
+			<Flag n="MemoryCore" />
+			<Flag n="Dungeon" />
+			<Flag n="AaGun" />
+			<Flag n="Fob" />
+			<Flag n="FobFriendly" />
+			<Flag n="Epoi" />
+			<Flag n="Scanner" />
+			<Flag n="BanishedShip" />
+			<Flag n="Underbelly" />
+			<Flag n="CortanaPalace" />
+			<Flag n="Skull" />
+			<Flag n="Hvt" />
+			<Flag n="MarineSupport" />
+			<Flag n="Totem" />
+			<Flag n="ArmorLocker" />
+			<Flag n="Bridge" />
+			<Flag n="Collectible" />
+			<Flag n="ForerunnerTower" />
+			<Flag n="SpartanSuperMission" />
+			<Flag n="HvtSuperMission" />
+			<Flag n="MarineSuperMission" />
+			<Flag n="CollectibleSuperMission" />
+			<Flag n="ScannerSuperMission" />
+			<Flag n="BanishedDatapad" />
+			<Flag n="UnscDatapad" />
+		</_B>
+		<_34 Name="generated_pad5f56" Offset="2" Length="2" />
+		<_14 Name="MinimumZoom" Offset="4" />
+		<_14 Name="MaximumZoom" Offset="8" />
+		<_14 Name="hitTestRange" Offset="C" />
+		<_14 Name="poiSnapHitTestRangeMinZoom" Offset="10" />
+		<_14 Name="poiSnapHitTestRangeMaxZoom" Offset="14" />
+	</_9AD54A2AFA92CCB291D5DDB2889324FF>
+	<_969B456C706099205917EA4791AD16A4 Name="i343::InGameMaps::RegionPolygon" Size="14">
+		<_40 Name="Region Polygon" Offset="0" GUID="90DA4F7B0469752962F2F415B2F7A1CC" StructName1="i343::InGameMaps::RegionPolygon" Min="0" Max="128" />
+	</_969B456C706099205917EA4791AD16A4>
+	<_01A6454597DC98F53A27E2E5BD8DDA81 Name="GakTileIndex" Size="8">
+		<_6 Name="X" Offset="0" />
+		<_6 Name="Y" Offset="4" />
+	</_01A6454597DC98F53A27E2E5BD8DDA81>
+	<_FDEA44914351C79428038392B02C0E1F Name="i343::InGameMaps::ZoneSetSettings" Size="8">
+		<_2 Name="Zoneset Name" Offset="0" />
+		<_2 Name="Point of Interest Name" Offset="4" />
+	</_FDEA44914351C79428038392B02C0E1F>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+	<_90DA4F7B0469752962F2F415B2F7A1CC Name="i343::InGameMaps::RegionPoint" Size="C">
+		<_17 Name="Region Point" Offset="0" />
+	</_90DA4F7B0469752962F2F415B2F7A1CC>
+</root>

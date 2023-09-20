@@ -1,0 +1,1808 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="projectile" Parents="obje,aTag" Index="-323">
+	<_19074B8CF7D82E787BD600C180D49472 Name="projectile_definition" Size="CA0">
+		<_38 Name="object" Offset="0" GUID="F5FC457A94A95A6C803394F088A44257" />
+		<_37 Name="$$$ PROJECTILE $$$" type="fgrb" Offset="6C8" />
+		<_41 Name="parent" type="parr" Offset="6C8" Allowed="proj" Flags="1" />
+		<_D Name="flags" Offset="6E4" StructName1="c_projectile_definition_flags">
+			<Flag n="oriented along velocity" />
+			<Flag n="AI must use ballistic aiming" />
+			<Flag n="detonation max time if attached" />
+			<Flag n="damage scales based on distance" />
+			<Flag n="steering adjusts orientation" />
+			<Flag n="don't noise up steering" />
+			<Flag n="can track behind itself" />
+			<Flag n="ROBOTRON STEERING" />
+			<Flag n="affected by phantom volumes" />
+			<Flag n="notifies target units" />
+			<Flag n="use ground detonation when attached" />
+			<Flag n="AI minor tracking threat" />
+			<Flag n="dangerous when inactive" />
+			<Flag n="AI stimulus when attached" />
+			<Flag n="OverPeneDetonation" />
+			<Flag n="no impact effects on bounce" />
+			<Flag n="force overpenetration on units" />
+			<Flag n="Disable instantaneous first tick" />
+			<Flag n="Constrain gravity to velocity bounds" />
+			<Flag n="allow deceleration below final velocity" />
+			<Flag n="supports tethering" />
+			<Flag n="damage_not_predictable_by_clients" />
+			<Flag n="collides with physics-only surfaces" />
+			<Flag n="detonates when attached to objects" />
+			<Flag n="cannot be detached by equipment" />
+			<Flag n="does not collide with world geometry" />
+			<Flag n="is collectible" />
+			<Flag n="combinations of projectiles from different weapons or different bursts of the same weapon will not trigger super combine detonation" />
+			<Flag n="distance based damage scaling uses damage range low bounds" />
+			<Flag n="skip object first tick" />
+			<Flag n="use projectile camera in killcam" />
+			<Flag n="detonates on attachment to equipped weapon" />
+		</_D>
+		<_D Name="secondary flags" Offset="6E8" StructName1="c_secondary_projectile_definition_flags">
+			<Flag n="Use projectile radius for thickness testing" />
+			<Flag n="Expensive chubby test" />
+			<Flag n="Use play collision" />
+			<Flag n="Highlight projectile in vision mode" />
+			<Flag n="biped proximity enemies only" />
+			<Flag n="always use localized physics" />
+			<Flag n="never use localized physics" />
+			<Flag n="is considered a grenade" />
+			<Flag n="can be deflected by enemies" />
+			<Flag n="hits prefer parent to items" />
+			<Flag n="can continue through permeable objects" />
+			<Flag n="remove movement stun on detach" />
+			<Flag n="orient to next in sequence at rest" />
+			<Flag n="orient along target cone initial forward vector" />
+			<Flag n="damage parent unit and sibling units" />
+			<Flag n="overpenetrates other projectiles" />
+			<Flag n="detonates when parent biped dies" />
+			<Flag n="collides with soft ceilings" />
+			<Flag n="replicate high precision hit normals" />
+			<Flag n="detonation started effect attaches to projectile" />
+			<Flag n="AI can avoid this projectile" />
+			<Flag n="Disable physical interactions" />
+			<Flag n="does not attach to EMP active targets" />
+			<Flag n="does not detonate when parent damage section depletes" />
+			<Flag n="always hits child objects" />
+		</_D>
+		<_B Name="detonation timer starts" Offset="6EC" StructName1="DetonationTimerModes">
+			<Flag n="immediately" />
+			<Flag n="after first bounce off floor" />
+			<Flag n="when at rest" />
+			<Flag n="after first collision with any surface" />
+			<Flag n="after first bounce from any surface" />
+		</_B>
+		<_B Name="impact noise" Offset="6EE" StructName1="i343::AI::SoundVolume">
+			<Flag n="silent" />
+			<Flag n="quiet" />
+			<Flag n="medium" />
+			<Flag n="shout" />
+			<Flag n="loud" />
+		</_B>
+		<_14 Name="detonation biped proximity" Offset="6F0" />
+		<_14 Name="air burst proximity" Offset="6F4" />
+		<_14 Name="max lifetime to detonate" Offset="6F8" />
+		<_14 Name="extent (+\-) to which max lifetime may vary" Offset="6FC" />
+		<_14 Name="collision radius" Offset="700" />
+		<_36 Name="detonation" Offset="704" />
+		<_14 Name="arming time" Offset="704" />
+		<_14 Name="danger radius" Offset="708" />
+		<_14 Name="danger stimuli radius" Offset="70C" />
+		<_5 Name="danger group burst count" Offset="710" />
+		<_5 Name="danger group burst max count" Offset="712" />
+		<_25 Name="timer" Offset="714" />
+		<_14 Name="minimum velocity" Offset="71C" />
+		<_14 Name="maximum range" Offset="720" />
+		<_14 Name="bounce maximum range" Offset="724" />
+		<_14 Name="max latch time to detonate" Offset="728" />
+		<_14 Name="max latch time to arm" Offset="72C" />
+		<_36 Name="sequenced detonation" Offset="730" />
+		<_A Name="sequenced detonation direction" Offset="730" StructName1="i343::Projectiles::SequenceDetonationDirection">
+			<Flag n="disabled" />
+			<Flag n="most recent first" />
+			<Flag n="least recent first" />
+		</_A>
+		<_34 Name="generated_pad56f8" Offset="731" Length="3" />
+		<_14 Name="time between sequenced detonations" Offset="734" />
+		<_B Name="detonation noise" Offset="738" StructName1="i343::AI::SoundVolume">
+			<Flag n="silent" />
+			<Flag n="quiet" />
+			<Flag n="medium" />
+			<Flag n="shout" />
+			<Flag n="loud" />
+		</_B>
+		<_5 Name="super combine contribution" Offset="73A" />
+		<_5 Name="super det. projectile count" Offset="73C" />
+		<_34 Name="generated_pad70d9" Offset="73E" Length="2" />
+		<_14 Name="super det. time" Offset="740" />
+		<_14 Name="tether release safety delay" Offset="744" />
+		<_36 Name="tethering" Offset="748" />
+		<_41 Name="detonation started" Offset="748" Allowed="effe" Flags="0" />
+		<_41 Name="detonation effect (airborne)" Offset="764" Allowed="effe" Flags="0" />
+		<_41 Name="detonation effect (ground)" Offset="780" Allowed="effe" Flags="0" />
+		<_41 Name="detonation damage" Offset="79C" Allowed="jpt!" Flags="0" />
+		<_41 Name="attached detonation damage" Offset="7B8" Allowed="jpt!" Flags="0" />
+		<_37 Name="continuous damage" type="fgrb" Offset="7D4" />
+		<_41 Name="attached continuous effect" Offset="7D4" Allowed="effe" Flags="0" />
+		<_41 Name="attached continuous damage" Offset="7F0" Allowed="jpt!" Flags="0" />
+		<_14 Name="attached continuous damage period" Offset="80C" />
+		<_37 Name="" type="fgre" Offset="810" />
+		<_41 Name="super combine definition" Offset="810" Allowed="tagg, scbd" Flags="1" />
+		<_41 Name="tag graph output" Offset="82C" Allowed="scbd" Flags="0" />
+		<_2 Name="output node name" type="sted" Offset="848" />
+		<_40 Name="float params" Offset="84C" GUID="217941128AACE34BC7334D2EA8F6C67D" StructName1="projectile_definition" Min="0" Max="10" />
+		<_40 Name="bool params" Offset="860" GUID="80204605BFA6F4BF93CDD10F96C1C2B9" StructName1="projectile_definition" Min="0" Max="10" />
+		<_40 Name="taggraph instance variables - strings" Offset="874" GUID="AF7648E707ABAC2BFB95694D48E79C90" StructName1="projectile_definition" Min="0" Max="10" />
+		<_40 Name="taggraph instance variables - tag references" Offset="888" GUID="75F34BCE26A27E545DB61B22BEC316D9" StructName1="projectile_definition" Min="0" Max="10" />
+		<_41 Name="super detonation" Offset="89C" Allowed="effe" Flags="0" />
+		<_38 Name="your momma" Offset="8B8" GUID="4F4F48B3A018816E5C479F3A9A4AEA76" />
+		<_41 Name="detonation sound" Offset="8D4" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="super detonation sound" Offset="8F0" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="submerged detonation sound" Offset="90C" Allowed="lsnd, snd!" Flags="0" />
+		<_E Name="super detonation object types" Offset="928" StructName1="ScenarioObjectTypeFlag">
+			<Flag n="biped" />
+			<Flag n="vehicle" />
+			<Flag n="weapon" />
+			<Flag n="equipment" />
+			<Flag n="terminal" />
+			<Flag n="projectile" />
+			<Flag n="scenery" />
+			<Flag n="machine" />
+			<Flag n="control" />
+			<Flag n="dispenser" />
+			<Flag n="crate" />
+			<Flag n="creature" />
+			<Flag n="giant" />
+			<Flag n="effect_scenery" />
+		</_E>
+		<_34 Name="generated_padbd8e" Offset="92A" Length="2" />
+		<_41 Name="super attached detonation damage" Offset="92C" Allowed="jpt!" Flags="0" />
+		<_37 Name="Material Effect" type="fgrb" Offset="948" />
+		<_14 Name="material effect radius" Offset="948" />
+		<_14 Name="material effect bounce hard speed threshold" Offset="94C" />
+		<_14 Name="material effect bounce medium speed threshold" Offset="950" />
+		<_14 Name="material effect impact velocity threshold" Offset="954" />
+		<_37 Name="" type="fgre" Offset="958" />
+		<_36 Name="flyby/impact" Offset="958" />
+		<_41 Name="flyby sound reference" Offset="958" Allowed="prjf" Flags="0" />
+		<_41 Name="flyby damage response" Offset="974" Allowed="drdf" Flags="0" />
+		<_14 Name="flyby damage response max distance" Offset="990" />
+		<_41 Name="chaining attach effect" Offset="994" Allowed="effe" Flags="0" />
+		<_2 Name="chaining attach end marker" Offset="9B0" />
+		<_2 Name="chaining attach start marker" Offset="9B4" />
+		<_41 Name="impact effect" Offset="9B8" Allowed="effe" Flags="0" />
+		<_41 Name="object impact effect" Offset="9D4" Allowed="effe" Flags="0" />
+		<_41 Name="impact damage" Offset="9F0" Allowed="tagg, jpt!" Flags="1" />
+		<_41 Name="impact tag graph output" Offset="A0C" Allowed="jpt!" Flags="0" />
+		<_2 Name="impact output node name" type="sted" Offset="A28" />
+		<_40 Name="impact float params" Offset="A2C" GUID="217941128AACE34BC7334D2EA8F6C67D" StructName1="projectile_definition" Min="0" Max="10" />
+		<_40 Name="impact bool params" Offset="A40" GUID="80204605BFA6F4BF93CDD10F96C1C2B9" StructName1="projectile_definition" Min="0" Max="10" />
+		<_40 Name="impact taggraph instance variables - strings" Offset="A54" GUID="AF7648E707ABAC2BFB95694D48E79C90" StructName1="projectile_definition" Min="0" Max="10" />
+		<_40 Name="impact taggraph instance variables - tag references" Offset="A68" GUID="75F34BCE26A27E545DB61B22BEC316D9" StructName1="projectile_definition" Min="0" Max="10" />
+		<_36 Name="boarding fields" Offset="A7C" />
+		<_14 Name="boarding detonation time" Offset="A7C" />
+		<_41 Name="boarding detonation damage" Offset="A80" Allowed="jpt!" Flags="0" />
+		<_41 Name="boarding attached detonation damage" Offset="A9C" Allowed="jpt!" Flags="0" />
+		<_36 Name="physics" Offset="AB8" />
+		<_14 Name="air gravity scale" Offset="AB8" />
+		<_25 Name="air damage range" Offset="ABC" />
+		<_14 Name="water gravity scale" Offset="AC4" />
+		<_25 Name="water damage range" Offset="AC8" />
+		<_14 Name="initial velocity" Offset="AD0" />
+		<_14 Name="final velocity" Offset="AD4" />
+		<_14 Name="indirect fire velocity" Offset="AD8" />
+		<_14 Name="ai velocity scale (normal)" Offset="ADC" />
+		<_14 Name="ai velocity scale (heroic)" Offset="AE0" />
+		<_14 Name="ai velocity scale (legendary)" Offset="AE4" />
+		<_14 Name="ai guided angular velocity scale (normal)" Offset="AE8" />
+		<_14 Name="ai guided angular velocity scale (legendary)" Offset="AEC" />
+		<_38 Name="blah" Offset="AF0" GUID="92B540F08365B7E91F92083CB71DED6E" />
+		<_8 Name="guided angular velocity (upper)" Offset="AF4" />
+		<_24 Name="guided angular velocity random range" Offset="AF8" />
+		<_8 Name="guided angular velocity at rest" Offset="B00" />
+		<_25 Name="acceleration range" Offset="B04" />
+		<_14 Name="runtime acceleration bound inverse" Offset="B0C" />
+		<_15 Name="ai target leading scale (easy)" Offset="B10" />
+		<_15 Name="ai target leading scale (normal)" Offset="B14" />
+		<_15 Name="ai target leading scale (heroic)" Offset="B18" />
+		<_15 Name="ai target leading scale (legendary)" Offset="B1C" />
+		<_15 Name="targeted leading fraction" Offset="B20" />
+		<_14 Name="guided projectile (outer range) error radius" Offset="B24" />
+		<_14 Name="autoaim leading max lead time" Offset="B28" />
+		<_41 Name="material response reference" Offset="B2C" Allowed="prmr" Flags="0" />
+		<_40 Name="old material responses" type="sort" Offset="B48" GUID="1BE74B6733464F1F60E785728A913714" StructName1="projectile_definition" Min="0" Max="200" />
+		<_40 Name="material response" Offset="B5C" GUID="A6D14D9A3308637FC1152B059838E978" StructName1="projectile_definition" Min="0" Max="200" />
+		<_40 Name="brute grenade" Offset="B70" GUID="21F54A497CFB56DB0D4B65989344DC0D" StructName1="projectile_definition" Min="0" Max="1" />
+		<_40 Name="fire bomb grenade" Offset="B84" GUID="5A34419E09184400990A5438B4FB0517" StructName1="projectile_definition" Min="0" Max="1" />
+		<_40 Name="conical spread" Offset="B98" GUID="88854B7DC44A9D1679F9555F8A5731FD" StructName1="projectile_definition" Min="0" Max="1" />
+		<_41 Name="grounded friction settings" Offset="BAC" Allowed="grfr" Flags="0" />
+		<_17 Name="killcam projectile camera offsets" Offset="BC8" />
+		<_40 Name="Sound RTPCs" Offset="BD4" GUID="16674727D38131FC7263022B88CA938F" StructName1="projectile_definition" Min="0" Max="16" />
+		<_14 Name="sound projectile rtpc weight" Offset="BE8" />
+		<_40 Name="submunition events" Offset="BEC" GUID="B1A34CEF0927607B59AFEFF5AE95FD90" StructName1="projectile_definition" Min="0" Max="24" />
+		<_A Name="target selection condition" Offset="C00" StructName1="i343::Projectiles::eAcquireTargetMode">
+			<Flag n="never" />
+			<Flag n="bounce" />
+		</_A>
+		<_34 Name="generated_padd76f" Offset="C01" Length="3" />
+		<_38 Name="target selection" Offset="C04" GUID="F15543D0C6376C093F800F9393C24E37" />
+		<_37 Name="" type="fgre" Offset="C2C" />
+		<_37 Name="Charged Properties" type="fgrb" Offset="C2C" />
+		<_41 Name="charged detonation damage" Offset="C2C" Allowed="jpt!" Flags="0" />
+		<_41 Name="charged impact damage" Offset="C48" Allowed="jpt!" Flags="0" />
+		<_41 Name="charged visual effect" Offset="C64" Allowed="effe" Flags="0" />
+		<_41 Name="charged detonation effect" Offset="C80" Allowed="effe" Flags="0" />
+		<_14 Name="charged damage scale" Offset="C9C" />
+		<_37 Name="" type="fgre" Offset="CA0" />
+	</_19074B8CF7D82E787BD600C180D49472>
+	<_F5FC457A94A95A6C803394F088A44257 Name="ObjectDefinition" Size="6C8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="OBJECT" type="fgrb" Offset="10" />
+		<_5 Name="runtime object type" Offset="10" />
+		<_A Name="Nav Mesh Cutting" Offset="12" StructName1="NavMeshCuttingOverride">
+			<Flag n="Default" />
+			<Flag n="Cut" />
+			<Flag n="NotCut" />
+		</_A>
+		<_A Name="Nav Mesh Cutting mode" Offset="13" StructName1="NavMeshCuttingMode">
+			<Flag n="Default" />
+			<Flag n="Full" />
+			<Flag n="Convex" />
+			<Flag n="OBB" />
+		</_A>
+		<_14 Name="Nav Mesh Silhouette Expansion" Offset="14" />
+		<_A Name="navmesh collision node opt in" Offset="18" StructName1="BooleanOverride">
+			<Flag n="Default" />
+			<Flag n="Yes" />
+			<Flag n="No" />
+		</_A>
+		<_34 Name="generated_pad19c8" Offset="19" Length="3" />
+		<_37 Name="Nav Dangerous Objects" type="fgrb" Offset="1C" />
+		<_36 Name="Avoidance" Offset="1C" />
+		<_14 Name="Avoidance Multiplier" Offset="1C" />
+		<_14 Name="Avoidance Radius" Offset="20" />
+		<_37 Name="" type="fgre" Offset="24" />
+		<_D Name="object flags" Offset="24" StructName1="c_object_definition_flags">
+			<Flag n="always render in floating shadow" />
+			<Flag n="preserves initial damage owner" />
+			<Flag n="not a pathfinding obstacle(deprecated)" />
+			<Flag n="extension of parent" />
+			<Flag n="does not cause collision damage" />
+			<Flag n="early mover" />
+			<Flag n="early mover localized physics" />
+			<Flag n="object scales attachments" />
+			<Flag n="non physical in map editor" />
+			<Flag n="effects created by this object do not spawn objects in multiplayer" />
+			<Flag n="does not collide with camera" />
+			<Flag n="force collide with camera" />
+			<Flag n="damage not blocked by obstructions" />
+			<Flag n="early mover localize projectiles" />
+			<Flag n="grab parent object in forge editing" />
+			<Flag n="Hoistable from stand" />
+			<Flag n="Destroyable obstacle" />
+			<Flag n="vaultable" />
+			<Flag n="collides with own projectiles" />
+			<Flag n="object rejects dynamic decals" />
+			<Flag n="Client side only" />
+			<Flag n="Wake when visible to player" />
+			<Flag n="Sleep when not visible to player" />
+			<Flag n="Does not accept active camouflage" />
+			<Flag n="Killed on first contact or damage" />
+			<Flag n="Self-destruct timer kills instead of destroying" />
+			<Flag n="is permeable to projectiles" />
+			<Flag n="Destroy on player contact" />
+			<Flag n="Use the new action and animation system" />
+			<Flag n="Allow delayed placement and deletion" />
+		</_D>
+		<_14 Name="bounding radius" Offset="28" />
+		<_17 Name="bounding offset" Offset="2C" />
+		<_14 Name="horizontal acceleration scale" Offset="38" />
+		<_14 Name="vertical acceleration scale" Offset="3C" />
+		<_14 Name="angular acceleration scale" Offset="40" />
+		<_A Name="lightmap shadow mode" Offset="44" StructName1="LightmapShadowModes">
+			<Flag n="default" />
+			<Flag n="never" />
+			<Flag n="always" />
+			<Flag n="blur" />
+		</_A>
+		<_A Name="multiple airprobe mode" Offset="45" StructName1="MultipleAirprobeSamplingMode">
+			<Flag n="default" />
+			<Flag n="always" />
+		</_A>
+		<_A Name="water density" Offset="46" StructName1="e_water_density_type">
+			<Flag n="default" />
+			<Flag n="super_floater" />
+			<Flag n="floater" />
+			<Flag n="neutral" />
+			<Flag n="sinker" />
+			<Flag n="super_sinker" />
+			<Flag n="none" />
+		</_A>
+		<_37 Name="Streaming" type="fgrb" Offset="47" />
+		<_36 Name="Streaming" Offset="47" />
+		<_F Name="Streaming control flags" Offset="47" StructName1="i343::Objects::StreamingControlFlags">
+			<Flag n="High priority" />
+			<Flag n="Apply delay on stream out" />
+			<Flag n="Ignore overlapping active objects for collision" />
+		</_F>
+		<_37 Name="" type="fgre" Offset="48" />
+		<_38 Name="impact audio" Offset="48" GUID="C7C54C3CC77709096D467EDA88C749EF" />
+		<_3E Name="runtime flags" Offset="58" />
+		<_40 Name="source sidecar" Offset="5C" GUID="0F5F42F1DD2E8F6429BD247D8D1ADF7F" StructName1="ObjectDefinition" Min="0" Max="1" />
+		<_2 Name="default model variant" type="sted" Offset="70" />
+		<_2 Name="default style id" Offset="74" />
+		<_41 Name="model" Offset="78" Allowed="hlmt" Flags="0" />
+		<_41 Name="asset" Offset="94" Allowed="aset, hlmt" Flags="1" />
+		<_41 Name="frame" Offset="B0" Allowed="sofd" Flags="0" />
+		<_41 Name="crate object" Offset="CC" Allowed="bloc" Flags="0" />
+		<_36 Name="Damage Source" Offset="E8" />
+		<_38 Name="damageSource" Offset="E8" GUID="FF87433DC31A245D49183EE68FE5BB27" />
+		<_14 Name="navpoint vertical offset" Offset="EC" />
+		<_36 Name="only set this tag if you want to override the default collision damage values in globals.globals" Offset="F0" />
+		<_41 Name="collision damage" Offset="F0" Allowed="cddf" Flags="0" />
+		<_40 Name="early mover OBB" Offset="10C" GUID="AAAA48FF7AD1FFFFFFE70E3BCB3677D4" StructName1="ObjectDefinition" Min="0" Max="1" />
+		<_41 Name="creation effect" Offset="120" Allowed="effe" Flags="0" />
+		<_37 Name="material effect references" type="fgrb" Offset="13C" />
+		<_36 Name="Material Effects Section" Offset="13C" />
+		<_41 Name="material effects" Offset="13C" Allowed="foot" Flags="0" />
+		<_41 Name="visual material effects" Offset="158" Allowed="vmed" Flags="1" />
+		<_41 Name="sound material effects" Offset="174" Allowed="smed" Flags="1" />
+		<_37 Name="" type="fgre" Offset="190" />
+		<_41 Name="melee sound" Offset="190" Allowed="snd!" Flags="0" />
+		<_14 Name="Damage Shader Min Vitality" Offset="1AC" />
+		<_14 Name="Damage Shader Intensity Scalar" Offset="1B0" />
+		<_14 Name="kill on first contact or damage after time" Offset="1B4" />
+		<_14 Name="self-destruct time" Offset="1B8" />
+		<_14 Name="self-destruct time max" Offset="1BC" />
+		<_40 Name="ai properties" Offset="1C0" GUID="712E447D26FB5335AFFD787193F77F52" StructName1="ObjectDefinition" Min="0" Max="1" />
+		<_40 Name="functions" Offset="1D4" GUID="41EE4DC2D2EFDBE682F5BAD9805F2410" StructName1="ObjectDefinition" Min="0" Max="256" />
+		<_6 Name="num predicted runtime interpolator functions" Offset="1E8" />
+		<_40 Name="runtime interpolator functions" Offset="1EC" GUID="4BEE4DC2A2EFDBE632F5BAD9305F2410" StructName1="ObjectDefinition" Min="0" Max="256" />
+		<_40 Name="function switches" Offset="200" GUID="AB6642CECD9999FC1EA31C54B74F1753" StructName1="ObjectDefinition" Min="0" Max="32" />
+		<_40 Name="functions forwarded to parent" Offset="214" GUID="9DED41975A471C4D7ADC2E1282842F00" StructName1="ObjectDefinition" Min="0" Max="8" />
+		<_E Name="Ammo Refill Flags" Offset="228" StructName1="i343::Munitions::AmmoRefillTypeFlags">
+			<Flag n="None" />
+			<Flag n="Kinetic" />
+			<Flag n="Plasma" />
+			<Flag n="Hard light" />
+			<Flag n="Shock" />
+			<Flag n="Power weapon" />
+		</_E>
+		<_F Name="Ammo Refill Behavior Flags" Offset="22A" StructName1="i343::Munitions::AmmoRefillBehaviorFlags">
+			<Flag n="No automatic refill" />
+		</_F>
+		<_34 Name="generated_pad33a9" Offset="22B" Length="1" />
+		<_40 Name="Ammo Refill Variant Flags" Offset="22C" GUID="A25D4B720C87C323E3236AAE92BC0A80" StructName1="ObjectDefinition" Min="0" Max="64" />
+		<_D Name="object secondary flags" Offset="240" StructName1="c_object_definition_secondary_flags">
+			<Flag n="does not affect projectile aiming" />
+			<Flag n="never delete on bsp transition" />
+			<Flag n="Aim assist raycast does not ignore parents" />
+			<Flag n="Provides an override motion tracker blip sprite" />
+			<Flag n="Use the new animation system only" />
+			<Flag n="Detach children when the destroyed" />
+			<Flag n="Force projectile overpenetration" />
+			<Flag n="Use inertialization" />
+			<Flag n="Cannot be grappled" />
+			<Flag n="Can be pulled to the player by the grapple hook" />
+			<Flag n="Damage Effect Sounds - Play Ineffective Hit" />
+			<Flag n="Always forward unhandled object functions to the parent" />
+			<Flag n="is valid submunition target" />
+			<Flag n="allow repeated bouncing projectile overpenetration" />
+			<Flag n="inconsequential target" />
+			<Flag n="active camo always on" />
+			<Flag n="object is invisible, even attachments" />
+			<Flag n="navmesh collision node opt in" />
+			<Flag n="Disable CVW Lighting" />
+			<Flag n="All Markers Use Unique Acoustic Sound Sources" />
+			<Flag n="Damage ignores owning unit" />
+			<Flag n="Enable doppler audio" />
+			<Flag n="blocks AOE if the AOE's epicenter is blocked" />
+			<Flag n="Enable Damage Hit Ticks" />
+			<Flag n="Blocks grapple aim assist" />
+			<Flag n="Send Damage Aftermath to Parent" />
+			<Flag n="Pre size attachments for customization" />
+			<Flag n="invisible to melee" />
+		</_D>
+		<_37 Name="Customization" type="fgrb" Offset="244" />
+		<_2 Name="customization set" Offset="244" />
+		<_37 Name="" type="fgre" Offset="248" />
+		<_40 Name="attachments" Offset="248" GUID="4775429C11097257EE75453FA775D933" StructName1="ObjectDefinition" Min="0" Max="48" />
+		<_40 Name="indirect lighting data" Offset="25C" GUID="4776429C12097557EE75A83FA775A933" StructName1="ObjectDefinition" Min="0" Max="64" />
+		<_40 Name="hull surfaces" Offset="270" GUID="124B45F8201415C3A4AD5B50B7118F83" StructName1="ObjectDefinition" Min="0" Max="64" />
+		<_40 Name="jetwash" Offset="284" GUID="0A224BC5C47AA87279969CAB9B77C993" StructName1="ObjectDefinition" Min="0" Max="4" />
+		<_40 Name="widgets" Offset="298" GUID="A5AA466162919B1E3AC0DDAAB8317D8A" StructName1="ObjectDefinition" Min="0" Max="4" />
+		<_40 Name="change colors" Offset="2AC" GUID="8F3241C90AB056AD9B24F6FE9EDBB26A" StructName1="ObjectDefinition" Min="0" Max="4" />
+		<_40 Name="multiplayer object" Offset="2C0" GUID="E97643DE027B026373AEE467B173536B" StructName1="ObjectDefinition" Min="0" Max="1" />
+		<_40 Name="Forge data" Offset="2D4" GUID="73B5417889E8F6A5AFB087CBB90826AF" StructName1="ObjectDefinition" Min="0" Max="36" />
+		<_41 Name="simulation_interpolation" Offset="2E8" Allowed="siin" Flags="0" />
+		<_41 Name="authority trust settings" Offset="304" Allowed="ucnt" Flags="0" />
+		<_40 Name="spawn effects" Offset="320" GUID="4BD44D30CAA36528A3A75C3292DBFEEC" StructName1="ObjectDefinition" Min="0" Max="1" />
+		<_40 Name="model dissolve data" Offset="334" GUID="93E94F6B95694A9F96A8A3498959AD40" StructName1="ObjectDefinition" Min="0" Max="13" />
+		<_1 Name="class name" Offset="348" />
+		<_40 Name="script tagalongs" Offset="448" GUID="AAAE49B0D5081A5A984C1A8BA3DD5C21" StructName1="ObjectDefinition" Min="0" Max="1024" />
+		<_41 Name="prototype script" Offset="45C" Allowed="hsc*" Flags="0" />
+		<_36 Name="Object Abandoment" Offset="478" />
+		<_38 Name="object abandonment" Offset="478" GUID="6EE940457F949B787FEFA28A95026EDA" />
+		<_40 Name="Designer Metadata" Offset="484" GUID="66974B5B7A236D95F43A8A409414695B" StructName1="ObjectDefinition" Min="0" Max="32" />
+		<_36 Name="Object Function Smoothing" Offset="498" />
+		<_40 Name="Object Sound RTPCs" Offset="498" GUID="114741776EDCFD781DD674B5B8274D64" StructName1="ObjectDefinition" Min="0" Max="32" />
+		<_40 Name="Object Sound Sweeteners" Offset="4AC" GUID="7A814B2A443F16AAF7A23C5C81FB74DE" StructName1="ObjectDefinition" Min="0" Max="16" />
+		<_2 Name="Audio acoustics root marker override" Offset="4C0" />
+		<_14 Name="Audio Acoustics Transparency" Offset="4C4" />
+		<_40 Name="Object function smoothing" Offset="4C8" GUID="B1C94EFF1D4D4AB4B92FF934B56766B5" StructName1="ObjectDefinition" Min="0" Max="64" />
+		<_A Name="Animated mesh animation type" Offset="4DC" StructName1="_object_definition::s_animatedMeshInfo::eAnimationType">
+			<Flag n="None" />
+			<Flag n="One Time" />
+			<Flag n="Looping" />
+		</_A>
+		<_34 Name="generated_pad805e" Offset="4DD" Length="3" />
+		<_14 Name="Placement cost multiplier" Offset="4E0" />
+		<_41 Name="Trigger volume component info" Offset="4E4" Allowed="tvcm" Flags="0" />
+		<_40 Name="Tracking Info" Offset="500" GUID="B52A42D5C3031D37424678BCBE0FD563" StructName1="ObjectDefinition" Min="0" Max="8" />
+		<_41 Name="Property Based Effects" Offset="514" Allowed="pbfx" Flags="0" />
+		<_40 Name="Interactions" Offset="530" GUID="EFFE48CE2E60A80A0CE20619AC10E461" StructName1="ObjectDefinition" Min="0" Max="8" />
+		<_37 Name="Motion tracker blips" type="fgrb" Offset="544" />
+		<_A Name="blip sprite index override" Offset="544" StructName1="MotionSensorBlipSprite">
+			<Flag n="Self" />
+			<Flag n="Vehicle Ally" />
+			<Flag n="Vehicle Enemy" />
+			<Flag n="Vehicle Ally Gutter" />
+			<Flag n="Vehicle Enemy Gutter" />
+			<Flag n="Vehicle Ally Vertical" />
+			<Flag n="Vehicle Enemy Vertical" />
+			<Flag n="Vehicle Ally Gutter Vertical" />
+			<Flag n="Vehicle Enemy Gutter Vertical" />
+			<Flag n="Human Ally" />
+			<Flag n="Human Enemy" />
+			<Flag n="Human Ally Gutter" />
+			<Flag n="Human Enemy Gutter" />
+			<Flag n="Human Ally Vertical" />
+			<Flag n="Human Enemy Vertical" />
+			<Flag n="Human Ally Gutter Vertical" />
+			<Flag n="Human Enemy Gutter Vertical" />
+			<Flag n="Major AI Ally" />
+			<Flag n="Major AI Enemy" />
+			<Flag n="Major AI Ally Gutter" />
+			<Flag n="Major AI Enemy Gutter" />
+			<Flag n="Major AI Ally Vertical" />
+			<Flag n="Major AI Enemy Vertical" />
+			<Flag n="Major AI Ally Gutter Vertical" />
+			<Flag n="Major AI Enemy Gutter Vertical" />
+			<Flag n="Minor AI Ally" />
+			<Flag n="Minor AI Enemy" />
+			<Flag n="Minor AI Ally Vertical" />
+			<Flag n="Minor AI Enemy Vertical" />
+			<Flag n="Unnamed sprite index29" />
+			<Flag n="Unnamed sprite index30" />
+			<Flag n="Unnamed sprite index31" />
+		</_A>
+		<_34 Name="generated_pad9a3f" Offset="545" Length="3" />
+		<_37 Name="" type="fgre" Offset="548" />
+		<_40 Name="data driven scripted sequence actions definitions." Offset="548" GUID="45604F6F524A3900029978AAB022F397" StructName1="ObjectDefinition" Min="0" Max="32" />
+		<_41 Name="Animation Node Graph" Offset="55C" Allowed="angt" Flags="0" />
+		<_38 Name="Anim Set Table" Offset="578" GUID="E35A4AF4D25B6CBD30743D9EB98C5D63" />
+		<_14 Name="Inertialization Duration" Offset="5A0" />
+		<_14 Name="Pill Offset Blend Rate For Ground IK" Offset="5A4" />
+		<_25 Name="Stationary Root Offset Limit" Offset="5A8" />
+		<_25 Name="Moving Root Offset Limit" Offset="5B0" />
+		<_14 Name="Ground IK marker above ground tolerance" Offset="5B8" />
+		<_14 Name="Ground Probe Start Position Height Scale for Ground IK" Offset="5BC" />
+		<_14 Name="Ground Probe Additional Height Distance" Offset="5C0" />
+		<_42 Name="Anim Set Nodegraph Metadata" Offset="5C4" StructName1="AnimationDefinition.Anim Set Nodegraph Metadata" Int1="2" Int2="0" Flags="A00000" />
+		<_37 Name="Root Bone Correction Settings" type="fgrb" Offset="5DC" />
+		<_38 Name="RootBoneCorrectionSettings" Offset="5DC" GUID="11AE4DE2ED0A143A7C82B28C9D4395DA" />
+		<_37 Name="" type="fgre" Offset="5E8" />
+		<_40 Name="Leg Grounding Settings" Offset="5E8" GUID="7308477FF918F0FA91660B26AD188BAB" StructName1="ObjectDefinition" Min="0" Max="2" />
+		<_37 Name="Wrist Break Fixup" type="fgrb" Offset="5FC" />
+		<_14 Name="Wrist Break Interp Time" Offset="5FC" />
+		<_14 Name="Wrist Break Angle Limit" Offset="600" />
+		<_14 Name="Wrist Break Fixup Scale" Offset="604" />
+		<_37 Name="" type="fgre" Offset="608" />
+		<_F Name="Flags" Offset="608" StructName1="AnimationDefinition::Flags">
+			<Flag n="Use Procedural Footstep Events" />
+			<Flag n="Use Wrist Break IK Fixup" />
+		</_F>
+		<_34 Name="generated_pad6f99" Offset="609" Length="3" />
+		<_37 Name="Object Node Graph" type="fgrb" Offset="60C" />
+		<_40 Name="Object Node Graphs" Offset="60C" GUID="F773409B74B26D9D525AC5EA87FC4CEA" StructName1="ObjectDefinition" Min="0" Max="32" />
+		<_37 Name="" type="fgre" Offset="620" />
+		<_40 Name="parent animation matching" Offset="620" GUID="2C34417E630FDAE1B2E8522CAE14EF5E" StructName1="ObjectDefinition" Min="0" Max="8" />
+		<_37 Name="model variant switching" type="fgrb" Offset="634" />
+		<_36 Name="MODEL VARIANT SWITCHING" Offset="634" />
+		<_2 Name="model variant switching function" Offset="634" />
+		<_40 Name="model variant switching table" Offset="638" GUID="FEA74B6E34E9F8323CBD7F7196702C69" StructName1="ObjectDefinition" Min="0" Max="8" />
+		<_37 Name="" type="fgre" Offset="64C" />
+		<_37 Name="knockback" type="fgrb" Offset="64C" />
+		<_14 Name="knockback impulse scalar" Offset="64C" />
+		<_37 Name="" type="fgre" Offset="650" />
+		<_37 Name="Ability Components" type="fgrb" Offset="650" />
+		<_40 Name="location sensor" Offset="650" GUID="D3D9420D2F4640FED9351CE2AAC5B030" StructName1="ObjectDefinition" Min="0" Max="1" />
+		<_40 Name="shroud generator" Offset="664" GUID="715341E94055CDAC38D93DD890D14658" StructName1="ObjectDefinition" Min="0" Max="1" />
+		<_40 Name="repair field" Offset="678" GUID="D7104E3BB95AFC0811C2230B8F558E47" StructName1="ObjectDefinition" Min="0" Max="1" />
+		<_37 Name="" type="fgre" Offset="68C" />
+		<_40 Name="Power Component" Offset="68C" GUID="CDC842658D2CDD5A0386628B97C99B10" StructName1="ObjectDefinition" Min="0" Max="1" />
+		<_40 Name="self destruct handler" Offset="6A0" GUID="595C4BCB6B458A19C8B900699C4E8800" StructName1="ObjectDefinition" Min="0" Max="1" />
+		<_40 Name="Indirect Lighting Component" Offset="6B4" GUID="DC0B498741F543711B10766BA9E589C4" StructName1="ObjectDefinition" Min="0" Max="1" />
+		<_37 Name="" type="fgre" Offset="6C8" />
+	</_F5FC457A94A95A6C803394F088A44257>
+	<_217941128AACE34BC7334D2EA8F6C67D Name="TagGraph::TagGraphFloatParam" Size="8">
+		<_2 Name="name" type="sted" Offset="0" />
+		<_14 Name="value" Offset="4" />
+	</_217941128AACE34BC7334D2EA8F6C67D>
+	<_80204605BFA6F4BF93CDD10F96C1C2B9 Name="TagGraph::TagGraphBoolParam" Size="8">
+		<_2 Name="name" type="sted" Offset="0" />
+		<_F Name="value" Offset="4" StructName1="TagGraph::TagGraphBoolVariableValue">
+			<Flag n="value" />
+		</_F>
+		<_34 Name="generated_pad0473" Offset="5" Length="3" />
+	</_80204605BFA6F4BF93CDD10F96C1C2B9>
+	<_AF7648E707ABAC2BFB95694D48E79C90 Name="TagGraph::TagGraphInstanceVariableString" Size="8">
+		<_2 Name="name" type="sted" Offset="0" />
+		<_2 Name="value" Offset="4" />
+	</_AF7648E707ABAC2BFB95694D48E79C90>
+	<_75F34BCE26A27E545DB61B22BEC316D9 Name="TagGraph::TagGraphInstanceVariableTagRef" Size="20">
+		<_2 Name="name" type="sted" Offset="0" />
+		<_41 Name="value" Offset="4" Allowed="aTag" Flags="0" />
+	</_75F34BCE26A27E545DB61B22BEC316D9>
+	<_4F4F48B3A018816E5C479F3A9A4AEA76 Name="SuperDetonationDamageStruct" Size="1C">
+		<_41 Name="super detonation damage" Offset="0" Allowed="jpt!" Flags="0" />
+	</_4F4F48B3A018816E5C479F3A9A4AEA76>
+	<_92B540F08365B7E91F92083CB71DED6E Name="AngularVelocityLowerBoundStructDeprecated" Size="4">
+		<_8 Name="guided angular velocity (lower)" Offset="0" />
+	</_92B540F08365B7E91F92083CB71DED6E>
+	<_1BE74B6733464F1F60E785728A913714 Name="i343::Projectiles::DeprecatedProjectileMaterialResponseDefinitionV0" Size="3C">
+		<_36 Name="default result" Offset="0" />
+		<_B Name="default response" Offset="0" StructName1="i343::Projectiles::MaterialResponse">
+			<Flag n="impact (detonate)" />
+			<Flag n="fizzle" />
+			<Flag n="overpenetrate" />
+			<Flag n="attach" />
+			<Flag n="bounce" />
+			<Flag n="bounce (dud)" />
+			<Flag n="fizzle (ricochet)" />
+			<Flag n="turn physical" />
+			<Flag n="charge self" />
+		</_B>
+		<_34 Name="generated_pad1fd0" Offset="2" Length="2" />
+		<_2 Name="material name" type="sted" Offset="4" />
+		<_5 Name="runtime material index" Offset="8" />
+		<_36 Name="potential result" Offset="A" />
+		<_B Name="potential response" Offset="A" StructName1="i343::Projectiles::MaterialResponse">
+			<Flag n="impact (detonate)" />
+			<Flag n="fizzle" />
+			<Flag n="overpenetrate" />
+			<Flag n="attach" />
+			<Flag n="bounce" />
+			<Flag n="bounce (dud)" />
+			<Flag n="fizzle (ricochet)" />
+			<Flag n="turn physical" />
+			<Flag n="charge self" />
+		</_B>
+		<_E Name="response flags" Offset="C" StructName1="i343::Projectiles::PossibleResponseFlags">
+			<Flag n="only against units (except giants)" />
+			<Flag n="never against units (except giants)" />
+			<Flag n="only against bipeds" />
+			<Flag n="only against vehicles" />
+			<Flag n="never against wuss players" />
+			<Flag n="only when tethered" />
+			<Flag n="only when not tethered" />
+			<Flag n="only against dead bipeds" />
+			<Flag n="never against dead bipeds" />
+			<Flag n="only AI projectiles" />
+			<Flag n="never AI projectiles" />
+			<Flag n="only friendly targets" />
+			<Flag n="never friendly targets" />
+		</_E>
+		<_34 Name="generated_pad39b1" Offset="E" Length="2" />
+		<_15 Name="chance fraction" Offset="10" />
+		<_24 Name="between" Offset="14" />
+		<_25 Name="and" Offset="1C" />
+		<_36 Name="misc" Offset="24" />
+		<_B Name="scale effects by" Offset="24" StructName1="i343::Projectiles::MaterialResponseScaleMode">
+			<Flag n="damage" />
+			<Flag n="angle" />
+		</_B>
+		<_34 Name="generated_pad8666" Offset="26" Length="2" />
+		<_8 Name="angular noise" Offset="28" />
+		<_14 Name="velocity noise" Offset="2C" />
+		<_36 Name="penetration" Offset="30" />
+		<_14 Name="initial friction" Offset="30" />
+		<_36 Name="reflection" Offset="34" />
+		<_14 Name="parallel friction" Offset="34" />
+		<_14 Name="perpendicular friction" Offset="38" />
+	</_1BE74B6733464F1F60E785728A913714>
+	<_A6D14D9A3308637FC1152B059838E978 Name="i343::Projectiles::MaterialResponseDefinition" Size="38">
+		<_36 Name="matching criteria" Offset="0" />
+		<_2 Name="material name" type="sted" Offset="0" />
+		<_5 Name="runtime material index" Offset="4" />
+		<_E Name="response flags" Offset="6" StructName1="i343::Projectiles::PossibleResponseFlags">
+			<Flag n="only against units (except giants)" />
+			<Flag n="never against units (except giants)" />
+			<Flag n="only against bipeds" />
+			<Flag n="only against vehicles" />
+			<Flag n="never against wuss players" />
+			<Flag n="only when tethered" />
+			<Flag n="only when not tethered" />
+			<Flag n="only against dead bipeds" />
+			<Flag n="never against dead bipeds" />
+			<Flag n="only AI projectiles" />
+			<Flag n="never AI projectiles" />
+			<Flag n="only friendly targets" />
+			<Flag n="never friendly targets" />
+		</_E>
+		<_15 Name="chance fraction" Offset="8" />
+		<_24 Name="between" Offset="C" />
+		<_25 Name="and" Offset="14" />
+		<_36 Name="response" Offset="1C" />
+		<_B Name="response" Offset="1C" StructName1="i343::Projectiles::MaterialResponse">
+			<Flag n="impact (detonate)" />
+			<Flag n="fizzle" />
+			<Flag n="overpenetrate" />
+			<Flag n="attach" />
+			<Flag n="bounce" />
+			<Flag n="bounce (dud)" />
+			<Flag n="fizzle (ricochet)" />
+			<Flag n="turn physical" />
+			<Flag n="charge self" />
+		</_B>
+		<_36 Name="misc" Offset="1E" />
+		<_B Name="scale effects by" Offset="1E" StructName1="i343::Projectiles::MaterialResponseScaleMode">
+			<Flag n="damage" />
+			<Flag n="angle" />
+		</_B>
+		<_8 Name="angular noise" Offset="20" />
+		<_14 Name="velocity noise" Offset="24" />
+		<_36 Name="overpenetration" Offset="28" />
+		<_14 Name="initial friction" Offset="28" />
+		<_36 Name="reflection" Offset="2C" />
+		<_14 Name="parallel friction" Offset="2C" />
+		<_14 Name="perpendicular friction" Offset="30" />
+		<_36 Name="flags" Offset="34" />
+		<_F Name="misc flags" Offset="34" StructName1="i343::Projectiles::MaterialResponseFlags">
+			<Flag n="orient along normal at rest" />
+		</_F>
+		<_34 Name="generated_pad3f48" Offset="35" Length="3" />
+	</_A6D14D9A3308637FC1152B059838E978>
+	<_21F54A497CFB56DB0D4B65989344DC0D Name="ProjectileAngularRotationDefinition" Size="30">
+		<_8 Name="minimum angular vel" Offset="0" />
+		<_8 Name="maximum angular vel" Offset="4" />
+		<_8 Name="spin angular vel" Offset="8" />
+		<_14 Name="angular damping" Offset="C" />
+		<_14 Name="drag angle constant" Offset="10" />
+		<_14 Name="drag speed constant" Offset="14" />
+		<_14 Name="drag exponent" Offset="18" />
+		<_14 Name="attach sample radius" Offset="1C" />
+		<_14 Name="attach acceleration constant" Offset="20" />
+		<_14 Name="attach acceleration scalar" Offset="24" />
+		<_14 Name="attach acceleration exponent" Offset="28" />
+		<_14 Name="attach acceleration damping" Offset="2C" />
+	</_21F54A497CFB56DB0D4B65989344DC0D>
+	<_5A34419E09184400990A5438B4FB0517 Name="s_projectile_fire_bomb_grenade_definition" Size="4">
+		<_14 Name="projection offset" Offset="0" />
+	</_5A34419E09184400990A5438B4FB0517>
+	<_88854B7DC44A9D1679F9555F8A5731FD Name="s_projectile_conical_projection_defintion" Size="44">
+		<_36 Name="conical_projection - AKA shotgun" Offset="0" />
+		<_5 Name="yaw count" Offset="0" />
+		<_5 Name="pitch count" Offset="2" />
+		<_14 Name="distribution exponent" Offset="4" />
+		<_8 Name="spread" Offset="8" />
+		<_41 Name="Per Conical Projectile Firing Effect" Offset="C" Allowed="effe" Flags="0" />
+		<_41 Name="Per Conical Projectile Firing Effect (Charged)" Offset="28" Allowed="effe" Flags="0" />
+	</_88854B7DC44A9D1679F9555F8A5731FD>
+	<_16674727D38131FC7263022B88CA938F Name="ProjectileSoundRTPCBlockDefinition" Size="C">
+		<_30 Name="Attachment Index" Offset="0" GUID="4775429C11097257EE75453FA775D933" StructName1="ProjectileSoundRTPCBlockDefinition" Min="0" Max="48" />
+		<_2 Name="Function" type="sted" Offset="4" />
+		<_2 Name="RTPC Name" Offset="8" />
+	</_16674727D38131FC7263022B88CA938F>
+	<_B1A34CEF0927607B59AFEFF5AE95FD90 Name="i343::Projectiles::SubmunitionEventDefinition" Size="144">
+		<_41 Name="type" Offset="0" Allowed="tagg, proj, bipd, bloc, crea, ctrl, dspn, mach, efsc, eqip, gint, scen, vehi, weap" Flags="1" />
+		<_41 Name="tag graph output" Offset="1C" Allowed="proj, bipd, bloc, crea, ctrl, dspn, mach, efsc, eqip, gint, scen, vehi, weap" Flags="0" />
+		<_2 Name="output node name" type="sted" Offset="38" />
+		<_40 Name="float params" Offset="3C" GUID="217941128AACE34BC7334D2EA8F6C67D" StructName1="i343::Projectiles::SubmunitionEventDefinition" Min="0" Max="10" />
+		<_40 Name="bool params" Offset="50" GUID="80204605BFA6F4BF93CDD10F96C1C2B9" StructName1="i343::Projectiles::SubmunitionEventDefinition" Min="0" Max="10" />
+		<_40 Name="taggraph instance variables - strings" Offset="64" GUID="AF7648E707ABAC2BFB95694D48E79C90" StructName1="i343::Projectiles::SubmunitionEventDefinition" Min="0" Max="10" />
+		<_40 Name="taggraph instance variables - tag references" Offset="78" GUID="75F34BCE26A27E545DB61B22BEC316D9" StructName1="i343::Projectiles::SubmunitionEventDefinition" Min="0" Max="10" />
+		<_5 Name="count" Offset="8C" />
+		<_A Name="network prediction" Offset="8E" StructName1="i343::Projectiles::SubmunitionPrediction">
+			<Flag n="inherited" />
+			<Flag n="authoritative" />
+			<Flag n="predictive" />
+		</_A>
+		<_A Name="placement" Offset="8F" StructName1="i343::Projectiles::eSubmunitionPlacement">
+			<Flag n="at relative offset" />
+			<Flag n="spherical cluster around relative offset" />
+		</_A>
+		<_B Name="orientation" Offset="90" StructName1="i343::Projectiles::eSubmunitionOrientation">
+			<Flag n="along relative orientation" />
+			<Flag n="away from parent" />
+			<Flag n="parent velocity" />
+			<Flag n="parent velocity xy relative" />
+			<Flag n="towards target" />
+		</_B>
+		<_B Name="trigger" Offset="92" StructName1="i343::Projectiles::eSubmunitionTrigger">
+			<Flag n="on detonation" />
+			<Flag n="on bounce" />
+			<Flag n="on floor bounce" />
+			<Flag n="on resting" />
+			<Flag n="on spawn" />
+			<Flag n="on impact" />
+			<Flag n="on impact with valid target" />
+			<Flag n="on impact with first valid target after charging" />
+			<Flag n="on supercombine" />
+			<Flag n="on throw" />
+		</_B>
+		<_E Name="flags" Offset="94" StructName1="i343::Projectiles::SubmunitionFlags">
+			<Flag n="parenticide" />
+			<Flag n="inherit target" />
+			<Flag n="compound damage scale reduction" />
+			<Flag n="ignore collision of object collided with parent projectile for collision" />
+			<Flag n="orient along parent rotation" />
+			<Flag n="only spawn if charged" />
+			<Flag n="inherit parent damage properties" />
+			<Flag n="spawn at impact location" />
+			<Flag n="effects only submunition" />
+			<Flag n="spawn before detonation" />
+		</_E>
+		<_A Name="crit mode" Offset="96" StructName1="i343::Projectiles::SubmunitionCritMode">
+			<Flag n="default" />
+			<Flag n="spawn only on crit" />
+			<Flag n="spawn only on non crit" />
+		</_A>
+		<_3C Name="max recursion depth" Offset="97" />
+		<_37 Name="delay bounds" type="mela" Offset="98" />
+		<_25 Name="delay bounds" Offset="98" />
+		<_15 Name="inherited velocity" Offset="A0" />
+		<_37 Name="initial velocity bounds" type="mela" Offset="A4" />
+		<_25 Name="initial velocity bounds" Offset="A4" />
+		<_15 Name="damage scale" Offset="AC" />
+		<_37 Name="Default Placement" type="fgrb" Offset="B0" />
+		<_36 Name="The following fields are for default placment only" Offset="B0" />
+		<_19 Name="relative offset" Offset="B0" />
+		<_19 Name="offset variance" Offset="BC" />
+		<_37 Name="" type="fgre" Offset="C8" />
+		<_37 Name="Spherical Placement" type="fgrb" Offset="C8" />
+		<_36 Name="The following fields are for spherical placment only" Offset="C8" />
+		<_37 Name="radius bounds" type="mela" Offset="C8" />
+		<_25 Name="radius bounds" Offset="C8" />
+		<_19 Name="individual variance" Offset="D0" />
+		<_37 Name="" type="fgre" Offset="DC" />
+		<_37 Name="Default Orientation" type="fgrb" Offset="DC" />
+		<_36 Name="The following fields are for default orientation" Offset="DC" />
+		<_1B Name="relative orientation" Offset="DC" />
+		<_1B Name="orientation variance" Offset="E4" />
+		<_37 Name="" type="fgre" Offset="EC" />
+		<_37 Name="Target Orientation" type="fgrb" Offset="EC" />
+		<_36 Name="The following fields are used for target orientation only." Offset="EC" />
+		<_F Name="biped orientation flags" Offset="EC" StructName1="i343::Projectiles::SubmunitionBipedOrientationFlags">
+			<Flag n="set biped target" />
+			<Flag n="preserve inherited target" />
+			<Flag n="do not spawn if no valid targets" />
+			<Flag n="choose unique targets" />
+			<Flag n="ignore source as target" />
+			<Flag n="inherit parent unique target bucket" />
+		</_F>
+		<_34 Name="generated_pad564d" Offset="ED" Length="3" />
+		<_2 Name="unique target bucket id" Offset="F0" />
+		<_36 Name="The following field is used for new target acquisition." Offset="F4" />
+		<_38 Name="target acquisition" Offset="F4" GUID="F15543D0C6376C093F800F9393C24E37" />
+		<_36 Name="The following field is used for hit object validation." Offset="11C" />
+		<_38 Name="hit object validation" Offset="11C" GUID="F15543D0C6376C093F800F9393C24E37" />
+		<_37 Name="" type="fgre" Offset="144" />
+	</_B1A34CEF0927607B59AFEFF5AE95FD90>
+	<_F15543D0C6376C093F800F9393C24E37 Name="i343::Projectiles::TargetAcquisitionDefinition" Size="28">
+		<_37 Name="Target Acquisition" type="fgrb" Offset="0" />
+		<_36 Name="Evaluation Order" Offset="0" />
+		<_A Name="evaluation order" Offset="0" StructName1="i343::Projectiles::eTargetAcqusitionEvaluationOrder">
+			<Flag n="nearest first" />
+			<Flag n="furthest first" />
+			<Flag n="least trajectory deviation first" />
+			<Flag n="greatest trajectory deviation first" />
+		</_A>
+		<_F Name="filter flags" Offset="1" StructName1="i343::Projectiles::TargetAcquisitionFilterFlags">
+			<Flag n="enemy" />
+			<Flag n="must have an unobstructed path to target" />
+			<Flag n="can target neutral" />
+			<Flag n="can target last impacted object" />
+			<Flag n="can target unaffiliated vehicles" />
+		</_F>
+		<_E Name="target types" Offset="2" StructName1="i343::Projectiles::TargetAcquisitionTargetTypeFlags">
+			<Flag n="ground units" />
+			<Flag n="flying units" />
+			<Flag n="ground mount" />
+			<Flag n="flying mount" />
+			<Flag n="turret mounts" />
+			<Flag n="crates" />
+			<Flag n="projectiles" />
+			<Flag n="devices" />
+			<Flag n="weapons" />
+		</_E>
+		<_36 Name="Domain Extents" Offset="4" />
+		<_14 Name="near distance" Offset="4" />
+		<_14 Name="orientation check distance" Offset="8" />
+		<_36 Name="Max Deviation" Offset="C" />
+		<_8 Name="max deviation at near distance" Offset="C" />
+		<_8 Name="max deviation at far distance" Offset="10" />
+		<_36 Name="Probability" Offset="14" />
+		<_15 Name="probability at near distance" Offset="14" />
+		<_15 Name="probability at far distance" Offset="18" />
+		<_15 Name="ai probability modifier" Offset="1C" />
+		<_36 Name="Spread" Offset="20" />
+		<_8 Name="spread at near distance" Offset="20" />
+		<_8 Name="spread at far distance" Offset="24" />
+		<_37 Name="" type="fgre" Offset="28" />
+	</_F15543D0C6376C093F800F9393C24E37>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_C7C54C3CC77709096D467EDA88C749EF Name="ImpactAudioDefinition" Size="10">
+		<_37 Name="IMPACT AUDIO" type="fgrb" Offset="0" />
+		<_14 Name="small impact minimum speed" Offset="0" />
+		<_14 Name="medium impact minimum speed" Offset="4" />
+		<_14 Name="large impact minimum speed" Offset="8" />
+		<_14 Name="large impact maximum speed" Offset="C" />
+		<_37 Name="" type="fgre" Offset="10" />
+	</_C7C54C3CC77709096D467EDA88C749EF>
+	<_0F5F42F1DD2E8F6429BD247D8D1ADF7F Name="SidecarPathDefinition" Size="100">
+		<_1 Name="sidecar path" Offset="0" />
+	</_0F5F42F1DD2E8F6429BD247D8D1ADF7F>
+	<_FF87433DC31A245D49183EE68FE5BB27 Name="i343::Damage::DamageSourceDefinition" Size="4">
+		<_2 Name="Damage Source Name" Offset="0" />
+	</_FF87433DC31A245D49183EE68FE5BB27>
+	<_AAAA48FF7AD1FFFFFFE70E3BCB3677D4 Name="s_object_early_mover_obb_definition" Size="2C">
+		<_2 Name="node name" Offset="0" />
+		<_6 Name="runtime node index" Offset="4" />
+		<_14 Name="x0" Offset="8" />
+		<_14 Name="x1" Offset="C" />
+		<_14 Name="y0" Offset="10" />
+		<_14 Name="y1" Offset="14" />
+		<_14 Name="z0" Offset="18" />
+		<_14 Name="z1" Offset="1C" />
+		<_1C Name="angles" Offset="20" />
+	</_AAAA48FF7AD1FFFFFFE70E3BCB3677D4>
+	<_712E447D26FB5335AFFD787193F77F52 Name="object_ai_properties" Size="30">
+		<_D Name="ai flags" Offset="0" StructName1="ObjectAIPropertiesFlags">
+			<Flag n="detroyable cover" />
+			<Flag n="pathfinding ignore when dead" />
+			<Flag n="dynamic cover" />
+			<Flag n="non flight-blocking" />
+			<Flag n="dynamic cover from centre" />
+			<Flag n="has corner markers" />
+			<Flag n="idle when flying" />
+			<Flag n="consider for interaction" />
+			<Flag n="leap on cover target" />
+		</_D>
+		<_2 Name="ai type name" Offset="4" />
+		<_2 Name="interaction name" Offset="8" />
+		<_B Name="ai size" Offset="C" StructName1="ObjectAISize">
+			<Flag n="default" />
+			<Flag n="tiny" />
+			<Flag n="small" />
+			<Flag n="medium" />
+			<Flag n="large" />
+			<Flag n="immobile" />
+		</_B>
+		<_B Name="leap jump speed" Offset="E" StructName1="CharacterJumpHeight">
+			<Flag n="NONE" />
+			<Flag n="very short" />
+			<Flag n="short" />
+			<Flag n="medium short" />
+			<Flag n="medium long" />
+			<Flag n="long" />
+			<Flag n="very long" />
+			<Flag n="infinite" />
+		</_B>
+		<_14 Name="unattached damage modifier" Offset="10" />
+		<_F Name="Bot markup flags" Offset="14" StructName1="BotObjectMarkupFlags">
+			<Flag n="Interact object" />
+			<Flag n="Objective pickup" />
+			<Flag n="Deliver location" />
+			<Flag n="Ammo replenisher" />
+			<Flag n="Health replenisher" />
+		</_F>
+		<_34 Name="generated_pad9518" Offset="15" Length="3" />
+		<_36 Name="Heat Override" Offset="18" />
+		<_40 Name="override heat generated per round" Offset="18" GUID="7BD242FE5A19E5B08B7ED393A3A82ABF" StructName1="object_ai_properties" Min="0" Max="2" />
+		<_14 Name="Actor LOD cost" Offset="2C" />
+	</_712E447D26FB5335AFFD787193F77F52>
+	<_41EE4DC2D2EFDBE682F5BAD9805F2410 Name="s_object_function_definition" Size="58">
+		<_D Name="flags" Offset="0" StructName1="ObjectFunctionFlags">
+			<Flag n="invert" />
+			<Flag n="mapping does not controls active" />
+			<Flag n="always active" />
+			<Flag n="random time offset" />
+			<Flag n="always exports value" />
+			<Flag n="turn off with uses magnitude" />
+			<Flag n="cannot be predicted" />
+		</_D>
+		<_2 Name="import name" type="sted" Offset="4" />
+		<_14 Name="no import default" Offset="8" />
+		<_2 Name="export name" Offset="C" />
+		<_2 Name="turn off with" type="sted" Offset="10" />
+		<_2 Name="ranged interpolation name" type="sted" Offset="14" />
+		<_14 Name="min value" Offset="18" />
+		<_14 Name="max value" Offset="1C" />
+		<_37 Name="default function" type="fned" Offset="20" />
+		<_38 Name="default function" Offset="20" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_2 Name="scale by" Offset="38" />
+		<_A Name="interpolation point of view" Offset="3C" StructName1="ObjectFunctionInterpolationPOV">
+			<Flag n="any" />
+			<Flag n="first person" />
+			<Flag n="third person" />
+		</_A>
+		<_34 Name="generated_pad73a4" Offset="3D" Length="3" />
+		<_40 Name="interpolation" Offset="40" GUID="AC0D4C1C5A96873E46288D2E8A0B6541" StructName1="s_object_function_definition" Min="0" Max="2" />
+		<_30 Name="runtime interpolator index" Offset="54" GUID="4BEE4DC2A2EFDBE632F5BAD9305F2410" StructName1="s_object_function_definition" Min="0" Max="256" />
+	</_41EE4DC2D2EFDBE682F5BAD9805F2410>
+	<_4BEE4DC2A2EFDBE632F5BAD9305F2410 Name="ObjectRuntimeInterpolatorFunctionsBlock" Size="4">
+		<_6 Name="runtime interpolator to object function mapping" Offset="0" />
+	</_4BEE4DC2A2EFDBE632F5BAD9305F2410>
+	<_AB6642CECD9999FC1EA31C54B74F1753 Name="ObjectFunctionSwitchDefinition" Size="1C">
+		<_2 Name="switch function name" type="sted" Offset="0" />
+		<_2 Name="export name" Offset="4" />
+		<_40 Name="switched functions" Offset="8" GUID="650F44BF42436123D73545F793C16EC7" StructName1="ObjectFunctionSwitchDefinition" Min="0" Max="8" />
+	</_AB6642CECD9999FC1EA31C54B74F1753>
+	<_9DED41975A471C4D7ADC2E1282842F00 Name="i343::Objects::ObjectFunctionForwarding" Size="4">
+		<_36 Name="Object Function Forwarding" Offset="0" />
+		<_2 Name="function to forward" Offset="0" />
+	</_9DED41975A471C4D7ADC2E1282842F00>
+	<_A25D4B720C87C323E3236AAE92BC0A80 Name="i343::Objects::AmmoRefillVariant" Size="8">
+		<_2 Name="variant name" type="sted" Offset="0" />
+		<_E Name="Ammo Refill Flags" Offset="4" StructName1="i343::Munitions::AmmoRefillTypeFlags">
+			<Flag n="None" />
+			<Flag n="Kinetic" />
+			<Flag n="Plasma" />
+			<Flag n="Hard light" />
+			<Flag n="Shock" />
+			<Flag n="Power weapon" />
+		</_E>
+		<_F Name="Ammo Refill Behavior Flags" Offset="6" StructName1="i343::Munitions::AmmoRefillBehaviorFlags">
+			<Flag n="No automatic refill" />
+		</_F>
+		<_34 Name="generated_pad055c" Offset="7" Length="1" />
+	</_A25D4B720C87C323E3236AAE92BC0A80>
+	<_4775429C11097257EE75453FA775D933 Name="object_attachment_definition" Size="D0">
+		<_2 Name="name" Offset="0" />
+		<_41 Name="type" Offset="4" Allowed="tagg, ligh, gldf, ltvl, effe, lsnd, lens, cpem, egfd, decs" Flags="1" />
+		<_41 Name="tag graph output" Offset="20" Allowed="ligh, gldf, ltvl, effe, lsnd, lens, cpem, egfd, decs" Flags="0" />
+		<_2 Name="output node name" type="sted" Offset="3C" />
+		<_40 Name="tag graph float params" Offset="40" GUID="217941128AACE34BC7334D2EA8F6C67D" StructName1="object_attachment_definition" Min="0" Max="10" />
+		<_40 Name="tag graph bool params" Offset="54" GUID="80204605BFA6F4BF93CDD10F96C1C2B9" StructName1="object_attachment_definition" Min="0" Max="10" />
+		<_40 Name="taggraph instance variables - strings" Offset="68" GUID="AF7648E707ABAC2BFB95694D48E79C90" StructName1="object_attachment_definition" Min="0" Max="10" />
+		<_40 Name="taggraph instance variables - tag references" Offset="7C" GUID="75F34BCE26A27E545DB61B22BEC316D9" StructName1="object_attachment_definition" Min="0" Max="10" />
+		<_41 Name="override type" Offset="90" Allowed="ligh, gldf, ltvl, effe, lsnd, lens, cpem, egfd, decs" Flags="0" />
+		<_36 Name="variant names" Offset="AC" />
+		<_40 Name="variant names" Offset="AC" GUID="727F437E3853EE60753D9D508599809E" StructName1="object_attachment_definition" Min="0" Max="64" />
+		<_37 Name="" type="amkr" Offset="C0" />
+		<_2 Name="marker" Offset="C0" />
+		<_A Name="change color" Offset="C4" StructName1="e_change_color_reference">
+			<Flag n="none" />
+			<Flag n="primary" />
+			<Flag n="secondary" />
+			<Flag n="tertiary" />
+			<Flag n="quaternary" />
+		</_A>
+		<_F Name="flags" Offset="C5" StructName1="i343::Objects::AttachmentDefinitionFlags">
+			<Flag n="always create" />
+			<Flag n="effect size scale from object scale" />
+			<Flag n="update on create" />
+			<Flag n="always update" />
+		</_F>
+		<_34 Name="generated_padbd3f" Offset="C6" Length="2" />
+		<_2 Name="primary scale" type="sted" Offset="C8" />
+		<_2 Name="secondary scale" type="sted" Offset="CC" />
+	</_4775429C11097257EE75453FA775D933>
+	<_4776429C12097557EE75A83FA775A933 Name="object_indirect_lighting_settings_definition" Size="48">
+		<_2 Name="Name" Offset="0" />
+		<_40 Name="Variant names" Offset="4" GUID="727F437E3853EE60753D9D508599809E" StructName1="object_indirect_lighting_settings_definition" Min="0" Max="64" />
+		<_41 Name="Object Lightmap" Offset="18" Allowed="stlm" Flags="0" />
+		<_40 Name="Object Cubemap set" Offset="34" GUID="D1CE481ABA187D43BE71513CBC6C9C8B" StructName1="object_indirect_lighting_settings_definition" Min="0" Max="1048576" />
+	</_4776429C12097557EE75A83FA775A933>
+	<_124B45F8201415C3A4AD5B50B7118F83 Name="s_water_physics_hull_surface_definition" Size="20">
+		<_E Name="flags" Offset="0" StructName1="s_water_physics_hull_surface_definition::c_flags">
+			<Flag n="works on land" />
+			<Flag n="effects only" />
+		</_E>
+		<_34 Name="generated_pad978b" Offset="2" Length="2" />
+		<_37 Name="" type="amkr" Offset="4" />
+		<_2 Name="marker name" Offset="4" />
+		<_14 Name="radius" Offset="8" />
+		<_40 Name="drag" Offset="C" GUID="236044FA520E02BAA40AF1D2A55378A7" StructName1="s_water_physics_hull_surface_definition" Min="0" Max="512" />
+	</_124B45F8201415C3A4AD5B50B7118F83>
+	<_0A224BC5C47AA87279969CAB9B77C993 Name="s_jetwash_definition" Size="24">
+		<_37 Name="" type="amkr" Offset="0" />
+		<_2 Name="marker name" Offset="0" />
+		<_14 Name="radius" Offset="4" />
+		<_6 Name="maximum traces" Offset="8" />
+		<_14 Name="maximum emission length" Offset="C" />
+		<_24 Name="trace yaw angle" Offset="10" />
+		<_24 Name="trace pitch angle" Offset="18" />
+		<_14 Name="particle offset" Offset="20" />
+	</_0A224BC5C47AA87279969CAB9B77C993>
+	<_A5AA466162919B1E3AC0DDAAB8317D8A Name="object_definition_widget" Size="1C">
+		<_41 Name="type" Offset="0" Allowed="ant!, clwd" Flags="0" />
+	</_A5AA466162919B1E3AC0DDAAB8317D8A>
+	<_8F3241C90AB056AD9B24F6FE9EDBB26A Name="object_change_color_definition" Size="28">
+		<_40 Name="initial permutations" Offset="0" GUID="A7A64D2EFC403E79C2A06C7BAD0C6C21" StructName1="object_change_color_definition" Min="0" Max="32" />
+		<_40 Name="functions" Offset="14" GUID="BA0D4F589F69CB7CD0A89C2896CEA30C" StructName1="object_change_color_definition" Min="0" Max="4" />
+	</_8F3241C90AB056AD9B24F6FE9EDBB26A>
+	<_E97643DE027B026373AEE467B173536B Name="s_multiplayer_object_properties_definition" Size="128">
+		<_36 Name="TYPE AND FLAGS" Offset="0" />
+		<_A Name="type" Offset="0" StructName1="c_multiplayer_object_type">
+			<Flag n="ordinary" />
+			<Flag n="weapon" />
+			<Flag n="grenade" />
+			<Flag n="projectile" />
+			<Flag n="powerup" />
+			<Flag n="equipment" />
+			<Flag n="ammo pack" />
+			<Flag n="light land vehicle" />
+			<Flag n="heavy land vehicle" />
+			<Flag n="flying vehicle" />
+			<Flag n="turret" />
+			<Flag n="device" />
+			<Flag n="dispenser" />
+			<Flag n="teleporter 2way" />
+			<Flag n="teleporter sender" />
+			<Flag n="teleporter receiver" />
+			<Flag n="player spawn location" />
+			<Flag n="player respawn zone" />
+			<Flag n="named location area" />
+			<Flag n="danger zone" />
+			<Flag n="safe volume" />
+			<Flag n="kill volume" />
+			<Flag n="cinematic camera" />
+			<Flag n="trait zone" />
+			<Flag n="powerup pad - deprecated" />
+			<Flag n="weapon pad" />
+			<Flag n="light" />
+			<Flag n="jumbotron" />
+			<Flag n="man cannon" />
+			<Flag n="cinematic marker" />
+			<Flag n="script brain" />
+			<Flag n="static io" />
+			<Flag n="fx" />
+			<Flag n="bot navigation marker" />
+			<Flag n="jump hint volume" />
+			<Flag n="cubemap volume" />
+			<Flag n="navgenerator volume" />
+			<Flag n="navcutter volume" />
+			<Flag n="light probe volume" />
+			<Flag n="AI spawn point" />
+			<Flag n="AI zone" />
+		</_A>
+		<_F Name="teleporter passability" Offset="1" StructName1="c_teleporter_passability">
+			<Flag n="disallow players" />
+			<Flag n="allow light land vehicles" />
+			<Flag n="allow heavy land vehicles" />
+			<Flag n="allow flying vehicles" />
+			<Flag n="allow projectiles" />
+		</_F>
+		<_A Name="spawn timer type" Offset="2" StructName1="i343::NetProtocol::BondEnumHelper&lt;i343::NetProtocol::MapVariant::SpawnTimerType&gt;::Enum">
+			<Flag n="starts on death" />
+			<Flag n="starts on disturbance" />
+		</_A>
+		<_34 Name="generated_padd1ba" Offset="3" Length="1" />
+		<_5 Name="number of fx color overrides" Offset="4" />
+		<_34 Name="generated_pad1e6f" Offset="6" Length="2" />
+		<_14 Name="starting fx scale (for Forge Placements)" Offset="8" />
+		<_36 Name="GOAL AND RESPAWN ZONE OBJECT BOUNDARY" Offset="C" />
+		<_14 Name="boundary width/radius" Offset="C" />
+		<_14 Name="boundary box length" Offset="10" />
+		<_14 Name="boundary +height" Offset="14" />
+		<_14 Name="boundary -height" Offset="18" />
+		<_A Name="boundary shape" Offset="1C" StructName1="i343::NetProtocol::BondEnumHelper&lt;i343::NetProtocol::BoundaryType&gt;::Enum">
+			<Flag n="unused" />
+			<Flag n="sphere" />
+			<Flag n="cylinder" />
+			<Flag n="box" />
+		</_A>
+		<_34 Name="pad_shape1" Offset="1D" Length="1" />
+		<_34 Name="pad_shape2" Offset="1E" Length="2" />
+		<_36 Name="SPAWNING DATA" Offset="20" />
+		<_5 Name="default spawn time" Offset="20" />
+		<_5 Name="default abandonment time" Offset="22" />
+		<_D Name="flags" Offset="24" StructName1="c_multiplayer_object_data_flags">
+			<Flag n="Only render if editable" />
+			<Flag n="DEPRECATED phased physics in forge" />
+			<Flag n="valid initial player spawn" />
+			<Flag n="fixed boundary orientation" />
+			<Flag n="candy monitor should ignore" />
+			<Flag n="inherit owning team color" />
+			<Flag n="boundary volume doesn't kill immediately" />
+			<Flag n="Only collision if editable" />
+			<Flag n="Only physics if editable" />
+			<Flag n="Force render in Forge" />
+			<Flag n="respawn player spawn" />
+			<Flag n="fallback player spawn" />
+			<Flag n="jump hint volume is one-way" />
+		</_D>
+		<_36 Name="RESPAWN ZONE DATA" Offset="28" />
+		<_14 Name="normal weight" Offset="28" />
+		<_40 Name="falloff function" Offset="2C" GUID="3D0340DE506E405F8F7516C3989E403D" StructName1="s_multiplayer_object_properties_definition" Min="0" Max="1" />
+		<_36 Name="MARKER DATA" Offset="40" />
+		<_37 Name="" type="amkr" Offset="40" />
+		<_2 Name="boundary center marker" Offset="40" />
+		<_37 Name="" type="amkr" Offset="44" />
+		<_2 Name="spawned object marker name" Offset="44" />
+		<_36 Name="SPAWNED OBJECT" Offset="48" />
+		<_41 Name="spawned object" Offset="48" Allowed="obje" Flags="0" />
+		<_2 Name="NYI boundary material" Offset="64" />
+		<_36 Name="BOUNDARY SHADER - DEFAULT" Offset="68" />
+		<_41 Name="boundary standard shader" Offset="68" Allowed="mat " Flags="0" />
+		<_36 Name="BOUNDARY SHADER - SPHERE" Offset="84" />
+		<_41 Name="sphere standard shader" Offset="84" Allowed="mat " Flags="0" />
+		<_36 Name="BOUNDARY SHADER - CYLINDER" Offset="A0" />
+		<_41 Name="cylinder standard shader" Offset="A0" Allowed="mat " Flags="0" />
+		<_36 Name="BOUNDARY SHADER - BOX" Offset="BC" />
+		<_41 Name="box standard shader" Offset="BC" Allowed="mat " Flags="0" />
+		<_36 Name="FORGE DATA" Offset="D8" />
+		<_E Name="Forge Property Flags" Offset="D8" StructName1="ForgeEngine::ForgeObjectPropertyFlags">
+			<Flag n="Disable yaw" />
+			<Flag n="Can Only Be Rotated On Yaw" />
+			<Flag n="Allow In Game Variant Toggle" />
+			<Flag n="Disable primary color change" />
+			<Flag n="Disable secondary color change" />
+			<Flag n="Disable tertiary color change" />
+			<Flag n="Disable normal physics" />
+			<Flag n="Disable fixed physics" />
+			<Flag n="Disable phased physics" />
+			<Flag n="Hide top and bottom of boundary" />
+			<Flag n="Boundary height scales evenly" />
+		</_E>
+		<_A Name="Default Physics Type" Offset="DA" StructName1="i343::NetProtocol::BondEnumHelper&lt;i343::NetProtocol::MapVariant::PhysicsMode&gt;::Enum">
+			<Flag n="Normal" />
+			<Flag n="Fixed" />
+			<Flag n="Phased" />
+		</_A>
+		<_34 Name="generated_pad6b24" Offset="DB" Length="1" />
+		<_2 Name="Default Primary Color" Offset="DC" />
+		<_2 Name="Default Secondary Color" Offset="E0" />
+		<_2 Name="Default Tertiary Color" Offset="E4" />
+		<_3C Name="Default Primary Glossiness" Offset="E8" />
+		<_3C Name="Default Secondary Glossiness" Offset="E9" />
+		<_3C Name="Default Tertiary Glossiness" Offset="EA" />
+		<_34 Name="generated_padb7d9" Offset="EB" Length="1" />
+		<_2 Name="Default Label 1" Offset="EC" />
+		<_2 Name="Default Label 2" Offset="F0" />
+		<_2 Name="Default Label 3" Offset="F4" />
+		<_2 Name="Default Label 4" Offset="F8" />
+		<_34 Name="generated_pad048e" Offset="FC" Length="4" />
+		<_7 Name="m_defaultBoundaryPipelineState" Offset="100" />
+		<_7 Name="m_sphereBoundaryPipelineStates" Offset="108" />
+		<_7 Name="m_cylinderBoundaryPipelineStates" Offset="110" />
+		<_7 Name="m_boxBoundaryPipelineStates" Offset="118" />
+		<_14 Name="Callout Radius" Offset="120" />
+		<_A Name="Hint Volume Type" Offset="124" StructName1="i343::NetProtocol::BondEnumHelper&lt;i343::NetProtocol::MapVariant::HintVolumeType&gt;::Enum">
+			<Flag n="None" />
+			<Flag n="Jump" />
+			<Flag n="Force Walk" />
+			<Flag n="Force Movement" />
+			<Flag n="Vehicle" />
+			<Flag n="Crouch" />
+		</_A>
+		<_34 Name="generated_pad5143" Offset="125" Length="3" />
+	</_E97643DE027B026373AEE467B173536B>
+	<_73B5417889E8F6A5AFB087CBB90826AF Name="i343::Objects::ForgeObjectEntryDefinition" Size="54">
+		<_41 Name="Palette" Offset="0" Allowed="fpal" Flags="0" />
+		<_2 Name="Name" Offset="1C" />
+		<_2 Name="Description" Offset="20" />
+		<_14 Name="Placement Priority" Offset="24" />
+		<_2 Name="Variant Name" Offset="28" />
+		<_41 Name="Configuration" Offset="2C" Allowed="vcdd, wcfg" Flags="0" />
+		<_19 Name="Starting yaw/pitch/roll" Offset="48" />
+	</_73B5417889E8F6A5AFB087CBB90826AF>
+	<_4BD44D30CAA36528A3A75C3292DBFEEC Name="s_object_spawn_effects" Size="38">
+		<_36 Name="Spawn Effects" Offset="0" />
+		<_41 Name="multiplayer spawn effect" Offset="0" Allowed="effe" Flags="0" />
+		<_41 Name="campaign spawn effect" Offset="1C" Allowed="effe" Flags="0" />
+	</_4BD44D30CAA36528A3A75C3292DBFEEC>
+	<_93E94F6B95694A9F96A8A3498959AD40 Name="ModelDissolveDataBlock" Size="1C">
+		<_41 Name="model dissolve data" Offset="0" Allowed="mdsv" Flags="0" />
+	</_93E94F6B95694A9F96A8A3498959AD40>
+	<_AAAE49B0D5081A5A984C1A8BA3DD5C21 Name="HsReferencesBlock" Size="1C">
+		<_41 Name="reference" Offset="0" Allowed="aTag" Flags="0" />
+	</_AAAE49B0D5081A5A984C1A8BA3DD5C21>
+	<_6EE940457F949B787FEFA28A95026EDA Name="ObjectAbandonmentDefinition" Size="C">
+		<_14 Name="Vitality Limit To Start Countdown" Offset="0" />
+		<_14 Name="Countdown Time In Seconds" Offset="4" />
+		<_F Name="flags" Offset="8" StructName1="ObjectAbandonmentDefinition::c_flags">
+			<Flag n="Enable In Multiplayer" />
+			<Flag n="Enable In Single Player" />
+		</_F>
+		<_34 Name="generated_pade8bf" Offset="9" Length="3" />
+	</_6EE940457F949B787FEFA28A95026EDA>
+	<_66974B5B7A236D95F43A8A409414695B Name="s_object_meta_label" Size="4">
+		<_2 Name="meta label" Offset="0" />
+	</_66974B5B7A236D95F43A8A409414695B>
+	<_114741776EDCFD781DD674B5B8274D64 Name="SoundRTPCBlockDefinition" Size="10">
+		<_30 Name="Attachment Index" Offset="0" GUID="4775429C11097257EE75453FA775D933" StructName1="SoundRTPCBlockDefinition" Min="0" Max="48" />
+		<_2 Name="Function" type="sted" Offset="4" />
+		<_2 Name="RTPC Name" Offset="8" />
+		<_6 Name="RTPC name hash value" Offset="C" />
+	</_114741776EDCFD781DD674B5B8274D64>
+	<_7A814B2A443F16AAF7A23C5C81FB74DE Name="SoundSweetenerBlockDefinition" Size="28">
+		<_2 Name="Function" type="sted" Offset="0" />
+		<_41 Name="sound" Offset="4" Allowed="snd!" Flags="0" />
+		<_14 Name="Switch point" Offset="20" />
+		<_6 Name="Mode" Offset="24" />
+	</_7A814B2A443F16AAF7A23C5C81FB74DE>
+	<_B1C94EFF1D4D4AB4B92FF934B56766B5 Name="i343::Objects::ComputeFunctionSmoothingBlockDefinition" Size="C">
+		<_2 Name="id" Offset="0" />
+		<_2 Name="alias of" Offset="4" />
+		<_15 Name="smoothing factor" Offset="8" />
+	</_B1C94EFF1D4D4AB4B92FF934B56766B5>
+	<_B52A42D5C3031D37424678BCBE0FD563 Name="i343::SpartanTracking::ObjectDefinition" Size="6C">
+		<_36 Name="Map these settings to a ping type" Offset="0" />
+		<_F Name="flags" Offset="0" StructName1="i343::SpartanTracking::ObjectDefinition::Flags">
+			<Flag n="trackable" />
+			<Flag n="enabled by default" />
+			<Flag n="outline" />
+			<Flag n="immediate response" />
+			<Flag n="follow offscreen" />
+			<Flag n="do not track children" />
+			<Flag n="do not outline children" />
+		</_F>
+		<_A Name="ping type" Offset="1" StructName1="i343::SpartanTracking::ePingType">
+			<Flag n="active" />
+			<Flag n="passive" />
+			<Flag n="custom active" />
+			<Flag n="target marking" />
+		</_A>
+		<_A Name="team visibility" Offset="2" StructName1="i343::SpartanTracking::TeamVisibility">
+			<Flag n="visible to everyone" />
+			<Flag n="hidden from enemies" />
+			<Flag n="hidden from friends" />
+		</_A>
+		<_37 Name="Misc" type="fgrb" Offset="3" />
+		<_A Name="priority" Offset="3" StructName1="i343::SpartanTracking::ePriority">
+			<Flag n="critical" />
+			<Flag n="high" />
+			<Flag n="normal" />
+			<Flag n="low" />
+		</_A>
+		<_37 Name="" type="fgre" Offset="4" />
+		<_2 Name="ping group" Offset="4" />
+		<_37 Name="Nav Point" type="fgrb" Offset="8" />
+		<_2 Name="nav point screen" Offset="8" />
+		<_2 Name="nav point label" Offset="C" />
+		<_14 Name="nav point vertical offset" Offset="10" />
+		<_37 Name="" type="fgre" Offset="14" />
+		<_36 Name="Range Override" Offset="14" />
+		<_14 Name="range" Offset="14" />
+		<_37 Name="Effects" type="fgrb" Offset="18" />
+		<_41 Name="ping hit instigator effect" Offset="18" Allowed="effe" Flags="0" />
+		<_41 Name="ping hit effect" Offset="34" Allowed="effe" Flags="0" />
+		<_41 Name="outline override" Offset="50" Allowed="ostd" Flags="0" />
+		<_37 Name="" type="fgre" Offset="6C" />
+	</_B52A42D5C3031D37424678BCBE0FD563>
+	<_EFFE48CE2E60A80A0CE20619AC10E461 Name="InteractionOpportunityDefinition" Size="18">
+		<_2 Name="Marker" Offset="0" />
+		<_40 Name="Ambient Info" Offset="4" GUID="EFFE48AE2E60A80B0CA20619AC10EA61" StructName1="InteractionOpportunityDefinition" Min="0" Max="512" />
+	</_EFFE48CE2E60A80A0CE20619AC10E461>
+	<_45604F6F524A3900029978AAB022F397 Name="ScriptedSequenceActionDefinition" Size="34">
+		<_0 Name="Prototype trigger lua function name" Offset="0" />
+		<_40 Name="Component Actions" Offset="20" GUID="9DD5407D832FAA5EBFC8B624AB81CED7" StructName1="ScriptedSequenceActionDefinition" Min="0" Max="8" />
+	</_45604F6F524A3900029978AAB022F397>
+	<_E35A4AF4D25B6CBD30743D9EB98C5D63 Name="AnimSetTableDefinition" Size="28">
+		<_40 Name="channels" Offset="0" GUID="5D194D5AFB54B16AB052747FB5F249F7" StructName1="AnimSetTableDefinition" Min="0" Max="8" />
+		<_40 Name="table entries" Offset="14" GUID="CEF34383ABFD9EE2AAD9278181E4EF0A" StructName1="AnimSetTableDefinition" Min="0" Max="256" />
+	</_E35A4AF4D25B6CBD30743D9EB98C5D63>
+	<_11AE4DE2ED0A143A7C82B28C9D4395DA Name="RootBoneCorrectionSettings" Size="C">
+		<_F Name="flags" Offset="0" StructName1="RootBoneCorrectionFlags">
+			<Flag n="AnimEventFunctionOverrideCorrectionType" />
+		</_F>
+		<_A Name="Root Bone Correction Type" Offset="1" StructName1="RootBoneCorrectionType">
+			<Flag n="Off" />
+			<Flag n="FractionOfAnimationDuration" />
+			<Flag n="StaticDuration" />
+		</_A>
+		<_34 Name="generated_pad0a63" Offset="2" Length="2" />
+		<_14 Name="Root Bone Correction Duration" Offset="4" />
+		<_A Name="Root Bone Correction Bone Index" Offset="8" StructName1="RootBoneSelectionType">
+			<Flag n="RootBone" />
+			<Flag n="Pelvis" />
+		</_A>
+		<_34 Name="generated_padbdae" Offset="9" Length="3" />
+	</_11AE4DE2ED0A143A7C82B28C9D4395DA>
+	<_7308477FF918F0FA91660B26AD188BAB Name="LegGroundingSettings" Size="14">
+		<_2 Name="Marker" Offset="0" />
+		<_14 Name="Planted Threshold" Offset="4" />
+		<_14 Name="Lifted Threshold" Offset="8" />
+		<_14 Name="Lifted Minimum Time" Offset="C" />
+		<_B Name="Event" Offset="10" StructName1="AnimationFrameEventType">
+			<Flag n="none" />
+			<Flag n="primary_keyframe" />
+			<Flag n="secondary_keyframe" />
+			<Flag n="tertiary_keyframe" />
+			<Flag n="left_foot" />
+			<Flag n="right_foot" />
+			<Flag n="allow_interruption" />
+			<Flag n="do_not_allow_interruption" />
+			<Flag n="both_feet_shuffle" />
+			<Flag n="body_impact" />
+			<Flag n="left_foot_lock" />
+			<Flag n="left_foot_unlock" />
+			<Flag n="right_foot_lock" />
+			<Flag n="right_foot_unlock" />
+			<Flag n="blend_range_marker" />
+			<Flag n="stride_expansion" />
+			<Flag n="stride_contraction" />
+			<Flag n="ragdoll_keyframe" />
+			<Flag n="drop_weapon_keyframe" />
+			<Flag n="match_a" />
+			<Flag n="match_b" />
+			<Flag n="match_c" />
+			<Flag n="match_d" />
+			<Flag n="jetpack_closed" />
+			<Flag n="jetpack_open" />
+			<Flag n="sound_event" />
+			<Flag n="effect_event" />
+			<Flag n="left_hand" />
+			<Flag n="right_hand" />
+			<Flag n="grenade" />
+			<Flag n="melee" />
+			<Flag n="interact_device" />
+			<Flag n="shield_raise" />
+			<Flag n="activate_equipment" />
+			<Flag n="aoe_attack" />
+			<Flag n="equipment" />
+			<Flag n="jink_fire" />
+			<Flag n="align_to_target" />
+			<Flag n="block_exiting" />
+			<Flag n="set_interruptable" />
+			<Flag n="disable_shooting" />
+			<Flag n="re_enable_shooting" />
+			<Flag n="skip_crouch_transition" />
+			<Flag n="start_bamf" />
+			<Flag n="end_bamf" />
+			<Flag n="hide" />
+			<Flag n="frame_attachment_objects_show" />
+			<Flag n="frame_attachment_objects_hide" />
+			<Flag n="creature_physics_mode_change" />
+			<Flag n="melee_range" />
+			<Flag n="frame_attachment_switch_to_secondary_parent_marker" />
+			<Flag n="frame_attachment_switch_to_default_parent_marker" />
+			<Flag n="allow_sprint_interrupt" />
+			<Flag n="hide_3p_primary_weapon" />
+			<Flag n="show_3p_primary_weapon" />
+		</_B>
+		<_34 Name="generated_paddc16" Offset="12" Length="2" />
+	</_7308477FF918F0FA91660B26AD188BAB>
+	<_F773409B74B26D9D525AC5EA87FC4CEA Name="i343::Objects::ObjectNodeGraphDefinition" Size="24">
+		<_2 Name="Name" Offset="0" />
+		<_41 Name="Exported Node Graph" Offset="4" Allowed="xong" Flags="0" />
+		<_F Name="Flags" Offset="20" StructName1="ObjectNodeGraphFlags">
+			<Flag n="Runs on Server" />
+			<Flag n="Runs on Client" />
+			<Flag n="Start updating on the first frame" />
+		</_F>
+		<_A Name="Enable Node Graph" Offset="21" StructName1="BooleanOverride">
+			<Flag n="Default" />
+			<Flag n="Yes" />
+			<Flag n="No" />
+		</_A>
+		<_34 Name="generated_pad8671" Offset="22" Length="2" />
+	</_F773409B74B26D9D525AC5EA87FC4CEA>
+	<_2C34417E630FDAE1B2E8522CAE14EF5E Name="i343::Objects::AnimationMatchingTableEntry" Size="10">
+		<_36 Name="ANIMATION REMAPPING" Offset="0" />
+		<_2 Name="animation on parent" Offset="0" />
+		<_2 Name="animation to play on object" Offset="4" />
+		<_2 Name="animation set to use with the child object's animation" Offset="8" />
+		<_A Name="matching type" Offset="C" StructName1="i343::Objects::AnimationMatchingType">
+			<Flag n="match percentage" />
+			<Flag n="match frame" />
+		</_A>
+		<_34 Name="generated_pad97f6" Offset="D" Length="3" />
+	</_2C34417E630FDAE1B2E8522CAE14EF5E>
+	<_FEA74B6E34E9F8323CBD7F7196702C69 Name="i343::Objects::ModelVariantSwappingTableEntry" Size="10">
+		<_25 Name="function result range" Offset="0" />
+		<_2 Name="required parent marker" Offset="8" />
+		<_2 Name="model variant name" type="sted" Offset="C" />
+	</_FEA74B6E34E9F8323CBD7F7196702C69>
+	<_D3D9420D2F4640FED9351CE2AAC5B030 Name="i343::Items::LocationSensorDefinition" Size="AC">
+		<_37 Name="Sensor Parameters" type="fgrb" Offset="0" />
+		<_D Name="sensor flags" Offset="0" StructName1="i343::Items::LocationSensorFlags">
+			<Flag n="use proximity activation" />
+			<Flag n="use reveal duration inside detection radius" />
+			<Flag n="use order based reveal delays" />
+			<Flag n="don't reveal targets to the motion tracker" />
+			<Flag n="only play radius effect for owner" />
+			<Flag n="show player name instead of health" />
+			<Flag n="only play effect on first ping" />
+			<Flag n="activate on first bounce" />
+			<Flag n="check line of sight" />
+		</_D>
+		<_14 Name="ping frequency" Offset="4" />
+		<_14 Name="ping radius" Offset="8" />
+		<_14 Name="reveal duration" Offset="C" />
+		<_14 Name="scanning duration" Offset="10" />
+		<_14 Name="minimum delay between marks" Offset="14" />
+		<_14 Name="delay per distance" Offset="18" />
+		<_14 Name="activation delay" Offset="1C" />
+		<_14 Name="line of sight offset length" Offset="20" />
+		<_37 Name="" type="fgre" Offset="24" />
+		<_37 Name="Sensor Visuals" type="fgrb" Offset="24" />
+		<_41 Name="sensor radius effect" Offset="24" Allowed="effe" Flags="0" />
+		<_2 Name="sensor radius effect marker" Offset="40" />
+		<_41 Name="sensor ping effect" Offset="44" Allowed="effe" Flags="0" />
+		<_37 Name="" type="fgre" Offset="60" />
+		<_37 Name="Target Visuals" type="fgrb" Offset="60" />
+		<_41 Name="target outline" Offset="60" Allowed="ostd" Flags="0" />
+		<_41 Name="target visor ping effect" Offset="7C" Allowed="effe" Flags="0" />
+		<_2 Name="target visor ping effect marker" Offset="98" />
+		<_37 Name="" type="fgre" Offset="9C" />
+		<_37 Name="Navpoints" type="fgrb" Offset="9C" />
+		<_2 Name="sensor navpoint name" Offset="9C" />
+		<_2 Name="sensor navpoint marker" Offset="A0" />
+		<_2 Name="target navpoint name" Offset="A4" />
+		<_2 Name="target navpoint marker" Offset="A8" />
+		<_37 Name="" type="fgre" Offset="AC" />
+	</_D3D9420D2F4640FED9351CE2AAC5B030>
+	<_715341E94055CDAC38D93DD890D14658 Name="i343::Items::ShroudGeneratorDefinition" Size="9C">
+		<_14 Name="radius" Offset="0" />
+		<_2 Name="active object function name" Offset="4" />
+		<_15 Name="active threshold fraction" Offset="8" />
+		<_41 Name="shroud created effect" Offset="C" Allowed="effe" Flags="0" />
+		<_41 Name="shroud destroyed effect" Offset="28" Allowed="effe" Flags="0" />
+		<_2 Name="biped effect marker" Offset="44" />
+		<_41 Name="biped enter effect" Offset="48" Allowed="effe" Flags="0" />
+		<_41 Name="biped inside effect" Offset="64" Allowed="effe" Flags="0" />
+		<_41 Name="biped leave effect" Offset="80" Allowed="effe" Flags="0" />
+	</_715341E94055CDAC38D93DD890D14658>
+	<_D7104E3BB95AFC0811C2230B8F558E47 Name="i343::Items::RepairFieldDefinition" Size="7C">
+		<_37 Name="Field Parameters" type="fgrb" Offset="0" />
+		<_D Name="field flags" Offset="0" StructName1="i343::Items::RepairFieldFlags">
+			<Flag n="revives participant bipeds" />
+			<Flag n="exclude enemies" />
+		</_D>
+		<_2 Name="dome field effect marker" Offset="4" />
+		<_41 Name="dome field effect" Offset="8" Allowed="effe" Flags="0" />
+		<_14 Name="arming time" Offset="24" />
+		<_37 Name="" type="fgre" Offset="28" />
+		<_37 Name="Regen Parameters" type="fgrb" Offset="28" />
+		<_14 Name="regen radius" Offset="28" />
+		<_14 Name="regen rate" Offset="2C" />
+		<_14 Name="biped regen amount" Offset="30" />
+		<_14 Name="vehicle regen amount" Offset="34" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_37 Name="Biped Revive Parameters" type="fgrb" Offset="38" />
+		<_14 Name="revive monitor rate" Offset="38" />
+		<_14 Name="revive delay" Offset="3C" />
+		<_37 Name="" type="fgre" Offset="40" />
+		<_37 Name="Biped Healing VFX" type="fgrb" Offset="40" />
+		<_2 Name="biped healing effect marker" Offset="40" />
+		<_41 Name="biped healing effect" Offset="44" Allowed="effe" Flags="0" />
+		<_41 Name="biped revive effect" Offset="60" Allowed="effe" Flags="0" />
+		<_37 Name="" type="fgre" Offset="7C" />
+	</_D7104E3BB95AFC0811C2230B8F558E47>
+	<_CDC842658D2CDD5A0386628B97C99B10 Name="i343::Objects::PowerComponentDefinition" Size="7C">
+		<_36 Name="Power Component System" Offset="0" />
+		<_40 Name="power source configurations" Offset="0" GUID="5BE94CF7C42F77B266F96900B6720E0D" StructName1="i343::Objects::PowerComponentDefinition" Min="0" Max="40" />
+		<_40 Name="power sources" Offset="14" GUID="51FF42F7BB73BE8A1C4538369FF7C18F" StructName1="i343::Objects::PowerComponentDefinition" Min="0" Max="8" />
+		<_37 Name="communication node capacity" type="fgrb" Offset="28" />
+		<_40 Name="communication node power sources" Offset="28" GUID="818146FFE14147A5797DC4A5A3CD1163" StructName1="i343::Objects::PowerComponentDefinition" Min="0" Max="8" />
+		<_2 Name="communication node power modifier id" Offset="3C" />
+		<_37 Name="" type="fgre" Offset="40" />
+		<_37 Name="locomotion capacity" type="fgrb" Offset="40" />
+		<_40 Name="locomotion power sources" Offset="40" GUID="818146FFE14147A5797DC4A5A3CD1163" StructName1="i343::Objects::PowerComponentDefinition" Min="0" Max="8" />
+		<_2 Name="locomotion power modifier id" Offset="54" />
+		<_37 Name="locomotion power modifier" type="mpfi" Offset="58" />
+		<_38 Name="locomotion power modifier" Offset="58" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_37 Name="" type="fgre" Offset="64" />
+		<_37 Name="weapon capacity" type="fgrb" Offset="64" />
+		<_40 Name="weapon power sources" Offset="64" GUID="818146FFE14147A5797DC4A5A3CD1163" StructName1="i343::Objects::PowerComponentDefinition" Min="0" Max="8" />
+		<_2 Name="weapon power modifier id" Offset="78" />
+		<_37 Name="" type="fgre" Offset="7C" />
+	</_CDC842658D2CDD5A0386628B97C99B10>
+	<_595C4BCB6B458A19C8B900699C4E8800 Name="i343::Objects::SelfDestructHandlerDefinition" Size="14">
+		<_40 Name="Self destruct sounds" Offset="0" GUID="28FD49541DA02BD2F281440CB845AEFF" StructName1="i343::Objects::SelfDestructHandlerDefinition" Min="0" Max="4" />
+	</_595C4BCB6B458A19C8B900699C4E8800>
+	<_DC0B498741F543711B10766BA9E589C4 Name="i343::Objects::IndirectLightingComponentDefinition" Size="4">
+		<_2 Name="Lightmap attachment bone" Offset="0" />
+	</_DC0B498741F543711B10766BA9E589C4>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_7BD242FE5A19E5B08B7ED393A3A82ABF Name="i343::Weapon::AIHeatGeneratedPerRoundOverrideParam" Size="10">
+		<_14 Name="heat generated per round override (easy)" Offset="0" />
+		<_14 Name="heat generated per round override (normal)" Offset="4" />
+		<_14 Name="heat generated per round override (heroic)" Offset="8" />
+		<_14 Name="heat generated per round override (legendary)" Offset="C" />
+	</_7BD242FE5A19E5B08B7ED393A3A82ABF>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+	<_AC0D4C1C5A96873E46288D2E8A0B6541 Name="s_object_function_interpolation_definition" Size="18">
+		<_C Name="interpolation mode" Offset="0" StructName1="e_object_function_interpolation_mode">
+			<Flag n="constant velocity" />
+			<Flag n="linear acceleration" />
+			<Flag n="damped spring" />
+			<Flag n="fractional" />
+		</_C>
+		<_14 Name="linear travel time" Offset="4" />
+		<_14 Name="acceleration" Offset="8" />
+		<_36 Name="springs" Offset="C" />
+		<_14 Name="spring k" Offset="C" />
+		<_14 Name="spring c" Offset="10" />
+		<_14 Name="fraction" Offset="14" />
+	</_AC0D4C1C5A96873E46288D2E8A0B6541>
+	<_650F44BF42436123D73545F793C16EC7 Name="ObjectFunctionSwitchDefinition::Function" Size="C">
+		<_25 Name="selection bounds" Offset="0" />
+		<_2 Name="function name" type="sted" Offset="8" />
+	</_650F44BF42436123D73545F793C16EC7>
+	<_727F437E3853EE60753D9D508599809E Name="i343::Objects::AttachmentVariantName" Size="4">
+		<_2 Name="variant name" type="sted" Offset="0" />
+	</_727F437E3853EE60753D9D508599809E>
+	<_D1CE481ABA187D43BE71513CBC6C9C8B Name="CubemapVolume" Size="120">
+		<_2 Name="Name" Offset="0" />
+		<_6 Name="Guid" Offset="4" />
+		<_D Name="Flags" Offset="8" StructName1="CubemapFlagsClass">
+			<Flag n="Enable Intensity Correction" />
+			<Flag n="Capture With Effects" />
+			<Flag n="Affects Adjacent Bsps" />
+			<Flag n="Capture Dynamic Objects" />
+		</_D>
+		<_38 Name="Dumpling" Offset="C" GUID="B3764EDA2FF9A01B1E7F95ADB70B64FE" />
+		<_41 Name="Cubemap Bitmap" Offset="58" Allowed="bitm" Flags="4" />
+		<_B Name="Enable Parallax Correction" Offset="74" StructName1="CubemapBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_B>
+		<_5 Name="Cubemap Volume Priority" Offset="76" />
+		<_17 Name="Cubemap Origin" Offset="78" />
+		<_19 Name="Depth Positive" Offset="84" />
+		<_19 Name="Depth Negative" Offset="90" />
+		<_B Name="Active Volume" Offset="9C" StructName1="CubemapBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_B>
+		<_B Name="Maximum cubemap size" Offset="9E" StructName1="CubemapSizeClassification">
+			<Flag n="128x128" />
+			<Flag n="256x256" />
+			<Flag n="512x512" />
+		</_B>
+		<_17 Name="Intensity" Offset="A0" />
+		<_14 Name="Self-illum Scale Down" Offset="AC" />
+		<_40 Name="EditorMetadata" Offset="B0" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="CubemapVolume" Min="4" Max="1" />
+		<_41 Name="owner bsp" Offset="C4" Allowed="sbsp" Flags="1" />
+		<_2 Name="owner variant" type="sted" Offset="E0" />
+		<_5 Name="runtime bsp index" Offset="E4" />
+		<_5 Name="runtime variant index" Offset="E6" />
+		<_14 Name="Blend Distance" Offset="E8" />
+		<_C Name="Cubemap Volume Type" Offset="EC" StructName1="CubemapVolumeType">
+			<Flag n="Prism" />
+			<Flag n="Sphere" />
+		</_C>
+		<_14 Name="Orientation" Offset="F0" />
+		<_41 Name="Cubemap Depth Bitmap" Offset="F4" Allowed="bitm" Flags="4" />
+		<_14 Name="Depth Blend Range" Offset="110" />
+		<_14 Name="Intensity Scale" Offset="114" />
+		<_B Name="Tintable" Offset="118" StructName1="CubemapBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_B>
+		<_B Name="Runtime Force Add Inactive" Offset="11A" StructName1="CubemapBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_B>
+		<_14 Name="Relevancy Radius" Offset="11C" />
+	</_D1CE481ABA187D43BE71513CBC6C9C8B>
+	<_236044FA520E02BAA40AF1D2A55378A7 Name="s_water_physics_drag_override" Size="44">
+		<_2 Name="material" type="sted" Offset="0" />
+		<_38 Name="drag" Offset="4" GUID="3E2D4059FCE5EAF24F5683D68C4C8BC2" />
+	</_236044FA520E02BAA40AF1D2A55378A7>
+	<_A7A64D2EFC403E79C2A06C7BAD0C6C21 Name="object_change_color_initial_permutation" Size="20">
+		<_14 Name="weight" Offset="0" />
+		<_1F Name="color lower bound" Offset="4" />
+		<_1F Name="color upper bound" Offset="10" />
+		<_2 Name="variant name" type="sted" Offset="1C" />
+	</_A7A64D2EFC403E79C2A06C7BAD0C6C21>
+	<_BA0D4F589F69CB7CD0A89C2896CEA30C Name="object_change_color_function" Size="24">
+		<_D Name="scale flags" Offset="0" StructName1="RGBColorInterpolateFlag">
+			<Flag n="blend in hsv" />
+			<Flag n="...more colors" />
+		</_D>
+		<_1F Name="color lower bound" Offset="4" />
+		<_1F Name="color upper bound" Offset="10" />
+		<_2 Name="darken by" Offset="1C" />
+		<_2 Name="scale by" Offset="20" />
+	</_BA0D4F589F69CB7CD0A89C2896CEA30C>
+	<_3D0340DE506E405F8F7516C3989E403D Name="SpawnInfluenceWeightFalloffFunctionBlock" Size="18">
+		<_38 Name="function" Offset="0" GUID="0276481E72CB9289F56D7C189467A351" />
+	</_3D0340DE506E405F8F7516C3989E403D>
+	<_EFFE48AE2E60A80B0CA20619AC10EA61 Name="AmbientActionInfo" Size="7C">
+		<_A Name="desire type" Offset="0" StructName1="i343::InteractiveObjects::InteractiveDesire">
+			<Flag n="Scripted" />
+			<Flag n="Health" />
+			<Flag n="Defense" />
+			<Flag n="Attack Enemy" />
+			<Flag n="Weapon" />
+			<Flag n="Vehicle" />
+		</_A>
+		<_34 Name="generated_pad5f2a" Offset="1" Length="3" />
+		<_C Name="action" Offset="4" StructName1="i343::ActionSystem::ActionType">
+			<Flag n="Base (Do not use)" />
+			<Flag n="Ground" />
+			<Flag n="Crouch" />
+			<Flag n="Melee" />
+			<Flag n="Turn" />
+			<Flag n="Shoot" />
+			<Flag n="Airborne" />
+			<Flag n="Jump" />
+			<Flag n="WeaponReady" />
+			<Flag n="WeaponSwitch" />
+			<Flag n="WeaponPickup" />
+			<Flag n="WeaponDrop" />
+			<Flag n="Grenade" />
+			<Flag n="Dead" />
+			<Flag n="AnimatedMove" />
+			<Flag n="InteractWeaponPickup" />
+			<Flag n="InteractDevice" />
+			<Flag n="InteractLaunchObject" />
+			<Flag n="HardPing" />
+			<Flag n="Align" />
+			<Flag n="ShieldRaise" />
+			<Flag n="ActivateEquipment" />
+			<Flag n="PhysicsImpulse" />
+			<Flag n="DeathPing" />
+			<Flag n="MediumPing" />
+			<Flag n="SoftPing" />
+			<Flag n="ScriptedSequence" />
+			<Flag n="CustomAnimation" />
+			<Flag n="DeflectProjectile" />
+			<Flag n="VehicleEnter" />
+			<Flag n="VehicleExit" />
+			<Flag n="Vehicle" />
+			<Flag n="Brace" />
+			<Flag n="WeaponDraw" />
+			<Flag n="WeaponStow" />
+			<Flag n="HardStop" />
+			<Flag n="Hoist" />
+			<Flag n="PreCombatPointActivity" />
+			<Flag n="Stunned" />
+			<Flag n="ObstacleSmash" />
+			<Flag n="WeaponVent" />
+			<Flag n="SoftPingDefenseScreen" />
+			<Flag n="ThrowEquipment" />
+			<Flag n="Hijack" />
+			<Flag n="Kamikaze" />
+			<Flag n="CloseQuartersDefenseBlast" />
+			<Flag n="Search" />
+			<Flag n="SearchFound" />
+			<Flag n="Surprise" />
+			<Flag n="Hover" />
+			<Flag n="Alert" />
+			<Flag n="AlertCallout" />
+			<Flag n="WeaponFidget" />
+			<Flag n="WeaponReload" />
+			<Flag n="FullbodyAnimation" />
+			<Flag n="ActivateCamo" />
+			<Flag n="TradeWeapon" />
+			<Flag n="Flying" />
+			<Flag n="MultiTargetTrackedAttack" />
+			<Flag n="Berserk" />
+			<Flag n="LeapWindup" />
+			<Flag n="AnimatedTell" />
+			<Flag n="TeleportArrive" />
+			<Flag n="JinkFire" />
+			<Flag n="DialogueAnimation" />
+			<Flag n="Swoop" />
+			<Flag n="AirborneMelee" />
+			<Flag n="Land" />
+			<Flag n="Hunker" />
+			<Flag n="Launching" />
+			<Flag n="PreAndPostFire" />
+			<Flag n="AnimatedPosture" />
+			<Flag n="Boarding" />
+		</_C>
+		<_2 Name="Animation Token Override" Offset="8" />
+		<_14 Name="Time playing animation" Offset="C" />
+		<_14 Name="Cooldown time" Offset="10" />
+		<_2 Name="composition name" Offset="14" />
+		<_41 Name="composition definition" Offset="18" Allowed="comp" Flags="0" />
+		<_14 Name="Max distance agents will consider this opp from" Offset="34" />
+		<_40 Name="Ambient meta labels" Offset="38" GUID="66974B5B7A236D95F43A8A409414695B" StructName1="AmbientActionInfo" Min="0" Max="32" />
+		<_40 Name="Exclusion meta labels" Offset="4C" GUID="66974B5B7A236D95F43A8A409414695B" StructName1="AmbientActionInfo" Min="0" Max="32" />
+		<_14 Name="Min Danger to Activate" Offset="60" />
+		<_14 Name="Max Danger to Activate" Offset="64" />
+		<_14 Name="Abort Danger Level" Offset="68" />
+		<_14 Name="Chance Per Second" Offset="6C" />
+		<_14 Name="Min Enemy Target Distance" Offset="70" />
+		<_14 Name="Max Enemy Target Distance" Offset="74" />
+		<_14 Name="Max Height Difference" Offset="78" />
+	</_EFFE48AE2E60A80B0CA20619AC10EA61>
+	<_9DD5407D832FAA5EBFC8B624AB81CED7 Name="ScriptedSequenceComponentAction" Size="40">
+		<_0 Name="Request action lua function name" Offset="0" />
+		<_0 Name="Go to next action condition lua function name" Offset="20" />
+	</_9DD5407D832FAA5EBFC8B624AB81CED7>
+	<_5D194D5AFB54B16AB052747FB5F249F7 Name="AnimChannelEntry" Size="4">
+		<_2 Name="channel" Offset="0" />
+	</_5D194D5AFB54B16AB052747FB5F249F7>
+	<_CEF34383ABFD9EE2AAD9278181E4EF0A Name="AnimSetTableEntry" Size="54">
+		<_2 Name="token" Offset="0" />
+		<_41 Name="animset" Offset="4" Allowed="anim" Flags="1" />
+		<_41 Name="Runtime animset (used by code only)" Offset="20" Allowed="Rani" Flags="0" />
+		<_3C Name="is default" Offset="3C" />
+		<_34 Name="generated_padca09" Offset="3D" Length="1" />
+		<_E Name="flags" Offset="3E" StructName1="AnimSetTableEntryFlags">
+			<Flag n="is default" />
+		</_E>
+		<_40 Name="Variants" Offset="40" GUID="7B6740A9F70DA80ECC59EA99A45906DA" StructName1="AnimSetTableEntry" Min="0" Max="256" />
+	</_CEF34383ABFD9EE2AAD9278181E4EF0A>
+	<_5BE94CF7C42F77B266F96900B6720E0D Name="i343::Objects::PowerSourceConfiguration" Size="8">
+		<_2 Name="name" Offset="0" />
+		<_15 Name="capacity" Offset="4" />
+	</_5BE94CF7C42F77B266F96900B6720E0D>
+	<_51FF42F7BB73BE8A1C4538369FF7C18F Name="i343::Objects::PowerSourceDefinition" Size="1C">
+		<_2 Name="region name" type="sted" Offset="0" />
+		<_6 Name="runtime region index" Offset="4" />
+		<_36 Name="Model Region Damage State Configurations" Offset="8" />
+		<_40 Name="state configurations" Offset="8" GUID="CB6D43E45F5D6BE8FE2E6B1EBBC76085" StructName1="i343::Objects::PowerSourceDefinition" Min="0" Max="5" />
+	</_51FF42F7BB73BE8A1C4538369FF7C18F>
+	<_818146FFE14147A5797DC4A5A3CD1163 Name="i343::Objects::PowerSourceDefinitionReference" Size="2">
+		<_2E Name="component" Offset="0" GUID="51FF42F7BB73BE8A1C4538369FF7C18F" StructName1="i343::Objects::PowerSourceDefinitionReference" Min="0" Max="8" />
+	</_818146FFE14147A5797DC4A5A3CD1163>
+	<_DB6340E6F8D8B4A163AE2E8B97EA8CBB Name="i343::MalleableProperty::BaseFloatStructDefinition" Size="C">
+		<_14 Name="Base Value" Offset="0" />
+		<_25 Name="Value Bounds" Offset="4" />
+	</_DB6340E6F8D8B4A163AE2E8B97EA8CBB>
+	<_28FD49541DA02BD2F281440CB845AEFF Name="i343::Objects::SelfDestructSoundBlock" Size="20">
+		<_36 Name="SELF DESTRUCTION SOUNDS" Offset="0" />
+		<_6 Name="active damage section count" Offset="0" />
+		<_41 Name="sound to play" Offset="4" Allowed="snd!" Flags="0" />
+	</_28FD49541DA02BD2F281440CB845AEFF>
+	<_B3764EDA2FF9A01B1E7F95ADB70B64FE Name="s_scenario_dumpling" Size="4C">
+		<_40 Name="inner points" Offset="0" GUID="9AAD49315B797CB13AE0B8EFA4D67F82" StructName1="s_scenario_dumpling" Min="0" Max="128" />
+		<_40 Name="outer points" Offset="14" GUID="9AAD49315B797CB13AE0B8EFA4D67F82" StructName1="s_scenario_dumpling" Min="0" Max="128" />
+		<_14 Name="height" Offset="28" />
+		<_14 Name="sink" Offset="2C" />
+		<_14 Name="inner value" Offset="30" />
+		<_14 Name="outer value" Offset="34" />
+		<_17 Name="center point" Offset="38" />
+		<_14 Name="trivial cull radius squared" Offset="44" />
+		<_14 Name="bound volume" Offset="48" />
+	</_B3764EDA2FF9A01B1E7F95ADB70B64FE>
+	<_CAFD409521D5D5297D81B801A0BADD13 Name="EditorMetadata" Size="10C">
+		<_1 Name="folder name" Offset="0" />
+		<_17 Name="local space pivot point position" Offset="100" />
+	</_CAFD409521D5D5297D81B801A0BADD13>
+	<_3E2D4059FCE5EAF24F5683D68C4C8BC2 Name="s_water_physics_drag_properties" Size="40">
+		<_37 Name="Pressure" type="fgrb" Offset="0" />
+		<_38 Name="pressure" Offset="0" GUID="AA0C4E01C5E705F144CC22DC981B4053" />
+		<_37 Name="" type="fgre" Offset="1C" />
+		<_37 Name="Suction" type="fgrb" Offset="1C" />
+		<_38 Name="suction" Offset="1C" GUID="AA0C4E01C5E705F144CC22DC981B4053" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_14 Name="linear damping" Offset="38" />
+		<_14 Name="angular damping" Offset="3C" />
+	</_3E2D4059FCE5EAF24F5683D68C4C8BC2>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+	<_7B6740A9F70DA80ECC59EA99A45906DA Name="AnimSetTableEntryVariantID" Size="4">
+		<_2 Name="Variant" type="sted" Offset="0" />
+	</_7B6740A9F70DA80ECC59EA99A45906DA>
+	<_CB6D43E45F5D6BE8FE2E6B1EBBC76085 Name="i343::Objects::PowerSourceStateConfiguration" Size="4">
+		<_B Name="region state" Offset="0" StructName1="ModelStates">
+			<Flag n="default" />
+			<Flag n="minor damage" />
+			<Flag n="medium damage" />
+			<Flag n="major damage" />
+			<Flag n="destroyed" />
+		</_B>
+		<_2E Name="configuration" Offset="2" GUID="5BE94CF7C42F77B266F96900B6720E0D" StructName1="i343::Objects::PowerSourceStateConfiguration" Min="0" Max="40" />
+	</_CB6D43E45F5D6BE8FE2E6B1EBBC76085>
+	<_9AAD49315B797CB13AE0B8EFA4D67F82 Name="s_dumpling_sector_point" Size="C">
+		<_17 Name="position" Offset="0" />
+	</_9AAD49315B797CB13AE0B8EFA4D67F82>
+	<_AA0C4E01C5E705F144CC22DC981B4053 Name="s_physics_force_function" Size="1C">
+		<_37 Name="velocity to force" type="fned" Offset="0" />
+		<_38 Name="velocity to pressure" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_14 Name="max velocity" Offset="18" />
+	</_AA0C4E01C5E705F144CC22DC981B4053>
+</root>

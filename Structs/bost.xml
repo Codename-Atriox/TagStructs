@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="UnitBoostDefinition" Parents="aTag" Index="-44">
+	<_8455498F8BF7296652CA9004B855B802 Name="i343::Units::BoostDefinition" Size="70">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="boost" Offset="10" GUID="370B402D4506D858CB94380383F08481" />
+		<_34 Name="generated_pada510" Offset="6C" Length="4" />
+	</_8455498F8BF7296652CA9004B855B802>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_370B402D4506D858CB94380383F08481 Name="Boost" Size="5C">
+		<_41 Name="boost collision damage" Offset="0" Allowed="cddf" Flags="0" />
+		<_D Name="flags" Offset="1C" StructName1="Boost::BoostFlags">
+			<Flag n="pegs throttle" />
+		</_D>
+		<_14 Name="boost peak power" Offset="20" />
+		<_14 Name="boost rise time" Offset="24" />
+		<_14 Name="boost fall time" Offset="28" />
+		<_14 Name="boost power per second" Offset="2C" />
+		<_14 Name="boost low warning threshold" Offset="30" />
+		<_14 Name="recharge rate" Offset="34" />
+		<_14 Name="recharge delay" Offset="38" />
+		<_14 Name="post boost weapon delay" Offset="3C" />
+		<_37 Name="trigger to boost" type="fned" Offset="40" />
+		<_38 Name="trigger to boost" Offset="40" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_C Name="tutorial id" Offset="58" StructName1="i343::CollectibleTutorial">
+			<Flag n="None" />
+			<Flag n="Assassination" />
+			<Flag n="Camera" />
+			<Flag n="Crouch" />
+			<Flag n="Grenade" />
+			<Flag n="Jump" />
+			<Flag n="Melee" />
+			<Flag n="Movement" />
+			<Flag n="Shoot" />
+			<Flag n="Tracking" />
+			<Flag n="Clamber" />
+			<Flag n="Slide" />
+			<Flag n="Sprint" />
+			<Flag n="Thruster" />
+			<Flag n="Zoom" />
+			<Flag n="BansheeBoost" />
+			<Flag n="BansheeTrick" />
+			<Flag n="BansheeSwitchWeapons" />
+			<Flag n="GhostBoost" />
+			<Flag n="MantisRockets" />
+			<Flag n="MantisStomp" />
+			<Flag n="VTOLAscend" />
+			<Flag n="VTOLDescend" />
+			<Flag n="VTOLEvade" />
+			<Flag n="VTOLSwitchWeapons" />
+			<Flag n="VTOLShoot" />
+			<Flag n="JeepDrive" />
+			<Flag n="JeepHandbrake" />
+			<Flag n="JeepShoot" />
+			<Flag n="WraithBoost" />
+			<Flag n="SeatSwitch" />
+			<Flag n="OrdersGeneral" />
+			<Flag n="OrdersClear" />
+			<Flag n="OrdersEnemy" />
+			<Flag n="OrdersMove" />
+			<Flag n="OrdersVehicle" />
+			<Flag n="OrdersWeapon" />
+		</_C>
+	</_370B402D4506D858CB94380383F08481>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

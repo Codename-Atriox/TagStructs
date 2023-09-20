@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="bitmap_dictionary" Parents="aTag" Index="-37">
+	<_F45141374B6C61454EBD7B8CB5C9C221 Name="BitmapDictionaryDefinition" Size="50">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="entries" Offset="10" GUID="1E714F35C72FA9BC841B2AD9A240999C" StructName1="BitmapDictionaryDefinition" Min="0" Max="512" />
+		<_40 Name="multi actions" Offset="24" GUID="E377446FE8EDC44B6B3296F7887C44F1" StructName1="BitmapDictionaryDefinition" Min="0" Max="512" />
+		<_40 Name="combined bitmaps" Offset="38" GUID="A10B42DAEFA679C23D1443A2903E5755" StructName1="BitmapDictionaryDefinition" Min="0" Max="512" />
+		<_34 Name="generated_pad39d8" Offset="4C" Length="4" />
+	</_F45141374B6C61454EBD7B8CB5C9C221>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_1E714F35C72FA9BC841B2AD9A240999C Name="BitmapDictionaryEntryDefinition" Size="24">
+		<_2 Name="identifier" Offset="0" />
+		<_41 Name="bitmap" Offset="4" Allowed="bitm" Flags="0" />
+		<_5 Name="bitmap index" Offset="20" />
+		<_34 Name="generated_pade5bc" Offset="22" Length="2" />
+	</_1E714F35C72FA9BC841B2AD9A240999C>
+	<_E377446FE8EDC44B6B3296F7887C44F1 Name="BitmapDictionaryMultiActionSetDefinition" Size="18">
+		<_36 Name="Multi actions" Offset="0" />
+		<_2 Name="identifier" Offset="0" />
+		<_2 Name="action 1" Offset="4" />
+		<_2 Name="action 2" Offset="8" />
+		<_2 Name="action 3" Offset="C" />
+		<_2 Name="action 4" Offset="10" />
+		<_36 Name="Invalid multi action flags" Offset="14" />
+		<_E Name="Invalidation flags" Offset="14" StructName1="InvalidBitmapMultiActionTypeFlags">
+			<Flag n="Controller" />
+			<Flag n="Keyboard/Mouse" />
+			<Flag n="TextChat/PushToTalk on Enter" />
+		</_E>
+		<_34 Name="generated_pad2033" Offset="16" Length="2" />
+	</_E377446FE8EDC44B6B3296F7887C44F1>
+	<_A10B42DAEFA679C23D1443A2903E5755 Name="BitmapDictionaryCombinedBitmapDefiniton" Size="14">
+		<_36 Name="Combined bitmaps" Offset="0" />
+		<_2 Name="bitmap 1" Offset="0" />
+		<_2 Name="bitmap 2" Offset="4" />
+		<_2 Name="bitmap 3" Offset="8" />
+		<_2 Name="bitmap 4" Offset="C" />
+		<_2 Name="combined" Offset="10" />
+	</_A10B42DAEFA679C23D1443A2903E5755>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

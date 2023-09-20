@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:10 PM" Name="lens_flare" Parents="aTag" Index="-227">
+	<_EFC54593DA19E8C274E25FCBAB4A3192 Name="s_lens_flare_definition" Size="140">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="LENS FLARE" Offset="10" />
+		<_8 Name="falloff angle" Offset="10" />
+		<_8 Name="cutoff angle" Offset="14" />
+		<_8 Name="separate X falloff angle" Offset="18" />
+		<_8 Name="separate X cutoff angle" Offset="1C" />
+		<_8 Name="separate Y falloff angle" Offset="20" />
+		<_8 Name="separate Y cutoff angle" Offset="24" />
+		<_14 Name="Exposure Amount" Offset="28" />
+		<_36 Name="OCCLUSION" Offset="2C" />
+		<_6 Name="occlusion reflection index" Offset="2C" />
+		<_14 Name="occlusion offset distance" Offset="30" />
+		<_B Name="occlusion offset direction" Offset="34" StructName1="LensFlareOcclusionOffset">
+			<Flag n="toward viewer" />
+			<Flag n="marker forward" />
+			<Flag n="none" />
+		</_B>
+		<_34 Name="generated_pad1f11" Offset="36" Length="2" />
+		<_14 Name="occlusion inner radius scale" Offset="38" />
+		<_14 Name="occlusion min pixels" Offset="3C" />
+		<_14 Name="occlusion max pixels" Offset="40" />
+		<_14 Name="near fade begin distance" Offset="44" />
+		<_14 Name="near fade end distance" Offset="48" />
+		<_14 Name="far fade begin distance" Offset="4C" />
+		<_14 Name="far fade end distance" Offset="50" />
+		<_41 Name="bitmap" Offset="54" Allowed="bitm" Flags="0" />
+		<_E Name="flags" Offset="70" StructName1="LensFlareFlags">
+			<Flag n="rotate occlusion testing box with lens flare" />
+			<Flag n="no occlusion test" />
+			<Flag n="only render in first person" />
+			<Flag n="only render in third person" />
+			<Flag n="no reflection opacity feedback" />
+			<Flag n="scale by marker" />
+			<Flag n="don't autofade" />
+			<Flag n="don't render while zoomed" />
+			<Flag n="use separate X and Y falloff angles" />
+			<Flag n="use color override as tint" />
+		</_E>
+		<_5 Name="runtime flags" Offset="72" />
+		<_B Name="rotation function" Offset="74" StructName1="LensFlareRotationFunction">
+			<Flag n="none" />
+			<Flag n="rotation A" />
+			<Flag n="rotation B" />
+			<Flag n="rotation-translation" />
+			<Flag n="translation" />
+		</_B>
+		<_34 Name="generated_pad0530" Offset="76" Length="2" />
+		<_8 Name="rotation function scale" Offset="78" />
+		<_36 Name="EFFECT PARAMETERS" Offset="7C" />
+		<_B Name="falloff function" Offset="7C" StructName1="ReverseTransitionFunction">
+			<Flag n="linear" />
+			<Flag n="late" />
+			<Flag n="very late" />
+			<Flag n="early" />
+			<Flag n="very early" />
+			<Flag n="cosine" />
+			<Flag n="zero" />
+			<Flag n="one" />
+		</_B>
+		<_34 Name="generated_padb87b" Offset="7E" Length="2" />
+		<_40 Name="reflections" Offset="80" GUID="B9824923A2DEA64CF01600059F297865" StructName1="s_lens_flare_definition" Min="0" Max="32" />
+		<_36 Name="ANIMATION" Offset="94" />
+		<_E Name="animation flags" Offset="94" StructName1="LensFlareAnimationFlags">
+			<Flag n="unsynchronized time" />
+		</_E>
+		<_34 Name="generated_pad38f2" Offset="96" Length="2" />
+		<_40 Name="time brightness" Offset="98" GUID="AABD40BB70D821269D77D10BA37A03B0" StructName1="s_lens_flare_definition" Min="0" Max="1" />
+		<_40 Name="age brightness" Offset="AC" GUID="AABD40BB70D821269D77D10BA37A03B0" StructName1="s_lens_flare_definition" Min="0" Max="1" />
+		<_A Name="time color override mode" Offset="C0" StructName1="i343::Effects::ColorOverrideMode">
+			<Flag n="None" />
+			<Flag n="Color Override 1" />
+			<Flag n="Color Override 2" />
+			<Flag n="Team Color" />
+			<Flag n="DWS Sun Color" />
+		</_A>
+		<_34 Name="generated_padec3d" Offset="C1" Length="3" />
+		<_40 Name="time color" Offset="C4" GUID="2A634A2FA0B6D1318BDC993A8DD9CB77" StructName1="s_lens_flare_definition" Min="0" Max="1" />
+		<_A Name="age color override mode" Offset="D8" StructName1="i343::Effects::ColorOverrideMode">
+			<Flag n="None" />
+			<Flag n="Color Override 1" />
+			<Flag n="Color Override 2" />
+			<Flag n="Team Color" />
+			<Flag n="DWS Sun Color" />
+		</_A>
+		<_34 Name="generated_padd25c" Offset="D9" Length="3" />
+		<_40 Name="age color" Offset="DC" GUID="2A634A2FA0B6D1318BDC993A8DD9CB77" StructName1="s_lens_flare_definition" Min="0" Max="1" />
+		<_40 Name="time rotation" Offset="F0" GUID="AABD40BB70D821269D77D10BA37A03B0" StructName1="s_lens_flare_definition" Min="0" Max="1" />
+		<_40 Name="age rotation" Offset="104" GUID="AABD40BB70D821269D77D10BA37A03B0" StructName1="s_lens_flare_definition" Min="0" Max="1" />
+		<_38 Name="global radius scale" Offset="118" GUID="14324DF68D7384609E632C1D9E349A2D" />
+		<_14 Name="aim down sight radius multiplier" Offset="138" />
+		<_34 Name="generated_pad85a7" Offset="13C" Length="4" />
+	</_EFC54593DA19E8C274E25FCBAB4A3192>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_B9824923A2DEA64CF01600059F297865 Name="LensFlareReflection" Size="12C">
+		<_37 Name="" type="ifp+" Offset="0" />
+		<_2 Name="name" Offset="0" />
+		<_D Name="flags" Offset="4" StructName1="LensFlareReflection::Flags">
+			<Flag n="rotate from center of screen" />
+			<Flag n="radius scaled by distance" />
+			<Flag n="radius scaled by occlusion factor" />
+			<Flag n="ignore external color" />
+			<Flag n="only move along Y" />
+			<Flag n="only move along X" />
+			<Flag n="proximity to center as function input" />
+			<Flag n="mirror across flare" />
+			<Flag n="disabled for debugging" />
+			<Flag n="flip U coordinate" />
+			<Flag n="flip V coordinate" />
+			<Flag n="draw in world space instead of screen space" />
+			<Flag n="override falloff angles" />
+			<Flag n="override fade distances" />
+			<Flag n="use separate X and Y falloff angles" />
+			<Flag n="do not render" />
+			<Flag n="rotate from center of screen using screen Y" />
+		</_D>
+		<_41 Name="bitmap override" Offset="8" Allowed="bitm" Flags="0" />
+		<_38 Name="bitmap frame index" Offset="24" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_38 Name="bitmap animation rate" Offset="3C" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_8 Name="falloff angle" Offset="54" />
+		<_8 Name="cutoff_angle" Offset="58" />
+		<_8 Name="separate X falloff angle" Offset="5C" />
+		<_8 Name="separate X cutoff angle" Offset="60" />
+		<_8 Name="separate Y falloff angle" Offset="64" />
+		<_8 Name="separate Y cutoff angle" Offset="68" />
+		<_14 Name="near fade begin distance" Offset="6C" />
+		<_14 Name="near fade end distance" Offset="70" />
+		<_14 Name="far fade begin distance" Offset="74" />
+		<_14 Name="far fade end distance" Offset="78" />
+		<_14 Name="rotation offset" Offset="7C" />
+		<_14 Name="axis offset" Offset="80" />
+		<_14 Name="x offset" Offset="84" />
+		<_14 Name="y offset" Offset="88" />
+		<_25 Name="offset bounds" Offset="8C" />
+		<_38 Name="radius curve" Offset="94" GUID="64B04BB2AB57F31A5FBBBA4285942B18" />
+		<_38 Name="scale curve X" Offset="B0" GUID="64B04BB2AB57F31A5FBBBA4285942B18" />
+		<_38 Name="scale curve Y" Offset="CC" GUID="64B04BB2AB57F31A5FBBBA4285942B18" />
+		<_38 Name="intensity curve" Offset="E8" GUID="64B04BB2AB57F31A5FBBBA4285942B18" />
+		<_36 Name="TINT COLOR" Offset="104" />
+		<_A Name="color curve override mode" Offset="104" StructName1="i343::Effects::ColorOverrideMode">
+			<Flag n="None" />
+			<Flag n="Color Override 1" />
+			<Flag n="Color Override 2" />
+			<Flag n="Team Color" />
+			<Flag n="DWS Sun Color" />
+		</_A>
+		<_34 Name="generated_padebc7" Offset="105" Length="3" />
+		<_38 Name="color curve" Offset="108" GUID="97974E141E64199D6EF0EFDFA41D5C8C" />
+		<_15 Name="modulation factor" Offset="124" />
+		<_14 Name="tint power" Offset="128" />
+		<_37 Name="" type="ifp-" Offset="12C" />
+	</_B9824923A2DEA64CF01600059F297865>
+	<_AABD40BB70D821269D77D10BA37A03B0 Name="LensFlareScalarAnimation" Size="18">
+		<_38 Name="function" Offset="0" GUID="0276481E72CB9289F56D7C189467A351" />
+	</_AABD40BB70D821269D77D10BA37A03B0>
+	<_2A634A2FA0B6D1318BDC993A8DD9CB77 Name="LensFlareColorAnimation" Size="28">
+		<_38 Name="color animation" Offset="0" GUID="54F94FD03DBB7F1A297A30789D24DA91" />
+	</_2A634A2FA0B6D1318BDC993A8DD9CB77>
+	<_14324DF68D7384609E632C1D9E349A2D Name="i343::Effects::GlobalLensFlareScaleFunction" Size="20">
+		<_14 Name="near distance function start" Offset="0" />
+		<_14 Name="far distance function end" Offset="4" />
+		<_37 Name="Mapping" type="fned" Offset="8" />
+		<_38 Name="Mapping" Offset="8" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_14324DF68D7384609E632C1D9E349A2D>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+	<_64B04BB2AB57F31A5FBBBA4285942B18 Name="i343::Effects::ScalarLensFlareReflectionFunction" Size="1C">
+		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="i343::Effects::LensFlareInputs">
+			<Flag n="Legacy" />
+			<Flag n="Time/Age" />
+			<Flag n="Effect Scale A" />
+			<Flag n="Effect Scale B" />
+			<Flag n="Proximity to Screen Center" />
+		</_A>
+		<_34 Name="generated_pad8838" Offset="1" Length="3" />
+		<_37 Name="Mapping" type="fned" Offset="4" />
+		<_38 Name="Mapping" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_64B04BB2AB57F31A5FBBBA4285942B18>
+	<_97974E141E64199D6EF0EFDFA41D5C8C Name="i343::Effects::ColorLensFlareReflectionFunction" Size="1C">
+		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="i343::Effects::LensFlareInputs">
+			<Flag n="Legacy" />
+			<Flag n="Time/Age" />
+			<Flag n="Effect Scale A" />
+			<Flag n="Effect Scale B" />
+			<Flag n="Proximity to Screen Center" />
+		</_A>
+		<_34 Name="generated_pad8123" Offset="1" Length="3" />
+		<_37 Name="Mapping" type="fned" Offset="4" />
+		<_38 Name="Mapping" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_97974E141E64199D6EF0EFDFA41D5C8C>
+	<_54F94FD03DBB7F1A297A30789D24DA91 Name="s_editing_function" Size="28">
+		<_2 Name="Input Variable" type="fnin" Offset="0" />
+		<_2 Name="Range Variable" type="fnir" Offset="4" />
+		<_B Name="Output Modifier" type="fnop" Offset="8" StructName1="s_editing_function::LensFlareOutputMod">
+			<Flag n=" " />
+			<Flag n="Plus" />
+			<Flag n="Times" />
+		</_B>
+		<_34 Name="generated_padcaf7" Offset="A" Length="2" />
+		<_2 Name="Output Modifier Input" type="fnom" Offset="C" />
+		<_37 Name="Lens flare color editor" type="fned" Offset="10" />
+		<_38 Name="lens flare color mapping" Offset="10" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_54F94FD03DBB7F1A297A30789D24DA91>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

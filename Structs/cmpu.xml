@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="CampaignUpgrades" Parents="aTag" Index="-69">
+	<_839993A2C678F60E2D9DA2E297996737 Name="i343::EquipmentUpgrade::CampaignUpgrades" Size="50">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Equipment Paths" Offset="10" GUID="839993A2C678F60B2D9DA2E297996737" StructName1="i343::EquipmentUpgrade::CampaignUpgrades" Min="0" Max="100" />
+		<_40 Name="Equipment Points" Offset="24" GUID="839993A2C678F60C2D9DA2E297996737" StructName1="i343::EquipmentUpgrade::CampaignUpgrades" Min="0" Max="100" />
+		<_40 Name="Shield Upgrades" Offset="38" GUID="839993A2C678F60D2D9DA2E297996737" StructName1="i343::EquipmentUpgrade::CampaignUpgrades" Min="0" Max="100" />
+		<_34 Name="generated_pad9564" Offset="4C" Length="4" />
+	</_839993A2C678F60E2D9DA2E297996737>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_839993A2C678F60B2D9DA2E297996737 Name="i343::EquipmentUpgrade::Path" Size="A4">
+		<_2 Name="Path name" Offset="0" />
+		<_B Name="Path Upgrade Type" Offset="4" StructName1="i343::EquipmentUpgrade::EquipmentUpgradeType">
+			<Flag n="Invalid" />
+			<Flag n="Grapple" />
+			<Flag n="Shield" />
+			<Flag n="Sensor" />
+			<Flag n="Wall" />
+			<Flag n="Evade" />
+		</_B>
+		<_34 Name="generated_pad72a0" Offset="6" Length="2" />
+		<_2 Name="Path description" Offset="8" />
+		<_2 Name="Persistence key levels" Offset="C" />
+		<_2 Name="Persistence key read levels" Offset="10" />
+		<_2 Name="Persistence key discovered" Offset="14" />
+		<_F Name="Unlocked by default" Offset="18" StructName1="EquipmentUnlockedByDefault">
+			<Flag n="enabled" />
+		</_F>
+		<_34 Name="generated_pad8c81" Offset="19" Length="3" />
+		<_37 Name="UI Info" type="fgrb" Offset="1C" />
+		<_38 Name="UIInfo" Offset="1C" GUID="52C6472B6BB873FD804507D0909B9077" />
+		<_37 Name="" type="fgre" Offset="90" />
+		<_40 Name="Nodes" Offset="90" GUID="839993A2C678F60A2D9DA2E297996737" StructName1="i343::EquipmentUpgrade::Path" Min="0" Max="100" />
+	</_839993A2C678F60B2D9DA2E297996737>
+	<_839993A2C678F60C2D9DA2E297996737 Name="i343::EquipmentUpgrade::Points" Size="4">
+		<_2 Name="Persistence Key" Offset="0" />
+	</_839993A2C678F60C2D9DA2E297996737>
+	<_839993A2C678F60D2D9DA2E297996737 Name="i343::EquipmentUpgrade::ShieldUpgrade" Size="4">
+		<_2 Name="Persistence Key" Offset="0" />
+	</_839993A2C678F60D2D9DA2E297996737>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_52C6472B6BB873FD804507D0909B9077 Name="Interface::UIItemInfo" Size="74">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="alt name " Offset="4" />
+		<_2 Name="description" Offset="8" />
+		<_2 Name="help text" Offset="C" />
+		<_2 Name="icon string id" Offset="10" />
+		<_41 Name="sprite" Offset="14" Allowed="bitm" Flags="0" />
+		<_6 Name="sprite index" Offset="30" />
+		<_41 Name="alt sprite" Offset="34" Allowed="bitm" Flags="0" />
+		<_6 Name="alt sprite index" Offset="50" />
+		<_6 Name="damage sprite index" Offset="54" />
+		<_41 Name="ui vehicle screen reference" Offset="58" Allowed="cusc" Flags="0" />
+	</_52C6472B6BB873FD804507D0909B9077>
+	<_839993A2C678F60A2D9DA2E297996737 Name="i343::EquipmentUpgrade::Node" Size="4">
+		<_2 Name="Node name" Offset="0" />
+	</_839993A2C678F60A2D9DA2E297996737>
+</root>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="AudioThreatGlobals" Parents="aTag" Index="-31">
+	<_989D26A6F553BD224F599AAD1F82E730 Name="Audio::Game::AudioThreatGlobalsDefinition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="Audio Threat Globals" type="fgrb" Offset="10" />
+		<_36 Name="Audio Threat System Global Settings" Offset="10" />
+		<_40 Name="Audio Threats" Offset="10" GUID="345D40A9222735EEA90A099DB3C7E236" StructName1="Audio::Game::AudioThreatGlobalsDefinition" Min="0" Max="8" />
+		<_37 Name="" type="fgre" Offset="24" />
+		<_34 Name="generated_pad25d5" Offset="24" Length="4" />
+	</_989D26A6F553BD224F599AAD1F82E730>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_345D40A9222735EEA90A099DB3C7E236 Name="Audio::Game::ThreatLogicInstance" Size="A0">
+		<_2 Name="RTPC Name" Offset="0" />
+		<_2 Name="Multiplayer RTPC Name" Offset="4" />
+		<_2 Name="BTB RTPC Name" Offset="8" />
+		<_40 Name="buckets" Offset="C" GUID="5F9E06AC68AC8A6783096642497BA297" StructName1="Audio::Game::ThreatLogicInstance" Min="0" Max="5" />
+		<_40 Name="damage" Offset="20" GUID="36C152FD0C3D00E664516E23280FC1A9" StructName1="Audio::Game::ThreatLogicInstance" Min="0" Max="2" />
+		<_40 Name="distance" Offset="34" GUID="36C152FD0C3D00E664516E23280FC1A9" StructName1="Audio::Game::ThreatLogicInstance" Min="0" Max="2" />
+		<_36 Name="Aiming Min/Max settings" Offset="48" />
+		<_40 Name="aiming" Offset="48" GUID="36C152FD0C3D00E664516E23280FC1A9" StructName1="Audio::Game::ThreatLogicInstance" Min="0" Max="2" />
+		<_36 Name="Allegiance Min/Max settings" Offset="5C" />
+		<_40 Name="allegiance" Offset="5C" GUID="36C152FD0C3D00E664516E23280FC1A9" StructName1="Audio::Game::ThreatLogicInstance" Min="0" Max="2" />
+		<_40 Name="targeting" Offset="70" GUID="36C152FD0C3D00E664516E23280FC1A9" StructName1="Audio::Game::ThreatLogicInstance" Min="0" Max="2" />
+		<_40 Name="scariness" Offset="84" GUID="36C152FD0C3D00E664516E23280FC1A9" StructName1="Audio::Game::ThreatLogicInstance" Min="0" Max="2" />
+		<_14 Name="min threat value" Offset="98" />
+		<_3C Name="default bucket" Offset="9C" />
+		<_34 Name="generated_pad688d" Offset="9D" Length="3" />
+	</_345D40A9222735EEA90A099DB3C7E236>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_5F9E06AC68AC8A6783096642497BA297 Name="Audio::Game::BucketThreatSetup" Size="8">
+		<_14 Name="min threat value" Offset="0" />
+		<_5 Name="character count" Offset="4" />
+		<_34 Name="generated_pad482f" Offset="6" Length="2" />
+	</_5F9E06AC68AC8A6783096642497BA297>
+	<_36C152FD0C3D00E664516E23280FC1A9 Name="Audio::Game::ContextualThreatSetup" Size="14">
+		<_14 Name="min" Offset="0" />
+		<_14 Name="max" Offset="4" />
+		<_15 Name="weight" Offset="8" />
+		<_14 Name="time" Offset="C" />
+		<_F Name="flags" Offset="10" StructName1="Audio::Game::ThreatDefinitionFlags">
+			<Flag n="buffer events" />
+			<Flag n="require ai targeting to be firing" />
+			<Flag n="require player targeting to be firing" />
+		</_F>
+		<_A Name="context" Offset="11" StructName1="Audio::Game::ThreatContext">
+			<Flag n="Object" />
+			<Flag n="To Local Player" />
+			<Flag n="From Local Player" />
+		</_A>
+		<_34 Name="generated_pad8e86" Offset="12" Length="2" />
+	</_36C152FD0C3D00E664516E23280FC1A9>
+</root>

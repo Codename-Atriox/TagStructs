@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="DockingSiteDefinition" Parents="aTag" Index="-294">
+	<_AFB24B0689F076C4C70E5A7FA0CCBE75 Name="i343::Objects::DockingSiteDefinition" Size="68">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_A Name="Simulation Type" Offset="10" StructName1="i343::Objects::DockingSimulationType">
+			<Flag n="Hoist" />
+			<Flag n="Tractor Beam" />
+		</_A>
+		<_34 Name="generated_padc4dc" Offset="11" Length="3" />
+		<_36 Name="Docking States" Offset="14" />
+		<_37 Name="Docking State Timing" type="fgrb" Offset="14" />
+		<_14 Name="Connection Duration" Offset="14" />
+		<_14 Name="Disconnection Duration" Offset="18" />
+		<_14 Name="Attachment Duration" Offset="1C" />
+		<_14 Name="Detachment Duration" Offset="20" />
+		<_14 Name="Docking Duration" Offset="24" />
+		<_37 Name="" type="fgre" Offset="28" />
+		<_38 Name="Alignment Points" Offset="28" GUID="73FB4F98844782B3878A32EB884368FB" />
+		<_40 Name="Connection Points" Offset="30" GUID="F66F413EB7A2823209D7D13D8DF7BF61" StructName1="i343::Objects::DockingSiteDefinition" Min="0" Max="8" />
+		<_41 Name="Connection Effect" Offset="44" Allowed="effe" Flags="0" />
+		<_14 Name="Attachment Linear Velocity Test" Offset="60" />
+		<_14 Name="Attachment Angular Velocity Test" Offset="64" />
+	</_AFB24B0689F076C4C70E5A7FA0CCBE75>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_73FB4F98844782B3878A32EB884368FB Name="i343::Objects::DockingAlignmentPoints" Size="8">
+		<_2 Name="Slot Marker" Offset="0" />
+		<_2 Name="Tab Marker" Offset="4" />
+	</_73FB4F98844782B3878A32EB884368FB>
+	<_F66F413EB7A2823209D7D13D8DF7BF61 Name="i343::Objects::DockingConnectionPoints" Size="8">
+		<_2 Name="Origin Marker" Offset="0" />
+		<_2 Name="Target Marker" Offset="4" />
+	</_F66F413EB7A2823209D7D13D8DF7BF61>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

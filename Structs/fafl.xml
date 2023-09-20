@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="ForwardFastLighting" Parents="aTag" Index="-131">
+	<_72D047B8F3296DE2B1C83FC0B0E14ADA Name="i343::Graphics::ForwardFastLightingTag" Size="50">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Lights" Offset="10" GUID="108D4A94813325381AA755648F1A4E5D" StructName1="i343::Graphics::ForwardFastLightingTag" Min="0" Max="3" />
+		<_41 Name="Diffuse Cubemap" Offset="24" Allowed="bitm" Flags="0" />
+		<_14 Name="Alpha value for parts not highlighted" Offset="40" />
+		<_3E Name="Diffuse Cubemap Mip to Sample" Offset="44" />
+		<_14 Name="Indirect Diffuse Intensity" Offset="48" />
+		<_14 Name="Indirect Specular Intensity" Offset="4C" />
+	</_72D047B8F3296DE2B1C83FC0B0E14ADA>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_108D4A94813325381AA755648F1A4E5D Name="i343::Graphics::ForwardFastLight" Size="24">
+		<_1F Name="Color" Offset="0" />
+		<_14 Name="Min. Roughness" Offset="C" />
+		<_19 Name="Direction vector" Offset="10" />
+		<_14 Name="Diffuse Intensity" Offset="1C" />
+		<_14 Name="Specular Intensity" Offset="20" />
+	</_108D4A94813325381AA755648F1A4E5D>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

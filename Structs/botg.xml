@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="BotGlobalsTag" Parents="aTag" Index="-45">
+	<_2BA29914A3EBB8D82E6CCC29816C2719 Name="BotGlobals" Size="60">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="Bot Backfill" Offset="10" GUID="22C95E80A0E0D79F1F1B18A853E1EBD3" />
+		<_40 Name="Difficulty Specific Tuning" Offset="20" GUID="32EA6D23D5EFDCE91D6ABC10815A1621" StructName1="BotGlobals" Min="0" Max="10" />
+		<_40 Name="Approved Bot Equipment" Offset="34" GUID="1DC24E76BA18E2F571100C80AF8EA634" StructName1="BotGlobals" Min="0" Max="64" />
+		<_40 Name="Adaptive Difficulty Tuning" Offset="48" GUID="63DD4DDB53EAC5784F61410386D51C43" StructName1="BotGlobals" Min="0" Max="1" />
+		<_34 Name="generated_pad7603" Offset="5C" Length="4" />
+	</_2BA29914A3EBB8D82E6CCC29816C2719>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_22C95E80A0E0D79F1F1B18A853E1EBD3 Name="BotBackfillTuningDefinition" Size="10">
+		<_37 Name="Bot Backfill" type="fgrb" Offset="0" />
+		<_14 Name="MMR threshold for Recruit" Offset="0" />
+		<_14 Name="MMR threshold for Marine" Offset="4" />
+		<_14 Name="MMR threshold for ODST" Offset="8" />
+		<_14 Name="MMR threshold for Spartan" Offset="C" />
+		<_37 Name="" type="fgre" Offset="10" />
+	</_22C95E80A0E0D79F1F1B18A853E1EBD3>
+	<_32EA6D23D5EFDCE91D6ABC10815A1621 Name="BotDifficultyLevelTuningDefinition" Size="258">
+		<_B Name="Difficulty Level" Offset="0" StructName1="i343::Bots::BotDifficultyLevel">
+			<Flag n="Unused 1" />
+			<Flag n="Unused 2" />
+			<Flag n="Unused 3" />
+			<Flag n="Autobot (Campaign test automation)" />
+			<Flag n="Adaptive" />
+			<Flag n="Weapon Drill" />
+			<Flag n="Marine" />
+			<Flag n="ODST" />
+			<Flag n="Spartan" />
+			<Flag n="Recruit" />
+		</_B>
+		<_34 Name="generated_pad637c" Offset="2" Length="2" />
+		<_D Name="Difficulty Specific Flags" Offset="4" StructName1="BotDifficultyFlags">
+			<Flag n="can circuit" />
+			<Flag n="can circle strafe" />
+			<Flag n="can throw grenades" />
+			<Flag n="can use equipment" />
+			<Flag n="can jump/crouch in combat" />
+			<Flag n="can use grapple back smack finisher" />
+			<Flag n="can use motion tracker" />
+			<Flag n="can avoid dangerous objects" />
+			<Flag n="can avoid their own or teammates' dangerous objects" />
+			<Flag n="can be aware of their teammates' targets" />
+			<Flag n="can use guard ranking system" />
+			<Flag n="Switch weapons at low ammo mid combat" />
+		</_D>
+		<_38 Name="Hysteresis" Offset="8" GUID="32EA6D23D52F2CE91D6ABC10855A2631" />
+		<_38 Name="Traversal Tuning" Offset="10" GUID="11EA5D23D4EFDBE93D6ABC10825A2621" />
+		<_38 Name="Combat Tuning" Offset="4C" GUID="32EFFD86F6123C082CA7BC9779AA2B47" />
+		<_38 Name="Awareness Tuning" Offset="174" GUID="22E6FC8AD81437B4CC0ABCB719EA3B87" />
+		<_38 Name="Guard Behavior Tuning" Offset="1CC" GUID="213B498D2F87D76D2EA7AAAEBA115D3C" />
+		<_38 Name="Guard Ranked Behavior Tuning" Offset="1F4" GUID="2A97071D2BC7498D2EA75D4CBA116ADF" />
+		<_38 Name="Pickup Tuning" Offset="218" GUID="2136798D2BC7071D25C76ADF2A975D4C" />
+		<_38 Name="Vehicle Tuning" Offset="22C" GUID="9132708DABC2078D85A75A1F2A27AD4C" />
+		<_40 Name="Weapon Tuning" Offset="244" GUID="EA1D4A8F006CB1EA3115A169B3212A10" StructName1="BotDifficultyLevelTuningDefinition" Min="0" Max="64" />
+	</_32EA6D23D5EFDCE91D6ABC10815A1621>
+	<_1DC24E76BA18E2F571100C80AF8EA634 Name="BotEquipmentDefTagBlock" Size="1C">
+		<_41 Name="Approved Equipment Definition Tag" Offset="0" Allowed="eqip" Flags="0" />
+	</_1DC24E76BA18E2F571100C80AF8EA634>
+	<_63DD4DDB53EAC5784F61410386D51C43 Name="BotAdaptiveTuningDefinition" Size="18">
+		<_37 Name="Adaptive Difficulty" type="fgrb" Offset="0" />
+		<_14 Name="Player Health Shooting Threshold" Offset="0" />
+		<_14 Name="Max Movement" Offset="4" />
+		<_14 Name="Max Aiming" Offset="8" />
+		<_14 Name="Aiming Coefficient" Offset="C" />
+		<_14 Name="Position Coefficient" Offset="10" />
+		<_14 Name="Engagement Constant" Offset="14" />
+	</_63DD4DDB53EAC5784F61410386D51C43>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_32EA6D23D52F2CE91D6ABC10855A2631 Name="BotHysteresisTuningDefinition" Size="8">
+		<_37 Name="Hysteresis" type="fgrb" Offset="0" />
+		<_14 Name="Hysteresis Max Amount" Offset="0" />
+		<_14 Name="Hysteresis Timeout Seconds" Offset="4" />
+		<_37 Name="" type="fgre" Offset="8" />
+	</_32EA6D23D52F2CE91D6ABC10855A2631>
+	<_11EA5D23D4EFDBE93D6ABC10825A2621 Name="BotTraversalPropertiesDefinition" Size="3C">
+		<_37 Name="Traversal Properties" type="fgrb" Offset="0" />
+		<_14 Name="Destination Evaluation Tolerance" Offset="0" />
+		<_14 Name="Random Neighbor Selection Chance" Offset="4" />
+		<_14 Name="Start Sprint Evaluation Tolerance" Offset="8" />
+		<_14 Name="Stop Sprint Evaluation Tolerance" Offset="C" />
+		<_8 Name="Bot angular turn velocity" Offset="10" />
+		<_8 Name="Bot angular turn acceleration" Offset="14" />
+		<_14 Name="Bot stuck time timeout" Offset="18" />
+		<_14 Name="Bot end of path tolerance distance sq" Offset="1C" />
+		<_14 Name="Wrong path direction timeout" Offset="20" />
+		<_14 Name="Ledge fall distance sq" Offset="24" />
+		<_14 Name="Waypoint path distance" Offset="28" />
+		<_8 Name="Jump hint facing threshold (no clamber)" Offset="2C" />
+		<_14 Name="Low weapon desirabilty to gear up" Offset="30" />
+		<_14 Name="Objective path distance correction threshold" Offset="34" />
+		<_14 Name="Hunt look at ambition distance" Offset="38" />
+		<_37 Name="" type="fgre" Offset="3C" />
+	</_11EA5D23D4EFDBE93D6ABC10825A2621>
+	<_32EFFD86F6123C082CA7BC9779AA2B47 Name="BotCombatTuningDefinition" Size="128">
+		<_37 Name="Combat" type="fgrb" Offset="0" />
+		<_38 Name="Melee" Offset="0" GUID="42AFFB26AD183C193CA7BC9379AB2C21" />
+		<_37 Name="Combat Dance" type="fgrb" Offset="38" />
+		<_14 Name="Reset initial combat dance delay time" Offset="38" />
+		<_37 Name="Strafing" type="fgrb" Offset="3C" />
+		<_14 Name="Strafe min time" Offset="3C" />
+		<_14 Name="Strafe max time" Offset="40" />
+		<_14 Name="Halt strafe chance" Offset="44" />
+		<_14 Name="Halt strafe min time" Offset="48" />
+		<_14 Name="Halt strafe max time" Offset="4C" />
+		<_14 Name="Halt strafe min time (initial)" Offset="50" />
+		<_14 Name="Halt strafe max time (initial)" Offset="54" />
+		<_37 Name="" type="fgre" Offset="58" />
+		<_37 Name="Vertical Movement" type="fgrb" Offset="58" />
+		<_14 Name="Vertical movement min delay time" Offset="58" />
+		<_14 Name="Vertical movement max delay time" Offset="5C" />
+		<_14 Name="Vertical movement crouch chance" Offset="60" />
+		<_14 Name="Crouch hold time" Offset="64" />
+		<_14 Name="Vertical movement jump check height" Offset="68" />
+		<_8 Name="Target is aiming check threshold" Offset="6C" />
+		<_14 Name="Avoid dangerous object jump chance" Offset="70" />
+		<_14 Name="Avoid dangerous objects jump distance" Offset="74" />
+		<_14 Name="Vehicle avoid position prediction time" Offset="78" />
+		<_37 Name="" type="fgre" Offset="7C" />
+		<_37 Name="" type="fgre" Offset="7C" />
+		<_37 Name="Grenades" type="fgrb" Offset="7C" />
+		<_14 Name="Grenade delay min time" Offset="7C" />
+		<_14 Name="Grenade delay noise time" Offset="80" />
+		<_14 Name="Grenade min target distance" Offset="84" />
+		<_14 Name="Grenade max target distance" Offset="88" />
+		<_14 Name="Grenade distance in front of target feet" Offset="8C" />
+		<_14 Name="'Low ground' height threshold" Offset="90" />
+		<_37 Name="" type="fgre" Offset="94" />
+		<_37 Name="Thrown Weapons" type="fgrb" Offset="94" />
+		<_14 Name="Thrown weapon delay min time" Offset="94" />
+		<_14 Name="Thrown weapon delay noise time" Offset="98" />
+		<_14 Name="Thrown weapon min target distance" Offset="9C" />
+		<_14 Name="Thrown weapon max target distance" Offset="A0" />
+		<_14 Name="Thrown weapon 'Low ground' height threshold" Offset="A4" />
+		<_37 Name="" type="fgre" Offset="A8" />
+		<_8 Name="Deploy drop wall aiming tolerance" Offset="A8" />
+		<_14 Name="Deploy drop wall confidence threshold" Offset="AC" />
+		<_14 Name="Min drop wall delay time" Offset="B0" />
+		<_14 Name="Max drop wall delay time" Offset="B4" />
+		<_14 Name="Min active camo delay time" Offset="B8" />
+		<_14 Name="Max active camo delay time" Offset="BC" />
+		<_14 Name="Disengage confidence threshold" Offset="C0" />
+		<_14 Name="Evade min delay time" Offset="C4" />
+		<_14 Name="Evade max delay time" Offset="C8" />
+		<_14 Name="Combat error magnitude" Offset="CC" />
+		<_14 Name="Minimum error magnitude" Offset="D0" />
+		<_14 Name="Target velocity max noise threshhold sq" Offset="D4" />
+		<_14 Name="Targeting error from velocity weight" Offset="D8" />
+		<_14 Name="Targeting error recalculation time (min)" Offset="DC" />
+		<_14 Name="Targeting error recalculation time (max)" Offset="E0" />
+		<_8 Name="Desired vs actual aiming differential allowance" Offset="E4" />
+		<_14 Name="Predictability velocity magnitude change threshold" Offset="E8" />
+		<_8 Name="Predictability velocity direction change threshhold" Offset="EC" />
+		<_14 Name="Predictability error gain rate" Offset="F0" />
+		<_14 Name="Predictability error decay rate" Offset="F4" />
+		<_14 Name="Maximum aiming offset" Offset="F8" />
+		<_14 Name="Combat weapon switch desirability delta" Offset="FC" />
+		<_14 Name="Combat weapon switch distance delta" Offset="100" />
+		<_14 Name="Weapon switch from objective confidence limit" Offset="104" />
+		<_14 Name="Weapon switch from objective combat distance limit" Offset="108" />
+		<_14 Name="Initial hide point search radius" Offset="10C" />
+		<_14 Name="Location Sensor Min Activation Distance Sq" Offset="110" />
+		<_14 Name="Location Sensor Max Activation Distance Sq" Offset="114" />
+		<_14 Name="Min location sensor delay time" Offset="118" />
+		<_14 Name="Max location sensor delay time" Offset="11C" />
+		<_8 Name="Location sensor aiming check threshold" Offset="120" />
+		<_14 Name="Disengage max jump height" Offset="124" />
+		<_37 Name="" type="fgre" Offset="128" />
+	</_32EFFD86F6123C082CA7BC9779AA2B47>
+	<_22E6FC8AD81437B4CC0ABCB719EA3B87 Name="BotAwarenessTuningDefinition" Size="58">
+		<_37 Name="Awareness" type="fgrb" Offset="0" />
+		<_14 Name="Max ground awareness distance" Offset="0" />
+		<_14 Name="Max air awareness distance" Offset="4" />
+		<_14 Name="Max shared awareness distance" Offset="8" />
+		<_8 Name="FOV Degrees" Offset="C" />
+		<_14 Name="Threat sensor awareness distance" Offset="10" />
+		<_14 Name="Active camo invisibility threshold" Offset="14" />
+		<_14 Name="Danger decay rate per second" Offset="18" />
+		<_14 Name="Clairvoyance max time" Offset="1C" />
+		<_14 Name="Clairvoyance max distance" Offset="20" />
+		<_14 Name="Dangerous object awareness distance" Offset="24" />
+		<_14 Name="Dangerous object max time to damage" Offset="28" />
+		<_8 Name="Dangerous object approaching bot angle" Offset="2C" />
+		<_14 Name="Moving dangerous object min speed" Offset="30" />
+		<_14 Name="Chance to notice new dangerous objects per second" Offset="34" />
+		<_14 Name="Dangerous object danger radius scalar" Offset="38" />
+		<_14 Name="Target Hysteresis Max Amount" Offset="3C" />
+		<_14 Name="Target Hysteresis Timeout Seconds" Offset="40" />
+		<_40 Name="Target Priority Calculation Inputs" Offset="44" GUID="12D6AC82D9A247B4C10BBCB781EAABC7" StructName1="BotAwarenessTuningDefinition" Min="0" Max="4" />
+		<_37 Name="" type="fgre" Offset="58" />
+	</_22E6FC8AD81437B4CC0ABCB719EA3B87>
+	<_213B498D2F87D76D2EA7AAAEBA115D3C Name="BotGuardBehaviorTuningDefinition" Size="28">
+		<_37 Name="Guard" type="fgrb" Offset="0" />
+		<_14 Name="Min guard look time" Offset="0" />
+		<_14 Name="Max guard look time" Offset="4" />
+		<_14 Name="Min guard look rotation angle" Offset="8" />
+		<_14 Name="Max guard look rotation angle" Offset="C" />
+		<_14 Name="Guard volume boundary width" Offset="10" />
+		<_14 Name="Max patrol time" Offset="14" />
+		<_14 Name="Min patrol pause time" Offset="18" />
+		<_14 Name="Max patrol pause time" Offset="1C" />
+		<_14 Name="Min Guard Distance" Offset="20" />
+		<_14 Name="Guard height difference threshold" Offset="24" />
+		<_37 Name="" type="fgre" Offset="28" />
+	</_213B498D2F87D76D2EA7AAAEBA115D3C>
+	<_2A97071D2BC7498D2EA75D4CBA116ADF Name="BotGuardRankedBehaviorTuningDefinition" Size="24">
+		<_37 Name="GuardRanked" type="fgrb" Offset="0" />
+		<_14 Name="Max Guard Distance" Offset="0" />
+		<_14 Name="Non-Owning AmbitionOwnershipState Input Score" Offset="4" />
+		<_14 Name="Owning AmbitionOwnershipState Input Score" Offset="8" />
+		<_14 Name="Max Ally Interaction Radius" Offset="C" />
+		<_40 Name="Ambition Priority Calculation Inputs" Offset="10" GUID="12DEA38A29A2476D13EB2CA7AC10BAC7" StructName1="BotGuardRankedBehaviorTuningDefinition" Min="0" Max="3" />
+		<_37 Name="" type="fgre" Offset="24" />
+	</_2A97071D2BC7498D2EA75D4CBA116ADF>
+	<_2136798D2BC7071D25C76ADF2A975D4C Name="BotPickupTuningDefinition" Size="14">
+		<_37 Name="Pickup" type="fgrb" Offset="0" />
+		<_14 Name="Pickup distance sq" Offset="0" />
+		<_14 Name="Pathless distance sq" Offset="4" />
+		<_14 Name="Item pickup delay" Offset="8" />
+		<_14 Name="Weapon pickup cooldown" Offset="C" />
+		<_14 Name="Item observation radius" Offset="10" />
+		<_37 Name="" type="fgre" Offset="14" />
+	</_2136798D2BC7071D25C76ADF2A975D4C>
+	<_9132708DABC2078D85A75A1F2A27AD4C Name="BotVehicleTuningDefinition" Size="18">
+		<_37 Name="Vehicles" type="fgrb" Offset="0" />
+		<_14 Name="Vehicle observation radius" Offset="0" />
+		<_14 Name="Max linear velocity for enterable vehicle sq" Offset="4" />
+		<_14 Name="Passenger seat switch delay" Offset="8" />
+		<_14 Name="Friendly objective carrier nearby distance" Offset="C" />
+		<_14 Name="'Active vehicle' min speed" Offset="10" />
+		<_14 Name="Exit inactive vehicle time" Offset="14" />
+		<_37 Name="" type="fgre" Offset="18" />
+	</_9132708DABC2078D85A75A1F2A27AD4C>
+	<_EA1D4A8F006CB1EA3115A169B3212A10 Name="BotWeaponDefTagBlock" Size="38">
+		<_41 Name="Approved Weapon Definition Tag" Offset="0" Allowed="weap" Flags="0" />
+		<_D Name="Weapon usage flags" Offset="1C" StructName1="BotWeaponUsageFlags">
+			<Flag n="Aims at head" />
+			<Flag n="Aims at feet" />
+			<Flag n="Aims in front of feet" />
+			<Flag n="Trigger latches" />
+			<Flag n="Melee weapon" />
+			<Flag n="Held objective (Flag, ball, etc)" />
+			<Flag n="Should Throw Weapon" />
+		</_D>
+		<_14 Name="Error magnitude" Offset="20" />
+		<_14 Name="Minimum error magnitude" Offset="24" />
+		<_14 Name="Error max velocity (sq) threshold" Offset="28" />
+		<_14 Name="Desirability" Offset="2C" />
+		<_14 Name="Min distance sq" Offset="30" />
+		<_14 Name="Max distance sq" Offset="34" />
+	</_EA1D4A8F006CB1EA3115A169B3212A10>
+	<_42AFFB26AD183C193CA7BC9379AB2C21 Name="BotMeleeTuningDefinition" Size="38">
+		<_37 Name="Melee" type="fgrb" Offset="0" />
+		<_14 Name="Melee min delay time" Offset="0" />
+		<_14 Name="Melee max delay time" Offset="4" />
+		<_14 Name="Melee striking distance (no melee weapon)" Offset="8" />
+		<_14 Name="Melee striking distance (with melee weapon)" Offset="C" />
+		<_14 Name="Minimum melee distance" Offset="10" />
+		<_14 Name="Max melee distance (no equipment)" Offset="14" />
+		<_14 Name="Max melee distance (with objective)" Offset="18" />
+		<_14 Name="Min melee grapple distance" Offset="1C" />
+		<_14 Name="Max melee distance (with grapple hook)" Offset="20" />
+		<_14 Name="Max enemy health for unarmed grapple" Offset="24" />
+		<_14 Name="Restrict melee knockback weapon desirability min" Offset="28" />
+		<_14 Name="Target 'low shield vitality' threshold" Offset="2C" />
+		<_14 Name="'Low confidence' threshold" Offset="30" />
+		<_8 Name="'Target is facing away' angle threshold" Offset="34" />
+		<_37 Name="" type="fgre" Offset="38" />
+	</_42AFFB26AD183C193CA7BC9379AB2C21>
+	<_12D6AC82D9A247B4C10BBCB781EAABC7 Name="BotTargetPriorityInputDefinition" Size="8">
+		<_B Name="Input" Offset="0" StructName1="i343::Bots::BotTargetPriorityInput">
+			<Flag n="Distance to Target" />
+			<Flag n="Target Shields Popped" />
+			<Flag n="Target Health" />
+			<Flag n="Target Is Holding Objective" />
+		</_B>
+		<_34 Name="generated_pad9bc9" Offset="2" Length="2" />
+		<_14 Name="Weight" Offset="4" />
+	</_12D6AC82D9A247B4C10BBCB781EAABC7>
+	<_12DEA38A29A2476D13EB2CA7AC10BAC7 Name="BotAmbitionPriorityInputDefinition" Size="8">
+		<_B Name="Input" Offset="0" StructName1="i343::Bots::BotAmbitionPriorityInput">
+			<Flag n="Distance to Ambition" />
+			<Flag n="Ambition Ownership State" />
+			<Flag n="Number of Allies Interacting with Ambition (Inverse Relationship)" />
+		</_B>
+		<_34 Name="generated_padd51d" Offset="2" Length="2" />
+		<_14 Name="Weight" Offset="4" />
+	</_12DEA38A29A2476D13EB2CA7AC10BAC7>
+</root>

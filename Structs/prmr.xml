@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="ProjectileMaterialResponse" Parents="aTag" Index="-322">
+	<_08F04F74736711817C78CBF0917AC01E Name="i343::Projectiles::ProjectileMaterialResponseDefinition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="material response" Offset="10" GUID="A6D14D9A3308637FC1152B059838E978" StructName1="i343::Projectiles::ProjectileMaterialResponseDefinition" Min="0" Max="200" />
+		<_34 Name="generated_padf741" Offset="24" Length="4" />
+	</_08F04F74736711817C78CBF0917AC01E>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_A6D14D9A3308637FC1152B059838E978 Name="i343::Projectiles::MaterialResponseDefinition" Size="38">
+		<_36 Name="matching criteria" Offset="0" />
+		<_2 Name="material name" type="sted" Offset="0" />
+		<_5 Name="runtime material index" Offset="4" />
+		<_E Name="response flags" Offset="6" StructName1="i343::Projectiles::PossibleResponseFlags">
+			<Flag n="only against units (except giants)" />
+			<Flag n="never against units (except giants)" />
+			<Flag n="only against bipeds" />
+			<Flag n="only against vehicles" />
+			<Flag n="never against wuss players" />
+			<Flag n="only when tethered" />
+			<Flag n="only when not tethered" />
+			<Flag n="only against dead bipeds" />
+			<Flag n="never against dead bipeds" />
+			<Flag n="only AI projectiles" />
+			<Flag n="never AI projectiles" />
+			<Flag n="only friendly targets" />
+			<Flag n="never friendly targets" />
+		</_E>
+		<_15 Name="chance fraction" Offset="8" />
+		<_24 Name="between" Offset="C" />
+		<_25 Name="and" Offset="14" />
+		<_36 Name="response" Offset="1C" />
+		<_B Name="response" Offset="1C" StructName1="i343::Projectiles::MaterialResponse">
+			<Flag n="impact (detonate)" />
+			<Flag n="fizzle" />
+			<Flag n="overpenetrate" />
+			<Flag n="attach" />
+			<Flag n="bounce" />
+			<Flag n="bounce (dud)" />
+			<Flag n="fizzle (ricochet)" />
+			<Flag n="turn physical" />
+			<Flag n="charge self" />
+		</_B>
+		<_36 Name="misc" Offset="1E" />
+		<_B Name="scale effects by" Offset="1E" StructName1="i343::Projectiles::MaterialResponseScaleMode">
+			<Flag n="damage" />
+			<Flag n="angle" />
+		</_B>
+		<_8 Name="angular noise" Offset="20" />
+		<_14 Name="velocity noise" Offset="24" />
+		<_36 Name="overpenetration" Offset="28" />
+		<_14 Name="initial friction" Offset="28" />
+		<_36 Name="reflection" Offset="2C" />
+		<_14 Name="parallel friction" Offset="2C" />
+		<_14 Name="perpendicular friction" Offset="30" />
+		<_36 Name="flags" Offset="34" />
+		<_F Name="misc flags" Offset="34" StructName1="i343::Projectiles::MaterialResponseFlags">
+			<Flag n="orient along normal at rest" />
+		</_F>
+		<_34 Name="generated_pad3f48" Offset="35" Length="3" />
+	</_A6D14D9A3308637FC1152B059838E978>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

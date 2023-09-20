@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="explicitshader" Parents="aTag" Index="-129">
+	<_3D50460AB5D67205262CA4F3890992CC Name="ExplicitShader" Size="48">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="shader" Offset="10" Allowed="mat , shdr" Flags="2" />
+		<_6 Name="explicit shader index" Offset="2C" />
+		<_F Name="explicit shader flags" Offset="30" StructName1="ExplicitShaderFlags">
+			<Flag n="debug only" />
+			<Flag n="strip rtx" />
+		</_F>
+		<_34 Name="generated_padc559" Offset="31" Length="7" />
+		<_7 Name="ptr PSOs" type="nuke" Offset="38" />
+		<_3E Name="countPSOs" type="nuke" Offset="40" />
+		<_34 Name="generated_padab78" Offset="44" Length="4" />
+	</_3D50460AB5D67205262CA4F3890992CC>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

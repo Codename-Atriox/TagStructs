@@ -1,0 +1,1088 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:04 PM" Name="effect" Parents="aTag" Index="-119" C="fx">
+	<_31EA4E8B6C1AEA4ABD1D9033B019756D Name="effect_definition" Size="88">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Annotations" Offset="10" GUID="900B44F6781130FFDE1CD6679F763D19" StructName1="effect_definition" Min="0" Max="8" />
+		<_D Name="flags" Offset="24" StructName1="effect_definition::EffectDefinitionFlags">
+			<Flag n="deleted when attachment deactivates" />
+			<Flag n="do not re-use parts when looping" />
+			<Flag n="age creator's weapon" />
+			<Flag n="use parent position but world orientation" />
+			<Flag n="can penetrate walls (expensive)" />
+			<Flag n="cannot be restarted" />
+			<Flag n="force looping" />
+			<Flag n="render in hologram pass" />
+			<Flag n="play effect even outside bsps (expensive)" />
+			<Flag n="draw .parts when stopped" />
+			<Flag n="kill particles when stopped" />
+			<Flag n="play even on hidden objects" />
+			<Flag n="disable first person parts in blind skull" />
+			<Flag n="hides associated object on effect deletion" />
+			<Flag n="bypass mp throttle" />
+			<Flag n="render in non first person pass" />
+			<Flag n="use averaged locations for lods" />
+			<Flag n="search children for markers" />
+			<Flag n="attach sound to parent object" />
+			<Flag n="use simulated vehicle impact transform" />
+			<Flag n="ignore lod distance scaling" />
+			<Flag n="record team color only at effect creation" />
+			<Flag n="continue event age during death delay" />
+			<Flag n="do not remove unused locations" />
+		</_D>
+		<_3E Name="fixed random seed" Offset="28" />
+		<_14 Name="restart if within" Offset="2C" />
+		<_14 Name="continue if within" Offset="30" />
+		<_14 Name="death_delay" Offset="34" />
+		<_A Name="Allocation Priority" Offset="38" StructName1="EffectAllocationPriority">
+			<Flag n="Critical" />
+			<Flag n="Sandbox" />
+			<Flag n="Environment" />
+		</_A>
+		<_F Name="customLocationFlags" Offset="39" StructName1="i343::Effects::CustomLocationFlags">
+			<Flag n="child" />
+			<Flag n="camera" />
+			<Flag n="secondary" />
+		</_F>
+		<_34 Name="generated_padae91" Offset="3A" Length="2" />
+		<_14 Name="global size scale" Offset="3C" />
+		<_2 Name="scale A override" Offset="40" />
+		<_2 Name="scale B override" Offset="44" />
+		<_14 Name="runtime danger radius" Offset="48" />
+		<_36 Name="Standalone Damage Source" Offset="4C" />
+		<_38 Name="standaloneDamageSource" Offset="4C" GUID="FF87433DC31A245D49183EE68FE5BB27" />
+		<_14 Name="always play distance" Offset="50" />
+		<_14 Name="never play distance" Offset="54" />
+		<_14 Name="runtime local_space_death_delay" Offset="58" />
+		<_40 Name="lods" Offset="5C" GUID="EA2542E6312651852756589A831C0253" StructName1="effect_definition" Min="0" Max="8" />
+		<_40 Name="sounds" Offset="70" GUID="90C645FF7B58E873B5E8B9919EDB96EA" StructName1="effect_definition" Min="0" Max="8" />
+		<_34 Name="generated_pad94b0" Offset="84" Length="4" />
+	</_31EA4E8B6C1AEA4ABD1D9033B019756D>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_900B44F6781130FFDE1CD6679F763D19 Name="effect_definition::Annotation" Size="1C">
+		<_2 Name="Name" Offset="0" />
+		<_42 Name="Text" Offset="4" StructName1="effect_definition::Annotation.Text" Int1="2" Int2="0" Flags="400" />
+	</_900B44F6781130FFDE1CD6679F763D19>
+	<_FF87433DC31A245D49183EE68FE5BB27 Name="i343::Damage::DamageSourceDefinition" Size="4">
+		<_2 Name="Damage Source Name" Offset="0" />
+	</_FF87433DC31A245D49183EE68FE5BB27>
+	<_EA2542E6312651852756589A831C0253 Name="EffectLodDefinition" Size="8C">
+		<_2 Name="lod name" Offset="0" />
+		<_14 Name="lod distance" Offset="4" />
+		<_14 Name="lod timer" Offset="8" />
+		<_38 Name="Camera Distance Curve" Offset="C" GUID="2AA94534384EBA004A23EF26AD11D043" />
+		<_25 Name="Camera Distance Range" Offset="24" />
+		<_41 Name="lod import effect" Offset="2C" Allowed="effe" Flags="0" />
+		<_5 Name="lod import index" Offset="48" />
+		<_E Name="lod flags" Offset="4A" StructName1="EffectLodDefinition::EffectLodFlags">
+			<Flag n="non-rendering" />
+			<Flag n="run events in parallel" />
+			<Flag n="disabled for debugging" />
+		</_E>
+		<_2E Name="lod loop start event" Offset="4C" GUID="3FEF470845ADB1578CF7F2FEB03F70BB" StructName1="EffectLodDefinition" Min="0" Max="32" />
+		<_34 Name="generated_padb48f" Offset="4E" Length="2" />
+		<_40 Name="lod locations" type="slap" Offset="50" GUID="CAA34E8BF2742E8C3868BCB3BD3E6DF9" StructName1="EffectLodDefinition" Min="0" Max="8" />
+		<_40 Name="lod events" Offset="64" GUID="3FEF470845ADB1578CF7F2FEB03F70BB" StructName1="EffectLodDefinition" Min="0" Max="32" />
+		<_40 Name="lod conical distribution" Offset="78" GUID="9891495D3B2368F15B933025B02F5E1C" StructName1="EffectLodDefinition" Min="0" Max="1" />
+	</_EA2542E6312651852756589A831C0253>
+	<_90C645FF7B58E873B5E8B9919EDB96EA Name="effect_sound_definition" Size="6C">
+		<_41 Name="onEffectStartSound" Offset="0" Allowed="snd!" Flags="8" />
+		<_41 Name="onEffectStartLoop" Offset="1C" Allowed="lsnd" Flags="8" />
+		<_41 Name="onEffectEndSound" Offset="38" Allowed="snd!" Flags="8" />
+		<_37 Name="" type="amkr" Offset="54" />
+		<_2 Name="marker name" Offset="54" />
+		<_40 Name="events" Offset="58" GUID="F2934AEB36A0815E34FF38539A2954BF" StructName1="effect_sound_definition" Min="0" Max="32" />
+	</_90C645FF7B58E873B5E8B9919EDB96EA>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_2AA94534384EBA004A23EF26AD11D043 Name="ScalarFunctionNameDefaultOne" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="4C5A4A1A9019ABA511FDA1ADAD1AF034" />
+	</_2AA94534384EBA004A23EF26AD11D043>
+	<_3FEF470845ADB1578CF7F2FEB03F70BB Name="effect_event_definition" Size="5C">
+		<_2 Name="event name" Offset="0" />
+		<_E Name="flags" Offset="4" StructName1="effect_event_definition::EffectEventFlags">
+			<Flag n="disabled for debugging" />
+			<Flag n="particles die when effect ends" />
+			<Flag n="loop event age duration override" />
+			<Flag n="has render parts" />
+		</_E>
+		<_34 Name="generated_padbcea" Offset="6" Length="2" />
+		<_15 Name="skip fraction" Offset="8" />
+		<_37 Name="delay bounds" type="mela" Offset="C" />
+		<_25 Name="delay bounds" Offset="C" />
+		<_37 Name="duration bounds" type="mela" Offset="14" />
+		<_25 Name="duration bounds" Offset="14" />
+		<_36 Name="event age duration override" Offset="1C" />
+		<_14 Name="event age duration override" Offset="1C" />
+		<_40 Name="parts" Offset="20" GUID="E63D42D710814B9B6CF277F8945DD824" StructName1="effect_event_definition" Min="0" Max="32" />
+		<_40 Name="accelerations" Offset="34" GUID="2A084D2A007DDA954F217DD28AE44F3A" StructName1="effect_event_definition" Min="0" Max="32" />
+		<_40 Name="particle systems" Offset="48" GUID="44594963ED8EA5BE4FACCCF5B175896E" StructName1="effect_event_definition" Min="0" Max="32" />
+	</_3FEF470845ADB1578CF7F2FEB03F70BB>
+	<_CAA34E8BF2742E8C3868BCB3BD3E6DF9 Name="effect_location_definition" Size="8">
+		<_36 Name="MARKER NAMES" Offset="0" />
+		<_2 Name="marker name" type="sted" Offset="0" />
+		<_E Name="flags" Offset="4" StructName1="effect_location_definition::EffectLocationFlags">
+			<Flag n="optional (no error if not found)" />
+			<Flag n="destructible (no error if goes away)" />
+			<Flag n="track sub-frame movements" />
+			<Flag n="never stagger across markers" />
+		</_E>
+		<_34 Name="generated_pad1a4b" Offset="6" Length="2" />
+	</_CAA34E8BF2742E8C3868BCB3BD3E6DF9>
+	<_9891495D3B2368F15B933025B02F5E1C Name="s_effect_conical_distribution_definition" Size="C">
+		<_36 Name="conical_projection - AKA shotgun" Offset="0" />
+		<_5 Name="yaw count" Offset="0" />
+		<_5 Name="pitch count" Offset="2" />
+		<_14 Name="distribution exponent" Offset="4" />
+		<_8 Name="spread" Offset="8" />
+	</_9891495D3B2368F15B933025B02F5E1C>
+	<_F2934AEB36A0815E34FF38539A2954BF Name="effect_sound_event_lod_definition" Size="6">
+		<_2E Name="lod name" Offset="0" GUID="EA2542E6312651852756589A831C0253" StructName1="effect_sound_event_lod_definition" Min="0" Max="8" />
+		<_2F Name="location" Offset="2" />
+		<_2F Name="event" Offset="4" />
+	</_F2934AEB36A0815E34FF38539A2954BF>
+	<_4C5A4A1A9019ABA511FDA1ADAD1AF034 Name="FunctionDefinitionDefaultOne" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_4C5A4A1A9019ABA511FDA1ADAD1AF034>
+	<_E63D42D710814B9B6CF277F8945DD824 Name="effect_part_definition" Size="8C">
+		<_B Name="violence mode" Offset="0" StructName1="EffectDisposition">
+			<Flag n="either mode" />
+			<Flag n="violent mode only" />
+			<Flag n="nonviolent mode only" />
+		</_B>
+		<_2E Name="location" Offset="2" GUID="CAA34E8BF2742E8C3868BCB3BD3E6DF9" StructName1="effect_part_definition" Min="0" Max="8" />
+		<_2E Name="secondary location (beams)" Offset="4" GUID="CAA34E8BF2742E8C3868BCB3BD3E6DF9" StructName1="effect_part_definition" Min="0" Max="8" />
+		<_E Name="flags" Offset="6" StructName1="effect_part_definition::EffectPartFlags">
+			<Flag n="face down regardless of location (decals)" />
+			<Flag n="offset origin away from geometry (lights)" />
+			<Flag n="never attached to object" />
+			<Flag n="disabled for debugging" />
+			<Flag n="make every tick" />
+			<Flag n="inherit parent variant" />
+			<Flag n="create even when event loops back to self" />
+			<Flag n="face up regardless of location (replace_up)" />
+			<Flag n="disable in aimed down sight (ADS)" />
+			<Flag n="enable only in aimed down sight (ADS)" />
+			<Flag n="use dynamic direction" />
+			<Flag n="conditional" />
+			<Flag n="disabled in any splitscreen" />
+			<Flag n="disabled in 3- and 4-way splitscreen" />
+			<Flag n="active camo of parent object hard kills part" />
+		</_E>
+		<_A Name="Priority" Offset="8" StructName1="PartPriority">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+		</_A>
+		<_A Name="camera mode" Offset="9" StructName1="EffectCameraMode">
+			<Flag n="independent of camera mode" />
+			<Flag n="only in first person" />
+			<Flag n="only in third person" />
+			<Flag n="both first and third" />
+		</_A>
+		<_34 Name="generated_padc859" Offset="A" Length="2" />
+		<_9 Name="runtime base group tag" Offset="C" />
+		<_A Name="game mode" Offset="10" StructName1="EffectGameMode">
+			<Flag n="any" />
+			<Flag n="campaign only" />
+			<Flag n="multiplayer only" />
+		</_A>
+		<_A Name="secondary position type" Offset="11" StructName1="EffectSecondaryPositionType">
+			<Flag n="From LOD Location" />
+			<Flag n="World Space" />
+			<Flag n="Relative Offset" />
+		</_A>
+		<_A Name="secondary rotation type" Offset="12" StructName1="EffectSecondaryRotationType">
+			<Flag n="From LOD Location" />
+			<Flag n="World Space" />
+			<Flag n="Relative Offset" />
+		</_A>
+		<_34 Name="generated_padae78" Offset="13" Length="1" />
+		<_17 Name="secondary position" Offset="14" />
+		<_1C Name="secondary rotation" Offset="20" />
+		<_A Name="Accessibility Type" Offset="2C" StructName1="PartAccessibilityType">
+			<Flag n="None" />
+			<Flag n="Speed Lines" />
+			<Flag n="Weather" />
+		</_A>
+		<_34 Name="generated_pad61c3" Offset="2D" Length="3" />
+		<_41 Name="type" Offset="30" Allowed="rwrd, jpt!, drdf, decs, lens, ligh, gldf, ltvl, sefc, char, cpem, obje, cmoe, snd!, trac, trds, efge, egfd, efwi, intr" Flags="0" />
+		<_37 Name="velocity bounds" type="mela" Offset="4C" />
+		<_25 Name="velocity bounds" Offset="4C" />
+		<_8 Name="velocity cone angle" Offset="54" />
+		<_24 Name="angular velocity bounds" Offset="58" />
+		<_37 Name="radius modifier bounds" type="mela" Offset="60" />
+		<_25 Name="radius modifier bounds" Offset="60" />
+		<_17 Name="relative offset" Offset="68" />
+		<_1C Name="relative orientation" Offset="74" />
+		<_36 Name="SCALE MODIFIERS" Offset="80" />
+		<_D Name="A scales values" Offset="80" StructName1="effect_part_definition::ScalableValuesFlags">
+			<Flag n="velocity" />
+			<Flag n="velocity delta" />
+			<Flag n="velocity cone angle" />
+			<Flag n="angular velocity" />
+			<Flag n="angular velocity delta" />
+			<Flag n="type-specific scale" />
+		</_D>
+		<_D Name="B scales values" Offset="84" StructName1="effect_part_definition::ScalableValuesFlags">
+			<Flag n="velocity" />
+			<Flag n="velocity delta" />
+			<Flag n="velocity cone angle" />
+			<Flag n="angular velocity" />
+			<Flag n="angular velocity delta" />
+			<Flag n="type-specific scale" />
+		</_D>
+		<_2 Name="name" Offset="88" />
+	</_E63D42D710814B9B6CF277F8945DD824>
+	<_2A084D2A007DDA954F217DD28AE44F3A Name="effect_acceleration_definition" Size="10">
+		<_B Name="violence mode" Offset="0" StructName1="EffectDisposition">
+			<Flag n="either mode" />
+			<Flag n="violent mode only" />
+			<Flag n="nonviolent mode only" />
+		</_B>
+		<_2E Name="location" Offset="2" GUID="CAA34E8BF2742E8C3868BCB3BD3E6DF9" StructName1="effect_acceleration_definition" Min="0" Max="8" />
+		<_14 Name="acceleration" Offset="4" />
+		<_14 Name="inner cone angle" Offset="8" />
+		<_14 Name="outer cone angle" Offset="C" />
+	</_2A084D2A007DDA954F217DD28AE44F3A>
+	<_44594963ED8EA5BE4FACCCF5B175896E Name="c_particle_system_definition" Size="78">
+		<_37 Name="" type="ifp+" Offset="0" />
+		<_A Name="Priority" Offset="0" StructName1="PartPriority">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+		</_A>
+		<_A Name="game mode" Offset="1" StructName1="EffectGameMode">
+			<Flag n="any" />
+			<Flag n="campaign only" />
+			<Flag n="multiplayer only" />
+		</_A>
+		<_5 Name="sort bias" Offset="2" />
+		<_41 Name="particle" Offset="4" Allowed="prt3" Flags="0" />
+		<_30 Name="location" Offset="20" GUID="CAA34E8BF2742E8C3868BCB3BD3E6DF9" StructName1="c_particle_system_definition" Min="0" Max="8" />
+		<_A Name="coordinate system" Offset="24" StructName1="ParticleCoordinateSystem">
+			<Flag n="world" />
+			<Flag n="local" />
+		</_A>
+		<_A Name="Accessibility Type" Offset="25" StructName1="PartAccessibilityType">
+			<Flag n="None" />
+			<Flag n="Speed Lines" />
+			<Flag n="Weather" />
+		</_A>
+		<_B Name="disposition" Offset="26" StructName1="EffectDisposition">
+			<Flag n="either mode" />
+			<Flag n="violent mode only" />
+			<Flag n="nonviolent mode only" />
+		</_B>
+		<_A Name="camera mode" Offset="28" StructName1="EffectCameraMode">
+			<Flag n="independent of camera mode" />
+			<Flag n="only in first person" />
+			<Flag n="only in third person" />
+			<Flag n="both first and third" />
+		</_A>
+		<_34 Name="generated_pad75fa" Offset="29" Length="3" />
+		<_D Name="flags" Offset="2C" StructName1="ParticleSystemFlagsDefinition">
+			<Flag n="particles freeze when offscreen" />
+			<Flag n="particles continue as usual when offscreen" />
+			<Flag n="lod always 1.0" />
+			<Flag n="disabled in any splitscreen" />
+			<Flag n="disabled in 3- and 4-way splitscreen" />
+			<Flag n="disabled for debugging" />
+			<Flag n="inherit effect velocity" />
+			<Flag n="don't render system" />
+			<Flag n="particles die when effect ends" />
+			<Flag n="use synchronized random seed" />
+			<Flag n="use world orientation" />
+			<Flag n="render in spawn order" />
+			<Flag n="particles live forever" />
+			<Flag n="disable velocity" />
+			<Flag n="disable when zoomed" />
+			<Flag n="continue when offscreen ignores .performance_throttles tag" />
+			<Flag n="disable in aimed down sight (ADS)" />
+			<Flag n="enable only in aimed down sight (ADS)" />
+			<Flag n="enable only in first person" />
+			<Flag n="particles hard killed when event is dead" />
+			<Flag n="only apply local global forces" />
+			<Flag n="disable near fade" />
+			<Flag n="use gpu" />
+			<Flag n="override lod camera distance range" />
+			<Flag n="render with water" />
+			<Flag n="render after reflections and water (fixes 'see-through' issue on opaque particles)" />
+			<Flag n="active camo of parent object stops particle emission" />
+		</_D>
+		<_25 Name="percent velocity to inherit" Offset="30" />
+		<_14 Name="max bounding radius" Offset="38" />
+		<_14 Name="size scale" Offset="3C" />
+		<_14 Name="camera offset" Offset="40" />
+		<_14 Name="near fade cutoff" Offset="44" />
+		<_14 Name="near fade range" Offset="48" />
+		<_14 Name="far fade range" Offset="4C" />
+		<_14 Name="far fade cutoff" Offset="50" />
+		<_25 Name="Camera Distance Range Override" Offset="54" />
+		<_37 Name="" type="ifp-" Offset="5C" />
+		<_40 Name="emitters" Offset="5C" GUID="98D547C9271EB29DEDE56D98BAFEEB46" StructName1="c_particle_system_definition" Min="0" Max="8" />
+		<_14 Name="runtime max lifespan" Offset="70" />
+		<_2 Name="name" Offset="74" />
+	</_44594963ED8EA5BE4FACCCF5B175896E>
+	<_98D547C9271EB29DEDE56D98BAFEEB46 Name="EmitterInternal" Size="5A8">
+		<_2 Name="emitter name" Offset="0" />
+		<_34 Name="generated_pada31d" Offset="4" Length="4" />
+		<_38 Name="emitter shared values" Offset="8" GUID="4967473B20B6E4A29B72732F8511F43B" />
+		<_38 Name="emitter" Offset="60" GUID="E031425256685118BF2EF872BCD98DE8" />
+		<_34 Name="generated_pad893c" Offset="5A4" Length="4" />
+	</_98D547C9271EB29DEDE56D98BAFEEB46>
+	<_4967473B20B6E4A29B72732F8511F43B Name="EmitterSharedValues" Size="58">
+		<_F Name="emitter debug flags" Offset="0" StructName1="EmitterSharedValues::DebugFlags">
+			<Flag n="disabled for debugging" />
+		</_F>
+		<_F Name="flags" Offset="1" StructName1="EmitterSharedValues::EmitterFlags" />
+		<_34 Name="generated_paddf4f" Offset="2" Length="2" />
+		<_14 Name="bounding radius estimate" Offset="4" />
+		<_14 Name="bounding radius override" Offset="8" />
+		<_38 Name="runtime m_gpu_data" Offset="C" GUID="7C6242C533DE2336992C78EAAD5A8C31" />
+		<_7 Name="cachedConstants" Offset="48" />
+		<_7 Name="updateDataStatic" Offset="50" />
+	</_4967473B20B6E4A29B72732F8511F43B>
+	<_E031425256685118BF2EF872BCD98DE8 Name="c_particle_emitter_definition" Size="544">
+		<_14 Name="estimatedSize" Offset="0" />
+		<_3E Name="runtime m_constant_per_particle_properties" Offset="4" />
+		<_3E Name="runtime m_constant_over_time_properties" Offset="8" />
+		<_3E Name="runtime m_used_particle_states" Offset="C" />
+		<_D Name="particle appearance" Offset="10" StructName1="c_particle_emitter_definition::ParticleAppearanceFlags">
+			<Flag n="random u mirror" />
+			<Flag n="random v mirror" />
+			<Flag n="random starting rotation" />
+			<Flag n="bitmap authored vertically" />
+			<Flag n="intensity affects alpha" />
+			<Flag n="fade when viewed edge-on" />
+			<Flag n="double-sided" />
+			<Flag n="never kill verts on GPU (expensive)" />
+			<Flag n="force per pixel lighting" />
+			<Flag n="render with water" />
+		</_D>
+		<_D Name="particle flags" Offset="14" StructName1="c_particle_emitter_definition::ParticleMainFlags">
+			<Flag n="dies at rest" />
+			<Flag n="dies on structure collision" />
+			<Flag n="dies in water" />
+			<Flag n="dies in air" />
+		</_D>
+		<_F Name="emitter flags" Offset="18" StructName1="c_particle_emitter_definition::VisibleEmitterFlags">
+			<Flag n="volume emitter particle velocities are random" />
+			<Flag n="clamp particle velocities" />
+			<Flag n="particle emitted inside shape" />
+			<Flag n="override particle direction" />
+			<Flag n="use color override as tint" />
+		</_F>
+		<_A Name="emission shape" Offset="19" StructName1="c_particle_emitter_definition::EmissionShape">
+			<Flag n="sprayer" />
+			<Flag n="globe" />
+			<Flag n="tube" />
+			<Flag n="halo" />
+			<Flag n="impact contour" />
+			<Flag n="impact area" />
+			<Flag n="debris" />
+			<Flag n="line" />
+			<Flag n="custom points" />
+			<Flag n="cube" />
+			<Flag n="cylinder" />
+			<Flag n="plane" />
+			<Flag n="jetwash" />
+			<Flag n="planar orbit" />
+			<Flag n="sphere orbit" />
+			<Flag n="plane spray" />
+			<Flag n="view attached" />
+		</_A>
+		<_A Name="particle axis (for models)" Offset="1A" StructName1="c_particle_emitter_definition::e_emission_axis">
+			<Flag n="constant" />
+			<Flag n="disc" />
+			<Flag n="globe" />
+		</_A>
+		<_A Name="particle reference axis" Offset="1B" StructName1="c_particle_emitter_definition::e_emission_reference_axis">
+			<Flag n="x" />
+			<Flag n="y" />
+			<Flag n="z" />
+		</_A>
+		<_41 Name="custom shape" Offset="1C" Allowed="pecp" Flags="0" />
+		<_17 Name="axis scale" Offset="38" />
+		<_19 Name="particle emission direction" Offset="44" />
+		<_38 Name="emission radius" Offset="50" GUID="E8084E37646072529411483C8447409D" />
+		<_B Name="particle billboard style" Offset="74" StructName1="c_particle_emitter_definition::c_particle_emitter_billboard_type">
+			<Flag n="screen facing" />
+			<Flag n="camera facing" />
+			<Flag n="parallel to direction" />
+			<Flag n="perpendicular to direction" />
+			<Flag n="vertical" />
+			<Flag n="horizontal" />
+			<Flag n="local vertical" />
+			<Flag n="local horizontal" />
+			<Flag n="world (particle models)" />
+			<Flag n="velocity horizontal (particle models)" />
+			<Flag n="local" />
+		</_B>
+		<_34 Name="generated_pad4219" Offset="76" Length="2" />
+		<_14 Name="curvature" Offset="78" />
+		<_14 Name="angle fade range" Offset="7C" />
+		<_14 Name="angle fade cutoff" Offset="80" />
+		<_40 Name="particle attachments" Offset="84" GUID="396440FDDB309672D30717368DB1932A" StructName1="c_particle_emitter_definition" Min="0" Max="4" />
+		<_38 Name="relative direction" Offset="98" GUID="D5844EB4937386F6EF8BF01E82972518" />
+		<_38 Name="emission angle" Offset="D4" GUID="E8084E37646072529411483C8447409D" />
+		<_38 Name="translational offset" Offset="F8" GUID="6CE546FA0BEB218FE75582FCA21161F6" />
+		<_16 Name="particle center offset" Offset="134" />
+		<_38 Name="particle lifespan" Offset="13C" GUID="E8084E37646072529411483C8447409D" />
+		<_37 Name="EMISSION SETTINGS" type="fgrb" Offset="160" />
+		<_38 Name="particle starting count" Offset="160" GUID="E8084E37646072529411483C8447409D" />
+		<_38 Name="particle max count" Offset="184" GUID="E8084E37646072529411483C8447409D" />
+		<_38 Name="particle emission rate" Offset="1A8" GUID="E8084E37646072529411483C8447409D" />
+		<_38 Name="particle emission per distance" Offset="1CC" GUID="E8084E37646072529411483C8447409D" />
+		<_37 Name="" type="fgre" Offset="1F0" />
+		<_38 Name="particle size" Offset="1F0" GUID="E8084E37646072529411483C8447409D" />
+		<_38 Name="particle scale" Offset="214" GUID="E8084E37646072529411483C8447409D" />
+		<_38 Name="particle scale x" Offset="238" GUID="E8084E37646072529411483C8447409D" />
+		<_38 Name="particle scale y" Offset="25C" GUID="E8084E37646072529411483C8447409D" />
+		<_38 Name="particle aspect ratio" Offset="280" GUID="E8084E37646072529411483C8447409D" />
+		<_38 Name="particle rotation" Offset="2A4" GUID="E8084E37646072529411483C8447409D" />
+		<_38 Name="particle initial rotation rate" Offset="2C8" GUID="E8084E37646072529411483C8447409D" />
+		<_38 Name="particle initial velocity" Offset="2EC" GUID="E8084E37646072529411483C8447409D" />
+		<_38 Name="particle self-acceleration" Offset="310" GUID="6A544BEE02581257A5C42FB5A48450A0" />
+		<_14 Name="min velocity" Offset="34C" />
+		<_14 Name="max velocity" Offset="350" />
+		<_40 Name="particle attractor/repulsor" Offset="354" GUID="374E470DE17535034C8BECA4BD9324EE" StructName1="c_particle_emitter_definition" Min="0" Max="4" />
+		<_40 Name="particle clip sphere" Offset="368" GUID="759B4A18A39A3EB47511BBDABDB69AF7" StructName1="c_particle_emitter_definition" Min="0" Max="1" />
+		<_37 Name="PARTICLE MOTION" type="fgrb" Offset="37C" />
+		<_37 Name="particle physics template" type="tmpl" Offset="37C" />
+		<_37 Name="" type="hide" Offset="37C" />
+		<_38 Name="particle movement" Offset="37C" GUID="EB8741A82E19EA879D4201DDB25C5661" />
+		<_37 Name="" type="edih" Offset="3D0" />
+		<_37 Name="" type="fgre" Offset="3D0" />
+		<_38 Name="particle intensity" Offset="3D0" GUID="E8084E37646072529411483C8447409D" />
+		<_A Name="particle tint override mode" Offset="3F4" StructName1="i343::Effects::ColorOverrideMode">
+			<Flag n="None" />
+			<Flag n="Color Override 1" />
+			<Flag n="Color Override 2" />
+			<Flag n="Team Color" />
+			<Flag n="DWS Sun Color" />
+		</_A>
+		<_34 Name="generated_pad2838" Offset="3F5" Length="3" />
+		<_38 Name="particle tint" Offset="3F8" GUID="BAFB43CF342C0071630D2DCA9FDA5DD6" />
+		<_A Name="particle tint 2 override mode" Offset="41C" StructName1="i343::Effects::ColorOverrideMode">
+			<Flag n="None" />
+			<Flag n="Color Override 1" />
+			<Flag n="Color Override 2" />
+			<Flag n="Team Color" />
+			<Flag n="DWS Sun Color" />
+		</_A>
+		<_34 Name="generated_paddb83" Offset="41D" Length="3" />
+		<_38 Name="particle tint 2" Offset="420" GUID="BAFB43CF342C0071630D2DCA9FDA5DD6" />
+		<_38 Name="particle alpha" Offset="444" GUID="E8084E37646072529411483C8447409D" />
+		<_38 Name="particle alpha 2" Offset="468" GUID="E8084E37646072529411483C8447409D" />
+		<_38 Name="particle alpha black point" Offset="48C" GUID="E8084E37646072529411483C8447409D" />
+		<_38 Name="particle alpha white point" Offset="4B0" GUID="E8084E37646072529411483C8447409D" />
+		<_A Name="lighting resolution max" Offset="4D4" StructName1="i343::Effects::LightingResolutionMode">
+			<Flag n="16x16" />
+			<Flag n="8x8" />
+			<Flag n="4x4" />
+			<Flag n="2x2" />
+		</_A>
+		<_34 Name="generated_pad5bfa" Offset="4D5" Length="3" />
+		<_38 Name="frame index" Offset="4D8" GUID="E8084E37646072529411483C8447409D" />
+		<_38 Name="animation rate" Offset="4FC" GUID="E8084E37646072529411483C8447409D" />
+		<_38 Name="palette animation" Offset="520" GUID="E8084E37646072529411483C8447409D" />
+	</_E031425256685118BF2EF872BCD98DE8>
+	<_7C6242C533DE2336992C78EAAD5A8C31 Name="GPUPropertyFunctionColor" Size="3C">
+		<_40 Name="runtime gpu_property_block" Offset="0" GUID="46CF4B62A49C08232D11DA0EA45B3947" StructName1="GPUPropertyFunctionColor" Min="0" Max="20" />
+		<_40 Name="runtime gpu_functions_block" Offset="14" GUID="776D4521E4F4C1FD51350BCDAACCF4EA" StructName1="GPUPropertyFunctionColor" Min="0" Max="28" />
+		<_40 Name="runtime gpu_colors_block" Offset="28" GUID="0C16431977A26FFB69DC374981E4C4D3" StructName1="GPUPropertyFunctionColor" Min="0" Max="8" />
+	</_7C6242C533DE2336992C78EAAD5A8C31>
+	<_E8084E37646072529411483C8447409D Name="ParticlePropertyScalar" Size="24">
+		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="c_particle_state_list::e_particle_state_input">
+			<Flag n="particle age" />
+			<Flag n="system age" />
+			<Flag n="particle random" />
+			<Flag n="system random" />
+			<Flag n="particle correlation 1" />
+			<Flag n="particle correlation 2" />
+			<Flag n="particle correlation 3" />
+			<Flag n="particle correlation 4" />
+			<Flag n="system correlation 1" />
+			<Flag n="system correlation 2" />
+			<Flag n="particle emission time" />
+			<Flag n="camera distance" />
+			<Flag n="game time" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="location random" />
+			<Flag n="particle simulation a" />
+			<Flag n="particle simulation b" />
+			<Flag n="particle velocity" />
+			<Flag n="invalid state --- please set again" />
+			<Flag n="active camo (0 = on, 1 = off)" />
+		</_A>
+		<_A Name="Range Variable" type="fnir" Offset="1" StructName1="c_particle_state_list::e_particle_state_input">
+			<Flag n="particle age" />
+			<Flag n="system age" />
+			<Flag n="particle random" />
+			<Flag n="system random" />
+			<Flag n="particle correlation 1" />
+			<Flag n="particle correlation 2" />
+			<Flag n="particle correlation 3" />
+			<Flag n="particle correlation 4" />
+			<Flag n="system correlation 1" />
+			<Flag n="system correlation 2" />
+			<Flag n="particle emission time" />
+			<Flag n="camera distance" />
+			<Flag n="game time" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="location random" />
+			<Flag n="particle simulation a" />
+			<Flag n="particle simulation b" />
+			<Flag n="particle velocity" />
+			<Flag n="invalid state --- please set again" />
+			<Flag n="active camo (0 = on, 1 = off)" />
+		</_A>
+		<_A Name="Output Modifier" type="fnop" Offset="2" StructName1="EditablePropertyBase::OutputModifier">
+			<Flag n=" " />
+			<Flag n="Plus" />
+			<Flag n="Times" />
+		</_A>
+		<_A Name="Output Modifier Input" type="fnom" Offset="3" StructName1="c_particle_state_list::e_particle_state_input">
+			<Flag n="particle age" />
+			<Flag n="system age" />
+			<Flag n="particle random" />
+			<Flag n="system random" />
+			<Flag n="particle correlation 1" />
+			<Flag n="particle correlation 2" />
+			<Flag n="particle correlation 3" />
+			<Flag n="particle correlation 4" />
+			<Flag n="system correlation 1" />
+			<Flag n="system correlation 2" />
+			<Flag n="particle emission time" />
+			<Flag n="camera distance" />
+			<Flag n="game time" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="location random" />
+			<Flag n="particle simulation a" />
+			<Flag n="particle simulation b" />
+			<Flag n="particle velocity" />
+			<Flag n="invalid state --- please set again" />
+			<Flag n="active camo (0 = on, 1 = off)" />
+		</_A>
+		<_37 Name="Mapping" type="fned" Offset="4" />
+		<_38 Name="Mapping" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_14 Name="runtime m_constant_value" type="fncv" Offset="1C" />
+		<_3D Name="runtime m_flags" Offset="20" />
+		<_F Name="force flags" type="fnfc" Offset="22" StructName1="EditablePropertyBase::ForceFlags">
+			<Flag n="force constant" />
+		</_F>
+		<_34 Name="generated_pad859b" Offset="23" Length="1" />
+	</_E8084E37646072529411483C8447409D>
+	<_396440FDDB309672D30717368DB1932A Name="s_particle_attachment" Size="24">
+		<_F Name="flags" Offset="0" StructName1="s_particle_attachment::Flags">
+			<Flag n="disabled for debugging" />
+			<Flag n="pass effect scale to particle attachment" />
+		</_F>
+		<_34 Name="generated_pade010" Offset="1" Length="3" />
+		<_41 Name="type" Offset="4" Allowed="effe, foot" Flags="0" />
+		<_A Name="trigger" Offset="20" StructName1="s_particle_attachment::Type">
+			<Flag n="birth" />
+			<Flag n="collision" />
+			<Flag n="death" />
+			<Flag n="first collision" />
+		</_A>
+		<_3C Name="skip fraction" Offset="21" />
+		<_A Name="primary scale" Offset="22" StructName1="c_particle_state_list::e_particle_state_input">
+			<Flag n="particle age" />
+			<Flag n="system age" />
+			<Flag n="particle random" />
+			<Flag n="system random" />
+			<Flag n="particle correlation 1" />
+			<Flag n="particle correlation 2" />
+			<Flag n="particle correlation 3" />
+			<Flag n="particle correlation 4" />
+			<Flag n="system correlation 1" />
+			<Flag n="system correlation 2" />
+			<Flag n="particle emission time" />
+			<Flag n="camera distance" />
+			<Flag n="game time" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="location random" />
+			<Flag n="particle simulation a" />
+			<Flag n="particle simulation b" />
+			<Flag n="particle velocity" />
+			<Flag n="invalid state --- please set again" />
+			<Flag n="active camo (0 = on, 1 = off)" />
+		</_A>
+		<_A Name="secondary scale" Offset="23" StructName1="c_particle_state_list::e_particle_state_input">
+			<Flag n="particle age" />
+			<Flag n="system age" />
+			<Flag n="particle random" />
+			<Flag n="system random" />
+			<Flag n="particle correlation 1" />
+			<Flag n="particle correlation 2" />
+			<Flag n="particle correlation 3" />
+			<Flag n="particle correlation 4" />
+			<Flag n="system correlation 1" />
+			<Flag n="system correlation 2" />
+			<Flag n="particle emission time" />
+			<Flag n="camera distance" />
+			<Flag n="game time" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="location random" />
+			<Flag n="particle simulation a" />
+			<Flag n="particle simulation b" />
+			<Flag n="particle velocity" />
+			<Flag n="invalid state --- please set again" />
+			<Flag n="active camo (0 = on, 1 = off)" />
+		</_A>
+	</_396440FDDB309672D30717368DB1932A>
+	<_D5844EB4937386F6EF8BF01E82972518 Name="ParticlePropertyRealEulerAngles3d" Size="3C">
+		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="c_particle_state_list::e_particle_state_input">
+			<Flag n="particle age" />
+			<Flag n="system age" />
+			<Flag n="particle random" />
+			<Flag n="system random" />
+			<Flag n="particle correlation 1" />
+			<Flag n="particle correlation 2" />
+			<Flag n="particle correlation 3" />
+			<Flag n="particle correlation 4" />
+			<Flag n="system correlation 1" />
+			<Flag n="system correlation 2" />
+			<Flag n="particle emission time" />
+			<Flag n="camera distance" />
+			<Flag n="game time" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="location random" />
+			<Flag n="particle simulation a" />
+			<Flag n="particle simulation b" />
+			<Flag n="particle velocity" />
+			<Flag n="invalid state --- please set again" />
+			<Flag n="active camo (0 = on, 1 = off)" />
+		</_A>
+		<_A Name="Range Variable" type="fnir" Offset="1" StructName1="c_particle_state_list::e_particle_state_input">
+			<Flag n="particle age" />
+			<Flag n="system age" />
+			<Flag n="particle random" />
+			<Flag n="system random" />
+			<Flag n="particle correlation 1" />
+			<Flag n="particle correlation 2" />
+			<Flag n="particle correlation 3" />
+			<Flag n="particle correlation 4" />
+			<Flag n="system correlation 1" />
+			<Flag n="system correlation 2" />
+			<Flag n="particle emission time" />
+			<Flag n="camera distance" />
+			<Flag n="game time" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="location random" />
+			<Flag n="particle simulation a" />
+			<Flag n="particle simulation b" />
+			<Flag n="particle velocity" />
+			<Flag n="invalid state --- please set again" />
+			<Flag n="active camo (0 = on, 1 = off)" />
+		</_A>
+		<_A Name="Output Modifier" type="fnop" Offset="2" StructName1="EditablePropertyBase::OutputModifier">
+			<Flag n=" " />
+			<Flag n="Plus" />
+			<Flag n="Times" />
+		</_A>
+		<_A Name="Output Modifier Input" type="fnom" Offset="3" StructName1="c_particle_state_list::e_particle_state_input">
+			<Flag n="particle age" />
+			<Flag n="system age" />
+			<Flag n="particle random" />
+			<Flag n="system random" />
+			<Flag n="particle correlation 1" />
+			<Flag n="particle correlation 2" />
+			<Flag n="particle correlation 3" />
+			<Flag n="particle correlation 4" />
+			<Flag n="system correlation 1" />
+			<Flag n="system correlation 2" />
+			<Flag n="particle emission time" />
+			<Flag n="camera distance" />
+			<Flag n="game time" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="location random" />
+			<Flag n="particle simulation a" />
+			<Flag n="particle simulation b" />
+			<Flag n="particle velocity" />
+			<Flag n="invalid state --- please set again" />
+			<Flag n="active camo (0 = on, 1 = off)" />
+		</_A>
+		<_37 Name="Mapping" type="fned" Offset="4" />
+		<_38 Name="Mapping" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_14 Name="runtime m_constant_value" Offset="1C" />
+		<_3D Name="runtime m_flags" Offset="20" />
+		<_F Name="force flags" Offset="22" StructName1="EditablePropertyBase::ForceFlags">
+			<Flag n="force constant" />
+		</_F>
+		<_34 Name="generated_pade3e1" Offset="23" Length="1" />
+		<_1C Name="Direction at 0" Offset="24" />
+		<_1C Name="Direction at 1" Offset="30" />
+	</_D5844EB4937386F6EF8BF01E82972518>
+	<_6CE546FA0BEB218FE75582FCA21161F6 Name="ParticlePropertyRealPoint3d" Size="3C">
+		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="c_particle_state_list::e_particle_state_input">
+			<Flag n="particle age" />
+			<Flag n="system age" />
+			<Flag n="particle random" />
+			<Flag n="system random" />
+			<Flag n="particle correlation 1" />
+			<Flag n="particle correlation 2" />
+			<Flag n="particle correlation 3" />
+			<Flag n="particle correlation 4" />
+			<Flag n="system correlation 1" />
+			<Flag n="system correlation 2" />
+			<Flag n="particle emission time" />
+			<Flag n="camera distance" />
+			<Flag n="game time" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="location random" />
+			<Flag n="particle simulation a" />
+			<Flag n="particle simulation b" />
+			<Flag n="particle velocity" />
+			<Flag n="invalid state --- please set again" />
+			<Flag n="active camo (0 = on, 1 = off)" />
+		</_A>
+		<_A Name="Range Variable" type="fnir" Offset="1" StructName1="c_particle_state_list::e_particle_state_input">
+			<Flag n="particle age" />
+			<Flag n="system age" />
+			<Flag n="particle random" />
+			<Flag n="system random" />
+			<Flag n="particle correlation 1" />
+			<Flag n="particle correlation 2" />
+			<Flag n="particle correlation 3" />
+			<Flag n="particle correlation 4" />
+			<Flag n="system correlation 1" />
+			<Flag n="system correlation 2" />
+			<Flag n="particle emission time" />
+			<Flag n="camera distance" />
+			<Flag n="game time" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="location random" />
+			<Flag n="particle simulation a" />
+			<Flag n="particle simulation b" />
+			<Flag n="particle velocity" />
+			<Flag n="invalid state --- please set again" />
+			<Flag n="active camo (0 = on, 1 = off)" />
+		</_A>
+		<_A Name="Output Modifier" type="fnop" Offset="2" StructName1="EditablePropertyBase::OutputModifier">
+			<Flag n=" " />
+			<Flag n="Plus" />
+			<Flag n="Times" />
+		</_A>
+		<_A Name="Output Modifier Input" type="fnom" Offset="3" StructName1="c_particle_state_list::e_particle_state_input">
+			<Flag n="particle age" />
+			<Flag n="system age" />
+			<Flag n="particle random" />
+			<Flag n="system random" />
+			<Flag n="particle correlation 1" />
+			<Flag n="particle correlation 2" />
+			<Flag n="particle correlation 3" />
+			<Flag n="particle correlation 4" />
+			<Flag n="system correlation 1" />
+			<Flag n="system correlation 2" />
+			<Flag n="particle emission time" />
+			<Flag n="camera distance" />
+			<Flag n="game time" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="location random" />
+			<Flag n="particle simulation a" />
+			<Flag n="particle simulation b" />
+			<Flag n="particle velocity" />
+			<Flag n="invalid state --- please set again" />
+			<Flag n="active camo (0 = on, 1 = off)" />
+		</_A>
+		<_37 Name="Mapping" type="fned" Offset="4" />
+		<_38 Name="Mapping" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_14 Name="runtime m_constant_value" Offset="1C" />
+		<_3D Name="runtime m_flags" Offset="20" />
+		<_F Name="force flags" Offset="22" StructName1="EditablePropertyBase::ForceFlags">
+			<Flag n="force constant" />
+		</_F>
+		<_34 Name="generated_pad0e18" Offset="23" Length="1" />
+		<_17 Name="Starting interpolant" Offset="24" />
+		<_17 Name="Ending interpolant" Offset="30" />
+	</_6CE546FA0BEB218FE75582FCA21161F6>
+	<_6A544BEE02581257A5C42FB5A48450A0 Name="ParticlePropertyRealVector3d" Size="3C">
+		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="c_particle_state_list::e_particle_state_input">
+			<Flag n="particle age" />
+			<Flag n="system age" />
+			<Flag n="particle random" />
+			<Flag n="system random" />
+			<Flag n="particle correlation 1" />
+			<Flag n="particle correlation 2" />
+			<Flag n="particle correlation 3" />
+			<Flag n="particle correlation 4" />
+			<Flag n="system correlation 1" />
+			<Flag n="system correlation 2" />
+			<Flag n="particle emission time" />
+			<Flag n="camera distance" />
+			<Flag n="game time" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="location random" />
+			<Flag n="particle simulation a" />
+			<Flag n="particle simulation b" />
+			<Flag n="particle velocity" />
+			<Flag n="invalid state --- please set again" />
+			<Flag n="active camo (0 = on, 1 = off)" />
+		</_A>
+		<_A Name="Range Variable" type="fnir" Offset="1" StructName1="c_particle_state_list::e_particle_state_input">
+			<Flag n="particle age" />
+			<Flag n="system age" />
+			<Flag n="particle random" />
+			<Flag n="system random" />
+			<Flag n="particle correlation 1" />
+			<Flag n="particle correlation 2" />
+			<Flag n="particle correlation 3" />
+			<Flag n="particle correlation 4" />
+			<Flag n="system correlation 1" />
+			<Flag n="system correlation 2" />
+			<Flag n="particle emission time" />
+			<Flag n="camera distance" />
+			<Flag n="game time" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="location random" />
+			<Flag n="particle simulation a" />
+			<Flag n="particle simulation b" />
+			<Flag n="particle velocity" />
+			<Flag n="invalid state --- please set again" />
+			<Flag n="active camo (0 = on, 1 = off)" />
+		</_A>
+		<_A Name="Output Modifier" type="fnop" Offset="2" StructName1="EditablePropertyBase::OutputModifier">
+			<Flag n=" " />
+			<Flag n="Plus" />
+			<Flag n="Times" />
+		</_A>
+		<_A Name="Output Modifier Input" type="fnom" Offset="3" StructName1="c_particle_state_list::e_particle_state_input">
+			<Flag n="particle age" />
+			<Flag n="system age" />
+			<Flag n="particle random" />
+			<Flag n="system random" />
+			<Flag n="particle correlation 1" />
+			<Flag n="particle correlation 2" />
+			<Flag n="particle correlation 3" />
+			<Flag n="particle correlation 4" />
+			<Flag n="system correlation 1" />
+			<Flag n="system correlation 2" />
+			<Flag n="particle emission time" />
+			<Flag n="camera distance" />
+			<Flag n="game time" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="location random" />
+			<Flag n="particle simulation a" />
+			<Flag n="particle simulation b" />
+			<Flag n="particle velocity" />
+			<Flag n="invalid state --- please set again" />
+			<Flag n="active camo (0 = on, 1 = off)" />
+		</_A>
+		<_37 Name="Mapping" type="fned" Offset="4" />
+		<_38 Name="Mapping" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_14 Name="runtime m_constant_value" Offset="1C" />
+		<_3D Name="runtime m_flags" Offset="20" />
+		<_F Name="force flags" Offset="22" StructName1="EditablePropertyBase::ForceFlags">
+			<Flag n="force constant" />
+		</_F>
+		<_34 Name="generated_pad67a3" Offset="23" Length="1" />
+		<_19 Name="Starting interpolant" Offset="24" />
+		<_19 Name="Ending interpolant" Offset="30" />
+	</_6A544BEE02581257A5C42FB5A48450A0>
+	<_374E470DE17535034C8BECA4BD9324EE Name="c_particle_emitter_definition::ParticleEmitterGlobalForce" Size="40">
+		<_38 Name="global force" Offset="0" GUID="769F4B02395EDDAE1D58C7E1BF35082B" />
+		<_19 Name="offset" Offset="28" />
+		<_19 Name="axis" Offset="34" />
+	</_374E470DE17535034C8BECA4BD9324EE>
+	<_759B4A18A39A3EB47511BBDABDB69AF7 Name="c_particle_emitter_definition::ParticleEmitterClipSphere" Size="10">
+		<_19 Name="offset" Offset="0" />
+		<_14 Name="radius" Offset="C" />
+	</_759B4A18A39A3EB47511BBDABDB69AF7>
+	<_EB8741A82E19EA879D4201DDB25C5661 Name="c_particle_movement_definition" Size="54">
+		<_41 Name="template" Offset="0" Allowed="pmov" Flags="0" />
+		<_E Name="flags" Offset="1C" StructName1="c_particle_movement_definition::Flags">
+			<Flag n="physics" />
+			<Flag n="collide with structure" />
+			<Flag n="collide with water" />
+			<Flag n="collide with scenery" />
+			<Flag n="collide with vehicles" />
+			<Flag n="collide with bipeds" />
+			<Flag n="always collide every frame" />
+			<Flag n="swarm" />
+			<Flag n="global wind" />
+			<Flag n="turbulence" />
+			<Flag n="global force" />
+			<Flag n="disable swarm collision" />
+			<Flag n="dynamic wind" />
+		</_E>
+		<_4 Name="collision controller index" Offset="1E" />
+		<_4 Name="turbulence controller index" Offset="1F" />
+		<_4 Name="global force controller index" Offset="20" />
+		<_34 Name="generated_pad0c06" Offset="21" Length="3" />
+		<_40 Name="movements" Offset="24" GUID="E003416FFFDF1EEAA06AFA10BBE85C7F" StructName1="c_particle_movement_definition" Min="0" Max="8" />
+		<_41 Name="turbulence texture" Offset="38" Allowed="bitm" Flags="0" />
+	</_EB8741A82E19EA879D4201DDB25C5661>
+	<_BAFB43CF342C0071630D2DCA9FDA5DD6 Name="ParticlePropertyColor" Size="24">
+		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="c_particle_state_list::e_particle_state_input">
+			<Flag n="particle age" />
+			<Flag n="system age" />
+			<Flag n="particle random" />
+			<Flag n="system random" />
+			<Flag n="particle correlation 1" />
+			<Flag n="particle correlation 2" />
+			<Flag n="particle correlation 3" />
+			<Flag n="particle correlation 4" />
+			<Flag n="system correlation 1" />
+			<Flag n="system correlation 2" />
+			<Flag n="particle emission time" />
+			<Flag n="camera distance" />
+			<Flag n="game time" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="location random" />
+			<Flag n="particle simulation a" />
+			<Flag n="particle simulation b" />
+			<Flag n="particle velocity" />
+			<Flag n="invalid state --- please set again" />
+			<Flag n="active camo (0 = on, 1 = off)" />
+		</_A>
+		<_A Name="Range Variable" type="fnir" Offset="1" StructName1="c_particle_state_list::e_particle_state_input">
+			<Flag n="particle age" />
+			<Flag n="system age" />
+			<Flag n="particle random" />
+			<Flag n="system random" />
+			<Flag n="particle correlation 1" />
+			<Flag n="particle correlation 2" />
+			<Flag n="particle correlation 3" />
+			<Flag n="particle correlation 4" />
+			<Flag n="system correlation 1" />
+			<Flag n="system correlation 2" />
+			<Flag n="particle emission time" />
+			<Flag n="camera distance" />
+			<Flag n="game time" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="location random" />
+			<Flag n="particle simulation a" />
+			<Flag n="particle simulation b" />
+			<Flag n="particle velocity" />
+			<Flag n="invalid state --- please set again" />
+			<Flag n="active camo (0 = on, 1 = off)" />
+		</_A>
+		<_A Name="Output Modifier" type="fnop" Offset="2" StructName1="EditablePropertyBase::OutputModifier">
+			<Flag n=" " />
+			<Flag n="Plus" />
+			<Flag n="Times" />
+		</_A>
+		<_A Name="Output Modifier Input" type="fnom" Offset="3" StructName1="c_particle_state_list::e_particle_state_input">
+			<Flag n="particle age" />
+			<Flag n="system age" />
+			<Flag n="particle random" />
+			<Flag n="system random" />
+			<Flag n="particle correlation 1" />
+			<Flag n="particle correlation 2" />
+			<Flag n="particle correlation 3" />
+			<Flag n="particle correlation 4" />
+			<Flag n="system correlation 1" />
+			<Flag n="system correlation 2" />
+			<Flag n="particle emission time" />
+			<Flag n="camera distance" />
+			<Flag n="game time" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="location random" />
+			<Flag n="particle simulation a" />
+			<Flag n="particle simulation b" />
+			<Flag n="particle velocity" />
+			<Flag n="invalid state --- please set again" />
+			<Flag n="active camo (0 = on, 1 = off)" />
+		</_A>
+		<_37 Name="Mapping" type="fned" Offset="4" />
+		<_38 Name="Mapping" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_14 Name="runtime m_constant_value" Offset="1C" />
+		<_3D Name="runtime m_flags" Offset="20" />
+		<_F Name="force flags" Offset="22" StructName1="EditablePropertyBase::ForceFlags">
+			<Flag n="force constant" />
+		</_F>
+		<_34 Name="generated_padd216" Offset="23" Length="1" />
+	</_BAFB43CF342C0071630D2DCA9FDA5DD6>
+	<_46CF4B62A49C08232D11DA0EA45B3947 Name="GPUPropertyParam" Size="10">
+		<_39 Name="runtime gpu_property_sub_array" Offset="0" GUID="EC34402B5E56CDB19B7468BABF36EF1D" Count="4" StructName1="runtime gpu_property_sub_array" />
+	</_46CF4B62A49C08232D11DA0EA45B3947>
+	<_776D4521E4F4C1FD51350BCDAACCF4EA Name="GPUFunctionParam" Size="40">
+		<_39 Name="runtime gpu_function_sub_array" Offset="0" GUID="E09141A2D6260931A3D78599984511D9" Count="16" StructName1="runtime gpu_function_sub_array" />
+	</_776D4521E4F4C1FD51350BCDAACCF4EA>
+	<_0C16431977A26FFB69DC374981E4C4D3 Name="GPUColorParam" Size="10">
+		<_39 Name="runtime gpu_color_sub_array" Offset="0" GUID="84F141D4EBCC1FB08EFF6043A584B00F" Count="4" StructName1="runtime gpu_color_sub_array" />
+	</_0C16431977A26FFB69DC374981E4C4D3>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+	<_769F4B02395EDDAE1D58C7E1BF35082B Name="EffectGlobalForceDefinition" Size="28">
+		<_F Name="flags" Offset="0" StructName1="EffectGlobalForceDefinition::Flags">
+			<Flag n="is infinitely long cylinder" />
+			<Flag n="multiply force by attached object speed" />
+			<Flag n="override force direction" />
+		</_F>
+		<_A Name="shape" Offset="1" StructName1="EffectGlobalForceDefinition::Shape">
+			<Flag n="sphere" />
+			<Flag n="cylinder" />
+			<Flag n="plane" />
+		</_A>
+		<_3C Name="version" Offset="2" />
+		<_34 Name="generated_pad5f24" Offset="3" Length="1" />
+		<_14 Name="normal force strength" Offset="4" />
+		<_14 Name="tangent force strength" Offset="8" />
+		<_14 Name="binormal force strength" Offset="C" />
+		<_14 Name="falloff begin" Offset="10" />
+		<_14 Name="falloff end" Offset="14" />
+		<_14 Name="max speed" Offset="18" />
+		<_19 Name="direction override" Offset="1C" />
+	</_769F4B02395EDDAE1D58C7E1BF35082B>
+	<_E003416FFFDF1EEAA06AFA10BBE85C7F Name="c_particle_controller" Size="20">
+		<_B Name="type" Offset="0" StructName1="c_particle_movement_definition::ControllerType">
+			<Flag n="physics" />
+			<Flag n="collider" />
+			<Flag n="swarm" />
+			<Flag n="wind" />
+			<Flag n="turbulence" />
+			<Flag n="global force" />
+		</_B>
+		<_F Name="flags" Offset="2" StructName1="c_particle_controller::Flags">
+			<Flag n="properties fully indexed" />
+		</_F>
+		<_34 Name="generated_padc087" Offset="3" Length="1" />
+		<_40 Name="parameters" Offset="4" GUID="7FCF4CE1AC90ED639C137F95ADDEA140" StructName1="c_particle_controller" Min="0" Max="9" />
+		<_3E Name="runtime m_constant_parameters" Offset="18" />
+		<_3E Name="runtime m_used_particle_states" Offset="1C" />
+	</_E003416FFFDF1EEAA06AFA10BBE85C7F>
+	<_EC34402B5E56CDB19B7468BABF36EF1D Name="GPUPropertySubArray" Size="4">
+		<_14 Name="runtime gpu_property_real" Offset="0" />
+	</_EC34402B5E56CDB19B7468BABF36EF1D>
+	<_E09141A2D6260931A3D78599984511D9 Name="GPUFunctionSubArray" Size="4">
+		<_14 Name="runtime gpu_function_real" Offset="0" />
+	</_E09141A2D6260931A3D78599984511D9>
+	<_84F141D4EBCC1FB08EFF6043A584B00F Name="GPUColorSubArray" Size="4">
+		<_14 Name="runtime gpu_color_real" Offset="0" />
+	</_84F141D4EBCC1FB08EFF6043A584B00F>
+	<_7FCF4CE1AC90ED639C137F95ADDEA140 Name="c_particle_controller_parameter" Size="28">
+		<_6 Name="parameter id" Offset="0" />
+		<_38 Name="property" Offset="4" GUID="E8084E37646072529411483C8447409D" />
+	</_7FCF4CE1AC90ED639C137F95ADDEA140>
+</root>

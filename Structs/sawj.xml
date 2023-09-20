@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:16 PM" Name="WallJumpDefinitionTag" Parents="aTag" Index="-356">
+	<_86584C6FF7996914B98EA00BA0BA334A Name="i343::SpartanAbilities::WallJumpDefinitionTag" Size="A8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="wallJump" Offset="10" GUID="20E34D55880217E7BD71C36183C1D76D" />
+	</_86584C6FF7996914B98EA00BA0BA334A>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_20E34D55880217E7BD71C36183C1D76D Name="i343::SpartanAbilities::WallJumpDefinition" Size="98">
+		<_38 Name="common ability parameters" Offset="0" GUID="D954483CA0B1EFF4F0B4EBCD88F17DD4" />
+		<_D Name="flags" Offset="78" StructName1="i343::SpartanAbilities::WallJumpDefinitionFlags">
+			<Flag n="Must land again after activating" />
+		</_D>
+		<_36 Name="Contact point checks" Offset="7C" />
+		<_14 Name="hit sphere offset z" Offset="7C" />
+		<_14 Name="gap to wall tolerance" Offset="80" />
+		<_15 Name="contact normal threshold z" Offset="84" />
+		<_36 Name="Jump parameters" Offset="88" />
+		<_15 Name="throttle threshold" Offset="88" />
+		<_15 Name="default throttle xy" Offset="8C" />
+		<_14 Name="velocity z" Offset="90" />
+		<_14 Name="velocity xy" Offset="94" />
+	</_20E34D55880217E7BD71C36183C1D76D>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_D954483CA0B1EFF4F0B4EBCD88F17DD4 Name="i343::SpartanAbilities::SpartanAbilityCommonParameters" Size="78">
+		<_37 Name="common ability parameters" type="fgrb" Offset="0" />
+		<_C Name="input" Offset="0" StructName1="i343::Units::ArmorInput">
+			<Flag n="Default" />
+			<Flag n="Mobility" />
+			<Flag n="Suit" />
+			<Flag n="Jump" />
+			<Flag n="Equipment" />
+			<Flag n="Melee" />
+			<Flag n="PowerUp" />
+			<Flag n="Unmapped" />
+		</_C>
+		<_D Name="flags" Offset="4" StructName1="i343::SpartanAbilities::SpartanAbilityDefinitionFlags">
+			<Flag n="Use 3rd Person Camera When Active" />
+			<Flag n="Hide Reticle When Active" />
+			<Flag n="Is Motion Tracked (By Enemies) When Active" />
+			<Flag n="One-Shot Activation Effect" />
+			<Flag n="Can be activated when weapon state is relaxed" />
+			<Flag n="Does Not Appear In Extended Motion Tracker Range" />
+			<Flag n="Energy persists across deaths" />
+			<Flag n="Activation interrupts weapon switching" />
+			<Flag n="Allow activation during weapon throw" />
+			<Flag n="Allow activation while sliding" />
+			<Flag n="Drop support weapon when activated" />
+			<Flag n="Drop must be readied weapon when activated" />
+		</_D>
+		<_15 Name="activation energy cost" Offset="8" />
+		<_14 Name="active energy consumption" Offset="C" />
+		<_14 Name="recharge duration" Offset="10" />
+		<_14 Name="recharge delay" Offset="14" />
+		<_14 Name="cooldown delay" Offset="18" />
+		<_41 Name="activation effect" Offset="1C" Allowed="effe" Flags="0" />
+		<_14 Name="activation effect kill delay" Offset="38" />
+		<_A Name="sprint preservation" Offset="3C" StructName1="i343::SpartanAbilities::SprintPreservation">
+			<Flag n="No" />
+			<Flag n="Zero fraction" />
+			<Flag n="Retain fraction" />
+			<Flag n="Decay (normal)" />
+			<Flag n="Decay (forced)" />
+		</_A>
+		<_34 Name="generated_pad0aca" Offset="3D" Length="3" />
+		<_41 Name="active malleable property modifiers" Offset="40" Allowed="gmpm" Flags="0" />
+		<_41 Name="timed malleable property modifiers" Offset="5C" Allowed="gmpm" Flags="0" />
+		<_37 Name="" type="fgre" Offset="78" />
+	</_D954483CA0B1EFF4F0B4EBCD88F17DD4>
+</root>

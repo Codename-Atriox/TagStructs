@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:16 PM" Name="supercombine" Parents="aTag" Index="-360">
+	<_258B48DFA1B18504B5DB8CC1B9A23BDA Name="i343::Projectiles::SuperCombineDefinition" Size="1E8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="Default Effects" type="fgrb" Offset="10" />
+		<_38 Name="default super combine effects" Offset="10" GUID="0AA145C10E59463F5EC210CFBAEB4E73" />
+		<_37 Name="" type="fgre" Offset="80" />
+		<_37 Name="Biped Effects" type="fgrb" Offset="80" />
+		<_38 Name="biped super combine effects" Offset="80" GUID="0AA145C10E59463F5EC210CFBAEB4E73" />
+		<_37 Name="" type="fgre" Offset="F0" />
+		<_37 Name="Vehicle Effects" type="fgrb" Offset="F0" />
+		<_38 Name="vehicle super combine effects" Offset="F0" GUID="0AA145C10E59463F5EC210CFBAEB4E73" />
+		<_37 Name="" type="fgre" Offset="160" />
+		<_41 Name="super detonation" Offset="160" Allowed="effe" Flags="0" />
+		<_41 Name="super detonation damage" Offset="17C" Allowed="jpt!" Flags="0" />
+		<_41 Name="super detonation sound" Offset="198" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="super attached detonation damage" Offset="1B4" Allowed="jpt!" Flags="0" />
+		<_E Name="super detonation object types" Offset="1D0" StructName1="ScenarioObjectTypeFlag">
+			<Flag n="biped" />
+			<Flag n="vehicle" />
+			<Flag n="weapon" />
+			<Flag n="equipment" />
+			<Flag n="terminal" />
+			<Flag n="projectile" />
+			<Flag n="scenery" />
+			<Flag n="machine" />
+			<Flag n="control" />
+			<Flag n="dispenser" />
+			<Flag n="crate" />
+			<Flag n="creature" />
+			<Flag n="giant" />
+			<Flag n="effect_scenery" />
+		</_E>
+		<_34 Name="generated_padc196" Offset="1D2" Length="2" />
+		<_6 Name="default super combine amount" Offset="1D4" />
+		<_6 Name="biped super combine amount" Offset="1D8" />
+		<_6 Name="vehicle super combine amount" Offset="1DC" />
+		<_14 Name="super det. time" Offset="1E0" />
+		<_34 Name="generated_pad0e4b" Offset="1E4" Length="4" />
+	</_258B48DFA1B18504B5DB8CC1B9A23BDA>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_0AA145C10E59463F5EC210CFBAEB4E73 Name="i343::Projectiles::SuperCombineEffects" Size="70">
+		<_41 Name="super detonation" Offset="0" Allowed="effe" Flags="0" />
+		<_41 Name="super detonation damage" Offset="1C" Allowed="jpt!" Flags="0" />
+		<_41 Name="super detonation sound" Offset="38" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="super attached detonation damage" Offset="54" Allowed="jpt!" Flags="0" />
+	</_0AA145C10E59463F5EC210CFBAEB4E73>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

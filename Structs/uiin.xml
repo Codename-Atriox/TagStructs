@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="UIItemInspect" Parents="aTag" Index="-446">
+	<_507F478B78D9FB3ABF213EB0B131A31E Name="Interface::Customization::UIItemInspectTag" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Customization Inspect Settings" Offset="10" GUID="58194787161E39695185C687BCA1F17F" StructName1="Interface::Customization::UIItemInspectTag" Min="0" Max="1" />
+		<_34 Name="generated_pad03f1" Offset="24" Length="4" />
+	</_507F478B78D9FB3ABF213EB0B131A31E>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_58194787161E39695185C687BCA1F17F Name="Interface::Customization::UIItemInspectSettings" Size="8">
+		<_6 Name="Fodeout End Time" Offset="0" />
+		<_2 Name="Default Composer Scene Name" Offset="4" />
+	</_58194787161E39695185C687BCA1F17F>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:12 PM" Name="leaf_system" Parents="aTag" Index="-241">
+	<_1694654C0609FC2300C0A48B86B19DA1 Name="s_leaf_system_definition" Size="80">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_D Name="flags" Offset="10" StructName1="LeafSystemFlags">
+			<Flag n="collides structure" />
+			<Flag n="collides objects" />
+			<Flag n="collides water" />
+			<Flag n="affected by explosions" />
+		</_D>
+		<_2 Name="marker attach name" Offset="14" />
+		<_41 Name="bitmap sprite plate" Offset="18" Allowed="bitm" Flags="0" />
+		<_25 Name="emission rate" Offset="34" />
+		<_14 Name="lifetime" Offset="3C" />
+		<_25 Name="wind min/max" Offset="40" />
+		<_14 Name="wind scale" Offset="48" />
+		<_14 Name="time scale" Offset="4C" />
+		<_25 Name="fade distance" Offset="50" />
+		<_14 Name="emissions sphere radius" Offset="58" />
+		<_14 Name="movement cylinder radius" Offset="5C" />
+		<_14 Name="fade in time" Offset="60" />
+		<_14 Name="fade out time" Offset="64" />
+		<_40 Name="leaf types" Offset="68" GUID="B33945219CB09D25FA4AED55BC2282FD" StructName1="s_leaf_system_definition" Min="0" Max="16" />
+		<_34 Name="generated_paddb8c" Offset="7C" Length="4" />
+	</_1694654C0609FC2300C0A48B86B19DA1>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_B33945219CB09D25FA4AED55BC2282FD Name="s_leaf_type" Size="3C">
+		<_5 Name="bitmap sprite index" Offset="0" />
+		<_34 Name="generated_padb751" Offset="2" Length="2" />
+		<_14 Name="frequency" Offset="4" />
+		<_14 Name="mass" Offset="8" />
+		<_25 Name="geometry scale" Offset="C" />
+		<_14 Name="flitteriness" Offset="14" />
+		<_14 Name="flitteriness swing arm length" Offset="18" />
+		<_14 Name="flitteriness scale" Offset="1C" />
+		<_14 Name="flitteriness speed" Offset="20" />
+		<_14 Name="flitteriness leaves phase" Offset="24" />
+		<_14 Name="tumble scale" Offset="28" />
+		<_14 Name="rotation scale" Offset="2C" />
+		<_14 Name="starting velocity" Offset="30" />
+		<_26 Name="air friction XY and Z" Offset="34" />
+	</_B33945219CB09D25FA4AED55BC2282FD>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

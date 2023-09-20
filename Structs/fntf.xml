@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="typeface" Parents="aTag" Index="-150">
+	<_B3064BC2A3C8319868E555A889AD3922 Name="TypefaceDefinition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="typefaces" Offset="10" GUID="A67248C6187F31EB6C1B111088656137" StructName1="TypefaceDefinition" Min="0" Max="512" />
+		<_34 Name="generated_padb4d2" Offset="24" Length="4" />
+	</_B3064BC2A3C8319868E555A889AD3922>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_A67248C6187F31EB6C1B111088656137 Name="LocTypeface" Size="120">
+		<_2 Name="Typeface name" Offset="0" />
+		<_38 Name="Default typeface" Offset="4" GUID="14F3451233353A03F171CD329ECBEAEA" />
+		<_40 Name="Language-specific typefaces" Offset="10C" GUID="401B4EACFC1D57F013402F658AE0CCDF" StructName1="LocTypeface" Min="0" Max="32" />
+	</_A67248C6187F31EB6C1B111088656137>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_14F3451233353A03F171CD329ECBEAEA Name="Typeface" Size="108">
+		<_1 Name="font name" Offset="0" />
+		<_C Name="font weight" Offset="100" StructName1="FontWeight">
+			<Flag n="ExtraLight (200)" />
+			<Flag n="Thin (250)" />
+			<Flag n="Light (300)" />
+			<Flag n="SemiLight (350)" />
+			<Flag n="Regular (400)" />
+			<Flag n="Medium (500)" />
+			<Flag n="SemiBold (600)" />
+			<Flag n="Bold (700)" />
+			<Flag n="ExtraBold (800)" />
+			<Flag n="Black (900)" />
+			<Flag n="ExtraBlack (950)" />
+		</_C>
+		<_E Name="flags" Offset="104" StructName1="_FontFaceFlags">
+			<Flag n="Italic" />
+		</_E>
+		<_34 Name="generated_pad6635" Offset="106" Length="2" />
+	</_14F3451233353A03F171CD329ECBEAEA>
+	<_401B4EACFC1D57F013402F658AE0CCDF Name="LanguageTypeface" Size="10C">
+		<_C Name="Language" Offset="0" StructName1="e_language">
+			<Flag n="English" />
+			<Flag n="Japanese" />
+			<Flag n="German" />
+			<Flag n="French" />
+			<Flag n="Spanish" />
+			<Flag n="Mexican-Spanish" />
+			<Flag n="Italian" />
+			<Flag n="Korean" />
+			<Flag n="Traditional-Chinese" />
+			<Flag n="Simplified-Chinese" />
+			<Flag n="Portuguese" />
+			<Flag n="Polish" />
+			<Flag n="Russian" />
+			<Flag n="Danish" />
+			<Flag n="Finnish" />
+			<Flag n="Dutch" />
+			<Flag n="Norwegian" />
+			<Flag n="Brazilian-Portuguese" />
+		</_C>
+		<_38 Name="Replacement typeface" Offset="4" GUID="14F3451233353A03F171CD329ECBEAEA" />
+	</_401B4EACFC1D57F013402F658AE0CCDF>
+</root>

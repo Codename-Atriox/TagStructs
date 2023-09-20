@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="NavPointAnimationDefinition" Parents="aTag" Index="-270">
+	<_6E064A759CDB91A35E9822DA932D2983 Name="Interface::NavPoint::NavPointAnimationDefinition" Size="1C0">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_C Name="loop type" Offset="10" StructName1="Interface::NavPoint::eLooping">
+			<Flag n="LoopForward" />
+			<Flag n="LoopReversed" />
+			<Flag n="LoopForwardThenReversed" />
+			<Flag n="PlayOnceThenHold" />
+			<Flag n="PlayOnceReversedThenHold" />
+			<Flag n="PlayOnceForwardThenReversed" />
+		</_C>
+		<_14 Name="total time animation runs for" Offset="14" />
+		<_14 Name="delay before looping" Offset="18" />
+		<_38 Name="progress-time function" Offset="1C" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_36 Name="center sprite bg" Offset="34" />
+		<_38 Name="center sprite bg" Offset="34" GUID="2A884CD9B72D9F5B1B8F3F328E8C9160" />
+		<_36 Name="center sprite fg" Offset="54" />
+		<_38 Name="center sprite fg" Offset="54" GUID="2A884CD9B72D9F5B1B8F3F328E8C9160" />
+		<_36 Name="center radial progress bar" Offset="74" />
+		<_38 Name="center radial progress bar" Offset="74" GUID="4AD64E660436D649858016C191B83398" />
+		<_36 Name="top sprite" Offset="9C" />
+		<_38 Name="top sprite" Offset="9C" GUID="2A884CD9B72D9F5B1B8F3F328E8C9160" />
+		<_36 Name="top center sprite" Offset="BC" />
+		<_38 Name="top center sprite" Offset="BC" GUID="2A884CD9B72D9F5B1B8F3F328E8C9160" />
+		<_36 Name="top label" Offset="DC" />
+		<_38 Name="top label" Offset="DC" GUID="42C94E159B2A901DD32AB04983BAA47A" />
+		<_36 Name="right progress bar" Offset="F8" />
+		<_38 Name="right progress bar" Offset="F8" GUID="4AD64E660436D649858016C191B83398" />
+		<_36 Name="right progress bar 2" Offset="120" />
+		<_38 Name="right progress bar 2" Offset="120" GUID="4AD64E660436D649858016C191B83398" />
+		<_36 Name="right label" Offset="148" />
+		<_38 Name="right label" Offset="148" GUID="42C94E159B2A901DD32AB04983BAA47A" />
+		<_36 Name="right timer" Offset="164" />
+		<_38 Name="right timer" Offset="164" GUID="42C94E159B2A901DD32AB04983BAA47A" />
+		<_36 Name="left timer" Offset="180" />
+		<_38 Name="left timer" Offset="180" GUID="42C94E159B2A901DD32AB04983BAA47A" />
+		<_36 Name="yaw sprite" Offset="19C" />
+		<_38 Name="yaw sprite" Offset="19C" GUID="2A884CD9B72D9F5B1B8F3F328E8C9160" />
+		<_34 Name="generated_pada240" Offset="1BC" Length="4" />
+	</_6E064A759CDB91A35E9822DA932D2983>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+	<_2A884CD9B72D9F5B1B8F3F328E8C9160 Name="Interface::NavPoint::SpriteKeyframe" Size="20">
+		<_D Name="flags" Offset="0" StructName1="Interface::NavPoint::SpriteKeyframeFlags">
+			<Flag n="SequenceIndexValid" />
+			<Flag n="WidthValid" />
+			<Flag n="HeightValid" />
+			<Flag n="ColorValid" />
+			<Flag n="AlphaValid" />
+		</_D>
+		<_C Name="sequenceIndex" Offset="4" StructName1="Interface::NavPoint::TagSpriteSequence">
+			<Flag n="TacticalObjective" />
+			<Flag n="SubObjective" />
+			<Flag n="MainObjective" />
+			<Flag n="SupplyCache" />
+			<Flag n="MoveToIndicator" />
+			<Flag n="ChatterIndicator" />
+			<Flag n="AttackCommandFg" />
+			<Flag n="ReviveFg" />
+			<Flag n="ReviveBg" />
+			<Flag n="BleedoutTimerStroke" />
+			<Flag n="ReviveCommand" />
+			<Flag n="ReviveHelpPulse" />
+			<Flag n="WzBossFg" />
+			<Flag n="WzBossBg" />
+			<Flag n="WzReqFg" />
+			<Flag n="WzHomeBaseFg" />
+			<Flag n="AttackFg" />
+			<Flag n="DefendFg" />
+			<Flag n="CircleBg" />
+			<Flag n="DiamondBg" />
+			<Flag n="SquareBg" />
+			<Flag n="HexBg" />
+			<Flag n="CircleStroke" />
+			<Flag n="DiamondStroke" />
+			<Flag n="SquareStroke" />
+			<Flag n="HexStroke" />
+			<Flag n="ExclamationFg" />
+			<Flag n="DeadIndicator" />
+			<Flag n="SpeakingIndicator" />
+			<Flag n="WeaponPadFg" />
+			<Flag n="CubeFg" />
+			<Flag n="FlagFg" />
+			<Flag n="LetterAFg" />
+			<Flag n="LetterBFg" />
+			<Flag n="LetterCFg" />
+			<Flag n="BombFg" />
+			<Flag n="CrownFg" />
+			<Flag n="SmallOffscreenArrow" />
+			<Flag n="FriendlyArrow" />
+			<Flag n="EnemyArrow" />
+			<Flag n="SeekIndicator" />
+			<Flag n="LockOnIndicator" />
+			<Flag n="ReqBg" />
+			<Flag n="Num0Fg" />
+			<Flag n="Num1Fg" />
+			<Flag n="Num2Fg" />
+			<Flag n="Num3Fg" />
+			<Flag n="Num4Fg" />
+			<Flag n="Num5Fg" />
+			<Flag n="Num6Fg" />
+			<Flag n="Num7Fg" />
+			<Flag n="Num8Fg" />
+			<Flag n="Num9Fg" />
+			<Flag n="FrameIdentifier1" />
+			<Flag n="FrameIdentifier2" />
+			<Flag n="FrameIdentifier3" />
+			<Flag n="FrameIdentifier4" />
+			<Flag n="AbilityAutoTurret" />
+			<Flag n="AbilityCloak" />
+			<Flag n="AbilityGravSphere" />
+			<Flag n="AbilityHealthBlast" />
+			<Flag n="AbilityHex" />
+			<Flag n="AbilityHologram" />
+			<Flag n="AbilityLocationDart" />
+			<Flag n="AbilityMedicDrone" />
+			<Flag n="AbilityTrap" />
+		</_C>
+		<_16 Name="width and height" Offset="8" />
+		<_1F Name="color" Offset="10" />
+		<_14 Name="alpha" Offset="1C" />
+	</_2A884CD9B72D9F5B1B8F3F328E8C9160>
+	<_4AD64E660436D649858016C191B83398 Name="Interface::NavPoint::TwoColorKeyframe" Size="28">
+		<_D Name="flags" Offset="0" StructName1="Interface::NavPoint::TwoColorKeyframeFlags">
+			<Flag n="WidthValid" />
+			<Flag n="HeightValid" />
+			<Flag n="LeftColorValid" />
+			<Flag n="RightColorValid" />
+			<Flag n="AlphaValid" />
+		</_D>
+		<_16 Name="width and height" Offset="4" />
+		<_1F Name="left color" Offset="C" />
+		<_1F Name="right color" Offset="18" />
+		<_14 Name="alpha" Offset="24" />
+	</_4AD64E660436D649858016C191B83398>
+	<_42C94E159B2A901DD32AB04983BAA47A Name="Interface::NavPoint::Keyframe" Size="1C">
+		<_D Name="flags" Offset="0" StructName1="Interface::NavPoint::KeyframeFlags">
+			<Flag n="WidthValid" />
+			<Flag n="HeightValid" />
+			<Flag n="ColorValid" />
+			<Flag n="AlphaValid" />
+		</_D>
+		<_16 Name="width and height" Offset="4" />
+		<_1F Name="color" Offset="C" />
+		<_14 Name="alpha" Offset="18" />
+	</_42C94E159B2A901DD32AB04983BAA47A>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

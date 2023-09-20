@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:22 PM" Name="user_interface_globals_definition" Parents="aTag" Index="-479">
+	<_C3CE4535FF5E470331D62CBEBBBF413E Name="s_user_interface_tag_globals" Size="1D0">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="Screen Widgets" Offset="10" />
+		<_40 Name="node graphs" Offset="10" GUID="3A4D430D064AE50C78664370816BD9C4" StructName1="s_user_interface_tag_globals" Min="0" Max="256" />
+		<_40 Name="bitmap dictionaries" Offset="24" GUID="D3C94148CD4A6B7F45C7C7F08708E91E" StructName1="s_user_interface_tag_globals" Min="0" Max="256" />
+		<_36 Name="Lua User Libraries" Offset="38" />
+		<_40 Name="lua user libraries" Offset="38" GUID="737041B838464D85B3CB9F7594612A80" StructName1="s_user_interface_tag_globals" Min="0" Max="32" />
+		<_40 Name="cui screen widgets" Offset="4C" GUID="4C3B47695760E7A07B28874286F13D78" StructName1="s_user_interface_tag_globals" Min="0" Max="256" />
+		<_40 Name="cui overlay cameras" Offset="60" GUID="054D418E83781BD0955626E08894CE59" StructName1="s_user_interface_tag_globals" Min="0" Max="24" />
+		<_14 Name="spawn-timer countdown rate" Offset="74" />
+		<_40 Name="game intro sequence" Offset="78" GUID="A4944DE5790FA35052620CA4837B32AD" StructName1="s_user_interface_tag_globals" Min="0" Max="8" />
+		<_40 Name="game round end sequence" Offset="8C" GUID="A4944DE5790FA35052620CA4837B32AD" StructName1="s_user_interface_tag_globals" Min="0" Max="8" />
+		<_40 Name="game round end with killcam sequence" Offset="A0" GUID="A4944DE5790FA35052620CA4837B32AD" StructName1="s_user_interface_tag_globals" Min="0" Max="8" />
+		<_40 Name="game next round sequence" Offset="B4" GUID="A4944DE5790FA35052620CA4837B32AD" StructName1="s_user_interface_tag_globals" Min="0" Max="8" />
+		<_40 Name="game end sequence" Offset="C8" GUID="A4944DE5790FA35052620CA4837B32AD" StructName1="s_user_interface_tag_globals" Min="0" Max="8" />
+		<_40 Name="game end with killcam sequence" Offset="DC" GUID="A4944DE5790FA35052620CA4837B32AD" StructName1="s_user_interface_tag_globals" Min="0" Max="8" />
+		<_40 Name="in game sequence" Offset="F0" GUID="A4944DE5790FA35052620CA4837B32AD" StructName1="s_user_interface_tag_globals" Min="0" Max="8" />
+		<_40 Name="halftime sequence" Offset="104" GUID="A4944DE5790FA35052620CA4837B32AD" StructName1="s_user_interface_tag_globals" Min="0" Max="8" />
+		<_40 Name="overtime sequence" Offset="118" GUID="A4944DE5790FA35052620CA4837B32AD" StructName1="s_user_interface_tag_globals" Min="0" Max="8" />
+		<_40 Name="map intro sequence" Offset="12C" GUID="A4944DE5790FA35052620CA4837B32AD" StructName1="s_user_interface_tag_globals" Min="0" Max="8" />
+		<_40 Name="player intro sequence" Offset="140" GUID="A4944DE5790FA35052620CA4837B32AD" StructName1="s_user_interface_tag_globals" Min="0" Max="8" />
+		<_40 Name="team intro sequence" Offset="154" GUID="A4944DE5790FA35052620CA4837B32AD" StructName1="s_user_interface_tag_globals" Min="0" Max="8" />
+		<_40 Name="team regroup sequence" Offset="168" GUID="A4944DE5790FA35052620CA4837B32AD" StructName1="s_user_interface_tag_globals" Min="0" Max="8" />
+		<_40 Name="team outro sequence" Offset="17C" GUID="A4944DE5790FA35052620CA4837B32AD" StructName1="s_user_interface_tag_globals" Min="0" Max="8" />
+		<_41 Name="HUD globals" Offset="190" Allowed="uihg" Flags="0" />
+		<_6 Name="Total object count budget" Offset="1AC" />
+		<_41 Name="In-Game Map Settings Tag" Offset="1B0" Allowed="maps" Flags="0" />
+		<_34 Name="generated_pad86bd" Offset="1CC" Length="4" />
+	</_C3CE4535FF5E470331D62CBEBBBF413E>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_3A4D430D064AE50C78664370816BD9C4 Name="NodeGraphReferenceBlockDefinition" Size="1C">
+		<_41 Name="node graph tag" Offset="0" Allowed="ngst" Flags="0" />
+	</_3A4D430D064AE50C78664370816BD9C4>
+	<_D3C94148CD4A6B7F45C7C7F08708E91E Name="BitmapDictionaryReferenceBlockDefinition" Size="1C">
+		<_41 Name="bitmap dictionary" Offset="0" Allowed="bitd" Flags="0" />
+	</_D3C94148CD4A6B7F45C7C7F08708E91E>
+	<_737041B838464D85B3CB9F7594612A80 Name="s_luaUserLibrary" Size="1C">
+		<_41 Name="lua library" Offset="0" Allowed="luas" Flags="0" />
+	</_737041B838464D85B3CB9F7594612A80>
+	<_4C3B47695760E7A07B28874286F13D78 Name="s_cui_component_screen_reference" Size="20">
+		<_2 Name="name" Offset="0" />
+		<_41 Name="cui screen tag" Offset="4" Allowed="cusc" Flags="0" />
+	</_4C3B47695760E7A07B28874286F13D78>
+	<_054D418E83781BD0955626E08894CE59 Name="s_cui_overlay_camera_definition" Size="18">
+		<_2 Name="resolution name" Offset="0" />
+		<_A Name="pivot corner" Offset="4" StructName1="e_cui_camera_pivot_corner">
+			<Flag n="top left" />
+			<Flag n="top right" />
+			<Flag n="bottom right" />
+			<Flag n="bottom left" />
+		</_A>
+		<_34 Name="generated_pad630c" Offset="5" Length="3" />
+		<_14 Name="Z near" Offset="8" />
+		<_14 Name="Z far" Offset="C" />
+		<_14 Name="X angle degrees" Offset="10" />
+		<_14 Name="Y angle degrees" Offset="14" />
+	</_054D418E83781BD0955626E08894CE59>
+	<_A4944DE5790FA35052620CA4837B32AD Name="UserInterfaceGameScreenSequenceStep" Size="78">
+		<_F Name="flags" Offset="0" StructName1="i343::NetProtocol::Set&lt;i343::NetProtocol::GameOptions::ScreenSequenceStepFlags&gt;">
+			<Flag n="show loadout menu" />
+			<Flag n="loadout menu close ends sequence" />
+			<Flag n="show scoreboard" />
+			<Flag n="show hud" />
+			<Flag n="show final kill cam" />
+			<Flag n="Hide UI for Observers" />
+		</_F>
+		<_34 Name="generated_pad4325" Offset="1" Length="3" />
+		<_C Name="allowedVariants" Offset="4" StructName1="i343::NetProtocol::GameOptions::eScreenSequenceAllowedVariants">
+			<Flag n="all" />
+			<Flag n="team" />
+			<Flag n="free-for-all" />
+		</_C>
+		<_2 Name="Start Hui Event" Offset="8" />
+		<_2 Name="End Hui Event" Offset="C" />
+		<_0 Name="MP Game Event" Offset="10" />
+		<_0 Name="Server Lua Function" Offset="30" />
+		<_0 Name="Client Lua Function" Offset="50" />
+		<_14 Name="startTime" Offset="70" />
+		<_14 Name="endTime" Offset="74" />
+	</_A4944DE5790FA35052620CA4837B32AD>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

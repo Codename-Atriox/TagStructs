@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="OutlineServiceGlobalsDefinition" Parents="aTag" Index="-298">
+	<_723B42D174AC8FFF1B944AE3875E4472 Name="i343::OutlineService::OutlineServiceGlobalsDefinition" Size="148">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="System Priorities" type="fgrb" Offset="10" />
+		<_14 Name="Spartan Tracking (Active)" Offset="10" />
+		<_14 Name="Spartan Tracking (Passive)" Offset="14" />
+		<_14 Name="Custom Active Tracking" Offset="18" />
+		<_14 Name="Spectator Team Coloring" Offset="1C" />
+		<_14 Name="Target Tracking" Offset="20" />
+		<_14 Name="Enemy Identification" Offset="24" />
+		<_14 Name="Scripting" Offset="28" />
+		<_14 Name="Forge Outlining" Offset="2C" />
+		<_14 Name="Location Sensor" Offset="30" />
+		<_14 Name="Polaris Outlining" Offset="34" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_41 Name="Default outline type" Offset="38" Allowed="ostd" Flags="0" />
+		<_F Name="flags" Offset="54" StructName1="i343::OutlineService::OutlineGlobalFlags">
+			<Flag n="Enable Deferred Outline Rendering" />
+		</_F>
+		<_34 Name="generated_pada18e" Offset="55" Length="3" />
+		<_14 Name="Transparent Threshold" Offset="58" />
+		<_14 Name="Transparent Alpha Influence" Offset="5C" />
+		<_14 Name="Transparent Luma Influence" Offset="60" />
+		<_14 Name="Transparent Luma-Alpha Influence" Offset="64" />
+		<_41 Name="Texture 1" Offset="68" Allowed="bitm" Flags="0" />
+		<_18 Name="Texture 1 Scale" Offset="84" />
+		<_18 Name="Texture 1 Velocity" Offset="8C" />
+		<_14 Name="Texture 1 Resolution Scaling" Offset="94" />
+		<_14 Name="Texture 1 Influence" Offset="98" />
+		<_14 Name="Texture 1 Fill Influence" Offset="9C" />
+		<_41 Name="Texture 2" Offset="A0" Allowed="bitm" Flags="0" />
+		<_18 Name="Texture 2 Scale" Offset="BC" />
+		<_18 Name="Texture 2 Velocity" Offset="C4" />
+		<_14 Name="Texture 2 Resolution Scaling" Offset="CC" />
+		<_14 Name="Texture 2 Influence" Offset="D0" />
+		<_14 Name="Texture 2 Fill Influence" Offset="D4" />
+		<_41 Name="Texture 3" Offset="D8" Allowed="bitm" Flags="0" />
+		<_18 Name="Texture 3 Scale" Offset="F4" />
+		<_18 Name="Texture 3 Velocity" Offset="FC" />
+		<_14 Name="Texture 3 Resolution Scaling" Offset="104" />
+		<_14 Name="Texture 3 Influence" Offset="108" />
+		<_14 Name="Texture 3 Fill Influence" Offset="10C" />
+		<_41 Name="Texture 4" Offset="110" Allowed="bitm" Flags="0" />
+		<_18 Name="Texture 4 Scale" Offset="12C" />
+		<_18 Name="Texture 4 Velocity" Offset="134" />
+		<_14 Name="Texture 4 Resolution Scaling" Offset="13C" />
+		<_14 Name="Texture 4 Influence" Offset="140" />
+		<_14 Name="Texture 4 Fill Influence" Offset="144" />
+	</_723B42D174AC8FFF1B944AE3875E4472>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

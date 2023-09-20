@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="OutlineTypeDefinition" Parents="aTag" Index="-299">
+	<_F62844D48F2FF22944A1FD2CB91880B3 Name="i343::OutlineService::TypeDefinition" Size="F8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_2 Name="material name" Offset="10" />
+		<_D Name="flags" Offset="14" StructName1="i343::OutlineService::OutlineRenderFlags">
+			<Flag n="Vertical Fade" />
+			<Flag n="Scale Outline Distance With Zoom" />
+		</_D>
+		<_A Name="child outlining behaviour" Offset="18" StructName1="i343::OutlineService::ChildOutlineBehaviour">
+			<Flag n="do not outline children" />
+			<Flag n="only children created with parent" />
+			<Flag n="all children" />
+		</_A>
+		<_34 Name="generated_pada225" Offset="19" Length="3" />
+		<_14 Name="fade in duration" Offset="1C" />
+		<_14 Name="fade out duration" Offset="20" />
+		<_1F Name="Color" Offset="24" />
+		<_14 Name="Opacity" Offset="30" />
+		<_14 Name="Additiveness" Offset="34" />
+		<_14 Name="Intensity" Offset="38" />
+		<_14 Name="Outline Weight" Offset="3C" />
+		<_14 Name="Inline Weight" Offset="40" />
+		<_14 Name="Distance Fade Start" Offset="44" />
+		<_14 Name="Distance Fade End" Offset="48" />
+		<_14 Name="Distance Fade End Value" Offset="4C" />
+		<_14 Name="Distance Thin Start" Offset="50" />
+		<_14 Name="Distance Thin End" Offset="54" />
+		<_14 Name="Distance Thin End Value" Offset="58" />
+		<_A Name="Occlusion Mode" Offset="5C" StructName1="i343::OutlineService::OcclusionMode">
+			<Flag n="draw outline where object is occluded AND visible" />
+			<Flag n="draw outline where object is visible" />
+			<Flag n="draw outline where object is occluded" />
+			<Flag n="do not draw" />
+		</_A>
+		<_34 Name="generated_pad8844" Offset="5D" Length="3" />
+		<_14 Name="Occlusion Bias" Offset="60" />
+		<_14 Name="Occlusion Fade Range" Offset="64" />
+		<_14 Name="Occlusion Fade Multiplier" Offset="68" />
+		<_1F Name="Fill Color" Offset="6C" />
+		<_14 Name="Fill Opacity" Offset="78" />
+		<_14 Name="Fill Intensity" Offset="7C" />
+		<_14 Name="Fill Distance Fade Start" Offset="80" />
+		<_14 Name="Fill Distance Fade End" Offset="84" />
+		<_14 Name="Fill Distance Fade End Value" Offset="88" />
+		<_A Name="Fill Occlusion Mode" Offset="8C" StructName1="i343::OutlineService::OcclusionMode">
+			<Flag n="draw outline where object is occluded AND visible" />
+			<Flag n="draw outline where object is visible" />
+			<Flag n="draw outline where object is occluded" />
+			<Flag n="do not draw" />
+		</_A>
+		<_34 Name="generated_pad3b8f" Offset="8D" Length="3" />
+		<_14 Name="Vertical Fade Start" Offset="90" />
+		<_14 Name="Vertical Fade End" Offset="94" />
+		<_14 Name="Vertical Fade End Value" Offset="98" />
+		<_14 Name="Transition To Duration" Offset="9C" />
+		<_41 Name="Outline Override Protanopia" Offset="A0" Allowed="ostd" Flags="0" />
+		<_41 Name="Outline Override Deuteranopia" Offset="BC" Allowed="ostd" Flags="0" />
+		<_41 Name="Outline Override Tritanopia" Offset="D8" Allowed="ostd" Flags="0" />
+		<_34 Name="generated_pad21ae" Offset="F4" Length="4" />
+	</_F62844D48F2FF22944A1FD2CB91880B3>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="object_dispenser_component" Parents="aTag" Index="-293">
+	<_589F4949E748867CA82F216FB004F86F Name="i343::ObjectDispenser::DispenserComponentDefinition" Size="90">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="object dispenser component" Offset="10" GUID="AEE74168F5015A2AC94EF0BBBE200630" />
+	</_589F4949E748867CA82F216FB004F86F>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_AEE74168F5015A2AC94EF0BBBE200630 Name="i343::ObjectDispenser::DispenserComponentInternalDefinition" Size="80">
+		<_40 Name="dispense slots" Offset="0" GUID="F0224E2B2DD3032BA18616AC937D81DD" StructName1="i343::ObjectDispenser::DispenserComponentInternalDefinition" Min="0" Max="2" />
+		<_41 Name="incoming creation effect" Offset="14" Allowed="effe" Flags="0" />
+		<_41 Name="ready effect" Offset="30" Allowed="effe" Flags="0" />
+		<_2 Name="action string incoming" Offset="4C" />
+		<_A Name="respawn type" Offset="50" StructName1="i343::ObjectDispenser::eRespawnType">
+			<Flag n="frequency" />
+			<Flag n="on object removed" />
+			<Flag n="script controlled" />
+		</_A>
+		<_F Name="flags" Offset="51" StructName1="i343::ObjectDispenser::DefinitionFlags">
+			<Flag n="disable collision for readied objects" />
+		</_F>
+		<_34 Name="generated_pad1e39" Offset="52" Length="2" />
+		<_14 Name="respawn time" Offset="54" />
+		<_14 Name="incoming time mark" Offset="58" />
+		<_14 Name="constructing time mark" Offset="5C" />
+		<_14 Name="damage acceleration scale horizontal" Offset="60" />
+		<_14 Name="damage acceleration scale vertical" Offset="64" />
+		<_14 Name="damage acceleration min horizontal" Offset="68" />
+		<_14 Name="damage acceleration min vertical" Offset="6C" />
+		<_2 Name="incoming navpoint UI screen" Offset="70" />
+		<_14 Name="navpoint visibility distance" Offset="74" />
+		<_37 Name="Terminal" type="fgrb" Offset="78" />
+		<_14 Name="interaction radius" Offset="78" />
+		<_2 Name="terminal navpoint UI screen" Offset="7C" />
+		<_37 Name="" type="fgre" Offset="80" />
+	</_AEE74168F5015A2AC94EF0BBBE200630>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_F0224E2B2DD3032BA18616AC937D81DD Name="i343::ObjectDispenser::DispenseSlotDefinition" Size="8">
+		<_2 Name="slot name" Offset="0" />
+		<_2 Name="slot marker" Offset="4" />
+	</_F0224E2B2DD3032BA18616AC937D81DD>
+</root>

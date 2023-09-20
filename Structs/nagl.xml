@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="NavigationGlobals" Parents="aTag" Index="-268">
+	<_457AEF067FB00A2BE8AA7B9CE0E194DF Name="NavigationGlobalsDefinition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="data" Offset="10" GUID="BA45FE908A5DE6CEA644F9E15201FB02" StructName1="NavigationGlobalsDefinition" Min="0" Max="1" />
+		<_34 Name="generated_padddbd" Offset="24" Length="4" />
+	</_457AEF067FB00A2BE8AA7B9CE0E194DF>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_BA45FE908A5DE6CEA644F9E15201FB02 Name="NavigationGlobalsData" Size="1C">
+		<_F Name="Clearance Flags" Offset="0" StructName1="i343::Navigation::ClearanceFlags">
+			<Flag n="Small clearance enabled" />
+			<Flag n="Medium clearance enabled" />
+			<Flag n="Large clearance enabled" />
+		</_F>
+		<_34 Name="generated_pad9bf6" Offset="1" Length="3" />
+		<_14 Name="clearance bucket radius - small" Offset="4" />
+		<_14 Name="clearance bucket radius - medium" Offset="8" />
+		<_14 Name="clearance bucket radius - large" Offset="C" />
+		<_14 Name="Hoist path cost" Offset="10" />
+		<_14 Name="Smash path cost" Offset="14" />
+		<_14 Name="Destroy path cost" Offset="18" />
+	</_BA45FE908A5DE6CEA644F9E15201FB02>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

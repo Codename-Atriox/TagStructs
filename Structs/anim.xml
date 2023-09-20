@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="AnimSet" Parents="aTag" Index="-21">
+	<_B0EF4DD7D0150B08AC29D80BB0DA92E4 Name="AnimSetTag" Size="120">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_2 Name="channel" type="sted" Offset="10" />
+		<_41 Name="parent" Offset="14" Allowed="anim" Flags="1" />
+		<_41 Name="asset" Offset="30" Allowed="aset, mode" Flags="1" />
+		<_41 Name="Animation Frame Events" Offset="4C" Allowed="fel0" Flags="9" />
+		<_41 Name="Audio Frame Events" Offset="68" Allowed="fel1" Flags="9" />
+		<_41 Name="Effect Frame Events" Offset="84" Allowed="fel2" Flags="9" />
+		<_40 Name="Animations" Offset="A0" GUID="D87A8A08702832373533893DBBEDB28A" StructName1="AnimSetTag" Min="0" Max="4096" />
+		<_41 Name="Reference to generated anim pool tag" Offset="B4" Allowed="jmad" Flags="0" />
+		<_37 Name="Legacy AnimSet fields" type="fgrb" Offset="D0" />
+		<_40 Name="Functions" Offset="D0" GUID="D9BB4ACCE89D9CC969B1FD7EA0567E09" StructName1="AnimSetTag" Min="0" Max="64" />
+		<_37 Name="Interpolators" type="fgrb" Offset="E4" />
+		<_40 Name="Interpolators" Offset="E4" GUID="CB19421FC55F336170189438B8068833" StructName1="AnimSetTag" Min="0" Max="256" />
+		<_40 Name="Interpolation Sets" Offset="F8" GUID="50E54C0D11E52D3C132A8C59985CCA20" StructName1="AnimSetTag" Min="0" Max="256" />
+		<_37 Name="Interpolators" type="fgre" Offset="10C" />
+		<_40 Name="composites" Offset="10C" GUID="52DC4D81B7389733EA90FFAFA0EB60EE" StructName1="AnimSetTag" Min="0" Max="256" />
+		<_37 Name="" type="fgre" Offset="120" />
+	</_B0EF4DD7D0150B08AC29D80BB0DA92E4>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_D87A8A08702832373533893DBBEDB28A Name="AnimEntry" Size="7C">
+		<_2 Name="token" Offset="0" />
+		<_6 Name="uniqueID" Offset="4" />
+		<_2 Name="legacyName" type="sted" Offset="8" />
+		<_41 Name="animationSource" Offset="C" Allowed="abc*, jmad" Flags="9" />
+		<_A Name="type" Offset="28" StructName1="AnimationType">
+			<Flag n="Base" />
+			<Flag n="Base + Txy motion type" />
+			<Flag n="Base + Txy,Yaw motion type" />
+			<Flag n="Base + Txyz,Yaw motion type" />
+			<Flag n="Base + Txyz,AngleAxis motion type" />
+			<Flag n="Base + Full motion type" />
+			<Flag n="Base + No motion type" />
+			<Flag n="Overlay" />
+			<Flag n="Overlay Additive - Pose" />
+			<Flag n="Replacement" />
+		</_A>
+		<_A Name="compression" Offset="29" StructName1="AnimationCompressionType">
+			<Flag n="Auto" />
+			<Flag n="None" />
+			<Flag n="Medium" />
+			<Flag n="Rough" />
+			<Flag n="Light" />
+			<Flag n="ACL Auto" />
+		</_A>
+		<_34 Name="generated_pad78b5" Offset="2A" Length="2" />
+		<_41 Name="generatedModelAnimation" Offset="2C" Allowed="jmad" Flags="1" />
+		<_14 Name="weight" Offset="48" />
+		<_A Name="autoWeight" Offset="4C" StructName1="AutoWeight">
+			<Flag n="Auto" />
+			<Flag n="Fixed" />
+		</_A>
+		<_F Name="Flags" Offset="4D" StructName1="AnimEntryFlags">
+			<Flag n="Stop searching and ignore tokens in lower channels" />
+		</_F>
+		<_37 Name="Legacy fields" type="fgrb" Offset="4E" />
+		<_5 Name="Loop frame index" Offset="4E" />
+		<_E Name="Legacy User Flags" Offset="50" StructName1="c_animation_user_flags">
+			<Flag n="disable interpolation in" />
+			<Flag n="disable interpolation out" />
+			<Flag n="disable mode ik" />
+			<Flag n="disable weapon ik" />
+			<Flag n="disable weapon aim/1st person" />
+			<Flag n="disable look screen" />
+			<Flag n="force weapon ik on" />
+			<Flag n="enable replacement interpolation" />
+			<Flag n="enable blend-in on replacement anims" />
+			<Flag n="use custom blend-in time" />
+			<Flag n="disable ik sets" />
+			<Flag n="disable ik chains" />
+			<Flag n="translate and scale root only" />
+			<Flag n="enable blend-out on replacement anims" />
+			<Flag n="use custom replacement blend-out time" />
+			<Flag n="override player input" />
+		</_E>
+		<_34 Name="generated_pad5ed4" Offset="52" Length="2" />
+		<_40 Name="First person overlay channel slider weight function map" Offset="54" GUID="565F405AB7B72B43515D4170AB9B290C" StructName1="AnimEntry" Min="0" Max="7" />
+		<_30 Name="Replacement interpolator" Offset="68" GUID="50E54C0D11E52D3C132A8C59985CCA20" StructName1="AnimEntry" Min="0" Max="256" />
+		<_14 Name="Override blend in time" Offset="6C" />
+		<_2 Name="Replacement blend in weight function" type="sted" Offset="70" />
+		<_14 Name="Override blend out time" Offset="74" />
+		<_2 Name="Replacement blend out weight function" type="sted" Offset="78" />
+		<_37 Name="" type="fgre" Offset="7C" />
+	</_D87A8A08702832373533893DBBEDB28A>
+	<_D9BB4ACCE89D9CC969B1FD7EA0567E09 Name="LegacyAnimSetFunction" Size="1C">
+		<_2 Name="Name" Offset="0" />
+		<_38 Name="Function" Offset="4" GUID="0276481E72CB9289F56D7C189467A351" />
+	</_D9BB4ACCE89D9CC969B1FD7EA0567E09>
+	<_CB19421FC55F336170189438B8068833 Name="LegacyAnimSetInterpolator" Size="20">
+		<_2 Name="Name" Offset="0" />
+		<_2 Name="Joint Mask" type="sted" Offset="4" />
+		<_38 Name="Function" Offset="8" GUID="0276481E72CB9289F56D7C189467A351" />
+	</_CB19421FC55F336170189438B8068833>
+	<_50E54C0D11E52D3C132A8C59985CCA20 Name="LegacyAnimSetInterpolationSet" Size="34">
+		<_2 Name="Name" Offset="0" />
+		<_14 Name="Seconds" Offset="4" />
+		<_40 Name="Interpolators" Offset="8" GUID="D35247645959B075042FD05DAC0EB3AD" StructName1="LegacyAnimSetInterpolationSet" Min="0" Max="256" />
+		<_38 Name="Function" Offset="1C" GUID="0276481E72CB9289F56D7C189467A351" />
+	</_50E54C0D11E52D3C132A8C59985CCA20>
+	<_52DC4D81B7389733EA90FFAFA0EB60EE Name="LegacyAnimSetCompositeEntry" Size="C">
+		<_2 Name="Name" Offset="0" />
+		<_44 Name="Source XML" Offset="4" />
+		<_A Name="Type" Offset="8" StructName1="LegacyAnimSetCompositeType">
+			<Flag n="Base" />
+			<Flag n="Overlay" />
+		</_A>
+		<_34 Name="generated_padc60d" Offset="9" Length="3" />
+	</_52DC4D81B7389733EA90FFAFA0EB60EE>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_565F405AB7B72B43515D4170AB9B290C Name="AnimEntryWeightFunctionMap" Size="8">
+		<_36 Name="FIRST PERSON OVERLAY CHANNEL WEIGHT SCALING" Offset="0" />
+		<_2 Name="Overlay animation name" type="sted" Offset="0" />
+		<_37 Name="" type="coff" Offset="4" />
+		<_2 Name="Channel weight scale source" type="sted" Offset="4" />
+	</_565F405AB7B72B43515D4170AB9B290C>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+	<_D35247645959B075042FD05DAC0EB3AD Name="InterpolatorListEntry" Size="2">
+		<_2E Name="Interpolator" Offset="0" GUID="CB19421FC55F336170189438B8068833" StructName1="InterpolatorListEntry" Min="0" Max="256" />
+	</_D35247645959B075042FD05DAC0EB3AD>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

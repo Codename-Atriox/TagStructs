@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:16 PM" Name="EvadeDefinitionTag" Parents="aTag" Index="-347">
+	<_578247F8BC287A8351E296C59623EFE9 Name="i343::SpartanAbilities::EvadeDefinitionTag" Size="190">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="data" Offset="10" GUID="37DF4AC387D9002E87BF286BB6469655" />
+	</_578247F8BC287A8351E296C59623EFE9>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_37DF4AC387D9002E87BF286BB6469655 Name="i343::SpartanAbilities::EvadeDefinition" Size="180">
+		<_38 Name="common ability parameters" Offset="0" GUID="D954483CA0B1EFF4F0B4EBCD88F17DD4" />
+		<_D Name="evade flags" Offset="78" StructName1="i343::SpartanAbilities::EvadeDefinitionFlags">
+			<Flag n="Must be grounded to activate" />
+			<Flag n="Must be airborne to activate" />
+			<Flag n="Disable weapon use" />
+			<Flag n="Drop support weapon" />
+			<Flag n="Drop must be readied weapon" />
+		</_D>
+		<_15 Name="throttle dead zone" Offset="7C" />
+		<_2 Name="evade left animation" Offset="80" />
+		<_2 Name="evade right animation" Offset="84" />
+		<_2 Name="evade forward animation" Offset="88" />
+		<_2 Name="evade backward animation" Offset="8C" />
+		<_14 Name="evade duration" Offset="90" />
+		<_15 Name="evade exit sprint fraction" Offset="94" />
+		<_15 Name="evade melee interrupt fraction" Offset="98" />
+		<_15 Name="evade grenade interrupt fraction" Offset="9C" />
+		<_36 Name="speed function" Offset="A0" />
+		<_37 Name="speed function" type="fned" Offset="A0" />
+		<_38 Name="speed function" Offset="A0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_36 Name="speed function scalar" Offset="B8" />
+		<_37 Name="speed function scalar" type="mpfi" Offset="B8" />
+		<_38 Name="speed function scalar" Offset="B8" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_14 Name="forward speed modifier" Offset="C4" />
+		<_25 Name="speed modifier values" Offset="C8" />
+		<_36 Name="ground speed modifier function" Offset="D0" />
+		<_37 Name="ground speed modifier function" type="fned" Offset="D0" />
+		<_38 Name="ground speed modifier function" Offset="D0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_36 Name="air speed modifier function" Offset="E8" />
+		<_37 Name="air speed modifier function" type="fned" Offset="E8" />
+		<_38 Name="air speed modifier function" Offset="E8" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_36 Name="horizontal camera offset function" Offset="100" />
+		<_37 Name="horizontal camera offset function" type="fned" Offset="100" />
+		<_38 Name="horizontal camera offset function" Offset="100" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_36 Name="camera tilt ROLL function" Offset="118" />
+		<_37 Name="camera tilt ROLL function" type="fned" Offset="118" />
+		<_38 Name="camera tilt ROLL function" Offset="118" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_36 Name="camera tilt PITCH function" Offset="130" />
+		<_37 Name="camera tilt PITCH function" type="fned" Offset="130" />
+		<_38 Name="camera tilt PITCH function" Offset="130" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_36 Name="FOV delta function" Offset="148" />
+		<_37 Name="FOV delta function" type="fned" Offset="148" />
+		<_38 Name="FOV delta function" Offset="148" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_36 Name="overlay animation function" Offset="160" />
+		<_37 Name="overlay animation function" type="fned" Offset="160" />
+		<_38 Name="overlay animation function" Offset="160" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_14 Name="maximum vertical impulse" Offset="178" />
+		<_14 Name="maximum vertical impulse speed threshold" Offset="17C" />
+	</_37DF4AC387D9002E87BF286BB6469655>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_D954483CA0B1EFF4F0B4EBCD88F17DD4 Name="i343::SpartanAbilities::SpartanAbilityCommonParameters" Size="78">
+		<_37 Name="common ability parameters" type="fgrb" Offset="0" />
+		<_C Name="input" Offset="0" StructName1="i343::Units::ArmorInput">
+			<Flag n="Default" />
+			<Flag n="Mobility" />
+			<Flag n="Suit" />
+			<Flag n="Jump" />
+			<Flag n="Equipment" />
+			<Flag n="Melee" />
+			<Flag n="PowerUp" />
+			<Flag n="Unmapped" />
+		</_C>
+		<_D Name="flags" Offset="4" StructName1="i343::SpartanAbilities::SpartanAbilityDefinitionFlags">
+			<Flag n="Use 3rd Person Camera When Active" />
+			<Flag n="Hide Reticle When Active" />
+			<Flag n="Is Motion Tracked (By Enemies) When Active" />
+			<Flag n="One-Shot Activation Effect" />
+			<Flag n="Can be activated when weapon state is relaxed" />
+			<Flag n="Does Not Appear In Extended Motion Tracker Range" />
+			<Flag n="Energy persists across deaths" />
+			<Flag n="Activation interrupts weapon switching" />
+			<Flag n="Allow activation during weapon throw" />
+			<Flag n="Allow activation while sliding" />
+			<Flag n="Drop support weapon when activated" />
+			<Flag n="Drop must be readied weapon when activated" />
+		</_D>
+		<_15 Name="activation energy cost" Offset="8" />
+		<_14 Name="active energy consumption" Offset="C" />
+		<_14 Name="recharge duration" Offset="10" />
+		<_14 Name="recharge delay" Offset="14" />
+		<_14 Name="cooldown delay" Offset="18" />
+		<_41 Name="activation effect" Offset="1C" Allowed="effe" Flags="0" />
+		<_14 Name="activation effect kill delay" Offset="38" />
+		<_A Name="sprint preservation" Offset="3C" StructName1="i343::SpartanAbilities::SprintPreservation">
+			<Flag n="No" />
+			<Flag n="Zero fraction" />
+			<Flag n="Retain fraction" />
+			<Flag n="Decay (normal)" />
+			<Flag n="Decay (forced)" />
+		</_A>
+		<_34 Name="generated_pad0aca" Offset="3D" Length="3" />
+		<_41 Name="active malleable property modifiers" Offset="40" Allowed="gmpm" Flags="0" />
+		<_41 Name="timed malleable property modifiers" Offset="5C" Allowed="gmpm" Flags="0" />
+		<_37 Name="" type="fgre" Offset="78" />
+	</_D954483CA0B1EFF4F0B4EBCD88F17DD4>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+	<_DB6340E6F8D8B4A163AE2E8B97EA8CBB Name="i343::MalleableProperty::BaseFloatStructDefinition" Size="C">
+		<_14 Name="Base Value" Offset="0" />
+		<_25 Name="Value Bounds" Offset="4" />
+	</_DB6340E6F8D8B4A163AE2E8B97EA8CBB>
+</root>

@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="NavPointParametersTag" Parents="aTag" Index="-272">
+	<_00284043F4D7441E42DF14FD87F12238 Name="Interface::NavPoint::NavPointParametersTagDefinition" Size="1B8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="navpoint tag" Offset="10" Allowed="navp" Flags="0" />
+		<_D Name="navpoint flags" Offset="2C" StructName1="Interface::NavPoint::DatumFlags">
+			<Flag n="Draw clamped to gutter if offscreen" />
+		</_D>
+		<_36 Name="center sprite bg" Offset="30" />
+		<_38 Name="center sprite bg" Offset="30" GUID="71D147D13767749B2ACD02C5A28D8C03" />
+		<_36 Name="center sprite fg" Offset="50" />
+		<_38 Name="center sprite fg" Offset="50" GUID="71D147D13767749B2ACD02C5A28D8C03" />
+		<_36 Name="center radial progress bar" Offset="70" />
+		<_38 Name="center radial progress bar" Offset="70" GUID="6D2D424B3E47D15615B938A8B940E09C" />
+		<_36 Name="top sprite" Offset="9C" />
+		<_38 Name="top sprite" Offset="9C" GUID="71D147D13767749B2ACD02C5A28D8C03" />
+		<_36 Name="top center sprite" Offset="BC" />
+		<_38 Name="top center sprite" Offset="BC" GUID="71D147D13767749B2ACD02C5A28D8C03" />
+		<_36 Name="top label" Offset="DC" />
+		<_38 Name="top label" Offset="DC" GUID="A80B4D02359334255315CEACBC606E13" />
+		<_36 Name="right progress bar" Offset="F4" />
+		<_38 Name="right progress bar" Offset="F4" GUID="6DE54F906A211E5BE8A0AFC8B3DC9201" />
+		<_36 Name="right progress bar 2" Offset="11C" />
+		<_38 Name="right progress bar 2" Offset="11C" GUID="6DE54F906A211E5BE8A0AFC8B3DC9201" />
+		<_36 Name="right label" Offset="144" />
+		<_38 Name="right label" Offset="144" GUID="A80B4D02359334255315CEACBC606E13" />
+		<_36 Name="right timer" Offset="15C" />
+		<_38 Name="right timer" Offset="15C" GUID="9D374B24185E709035FDB48BB5B0F195" />
+		<_36 Name="left timer" Offset="178" />
+		<_38 Name="left timer" Offset="178" GUID="9D374B24185E709035FDB48BB5B0F195" />
+		<_36 Name="yaw sprite" Offset="194" />
+		<_38 Name="yaw sprite" Offset="194" GUID="B08D4B0C345FE9F9B0CC489BA4DE7492" />
+		<_36 Name="animation" Offset="1AC" />
+		<_38 Name="animation" Offset="1AC" GUID="0D3F4BB3D7A914FB410D026DA6770713" />
+		<_34 Name="generated_padfb2e" Offset="1B4" Length="4" />
+	</_00284043F4D7441E42DF14FD87F12238>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_71D147D13767749B2ACD02C5A28D8C03 Name="Interface::NavPoint::SpriteParametersTag" Size="20">
+		<_20 Name="color" Offset="0" />
+		<_C Name="sequence index" Offset="10" StructName1="Interface::NavPoint::eSpriteSequence">
+			<Flag n="TacticalObjective" />
+			<Flag n="SubObjective" />
+			<Flag n="MainObjective" />
+			<Flag n="SupplyCache" />
+			<Flag n="MoveToIndicator" />
+			<Flag n="ChatterIndicator" />
+			<Flag n="AttackCommandFg" />
+			<Flag n="ReviveFg" />
+			<Flag n="ReviveBg" />
+			<Flag n="BleedoutTimerStroke" />
+			<Flag n="ReviveCommand" />
+			<Flag n="ReviveHelpPulse" />
+			<Flag n="WzBossFg" />
+			<Flag n="WzBossBg" />
+			<Flag n="WzReqFg" />
+			<Flag n="WzHomeBaseFg" />
+			<Flag n="AttackFg" />
+			<Flag n="DefendFg" />
+			<Flag n="CircleBg" />
+			<Flag n="DiamondBg" />
+			<Flag n="SquareBg" />
+			<Flag n="HexBg" />
+			<Flag n="CircleStroke" />
+			<Flag n="DiamondStroke" />
+			<Flag n="SquareStroke" />
+			<Flag n="HexStroke" />
+			<Flag n="ExclamationFg" />
+			<Flag n="DeadIndicator" />
+			<Flag n="SpeakingIndicator" />
+			<Flag n="WeaponPadFg" />
+			<Flag n="CubeFg" />
+			<Flag n="FlagFg" />
+			<Flag n="LetterAFg" />
+			<Flag n="LetterBFg" />
+			<Flag n="LetterCFg" />
+			<Flag n="BombFg" />
+			<Flag n="CrownFg" />
+			<Flag n="SmallOffscreenArrow" />
+			<Flag n="FriendlyArrow" />
+			<Flag n="EnemyArrow" />
+			<Flag n="SeekIndicator" />
+			<Flag n="LockOnIndicator" />
+			<Flag n="ReqBg" />
+			<Flag n="Num0Fg" />
+			<Flag n="Num1Fg" />
+			<Flag n="Num2Fg" />
+			<Flag n="Num3Fg" />
+			<Flag n="Num4Fg" />
+			<Flag n="Num5Fg" />
+			<Flag n="Num6Fg" />
+			<Flag n="Num7Fg" />
+			<Flag n="Num8Fg" />
+			<Flag n="Num9Fg" />
+			<Flag n="FrameIdentifier1" />
+			<Flag n="FrameIdentifier2" />
+			<Flag n="FrameIdentifier3" />
+			<Flag n="FrameIdentifier4" />
+			<Flag n="AbilityAutoTurret" />
+			<Flag n="AbilityCloak" />
+			<Flag n="AbilityGravSphere" />
+			<Flag n="AbilityHealthBlast" />
+			<Flag n="AbilityHex" />
+			<Flag n="AbilityHologram" />
+			<Flag n="AbilityLocationDart" />
+			<Flag n="AbilityMedicDrone" />
+			<Flag n="AbilityTrap" />
+			<Flag n="Flipbook1" />
+			<Flag n="Flipbook2" />
+			<Flag n="Flipbook3" />
+			<Flag n="Flipbook4" />
+			<Flag n="Flipbook5" />
+			<Flag n="Flipbook6" />
+			<Flag n="Flipbook7" />
+			<Flag n="Flipbook8" />
+			<Flag n="Flipbook9" />
+			<Flag n="Flipbook10" />
+			<Flag n="Flipbook11" />
+			<Flag n="Flipbook12" />
+			<Flag n="Flipbook13" />
+			<Flag n="Flipbook14" />
+			<Flag n="Flipbook15" />
+			<Flag n="Flipbook16" />
+			<Flag n="Flipbook17" />
+			<Flag n="Flipbook18" />
+			<Flag n="Flipbook19" />
+			<Flag n="Flipbook20" />
+			<Flag n="Flipbook21" />
+			<Flag n="Flipbook22" />
+			<Flag n="Flipbook23" />
+			<Flag n="Flipbook24" />
+		</_C>
+		<_C Name="flipbook loop type" Offset="14" StructName1="Interface::NavPoint::eLooping">
+			<Flag n="LoopForward" />
+			<Flag n="LoopReversed" />
+			<Flag n="LoopForwardThenReversed" />
+			<Flag n="PlayOnceThenHold" />
+			<Flag n="PlayOnceReversedThenHold" />
+			<Flag n="PlayOnceForwardThenReversed" />
+		</_C>
+		<_14 Name="flipbook delay before looping" Offset="18" />
+		<_D Name="drawing flags" Offset="1C" StructName1="Interface::NavPoint::DrawWhenFlags">
+			<Flag n="Draw when onscreen" />
+			<Flag n="Draw when offscreen" />
+			<Flag n="Draw when center screen" />
+			<Flag n="Draw when aimed at" />
+			<Flag n="Draw when docked" />
+		</_D>
+	</_71D147D13767749B2ACD02C5A28D8C03>
+	<_6D2D424B3E47D15615B938A8B940E09C Name="Interface::NavPoint::RadialProgressBarParametersTag" Size="2C">
+		<_20 Name="left color" Offset="0" />
+		<_20 Name="right color" Offset="10" />
+		<_C Name="sequenceIndex" Offset="20" StructName1="Interface::NavPoint::TagSpriteSequence">
+			<Flag n="TacticalObjective" />
+			<Flag n="SubObjective" />
+			<Flag n="MainObjective" />
+			<Flag n="SupplyCache" />
+			<Flag n="MoveToIndicator" />
+			<Flag n="ChatterIndicator" />
+			<Flag n="AttackCommandFg" />
+			<Flag n="ReviveFg" />
+			<Flag n="ReviveBg" />
+			<Flag n="BleedoutTimerStroke" />
+			<Flag n="ReviveCommand" />
+			<Flag n="ReviveHelpPulse" />
+			<Flag n="WzBossFg" />
+			<Flag n="WzBossBg" />
+			<Flag n="WzReqFg" />
+			<Flag n="WzHomeBaseFg" />
+			<Flag n="AttackFg" />
+			<Flag n="DefendFg" />
+			<Flag n="CircleBg" />
+			<Flag n="DiamondBg" />
+			<Flag n="SquareBg" />
+			<Flag n="HexBg" />
+			<Flag n="CircleStroke" />
+			<Flag n="DiamondStroke" />
+			<Flag n="SquareStroke" />
+			<Flag n="HexStroke" />
+			<Flag n="ExclamationFg" />
+			<Flag n="DeadIndicator" />
+			<Flag n="SpeakingIndicator" />
+			<Flag n="WeaponPadFg" />
+			<Flag n="CubeFg" />
+			<Flag n="FlagFg" />
+			<Flag n="LetterAFg" />
+			<Flag n="LetterBFg" />
+			<Flag n="LetterCFg" />
+			<Flag n="BombFg" />
+			<Flag n="CrownFg" />
+			<Flag n="SmallOffscreenArrow" />
+			<Flag n="FriendlyArrow" />
+			<Flag n="EnemyArrow" />
+			<Flag n="SeekIndicator" />
+			<Flag n="LockOnIndicator" />
+			<Flag n="ReqBg" />
+			<Flag n="Num0Fg" />
+			<Flag n="Num1Fg" />
+			<Flag n="Num2Fg" />
+			<Flag n="Num3Fg" />
+			<Flag n="Num4Fg" />
+			<Flag n="Num5Fg" />
+			<Flag n="Num6Fg" />
+			<Flag n="Num7Fg" />
+			<Flag n="Num8Fg" />
+			<Flag n="Num9Fg" />
+			<Flag n="FrameIdentifier1" />
+			<Flag n="FrameIdentifier2" />
+			<Flag n="FrameIdentifier3" />
+			<Flag n="FrameIdentifier4" />
+			<Flag n="AbilityAutoTurret" />
+			<Flag n="AbilityCloak" />
+			<Flag n="AbilityGravSphere" />
+			<Flag n="AbilityHealthBlast" />
+			<Flag n="AbilityHex" />
+			<Flag n="AbilityHologram" />
+			<Flag n="AbilityLocationDart" />
+			<Flag n="AbilityMedicDrone" />
+			<Flag n="AbilityTrap" />
+		</_C>
+		<_14 Name="fraction" Offset="24" />
+		<_D Name="drawing flags" Offset="28" StructName1="Interface::NavPoint::DrawWhenFlags">
+			<Flag n="Draw when onscreen" />
+			<Flag n="Draw when offscreen" />
+			<Flag n="Draw when center screen" />
+			<Flag n="Draw when aimed at" />
+			<Flag n="Draw when docked" />
+		</_D>
+	</_6D2D424B3E47D15615B938A8B940E09C>
+	<_A80B4D02359334255315CEACBC606E13 Name="Interface::NavPoint::LabelParametersTag" Size="18">
+		<_20 Name="color" Offset="0" />
+		<_2 Name="label" Offset="10" />
+		<_D Name="drawing flags" Offset="14" StructName1="Interface::NavPoint::DrawWhenFlags">
+			<Flag n="Draw when onscreen" />
+			<Flag n="Draw when offscreen" />
+			<Flag n="Draw when center screen" />
+			<Flag n="Draw when aimed at" />
+			<Flag n="Draw when docked" />
+		</_D>
+	</_A80B4D02359334255315CEACBC606E13>
+	<_6DE54F906A211E5BE8A0AFC8B3DC9201 Name="Interface::NavPoint::ProgressBarParametersTag" Size="28">
+		<_20 Name="left color" Offset="0" />
+		<_20 Name="right color" Offset="10" />
+		<_14 Name="fraction" Offset="20" />
+		<_D Name="drawing flags" Offset="24" StructName1="Interface::NavPoint::DrawWhenFlags">
+			<Flag n="Draw when onscreen" />
+			<Flag n="Draw when offscreen" />
+			<Flag n="Draw when center screen" />
+			<Flag n="Draw when aimed at" />
+			<Flag n="Draw when docked" />
+		</_D>
+	</_6DE54F906A211E5BE8A0AFC8B3DC9201>
+	<_9D374B24185E709035FDB48BB5B0F195 Name="Interface::NavPoint::NumericParametersTag" Size="1C">
+		<_20 Name="color" Offset="0" />
+		<_C Name="number format" Offset="10" StructName1="Interface::NavPoint::eNumberFormat">
+			<Flag n="Timer" />
+			<Flag n="Distance" />
+			<Flag n="Integer" />
+		</_C>
+		<_14 Name="number" Offset="14" />
+		<_D Name="drawing flags" Offset="18" StructName1="Interface::NavPoint::DrawWhenFlags">
+			<Flag n="Draw when onscreen" />
+			<Flag n="Draw when offscreen" />
+			<Flag n="Draw when center screen" />
+			<Flag n="Draw when aimed at" />
+			<Flag n="Draw when docked" />
+		</_D>
+	</_9D374B24185E709035FDB48BB5B0F195>
+	<_B08D4B0C345FE9F9B0CC489BA4DE7492 Name="Interface::NavPoint::RotatedSpriteParametersTag" Size="18">
+		<_20 Name="color" Offset="0" />
+		<_C Name="sequence index" Offset="10" StructName1="Interface::NavPoint::TagSpriteSequence">
+			<Flag n="TacticalObjective" />
+			<Flag n="SubObjective" />
+			<Flag n="MainObjective" />
+			<Flag n="SupplyCache" />
+			<Flag n="MoveToIndicator" />
+			<Flag n="ChatterIndicator" />
+			<Flag n="AttackCommandFg" />
+			<Flag n="ReviveFg" />
+			<Flag n="ReviveBg" />
+			<Flag n="BleedoutTimerStroke" />
+			<Flag n="ReviveCommand" />
+			<Flag n="ReviveHelpPulse" />
+			<Flag n="WzBossFg" />
+			<Flag n="WzBossBg" />
+			<Flag n="WzReqFg" />
+			<Flag n="WzHomeBaseFg" />
+			<Flag n="AttackFg" />
+			<Flag n="DefendFg" />
+			<Flag n="CircleBg" />
+			<Flag n="DiamondBg" />
+			<Flag n="SquareBg" />
+			<Flag n="HexBg" />
+			<Flag n="CircleStroke" />
+			<Flag n="DiamondStroke" />
+			<Flag n="SquareStroke" />
+			<Flag n="HexStroke" />
+			<Flag n="ExclamationFg" />
+			<Flag n="DeadIndicator" />
+			<Flag n="SpeakingIndicator" />
+			<Flag n="WeaponPadFg" />
+			<Flag n="CubeFg" />
+			<Flag n="FlagFg" />
+			<Flag n="LetterAFg" />
+			<Flag n="LetterBFg" />
+			<Flag n="LetterCFg" />
+			<Flag n="BombFg" />
+			<Flag n="CrownFg" />
+			<Flag n="SmallOffscreenArrow" />
+			<Flag n="FriendlyArrow" />
+			<Flag n="EnemyArrow" />
+			<Flag n="SeekIndicator" />
+			<Flag n="LockOnIndicator" />
+			<Flag n="ReqBg" />
+			<Flag n="Num0Fg" />
+			<Flag n="Num1Fg" />
+			<Flag n="Num2Fg" />
+			<Flag n="Num3Fg" />
+			<Flag n="Num4Fg" />
+			<Flag n="Num5Fg" />
+			<Flag n="Num6Fg" />
+			<Flag n="Num7Fg" />
+			<Flag n="Num8Fg" />
+			<Flag n="Num9Fg" />
+			<Flag n="FrameIdentifier1" />
+			<Flag n="FrameIdentifier2" />
+			<Flag n="FrameIdentifier3" />
+			<Flag n="FrameIdentifier4" />
+			<Flag n="AbilityAutoTurret" />
+			<Flag n="AbilityCloak" />
+			<Flag n="AbilityGravSphere" />
+			<Flag n="AbilityHealthBlast" />
+			<Flag n="AbilityHex" />
+			<Flag n="AbilityHologram" />
+			<Flag n="AbilityLocationDart" />
+			<Flag n="AbilityMedicDrone" />
+			<Flag n="AbilityTrap" />
+		</_C>
+		<_D Name="drawing flags" Offset="14" StructName1="Interface::NavPoint::DrawWhenFlags">
+			<Flag n="Draw when onscreen" />
+			<Flag n="Draw when offscreen" />
+			<Flag n="Draw when center screen" />
+			<Flag n="Draw when aimed at" />
+			<Flag n="Draw when docked" />
+		</_D>
+	</_B08D4B0C345FE9F9B0CC489BA4DE7492>
+	<_0D3F4BB3D7A914FB410D026DA6770713 Name="Interface::NavPoint::AnimationParametersTag" Size="8">
+		<_C Name="animation type" Offset="0" StructName1="Interface::NavPoint::eAnimation">
+			<Flag n="PlayerFiring" />
+			<Flag n="PlayerDamaged" />
+			<Flag n="ReviveIdle" />
+			<Flag n="RevivePulsing" />
+			<Flag n="Flashing" />
+			<Flag n="HomeBaseVulnerableAlternatingIcon" />
+			<Flag n="FlashTimer" />
+			<Flag n="Animation8" />
+			<Flag n="Animation9" />
+			<Flag n="Animation10" />
+			<Flag n="Animation11" />
+			<Flag n="Animation12" />
+			<Flag n="Animation13" />
+			<Flag n="Animation14" />
+			<Flag n="Animation15" />
+			<Flag n="Animation16" />
+			<Flag n="Animation17" />
+			<Flag n="Animation18" />
+			<Flag n="Animation19" />
+			<Flag n="Animation20" />
+			<Flag n="Animation21" />
+			<Flag n="Animation22" />
+			<Flag n="Animation23" />
+			<Flag n="Animation24" />
+			<Flag n="Animation25" />
+			<Flag n="Animation26" />
+			<Flag n="Animation27" />
+			<Flag n="Animation28" />
+			<Flag n="Animation29" />
+			<Flag n="Animation30" />
+			<Flag n="Animation31" />
+			<Flag n="Animation32" />
+		</_C>
+		<_D Name="drawing flags" Offset="4" StructName1="Interface::NavPoint::DrawWhenFlags">
+			<Flag n="Draw when onscreen" />
+			<Flag n="Draw when offscreen" />
+			<Flag n="Draw when center screen" />
+			<Flag n="Draw when aimed at" />
+			<Flag n="Draw when docked" />
+		</_D>
+	</_0D3F4BB3D7A914FB410D026DA6770713>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

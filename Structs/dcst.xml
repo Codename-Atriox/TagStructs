@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="decorator_settings" Parents="aTag" Index="-96">
+	<_18B2445A6F7AE4D50552477FA88064F4 Name="DecoratorSettingsTag" Size="40">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="LOD Settings" Offset="10" GUID="437614BB4A3F17B221631BE7A24317BC" />
+		<_40 Name="Presets" Offset="28" GUID="43AC14BD4ACA11B521C31B27A2AC15B3" StructName1="DecoratorSettingsTag" Min="0" Max="4096" />
+		<_34 Name="generated_pad84de" Offset="3C" Length="4" />
+	</_18B2445A6F7AE4D50552477FA88064F4>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_437614BB4A3F17B221631BE7A24317BC Name="LODParameters" Size="18">
+		<_40 Name="LOD Transitions" Offset="0" GUID="43AC14BB4ACA11B221C31B20A2AC15BC" StructName1="LODParameters" Min="0" Max="16" />
+		<_14 Name="Max Shadow Distance" Offset="14" />
+	</_437614BB4A3F17B221631BE7A24317BC>
+	<_43AC14BD4ACA11B521C31B27A2AC15B3 Name="DecoratorPreset" Size="54">
+		<_2 Name="Name" Offset="0" />
+		<_38 Name="Parameters" Offset="4" GUID="3AD649ED993F2CC742B3A308BC85A7BF" />
+	</_43AC14BD4ACA11B521C31B27A2AC15B3>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_43AC14BB4ACA11B221C31B20A2AC15BC Name="LODTransition" Size="8">
+		<_14 Name="Transition start" Offset="0" />
+		<_14 Name="Transition end" Offset="4" />
+	</_43AC14BB4ACA11B221C31B20A2AC15BC>
+	<_3AD649ED993F2CC742B3A308BC85A7BF Name="DecoratorContentParameters" Size="50">
+		<_C Name="Alignment" Offset="0" StructName1="Alignments">
+			<Flag n="default" />
+			<Flag n="normal" />
+			<Flag n="up" />
+			<Flag n="down" />
+			<Flag n="left" />
+			<Flag n="right" />
+			<Flag n="forward" />
+			<Flag n="backward" />
+			<Flag n="random" />
+		</_C>
+		<_C Name="Random Rotate" Offset="4" StructName1="Tristate">
+			<Flag n="default" />
+			<Flag n="enabled" />
+			<Flag n="disabled" />
+		</_C>
+		<_14 Name="Placement Weight" Offset="8" />
+		<_14 Name="Separation Min" Offset="C" />
+		<_14 Name="Scale Min" Offset="10" />
+		<_14 Name="Scale Max" Offset="14" />
+		<_14 Name="Tilt Min" Offset="18" />
+		<_14 Name="Tilt Max" Offset="1C" />
+		<_14 Name="Stiffness Min" Offset="20" />
+		<_14 Name="Stiffness Max" Offset="24" />
+		<_14 Name="Ground Tint Min" Offset="28" />
+		<_14 Name="Ground Tint Max" Offset="2C" />
+		<_14 Name="Hover Min" Offset="30" />
+		<_14 Name="Hover Max" Offset="34" />
+		<_14 Name="Roughness Min" Offset="38" />
+		<_14 Name="Roughness Max" Offset="3C" />
+		<_14 Name="Slope Min" Offset="40" />
+		<_14 Name="Slope Max" Offset="44" />
+		<_14 Name="Rotate Min" Offset="48" />
+		<_14 Name="Rotate Max" Offset="4C" />
+	</_3AD649ED993F2CC742B3A308BC85A7BF>
+</root>

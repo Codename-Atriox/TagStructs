@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="terrain_inputs" Parents="aTag" Index="-433">
+	<_F3064E8AE736734F983EC014BA119484 Name="i343::TerrainInputsTag" Size="50">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="placement" Offset="10" GUID="325F428FB453622BAB5F62AAA4A3634E" StructName1="i343::TerrainInputsTag" Min="0" Max="1048576" />
+		<_40 Name="splines" Offset="24" GUID="D0DA4569D27DB1347BBA751E8DE5A088" StructName1="i343::TerrainInputsTag" Min="0" Max="1048576" />
+		<_40 Name="terrain volumes" Offset="38" GUID="FEF44019AD572E201A50C4A1AC80DB08" StructName1="i343::TerrainInputsTag" Min="0" Max="1048576" />
+		<_34 Name="generated_pad0b59" Offset="4C" Length="4" />
+	</_F3064E8AE736734F983EC014BA119484>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_325F428FB453622BAB5F62AAA4A3634E Name="i343::TerrainPlacement" Size="A4">
+		<_38 Name="Terrain Definition" Offset="0" GUID="A3974D92AC7E7BE1E6D44472AA1DE4E5" />
+		<_41 Name="runtime terrain" Offset="74" Allowed="rtrn" Flags="0" />
+		<_40 Name="EditorMetadata" Offset="90" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="i343::TerrainPlacement" Min="4" Max="1" />
+	</_325F428FB453622BAB5F62AAA4A3634E>
+	<_D0DA4569D27DB1347BBA751E8DE5A088 Name="i343::Curve::SplinePlacement" Size="44">
+		<_2 Name="name" Offset="0" />
+		<_38 Name="curve" Offset="4" GUID="019A49F49D5E2ECAED2D06FCA24C1356" />
+		<_40 Name="SplineMetadata" Offset="18" GUID="E8144BE43AD0EA8AD14EEDAB83A019E5" StructName1="i343::Curve::SplinePlacement" Min="0" Max="1" />
+		<_40 Name="EditorMetadata" Offset="2C" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="i343::Curve::SplinePlacement" Min="4" Max="1" />
+		<_6 Name="Guid" Offset="40" />
+	</_D0DA4569D27DB1347BBA751E8DE5A088>
+	<_FEF44019AD572E201A50C4A1AC80DB08 Name="i343::TerrainVolume" Size="90">
+		<_2 Name="Name" Offset="0" />
+		<_38 Name="Terrain Definition" Offset="4" GUID="A3974D92AC7E7BE1E6D44472AA1DE4E5" />
+		<_6 Name="Volume Composition Order" Offset="78" />
+		<_40 Name="EditorMetadata" Offset="7C" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="i343::TerrainVolume" Min="4" Max="1" />
+	</_FEF44019AD572E201A50C4A1AC80DB08>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_A3974D92AC7E7BE1E6D44472AA1DE4E5 Name="i343::TerrainDefinition" Size="74">
+		<_41 Name="terrain system" Offset="0" Allowed="trrn" Flags="26" />
+		<_38 Name="Volume" Offset="1C" GUID="5FD8458C879AF445816FD21692C3E12B" />
+	</_A3974D92AC7E7BE1E6D44472AA1DE4E5>
+	<_CAFD409521D5D5297D81B801A0BADD13 Name="EditorMetadata" Size="10C">
+		<_1 Name="folder name" Offset="0" />
+		<_17 Name="local space pivot point position" Offset="100" />
+	</_CAFD409521D5D5297D81B801A0BADD13>
+	<_019A49F49D5E2ECAED2D06FCA24C1356 Name="i343::Curve::Curve3dDefinition" Size="14">
+		<_40 Name="control points" Offset="0" GUID="29C547C8AC5C536494CC256697923B5C" StructName1="i343::Curve::Curve3dDefinition" Min="0" Max="1024" />
+	</_019A49F49D5E2ECAED2D06FCA24C1356>
+	<_E8144BE43AD0EA8AD14EEDAB83A019E5 Name="i343::Curve::SplinePlacementMetadata" Size="28">
+		<_40 Name="spline road metadata" Offset="0" GUID="DC8F4785537D71A06BF432D2BD00AE29" StructName1="i343::Curve::SplinePlacementMetadata" Min="0" Max="1" />
+		<_40 Name="spline flight path metadata" Offset="14" GUID="3EBF46B817D776717B6F15A7AF788A47" StructName1="i343::Curve::SplinePlacementMetadata" Min="0" Max="1" />
+	</_E8144BE43AD0EA8AD14EEDAB83A019E5>
+	<_5FD8458C879AF445816FD21692C3E12B Name="GenericVolume" Size="58">
+		<_40 Name="Points" Offset="0" GUID="67E442B766DD021F47A0735CAF44B769" StructName1="GenericVolume" Min="0" Max="128" />
+		<_14 Name="height" Offset="14" />
+		<_14 Name="sink" Offset="18" />
+		<_17 Name="center point" Offset="1C" />
+		<_14 Name="trivial cull radius squared" Offset="28" />
+		<_17 Name="aabbCenter" Offset="2C" />
+		<_17 Name="aabbExtents" Offset="38" />
+		<_40 Name="nativePoints2D" Offset="44" GUID="CE644BA64DB5B94A1D9DC3AF8C4D6C02" StructName1="GenericVolume" Min="0" Max="128" />
+	</_5FD8458C879AF445816FD21692C3E12B>
+	<_29C547C8AC5C536494CC256697923B5C Name="i343::Curve::Curve3dControlPoint" Size="44">
+		<_19 Name="value" Offset="0" />
+		<_19 Name="tangent in" Offset="C" />
+		<_19 Name="tangent out" Offset="18" />
+		<_14 Name="curviness" Offset="24" />
+		<_A Name="segment type x" Offset="28" StructName1="i343::Curve::SegmentType">
+			<Flag n="Spline" />
+			<Flag n="Linear" />
+			<Flag n="Stepped" />
+			<Flag n="SteppedNext" />
+		</_A>
+		<_A Name="segment type y" Offset="29" StructName1="i343::Curve::SegmentType">
+			<Flag n="Spline" />
+			<Flag n="Linear" />
+			<Flag n="Stepped" />
+			<Flag n="SteppedNext" />
+		</_A>
+		<_A Name="segment type z" Offset="2A" StructName1="i343::Curve::SegmentType">
+			<Flag n="Spline" />
+			<Flag n="Linear" />
+			<Flag n="Stepped" />
+			<Flag n="SteppedNext" />
+		</_A>
+		<_A Name="tangent mode x" Offset="2B" StructName1="i343::Curve::TangentMode">
+			<Flag n="AutoStraight" />
+			<Flag n="UserStraight" />
+			<Flag n="UserBroken" />
+		</_A>
+		<_A Name="tangent mode y" Offset="2C" StructName1="i343::Curve::TangentMode">
+			<Flag n="AutoStraight" />
+			<Flag n="UserStraight" />
+			<Flag n="UserBroken" />
+		</_A>
+		<_A Name="tangent mode z" Offset="2D" StructName1="i343::Curve::TangentMode">
+			<Flag n="AutoStraight" />
+			<Flag n="UserStraight" />
+			<Flag n="UserBroken" />
+		</_A>
+		<_34 Name="generated_pad30cd" Offset="2E" Length="2" />
+		<_40 Name="pointMetadata" Offset="30" GUID="890146DC86C3D79B3F6D2AF7BE9C4A02" StructName1="i343::Curve::Curve3dControlPoint" Min="0" Max="1" />
+	</_29C547C8AC5C536494CC256697923B5C>
+	<_DC8F4785537D71A06BF432D2BD00AE29 Name="i343::Curve::SplineRoadMetadata" Size="48">
+		<_14 Name="width" Offset="0" />
+		<_14 Name="opacity" Offset="4" />
+		<_14 Name="falloffLeft" Offset="8" />
+		<_14 Name="falloffRight" Offset="C" />
+		<_14 Name="bank" Offset="10" />
+		<_5 Name="subdivision count" Offset="14" />
+		<_34 Name="generated_pad6df6" Offset="16" Length="2" />
+		<_40 Name="Road Decal Metadata" Offset="18" GUID="8F334C8BA6D16E9BC34243C08DF5818B" StructName1="i343::Curve::SplineRoadMetadata" Min="0" Max="1" />
+		<_41 Name="terrain system" Offset="2C" Allowed="trrn" Flags="26" />
+	</_DC8F4785537D71A06BF432D2BD00AE29>
+	<_3EBF46B817D776717B6F15A7AF788A47 Name="i343::Curve::SplineFlightPathMetadata" Size="8">
+		<_15 Name="Preference" Offset="0" />
+		<_3C Name="Lines per spline segment" Offset="4" />
+		<_34 Name="generated_padfb3b" Offset="5" Length="3" />
+	</_3EBF46B817D776717B6F15A7AF788A47>
+	<_67E442B766DD021F47A0735CAF44B769 Name="s_real_sector_point_generic_volume" Size="C">
+		<_17 Name="position" Offset="0" />
+	</_67E442B766DD021F47A0735CAF44B769>
+	<_CE644BA64DB5B94A1D9DC3AF8C4D6C02 Name="GenericVolumeNativePoint2D" Size="8">
+		<_16 Name="point" Offset="0" />
+	</_CE644BA64DB5B94A1D9DC3AF8C4D6C02>
+	<_890146DC86C3D79B3F6D2AF7BE9C4A02 Name="i343::Curve::CurveControlPointMetadata" Size="3C">
+		<_40 Name="spline road metadata" Offset="0" GUID="781B4DEB48B4EEDDE67B060C86194139" StructName1="i343::Curve::CurveControlPointMetadata" Min="0" Max="1" />
+		<_40 Name="road decal metadata" Offset="14" GUID="3F0A493018D98594F83880CABBB76829" StructName1="i343::Curve::CurveControlPointMetadata" Min="0" Max="1" />
+		<_40 Name="animated spline metadata" Offset="28" GUID="B83E4A756AA20FB6536D5B2CB680453F" StructName1="i343::Curve::CurveControlPointMetadata" Min="0" Max="1" />
+	</_890146DC86C3D79B3F6D2AF7BE9C4A02>
+	<_8F334C8BA6D16E9BC34243C08DF5818B Name="i343::Curve::RoadDecalMetadata" Size="40">
+		<_40 Name="Road Decal Textures" Offset="0" GUID="BB484B70CB48EF7259B8DDA794BD5E5F" StructName1="i343::Curve::RoadDecalMetadata" Min="0" Max="32" />
+		<_18 Name="Road Decal Scale" Offset="14" />
+		<_18 Name="Road Decal Offset" Offset="1C" />
+		<_14 Name="Road Decal Tile Repeat Count" Offset="24" />
+		<_14 Name="Road Decal Height Strength" Offset="28" />
+		<_14 Name="Road Decal Mask Strength" Offset="2C" />
+		<_14 Name="Road Decal Height Contrast" Offset="30" />
+		<_14 Name="Road Decal Mask Contrast" Offset="34" />
+		<_14 Name="Road Decal Edge Fade" Offset="38" />
+		<_6 Name="Road Decal Random Seed" Offset="3C" />
+	</_8F334C8BA6D16E9BC34243C08DF5818B>
+	<_781B4DEB48B4EEDDE67B060C86194139 Name="i343::Curve::RoadCurveControlPointMetadata" Size="14">
+		<_14 Name="width" Offset="0" />
+		<_14 Name="opacity" Offset="4" />
+		<_14 Name="falloffLeft" Offset="8" />
+		<_14 Name="falloffRight" Offset="C" />
+		<_14 Name="bank" Offset="10" />
+	</_781B4DEB48B4EEDDE67B060C86194139>
+	<_3F0A493018D98594F83880CABBB76829 Name="i343::Curve::RoadDecalControlPointMetadata" Size="40">
+		<_40 Name="Road Decal Textures" Offset="0" GUID="BB484B70CB48EF7259B8DDA794BD5E5F" StructName1="i343::Curve::RoadDecalControlPointMetadata" Min="0" Max="32" />
+		<_18 Name="Road Decal Scale" Offset="14" />
+		<_18 Name="Road Decal Offset" Offset="1C" />
+		<_14 Name="Road Decal Tile Repeat Count" Offset="24" />
+		<_14 Name="Road Decal Height Strength" Offset="28" />
+		<_14 Name="Road Decal Mask Strength" Offset="2C" />
+		<_14 Name="Road Decal Height Contrast" Offset="30" />
+		<_14 Name="Road Decal Mask Contrast" Offset="34" />
+		<_14 Name="Road Decal Edge Fade" Offset="38" />
+		<_6 Name="Road Decal Random Seed" Offset="3C" />
+	</_3F0A493018D98594F83880CABBB76829>
+	<_B83E4A756AA20FB6536D5B2CB680453F Name="i343::Curve::AnimatedSplineControlPointMetadata" Size="4">
+		<_14 Name="Time" Offset="0" />
+	</_B83E4A756AA20FB6536D5B2CB680453F>
+	<_BB484B70CB48EF7259B8DDA794BD5E5F Name="i343::Curve::RoadDecalBitmapReference" Size="1C">
+		<_41 Name="Reference" Offset="0" Allowed="bitm" Flags="0" />
+	</_BB484B70CB48EF7259B8DDA794BD5E5F>
+</root>

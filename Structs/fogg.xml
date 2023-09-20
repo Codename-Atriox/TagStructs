@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="atmosphere_fog" Parents="aTag" Index="-154">
+	<_40A7425CA4C4E5E93F7926B183DB142D Name="s_atmosphere_definition" Size="1B0">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="Depth Fog" type="fgrb" Offset="10" />
+		<_37 Name="Master Depth Fog Start" type="fgrb" Offset="10" />
+		<_36 Name="Start Bias" Offset="10" />
+		<_14 Name="distance bias" Offset="10" />
+		<_37 Name="" type="fgre" Offset="14" />
+		<_37 Name="Depth Sky Fog" type="fgrb" Offset="14" />
+		<_38 Name="sky fog" Offset="14" GUID="09244999D82AB11524F24948857CA149" />
+		<_37 Name="" type="fgre" Offset="4C" />
+		<_37 Name="Depth Ground Fog" type="fgrb" Offset="4C" />
+		<_38 Name="ground fog" Offset="4C" GUID="09244999D82AB11524F24948857CA149" />
+		<_37 Name="" type="fgre" Offset="84" />
+		<_37 Name="Depth Ceiling Fog" type="fgrb" Offset="84" />
+		<_38 Name="ceiling fog" Offset="84" GUID="0924499AD82AB11624F24948857CA149" />
+		<_37 Name="" type="fgre" Offset="A8" />
+		<_37 Name="" type="fgre" Offset="A8" />
+		<_37 Name="Fog Light" type="fgrb" Offset="A8" />
+		<_38 Name="fog light" Offset="A8" GUID="23EB43DB2EA4F2097F716CDA96CF125A" />
+		<_37 Name="" type="fgre" Offset="D4" />
+		<_37 Name="Volumetric Fog" type="fgrb" Offset="D4" />
+		<_D Name="VolFog Flags" Offset="D4" StructName1="VolumetricFogFlags">
+			<Flag n="Enabled" />
+			<Flag n="Sample Terrain" />
+		</_D>
+		<_1F Name="VolFog Color 1" Offset="D8" />
+		<_1F Name="VolFog Color 2" Offset="E4" />
+		<_14 Name="VolFog Density" Offset="F0" />
+		<_14 Name="VolFog Indirect Light Intensity" Offset="F4" />
+		<_14 Name="VolFog Light Intensity" Offset="F8" />
+		<_14 Name="VolFog Ambient Intensity" Offset="FC" />
+		<_14 Name="VolFog Sun Intensity" Offset="100" />
+		<_14 Name="VolFog Near Range" Offset="104" />
+		<_14 Name="VolFog Far Range" Offset="108" />
+		<_14 Name="VolFog Range Exponent" Offset="10C" />
+		<_14 Name="VolFog Reprojection Weight" Offset="110" />
+		<_14 Name="VolFog Inscatter Scale" Offset="114" />
+		<_14 Name="VolFog Terrain Density Low" Offset="118" />
+		<_14 Name="VolFog Terrain Density High" Offset="11C" />
+		<_14 Name="VolFog Maximum Terrain Fog Height" Offset="120" />
+		<_14 Name="VolFog Terrain Fog Falloff Exponent" Offset="124" />
+		<_14 Name="VolFog Noise Scale" Offset="128" />
+		<_14 Name="VolFog Noise Wind Influence" Offset="12C" />
+		<_14 Name="VolFog Noise Input Min" Offset="130" />
+		<_14 Name="VolFog Noise Input Max" Offset="134" />
+		<_14 Name="VolFog Noise Output Min" Offset="138" />
+		<_14 Name="VolFog Noise Output Max" Offset="13C" />
+		<_14 Name="VolFog Noise Terrain Follow Intensity" Offset="140" />
+		<_14 Name="VolFog Natural Light Near Intensity" Offset="144" />
+		<_14 Name="VolFog Natural Light Far Intensity" Offset="148" />
+		<_14 Name="VolFog Natural Light Range Near" Offset="14C" />
+		<_14 Name="VolFog Natural Light Range Far" Offset="150" />
+		<_14 Name="VolFog Local Light Near Intensity" Offset="154" />
+		<_14 Name="VolFog Local Light Far Intensity" Offset="158" />
+		<_14 Name="VolFog Local Light Range Near" Offset="15C" />
+		<_14 Name="VolFog Local Light Range Far" Offset="160" />
+		<_14 Name="VolFog Start Fade Distance" Offset="164" />
+		<_14 Name="VolFog Fade Range" Offset="168" />
+		<_37 Name="" type="fgre" Offset="16C" />
+		<_37 Name="Crepuscular Rays" type="fgrb" Offset="16C" />
+		<_38 Name="crepuscular ray" Offset="16C" GUID="6B3F4AA814A1E18FFDB12600B6E95BA8" />
+		<_37 Name="" type="fgre" Offset="1B0" />
+	</_40A7425CA4C4E5E93F7926B183DB142D>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_09244999D82AB11524F24948857CA149 Name="s_solo_fog_parameters" Size="38">
+		<_D Name="flags" Offset="0" StructName1="SoloFogFlags">
+			<Flag n="Enabled" />
+			<Flag n="Camera-relative" />
+		</_D>
+		<_14 Name="base height" Offset="4" />
+		<_14 Name="fog height" Offset="8" />
+		<_14 Name="fog thickness [0.0 to 1.0]" Offset="C" />
+		<_14 Name="fog falloff end" Offset="10" />
+		<_1F Name="fog color" Offset="14" />
+		<_14 Name="fog color intensity" Offset="20" />
+		<_40 Name="Function" Offset="24" GUID="9B06D3E1D1F9D5293631AF50D509793C" StructName1="s_solo_fog_parameters" Min="0" Max="1" />
+	</_09244999D82AB11524F24948857CA149>
+	<_0924499AD82AB11624F24948857CA149 Name="s_ceiling_fog_parameters" Size="24">
+		<_D Name="flags" Offset="0" StructName1="CeilingFogFlags">
+			<Flag n="Enabled" />
+		</_D>
+		<_14 Name="base height" Offset="4" />
+		<_14 Name="fog height" Offset="8" />
+		<_14 Name="fog thickness [0.0 to 1.0]" Offset="C" />
+		<_14 Name="fog falloff end" Offset="10" />
+		<_1F Name="fog color" Offset="14" />
+		<_14 Name="fog color intensity" Offset="20" />
+	</_0924499AD82AB11624F24948857CA149>
+	<_23EB43DB2EA4F2097F716CDA96CF125A Name="s_fog_light_parameters" Size="2C">
+		<_D Name="flags" Offset="0" StructName1="FogLightFlags">
+			<Flag n="Enabled" />
+			<Flag n="Use sun direction for fog light" />
+		</_D>
+		<_14 Name="pitch angle [-90 to 90]" Offset="4" />
+		<_14 Name="yaw angle [0 to 360]" Offset="8" />
+		<_14 Name="angular radius [0 to 180]" Offset="C" />
+		<_1F Name="tint color" Offset="10" />
+		<_14 Name="tint color intensity" Offset="1C" />
+		<_14 Name="angular falloff steepness" Offset="20" />
+		<_14 Name="distance falloff steepness" Offset="24" />
+		<_14 Name="nearby cutoff percentage" Offset="28" />
+	</_23EB43DB2EA4F2097F716CDA96CF125A>
+	<_6B3F4AA814A1E18FFDB12600B6E95BA8 Name="CrepuscularRayParams" Size="44">
+		<_D Name="flags" Offset="0" StructName1="CrepuscularRaysFlags">
+			<Flag n="Enabled" />
+			<Flag n="Use sun direction for crepuscular rays" />
+			<Flag n="Use world space position for the source of crepuscular rays" />
+		</_D>
+		<_14 Name="pitch angle [-90 to 90]" Offset="4" />
+		<_14 Name="yaw angle [0 to 360]" Offset="8" />
+		<_14 Name="angular radius [0 to 180]" Offset="C" />
+		<_17 Name="source position" Offset="10" />
+		<_1F Name="light shaft tint color" Offset="1C" />
+		<_14 Name="light shaft intensity" Offset="28" />
+		<_14 Name="saturation" Offset="2C" />
+		<_14 Name="time variation scale [0 to 1]" Offset="30" />
+		<_14 Name="light shaft decay rate" Offset="34" />
+		<_14 Name="maximum screen distance" Offset="38" />
+		<_14 Name="sample density" Offset="3C" />
+		<_14 Name="minimum caster distance" Offset="40" />
+	</_6B3F4AA814A1E18FFDB12600B6E95BA8>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_9B06D3E1D1F9D5293631AF50D509793C Name="s_soloFogFunction" Size="18">
+		<_37 Name="fog function" type="fned" Offset="0" />
+		<_38 Name="mapping" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_9B06D3E1D1F9D5293631AF50D509793C>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

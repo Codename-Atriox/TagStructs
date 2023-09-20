@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="frame_event_list_audio" Parents="aTag" Index="-141">
+	<_4E8741C5F6F9BA161170A9F78F385DF3 Name="c_animation_frame_event_list_audio" Size="50">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="sound references" Offset="10" GUID="62BA4FBF44FF5AD9CACD391D8BB4DB29" StructName1="c_animation_frame_event_list_audio" Min="0" Max="4096" />
+		<_40 Name="dialogue references" Offset="24" GUID="153AB5047E2418A6970CB5DAA6E98612" StructName1="c_animation_frame_event_list_audio" Min="0" Max="4096" />
+		<_40 Name="frame event containers" Offset="38" GUID="33C248D9259671D0B3216321B3D84246" StructName1="c_animation_frame_event_list_audio" Min="0" Max="8192" />
+		<_34 Name="generated_pad99a3" Offset="4C" Length="4" />
+	</_4E8741C5F6F9BA161170A9F78F385DF3>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_62BA4FBF44FF5AD9CACD391D8BB4DB29 Name="SoundEventReferenceSet" Size="18">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="sounds" Offset="4" GUID="0ED046283B0B92F2A8A93A27A1DBB76E" StructName1="SoundEventReferenceSet" Min="0" Max="256" />
+	</_62BA4FBF44FF5AD9CACD391D8BB4DB29>
+	<_153AB5047E2418A6970CB5DAA6E98612 Name="AnimationGraphDialogueReference" Size="8">
+		<_2 Name="vocalization name" Offset="0" />
+		<_A Name="play restriction" Offset="4" StructName1="eDialoguePlayRestriction">
+			<Flag n="Unrestricted" />
+			<Flag n="Only With Shield" />
+			<Flag n="Only With Shield Empty" />
+		</_A>
+		<_34 Name="generated_padf213" Offset="5" Length="3" />
+	</_153AB5047E2418A6970CB5DAA6E98612>
+	<_33C248D9259671D0B3216321B3D84246 Name="AudioFrameEventContainer" Size="2C">
+		<_2 Name="animation name" Offset="0" />
+		<_40 Name="sound events" Offset="4" GUID="AA854D2B630C07FACA68E779A0795DAC" StructName1="AudioFrameEventContainer" Min="0" Max="512" />
+		<_40 Name="dialogue events" Offset="18" GUID="5EA5456DEB5B20F016137162AD47B2AE" StructName1="AudioFrameEventContainer" Min="0" Max="512" />
+	</_33C248D9259671D0B3216321B3D84246>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_0ED046283B0B92F2A8A93A27A1DBB76E Name="SoundEventReference" Size="60">
+		<_41 Name="sound" Offset="0" Allowed="snd!" Flags="0" />
+		<_E Name="flags" Offset="1C" StructName1="c_animation_key_event_flags">
+			<Flag n="allow on player" />
+			<Flag n="left arm only" />
+			<Flag n="right arm only" />
+			<Flag n="first-person only" />
+			<Flag n="third-person only" />
+			<Flag n="forward only" />
+			<Flag n="reverse only" />
+			<Flag n="fp no aged weapons" />
+		</_E>
+		<_34 Name="generated_padeb82" Offset="1E" Length="2" />
+		<_41 Name="model" Offset="20" Allowed="hlmt" Flags="1" />
+		<_2 Name="model variant" Offset="3C" />
+		<_41 Name="weapon" Offset="40" Allowed="weap" Flags="1" />
+		<_2 Name="weapon variant" Offset="5C" />
+	</_0ED046283B0B92F2A8A93A27A1DBB76E>
+	<_AA854D2B630C07FACA68E779A0795DAC Name="SoundFrameEventDescriptor" Size="C">
+		<_2 Name="linked frame event id" Offset="0" />
+		<_2E Name="sound" Offset="4" GUID="62BA4FBF44FF5AD9CACD391D8BB4DB29" StructName1="SoundFrameEventDescriptor" Min="0" Max="4096" />
+		<_5 Name="frame offset" Offset="6" />
+		<_37 Name="" type="amkr" Offset="8" />
+		<_2 Name="marker name" Offset="8" />
+	</_AA854D2B630C07FACA68E779A0795DAC>
+	<_5EA5456DEB5B20F016137162AD47B2AE Name="DialogueFrameEventDescriptor" Size="8">
+		<_2 Name="linked frame event id" Offset="0" />
+		<_2E Name="dialogue reference" Offset="4" GUID="153AB5047E2418A6970CB5DAA6E98612" StructName1="DialogueFrameEventDescriptor" Min="0" Max="4096" />
+		<_5 Name="frame offset" Offset="6" />
+	</_5EA5456DEB5B20F016137162AD47B2AE>
+</root>

@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="structure_seams" Parents="aTag" Index="-410">
+	<_3D9447BB1073D9E030BD63B189E0B4FF Name="s_structure_seams" Size="98">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="structure manifest" Offset="10" GUID="DF8B82BFDA667371BC6D99ECAC8C4004" />
+		<_36 Name="This tag defines the geometry between seam connected structures bsp." Offset="54" />
+		<_6 Name="version" Offset="54" />
+		<_40 Name="errors" Offset="58" GUID="CA074D833CBB78D58E13F4968994291A" StructName1="s_structure_seams" Min="0" Max="512" />
+		<_40 Name="seams" Offset="6C" GUID="695E49A57195290357868F0C85CD305E" StructName1="s_structure_seams" Min="0" Max="3072" />
+		<_40 Name="seam triangle mopp code block" Offset="80" GUID="8AD14E98EE2BC898635CF676B64351E5" StructName1="s_structure_seams" Min="0" Max="32767" />
+		<_34 Name="generated_padf765" Offset="94" Length="4" />
+	</_3D9447BB1073D9E030BD63B189E0B4FF>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_DF8B82BFDA667371BC6D99ECAC8C4004 Name="s_structure_manifest_definition" Size="44">
+		<_36 Name="build identifer" Offset="0" />
+		<_38 Name="build identifer" Offset="0" GUID="DA4642BFDDFB3371BCB969ECCD893004" />
+		<_36 Name="parent build identifier" Offset="18" />
+		<_38 Name="parent build identifer" Offset="18" GUID="DA4642BFDDFB3371BCB969ECCD893004" />
+		<_40 Name="bsp manifest" Offset="30" GUID="480145EFBAB8CC0A3E3CD08A92A35821" StructName1="s_structure_manifest_definition" Min="0" Max="1024" />
+	</_DF8B82BFDA667371BC6D99ECAC8C4004>
+	<_CA074D833CBB78D58E13F4968994291A Name="error_report_category" Size="120">
+		<_1 Name="name" Offset="0" />
+		<_A Name="report type" Offset="100" StructName1="ErrorReportTypes">
+			<Flag n="silent" />
+			<Flag n="comment" />
+			<Flag n="warning" />
+			<Flag n="error" />
+		</_A>
+		<_34 Name="generated_padf276" Offset="101" Length="1" />
+		<_E Name="flags" Offset="102" StructName1="ErrorReportFlags">
+			<Flag n="rendered" />
+			<Flag n="tangent-space" />
+			<Flag n="non-critical" />
+			<Flag n="lightmap light" />
+			<Flag n="report key is valid" />
+		</_E>
+		<_3D Name="runtime generation flags" Offset="104" />
+		<_34 Name="generated_pad3f2b" Offset="106" Length="2" />
+		<_6 Name="runtime something" Offset="108" />
+		<_40 Name="reports" Offset="10C" GUID="3227499FEE6AAB2040FCAA9E914508D6" StructName1="error_report_category" Min="0" Max="1048576" />
+	</_CA074D833CBB78D58E13F4968994291A>
+	<_695E49A57195290357868F0C85CD305E Name="s_structure_seam" Size="74">
+		<_38 Name="identifier" Offset="0" GUID="DF8642BFDDF67371BC6869ECAC893004" />
+		<_38 Name="original" Offset="10" GUID="5F934BF394C5DB454C76F360A02C2890" />
+		<_38 Name="final" Offset="24" GUID="884A495989A4CF05161B070EB0830D92" />
+	</_695E49A57195290357868F0C85CD305E>
+	<_8AD14E98EE2BC898635CF676B64351E5 Name="s_havok_mopp_code_definition" Size="70">
+		<_7 Name="field pointer skip" type="nuke" Offset="0" />
+		<_7 Name="property bag skip" type="nuke" Offset="8" />
+		<_5 Name="size" Offset="10" />
+		<_5 Name="count" Offset="12" />
+		<_34 Name="pad0" Offset="14" Length="12" />
+		<_14 Name="v.i" Offset="20" />
+		<_14 Name="v.j" Offset="24" />
+		<_14 Name="v.k" Offset="28" />
+		<_14 Name="v.w" Offset="2C" />
+		<_34 Name="pad64_0" Offset="30" Length="4" />
+		<_7 Name="m_data pointer" type="nuke" Offset="34" />
+		<_6 Name="int m_size" Offset="3C" />
+		<_6 Name="int m_capacityAndFlags" Offset="40" />
+		<_4 Name="int8 m_buildType" Offset="44" />
+		<_34 Name="pad1_0" Offset="45" Length="1" />
+		<_34 Name="pad1_1" Offset="46" Length="2" />
+		<_34 Name="pad1_2" Offset="48" Length="4" />
+		<_34 Name="pad64_1" Offset="4C" Length="4" />
+		<_37 Name="" type="hide" Offset="50" />
+		<_40 Name="mopp data block " Offset="50" GUID="F5D744080EAB741F12D4FD6D9D5A32E1" StructName1="s_havok_mopp_code_definition" Min="0" Max="16777216" />
+		<_37 Name="" type="edih" Offset="64" />
+		<_4 Name="mopp build type" Offset="64" />
+		<_34 Name="pad2_0" Offset="65" Length="1" />
+		<_34 Name="pad2_1" Offset="66" Length="2" />
+		<_34 Name="generated_pad27be" Offset="68" Length="8" />
+	</_8AD14E98EE2BC898635CF676B64351E5>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_DA4642BFDDFB3371BCB969ECCD893004 Name="s_structure_manifest_build_identifier_definition" Size="18">
+		<_6 Name="manifest_id0" Offset="0" />
+		<_6 Name="manifest_id1" Offset="4" />
+		<_6 Name="manifest_id2" Offset="8" />
+		<_6 Name="manifest_id3" Offset="C" />
+		<_6 Name="build_index" Offset="10" />
+		<_6 Name="structure importer version" Offset="14" />
+	</_DA4642BFDDFB3371BCB969ECCD893004>
+	<_480145EFBAB8CC0A3E3CD08A92A35821 Name="s_structure_manifest_bsp_definition" Size="130">
+		<_38 Name="build identifer" Offset="0" GUID="DA4642BFDDFB3371BCB969ECCD893004" />
+		<_38 Name="parent build identifer" Offset="18" GUID="DA4642BFDDFB3371BCB969ECCD893004" />
+		<_1 Name="bsp name" Offset="30" />
+	</_480145EFBAB8CC0A3E3CD08A92A35821>
+	<_3227499FEE6AAB2040FCAA9E914508D6 Name="error_report" Size="EC">
+		<_A Name="type" Offset="0" StructName1="ErrorReportTypes">
+			<Flag n="silent" />
+			<Flag n="comment" />
+			<Flag n="warning" />
+			<Flag n="error" />
+		</_A>
+		<_A Name="source" Offset="1" StructName1="e_error_report_source">
+			<Flag n="none" />
+			<Flag n="structure" />
+			<Flag n="poop" />
+			<Flag n="lightmap" />
+			<Flag n="pathfinding" />
+		</_A>
+		<_E Name="flags" Offset="2" StructName1="ErrorReportFlags">
+			<Flag n="rendered" />
+			<Flag n="tangent-space" />
+			<Flag n="non-critical" />
+			<Flag n="lightmap light" />
+			<Flag n="report key is valid" />
+		</_E>
+		<_42 Name="text" Offset="4" StructName1="error_report.text" Int1="2" Int2="0" Flags="2000" />
+		<_6 Name="source identifier" Offset="1C" />
+		<_0 Name="source filename" Offset="20" />
+		<_6 Name="source line number" Offset="40" />
+		<_40 Name="vertices" Offset="44" GUID="A884463DB44D11D10E390450B9552513" StructName1="error_report" Min="0" Max="1048576" />
+		<_40 Name="vectors" Offset="58" GUID="0B4E4E8DF617E03802745E1FAF4F86B9" StructName1="error_report" Min="0" Max="1048576" />
+		<_40 Name="lines" Offset="6C" GUID="604A43561C172D3CE0CA82848F1BDE48" StructName1="error_report" Min="0" Max="1048576" />
+		<_40 Name="triangles" Offset="80" GUID="001244E3F926E7612B96347A85173116" StructName1="error_report" Min="0" Max="1048576" />
+		<_40 Name="quads" Offset="94" GUID="E7D84305D1071621C52955BF8AEA9FCC" StructName1="error_report" Min="0" Max="1048576" />
+		<_40 Name="comments" Offset="A8" GUID="DEA34617709A9566DB6DE9508AFF50B9" StructName1="error_report" Min="0" Max="1048576" />
+		<_6 Name="report key" Offset="BC" />
+		<_6 Name="node index" Offset="C0" />
+		<_25 Name="bounds x" Offset="C4" />
+		<_25 Name="bounds y" Offset="CC" />
+		<_25 Name="bounds z" Offset="D4" />
+		<_20 Name="color" Offset="DC" />
+	</_3227499FEE6AAB2040FCAA9E914508D6>
+	<_DF8642BFDDF67371BC6869ECAC893004 Name="s_structure_seam_identifier" Size="10">
+		<_6 Name="seam_id0" Offset="0" />
+		<_6 Name="seam_id1" Offset="4" />
+		<_6 Name="seam_id2" Offset="8" />
+		<_6 Name="seam_id3" Offset="C" />
+	</_DF8642BFDDF67371BC6869ECAC893004>
+	<_5F934BF394C5DB454C76F360A02C2890 Name="s_structure_seam_original_geometry" Size="14">
+		<_40 Name="original vertices" Offset="0" GUID="182E44491C23A3656091788A9EB71083" StructName1="s_structure_seam_original_geometry" Min="0" Max="32767" />
+	</_5F934BF394C5DB454C76F360A02C2890>
+	<_884A495989A4CF05161B070EB0830D92 Name="s_structure_seam_final_geometry" Size="50">
+		<_40 Name="planes" Offset="0" GUID="C55D4D579D8D76FA39DC68A8BE1E8C92" StructName1="s_structure_seam_final_geometry" Min="0" Max="32767" />
+		<_40 Name="points" Offset="14" GUID="83704955D88A3DB63E69CCA7B4012152" StructName1="s_structure_seam_final_geometry" Min="0" Max="32767" />
+		<_40 Name="triangles" Offset="28" GUID="A9BF4914FA685DE80C4B0CEDB6C3D98E" StructName1="s_structure_seam_final_geometry" Min="0" Max="32767" />
+		<_40 Name="edges" Offset="3C" GUID="55D54CD55CE6FC51116945CA8B04C24C" StructName1="s_structure_seam_final_geometry" Min="0" Max="32767" />
+	</_884A495989A4CF05161B070EB0830D92>
+	<_F5D744080EAB741F12D4FD6D9D5A32E1 Name="MoppCodeDataDefinitionParams" Size="1">
+		<_3C Name="mopp data" Offset="0" />
+	</_F5D744080EAB741F12D4FD6D9D5A32E1>
+	<_A884463DB44D11D10E390450B9552513 Name="error_report_vertex" Size="34">
+		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
+		<_20 Name="color" Offset="20" />
+		<_14 Name="screen size" Offset="30" />
+	</_A884463DB44D11D10E390450B9552513>
+	<_0B4E4E8DF617E03802745E1FAF4F86B9 Name="error_report_vector" Size="40">
+		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
+		<_20 Name="color" Offset="20" />
+		<_19 Name="normal" Offset="30" />
+		<_14 Name="screen length" Offset="3C" />
+	</_0B4E4E8DF617E03802745E1FAF4F86B9>
+	<_604A43561C172D3CE0CA82848F1BDE48 Name="error_report_line" Size="50">
+		<_39 Name="points" Offset="0" GUID="338142C90F4729E04888C89ABB1ABDAE" Count="2" StructName1="points" />
+		<_20 Name="color" Offset="40" />
+	</_604A43561C172D3CE0CA82848F1BDE48>
+	<_001244E3F926E7612B96347A85173116 Name="error_report_triangle" Size="70">
+		<_39 Name="points" Offset="0" GUID="DDD84F94D717639859AEA1898AFE9068" Count="3" StructName1="points" />
+		<_20 Name="color" Offset="60" />
+	</_001244E3F926E7612B96347A85173116>
+	<_E7D84305D1071621C52955BF8AEA9FCC Name="error_report_quad" Size="90">
+		<_39 Name="points" Offset="0" GUID="0A0E42FD81027CE96EB082A3AE95FE26" Count="4" StructName1="points" />
+		<_20 Name="color" Offset="80" />
+	</_E7D84305D1071621C52955BF8AEA9FCC>
+	<_DEA34617709A9566DB6DE9508AFF50B9 Name="error_report_comment" Size="48">
+		<_42 Name="text" Offset="0" StructName1="error_report_comment.text" Int1="2" Int2="0" Flags="2000" />
+		<_38 Name="point" Offset="18" GUID="78534A62B6C2368CE2181EF59882F40C" />
+		<_20 Name="color" Offset="38" />
+	</_DEA34617709A9566DB6DE9508AFF50B9>
+	<_182E44491C23A3656091788A9EB71083 Name="s_structure_seam_original_vertex" Size="24">
+		<_17 Name="original vertex" Offset="0" />
+		<_6 Name="final point index" Offset="C" />
+		<_40 Name="plane normals" Offset="10" GUID="112344491C23AABC09170D8A9EAB1083" StructName1="s_structure_seam_original_vertex" Min="0" Max="1024" />
+	</_182E44491C23A3656091788A9EB71083>
+	<_C55D4D579D8D76FA39DC68A8BE1E8C92 Name="StructureSeamFinalPlanesParam" Size="10">
+		<_1E Name="plane" Offset="0" />
+	</_C55D4D579D8D76FA39DC68A8BE1E8C92>
+	<_83704955D88A3DB63E69CCA7B4012152 Name="StructureSeamFinalPointsParam" Size="C">
+		<_17 Name="final point" Offset="0" />
+	</_83704955D88A3DB63E69CCA7B4012152>
+	<_A9BF4914FA685DE80C4B0CEDB6C3D98E Name="s_structure_seam_final_triangle" Size="C">
+		<_6 Name="final plane" Offset="0" />
+		<_2E Name="final point0" Offset="4" GUID="83704955D88A3DB63E69CCA7B4012152" StructName1="s_structure_seam_final_triangle" Min="0" Max="32767" />
+		<_2E Name="final point1" Offset="6" GUID="83704955D88A3DB63E69CCA7B4012152" StructName1="s_structure_seam_final_triangle" Min="0" Max="32767" />
+		<_2E Name="final point2" Offset="8" GUID="83704955D88A3DB63E69CCA7B4012152" StructName1="s_structure_seam_final_triangle" Min="0" Max="32767" />
+		<_34 Name="generated_pad4b3a" Offset="A" Length="2" />
+	</_A9BF4914FA685DE80C4B0CEDB6C3D98E>
+	<_55D54CD55CE6FC51116945CA8B04C24C Name="s_structure_seam_final_edge" Size="4">
+		<_2E Name="final point0" Offset="0" GUID="83704955D88A3DB63E69CCA7B4012152" StructName1="s_structure_seam_final_edge" Min="0" Max="32767" />
+		<_2E Name="final point1" Offset="2" GUID="83704955D88A3DB63E69CCA7B4012152" StructName1="s_structure_seam_final_edge" Min="0" Max="32767" />
+	</_55D54CD55CE6FC51116945CA8B04C24C>
+	<_78534A62B6C2368CE2181EF59882F40C Name="error_report_point" Size="20">
+		<_17 Name="position" Offset="0" />
+		<_39 Name="node indices" Offset="C" GUID="F4FF4938B0BC81FECE3EBDC0BA0BD7A5" Count="4" StructName1="node indices" />
+		<_39 Name="node weights" Offset="10" GUID="A37C4DC7FA12933312F05638B1050C1B" Count="4" StructName1="node weights" />
+	</_78534A62B6C2368CE2181EF59882F40C>
+	<_338142C90F4729E04888C89ABB1ABDAE Name="ErrorReportLinePoint" Size="20">
+		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
+	</_338142C90F4729E04888C89ABB1ABDAE>
+	<_DDD84F94D717639859AEA1898AFE9068 Name="ErrorReportTrianglePoint" Size="20">
+		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
+	</_DDD84F94D717639859AEA1898AFE9068>
+	<_0A0E42FD81027CE96EB082A3AE95FE26 Name="ErrorReportQuadPoint" Size="20">
+		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
+	</_0A0E42FD81027CE96EB082A3AE95FE26>
+	<_112344491C23AABC09170D8A9EAB1083 Name="StructureSeamOriginalVertexPlaneNormals" Size="C">
+		<_19 Name="triangle normal" Offset="0" />
+	</_112344491C23AABC09170D8A9EAB1083>
+	<_F4FF4938B0BC81FECE3EBDC0BA0BD7A5 Name="ErrorReportNodeIndex" Size="1">
+		<_3C Name="node index" Offset="0" />
+	</_F4FF4938B0BC81FECE3EBDC0BA0BD7A5>
+	<_A37C4DC7FA12933312F05638B1050C1B Name="ErrorReportNodeWeight" Size="4">
+		<_14 Name="node weight" Offset="0" />
+	</_A37C4DC7FA12933312F05638B1050C1B>
+</root>

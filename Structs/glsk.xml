@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="SkullGlobalsDefinition" Parents="aTag" Index="-191">
+	<_B1564E0134CFFFA82BC7B8C4BE671CDC Name="i343::SkullGlobals" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="campaign metagame globals" Offset="10" GUID="9F7147BA84D6CB3800026D5C80478800" StructName1="i343::SkullGlobals" Min="0" Max="1" />
+		<_34 Name="generated_pad8e18" Offset="24" Length="4" />
+	</_B1564E0134CFFFA82BC7B8C4BE671CDC>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_9F7147BA84D6CB3800026D5C80478800 Name="s_campaign_metagame_globals" Size="80">
+		<_40 Name="styles" Offset="0" GUID="8A3D46535DFA1230AFD348429E93D875" StructName1="s_campaign_metagame_globals" Min="0" Max="100" />
+		<_40 Name="difficulty" Offset="14" GUID="201E4EAA4C1DFA8F7D67E295AD8B851B" StructName1="s_campaign_metagame_globals" Min="0" Max="4" />
+		<_40 Name="skulls" Offset="28" GUID="C5CC4C938F1530D9D5C8BAAEA6739313" StructName1="s_campaign_metagame_globals" Min="0" Max="20" />
+		<_6 Name="friendly_death_point_count" Offset="3C" />
+		<_6 Name="player_death_point_count" Offset="40" />
+		<_6 Name="player_betrayal_point_count" Offset="44" />
+		<_14 Name="transient score time" Offset="48" />
+		<_14 Name="EMP kill window" Offset="4C" />
+		<_14 Name="Cowbell explosion acceleration multiplier" Offset="50" />
+		<_14 Name="Boom explosion acceleration multiplier" Offset="54" />
+		<_14 Name="Famine ammo multiplier" Offset="58" />
+		<_14 Name="Score delta display seconds (max)" Offset="5C" />
+		<_14 Name="Score delta display seconds (incremental)" Offset="60" />
+		<_14 Name="Mythic skull body vitality scalar" Offset="64" />
+		<_14 Name="Mythic skull shield vitality scalar" Offset="68" />
+		<_40 Name="Mythic skull bonuses" Offset="6C" GUID="225B4EAB4AAC57D5172A9FB085DFA0B2" StructName1="s_campaign_metagame_globals" Min="0" Max="49" />
+	</_9F7147BA84D6CB3800026D5C80478800>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_8A3D46535DFA1230AFD348429E93D875 Name="s_campaign_metagame_style_definition" Size="8">
+		<_2 Name="incident name" Offset="0" />
+		<_14 Name="style multiplier" Offset="4" />
+	</_8A3D46535DFA1230AFD348429E93D875>
+	<_201E4EAA4C1DFA8F7D67E295AD8B851B Name="s_campaign_metagame_difficulty" Size="4">
+		<_14 Name="difficulty multiplier" Offset="0" />
+	</_201E4EAA4C1DFA8F7D67E295AD8B851B>
+	<_C5CC4C938F1530D9D5C8BAAEA6739313 Name="s_campaign_metagame_skull_data" Size="4">
+		<_14 Name="difficulty multiplier" Offset="0" />
+	</_C5CC4C938F1530D9D5C8BAAEA6739313>
+	<_225B4EAB4AAC57D5172A9FB085DFA0B2 Name="MythicSkullBonus" Size="8">
+		<_A Name="Type" Offset="0" StructName1="c_campaign_metagame_bucket_type">
+			<Flag n="grunt" />
+			<Flag n="jackal" />
+			<Flag n="skirmisher" />
+			<Flag n="marine" />
+			<Flag n="spartan" />
+			<Flag n="bugger" />
+			<Flag n="hunter" />
+			<Flag n="flood_infection" />
+			<Flag n="flood_carrier" />
+			<Flag n="flood_combat" />
+			<Flag n="flood_pure" />
+			<Flag n="sentinel" />
+			<Flag n="elite" />
+			<Flag n="engineer" />
+			<Flag n="mule" />
+			<Flag n="turret" />
+			<Flag n="mongoose" />
+			<Flag n="warthog" />
+			<Flag n="scorpion" />
+			<Flag n="hornet" />
+			<Flag n="pelican" />
+			<Flag n="revenant" />
+			<Flag n="seraph" />
+			<Flag n="shade" />
+			<Flag n="watchtower" />
+			<Flag n="ghost" />
+			<Flag n="chopper" />
+			<Flag n="mauler" />
+			<Flag n="wraith" />
+			<Flag n="banshee" />
+			<Flag n="phantom" />
+			<Flag n="scarab" />
+			<Flag n="guntower" />
+			<Flag n="tuning_fork" />
+			<Flag n="broadsword" />
+			<Flag n="mammoth" />
+			<Flag n="lich" />
+			<Flag n="mantis" />
+			<Flag n="wasp" />
+			<Flag n="phaeton" />
+			<Flag n="bishop" />
+			<Flag n="knight" />
+			<Flag n="pawn" />
+			<Flag n="soldier" />
+			<Flag n="packmaster" />
+			<Flag n="cavalier" />
+			<Flag n="brute" />
+			<Flag n="hoverer" />
+			<Flag n="crusher" />
+		</_A>
+		<_34 Name="generated_pad9f60" Offset="1" Length="3" />
+		<_14 Name="Shield vitality bonus" Offset="4" />
+	</_225B4EAB4AAC57D5172A9FB085DFA0B2>
+</root>

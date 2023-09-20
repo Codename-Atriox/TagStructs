@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="sound_category" Parents="aTag" Index="-390">
+	<_233D46A26307592A88D960E389FAC64F Name="SoundCategoryTag" Size="88">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="parent" type="parr" Offset="10" Allowed="sndc" Flags="1" />
+		<_D Name="flags" Offset="2C" StructName1="SoundCategoryTagFlags">
+			<Flag n="Player sound is non-positional" />
+			<Flag n="Cull By Max Radius" />
+			<Flag n="Don't play in splitscreen" />
+			<Flag n="Apply Focus Feature" />
+			<Flag n="Play on hidden objects" />
+			<Flag n="One Shots Use Sticky Emitter Parameters" />
+			<Flag n="Loops Use Sticky Emitter Parameters" />
+			<Flag n="Hemisphere" />
+			<Flag n="Sphere only affects acoustics" />
+			<Flag n="Prevent Source Zone Reverb" />
+			<Flag n="Disable Obstruction" />
+			<Flag n="Disable Occlusion" />
+			<Flag n="Disable Dynamic Object Obstruction" />
+			<Flag n="Force First Person Propagation For All Listeners (Deprecated)" />
+			<Flag n="Disable Source portal occlusion" />
+			<Flag n="Disable Virtual Positioning" />
+			<Flag n="Use Only First Listener in Splitscreen." />
+			<Flag n="Enable height above listener rtpc" />
+		</_D>
+		<_14 Name="Don't Play Time (seconds)" Offset="30" />
+		<_38 Name="Audio Impulse Timer Settings" Offset="34" GUID="3A48407D44A48C164C7E8F308CADD41B" />
+		<_14 Name="Sound Transmissivity" Offset="48" />
+		<_38 Name="Focus Settings" Offset="4C" GUID="C253421944A47A1CB129D30E824A2BD6" />
+		<_38 Name="Cluster Settings" Offset="60" GUID="36724EECEF31EEF50036ACE99FF3C895" />
+		<_14 Name="Sphere Radius" Offset="6C" />
+		<_14 Name="Sphere Stretch value" Offset="70" />
+		<_6 Name="Max looping sounds" Offset="74" />
+		<_14 Name="Priority at listener" Offset="78" />
+		<_14 Name="Priority at max distance" Offset="7C" />
+		<_14 Name="Occlusion from Obstruction Scalar" Offset="80" />
+		<_34 Name="generated_padc935" Offset="84" Length="4" />
+	</_233D46A26307592A88D960E389FAC64F>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_3A48407D44A48C164C7E8F308CADD41B Name="ImpulseTimerParams" Size="14">
+		<_F Name="Impulse Timer Flags" Offset="0" StructName1="ImpulseTimerParamFlags">
+			<Flag n="Enable Impulse Timer" />
+		</_F>
+		<_34 Name="generated_pad854c" Offset="1" Length="3" />
+		<_14 Name="hold" Offset="4" />
+		<_14 Name="decay" Offset="8" />
+		<_14 Name="minthreshold" Offset="C" />
+		<_14 Name="distthreshold" Offset="10" />
+	</_3A48407D44A48C164C7E8F308CADD41B>
+	<_C253421944A47A1CB129D30E824A2BD6 Name="FocusTagStruct" Size="14">
+		<_14 Name="Focus Inner Radius" Offset="0" />
+		<_14 Name="Focus Outer Radius" Offset="4" />
+		<_14 Name="Focus Inner Cone Angle" Offset="8" />
+		<_14 Name="Focus Outer Cone Angle" Offset="C" />
+		<_14 Name="Focus Elevation Scale" Offset="10" />
+	</_C253421944A47A1CB129D30E824A2BD6>
+	<_36724EECEF31EEF50036ACE99FF3C895 Name="ClusterSettings" Size="C">
+		<_14 Name="Cluster Distance" Offset="0" />
+		<_14 Name="Cluster Smoothing Speed" Offset="4" />
+		<_14 Name="Cluster Timeout" Offset="8" />
+	</_36724EECEF31EEF50036ACE99FF3C895>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

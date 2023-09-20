@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="squad_template" Parents="aTag" Index="-400" C="ai">
+	<_E85F4CB81CFEC4FF0784E278814D3264 Name="s_squad_template_definition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_2 Name="name" Offset="10" />
+		<_40 Name="cell templates" Offset="14" GUID="2BD14D6284753568BE899C68B1F8C1FD" StructName1="s_squad_template_definition" Min="0" Max="10" />
+	</_E85F4CB81CFEC4FF0784E278814D3264>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_2BD14D6284753568BE899C68B1F8C1FD Name="s_cell_template_definition" Size="84">
+		<_2 Name="name" Offset="0" />
+		<_38 Name="place on" Offset="4" GUID="46764415F95BF66AEFDE15CFB6C52F11" />
+		<_5 Name="normal diff count" Offset="8" />
+		<_B Name="major upgrade" Offset="A" StructName1="SquadMajorUpgradeType">
+			<Flag n="normal" />
+			<Flag n="few" />
+			<Flag n="many" />
+			<Flag n="none" />
+			<Flag n="all" />
+		</_B>
+		<_36 Name="Character Build" Offset="C" />
+		<_40 Name="character type" type="grid" Offset="C" GUID="71C34DF801E52F154E3DF601A58FEA67" StructName1="s_cell_template_definition" Min="0" Max="8" />
+		<_40 Name="initial weapon" type="grid" Offset="20" GUID="D53E4FC675EE09287CDFC94F83DA2A8E" StructName1="s_cell_template_definition" Min="0" Max="8" />
+		<_40 Name="initial secondary weapon" type="grid" Offset="34" GUID="D53E4FC675EE09287CDFC94F83DA2A8E" StructName1="s_cell_template_definition" Min="0" Max="8" />
+		<_40 Name="initial equipment" type="grid" Offset="48" GUID="FACA4EA7ADF3A9B8DF704939AA2C6D31" StructName1="s_cell_template_definition" Min="0" Max="8" />
+		<_A Name="grenade type" Offset="5C" StructName1="UnitGrenadeType">
+			<Flag n="none" />
+			<Flag n="fragmentation grenade" />
+			<Flag n="plasma grenade" />
+			<Flag n="lightning grenade" />
+			<Flag n="spike grenade" />
+			<Flag n="sapper grenade" />
+			<Flag n="stasis grenade" />
+		</_A>
+		<_34 Name="generated_padf847" Offset="5D" Length="3" />
+		<_41 Name="vehicle type" Offset="60" Allowed="vehi" Flags="1" />
+		<_2 Name="vehicle variant" Offset="7C" />
+		<_2 Name="activity name" type="sted" Offset="80" />
+	</_2BD14D6284753568BE899C68B1F8C1FD>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_46764415F95BF66AEFDE15CFB6C52F11 Name="s_ai_spawn_conditions" Size="4">
+		<_E Name="difficulty flags" Offset="0" StructName1="GameDifficultyFlags">
+			<Flag n="easy" />
+			<Flag n="normal" />
+			<Flag n="heroic" />
+			<Flag n="legendary" />
+		</_E>
+		<_34 Name="pad0" Offset="2" Length="2" />
+	</_46764415F95BF66AEFDE15CFB6C52F11>
+	<_71C34DF801E52F154E3DF601A58FEA67 Name="AICharacterChoiceWeakRef" Size="24">
+		<_38 Name="place on" Offset="0" GUID="46764415F95BF66AEFDE15CFB6C52F11" />
+		<_41 Name="character type" Offset="4" Allowed="char" Flags="1" />
+		<_5 Name="chance" Offset="20" />
+		<_34 Name="generated_padf39f" Offset="22" Length="2" />
+	</_71C34DF801E52F154E3DF601A58FEA67>
+	<_D53E4FC675EE09287CDFC94F83DA2A8E Name="AIWeaponChoiceWeakRef" Size="24">
+		<_38 Name="place on" Offset="0" GUID="46764415F95BF66AEFDE15CFB6C52F11" />
+		<_41 Name="weapon type" Offset="4" Allowed="weap" Flags="1" />
+		<_5 Name="chance" Offset="20" />
+		<_34 Name="generated_pad39d2" Offset="22" Length="2" />
+	</_D53E4FC675EE09287CDFC94F83DA2A8E>
+	<_FACA4EA7ADF3A9B8DF704939AA2C6D31 Name="AIEquipmentChoiceWeakRef" Size="24">
+		<_38 Name="place on" Offset="0" GUID="46764415F95BF66AEFDE15CFB6C52F11" />
+		<_41 Name="equipment type" Offset="4" Allowed="eqip" Flags="1" />
+		<_5 Name="chance" Offset="20" />
+		<_34 Name="generated_pad84ac" Offset="22" Length="2" />
+	</_FACA4EA7ADF3A9B8DF704939AA2C6D31>
+</root>

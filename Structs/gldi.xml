@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="DifficultyGlobalsDefinition" Parents="aTag" Index="-184">
+	<_C0094B1A1A07D2361C81ACB788A5F356 Name="i343::DifficultyGlobals" Size="38">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="difficulty" Offset="10" GUID="A3CF40B59C84698CABD1016BB4736069" StructName1="i343::DifficultyGlobals" Min="0" Max="1" />
+		<_40 Name="co-op difficulty" Offset="24" GUID="CA614F7C77C24405889180459192D3BD" StructName1="i343::DifficultyGlobals" Min="0" Max="1" />
+	</_C0094B1A1A07D2361C81ACB788A5F356>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_A3CF40B59C84698CABD1016BB4736069 Name="s_game_globals_difficulty_information" Size="300">
+		<_36 Name="health" Offset="0" />
+		<_14 Name="easy enemy damage" Offset="0" />
+		<_14 Name="normal enemy damage" Offset="4" />
+		<_14 Name="hard enemy damage" Offset="8" />
+		<_14 Name="imposs. enemy damage" Offset="C" />
+		<_14 Name="easy enemy vitality" Offset="10" />
+		<_14 Name="normal enemy vitality" Offset="14" />
+		<_14 Name="hard enemy vitality" Offset="18" />
+		<_14 Name="imposs. enemy vitality" Offset="1C" />
+		<_14 Name="easy enemy shield" Offset="20" />
+		<_14 Name="normal enemy shield" Offset="24" />
+		<_14 Name="hard enemy shield" Offset="28" />
+		<_14 Name="imposs. enemy shield" Offset="2C" />
+		<_14 Name="easy enemy recharge" Offset="30" />
+		<_14 Name="normal enemy recharge" Offset="34" />
+		<_14 Name="hard enemy recharge" Offset="38" />
+		<_14 Name="imposs. enemy recharge" Offset="3C" />
+		<_14 Name="easy friend damage" Offset="40" />
+		<_14 Name="normal friend damage" Offset="44" />
+		<_14 Name="hard friend damage" Offset="48" />
+		<_14 Name="imposs. friend damage" Offset="4C" />
+		<_14 Name="easy friend vitality" Offset="50" />
+		<_14 Name="normal friend vitality" Offset="54" />
+		<_14 Name="hard friend vitality" Offset="58" />
+		<_14 Name="imposs. friend vitality" Offset="5C" />
+		<_14 Name="easy friend shield" Offset="60" />
+		<_14 Name="normal friend shield" Offset="64" />
+		<_14 Name="hard friend shield" Offset="68" />
+		<_14 Name="imposs. friend shield" Offset="6C" />
+		<_14 Name="easy friend recharge" Offset="70" />
+		<_14 Name="normal friend recharge" Offset="74" />
+		<_14 Name="hard friend recharge" Offset="78" />
+		<_14 Name="imposs. friend recharge" Offset="7C" />
+		<_34 Name="_game_difficulty_health_unused5" Offset="80" Length="16" />
+		<_34 Name="_game_difficulty_health_unused6" Offset="90" Length="16" />
+		<_36 Name="ranged fire" Offset="A0" />
+		<_14 Name="easy rate of fire" Offset="A0" />
+		<_14 Name="normal rate of fire" Offset="A4" />
+		<_14 Name="hard rate of fire" Offset="A8" />
+		<_14 Name="imposs. rate of fire" Offset="AC" />
+		<_14 Name="easy projectile error" Offset="B0" />
+		<_14 Name="normal projectile error" Offset="B4" />
+		<_14 Name="hard projectile error" Offset="B8" />
+		<_14 Name="imposs. projectile error" Offset="BC" />
+		<_14 Name="easy burst error" Offset="C0" />
+		<_14 Name="normal burst error" Offset="C4" />
+		<_14 Name="hard burst error" Offset="C8" />
+		<_14 Name="imposs. burst error" Offset="CC" />
+		<_14 Name="easy new target delay" Offset="D0" />
+		<_14 Name="normal new target delay" Offset="D4" />
+		<_14 Name="hard new target delay" Offset="D8" />
+		<_14 Name="imposs. new target delay" Offset="DC" />
+		<_14 Name="easy burst separation" Offset="E0" />
+		<_14 Name="normal burst separation" Offset="E4" />
+		<_14 Name="hard burst separation" Offset="E8" />
+		<_14 Name="imposs. burst separation" Offset="EC" />
+		<_14 Name="easy target tracking" Offset="F0" />
+		<_14 Name="normal target tracking" Offset="F4" />
+		<_14 Name="hard target tracking" Offset="F8" />
+		<_14 Name="imposs. target tracking" Offset="FC" />
+		<_14 Name="easy target leading" Offset="100" />
+		<_14 Name="normal target leading" Offset="104" />
+		<_14 Name="hard target leading" Offset="108" />
+		<_14 Name="imposs. target leading" Offset="10C" />
+		<_14 Name="easy overcharge chance" Offset="110" />
+		<_14 Name="normal overcharge chance" Offset="114" />
+		<_14 Name="hard overcharge chance" Offset="118" />
+		<_14 Name="imposs. overcharge chance" Offset="11C" />
+		<_14 Name="easy special fire delay" Offset="120" />
+		<_14 Name="normal special fire delay" Offset="124" />
+		<_14 Name="hard special fire delay" Offset="128" />
+		<_14 Name="imposs. special fire delay" Offset="12C" />
+		<_14 Name="easy guidance vs player" Offset="130" />
+		<_14 Name="normal guidance vs player" Offset="134" />
+		<_14 Name="hard guidance vs player" Offset="138" />
+		<_14 Name="imposs. guidance vs player" Offset="13C" />
+		<_14 Name="easy melee delay base" Offset="140" />
+		<_14 Name="normal melee delay base" Offset="144" />
+		<_14 Name="hard melee delay base" Offset="148" />
+		<_14 Name="imposs. melee delay base" Offset="14C" />
+		<_14 Name="easy melee delay scale" Offset="150" />
+		<_14 Name="normal melee delay scale" Offset="154" />
+		<_14 Name="hard melee delay scale" Offset="158" />
+		<_14 Name="imposs. melee delay scale" Offset="15C" />
+		<_34 Name="_game_difficulty_fire_unused6" Offset="160" Length="16" />
+		<_36 Name="grenades" Offset="170" />
+		<_14 Name="easy grenade chance scale" Offset="170" />
+		<_14 Name="normal grenade chance scale" Offset="174" />
+		<_14 Name="hard grenade chance scale" Offset="178" />
+		<_14 Name="imposs. grenade chance scale" Offset="17C" />
+		<_14 Name="easy grenade timer scale" Offset="180" />
+		<_14 Name="normal grenade timer scale" Offset="184" />
+		<_14 Name="hard grenade timer scale" Offset="188" />
+		<_14 Name="imposs. grenade timer scale" Offset="18C" />
+		<_14 Name="easy grenade detonation timer scale" Offset="190" />
+		<_14 Name="normal grenade detonation timer scale" Offset="194" />
+		<_14 Name="hard grenade detonation timer scale" Offset="198" />
+		<_14 Name="imposs. grenade detonation timer scale" Offset="19C" />
+		<_14 Name="easy grenade arming timer scale" Offset="1A0" />
+		<_14 Name="normal grenade arming timer scale" Offset="1A4" />
+		<_14 Name="hard grenade arming timer scale" Offset="1A8" />
+		<_14 Name="imposs. grenade arming timer scale" Offset="1AC" />
+		<_14 Name="easy grenade velocity scale" Offset="1B0" />
+		<_14 Name="normal grenade velocity scale" Offset="1B4" />
+		<_14 Name="hard grenade velocity scale" Offset="1B8" />
+		<_14 Name="imposs. grenade velocity scale" Offset="1BC" />
+		<_36 Name="placement" Offset="1C0" />
+		<_14 Name="easy major upgrade (normal)" Offset="1C0" />
+		<_14 Name="normal major upgrade (normal)" Offset="1C4" />
+		<_14 Name="hard major upgrade (normal)" Offset="1C8" />
+		<_14 Name="imposs. major upgrade (normal)" Offset="1CC" />
+		<_14 Name="easy major upgrade (few)" Offset="1D0" />
+		<_14 Name="normal major upgrade (few)" Offset="1D4" />
+		<_14 Name="hard major upgrade (few)" Offset="1D8" />
+		<_14 Name="imposs. major upgrade (few)" Offset="1DC" />
+		<_14 Name="easy major upgrade (many)" Offset="1E0" />
+		<_14 Name="normal major upgrade (many)" Offset="1E4" />
+		<_14 Name="hard major upgrade (many)" Offset="1E8" />
+		<_14 Name="imposs. major upgrade (many)" Offset="1EC" />
+		<_36 Name="vehicles" Offset="1F0" />
+		<_14 Name="easy player vehicle ram chance" Offset="1F0" />
+		<_14 Name="normal player vehicle ram chance" Offset="1F4" />
+		<_14 Name="hard player vehicle ram chance" Offset="1F8" />
+		<_14 Name="imposs. player vehicle ram chance" Offset="1FC" />
+		<_14 Name="easy trick dodge chance scale" Offset="200" />
+		<_14 Name="normal trick dodge chance scale" Offset="204" />
+		<_14 Name="hard trick dodge chance scale" Offset="208" />
+		<_14 Name="imposs. trick dodge chance scale" Offset="20C" />
+		<_14 Name="easy vehicle boarding chance" Offset="210" />
+		<_14 Name="normal vehicle boarding chance" Offset="214" />
+		<_14 Name="hard vehicle boarding chance" Offset="218" />
+		<_14 Name="imposs. vehicle boarding chance" Offset="21C" />
+		<_36 Name="cover" Offset="220" />
+		<_14 Name="easy hide time" Offset="220" />
+		<_14 Name="normal hide time" Offset="224" />
+		<_14 Name="hard hide time" Offset="228" />
+		<_14 Name="imposs. hide time" Offset="22C" />
+		<_14 Name="easy shield fraction hide" Offset="230" />
+		<_14 Name="normal shield fraction hide" Offset="234" />
+		<_14 Name="hard shield fraction hide" Offset="238" />
+		<_14 Name="imposs. shield fraction hide" Offset="23C" />
+		<_14 Name="easy cover vitality threshold" Offset="240" />
+		<_14 Name="normal cover vitality threshold" Offset="244" />
+		<_14 Name="hard cover vitality threshold" Offset="248" />
+		<_14 Name="imposs. cover vitality threshold" Offset="24C" />
+		<_14 Name="easy bunker open duration" Offset="250" />
+		<_14 Name="normal bunker open duration" Offset="254" />
+		<_14 Name="hard bunker open duration" Offset="258" />
+		<_14 Name="imposs. bunker open duration" Offset="25C" />
+		<_14 Name="easy bunker closed duration" Offset="260" />
+		<_14 Name="normal bunker closed duration" Offset="264" />
+		<_14 Name="hard bunker closed duration" Offset="268" />
+		<_14 Name="imposs. bunker closed duration" Offset="26C" />
+		<_34 Name="_game_difficulty_vehicle_unused" Offset="270" Length="16" />
+		<_36 Name="global kung fu" Offset="280" />
+		<_14 Name="easy max attackers" Offset="280" />
+		<_14 Name="normal max attackers" Offset="284" />
+		<_14 Name="hard max attackers" Offset="288" />
+		<_14 Name="imposs. max attackers" Offset="28C" />
+		<_36 Name="threat tokens" Offset="290" />
+		<_14 Name="easy max high tokens" Offset="290" />
+		<_14 Name="normal max high tokens" Offset="294" />
+		<_14 Name="hard max high tokens" Offset="298" />
+		<_14 Name="imposs. max high tokens" Offset="29C" />
+		<_14 Name="easy max low tokens" Offset="2A0" />
+		<_14 Name="normal max low tokens" Offset="2A4" />
+		<_14 Name="hard max low tokens" Offset="2A8" />
+		<_14 Name="imposs. max low tokens" Offset="2AC" />
+		<_14 Name="easy max engagement tokens" Offset="2B0" />
+		<_14 Name="normal max engagement tokens" Offset="2B4" />
+		<_14 Name="hard max engagement tokens" Offset="2B8" />
+		<_14 Name="imposs. max engagement tokens" Offset="2BC" />
+		<_36 Name="grenade tokens" Offset="2C0" />
+		<_14 Name="easy max grenade tokens" Offset="2C0" />
+		<_14 Name="normal max grenade tokens" Offset="2C4" />
+		<_14 Name="hard max grenade tokens" Offset="2C8" />
+		<_14 Name="imposs. max grenade tokens" Offset="2CC" />
+		<_14 Name="easy grenade token cooldown" Offset="2D0" />
+		<_14 Name="normal grenade token cooldown" Offset="2D4" />
+		<_14 Name="hard grenade token cooldown" Offset="2D8" />
+		<_14 Name="imposs. grenade token cooldown" Offset="2DC" />
+		<_36 Name="effectiveness tokens" Offset="2E0" />
+		<_14 Name="easy max effectiveness tokens" Offset="2E0" />
+		<_14 Name="normal max effectiveness tokens" Offset="2E4" />
+		<_14 Name="hard max effectiveness tokens" Offset="2E8" />
+		<_14 Name="imposs. max effectiveness tokens" Offset="2EC" />
+		<_14 Name="easy weapon fidget chance per second" Offset="2F0" />
+		<_14 Name="normal weapon fidget chance per second" Offset="2F4" />
+		<_14 Name="hard weapon fidget chance per second" Offset="2F8" />
+		<_14 Name="imposs. weapon fidget chance per second" Offset="2FC" />
+	</_A3CF40B59C84698CABD1016BB4736069>
+	<_CA614F7C77C24405889180459192D3BD Name="s_game_globals_coop_difficulty_information" Size="CC">
+		<_36 Name="vitality" Offset="0" />
+		<_14 Name="two-player shield recharge delay" Offset="0" />
+		<_14 Name="four-player shield recharge delay" Offset="4" />
+		<_14 Name="Warzone shield recharge delay" Offset="8" />
+		<_14 Name="two-player shield recharge timer" Offset="C" />
+		<_14 Name="four-player shield recharge timer" Offset="10" />
+		<_14 Name="Warzone shield recharge timer" Offset="14" />
+		<_36 Name="movement" Offset="18" />
+		<_14 Name="two-player grenade dive chance" Offset="18" />
+		<_14 Name="four-player grenade dive chance" Offset="1C" />
+		<_14 Name="Warzone grenade dive chance" Offset="20" />
+		<_36 Name="evasion" Offset="24" />
+		<_14 Name="two-player evasion danger threshold" Offset="24" />
+		<_14 Name="four-player evasion danger threshold" Offset="28" />
+		<_14 Name="Warzone evasion danger threshold" Offset="2C" />
+		<_14 Name="two-player evasion delay timer" Offset="30" />
+		<_14 Name="four-player evasion delay timer" Offset="34" />
+		<_14 Name="Warzone evasion delay timer" Offset="38" />
+		<_14 Name="two-player evasion chance" Offset="3C" />
+		<_14 Name="four-player evasion chance" Offset="40" />
+		<_14 Name="Warzone evasion chance" Offset="44" />
+		<_36 Name="shooting" Offset="48" />
+		<_14 Name="two-player burst duration" Offset="48" />
+		<_14 Name="four-player burst duration" Offset="4C" />
+		<_14 Name="Warzone burst duration" Offset="50" />
+		<_14 Name="two-player burst separation" Offset="54" />
+		<_14 Name="four-player burst separation" Offset="58" />
+		<_14 Name="Warzone burst separation" Offset="5C" />
+		<_14 Name="two-player damage modifier" Offset="60" />
+		<_14 Name="four-player damage modifier" Offset="64" />
+		<_14 Name="Warzone damage modifier" Offset="68" />
+		<_36 Name="projectile" Offset="6C" />
+		<_14 Name="two-player projectile speed" Offset="6C" />
+		<_14 Name="four-player projectile speed" Offset="70" />
+		<_14 Name="Warzone projectile speed" Offset="74" />
+		<_14 Name="two-player grenade throw chance" Offset="78" />
+		<_14 Name="four-player grenade throw chance" Offset="7C" />
+		<_14 Name="Warzone grenade throw chance" Offset="80" />
+		<_36 Name="threat tokens" Offset="84" />
+		<_14 Name="two-player max high tokens" Offset="84" />
+		<_14 Name="four-player max high tokens" Offset="88" />
+		<_14 Name="Warzone max high tokens" Offset="8C" />
+		<_14 Name="two-player max low tokens" Offset="90" />
+		<_14 Name="four-player max low tokens" Offset="94" />
+		<_14 Name="Warzone max low tokens" Offset="98" />
+		<_14 Name="two-player max engagement tokens" Offset="9C" />
+		<_14 Name="four-player max engagement tokens" Offset="A0" />
+		<_14 Name="Warzone max engagement tokens" Offset="A4" />
+		<_14 Name="two-player max grenade tokens" Offset="A8" />
+		<_14 Name="four-player max grenade tokens" Offset="AC" />
+		<_14 Name="Warzone max grenade tokens" Offset="B0" />
+		<_14 Name="two-player max effectiveness tokens" Offset="B4" />
+		<_14 Name="four-player max effectiveness tokens" Offset="B8" />
+		<_14 Name="Warzone max effectiveness tokens" Offset="BC" />
+		<_36 Name="other" Offset="C0" />
+		<_14 Name="two-player AI upgrade additional chance" Offset="C0" />
+		<_14 Name="four-player AI upgrade additional chance" Offset="C4" />
+		<_14 Name="Warzone AI upgrade additional chance" Offset="C8" />
+	</_CA614F7C77C24405889180459192D3BD>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

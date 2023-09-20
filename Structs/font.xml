@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="wpf_font" Parents="aTag" Index="-156">
+	<_6B7C4102A961C1161F376609A156ABED Name="WPFFontDefinition" Size="138">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="import" type="ctcd" Offset="10" Float1="9.326369E+30" Max="0" Min="3.831279E+29" Float4="0" />
+		<_1 Name="font name" Offset="10" />
+		<_C Name="render mode" Offset="110" StructName1="eFontRenderMode">
+			<Flag n="Bitmap" />
+			<Flag n="Vector" />
+		</_C>
+		<_36 Name="Vector Font Antialiasing Tweakables" Offset="114" />
+		<_39 Name="anti alias data" Offset="114" GUID="A27E46A6DC1D4AE667F7CDCD955CBC54" Count="4" StructName1="anti alias data" />
+		<_43 Name="font file resource" Offset="124" StructName1="WPFFontFileData" Int1="0" GUID="E66945894567AF26170B4E17AF28275C" />
+		<_34 Name="generated_padbe8d" Offset="134" Length="4" />
+	</_6B7C4102A961C1161F376609A156ABED>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_A27E46A6DC1D4AE667F7CDCD955CBC54 Name="AntiAliasData" Size="4">
+		<_14 Name="antiAliasData" Offset="0" />
+	</_A27E46A6DC1D4AE667F7CDCD955CBC54>
+	<_E66945894567AF26170B4E17AF28275C Name="WPFFontFileData" Size="18">
+		<_42 Name="font file data" Offset="0" StructName1="WPFFontFileData.font file data" Int1="8" Int2="0" Flags="3200000" />
+	</_E66945894567AF26170B4E17AF28275C>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

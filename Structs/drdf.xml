@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="damage_response_definition" Parents="aTag" Index="-109">
+	<_81F9487594C849C254CD47EF8B4DD2B0 Name="s_damage_response_definition" Size="38">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="classes" Offset="10" GUID="E7E44E9F4B0239EBA660F69B9A3C8635" StructName1="s_damage_response_definition" Min="0" Max="2" />
+		<_40 Name="area control" type="slap" Offset="24" GUID="26384F67865D9C15E28A73DE8F336B17" StructName1="s_damage_response_definition" Min="0" Max="1" />
+	</_81F9487594C849C254CD47EF8B4DD2B0>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_E7E44E9F4B0239EBA660F69B9A3C8635 Name="s_damage_response_class_definition" Size="194">
+		<_B Name="type" Offset="0" StructName1="DamageResponseClassType">
+			<Flag n="shielded" />
+			<Flag n="unshielded" />
+			<Flag n="all" />
+		</_B>
+		<_E Name="flags" Offset="2" StructName1="DamageResponseClassFlags">
+			<Flag n="ignore on no damage" />
+			<Flag n="suppress directional damage flashes" />
+			<Flag n="suppress directional damage arrows" />
+			<Flag n="only when zoomed" />
+			<Flag n="sound effect only applied when scale is full" />
+		</_E>
+		<_36 Name="directional flash" Offset="4" />
+		<_38 Name="directional flash" Offset="4" GUID="E169416FD18EB7B1C316A290B5CA99B6" />
+		<_36 Name="motion sensor ping" Offset="48" />
+		<_38 Name="motion sensor ping" Offset="48" GUID="0D294C203D5CCA56012D1CBE8FA7FDB2" />
+		<_36 Name="rumble" Offset="4C" />
+		<_41 Name="rumble" Offset="4C" Allowed="rmbl" Flags="0" />
+		<_41 Name="rumble descope" Offset="68" Allowed="rmbl" Flags="0" />
+		<_36 Name="camera shake and impulse data" Offset="84" />
+		<_41 Name="camera shake" Offset="84" Allowed="csdt" Flags="0" />
+		<_41 Name="camera shake zoomed" Offset="A0" Allowed="csdt" Flags="0" />
+		<_41 Name="camera shake descope" Offset="BC" Allowed="csdt" Flags="0" />
+		<_36 Name="Flinch" Offset="D8" />
+		<_41 Name="flinch impulse" Offset="D8" Allowed="flni" Flags="0" />
+		<_41 Name="flinch impulse ads" Offset="F4" Allowed="flni" Flags="0" />
+		<_41 Name="flinch impulse descope" Offset="110" Allowed="flni" Flags="0" />
+		<_36 Name="simulated input" Offset="12C" />
+		<_41 Name="simulated_input" Offset="12C" Allowed="sidt" Flags="0" />
+		<_41 Name="simulated_input zoomed " Offset="148" Allowed="sidt" Flags="0" />
+		<_41 Name="simulated_input descope " Offset="164" Allowed="sidt" Flags="0" />
+		<_36 Name="global sound effect" Offset="180" />
+		<_40 Name="global sound effect" Offset="180" GUID="5DA54554D8AF888DC96EED1680FA8203" StructName1="s_damage_response_class_definition" Min="0" Max="1" />
+	</_E7E44E9F4B0239EBA660F69B9A3C8635>
+	<_26384F67865D9C15E28A73DE8F336B17 Name="s_area_control_definition" Size="58">
+		<_36 Name="AREA CONTROL" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="AreaControlFlags">
+			<Flag n="distance_falloff" />
+			<Flag n="angle_falloff" />
+			<Flag n="object function falloff" />
+			<Flag n="use unit position" />
+		</_E>
+		<_34 Name="generated_pad1e45" Offset="2" Length="2" />
+		<_36 Name="Distance Falloff" Offset="4" />
+		<_14 Name="maximum distance" Offset="4" />
+		<_38 Name="distance falloff" Offset="8" GUID="0F31468C3EF80F866E38CA3AB4C40EA2" />
+		<_36 Name="Angle Falloff" Offset="20" />
+		<_38 Name="angle falloff" Offset="20" GUID="0F31468C3EF80F866E38CA3AB4C40EA2" />
+		<_36 Name="Object Falloff" Offset="38" />
+		<_38 Name="object falloff" Offset="38" GUID="F93C46573D2F4F4107413F8EA70770A2" />
+	</_26384F67865D9C15E28A73DE8F336B17>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_E169416FD18EB7B1C316A290B5CA99B6 Name="s_damage_response_directional_flash_definition" Size="44">
+		<_14 Name="indicator duration" Offset="0" />
+		<_14 Name="flash duration " Offset="4" />
+		<_B Name="fade function" Offset="8" StructName1="ReverseTransitionFunction">
+			<Flag n="linear" />
+			<Flag n="late" />
+			<Flag n="very late" />
+			<Flag n="early" />
+			<Flag n="very early" />
+			<Flag n="cosine" />
+			<Flag n="zero" />
+			<Flag n="one" />
+		</_B>
+		<_34 Name="generated_pad5fa7" Offset="A" Length="2" />
+		<_14 Name="center size" Offset="C" />
+		<_14 Name="offscreen size" Offset="10" />
+		<_14 Name="center alpha" Offset="14" />
+		<_14 Name="offscreen alpha" Offset="18" />
+		<_14 Name="inner alpha" Offset="1C" />
+		<_14 Name="outer alpha" Offset="20" />
+		<_20 Name="flash color" Offset="24" />
+		<_20 Name="arrow color" Offset="34" />
+	</_E169416FD18EB7B1C316A290B5CA99B6>
+	<_0D294C203D5CCA56012D1CBE8FA7FDB2 Name="s_damage_response_motion_sensor_ping_definition" Size="4">
+		<_5 Name="ping duration" Offset="0" />
+		<_5 Name="ping scale" Offset="2" />
+	</_0D294C203D5CCA56012D1CBE8FA7FDB2>
+	<_5DA54554D8AF888DC96EED1680FA8203 Name="s_damage_response_global_sound_effect_definition" Size="1C">
+		<_2 Name="effect name" Offset="0" />
+		<_37 Name="scale =&gt; duration" type="fned" Offset="4" />
+		<_38 Name="scale =&gt; duration" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_5DA54554D8AF888DC96EED1680FA8203>
+	<_0F31468C3EF80F866E38CA3AB4C40EA2 Name="s_area_control_scalar_function" Size="18">
+		<_37 Name="Mapping" type="fned" Offset="0" />
+		<_38 Name="Mapping" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0F31468C3EF80F866E38CA3AB4C40EA2>
+	<_F93C46573D2F4F4107413F8EA70770A2 Name="s_area_control_scalar_object_function" Size="20">
+		<_2 Name="Input Variable" type="fnin" Offset="0" />
+		<_2 Name="Range Variable" type="fnir" Offset="4" />
+		<_37 Name="Mapping" type="fned" Offset="8" />
+		<_38 Name="Mapping" Offset="8" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_F93C46573D2F4F4107413F8EA70770A2>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

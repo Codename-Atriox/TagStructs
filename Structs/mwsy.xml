@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="MaterialStyles" Parents="aTag" Index="-266">
+	<_7FAF4D313D49EFC29DBEF557A42C1E8A Name="MaterialStylesTag" Size="B0">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="regions" Offset="10" GUID="322245BD118D5FF28DDEF3DFABBEB6B0" StructName1="MaterialStylesTag" Min="0" Max="2048" />
+		<_6 Name="regions Flags" type="nuke" Offset="24" />
+		<_6 Name="regions Vector1" type="nuke" Offset="28" />
+		<_6 Name="regions Vector2" type="nuke" Offset="2C" />
+		<_40 Name="coatingMaterialSets" Offset="30" GUID="F3FF3500944168F8C6A47DD7F09241F8" StructName1="MaterialStylesTag" Min="0" Max="64" />
+		<_6 Name="coatingMaterialSets Flags" type="nuke" Offset="44" />
+		<_6 Name="coatingMaterialSets Vector1" type="nuke" Offset="48" />
+		<_6 Name="coatingMaterialSets Vector2" type="nuke" Offset="4C" />
+		<_40 Name="style" Offset="50" GUID="322225BD118D5DF28CDEF3DFABBCB6B0" StructName1="MaterialStylesTag" Min="0" Max="2048" />
+		<_6 Name="style Flags" type="nuke" Offset="64" />
+		<_6 Name="style Vector1" type="nuke" Offset="68" />
+		<_6 Name="style Vector2" type="nuke" Offset="6C" />
+		<_2E Name="defaultLookIndex" Offset="70" GUID="322225BD118D5DF28CDEF3DFABBCB6B0" StructName1="MaterialStylesTag" Min="0" Max="2048" />
+		<_34 Name="generated_pad7113" Offset="72" Length="2" />
+		<_41 Name="visorSwatch" Offset="74" Allowed="mwvs" Flags="0" />
+		<_F Name="Preload Swatch Options" Offset="90" StructName1="PreloadSwatchOptionFlags">
+			<Flag n="Preload All Swatches" />
+			<Flag n="Dont Preload Swatches" />
+		</_F>
+		<_34 Name="generated_pad245e" Offset="91" Length="3" />
+		<_40 Name="Preloaded Swatches" Offset="94" GUID="3DA83E8AB7660E4AD921E4F45F411A50" StructName1="MaterialStylesTag" Min="0" Max="512" />
+		<_3E Name="Material Style Hash" Offset="A8" />
+		<_34 Name="generated_padd7a9" Offset="AC" Length="4" />
+	</_7FAF4D313D49EFC29DBEF557A42C1E8A>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_322245BD118D5FF28DDEF3DFABBEB6B0 Name="MaterialRegion" Size="18">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="intentionConversionList" Offset="4" GUID="0D1E4A09D2CD12A4D47158EBA62D9179" StructName1="MaterialRegion" Min="0" Max="2048" />
+	</_322245BD118D5FF28DDEF3DFABBEB6B0>
+	<_F3FF3500944168F8C6A47DD7F09241F8 Name="CoatingMaterialSetReference" Size="28">
+		<_3F Name="elementID" Offset="0" />
+		<_41 Name="coatingMaterialSet" Offset="8" Allowed="cwms" Flags="0" />
+		<_34 Name="generated_pad2ed3" Offset="24" Length="4" />
+	</_F3FF3500944168F8C6A47DD7F09241F8>
+	<_322225BD118D5DF28CDEF3DFABBCB6B0 Name="MaterialStyle" Size="5C">
+		<_2 Name="name" Offset="0" />
+		<_41 Name="palette" Offset="4" Allowed="mwpl" Flags="0" />
+		<_2 Name="global_damage" type="sted" Offset="20" />
+		<_2 Name="hero_damage" type="sted" Offset="24" />
+		<_2 Name="global_emissive" type="sted" Offset="28" />
+		<_14 Name="emissive_amount" Offset="2C" />
+		<_14 Name="scratch_amount" Offset="30" />
+		<_2 Name="grime_type" type="sted" Offset="34" />
+		<_14 Name="grime_amount" Offset="38" />
+		<_40 Name="regions" Offset="3C" GUID="A22225BD118D5DFF83DEF3DF3BBCB6B0" StructName1="MaterialStyle" Min="0" Max="2048" />
+		<_6 Name="regions Flags" type="nuke" Offset="50" />
+		<_6 Name="regions Vector1" type="nuke" Offset="54" />
+		<_6 Name="regions Vector2" type="nuke" Offset="58" />
+	</_322225BD118D5DF28CDEF3DFABBCB6B0>
+	<_3DA83E8AB7660E4AD921E4F45F411A50 Name="PreloadSwatchEntry" Size="28">
+		<_3F Name="elementID" Offset="0" />
+		<_41 Name="swatch" Offset="8" Allowed="mwsw" Flags="0" />
+		<_34 Name="generated_pad863f" Offset="24" Length="4" />
+	</_3DA83E8AB7660E4AD921E4F45F411A50>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_0D1E4A09D2CD12A4D47158EBA62D9179 Name="IntentionConversionElement" Size="4">
+		<_2 Name="intentionName" Offset="0" />
+	</_0D1E4A09D2CD12A4D47158EBA62D9179>
+	<_A22225BD118D5DFF83DEF3DF3BBCB6B0 Name="MaterialStyleRegion" Size="28">
+		<_2 Name="name" type="sted" Offset="0" />
+		<_2E Name="Coating Material Set" Offset="4" GUID="F3FF3500944168F8C6A47DD7F09241F8" StructName1="MaterialStyleRegion" Min="0" Max="64" />
+		<_34 Name="generated_pad4b96" Offset="6" Length="2" />
+		<_40 Name="layers" Offset="8" GUID="324245BD11845FF28D3EF3DFABB3B6B0" StructName1="MaterialStyleRegion" Min="0" Max="7" />
+		<_6 Name="layers Flags" type="nuke" Offset="1C" />
+		<_6 Name="layers Vector1" type="nuke" Offset="20" />
+		<_6 Name="layers Vector2" type="nuke" Offset="24" />
+	</_A22225BD118D5DFF83DEF3DF3BBCB6B0>
+	<_324245BD11845FF28D3EF3DFABB3B6B0 Name="MaterialLayer" Size="48">
+		<_3F Name="elementID" Offset="0" />
+		<_2 Name="name" type="sted" Offset="8" />
+		<_A Name="Hero_Reveal" Offset="C" StructName1="MaterialState">
+			<Flag n="disabled" />
+			<Flag n="enabled" />
+		</_A>
+		<_A Name="Color_Blend" Offset="D" StructName1="MaterialState">
+			<Flag n="disabled" />
+			<Flag n="enabled" />
+		</_A>
+		<_A Name="Normal_Blend" Offset="E" StructName1="MaterialState">
+			<Flag n="disabled" />
+			<Flag n="enabled" />
+		</_A>
+		<_A Name="Ignore_Texel_Density_Scalar" Offset="F" StructName1="MaterialState">
+			<Flag n="disabled" />
+			<Flag n="enabled" />
+		</_A>
+		<_1F Name="forge_color_top" Offset="10" />
+		<_1F Name="forge_color_mid" Offset="1C" />
+		<_1F Name="forge_color_bottom" Offset="28" />
+		<_14 Name="forge_color_intensity" Offset="34" />
+		<_14 Name="forge_layer_opacity" Offset="38" />
+		<_14 Name="forge_max_roughness" Offset="3C" />
+		<_A Name="forge_override_metallic" Offset="40" StructName1="MaterialState">
+			<Flag n="disabled" />
+			<Flag n="enabled" />
+		</_A>
+		<_A Name="forge_metallic" Offset="41" StructName1="MaterialState">
+			<Flag n="disabled" />
+			<Flag n="enabled" />
+		</_A>
+		<_34 Name="generated_pad910e" Offset="42" Length="6" />
+	</_324245BD11845FF28D3EF3DFABB3B6B0>
+</root>

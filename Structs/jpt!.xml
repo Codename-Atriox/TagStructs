@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:08 PM" Name="damage_effect" Parents="aTag" Index="-220">
+	<_22D24D90902C71FE36E0739394283954 Name="s_damage_effect_definition" Size="3A8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="parent" type="parr" Offset="10" Allowed="jpt!" Flags="1" />
+		<_25 Name="radius" Offset="2C" />
+		<_15 Name="cutoff scale" Offset="34" />
+		<_D Name="effect flags" Offset="38" StructName1="DamageEffectDefinitionFlags">
+			<Flag n="don't scale damage by distance" />
+			<Flag n="area damage players only" />
+			<Flag n="affects model targets" />
+			<Flag n="grenade explosion" />
+		</_D>
+		<_36 Name="damage" Offset="3C" />
+		<_36 Name="Damage Type" Offset="3C" />
+		<_38 Name="damageType" Offset="3C" GUID="89514F3F92AB3D7856E0F6C28949DE8C" />
+		<_B Name="side effect" Offset="40" StructName1="DamageSideEffects">
+			<Flag n="none" />
+			<Flag n="harmless" />
+			<Flag n="lethal to the unsuspecting" />
+			<Flag n="emp" />
+			<Flag n="strips armor" />
+			<Flag n="makes AI afraid" />
+		</_B>
+		<_B Name="category" Offset="42" StructName1="DamageCategories">
+			<Flag n="none" />
+			<Flag n="falling" />
+			<Flag n="bullet" />
+			<Flag n="grenade" />
+			<Flag n="high explosive" />
+			<Flag n="sniper" />
+			<Flag n="melee" />
+			<Flag n="flame" />
+			<Flag n="mounted weapon" />
+			<Flag n="vehicle" />
+			<Flag n="plasma" />
+			<Flag n="needle" />
+			<Flag n="shotgun" />
+		</_B>
+		<_C Name="death vocalization" Offset="44" StructName1="DamageDeathVocalizations">
+			<Flag n="default" />
+			<Flag n="dth" />
+			<Flag n="dth_fall" />
+			<Flag n="dth_mjr" />
+			<Flag n="dth_slw" />
+			<Flag n="dth_hdsht" />
+			<Flag n="dth_slnt" />
+			<Flag n="dth_drama" />
+			<Flag n="dth_reanimated" />
+			<Flag n="thrwn" />
+			<Flag n="die_space" />
+			<Flag n="die_ass" />
+			<Flag n="die incinerated" />
+		</_C>
+		<_D Name="flags" Offset="48" StructName1="DamageDefinitionFlags">
+			<Flag n="does not hurt owner" />
+			<Flag n="can cause headshots" />
+			<Flag n="ignores headshot obstructions" />
+			<Flag n="pings resistant units" />
+			<Flag n="does not hurt friends" />
+			<Flag n="does not ping units" />
+			<Flag n="detonates explosives" />
+			<Flag n="only hurts shields" />
+			<Flag n="causes flaming death" />
+			<Flag n="skips shields" />
+			<Flag n="ignore seat scale for dir. dmg" />
+			<Flag n="forces hard ping if body dmg" />
+			<Flag n="forces hard ping always" />
+			<Flag n="forces medium ping if body dmg" />
+			<Flag n="forces medium ping always" />
+			<Flag n="does not hurt players" />
+			<Flag n="enables special death" />
+			<Flag n="cannot cause betrayals" />
+			<Flag n="uses old EMP behavior" />
+			<Flag n="ignores damage resistance" />
+			<Flag n="force s_kill on death" />
+			<Flag n="cause magic deceleration" />
+			<Flag n="aoe skip obstruction test" />
+			<Flag n="does not spill over" />
+			<Flag n="does not hurt boarders" />
+			<Flag n="does not cause biped aoe effect" />
+			<Flag n="hurt only friends" />
+			<Flag n="causes incineration dissolve (deprecated)" />
+			<Flag n="causes incineration dissolve on headshot (deprecated)" />
+			<Flag n="does not hurt damage source" />
+			<Flag n="damage vehicles only" />
+			<Flag n="triggers interact logic" />
+		</_D>
+		<_D Name="secondary flags" Offset="4C" StructName1="DamageDefinitionSecondaryFlags">
+			<Flag n="causes incineration dissolve to dead units (deprecated)" />
+			<Flag n="force hard ping as attachment feedback" />
+			<Flag n="detaches object dispenser items" />
+			<Flag n="hard pings from this damage stun AI" />
+			<Flag n="deaths are non revivable" />
+			<Flag n="forces hard ping when available" />
+			<Flag n="forces medium ping when available" />
+			<Flag n="impales bipeds" />
+			<Flag n="resets stun ticks on units" />
+			<Flag n="Show damage as critical in UI" />
+			<Flag n="Ignore physics impulses on friendlies" />
+			<Flag n="Damage is continuous" />
+			<Flag n="suppress evade" />
+			<Flag n="suppress grapple hook" />
+			<Flag n="Use different impulse for props" />
+		</_D>
+		<_40 Name="dissolve data" Offset="50" GUID="70C74A509C7EB805EAD942F5B1033B73" StructName1="s_damage_effect_definition" Min="0" Max="1" />
+		<_36 Name="NOTE" Offset="64" />
+		<_41 Name="modifiers" Offset="64" Allowed="gmpm" Flags="0" />
+		<_14 Name="headshot damage multiplier" Offset="80" />
+		<_14 Name="headshot shielded damage multiplier" Offset="84" />
+		<_14 Name="AOE core radius" Offset="88" />
+		<_14 Name="AOE force offset z" Offset="8C" />
+		<_14 Name="damage lower bound" Offset="90" />
+		<_25 Name="damage upper bound" Offset="94" />
+		<_38 Name="damage falloff function" Offset="9C" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_8 Name="dmg inner cone angle" Offset="B4" />
+		<_38 Name="blah" Offset="B8" GUID="5EF1403B728A16DCC741A9F2873B7F44" />
+		<_14 Name="active camouflage damage" Offset="BC" />
+		<_26 Name="active camouflage damage range" Offset="C0" />
+		<_15 Name="movement stun" Offset="C8" />
+		<_15 Name="maximum movement stun" Offset="CC" />
+		<_15 Name="turn stun" Offset="D0" />
+		<_15 Name="maximum turn stun" Offset="D4" />
+		<_14 Name="stun time" Offset="D8" />
+		<_6 Name="damage stun" Offset="DC" />
+		<_14 Name="instantaneous acceleration" Offset="E0" />
+		<_14 Name="alt instantaneous acceleration" Offset="E4" />
+		<_14 Name="prop instantaneous acceleration" Offset="E8" />
+		<_14 Name="acceleration cap" Offset="EC" />
+		<_36 Name="AI Stun Parameters" Offset="F0" />
+		<_14 Name="ai stun time" Offset="F0" />
+		<_14 Name="ai stun magnitude" Offset="F4" />
+		<_36 Name="Impalement parameters" Offset="F8" />
+		<_14 Name="impale initial velocity" Offset="F8" />
+		<_14 Name="impale drag acceleration" Offset="FC" />
+		<_14 Name="impale gravity acceleration" Offset="100" />
+		<_14 Name="impale minimum velocity" Offset="104" />
+		<_8 Name="impale maximum angle" Offset="108" />
+		<_14 Name="impale effect duration" Offset="10C" />
+		<_15 Name="soft ping pain screen scale" Offset="110" />
+		<_2 Name="general_damage" Offset="114" />
+		<_2 Name="specific_damage" Offset="118" />
+		<_36 Name="vampirism" Offset="11C" />
+		<_38 Name="vampirism" Offset="11C" GUID="8EF44BEB158301A70A647B3223AD1035" />
+		<_40 Name="custom response labels" Offset="144" GUID="E58B40F226EA92BDE8A8295691D334D4" StructName1="s_damage_effect_definition" Min="0" Max="8" />
+		<_14 Name="ping reaction delay" Offset="158" />
+		<_14 Name="AI stun radius" Offset="15C" />
+		<_25 Name="AI stun bounds" Offset="160" />
+		<_B Name="aiNoiseVolume" Offset="168" StructName1="i343::AI::SoundVolume">
+			<Flag n="silent" />
+			<Flag n="quiet" />
+			<Flag n="medium" />
+			<Flag n="shout" />
+			<Flag n="loud" />
+		</_B>
+		<_34 Name="generated_pad97e3" Offset="16A" Length="2" />
+		<_14 Name="shake radius" Offset="16C" />
+		<_14 Name="EMP radius" Offset="170" />
+		<_14 Name="EMP duration scalar" Offset="174" />
+		<_14 Name="aoe spike radius" Offset="178" />
+		<_14 Name="aoe spike damage bump" Offset="17C" />
+		<_14 Name="shield render effects scale" Offset="180" />
+		<_14 Name="equipment hack time" Offset="184" />
+		<_36 Name="damage response" Offset="188" />
+		<_41 Name="damage response" Offset="188" Allowed="drdf" Flags="0" />
+		<_40 Name="damage sounds" Offset="1A4" GUID="66FD4A1398E2919168160A3FBD131534" StructName1="s_damage_effect_definition" Min="0" Max="4" />
+		<_14 Name="Damage dealt SFX cooldown time" Offset="1B8" />
+		<_14 Name="Damage received SFX cooldown time" Offset="1BC" />
+		<_37 Name="player damage additive sounds" type="fgrb" Offset="1C0" />
+		<_41 Name="deprecated player dealt damage additive sound" Offset="1C0" Allowed="snd!" Flags="0" />
+		<_41 Name="deprecated player dealt AOE damage additive sound" Offset="1DC" Allowed="snd!" Flags="0" />
+		<_41 Name="deprecated player dealt friendly fire additive sound" Offset="1F8" Allowed="snd!" Flags="0" />
+		<_38 Name="player additive sound deal damage" Offset="214" GUID="19984BEFB3F8389FC2DE9124B530B6CD" />
+		<_41 Name="player received damage additive sound (default)" Offset="2D8" Allowed="snd!" Flags="0" />
+		<_41 Name="player received damage additive sound (third person)" Offset="2F4" Allowed="snd!" Flags="0" />
+		<_41 Name="player received damage additive sound (in vehicle)" Offset="310" Allowed="snd!" Flags="0" />
+		<_41 Name="player received AOE damage additive sound (default)" Offset="32C" Allowed="snd!" Flags="0" />
+		<_41 Name="player received AOE damage additive sound (third person)" Offset="348" Allowed="snd!" Flags="0" />
+		<_41 Name="player received AOE damage additive sound (in vehicle)" Offset="364" Allowed="snd!" Flags="0" />
+		<_37 Name="" type="fgre" Offset="380" />
+		<_41 Name="damage effect sounds" Offset="380" Allowed="desd" Flags="0" />
+		<_14 Name="visual damage radius" Offset="39C" />
+		<_14 Name="visual damage intensity" Offset="3A0" />
+		<_34 Name="generated_pad4b2e" Offset="3A4" Length="4" />
+	</_22D24D90902C71FE36E0739394283954>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_89514F3F92AB3D7856E0F6C28949DE8C Name="i343::Damage::DamageTypeDefinition" Size="4">
+		<_2 Name="Damage Type Name" Offset="0" />
+	</_89514F3F92AB3D7856E0F6C28949DE8C>
+	<_70C74A509C7EB805EAD942F5B1033B73 Name="DamageDissolveData" Size="2">
+		<_A Name="dissolve type" Offset="0" StructName1="DissolveType">
+			<Flag n="incineration" />
+			<Flag n="telefrag" />
+		</_A>
+		<_F Name="dissolve flags" Offset="1" StructName1="DissolveFlags">
+			<Flag n="causes dissolve effect" />
+			<Flag n="causes dissolve effect on headshot" />
+			<Flag n="causes dissolve effect to dead units" />
+		</_F>
+	</_70C74A509C7EB805EAD942F5B1033B73>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+	<_5EF1403B728A16DCC741A9F2873B7F44 Name="DamageOuterConeAngle" Size="4">
+		<_8 Name="dmg outer cone angle" Offset="0" />
+	</_5EF1403B728A16DCC741A9F2873B7F44>
+	<_8EF44BEB158301A70A647B3223AD1035 Name="i343::Damage::VampirismParameters" Size="28">
+		<_F Name="flags" Offset="0" StructName1="i343::Damage::VampirismFlags">
+			<Flag n="recovers health" />
+			<Flag n="recovers shields" />
+			<Flag n="resets shield stun" />
+		</_F>
+		<_34 Name="generated_pad26a2" Offset="1" Length="3" />
+		<_14 Name="percent transferred" Offset="4" />
+		<_14 Name="max overshield" Offset="8" />
+		<_41 Name="overshield malleable properties" Offset="C" Allowed="gmpm" Flags="0" />
+	</_8EF44BEB158301A70A647B3223AD1035>
+	<_E58B40F226EA92BDE8A8295691D334D4 Name="CustomDamageResponseLabelParam" Size="4">
+		<_2 Name="custom label" Offset="0" />
+	</_E58B40F226EA92BDE8A8295691D334D4>
+	<_66FD4A1398E2919168160A3FBD131534 Name="s_damage_effect_sound" Size="20">
+		<_41 Name="sound" Offset="0" Allowed="snd!" Flags="0" />
+		<_E Name="damage types" Offset="1C" StructName1="DamageEffectSoundTypes">
+			<Flag n="none" />
+			<Flag n="lethal instantaneous" />
+			<Flag n="lethal" />
+			<Flag n="non lethal" />
+		</_E>
+		<_E Name="object types" Offset="1E" StructName1="ObjectTypes">
+			<Flag n="biped" />
+			<Flag n="vehicle" />
+			<Flag n="weapon" />
+			<Flag n="equipment" />
+			<Flag n="terminal" />
+			<Flag n="projectile" />
+			<Flag n="scenery" />
+			<Flag n="machine" />
+			<Flag n="control" />
+			<Flag n="dispenser" />
+			<Flag n="crate" />
+			<Flag n="creature" />
+			<Flag n="giant" />
+			<Flag n="effect_scenery" />
+		</_E>
+	</_66FD4A1398E2919168160A3FBD131534>
+	<_19984BEFB3F8389FC2DE9124B530B6CD Name="i343::Damage::PlayerAdditiveSoundDealDamageDefinition" Size="C4">
+		<_41 Name="player additive sound deal damage regular" Offset="0" Allowed="snd!" Flags="0" />
+		<_41 Name="player additive sound deal damage aoe" Offset="1C" Allowed="snd!" Flags="0" />
+		<_41 Name="player additive sound deal damage friendly fire" Offset="38" Allowed="snd!" Flags="0" />
+		<_41 Name="player additive sound deal damage weak spot" Offset="54" Allowed="snd!" Flags="0" />
+		<_41 Name="player additive sound deal damage headshot" Offset="70" Allowed="snd!" Flags="0" />
+		<_41 Name="player additive sound deal damage kill" Offset="8C" Allowed="snd!" Flags="0" />
+		<_41 Name="player additive sound deal damage headshot kill" Offset="A8" Allowed="snd!" Flags="0" />
+	</_19984BEFB3F8389FC2DE9124B530B6CD>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

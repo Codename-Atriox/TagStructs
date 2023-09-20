@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="ControlGlobalsDefinition" Parents="aTag" Index="-180">
+	<_777743AC66978BD5448B1FCA86A22206 Name="i343::ControlGlobals" Size="50">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="controller input" Offset="10" GUID="BD194D1C056079C5D8A4D2ADB7544182" StructName1="i343::ControlGlobals" Min="0" Max="1" />
+		<_40 Name="player control" Offset="24" GUID="08FE4A96AFAD741439C2EEFC94E4BCF6" StructName1="i343::ControlGlobals" Min="0" Max="1" />
+		<_40 Name="input abstraction globals" Offset="38" GUID="6B934FB9DE4FA123FC086CAD97A35E72" StructName1="i343::ControlGlobals" Min="0" Max="32" />
+		<_34 Name="generated_pad0ea8" Offset="4C" Length="4" />
+	</_777743AC66978BD5448B1FCA86A22206>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_BD194D1C056079C5D8A4D2ADB7544182 Name="s_game_globals_input_abstraction" Size="8">
+		<_14 Name="axial dead zone" Offset="0" />
+		<_14 Name="radial dead zone" Offset="4" />
+	</_BD194D1C056079C5D8A4D2ADB7544182>
+	<_08FE4A96AFAD741439C2EEFC94E4BCF6 Name="s_game_globals_player_control" Size="200">
+		<_36 Name="controller bindings" Offset="0" />
+		<_40 Name="controller button mappings" Offset="0" GUID="921C4C4E6D1C4D66EC6AACBFB2A0F6C3" StructName1="s_game_globals_player_control" Min="0" Max="16" />
+		<_2 Name="default binding" Offset="14" />
+		<_41 Name="observer controller bindings" Offset="18" Allowed="indb" Flags="0" />
+		<_41 Name="tacmap controller bindings" Offset="34" Allowed="indb" Flags="0" />
+		<_36 Name="mouse and keyboard bindings" Offset="50" />
+		<_41 Name="default mouse+kb bindings" Offset="50" Allowed="indb" Flags="0" />
+		<_41 Name="observer mouse+kb bindings" Offset="6C" Allowed="indb" Flags="0" />
+		<_41 Name="tacmap mouse+kb bindings" Offset="88" Allowed="indb" Flags="0" />
+		<_36 Name="Firing Axes" Offset="A4" />
+		<_2 Name="Primary (on foot)" Offset="A4" />
+		<_2 Name="Secondary (on foot)" Offset="A8" />
+		<_2 Name="Primary (in vehicle)" Offset="AC" />
+		<_2 Name="Secondary (in vehicle)" Offset="B0" />
+		<_36 Name="Axis Defaults" Offset="B4" />
+		<_37 Name="Sprint" type="fgrb" Offset="B4" />
+		<_38 Name="sprint info" Offset="B4" GUID="53594E3BB4035B8991BA3B23AF1F2258" />
+		<_37 Name="" type="fgre" Offset="C0" />
+		<_37 Name="Zoom" type="fgrb" Offset="C0" />
+		<_38 Name="zoom info" Offset="C0" GUID="53594E3BB4035B8991BA3B23AF1F2258" />
+		<_37 Name="" type="fgre" Offset="CC" />
+		<_37 Name="Crouch" type="fgrb" Offset="CC" />
+		<_38 Name="crouch info" Offset="CC" GUID="53594E3BB4035B8991BA3B23AF1F2258" />
+		<_37 Name="" type="fgre" Offset="D8" />
+		<_37 Name="Walk" type="fgrb" Offset="D8" />
+		<_38 Name="walk info" Offset="D8" GUID="53594E3BB4035B8991BA3B23AF1F2258" />
+		<_37 Name="" type="fgre" Offset="E4" />
+		<_36 Name="inventory peek" Offset="E4" />
+		<_14 Name="auto close inventory peek time" Offset="E4" />
+		<_36 Name="sticks" Offset="E8" />
+		<_40 Name="move stick info" Offset="E8" GUID="F47E4B5FD3417406D364BEAB953C7C15" StructName1="s_game_globals_player_control" Min="0" Max="1" />
+		<_40 Name="look stick info" Offset="FC" GUID="F47E4B5FD3417406D364BEAB953C7C15" StructName1="s_game_globals_player_control" Min="0" Max="1" />
+		<_36 Name="aim assist" Offset="110" />
+		<_15 Name="magnetism friction" Offset="110" />
+		<_15 Name="magnetism adhesion" Offset="114" />
+		<_15 Name="inconsequential target scale" Offset="118" />
+		<_15 Name="ads magnetism friction" Offset="11C" />
+		<_15 Name="ads magnetism adhesion" Offset="120" />
+		<_15 Name="mouse magnetism scalar whilst firing" Offset="124" />
+		<_15 Name="mouse magnetism scalar not firing" Offset="128" />
+		<_15 Name="mouse magnetism decay" Offset="12C" />
+		<_36 Name="crosshair" Offset="130" />
+		<_16 Name="crosshair location" Offset="130" />
+		<_14 Name="gravity_scale" Offset="138" />
+		<_8 Name="minimum angle for vehicle flipping" Offset="13C" />
+		<_14 Name="minimum action hold time" Offset="140" />
+		<_14 Name="powerup activation max hold time" Offset="144" />
+		<_14 Name="switch to signature weapon hold time" Offset="148" />
+		<_14 Name="pegged zoom suppression threshold" Offset="14C" />
+		<_37 Name="Zoom Default Sensitivities" type="fgrb" Offset="150" />
+		<_37 Name="None" type="fgrb" Offset="150" />
+		<_14 Name="None" Offset="150" />
+		<_37 Name="" type="fgre" Offset="154" />
+		<_37 Name="1.4x" type="fgrb" Offset="154" />
+		<_14 Name="1.4x" Offset="154" />
+		<_37 Name="" type="fgre" Offset="158" />
+		<_37 Name="2.5x" type="fgrb" Offset="158" />
+		<_14 Name="2.5x" Offset="158" />
+		<_37 Name="" type="fgre" Offset="15C" />
+		<_37 Name="3.0x" type="fgrb" Offset="15C" />
+		<_14 Name="3.0x" Offset="15C" />
+		<_37 Name="" type="fgre" Offset="160" />
+		<_37 Name="5.0x" type="fgrb" Offset="160" />
+		<_14 Name="5.0x" Offset="160" />
+		<_37 Name="" type="fgre" Offset="164" />
+		<_37 Name="6.0x" type="fgrb" Offset="164" />
+		<_14 Name="6.0x" Offset="164" />
+		<_37 Name="" type="fgre" Offset="168" />
+		<_37 Name="10.0x" type="fgrb" Offset="168" />
+		<_14 Name="10.0x" Offset="168" />
+		<_37 Name="" type="fgre" Offset="16C" />
+		<_37 Name="" type="fgre" Offset="16C" />
+		<_14 Name="active look input type detection time" Offset="16C" />
+		<_36 Name="double/triple jump" Offset="170" />
+		<_14 Name="minimum vertical velocity" Offset="170" />
+		<_14 Name="cooldown time" Offset="174" />
+		<_18 Name="double jump velocity" Offset="178" />
+		<_18 Name="triple jump velocity" Offset="180" />
+		<_36 Name="tricks" Offset="188" />
+		<_14 Name="flick peg jump max time" Offset="188" />
+		<_14 Name="double tap interval time" Offset="18C" />
+		<_14 Name="jump_forward_horizontal_speed_0" Offset="190" />
+		<_14 Name="jump_forward_horizontal_speed_1" Offset="194" />
+		<_14 Name="jump_forward_horizontal_speed_2" Offset="198" />
+		<_14 Name="jump_forward_gravity_0" Offset="19C" />
+		<_14 Name="jump_forward_gravity_1" Offset="1A0" />
+		<_14 Name="jump_forward_gravity_2" Offset="1A4" />
+		<_14 Name="jump_forward_height" Offset="1A8" />
+		<_14 Name="jump_lateral_horizontal_speed_0" Offset="1AC" />
+		<_14 Name="jump_lateral_horizontal_speed_1" Offset="1B0" />
+		<_14 Name="jump_lateral_horizontal_speed_2" Offset="1B4" />
+		<_14 Name="jump_lateral_gravity_0" Offset="1B8" />
+		<_14 Name="jump_lateral_gravity_1" Offset="1BC" />
+		<_14 Name="jump_lateral_gravity_2" Offset="1C0" />
+		<_14 Name="jump_lateral_height" Offset="1C4" />
+		<_14 Name="jump_reverse_horizontal_speed_0" Offset="1C8" />
+		<_14 Name="jump_reverse_horizontal_speed_1" Offset="1CC" />
+		<_14 Name="jump_reverse_horizontal_speed_2" Offset="1D0" />
+		<_14 Name="jump_reverse_gravity_0" Offset="1D4" />
+		<_14 Name="jump_reverse_gravity_1" Offset="1D8" />
+		<_14 Name="jump_reverse_gravity_2" Offset="1DC" />
+		<_14 Name="jump_reverse_height" Offset="1E0" />
+		<_14 Name="jump_stationary_horizontal_speed_0" Offset="1E4" />
+		<_14 Name="jump_stationary_horizontal_speed_1" Offset="1E8" />
+		<_14 Name="jump_stationary_horizontal_speed_2" Offset="1EC" />
+		<_14 Name="jump_stationary_gravity_0" Offset="1F0" />
+		<_14 Name="jump_stationary_gravity_1" Offset="1F4" />
+		<_14 Name="jump_stationary_gravity_2" Offset="1F8" />
+		<_14 Name="jump_stationary_height" Offset="1FC" />
+	</_08FE4A96AFAD741439C2EEFC94E4BCF6>
+	<_6B934FB9DE4FA123FC086CAD97A35E72 Name="InputScopeTagRef" Size="1C">
+		<_41 Name="scope" Offset="0" Allowed="insc" Flags="0" />
+	</_6B934FB9DE4FA123FC086CAD97A35E72>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_921C4C4E6D1C4D66EC6AACBFB2A0F6C3 Name="s_controller_mapping_reference" Size="28">
+		<_2 Name="Default Binding Preset Name" Offset="0" />
+		<_2 Name="UI String ID" Offset="4" />
+		<_2 Name="UI Description String ID" Offset="8" />
+		<_41 Name="default bindings" Offset="C" Allowed="indb" Flags="0" />
+	</_921C4C4E6D1C4D66EC6AACBFB2A0F6C3>
+	<_53594E3BB4035B8991BA3B23AF1F2258 Name="i343::PlayerControlGlobals::AxisPairType" Size="C">
+		<_2 Name="toggle axis id" Offset="0" />
+		<_2 Name="hold axis id" Offset="4" />
+		<_F Name="flags" Offset="8" StructName1="i343::PlayerControlGlobals::AxisPairTypeFlags">
+			<Flag n="Apply value when controller preset changes" />
+		</_F>
+		<_34 Name="generated_padecc4" Offset="9" Length="3" />
+	</_53594E3BB4035B8991BA3B23AF1F2258>
+	<_F47E4B5FD3417406D364BEAB953C7C15 Name="s_gamepad_stick_settings" Size="30">
+		<_A Name="input shape" Offset="0" StructName1="e_gamepad_stick_remap_shape">
+			<Flag n="none" />
+			<Flag n="unit_circle" />
+			<Flag n="unit_square" />
+		</_A>
+		<_34 Name="generated_pad0710" Offset="1" Length="3" />
+		<_15 Name="peg threshold [0,1]" Offset="4" />
+		<_16 Name="pegged time" Offset="8" />
+		<_16 Name="pegged scale" Offset="10" />
+		<_8 Name="peg max angular velocity" Offset="18" />
+		<_40 Name="input mapping function" Offset="1C" GUID="6AA04553AAEEBF6360373717A5DAA31B" StructName1="s_gamepad_stick_settings" Min="0" Max="1" />
+	</_F47E4B5FD3417406D364BEAB953C7C15>
+	<_6AA04553AAEEBF6360373717A5DAA31B Name="InputMappingFunctionBlock" Size="18">
+		<_38 Name="function" Offset="0" GUID="0276481E72CB9289F56D7C189467A351" />
+	</_6AA04553AAEEBF6360373717A5DAA31B>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

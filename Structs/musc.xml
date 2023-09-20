@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="music_control" Parents="aTag" Index="-263">
+	<_7A464815FE440A1B382E338EB3D5F22E Name="MusicControlDefinition" Size="78">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_D Name="flags" Offset="10" StructName1="MusicControlFlag">
+			<Flag n="Only play when all local players are aligned" />
+			<Flag n="Don't restore priority on load" />
+		</_D>
+		<_40 Name="Music action list" Offset="14" GUID="F2B240C5BA6C3A666129DCBF8DB3E00A" StructName1="MusicControlDefinition" Min="0" Max="16" />
+		<_6 Name="Action priority" Offset="28" />
+		<_40 Name="Campaign Coop Parent Events" Offset="2C" GUID="6CF14E78BEF5DDCB52B54B6386221F93" StructName1="MusicControlDefinition" Min="0" Max="10" />
+		<_37 Name="Damage Listener" type="fgrb" Offset="40" />
+		<_C Name="Force Damage listener" Offset="40" StructName1="MusicControlDefinition::e_MusicListenerState">
+			<Flag n="Not Set" />
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_C>
+		<_D Name="Damage Listener Flags" Offset="44" StructName1="DamageListenerFlag">
+			<Flag n="Use biped combat intensity bypass flags for encounter" />
+		</_D>
+		<_5 Name="Damage Threshold" Offset="48" />
+		<_5 Name="Enemy tracking proximity" Offset="4A" />
+		<_37 Name="" type="fgre" Offset="4C" />
+		<_37 Name="Combat Intensity" type="fgrb" Offset="4C" />
+		<_C Name="Enable Combat intensities" Offset="4C" StructName1="MusicControlDefinition::e_MusicListenerState">
+			<Flag n="Not Set" />
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_C>
+		<_5 Name="Low Combat Threshold" Offset="50" />
+		<_5 Name="Medium Combat Threshold" Offset="52" />
+		<_5 Name="High Combat Threshold" Offset="54" />
+		<_5 Name="Transition Up Slew" Offset="56" />
+		<_5 Name="Transition Down Slew" Offset="58" />
+		<_5 Name="Tracking Weighted Average Slew Time" Offset="5A" />
+		<_37 Name="" type="fgre" Offset="5C" />
+		<_41 Name="Sound Bank" Offset="5C" Allowed="sbnk" Flags="0" />
+	</_7A464815FE440A1B382E338EB3D5F22E>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_F2B240C5BA6C3A666129DCBF8DB3E00A Name="MusicActionBlockDefinition" Size="18">
+		<_C Name="Music action" Offset="0" StructName1="MusicActionBlockDefinition::e_MusicActionType">
+			<Flag n="NoAction" />
+			<Flag n="StartEvent" />
+			<Flag n="StopEvent" />
+			<Flag n="TriggerEventTracked" />
+			<Flag n="SetState" />
+			<Flag n="SetSwitch" />
+			<Flag n="SetRTPC" />
+			<Flag n="ResetPriority" />
+		</_C>
+		<_2 Name="Name" Offset="4" />
+		<_6 Name="Event or Group Name hash" Offset="8" />
+		<_2 Name="Group Value" Offset="C" />
+		<_6 Name="Value" Offset="10" />
+		<_14 Name="Delay Time" Offset="14" />
+	</_F2B240C5BA6C3A666129DCBF8DB3E00A>
+	<_6CF14E78BEF5DDCB52B54B6386221F93 Name="MusicCoOpParentEventDefinition" Size="4">
+		<_2 Name="Parent Event" Offset="0" />
+	</_6CF14E78BEF5DDCB52B54B6386221F93>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

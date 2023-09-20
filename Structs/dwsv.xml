@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:04 PM" Name="DynamicWorldStatePerViewGlobals" Parents="aTag" Index="-115">
+	<_1399B320DC909D0807124F67325C2F05 Name="DynamicWorldStatePerViewGlobals" Size="88">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_D Name="State Flags" Offset="10" StructName1="StateFlagsDefinition">
+			<Flag n="Override Sun" />
+			<Flag n="Has Multiple Suns" />
+			<Flag n="Override Sky Lighting" />
+			<Flag n="Override Weather" />
+			<Flag n="Override Atmosphere" />
+			<Flag n="Override Cubemap Tinting" />
+			<Flag n="Override Cubemap Transition" />
+			<Flag n="Override Camera FX" />
+			<Flag n="Override Fog" />
+			<Flag n="Override Wind" />
+			<Flag n="Override Volumetric Clouds" />
+			<Flag n="Override Sun Shadow" />
+			<Flag n="Override Global Cubemap" />
+			<Flag n="Override CVW Light Controls" />
+			<Flag n="Override Vista" />
+			<Flag n="Override UI" />
+			<Flag n="Override Waterfall" />
+		</_D>
+		<_E Name="Dynamic Sun Flags" Offset="14" StructName1="DynamicSunOverrideFlagsDefinition">
+			<Flag n="Override Primary Sun" />
+			<Flag n="Override Color" />
+			<Flag n="Override Intensity" />
+			<Flag n="Override Intensity EV Scalar" />
+			<Flag n="Override Distance" />
+			<Flag n="Override Time Of Day Angle" />
+			<Flag n="Override Latitude Modifier Angle" />
+			<Flag n="Override Azimuth" />
+			<Flag n="Override Season Modifier" />
+			<Flag n="Override Size" />
+		</_E>
+		<_34 Name="generated_pad15ca" Offset="16" Length="2" />
+		<_D Name="Dynamic Sun Shadow Flags" Offset="18" StructName1="DynamicSunShadowFlagsDefinition">
+			<Flag n="Override Floating Shadow Quality" />
+			<Flag n="Override Cascade Overlap" />
+			<Flag n="Override Min Shadow Caster Pixel Radius" />
+			<Flag n="Override PCSS Light Size" />
+			<Flag n="Override PCSS Maximum Filter Width" />
+			<Flag n="Override Frustums" />
+			<Flag n="Override Number of Parallax Sampling Steps" />
+			<Flag n="Override Parallax Sampling Sun Direction Weight" />
+			<Flag n="Override Panning Cloud Settings" />
+			<Flag n="Override RT Shadow Sun Cone Angle" />
+		</_D>
+		<_D Name="Dynamic Sky Flags" Offset="1C" StructName1="DynamicSkyOverrideFlagsDefinition">
+			<Flag n="Override Sky Color" />
+			<Flag n="Override Sky Intensity" />
+			<Flag n="Override Sky Tint" />
+			<Flag n="Override Static Tint" />
+			<Flag n="Override Static Tint Intensity" />
+			<Flag n="Override Probe Set 0" />
+			<Flag n="Override Probe Set 1" />
+			<Flag n="Override Probe Set 2" />
+			<Flag n="Override Probe Set 3" />
+			<Flag n="Override Sky Lighting Depth Scalar Near" />
+			<Flag n="Override Sky Lighting Depth Scalar Near Distance" />
+			<Flag n="Override Sky Lighting Depth Scalar Far" />
+			<Flag n="Override Sky Lighting Depth Scalar Far Distance" />
+			<Flag n="Override Probe Lighting Depth Scalar Near" />
+			<Flag n="Override Probe Lighting Depth Scalar Near Distance" />
+			<Flag n="Override Probe Lighting Depth Scalar Far" />
+			<Flag n="Override Probe Lighting Depth Scalar Far Distance" />
+			<Flag n="Override Only Evaluate Terrain Following Probes" />
+			<Flag n="Override Master Scalar Near" />
+			<Flag n="Override Master Scalar Near Distance" />
+			<Flag n="Override Master Scalar Far" />
+			<Flag n="Override Master Scalar Far Distance" />
+			<Flag n="Override Probe Region Fade Max Angle" />
+			<Flag n="Override Probe Region Fade Min Angle" />
+		</_D>
+		<_F Name="Dynamic Probe Flags" Offset="20" StructName1="DynamicProbeOverrideFlagsDefinition">
+			<Flag n="Override Probe Scalar" />
+			<Flag n="Override Probe Tint" />
+		</_F>
+		<_F Name="Dynamic Cubemap Tinting Flags" Offset="21" StructName1="DynamicCubemapTintingOverrideFlagsDefinition">
+			<Flag n="Override Cubemap Tint" />
+			<Flag n="Override Cubemap Tint Intensity" />
+		</_F>
+		<_F Name="Dynamic Cubemap Transition Flags" Offset="22" StructName1="DynamicCubemapTransitionOverrideFlagsDefinition">
+			<Flag n="Override Cubemap Transition Far" />
+			<Flag n="Override Cubemap Transition Near" />
+		</_F>
+		<_34 Name="generated_pad627f" Offset="23" Length="1" />
+		<_E Name="Global Cubemap Flags" Offset="24" StructName1="GlobalCubemapOverrideFlagsDefinition">
+			<Flag n="Override Global Cubemap Texture" />
+		</_E>
+		<_34 Name="generated_padaf34" Offset="26" Length="2" />
+		<_D Name="Dynamic Atmosphere Flags" Offset="28" StructName1="DynamicAtmosphereOverrideFlagsDefinition">
+			<Flag n="Override Sun Light Color" />
+			<Flag n="Override Wavelength Variance" />
+			<Flag n="Override Sun Disk size" />
+			<Flag n="Override Atmosphere Density" />
+			<Flag n="Override Aerosol Density" />
+			<Flag n="Override Ozone Contribution" />
+			<Flag n="Override Camera Height" />
+			<Flag n="Override Rayleigh Scale" />
+			<Flag n="Override Mie Scale" />
+			<Flag n="Override Rayleigh Multiplied Tint Strength" />
+			<Flag n="Override Rayleigh Multiplied Tint" />
+			<Flag n="Override Rayleigh Additive Tint Strength" />
+			<Flag n="Override Rayleigh Additive Tint" />
+			<Flag n="Override Mie Multiplied Tint Strength" />
+			<Flag n="Override Mie Multiplied Tint" />
+			<Flag n="Override Mie Additive Tint Strength" />
+			<Flag n="Override Mie Additive Tint" />
+			<Flag n="Override Atmospheric Scattering Alpha" />
+			<Flag n="Override Falloff Min Alpha" />
+			<Flag n="Override Falloff Start" />
+			<Flag n="Override Falloff End" />
+			<Flag n="Override Auto Exposure Scalar" />
+			<Flag n="Override Falloff Direction" />
+		</_D>
+		<_E Name="Dynamic Camera FX Flags" Offset="2C" StructName1="DynamicCameraFXOverrideFlagsDefinition">
+			<Flag n="Override Camera Exposure" />
+			<Flag n="Override Bloom" />
+			<Flag n="Override Self Illum" />
+			<Flag n="Override Screen Space AO" />
+			<Flag n="Override Color Grading" />
+			<Flag n="Override Screen Space Reflections" />
+			<Flag n="Override Camera Lens Dirt" />
+			<Flag n="Override Contact Shadows" />
+			<Flag n="Override Contact Shadows Local Lights" />
+			<Flag n="Override Chromatic Aberration" />
+		</_E>
+		<_34 Name="generated_padfbe9" Offset="2E" Length="2" />
+		<_D Name="Exposure Flags" Offset="30" StructName1="CameraExposureOverrideFlagsDefinition">
+			<Flag n="Override Exposure Flags" />
+			<Flag n="Override Exposure" />
+			<Flag n="Override Maximum Change" />
+			<Flag n="Override Blend Speed" />
+			<Flag n="Override Minimum Target Exposure" />
+			<Flag n="Override Maximum Target Exposure" />
+			<Flag n="Override Auto-exposure Screen Brightness" />
+			<Flag n="Override Exposure Offset" />
+			<Flag n="Override Sky Exposure Offset" />
+			<Flag n="Override Auto Exposure Delay" />
+			<Flag n="Override Auto Exposure Sensitivity Flags" />
+			<Flag n="Override Auto Exposure Sensitivity" />
+			<Flag n="Override Pitch Influence Flags" />
+			<Flag n="Override Pitch Influence Function" />
+			<Flag n="Override Exposure Compensation Flags" />
+			<Flag n="Override Exposure Compensation Function" />
+			<Flag n="Override Effect Exposure" />
+			<Flag n="Override Exposure Lock" />
+		</_D>
+		<_D Name="Bloom Flags" Offset="34" StructName1="BloomOverrideFlagsDefinition">
+			<Flag n="Override Intensity Flags" />
+			<Flag n="Override Intensity" />
+			<Flag n="Override Intensity Max Change" />
+			<Flag n="Override Intensity Blend Speed" />
+			<Flag n="Override Highlight Flags" />
+			<Flag n="Override Highlight" />
+			<Flag n="Override Highlight Max Change" />
+			<Flag n="Override Highlight Blend Speed" />
+			<Flag n="Override Highlight Threshold Flags" />
+			<Flag n="Override Highlight Threshold" />
+			<Flag n="Override Highlight Threshold Max Change" />
+			<Flag n="Override Highlight Threshold Blend Speed" />
+			<Flag n="Override Inherent Flags" />
+			<Flag n="Override Inherent Bloom" />
+			<Flag n="Override Inherent Max Change" />
+			<Flag n="Override Inherent Blend Speed" />
+			<Flag n="Override Layer Intensity Flags" />
+			<Flag n="Override Layer Intensity Large" />
+			<Flag n="Override Layer Intensity Medium" />
+			<Flag n="Override Layer Intensity Small" />
+			<Flag n="Override Layer Intensity Max Change" />
+			<Flag n="Override Layer Intensity Blend Speed" />
+			<Flag n="Override Tint Color Flags" />
+			<Flag n="Override Tint Color" />
+			<Flag n="Override Highlight Offset" />
+		</_D>
+		<_E Name="Self Illum Flags" Offset="38" StructName1="SelfIllumOverrideFlagsDefinition">
+			<Flag n="Override Exposure Flags" />
+			<Flag n="Override Exposure" />
+			<Flag n="Override Exposure Max Change" />
+			<Flag n="Override Exposure Blend Speed" />
+			<Flag n="Override Scale Flags" />
+			<Flag n="Override Scale Exposure Change" />
+			<Flag n="Override Scale Max Change" />
+			<Flag n="Override Scale Blend Speed" />
+			<Flag n="Override Scale Unsc" />
+			<Flag n="Override Scale Covenant" />
+			<Flag n="Override Scale Forerunner" />
+		</_E>
+		<_F Name="SSAO Flags" Offset="3A" StructName1="SSAOOverrideFlagsDefinition">
+			<Flag n="Override Flags" />
+			<Flag n="Override Enable Flags" />
+			<Flag n="Override Hemi Rejection Falloff" />
+			<Flag n="Override GTAO Intensity" />
+			<Flag n="Override Sun AO" />
+			<Flag n="Override Spot Light AO" />
+			<Flag n="Override Omni Light AO" />
+		</_F>
+		<_34 Name="generated_pad489e" Offset="3B" Length="1" />
+		<_D Name="Color Grading Flags" Offset="3C" StructName1="ColorGradingOverrideFlagsDefinition">
+			<Flag n="Override Flags" />
+			<Flag n="Override Texture" />
+			<Flag n="Override HDR Texture" />
+			<Flag n="Override Blend Time" />
+			<Flag n="Override Weight" />
+			<Flag n="Override Exposure" />
+			<Flag n="Override Saturation" />
+			<Flag n="Override Contrast" />
+			<Flag n="Override Contrast Midpoint" />
+			<Flag n="Override Lift" />
+			<Flag n="Override Gamma" />
+			<Flag n="Override Gain" />
+		</_D>
+		<_D Name="Deferred Reflections Flags" Offset="40" StructName1="DeferredReflectionsOverrideFlagsDefinition">
+			<Flag n="Override Flags" />
+			<Flag n="Override Deferred Reflection Flags" />
+			<Flag n="Override Intensity" />
+			<Flag n="Override Intensity First Person" />
+			<Flag n="Override Fade To Cubemap" />
+			<Flag n="Override Border Fade Size" />
+			<Flag n="Override Ray Steps" />
+			<Flag n="Override Mip Blur Distance Scale" />
+			<Flag n="Override Depth Thickness" />
+			<Flag n="Override SSR Near Fade Distance" />
+			<Flag n="Override SSR Far Fade Distance" />
+			<Flag n="Override SSR Roughness Threshold" />
+			<Flag n="Override SSR Tonemap Strength" />
+			<Flag n="Override SSR Tonemap Clamp" />
+			<Flag n="Override Resolution" />
+			<Flag n="Override SSR Enabled" />
+		</_D>
+		<_F Name="Lens Dirt Flags" Offset="44" StructName1="LensDirtOverrideFlagsDefinition">
+			<Flag n="Override Flags" />
+			<Flag n="Override Intensity" />
+			<Flag n="Override Dirt Texture" />
+			<Flag n="Override Dirt Type" />
+		</_F>
+		<_34 Name="generated_pad9553" Offset="45" Length="3" />
+		<_D Name="Contact Shadows Flags" Offset="48" StructName1="ContactShadowsOverrideFlagsDefinition">
+			<Flag n="Override Flags" />
+			<Flag n="Override Enabled" />
+			<Flag n="Override Deferred Reflection Flags" />
+			<Flag n="Override Ray Steps" />
+			<Flag n="Override Ray Steps First Person Scalar" />
+			<Flag n="Override Maximum Ray Length" />
+			<Flag n="Override Maximum Ray Length First Person Scalar" />
+			<Flag n="Override Pixel Stride" />
+			<Flag n="Override Pixel Stride First Person Scalar" />
+			<Flag n="Override Average Thickness" />
+			<Flag n="Override Average Thickness First Person" />
+			<Flag n="Override Softness Scale" />
+			<Flag n="Override Softness Scale First Person" />
+			<Flag n="Override Shadow Fade Start Distance" />
+			<Flag n="Override Shadow Fade End Distance" />
+			<Flag n="Override Global Opacity" />
+			<Flag n="Override Global Opacity First Person" />
+			<Flag n="Override Global Opacity Fade Multiplier" />
+			<Flag n="Override Ray Start Bias" />
+			<Flag n="Override Ray Start Bias Far Distance" />
+			<Flag n="Override Ray Start Bias Offset At Far Distance" />
+			<Flag n="Override Ray Start Bias First Person" />
+			<Flag n="Override Bias Scalar For First Person Transitions" />
+			<Flag n="Override Normal Bias First Person" />
+			<Flag n="Override Normal Bias Near Scalar" />
+			<Flag n="Override Normal Bias Far Scalar" />
+			<Flag n="Override FOV Slope Near Bias Scalar" />
+			<Flag n="Override Per-Spec Near Bias Scalar" />
+		</_D>
+		<_E Name="Chromatic Aberration Flags" Offset="4C" StructName1="ChromaticAberrationOverrideFlagsDefinition">
+			<Flag n="Override Enabled" />
+			<Flag n="Override Weight" />
+		</_E>
+		<_E Name="Dynamic Fog Flags" Offset="4E" StructName1="DynamicFogOverrideFlagsDefinition">
+			<Flag n="Override Master Depth Fog Start" />
+			<Flag n="Override Atmospheric Scattering Fog" />
+			<Flag n="Override Ceiling Fog" />
+			<Flag n="Override Ground Fog" />
+			<Flag n="Override Sky Fog" />
+			<Flag n="Override Volumetric Fog" />
+			<Flag n="Override Volumetric Fog Fade" />
+			<Flag n="OverrideVolumetricFogPerformance" />
+			<Flag n="Override Fog Light" />
+			<Flag n="Override Crepuscular Ray" />
+		</_E>
+		<_D Name="Atmospheric Scattering Fog Flags" Offset="50" StructName1="AtmosphericScatteringFogOverrideFlagsDefinition">
+			<Flag n="Override Fog Extinction Offset" />
+			<Flag n="Override Fog Extinction Fade Distance" />
+			<Flag n="Override Fog Mie Extinction Fade Distance" />
+			<Flag n="Override Fog Depth Scale" />
+			<Flag n="Override Bruneton Fog Intensity" />
+			<Flag n="Override Old Height Fog Intensity" />
+			<Flag n="Override Fog Falloff Start" />
+			<Flag n="Override Fog Falloff End" />
+			<Flag n="Override Fog Sky Falloff Start" />
+			<Flag n="Override Fog Sky Falloff End" />
+			<Flag n="Override Bruneton Fog Falloff Start Up" />
+			<Flag n="Override Bruneton Fog Falloff End Up" />
+			<Flag n="Override Bruneton Fog Falloff Start Down" />
+			<Flag n="Override Bruneton Fog Falloff End Down" />
+			<Flag n="Override Bruneton Fog Falloff Power" />
+			<Flag n="Override Sky Contribution" />
+			<Flag n="Override Rayleigh Strength" />
+			<Flag n="Override Mie Strength" />
+			<Flag n="Override Inscattering Strength" />
+			<Flag n="Override Fake Inscattering Intensity" />
+			<Flag n="Override Fake Inscattering Distance" />
+			<Flag n="Override Fake Inscattering Extinction" />
+			<Flag n="Override Fake Inscattering Color" />
+		</_D>
+		<_E Name="Ground and Sky Depth Fog Flags" Offset="54" StructName1="DepthFogOverrideFlagsDefinition">
+			<Flag n="Override Flags" />
+			<Flag n="Override Base Height" />
+			<Flag n="Override Fog Height" />
+			<Flag n="Override Falloff End" />
+			<Flag n="Override Color" />
+			<Flag n="Override Thickness" />
+			<Flag n="Override Color Intensity" />
+			<Flag n="Override Function" />
+		</_E>
+		<_E Name="Ceiling Fog Flags" Offset="56" StructName1="CeilingFogOverrideFlagsDefinition">
+			<Flag n="Override Flags" />
+			<Flag n="Override Base Height" />
+			<Flag n="Override Fog Height" />
+			<Flag n="Override Falloff End" />
+			<Flag n="Override Color" />
+			<Flag n="Override Thickness" />
+			<Flag n="Override Color Intensity" />
+		</_E>
+		<_D Name="Volumetric Fog Flags" Offset="58" StructName1="VolumetricFogOverrideFlagsDefinition">
+			<Flag n="Override Flags" />
+			<Flag n="Override Color 1" />
+			<Flag n="Override Color 2" />
+			<Flag n="Override Density" />
+			<Flag n="Override Indirect Light Intensity" />
+			<Flag n="Override Light Intensity" />
+			<Flag n="Override Ambient Intensity" />
+			<Flag n="Override Sun Intensity" />
+			<Flag n="Override Near Range" />
+			<Flag n="Override Far Range" />
+			<Flag n="Override Range Exponent" />
+			<Flag n="Override Reprojection Weight" />
+			<Flag n="Override Inscatter Scale" />
+			<Flag n="Override Terrain Density Low" />
+			<Flag n="Override Terrain Density High" />
+			<Flag n="Override Max Terrain Fog Height" />
+			<Flag n="Override Terrain Fog Falloff Exponent" />
+			<Flag n="Override Noise Scale" />
+			<Flag n="Override Noise Wind Influence" />
+			<Flag n="Override Noise Input Min" />
+			<Flag n="Override Noise Input Max" />
+			<Flag n="Override Noise Output Min" />
+			<Flag n="Override Noise Output Max" />
+			<Flag n="Override Noise Terrain Follow Intensity" />
+			<Flag n="Override Natural Light Near Intensity" />
+			<Flag n="Override Natural Light Far Intensity" />
+			<Flag n="Override Natural Light Range Near" />
+			<Flag n="Override Natural Light Range Far" />
+			<Flag n="Override Local Light Near Intensity" />
+			<Flag n="Override Local Light Far Intensity" />
+			<Flag n="Override Local Light Range Near" />
+			<Flag n="Override Local Light Range Far" />
+		</_D>
+		<_F Name="Volumetric Fog Fade Flags" Offset="5C" StructName1="VolumetricFogFadeOverrideFlagsDefinition">
+			<Flag n="Override Start Fade Distance" />
+			<Flag n="Override Fade Range" />
+		</_F>
+		<_34 Name="generated_pade208" Offset="5D" Length="3" />
+		<_D Name="Volumetric Fog Performance Flags" Offset="60" StructName1="VolumetricFogPerformanceOverrideFlagsDefinition">
+			<Flag n="Override Resolution Scalar" />
+		</_D>
+		<_E Name="Fog Light Flags" Offset="64" StructName1="FogLightOverrideFlagsDefinition">
+			<Flag n="Override Flags" />
+			<Flag n="Override Pitch Angle" />
+			<Flag n="Override Yaw Angle" />
+			<Flag n="Override Angular Radius" />
+			<Flag n="Override Tint Color" />
+			<Flag n="Override Tint Color Intensity" />
+			<Flag n="Override Angular Falloff Steepness" />
+			<Flag n="Override Distance Falloff Steepness" />
+			<Flag n="Override Nearby Cutoff Percentage" />
+		</_E>
+		<_E Name="Crepuscular Ray Flags" Offset="66" StructName1="CrepuscularRayOverrideFlagsDefinition">
+			<Flag n="Override Flags" />
+			<Flag n="Override Pitch Angle" />
+			<Flag n="Override Yaw Angle" />
+			<Flag n="Override Angular Radius" />
+			<Flag n="Override Source Position" />
+			<Flag n="Override Light Shaft Tint Color" />
+			<Flag n="Override Light Shaft Intensity" />
+			<Flag n="Override Saturation" />
+			<Flag n="Override Time Variation Scale" />
+			<Flag n="Override Light Shaft Decay Rate" />
+			<Flag n="Override Maximum Screen Distance" />
+			<Flag n="Override Sample Density" />
+			<Flag n="Override Miminimum Caster Distance" />
+		</_E>
+		<_F Name="Dynamic Wind Flags" Offset="68" StructName1="DynamicWindFlagsDefinition">
+			<Flag n="Override Wind Direction" />
+			<Flag n="Override Wind Speed" />
+		</_F>
+		<_34 Name="generated_pad2ebd" Offset="69" Length="3" />
+		<_D Name="Dynamic Volumetric Clouds Flags" Offset="6C" StructName1="DynamicVolumetricCloudsFlagsDefinition">
+			<Flag n="Override Coverage Texture" />
+			<Flag n="Override Coverage Scale" />
+			<Flag n="Override Coverage Offset" />
+			<Flag n="Override Coverage Scroll Speed" />
+			<Flag n="Override Coverage Strength" />
+			<Flag n="Override Horizon Distance" />
+			<Flag n="Override Atmosphere Start Height" />
+			<Flag n="Override Atmosphere End Height" />
+			<Flag n="Override LOD Distance" />
+			<Flag n="Override Global Wind Interpolation" />
+			<Flag n="Override Wind Direction" />
+			<Flag n="Override HighF Noise Animation Speed" />
+			<Flag n="Override LowF Noise Animation Speed" />
+			<Flag n="Override Raymarch Step Scale" />
+			<Flag n="Override Depth Threshold" />
+			<Flag n="Override Max Depth" />
+			<Flag n="Override Min Distance Horizon Clouds" />
+			<Flag n="Override Min Distance Horizon Fade Start" />
+			<Flag n="Override Max Distance Center Fade Start" />
+			<Flag n="Override Max Distance Center Fade End" />
+			<Flag n="Override Center Fade Position" />
+			<Flag n="Override Cloud Shape Settings" />
+			<Flag n="Override Cloud Lighting Settings" />
+			<Flag n="Override Cloud Shadow Settings" />
+			<Flag n="Override Clouds V2 Settings" />
+		</_D>
+		<_E Name="Cloud Shape Flags" Offset="70" StructName1="CloudShapeFlagsDefinition">
+			<Flag n="Override Low Frequency Noise Scale" />
+			<Flag n="Override Low Frequency Noise Strength" />
+			<Flag n="Override Low Frequency Noise Axis Scale" />
+			<Flag n="Override High Frequency Noise Scale" />
+			<Flag n="Override High Frequency Noise Strength" />
+			<Flag n="Override Curl Noise Scale" />
+			<Flag n="Override Curl Noise Strength" />
+			<Flag n="Override Bottom Erosion Strength" />
+			<Flag n="Override Top Erosion Strength" />
+			<Flag n="Override Top Offset" />
+		</_E>
+		<_E Name="Cloud Lighting Flags" Offset="72" StructName1="CloudLightingFlagsDefinition">
+			<Flag n="Override Beer Strength" />
+			<Flag n="Override Powder Strength" />
+			<Flag n="Override Cornette Shanks Strength" />
+			<Flag n="Override Cornette Shanks Spread" />
+			<Flag n="Override Bottom Light" />
+			<Flag n="Override Clouds Fog Scale" />
+			<Flag n="Override Clouds Fog Intensity" />
+			<Flag n="Override Clouds Mie Intensity" />
+			<Flag n="Override Sunlight Intensity" />
+			<Flag n="Override Sunlight Color Tint" />
+			<Flag n="Override Skylight Intensity" />
+			<Flag n="Override Skylight Color Tint" />
+			<Flag n="Override Skylight Top Intensity" />
+			<Flag n="Override Skylight Top Color Tint" />
+			<Flag n="Override Global Alpha" />
+		</_E>
+		<_E Name="Cloud Shadows Flags" Offset="74" StructName1="CloudShadowsFlagsDefinition">
+			<Flag n="Override Minimum Strength" />
+			<Flag n="Override Gradient" />
+			<Flag n="Override Maximum Strength" />
+			<Flag n="Override Contrast Factor" />
+			<Flag n="Override Contrast Threshold" />
+			<Flag n="Override Opacity" />
+			<Flag n="Override Panning Clouds Shadows Scalar" />
+			<Flag n="Override Panning Clouds Shadows Tilt" />
+		</_E>
+		<_34 Name="generated_pad7b72" Offset="76" Length="2" />
+		<_D Name="Cloud V2 Flags" Offset="78" StructName1="CloudsV2FlagsDefinition">
+			<Flag n="Override Density Scale" />
+			<Flag n="Override Scattering Factor" />
+			<Flag n="Override Extinction Factor" />
+			<Flag n="Override Phase Constant" />
+			<Flag n="Override Powder Strength" />
+			<Flag n="Override Direct Sun Intensity" />
+			<Flag n="Override Ambient Intensity Sun Angle" />
+			<Flag n="Override Ambient Intensity Sky" />
+			<Flag n="Override Ambient Color Sky" />
+			<Flag n="Override Ambient Intensity Ground" />
+			<Flag n="Override Ambient Color Ground" />
+			<Flag n="Override Ray March Step Size" />
+			<Flag n="Override Max Step Count" />
+			<Flag n="Override Sun March Dist Scale" />
+			<Flag n="Override Sun Marching Steps" />
+			<Flag n="Override Horizon Fade Start" />
+			<Flag n="Override Dither Amount" />
+			<Flag n="Override Atmospheric Scattering Intensity Start" />
+			<Flag n="Override Atmospheric Scattering Intensity End" />
+			<Flag n="Override Volume Start" />
+			<Flag n="Override Volume Height" />
+			<Flag n="Override Base Noise Scale" />
+			<Flag n="Override Base Noise Dilation" />
+			<Flag n="Override Detail Noise Scale" />
+			<Flag n="Override Detail Strength" />
+			<Flag n="Override Coverage Strength" />
+			<Flag n="Override Curl Noise Scale" />
+			<Flag n="Override Curl Noise Strength" />
+			<Flag n="Override Coverage Threshold" />
+		</_D>
+		<_D Name="CVW Light Controls Flags" Offset="7C" StructName1="CVWLightsOverrideFlagsDefinition">
+			<Flag n="Enable light controls" />
+			<Flag n="Enable CVW For First Person Objects" />
+			<Flag n="Directional Light Direction" />
+			<Flag n="Directional Light Color" />
+			<Flag n="Directional Light Intensity" />
+			<Flag n="Directional Light Near Dist" />
+			<Flag n="Directional Light Far Dist" />
+			<Flag n="Directional Light Near Amount" />
+			<Flag n="Directional Light Far Amount" />
+			<Flag n="Directional Light Intensity First Person" />
+			<Flag n="Indirect Sky Scalar" />
+			<Flag n="Indirect Bounce Scalar" />
+			<Flag n="Indirect Near Dist" />
+			<Flag n="Indirect Far Dist" />
+			<Flag n="Indirect Near Amount" />
+			<Flag n="Indirect Far Amount" />
+			<Flag n="Indirect Bounce Shaping" />
+			<Flag n="Mulitiplayer Team Override" />
+		</_D>
+		<_E Name="Dynamic Vista Flags" Offset="80" StructName1="DynamicVistaOverrideFlagsDefinition">
+			<Flag n="Override Color Map Tint" />
+			<Flag n="Override Color Map Intensity" />
+			<Flag n="Override Emissive Tint" />
+			<Flag n="Override Transparency" />
+			<Flag n="Override Depth Fade Range" />
+			<Flag n="Override Star Intensity" />
+			<Flag n="Override Nebula Intensity" />
+			<Flag n="Override Emissive Intensity" />
+		</_E>
+		<_F Name="Dynamic Waterfall Flags" Offset="82" StructName1="DynamicWaterfallOverrideFlagsDefinition">
+			<Flag n="Override Waterfall Color Map Tint" />
+			<Flag n="Override Waterfall Color Map Intensity" />
+		</_F>
+		<_F Name="UI Flags" Offset="83" StructName1="DWSUIOverrideFlagsDefinition">
+			<Flag n="Override UI HDR Brightness Scalar" />
+		</_F>
+		<_D Name="Spec Control Node Flags" Offset="84" StructName1="SpecControlNodeOverrideFlags">
+			<Flag n="Override Input" />
+		</_D>
+	</_1399B320DC909D0807124F67325C2F05>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:20 PM" Name="VehicleConfiguration" Parents="ocfg,aTag" Index="-461">
+	<_A6334D063AF6C3DD948C6F4999DB52B4 Name="i343::Vehicle::VehicleConfigurationDefinition" Size="A0">
+		<_38 Name="object_configuration" Offset="0" GUID="711A480E14570B20600962CB9E627350" />
+		<_37 Name="VEHICLE" type="fgrb" Offset="58" />
+		<_38 Name="vehicle" Offset="58" GUID="8A44425BFED24FD5D27C283EA1A2C56F" />
+		<_37 Name="" type="fgre" Offset="A0" />
+	</_A6334D063AF6C3DD948C6F4999DB52B4>
+	<_711A480E14570B20600962CB9E627350 Name="i343::Objects::ObjectConfigurationDefinition" Size="58">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="OBJECT" type="fgrb" Offset="10" />
+		<_38 Name="object" Offset="10" GUID="0AA94B73A4C01631576DD6B5B301E444" />
+		<_37 Name="" type="fgre" Offset="54" />
+		<_34 Name="generated_pad01af" Offset="54" Length="4" />
+	</_711A480E14570B20600962CB9E627350>
+	<_8A44425BFED24FD5D27C283EA1A2C56F Name="i343::Vehicle::VehicleConfigurationDefinitionInternal" Size="48">
+		<_2 Name="Variant name" Offset="0" />
+		<_40 Name="generic attachments" Offset="4" GUID="643F430A6D2A5A9CFFAD178AB96BDCCB" StructName1="i343::Vehicle::VehicleConfigurationDefinitionInternal" Min="0" Max="2" />
+		<_40 Name="weapon configurations" Offset="18" GUID="50AA42D21BCA1DA15DE80F3FA59CDD1E" StructName1="i343::Vehicle::VehicleConfigurationDefinitionInternal" Min="0" Max="4" />
+		<_41 Name="UI Display Info" Offset="2C" Allowed="uivi" Flags="0" />
+	</_8A44425BFED24FD5D27C283EA1A2C56F>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_0AA94B73A4C01631576DD6B5B301E444 Name="i343::Objects::ObjectConfigurationDefinitionInternal" Size="44">
+		<_41 Name="Object Definition" Offset="0" Allowed="obje" Flags="0" />
+		<_2 Name="Variant name" Offset="1C" />
+		<_2 Name="Style Id" Offset="20" />
+		<_41 Name="frame override" Offset="24" Allowed="sofd" Flags="0" />
+		<_37 Name="Customization" type="fgrb" Offset="40" />
+		<_2 Name="customization set override" Offset="40" />
+		<_37 Name="" type="fgre" Offset="44" />
+	</_0AA94B73A4C01631576DD6B5B301E444>
+	<_643F430A6D2A5A9CFFAD178AB96BDCCB Name="i343::Vehicle::VehicleAttachmentReference" Size="1C">
+		<_41 Name="attachment" Offset="0" Allowed="vatc" Flags="0" />
+	</_643F430A6D2A5A9CFFAD178AB96BDCCB>
+	<_50AA42D21BCA1DA15DE80F3FA59CDD1E Name="i343::Vehicle::WeaponConfigurationGroup" Size="20">
+		<_41 Name="weapon configuration" Offset="0" Allowed="wcfg" Flags="0" />
+		<_2 Name="Weapon name" Offset="1C" />
+	</_50AA42D21BCA1DA15DE80F3FA59CDD1E>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

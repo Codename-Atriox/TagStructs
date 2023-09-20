@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:12 PM" Name="lodsettings" Parents="aTag" Index="-238">
+	<_330344F53E50AA6C1F606C1F8615C50A Name="LODSettingsTag" Size="38">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Settings" Offset="10" GUID="A40A4E7D347466C3FA90AC8695555C86" StructName1="LODSettingsTag" Min="0" Max="4096" />
+		<_40 Name="Transitions" Offset="24" GUID="760E4CBA84E9D29BACE38EA4AF8F3552" StructName1="LODSettingsTag" Min="0" Max="4096" />
+	</_330344F53E50AA6C1F606C1F8615C50A>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_A40A4E7D347466C3FA90AC8695555C86 Name="LODSettings" Size="20">
+		<_2 Name="Name" Offset="0" />
+		<_41 Name="Settings file" Offset="4" Allowed="simp" Flags="17" />
+	</_A40A4E7D347466C3FA90AC8695555C86>
+	<_760E4CBA84E9D29BACE38EA4AF8F3552 Name="LODTransitions" Size="18">
+		<_14 Name="Reference bounding sphere radius" Offset="0" />
+		<_40 Name="Screen space LOD reduction" Offset="4" GUID="A40A3E7D347463C3FA30AC8695355C86" StructName1="LODTransitions" Min="0" Max="256" />
+	</_760E4CBA84E9D29BACE38EA4AF8F3552>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_A40A3E7D347463C3FA30AC8695355C86 Name="LODSettingsTransitionDistanceParam" Size="4">
+		<_14 Name="Screen Space size" Offset="0" />
+	</_A40A3E7D347463C3FA30AC8695355C86>
+</root>

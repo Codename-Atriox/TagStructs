@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="geometry" Parents="aTag" Index="-198">
+	<_E36F4E5A50F3D2DD4E21F9D4BB5F8106 Name="GeometryTag" Size="E8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Geometry" Offset="10" GUID="12534540125DEFDC1282C05912E6E245" StructName1="GeometryTag" Min="0" Max="4096" />
+		<_40 Name="Materials" Offset="24" GUID="17E6C7BC1CD712E329874BE1A274E5BD" StructName1="GeometryTag" Min="0" Max="4096" />
+		<_7 Name="Joints checksum" Offset="38" />
+		<_40 Name="Joints" Offset="40" GUID="17E6C7BC1CD712E329874BE2A274E5BE" StructName1="GeometryTag" Min="0" Max="1024" />
+		<_40 Name="Procedural deformations" Offset="54" GUID="A4D43F0ED17B42F93DA583347C954FCA" StructName1="GeometryTag" Min="0" Max="1024" />
+		<_37 Name="Markers" type="fgrb" Offset="68" />
+		<_40 Name="Marker Groups" Offset="68" GUID="0A95485F763DA4BF64C8B0DF85E1404C" StructName1="GeometryTag" Min="0" Max="1024" />
+		<_40 Name="Hint Marker Groups" Offset="7C" GUID="B4C44536627C7C5EFEE65F39B00D4C38" StructName1="GeometryTag" Min="0" Max="1024" />
+		<_40 Name="Target Marker Groups" Offset="90" GUID="954C4E9575AD65065BEF595E9B2CD485" StructName1="GeometryTag" Min="0" Max="1024" />
+		<_37 Name="" type="fgre" Offset="A4" />
+		<_40 Name="Import transition distances" Offset="A4" GUID="42F6C4BA1C461FBA2A6E1BA1A24645BA" StructName1="GeometryTag" Min="0" Max="256" />
+		<_40 Name="Physics" Offset="B8" GUID="42164AC8C30D26BB4F7A9BC2936A8CF5" StructName1="GeometryTag" Min="0" Max="1" />
+		<_38 Name="Validation" Offset="CC" GUID="E22E4E5A50E233DD4E2F74A4BE593E06" />
+		<_34 Name="generated_pad6734" Offset="E4" Length="4" />
+	</_E36F4E5A50F3D2DD4E21F9D4BB5F8106>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_12534540125DEFDC1282C05912E6E245 Name="GeometryMesh" Size="4C">
+		<_2 Name="Visual region name" Offset="0" />
+		<_2 Name="Property region name" Offset="4" />
+		<_40 Name="Mesh parts" Offset="8" GUID="422AC78C1CDA22332A1E4EB1A2E68A6D" StructName1="GeometryMesh" Min="0" Max="131072" />
+		<_E Name="LOD flags" Offset="1C" StructName1="MeshLODFlagsDefinition">
+			<Flag n="LOD 0" />
+			<Flag n="LOD 1" />
+			<Flag n="LOD 2" />
+			<Flag n="LOD 3" />
+			<Flag n="LOD 4" />
+			<Flag n="LOD 5" />
+			<Flag n="LOD 6" />
+			<Flag n="LOD 7" />
+			<Flag n="LOD 8" />
+			<Flag n="LOD 9" />
+			<Flag n="LOD 10" />
+			<Flag n="LOD 11" />
+			<Flag n="LOD 12" />
+			<Flag n="LOD 13" />
+			<Flag n="LOD 14" />
+			<Flag n="LOD 15" />
+		</_E>
+		<_E Name="Usage flags" Offset="1E" StructName1="MeshUsageFlagsDefinition">
+			<Flag n="Use as render geometry" />
+			<Flag n="Use as bullet collision geometry" />
+			<Flag n="Use as play collision geometry" />
+			<Flag n="Use as physics collision geometry" />
+			<Flag n="Use as dynamic collision geometry" />
+			<Flag n="Use as invisible wall" />
+			<Flag n="Use as custom shadow caster geometry" />
+			<Flag n="Use as custom shadow caster geometry (alpha support)" />
+		</_E>
+		<_E Name="Supported features" Offset="20" StructName1="SupportedFeaturesFlagsDefinition">
+			<Flag n="Has usable primary UV set" />
+			<Flag n="Has usable second UV set" />
+			<Flag n="Has usable lightmap UV set" />
+			<Flag n="Has usable colorset" />
+			<Flag n="Has skinning" />
+			<Flag n="Has dual quaternion skinning" />
+			<Flag n="Force decorator format" />
+			<Flag n="Has usable third UV set" />
+			<Flag n="Use UV3 Tangent Rotation" />
+			<Flag n="Has blendshapes" />
+			<Flag n="Has more than 4 influences" />
+		</_E>
+		<_34 Name="generated_pade039" Offset="22" Length="2" />
+		<_D Name="Import Info" Offset="24" StructName1="ImportInfoFlagsDefinition">
+			<Flag n="Was generated during import" />
+		</_D>
+		<_44 Name="Originating source file" Offset="28" />
+		<_7 Name="Properties checksum" Offset="2C" />
+		<_17 Name="Position bounds lower" Offset="34" />
+		<_17 Name="Position bounds upper" Offset="40" />
+	</_12534540125DEFDC1282C05912E6E245>
+	<_17E6C7BC1CD712E329874BE1A274E5BD Name="GeometryMaterial" Size="1C">
+		<_41 Name="Material reference" Offset="0" Allowed="mat " Flags="2" />
+	</_17E6C7BC1CD712E329874BE1A274E5BD>
+	<_17E6C7BC1CD712E329874BE2A274E5BE Name="SkeletonJoint" Size="2C">
+		<_2 Name="name" Offset="0" />
+		<_2E Name="parent node" Offset="4" GUID="17E6C7BC1CD712E329874BE2A274E5BE" StructName1="SkeletonJoint" Min="0" Max="1024" />
+		<_2E Name="first child node" Offset="6" GUID="17E6C7BC1CD712E329874BE2A274E5BE" StructName1="SkeletonJoint" Min="0" Max="1024" />
+		<_2E Name="next sibling node" Offset="8" GUID="17E6C7BC1CD712E329874BE2A274E5BE" StructName1="SkeletonJoint" Min="0" Max="1024" />
+		<_34 Name="generated_pad95e7" Offset="A" Length="2" />
+		<_17 Name="default translation" Offset="C" />
+		<_1A Name="default rotation" Offset="18" />
+		<_D Name="importer_flags" Offset="28" StructName1="SkeletonJoint::JointDefinitionFlags">
+			<Flag n="world bone" />
+		</_D>
+	</_17E6C7BC1CD712E329874BE2A274E5BE>
+	<_A4D43F0ED17B42F93DA583347C954FCA Name="ProceduralDeformationBlock" Size="1C">
+		<_2 Name="Name" Offset="0" />
+		<_2 Name="Mode" Offset="4" />
+		<_40 Name="Control parameters" Offset="8" GUID="BC81EFA2092368DBCD56B923A64E348B" StructName1="ProceduralDeformationBlock" Min="0" Max="32" />
+	</_A4D43F0ED17B42F93DA583347C954FCA>
+	<_0A95485F763DA4BF64C8B0DF85E1404C Name="MarkerGroupBlock" Size="18">
+		<_2 Name="Group" Offset="0" />
+		<_40 Name="Markers" Offset="4" GUID="763545C43B8089BB5A148CDCA00FC8B5" StructName1="MarkerGroupBlock" Min="0" Max="2048" />
+	</_0A95485F763DA4BF64C8B0DF85E1404C>
+	<_B4C44536627C7C5EFEE65F39B00D4C38 Name="HintMarkerGroupBlock" Size="18">
+		<_C Name="Hint Type" Offset="0" StructName1="HintMarkerType">
+			<Flag n="Bunker" />
+			<Flag n="Corner Left" />
+			<Flag n="Corner Right" />
+			<Flag n="Vault Step" />
+			<Flag n="Vault Crouch" />
+			<Flag n="Hoist Stand" />
+			<Flag n="Hoist Crouch" />
+		</_C>
+		<_40 Name="Hint Markers" Offset="4" GUID="29E2417B23466B269ABE02F7A9C8A8AF" StructName1="HintMarkerGroupBlock" Min="0" Max="2048" />
+	</_B4C44536627C7C5EFEE65F39B00D4C38>
+	<_954C4E9575AD65065BEF595E9B2CD485 Name="TargetMarkerGroupBlock" Size="18">
+		<_2 Name="Group" Offset="0" />
+		<_40 Name="Target Markers" Offset="4" GUID="B2AD4719667341EAB29F92FEAA6F9745" StructName1="TargetMarkerGroupBlock" Min="0" Max="2" />
+	</_954C4E9575AD65065BEF595E9B2CD485>
+	<_42F6C4BA1C461FBA2A6E1BA1A24645BA Name="GeometryTransitions" Size="4">
+		<_14 Name="Transition distance" Offset="0" />
+	</_42F6C4BA1C461FBA2A6E1BA1A24645BA>
+	<_42164AC8C30D26BB4F7A9BC2936A8CF5 Name="PhysicsBlock" Size="3C">
+		<_40 Name="Constraints" Offset="0" GUID="A5D14481AF51E1A1104C4DB894887CFA" StructName1="PhysicsBlock" Min="0" Max="128" />
+		<_40 Name="Primitives" Offset="14" GUID="F49146EE5CD49A27D6FF5971BD6ECC0C" StructName1="PhysicsBlock" Min="0" Max="1024" />
+		<_40 Name="Meshes" Offset="28" GUID="74534C48FD04A675F7AFC6AC81308499" StructName1="PhysicsBlock" Min="0" Max="1024" />
+	</_42164AC8C30D26BB4F7A9BC2936A8CF5>
+	<_E22E4E5A50E233DD4E2F74A4BE593E06 Name="ContentValidationBlockData" Size="18">
+		<_36 Name="Content validation tests" Offset="0" />
+		<_D Name="Validation status" Offset="0" StructName1="ValidationStatusFlags">
+			<Flag n="Performance (performance will be effected)" />
+			<Flag n="Functionality (functionality will be impaired)" />
+			<Flag n="Critical (will cause crashes or instability if processed)" />
+			<Flag n="Not Run (this test has not been run as of the last pass)" />
+		</_D>
+		<_40 Name="Validation test batteries" Offset="4" GUID="EDD94E5A50ED33DD4E8D74ADBEDD3106" StructName1="ContentValidationBlockData" Min="0" Max="2048" />
+	</_E22E4E5A50E233DD4E2F74A4BE593E06>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_422AC78C1CDA22332A1E4EB1A2E68A6D Name="GeometryMeshPart" Size="288">
+		<_40 Name="Vertices" Offset="0" GUID="1234C78C13D21233231E1EB1A2E6136D" StructName1="GeometryMeshPart" Min="0" Max="2097152" />
+		<_40 Name="Indices" Offset="14" GUID="856C496D7B86DBB54F862706AE345618" StructName1="GeometryMeshPart" Min="0" Max="2097152" />
+		<_3E Name="Material block index" Offset="28" />
+		<_1 Name="Originating shape name" Offset="2C" />
+		<_1 Name="Originating shape UUID" Offset="12C" />
+		<_3E Name="Properties checksum" Offset="22C" />
+		<_17 Name="Position bounds lower" Offset="230" />
+		<_17 Name="Position bounds upper" Offset="23C" />
+		<_16 Name="Texcoord bounds lower" Offset="248" />
+		<_16 Name="Texcoord bounds upper" Offset="250" />
+		<_16 Name="Texcoord2 bounds lower" Offset="258" />
+		<_16 Name="Texcoord2 bounds upper" Offset="260" />
+		<_16 Name="Texcoord3 bounds lower" Offset="268" />
+		<_16 Name="Texcoord3 bounds upper" Offset="270" />
+		<_16 Name="Lighting texcoord bounds lower" Offset="278" />
+		<_16 Name="Lighting texcoord bounds upper" Offset="280" />
+	</_422AC78C1CDA22332A1E4EB1A2E68A6D>
+	<_BC81EFA2092368DBCD56B923A64E348B Name="ProceduralDeformationParameter" Size="C">
+		<_A Name="Parameter mode" Offset="0" StructName1="ProceduralDeformationParameterMode">
+			<Flag n="User parameter" />
+			<Flag n="Constant value" />
+		</_A>
+		<_34 Name="generated_pade7c0" Offset="1" Length="3" />
+		<_2 Name="Name" Offset="4" />
+		<_14 Name="Constant value" Offset="8" />
+	</_BC81EFA2092368DBCD56B923A64E348B>
+	<_763545C43B8089BB5A148CDCA00FC8B5 Name="ModelMarkerBlock" Size="3C">
+		<_2 Name="Visual region name" Offset="0" />
+		<_2 Name="Name" Offset="4" />
+		<_2 Name="Parent" Offset="8" />
+		<_17 Name="Position" Offset="C" />
+		<_1C Name="Rotation" Offset="18" />
+		<_19 Name="Scale" Offset="24" />
+		<_19 Name="Direction" Offset="30" />
+	</_763545C43B8089BB5A148CDCA00FC8B5>
+	<_29E2417B23466B269ABE02F7A9C8A8AF Name="HintMarkerBlock" Size="34">
+		<_2 Name="Visual region name" Offset="0" />
+		<_2 Name="Name" Offset="4" />
+		<_2 Name="Parent" Offset="8" />
+		<_17 Name="Position" Offset="C" />
+		<_1C Name="Rotation" Offset="18" />
+		<_19 Name="Scale" Offset="24" />
+		<_14 Name="Length" Offset="30" />
+	</_29E2417B23466B269ABE02F7A9C8A8AF>
+	<_B2AD4719667341EAB29F92FEAA6F9745 Name="TargetMarkerBlock" Size="1C">
+		<_2 Name="Visual region name" Offset="0" />
+		<_2 Name="Name" Offset="4" />
+		<_2 Name="Parent" Offset="8" />
+		<_17 Name="Position" Offset="C" />
+		<_14 Name="Radius" Offset="18" />
+	</_B2AD4719667341EAB29F92FEAA6F9745>
+	<_A5D14481AF51E1A1104C4DB894887CFA Name="PhysicsConstraint" Size="2C">
+		<_2 Name="Name" Offset="0" />
+		<_2 Name="Physics settings" Offset="4" />
+		<_17 Name="Position" Offset="8" />
+		<_1A Name="Orientation" Offset="14" />
+		<_2 Name="Parent shape" Offset="24" />
+		<_2 Name="Child shape" Offset="28" />
+	</_A5D14481AF51E1A1104C4DB894887CFA>
+	<_F49146EE5CD49A27D6FF5971BD6ECC0C Name="PhysicsPrimitive" Size="40">
+		<_2 Name="Name" Offset="0" />
+		<_2 Name="Physics settings" Offset="4" />
+		<_2 Name="Visual region name" Offset="8" />
+		<_2 Name="Property region name" Offset="C" />
+		<_A Name="Primitive type" Offset="10" StructName1="PhysicsPrimitiveType">
+			<Flag n="Sphere" />
+			<Flag n="Capsule" />
+			<Flag n="Cylinder" />
+			<Flag n="Box" />
+		</_A>
+		<_34 Name="generated_pade68c" Offset="11" Length="1" />
+		<_2E Name="Joint index" Offset="12" GUID="17E6C7BC1CD712E329874BE2A274E5BE" StructName1="PhysicsPrimitive" Min="0" Max="1024" />
+		<_17 Name="Position" Offset="14" />
+		<_1A Name="Orientation" Offset="20" />
+		<_14 Name="Radius" Offset="30" />
+		<_14 Name="Length" Offset="34" />
+		<_14 Name="Width" Offset="38" />
+		<_14 Name="Height" Offset="3C" />
+	</_F49146EE5CD49A27D6FF5971BD6ECC0C>
+	<_74534C48FD04A675F7AFC6AC81308499 Name="PhysicsMesh" Size="8">
+		<_2 Name="Name" Offset="0" />
+		<_2 Name="Physics settings" Offset="4" />
+	</_74534C48FD04A675F7AFC6AC81308499>
+	<_EDD94E5A50ED33DD4E8D74ADBEDD3106 Name="ContentValidationGroup" Size="11C">
+		<_1 Name="Group name" Offset="0" />
+		<_6 Name="Group ID" Offset="100" />
+		<_D Name="Validation status" Offset="104" StructName1="ValidationStatusFlags">
+			<Flag n="Performance (performance will be effected)" />
+			<Flag n="Functionality (functionality will be impaired)" />
+			<Flag n="Critical (will cause crashes or instability if processed)" />
+			<Flag n="Not Run (this test has not been run as of the last pass)" />
+		</_D>
+		<_40 Name="Validation Tests" Offset="108" GUID="431C14BC1ACA11B321431B21A21C15BD" StructName1="ContentValidationGroup" Min="0" Max="1024" />
+	</_EDD94E5A50ED33DD4E8D74ADBEDD3106>
+	<_1234C78C13D21233231E1EB1A2E6136D Name="GeometryVertex" Size="A4">
+		<_19 Name="Position" Offset="0" />
+		<_19 Name="Normal" Offset="C" />
+		<_19 Name="Binormal" Offset="18" />
+		<_19 Name="Tangent" Offset="24" />
+		<_19 Name="Tangent UV2" Offset="30" />
+		<_19 Name="Tangent UV3" Offset="3C" />
+		<_18 Name="Texcoord set 1" Offset="48" />
+		<_18 Name="Texcoord set 2" Offset="50" />
+		<_18 Name="Texcoord set 3" Offset="58" />
+		<_18 Name="Lighting texcoord set" Offset="60" />
+		<_20 Name="Color" Offset="68" />
+		<_14 Name="Dual Quaternion Weight" Offset="78" />
+		<_40 Name="Joint Weights" Offset="7C" GUID="856C496D7B86DBB54F862704AE345618" StructName1="GeometryVertex" Min="0" Max="8" />
+		<_40 Name="Blendshape Targets" Offset="90" GUID="D7E1FA8BDE58487EBEAB533BFA898880" StructName1="GeometryVertex" Min="0" Max="256" />
+	</_1234C78C13D21233231E1EB1A2E6136D>
+	<_856C496D7B86DBB54F862706AE345618 Name="GeometryIndex" Size="4">
+		<_6 Name="Triangle index" Offset="0" />
+	</_856C496D7B86DBB54F862706AE345618>
+	<_431C14BC1ACA11B321431B21A21C15BD Name="Validation" Size="118">
+		<_1 Name="Test name" Offset="0" />
+		<_D Name="Test status" Offset="100" StructName1="ValidationStatusFlags">
+			<Flag n="Performance (performance will be effected)" />
+			<Flag n="Functionality (functionality will be impaired)" />
+			<Flag n="Critical (will cause crashes or instability if processed)" />
+			<Flag n="Not Run (this test has not been run as of the last pass)" />
+		</_D>
+		<_40 Name="Comments" Offset="104" GUID="4E1C14BC1ECA11B32E431B21AE1C15BD" StructName1="Validation" Min="0" Max="50000" />
+	</_431C14BC1ACA11B321431B21A21C15BD>
+	<_856C496D7B86DBB54F862704AE345618 Name="JointWeight" Size="8">
+		<_2E Name="Joint index" Offset="0" GUID="17E6C7BC1CD712E329874BE2A274E5BE" StructName1="JointWeight" Min="0" Max="1024" />
+		<_34 Name="generated_pad85cc" Offset="2" Length="2" />
+		<_14 Name="Joint weight" Offset="4" />
+	</_856C496D7B86DBB54F862704AE345618>
+	<_D7E1FA8BDE58487EBEAB533BFA898880 Name="GeometryVertexBlendshapeTarget" Size="14">
+		<_2 Name="Name" Offset="0" />
+		<_19 Name="Delta" Offset="4" />
+		<_3E Name="Procedural deformation index" Offset="10" />
+	</_D7E1FA8BDE58487EBEAB533BFA898880>
+	<_4E1C14BC1ECA11B32E431B21AE1C15BD Name="ValidationComment" Size="104">
+		<_1 Name="Comment" Offset="0" />
+		<_D Name="Status" Offset="100" StructName1="ValidationStatusFlags">
+			<Flag n="Performance (performance will be effected)" />
+			<Flag n="Functionality (functionality will be impaired)" />
+			<Flag n="Critical (will cause crashes or instability if processed)" />
+			<Flag n="Not Run (this test has not been run as of the last pass)" />
+		</_D>
+	</_4E1C14BC1ECA11B32E431B21AE1C15BD>
+</root>

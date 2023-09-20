@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:06 PM" Name="ComposerGlobalsDefinition" Parents="aTag" Index="-179">
+	<_32C74006658215A8AE110CDDB13FDEC9 Name="i343::ComposerGlobals" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="composer globals" Offset="10" GUID="52DF4FB03B2F2A5B30D069D7A68FFF8B" StructName1="i343::ComposerGlobals" Min="0" Max="1" />
+		<_34 Name="generated_pada30b" Offset="24" Length="4" />
+	</_32C74006658215A8AE110CDDB13FDEC9>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_52DF4FB03B2F2A5B30D069D7A68FFF8B Name="ComposerGlobalsDefinition" Size="254">
+		<_14 Name="cinematic film aperture" Offset="0" />
+		<_14 Name="cinematic skip ui up time" Offset="4" />
+		<_37 Name="Start, End, Skip Scripts" type="fgrb" Offset="8" />
+		<_38 Name="Start Script" Offset="8" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" />
+		<_38 Name="End Script" Offset="64" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" />
+		<_38 Name="Skip Script" Offset="C0" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" />
+		<_37 Name="" type="fgre" Offset="11C" />
+		<_37 Name="Start Next Show Script" type="fgrb" Offset="11C" />
+		<_38 Name="Start Next Show Script" Offset="11C" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" />
+		<_37 Name="" type="fgre" Offset="178" />
+		<_37 Name="Kill Previous Show Script" type="fgrb" Offset="178" />
+		<_38 Name="Kill Previous Show Script" Offset="178" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" />
+		<_37 Name="" type="fgre" Offset="1D4" />
+		<_40 Name="Stage Cleanup Preserve" Offset="1D4" GUID="AC1042DC2088BF2CEDA9DF258431CD42" StructName1="ComposerGlobalsDefinition" Min="0" Max="8" />
+		<_40 Name="Stage Cleanup Destroy" Offset="1E8" GUID="AC1042DC2088BF2CEDA9DF258431CD42" StructName1="ComposerGlobalsDefinition" Min="0" Max="8" />
+		<_37 Name="Streaming Ranges" type="fgrb" Offset="1FC" />
+		<_14 Name="Stream Composition Resources Radius" Offset="1FC" />
+		<_14 Name="Stream Pinned Resources Radius" Offset="200" />
+		<_37 Name="" type="fgre" Offset="204" />
+		<_37 Name="Transition Fade Times" type="fgrb" Offset="204" />
+		<_14 Name="Default Vehicle Transition Fade Time" Offset="204" />
+		<_14 Name="Default Support Transition Fade Time" Offset="208" />
+		<_14 Name="Default Airborne Transition Fade Time" Offset="20C" />
+		<_14 Name="Default Composition Start Transition Fade Time" Offset="210" />
+		<_37 Name="" type="fgre" Offset="214" />
+		<_41 Name="Default Bookend Transitions" Offset="214" Allowed="cmpt" Flags="0" />
+		<_41 Name="Default Spawning Patterns" Offset="230" Allowed="cmpS" Flags="0" />
+		<_14 Name="Default Spawning Pattern Probe Start Height Offset" Offset="24C" />
+		<_6 Name="Fade Start Frames Adjustment" Offset="250" />
+	</_52DF4FB03B2F2A5B30D069D7A68FFF8B>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_9C0D436D385EADFDA6697D2C8E8AE86D Name="ComposerScript" Size="5C">
+		<_F Name="Flags" Offset="0" StructName1="ComposerScriptFlags">
+			<Flag n="Client" />
+			<Flag n="HasAssociatedScript" />
+			<Flag n="IgnoreInEditor" />
+		</_F>
+		<_34 Name="generated_pad585d" Offset="1" Length="3" />
+		<_42 Name="Data" Offset="4" StructName1="ComposerScript.Data" Int1="2" Int2="0" Flags="1000" />
+		<_3C Name="Boolean Expression" Offset="1C" />
+		<_34 Name="generated_pad3e7c" Offset="1D" Length="3" />
+		<_42 Name="Runtime Script Binary" Offset="20" StructName1="ComposerScript.Runtime Script Binary" Int1="2" Int2="0" Flags="1000" />
+		<_0 Name="Runtime Script Name" Offset="38" />
+		<_3E Name="Runtime Script CRC" Offset="58" />
+	</_9C0D436D385EADFDA6697D2C8E8AE86D>
+	<_AC1042DC2088BF2CEDA9DF258431CD42 Name="ComposerStageCleanupReference" Size="1C">
+		<_41 Name="Tag Reference" Offset="0" Allowed="aTag" Flags="2" />
+	</_AC1042DC2088BF2CEDA9DF258431CD42>
+</root>

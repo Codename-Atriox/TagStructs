@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="SoundMaterialEffectsDefinition" Parents="aTag" Index="-386">
+	<_DF0641E13CE629EC051D8D74ABB0D083 Name="i343::Effects::SoundMaterialEffectsDefinition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="effects" Offset="10" GUID="F3B344BFD05AA1AB5C42B45DB3814D12" StructName1="i343::Effects::SoundMaterialEffectsDefinition" Min="0" Max="34" />
+		<_34 Name="generated_pad3224" Offset="24" Length="4" />
+	</_DF0641E13CE629EC051D8D74ABB0D083>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_F3B344BFD05AA1AB5C42B45DB3814D12 Name="i343::Effects::SoundMaterialEffectsBlock" Size="14">
+		<_40 Name="sounds" Offset="0" GUID="945C435C8FCE6765DC8ED8879241DE33" StructName1="i343::Effects::SoundMaterialEffectsBlock" Min="0" Max="500" />
+	</_F3B344BFD05AA1AB5C42B45DB3814D12>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_945C435C8FCE6765DC8ED8879241DE33 Name="s_material_effect_material" Size="48">
+		<_41 Name="tag (effect or sound)" Offset="0" Allowed="lsnd, snd!, effe" Flags="0" />
+		<_41 Name="secondary tag (effect or sound)" Offset="1C" Allowed="lsnd, snd!, effe" Flags="0" />
+		<_2 Name="material name" type="sted" Offset="38" />
+		<_5 Name="runtime material index" Offset="3C" />
+		<_A Name="sweetener mode" Offset="3E" StructName1="e_sweetener_mode">
+			<Flag n="sweetener default" />
+			<Flag n="sweetener enabled" />
+			<Flag n="sweetener disabled" />
+		</_A>
+		<_34 Name="generated_pad2bf3" Offset="3F" Length="1" />
+		<_14 Name="max_visibility_distance" Offset="40" />
+		<_F Name="material flags" Offset="44" StructName1="i343::Effects::MaterialEffectFlags">
+			<Flag n="not inhibited by damage effect sounds" />
+		</_F>
+		<_34 Name="generated_paddf3e" Offset="45" Length="3" />
+	</_945C435C8FCE6765DC8ED8879241DE33>
+</root>

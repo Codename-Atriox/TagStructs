@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="animation_skeleton" Parents="aTag" Index="-27">
+	<_EDA94B56B90D53822F169BD488C7EE6D Name="animation_skeleton" Size="108">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="skeleton" Offset="10" GUID="A1C14C0FF8D51E5947473E49937F3EB8" />
+		<_38 Name="ik" Offset="78" GUID="F4D540A557E6624B421EFA46A53BEC0C" />
+		<_34 Name="generated_pad26fa" Offset="104" Length="4" />
+	</_EDA94B56B90D53822F169BD488C7EE6D>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_A1C14C0FF8D51E5947473E49937F3EB8 Name="AnimationGraphSkeleton" Size="68">
+		<_6 Name="skeleton checksum" Offset="0" />
+		<_40 Name="skeleton bones" type="slap" Offset="4" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="AnimationGraphSkeleton" Min="0" Max="1024" />
+		<_40 Name="bone usage" type="slap" Offset="18" GUID="4EF942A3342555EE6713E11581E1346D" StructName1="AnimationGraphSkeleton" Min="0" Max="35" />
+		<_40 Name="bone masks" type="slap" Offset="2C" GUID="6F224C2252C3A3B1E0F3E55389363C08" StructName1="AnimationGraphSkeleton" Min="0" Max="32" />
+		<_40 Name="user parameters" type="slap" Offset="40" GUID="C2BDFC6C3D28C66EE4DF4541E5E2ECC9" StructName1="AnimationGraphSkeleton" Min="0" Max="512" />
+		<_40 Name="user parameter masks" type="slap" Offset="54" GUID="000F4EBE661ABF225572CEE38A7B1CD6" StructName1="AnimationGraphSkeleton" Min="0" Max="32" />
+	</_A1C14C0FF8D51E5947473E49937F3EB8>
+	<_F4D540A557E6624B421EFA46A53BEC0C Name="AnimationGraphIK" Size="8C">
+		<_36 Name="IK Junctions" Offset="0" />
+		<_40 Name="ik junctions" type="slap" Offset="0" GUID="43A6438787FEEB30EE05E0C89ABEF9D1" StructName1="AnimationGraphIK" Min="0" Max="4" />
+		<_36 Name="IK Chains" Offset="14" />
+		<_40 Name="ik chains" type="slap" Offset="14" GUID="3B0B454AF1678803BA9D2A3F96C8B5D3" StructName1="AnimationGraphIK" Min="0" Max="8" />
+		<_40 Name="ik leg definitions" type="slap" Offset="28" GUID="C0094D9D6CF8A04C91FD07D6A7D93135" StructName1="AnimationGraphIK" Min="0" Max="2" />
+		<_40 Name="ik arm definitions" type="slap" Offset="3C" GUID="B6C449223241BB249A0DDE94B6FB45A1" StructName1="AnimationGraphIK" Min="0" Max="2" />
+		<_36 Name="Points and Sets" Offset="50" />
+		<_40 Name="ik point" type="slap" Offset="50" GUID="D36A4D89732332F9C36A39FC8815B353" StructName1="AnimationGraphIK" Min="0" Max="64" />
+		<_40 Name="ik sets" type="slap" Offset="64" GUID="C0D04CDFBC56DF325E7C50D8BC3D6BF1" StructName1="AnimationGraphIK" Min="0" Max="32" />
+		<_36 Name="Ground-fit chains" Offset="78" />
+		<_40 Name="groundfit ik chains" type="slap" Offset="78" GUID="F9984F694A249F4D1E706D3A9600A535" StructName1="AnimationGraphIK" Min="0" Max="8" />
+	</_F4D540A557E6624B421EFA46A53BEC0C>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_A8A1454CA1BC3EC92CAC13688C893F2D Name="s_animation_graph_node" Size="18">
+		<_2 Name="name" Offset="0" />
+		<_2E Name="next sibling node index" Offset="4" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_graph_node" Min="0" Max="1024" />
+		<_2E Name="first child node index" Offset="6" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_graph_node" Min="0" Max="1024" />
+		<_2E Name="parent node index" Offset="8" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_graph_node" Min="0" Max="1024" />
+		<_E Name="model flags" Offset="A" StructName1="AnimationNodeModelFlags">
+			<Flag n="primary model" />
+			<Flag n="secondary model" />
+			<Flag n="local root" />
+			<Flag n="left hand" />
+			<Flag n="right hand" />
+			<Flag n="left arm member" />
+			<Flag n="detail joint" />
+		</_E>
+		<_14 Name="z_pos" Offset="C" />
+		<_6 Name="frame_ID1" Offset="10" />
+		<_6 Name="frame_ID2" Offset="14" />
+	</_A8A1454CA1BC3EC92CAC13688C893F2D>
+	<_4EF942A3342555EE6713E11581E1346D Name="s_animation_node_usage_entry" Size="4">
+		<_B Name="usage" Offset="0" StructName1="c_animation_node_usage">
+			<Flag n="physics control" />
+			<Flag n="camera control" />
+			<Flag n="origin marker" />
+			<Flag n="left clavicle" />
+			<Flag n="left upperarm" />
+			<Flag n="pose blend pitch" />
+			<Flag n="pose blend yaw" />
+			<Flag n="pedestal" />
+			<Flag n="pelvis" />
+			<Flag n="left foot" />
+			<Flag n="right foot" />
+			<Flag n="damage root gut" />
+			<Flag n="damage root chest" />
+			<Flag n="damage root head" />
+			<Flag n="damage root left shoulder" />
+			<Flag n="damage root left arm" />
+			<Flag n="damage root left leg" />
+			<Flag n="damage root left foot" />
+			<Flag n="damage root right shoulder" />
+			<Flag n="damage root right arm" />
+			<Flag n="damage root right leg" />
+			<Flag n="damage root right foot" />
+			<Flag n="left hand" />
+			<Flag n="right hand" />
+			<Flag n="weapon ik" />
+			<Flag n="head" />
+			<Flag n="helmet" />
+			<Flag n="right clavicle" />
+			<Flag n="left forearm" />
+			<Flag n="right forearm" />
+			<Flag n="left front foot" />
+			<Flag n="right front foot" />
+			<Flag n="left eye" />
+			<Flag n="right eye" />
+			<Flag n="overlay object space parent" />
+		</_B>
+		<_2E Name="node to use" Offset="2" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_node_usage_entry" Min="0" Max="1024" />
+	</_4EF942A3342555EE6713E11581E1346D>
+	<_6F224C2252C3A3B1E0F3E55389363C08 Name="s_animation_node_mask" Size="B4">
+		<_2 Name="name" Offset="0" />
+		<_E Name="flags" Offset="4" StructName1="NodeMaskFlags">
+			<Flag n="invert" />
+		</_E>
+		<_2E Name="chain start" Offset="6" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_node_mask" Min="0" Max="1024" />
+		<_40 Name="chain ends" Offset="8" GUID="6A2B4DED7A9DBE1FD964D836BE03214D" StructName1="s_animation_node_mask" Min="0" Max="1024" />
+		<_40 Name="nodes" Offset="1C" GUID="6A2B4DED7A9DBE1FD964D836BE03214D" StructName1="s_animation_node_mask" Min="0" Max="1024" />
+		<_2E Name="add nodes" Offset="30" GUID="6F224C2252C3A3B1E0F3E55389363C08" StructName1="s_animation_node_mask" Min="0" Max="32" />
+		<_2E Name="remove nodes" Offset="32" GUID="6F224C2252C3A3B1E0F3E55389363C08" StructName1="s_animation_node_mask" Min="0" Max="32" />
+		<_39 Name="node flags" Offset="34" GUID="31004754FA382E96C9AA134CA73B7ADD" Count="32" StructName1="node flags" />
+	</_6F224C2252C3A3B1E0F3E55389363C08>
+	<_C2BDFC6C3D28C66EE4DF4541E5E2ECC9 Name="AnimationGraphUserParameter" Size="C">
+		<_2 Name="name" Offset="0" />
+		<_14 Name="default value" Offset="4" />
+		<_F Name="flags" Offset="8" StructName1="UserParameterFlags">
+			<Flag n="SteppedCurve" />
+		</_F>
+		<_34 Name="generated_pad54cc" Offset="9" Length="3" />
+	</_C2BDFC6C3D28C66EE4DF4541E5E2ECC9>
+	<_000F4EBE661ABF225572CEE38A7B1CD6 Name="s_animation_userparam_mask" Size="60">
+		<_2 Name="name" Offset="0" />
+		<_E Name="flags" Offset="4" StructName1="NodeMaskFlags">
+			<Flag n="invert" />
+		</_E>
+		<_34 Name="generated_pade566" Offset="6" Length="2" />
+		<_40 Name="userparams" Offset="8" GUID="A0384CF8158DB9555275E7CC94F787A7" StructName1="s_animation_userparam_mask" Min="0" Max="512" />
+		<_2E Name="add nodes" Offset="1C" GUID="000F4EBE661ABF225572CEE38A7B1CD6" StructName1="s_animation_userparam_mask" Min="0" Max="32" />
+		<_2E Name="remove nodes" Offset="1E" GUID="000F4EBE661ABF225572CEE38A7B1CD6" StructName1="s_animation_userparam_mask" Min="0" Max="32" />
+		<_39 Name="user parameter flags" Offset="20" GUID="31004754FA382E96C9AA134CA73B7ADD" Count="16" StructName1="user parameter flags" />
+	</_000F4EBE661ABF225572CEE38A7B1CD6>
+	<_43A6438787FEEB30EE05E0C89ABEF9D1 Name="AnimationIKJunction" Size="10">
+		<_2 Name="name" Offset="0" />
+		<_2E Name="pivot node" Offset="4" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="AnimationIKJunction" Min="0" Max="1024" />
+		<_2E Name="parent junction" Offset="6" GUID="43A6438787FEEB30EE05E0C89ABEF9D1" StructName1="AnimationIKJunction" Min="0" Max="4" />
+		<_5 Name="supporting chain" Offset="8" />
+		<_2E Name="supporting node" Offset="A" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="AnimationIKJunction" Min="0" Max="1024" />
+		<_15 Name="pull passthrough" Offset="C" />
+	</_43A6438787FEEB30EE05E0C89ABEF9D1>
+	<_3B0B454AF1678803BA9D2A3F96C8B5D3 Name="s_animation_ik_chain" Size="68">
+		<_2 Name="name" Offset="0" />
+		<_B Name="type" Offset="4" StructName1="c_animation_ik_chain_type">
+			<Flag n="standard" />
+			<Flag n="spine" />
+			<Flag n="spline driven spine" />
+		</_B>
+		<_2E Name="start node" Offset="6" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_ik_chain" Min="0" Max="1024" />
+		<_2E Name="effector node" Offset="8" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_ik_chain" Min="0" Max="1024" />
+		<_2E Name="parent junction" Offset="A" GUID="43A6438787FEEB30EE05E0C89ABEF9D1" StructName1="s_animation_ik_chain" Min="0" Max="4" />
+		<_5 Name="rank" Offset="C" />
+		<_5 Name="antecedents" Offset="E" />
+		<_40 Name="special joints" Offset="10" GUID="6FE446DD5256FDE8BA9041B0903B15CE" StructName1="s_animation_ik_chain" Min="0" Max="32" />
+		<_36 Name="Pull settings" Offset="24" />
+		<_15 Name="native pull strength" Offset="24" />
+		<_15 Name="native push strength" Offset="28" />
+		<_15 Name="over extent pull strength" Offset="2C" />
+		<_15 Name="under extent push strength" Offset="30" />
+		<_36 Name="Effector Cone Limits" Offset="34" />
+		<_15 Name="effector cone limit power" Offset="34" />
+		<_24 Name="pitch bounds" Offset="38" />
+		<_24 Name="yaw bounds" Offset="40" />
+		<_25 Name="offset bounds" Offset="48" />
+		<_40 Name="full joint chain" Offset="50" GUID="6FE446DD5256FDE8BA9041B0903B15CE" StructName1="s_animation_ik_chain" Min="0" Max="32" />
+		<_15 Name="spline reversal strength" Offset="64" />
+	</_3B0B454AF1678803BA9D2A3F96C8B5D3>
+	<_C0094D9D6CF8A04C91FD07D6A7D93135 Name="s_animation_ik_leg_definition" Size="24">
+		<_30 Name="leg ik chain" Offset="0" GUID="3B0B454AF1678803BA9D2A3F96C8B5D3" StructName1="s_animation_ik_leg_definition" Min="0" Max="8" />
+		<_25 Name="standing compression limits" Offset="4" />
+		<_25 Name="crouching compression limits" Offset="C" />
+		<_25 Name="foot pitch limits" Offset="14" />
+		<_25 Name="foot yaw limits" Offset="1C" />
+	</_C0094D9D6CF8A04C91FD07D6A7D93135>
+	<_B6C449223241BB249A0DDE94B6FB45A1 Name="s_animation_ik_arm_definition" Size="10">
+		<_30 Name="arm ik chain" Offset="0" GUID="3B0B454AF1678803BA9D2A3F96C8B5D3" StructName1="s_animation_ik_arm_definition" Min="0" Max="8" />
+		<_14 Name="wrist break threshold" Offset="4" />
+		<_2 Name="fixup axis marker" Offset="8" />
+		<_14 Name="ik wrist break acceptable min angle" Offset="C" />
+	</_B6C449223241BB249A0DDE94B6FB45A1>
+	<_D36A4D89732332F9C36A39FC8815B353 Name="s_animation_ik_point" Size="28">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="source marker" Offset="4" />
+		<_C Name="attach to" Offset="8" StructName1="IKAttachmentTargetType">
+			<Flag n="parent" />
+			<Flag n="NYI any child" />
+			<Flag n="primary weapon" />
+			<Flag n="secondary weapon" />
+		</_C>
+		<_2 Name="destination marker" Offset="C" />
+		<_17 Name="pole marker" Offset="10" />
+		<_30 Name="chain to use" Offset="1C" GUID="3B0B454AF1678803BA9D2A3F96C8B5D3" StructName1="s_animation_ik_point" Min="0" Max="8" />
+		<_37 Name="" type="coff" Offset="20" />
+		<_2 Name="weight source object function" Offset="20" />
+		<_37 Name="" type="coff" Offset="24" />
+		<_2 Name="priority source object function" Offset="24" />
+	</_D36A4D89732332F9C36A39FC8815B353>
+	<_C0D04CDFBC56DF325E7C50D8BC3D6BF1 Name="s_animation_ik_set" Size="1C">
+		<_2 Name="name" Offset="0" />
+		<_D Name="flags" Offset="4" StructName1="IKSetFlags">
+			<Flag n="Disable Quadruped Footlocking" />
+			<Flag n="Enable Biped Handlocking" />
+		</_D>
+		<_40 Name="ik points" Offset="8" GUID="59874CF7B344E2EDFB3DEA228590B239" StructName1="s_animation_ik_set" Min="0" Max="8" />
+	</_C0D04CDFBC56DF325E7C50D8BC3D6BF1>
+	<_F9984F694A249F4D1E706D3A9600A535 Name="i343::Animation::IKGroundFittingChain" Size="14">
+		<_36 Name="Chain Drivers" Offset="0" />
+		<_30 Name="start junction" Offset="0" GUID="43A6438787FEEB30EE05E0C89ABEF9D1" StructName1="i343::Animation::IKGroundFittingChain" Min="0" Max="4" />
+		<_30 Name="end junction" Offset="4" GUID="43A6438787FEEB30EE05E0C89ABEF9D1" StructName1="i343::Animation::IKGroundFittingChain" Min="0" Max="4" />
+		<_14 Name="probe distance" Offset="8" />
+		<_14 Name="angle threshold" Offset="C" />
+		<_14 Name="maximum rate" Offset="10" />
+	</_F9984F694A249F4D1E706D3A9600A535>
+	<_6A2B4DED7A9DBE1FD964D836BE03214D Name="s_animation_node_mask_entry" Size="2">
+		<_2E Name="node" Offset="0" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_node_mask_entry" Min="0" Max="1024" />
+	</_6A2B4DED7A9DBE1FD964D836BE03214D>
+	<_31004754FA382E96C9AA134CA73B7ADD Name="NodeFlagStorageArray" Size="4">
+		<_6 Name="flag data" Offset="0" />
+	</_31004754FA382E96C9AA134CA73B7ADD>
+	<_A0384CF8158DB9555275E7CC94F787A7 Name="s_animation_userparam_mask_entry" Size="2">
+		<_2E Name="userparam index" Offset="0" GUID="C2BDFC6C3D28C66EE4DF4541E5E2ECC9" StructName1="s_animation_userparam_mask_entry" Min="0" Max="512" />
+	</_A0384CF8158DB9555275E7CC94F787A7>
+	<_6FE446DD5256FDE8BA9041B0903B15CE Name="AnimationIKJoint" Size="4">
+		<_2E Name="joint index" Offset="0" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="AnimationIKJoint" Min="0" Max="1024" />
+		<_E Name="flags" Offset="2" StructName1="AnimationIKJointFlags">
+			<Flag n="static" />
+			<Flag n="hinge" />
+		</_E>
+	</_6FE446DD5256FDE8BA9041B0903B15CE>
+	<_59874CF7B344E2EDFB3DEA228590B239 Name="s_animation_ik_set_item" Size="4">
+		<_2E Name="ik point" Offset="0" GUID="D36A4D89732332F9C36A39FC8815B353" StructName1="s_animation_ik_set_item" Min="0" Max="64" />
+		<_E Name="flags" Offset="2" StructName1="IKSetItemFlags">
+			<Flag n="disable" />
+		</_E>
+	</_59874CF7B344E2EDFB3DEA228590B239>
+</root>

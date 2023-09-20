@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="PowerupDefinition" Parents="aTag" Index="-329">
+	<_738E484485584F62839082708F240C9B Name="i343::PowerUp::PowerupDefinition" Size="58">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_2 Name="type" Offset="10" />
+		<_1F Name="color" Offset="14" />
+		<_1F Name="UI fill meter color" Offset="20" />
+		<_1F Name="UI backer bitmap color" Offset="2C" />
+		<_41 Name="Generic modifiers" Offset="38" Allowed="gmpm" Flags="0" />
+		<_34 Name="generated_pad6516" Offset="54" Length="4" />
+	</_738E484485584F62839082708F240C9B>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:22 PM" Name="user_interface_shared_globals_definition" Parents="aTag" Index="-480">
+	<_3ABC40F7520DAD1BB6D09BC7A25DED9A Name="s_user_interface_shared_globals" Size="3E8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="Global Text Strings" Offset="10" />
+		<_41 Name="String list tag" Offset="10" Allowed="uslg" Flags="0" />
+		<_36 Name="Global Narration String" Offset="2C" />
+		<_41 Name="Narration string list tag" Offset="2C" Allowed="uslg" Flags="0" />
+		<_36 Name="Global Resources" Offset="48" />
+		<_40 Name="Resources tags" Offset="48" GUID="668B46A043D460B72301F51A835FDD47" StructName1="s_user_interface_shared_globals" Min="0" Max="64" />
+		<_36 Name="Global Navpoint Resources" Offset="5C" />
+		<_40 Name="NavPoint Resources tags" Offset="5C" GUID="668B46A043D460B72301F51A835FDD47" StructName1="s_user_interface_shared_globals" Min="0" Max="64" />
+		<_36 Name="Color presets" Offset="70" />
+		<_40 Name="color presets" Offset="70" GUID="2251412E26B5A8360039DCDEA23E454A" StructName1="s_user_interface_shared_globals" Min="0" Max="1024" />
+		<_36 Name="Disposition Colors" Offset="84" />
+		<_41 Name="Disposition Colors" Offset="84" Allowed="dcgd" Flags="0" />
+		<_36 Name="Tint colors" Offset="A0" />
+		<_40 Name="tint colors" Offset="A0" GUID="800046A260C481EEAC51C3728304DA08" StructName1="s_user_interface_shared_globals" Min="0" Max="1" />
+		<_36 Name="User interface sounds" Offset="B4" />
+		<_41 Name="default sounds" Offset="B4" Allowed="uise" Flags="0" />
+		<_41 Name="Weapon discarded sound" Offset="D0" Allowed="sgrp" Flags="0" />
+		<_41 Name="Callout Spam Prevention Sound" Offset="EC" Allowed="sgrp" Flags="0" />
+		<_41 Name="Grenade switching sound" Offset="108" Allowed="snd!" Flags="0" />
+		<_36 Name="Alerts" Offset="124" />
+		<_40 Name="alert description tags" Offset="124" GUID="576B4AE92127D0369C68E4D695775617" StructName1="s_user_interface_shared_globals" Min="0" Max="16" />
+		<_36 Name="Dialogs" Offset="138" />
+		<_40 Name="dialog description tags" Offset="138" GUID="A4F7441632A07E8E5BD8391195249727" StructName1="s_user_interface_shared_globals" Min="0" Max="16" />
+		<_36 Name="Lua User Libraries" Offset="14C" />
+		<_40 Name="lua user libraries" Offset="14C" GUID="737041B838464D85B3CB9F7594612A80" StructName1="s_user_interface_shared_globals" Min="0" Max="32" />
+		<_36 Name="Lua User Sample Data Libraries" Offset="160" />
+		<_40 Name="lua user sample data libraries" Offset="160" GUID="737041B838464D85B3CB9F7594612A80" StructName1="s_user_interface_shared_globals" Min="0" Max="32" />
+		<_36 Name="Basic widget tab speed" Offset="174" />
+		<_37 Name="basic widget tab speed function" type="fned" Offset="174" />
+		<_38 Name="basic widget tab speed function" Offset="174" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_6 Name="max input time (x) on the basic graph (msec)" Offset="18C" />
+		<_36 Name="Spinner tab speed" Offset="190" />
+		<_37 Name="spinner tab speed function" type="fned" Offset="190" />
+		<_38 Name="spinner tab speed function" Offset="190" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_6 Name="max input time (x) on the graph (msec)" Offset="1A8" />
+		<_36 Name="Attract Mode Settings" Offset="1AC" />
+		<_6 Name="delay" Offset="1AC" />
+		<_40 Name="wpf font sets" Offset="1B0" GUID="F3DA4AD239753FD6DF40B1E19C599FC8" StructName1="s_user_interface_shared_globals" Min="0" Max="256" />
+		<_41 Name="typefaces" Offset="1C4" Allowed="fntf" Flags="0" />
+		<_40 Name="bitmap dictionaries" Offset="1E0" GUID="D3C94148CD4A6B7F45C7C7F08708E91E" StructName1="s_user_interface_shared_globals" Min="0" Max="256" />
+		<_40 Name="double tap bitmap dictionaries" Offset="1F4" GUID="D3C94148CD4A6B7F45C7C7F08708E91E" StructName1="s_user_interface_shared_globals" Min="0" Max="256" />
+		<_40 Name="keyboard layout bitmap remappings" Offset="208" GUID="EF6F44F84F8A1693AB0C74209FAA28AF" StructName1="s_user_interface_shared_globals" Min="0" Max="256" />
+		<_40 Name="language-localized keyboard button label images" Offset="21C" GUID="310245581BC1FC991CD096F38E8A44B1" StructName1="s_user_interface_shared_globals" Min="0" Max="256" />
+		<_37 Name="Loading Screen" type="fgrb" Offset="230" />
+		<_41 Name="Loading screen tag" Offset="230" Allowed="cusc" Flags="0" />
+		<_40 Name="Loading Screen Settings" Offset="24C" GUID="F8E34BE18C826A951FAC0956B680C7B0" StructName1="s_user_interface_shared_globals" Min="0" Max="8" />
+		<_14 Name="Crossfade Into Black" Offset="260" />
+		<_14 Name="Crossfade Out Of Black Screen" Offset="264" />
+		<_14 Name="Loading Screen Min Dwell Time" Offset="268" />
+		<_37 Name="" type="fgre" Offset="26C" />
+		<_36 Name="Blur transitions" Offset="26C" />
+		<_37 Name="Gameplay overlay blur fade in function" type="fned" Offset="26C" />
+		<_38 Name="Gameplay overlay blur fade in function" Offset="26C" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_14 Name="Gameplay overlay blur fade in time (s)" Offset="284" />
+		<_37 Name="Gameplay overlay blur fade out function" type="fned" Offset="288" />
+		<_38 Name="Gameplay overlay blur fade out function" Offset="288" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_14 Name="Gameplay overlay blur fade out time (s)" Offset="2A0" />
+		<_37 Name="Watermark Screen" type="fgrb" Offset="2A4" />
+		<_41 Name="Watermark screen tag" Offset="2A4" Allowed="cusc" Flags="0" />
+		<_37 Name="" type="fgre" Offset="2C0" />
+		<_37 Name="Reticle Over Player Behavior" type="fgrb" Offset="2C0" />
+		<_38 Name="Reticle Over Player Behavior" Offset="2C0" GUID="8F0E4B0AB71451EA25889100BF65EF47" />
+		<_37 Name="" type="fgre" Offset="2D4" />
+		<_36 Name="Localized font mappings" Offset="2D4" />
+		<_40 Name="font mappings" Offset="2D4" GUID="3DEF4A26126F79EB83E217ADB589585B" StructName1="s_user_interface_shared_globals" Min="0" Max="32" />
+		<_36 Name="FastHud Font Fake Bitmap" Offset="2E8" />
+		<_41 Name="FastHud Font Fake Bitmap" Offset="2E8" Allowed="bitm" Flags="0" />
+		<_41 Name="Emblem Themes" Offset="304" Allowed="emth" Flags="0" />
+		<_41 Name="SLAMS URI Lookup Table" Offset="320" Allowed="suri" Flags="0" />
+		<_41 Name="Rebinding Globals Tag" Offset="33C" Allowed="rebi" Flags="0" />
+		<_40 Name="Drop Shadow Parameters" Offset="358" GUID="459E43E467EDA3CE740A4E04A0438BEB" StructName1="s_user_interface_shared_globals" Min="0" Max="16" />
+		<_40 Name="Font size scale values" Offset="36C" GUID="0A484152FCD01C742F63FBF2BC3149E6" StructName1="s_user_interface_shared_globals" Min="0" Max="15" />
+		<_40 Name="Settings Menu Slider Settings" Offset="380" GUID="9B865C76019DF9DA8E05569F14B90CAF" StructName1="s_user_interface_shared_globals" Min="0" Max="16" />
+		<_41 Name="Narration Phonemes Tag" Offset="394" Allowed="nphg" Flags="0" />
+		<_41 Name="Skip UI tag" Offset="3B0" Allowed="cusc" Flags="0" />
+		<_41 Name="mission thumbnail bitmap dictionary" Offset="3CC" Allowed="bitd" Flags="0" />
+	</_3ABC40F7520DAD1BB6D09BC7A25DED9A>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_668B46A043D460B72301F51A835FDD47 Name="ResourceFileReferences" Size="1C">
+		<_41 Name="resources list" Offset="0" Allowed="cure" Flags="0" />
+	</_668B46A043D460B72301F51A835FDD47>
+	<_2251412E26B5A8360039DCDEA23E454A Name="s_color_preset" Size="14">
+		<_2 Name="name" Offset="0" />
+		<_20 Name="color" Offset="4" />
+	</_2251412E26B5A8360039DCDEA23E454A>
+	<_800046A260C481EEAC51C3728304DA08 Name="s_tint_colors" Size="28">
+		<_40 Name="text team" Offset="0" GUID="C6A24A780F5F62C7F47B91CDBCCFBB7A" StructName1="s_tint_colors" Min="0" Max="63" />
+		<_40 Name="bitmap team" Offset="14" GUID="C6A24A780F5F62C7F47B91CDBCCFBB7A" StructName1="s_tint_colors" Min="0" Max="63" />
+	</_800046A260C481EEAC51C3728304DA08>
+	<_576B4AE92127D0369C68E4D695775617 Name="AlertDescriptionTagReference" Size="1C">
+		<_41 Name="Reference" Offset="0" Allowed="alds" Flags="0" />
+	</_576B4AE92127D0369C68E4D695775617>
+	<_A4F7441632A07E8E5BD8391195249727 Name="DialogDescriptionTagReference" Size="1C">
+		<_41 Name="Reference" Offset="0" Allowed="dids" Flags="0" />
+	</_A4F7441632A07E8E5BD8391195249727>
+	<_737041B838464D85B3CB9F7594612A80 Name="s_luaUserLibrary" Size="1C">
+		<_41 Name="lua library" Offset="0" Allowed="luas" Flags="0" />
+	</_737041B838464D85B3CB9F7594612A80>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+	<_F3DA4AD239753FD6DF40B1E19C599FC8 Name="FontSetReferenceBlockDefinition" Size="1C">
+		<_41 Name="wpf font set tag" Offset="0" Allowed="fnts" Flags="0" />
+	</_F3DA4AD239753FD6DF40B1E19C599FC8>
+	<_D3C94148CD4A6B7F45C7C7F08708E91E Name="BitmapDictionaryReferenceBlockDefinition" Size="1C">
+		<_41 Name="bitmap dictionary" Offset="0" Allowed="bitd" Flags="0" />
+	</_D3C94148CD4A6B7F45C7C7F08708E91E>
+	<_EF6F44F84F8A1693AB0C74209FAA28AF Name="KeyboardLayoutBitmapDictionaryReference" Size="24">
+		<_3E Name="Keyboard Layout ID" Offset="0" />
+		<_F Name="flags" Offset="4" StructName1="KeyboardLayoutBitmapDictionaryReference::KeyboardLayoutBitmapDictionaryReferenceFlags">
+			<Flag n="Right Alt is Alt Gr?" />
+		</_F>
+		<_34 Name="generated_pad603b" Offset="5" Length="3" />
+		<_41 Name="layoutBitmaps" Offset="8" Allowed="bitd" Flags="0" />
+	</_EF6F44F84F8A1693AB0C74209FAA28AF>
+	<_310245581BC1FC991CD096F38E8A44B1 Name="LocalizedFunctionKeyBitmapDictionaryReference" Size="20">
+		<_C Name="Language ID" Offset="0" StructName1="e_language">
+			<Flag n="English" />
+			<Flag n="Japanese" />
+			<Flag n="German" />
+			<Flag n="French" />
+			<Flag n="Spanish" />
+			<Flag n="Mexican-Spanish" />
+			<Flag n="Italian" />
+			<Flag n="Korean" />
+			<Flag n="Traditional-Chinese" />
+			<Flag n="Simplified-Chinese" />
+			<Flag n="Portuguese" />
+			<Flag n="Polish" />
+			<Flag n="Russian" />
+			<Flag n="Danish" />
+			<Flag n="Finnish" />
+			<Flag n="Dutch" />
+			<Flag n="Norwegian" />
+			<Flag n="Brazilian-Portuguese" />
+		</_C>
+		<_41 Name="function key label image overrides" Offset="4" Allowed="bitd" Flags="0" />
+	</_310245581BC1FC991CD096F38E8A44B1>
+	<_F8E34BE18C826A951FAC0956B680C7B0 Name="LoadingScreenSettings" Size="3C">
+		<_A Name="Loading Screen Category" Offset="0" StructName1="e_LoadingScreenCategory">
+			<Flag n="Generic" />
+			<Flag n="Campaign" />
+			<Flag n="Multiplayer" />
+			<Flag n="Academy" />
+			<Flag n="Forge" />
+			<Flag n="Tatanka" />
+			<Flag n="Install" />
+			<Flag n="ForgeBake" />
+		</_A>
+		<_34 Name="generated_pad0e13" Offset="1" Length="3" />
+		<_41 Name="Loading Screen Image Group" Offset="4" Allowed="bitm" Flags="0" />
+		<_40 Name="Loading Screen Tooltip Set" Offset="20" GUID="22264AEC2AC49909227CC63BB1B5B432" StructName1="LoadingScreenSettings" Min="0" Max="100" />
+		<_14 Name="Loading Screen Image Flip Time" Offset="34" />
+		<_14 Name="Loading Screen Tooltip Flip Time" Offset="38" />
+	</_F8E34BE18C826A951FAC0956B680C7B0>
+	<_8F0E4B0AB71451EA25889100BF65EF47 Name="ReticleOverPlayerDefinition" Size="14">
+		<_14 Name="firstTierAngle" Offset="0" />
+		<_14 Name="firstTierDistance" Offset="4" />
+		<_14 Name="secondTierAngle" Offset="8" />
+		<_14 Name="secondTierDistance" Offset="C" />
+		<_14 Name="vehicleDistanceScalar" Offset="10" />
+	</_8F0E4B0AB71451EA25889100BF65EF47>
+	<_3DEF4A26126F79EB83E217ADB589585B Name="LocalizedFontMappingSetDefinition" Size="18">
+		<_C Name="language" Offset="0" StructName1="e_language">
+			<Flag n="English" />
+			<Flag n="Japanese" />
+			<Flag n="German" />
+			<Flag n="French" />
+			<Flag n="Spanish" />
+			<Flag n="Mexican-Spanish" />
+			<Flag n="Italian" />
+			<Flag n="Korean" />
+			<Flag n="Traditional-Chinese" />
+			<Flag n="Simplified-Chinese" />
+			<Flag n="Portuguese" />
+			<Flag n="Polish" />
+			<Flag n="Russian" />
+			<Flag n="Danish" />
+			<Flag n="Finnish" />
+			<Flag n="Dutch" />
+			<Flag n="Norwegian" />
+			<Flag n="Brazilian-Portuguese" />
+		</_C>
+		<_40 Name="mappings" Offset="4" GUID="948E4E8FBB96CDA10C9FFD39A3E42696" StructName1="LocalizedFontMappingSetDefinition" Min="0" Max="32" />
+	</_3DEF4A26126F79EB83E217ADB589585B>
+	<_459E43E467EDA3CE740A4E04A0438BEB Name="DropShadowParameters" Size="14">
+		<_2 Name="Name" Offset="0" />
+		<_16 Name="Offset" Offset="4" />
+		<_2 Name="Color" Offset="C" />
+		<_6 Name="Sample Size" Offset="10" />
+	</_459E43E467EDA3CE740A4E04A0438BEB>
+	<_0A484152FCD01C742F63FBF2BC3149E6 Name="FontSizeScaleValues" Size="10">
+		<_6 Name="Range Min" Offset="0" />
+		<_6 Name="Range Max" Offset="4" />
+		<_6 Name="Large Font Value" Offset="8" />
+		<_6 Name="Extra Large Font Value" Offset="C" />
+	</_0A484152FCD01C742F63FBF2BC3149E6>
+	<_9B865C76019DF9DA8E05569F14B90CAF Name="SettingsMenuSliderSettings" Size="14">
+		<_2 Name="name" Offset="0" />
+		<_14 Name="Min Value" Offset="4" />
+		<_14 Name="Max Value" Offset="8" />
+		<_14 Name="Step Size" Offset="C" />
+		<_14 Name="Scaling Factor" Offset="10" />
+	</_9B865C76019DF9DA8E05569F14B90CAF>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_C6A24A780F5F62C7F47B91CDBCCFBB7A Name="RealARGBColorBlock" Size="10">
+		<_20 Name="color" Offset="0" />
+	</_C6A24A780F5F62C7F47B91CDBCCFBB7A>
+	<_22264AEC2AC49909227CC63BB1B5B432 Name="LoadingScreenCategoryTooltipStrings" Size="8">
+		<_2 Name="Header Text" Offset="0" />
+		<_2 Name="Description Text" Offset="4" />
+	</_22264AEC2AC49909227CC63BB1B5B432>
+	<_948E4E8FBB96CDA10C9FFD39A3E42696 Name="FontMappingDefinition" Size="200">
+		<_1 Name="original name" Offset="0" />
+		<_1 Name="remapped name" Offset="100" />
+	</_948E4E8FBB96CDA10C9FFD39A3E42696>
+</root>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="ai_dialogue_globals" Parents="aTag" Index="-11">
+	<_55DC4CE628A048279C6549DC95458C49 Name="ai_dialogue_definitions" Size="98">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="Global timing" Offset="10" />
+		<_25 Name="strike delay bounds" Offset="10" />
+		<_14 Name="remind delay" Offset="18" />
+		<_14 Name="post combat results wait time" Offset="1C" />
+		<_14 Name="grapple hook pull delay time" Offset="20" />
+		<_14 Name="player shoot min interval" Offset="24" />
+		<_14 Name="actor shoot min interval" Offset="28" />
+		<_14 Name="cover curse chance" Offset="2C" />
+		<_14 Name="2D speaker duration buffer" Offset="30" />
+		<_36 Name="Player look settings" Offset="34" />
+		<_14 Name="player look max distance" Offset="34" />
+		<_14 Name="player look" Offset="38" />
+		<_14 Name="player look long time" Offset="3C" />
+		<_36 Name="Spartan nearby search distance" Offset="40" />
+		<_14 Name="spartan nearby search distance" Offset="40" />
+		<_36 Name="Face friendly player distance" Offset="44" />
+		<_14 Name="face friendly player distance" Offset="44" />
+		<_36 Name="Space dialogue effect" Offset="48" />
+		<_2 Name="space dialogue effect" Offset="48" />
+		<_36 Name="Speaker distance restrictions" Offset="4C" />
+		<_14 Name="max respond distance" Offset="4C" />
+		<_14 Name="max respond distance in space" Offset="50" />
+		<_36 Name="Pattern selection ranges" Offset="54" />
+		<_14 Name="speaker max delta" Offset="54" />
+		<_14 Name="pattern max delta" Offset="58" />
+		<_36 Name="Danger Level thresholds" Offset="5C" />
+		<_14 Name="player shield damage threshold" Offset="5C" />
+		<_14 Name="player body damage threshold" Offset="60" />
+		<_36 Name="Subtitles" Offset="64" />
+		<_14 Name="max player distance" Offset="64" />
+		<_36 Name="Default stimulus suppressors" Offset="68" />
+		<_40 Name="default stimulus suppressors" Offset="68" GUID="26B849B048735579B3EE55B0B08B966D" StructName1="ai_dialogue_definitions" Min="0" Max="4" />
+		<_36 Name="Dialogue System Data Tags" Offset="7C" />
+		<_40 Name="DSD tags" Offset="7C" GUID="98BC488086CB9639C67E8B7C96D7451D" StructName1="ai_dialogue_definitions" Min="0" Max="16" />
+		<_7 Name="runtime dialogue system data" Offset="90" />
+	</_55DC4CE628A048279C6549DC95458C49>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_26B849B048735579B3EE55B0B08B966D Name="DefaultStimulusSuppressorParam" Size="4">
+		<_2 Name="stimulus" Offset="0" />
+	</_26B849B048735579B3EE55B0B08B966D>
+	<_98BC488086CB9639C67E8B7C96D7451D Name="DialogueSystemDataTagReference" Size="1C">
+		<_41 Name="dialogue_system_data tag" Offset="0" Allowed="dsdt" Flags="0" />
+	</_98BC488086CB9639C67E8B7C96D7451D>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

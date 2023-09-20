@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:12 PM" Name="MaterialPreset" Parents="aTag" Index="-250">
+	<_C8934E6E2D754E02450812B994D7162D Name="MaterialPreset" Size="38">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="material parameters" Offset="10" GUID="739A40ED1B41042F195BD40DADDD1564" StructName1="MaterialPreset" Min="0" Max="1335" />
+		<_40 Name="decorator placement datas" Offset="24" GUID="B7274135CA302DE292407D4B88E6C65D" StructName1="MaterialPreset" Min="0" Max="10" />
+	</_C8934E6E2D754E02450812B994D7162D>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_739A40ED1B41042F195BD40DADDD1564 Name="ShaderParameter" Size="9C">
+		<_2 Name="parameter name" Offset="0" />
+		<_C Name="parameter type" Offset="4" StructName1="MaterialParameterType">
+			<Flag n="bitmap" />
+			<Flag n="real" />
+			<Flag n="int" />
+			<Flag n="bool" />
+			<Flag n="color" />
+			<Flag n="scalar gpu property" />
+			<Flag n="color gpu property" />
+			<Flag n="string" />
+			<Flag n="preset" />
+		</_C>
+		<_41 Name="bitmap" Offset="8" Allowed="bitm, matp" Flags="18" />
+		<_20 Name="color" Offset="24" />
+		<_14 Name="real" Offset="34" />
+		<_19 Name="vector" Offset="38" />
+		<_6 Name="int/bool" Offset="44" />
+		<_42 Name="string" Offset="48" StructName1="ShaderParameter.string" Int1="2" Int2="0" Flags="20" />
+		<_3D Name="bitmap flags" Offset="60" />
+		<_3D Name="bitmap filter mode" Offset="62" />
+		<_3D Name="bitmap address mode" Offset="64" />
+		<_3D Name="bitmap address mode x" Offset="66" />
+		<_3D Name="bitmap address mode y" Offset="68" />
+		<_3C Name="bitmap extern mode" Offset="6A" />
+		<_3C Name="bitmap min mipmap" Offset="6B" />
+		<_3C Name="bitmap max mipmap" Offset="6C" />
+		<_34 Name="generated_padea44" Offset="6D" Length="3" />
+		<_14 Name="bitmap blur and sharpen" Offset="70" />
+		<_F Name="parameter flags" Offset="74" StructName1="ShaderParameter::ShaderParameterFlags">
+			<Flag n="texture array" />
+			<Flag n="force bitmap clamp" />
+			<Flag n="disabled" />
+			<Flag n="has transform function" />
+			<Flag n="bindless" />
+		</_F>
+		<_34 Name="generated_pad0425" Offset="75" Length="3" />
+		<_3E Name="render phases used" Offset="78" />
+		<_3E Name="shader types used" Offset="7C" />
+		<_40 Name="function parameters" Offset="80" GUID="F54D44725471F0E39A007BEDAD55A516" StructName1="ShaderParameter" Min="0" Max="267" />
+		<_3D Name="register offset" Offset="94" />
+		<_3D Name="register size" Offset="96" />
+		<_3C Name="bitmap extern index" Offset="98" />
+		<_34 Name="generated_pad50da" Offset="99" Length="3" />
+	</_739A40ED1B41042F195BD40DADDD1564>
+	<_B7274135CA302DE292407D4B88E6C65D Name="DecoratorPlacementData" Size="44">
+		<_41 Name="decorator asset" Offset="0" Allowed="dcat" Flags="9" />
+		<_14 Name="max density" Offset="1C" />
+		<_18 Name="Scale Range" Offset="20" />
+		<_18 Name="Rotation Range" Offset="28" />
+		<_A Name="Orientation Alignment" Offset="30" StructName1="i343::OrientationAlignment">
+			<Flag n="AlwaysUp" />
+			<Flag n="AlignToSlope" />
+			<Flag n="Random" />
+		</_A>
+		<_34 Name="generated_pada6fa" Offset="31" Length="3" />
+		<_18 Name="Vector Mask Angle" Offset="34" />
+		<_14 Name="Cull Distance Scale" Offset="3C" />
+		<_A Name="Vector Mask Mode" Offset="40" StructName1="i343::VectorMaskMode">
+			<Flag n="UpFacing" />
+			<Flag n="SideFacing" />
+		</_A>
+		<_34 Name="generated_padf3af" Offset="41" Length="3" />
+	</_B7274135CA302DE292407D4B88E6C65D>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_F54D44725471F0E39A007BEDAD55A516 Name="MaterialShaderFunctionParameter" Size="30">
+		<_C Name="type" Offset="0" StructName1="MaterialAnimatedParameterType">
+			<Flag n="value" />
+			<Flag n="color" />
+			<Flag n="scale uniform" />
+			<Flag n="scale u" />
+			<Flag n="scale v" />
+			<Flag n="offset u" />
+			<Flag n="offset v" />
+			<Flag n="frame index" />
+			<Flag n="alpha" />
+		</_C>
+		<_2 Name="input name" type="fnin" Offset="4" />
+		<_2 Name="range name" type="fnir" Offset="8" />
+		<_A Name="Output Modifier" type="fnop" Offset="C" StructName1="MaterialShaderFunctionParameter::MaterialFunctionOutputModEnum">
+			<Flag n=" " />
+			<Flag n="Add" />
+			<Flag n="Multiply" />
+		</_A>
+		<_34 Name="generated_pad8305" Offset="D" Length="3" />
+		<_2 Name="Output Modifier Input" type="fnom" Offset="10" />
+		<_14 Name="time period" type="fn**" Offset="14" />
+		<_36 Name="FUNCTION" Offset="18" />
+		<_37 Name="function" type="fned" Offset="18" />
+		<_38 Name="function" Offset="18" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_F54D44725471F0E39A007BEDAD55A516>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

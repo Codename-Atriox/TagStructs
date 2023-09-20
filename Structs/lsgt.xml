@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:12 PM" Name="LevelStaticGeo" Parents="aTag" Index="-239">
+	<_8A4848634E3A44ADBDB6D87492E7C146 Name="i343::LevelStaticGeoTag" Size="50">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="Source Level" Offset="10" Allowed="levl" Flags="9" />
+		<_E Name="Options" Offset="2C" StructName1="i343::LevelStaticGeoFlags">
+			<Flag n="Include Hlod child IOs" />
+			<Flag n="Include Foliage" />
+		</_E>
+		<_34 Name="generated_pad3038" Offset="2E" Length="2" />
+		<_14 Name="Minimum object size" Offset="30" />
+		<_14 Name="Minimum screen size" Offset="34" />
+		<_40 Name="bsps" Offset="38" GUID="35784AF847CDBD1AEAAC40B4B73AA3E0" StructName1="i343::LevelStaticGeoTag" Min="0" Max="1024" />
+		<_34 Name="generated_pad4a19" Offset="4C" Length="4" />
+	</_8A4848634E3A44ADBDB6D87492E7C146>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_35784AF847CDBD1AEAAC40B4B73AA3E0 Name="i343::LevelStaticGeoBsp" Size="44">
+		<_41 Name="Bsp" Offset="0" Allowed="sbsp" Flags="9" />
+		<_40 Name="static placements" Offset="1C" GUID="3A894ABCD3ED7E6E4F19AEB490982373" StructName1="i343::LevelStaticGeoBsp" Min="0" Max="1048576" />
+		<_40 Name="foliage placements" Offset="30" GUID="3A894ABCD3ED7E6E4F19AEB490982373" StructName1="i343::LevelStaticGeoBsp" Min="0" Max="1048576" />
+	</_35784AF847CDBD1AEAAC40B4B73AA3E0>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_3A894ABCD3ED7E6E4F19AEB490982373 Name="i343::LevelStaticGeoPlacement" Size="130">
+		<_38 Name="Placement" Offset="0" GUID="157D40DD374C7C6D22FCD7CA9F36A6F8" />
+		<_19 Name="Bounding Center" Offset="11C" />
+		<_14 Name="Bounding Radius" Offset="128" />
+		<_14 Name="Streaming Radius" Offset="12C" />
+	</_3A894ABCD3ED7E6E4F19AEB490982373>
+	<_157D40DD374C7C6D22FCD7CA9F36A6F8 Name="ScenarioStaticAssetPlacement" Size="11C">
+		<_2 Name="name" Offset="0" />
+		<_6 Name="guid" Offset="4" />
+		<_41 Name="prefab reference" Offset="8" Allowed="aset" Flags="1" />
+		<_2 Name="variant name" type="sted" Offset="24" />
+		<_17 Name="position" Offset="28" />
+		<_1C Name="rotation" Offset="34" />
+		<_19 Name="scale" Offset="40" />
+		<_E Name="flags" Offset="4C" StructName1="ScenarioPrefabPlacementFlags">
+			<Flag n="Disable bullet collision" />
+			<Flag n="Disable play collision" />
+			<Flag n="Disable render collision" />
+			<Flag n="Override prefab probe-grid capture offset" />
+			<Flag n="PVS Always use LOD0" />
+			<Flag n="PVS Always visible" />
+			<Flag n="PVS Don't use as an occluder" />
+			<Flag n="Subtract override from kit" />
+			<Flag n="Generate decorators" />
+			<Flag n="Is Trigger Volume" />
+		</_E>
+		<_A Name="cinema only" Offset="4E" StructName1="PrefabFlagOverride">
+			<Flag n="no override" />
+			<Flag n="no" />
+			<Flag n="yes" />
+		</_A>
+		<_A Name="exclude from cinema" Offset="4F" StructName1="PrefabFlagOverride">
+			<Flag n="no override" />
+			<Flag n="no" />
+			<Flag n="yes" />
+		</_A>
+		<_A Name="remove from dynamic shadow map" Offset="50" StructName1="PrefabFlagOverride">
+			<Flag n="no override" />
+			<Flag n="no" />
+			<Flag n="yes" />
+		</_A>
+		<_A Name="exclude from intel map" Offset="51" StructName1="PrefabFlagOverride">
+			<Flag n="no override" />
+			<Flag n="no" />
+			<Flag n="yes" />
+		</_A>
+		<_34 Name="generated_pad651e" Offset="52" Length="2" />
+		<_2 Name="in-game-maps material" Offset="54" />
+		<_A Name="ignore cubemap volume" Offset="58" StructName1="PrefabFlagOverride">
+			<Flag n="no override" />
+			<Flag n="no" />
+			<Flag n="yes" />
+		</_A>
+		<_A Name="Exclude from broadphase calculation" Offset="59" StructName1="PrefabFlagOverride">
+			<Flag n="no override" />
+			<Flag n="no" />
+			<Flag n="yes" />
+		</_A>
+		<_A Name="pathfinding policy" Offset="5A" StructName1="PrefabPathfindingPolicy">
+			<Flag n="no override" />
+			<Flag n="cut-out" />
+			<Flag n="static" />
+			<Flag n="none" />
+		</_A>
+		<_A Name="lightmapping policy" Offset="5B" StructName1="PrefabLightmappingPolicy">
+			<Flag n="automatic" />
+			<Flag n="per-pixel" />
+			<Flag n="per-vertex" />
+			<Flag n="single-probe" />
+			<Flag n="exclude" />
+			<Flag n="per-pixel ao" />
+			<Flag n="per-vertex ao" />
+			<Flag n="probe grid" />
+		</_A>
+		<_A Name="collision decals policy" Offset="5C" StructName1="StaticCollisionDecalsOverridePolicy">
+			<Flag n="No override" />
+			<Flag n="Force allow decals" />
+			<Flag n="Force do not allow decals" />
+		</_A>
+		<_34 Name="generated_padb1d3" Offset="5D" Length="3" />
+		<_19 Name="probe-grid capture offset" Offset="60" />
+		<_14 Name="override lightmap resolution scale" Offset="6C" />
+		<_14 Name="decorator generator density" Offset="70" />
+		<_14 Name="LOD distance override 1" Offset="74" />
+		<_14 Name="LOD distance override 2" Offset="78" />
+		<_14 Name="LOD distance override 3" Offset="7C" />
+		<_14 Name="LOD distance override 4" Offset="80" />
+		<_14 Name="LOD distance override 5" Offset="84" />
+		<_14 Name="LOD distance override 6" Offset="88" />
+		<_14 Name="LOD distance override 7" Offset="8C" />
+		<_14 Name="LOD distance override 8" Offset="90" />
+		<_14 Name="LOD distance override 9" Offset="94" />
+		<_14 Name="LOD distance override 10" Offset="98" />
+		<_14 Name="LOD distance override 11" Offset="9C" />
+		<_14 Name="LOD distance override 12" Offset="A0" />
+		<_14 Name="LOD distance override 13" Offset="A4" />
+		<_14 Name="LOD distance override 14" Offset="A8" />
+		<_14 Name="LOD distance override 15" Offset="AC" />
+		<_14 Name="LOD distance override 16" Offset="B0" />
+		<_14 Name="LOD fade after override" Offset="B4" />
+		<_40 Name="instance material overrides" Offset="B8" GUID="4563C4BC4A5F3FB324691B31A23663BD" StructName1="ScenarioStaticAssetPlacement" Min="0" Max="64" />
+		<_40 Name="material overrides" Offset="CC" GUID="4563C4BC4A5F3FB324691B31A23663BD" StructName1="ScenarioStaticAssetPlacement" Min="0" Max="64" />
+		<_40 Name="EditorMetadata" Offset="E0" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="ScenarioStaticAssetPlacement" Min="4" Max="1" />
+		<_41 Name="owner bsp" Offset="F4" Allowed="sbsp" Flags="1" />
+		<_A Name="Trigger Volume Callback" Offset="110" StructName1="i343::Physics::TriggerVolumeCallbackType">
+			<Flag n="None" />
+		</_A>
+		<_34 Name="generated_padfe88" Offset="111" Length="3" />
+		<_36 Name="bullet collision layer override" Offset="114" />
+		<_2 Name="bullet collision layer override" type="sted" Offset="114" />
+		<_36 Name="play collision layer override" Offset="118" />
+		<_2 Name="play collision layer override" type="sted" Offset="118" />
+	</_157D40DD374C7C6D22FCD7CA9F36A6F8>
+	<_4563C4BC4A5F3FB324691B31A23663BD Name="MaterialOverrideEntry" Size="38">
+		<_41 Name="Original material ref" Offset="0" Allowed="mat " Flags="9" />
+		<_41 Name="Override material ref" Offset="1C" Allowed="mat " Flags="9" />
+	</_4563C4BC4A5F3FB324691B31A23663BD>
+	<_CAFD409521D5D5297D81B801A0BADD13 Name="EditorMetadata" Size="10C">
+		<_1 Name="folder name" Offset="0" />
+		<_17 Name="local space pivot point position" Offset="100" />
+	</_CAFD409521D5D5297D81B801A0BADD13>
+</root>

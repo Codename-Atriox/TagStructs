@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="shadervariant" Parents="aTag" Index="-373" C="shaders">
+	<_27A64A516BD417082830A68884411692 Name="ShaderVariant" Size="A8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_D Name="flags" Offset="10" StructName1="ShaderFlags">
+			<Flag n="is_distortion" />
+			<Flag n="is_decal" />
+			<Flag n="is_water" />
+			<Flag n="is_hologram" />
+			<Flag n="is_wireframe_hologram" />
+			<Flag n="SupportsForgeCoatingCustomization" />
+			<Flag n="is_alpha_clip" />
+			<Flag n="is_explicit_shader" />
+			<Flag n="uses_fade_time" />
+			<Flag n="is_hologram_lofi" />
+			<Flag n="custom_deformer" />
+			<Flag n="has_compute" />
+			<Flag n="is_shield_generator" />
+			<Flag n="is_olympus_effect_lighting" />
+			<Flag n="is_skinned_tree" />
+			<Flag n="is_static_branching_shader" />
+			<Flag n="generator_uses_depth_buffer" />
+			<Flag n="has_subsurface_scattering" />
+			<Flag n="transparent_requires_scene_color" />
+			<Flag n="uses_point_input_patch" />
+			<Flag n="supports_packed_ovt" />
+			<Flag n="uses_deferred_shading" />
+			<Flag n="is_decorator" />
+			<Flag n="is_foliage" />
+			<Flag n="is_composited_card" />
+			<Flag n="is_low_res_lighting_eligible" />
+			<Flag n="is_high_res_lighting_eligible" />
+			<Flag n="is_two_sided_shader" />
+			<Flag n="decorator_requires_zpp" />
+			<Flag n="uses_terrain_sampling" />
+			<Flag n="decal_use_uav_normal" />
+		</_D>
+		<_D Name="compiler flags" Offset="14" StructName1="ShaderCompileFlags">
+			<Flag n="validation" />
+			<Flag n="debug" />
+			<Flag n="deoptimize" />
+			<Flag n="generate_pdbs" />
+			<Flag n="iteration" />
+		</_D>
+		<_40 Name="shader groups" Offset="18" GUID="3ACB4DB2BBCFC76C17D58BCE8FBBFBFF" StructName1="ShaderVariant" Min="0" Max="4096" />
+		<_40 Name="material parameters" Offset="2C" GUID="739A40ED1B41042F195BD40DADDD1564" StructName1="ShaderVariant" Min="0" Max="1335" />
+		<_42 Name="parameter binding data" Offset="40" StructName1="ShaderVariant.parameter binding data" Int1="8" Int2="0" Flags="1400000" />
+		<_40 Name="emitter property names" Offset="58" GUID="A88440717CB844E0C95259049078EE82" StructName1="ShaderVariant" Min="0" Max="32" />
+		<_40 Name="renderer property names" Offset="6C" GUID="A88440717CB844E0C95259049078EE82" StructName1="ShaderVariant" Min="0" Max="32" />
+		<_40 Name="simulator property names" Offset="80" GUID="A88440717CB844E0C95259049078EE82" StructName1="ShaderVariant" Min="0" Max="32" />
+		<_34 Name="generated_pad13ee" Offset="94" Length="4" />
+		<_7 Name="runtime pointer" Offset="98" />
+		<_34 Name="pad" Offset="A0" Length="4" />
+		<_34 Name="generated_pad60a3" Offset="A4" Length="4" />
+	</_27A64A516BD417082830A68884411692>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_3ACB4DB2BBCFC76C17D58BCE8FBBFBFF Name="ShaderGroup" Size="48">
+		<_40 Name="shaders" Offset="0" GUID="D14F4AEA88D70D3A26D703418C0017E3" StructName1="ShaderGroup" Min="0" Max="255" />
+		<_41 Name="root signature" Offset="14" Allowed="shrs" Flags="2" />
+		<_3C Name="entrypoint index" Offset="30" />
+		<_3C Name="vertex type" Offset="31" />
+		<_3C Name="platform marker" Offset="32" />
+		<_34 Name="generated_pad3c24" Offset="33" Length="1" />
+		<_3E Name="shader reference type offsets" Offset="34" />
+		<_2 Name="entrypoint name" Offset="38" />
+		<_34 Name="generated_pad5605" Offset="3C" Length="4" />
+		<_7 Name="m_shaderPipeline" Offset="40" />
+	</_3ACB4DB2BBCFC76C17D58BCE8FBBFBFF>
+	<_739A40ED1B41042F195BD40DADDD1564 Name="ShaderParameter" Size="9C">
+		<_2 Name="parameter name" Offset="0" />
+		<_C Name="parameter type" Offset="4" StructName1="MaterialParameterType">
+			<Flag n="bitmap" />
+			<Flag n="real" />
+			<Flag n="int" />
+			<Flag n="bool" />
+			<Flag n="color" />
+			<Flag n="scalar gpu property" />
+			<Flag n="color gpu property" />
+			<Flag n="string" />
+			<Flag n="preset" />
+		</_C>
+		<_41 Name="bitmap" Offset="8" Allowed="bitm, matp" Flags="18" />
+		<_20 Name="color" Offset="24" />
+		<_14 Name="real" Offset="34" />
+		<_19 Name="vector" Offset="38" />
+		<_6 Name="int/bool" Offset="44" />
+		<_42 Name="string" Offset="48" StructName1="ShaderParameter.string" Int1="2" Int2="0" Flags="20" />
+		<_3D Name="bitmap flags" Offset="60" />
+		<_3D Name="bitmap filter mode" Offset="62" />
+		<_3D Name="bitmap address mode" Offset="64" />
+		<_3D Name="bitmap address mode x" Offset="66" />
+		<_3D Name="bitmap address mode y" Offset="68" />
+		<_3C Name="bitmap extern mode" Offset="6A" />
+		<_3C Name="bitmap min mipmap" Offset="6B" />
+		<_3C Name="bitmap max mipmap" Offset="6C" />
+		<_34 Name="generated_padea44" Offset="6D" Length="3" />
+		<_14 Name="bitmap blur and sharpen" Offset="70" />
+		<_F Name="parameter flags" Offset="74" StructName1="ShaderParameter::ShaderParameterFlags">
+			<Flag n="texture array" />
+			<Flag n="force bitmap clamp" />
+			<Flag n="disabled" />
+			<Flag n="has transform function" />
+			<Flag n="bindless" />
+		</_F>
+		<_34 Name="generated_pad0425" Offset="75" Length="3" />
+		<_3E Name="render phases used" Offset="78" />
+		<_3E Name="shader types used" Offset="7C" />
+		<_40 Name="function parameters" Offset="80" GUID="F54D44725471F0E39A007BEDAD55A516" StructName1="ShaderParameter" Min="0" Max="267" />
+		<_3D Name="register offset" Offset="94" />
+		<_3D Name="register size" Offset="96" />
+		<_3C Name="bitmap extern index" Offset="98" />
+		<_34 Name="generated_pad50da" Offset="99" Length="3" />
+	</_739A40ED1B41042F195BD40DADDD1564>
+	<_A88440717CB844E0C95259049078EE82 Name="ShaderGPUPropertyName" Size="4">
+		<_2 Name="name" Offset="0" />
+	</_A88440717CB844E0C95259049078EE82>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_D14F4AEA88D70D3A26D703418C0017E3 Name="ShaderReference" Size="1C">
+		<_41 Name="shader bytecode" Offset="0" Allowed="shbc" Flags="2" />
+	</_D14F4AEA88D70D3A26D703418C0017E3>
+	<_F54D44725471F0E39A007BEDAD55A516 Name="MaterialShaderFunctionParameter" Size="30">
+		<_C Name="type" Offset="0" StructName1="MaterialAnimatedParameterType">
+			<Flag n="value" />
+			<Flag n="color" />
+			<Flag n="scale uniform" />
+			<Flag n="scale u" />
+			<Flag n="scale v" />
+			<Flag n="offset u" />
+			<Flag n="offset v" />
+			<Flag n="frame index" />
+			<Flag n="alpha" />
+		</_C>
+		<_2 Name="input name" type="fnin" Offset="4" />
+		<_2 Name="range name" type="fnir" Offset="8" />
+		<_A Name="Output Modifier" type="fnop" Offset="C" StructName1="MaterialShaderFunctionParameter::MaterialFunctionOutputModEnum">
+			<Flag n=" " />
+			<Flag n="Add" />
+			<Flag n="Multiply" />
+		</_A>
+		<_34 Name="generated_pad8305" Offset="D" Length="3" />
+		<_2 Name="Output Modifier Input" type="fnom" Offset="10" />
+		<_14 Name="time period" type="fn**" Offset="14" />
+		<_36 Name="FUNCTION" Offset="18" />
+		<_37 Name="function" type="fned" Offset="18" />
+		<_38 Name="function" Offset="18" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_F54D44725471F0E39A007BEDAD55A516>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

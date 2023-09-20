@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="damage_effect_sounds" Parents="aTag" Index="-98">
+	<_832144BC98B571FB0B3025E7831B6B7F Name="i343::Damage::DamageEffectSoundsDefinition" Size="348">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_14 Name="dealt cooldown" Offset="10" />
+		<_14 Name="received cooldown" Offset="14" />
+		<_37 Name="Player Dealt Damage" type="fgrb" Offset="18" />
+		<_41 Name="dealt normal hit" Offset="18" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="dealt weakpoint hit" Offset="34" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="dealt stuck" Offset="50" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="dealt ineffective hit" Offset="6C" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="dealt vehicle hit" Offset="88" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="dealt vehicle weakpoint hit" Offset="A4" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="dealt vehicle stuck" Offset="C0" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="dealt friendly hit" Offset="DC" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="dealt lethal hit" Offset="F8" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="dealt lethal weakpoint hit" Offset="114" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="dealt aoe hit" Offset="130" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="dealt aoe vehicle hit" Offset="14C" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="dealt vehicle passenger hit" Offset="168" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="dealt shield break" Offset="184" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="model hit" Offset="1A0" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="dealt lethal minor" Offset="1BC" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="dealt boss hit" Offset="1D8" Allowed="lsnd, snd!" Flags="0" />
+		<_37 Name="" type="fgre" Offset="1F4" />
+		<_37 Name="Player Received Damage" type="fgrb" Offset="1F4" />
+		<_41 Name="received normal hit" Offset="1F4" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="received weakpoint hit" Offset="210" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="received stuck" Offset="22C" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="received ineffective hit" Offset="248" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="received vehicle hit" Offset="264" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="received vehicle weakpoint hit" Offset="280" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="received vehicle stuck" Offset="29C" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="received friendly hit" Offset="2B8" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="received lethal hit" Offset="2D4" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="received lethal weakpoint hit" Offset="2F0" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="received aoe hit" Offset="30C" Allowed="lsnd, snd!" Flags="0" />
+		<_41 Name="received aoe vehicle hit" Offset="328" Allowed="lsnd, snd!" Flags="0" />
+		<_37 Name="" type="fgre" Offset="344" />
+		<_34 Name="generated_pad82f1" Offset="344" Length="4" />
+	</_832144BC98B571FB0B3025E7831B6B7F>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

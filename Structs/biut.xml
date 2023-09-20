@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="bitmap_usage_table" Parents="aTag" Index="-39">
+	<_668548DB57A56651B7F7F17DAC6990A5 Name="BitmapUsageTable" Size="50">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="Bitmap usage definitions" Offset="10" />
+		<_40 Name="bitmap usage definitions" Offset="10" GUID="64F444D809E0AE900BDCBD57AFC0FAB5" StructName1="BitmapUsageTable" Min="0" Max="1024" />
+		<_40 Name="bitmap suffixes" Offset="24" GUID="CAF5474261C642B1877AE362B611367C" StructName1="BitmapUsageTable" Min="0" Max="256" />
+		<_36 Name="Usage Backcompat" Offset="38" />
+		<_40 Name="usage backcompat" Offset="38" GUID="BE904B1137F91EF7CB65EFDEACD62A17" StructName1="BitmapUsageTable" Min="0" Max="256" />
+		<_34 Name="generated_pad2824" Offset="4C" Length="4" />
+	</_668548DB57A56651B7F7F17DAC6990A5>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_64F444D809E0AE900BDCBD57AFC0FAB5 Name="BitmapUsage" Size="30">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="editor group" Offset="4" />
+		<_14 Name="source gamma" Offset="8" />
+		<_A Name="bitmap curve" Offset="C" StructName1="BitmapCurve">
+			<Flag n="unknown" />
+			<Flag n="xRGB (gamma about 2.0)" />
+			<Flag n="gamma 2.0" />
+			<Flag n="linear" />
+			<Flag n="offset log" />
+			<Flag n="sRGB (gamma 2.2)" />
+			<Flag n="Rec709 (gamma 2.2)" />
+		</_A>
+		<_F Name="flags" Offset="D" StructName1="BitmapUsage::BitmapUsageFlag">
+			<Flag n="Ignore Curve Override" />
+			<Flag n="Dont Allow Size Optimization" />
+			<Flag n="Swap Axes" />
+			<Flag n="Pre-filter cubemaps" />
+		</_F>
+		<_A Name="slicer" Offset="E" StructName1="BitmapUsage::BitmapSlicer">
+			<Flag n="Automatically Determine Slicer" />
+			<Flag n="No Slicing (each source bitmap generates one element)" />
+			<Flag n="Color Plate Slicer" />
+			<Flag n="Cube Map Slicer" />
+			<Flag n="Color Grading Slicer" />
+		</_A>
+		<_F Name="dicer flags" Offset="F" StructName1="BitmapUsage::BitmapDicerFlag">
+			<Flag n="Convert Plate Color Key to Alpha Channel" />
+			<Flag n="Rotate Cube Map to Match DirectX Format" />
+			<Flag n="Sprites- Shrink Elements to Smallest Non-Zero Alpha Region" />
+			<Flag n="Sprites- Shrink Elements to Smallest Non-Zero Color And Alpha Region" />
+			<Flag n="Unsigned -&gt; Signed Scale and Bias" />
+			<Flag n="Color Grading sRGB Correction" />
+			<Flag n="Color Grading Rec709 Correction" />
+		</_F>
+		<_A Name="packer" Offset="10" StructName1="BitmapUsage::BitmapPacker">
+			<Flag n="No packing" />
+			<Flag n="Sprite Pack (packs elements into as few bitmaps as possible)" />
+			<Flag n="Sprite Pack if needed (packs elements into as few bitmaps as possible)" />
+			<Flag n="3D Pack (packs elements into a 3D bitmap)" />
+		</_A>
+		<_F Name="packer flags" Offset="11" StructName1="BitmapUsage::BitmapPackerFlag">
+			<Flag n="Shrink Sprite Texture Pages Tightly to Content" />
+		</_F>
+		<_A Name="type" Offset="12" StructName1="BitmapType">
+			<Flag n="2D texture" />
+			<Flag n="3D texture" />
+			<Flag n="cube map" />
+			<Flag n="array" />
+		</_A>
+		<_4 Name="mipmap limit" Offset="13" />
+		<_A Name="smallest mip" Offset="14" StructName1="BitmapUsage::BitmapSmallestMip">
+			<Flag n="1 pixel" />
+			<Flag n="2 pixel" />
+			<Flag n="4 pixel" />
+			<Flag n="8 pixel" />
+			<Flag n="16 pixel" />
+			<Flag n="32 pixel" />
+			<Flag n="64 pixel" />
+			<Flag n="128 pixel" />
+			<Flag n="256 pixel" />
+			<Flag n="512 pixel" />
+			<Flag n="1024 pixel" />
+		</_A>
+		<_A Name="downsample filter" Offset="15" StructName1="BitmapUsage::BitmapDownsampleFilter">
+			<Flag n="Point Sampled" />
+			<Flag n="Box Filter" />
+			<Flag n="Blackman Filter" />
+			<Flag n="Lanczos Filter" />
+			<Flag n="Nuttall Filter" />
+			<Flag n="Blackman-Harris Filter" />
+			<Flag n="Blackman-Nuttall Filter" />
+			<Flag n="Flat Top Filter" />
+			<Flag n="Extreme Filter" />
+			<Flag n="Min Filter" />
+		</_A>
+		<_4 Name="filter radius bias" Offset="16" />
+		<_34 Name="generated_pad122e" Offset="17" Length="1" />
+		<_E Name="downsample flags" Offset="18" StructName1="BitmapUsage::BitmapDownsampleFlag">
+			<Flag n="Sprites - Color Bleed in Zero Alpha Regions" />
+			<Flag n="Pre-Multiply Alpha (before downsampling)" />
+			<Flag n="Post-Divide Alpha (after downsampling)" />
+			<Flag n="Height Map - Convert to Bump Map" />
+			<Flag n="Detail Map - Fade to Gray" />
+			<Flag n="Signed -&gt; Unsigned Scale and Bias" />
+			<Flag n="Illum Map - Fade to Black" />
+			<Flag n="ZBump - Scale by height and renormalize" />
+			<Flag n="Cubemap - Fix seams" />
+			<Flag n="Calculate specular power" />
+			<Flag n="Downsample Bumps in Angular Space" />
+			<Flag n="Standard Orientation of Normals in Angular Space and Renormalize" />
+			<Flag n="Generate RGB luminance into alpha channel" />
+		</_E>
+		<_34 Name="generated_pad5ee3" Offset="1A" Length="2" />
+		<_1F Name="sprite background color" Offset="1C" />
+		<_A Name="swizzle red" Offset="28" StructName1="Floatmap::Swizzle">
+			<Flag n="Default" />
+			<Flag n="Source Red Channel" />
+			<Flag n="Source Green Channel" />
+			<Flag n="Source Blue Channel" />
+			<Flag n="Source Alpha Channel" />
+			<Flag n="Set to 1.0" />
+			<Flag n="Set to 0.0" />
+			<Flag n="Set to 0.5" />
+			<Flag n="Random" />
+			<Flag n="One Minus Source Red Channel" />
+			<Flag n="One Minus Source Green Channel" />
+			<Flag n="One Minus Source Blue Channel" />
+			<Flag n="One Minus Source Alpha Channel" />
+			<Flag n="Negative Source Red Channel" />
+			<Flag n="Negative Source Green Channel" />
+			<Flag n="Negative Source Blue Channel" />
+			<Flag n="Negative Source Alpha Channel" />
+		</_A>
+		<_A Name="swizzle green" Offset="29" StructName1="Floatmap::Swizzle">
+			<Flag n="Default" />
+			<Flag n="Source Red Channel" />
+			<Flag n="Source Green Channel" />
+			<Flag n="Source Blue Channel" />
+			<Flag n="Source Alpha Channel" />
+			<Flag n="Set to 1.0" />
+			<Flag n="Set to 0.0" />
+			<Flag n="Set to 0.5" />
+			<Flag n="Random" />
+			<Flag n="One Minus Source Red Channel" />
+			<Flag n="One Minus Source Green Channel" />
+			<Flag n="One Minus Source Blue Channel" />
+			<Flag n="One Minus Source Alpha Channel" />
+			<Flag n="Negative Source Red Channel" />
+			<Flag n="Negative Source Green Channel" />
+			<Flag n="Negative Source Blue Channel" />
+			<Flag n="Negative Source Alpha Channel" />
+		</_A>
+		<_A Name="swizzle blue" Offset="2A" StructName1="Floatmap::Swizzle">
+			<Flag n="Default" />
+			<Flag n="Source Red Channel" />
+			<Flag n="Source Green Channel" />
+			<Flag n="Source Blue Channel" />
+			<Flag n="Source Alpha Channel" />
+			<Flag n="Set to 1.0" />
+			<Flag n="Set to 0.0" />
+			<Flag n="Set to 0.5" />
+			<Flag n="Random" />
+			<Flag n="One Minus Source Red Channel" />
+			<Flag n="One Minus Source Green Channel" />
+			<Flag n="One Minus Source Blue Channel" />
+			<Flag n="One Minus Source Alpha Channel" />
+			<Flag n="Negative Source Red Channel" />
+			<Flag n="Negative Source Green Channel" />
+			<Flag n="Negative Source Blue Channel" />
+			<Flag n="Negative Source Alpha Channel" />
+		</_A>
+		<_A Name="swizzle alpha" Offset="2B" StructName1="Floatmap::Swizzle">
+			<Flag n="Default" />
+			<Flag n="Source Red Channel" />
+			<Flag n="Source Green Channel" />
+			<Flag n="Source Blue Channel" />
+			<Flag n="Source Alpha Channel" />
+			<Flag n="Set to 1.0" />
+			<Flag n="Set to 0.0" />
+			<Flag n="Set to 0.5" />
+			<Flag n="Random" />
+			<Flag n="One Minus Source Red Channel" />
+			<Flag n="One Minus Source Green Channel" />
+			<Flag n="One Minus Source Blue Channel" />
+			<Flag n="One Minus Source Alpha Channel" />
+			<Flag n="Negative Source Red Channel" />
+			<Flag n="Negative Source Green Channel" />
+			<Flag n="Negative Source Blue Channel" />
+			<Flag n="Negative Source Alpha Channel" />
+		</_A>
+		<_B Name="bitmap format" Offset="2C" StructName1="BitmapUsage::BitmapForcedFormat">
+			<Flag n="Use Default (defined by usage)" />
+			<Flag n="Best Compressed Color Format" />
+			<Flag n="Best Uncompressed Color Format" />
+			<Flag n="Best Compressed Bump Format" />
+			<Flag n="Best Uncompressed Bump Format" />
+			<Flag n="Best Compressed Monochrome Format" />
+			<Flag n="Best Uncompressed Monochrome Format" />
+			<Flag n="Best Compressed Monochrome Format without alpha" />
+			<Flag n="unused2" />
+			<Flag n="unused3" />
+			<Flag n="unused4" />
+			<Flag n="unused5" />
+			<Flag n="unused6" />
+			<Flag n="--- Color and Alpha formats ---" />
+			<Flag n="bc1_unorm [a.k.a. DXT1] (Compressed Color + Color-Key Alpha)" />
+			<Flag n="bc2_unorm [a.k.a. DXT3] (Compressed Color + 4-bit Alpha)" />
+			<Flag n="bc3_unorm [a.k.a. DXT5] (Compressed Color + Compressed 8-bit Alpha)" />
+			<Flag n="24-bit Color + 8-bit Alpha" />
+			<Flag n="8-bit Monochrome + 8-bit Alpha" />
+			<Flag n="   Channel Mask (3-bit Color + 1-bit Alpha)" />
+			<Flag n="   30-bit Color + 2-bit Alpha" />
+			<Flag n="   48-bit Color + 16-bit Alpha" />
+			<Flag n="   HALF Color + Alpha" />
+			<Flag n="   FLOAT Color + Alpha" />
+			<Flag n="r8_unorm (8-bit Intensity replicated to RGBA)" />
+			<Flag n="DEPRECATED DXT3A (4-bit Intensity replicated to ARGB)" />
+			<Flag n="bc4_unorm_rrrr [a.k.a. DXT5A] (Compressed Intensity replicated to ARGB)" />
+			<Flag n="Compressed Monochrome + Alpha" />
+			<Flag n="b4g4r4a4 (12-bit color + 4-bit alpha)" />
+			<Flag n="--- Color only formats ---" />
+			<Flag n="8-bit Monochrome" />
+			<Flag n="   Compressed 24-bit Color" />
+			<Flag n="   32-bit Color (R11G11B10)" />
+			<Flag n="   16-bit Monochrome" />
+			<Flag n="   16-bit Red + Green Only" />
+			<Flag n="   16 bit signed RGBA" />
+			<Flag n="   HALF Red Only" />
+			<Flag n="   FLOAT Red Only" />
+			<Flag n="   HALF Red + Green Only" />
+			<Flag n="   FLOAT Red + Green Only" />
+			<Flag n="   HALF Monochrome" />
+			<Flag n="DEPRECATED Compressed 4-bit Monochrome" />
+			<Flag n="Compressed Interpolated Monochrome" />
+			<Flag n="bc6h_uf16 (HDR RGB unsigned half-float)" />
+			<Flag n="bc6h_sf16 (HDR RGB signed half-float)" />
+			<Flag n="bc7_unorm (High quality bc3)" />
+			<Flag n="--- Alpha only formats ---" />
+			<Flag n="DEPRECATED DXT3A (4-bit Alpha)" />
+			<Flag n="bc4_unorm_000r [a.k.a. DXT5A] (8-bit Compressed Alpha)" />
+			<Flag n="8-bit Alpha" />
+			<Flag n="unused28" />
+			<Flag n="unused29" />
+			<Flag n="unused30" />
+			<Flag n="--- Normal map formats ---" />
+			<Flag n="bc5_snorm [a.k.a. DXN] Compressed Normals (better)" />
+			<Flag n="DEPRECATED CTX1 Compressed Normals (smaller)" />
+			<Flag n="16-bit Normals" />
+			<Flag n="32-bit Normals" />
+			<Flag n="8-bit 4-channel Vector" />
+		</_B>
+		<_A Name="source color space" Offset="2E" StructName1="BitmapColorSpace">
+			<Flag n="Automatic" />
+			<Flag n="Rec709" />
+			<Flag n="DCI P3" />
+			<Flag n="Rec2020" />
+		</_A>
+		<_A Name="target color space" Offset="2F" StructName1="BitmapColorSpace">
+			<Flag n="Automatic" />
+			<Flag n="Rec709" />
+			<Flag n="DCI P3" />
+			<Flag n="Rec2020" />
+		</_A>
+	</_64F444D809E0AE900BDCBD57AFC0FAB5>
+	<_CAF5474261C642B1877AE362B611367C Name="BitmapUsageTable::BitmapSuffixes" Size="8">
+		<_2 Name="suffix" Offset="0" />
+		<_2 Name="usage" type="sted" Offset="4" />
+	</_CAF5474261C642B1877AE362B611367C>
+	<_BE904B1137F91EF7CB65EFDEACD62A17 Name="BitmapUsageTable::BackcompatUsage" Size="8">
+		<_C Name="Usage Enum" Offset="0" StructName1="GlobalBitmapUsage">
+			<Flag n="Diffuse Map" />
+			<Flag n="Linear Control Map" />
+			<Flag n="Specular Map" />
+			<Flag n="Bump Map (from Height Map)" />
+			<Flag n="Detail Bump Map (from Height Map - fades out)" />
+			<Flag n="Detail Map" />
+			<Flag n="Self-Illum Map" />
+			<Flag n="Change Color Map" />
+			<Flag n="Cube Map (Reflection Map)" />
+			<Flag n="HDR Cube Map" />
+			<Flag n="Sprite (Additive, Black Background)" />
+			<Flag n="Sprite (Blend, White Background)" />
+			<Flag n="Sprite (Double Multiply, Gray Background)" />
+			<Flag n="Interface Bitmap" />
+			<Flag n="Warp Map (EMBM)" />
+			<Flag n="Vector Map" />
+			<Flag n="3D Texture" />
+			<Flag n="Float Map (WARNING HUGE)" />
+			<Flag n="Half float Map (HALF HUGE)" />
+			<Flag n="Height Map (for Parallax)" />
+			<Flag n="ZBrush Bump Map (from Bump Map)" />
+			<Flag n="Normal Map (aka zbump)" />
+			<Flag n="Detail ZBrush Bump Map" />
+			<Flag n="Detail Normal Map" />
+			<Flag n="Blend Map (linear for terrains)" />
+			<Flag n="Palettized --- effects only" />
+			<Flag n="CHUD related bitmap" />
+			<Flag n="Lightmap Array" />
+			<Flag n="Water Array" />
+			<Flag n="Interface Sprite" />
+			<Flag n="Interface Gradient" />
+			<Flag n="Material Map" />
+			<Flag n="Smoke Warp" />
+			<Flag n="Mux Material Blend Map" />
+			<Flag n="Cubemap Gel" />
+			<Flag n="Lens Flare gamma 2.2 -- effects only" />
+			<Flag n="Signed Noise" />
+			<Flag n="Roughness Map (auto)" />
+			<Flag n="Normal Map (from Standard Orientation of Maya, Modo, Zbrush)" />
+			<Flag n="Color Grading" />
+			<Flag n="Detail Normal Map (from Standard Orientation with distance fade)" />
+			<Flag n="Diffuse Texture Array" />
+			<Flag n="Palettized Texture Array" />
+			<Flag n="Uncompressed palette (no MIPs)" />
+			<Flag n="Gobo (Deprecated)" />
+			<Flag n="Flow Map" />
+			<Flag n="Linear Control Map Texture Array" />
+			<Flag n="Bump Map (from Height Map) Texture Array" />
+			<Flag n="Detail Map Texture Array" />
+			<Flag n="Self-Illum Map Texture Array" />
+			<Flag n="Sprite (Additive, Black Background) Texture Array" />
+			<Flag n="Sprite (Blend, White Background) Texture Array" />
+			<Flag n="Sprite (Double Multiply, Gray Background) Texture Array" />
+			<Flag n="Warp Map (EMBM) Texture Array" />
+			<Flag n="Normal Map (aka zbump) Texture Array" />
+			<Flag n="Detail Normal Map Texture Array" />
+			<Flag n="Lens Flare gamma 2.2 -- effects only Texture Array" />
+			<Flag n="Normal Map (from Standard Orientation of Maya, Modo, Zbrush) Texture Array" />
+			<Flag n="Detail Normal Map (from Standard Orientation with distance fade) Texture Array" />
+			<Flag n="Flow Map Texture Array" />
+			<Flag n="Sprite Normal Map" />
+			<Flag n="Gobo (Analytic/Dynamic)" />
+			<Flag n="Gobo (Baked Analytic/Static)" />
+			<Flag n="Gobo (Displacement Texture)" />
+		</_C>
+		<_2 Name="usage" type="sted" Offset="4" />
+	</_BE904B1137F91EF7CB65EFDEACD62A17>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

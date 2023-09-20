@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="MaterialGlobalsDefinition" Parents="aTag" Index="-188">
+	<_8AA145EFD856583C35392B689FE0A76F Name="i343::MaterialGlobals" Size="48">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="global material types" Offset="10" />
+		<_2 Name="global water material" type="sted" Offset="10" />
+		<_2 Name="global air material" type="sted" Offset="14" />
+		<_2 Name="audio material switch group" Offset="18" />
+		<_5 Name="global water material type" Offset="1C" />
+		<_5 Name="global air material type" Offset="1E" />
+		<_40 Name="runtime materials" Offset="20" GUID="00B947A34D5F9153C56F065CBCAF406F" StructName1="i343::MaterialGlobals" Min="0" Max="512" />
+		<_40 Name="materials" type="sort" Offset="34" GUID="00B947A34D5F9153C56F065CBCAF406F" StructName1="i343::MaterialGlobals" Min="0" Max="256" />
+	</_8AA145EFD856583C35392B689FE0A76F>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_00B947A34D5F9153C56F065CBCAF406F Name="s_global_material_definition" Size="29C">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="parent name" Offset="4" />
+		<_2 Name="audio material name" Offset="8" />
+		<_2 Name="audio fallback material name" Offset="C" />
+		<_5 Name="audio fallback material index" Offset="10" />
+		<_5 Name="runtime material index" Offset="12" />
+		<_E Name="flags" Offset="14" StructName1="GlobalMaterialBitFlags">
+			<Flag n="does not block spawning" />
+			<Flag n="does not block grapple line of sight" />
+			<Flag n="does not block callout raycasts" />
+			<Flag n="blocks grapple aim assist" />
+			<Flag n="non-physical melee pass through" />
+			<Flag n="does not block seat entry" />
+		</_E>
+		<_34 Name="generated_pad3ced" Offset="16" Length="2" />
+		<_2 Name="general armor" Offset="18" />
+		<_2 Name="specific armor" Offset="1C" />
+		<_5 Name="runtime dry base material index" Offset="20" />
+		<_34 Name="generated_pad230c" Offset="22" Length="2" />
+		<_38 Name="physics properties" Offset="24" GUID="4CCB4EF35354A7DF531D9FED9B8F2FC9" />
+		<_38 Name="sweeteners" Offset="8C" GUID="C36642889F74BAB959924C4BB82EFC4F" />
+		<_41 Name="material effects" Offset="26C" Allowed="foot" Flags="0" />
+		<_40 Name="underwater proxies" Offset="288" GUID="A0B9C7A3AD5F9353C16F2653BAA0406F" StructName1="s_global_material_definition" Min="0" Max="512" />
+	</_00B947A34D5F9153C56F065CBCAF406F>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_4CCB4EF35354A7DF531D9FED9B8F2FC9 Name="s_material_physics_properties" Size="68">
+		<_3E Name="flags" Offset="0" />
+		<_36 Name="Friction" Offset="4" />
+		<_38 Name="inheritable friction" Offset="4" GUID="B6414EDD44FA65C3833AB911B1C18856" />
+		<_36 Name="Restitution" Offset="C" />
+		<_38 Name="inheritable restitution" Offset="C" GUID="B6414EDD44FA65C3833AB911B1C18856" />
+		<_36 Name="Density" Offset="14" />
+		<_38 Name="inheritable density" Offset="14" GUID="B6414EDD44FA65C3833AB911B1C18856" />
+		<_36 Name="Drag" Offset="1C" />
+		<_41 Name="water physics drag properties" Offset="1C" Allowed="wpdp" Flags="0" />
+		<_40 Name="drag overrides" Offset="38" GUID="AF9E490612B22BB0B6C4E365B0CCE6BA" StructName1="s_material_physics_properties" Min="0" Max="16" />
+		<_36 Name="Floatation" Offset="4C" />
+		<_14 Name="default" Offset="4C" />
+		<_14 Name="super floater" Offset="50" />
+		<_14 Name="floater" Offset="54" />
+		<_14 Name="neutral" Offset="58" />
+		<_14 Name="sinker" Offset="5C" />
+		<_14 Name="super sinker" Offset="60" />
+		<_34 Name="none" Offset="64" Length="4" />
+	</_4CCB4EF35354A7DF531D9FED9B8F2FC9>
+	<_C36642889F74BAB959924C4BB82EFC4F Name="s_global_material_sweeteners_definition" Size="1E0">
+		<_41 Name="sound sweetener (small)" Offset="0" Allowed="snd!" Flags="0" />
+		<_41 Name="sound sweetener (medium)" Offset="1C" Allowed="snd!" Flags="0" />
+		<_41 Name="sound sweetener (large)" Offset="38" Allowed="snd!" Flags="0" />
+		<_41 Name="sound sweetener rolling" Offset="54" Allowed="lsnd" Flags="0" />
+		<_41 Name="sound sweetener grinding" Offset="70" Allowed="lsnd" Flags="0" />
+		<_41 Name="sound sweetener (melee small)" Offset="8C" Allowed="snd!" Flags="0" />
+		<_41 Name="sound sweetener (melee)" Offset="A8" Allowed="snd!" Flags="0" />
+		<_41 Name="sound sweetener (melee large)" Offset="C4" Allowed="snd!" Flags="0" />
+		<_41 Name="effect sweetener (small)" Offset="E0" Allowed="effe" Flags="0" />
+		<_41 Name="effect sweetener (medium)" Offset="FC" Allowed="effe" Flags="0" />
+		<_41 Name="effect sweetener (large)" Offset="118" Allowed="effe" Flags="0" />
+		<_41 Name="effect sweetener rolling" Offset="134" Allowed="effe" Flags="0" />
+		<_41 Name="effect sweetener grinding" Offset="150" Allowed="effe" Flags="0" />
+		<_41 Name="effect sweetener (melee)" Offset="16C" Allowed="effe" Flags="0" />
+		<_41 Name="water ripple (small)" Offset="188" Allowed="rwrd" Flags="0" />
+		<_41 Name="water ripple (medium)" Offset="1A4" Allowed="rwrd" Flags="0" />
+		<_41 Name="water ripple (large)" Offset="1C0" Allowed="rwrd" Flags="0" />
+		<_36 Name="sweetener inheritance flags" Offset="1DC" />
+		<_D Name="sweetener inheritance flags" Offset="1DC" StructName1="c_global_material_sweetener_types_flags">
+			<Flag n="sound_small" />
+			<Flag n="sound_medium" />
+			<Flag n="sound_large" />
+			<Flag n="sound_rolling" />
+			<Flag n="sound_grinding" />
+			<Flag n="sound_melee_small" />
+			<Flag n="sound_melee" />
+			<Flag n="sound_melee_large" />
+			<Flag n="effect_small" />
+			<Flag n="effect_medium" />
+			<Flag n="effect_large" />
+			<Flag n="effect_rolling" />
+			<Flag n="effect_grinding" />
+			<Flag n="effect_melee" />
+			<Flag n="water_ripple_small" />
+			<Flag n="water_ripple_medium" />
+			<Flag n="water_ripple_large" />
+		</_D>
+	</_C36642889F74BAB959924C4BB82EFC4F>
+	<_A0B9C7A3AD5F9353C16F2653BAA0406F Name="s_global_material_underwater_proxy" Size="C">
+		<_36 Name="when this material is encounted under a material of this type ..." Offset="0" />
+		<_2 Name="underwater material" type="sted" Offset="0" />
+		<_36 Name="... we report it as this material" Offset="4" />
+		<_2 Name="proxy material" type="sted" Offset="4" />
+		<_5 Name="underwater material type" Offset="8" />
+		<_5 Name="proxy material type" Offset="A" />
+	</_A0B9C7A3AD5F9353C16F2653BAA0406F>
+	<_B6414EDD44FA65C3833AB911B1C18856 Name="InheritableFloat" Size="8">
+		<_14 Name="value" Offset="0" />
+		<_A Name="inherit" Offset="4" StructName1="InheritFromParent">
+			<Flag n="disabled" />
+			<Flag n="enabled" />
+		</_A>
+		<_34 Name="generated_pad6e4b" Offset="5" Length="3" />
+	</_B6414EDD44FA65C3833AB911B1C18856>
+	<_AF9E490612B22BB0B6C4E365B0CCE6BA Name="s_global_material_object_drag_properties" Size="1C">
+		<_41 Name="drag properties" Offset="0" Allowed="wpdp" Flags="0" />
+	</_AF9E490612B22BB0B6C4E365B0CCE6BA>
+</root>

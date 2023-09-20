@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="terrain_tile" Parents="aTag" Index="-436">
+	<_57AF4B6F631936A8E11700FA808E7376 Name="i343::TerrainTileTag" Size="30">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_3E Name="Tile X Index" Offset="10" />
+		<_3E Name="Tile Y Index" Offset="14" />
+		<_40 Name="Parameters" Offset="18" GUID="3E85466591856061F2A997648C4777C3" StructName1="i343::TerrainTileTag" Min="0" Max="64" />
+		<_34 Name="generated_pad4100" Offset="2C" Length="4" />
+	</_57AF4B6F631936A8E11700FA808E7376>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_3E85466591856061F2A997648C4777C3 Name="i343::Graphics::RenderGraph::ParameterDefinitionB" Size="54">
+		<_38 Name="Parameter" Offset="0" GUID="99F149216967F6C06615190E816B1BE0" />
+	</_3E85466591856061F2A997648C4777C3>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_99F149216967F6C06615190E816B1BE0 Name="i343::Graphics::RenderGraph::ParameterDefinition" Size="54">
+		<_2 Name="Name" Offset="0" />
+		<_C Name="Type" Offset="4" StructName1="i343::Graphics::RenderGraph::ParameterType">
+			<Flag n="None" />
+			<Flag n="Any" />
+			<Flag n="Boolean" />
+			<Flag n="Integer" />
+			<Flag n="Float" />
+			<Flag n="Float2" />
+			<Flag n="Float3" />
+			<Flag n="Float4" />
+			<Flag n="Material" />
+			<Flag n="MaterialPreset" />
+			<Flag n="RenderGraph" />
+			<Flag n="Buffer" />
+			<Flag n="Surface" />
+			<Flag n="DataBlob" />
+			<Flag n="Viewport" />
+			<Flag n="Rect" />
+			<Flag n="DrawParameters" />
+			<Flag n="DispatchParameters" />
+			<Flag n="SamplerStateView" />
+			<Flag n="TerrainChunk" />
+			<Flag n="DrawableList" />
+			<Flag n="TextureDataPath" />
+		</_C>
+		<_6 Name="Int" Offset="8" />
+		<_14 Name="Float" Offset="C" />
+		<_19 Name="Float3" Offset="10" />
+		<_41 Name="Tag" Offset="1C" Allowed="mat , matp, rgrf, bitm, tif*" Flags="0" />
+		<_42 Name="DataPath" Offset="38" StructName1="i343::Graphics::RenderGraph::ParameterDefinition.DataPath" Int1="34" Int2="0" Flags="104" />
+		<_2 Name="String" Offset="50" />
+	</_99F149216967F6C06615190E816B1BE0>
+</root>

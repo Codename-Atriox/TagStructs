@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:22 PM" Name="water_physics_drag_properties" Parents="aTag" Index="-482">
+	<_8FD848DBAFDC9397B7A2BEF8B431C572 Name="WaterPhysicsDragPropertiesTag" Size="50">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="drag" Offset="10" GUID="3E2D4059FCE5EAF24F5683D68C4C8BC2" />
+	</_8FD848DBAFDC9397B7A2BEF8B431C572>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_3E2D4059FCE5EAF24F5683D68C4C8BC2 Name="s_water_physics_drag_properties" Size="40">
+		<_37 Name="Pressure" type="fgrb" Offset="0" />
+		<_38 Name="pressure" Offset="0" GUID="AA0C4E01C5E705F144CC22DC981B4053" />
+		<_37 Name="" type="fgre" Offset="1C" />
+		<_37 Name="Suction" type="fgrb" Offset="1C" />
+		<_38 Name="suction" Offset="1C" GUID="AA0C4E01C5E705F144CC22DC981B4053" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_14 Name="linear damping" Offset="38" />
+		<_14 Name="angular damping" Offset="3C" />
+	</_3E2D4059FCE5EAF24F5683D68C4C8BC2>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_AA0C4E01C5E705F144CC22DC981B4053 Name="s_physics_force_function" Size="1C">
+		<_37 Name="velocity to force" type="fned" Offset="0" />
+		<_38 Name="velocity to pressure" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_14 Name="max velocity" Offset="18" />
+	</_AA0C4E01C5E705F144CC22DC981B4053>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

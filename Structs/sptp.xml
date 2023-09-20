@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="SpartanTrackingPingDefinition" Parents="aTag" Index="-398">
+	<_E160440BEF2CCCD33E0739759EC60722 Name="i343::SpartanTracking::PingDefinition" Size="90">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_2 Name="ping group" Offset="10" />
+		<_14 Name="ping display time" Offset="14" />
+		<_36 Name="Per Priority Default Ranges" Offset="18" />
+		<_40 Name="default range per priority" Offset="18" GUID="C0AF41755E064F45310654148DF37F88" StructName1="i343::SpartanTracking::PingDefinition" Min="0" Max="4" />
+		<_36 Name="Per Priority Tracking Limits" Offset="2C" />
+		<_40 Name="max tracked per priority" Offset="2C" GUID="A7434498A7C0ED68E9CE5D9E9FA97E47" StructName1="i343::SpartanTracking::PingDefinition" Min="0" Max="4" />
+		<_37 Name="active ping properties" type="fgrb" Offset="40" />
+		<_36 Name="The following fields only apply to active tracking." Offset="40" />
+		<_41 Name="ping effect" Offset="40" Allowed="effe" Flags="0" />
+		<_14 Name="ping travel rate" Offset="5C" />
+		<_37 Name="" type="fgre" Offset="60" />
+		<_37 Name="outline properties" type="fgrb" Offset="60" />
+		<_41 Name="Outline type" Offset="60" Allowed="ostd" Flags="0" />
+		<_A Name="Outline system ID" Offset="7C" StructName1="i343::OutlineService::SystemId">
+			<Flag n="SpartanTrackingActive" />
+			<Flag n="SpartanTrackingPassive" />
+			<Flag n="SpartanTrackingCustomActive" />
+			<Flag n="SpectatorTeamColoring" />
+			<Flag n="TargetTracking" />
+			<Flag n="EnemyIdentification" />
+			<Flag n="Scripting" />
+			<Flag n="ForgeOutlining" />
+			<Flag n="LocationSensor" />
+			<Flag n="PolarisOutlining" />
+		</_A>
+		<_34 Name="generated_pada560" Offset="7D" Length="3" />
+		<_37 Name="" type="fgre" Offset="80" />
+		<_37 Name="Target-Marking" type="fgrb" Offset="80" />
+		<_8 Name="angle" Offset="80" />
+		<_14 Name="distanceFactor" Offset="84" />
+		<_14 Name="angleFactor" Offset="88" />
+		<_37 Name="" type="fgre" Offset="8C" />
+		<_34 Name="generated_padbf41" Offset="8C" Length="4" />
+	</_E160440BEF2CCCD33E0739759EC60722>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_C0AF41755E064F45310654148DF37F88 Name="i343::SpartanTracking::DefaultRangeParam" Size="4">
+		<_14 Name="default range" Offset="0" />
+	</_C0AF41755E064F45310654148DF37F88>
+	<_A7434498A7C0ED68E9CE5D9E9FA97E47 Name="i343::SpartanTracking::DisplayMaximumsParam" Size="1">
+		<_3C Name="maximum number of tracked objects displayed" Offset="0" />
+	</_A7434498A7C0ED68E9CE5D9E9FA97E47>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

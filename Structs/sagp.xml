@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:16 PM" Name="GroundPoundDefinitionTag" Parents="aTag" Index="-349">
+	<_B2544B32285C276F422EE0758E7B90AF Name="i343::SpartanAbilities::GroundPoundDefinitionTag" Size="478">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="data" Offset="10" GUID="81624EAE7ADC9E70C95CB2C1946E1E99" />
+	</_B2544B32285C276F422EE0758E7B90AF>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_81624EAE7ADC9E70C95CB2C1946E1E99 Name="i343::SpartanAbilities::GroundPoundDefinition" Size="468">
+		<_38 Name="common ability parameters" Offset="0" GUID="D954483CA0B1EFF4F0B4EBCD88F17DD4" />
+		<_D Name="ground pound flags" Offset="78" StructName1="i343::SpartanAbilities::GroundPoundDefinitionFlags">
+			<Flag n="Limit Aim Vector Pitch When Charging" />
+			<Flag n="Limit Aim Vector Pitch When Launching" />
+			<Flag n="Limit Aim Vector Pitch When Exiting" />
+			<Flag n="Aim At Biped Head" />
+			<Flag n="Evading Breaks Aim Assist" />
+			<Flag n="No Third Person Camera Until Valid Launch Position" />
+			<Flag n="Must Land Again After Activating" />
+			<Flag n="Always Cause AoE Damage" />
+			<Flag n="Ignore AoE Damage If Direct Damage Applied" />
+			<Flag n="Disable Soft Contacts" />
+			<Flag n="Enable Weak Attacks" />
+			<Flag n="Don't Render Aim Effect If RayCast Fails" />
+		</_D>
+		<_14 Name="minimum height above floor" Offset="7C" />
+		<_36 Name="Stabilization/Charge up" Offset="80" />
+		<_38 Name="stabilizer definition" Offset="80" GUID="6D2345D56E6506A6FBFAAB5B8EFA7E5D" />
+		<_36 Name="Charge Up Settings" Offset="15C" />
+		<_14 Name="charge up min time" Offset="15C" />
+		<_14 Name="charge up auto release time" Offset="160" />
+		<_37 Name="charge up min time scale" type="mpfi" Offset="164" />
+		<_38 Name="charge up min time scale" Offset="164" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_37 Name="charge up auto release time scale" type="mpfi" Offset="170" />
+		<_38 Name="charge up auto release time scale" Offset="170" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_15 Name="charge up damage acceleration scalar" Offset="17C" />
+		<_36 Name="Launch" Offset="180" />
+		<_41 Name="launch ready effect" Offset="180" Allowed="effe" Flags="0" />
+		<_41 Name="launch post ready effect" Offset="19C" Allowed="effe" Flags="0" />
+		<_15 Name="launch post ready effect activation fraction" Offset="1B8" />
+		<_15 Name="launch activation energy cost" Offset="1BC" />
+		<_41 Name="launch effect" Offset="1C0" Allowed="effe" Flags="0" />
+		<_41 Name="launch fail effect" Offset="1DC" Allowed="effe" Flags="0" />
+		<_14 Name="launch continuous rumble loop time" Offset="1F8" />
+		<_41 Name="launch continuous rumble" Offset="1FC" Allowed="rmbl" Flags="0" />
+		<_36 Name="Aiming" Offset="218" />
+		<_41 Name="aim effect" Offset="218" Allowed="effe" Flags="0" />
+		<_C Name="aim vector fail selector" Offset="234" StructName1="i343::SpartanAbilities::GroundPoundFailSelector">
+			<Flag n="Off" />
+			<Flag n="DistanceXYZ" />
+			<Flag n="DistanceZ" />
+		</_C>
+		<_14 Name="aim effect min fail display time" Offset="238" />
+		<_14 Name="aim vector fail distance" Offset="23C" />
+		<_14 Name="aim vector fail early time" Offset="240" />
+		<_14 Name="aim vector ray cast distance" Offset="244" />
+		<_8 Name="aim vector camera pitch limit" Offset="248" />
+		<_8 Name="aim vector pitch limit" Offset="24C" />
+		<_8 Name="aim vector pitch adjustment limit" Offset="250" />
+		<_14 Name="aim vector interpolation seconds (charging)" Offset="254" />
+		<_14 Name="aim vector interpolation seconds (launching)" Offset="258" />
+		<_14 Name="aim vector interpolation seconds (exiting)" Offset="25C" />
+		<_14 Name="aim vector interpolation exit stage time limit" Offset="260" />
+		<_36 Name="Collision" Offset="264" />
+		<_14 Name="hit sphere initial offset z" Offset="264" />
+		<_14 Name="hit sphere offset" Offset="268" />
+		<_14 Name="hit sphere radius" Offset="26C" />
+		<_14 Name="hit sphere start point offset" Offset="270" />
+		<_36 Name="Motion" Offset="274" />
+		<_8 Name="max slope angle" Offset="274" />
+		<_8 Name="max opposing contact angle" Offset="278" />
+		<_37 Name="pound fall speed (malleable)" type="mpfi" Offset="27C" />
+		<_38 Name="pound fall speed (malleable)" Offset="27C" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_14 Name="pound fall duration" Offset="288" />
+		<_14 Name="pound hit duration" Offset="28C" />
+		<_14 Name="pound exit no collision damage duration" Offset="290" />
+		<_36 Name="Impact" Offset="294" />
+		<_14 Name="aoe contact offset" Offset="294" />
+		<_37 Name="knockback scalar" type="mpfi" Offset="298" />
+		<_38 Name="knockback scalar" Offset="298" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_37 Name="pound ground damage scalar" type="mpfi" Offset="2A4" />
+		<_38 Name="pound ground damage scalar" Offset="2A4" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_37 Name="pound ground aoe radius scalar" type="mpfi" Offset="2B0" />
+		<_38 Name="pound ground aoe radius scalar" Offset="2B0" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_36 Name="Damage effects (regular)" Offset="2BC" />
+		<_41 Name="pound object damage effect" Offset="2BC" Allowed="jpt!" Flags="0" />
+		<_41 Name="pound object clang damage effect" Offset="2D8" Allowed="jpt!" Flags="0" />
+		<_41 Name="pound ground damage effect" Offset="2F4" Allowed="jpt!" Flags="0" />
+		<_41 Name="pound ground clang damage effect" Offset="310" Allowed="jpt!" Flags="0" />
+		<_41 Name="pound object instigator effect" Offset="32C" Allowed="effe" Flags="0" />
+		<_41 Name="pound ground instigator effect" Offset="348" Allowed="effe" Flags="0" />
+		<_36 Name="Damage effects (weak)" Offset="364" />
+		<_41 Name="pound object damage effect (weak)" Offset="364" Allowed="jpt!" Flags="0" />
+		<_41 Name="pound object clang damage effect (weak)" Offset="380" Allowed="jpt!" Flags="0" />
+		<_41 Name="pound ground damage effect (weak)" Offset="39C" Allowed="jpt!" Flags="0" />
+		<_41 Name="pound ground clang damage effect (weak)" Offset="3B8" Allowed="jpt!" Flags="0" />
+		<_41 Name="pound object instigator effect (weak)" Offset="3D4" Allowed="effe" Flags="0" />
+		<_41 Name="pound ground instigator effect (weak)" Offset="3F0" Allowed="effe" Flags="0" />
+		<_14 Name="time to switch from weak to regular" Offset="40C" />
+		<_36 Name="Animations" Offset="410" />
+		<_2 Name="pound fall animation" Offset="410" />
+		<_2 Name="pound fall exit animation" Offset="414" />
+		<_2 Name="pound hit animation" Offset="418" />
+		<_2 Name="pound hit exit animation" Offset="41C" />
+		<_B Name="pound hit AI sound level" Offset="420" StructName1="i343::AI::SoundVolume">
+			<Flag n="silent" />
+			<Flag n="quiet" />
+			<Flag n="medium" />
+			<Flag n="shout" />
+			<Flag n="loud" />
+		</_B>
+		<_34 Name="generated_padba74" Offset="422" Length="2" />
+		<_36 Name="Aim Assist" Offset="424" />
+		<_8 Name="auto aim angle" Offset="424" />
+		<_14 Name="auto aim range" Offset="428" />
+		<_14 Name="auto aim falloff range" Offset="42C" />
+		<_14 Name="auto aim near falloff range" Offset="430" />
+		<_8 Name="magnetism angle" Offset="434" />
+		<_14 Name="magnetism range" Offset="438" />
+		<_14 Name="magnetism falloff range" Offset="43C" />
+		<_14 Name="magnetism near falloff range" Offset="440" />
+		<_8 Name="maximum assist angular velocity" Offset="444" />
+		<_36 Name="FOV delta function (charge up)" Offset="448" />
+		<_37 Name="FOV delta function (charge up)" type="fned" Offset="448" />
+		<_38 Name="FOV delta function charge up" Offset="448" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_15 Name="looks speed scalar (charge up)" Offset="460" />
+		<_15 Name="looks speed scalar (launched)" Offset="464" />
+	</_81624EAE7ADC9E70C95CB2C1946E1E99>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_D954483CA0B1EFF4F0B4EBCD88F17DD4 Name="i343::SpartanAbilities::SpartanAbilityCommonParameters" Size="78">
+		<_37 Name="common ability parameters" type="fgrb" Offset="0" />
+		<_C Name="input" Offset="0" StructName1="i343::Units::ArmorInput">
+			<Flag n="Default" />
+			<Flag n="Mobility" />
+			<Flag n="Suit" />
+			<Flag n="Jump" />
+			<Flag n="Equipment" />
+			<Flag n="Melee" />
+			<Flag n="PowerUp" />
+			<Flag n="Unmapped" />
+		</_C>
+		<_D Name="flags" Offset="4" StructName1="i343::SpartanAbilities::SpartanAbilityDefinitionFlags">
+			<Flag n="Use 3rd Person Camera When Active" />
+			<Flag n="Hide Reticle When Active" />
+			<Flag n="Is Motion Tracked (By Enemies) When Active" />
+			<Flag n="One-Shot Activation Effect" />
+			<Flag n="Can be activated when weapon state is relaxed" />
+			<Flag n="Does Not Appear In Extended Motion Tracker Range" />
+			<Flag n="Energy persists across deaths" />
+			<Flag n="Activation interrupts weapon switching" />
+			<Flag n="Allow activation during weapon throw" />
+			<Flag n="Allow activation while sliding" />
+			<Flag n="Drop support weapon when activated" />
+			<Flag n="Drop must be readied weapon when activated" />
+		</_D>
+		<_15 Name="activation energy cost" Offset="8" />
+		<_14 Name="active energy consumption" Offset="C" />
+		<_14 Name="recharge duration" Offset="10" />
+		<_14 Name="recharge delay" Offset="14" />
+		<_14 Name="cooldown delay" Offset="18" />
+		<_41 Name="activation effect" Offset="1C" Allowed="effe" Flags="0" />
+		<_14 Name="activation effect kill delay" Offset="38" />
+		<_A Name="sprint preservation" Offset="3C" StructName1="i343::SpartanAbilities::SprintPreservation">
+			<Flag n="No" />
+			<Flag n="Zero fraction" />
+			<Flag n="Retain fraction" />
+			<Flag n="Decay (normal)" />
+			<Flag n="Decay (forced)" />
+		</_A>
+		<_34 Name="generated_pad0aca" Offset="3D" Length="3" />
+		<_41 Name="active malleable property modifiers" Offset="40" Allowed="gmpm" Flags="0" />
+		<_41 Name="timed malleable property modifiers" Offset="5C" Allowed="gmpm" Flags="0" />
+		<_37 Name="" type="fgre" Offset="78" />
+	</_D954483CA0B1EFF4F0B4EBCD88F17DD4>
+	<_6D2345D56E6506A6FBFAAB5B8EFA7E5D Name="i343::SpartanAbilities::StabilizerDefinition" Size="DC">
+		<_38 Name="common ability parameters" Offset="0" GUID="D954483CA0B1EFF4F0B4EBCD88F17DD4" />
+		<_D Name="flags" Offset="78" StructName1="i343::SpartanAbilities::StabilizerDefinitionFlags">
+			<Flag n="Must land again after activating" />
+			<Flag n="Auto activate only if already in the air" />
+			<Flag n="Independent of ADS" />
+			<Flag n="Vertical only" />
+			<Flag n="Allow air control" />
+			<Flag n="Limit upwards motion post stall" />
+		</_D>
+		<_14 Name="minimum height above floor" Offset="7C" />
+		<_14 Name="activation deceleration" Offset="80" />
+		<_14 Name="stall duration" Offset="84" />
+		<_37 Name="malleable time limit" type="mpfi" Offset="88" />
+		<_38 Name="malleable time limit" Offset="88" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_14 Name="cooldown" Offset="94" />
+		<_37 Name="malleable time scale" type="mpfi" Offset="98" />
+		<_38 Name="malleable time scale" Offset="98" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_14 Name="max horizontal speed" Offset="A4" />
+		<_38 Name="vertical speed boost at exit" Offset="A8" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_41 Name="rumble" Offset="C0" Allowed="rmbl" Flags="0" />
+	</_6D2345D56E6506A6FBFAAB5B8EFA7E5D>
+	<_DB6340E6F8D8B4A163AE2E8B97EA8CBB Name="i343::MalleableProperty::BaseFloatStructDefinition" Size="C">
+		<_14 Name="Base Value" Offset="0" />
+		<_25 Name="Value Bounds" Offset="4" />
+	</_DB6340E6F8D8B4A163AE2E8B97EA8CBB>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+</root>

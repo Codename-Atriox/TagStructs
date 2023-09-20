@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="point_physics" Parents="aTag" Index="-319">
+	<_A921423325622995E1C6CC0A8BD5DA29 Name="point_physics_definition" Size="48">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_D Name="flags" Offset="10" StructName1="PointPhysicsDefinitionFlags">
+			<Flag n="UNUSED" />
+			<Flag n="collides with structures" />
+			<Flag n="collides with water surface" />
+			<Flag n="uses simple wind" />
+			<Flag n="uses damped wind" />
+			<Flag n="no gravity" />
+		</_D>
+		<_14 Name="runtime mass over radius cubed" Offset="14" />
+		<_14 Name="runtime inverse density" Offset="18" />
+		<_6 Name="IGNORE1" Offset="1C" />
+		<_6 Name="IGNORE2" Offset="20" />
+		<_6 Name="IGNORE3" Offset="24" />
+		<_6 Name="IGNORE4" Offset="28" />
+		<_6 Name="IGNORE5" Offset="2C" />
+		<_14 Name="density" Offset="30" />
+		<_14 Name="air friction" Offset="34" />
+		<_14 Name="water friction" Offset="38" />
+		<_14 Name="surface friction" Offset="3C" />
+		<_14 Name="elasticity" Offset="40" />
+		<_36 Name="Densities (g/mL)" Offset="44" />
+		<_34 Name="generated_pad1ff6" Offset="44" Length="4" />
+	</_A921423325622995E1C6CC0A8BD5DA29>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="CageGlobalsDefinition" Parents="aTag" Index="-51">
+	<_5BAB461762D35001B23B696F84D1D42D Name="i343::CageSystem::CageGlobalsDefinitionTag" Size="168">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Global Default Cage Points" Offset="10" GUID="DD774E762FFD3B5F8086D9C7A86016E1" StructName1="i343::CageSystem::CageGlobalsDefinitionTag" Min="0" Max="64" />
+		<_41 Name="Default Cage Definition" Offset="24" Allowed="cage" Flags="0" />
+		<_2 Name="Default Position Point" Offset="40" />
+		<_2 Name="Default Collision Resolution Point" Offset="44" />
+		<_2 Name="Default Orbit Center Point" Offset="48" />
+		<_2 Name="Default FPS Point" Offset="4C" />
+		<_14 Name="Default Blend-In Time" Offset="50" />
+		<_14 Name="Default Blend-Out Time" Offset="54" />
+		<_14 Name="Default Gaze Distance" Offset="58" />
+		<_8 Name="Default Gaze Outer Angle" Offset="5C" />
+		<_8 Name="Default Gaze Inner Angle" Offset="60" />
+		<_8 Name="Default Gaze Velocity" Offset="64" />
+		<_37 Name="Gaze Velocity Curve" type="fgrb" Offset="68" />
+		<_38 Name="Default Gaze Velocity Curve" Offset="68" GUID="BA704854A67FBB31AFDD3854AAF4BF0D" />
+		<_37 Name="" type="fgre" Offset="8C" />
+		<_37 Name="Transform Blend Curve" type="fgrb" Offset="8C" />
+		<_38 Name="Default Blend Curve (Transform)" Offset="8C" GUID="BA704854A67FBB31AFDD3854AAF4BF0D" />
+		<_37 Name="" type="fgre" Offset="B0" />
+		<_37 Name="Properties Blend Curve" type="fgrb" Offset="B0" />
+		<_38 Name="Default Blend Curve (Properties)" Offset="B0" GUID="BA704854A67FBB31AFDD3854AAF4BF0D" />
+		<_37 Name="" type="fgre" Offset="D4" />
+		<_37 Name="From Gameplay Transition" type="fgrb" Offset="D4" />
+		<_38 Name="From Gameplay Transition" Offset="D4" GUID="2E7640D98046AB38C2B8C2E5A620B732" />
+		<_37 Name="" type="fgre" Offset="118" />
+		<_37 Name="To Gameplay Transition" type="fgrb" Offset="118" />
+		<_38 Name="To Gameplay Transition" Offset="118" GUID="2E7640D98046AB38C2B8C2E5A620B732" />
+		<_37 Name="" type="fgre" Offset="15C" />
+		<_37 Name="Camera Properties - OLD" type="fgrb" Offset="15C" />
+		<_14 Name="Default Focal Length" Offset="15C" />
+		<_14 Name="Default Focus Distance" Offset="160" />
+		<_14 Name="Default F-Stop" Offset="164" />
+		<_37 Name="" type="fgre" Offset="168" />
+	</_5BAB461762D35001B23B696F84D1D42D>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_DD774E762FFD3B5F8086D9C7A86016E1 Name="i343::CageSystem::CagePointDefault" Size="24">
+		<_2 Name="Name" Offset="0" />
+		<_41 Name="Cage Definition" Offset="4" Allowed="cage" Flags="0" />
+		<_2 Name="Point Name" Offset="20" />
+	</_DD774E762FFD3B5F8086D9C7A86016E1>
+	<_BA704854A67FBB31AFDD3854AAF4BF0D Name="i343::Curve::CurveReference" Size="24">
+		<_A Name="Curve Type" Offset="0" StructName1="i343::Curve::CurveBuiltIn">
+			<Flag n="None" />
+			<Flag n="Linear" />
+			<Flag n="Zero" />
+			<Flag n="One" />
+			<Flag n="EaseInQuad" />
+			<Flag n="EaseOutQuad" />
+			<Flag n="EaseInOutQuad" />
+			<Flag n="EaseInCubic" />
+			<Flag n="EaseOutCubic" />
+			<Flag n="EaseInOutCubic" />
+			<Flag n="EaseInQuart" />
+			<Flag n="EaseOutQuart" />
+			<Flag n="EaseInOutQuart" />
+			<Flag n="EaseInQuint" />
+			<Flag n="EaseOutQuint" />
+			<Flag n="EaseInOutQuint" />
+			<Flag n="EaseInSine" />
+			<Flag n="EaseOutSine" />
+			<Flag n="EaseInOutSine" />
+			<Flag n="EaseInExpo" />
+			<Flag n="EaseOutExpo" />
+			<Flag n="EaseInOutExpo" />
+			<Flag n="EaseInCirc" />
+			<Flag n="EaseOutCirc" />
+			<Flag n="EaseInOutCirc" />
+			<Flag n="EaseInOutLight" />
+			<Flag n="EaseInOutHeavy" />
+		</_A>
+		<_34 Name="generated_pade4ec" Offset="1" Length="3" />
+		<_41 Name="Curve Definition" Offset="4" Allowed="curv" Flags="0" />
+		<_2 Name="Curve Name" Offset="20" />
+	</_BA704854A67FBB31AFDD3854AAF4BF0D>
+	<_2E7640D98046AB38C2B8C2E5A620B732 Name="i343::CageSystem::CageTransitionCurve" Size="44">
+		<_41 Name="Animation Curve" Offset="0" Allowed="curv" Flags="0" />
+		<_2 Name="Transform Curve Name" Offset="1C" />
+		<_2 Name="Focal Length Curve Name" Offset="20" />
+		<_2 Name="Focus Distance Curve Name" Offset="24" />
+		<_2 Name="F-Stop Curve Name" Offset="28" />
+		<_2 Name="Perspective Curve Name" Offset="2C" />
+		<_2 Name="Variant Curve Name" Offset="30" />
+		<_2 Name="Variant Name" Offset="34" />
+		<_2 Name="Invisible Curve Name" Offset="38" />
+		<_14 Name="Animation Time" Offset="3C" />
+		<_14 Name="Animation Playback Scalar" Offset="40" />
+	</_2E7640D98046AB38C2B8C2E5A620B732>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="collision_damage" Parents="aTag" Index="-54">
+	<_CECB453A24710B4D03C2B3EDAEB6B0A9 Name="CollisionDamageDefinition" Size="98">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="DamageStruct" Offset="10" GUID="E7C3447A5234990387A5B0D8A5FCDC36" />
+		<_34 Name="generated_padcb8c" Offset="94" Length="4" />
+	</_CECB453A24710B4D03C2B3EDAEB6B0A9>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_E7C3447A5234990387A5B0D8A5FCDC36 Name="CollisionDamageStruct" Size="84">
+		<_D Name="Flags" Offset="0" StructName1="CollisionDamageStruct::Flags">
+			<Flag n="Don't scale damage" />
+			<Flag n="Object may choose not to deal damage" />
+			<Flag n="Suppress death for non lethal damage" />
+			<Flag n="Replicate material effects to clients" />
+		</_D>
+		<_14 Name="minimum velocity for lethal collision" Offset="4" />
+		<_36 Name="Game collision damage" Offset="8" />
+		<_38 Name="game collision damage" Offset="8" GUID="FBC74C131DE4BAA48F4641479576F17A" />
+		<_25 Name="game acceleration" Offset="20" />
+		<_14 Name="minimum velocity for game damage" Offset="28" />
+		<_36 Name="Game collision damage scaling" Offset="2C" />
+		<_14 Name="Apply collision damage scale" Offset="2C" />
+		<_14 Name="Friendly apply collision damage scale" Offset="30" />
+		<_8 Name="Game collision damage normal threshold" Offset="34" />
+		<_36 Name="Absolute collision damage" Offset="38" />
+		<_38 Name="absolute collision damage" Offset="38" GUID="FBC74C131DE4BAA48F4641479576F17A" />
+		<_25 Name="absolute acceleration" Offset="50" />
+		<_14 Name="minimum velocity for absolute damage" Offset="58" />
+		<_36 Name="Absolute collision damage scaling" Offset="5C" />
+		<_14 Name="Apply absolute collision damage scale" Offset="5C" />
+		<_14 Name="Friendly apply absolute collision damage scale" Offset="60" />
+		<_8 Name="Absolute collision damage normal threshold" Offset="64" />
+		<_36 Name="Alternative damage effect" Offset="68" />
+		<_41 Name="alternative damage effect" Offset="68" Allowed="jpt!" Flags="0" />
+	</_E7C3447A5234990387A5B0D8A5FCDC36>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_FBC74C131DE4BAA48F4641479576F17A Name="CollisionDamageFunction" Size="18">
+		<_37 Name="Mapping function" type="fned" Offset="0" />
+		<_38 Name="mapping" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_FBC74C131DE4BAA48F4641479576F17A>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

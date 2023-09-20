@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:16 PM" Name="spring_acceleration" Parents="aTag" Index="-346">
+	<_AD9447BB1073ABE030CD63B18910B4FF Name="s_spring_acceleration_definition" Size="30">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="linear acceleartions" Offset="10" GUID="132344491C23AAACD9170D8AAEAB1083" StructName1="s_spring_acceleration_definition" Min="0" Max="3" />
+		<_2E Name="x-axis" Offset="24" GUID="132344491C23AAACD9170D8AAEAB1083" StructName1="s_spring_acceleration_definition" Min="0" Max="3" />
+		<_2E Name="y-axis" Offset="26" GUID="132344491C23AAACD9170D8AAEAB1083" StructName1="s_spring_acceleration_definition" Min="0" Max="3" />
+		<_2E Name="z-axis" Offset="28" GUID="132344491C23AAACD9170D8AAEAB1083" StructName1="s_spring_acceleration_definition" Min="0" Max="3" />
+		<_34 Name="generated_pad2bda" Offset="2A" Length="6" />
+	</_AD9447BB1073ABE030CD63B18910B4FF>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_132344491C23AAACD9170D8AAEAB1083 Name="s_spring_acceleration_linear_definition" Size="40">
+		<_14 Name="acceleration range" Offset="0" />
+		<_14 Name="inverse acceleration range" Offset="4" />
+		<_14 Name="world acceleration scale" Offset="8" />
+		<_36 Name="damping" Offset="C" />
+		<_38 Name="spring damping" Offset="C" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_14 Name="velocity domain" Offset="24" />
+		<_38 Name="spring acceleration" Offset="28" GUID="0276481E72CB9289F56D7C189467A351" />
+	</_132344491C23AAACD9170D8AAEAB1083>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="flock" Parents="aTag" Index="-144">
+	<_A0EF4DC7F0130A08BC18D80BA0CA92E4 Name="AiFlockTag" Size="338">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="parent" type="parr" Offset="10" Allowed="kit!" Flags="9" />
+		<_36 Name="Simple flocking" Offset="2C" />
+		<_15 Name="forward weight" Offset="2C" />
+		<_15 Name="leveling force weight" Offset="30" />
+		<_15 Name="destination weight" Offset="34" />
+		<_15 Name="movement weight threshold" Offset="38" />
+		<_15 Name="target weight" Offset="3C" />
+		<_14 Name="target distance" Offset="40" />
+		<_14 Name="target delay time" Offset="44" />
+		<_15 Name="target kill chance" Offset="48" />
+		<_36 Name="Perlin noise parameters" Offset="4C" />
+		<_15 Name="random offset weight" Offset="4C" />
+		<_25 Name="random offset period" Offset="50" />
+		<_36 Name="Complex Flocking" Offset="58" />
+		<_14 Name="neighborhood radius" Offset="58" />
+		<_8 Name="perception angle" Offset="5C" />
+		<_15 Name="avoidance weight" Offset="60" />
+		<_14 Name="avoidance radius" Offset="64" />
+		<_15 Name="alignment weight" Offset="68" />
+		<_15 Name="position weight" Offset="6C" />
+		<_25 Name="position radius" Offset="70" />
+		<_41 Name="Battle projectile effect" Offset="78" Allowed="cpem" Flags="0" />
+		<_41 Name="Battle projectile effect (expensive)" Offset="94" Allowed="effe" Flags="0" />
+		<_25 Name="Battle projectile effect cooldown" Offset="B0" />
+		<_17 Name="Battle effect offset" Offset="B8" />
+		<_40 Name="EditorMetadata" Offset="C4" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="AiFlockTag" Min="4" Max="1" />
+		<_25 Name="Boid Scale Range" Offset="D8" />
+		<_F Name="Perception Flags" Offset="E0" StructName1="PerceptionSettingsFlags">
+			<Flag n="Check Player Proximity" />
+			<Flag n="Check AI Proximity" />
+		</_F>
+		<_34 Name="generated_pad41f9" Offset="E1" Length="3" />
+		<_14 Name="Object Perception Radius" Offset="E4" />
+		<_14 Name="Vehicle Perception Radius" Offset="E8" />
+		<_14 Name="Danger Event Perception Radius" Offset="EC" />
+		<_F Name="Spawn Flags" Offset="F0" StructName1="SpawnSettingsFlags">
+			<Flag n="Always replenish boids" />
+			<Flag n="Randomize Spawn Point Height" />
+			<Flag n="Used in kits (allow name duplication)" />
+			<Flag n="Randomize Creature Variant" />
+		</_F>
+		<_F Name="Generate Spawn Point for Each Boid" Offset="F1" StructName1="EnableFlag">
+			<Flag n="Enable" />
+		</_F>
+		<_34 Name="generated_padd75d" Offset="F2" Length="2" />
+		<_6 Name="Number of Spawn Points" Offset="F4" />
+		<_14 Name="Distance of Importance" Offset="F8" />
+		<_14 Name="Despawn Distance" Offset="FC" />
+		<_14 Name="Spawn Distance" Offset="100" />
+		<_14 Name="Minimum Respawn Delay" Offset="104" />
+		<_25 Name="Time Before Dehydration Hide is Forced" Offset="108" />
+		<_14 Name="Distance Enough for Dehydration Hide" Offset="110" />
+		<_A Name="Spawn Priority" Offset="114" StructName1="SpawnPriority">
+			<Flag n="Procedurally generated" />
+			<Flag n="Regular" />
+			<Flag n="Important" />
+			<Flag n="Critical" />
+			<Flag n="Regular Distant" />
+			<Flag n="Important Distant" />
+		</_A>
+		<_F Name="Disable Backward Flock Relevancy Reduce" Offset="115" StructName1="EnableFlag">
+			<Flag n="Enable" />
+		</_F>
+		<_34 Name="generated_padbd7c" Offset="116" Length="2" />
+		<_25 Name="Production Frequency Bounds" Offset="118" />
+		<_14 Name="High LOD Distance" Offset="120" />
+		<_41 Name="Creature Asset" Offset="124" Allowed="crea" Flags="0" />
+		<_2 Name="Creature Variant Name" Offset="140" />
+		<_6 Name="Boid Count" Offset="144" />
+		<_A Name="Initial Behavior" Offset="148" StructName1="FlockBehaviorType">
+			<Flag n="None" />
+			<Flag n="Perching" />
+			<Flag n="Circling" />
+			<Flag n="Traveling" />
+			<Flag n="Wandering" />
+			<Flag n="Reaction" />
+			<Flag n="Move Away Helper" />
+		</_A>
+		<_A Name="Second Behavior" Offset="149" StructName1="FlockBehaviorType">
+			<Flag n="None" />
+			<Flag n="Perching" />
+			<Flag n="Circling" />
+			<Flag n="Traveling" />
+			<Flag n="Wandering" />
+			<Flag n="Reaction" />
+			<Flag n="Move Away Helper" />
+		</_A>
+		<_A Name="Reaction Behavior" Offset="14A" StructName1="FlockReactionBehaviorType">
+			<Flag n="None" />
+			<Flag n="Afraid" />
+			<Flag n="Evasion" />
+			<Flag n="Hide" />
+		</_A>
+		<_A Name="Reaction Navigation Behavior" Offset="14B" StructName1="FlockBehaviorType">
+			<Flag n="None" />
+			<Flag n="Perching" />
+			<Flag n="Circling" />
+			<Flag n="Traveling" />
+			<Flag n="Wandering" />
+			<Flag n="Reaction" />
+			<Flag n="Move Away Helper" />
+		</_A>
+		<_A Name="Second Reaction Behavior" Offset="14C" StructName1="FlockReactionBehaviorType">
+			<Flag n="None" />
+			<Flag n="Afraid" />
+			<Flag n="Evasion" />
+			<Flag n="Hide" />
+		</_A>
+		<_A Name="Second Reaction Navigation Behavior" Offset="14D" StructName1="FlockBehaviorType">
+			<Flag n="None" />
+			<Flag n="Perching" />
+			<Flag n="Circling" />
+			<Flag n="Traveling" />
+			<Flag n="Wandering" />
+			<Flag n="Reaction" />
+			<Flag n="Move Away Helper" />
+		</_A>
+		<_A Name="Despawn Reaction Behavior" Offset="14E" StructName1="FlockReactionBehaviorType">
+			<Flag n="None" />
+			<Flag n="Afraid" />
+			<Flag n="Evasion" />
+			<Flag n="Hide" />
+		</_A>
+		<_A Name="Despawn Reaction Navigation Behavior" Offset="14F" StructName1="FlockBehaviorType">
+			<Flag n="None" />
+			<Flag n="Perching" />
+			<Flag n="Circling" />
+			<Flag n="Traveling" />
+			<Flag n="Wandering" />
+			<Flag n="Reaction" />
+			<Flag n="Move Away Helper" />
+		</_A>
+		<_14 Name="Event Memory Time" Offset="150" />
+		<_14 Name="Return after Disrupt Time" Offset="154" />
+		<_E Name="Flee Flags" Offset="158" StructName1="FlockFleeFlags">
+			<Flag n="Flee Together" />
+			<Flag n="Return After Flee" />
+			<Flag n="Return after fleeing (if a boid is killed)" />
+			<Flag n="Skip evasion phase when a boid is killed" />
+		</_E>
+		<_34 Name="generated_padfcfe" Offset="15A" Length="2" />
+		<_14 Name="Danger Weight" Offset="15C" />
+		<_15 Name="Additional Throttle" Offset="160" />
+		<_25 Name="Time before Hide or Fly Away" Offset="164" />
+		<_14 Name="Max hide time" Offset="16C" />
+		<_A Name="Volume Containment Mode (Evasion)" Offset="170" StructName1="VolumeContainmentMode">
+			<Flag n="None" />
+			<Flag n="Navigation Adjustment" />
+			<Flag n="Hard Volume Containment" />
+		</_A>
+		<_34 Name="generated_pad49b3" Offset="171" Length="3" />
+		<_14 Name="Torus Inner Radius" Offset="174" />
+		<_14 Name="Torus Cross Section Radius" Offset="178" />
+		<_A Name="Circling Direction" Offset="17C" StructName1="CirclingDirectionType">
+			<Flag n="Clockwise" />
+			<Flag n="Counterclockwise" />
+			<Flag n="Random" />
+		</_A>
+		<_34 Name="generated_padf423" Offset="17D" Length="3" />
+		<_14 Name="Leveling Coefficient" Offset="180" />
+		<_14 Name="Traveling Spawn Radius" Offset="184" />
+		<_36 Name="Runtime-generated path settings" Offset="188" />
+		<_14 Name="Distance to the initial destination" Offset="188" />
+		<_14 Name="Distance to the final destination" Offset="18C" />
+		<_14 Name="Spawn Cylinder Radius" Offset="190" />
+		<_14 Name="Spawn Cylinder Height" Offset="194" />
+		<_25 Name="Wandering Time" Offset="198" />
+		<_25 Name="Grazing Time" Offset="1A0" />
+		<_14 Name="Change of Direction Time" Offset="1A8" />
+		<_F Name="Flags" Offset="1AC" StructName1="WanderingBehaviorFlags">
+			<Flag n="Wander Randomly" />
+		</_F>
+		<_F Name="Wandering to same source point is allowed" Offset="1AD" StructName1="EnableFlag">
+			<Flag n="Enable" />
+		</_F>
+		<_34 Name="generated_pad094b" Offset="1AE" Length="2" />
+		<_F Name="Fly On Fixed Height Flags" Offset="1B0" StructName1="FlyOnFixedHeightFlags">
+			<Flag n="Fly On Fixed Height Enabled" />
+		</_F>
+		<_34 Name="generated_padbdf6" Offset="1B1" Length="3" />
+		<_14 Name="Fixed Height From Ground" Offset="1B4" />
+		<_14 Name="Height ReChecking Distance" Offset="1B8" />
+		<_14 Name="Maximum Height Difference" Offset="1BC" />
+		<_F Name="Override facing" Offset="1C0" StructName1="EnableFlag">
+			<Flag n="Enable" />
+		</_F>
+		<_F Name="Use Flock Formations" Offset="1C1" StructName1="EnableFlag">
+			<Flag n="Enable" />
+		</_F>
+		<_F Name="Ground Alignment" Offset="1C2" StructName1="BoidGroundAlignmentFlags">
+			<Flag n="Align Idle" />
+			<Flag n="Align Navigation" />
+			<Flag n="Align Grazing" />
+		</_F>
+		<_34 Name="generated_pad6ca6" Offset="1C3" Length="1" />
+		<_15 Name="Default Throttle" Offset="1C4" />
+		<_14 Name="Start Slowing Distance" Offset="1C8" />
+		<_15 Name="Slowing To Fraction" Offset="1CC" />
+		<_14 Name="Desired Start Descending Height" Offset="1D0" />
+		<_14 Name="Start Descending Distance" Offset="1D4" />
+		<_25 Name="Descending Throttle Bounds" Offset="1D8" />
+		<_14 Name="Stop Distance" Offset="1E0" />
+		<_14 Name="Start Parking Height" Offset="1E4" />
+		<_14 Name="Increased Noise Distance" Offset="1E8" />
+		<_14 Name="Noise Increase Multiplier" Offset="1EC" />
+		<_25 Name="Time between one-off random boid sounds (default)" Offset="1F0" />
+		<_14 Name="Density scaler for one-off sounds (default)" Offset="1F8" />
+		<_25 Name="Time between one-off random boid sounds (fleeing)" Offset="1FC" />
+		<_14 Name="Density scaler for one-off sounds (fleeing)" Offset="204" />
+		<_41 Name="single shot sound for killed by the player" Offset="208" Allowed="snd!" Flags="0" />
+		<_41 Name="single shot sound for non-player death" Offset="224" Allowed="snd!" Flags="0" />
+		<_41 Name="single shot sound for despawn" Offset="240" Allowed="snd!" Flags="0" />
+		<_41 Name="looping sound for idle" Offset="25C" Allowed="lsnd" Flags="0" />
+		<_41 Name="single shot sound for idle (randomly plays)" Offset="278" Allowed="snd!" Flags="0" />
+		<_41 Name="looping sound for moving" Offset="294" Allowed="lsnd" Flags="0" />
+		<_41 Name="single shot sound for moving (randomly plays)" Offset="2B0" Allowed="snd!" Flags="0" />
+		<_41 Name="single shot sound for reacting to danger" Offset="2CC" Allowed="snd!" Flags="0" />
+		<_41 Name="single shot sound for shooting" Offset="2E8" Allowed="snd!" Flags="0" />
+		<_41 Name="Proxy Object Asset" Offset="304" Allowed="obje" Flags="0" />
+		<_40 Name="Proxy Object Node Graphs" Offset="320" GUID="F773409B74B26D9D525AC5EA87FC4CEA" StructName1="AiFlockTag" Min="0" Max="32" />
+		<_34 Name="generated_padbf11" Offset="334" Length="4" />
+	</_A0EF4DC7F0130A08BC18D80BA0CA92E4>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_CAFD409521D5D5297D81B801A0BADD13 Name="EditorMetadata" Size="10C">
+		<_1 Name="folder name" Offset="0" />
+		<_17 Name="local space pivot point position" Offset="100" />
+	</_CAFD409521D5D5297D81B801A0BADD13>
+	<_F773409B74B26D9D525AC5EA87FC4CEA Name="i343::Objects::ObjectNodeGraphDefinition" Size="24">
+		<_2 Name="Name" Offset="0" />
+		<_41 Name="Exported Node Graph" Offset="4" Allowed="xong" Flags="0" />
+		<_F Name="Flags" Offset="20" StructName1="ObjectNodeGraphFlags">
+			<Flag n="Runs on Server" />
+			<Flag n="Runs on Client" />
+			<Flag n="Start updating on the first frame" />
+		</_F>
+		<_A Name="Enable Node Graph" Offset="21" StructName1="BooleanOverride">
+			<Flag n="Default" />
+			<Flag n="Yes" />
+			<Flag n="No" />
+		</_A>
+		<_34 Name="generated_pad8671" Offset="22" Length="2" />
+	</_F773409B74B26D9D525AC5EA87FC4CEA>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

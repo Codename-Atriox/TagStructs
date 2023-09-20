@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="forge_dimensional_widgets" Parents="aTag" Index="-135">
+	<_2D0CD66EF3BCC05E1707C8466CB53973 Name="ForgeDimensionalWidgetsParameters" Size="68">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="$$$ Translation $$$" type="fgrb" Offset="10" />
+		<_14 Name="Translation Widget Box Size" Offset="10" />
+		<_14 Name="Translation Widget Stem Size" Offset="14" />
+		<_14 Name="Translation Widget Stem Length" Offset="18" />
+		<_14 Name="Translation Widget Arrow Size" Offset="1C" />
+		<_14 Name="Translation Widget Active Axis Width Scale Factor" Offset="20" />
+		<_14 Name="Translation Widget Inactive Axis Width Scale Factor" Offset="24" />
+		<_14 Name="Translation Widget Axis Mouse Selection Tolerance Factor" Offset="28" />
+		<_14 Name="Translation Widget Selection Box Size" Offset="2C" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="$$$ Rotation $$$" type="fgrb" Offset="30" />
+		<_14 Name="Rotation Widget Radius" Offset="30" />
+		<_14 Name="Rotation Widget Handle Width" Offset="34" />
+		<_14 Name="Rotation Widget Active Axis Width Scale Factor" Offset="38" />
+		<_14 Name="Rotation Widget Inactive Axis Width Scale Factor" Offset="3C" />
+		<_14 Name="Rotation Widget Axis Mouse Selection Tolerance Factor" Offset="40" />
+		<_14 Name="Mouse Rotation Multiplier" Offset="44" />
+		<_37 Name="" type="fgre" Offset="48" />
+		<_37 Name="$$$ Scale $$$" type="fgrb" Offset="48" />
+		<_14 Name="Scale Widget Middle Box Size" Offset="48" />
+		<_14 Name="Scale Widget Stem Size" Offset="4C" />
+		<_14 Name="Scale Widget Stem Length" Offset="50" />
+		<_14 Name="Scale Widget Box Size" Offset="54" />
+		<_14 Name="Scale Widget Active Axis Width Scale Factor" Offset="58" />
+		<_14 Name="Scale Widget Inactive Axis Width Scale Factor" Offset="5C" />
+		<_14 Name="Scale Widget Axis Mouse Selection Tolerance Factor" Offset="60" />
+		<_37 Name="" type="fgre" Offset="64" />
+		<_34 Name="generated_pad570f" Offset="64" Length="4" />
+	</_2D0CD66EF3BCC05E1707C8466CB53973>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

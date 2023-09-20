@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="CollectiblesDefinition" Parents="aTag" Index="-74">
+	<_9C9F482DF721EBB9C4535763979D7E0D Name="i343::Collectibles::CollectiblesDefinition" Size="68">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Collectible Entry" Offset="10" GUID="BDBE412D07808F10926A4AD2829521E1" StructName1="i343::Collectibles::CollectiblesDefinition" Min="0" Max="512" />
+		<_40 Name="Codex Category Info" Offset="24" GUID="783048EB55C964048344B45A8306FD76" StructName1="i343::Collectibles::CollectiblesDefinition" Min="0" Max="5" />
+		<_40 Name="Per Collectible Data" Offset="38" GUID="A9B2417BB6C7C4F26D968CAA8794817A" StructName1="i343::Collectibles::CollectiblesDefinition" Min="0" Max="10" />
+		<_6 Name="Codex Screen Index" Offset="4C" />
+		<_6 Name="Upgrade Screen Index" Offset="50" />
+		<_40 Name="Codex Lists" Offset="54" GUID="66F5462A774E94491BF349B4B1B3143A" StructName1="i343::Collectibles::CollectiblesDefinition" Min="0" Max="31" />
+	</_9C9F482DF721EBB9C4535763979D7E0D>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_BDBE412D07808F10926A4AD2829521E1 Name="i343::Collectibles::CollectibleEntry" Size="34">
+		<_A Name="Collectible Type" Offset="0" StructName1="i343::Collectibles::CollectibleType">
+			<Flag n="None" />
+			<Flag n="Halsey_DataPad" />
+			<Flag n="ArmorLocker" />
+			<Flag n="GameSkull" />
+			<Flag n="DeadSpartan" />
+			<Flag n="MemoryCore" />
+			<Flag n="UNSC_DataPad" />
+			<Flag n="Ban_DataPad" />
+			<Flag n="ForerunnerTotem" />
+			<Flag n="CommTower" />
+		</_A>
+		<_34 Name="generated_padea46" Offset="1" Length="3" />
+		<_2 Name="Persistence Key" Offset="4" />
+		<_2E Name="Codex List Entry Reference" Offset="8" GUID="66F5462A774E94491BF349B4B1B3143A" StructName1="i343::Collectibles::CollectibleEntry" Min="0" Max="31" />
+		<_34 Name="generated_pad36fb" Offset="A" Length="2" />
+		<_40 Name="Quick Tip Override" Offset="C" GUID="974C430EBF7B7865F70F4585A58730B4" StructName1="i343::Collectibles::CollectibleEntry" Min="0" Max="1" />
+		<_40 Name="Gameplay Unlocks" Offset="20" GUID="7C2D4F7053D89F63F49D4990ABF19CDA" StructName1="i343::Collectibles::CollectibleEntry" Min="0" Max="1" />
+	</_BDBE412D07808F10926A4AD2829521E1>
+	<_783048EB55C964048344B45A8306FD76 Name="i343::Collectibles::CodexPerCategoryInfo" Size="2C">
+		<_A Name="Codex Category" Offset="0" StructName1="i343::Collectibles::CodexCategory">
+			<Flag n="Datapad" />
+			<Flag n="HighValueTarget" />
+			<Flag n="ForerunnerTotem" />
+			<Flag n="MemoryCore" />
+			<Flag n="Skull" />
+		</_A>
+		<_34 Name="generated_pad598a" Offset="1" Length="3" />
+		<_C Name="unlock persistence key type" Offset="4" StructName1="i343::Collectibles::CodexUnlockKeyType">
+			<Flag n="Bool" />
+			<Flag n="Byte" />
+			<Flag n="Long" />
+		</_C>
+		<_C Name="unlock function" Offset="8" StructName1="i343::Collectibles::CodexUnlockFuncType">
+			<Flag n="Equal" />
+			<Flag n="NotEqual" />
+			<Flag n="Less" />
+			<Flag n="LessThanOrEqual" />
+			<Flag n="Greater" />
+			<Flag n="GreaterThanOrEqual" />
+		</_C>
+		<_6 Name="unlock compare value" Offset="C" />
+		<_41 Name="Sprite" Offset="10" Allowed="bitm" Flags="0" />
+	</_783048EB55C964048344B45A8306FD76>
+	<_A9B2417BB6C7C4F26D968CAA8794817A Name="i343::Collectibles::PerCollectipleTypeData" Size="30">
+		<_A Name="Collectible Type" Offset="0" StructName1="i343::Collectibles::CollectibleType">
+			<Flag n="None" />
+			<Flag n="Halsey_DataPad" />
+			<Flag n="ArmorLocker" />
+			<Flag n="GameSkull" />
+			<Flag n="DeadSpartan" />
+			<Flag n="MemoryCore" />
+			<Flag n="UNSC_DataPad" />
+			<Flag n="Ban_DataPad" />
+			<Flag n="ForerunnerTotem" />
+			<Flag n="CommTower" />
+		</_A>
+		<_34 Name="generated_pad2d83" Offset="1" Length="3" />
+		<_36 Name="Quick Tip Data" Offset="4" />
+		<_38 Name="Defualt Tip Data" Offset="4" GUID="974C430EBF7B7865F70F4585A58730B4" />
+		<_36 Name="First Acquisition Data" Offset="C" />
+		<_38 Name="First Acquisition Data" Offset="C" GUID="F9B2417BA6C7C3F26D968AAA8998817A" />
+		<_36 Name="Splash Banner Data" Offset="18" />
+		<_38 Name="Splash Banner Data" Offset="18" GUID="62E3498D5EACB1AEC29AC4069395A40C" />
+		<_40 Name="Back Menu Screen Tab Index" Offset="1C" GUID="4C37250EA156F31721B1242BAC6BE522" StructName1="i343::Collectibles::PerCollectipleTypeData" Min="0" Max="4" />
+	</_A9B2417BB6C7C4F26D968CAA8794817A>
+	<_66F5462A774E94491BF349B4B1B3143A Name="i343::Collectibles::CodexEntryList" Size="38">
+		<_2 Name="Name" Offset="0" />
+		<_A Name="Codex Screen Category" Offset="4" StructName1="i343::Collectibles::CodexCategory">
+			<Flag n="Datapad" />
+			<Flag n="HighValueTarget" />
+			<Flag n="ForerunnerTotem" />
+			<Flag n="MemoryCore" />
+			<Flag n="Skull" />
+		</_A>
+		<_34 Name="generated_padc51f" Offset="5" Length="3" />
+		<_2 Name="Codex Screen Category Name" Offset="8" />
+		<_40 Name="Codex Entries" Offset="C" GUID="66F5462A774E94491BF3F9B3B1B3143A" StructName1="i343::Collectibles::CodexEntryList" Min="0" Max="127" />
+		<_40 Name="Unlock Collectibles" Offset="20" GUID="66F5462AA886B3171BF349B4B1B3143A" StructName1="i343::Collectibles::CodexEntryList" Min="0" Max="127" />
+		<_3C Name="Unlock Compare Value" Offset="34" />
+		<_A Name="unlockMethod" Offset="35" StructName1="i343::Collectibles::CodexUnlock">
+			<Flag n="InOrder" />
+			<Flag n="Linear" />
+		</_A>
+		<_34 Name="generated_pad786a" Offset="36" Length="2" />
+	</_66F5462A774E94491BF349B4B1B3143A>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_974C430EBF7B7865F70F4585A58730B4 Name="i343::Collectibles::QuickTipData" Size="8">
+		<_2 Name="Title Id" Offset="0" />
+		<_2 Name="Text Id" Offset="4" />
+	</_974C430EBF7B7865F70F4585A58730B4>
+	<_7C2D4F7053D89F63F49D4990ABF19CDA Name="i343::Collectibles::GameplayUnlocks" Size="3C">
+		<_40 Name="Skull Unlock" Offset="0" GUID="6B8D41B794AE6D5F3835234BB7834BF2" StructName1="i343::Collectibles::GameplayUnlocks" Min="0" Max="1" />
+		<_40 Name="Equipment Unlock" Offset="14" GUID="EADF41A66AF21914869B636EAD49A475" StructName1="i343::Collectibles::GameplayUnlocks" Min="0" Max="1" />
+		<_40 Name="POI Unlock" Offset="28" GUID="AEEC488BF54D13A4193C678BAE65F36F" StructName1="i343::Collectibles::GameplayUnlocks" Min="0" Max="1" />
+	</_7C2D4F7053D89F63F49D4990ABF19CDA>
+	<_F9B2417BA6C7C3F26D968AAA8998817A Name="i343::Collectibles::FirstAcquisitionData" Size="C">
+		<_2 Name="First-acquisition Persistence Key" Offset="0" />
+		<_2 Name="Tutorial Title Id" Offset="4" />
+		<_2 Name="Tutorial Text Id" Offset="8" />
+	</_F9B2417BA6C7C3F26D968AAA8998817A>
+	<_62E3498D5EACB1AEC29AC4069395A40C Name="i343::Collectibles::SplashBannerData" Size="4">
+		<_2 Name="banner text override" Offset="0" />
+	</_62E3498D5EACB1AEC29AC4069395A40C>
+	<_4C37250EA156F31721B1242BAC6BE522 Name="i343::Collectibles::BackMenuScreenTabIndex" Size="4">
+		<_6 Name="Back menu screen tab index" Offset="0" />
+	</_4C37250EA156F31721B1242BAC6BE522>
+	<_66F5462A774E94491BF3F9B3B1B3143A Name="i343::Collectibles::CodexEntry" Size="1A0">
+		<_2 Name="Title" Offset="0" />
+		<_2 Name="Read Key Id" Offset="4" />
+		<_40 Name="Description" Offset="8" GUID="4C37450EA886B31711B1242BAC6BE022" StructName1="i343::Collectibles::CodexEntry" Min="0" Max="4" />
+		<_6 Name="Sprite Index" Offset="1C" />
+		<_1 Name="Audio Log Id As String" Offset="20" />
+		<_2 Name="Audio Log Id" Offset="120" />
+		<_6 Name="Display Order" Offset="124" />
+		<_A Name="Faction" Offset="128" StructName1="i343::GameplayMenu::Faction">
+			<Flag n="UNSC" />
+			<Flag n="Oni" />
+			<Flag n="Banished" />
+			<Flag n="Forerunner" />
+			<Flag n="Covenant" />
+			<Flag n="Lasky" />
+		</_A>
+		<_34 Name="generated_padf1c7" Offset="129" Length="3" />
+		<_37 Name="UIItemInfo" type="fgrb" Offset="12C" />
+		<_38 Name="uiItemInfo" Offset="12C" GUID="52C6472B6BB873FD804507D0909B9077" />
+		<_37 Name="" type="fgre" Offset="1A0" />
+	</_66F5462A774E94491BF3F9B3B1B3143A>
+	<_66F5462AA886B3171BF349B4B1B3143A Name="i343::Collectibles::CollectibleEntryBlockIndex" Size="2">
+		<_2E Name="collectibleEntryIndex" Offset="0" GUID="BDBE412D07808F10926A4AD2829521E1" StructName1="i343::Collectibles::CollectibleEntryBlockIndex" Min="0" Max="512" />
+	</_66F5462AA886B3171BF349B4B1B3143A>
+	<_6B8D41B794AE6D5F3835234BB7834BF2 Name="i343::Collectibles::GameSkullUnlock" Size="1">
+		<_A Name="Game Skull" Offset="0" StructName1="i343::Collectibles::GameSkull">
+			<Flag n="Reserved0" />
+			<Flag n="BlackEye" />
+			<Flag n="Catch" />
+			<Flag n="Fog" />
+			<Flag n="Famine" />
+			<Flag n="Thunderstorm" />
+			<Flag n="Mythic" />
+			<Flag n="Blind" />
+			<Flag n="Boom" />
+			<Flag n="Cowbell" />
+			<Flag n="GruntBirthdayParty" />
+			<Flag n="IWHBYD" />
+			<Flag n="Bandana" />
+		</_A>
+	</_6B8D41B794AE6D5F3835234BB7834BF2>
+	<_EADF41A66AF21914869B636EAD49A475 Name="i343::Collectibles::UnlockedEquipment" Size="8">
+		<_2 Name="Frame Attachment Name" Offset="0" />
+		<_6 Name="Input Slot" Offset="4" />
+	</_EADF41A66AF21914869B636EAD49A475>
+	<_AEEC488BF54D13A4193C678BAE65F36F Name="i343::Collectibles::UnlockedPOI" Size="4">
+		<_2 Name="Intel POI Key" Offset="0" />
+	</_AEEC488BF54D13A4193C678BAE65F36F>
+	<_4C37450EA886B31711B1242BAC6BE022 Name="i343::Collectibles::CodexEntryDescText" Size="4">
+		<_2 Name="Paragraph Id" Offset="0" />
+	</_4C37450EA886B31711B1242BAC6BE022>
+	<_52C6472B6BB873FD804507D0909B9077 Name="Interface::UIItemInfo" Size="74">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="alt name " Offset="4" />
+		<_2 Name="description" Offset="8" />
+		<_2 Name="help text" Offset="C" />
+		<_2 Name="icon string id" Offset="10" />
+		<_41 Name="sprite" Offset="14" Allowed="bitm" Flags="0" />
+		<_6 Name="sprite index" Offset="30" />
+		<_41 Name="alt sprite" Offset="34" Allowed="bitm" Flags="0" />
+		<_6 Name="alt sprite index" Offset="50" />
+		<_6 Name="damage sprite index" Offset="54" />
+		<_41 Name="ui vehicle screen reference" Offset="58" Allowed="cusc" Flags="0" />
+	</_52C6472B6BB873FD804507D0909B9077>
+</root>

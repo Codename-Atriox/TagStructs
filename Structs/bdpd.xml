@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="death_program_selector" Parents="aTag" Index="-32">
+	<_78A848E84017D7F363AE0A5B90B37B9F Name="s_death_program_selector" Size="40">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="Explanation" type="fgrb" Offset="10" />
+		<_36 Name="Death Program Selection" Offset="10" />
+		<_37 Name="" type="fgre" Offset="10" />
+		<_41 Name="parent" Offset="10" Allowed="bdpd" Flags="0" />
+		<_40 Name="Cause of Death" Offset="2C" GUID="1351472407A798808C25AAA7BF5DA9E5" StructName1="s_death_program_selector" Min="0" Max="5" />
+	</_78A848E84017D7F363AE0A5B90B37B9F>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_1351472407A798808C25AAA7BF5DA9E5 Name="s_death_program_selector_cause" Size="18">
+		<_C Name="Cause of Death" Offset="0" StructName1="ObjectDamageAftermathCauseOfDeath">
+			<Flag n="default" />
+			<Flag n="headshot" />
+			<Flag n="melee" />
+			<Flag n="collision" />
+			<Flag n="area of effect" />
+		</_C>
+		<_40 Name="damage type" Offset="4" GUID="6F034AF62411CA09012D9482906679AF" StructName1="s_death_program_selector_cause" Min="0" Max="64" />
+	</_1351472407A798808C25AAA7BF5DA9E5>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_6F034AF62411CA09012D9482906679AF Name="s_death_program_selector_damage_type" Size="2C">
+		<_36 Name="Triggering Damage Source" Offset="0" />
+		<_38 Name="damageSource" Offset="0" GUID="FF87433DC31A245D49183EE68FE5BB27" />
+		<_36 Name="Damaged Regions" Offset="4" />
+		<_40 Name="damage regions" Offset="4" GUID="977A442082489F886C17A091BCBF3ACC" StructName1="s_death_program_selector_damage_type" Min="0" Max="11" />
+		<_40 Name="velocity" Offset="18" GUID="00044EBB500A180D9EBAFD18B940AA79" StructName1="s_death_program_selector_damage_type" Min="0" Max="10" />
+	</_6F034AF62411CA09012D9482906679AF>
+	<_FF87433DC31A245D49183EE68FE5BB27 Name="i343::Damage::DamageSourceDefinition" Size="4">
+		<_2 Name="Damage Source Name" Offset="0" />
+	</_FF87433DC31A245D49183EE68FE5BB27>
+	<_977A442082489F886C17A091BCBF3ACC Name="DeathDamageRegion" Size="1">
+		<_A Name="Damaged Region" Offset="0" StructName1="DamagePart">
+			<Flag n="gut" />
+			<Flag n="chest" />
+			<Flag n="head" />
+			<Flag n="left shoulder" />
+			<Flag n="left arm" />
+			<Flag n="left leg" />
+			<Flag n="left foot" />
+			<Flag n="right shoulder" />
+			<Flag n="right arm" />
+			<Flag n="right leg" />
+			<Flag n="right foot" />
+		</_A>
+	</_977A442082489F886C17A091BCBF3ACC>
+	<_00044EBB500A180D9EBAFD18B940AA79 Name="s_death_program_selector_velocity_gate" Size="68">
+		<_14 Name="minimum velocity" Offset="0" />
+		<_A Name="locomotion direction" Offset="4" StructName1="eLocomotionDirection">
+			<Flag n="No specific direction" />
+			<Flag n="Front" />
+			<Flag n="Left" />
+			<Flag n="Right" />
+			<Flag n="Back" />
+		</_A>
+		<_34 Name="generated_pad2cfd" Offset="5" Length="3" />
+		<_C Name="death program" Offset="8" StructName1="DeathProgramResult">
+			<Flag n="animate then ragdoll" />
+			<Flag n="default ragdoll program" />
+			<Flag n="explosion ragdoll program" />
+			<Flag n="headshot ragdoll program" />
+			<Flag n="melee ragdoll program" />
+			<Flag n="powered ragdoll program" />
+			<Flag n="vehicle ragdoll program" />
+			<Flag n="impaled ragdoll program" />
+		</_C>
+		<_14 Name="death program scale" Offset="C" />
+		<_14 Name="acceleration direction adjust z" Offset="10" />
+		<_14 Name="fallback death program scale" Offset="14" />
+		<_14 Name="fallback acceleration direction adjust z" Offset="18" />
+		<_14 Name="powered ragdoll impact radius" Offset="1C" />
+		<_2 Name="death animation stance" Offset="20" />
+		<_F Name="flags" Offset="24" StructName1="VelocityGateFlags">
+			<Flag n="conservatively ragdoll" />
+			<Flag n="continue current animation" />
+			<Flag n="motor driven" />
+			<Flag n="use death ping" />
+			<Flag n="keyframe parentless rigidbodies" />
+			<Flag n="do not ragdoll, only animate" />
+		</_F>
+		<_34 Name="generated_pad131c" Offset="25" Length="3" />
+		<_37 Name="Animate-then-ragdoll" type="fgrb" Offset="28" />
+		<_8 Name="ragdoll animation bypass angle" Offset="28" />
+		<_35 Name="Cosine Angle" Offset="2C" Length="4" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="Powered-ragdoll" type="fgrb" Offset="30" />
+		<_14 Name="Blend duration" Offset="30" />
+		<_36 Name="Blend functions" Offset="34" />
+		<_40 Name="Blend functions" type="slap" Offset="34" GUID="EA074FDC6140562432B325908954B4EB" StructName1="s_death_program_selector_velocity_gate" Min="0" Max="127" />
+		<_37 Name="" type="fgre" Offset="48" />
+		<_37 Name="Motor-driven-ragdoll" type="fgrb" Offset="48" />
+		<_15 Name="Keyframe threshold" Offset="48" />
+		<_37 Name="" type="fgre" Offset="4C" />
+		<_37 Name="Explosion-ragdoll" type="fgrb" Offset="4C" />
+		<_14 Name="explosion radius" Offset="4C" />
+		<_38 Name="explosion impulse curve" Offset="50" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_37 Name="" type="fgre" Offset="68" />
+	</_00044EBB500A180D9EBAFD18B940AA79>
+	<_EA074FDC6140562432B325908954B4EB Name="RagdollDeathBlendFunction" Size="24">
+		<_2 Name="name" Offset="0" />
+		<_F Name="flags" Offset="4" StructName1="PoweredRagdollBlendFlags">
+			<Flag n="affects translation" />
+			<Flag n="affects orientation" />
+		</_F>
+		<_34 Name="generated_pad9986" Offset="5" Length="3" />
+		<_38 Name="blend function" Offset="8" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_2 Name="ragdoll subgroup" Offset="20" />
+	</_EA074FDC6140562432B325908954B4EB>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

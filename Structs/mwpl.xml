@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="MaterialPalette" Parents="aTag" Index="-264">
+	<_7FBF4D213D59EFC24CBEF557A43C1E7A Name="MaterialPaletteTag" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="swatches" Offset="10" GUID="322145BD118D4EE27CCEF3DFACCEB6B0" StructName1="MaterialPaletteTag" Min="0" Max="2048" />
+		<_5 Name="Empty Swatch Index" Offset="24" />
+		<_34 Name="generated_pad0d32" Offset="26" Length="2" />
+	</_7FBF4D213D59EFC24CBEF557A43C1E7A>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_322145BD118D4EE27CCEF3DFACCEB6B0 Name="MaterialSwatchEntry" Size="38">
+		<_2 Name="name" Offset="0" />
+		<_41 Name="swatch" Offset="4" Allowed="mwsw" Flags="4" />
+		<_2 Name="color" type="sted" Offset="20" />
+		<_A Name="roughnessOverride" Offset="24" StructName1="MaterialRoughnessOverride">
+			<Flag n="-100%" />
+			<Flag n="-75%" />
+			<Flag n="-50%" />
+			<Flag n="-25%" />
+			<Flag n="Default" />
+			<Flag n="+25%" />
+			<Flag n="+50%" />
+			<Flag n="+75%" />
+			<Flag n="+100%" />
+		</_A>
+		<_34 Name="generated_pade215" Offset="25" Length="3" />
+		<_37 Name="Emissive" type="fgrb" Offset="28" />
+		<_14 Name="emissiveIntensity" Offset="28" />
+		<_14 Name="emissiveAmount" Offset="2C" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_2 Name="notes" Offset="30" />
+		<_2 Name="groupName" Offset="34" />
+	</_322145BD118D4EE27CCEF3DFACCEB6B0>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

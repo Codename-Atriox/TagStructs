@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="style" Parents="aTag" Index="-411" C="ai">
+	<_455644C8AC59B7DE8B74CD549268F008 Name="style_definition" Size="A0">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_0 Name="name" Offset="10" />
+		<_36 Name="Combat status decay options" Offset="30" />
+		<_B Name="Combat status decay options" Offset="30" StructName1="StyleCombatStatusDecay">
+			<Flag n="Latch at Idle" />
+			<Flag n="Latch at Alert" />
+			<Flag n="Latch at Combat" />
+		</_B>
+		<_34 Name="generated_padeb23" Offset="32" Length="2" />
+		<_36 Name="Style Behavior Control" Offset="34" />
+		<_D Name="Style control" Offset="34" StructName1="StyleControlFlags">
+			<Flag n="New behaviors default to ON" />
+			<Flag n="Do not force on default behaviors" />
+		</_D>
+		<_D Name="Behaviors1" type="dumb" Offset="38" StructName1="BehaviorFlagsSet1">
+			<Flag n="" />
+			<Flag n="root" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="guard" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="combat" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+		</_D>
+		<_D Name="Behaviors2" type="dumb" Offset="3C" StructName1="BehaviorFlagsSet2">
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+		</_D>
+		<_D Name="Behaviors3" type="dumb" Offset="40" StructName1="BehaviorFlagsSet3">
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+		</_D>
+		<_D Name="Behaviors4" type="dumb" Offset="44" StructName1="BehaviorFlagsSet4">
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+		</_D>
+		<_D Name="Behaviors5" type="dumb" Offset="48" StructName1="BehaviorFlagsSet5">
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+		</_D>
+		<_D Name="Behaviors6" type="dumb" Offset="4C" StructName1="BehaviorFlagsSet6">
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+		</_D>
+		<_D Name="Behaviors7" type="dumb" Offset="50" StructName1="BehaviorFlagsSet7">
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="patrol" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="engineer_explode" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+		</_D>
+		<_D Name="Behaviors8" type="dumb" Offset="54" StructName1="BehaviorFlagsSet8">
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="activity" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+		</_D>
+		<_D Name="Behaviors9" type="dumb" Offset="58" StructName1="BehaviorFlagsSet9">
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+		</_D>
+		<_D Name="Behaviors10" type="dumb" Offset="5C" StructName1="BehaviorFlagsSet10">
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+		</_D>
+		<_D Name="Behaviors11" type="dumb" Offset="60" StructName1="BehaviorFlagsSet11">
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="PatrolBehavior" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="ActionPointBehavior" />
+			<Flag n="TokenFight" />
+			<Flag n="TokenReserve" />
+			<Flag n="HoistAttack" />
+		</_D>
+		<_D Name="Behaviors12" type="dumb" Offset="64" StructName1="BehaviorFlagsSet12">
+			<Flag n="BraceForVehicleImpactBehavior" />
+			<Flag n="VehicleImpactSeq" />
+			<Flag n="BoardingBehavior" />
+			<Flag n="StuckWithGrenade" />
+			<Flag n="StuckWithGrenadeDiveImp" />
+			<Flag n="StaticFight" />
+			<Flag n="AcknowledgeNearestEnemyImp" />
+			<Flag n="PathToNearestEnemy" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+			<Flag n="" />
+		</_D>
+		<_D Name="Behaviors13" type="dumb" Offset="68" StructName1="BehaviorFlagsSet13" />
+		<_D Name="Behaviors14" type="dumb" Offset="6C" StructName1="BehaviorFlagsSet14" />
+		<_D Name="Behaviors15" type="dumb" Offset="70" StructName1="BehaviorFlagsSet15" />
+		<_D Name="Behaviors16" type="dumb" Offset="74" StructName1="BehaviorFlagsSet16" />
+		<_40 Name="Special movement" Offset="78" GUID="E49D42AB5AF312958B6B49C3A49A9DBC" StructName1="style_definition" Min="0" Max="1" />
+		<_40 Name="Behavior list" Offset="8C" GUID="71BE41353B1809CC42358E50A509EB0E" StructName1="style_definition" Min="0" Max="512" />
+	</_455644C8AC59B7DE8B74CD549268F008>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_E49D42AB5AF312958B6B49C3A49A9DBC Name="special_movement_definition" Size="4">
+		<_D Name="Special movement 1" Offset="0" StructName1="SpecialMovementFlags">
+			<Flag n="jump link" />
+			<Flag n="force walk link" />
+			<Flag n="force movement link" />
+			<Flag n="vehicle link" />
+			<Flag n="crouch link" />
+		</_D>
+	</_E49D42AB5AF312958B6B49C3A49A9DBC>
+	<_71BE41353B1809CC42358E50A509EB0E Name="style_behavior_name" Size="20">
+		<_0 Name="behavior name" Offset="0" />
+	</_71BE41353B1809CC42358E50A509EB0E>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

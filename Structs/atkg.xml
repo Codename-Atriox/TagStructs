@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="AnimTokenGlobals" Parents="aTag" Index="-30">
+	<_B0EF4DD7D0130B08AC29D80BB0DA92E4 Name="AnimTokenGlobalsTag" Size="40">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="channels" Offset="10" GUID="5D194D5AFB54B16AB052747FB5F249F7" StructName1="AnimTokenGlobalsTag" Min="0" Max="8" />
+		<_2 Name="Internal_StringEditorProxy" type="sted" Offset="24" />
+		<_2 Name="Internal_IntControlParameterNameStringEditorProxy" type="sted" Offset="28" />
+		<_2 Name="Internal_FloatControlParameterNameStringEditorProxy" type="sted" Offset="2C" />
+		<_2 Name="Internal_BoolControlParameterNameStringEditorProxy" type="sted" Offset="30" />
+		<_2 Name="Internal_StringControlParameterNameStringEditorProxy" type="sted" Offset="34" />
+		<_2 Name="Internal_VectorControlParameterNameStringEditorProxy" type="sted" Offset="38" />
+		<_34 Name="generated_padee72" Offset="3C" Length="4" />
+	</_B0EF4DD7D0130B08AC29D80BB0DA92E4>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_5D194D5AFB54B16AB052747FB5F249F7 Name="AnimChannelEntry" Size="4">
+		<_2 Name="channel" Offset="0" />
+	</_5D194D5AFB54B16AB052747FB5F249F7>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

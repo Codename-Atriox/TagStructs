@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="chroma_definition" Parents="aTag" Index="-58">
+	<_AFA68F879E102D2AB56E860EA362A40D Name="ChromaAnimationsDefinition" Size="A60">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_39 Name="event animations" Offset="10" GUID="7A8F73A68DA6F974CEE833B0D7E18E87" Count="15" StructName1="event animations" />
+	</_AFA68F879E102D2AB56E860EA362A40D>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_7A8F73A68DA6F974CEE833B0D7E18E87 Name="ChromaEventAnimation" Size="B0">
+		<_B Name="event" Offset="0" StructName1="i343::ChromaSupport::EventType">
+			<Flag n="Unsc Vehicle" />
+			<Flag n="Covenant Vehicle" />
+			<Flag n="Melee" />
+			<Flag n="Shield Break" />
+			<Flag n="Grapple Hook Deploy" />
+			<Flag n="Out Of Ammo" />
+			<Flag n="Boss Fight" />
+			<Flag n="Narrative" />
+			<Flag n="Player Death" />
+			<Flag n="Win" />
+			<Flag n="Loss" />
+			<Flag n="Idle" />
+			<Flag n="Graple Hook Pull" />
+			<Flag n="Grapple Hook Reel" />
+			<Flag n="Main Menu" />
+		</_B>
+		<_B Name="layering" Offset="2" StructName1="i343::ChromaSupport::Layering">
+			<Flag n="Opaque" />
+			<Flag n="Mix" />
+			<Flag n="Blend" />
+		</_B>
+		<_5 Name="priority" Offset="4" />
+		<_34 Name="generated_padd53a" Offset="6" Length="2" />
+		<_37 Name="files" type="fgrb" Offset="8" />
+		<_38 Name="event files" Offset="8" GUID="4227A299BEA956E477CDD080A11E5935" />
+		<_37 Name="" type="fgre" Offset="B0" />
+	</_7A8F73A68DA6F974CEE833B0D7E18E87>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_4227A299BEA956E477CDD080A11E5935 Name="ChromaEventDeviceFiles" Size="A8">
+		<_41 Name="keyboard file" Offset="0" Allowed="chrm" Flags="0" />
+		<_41 Name="mouse file" Offset="1C" Allowed="chrm" Flags="0" />
+		<_41 Name="headset file" Offset="38" Allowed="chrm" Flags="0" />
+		<_41 Name="keypad file" Offset="54" Allowed="chrm" Flags="0" />
+		<_41 Name="mousepad file" Offset="70" Allowed="chrm" Flags="0" />
+		<_41 Name="chromalink file" Offset="8C" Allowed="chrm" Flags="0" />
+	</_4227A299BEA956E477CDD080A11E5935>
+</root>

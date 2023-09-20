@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:58 PM" Name="lighting_settings" Parents="aTag" Index="-2">
+	<_841249828D0DD7BD5C526209805ADDDB Name="LightingSettings" Size="CA0">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_6 Name="Version" Offset="10" />
+		<_37 Name="GLOBAL QUALITY SETTINGS" type="fgrb" Offset="14" />
+		<_38 Name="Global lightmapper settings" Offset="14" GUID="E3064186A69EDA5BD06C222594E282A7" />
+		<_37 Name="" type="fgre" Offset="18" />
+		<_37 Name="RUNTIME SETTINGS" type="fgrb" Offset="18" />
+		<_38 Name="Runtime settings" Offset="18" GUID="88345A162838474E52EED8D592A64AA7" />
+		<_37 Name="" type="fgre" Offset="C54" />
+		<_38 Name="Indirect irradiance probe settings" Offset="C54" GUID="27BD468ECFBDCFEA672CEAB1851BEB00" />
+		<_34 Name="generated_pad54e9" Offset="C9C" Length="4" />
+	</_841249828D0DD7BD5C526209805ADDDB>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_E3064186A69EDA5BD06C222594E282A7 Name="LightingSettingsGlobal" Size="4">
+		<_D Name="Global flags" Offset="0" StructName1="c_lightmap_global_flags">
+			<Flag n="Is Farm Burn" />
+		</_D>
+	</_E3064186A69EDA5BD06C222594E282A7>
+	<_88345A162838474E52EED8D592A64AA7 Name="LightingSettingsRuntime" Size="C3C">
+		<_38 Name="visual environment" Offset="0" GUID="EF6EA54D9BFB6E4D55839E9759B8D3C1" />
+		<_37 Name="Cubemaps" type="fgrb" Offset="50" />
+		<_41 Name="Cubemap Texture" Offset="50" Allowed="bitm" Flags="0" />
+		<_17 Name="Cubemap Sample Position" Offset="6C" />
+		<_14 Name="Self-illum Scale Down" Offset="78" />
+		<_37 Name="" type="fgre" Offset="7C" />
+		<_37 Name="floating shadows" type="fgrb" Offset="7C" />
+		<_38 Name="floating shadow settings" Offset="7C" GUID="3F304C081F09F99AAA552F0AA8530F29" />
+		<_37 Name="" type="fgre" Offset="C3C" />
+	</_88345A162838474E52EED8D592A64AA7>
+	<_27BD468ECFBDCFEA672CEAB1851BEB00 Name="IndirectIrradianceProbeSettings" Size="48">
+		<_A Name="Auto-load neighboring BSPs" Offset="0" StructName1="AutoLoadNeighboringBSPsInBake">
+			<Flag n="Disabled" />
+			<Flag n="Enabled" />
+		</_A>
+		<_34 Name="generated_pad8dc5" Offset="1" Length="3" />
+		<_40 Name="Additional BSPs to load for baking" Offset="4" GUID="F6134487CC07589C1CA0C9D2AF2A090A" StructName1="IndirectIrradianceProbeSettings" Min="0" Max="8" />
+		<_40 Name="TOD Settings" Offset="18" GUID="DBE14B6F42FC47EE57E11F4D8DBB5A0E" StructName1="IndirectIrradianceProbeSettings" Min="0" Max="8" />
+		<_14 Name="Sky amplification factor" Offset="2C" />
+		<_14 Name="Bounce light amplification factor" Offset="30" />
+		<_14 Name="Probe XY spacing factor" Offset="34" />
+		<_14 Name="Probe Z spacing factor" Offset="38" />
+		<_A Name="Deferred reflections during bake" Offset="3C" StructName1="DeferredReflectionsInBake">
+			<Flag n="Disabled" />
+			<Flag n="Enabled" />
+		</_A>
+		<_A Name="Decorators during bake" Offset="3D" StructName1="DecoratorsInBake">
+			<Flag n="Disabled" />
+			<Flag n="Enabled" />
+		</_A>
+		<_34 Name="generated_pad73e4" Offset="3E" Length="2" />
+		<_14 Name="LOD scale during bake" Offset="40" />
+		<_6 Name="Maximum texture size during bake" Offset="44" />
+	</_27BD468ECFBDCFEA672CEAB1851BEB00>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_EF6EA54D9BFB6E4D55839E9759B8D3C1 Name="VisualEnvironment" Size="50">
+		<_41 Name="Camera Settings" Offset="0" Allowed="cfxs" Flags="0" />
+		<_41 Name="Fog Settings" Offset="1C" Allowed="fogg" Flags="0" />
+		<_38 Name="Custom Object Lighting" Offset="38" GUID="71CD349453C7719127414A7DD50E7289" />
+	</_EF6EA54D9BFB6E4D55839E9759B8D3C1>
+	<_3F304C081F09F99AAA552F0AA8530F29 Name="FloatingShadowSettings" Size="BC0">
+		<_38 Name="number of cascades" Offset="0" GUID="C58E5A9788041CA7D827460BF171E0A9" />
+		<_38 Name="quality" Offset="11" GUID="FA51EA22198BCA1BA156B3AFA86915E6" />
+		<_34 Name="generated_pad30c7" Offset="15" Length="3" />
+		<_14 Name="cascade overlap" Offset="18" />
+		<_14 Name="min shadow caster pixel radius" Offset="1C" />
+		<_37 Name="PCSS Settings" type="fgrb" Offset="20" />
+		<_14 Name="PCSS Light Size" Offset="20" />
+		<_14 Name="PCSS Maximum Filter Width" Offset="24" />
+		<_14 Name="Ray Tracing Shadow Sun Cone Angle" Offset="28" />
+		<_37 Name="" type="fgre" Offset="2C" />
+		<_39 Name="Dynamic Cascades" Offset="2C" GUID="BF404DB2B53B3A916570A7D489CA7210" Count="6" StructName1="Dynamic Cascades" />
+		<_6 Name="Number of Parallax Sampling Steps" Offset="BB4" />
+		<_14 Name="Sun Direction Parallax Sampling Weight" Offset="BB8" />
+		<_14 Name="First-Person Additional Depth Bias" Offset="BBC" />
+	</_3F304C081F09F99AAA552F0AA8530F29>
+	<_F6134487CC07589C1CA0C9D2AF2A090A Name="LightingSettingsAdditionalBSP" Size="1C">
+		<_41 Name="BSP reference" Offset="0" Allowed="sbsp" Flags="2" />
+	</_F6134487CC07589C1CA0C9D2AF2A090A>
+	<_DBE14B6F42FC47EE57E11F4D8DBB5A0E Name="IndirectIrradianceTODSettings" Size="C">
+		<_2 Name="DWS event list to apply for baking" Offset="0" />
+		<_2 Name="DWS state to apply for baking" Offset="4" />
+		<_A Name="Lights on during bake" Offset="8" StructName1="DynamicLightsInBake">
+			<Flag n="Disabled" />
+			<Flag n="Enabled" />
+		</_A>
+		<_A Name="Emissive material on during bake" Offset="9" StructName1="EmissiveMaterialsInBake">
+			<Flag n="Disabled" />
+			<Flag n="Enabled" />
+		</_A>
+		<_34 Name="generated_pad89a2" Offset="A" Length="2" />
+	</_DBE14B6F42FC47EE57E11F4D8DBB5A0E>
+	<_71CD349453C7719127414A7DD50E7289 Name="CustomObjectLighting" Size="18">
+		<_36 Name="Character Lighting" Offset="0" />
+		<_40 Name="Authored Light Probes" Offset="0" GUID="5A0DE5691202400EF0D5DF9AE696EA15" StructName1="CustomObjectLighting" Min="0" Max="4" />
+		<_A Name="Is Camera-space" Offset="14" StructName1="LightBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_A>
+		<_34 Name="generated_pad79fe" Offset="15" Length="3" />
+	</_71CD349453C7719127414A7DD50E7289>
+	<_C58E5A9788041CA7D827460BF171E0A9 Name="SpecControlNodeByteExact" Size="11">
+		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
+			<Flag n="Default" />
+			<Flag n="Sync" />
+			<Flag n="HDR" />
+			<Flag n="Reflections" />
+			<Flag n="VolumetricFog" />
+			<Flag n="Shadows" />
+			<Flag n="Sky" />
+			<Flag n="TAA" />
+			<Flag n="Ambient Occlusion" />
+			<Flag n="DOF" />
+			<Flag n="Aniso" />
+			<Flag n="Terrain" />
+			<Flag n="Tesselation" />
+			<Flag n="Lighting" />
+			<Flag n="Decorators" />
+			<Flag n="Asset Category" />
+			<Flag n="Dynamic Wind" />
+			<Flag n="Push Bending" />
+			<Flag n="Hlod" />
+			<Flag n="Visual Damage" />
+			<Flag n="Virtual Texturing" />
+			<Flag n="Effects" />
+			<Flag n="Emblem Quality" />
+			<Flag n="Texture Quality" />
+			<Flag n="Decals" />
+		</_A>
+		<_38 Name="Low" Offset="1" GUID="8078F92EF0D329B6F2A2714BAD87BA46" />
+		<_38 Name="Medium" Offset="5" GUID="8078F92EF0D329B6F2A2714BAD87BA46" />
+		<_38 Name="High" Offset="9" GUID="8078F92EF0D329B6F2A2714BAD87BA46" />
+		<_38 Name="Ultra" Offset="D" GUID="8078F92EF0D329B6F2A2714BAD87BA46" />
+	</_C58E5A9788041CA7D827460BF171E0A9>
+	<_FA51EA22198BCA1BA156B3AFA86915E6 Name="SpecControlNodeShadowQuality" Size="4">
+		<_A Name="Low" Offset="0" StructName1="FloatingShadowQualityDefinition">
+			<Flag n="8 tap" />
+			<Flag n="12 tap" />
+			<Flag n="6 tap" />
+			<Flag n="PCSS Low Quality" />
+			<Flag n="PCSS Medium Quality" />
+			<Flag n="PCSS High Quality" />
+		</_A>
+		<_A Name="Medium" Offset="1" StructName1="FloatingShadowQualityDefinition">
+			<Flag n="8 tap" />
+			<Flag n="12 tap" />
+			<Flag n="6 tap" />
+			<Flag n="PCSS Low Quality" />
+			<Flag n="PCSS Medium Quality" />
+			<Flag n="PCSS High Quality" />
+		</_A>
+		<_A Name="High" Offset="2" StructName1="FloatingShadowQualityDefinition">
+			<Flag n="8 tap" />
+			<Flag n="12 tap" />
+			<Flag n="6 tap" />
+			<Flag n="PCSS Low Quality" />
+			<Flag n="PCSS Medium Quality" />
+			<Flag n="PCSS High Quality" />
+		</_A>
+		<_A Name="Ultra" Offset="3" StructName1="FloatingShadowQualityDefinition">
+			<Flag n="8 tap" />
+			<Flag n="12 tap" />
+			<Flag n="6 tap" />
+			<Flag n="PCSS Low Quality" />
+			<Flag n="PCSS Medium Quality" />
+			<Flag n="PCSS High Quality" />
+		</_A>
+	</_FA51EA22198BCA1BA156B3AFA86915E6>
+	<_BF404DB2B53B3A916570A7D489CA7210 Name="FloatingShadowCascadeSettings" Size="1EC">
+		<_37 Name="CASCADE" type="fgrb" Offset="0" />
+		<_38 Name="cascade half-width" Offset="0" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
+		<_14 Name="bias" Offset="44" />
+		<_38 Name="filter width" Offset="48" GUID="41265BA612365AB514265AE852165FA7" />
+		<_38 Name="resolution" Offset="74" GUID="1AC8AEE1B251D6AAACBA41E11824A15B" />
+		<_C Name="resolution scalar for raytracing" Offset="A0" StructName1="FloatingShadowCascadeResolutionScalar">
+			<Flag n="FullSize" />
+			<Flag n="HalfSize" />
+			<Flag n="QuarterSize" />
+		</_C>
+		<_E Name="flags" Offset="A4" StructName1="FloatingShadowCascadeSettingsFlags">
+			<Flag n="Enable parallax corrected interpolation" />
+			<Flag n="Center cascade around camera" />
+		</_E>
+		<_38 Name="DisableDynamicObjectShadows" Offset="A6" GUID="9845E179FB0D9C0F04684ED9954B8BF1" />
+		<_38 Name="isLowFrequency" Offset="B7" GUID="9845E179FB0D9C0F04684ED9954B8BF1" />
+		<_14 Name="Interpolation occluder search step" Offset="C8" />
+		<_38 Name="Minimum Shadow Caster Static Geo Bounding Sphere Radius" Offset="CC" GUID="41265BA612365AB514265AE852165FA7" />
+		<_38 Name="Minimum Shadow Caster Dynamic Object Bounding Sphere Radius" Offset="F8" GUID="41265BA612365AB514265AE852165FA7" />
+		<_38 Name="Shadow Caster LOD Bias" Offset="124" GUID="1AC8AEE1B251D6AAACBA41E11824A15B" />
+		<_38 Name="Force shadow LOD. 0 = Use default behavior, 1 = Force lowest LOD, 2 = Next higher LOD, and so forth." Offset="150" GUID="1AC8AEE1B251D6AAACBA41E11824A15B" />
+		<_38 Name="HexGrid shadows. 0 = render as hexes, 1 = render simplified, anything else = disable hex shadows" Offset="17C" GUID="1AC8AEE1B251D6AAACBA41E11824A15B" />
+		<_38 Name="PCSS Minimum Filter Width" Offset="1A8" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
+		<_37 Name="" type="fgre" Offset="1EC" />
+	</_BF404DB2B53B3A916570A7D489CA7210>
+	<_5A0DE5691202400EF0D5DF9AE696EA15 Name="AuthoredLightProbe" Size="10C">
+		<_40 Name="Lights" Offset="0" GUID="E1B9C6ADC2EA80AD79A6A3FF667ED3BE" StructName1="AuthoredLightProbe" Min="0" Max="1" />
+		<_37 Name="Generated Air Probe Intensity Scale" type="sled" Offset="14" Float1="0" Max="1" Min="0.01" Float4="0" />
+		<_14 Name="Generated Air Probe Intensity Scale" type="sled" Offset="14" />
+		<_39 Name="raw sh data" Offset="18" GUID="E49BA421E8F859140B6D71111216AB74" Count="27" StructName1="raw sh data" />
+		<_39 Name="per frame sh data" Offset="84" GUID="E49BA421E8F859140B6D71111216AB74" Count="27" StructName1="per frame sh data" />
+		<_17 Name="Sun Color" Offset="F0" />
+		<_17 Name="Cubemap Scale" Offset="FC" />
+		<_36 Name="" Offset="108" />
+		<_E Name="Flags" Offset="108" StructName1="AuthoredLightProbeFlags">
+			<Flag n="Characters" />
+			<Flag n="First Person Geometry" />
+			<Flag n="Vehicles" />
+		</_E>
+		<_34 Name="generated_padb28a" Offset="10A" Length="2" />
+	</_5A0DE5691202400EF0D5DF9AE696EA15>
+	<_8078F92EF0D329B6F2A2714BAD87BA46 Name="SpecControlSplitscreenValuesByte" Size="4">
+		<_3C Name="Single Player" Offset="0" />
+		<_3C Name="2 Player Splitscreen" Offset="1" />
+		<_3C Name="3 Player Splitscreen" Offset="2" />
+		<_3C Name="4 Player Splitscreen" Offset="3" />
+	</_8078F92EF0D329B6F2A2714BAD87BA46>
+	<_97B1869D8D63F754A21F0D593E02B7F1 Name="SpecControlNodeFloatExact" Size="44">
+		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
+			<Flag n="Default" />
+			<Flag n="Sync" />
+			<Flag n="HDR" />
+			<Flag n="Reflections" />
+			<Flag n="VolumetricFog" />
+			<Flag n="Shadows" />
+			<Flag n="Sky" />
+			<Flag n="TAA" />
+			<Flag n="Ambient Occlusion" />
+			<Flag n="DOF" />
+			<Flag n="Aniso" />
+			<Flag n="Terrain" />
+			<Flag n="Tesselation" />
+			<Flag n="Lighting" />
+			<Flag n="Decorators" />
+			<Flag n="Asset Category" />
+			<Flag n="Dynamic Wind" />
+			<Flag n="Push Bending" />
+			<Flag n="Hlod" />
+			<Flag n="Visual Damage" />
+			<Flag n="Virtual Texturing" />
+			<Flag n="Effects" />
+			<Flag n="Emblem Quality" />
+			<Flag n="Texture Quality" />
+			<Flag n="Decals" />
+		</_A>
+		<_34 Name="generated_pad4417" Offset="1" Length="3" />
+		<_38 Name="Low" Offset="4" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
+		<_38 Name="Medium" Offset="14" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
+		<_38 Name="High" Offset="24" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
+		<_38 Name="Ultra" Offset="34" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
+	</_97B1869D8D63F754A21F0D593E02B7F1>
+	<_41265BA612365AB514265AE852165FA7 Name="SpecControlNodeFloat" Size="2C">
+		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
+			<Flag n="Default" />
+			<Flag n="Sync" />
+			<Flag n="HDR" />
+			<Flag n="Reflections" />
+			<Flag n="VolumetricFog" />
+			<Flag n="Shadows" />
+			<Flag n="Sky" />
+			<Flag n="TAA" />
+			<Flag n="Ambient Occlusion" />
+			<Flag n="DOF" />
+			<Flag n="Aniso" />
+			<Flag n="Terrain" />
+			<Flag n="Tesselation" />
+			<Flag n="Lighting" />
+			<Flag n="Decorators" />
+			<Flag n="Asset Category" />
+			<Flag n="Dynamic Wind" />
+			<Flag n="Push Bending" />
+			<Flag n="Hlod" />
+			<Flag n="Visual Damage" />
+			<Flag n="Virtual Texturing" />
+			<Flag n="Effects" />
+			<Flag n="Emblem Quality" />
+			<Flag n="Texture Quality" />
+			<Flag n="Decals" />
+		</_A>
+		<_34 Name="generated_padf78c" Offset="1" Length="3" />
+		<_D Name="Flags" Offset="4" StructName1="SpecControlNodeOverrideFlags">
+			<Flag n="Override Input" />
+		</_D>
+		<_14 Name="Input" Offset="8" />
+		<_14 Name="Low" Offset="C" />
+		<_14 Name="Medium" Offset="10" />
+		<_14 Name="High" Offset="14" />
+		<_14 Name="Ultra" Offset="18" />
+		<_A Name="Splitscreen Logic" Offset="1C" StructName1="i343::SpecControl::SplitScreenLogicType">
+			<Flag n="Off" />
+			<Flag n="Multiply" />
+			<Flag n="Add" />
+		</_A>
+		<_34 Name="generated_pad116d" Offset="1D" Length="3" />
+		<_14 Name="2 Player Splitscreen" Offset="20" />
+		<_14 Name="3 Player Splitscreen" Offset="24" />
+		<_14 Name="4 Player Splitscreen" Offset="28" />
+	</_41265BA612365AB514265AE852165FA7>
+	<_1AC8AEE1B251D6AAACBA41E11824A15B Name="SpecControlNodeShort" Size="2C">
+		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
+			<Flag n="Default" />
+			<Flag n="Sync" />
+			<Flag n="HDR" />
+			<Flag n="Reflections" />
+			<Flag n="VolumetricFog" />
+			<Flag n="Shadows" />
+			<Flag n="Sky" />
+			<Flag n="TAA" />
+			<Flag n="Ambient Occlusion" />
+			<Flag n="DOF" />
+			<Flag n="Aniso" />
+			<Flag n="Terrain" />
+			<Flag n="Tesselation" />
+			<Flag n="Lighting" />
+			<Flag n="Decorators" />
+			<Flag n="Asset Category" />
+			<Flag n="Dynamic Wind" />
+			<Flag n="Push Bending" />
+			<Flag n="Hlod" />
+			<Flag n="Visual Damage" />
+			<Flag n="Virtual Texturing" />
+			<Flag n="Effects" />
+			<Flag n="Emblem Quality" />
+			<Flag n="Texture Quality" />
+			<Flag n="Decals" />
+		</_A>
+		<_34 Name="generated_pad07fc" Offset="1" Length="3" />
+		<_D Name="Flags" Offset="4" StructName1="SpecControlNodeOverrideFlags">
+			<Flag n="Override Input" />
+		</_D>
+		<_5 Name="Input" Offset="8" />
+		<_34 Name="generated_pad21dd" Offset="A" Length="2" />
+		<_14 Name="Low" Offset="C" />
+		<_14 Name="Medium" Offset="10" />
+		<_14 Name="High" Offset="14" />
+		<_14 Name="Ultra" Offset="18" />
+		<_A Name="Splitscreen Logic" Offset="1C" StructName1="i343::SpecControl::SplitScreenLogicType">
+			<Flag n="Off" />
+			<Flag n="Multiply" />
+			<Flag n="Add" />
+		</_A>
+		<_34 Name="generated_pad6e92" Offset="1D" Length="3" />
+		<_14 Name="2 Player Splitscreen" Offset="20" />
+		<_14 Name="3 Player Splitscreen" Offset="24" />
+		<_14 Name="4 Player Splitscreen" Offset="28" />
+	</_1AC8AEE1B251D6AAACBA41E11824A15B>
+	<_9845E179FB0D9C0F04684ED9954B8BF1 Name="SpecControlNodeBoolExact" Size="11">
+		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
+			<Flag n="Default" />
+			<Flag n="Sync" />
+			<Flag n="HDR" />
+			<Flag n="Reflections" />
+			<Flag n="VolumetricFog" />
+			<Flag n="Shadows" />
+			<Flag n="Sky" />
+			<Flag n="TAA" />
+			<Flag n="Ambient Occlusion" />
+			<Flag n="DOF" />
+			<Flag n="Aniso" />
+			<Flag n="Terrain" />
+			<Flag n="Tesselation" />
+			<Flag n="Lighting" />
+			<Flag n="Decorators" />
+			<Flag n="Asset Category" />
+			<Flag n="Dynamic Wind" />
+			<Flag n="Push Bending" />
+			<Flag n="Hlod" />
+			<Flag n="Visual Damage" />
+			<Flag n="Virtual Texturing" />
+			<Flag n="Effects" />
+			<Flag n="Emblem Quality" />
+			<Flag n="Texture Quality" />
+			<Flag n="Decals" />
+		</_A>
+		<_38 Name="Low" Offset="1" GUID="2945F447027B04468D896F1523DC6254" />
+		<_38 Name="Medium" Offset="5" GUID="2945F447027B04468D896F1523DC6254" />
+		<_38 Name="High" Offset="9" GUID="2945F447027B04468D896F1523DC6254" />
+		<_38 Name="Ultra" Offset="D" GUID="2945F447027B04468D896F1523DC6254" />
+	</_9845E179FB0D9C0F04684ED9954B8BF1>
+	<_E1B9C6ADC2EA80AD79A6A3FF667ED3BE Name="AuthoredLightProbeLights" Size="68">
+		<_37 Name="Authored Light Probe" type="aulp" Offset="0" />
+		<_37 Name="Direction 1" type="sled" Offset="0" Float1="0" Max="360" Min="1" Float4="0" />
+		<_14 Name="Direction 1" type="sled" Offset="0" />
+		<_37 Name="Front-Back 1" type="sled" Offset="4" Float1="0" Max="180" Min="1" Float4="0" />
+		<_14 Name="Front-Back 1" type="sled" Offset="4" />
+		<_1F Name="Direct color 1" Offset="8" />
+		<_37 Name="Direct intensity 1" type="sled" Offset="14" Float1="0" Max="1" Min="0.01" Float4="0" />
+		<_14 Name="Direct intensity 1" type="sled" Offset="14" />
+		<_37 Name="Direction 2" type="sled" Offset="18" Float1="0" Max="360" Min="1" Float4="0" />
+		<_14 Name="Direction 2" type="sled" Offset="18" />
+		<_37 Name="Front-Back 2" type="sled" Offset="1C" Float1="0" Max="180" Min="1" Float4="0" />
+		<_14 Name="Front-Back 2" type="sled" Offset="1C" />
+		<_1F Name="Direct color 2" Offset="20" />
+		<_37 Name="Direct intensity 2" type="sled" Offset="2C" Float1="0" Max="1" Min="0.01" Float4="0" />
+		<_14 Name="Direct intensity 2" type="sled" Offset="2C" />
+		<_1F Name="Ambient Color" Offset="30" />
+		<_37 Name="Ambient intensity" type="sled" Offset="3C" Float1="0" Max="1" Min="0.01" Float4="0" />
+		<_14 Name="Ambient intensity" type="sled" Offset="3C" />
+		<_1F Name="Sun Color" Offset="40" />
+		<_37 Name="Sun intensity" type="sled" Offset="4C" Float1="0" Max="1" Min="0.01" Float4="0" />
+		<_14 Name="Sun intensity" type="sled" Offset="4C" />
+		<_1F Name="Cubemap Scale Color" Offset="50" />
+		<_37 Name="Cubemap Scale intensity" type="sled" Offset="5C" Float1="0" Max="1" Min="0.01" Float4="0" />
+		<_14 Name="Cubemap Scale intensity" type="sled" Offset="5C" />
+		<_37 Name="Authored Light Probe Intensity Scale" type="sled" Offset="60" Float1="0" Max="10" Min="0.2" Float4="0" />
+		<_14 Name="Authored Light Probe Intensity Scale" type="sled" Offset="60" />
+		<_37 Name="Generated Air Probe Intensity Scale" type="sled" Offset="64" Float1="0" Max="10" Min="0.2" Float4="0" />
+		<_14 Name="Generated Air Probe Intensity Scale" type="sled" Offset="64" />
+	</_E1B9C6ADC2EA80AD79A6A3FF667ED3BE>
+	<_E49BA421E8F859140B6D71111216AB74 Name="RGBLightprobe" Size="4">
+		<_14 Name="sh data" Offset="0" />
+	</_E49BA421E8F859140B6D71111216AB74>
+	<_0B69E7FC16240A124EB051BE14E7BFC5 Name="SpecControlSplitscreenValuesFloat" Size="10">
+		<_14 Name="Single Player" Offset="0" />
+		<_14 Name="2 Player Splitscreen" Offset="4" />
+		<_14 Name="3 Player Splitscreen" Offset="8" />
+		<_14 Name="4 Player Splitscreen" Offset="C" />
+	</_0B69E7FC16240A124EB051BE14E7BFC5>
+	<_2945F447027B04468D896F1523DC6254 Name="SpecControlSplitscreenValuesBool" Size="4">
+		<_F Name="Single Player" Offset="0" StructName1="SpecControlNodeBoolExactFlags">
+			<Flag n="True" />
+		</_F>
+		<_F Name="2 Player Splitscreen" Offset="1" StructName1="SpecControlNodeBoolExactFlags">
+			<Flag n="True" />
+		</_F>
+		<_F Name="3 Player Splitscreen" Offset="2" StructName1="SpecControlNodeBoolExactFlags">
+			<Flag n="True" />
+		</_F>
+		<_F Name="4 Player Splitscreen" Offset="3" StructName1="SpecControlNodeBoolExactFlags">
+			<Flag n="True" />
+		</_F>
+	</_2945F447027B04468D896F1523DC6254>
+</root>

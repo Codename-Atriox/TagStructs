@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="terrain_system" Parents="aTag" Index="-434">
+	<_40C641858F09F35ED1CE3590BF468135 Name="i343::TerrainSystemTag" Size="2A8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_1 Name="name" Offset="10" />
+		<_19 Name="position" Offset="110" />
+		<_18 Name="terrain size" Offset="11C" />
+		<_14 Name="terrain height" Offset="124" />
+		<_3E Name="Tile X Count" Offset="128" />
+		<_3E Name="Tile Y Count" Offset="12C" />
+		<_40 Name="Tiles" Offset="130" GUID="EEA34CABDD28036DDE31565CADF285E9" StructName1="i343::TerrainSystemTag" Min="0" Max="1024" />
+		<_40 Name="Shared Parameters" Offset="144" GUID="3E85466591856061F2A997648C4777C3" StructName1="i343::TerrainSystemTag" Min="0" Max="64" />
+		<_40 Name="Source Texture Settings" Offset="158" GUID="5F65C539C52D7818891C4EF7F27C9671" StructName1="i343::TerrainSystemTag" Min="0" Max="256" />
+		<_40 Name="Intermediate Texture Settings" Offset="16C" GUID="5F65C539C52D7818891C4EF7F27C9671" StructName1="i343::TerrainSystemTag" Min="0" Max="256" />
+		<_41 Name="Sculpt Graph" Offset="180" Allowed="rgrf" Flags="0" />
+		<_41 Name="GPU Surfacing Graph" Offset="19C" Allowed="sgct" Flags="0" />
+		<_41 Name="Render Material" Offset="1B8" Allowed="mat " Flags="8" />
+		<_41 Name="Masks Composite Material" Offset="1D4" Allowed="mat " Flags="8" />
+		<_14 Name="Macro Color Near Distance" Offset="1F0" />
+		<_14 Name="Macro Color Far Distance" Offset="1F4" />
+		<_14 Name="Macro Color Near Opacity" Offset="1F8" />
+		<_14 Name="Macro Color Far Opacity" Offset="1FC" />
+		<_38 Name="Micro Height Vertex Density" Offset="200" GUID="DD0A4D59ABB101C1A97400168EF8841E" />
+		<_38 Name="Micro Height Radius" Offset="240" GUID="DD0A4D59ABB101C1A97400168EF8841E" />
+		<_38 Name="Micro Height Mip Level" Offset="280" GUID="D5A456AA566FC2EA11B8AE8756453DBA" />
+		<_14 Name="Micro Height Scale" Offset="29C" />
+		<_D Name="Flags" Offset="2A0" StructName1="i343::TerrainFlags">
+			<Flag n="Enable Erosion" />
+		</_D>
+		<_34 Name="generated_pad544d" Offset="2A4" Length="4" />
+	</_40C641858F09F35ED1CE3590BF468135>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_EEA34CABDD28036DDE31565CADF285E9 Name="i343::TerrainTileReference" Size="1C">
+		<_41 Name="Tile" Offset="0" Allowed="trtl" Flags="0" />
+	</_EEA34CABDD28036DDE31565CADF285E9>
+	<_3E85466591856061F2A997648C4777C3 Name="i343::Graphics::RenderGraph::ParameterDefinitionB" Size="54">
+		<_38 Name="Parameter" Offset="0" GUID="99F149216967F6C06615190E816B1BE0" />
+	</_3E85466591856061F2A997648C4777C3>
+	<_5F65C539C52D7818891C4EF7F27C9671 Name="i343::TerrainTextureSettings" Size="C">
+		<_2 Name="Surface Id" Offset="0" />
+		<_3E Name="Texel Density" Offset="4" />
+		<_D Name="Flags" Offset="8" StructName1="i343::TerrainTextureSettingsFlags">
+			<Flag n="Disabled" />
+			<Flag n="Can Edit" />
+		</_D>
+	</_5F65C539C52D7818891C4EF7F27C9671>
+	<_DD0A4D59ABB101C1A97400168EF8841E Name="s_splitscreen_spec_control_setting_float" Size="40">
+		<_37 Name="Single Player" type="fgrb" Offset="0" />
+		<_38 Name="Single Player" Offset="0" GUID="4F624FA2E02C056B51BB16EF860CDF99" />
+		<_37 Name="" type="fgre" Offset="10" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="10" />
+		<_38 Name="2 Player Splitscreen" Offset="10" GUID="4F624FA2E02C056B51BB16EF860CDF99" />
+		<_37 Name="" type="fgre" Offset="20" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="20" />
+		<_38 Name="3 Player Splitscreen" Offset="20" GUID="4F624FA2E02C056B51BB16EF860CDF99" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="30" />
+		<_38 Name="4 Player Splitscreen" Offset="30" GUID="4F624FA2E02C056B51BB16EF860CDF99" />
+		<_37 Name="" type="fgre" Offset="40" />
+	</_DD0A4D59ABB101C1A97400168EF8841E>
+	<_D5A456AA566FC2EA11B8AE8756453DBA Name="s_basic_spec_control_setting_int" Size="1C">
+		<_6 Name="Low" Offset="0" />
+		<_6 Name="Medium" Offset="4" />
+		<_6 Name="High" Offset="8" />
+		<_6 Name="Ultra" Offset="C" />
+		<_14 Name="2 Player Splitscreen" Offset="10" />
+		<_14 Name="3 Player Splitscreen" Offset="14" />
+		<_14 Name="4 Player Splitscreen" Offset="18" />
+	</_D5A456AA566FC2EA11B8AE8756453DBA>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_99F149216967F6C06615190E816B1BE0 Name="i343::Graphics::RenderGraph::ParameterDefinition" Size="54">
+		<_2 Name="Name" Offset="0" />
+		<_C Name="Type" Offset="4" StructName1="i343::Graphics::RenderGraph::ParameterType">
+			<Flag n="None" />
+			<Flag n="Any" />
+			<Flag n="Boolean" />
+			<Flag n="Integer" />
+			<Flag n="Float" />
+			<Flag n="Float2" />
+			<Flag n="Float3" />
+			<Flag n="Float4" />
+			<Flag n="Material" />
+			<Flag n="MaterialPreset" />
+			<Flag n="RenderGraph" />
+			<Flag n="Buffer" />
+			<Flag n="Surface" />
+			<Flag n="DataBlob" />
+			<Flag n="Viewport" />
+			<Flag n="Rect" />
+			<Flag n="DrawParameters" />
+			<Flag n="DispatchParameters" />
+			<Flag n="SamplerStateView" />
+			<Flag n="TerrainChunk" />
+			<Flag n="DrawableList" />
+			<Flag n="TextureDataPath" />
+		</_C>
+		<_6 Name="Int" Offset="8" />
+		<_14 Name="Float" Offset="C" />
+		<_19 Name="Float3" Offset="10" />
+		<_41 Name="Tag" Offset="1C" Allowed="mat , matp, rgrf, bitm, tif*" Flags="0" />
+		<_42 Name="DataPath" Offset="38" StructName1="i343::Graphics::RenderGraph::ParameterDefinition.DataPath" Int1="34" Int2="0" Flags="104" />
+		<_2 Name="String" Offset="50" />
+	</_99F149216967F6C06615190E816B1BE0>
+	<_4F624FA2E02C056B51BB16EF860CDF99 Name="s_core_spec_control_setting_float" Size="10">
+		<_14 Name="Low" Offset="0" />
+		<_14 Name="Medium" Offset="4" />
+		<_14 Name="High" Offset="8" />
+		<_14 Name="Ultra" Offset="C" />
+	</_4F624FA2E02C056B51BB16EF860CDF99>
+</root>

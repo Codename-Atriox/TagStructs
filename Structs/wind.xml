@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:22 PM" Name="wind" Parents="aTag" Index="-481">
+	<_390345454F54D275B8647BC2A099DD8C Name="s_wind_definition" Size="108">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="WIND DIRECTION" Offset="10" />
+		<_18 Name="wind_direction_radian" Offset="10" />
+		<_38 Name="speed" Offset="18" GUID="BDE74B5EC19F77F7198FA328A4BA598F" />
+		<_36 Name="DECORATOR WIND MOTION" Offset="30" />
+		<_38 Name="bend" Offset="30" GUID="BDE74B5EC19F77F7198FA328A4BA598F" />
+		<_38 Name="oscillation" Offset="48" GUID="BDE74B5EC19F77F7198FA328A4BA598F" />
+		<_14 Name="gust size" Offset="60" />
+		<_41 Name="gust noise bitmap" Offset="64" Allowed="bitm" Flags="0" />
+		<_14 Name="cloud influence" Offset="80" />
+		<_14 Name="fog influence" Offset="84" />
+		<_14 Name="materials speed influence" Offset="88" />
+		<_38 Name="materials gust breakup" Offset="8C" GUID="BDE74B5EC19F77F7198FA328A4BA598F" />
+		<_38 Name="materials gust strength" Offset="A4" GUID="BDE74B5EC19F77F7198FA328A4BA598F" />
+		<_38 Name="materials world uv max x" Offset="BC" GUID="BDE74B5EC19F77F7198FA328A4BA598F" />
+		<_38 Name="materials world uv max y" Offset="D4" GUID="BDE74B5EC19F77F7198FA328A4BA598F" />
+		<_38 Name="materials world uv max z" Offset="EC" GUID="BDE74B5EC19F77F7198FA328A4BA598F" />
+		<_34 Name="generated_padb4ac" Offset="104" Length="4" />
+	</_390345454F54D275B8647BC2A099DD8C>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_BDE74B5EC19F77F7198FA328A4BA598F Name="s_wind_function" Size="18">
+		<_37 Name="Mapping" type="fned" Offset="0" />
+		<_38 Name="Mapping" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_BDE74B5EC19F77F7198FA328A4BA598F>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

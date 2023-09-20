@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="ForgeObjectScriptPropertyMenuItemDefinitions" Parents="aTag" Index="-163">
+	<_0CAC45DA2C98429D8AD58B7594CD852D Name="ForgeEngine::ForgeObjectScriptPropertyMenuItemDefinitionCollection" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Menu Item Definitions" Offset="10" GUID="44764E5DB28DFED634B4CDB3A0CBC159" StructName1="ForgeEngine::ForgeObjectScriptPropertyMenuItemDefinitionCollection" Min="0" Max="128" />
+		<_34 Name="generated_pad82b6" Offset="24" Length="4" />
+	</_0CAC45DA2C98429D8AD58B7594CD852D>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_44764E5DB28DFED634B4CDB3A0CBC159 Name="ForgeEngine::ForgeObjectScriptPropertyMenuItemDefinition" Size="144">
+		<_2 Name="Property" Offset="0" />
+		<_2 Name="Title" Offset="4" />
+		<_2 Name="Description" Offset="8" />
+		<_1 Name="Property Name Literal" Offset="C" />
+		<_B Name="Value Type" Offset="10C" StructName1="ForgeEngine::ForgeObjectScriptPropertyValueType">
+			<Flag n="None" />
+			<Flag n="Bool" />
+			<Flag n="Float" />
+			<Flag n="Vector" />
+			<Flag n="Color" />
+			<Flag n="String" />
+			<Flag n="Tag" />
+			<Flag n="CustomString" />
+		</_B>
+		<_34 Name="generated_pad36ce" Offset="10E" Length="2" />
+		<_14 Name="Float Min" Offset="110" />
+		<_14 Name="Float Max" Offset="114" />
+		<_14 Name="Float Step" Offset="118" />
+		<_2 Name="String List" type="sted" Offset="11C" />
+		<_40 Name="Strings" Offset="120" GUID="8BB048F96454C3B024B7F4B8B3979807" StructName1="ForgeEngine::ForgeObjectScriptPropertyMenuItemDefinition" Min="0" Max="32" />
+		<_2 Name="Callback Name" Offset="134" />
+		<_2 Name="Submenu Id" Offset="138" />
+		<_2 Name="Submenu Description" Offset="13C" />
+		<_F Name="Forge Boolean Flags" Offset="140" StructName1="ForgeEngine::ForgeBooleanFlag">
+			<Flag n="IsHidden" />
+		</_F>
+		<_34 Name="generated_pad8383" Offset="141" Length="3" />
+	</_44764E5DB28DFED634B4CDB3A0CBC159>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_8BB048F96454C3B024B7F4B8B3979807 Name="ForgeEngine::ForgeObjectScriptPropertyMenuItemString" Size="104">
+		<_2 Name="String" Offset="0" />
+		<_1 Name="String Literal" Offset="4" />
+	</_8BB048F96454C3B024B7F4B8B3979807>
+</root>

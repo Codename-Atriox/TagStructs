@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="ConversationTypes" Parents="aTag" Index="-72" C="narrative">
+	<_AAF74530AC647FBC7C84F8F8AF1A41E2 Name="i343::Narrative::ConversationTypesTag" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Type Items" Offset="10" GUID="D69F42F265FDE124320375FEA7C59C74" StructName1="i343::Narrative::ConversationTypesTag" Min="0" Max="12" />
+		<_34 Name="generated_pad0e0f" Offset="24" Length="4" />
+	</_AAF74530AC647FBC7C84F8F8AF1A41E2>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_D69F42F265FDE124320375FEA7C59C74 Name="i343::Narrative::ConversationTypeItem" Size="6">
+		<_A Name="Conversation Type" Offset="0" StructName1="i343::Narrative::ConversationType">
+			<Flag n="Cinematic" />
+			<Flag n="CriticalScripted" />
+			<Flag n="CollectiblePlay" />
+			<Flag n="Alert" />
+			<Flag n="NoncriticalScripted" />
+			<Flag n="ProceedReminder" />
+			<Flag n="BespokeAivo" />
+			<Flag n="Background" />
+			<Flag n="BloodgateReminder" />
+			<Flag n="FobInteract" />
+			<Flag n="CollectibleAlert" />
+			<Flag n="Chain" />
+		</_A>
+		<_34 Name="generated_padc653" Offset="1" Length="1" />
+		<_5 Name="Priority" Offset="2" />
+		<_E Name="Flags" Offset="4" StructName1="i343::Narrative::ConversationTypeFlags">
+			<Flag n="forceDisruptsAllLowerPriority" />
+			<Flag n="beatsSamePriority" />
+			<Flag n="willNotBlockLowerPriority" />
+			<Flag n="notBlockedByHigherPriority" />
+			<Flag n="notInterruptedByHigherPriority" />
+			<Flag n="willNotInterruptLowerPriority" />
+			<Flag n="suppressDdsChatter" />
+		</_E>
+	</_D69F42F265FDE124320375FEA7C59C74>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

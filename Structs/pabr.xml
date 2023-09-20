@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="PainterBrush" Parents="aTag" Index="-300">
+	<_665944B028EC4C59AFACACC1869E988C Name="i343::Graphics::Painter::BrushDefinition" Size="130">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_D Name="Flags" Offset="10" StructName1="i343::Graphics::Painter::BrushFlags">
+			<Flag n="Only Live Preview During Brush Strokes" />
+			<Flag n="Use Paint Targets as UAVs" />
+			<Flag n="Allow Grouped Textures" />
+			<Flag n="Disallow Ungrouped Textures" />
+		</_D>
+		<_41 Name="Brush Material" Offset="14" Allowed="mat " Flags="0" />
+		<_41 Name="Generate Data Graph" Offset="30" Allowed="rgrf" Flags="0" />
+		<_41 Name="Paint Graph" Offset="4C" Allowed="rgrf" Flags="0" />
+		<_41 Name="Highlight Graph" Offset="68" Allowed="rgrf" Flags="0" />
+		<_41 Name="Live Preview Graph" Offset="84" Allowed="rgrf" Flags="0" />
+		<_41 Name="Begin Stroke Generate Data Graph" Offset="A0" Allowed="rgrf" Flags="0" />
+		<_41 Name="Begin Stroke Graph" Offset="BC" Allowed="rgrf" Flags="0" />
+		<_41 Name="End Stroke Graph" Offset="D8" Allowed="rgrf" Flags="0" />
+		<_41 Name="On Activate Graph" Offset="F4" Allowed="rgrf" Flags="0" />
+		<_41 Name="On Deactivate Graph" Offset="110" Allowed="rgrf" Flags="0" />
+		<_34 Name="generated_pad576a" Offset="12C" Length="4" />
+	</_665944B028EC4C59AFACACC1869E988C>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

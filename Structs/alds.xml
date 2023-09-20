@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="AlertDescriptions" Parents="aTag" Index="-16">
+	<_4F2F4942C6462C3D2CF891FF92D1A282 Name="AlertDescriptionTag" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="Alerts" Offset="10" />
+		<_40 Name="descriptions" Offset="10" GUID="7F2B4774BE222E191E293D778343FCDB" StructName1="AlertDescriptionTag" Min="0" Max="512" />
+		<_34 Name="generated_pad8bc4" Offset="24" Length="4" />
+	</_4F2F4942C6462C3D2CF891FF92D1A282>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_7F2B4774BE222E191E293D778343FCDB Name="s_gui_alert_description" Size="10">
+		<_2 Name="error name" Offset="0" />
+		<_F Name="flags" Offset="4" StructName1="s_gui_alert_description::GuiAlertDescriptionFlags">
+			<Flag n="allow auto dismissal" />
+			<Flag n="show spinner" />
+		</_F>
+		<_A Name="error category" Offset="5" StructName1="e_gui_error_category">
+			<Flag n="default" />
+			<Flag n="networking" />
+			<Flag n="storage (reading/writing failure)" />
+			<Flag n="controller" />
+		</_A>
+		<_A Name="error icon" Offset="6" StructName1="e_gui_error_icon">
+			<Flag n="default alert" />
+			<Flag n="downloading" />
+			<Flag n="paused" />
+			<Flag n="uploading" />
+			<Flag n="completed" />
+		</_A>
+		<_34 Name="generated_padd9db" Offset="7" Length="1" />
+		<_2 Name="title" Offset="8" />
+		<_2 Name="message" Offset="C" />
+	</_7F2B4774BE222E191E293D778343FCDB>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

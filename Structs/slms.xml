@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="SupplyLinesMarineSquad" Parents="aTag" Index="-384">
+	<_D0A0407990E9CBE5BB3BDBE48DF6E12D Name="i343::SupplyLines::MarineSquadDefinition" Size="40">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="UI display info" Offset="10" GUID="52C6472B6BB873FD804507D0909B9077" StructName1="i343::SupplyLines::MarineSquadDefinition" Min="0" Max="1" />
+		<_41 Name="Squad Specification" Offset="24" Allowed="sqds" Flags="0" />
+	</_D0A0407990E9CBE5BB3BDBE48DF6E12D>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_52C6472B6BB873FD804507D0909B9077 Name="Interface::UIItemInfo" Size="74">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="alt name " Offset="4" />
+		<_2 Name="description" Offset="8" />
+		<_2 Name="help text" Offset="C" />
+		<_2 Name="icon string id" Offset="10" />
+		<_41 Name="sprite" Offset="14" Allowed="bitm" Flags="0" />
+		<_6 Name="sprite index" Offset="30" />
+		<_41 Name="alt sprite" Offset="34" Allowed="bitm" Flags="0" />
+		<_6 Name="alt sprite index" Offset="50" />
+		<_6 Name="damage sprite index" Offset="54" />
+		<_41 Name="ui vehicle screen reference" Offset="58" Allowed="cusc" Flags="0" />
+	</_52C6472B6BB873FD804507D0909B9077>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="simplygonsettings" Parents="aTag" Index="-380">
+	<_2701269A4819DD0BF30E6C6CF0985C2C Name="SimplygonSettingsTag" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_C Name="Allow DirectX" Offset="10" StructName1="SimplygonAllowDirectXEnum">
+			<Flag n="Default" />
+			<Flag n="Hardware" />
+			<Flag n="Software" />
+		</_C>
+		<_40 Name="Per LOD settings" Offset="14" GUID="D687DB34BED46F709384115FBACAD494" StructName1="SimplygonSettingsTag" Min="0" Max="16" />
+	</_2701269A4819DD0BF30E6C6CF0985C2C>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_D687DB34BED46F709384115FBACAD494 Name="LODLevelSettings" Size="8C">
+		<_C Name="Cascade Geometry" Offset="0" StructName1="SimplygonSettingsEnum">
+			<Flag n="Default" />
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_C>
+		<_14 Name="Override triangle reduction ratio" Offset="4" />
+		<_14 Name="Override and use MaxDeviation" Offset="8" />
+		<_C Name="Allow degenerate texture coordinates" Offset="C" StructName1="SimplygonSettingsEnum">
+			<Flag n="Default" />
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_C>
+		<_C Name="Allow simplygon to create optimized vertex data" Offset="10" StructName1="SimplygonDataCreationPreferenceEnum">
+			<Flag n="Only use original data" />
+			<Flag n="Prefer to use original data" />
+			<Flag n="Prefer to use optimized data" />
+		</_C>
+		<_14 Name="Outward move tolerance" Offset="14" />
+		<_14 Name="Inward move tolerance" Offset="18" />
+		<_C Name="Use Vertex Weighting" Offset="1C" StructName1="SimplygonSettingsEnum">
+			<Flag n="Default" />
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_C>
+		<_37 Name="Reduction importance" type="fgrb" Offset="20" />
+		<_36 Name="Reduction importance weights" Offset="20" />
+		<_C Name="Geometry importance" Offset="20" StructName1="SimplygonImportanceEnum">
+			<Flag n="Disabled" />
+			<Flag n="Lowest" />
+			<Flag n="Low" />
+			<Flag n="Normal" />
+			<Flag n="High" />
+			<Flag n="Highest" />
+		</_C>
+		<_C Name="Texture importance" Offset="24" StructName1="SimplygonImportanceEnum">
+			<Flag n="Disabled" />
+			<Flag n="Lowest" />
+			<Flag n="Low" />
+			<Flag n="Normal" />
+			<Flag n="High" />
+			<Flag n="Highest" />
+		</_C>
+		<_C Name="Material importance" Offset="28" StructName1="SimplygonImportanceEnum">
+			<Flag n="Disabled" />
+			<Flag n="Lowest" />
+			<Flag n="Low" />
+			<Flag n="Normal" />
+			<Flag n="High" />
+			<Flag n="Highest" />
+		</_C>
+		<_C Name="Normal importance" Offset="2C" StructName1="SimplygonImportanceEnum">
+			<Flag n="Disabled" />
+			<Flag n="Lowest" />
+			<Flag n="Low" />
+			<Flag n="Normal" />
+			<Flag n="High" />
+			<Flag n="Highest" />
+		</_C>
+		<_C Name="Vertex color importance" Offset="30" StructName1="SimplygonImportanceEnum">
+			<Flag n="Disabled" />
+			<Flag n="Lowest" />
+			<Flag n="Low" />
+			<Flag n="Normal" />
+			<Flag n="High" />
+			<Flag n="Highest" />
+		</_C>
+		<_C Name="Curvature importance" Offset="34" StructName1="SimplygonImportanceEnum">
+			<Flag n="Disabled" />
+			<Flag n="Lowest" />
+			<Flag n="Low" />
+			<Flag n="Normal" />
+			<Flag n="High" />
+			<Flag n="Highest" />
+		</_C>
+		<_C Name="Group importance" Offset="38" StructName1="SimplygonImportanceEnum">
+			<Flag n="Disabled" />
+			<Flag n="Lowest" />
+			<Flag n="Low" />
+			<Flag n="Normal" />
+			<Flag n="High" />
+			<Flag n="Highest" />
+		</_C>
+		<_C Name="Edge set importance" Offset="3C" StructName1="SimplygonImportanceEnum">
+			<Flag n="Disabled" />
+			<Flag n="Lowest" />
+			<Flag n="Low" />
+			<Flag n="Normal" />
+			<Flag n="High" />
+			<Flag n="Highest" />
+		</_C>
+		<_C Name="Skinning importance" Offset="40" StructName1="SimplygonImportanceEnum">
+			<Flag n="Disabled" />
+			<Flag n="Lowest" />
+			<Flag n="Low" />
+			<Flag n="Normal" />
+			<Flag n="High" />
+			<Flag n="Highest" />
+		</_C>
+		<_37 Name="" type="fgre" Offset="44" />
+		<_37 Name="Symmetry settings" type="fgrb" Offset="44" />
+		<_36 Name="Symmetry settings" Offset="44" />
+		<_C Name="Keep symmetrical" Offset="44" StructName1="SimplygonSettingsEnum">
+			<Flag n="Default" />
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_C>
+		<_C Name="Automatic axis of symmetry detection" Offset="48" StructName1="SimplygonSettingsEnum">
+			<Flag n="Default" />
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_C>
+		<_14 Name="Symmetry detection tolerance" Offset="4C" />
+		<_C Name="Manual symmetry axis" Offset="50" StructName1="SimplygonSymmetryAxisEnum">
+			<Flag n="Default" />
+			<Flag n="X Axis" />
+			<Flag n="Y Axis" />
+			<Flag n="Z Axis" />
+		</_C>
+		<_14 Name="Manual symmetry offset" Offset="54" />
+		<_C Name="Use symmetry quad re-triangulator" Offset="58" StructName1="SimplygonSettingsEnum">
+			<Flag n="Default" />
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_C>
+		<_37 Name="" type="fgre" Offset="5C" />
+		<_37 Name="Normal calculation" type="fgrb" Offset="5C" />
+		<_C Name="Replace normals" Offset="5C" StructName1="SimplygonSettingsEnum">
+			<Flag n="Default" />
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_C>
+		<_C Name="Replace tangents" Offset="60" StructName1="SimplygonSettingsEnum">
+			<Flag n="Default" />
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_C>
+		<_14 Name="Hard edge angle" Offset="64" />
+		<_C Name="Repair invalid normals" Offset="68" StructName1="SimplygonSettingsEnum">
+			<Flag n="Default" />
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_C>
+		<_C Name="Scale by area" Offset="6C" StructName1="SimplygonSettingsEnum">
+			<Flag n="Default" />
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_C>
+		<_C Name="Scale by angle" Offset="70" StructName1="SimplygonSettingsEnum">
+			<Flag n="Default" />
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_C>
+		<_37 Name="" type="fgre" Offset="74" />
+		<_6 Name="Weld and T Junction fixup passes" Offset="74" />
+		<_37 Name="Weld Settings" type="fgrb" Offset="78" />
+		<_C Name="Weld vertices" Offset="78" StructName1="SimplygonSettingsEnum">
+			<Flag n="Default" />
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_C>
+		<_14 Name="Weld distance" Offset="7C" />
+		<_C Name="Weld only border verts" Offset="80" StructName1="SimplygonSettingsEnum">
+			<Flag n="Default" />
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_C>
+		<_37 Name="" type="fgre" Offset="84" />
+		<_37 Name="T Junction Settings" type="fgrb" Offset="84" />
+		<_C Name="Remove T junctions" Offset="84" StructName1="SimplygonSettingsEnum">
+			<Flag n="Default" />
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_C>
+		<_14 Name="T junction removal distance" Offset="88" />
+		<_37 Name="" type="fgre" Offset="8C" />
+	</_D687DB34BED46F709384115FBACAD494>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

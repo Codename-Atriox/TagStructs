@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="NavPointLayoutDefinition" Parents="aTag" Index="-271">
+	<_0A3943BACB14AC5A87DAA8B4AD3C44CC Name="Interface::NavPoint::NavPointLayoutDefinition" Size="B8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_14 Name="morph fraction" Offset="10" />
+		<_16 Name="anchor offset" Offset="14" />
+		<_16 Name="center box width height" Offset="1C" />
+		<_36 Name="center sprite bg" Offset="24" />
+		<_38 Name="center sprite bg" Offset="24" GUID="08B7456DFEDABD31175694DD85861C61" />
+		<_36 Name="center sprite fg" Offset="30" />
+		<_38 Name="center sprite fg" Offset="30" GUID="08B7456DFEDABD31175694DD85861C61" />
+		<_36 Name="center radial progress bar" Offset="3C" />
+		<_38 Name="center radial progress bar" Offset="3C" GUID="08B7456DFEDABD31175694DD85861C61" />
+		<_36 Name="top sprite" Offset="48" />
+		<_38 Name="top sprite" Offset="48" GUID="08B7456DFEDABD31175694DD85861C61" />
+		<_36 Name="top center sprite" Offset="54" />
+		<_38 Name="top center sprite" Offset="54" GUID="08B7456DFEDABD31175694DD85861C61" />
+		<_36 Name="top label" Offset="60" />
+		<_38 Name="top label" Offset="60" GUID="08B7456DFEDABD31175694DD85861C61" />
+		<_36 Name="right progress bar" Offset="6C" />
+		<_38 Name="right progress bar" Offset="6C" GUID="08B7456DFEDABD31175694DD85861C61" />
+		<_36 Name="right progress bar 2" Offset="78" />
+		<_38 Name="right progress bar 2" Offset="78" GUID="08B7456DFEDABD31175694DD85861C61" />
+		<_36 Name="right label" Offset="84" />
+		<_38 Name="right label" Offset="84" GUID="08B7456DFEDABD31175694DD85861C61" />
+		<_36 Name="right timer" Offset="90" />
+		<_38 Name="right timer" Offset="90" GUID="08B7456DFEDABD31175694DD85861C61" />
+		<_36 Name="left timer" Offset="9C" />
+		<_38 Name="left timer" Offset="9C" GUID="08B7456DFEDABD31175694DD85861C61" />
+		<_36 Name="yaw sprite" Offset="A8" />
+		<_38 Name="yaw sprite" Offset="A8" GUID="5DEC43CB9A36508D63C26F26B9E88735" />
+	</_0A3943BACB14AC5A87DAA8B4AD3C44CC>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_08B7456DFEDABD31175694DD85861C61 Name="Interface::NavPoint::GenericLayout" Size="C">
+		<_16 Name="width and height" Offset="0" />
+		<_14 Name="alpha" Offset="8" />
+	</_08B7456DFEDABD31175694DD85861C61>
+	<_5DEC43CB9A36508D63C26F26B9E88735 Name="Interface::NavPoint::RotatedSpriteLayout" Size="10">
+		<_16 Name="width and height" Offset="0" />
+		<_14 Name="alpha" Offset="8" />
+		<_14 Name="pivot offset" Offset="C" />
+	</_5DEC43CB9A36508D63C26F26B9E88735>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

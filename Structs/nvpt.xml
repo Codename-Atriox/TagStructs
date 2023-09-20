@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="NavPointPresentation" Parents="aTag" Index="-280">
+	<_06EE402C9CBBAC6999D3B5809F1D7FD3 Name="Interface::NavPoint::NavPointPresentationTag" Size="D0">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="Template Navpoint" Offset="10" Allowed="nvpt" Flags="0" />
+		<_14 Name="Alpha" Offset="2C" />
+		<_14 Name="Anchor Offset X" Offset="30" />
+		<_14 Name="Anchor Offset Y" Offset="34" />
+		<_2 Name="Show event name" Offset="38" />
+		<_2 Name="Hide event name" Offset="3C" />
+		<_14 Name="Scale Far Override" Offset="40" />
+		<_40 Name="Element Groups" Offset="44" GUID="70164FF21B0C556C30C002779377B77E" StructName1="Interface::NavPoint::NavPointPresentationTag" Min="0" Max="32" />
+		<_40 Name="State Groups" Offset="58" GUID="CA374A669B4AD0DD85F1A3F8A29CD724" StructName1="Interface::NavPoint::NavPointPresentationTag" Min="0" Max="32" />
+		<_40 Name="External Events" Offset="6C" GUID="267C4DC2720E8D37259247299B8D0D4F" StructName1="Interface::NavPoint::NavPointPresentationTag" Min="0" Max="64" />
+		<_40 Name="Show and Hide Events" Offset="80" GUID="267C4DC2720E8D37259247299B8D0D4F" StructName1="Interface::NavPoint::NavPointPresentationTag" Min="0" Max="64" />
+		<_40 Name="Sample data floats" Offset="94" GUID="5A434BD3B30F3CE0B24F16B39AD43B87" StructName1="Interface::NavPoint::NavPointPresentationTag" Min="0" Max="4" />
+		<_40 Name="Sample data string ids" Offset="A8" GUID="EE894989E22880811DEC3766BFF607B4" StructName1="Interface::NavPoint::NavPointPresentationTag" Min="0" Max="4" />
+		<_40 Name="Sample data strings" Offset="BC" GUID="3A2743B3FAA4AFD7069E2C1B8B0E78CF" StructName1="Interface::NavPoint::NavPointPresentationTag" Min="0" Max="4" />
+	</_06EE402C9CBBAC6999D3B5809F1D7FD3>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_70164FF21B0C556C30C002779377B77E Name="Interface::NavPoint::ElementGroupTag" Size="A8">
+		<_2 Name="Group Name" Offset="0" />
+		<_2 Name="Tint Color" type="sted" Offset="4" />
+		<_14 Name="Alpha" Offset="8" />
+		<_14 Name="Anchor Offset X" Offset="C" />
+		<_14 Name="Anchor Offset Y" Offset="10" />
+		<_B Name="Anchor Justification" Offset="14" StructName1="Interface::NavPoint::HorizontalAlignment">
+			<Flag n="Left" />
+			<Flag n="Center" />
+			<Flag n="Right" />
+		</_B>
+		<_B Name="Anchor Alignment" Offset="16" StructName1="Interface::NavPoint::VerticalAlignment">
+			<Flag n="Top" />
+			<Flag n="Center" />
+			<Flag n="Bottom" />
+		</_B>
+		<_2 Name="Anchor Element Name" Offset="18" />
+		<_C Name="Element Layout" Offset="1C" StructName1="Interface::NavPoint::GroupLayout">
+			<Flag n="Horizontal" />
+			<Flag n="Vertical" />
+			<Flag n="Stacked" />
+		</_C>
+		<_B Name="Element Justification" Offset="20" StructName1="Interface::NavPoint::HorizontalAlignment">
+			<Flag n="Left" />
+			<Flag n="Center" />
+			<Flag n="Right" />
+		</_B>
+		<_B Name="Element Alignment" Offset="22" StructName1="Interface::NavPoint::VerticalAlignment">
+			<Flag n="Top" />
+			<Flag n="Center" />
+			<Flag n="Bottom" />
+		</_B>
+		<_14 Name="Element Horizontal Spacing" Offset="24" />
+		<_14 Name="Element Vertical Spacing" Offset="28" />
+		<_F Name="Use Horizontal Flip Zone" Offset="2C" StructName1="UseHorizontalFlipZoneFlag">
+			<Flag n=" " />
+		</_F>
+		<_34 Name="generated_pad4787" Offset="2D" Length="3" />
+		<_40 Name="Label Elements" Offset="30" GUID="C3184CC176B5C9B2FF1E37B5888957C3" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="4" />
+		<_40 Name="Number Elements" Offset="44" GUID="382B4A390940CEC7C1D76F37AB11A2A7" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="4" />
+		<_40 Name="Image Elements" Offset="58" GUID="4FDE43CEBA134955A9EBCC6D903AE4F6" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="4" />
+		<_40 Name="Rotated Image Elements" Offset="6C" GUID="8AAF49D7D29FA474348ED198A34F4533" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="4" />
+		<_40 Name="Gradient Meter Elements" Offset="80" GUID="C068414D6C342779A5504F1B9B8BFD96" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="4" />
+		<_40 Name="Radial Meter Elements" Offset="94" GUID="C068414D6C342779A5504F1B9B8BFD96" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="4" />
+	</_70164FF21B0C556C30C002779377B77E>
+	<_CA374A669B4AD0DD85F1A3F8A29CD724 Name="Interface::NavPoint::VisualStateGroupTag" Size="18">
+		<_2 Name="Visual State Group Name" Offset="0" />
+		<_40 Name="Visual States" Offset="4" GUID="267C4DC2720E8D37259247299B8D0D4F" StructName1="Interface::NavPoint::VisualStateGroupTag" Min="0" Max="64" />
+	</_CA374A669B4AD0DD85F1A3F8A29CD724>
+	<_267C4DC2720E8D37259247299B8D0D4F Name="Interface::NavPoint::VisualStateTag" Size="54">
+		<_2 Name="Name" Offset="0" />
+		<_40 Name="Color Animation Timelines" Offset="4" GUID="BFF4430C63C2A4B49D16385BB94C7463" StructName1="Interface::NavPoint::VisualStateTag" Min="0" Max="16" />
+		<_40 Name="Float Animation Timelines" Offset="18" GUID="BFF4430C63C2A4B49D16385BB94C7463" StructName1="Interface::NavPoint::VisualStateTag" Min="0" Max="16" />
+		<_40 Name="Image Animation Timelines" Offset="2C" GUID="BFF4430C63C2A4B49D16385BB94C7463" StructName1="Interface::NavPoint::VisualStateTag" Min="0" Max="16" />
+		<_40 Name="StringId Animation Timelines" Offset="40" GUID="BFF4430C63C2A4B49D16385BB94C7463" StructName1="Interface::NavPoint::VisualStateTag" Min="0" Max="16" />
+	</_267C4DC2720E8D37259247299B8D0D4F>
+	<_5A434BD3B30F3CE0B24F16B39AD43B87 Name="Interface::NavPoint::SampleDataFloat" Size="8">
+		<_2 Name="Variable name" Offset="0" />
+		<_14 Name="Value" Offset="4" />
+	</_5A434BD3B30F3CE0B24F16B39AD43B87>
+	<_EE894989E22880811DEC3766BFF607B4 Name="Interface::NavPoint::SampleDataStringId" Size="8">
+		<_2 Name="Variable name" Offset="0" />
+		<_2 Name="Value" Offset="4" />
+	</_EE894989E22880811DEC3766BFF607B4>
+	<_3A2743B3FAA4AFD7069E2C1B8B0E78CF Name="Interface::NavPoint::SampleDataText" Size="104">
+		<_2 Name="Variable name" Offset="0" />
+		<_1 Name="Value" Offset="4" />
+	</_3A2743B3FAA4AFD7069E2C1B8B0E78CF>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_C3184CC176B5C9B2FF1E37B5888957C3 Name="Interface::NavPoint::LabelElementTag" Size="58">
+		<_2 Name="Element Name" Offset="0" />
+		<_2 Name="Draw Flags Name" Offset="4" />
+		<_D Name="Draw Flags" Offset="8" StructName1="Interface::NavPoint::DrawWhenFlags">
+			<Flag n="Draw when onscreen" />
+			<Flag n="Draw when offscreen" />
+			<Flag n="Draw when center screen" />
+			<Flag n="Draw when aimed at" />
+			<Flag n="Draw when docked" />
+		</_D>
+		<_6 Name="Draw Order" Offset="C" />
+		<_14 Name="Width" Offset="10" />
+		<_14 Name="Height" Offset="14" />
+		<_2 Name="Color" type="sted" Offset="18" />
+		<_14 Name="Alpha" Offset="1C" />
+		<_2 Name="Tint Color" type="sted" Offset="20" />
+		<_B Name="Tint Blend Mode" Offset="24" StructName1="Interface::NavPoint::NavPointTintBlendMode">
+			<Flag n="Modulated RGB" />
+			<Flag n="Linear RGB" />
+			<Flag n="Linear HSV" />
+			<Flag n="Override" />
+		</_B>
+		<_34 Name="generated_pad4916" Offset="26" Length="2" />
+		<_14 Name="Tint Blend Interpolation" Offset="28" />
+		<_2 Name="Show event name" Offset="2C" />
+		<_2 Name="Hide event name" Offset="30" />
+		<_14 Name="Width Scale" Offset="34" />
+		<_14 Name="Height Scale" Offset="38" />
+		<_B Name="Justification" Offset="3C" StructName1="Interface::NavPoint::HorizontalAlignment">
+			<Flag n="Left" />
+			<Flag n="Center" />
+			<Flag n="Right" />
+		</_B>
+		<_B Name="Alignment" Offset="3E" StructName1="Interface::NavPoint::VerticalAlignment">
+			<Flag n="Top" />
+			<Flag n="Center" />
+			<Flag n="Bottom" />
+		</_B>
+		<_2 Name="Typeface" type="sted" Offset="40" />
+		<_6 Name="Type Size" Offset="44" />
+		<_2 Name="Text Source" Offset="48" />
+		<_2 Name="Drop Shadow" type="sted" Offset="4C" />
+		<_F Name="Upper Case" Offset="50" StructName1="ForceUpperCaseFlag">
+			<Flag n=" " />
+		</_F>
+		<_34 Name="generated_pad54de" Offset="51" Length="3" />
+		<_14 Name="Tracking Horizontal" Offset="54" />
+	</_C3184CC176B5C9B2FF1E37B5888957C3>
+	<_382B4A390940CEC7C1D76F37AB11A2A7 Name="Interface::NavPoint::NumberElementTag" Size="5C">
+		<_2 Name="Element Name" Offset="0" />
+		<_2 Name="Draw Flags Name" Offset="4" />
+		<_D Name="Draw Flags" Offset="8" StructName1="Interface::NavPoint::DrawWhenFlags">
+			<Flag n="Draw when onscreen" />
+			<Flag n="Draw when offscreen" />
+			<Flag n="Draw when center screen" />
+			<Flag n="Draw when aimed at" />
+			<Flag n="Draw when docked" />
+		</_D>
+		<_6 Name="Draw Order" Offset="C" />
+		<_14 Name="Width" Offset="10" />
+		<_14 Name="Height" Offset="14" />
+		<_2 Name="Color" type="sted" Offset="18" />
+		<_14 Name="Alpha" Offset="1C" />
+		<_2 Name="Tint Color" type="sted" Offset="20" />
+		<_B Name="Tint Blend Mode" Offset="24" StructName1="Interface::NavPoint::NavPointTintBlendMode">
+			<Flag n="Modulated RGB" />
+			<Flag n="Linear RGB" />
+			<Flag n="Linear HSV" />
+			<Flag n="Override" />
+		</_B>
+		<_34 Name="generated_pad4916" Offset="26" Length="2" />
+		<_14 Name="Tint Blend Interpolation" Offset="28" />
+		<_2 Name="Show event name" Offset="2C" />
+		<_2 Name="Hide event name" Offset="30" />
+		<_14 Name="Width Scale" Offset="34" />
+		<_14 Name="Height Scale" Offset="38" />
+		<_B Name="Justification" Offset="3C" StructName1="Interface::NavPoint::HorizontalAlignment">
+			<Flag n="Left" />
+			<Flag n="Center" />
+			<Flag n="Right" />
+		</_B>
+		<_B Name="Alignment" Offset="3E" StructName1="Interface::NavPoint::VerticalAlignment">
+			<Flag n="Top" />
+			<Flag n="Center" />
+			<Flag n="Bottom" />
+		</_B>
+		<_2 Name="Typeface" type="sted" Offset="40" />
+		<_6 Name="Type Size" Offset="44" />
+		<_2 Name="Text Source" Offset="48" />
+		<_2 Name="Drop Shadow" type="sted" Offset="4C" />
+		<_F Name="Upper Case" Offset="50" StructName1="ForceUpperCaseFlag">
+			<Flag n=" " />
+		</_F>
+		<_34 Name="generated_pad54de" Offset="51" Length="3" />
+		<_14 Name="Tracking Horizontal" Offset="54" />
+		<_C Name="Format" Offset="58" StructName1="Interface::NavPoint::eNumberFormat">
+			<Flag n="Timer" />
+			<Flag n="Distance" />
+			<Flag n="Integer" />
+		</_C>
+	</_382B4A390940CEC7C1D76F37AB11A2A7>
+	<_4FDE43CEBA134955A9EBCC6D903AE4F6 Name="Interface::NavPoint::ImageElementTag" Size="5C">
+		<_2 Name="Element Name" Offset="0" />
+		<_2 Name="Draw Flags Name" Offset="4" />
+		<_D Name="Draw Flags" Offset="8" StructName1="Interface::NavPoint::DrawWhenFlags">
+			<Flag n="Draw when onscreen" />
+			<Flag n="Draw when offscreen" />
+			<Flag n="Draw when center screen" />
+			<Flag n="Draw when aimed at" />
+			<Flag n="Draw when docked" />
+		</_D>
+		<_6 Name="Draw Order" Offset="C" />
+		<_14 Name="Width" Offset="10" />
+		<_14 Name="Height" Offset="14" />
+		<_2 Name="Color" type="sted" Offset="18" />
+		<_14 Name="Alpha" Offset="1C" />
+		<_2 Name="Tint Color" type="sted" Offset="20" />
+		<_B Name="Tint Blend Mode" Offset="24" StructName1="Interface::NavPoint::NavPointTintBlendMode">
+			<Flag n="Modulated RGB" />
+			<Flag n="Linear RGB" />
+			<Flag n="Linear HSV" />
+			<Flag n="Override" />
+		</_B>
+		<_34 Name="generated_pad4916" Offset="26" Length="2" />
+		<_14 Name="Tint Blend Interpolation" Offset="28" />
+		<_2 Name="Show event name" Offset="2C" />
+		<_2 Name="Hide event name" Offset="30" />
+		<_14 Name="Width Scale" Offset="34" />
+		<_14 Name="Height Scale" Offset="38" />
+		<_41 Name="Bitmap" Offset="3C" Allowed="bitm" Flags="0" />
+		<_6 Name="Frame Index" Offset="58" />
+	</_4FDE43CEBA134955A9EBCC6D903AE4F6>
+	<_8AAF49D7D29FA474348ED198A34F4533 Name="Interface::NavPoint::RotatedImageElementTag" Size="64">
+		<_2 Name="Element Name" Offset="0" />
+		<_2 Name="Draw Flags Name" Offset="4" />
+		<_D Name="Draw Flags" Offset="8" StructName1="Interface::NavPoint::DrawWhenFlags">
+			<Flag n="Draw when onscreen" />
+			<Flag n="Draw when offscreen" />
+			<Flag n="Draw when center screen" />
+			<Flag n="Draw when aimed at" />
+			<Flag n="Draw when docked" />
+		</_D>
+		<_6 Name="Draw Order" Offset="C" />
+		<_14 Name="Width" Offset="10" />
+		<_14 Name="Height" Offset="14" />
+		<_2 Name="Color" type="sted" Offset="18" />
+		<_14 Name="Alpha" Offset="1C" />
+		<_2 Name="Tint Color" type="sted" Offset="20" />
+		<_B Name="Tint Blend Mode" Offset="24" StructName1="Interface::NavPoint::NavPointTintBlendMode">
+			<Flag n="Modulated RGB" />
+			<Flag n="Linear RGB" />
+			<Flag n="Linear HSV" />
+			<Flag n="Override" />
+		</_B>
+		<_34 Name="generated_pad4916" Offset="26" Length="2" />
+		<_14 Name="Tint Blend Interpolation" Offset="28" />
+		<_2 Name="Show event name" Offset="2C" />
+		<_2 Name="Hide event name" Offset="30" />
+		<_14 Name="Width Scale" Offset="34" />
+		<_14 Name="Height Scale" Offset="38" />
+		<_41 Name="Bitmap" Offset="3C" Allowed="bitm" Flags="0" />
+		<_6 Name="Frame Index" Offset="58" />
+		<_14 Name="Pivot Offset" Offset="5C" />
+		<_2 Name="Rotation Angle" Offset="60" />
+	</_8AAF49D7D29FA474348ED198A34F4533>
+	<_C068414D6C342779A5504F1B9B8BFD96 Name="Interface::NavPoint::MeterElementTag" Size="64">
+		<_2 Name="Element Name" Offset="0" />
+		<_2 Name="Draw Flags Name" Offset="4" />
+		<_D Name="Draw Flags" Offset="8" StructName1="Interface::NavPoint::DrawWhenFlags">
+			<Flag n="Draw when onscreen" />
+			<Flag n="Draw when offscreen" />
+			<Flag n="Draw when center screen" />
+			<Flag n="Draw when aimed at" />
+			<Flag n="Draw when docked" />
+		</_D>
+		<_6 Name="Draw Order" Offset="C" />
+		<_14 Name="Width" Offset="10" />
+		<_14 Name="Height" Offset="14" />
+		<_2 Name="Color" type="sted" Offset="18" />
+		<_14 Name="Alpha" Offset="1C" />
+		<_2 Name="Tint Color" type="sted" Offset="20" />
+		<_B Name="Tint Blend Mode" Offset="24" StructName1="Interface::NavPoint::NavPointTintBlendMode">
+			<Flag n="Modulated RGB" />
+			<Flag n="Linear RGB" />
+			<Flag n="Linear HSV" />
+			<Flag n="Override" />
+		</_B>
+		<_34 Name="generated_pad4916" Offset="26" Length="2" />
+		<_14 Name="Tint Blend Interpolation" Offset="28" />
+		<_2 Name="Show event name" Offset="2C" />
+		<_2 Name="Hide event name" Offset="30" />
+		<_14 Name="Width Scale" Offset="34" />
+		<_14 Name="Height Scale" Offset="38" />
+		<_41 Name="Bitmap" Offset="3C" Allowed="bitm" Flags="0" />
+		<_6 Name="Frame Index" Offset="58" />
+		<_2 Name="Fill Color" type="sted" Offset="5C" />
+		<_2 Name="Progress" Offset="60" />
+	</_C068414D6C342779A5504F1B9B8BFD96>
+	<_BFF4430C63C2A4B49D16385BB94C7463 Name="Interface::NavPoint::TimelineTag" Size="38">
+		<_2 Name="Timeline Name" Offset="0" />
+		<_41 Name="Animation Group" Offset="4" Allowed="nvnm" Flags="0" />
+		<_2 Name="Animation Name" type="sted" Offset="20" />
+		<_40 Name="Target Properties" Offset="24" GUID="67634168323EE6634400CDE683296BD6" StructName1="Interface::NavPoint::TimelineTag" Min="0" Max="16" />
+	</_BFF4430C63C2A4B49D16385BB94C7463>
+	<_67634168323EE6634400CDE683296BD6 Name="Interface::NavPoint::TargetPropertyTag" Size="C">
+		<_2 Name="Track Name" Offset="0" />
+		<_2 Name="Element or Group Name" Offset="4" />
+		<_2 Name="Property Name" type="sted" Offset="8" />
+	</_67634168323EE6634400CDE683296BD6>
+</root>

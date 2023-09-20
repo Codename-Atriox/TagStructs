@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="TrackDecalSystem" Parents="aTag" Index="-432">
+	<_81D04283F3BF8CD89A04B321A9F495B0 Name="i343::Effects::TrackDecalSystemDefinition" Size="50">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="Decal system" Offset="10" Allowed="decs" Flags="0" />
+		<_37 Name="Distance Between Vertices" type="fgrb" Offset="2C" />
+		<_14 Name="Min distance" Offset="2C" />
+		<_14 Name="Max distance" Offset="30" />
+		<_14 Name="Distance velocity scale" Offset="34" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_37 Name="Velocity-based Offset" type="fgrb" Offset="38" />
+		<_14 Name="Max offset" Offset="38" />
+		<_14 Name="Offset velocity scale" Offset="3C" />
+		<_37 Name="" type="fgre" Offset="40" />
+		<_37 Name="Contact Patch" type="fgrb" Offset="40" />
+		<_14 Name="Contact patch width" Offset="40" />
+		<_14 Name="Contact patch length" Offset="44" />
+		<_37 Name="" type="fgre" Offset="48" />
+		<_14 Name="Texture U repeat length" Offset="48" />
+		<_34 Name="generated_padfea3" Offset="4C" Length="4" />
+	</_81D04283F3BF8CD89A04B321A9F495B0>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

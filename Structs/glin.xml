@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="InterfaceGlobalsDefinition" Parents="aTag" Index="-187">
+	<_8416403BEAFE1C1BF70A27D0AAF2BB8D Name="i343::InterfaceGlobals" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="interface tags" Offset="10" GUID="27264DFBEAFCBD42928B0D3C9C2624C1" StructName1="i343::InterfaceGlobals" Min="0" Max="1" />
+		<_34 Name="generated_padaaba" Offset="24" Length="4" />
+	</_8416403BEAFE1C1BF70A27D0AAF2BB8D>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_27264DFBEAFCBD42928B0D3C9C2624C1 Name="s_game_globals_interface_tag_references" Size="320">
+		<_36 Name="Mode-Specific Tags" Offset="0" />
+		<_41 Name="shared globals" Offset="0" Allowed="wigl" Flags="0" />
+		<_41 Name="mainmenu ui globals" Offset="1C" Allowed="wgtz" Flags="4" />
+		<_41 Name="singleplayer ui globals" Offset="38" Allowed="wgtz" Flags="4" />
+		<_41 Name="multiplayer ui globals" Offset="54" Allowed="wgtz" Flags="4" />
+		<_41 Name="tatanka ui globals" Offset="70" Allowed="wgtz" Flags="4" />
+		<_41 Name="damage reporting display globals" Offset="8C" Allowed="drdg" Flags="0" />
+		<_36 Name="Customization Data" Offset="A8" />
+		<_41 Name="Platform Animations" Offset="A8" Allowed="plan" Flags="0" />
+		<_41 Name="Light Presets" Offset="C4" Allowed="ltps" Flags="0" />
+		<_41 Name="Camera Presets" Offset="E0" Allowed="caps" Flags="0" />
+		<_41 Name="Camera Transition Sounds" Offset="FC" Allowed="trsd" Flags="4" />
+		<_41 Name="Spartan Voice Sounds" Offset="118" Allowed="trsd" Flags="4" />
+		<_41 Name="Ai Voice Sounds" Offset="134" Allowed="pasd" Flags="4" />
+		<_2 Name="Idling Marine Composition" Offset="150" />
+		<_2 Name="Default Gray Emblem Coating" Offset="154" />
+		<_36 Name="Customization Scene Data" Offset="158" />
+		<_41 Name="Spartan Armor Customization" Offset="158" Allowed="obcu" Flags="0" />
+		<_41 Name="Weapons Customization" Offset="174" Allowed="obcu" Flags="0" />
+		<_41 Name="Vehicle Customization" Offset="190" Allowed="obcu" Flags="0" />
+		<_41 Name="AI Customization" Offset="1AC" Allowed="obcu" Flags="0" />
+		<_41 Name="Fireteam Customization" Offset="1C8" Allowed="obcu" Flags="0" />
+		<_41 Name="Presentation Customization" Offset="1E4" Allowed="obcu" Flags="0" />
+		<_41 Name="Inspect Customization" Offset="200" Allowed="obcu" Flags="0" />
+		<_41 Name="Inspect Player Customization" Offset="21C" Allowed="obcu" Flags="0" />
+		<_41 Name="PGCR" Offset="238" Allowed="obcu" Flags="0" />
+		<_41 Name="RTT Forward Fast Lighting Presets" Offset="254" Allowed="fafl" Flags="0" />
+		<_40 Name="RTT Camera Scenes" Offset="270" GUID="D797AD11C73BBDC8CAB2188BCC81A4C1" StructName1="s_game_globals_interface_tag_references" Min="0" Max="256" />
+		<_40 Name="Composer Scenes" Offset="284" GUID="3A954FCF126C3FF3AE7B2F239070185D" StructName1="s_game_globals_interface_tag_references" Min="0" Max="256" />
+		<_40 Name="Landing Scene Data" Offset="298" GUID="7479476F8EA615B2F57699F38D8CB2F7" StructName1="s_game_globals_interface_tag_references" Min="0" Max="1" />
+		<_40 Name="CoreType order" Offset="2AC" GUID="1A1047E06D9BBA67A95F1331A4665079" StructName1="s_game_globals_interface_tag_references" Min="0" Max="19" />
+		<_40 Name="MythicFx Composer Names" Offset="2C0" GUID="D3D14DEBA19A9629357ED22C926B9C5D" StructName1="s_game_globals_interface_tag_references" Min="0" Max="32" />
+		<_40 Name="Weapon Death Composer Names" Offset="2D4" GUID="D3D14DEBA19A9629357ED22C926B9C5D" StructName1="s_game_globals_interface_tag_references" Min="0" Max="32" />
+		<_41 Name="Inspect Data" Offset="2E8" Allowed="uiin" Flags="0" />
+		<_41 Name="Season Data" Offset="304" Allowed="uisd" Flags="0" />
+	</_27264DFBEAFCBD42928B0D3C9C2624C1>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_D797AD11C73BBDC8CAB2188BCC81A4C1 Name="Interface::Customization::UIRTTRegionData" Size="74">
+		<_2 Name="UI Display String" Offset="0" />
+		<_2 Name="UI Description String" Offset="4" />
+		<_6 Name="CMS Customization Item Type" Offset="8" />
+		<_B Name="CMS Customization Core Type" Offset="C" StructName1="Interface::Customization::CoreType">
+			<Flag n="Unknown" />
+			<Flag n="Armor" />
+			<Flag n="Ai" />
+			<Flag n="WeaponSidekick" />
+			<Flag n="WeaponAR" />
+			<Flag n="WeaponBR" />
+			<Flag n="WeaponCommando" />
+			<Flag n="WeaponSPnKr" />
+			<Flag n="WeaponSniper" />
+			<Flag n="WeaponShotgun" />
+			<Flag n="WeaponHydra" />
+			<Flag n="WeaponBandit" />
+			<Flag n="VehicleWarthog" />
+			<Flag n="VehicleMongoose" />
+			<Flag n="VehicleScorpion" />
+			<Flag n="VehicleWasp" />
+			<Flag n="VehicleRazorBack" />
+			<Flag n="VehicleGungoose" />
+			<Flag n="VehicleRockethog" />
+		</_B>
+		<_34 Name="generated_pad2a44" Offset="E" Length="2" />
+		<_2 Name="Region Name" Offset="10" />
+		<_2 Name="Marker Name" Offset="14" />
+		<_14 Name="Marker Offset" Offset="18" />
+		<_14 Name="Camera Offset" Offset="1C" />
+		<_B Name="Animation Easing" Offset="20" StructName1="Interface::Customization::AnimationEasing">
+			<Flag n="LinearTween" />
+			<Flag n="EaseInQuad" />
+			<Flag n="EaseOutQuad" />
+			<Flag n="EaseInOutQuad" />
+			<Flag n="EaseInCubic" />
+			<Flag n="EaseOutCubic" />
+			<Flag n="EaseInOutCubic" />
+			<Flag n="EaseInQuart" />
+			<Flag n="EaseOutQuart" />
+			<Flag n="EaseInOutQuart" />
+			<Flag n="EaseInQuint" />
+			<Flag n="EaseOutQuint" />
+			<Flag n="EaseInOutQuint" />
+			<Flag n="EaseInSine" />
+			<Flag n="EaseOutSine" />
+			<Flag n="EaseInOutSine" />
+			<Flag n="EaseInExpo" />
+			<Flag n="EaseOutExpo" />
+			<Flag n="EaseInOutExpo" />
+			<Flag n="EaseInCirc" />
+			<Flag n="EaseOutCirc" />
+			<Flag n="EaseInOutCirc" />
+			<Flag n="EaseInSinCustom" />
+			<Flag n="EaseOutSinCustom" />
+		</_B>
+		<_34 Name="generated_pad4425" Offset="22" Length="2" />
+		<_40 Name="Camera Positions" Offset="24" GUID="9EE5423BF672890A8560DEFAB444B6D8" StructName1="Interface::Customization::UIRTTRegionData" Min="0" Max="3" />
+		<_14 Name="Camera FOV" Offset="38" />
+		<_14 Name="Camera Transition time" Offset="3C" />
+		<_1C Name="Camera Orientation" Offset="40" />
+		<_1C Name="Focused Object Orientation" Offset="4C" />
+		<_F Name="DOF Flags" Offset="58" StructName1="Interface::Customization::UIDOFFlags">
+			<Flag n="Enable DOF" />
+			<Flag n="Enable DOF RTT" />
+			<Flag n="Enable DOF World" />
+		</_F>
+		<_34 Name="generated_pad90da" Offset="59" Length="3" />
+		<_14 Name="DOF Focal Length" Offset="5C" />
+		<_14 Name="DOF Focal Distance" Offset="60" />
+		<_14 Name="DOF FStop" Offset="64" />
+		<_2 Name="Idle Animation" Offset="68" />
+		<_2 Name="To Idle Animation" Offset="6C" />
+		<_2 Name="From Idle Animation" Offset="70" />
+	</_D797AD11C73BBDC8CAB2188BCC81A4C1>
+	<_3A954FCF126C3FF3AE7B2F239070185D Name="Interface::Customization::UIComposerCustomizationData" Size="4C">
+		<_2 Name="Composer Scene Name" Offset="0" />
+		<_40 Name="Camera Points" Offset="4" GUID="4A484317F7C0AA283019AE36AFDC0C41" StructName1="Interface::Customization::UIComposerCustomizationData" Min="0" Max="16" />
+		<_40 Name="Camera Point Layout Block" Offset="18" GUID="8B34488068EFBCB46A08054A91DED871" StructName1="Interface::Customization::UIComposerCustomizationData" Min="0" Max="1" />
+		<_14 Name="Camera Point move time" Offset="2C" />
+		<_41 Name="Composer Definition" Offset="30" Allowed="comp" Flags="4" />
+	</_3A954FCF126C3FF3AE7B2F239070185D>
+	<_7479476F8EA615B2F57699F38D8CB2F7 Name="Interface::Customization::LandingSceneData" Size="20">
+		<_6 Name="Composer Scene Time" Offset="0" />
+		<_6 Name="Fodeout Star Time" Offset="4" />
+		<_6 Name="Fodeout End Time" Offset="8" />
+		<_40 Name="Composer Scenes" Offset="C" GUID="39464D5835EC4B2583D4EC1AA77B5301" StructName1="Interface::Customization::LandingSceneData" Min="0" Max="19" />
+	</_7479476F8EA615B2F57699F38D8CB2F7>
+	<_1A1047E06D9BBA67A95F1331A4665079 Name="Interface::Customization::CoreTypeItem" Size="2">
+		<_B Name="Core Type" Offset="0" StructName1="Interface::Customization::CoreType">
+			<Flag n="Unknown" />
+			<Flag n="Armor" />
+			<Flag n="Ai" />
+			<Flag n="WeaponSidekick" />
+			<Flag n="WeaponAR" />
+			<Flag n="WeaponBR" />
+			<Flag n="WeaponCommando" />
+			<Flag n="WeaponSPnKr" />
+			<Flag n="WeaponSniper" />
+			<Flag n="WeaponShotgun" />
+			<Flag n="WeaponHydra" />
+			<Flag n="WeaponBandit" />
+			<Flag n="VehicleWarthog" />
+			<Flag n="VehicleMongoose" />
+			<Flag n="VehicleScorpion" />
+			<Flag n="VehicleWasp" />
+			<Flag n="VehicleRazorBack" />
+			<Flag n="VehicleGungoose" />
+			<Flag n="VehicleRockethog" />
+		</_B>
+	</_1A1047E06D9BBA67A95F1331A4665079>
+	<_D3D14DEBA19A9629357ED22C926B9C5D Name="Interface::Customization::ComposerSceneNames" Size="4">
+		<_2 Name="Composer Scene Name" Offset="0" />
+	</_D3D14DEBA19A9629357ED22C926B9C5D>
+	<_9EE5423BF672890A8560DEFAB444B6D8 Name="Interface::Customization::UICameraPositionOffset" Size="30">
+		<_B Name="Camera Position Type" Offset="0" StructName1="Interface::Customization::ItemInspectionPosition">
+			<Flag n="Default" />
+			<Flag n="Custom" />
+			<Flag n="Custom1" />
+		</_B>
+		<_34 Name="generated_pad010d" Offset="2" Length="2" />
+		<_19 Name="Camera Position" Offset="4" />
+		<_1C Name="Camera Orientation" Offset="10" />
+		<_2 Name="Composer Scene Name" Offset="1C" />
+		<_F Name="DOF Flags" Offset="20" StructName1="Interface::Customization::UIDOFFlags">
+			<Flag n="Enable DOF" />
+			<Flag n="Enable DOF RTT" />
+			<Flag n="Enable DOF World" />
+		</_F>
+		<_34 Name="generated_pade72c" Offset="21" Length="3" />
+		<_14 Name="DOF Focal Length" Offset="24" />
+		<_14 Name="DOF Focal Distance" Offset="28" />
+		<_14 Name="DOF FStop" Offset="2C" />
+	</_9EE5423BF672890A8560DEFAB444B6D8>
+	<_4A484317F7C0AA283019AE36AFDC0C41 Name="Interface::Customization::CameraPointName" Size="20">
+		<_0 Name="CameraPoint" Offset="0" />
+	</_4A484317F7C0AA283019AE36AFDC0C41>
+	<_8B34488068EFBCB46A08054A91DED871 Name="Interface::Customization::CameraPointLayoutBlock" Size="140">
+		<_37 Name="Single camera point properties" type="fgrb" Offset="0" />
+		<_0 Name="Layout one first postion" Offset="0" />
+		<_37 Name="" type="fgre" Offset="20" />
+		<_37 Name="Two camera point properties" type="fgrb" Offset="20" />
+		<_0 Name="Layout two first position" Offset="20" />
+		<_0 Name="Layout two second position" Offset="40" />
+		<_37 Name="" type="fgre" Offset="60" />
+		<_37 Name="Three camera point properties" type="fgrb" Offset="60" />
+		<_0 Name="Layout three first position" Offset="60" />
+		<_0 Name="Layout three second position" Offset="80" />
+		<_0 Name="Layout three third position" Offset="A0" />
+		<_37 Name="" type="fgre" Offset="C0" />
+		<_37 Name="Four camera point properties" type="fgrb" Offset="C0" />
+		<_0 Name="Layout four first position " Offset="C0" />
+		<_0 Name="Layout four second position" Offset="E0" />
+		<_0 Name="Layout four third position" Offset="100" />
+		<_0 Name="Layout four fourth position" Offset="120" />
+		<_37 Name="" type="fgre" Offset="140" />
+	</_8B34488068EFBCB46A08054A91DED871>
+	<_39464D5835EC4B2583D4EC1AA77B5301 Name="Interface::Customization::LandingSceneCompositionData" Size="8">
+		<_2 Name="Composer Scene Name" Offset="0" />
+		<_B Name="Core Type" Offset="4" StructName1="Interface::Customization::CoreType">
+			<Flag n="Unknown" />
+			<Flag n="Armor" />
+			<Flag n="Ai" />
+			<Flag n="WeaponSidekick" />
+			<Flag n="WeaponAR" />
+			<Flag n="WeaponBR" />
+			<Flag n="WeaponCommando" />
+			<Flag n="WeaponSPnKr" />
+			<Flag n="WeaponSniper" />
+			<Flag n="WeaponShotgun" />
+			<Flag n="WeaponHydra" />
+			<Flag n="WeaponBandit" />
+			<Flag n="VehicleWarthog" />
+			<Flag n="VehicleMongoose" />
+			<Flag n="VehicleScorpion" />
+			<Flag n="VehicleWasp" />
+			<Flag n="VehicleRazorBack" />
+			<Flag n="VehicleGungoose" />
+			<Flag n="VehicleRockethog" />
+		</_B>
+		<_34 Name="generated_pad18b7" Offset="6" Length="2" />
+	</_39464D5835EC4B2583D4EC1AA77B5301>
+</root>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:21 PM" Name="weapon_aim_assist_modifiers" Parents="aTag" Index="-468">
+	<_52EA4EA529C483DE0F4B632EA03EB141 Name="i343::Weapon::AimAssistModifierDefinition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="Weapon Aim Assist" type="fgrb" Offset="10" />
+		<_36 Name="Aim Assist Override" Offset="10" />
+		<_40 Name="aim assist modifiers" Offset="10" GUID="28A048142CB7BA74318118C4932A7D0D" StructName1="i343::Weapon::AimAssistModifierDefinition" Min="0" Max="1" />
+		<_37 Name="" type="fgre" Offset="24" />
+		<_34 Name="generated_pad6673" Offset="24" Length="4" />
+	</_52EA4EA529C483DE0F4B632EA03EB141>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_28A048142CB7BA74318118C4932A7D0D Name="i343::Weapon::AimAssistPropertyModifiersDefinition" Size="28">
+		<_14 Name="autoaim angle" Offset="0" />
+		<_14 Name="prioritization angle" Offset="4" />
+		<_14 Name="autoaim range" Offset="8" />
+		<_14 Name="autoaim falloff range" Offset="C" />
+		<_14 Name="autoaim near falloff range" Offset="10" />
+		<_14 Name="magnetism angle" Offset="14" />
+		<_14 Name="magnetism range" Offset="18" />
+		<_14 Name="magnetism falloff range" Offset="1C" />
+		<_14 Name="magnetism near falloff range" Offset="20" />
+		<_14 Name="deviation angle" Offset="24" />
+	</_28A048142CB7BA74318118C4932A7D0D>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

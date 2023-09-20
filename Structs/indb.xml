@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="InputDeviceBindings" Parents="aTag" Index="-214">
+	<_3E0C46081D2201C015DF6EA9A0FE3C17 Name="InputDeviceBindings" Size="50">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="Initial Bindings Defaults" Offset="10" />
+		<_40 Name="bindings" Offset="10" GUID="854049CEF6357C20B50CC4A5BE9256AF" StructName1="InputDeviceBindings" Min="0" Max="255" />
+		<_36 Name="Updates To Default Bindings" Offset="24" />
+		<_40 Name="updates" Offset="24" GUID="A7E546939A56730B11A064989A94F7B1" StructName1="InputDeviceBindings" Min="0" Max="255" />
+		<_40 Name="latestBindings" Offset="38" GUID="854049CEF6357C20B50CC4A5BE9256AF" StructName1="InputDeviceBindings" Min="0" Max="255" />
+		<_3C Name="latestBindingsVersion" Offset="4C" />
+		<_34 Name="generated_padd63c" Offset="4D" Length="3" />
+	</_3E0C46081D2201C015DF6EA9A0FE3C17>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_854049CEF6357C20B50CC4A5BE9256AF Name="InputDeviceBindingEntry" Size="C">
+		<_B Name="device" Offset="0" StructName1="InputDeviceElement">
+			<Flag n="Unassigned" />
+			<Flag n="Gamepad Left Stick Horizontal" />
+			<Flag n="Gamepad Left Stick Vertical" />
+			<Flag n="Gamepad Left Stick Left" />
+			<Flag n="Gamepad Left Stick Right" />
+			<Flag n="Gamepad Left Stick Up" />
+			<Flag n="Gamepad Left Stick Down" />
+			<Flag n="Gamepad Right Stick Horizontal" />
+			<Flag n="Gamepad Right Stick Vertical" />
+			<Flag n="Gamepad Right Stick Left" />
+			<Flag n="Gamepad Right Stick Right" />
+			<Flag n="Gamepad Right Stick Up" />
+			<Flag n="Gamepad Right Stick Down" />
+			<Flag n="Gamepad Left Stick Horizontal (Raw)" />
+			<Flag n="Gamepad Left Stick Vertical (Raw)" />
+			<Flag n="Gamepad Right Stick Horizontal (Raw)" />
+			<Flag n="Gamepad Right Stick Vertical (Raw)" />
+			<Flag n="Gamepad Left Trigger" />
+			<Flag n="Gamepad Right Trigger" />
+			<Flag n="Gamepad Back" />
+			<Flag n="Gamepad Start" />
+			<Flag n="Gamepad A" />
+			<Flag n="Gamepad B" />
+			<Flag n="Gamepad X" />
+			<Flag n="Gamepad Y" />
+			<Flag n="Gamepad Left Stick Button" />
+			<Flag n="Gamepad Right Stick Button" />
+			<Flag n="Gamepad Left Shoulder Button" />
+			<Flag n="Gamepad Right Shoulder Button" />
+			<Flag n="Gamepad DPad Up" />
+			<Flag n="Gamepad DPad Down" />
+			<Flag n="Gamepad DPad Right" />
+			<Flag n="Gamepad DPad Left" />
+			<Flag n="Keyboard Backspace" />
+			<Flag n="Keyboard Tab" />
+			<Flag n="Keyboard Enter" />
+			<Flag n="Keyboard Pause" />
+			<Flag n="Keyboard CapsLock" />
+			<Flag n="Keyboard Kana" />
+			<Flag n="Keyboard Kanji" />
+			<Flag n="Keyboard Escape" />
+			<Flag n="Keyboard Ime Convert" />
+			<Flag n="Keyboard Ime NoConvert" />
+			<Flag n="Keyboard Space" />
+			<Flag n="Keyboard Page Up" />
+			<Flag n="Keyboard Page Down" />
+			<Flag n="Keyboard End" />
+			<Flag n="Keyboard Home" />
+			<Flag n="Keyboard Left Arrow" />
+			<Flag n="Keyboard Up Arrow" />
+			<Flag n="Keyboard Right Arrow" />
+			<Flag n="Keyboard Down Arrow" />
+			<Flag n="Keyboard Select" />
+			<Flag n="Keyboard Print" />
+			<Flag n="Keyboard Execute" />
+			<Flag n="Keyboard Print Screen" />
+			<Flag n="Keyboard Insert" />
+			<Flag n="Keyboard Delete" />
+			<Flag n="Keyboard Help" />
+			<Flag n="Keyboard 0" />
+			<Flag n="Keyboard 1" />
+			<Flag n="Keyboard 2" />
+			<Flag n="Keyboard 3" />
+			<Flag n="Keyboard 4" />
+			<Flag n="Keyboard 5" />
+			<Flag n="Keyboard 6" />
+			<Flag n="Keyboard 7" />
+			<Flag n="Keyboard 8" />
+			<Flag n="Keyboard 9" />
+			<Flag n="Keyboard Semicolon" />
+			<Flag n="Keyboard Apostrophe" />
+			<Flag n="Keyboard Comma" />
+			<Flag n="Keyboard Period" />
+			<Flag n="Keyboard Forward Slash" />
+			<Flag n="Keyboard A" />
+			<Flag n="Keyboard B" />
+			<Flag n="Keyboard C" />
+			<Flag n="Keyboard D" />
+			<Flag n="Keyboard E" />
+			<Flag n="Keyboard F" />
+			<Flag n="Keyboard G" />
+			<Flag n="Keyboard H" />
+			<Flag n="Keyboard I" />
+			<Flag n="Keyboard J" />
+			<Flag n="Keyboard K" />
+			<Flag n="Keyboard L" />
+			<Flag n="Keyboard M" />
+			<Flag n="Keyboard N" />
+			<Flag n="Keyboard O" />
+			<Flag n="Keyboard P" />
+			<Flag n="Keyboard Q" />
+			<Flag n="Keyboard R" />
+			<Flag n="Keyboard S" />
+			<Flag n="Keyboard T" />
+			<Flag n="Keyboard U" />
+			<Flag n="Keyboard V" />
+			<Flag n="Keyboard W" />
+			<Flag n="Keyboard X" />
+			<Flag n="Keyboard Y" />
+			<Flag n="Keyboard Z" />
+			<Flag n="Keyboard Left Bracket" />
+			<Flag n="Keyboard Backslash" />
+			<Flag n="Keyboard Right Bracket" />
+			<Flag n="Keyboard Dash" />
+			<Flag n="Keyboard Equal" />
+			<Flag n="Keyboard Back Quote" />
+			<Flag n="Keyboard Left Windows" />
+			<Flag n="Keyboard Right Windows" />
+			<Flag n="Keyboard Apps" />
+			<Flag n="Keyboard Sleep" />
+			<Flag n="Keyboard NumPad 0" />
+			<Flag n="Keyboard NumPad 1" />
+			<Flag n="Keyboard NumPad 2" />
+			<Flag n="Keyboard NumPad 3" />
+			<Flag n="Keyboard NumPad 4" />
+			<Flag n="Keyboard NumPad 5" />
+			<Flag n="Keyboard NumPad 6" />
+			<Flag n="Keyboard NumPad 7" />
+			<Flag n="Keyboard NumPad 8" />
+			<Flag n="Keyboard NumPad 9" />
+			<Flag n="Keyboard NumPad Enter" />
+			<Flag n="Keyboard Multiply" />
+			<Flag n="Keyboard Add" />
+			<Flag n="Keyboard Separator" />
+			<Flag n="Keyboard Subtract" />
+			<Flag n="Keyboard Decimal" />
+			<Flag n="Keyboard Divide" />
+			<Flag n="Keyboard F1" />
+			<Flag n="Keyboard F2" />
+			<Flag n="Keyboard F3" />
+			<Flag n="Keyboard F4" />
+			<Flag n="Keyboard F5" />
+			<Flag n="Keyboard F6" />
+			<Flag n="Keyboard F7" />
+			<Flag n="Keyboard F8" />
+			<Flag n="Keyboard F9" />
+			<Flag n="Keyboard F10" />
+			<Flag n="Keyboard F11" />
+			<Flag n="Keyboard F12" />
+			<Flag n="Keyboard F13" />
+			<Flag n="Keyboard F14" />
+			<Flag n="Keyboard F15" />
+			<Flag n="Keyboard F16" />
+			<Flag n="Keyboard F17" />
+			<Flag n="Keyboard F18" />
+			<Flag n="Keyboard F19" />
+			<Flag n="Keyboard F20" />
+			<Flag n="Keyboard F21" />
+			<Flag n="Keyboard F22" />
+			<Flag n="Keyboard F23" />
+			<Flag n="Keyboard F24" />
+			<Flag n="Keyboard Num Lock" />
+			<Flag n="Keyboard Scroll Lock" />
+			<Flag n="Keyboard Left Shift" />
+			<Flag n="Keyboard Right Shift" />
+			<Flag n="Keyboard Left Control" />
+			<Flag n="Keyboard Right Control" />
+			<Flag n="Keyboard Left Alt" />
+			<Flag n="Keyboard Right Alt" />
+			<Flag n="Keyboard Browser Back" />
+			<Flag n="Keyboard Browser Forward" />
+			<Flag n="Keyboard Browser Refresh" />
+			<Flag n="Keyboard Browser Stop" />
+			<Flag n="Keyboard Browser Search" />
+			<Flag n="Keyboard Browser Favorites" />
+			<Flag n="Keyboard Browser Home" />
+			<Flag n="Keyboard Volume Mute" />
+			<Flag n="Keyboard Volume Down" />
+			<Flag n="Keyboard Volume Up" />
+			<Flag n="Keyboard Media Next Track" />
+			<Flag n="Keyboard Media Previous Track" />
+			<Flag n="Keyboard Media Stop" />
+			<Flag n="Keyboard Media Play/Pause" />
+			<Flag n="Keyboard Media Launch Mail" />
+			<Flag n="Keyboard Select Media" />
+			<Flag n="Keyboard Launch Application 1" />
+			<Flag n="Keyboard Launch Application 2" />
+			<Flag n="Keyboard OEM Semicolon" />
+			<Flag n="Keyboard OEM Plus" />
+			<Flag n="Keyboard OEM Comma" />
+			<Flag n="Keyboard OEM Minus" />
+			<Flag n="Keyboard OEM Period" />
+			<Flag n="Keyboard OEM Question" />
+			<Flag n="Keyboard OEM Tilde" />
+			<Flag n="Keyboard OEM Open Brackets" />
+			<Flag n="Keyboard OEM Pipe" />
+			<Flag n="Keyboard OEM Close Brackets" />
+			<Flag n="Keyboard OEM Quotes" />
+			<Flag n="Keyboard OEM 8" />
+			<Flag n="Keyboard OEM Backslash" />
+			<Flag n="Keyboard Process Key" />
+			<Flag n="Keyboard OEM Copy" />
+			<Flag n="Keyboard OEM Auto" />
+			<Flag n="Keyboard OEM EnlW" />
+			<Flag n="Keyboard Attn" />
+			<Flag n="Keyboard Crsel" />
+			<Flag n="Keyboard Exsel" />
+			<Flag n="Keyboard Erase EOF" />
+			<Flag n="Keyboard Play" />
+			<Flag n="Keyboard Zoom" />
+			<Flag n="Keyboard PA 1" />
+			<Flag n="Keyboard OEM Clear" />
+			<Flag n="Mouse Abs X" />
+			<Flag n="Mouse Abs Y" />
+			<Flag n="Mouse Rel X" />
+			<Flag n="Mouse Rel Y" />
+			<Flag n="Mouse Scroll" />
+			<Flag n="Mouse Scroll Down" />
+			<Flag n="Mouse Scroll Up" />
+			<Flag n="Mouse Left Button" />
+			<Flag n="Mouse Middle Button" />
+			<Flag n="Mouse Right Button" />
+			<Flag n="Mouse Extra Button 0" />
+			<Flag n="Mouse Extra Button 1" />
+		</_B>
+		<_34 Name="generated_padf483" Offset="2" Length="2" />
+		<_2 Name="axis" Offset="4" />
+		<_F Name="flags" Offset="8" StructName1="InputDeviceBindingEntry::Flags">
+			<Flag n="Development only" />
+		</_F>
+		<_34 Name="generated_pada7ce" Offset="9" Length="3" />
+	</_854049CEF6357C20B50CC4A5BE9256AF>
+	<_A7E546939A56730B11A064989A94F7B1 Name="InputBindingsUpdate" Size="18">
+		<_3C Name="version" Offset="0" />
+		<_34 Name="generated_pad04b9" Offset="1" Length="3" />
+		<_40 Name="bindings" Offset="4" GUID="854049CEF6357C20B50CC4A5BE9256AF" StructName1="InputBindingsUpdate" Min="0" Max="255" />
+	</_A7E546939A56730B11A064989A94F7B1>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

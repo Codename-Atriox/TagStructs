@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="user_interface_sounds_definition" Parents="aTag" Index="-448">
+	<_2DE7438570FFE8551597E3B683BAE604 Name="s_user_interface_sounds" Size="AB0">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="Controller Input Events" type="fgrb" Offset="10" />
+		<_41 Name="tab up" Offset="10" Allowed="snd!" Flags="0" />
+		<_41 Name="tab left" Offset="2C" Allowed="snd!" Flags="0" />
+		<_41 Name="tab right" Offset="48" Allowed="snd!" Flags="0" />
+		<_41 Name="tab down" Offset="64" Allowed="snd!" Flags="0" />
+		<_41 Name="alt stick up" Offset="80" Allowed="snd!" Flags="0" />
+		<_41 Name="alt stick left" Offset="9C" Allowed="snd!" Flags="0" />
+		<_41 Name="alt stick right" Offset="B8" Allowed="snd!" Flags="0" />
+		<_41 Name="alt stick down" Offset="D4" Allowed="snd!" Flags="0" />
+		<_41 Name="alt tab up" Offset="F0" Allowed="snd!" Flags="0" />
+		<_41 Name="alt tab left" Offset="10C" Allowed="snd!" Flags="0" />
+		<_41 Name="alt tab right" Offset="128" Allowed="snd!" Flags="0" />
+		<_41 Name="alt tab down" Offset="144" Allowed="snd!" Flags="0" />
+		<_41 Name="A button pressed" Offset="160" Allowed="snd!" Flags="0" />
+		<_41 Name="B button pressed" Offset="17C" Allowed="snd!" Flags="0" />
+		<_41 Name="X button pressed" Offset="198" Allowed="snd!" Flags="0" />
+		<_41 Name="Y button pressed" Offset="1B4" Allowed="snd!" Flags="0" />
+		<_41 Name="left trigger pressed" Offset="1D0" Allowed="snd!" Flags="0" />
+		<_41 Name="right trigger pressed" Offset="1EC" Allowed="snd!" Flags="0" />
+		<_41 Name="D-pad up pressed" Offset="208" Allowed="snd!" Flags="0" />
+		<_41 Name="D-pad left pressed" Offset="224" Allowed="snd!" Flags="0" />
+		<_41 Name="D-pad right pressed" Offset="240" Allowed="snd!" Flags="0" />
+		<_41 Name="D-pad down pressed" Offset="25C" Allowed="snd!" Flags="0" />
+		<_41 Name="start button pressed" Offset="278" Allowed="snd!" Flags="0" />
+		<_41 Name="back button pressed" Offset="294" Allowed="snd!" Flags="0" />
+		<_41 Name="left stick pressed" Offset="2B0" Allowed="snd!" Flags="0" />
+		<_41 Name="right stick pressed" Offset="2CC" Allowed="snd!" Flags="0" />
+		<_41 Name="left bumper pressed" Offset="2E8" Allowed="snd!" Flags="0" />
+		<_41 Name="right bumper pressed" Offset="304" Allowed="snd!" Flags="0" />
+		<_41 Name="left thumbstick pressed" Offset="320" Allowed="snd!" Flags="0" />
+		<_41 Name="right thumbstick pressed" Offset="33C" Allowed="snd!" Flags="0" />
+		<_41 Name="left stick pressed left" Offset="358" Allowed="snd!" Flags="0" />
+		<_41 Name="left stick pressed right" Offset="374" Allowed="snd!" Flags="0" />
+		<_41 Name="left stick pressed up" Offset="390" Allowed="snd!" Flags="0" />
+		<_41 Name="left stick pressed down" Offset="3AC" Allowed="snd!" Flags="0" />
+		<_41 Name="right stick pressed left" Offset="3C8" Allowed="snd!" Flags="0" />
+		<_41 Name="right stick pressed right" Offset="3E4" Allowed="snd!" Flags="0" />
+		<_41 Name="right stick pressed up" Offset="400" Allowed="snd!" Flags="0" />
+		<_41 Name="right stick pressed down" Offset="41C" Allowed="snd!" Flags="0" />
+		<_41 Name="A button released" Offset="438" Allowed="snd!" Flags="0" />
+		<_41 Name="B button released" Offset="454" Allowed="snd!" Flags="0" />
+		<_41 Name="X button released" Offset="470" Allowed="snd!" Flags="0" />
+		<_41 Name="Y button released" Offset="48C" Allowed="snd!" Flags="0" />
+		<_41 Name="left trigger released" Offset="4A8" Allowed="snd!" Flags="0" />
+		<_41 Name="right trigger released" Offset="4C4" Allowed="snd!" Flags="0" />
+		<_41 Name="D-pad up released" Offset="4E0" Allowed="snd!" Flags="0" />
+		<_41 Name="D-pad left released" Offset="4FC" Allowed="snd!" Flags="0" />
+		<_41 Name="D-pad right released" Offset="518" Allowed="snd!" Flags="0" />
+		<_41 Name="D-pad down released" Offset="534" Allowed="snd!" Flags="0" />
+		<_41 Name="start button released" Offset="550" Allowed="snd!" Flags="0" />
+		<_41 Name="back button released" Offset="56C" Allowed="snd!" Flags="0" />
+		<_41 Name="left stick released" Offset="588" Allowed="snd!" Flags="0" />
+		<_41 Name="right stick released" Offset="5A4" Allowed="snd!" Flags="0" />
+		<_41 Name="left bumper released" Offset="5C0" Allowed="snd!" Flags="0" />
+		<_41 Name="right bumper released" Offset="5DC" Allowed="snd!" Flags="0" />
+		<_41 Name="left thumbstick released" Offset="5F8" Allowed="snd!" Flags="0" />
+		<_41 Name="right thumbstick released" Offset="614" Allowed="snd!" Flags="0" />
+		<_41 Name="left stick released left" Offset="630" Allowed="snd!" Flags="0" />
+		<_41 Name="left stick released right" Offset="64C" Allowed="snd!" Flags="0" />
+		<_41 Name="left stick released up" Offset="668" Allowed="snd!" Flags="0" />
+		<_41 Name="left stick released down" Offset="684" Allowed="snd!" Flags="0" />
+		<_41 Name="right stick released left" Offset="6A0" Allowed="snd!" Flags="0" />
+		<_41 Name="right stick released right" Offset="6BC" Allowed="snd!" Flags="0" />
+		<_41 Name="right stick released up" Offset="6D8" Allowed="snd!" Flags="0" />
+		<_41 Name="right stick released down" Offset="6F4" Allowed="snd!" Flags="0" />
+		<_37 Name="" type="fgre" Offset="710" />
+		<_37 Name="General" type="fgrb" Offset="710" />
+		<_41 Name="error" Offset="710" Allowed="snd!" Flags="0" />
+		<_37 Name="" type="fgre" Offset="72C" />
+		<_37 Name="Screen" type="fgrb" Offset="72C" />
+		<_41 Name="screen transition in" Offset="72C" Allowed="snd!" Flags="0" />
+		<_41 Name="screen transition out" Offset="748" Allowed="snd!" Flags="0" />
+		<_37 Name="" type="fgre" Offset="764" />
+		<_37 Name="Timers" type="fgrb" Offset="764" />
+		<_41 Name="game start countdown timer first tick" Offset="764" Allowed="snd!" Flags="0" />
+		<_41 Name="game start countdown timer tick" Offset="780" Allowed="snd!" Flags="0" />
+		<_41 Name="game start countdown timer final tick" Offset="79C" Allowed="snd!" Flags="0" />
+		<_41 Name="alternate countdown timer first tick" Offset="7B8" Allowed="snd!" Flags="0" />
+		<_41 Name="alternate countdown timer tick" Offset="7D4" Allowed="snd!" Flags="0" />
+		<_41 Name="alternate countdown timer final tick" Offset="7F0" Allowed="snd!" Flags="0" />
+		<_37 Name="" type="fgre" Offset="80C" />
+		<_37 Name="Misc" type="fgrb" Offset="80C" />
+		<_41 Name="matchmaking started" Offset="80C" Allowed="snd!, musc" Flags="0" />
+		<_41 Name="matchmaking stopped" Offset="828" Allowed="snd!, musc" Flags="0" />
+		<_41 Name="custom game started" Offset="844" Allowed="snd!, musc" Flags="0" />
+		<_41 Name="custom game stopped" Offset="860" Allowed="snd!, musc" Flags="0" />
+		<_41 Name="campaign started" Offset="87C" Allowed="snd!, musc" Flags="0" />
+		<_41 Name="campaign stopped" Offset="898" Allowed="snd!, musc" Flags="0" />
+		<_41 Name="forge started" Offset="8B4" Allowed="snd!, musc" Flags="0" />
+		<_41 Name="forge stopped" Offset="8D0" Allowed="snd!, musc" Flags="0" />
+		<_37 Name="" type="fgre" Offset="8EC" />
+		<_37 Name="Exit Experience" type="fgrb" Offset="8EC" />
+		<_41 Name="game completion" Offset="8EC" Allowed="snd!" Flags="0" />
+		<_41 Name="winning bonus" Offset="908" Allowed="snd!" Flags="0" />
+		<_41 Name="hopper bonus" Offset="924" Allowed="snd!" Flags="0" />
+		<_41 Name="boost bonus" Offset="940" Allowed="snd!" Flags="0" />
+		<_41 Name="fasttrack bonus" Offset="95C" Allowed="snd!" Flags="0" />
+		<_41 Name="totals" Offset="978" Allowed="snd!" Flags="0" />
+		<_41 Name="subrank up" Offset="994" Allowed="snd!" Flags="0" />
+		<_41 Name="rank up" Offset="9B0" Allowed="snd!" Flags="0" />
+		<_41 Name="completed" Offset="9CC" Allowed="snd!" Flags="0" />
+		<_41 Name="counter loop" Offset="9E8" Allowed="lsnd" Flags="0" />
+		<_41 Name="score bonus" Offset="A04" Allowed="snd!" Flags="0" />
+		<_41 Name="rewards" Offset="A20" Allowed="snd!" Flags="0" />
+		<_37 Name="" type="fgre" Offset="A3C" />
+		<_37 Name="Storefront" type="fgrb" Offset="A3C" />
+		<_41 Name="purchase item bundle" Offset="A3C" Allowed="snd!" Flags="0" />
+		<_41 Name="purchase item storefront" Offset="A58" Allowed="snd!" Flags="0" />
+		<_41 Name="purchase battle pass" Offset="A74" Allowed="snd!" Flags="0" />
+		<_41 Name="purchase virtual currency" Offset="A90" Allowed="snd!" Flags="0" />
+		<_37 Name="" type="fgre" Offset="AAC" />
+		<_34 Name="generated_paddd62" Offset="AAC" Length="4" />
+	</_2DE7438570FFE8551597E3B683BAE604>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

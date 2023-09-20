@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="player_model_customization_globals" Parents="aTag" Index="-314">
+	<_7B4242AC3E8116B0888057ACA0790D22 Name="s_player_model_customization_globals_definition" Size="160">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="spartan render model" Offset="10" Allowed="mode" Flags="1" />
+		<_41 Name="elite render model" Offset="2C" Allowed="mode" Flags="1" />
+		<_40 Name="helmet selections" Offset="48" GUID="039B4B242C0583974E96C6D493A3E75D" StructName1="s_player_model_customization_globals_definition" Min="0" Max="96" />
+		<_40 Name="chest selections" Offset="5C" GUID="039B4B242C0583974E96C6D493A3E75D" StructName1="s_player_model_customization_globals_definition" Min="0" Max="96" />
+		<_40 Name="elite selections" Offset="70" GUID="039B4B242C0583974E96C6D493A3E75D" StructName1="s_player_model_customization_globals_definition" Min="0" Max="96" />
+		<_40 Name="left shoulder" Offset="84" GUID="039B4B242C0583974E96C6D493A3E75D" StructName1="s_player_model_customization_globals_definition" Min="0" Max="96" />
+		<_40 Name="right shoulder" Offset="98" GUID="039B4B242C0583974E96C6D493A3E75D" StructName1="s_player_model_customization_globals_definition" Min="0" Max="96" />
+		<_40 Name="arms" Offset="AC" GUID="039B4B242C0583974E96C6D493A3E75D" StructName1="s_player_model_customization_globals_definition" Min="0" Max="96" />
+		<_40 Name="legs" Offset="C0" GUID="039B4B242C0583974E96C6D493A3E75D" StructName1="s_player_model_customization_globals_definition" Min="0" Max="96" />
+		<_40 Name="unused 5" Offset="D4" GUID="039B4B242C0583974E96C6D493A3E75D" StructName1="s_player_model_customization_globals_definition" Min="0" Max="96" />
+		<_40 Name="spartan armor effect selections" Offset="E8" GUID="039B4B242C0583974E96C6D493A3E75D" StructName1="s_player_model_customization_globals_definition" Min="0" Max="96" />
+		<_40 Name="elite armor effect selections" Offset="FC" GUID="039B4B242C0583974E96C6D493A3E75D" StructName1="s_player_model_customization_globals_definition" Min="0" Max="96" />
+		<_40 Name="male spartan selections" Offset="110" GUID="B8F24CE53AAA47EC05DF23E28B427992" StructName1="s_player_model_customization_globals_definition" Min="0" Max="32" />
+		<_40 Name="female spartan selections" Offset="124" GUID="B8F24CE53AAA47EC05DF23E28B427992" StructName1="s_player_model_customization_globals_definition" Min="0" Max="32" />
+		<_40 Name="spartan model defaults" Offset="138" GUID="F0444260903BE80D13BD8847B47A1536" StructName1="s_player_model_customization_globals_definition" Min="0" Max="1" />
+		<_40 Name="elite model defaults" Offset="14C" GUID="B8F24CE53AAA47EC05DF23E28B427992" StructName1="s_player_model_customization_globals_definition" Min="0" Max="32" />
+	</_7B4242AC3E8116B0888057ACA0790D22>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_039B4B242C0583974E96C6D493A3E75D Name="s_model_customization_selection" Size="18">
+		<_2 Name="selection name" Offset="0" />
+		<_40 Name="customized bits" Offset="4" GUID="B8F24CE53AAA47EC05DF23E28B427992" StructName1="s_model_customization_selection" Min="0" Max="32" />
+	</_039B4B242C0583974E96C6D493A3E75D>
+	<_B8F24CE53AAA47EC05DF23E28B427992 Name="s_model_customization_player_region_permutation" Size="C">
+		<_2 Name="region name" type="sted" Offset="0" />
+		<_2 Name="permutation name" type="sted" Offset="4" />
+		<_F Name="flags" Offset="8" StructName1="c_model_customization_player_permutation_flags">
+			<Flag n="male_only" />
+			<Flag n="female_only" />
+		</_F>
+		<_34 Name="generated_pad5691" Offset="9" Length="3" />
+	</_B8F24CE53AAA47EC05DF23E28B427992>
+	<_F0444260903BE80D13BD8847B47A1536 Name="i343::ObjectCustomization::DefaultCoreData" Size="144">
+		<_2 Name="Default Theme Name" Offset="0" />
+		<_2 Name="Default variant id" Offset="4" />
+		<_2 Name="Default style id" Offset="8" />
+		<_2 Name="Title" Offset="C" />
+		<_2 Name="Description" Offset="10" />
+		<_41 Name="Default RenderModelDefinition" Offset="14" Allowed="mode" Flags="1" />
+		<_1 Name="CMS Id" Offset="30" />
+		<_40 Name="Permutation Regions" Offset="130" GUID="A6D64841EE8219F2C7AE937EAB1B8790" StructName1="i343::ObjectCustomization::DefaultCoreData" Min="0" Max="256" />
+	</_F0444260903BE80D13BD8847B47A1536>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_A6D64841EE8219F2C7AE937EAB1B8790 Name="i343::ObjectCustomization::DefaultRegionData" Size="120">
+		<_2 Name="Title" Offset="0" />
+		<_2 Name="Description" Offset="4" />
+		<_6 Name="CMS Customization Item Type" Offset="8" />
+		<_1 Name="CMS Path" Offset="C" />
+		<_40 Name="Permutation Regions" Offset="10C" GUID="44AE427CF63EE80101B3AF618DD5E3A0" StructName1="i343::ObjectCustomization::DefaultRegionData" Min="0" Max="256" />
+	</_A6D64841EE8219F2C7AE937EAB1B8790>
+	<_44AE427CF63EE80101B3AF618DD5E3A0 Name="i343::ObjectCustomization::DefaultPermutationRegions" Size="8">
+		<_2 Name="Permutation Region" Offset="0" />
+		<_2 Name="Default Permutation Name" Offset="4" />
+	</_44AE427CF63EE80101B3AF618DD5E3A0>
+</root>

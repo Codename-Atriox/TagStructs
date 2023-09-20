@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="FrameAttachmentDefinition" Parents="aTag" Index="-393">
+	<_13A948D0782DB9E62242DFF0B8DB43E7 Name="i343::Objects::FrameAttachmentDefinition" Size="108">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_2 Name="name" Offset="10" />
+		<_2 Name="type" Offset="14" />
+		<_36 Name="NOTE" Offset="18" />
+		<_2 Name="malleable property id" Offset="18" />
+		<_40 Name="region permutations" Offset="1C" GUID="6AEC49E404A47E60541A8DE480F20FC8" StructName1="i343::Objects::FrameAttachmentDefinition" Min="0" Max="32" />
+		<_40 Name="attachments" Offset="30" GUID="4775429C11097257EE75453FA775D933" StructName1="i343::Objects::FrameAttachmentDefinition" Min="0" Max="48" />
+		<_40 Name="attached objects" Offset="44" GUID="19864E3D573BEA0F9755B709AE351F27" StructName1="i343::Objects::FrameAttachmentDefinition" Min="0" Max="8" />
+		<_36 Name="NOTE" Offset="58" />
+		<_41 Name="modifiers" Offset="58" Allowed="gmpm" Flags="0" />
+		<_41 Name="input slot change sound" Offset="74" Allowed="snd!" Flags="0" />
+		<_41 Name="implementation" Offset="90" Allowed="phcc, eqip, saev, sagh, mead, mfat, mtad, sasp, bost, uiwi, weap, weat, weab, weah, weam, weme, west, wett, wetr, uwfa" Flags="0" />
+		<_41 Name="metadata tag" Offset="AC" Allowed="aTag" Flags="0" />
+		<_40 Name="UI display info" Offset="C8" GUID="52C6472B6BB873FD804507D0909B9077" StructName1="i343::Objects::FrameAttachmentDefinition" Min="0" Max="1" />
+		<_2 Name="Swapper Menu Activation StringID Override" Offset="DC" />
+		<_F Name="flags" Offset="E0" StructName1="i343::Objects::FrameAttachmentFlags">
+			<Flag n="always show ally nav point shield and health" />
+			<Flag n="not allowed to use dynamic input assignment" />
+			<Flag n="delete on reaching zero uses" />
+		</_F>
+		<_3C Name="attachment priority" Offset="E1" />
+		<_34 Name="generated_pad3276" Offset="E2" Length="2" />
+		<_37 Name="object dropping" type="fgrb" Offset="E4" />
+		<_41 Name="object to spawn when removed" Offset="E4" Allowed="obje" Flags="0" />
+		<_14 Name="energy per spawned object" Offset="100" />
+		<_37 Name="" type="fgre" Offset="104" />
+		<_34 Name="generated_pad7f2b" Offset="104" Length="4" />
+	</_13A948D0782DB9E62242DFF0B8DB43E7>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_6AEC49E404A47E60541A8DE480F20FC8 Name="i343::Objects::RegionPermutationDefinition" Size="8">
+		<_2 Name="region name" Offset="0" />
+		<_2 Name="permutation name" Offset="4" />
+	</_6AEC49E404A47E60541A8DE480F20FC8>
+	<_4775429C11097257EE75453FA775D933 Name="object_attachment_definition" Size="D0">
+		<_2 Name="name" Offset="0" />
+		<_41 Name="type" Offset="4" Allowed="tagg, ligh, gldf, ltvl, effe, lsnd, lens, cpem, egfd, decs" Flags="1" />
+		<_41 Name="tag graph output" Offset="20" Allowed="ligh, gldf, ltvl, effe, lsnd, lens, cpem, egfd, decs" Flags="0" />
+		<_2 Name="output node name" type="sted" Offset="3C" />
+		<_40 Name="tag graph float params" Offset="40" GUID="217941128AACE34BC7334D2EA8F6C67D" StructName1="object_attachment_definition" Min="0" Max="10" />
+		<_40 Name="tag graph bool params" Offset="54" GUID="80204605BFA6F4BF93CDD10F96C1C2B9" StructName1="object_attachment_definition" Min="0" Max="10" />
+		<_40 Name="taggraph instance variables - strings" Offset="68" GUID="AF7648E707ABAC2BFB95694D48E79C90" StructName1="object_attachment_definition" Min="0" Max="10" />
+		<_40 Name="taggraph instance variables - tag references" Offset="7C" GUID="75F34BCE26A27E545DB61B22BEC316D9" StructName1="object_attachment_definition" Min="0" Max="10" />
+		<_41 Name="override type" Offset="90" Allowed="ligh, gldf, ltvl, effe, lsnd, lens, cpem, egfd, decs" Flags="0" />
+		<_36 Name="variant names" Offset="AC" />
+		<_40 Name="variant names" Offset="AC" GUID="727F437E3853EE60753D9D508599809E" StructName1="object_attachment_definition" Min="0" Max="64" />
+		<_37 Name="" type="amkr" Offset="C0" />
+		<_2 Name="marker" Offset="C0" />
+		<_A Name="change color" Offset="C4" StructName1="e_change_color_reference">
+			<Flag n="none" />
+			<Flag n="primary" />
+			<Flag n="secondary" />
+			<Flag n="tertiary" />
+			<Flag n="quaternary" />
+		</_A>
+		<_F Name="flags" Offset="C5" StructName1="i343::Objects::AttachmentDefinitionFlags">
+			<Flag n="always create" />
+			<Flag n="effect size scale from object scale" />
+			<Flag n="update on create" />
+			<Flag n="always update" />
+		</_F>
+		<_34 Name="generated_padbd3f" Offset="C6" Length="2" />
+		<_2 Name="primary scale" type="sted" Offset="C8" />
+		<_2 Name="secondary scale" type="sted" Offset="CC" />
+	</_4775429C11097257EE75453FA775D933>
+	<_19864E3D573BEA0F9755B709AE351F27 Name="i343::Objects::AttachedObjectDefinition" Size="AC">
+		<_41 Name="object" Offset="0" Allowed="obje" Flags="0" />
+		<_41 Name="first person render model" Offset="1C" Allowed="mode" Flags="0" />
+		<_41 Name="first person model animation graph" Offset="38" Allowed="jmad" Flags="0" />
+		<_36 Name="FIRST PERSON ASSETS" Offset="54" />
+		<_41 Name="first person asset" Offset="54" Allowed="mode, aset" Flags="9" />
+		<_41 Name="first person animation asset" Offset="70" Allowed="jmad, aset" Flags="9" />
+		<_2 Name="variant name" Offset="8C" />
+		<_30 Name="parent override" Offset="90" GUID="19864E3D573BEA0F9755B709AE351F27" StructName1="i343::Objects::AttachedObjectDefinition" Min="0" Max="8" />
+		<_2 Name="default parent marker" Offset="94" />
+		<_2 Name="default attachment marker" Offset="98" />
+		<_2 Name="secondary parent marker" Offset="9C" />
+		<_2 Name="secondary attachment marker" Offset="A0" />
+		<_2 Name="parent damage transfer section" Offset="A4" />
+		<_F Name="flags" Offset="A8" StructName1="i343::Objects::AttachedObjectFlags">
+			<Flag n="enable physics" />
+			<Flag n="share bones with parent" />
+			<Flag n="visible when implementation active" />
+			<Flag n="visibility controlled by animation" />
+			<Flag n="switch markers on animation keyframe" />
+			<Flag n="always use first person animations in first person" />
+		</_F>
+		<_A Name="visibility behavior" Offset="A9" StructName1="i343::Objects::AttachedObjectVisibilityBehavior">
+			<Flag n="always visible" />
+			<Flag n="visibility controlled by animation (not visible by default)" />
+			<Flag n="visibility controlled by animation (visible by default)" />
+			<Flag n="visible when implementation active" />
+			<Flag n="hidden when implementation active" />
+			<Flag n="visible when in input slot" />
+		</_A>
+		<_A Name="first person visibility behavior" Offset="AA" StructName1="i343::Objects::AttachedObjectFirstPersonVisibilityBehavior">
+			<Flag n="default" />
+			<Flag n="visibility controlled by first person animation (invisible by default)" />
+			<Flag n="visibility controlled by first person animation (visible by default)" />
+			<Flag n="match third person behavior" />
+			<Flag n="always visible" />
+			<Flag n="never visible" />
+		</_A>
+		<_34 Name="generated_padf323" Offset="AB" Length="1" />
+	</_19864E3D573BEA0F9755B709AE351F27>
+	<_52C6472B6BB873FD804507D0909B9077 Name="Interface::UIItemInfo" Size="74">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="alt name " Offset="4" />
+		<_2 Name="description" Offset="8" />
+		<_2 Name="help text" Offset="C" />
+		<_2 Name="icon string id" Offset="10" />
+		<_41 Name="sprite" Offset="14" Allowed="bitm" Flags="0" />
+		<_6 Name="sprite index" Offset="30" />
+		<_41 Name="alt sprite" Offset="34" Allowed="bitm" Flags="0" />
+		<_6 Name="alt sprite index" Offset="50" />
+		<_6 Name="damage sprite index" Offset="54" />
+		<_41 Name="ui vehicle screen reference" Offset="58" Allowed="cusc" Flags="0" />
+	</_52C6472B6BB873FD804507D0909B9077>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_217941128AACE34BC7334D2EA8F6C67D Name="TagGraph::TagGraphFloatParam" Size="8">
+		<_2 Name="name" type="sted" Offset="0" />
+		<_14 Name="value" Offset="4" />
+	</_217941128AACE34BC7334D2EA8F6C67D>
+	<_80204605BFA6F4BF93CDD10F96C1C2B9 Name="TagGraph::TagGraphBoolParam" Size="8">
+		<_2 Name="name" type="sted" Offset="0" />
+		<_F Name="value" Offset="4" StructName1="TagGraph::TagGraphBoolVariableValue">
+			<Flag n="value" />
+		</_F>
+		<_34 Name="generated_pad0473" Offset="5" Length="3" />
+	</_80204605BFA6F4BF93CDD10F96C1C2B9>
+	<_AF7648E707ABAC2BFB95694D48E79C90 Name="TagGraph::TagGraphInstanceVariableString" Size="8">
+		<_2 Name="name" type="sted" Offset="0" />
+		<_2 Name="value" Offset="4" />
+	</_AF7648E707ABAC2BFB95694D48E79C90>
+	<_75F34BCE26A27E545DB61B22BEC316D9 Name="TagGraph::TagGraphInstanceVariableTagRef" Size="20">
+		<_2 Name="name" type="sted" Offset="0" />
+		<_41 Name="value" Offset="4" Allowed="aTag" Flags="0" />
+	</_75F34BCE26A27E545DB61B22BEC316D9>
+	<_727F437E3853EE60753D9D508599809E Name="i343::Objects::AttachmentVariantName" Size="4">
+		<_2 Name="variant name" type="sted" Offset="0" />
+	</_727F437E3853EE60753D9D508599809E>
+</root>

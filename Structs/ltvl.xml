@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:12 PM" Name="light_volume_system" Parents="aTag" Index="-243">
+	<_9E2E4295668829E0067789BCACE1F43F Name="c_light_volume_system_definition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="light_volumes" Offset="10" GUID="B85C4AF77E3CF99BB1E1DD8A8F990018" StructName1="c_light_volume_system_definition" Min="0" Max="16" />
+		<_34 Name="generated_pad6ee1" Offset="24" Length="4" />
+	</_9E2E4295668829E0067789BCACE1F43F>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_B85C4AF77E3CF99BB1E1DD8A8F990018 Name="LightVolumeDefinition" Size="1E8">
+		<_37 Name="" type="ifp+" Offset="0" />
+		<_2 Name="light_volume name" Offset="0" />
+		<_37 Name="material" type="tmpl" Offset="4" />
+		<_37 Name="" type="hide" Offset="4" />
+		<_38 Name="actual material?" Offset="4" GUID="3C15440613810D23A7F03D07AA769459" />
+		<_37 Name="" type="edih" Offset="68" />
+		<_14 Name="brightness ratio" Offset="68" />
+		<_D Name="flags" Offset="6C" StructName1="LightVolumeDefinition::LightVolumeFlags">
+			<Flag n="lod enabled" />
+			<Flag n="lod always 1.0" />
+			<Flag n="override lod camera distance range" />
+			<Flag n="use color override as tint" />
+		</_D>
+		<_25 Name="Camera Distance Range Override" Offset="70" />
+		<_38 Name="length" Offset="78" GUID="13C1459CBC2E916E888CE0DD82BC6E0D" />
+		<_38 Name="offset" Offset="9C" GUID="13C1459CBC2E916E888CE0DD82BC6E0D" />
+		<_38 Name="profile_density" Offset="C0" GUID="13C1459CBC2E916E888CE0DD82BC6E0D" />
+		<_38 Name="profile_length" Offset="E4" GUID="13C1459CBC2E916E888CE0DD82BC6E0D" />
+		<_38 Name="profile_thickness" Offset="108" GUID="13C1459CBC2E916E888CE0DD82BC6E0D" />
+		<_A Name="profile color override mode" Offset="12C" StructName1="i343::Effects::ColorOverrideMode">
+			<Flag n="None" />
+			<Flag n="Color Override 1" />
+			<Flag n="Color Override 2" />
+			<Flag n="Team Color" />
+			<Flag n="DWS Sun Color" />
+		</_A>
+		<_34 Name="generated_pad4685" Offset="12D" Length="3" />
+		<_38 Name="profile_color" Offset="130" GUID="9D244BEE59110FA93A822ECF8CBB0FF2" />
+		<_38 Name="profile_alpha" Offset="154" GUID="13C1459CBC2E916E888CE0DD82BC6E0D" />
+		<_38 Name="profile_intensity" Offset="178" GUID="13C1459CBC2E916E888CE0DD82BC6E0D" />
+		<_37 Name="" type="ifp-" Offset="19C" />
+		<_3E Name="runtime m_used_states" Offset="19C" />
+		<_3E Name="runtime m_max_profile_count" Offset="1A0" />
+		<_38 Name="runtime m_gpu_data" Offset="1A4" GUID="7C6242C533DE2336992C78EAAD5A8C31" />
+		<_7 Name="m_pipelineStates" Offset="1E0" />
+	</_B85C4AF77E3CF99BB1E1DD8A8F990018>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_3C15440613810D23A7F03D07AA769459 Name="Material" Size="64">
+		<_41 Name="material shader" Offset="0" Allowed="shdr, shdv, mat , ngfc" Flags="0" />
+		<_40 Name="material parameters" Offset="1C" GUID="739A40ED1B41042F195BD40DADDD1564" StructName1="Material" Min="0" Max="1335" />
+		<_40 Name="postprocess definition" Offset="30" GUID="C85241C01D50D0C3CE98F3A39E5B9057" StructName1="Material" Min="0" Max="1" />
+		<_2 Name="physics material name" type="sted" Offset="44" />
+		<_2 Name="physics material name 2" type="sted" Offset="48" />
+		<_2 Name="physics material name 3" type="sted" Offset="4C" />
+		<_2 Name="physics material name 4" type="sted" Offset="50" />
+		<_14 Name="sort offset" Offset="54" />
+		<_A Name="alpha blend mode" Offset="58" StructName1="AlphaBlendMode">
+			<Flag n="opaque" />
+			<Flag n="additive" />
+			<Flag n="multiply" />
+			<Flag n="alpha_blend" />
+			<Flag n="double_multiply" />
+			<Flag n="pre_multiplied_alpha" />
+			<Flag n="maximum" />
+			<Flag n="multiply_add" />
+			<Flag n="add_src_times_dstalpha" />
+			<Flag n="add_src_times_srcalpha" />
+			<Flag n="inv_alpha_blend" />
+			<Flag n="overdraw_apply" />
+			<Flag n="decal" />
+			<Flag n="minimum" />
+			<Flag n="revsubtract" />
+			<Flag n="alpha_blend_max" />
+			<Flag n="opaque_alpha_blend" />
+			<Flag n="alpha_blend_additive_transparent" />
+			<Flag n="unused0" />
+			<Flag n="decal_alpha_blend" />
+			<Flag n="decal_add_src_times_src_alpha" />
+			<Flag n="decal_multiply_add" />
+			<Flag n="wpf_no_color_blend_mode" />
+			<Flag n="decal opaque" />
+			<Flag n="accumulate_pre_multiplied_alpha" />
+			<Flag n="wpf_blend_mode" />
+			<Flag n="accumulate_multiply_add" />
+			<Flag n="accumulate_alpha_blend" />
+			<Flag n="accumulate_inverse_alpha_blend" />
+			<Flag n="accumulate_additive" />
+			<Flag n="accumulate_additive_transparent" />
+			<Flag n="accumulate_add_src_times_srcalpha" />
+			<Flag n="accumulate_multiply" />
+			<Flag n="alpha_blend_for_display_planes" />
+			<Flag n="texturePainter_SrcAddDestMult" />
+			<Flag n="texturePainter_DestMultSubSrc" />
+			<Flag n="logical OR" />
+			<Flag n="logical AND" />
+			<Flag n="decal_multiply" />
+			<Flag n="decal_double_multiply" />
+			<Flag n="fourChannelAdditive" />
+			<Flag n="wpf_additive_blend_mode" />
+			<Flag n="cloud apply" />
+			<Flag n="subsurfaceScattering_convolution" />
+			<Flag n="reflectionOcclusionMask" />
+			<Flag n="TAA mask Additive" />
+			<Flag n="TAA mask RevSubtract" />
+			<Flag n="TAA mask Multiply" />
+			<Flag n="TAA mask DoubleMultiply" />
+			<Flag n="TAA mask PreMultipliedAlpha" />
+			<Flag n="TAA mask MultiplyAdd" />
+			<Flag n="TAA mask AlphaBlend" />
+			<Flag n="TAA mask AddSrcTimesDstAlpha" />
+			<Flag n="TAA mask AddSrcTimesSrcAlpha" />
+			<Flag n="TAA mask AdditiveTransparent" />
+			<Flag n="TAA mask Alpha Blend for Display Plane" />
+			<Flag n="TAA Velocity Additive" />
+			<Flag n="TAA Velocity RevSubtract" />
+			<Flag n="TAA Velocity Multiply" />
+			<Flag n="TAA Velocity DoubleMultiply" />
+			<Flag n="TAA Velocity PreMultipliedAlpha" />
+			<Flag n="TAA Velocity MultiplyAdd" />
+			<Flag n="TAA Velocity AlphaBlend" />
+			<Flag n="TAA Velocity AddSrcTimesDstAlpha" />
+			<Flag n="TAA Velocity AddSrcTimesSrcAlpha" />
+			<Flag n="TAA Velocity AdditiveTransparent" />
+			<Flag n="TAA Velocity Alpha Blend for Display Plane" />
+			<Flag n="DeferredDecalsResolve" />
+			<Flag n="decal_ao_opaque" />
+			<Flag n="decal_ao_alpha_blend" />
+			<Flag n="decal_sss_blend" />
+			<Flag n="Hud Damage Alpha Blend" />
+		</_A>
+		<_A Name="sort layer" Offset="59" StructName1="e_transparent_sort_layer">
+			<Flag n="invalid" />
+			<Flag n="pre-pass" />
+			<Flag n="normal" />
+			<Flag n="post-pass" />
+		</_A>
+		<_F Name="flags" Offset="5A" StructName1="Material::MaterialFlags">
+			<Flag n="converted from shader" />
+			<Flag n="decal post lighting" />
+			<Flag n="runtime generated" />
+		</_F>
+		<_F Name="render flags" Offset="5B" StructName1="Material::MaterialRenderFlags">
+			<Flag n="no atmosphere fog" />
+			<Flag n="cull shields" />
+			<Flag n="cull active camo" />
+			<Flag n="mask TAA for transparents" />
+			<Flag n="force render velocity for TAA" />
+			<Flag n="render depth info when transparent" />
+			<Flag n="disable VRS on platforms that supports it" />
+		</_F>
+		<_14 Name="taa mask threshold start" Offset="5C" />
+		<_14 Name="taa mask threshold end" Offset="60" />
+	</_3C15440613810D23A7F03D07AA769459>
+	<_13C1459CBC2E916E888CE0DD82BC6E0D Name="LightVolumePropertyScalar" Size="24">
+		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="LightVolumeStates::e_input">
+			<Flag n="profile position" />
+			<Flag n="game time" />
+			<Flag n="light volume age" />
+			<Flag n="light volume random" />
+			<Flag n="light volume correlation 1" />
+			<Flag n="light volume correlation 2" />
+			<Flag n="camera distance" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="invalid state --- please set again" />
+		</_A>
+		<_A Name="Range Variable" type="fnir" Offset="1" StructName1="LightVolumeStates::e_input">
+			<Flag n="profile position" />
+			<Flag n="game time" />
+			<Flag n="light volume age" />
+			<Flag n="light volume random" />
+			<Flag n="light volume correlation 1" />
+			<Flag n="light volume correlation 2" />
+			<Flag n="camera distance" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="invalid state --- please set again" />
+		</_A>
+		<_A Name="Output Modifier" type="fnop" Offset="2" StructName1="EditablePropertyBase::OutputModifier">
+			<Flag n=" " />
+			<Flag n="Plus" />
+			<Flag n="Times" />
+		</_A>
+		<_A Name="Output Modifier Input" type="fnom" Offset="3" StructName1="LightVolumeStates::e_input">
+			<Flag n="profile position" />
+			<Flag n="game time" />
+			<Flag n="light volume age" />
+			<Flag n="light volume random" />
+			<Flag n="light volume correlation 1" />
+			<Flag n="light volume correlation 2" />
+			<Flag n="camera distance" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="invalid state --- please set again" />
+		</_A>
+		<_37 Name="Mapping" type="fned" Offset="4" />
+		<_38 Name="Mapping" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_14 Name="runtime m_constant_value" Offset="1C" />
+		<_3D Name="runtime m_flags" Offset="20" />
+		<_34 Name="pad" Offset="22" Length="2" />
+	</_13C1459CBC2E916E888CE0DD82BC6E0D>
+	<_9D244BEE59110FA93A822ECF8CBB0FF2 Name="LightVolumePropertyColor" Size="24">
+		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="LightVolumeStates::e_input">
+			<Flag n="profile position" />
+			<Flag n="game time" />
+			<Flag n="light volume age" />
+			<Flag n="light volume random" />
+			<Flag n="light volume correlation 1" />
+			<Flag n="light volume correlation 2" />
+			<Flag n="camera distance" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="invalid state --- please set again" />
+		</_A>
+		<_A Name="Range Variable" type="fnir" Offset="1" StructName1="LightVolumeStates::e_input">
+			<Flag n="profile position" />
+			<Flag n="game time" />
+			<Flag n="light volume age" />
+			<Flag n="light volume random" />
+			<Flag n="light volume correlation 1" />
+			<Flag n="light volume correlation 2" />
+			<Flag n="camera distance" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="invalid state --- please set again" />
+		</_A>
+		<_A Name="Output Modifier" type="fnop" Offset="2" StructName1="EditablePropertyBase::OutputModifier">
+			<Flag n=" " />
+			<Flag n="Plus" />
+			<Flag n="Times" />
+		</_A>
+		<_A Name="Output Modifier Input" type="fnom" Offset="3" StructName1="LightVolumeStates::e_input">
+			<Flag n="profile position" />
+			<Flag n="game time" />
+			<Flag n="light volume age" />
+			<Flag n="light volume random" />
+			<Flag n="light volume correlation 1" />
+			<Flag n="light volume correlation 2" />
+			<Flag n="camera distance" />
+			<Flag n="effect a scale" />
+			<Flag n="effect b scale" />
+			<Flag n="invalid state --- please set again" />
+		</_A>
+		<_37 Name="Mapping" type="fned" Offset="4" />
+		<_38 Name="Mapping" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_14 Name="runtime m_constant_value" Offset="1C" />
+		<_3D Name="runtime m_flags" Offset="20" />
+		<_34 Name="pad" Offset="22" Length="2" />
+	</_9D244BEE59110FA93A822ECF8CBB0FF2>
+	<_7C6242C533DE2336992C78EAAD5A8C31 Name="GPUPropertyFunctionColor" Size="3C">
+		<_40 Name="runtime gpu_property_block" Offset="0" GUID="46CF4B62A49C08232D11DA0EA45B3947" StructName1="GPUPropertyFunctionColor" Min="0" Max="20" />
+		<_40 Name="runtime gpu_functions_block" Offset="14" GUID="776D4521E4F4C1FD51350BCDAACCF4EA" StructName1="GPUPropertyFunctionColor" Min="0" Max="28" />
+		<_40 Name="runtime gpu_colors_block" Offset="28" GUID="0C16431977A26FFB69DC374981E4C4D3" StructName1="GPUPropertyFunctionColor" Min="0" Max="8" />
+	</_7C6242C533DE2336992C78EAAD5A8C31>
+	<_739A40ED1B41042F195BD40DADDD1564 Name="ShaderParameter" Size="9C">
+		<_2 Name="parameter name" Offset="0" />
+		<_C Name="parameter type" Offset="4" StructName1="MaterialParameterType">
+			<Flag n="bitmap" />
+			<Flag n="real" />
+			<Flag n="int" />
+			<Flag n="bool" />
+			<Flag n="color" />
+			<Flag n="scalar gpu property" />
+			<Flag n="color gpu property" />
+			<Flag n="string" />
+			<Flag n="preset" />
+		</_C>
+		<_41 Name="bitmap" Offset="8" Allowed="bitm, matp" Flags="18" />
+		<_20 Name="color" Offset="24" />
+		<_14 Name="real" Offset="34" />
+		<_19 Name="vector" Offset="38" />
+		<_6 Name="int/bool" Offset="44" />
+		<_42 Name="string" Offset="48" StructName1="ShaderParameter.string" Int1="2" Int2="0" Flags="20" />
+		<_3D Name="bitmap flags" Offset="60" />
+		<_3D Name="bitmap filter mode" Offset="62" />
+		<_3D Name="bitmap address mode" Offset="64" />
+		<_3D Name="bitmap address mode x" Offset="66" />
+		<_3D Name="bitmap address mode y" Offset="68" />
+		<_3C Name="bitmap extern mode" Offset="6A" />
+		<_3C Name="bitmap min mipmap" Offset="6B" />
+		<_3C Name="bitmap max mipmap" Offset="6C" />
+		<_34 Name="generated_padea44" Offset="6D" Length="3" />
+		<_14 Name="bitmap blur and sharpen" Offset="70" />
+		<_F Name="parameter flags" Offset="74" StructName1="ShaderParameter::ShaderParameterFlags">
+			<Flag n="texture array" />
+			<Flag n="force bitmap clamp" />
+			<Flag n="disabled" />
+			<Flag n="has transform function" />
+			<Flag n="bindless" />
+		</_F>
+		<_34 Name="generated_pad0425" Offset="75" Length="3" />
+		<_3E Name="render phases used" Offset="78" />
+		<_3E Name="shader types used" Offset="7C" />
+		<_40 Name="function parameters" Offset="80" GUID="F54D44725471F0E39A007BEDAD55A516" StructName1="ShaderParameter" Min="0" Max="267" />
+		<_3D Name="register offset" Offset="94" />
+		<_3D Name="register size" Offset="96" />
+		<_3C Name="bitmap extern index" Offset="98" />
+		<_34 Name="generated_pad50da" Offset="99" Length="3" />
+	</_739A40ED1B41042F195BD40DADDD1564>
+	<_C85241C01D50D0C3CE98F3A39E5B9057 Name="MaterialPostprocessDefinition" Size="A0">
+		<_40 Name="textures" Offset="0" GUID="3CD64BE1CD9812EC0BBCA596B33BFE48" StructName1="MaterialPostprocessDefinition" Min="0" Max="32" />
+		<_6 Name="textures to clear" Offset="14" />
+		<_40 Name="functions" Offset="18" GUID="F54D44725471F0E39A007BEDAD55A516" StructName1="MaterialPostprocessDefinition" Min="0" Max="267" />
+		<_40 Name="function parameters" Offset="2C" GUID="B81F4CBE25A1ECC080A9CFDB9F9466E2" StructName1="MaterialPostprocessDefinition" Min="0" Max="255" />
+		<_40 Name="extern parameters" Offset="40" GUID="B22C4F9172118236ABE7A5BBA645DAAF" StructName1="MaterialPostprocessDefinition" Min="0" Max="255" />
+		<_A Name="alpha blend mode" Offset="54" StructName1="AlphaBlendMode">
+			<Flag n="opaque" />
+			<Flag n="additive" />
+			<Flag n="multiply" />
+			<Flag n="alpha_blend" />
+			<Flag n="double_multiply" />
+			<Flag n="pre_multiplied_alpha" />
+			<Flag n="maximum" />
+			<Flag n="multiply_add" />
+			<Flag n="add_src_times_dstalpha" />
+			<Flag n="add_src_times_srcalpha" />
+			<Flag n="inv_alpha_blend" />
+			<Flag n="overdraw_apply" />
+			<Flag n="decal" />
+			<Flag n="minimum" />
+			<Flag n="revsubtract" />
+			<Flag n="alpha_blend_max" />
+			<Flag n="opaque_alpha_blend" />
+			<Flag n="alpha_blend_additive_transparent" />
+			<Flag n="unused0" />
+			<Flag n="decal_alpha_blend" />
+			<Flag n="decal_add_src_times_src_alpha" />
+			<Flag n="decal_multiply_add" />
+			<Flag n="wpf_no_color_blend_mode" />
+			<Flag n="decal opaque" />
+			<Flag n="accumulate_pre_multiplied_alpha" />
+			<Flag n="wpf_blend_mode" />
+			<Flag n="accumulate_multiply_add" />
+			<Flag n="accumulate_alpha_blend" />
+			<Flag n="accumulate_inverse_alpha_blend" />
+			<Flag n="accumulate_additive" />
+			<Flag n="accumulate_additive_transparent" />
+			<Flag n="accumulate_add_src_times_srcalpha" />
+			<Flag n="accumulate_multiply" />
+			<Flag n="alpha_blend_for_display_planes" />
+			<Flag n="texturePainter_SrcAddDestMult" />
+			<Flag n="texturePainter_DestMultSubSrc" />
+			<Flag n="logical OR" />
+			<Flag n="logical AND" />
+			<Flag n="decal_multiply" />
+			<Flag n="decal_double_multiply" />
+			<Flag n="fourChannelAdditive" />
+			<Flag n="wpf_additive_blend_mode" />
+			<Flag n="cloud apply" />
+			<Flag n="subsurfaceScattering_convolution" />
+			<Flag n="reflectionOcclusionMask" />
+			<Flag n="TAA mask Additive" />
+			<Flag n="TAA mask RevSubtract" />
+			<Flag n="TAA mask Multiply" />
+			<Flag n="TAA mask DoubleMultiply" />
+			<Flag n="TAA mask PreMultipliedAlpha" />
+			<Flag n="TAA mask MultiplyAdd" />
+			<Flag n="TAA mask AlphaBlend" />
+			<Flag n="TAA mask AddSrcTimesDstAlpha" />
+			<Flag n="TAA mask AddSrcTimesSrcAlpha" />
+			<Flag n="TAA mask AdditiveTransparent" />
+			<Flag n="TAA mask Alpha Blend for Display Plane" />
+			<Flag n="TAA Velocity Additive" />
+			<Flag n="TAA Velocity RevSubtract" />
+			<Flag n="TAA Velocity Multiply" />
+			<Flag n="TAA Velocity DoubleMultiply" />
+			<Flag n="TAA Velocity PreMultipliedAlpha" />
+			<Flag n="TAA Velocity MultiplyAdd" />
+			<Flag n="TAA Velocity AlphaBlend" />
+			<Flag n="TAA Velocity AddSrcTimesDstAlpha" />
+			<Flag n="TAA Velocity AddSrcTimesSrcAlpha" />
+			<Flag n="TAA Velocity AdditiveTransparent" />
+			<Flag n="TAA Velocity Alpha Blend for Display Plane" />
+			<Flag n="DeferredDecalsResolve" />
+			<Flag n="decal_ao_opaque" />
+			<Flag n="decal_ao_alpha_blend" />
+			<Flag n="decal_sss_blend" />
+			<Flag n="Hud Damage Alpha Blend" />
+		</_A>
+		<_F Name="runtime flags" Offset="55" StructName1="MaterialPostprocessDefinition::RuntimeFlags">
+			<Flag n="bindless indices are up to date" />
+		</_F>
+		<_E Name="flags" Offset="56" StructName1="MaterialPostprocessDefinition::MaterialPostprocessFlags">
+			<Flag n="has material constant functions" />
+			<Flag n="has texture frame functions" />
+			<Flag n="disable atmosphere fog" />
+			<Flag n="material is variable" />
+			<Flag n="has variable material constant functions" />
+			<Flag n="has at least one extern texture used" />
+			<Flag n="is alpha clip" />
+			<Flag n="enable_taa_mask" />
+			<Flag n="has damage map" />
+			<Flag n="has per placement material constant functions" />
+		</_E>
+		<_40 Name="material constants" Offset="58" GUID="991349C68333766C7F86FBF2AE341F87" StructName1="MaterialPostprocessDefinition" Min="1" Max="255" />
+		<_40 Name="alternate constants" Offset="6C" GUID="991349C68333766C7F86FBF2AE341F87" StructName1="MaterialPostprocessDefinition" Min="1" Max="255" />
+		<_7 Name="materialConstantBuffer" Offset="80" />
+		<_7 Name="alternateConstantBuffer" Offset="88" />
+		<_3E Name="material constant shader stage mask" Offset="90" />
+		<_39 Name="runtime queryable properties table" Offset="94" GUID="1E1A4BB1C7C8D371BEC7DEBEBE9FC430" Count="4" StructName1="runtime queryable properties table" />
+		<_38 Name="alpha clip descriptor" Offset="98" GUID="C15A4E18708F4288F0C55808B38BD440" />
+	</_C85241C01D50D0C3CE98F3A39E5B9057>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+	<_46CF4B62A49C08232D11DA0EA45B3947 Name="GPUPropertyParam" Size="10">
+		<_39 Name="runtime gpu_property_sub_array" Offset="0" GUID="EC34402B5E56CDB19B7468BABF36EF1D" Count="4" StructName1="runtime gpu_property_sub_array" />
+	</_46CF4B62A49C08232D11DA0EA45B3947>
+	<_776D4521E4F4C1FD51350BCDAACCF4EA Name="GPUFunctionParam" Size="40">
+		<_39 Name="runtime gpu_function_sub_array" Offset="0" GUID="E09141A2D6260931A3D78599984511D9" Count="16" StructName1="runtime gpu_function_sub_array" />
+	</_776D4521E4F4C1FD51350BCDAACCF4EA>
+	<_0C16431977A26FFB69DC374981E4C4D3 Name="GPUColorParam" Size="10">
+		<_39 Name="runtime gpu_color_sub_array" Offset="0" GUID="84F141D4EBCC1FB08EFF6043A584B00F" Count="4" StructName1="runtime gpu_color_sub_array" />
+	</_0C16431977A26FFB69DC374981E4C4D3>
+	<_F54D44725471F0E39A007BEDAD55A516 Name="MaterialShaderFunctionParameter" Size="30">
+		<_C Name="type" Offset="0" StructName1="MaterialAnimatedParameterType">
+			<Flag n="value" />
+			<Flag n="color" />
+			<Flag n="scale uniform" />
+			<Flag n="scale u" />
+			<Flag n="scale v" />
+			<Flag n="offset u" />
+			<Flag n="offset v" />
+			<Flag n="frame index" />
+			<Flag n="alpha" />
+		</_C>
+		<_2 Name="input name" type="fnin" Offset="4" />
+		<_2 Name="range name" type="fnir" Offset="8" />
+		<_A Name="Output Modifier" type="fnop" Offset="C" StructName1="MaterialShaderFunctionParameter::MaterialFunctionOutputModEnum">
+			<Flag n=" " />
+			<Flag n="Add" />
+			<Flag n="Multiply" />
+		</_A>
+		<_34 Name="generated_pad8305" Offset="D" Length="3" />
+		<_2 Name="Output Modifier Input" type="fnom" Offset="10" />
+		<_14 Name="time period" type="fn**" Offset="14" />
+		<_36 Name="FUNCTION" Offset="18" />
+		<_37 Name="function" type="fned" Offset="18" />
+		<_38 Name="function" Offset="18" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_F54D44725471F0E39A007BEDAD55A516>
+	<_3CD64BE1CD9812EC0BBCA596B33BFE48 Name="MaterialPostprocessTexture" Size="38">
+		<_41 Name="bitmap reference" Offset="0" Allowed="bitm" Flags="0" />
+		<_3E Name="render phase mask" Offset="1C" />
+		<_3E Name="shader stage mask" Offset="20" />
+		<_3D Name="frame index parameter" Offset="24" />
+		<_3D Name="sampler index" Offset="26" />
+		<_3D Name="transform register index" Offset="28" />
+		<_3D Name="bindless parameter register offset" Offset="2A" />
+		<_3C Name="extern texture mode" Offset="2C" />
+		<_3C Name="extern texture index" Offset="2D" />
+		<_34 Name="generated_pad0c27" Offset="2E" Length="2" />
+		<_7 Name="m_samplerStateView" Offset="30" />
+	</_3CD64BE1CD9812EC0BBCA596B33BFE48>
+	<_B81F4CBE25A1ECC080A9CFDB9F9466E2 Name="MaterialFunctionParameter" Size="8">
+		<_3C Name="function index" Offset="0" />
+		<_3C Name="register offset" Offset="1" />
+		<_3C Name="parameter group" Offset="2" />
+		<_34 Name="generated_padfe04" Offset="3" Length="1" />
+		<_3E Name="render phase mask" Offset="4" />
+	</_B81F4CBE25A1ECC080A9CFDB9F9466E2>
+	<_B22C4F9172118236ABE7A5BBA645DAAF Name="MaterialExternParameter" Size="C">
+		<_3C Name="extern index" Offset="0" />
+		<_3C Name="extern offset" Offset="1" />
+		<_3C Name="parameter group" Offset="2" />
+		<_34 Name="generated_paddcf2" Offset="3" Length="1" />
+		<_3D Name="bindless parameter register offset" Offset="4" />
+		<_34 Name="generated_pad29a7" Offset="6" Length="2" />
+		<_3E Name="render phase mask" Offset="8" />
+	</_B22C4F9172118236ABE7A5BBA645DAAF>
+	<_991349C68333766C7F86FBF2AE341F87 Name="MaterialConstant" Size="10">
+		<_1A Name="register" Offset="0" />
+	</_991349C68333766C7F86FBF2AE341F87>
+	<_1E1A4BB1C7C8D371BEC7DEBEBE9FC430 Name="MaterialPostprocessDefinition::RuntimeQueryableProperty" Size="1">
+		<_3C Name="index" Offset="0" />
+	</_1E1A4BB1C7C8D371BEC7DEBEBE9FC430>
+	<_C15A4E18708F4288F0C55808B38BD440 Name="MaterialPostprocessDefinition::AlphaClipDescriptor" Size="8">
+		<_3C Name="textureIndex" Offset="0" />
+		<_3C Name="textureChannel" Offset="1" />
+		<_34 Name="generated_pad14ce" Offset="2" Length="2" />
+		<_6 Name="thresholdIndex" Offset="4" />
+	</_C15A4E18708F4288F0C55808B38BD440>
+	<_EC34402B5E56CDB19B7468BABF36EF1D Name="GPUPropertySubArray" Size="4">
+		<_14 Name="runtime gpu_property_real" Offset="0" />
+	</_EC34402B5E56CDB19B7468BABF36EF1D>
+	<_E09141A2D6260931A3D78599984511D9 Name="GPUFunctionSubArray" Size="4">
+		<_14 Name="runtime gpu_function_real" Offset="0" />
+	</_E09141A2D6260931A3D78599984511D9>
+	<_84F141D4EBCC1FB08EFF6043A584B00F Name="GPUColorSubArray" Size="4">
+		<_14 Name="runtime gpu_color_real" Offset="0" />
+	</_84F141D4EBCC1FB08EFF6043A584B00F>
+</root>

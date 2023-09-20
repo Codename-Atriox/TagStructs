@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="customizationweaponthemeconfiguration" Parents="aTag" Index="-292">
+	<_C02E4B6A4BECA058B6BA26EB8D76AAD9 Name="i343::ObjectCustomization::WeaponThemeConfiguration" Size="98">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Regions" Offset="10" GUID="81794B092EC55B9956A488B3A2DFCA33" StructName1="i343::ObjectCustomization::WeaponThemeConfiguration" Min="0" Max="256" />
+		<_40 Name="Charm" Offset="24" GUID="3F0B4EEACFB6771D292D3C629D7D6B43" StructName1="i343::ObjectCustomization::WeaponThemeConfiguration" Min="0" Max="4096" />
+		<_40 Name="Emblems" Offset="38" GUID="EBDE4002CABEF73BFE7D7B3FAF4F7A08" StructName1="i343::ObjectCustomization::WeaponThemeConfiguration" Min="0" Max="1" />
+		<_40 Name="Effect Overrides" Offset="4C" GUID="C0BE4ADD95FDF5755486249BBE816919" StructName1="i343::ObjectCustomization::WeaponThemeConfiguration" Min="0" Max="4096" />
+		<_41 Name="Player Kill Effect" Offset="60" Allowed="effe" Flags="0" />
+		<_41 Name="Coating Styles" Offset="7C" Allowed="cosm, rucs" Flags="1" />
+	</_C02E4B6A4BECA058B6BA26EB8D76AAD9>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_81794B092EC55B9956A488B3A2DFCA33 Name="i343::ObjectCustomization::Region" Size="2C">
+		<_2 Name="Region Name" Offset="0" />
+		<_40 Name="Permutation Regions" Offset="4" GUID="933B4D0284D75DDF46917D0F99668D8C" StructName1="i343::ObjectCustomization::Region" Min="0" Max="16" />
+		<_40 Name="Permutation Settings" Offset="18" GUID="D9EE4AC768CB1B0AD7BFE6DB850E104A" StructName1="i343::ObjectCustomization::Region" Min="0" Max="256" />
+	</_81794B092EC55B9956A488B3A2DFCA33>
+	<_3F0B4EEACFB6771D292D3C629D7D6B43 Name="i343::ObjectCustomization::Charm" Size="1C">
+		<_41 Name="Charm" Offset="0" Allowed="ocad" Flags="4" />
+	</_3F0B4EEACFB6771D292D3C629D7D6B43>
+	<_EBDE4002CABEF73BFE7D7B3FAF4F7A08 Name="i343::ObjectCustomization::EmblemConfiguration" Size="3C">
+		<_40 Name="Theme Ids" Offset="0" GUID="BC814A093C466860D7399F7A8F796FAD" StructName1="i343::ObjectCustomization::EmblemConfiguration" Min="0" Max="1024" />
+		<_40 Name="Markers" Offset="14" GUID="F1E411E9B09FDEE6E2DBCCE4A7132A2A" StructName1="i343::ObjectCustomization::EmblemConfiguration" Min="0" Max="256" />
+		<_40 Name="BigEmblems" Offset="28" GUID="183841DF8A139DACC060C1CA9088A4B1" StructName1="i343::ObjectCustomization::EmblemConfiguration" Min="0" Max="100" />
+	</_EBDE4002CABEF73BFE7D7B3FAF4F7A08>
+	<_C0BE4ADD95FDF5755486249BBE816919 Name="i343::ObjectCustomization::ConfigurationThemeEffectOverride" Size="1C">
+		<_41 Name="Effect Override Definition" Offset="0" Allowed="oceo" Flags="4" />
+	</_C0BE4ADD95FDF5755486249BBE816919>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_933B4D0284D75DDF46917D0F99668D8C Name="i343::ObjectCustomization::PermutationRegions" Size="4">
+		<_2 Name="Permutation Region" Offset="0" />
+	</_933B4D0284D75DDF46917D0F99668D8C>
+	<_D9EE4AC768CB1B0AD7BFE6DB850E104A Name="i343::ObjectCustomization::PermutationSettings" Size="20">
+		<_2 Name="Permutation Name" Offset="0" />
+		<_41 Name="Material Style" Offset="4" Allowed="mwsy" Flags="0" />
+	</_D9EE4AC768CB1B0AD7BFE6DB850E104A>
+	<_BC814A093C466860D7399F7A8F796FAD Name="Interface::EmblemElementName" Size="4">
+		<_2 Name="id" Offset="0" />
+	</_BC814A093C466860D7399F7A8F796FAD>
+	<_F1E411E9B09FDEE6E2DBCCE4A7132A2A Name="i343::ObjectCustomization::EmblemMarker" Size="4">
+		<_2 Name="Marker" type="sted" Offset="0" />
+	</_F1E411E9B09FDEE6E2DBCCE4A7132A2A>
+	<_183841DF8A139DACC060C1CA9088A4B1 Name="i343::ObjectCustomization::BigEmblemConfiguration" Size="8">
+		<_2 Name="Theme Id" Offset="0" />
+		<_2 Name="Marker" type="sted" Offset="4" />
+	</_183841DF8A139DACC060C1CA9088A4B1>
+</root>

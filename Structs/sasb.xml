@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:16 PM" Name="ShoulderBashDefinitionTag" Parents="aTag" Index="-351">
+	<_97534EBC1DA1385BEAAB6DBC8CA432F4 Name="i343::SpartanAbilities::ShoulderBashDefinitionTag" Size="230">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="data" Offset="10" GUID="B790459F34D50DDBB585EAC3B79E8344" />
+	</_97534EBC1DA1385BEAAB6DBC8CA432F4>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_B790459F34D50DDBB585EAC3B79E8344 Name="i343::SpartanAbilities::ShoulderBashDefinition" Size="220">
+		<_38 Name="common ability parameters" Offset="0" GUID="D954483CA0B1EFF4F0B4EBCD88F17DD4" />
+		<_D Name="shoulder bash flags" Offset="78" StructName1="i343::SpartanAbilities::ShoulderBashDefinitionFlags">
+			<Flag n="Lock Gaze" />
+			<Flag n="Custom Sprint Anim When Ready" />
+			<Flag n="Evading Breaks Aim Assist" />
+			<Flag n="Disable Soft Contacts" />
+		</_D>
+		<_15 Name="sprint speed fraction threshold" Offset="7C" />
+		<_14 Name="sprint active minimum duration" Offset="80" />
+		<_14 Name="bash speed" Offset="84" />
+		<_14 Name="target speed scalar" Offset="88" />
+		<_14 Name="bash duration" Offset="8C" />
+		<_14 Name="bash duration with target" Offset="90" />
+		<_37 Name="target range scalar" type="mpfi" Offset="94" />
+		<_38 Name="target range scalar" Offset="94" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_14 Name="yaw speed scale" Offset="A0" />
+		<_14 Name="pitch speed scale" Offset="A4" />
+		<_14 Name="off the ground tolerance" Offset="A8" />
+		<_14 Name="hit sphere offset x" Offset="AC" />
+		<_14 Name="hit sphere offset z" Offset="B0" />
+		<_14 Name="hit sphere radius" Offset="B4" />
+		<_14 Name="hit sphere start point offset" Offset="B8" />
+		<_14 Name="surface adhesion velocity" Offset="BC" />
+		<_14 Name="surface adhesion airborne time limit" Offset="C0" />
+		<_8 Name="maximum shoulder bash assist angular velocity" Offset="C4" />
+		<_8 Name="assist pitch angle min" Offset="C8" />
+		<_8 Name="assist pitch angle max" Offset="CC" />
+		<_8 Name="contact angle threshold for damage" Offset="D0" />
+		<_14 Name="contact ignore offset" Offset="D4" />
+		<_8 Name="bash direction pitch offset for damage" Offset="D8" />
+		<_37 Name="knockback scalar" type="mpfi" Offset="DC" />
+		<_38 Name="knockback scalar" Offset="DC" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_36 Name="camera tilt pitch function" Offset="E8" />
+		<_37 Name="camera tilt pitch function" type="fned" Offset="E8" />
+		<_38 Name="camera tilt pitch function" Offset="E8" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_36 Name="camera forward offset function" Offset="100" />
+		<_37 Name="camera forward offset function" type="fned" Offset="100" />
+		<_38 Name="camera forward offset function" Offset="100" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_36 Name="camera FOV delta function" Offset="118" />
+		<_37 Name="camera FOV delta function" type="fned" Offset="118" />
+		<_38 Name="camera FOV delta function" Offset="118" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_41 Name="bash damage effect" Offset="130" Allowed="jpt!" Flags="0" />
+		<_41 Name="bash clang damage effect" Offset="14C" Allowed="jpt!" Flags="0" />
+		<_41 Name="bash effect" Offset="168" Allowed="effe" Flags="0" />
+		<_41 Name="bash response damage effect" Offset="184" Allowed="jpt!" Flags="0" />
+		<_41 Name="bash response effect" Offset="1A0" Allowed="effe" Flags="0" />
+		<_37 Name="damage scalar" type="mpfi" Offset="1BC" />
+		<_38 Name="damage scalar" Offset="1BC" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_2 Name="shoulder bash animation" Offset="1C8" />
+		<_2 Name="shoulder bash success follow-through" Offset="1CC" />
+		<_14 Name="shoulder bash success follow-through duration" Offset="1D0" />
+		<_14 Name="shoulder bash success follow-through FP camera restore time" Offset="1D4" />
+		<_2 Name="shoulder bash success rebound" Offset="1D8" />
+		<_14 Name="shoulder bash success rebound duration" Offset="1DC" />
+		<_14 Name="shoulder bash success rebound FP camera restore time" Offset="1E0" />
+		<_14 Name="shoulder bash success rebound speed duration" Offset="1E4" />
+		<_14 Name="shoulder bash success rebound speed" Offset="1E8" />
+		<_36 Name="no rebound surfaces" Offset="1EC" />
+		<_40 Name="no rebound materials" Offset="1EC" GUID="5B5940B2D2679D1F1CDF6E43ADDFB3DE" StructName1="i343::SpartanAbilities::ShoulderBashDefinition" Min="0" Max="64" />
+		<_2 Name="shoulder bash miss follow-through" Offset="200" />
+		<_14 Name="shoulder bash miss follow-through FP camera restore time" Offset="204" />
+		<_15 Name="shoulder bash miss follow-through early out fraction" Offset="208" />
+		<_36 Name="Aim Assist" Offset="20C" />
+		<_8 Name="auto aim angle" Offset="20C" />
+		<_14 Name="auto aim range" Offset="210" />
+		<_14 Name="auto aim falloff range" Offset="214" />
+		<_14 Name="auto aim near falloff range" Offset="218" />
+		<_36 Name="AI Response" Offset="21C" />
+		<_B Name="bash AI sound level" Offset="21C" StructName1="i343::AI::SoundVolume">
+			<Flag n="silent" />
+			<Flag n="quiet" />
+			<Flag n="medium" />
+			<Flag n="shout" />
+			<Flag n="loud" />
+		</_B>
+		<_34 Name="generated_padf9a1" Offset="21E" Length="2" />
+	</_B790459F34D50DDBB585EAC3B79E8344>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_D954483CA0B1EFF4F0B4EBCD88F17DD4 Name="i343::SpartanAbilities::SpartanAbilityCommonParameters" Size="78">
+		<_37 Name="common ability parameters" type="fgrb" Offset="0" />
+		<_C Name="input" Offset="0" StructName1="i343::Units::ArmorInput">
+			<Flag n="Default" />
+			<Flag n="Mobility" />
+			<Flag n="Suit" />
+			<Flag n="Jump" />
+			<Flag n="Equipment" />
+			<Flag n="Melee" />
+			<Flag n="PowerUp" />
+			<Flag n="Unmapped" />
+		</_C>
+		<_D Name="flags" Offset="4" StructName1="i343::SpartanAbilities::SpartanAbilityDefinitionFlags">
+			<Flag n="Use 3rd Person Camera When Active" />
+			<Flag n="Hide Reticle When Active" />
+			<Flag n="Is Motion Tracked (By Enemies) When Active" />
+			<Flag n="One-Shot Activation Effect" />
+			<Flag n="Can be activated when weapon state is relaxed" />
+			<Flag n="Does Not Appear In Extended Motion Tracker Range" />
+			<Flag n="Energy persists across deaths" />
+			<Flag n="Activation interrupts weapon switching" />
+			<Flag n="Allow activation during weapon throw" />
+			<Flag n="Allow activation while sliding" />
+			<Flag n="Drop support weapon when activated" />
+			<Flag n="Drop must be readied weapon when activated" />
+		</_D>
+		<_15 Name="activation energy cost" Offset="8" />
+		<_14 Name="active energy consumption" Offset="C" />
+		<_14 Name="recharge duration" Offset="10" />
+		<_14 Name="recharge delay" Offset="14" />
+		<_14 Name="cooldown delay" Offset="18" />
+		<_41 Name="activation effect" Offset="1C" Allowed="effe" Flags="0" />
+		<_14 Name="activation effect kill delay" Offset="38" />
+		<_A Name="sprint preservation" Offset="3C" StructName1="i343::SpartanAbilities::SprintPreservation">
+			<Flag n="No" />
+			<Flag n="Zero fraction" />
+			<Flag n="Retain fraction" />
+			<Flag n="Decay (normal)" />
+			<Flag n="Decay (forced)" />
+		</_A>
+		<_34 Name="generated_pad0aca" Offset="3D" Length="3" />
+		<_41 Name="active malleable property modifiers" Offset="40" Allowed="gmpm" Flags="0" />
+		<_41 Name="timed malleable property modifiers" Offset="5C" Allowed="gmpm" Flags="0" />
+		<_37 Name="" type="fgre" Offset="78" />
+	</_D954483CA0B1EFF4F0B4EBCD88F17DD4>
+	<_DB6340E6F8D8B4A163AE2E8B97EA8CBB Name="i343::MalleableProperty::BaseFloatStructDefinition" Size="C">
+		<_14 Name="Base Value" Offset="0" />
+		<_25 Name="Value Bounds" Offset="4" />
+	</_DB6340E6F8D8B4A163AE2E8B97EA8CBB>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+	<_5B5940B2D2679D1F1CDF6E43ADDFB3DE Name="i343::SpartanAbilities::MaterialNameStringIdBlock" Size="4">
+		<_2 Name="material name" Offset="0" />
+	</_5B5940B2D2679D1F1CDF6E43ADDFB3DE>
+</root>

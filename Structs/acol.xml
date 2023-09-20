@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="AssetCollection" Parents="aTag" Index="-8">
+	<_B0CF4CD730150C08CC29D80B0DA9C2E4 Name="AssetCollectionTag" Size="40">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Assets" Offset="10" GUID="5D084D5AFB44C16AB050757FB6F349F7" StructName1="AssetCollectionTag" Min="0" Max="4096" />
+		<_A Name="queryMode" Offset="24" StructName1="AssetCollectionQueryMode">
+			<Flag n="Enabled" />
+			<Flag n="Disabled" />
+		</_A>
+		<_34 Name="generated_padd9ee" Offset="25" Length="3" />
+		<_40 Name="Keyword queries" Offset="28" GUID="60C62AD69BF688BC8AF4719099AA2343" StructName1="AssetCollectionTag" Min="0" Max="4096" />
+		<_34 Name="generated_pad26a3" Offset="3C" Length="4" />
+	</_B0CF4CD730150C08CC29D80B0DA9C2E4>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_5D084D5AFB44C16AB050757FB6F349F7 Name="AssetEntry" Size="1C">
+		<_41 Name="Asset" Offset="0" Allowed="aset" Flags="1" />
+	</_5D084D5AFB44C16AB050757FB6F349F7>
+	<_60C62AD69BF688BC8AF4719099AA2343 Name="KeywordQueryEntry" Size="4">
+		<_2 Name="Query" Offset="0" />
+	</_60C62AD69BF688BC8AF4719099AA2343>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

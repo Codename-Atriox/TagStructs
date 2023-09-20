@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="terrain_collision_geo" Parents="aTag" Index="-431">
+	<_EBE5433152FD500B3D7B6659A21D65A7 Name="i343::Physics::TerrainCollisionGeoTag" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Terrain Collision geometry" Offset="10" GUID="D90143BF6D3374D144253F6593842B20" StructName1="i343::Physics::TerrainCollisionGeoTag" Min="0" Max="4096" />
+		<_34 Name="generated_pad85ae" Offset="24" Length="4" />
+	</_EBE5433152FD500B3D7B6659A21D65A7>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_D90143BF6D3374D144253F6593842B20 Name="i343::Physics::TerrainCollisionGeoResource" Size="10">
+		<_43 Name="TerrainCollisionGeoData resource" Offset="0" StructName1="i343::Physics::TerrainCollisionGeoData" Int1="0" GUID="D1BF431937C53386F1A8BB0E8FF8771E" />
+	</_D90143BF6D3374D144253F6593842B20>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_D1BF431937C53386F1A8BB0E8FF8771E Name="i343::Physics::TerrainCollisionGeoData" Size="14">
+		<_40 Name="Serialized Havok Geometry" Offset="0" GUID="843540FFA589197A6DDC8828B21C8708" StructName1="i343::Physics::TerrainCollisionGeoData" Min="0" Max="4" />
+	</_D1BF431937C53386F1A8BB0E8FF8771E>
+	<_843540FFA589197A6DDC8828B21C8708 Name="SerializedHavokGeometry" Size="30">
+		<_7 Name="field pointer skip" Offset="0" />
+		<_3E Name="collision type" Offset="8" />
+		<_3E Name="number of shapes" Offset="C" />
+		<_A Name="who will reload the shape, the parent tag or this struct?" Offset="10" StructName1="WhoDoesReload">
+			<Flag n="Me" />
+			<Flag n="Parent tag" />
+		</_A>
+		<_34 Name="generated_padb5d1" Offset="11" Length="3" />
+		<_42 Name="Havok Data" Offset="14" StructName1="SerializedHavokGeometry.Havok Data" Int1="32" Int2="4" Flags="1F400000" />
+		<_34 Name="generated_pad9bf0" Offset="2C" Length="4" />
+	</_843540FFA589197A6DDC8828B21C8708>
+</root>

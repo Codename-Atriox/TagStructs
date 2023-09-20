@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="camera_track" Parents="aTag" Index="-430">
+	<_A6194AFF6A47FC09ABD389719BF2F858 Name="CameraTrackDefinition" Size="40">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="Track" Offset="10" GUID="4B754BEA6968AA0001424F8F80087827" />
+		<_34 Name="generated_pad56d9" Offset="3C" Length="4" />
+	</_A6194AFF6A47FC09ABD389719BF2F858>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_4B754BEA6968AA0001424F8F80087827 Name="CameraTrack" Size="2C">
+		<_F Name="Flags" Offset="0" StructName1="CameraTrackFlags">
+			<Flag n="Lens Enabled" />
+		</_F>
+		<_34 Name="generated_padb652" Offset="1" Length="3" />
+		<_40 Name="Control Points" Offset="4" GUID="E4384E94CD7602FD45F707E2B9475AB8" StructName1="CameraTrack" Min="0" Max="4096" />
+		<_40 Name="Lenses" Offset="18" GUID="91F440BA38DEFDD9C972CDC0A1FE029D" StructName1="CameraTrack" Min="0" Max="4096" />
+	</_4B754BEA6968AA0001424F8F80087827>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_E4384E94CD7602FD45F707E2B9475AB8 Name="CameraTrackControlPoint" Size="1C">
+		<_19 Name="position" Offset="0" />
+		<_1A Name="orientation" Offset="C" />
+	</_E4384E94CD7602FD45F707E2B9475AB8>
+	<_91F440BA38DEFDD9C972CDC0A1FE029D Name="CameraTrackLens" Size="14">
+		<_F Name="Flags" Offset="0" StructName1="CameraTrackLensFlags">
+			<Flag n="Depth Of Field Enabled" />
+		</_F>
+		<_34 Name="generated_pad783a" Offset="1" Length="3" />
+		<_14 Name="Focal Length" Offset="4" />
+		<_14 Name="Focus Distance" Offset="8" />
+		<_14 Name="FStop" Offset="C" />
+		<_6 Name="Bokeh Side Count" Offset="10" />
+	</_91F440BA38DEFDD9C972CDC0A1FE029D>
+</root>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="camo" Parents="aTag" Index="-64">
+	<_EAA0419EFD484E57ED21A3D595BA9341 Name="s_camo_effect_definition" Size="58">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="Active Camo Controls" Offset="10" />
+		<_E Name="Flags" Offset="10" StructName1="s_camo_effect_definition::Flag">
+			<Flag n="also apply to object children" />
+		</_E>
+		<_34 Name="generated_padb4a4" Offset="12" Length="2" />
+		<_38 Name="Active Camo Amount" Offset="14" GUID="B16B4278D6E8140F95B494AC9B69A726" />
+		<_38 Name="Shadow Amount" Offset="34" GUID="B16B4278D6E8140F95B494AC9B69A726" />
+		<_34 Name="generated_padce85" Offset="54" Length="4" />
+	</_EAA0419EFD484E57ED21A3D595BA9341>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_B16B4278D6E8140F95B494AC9B69A726 Name="CamoScalarFunction" Size="20">
+		<_2 Name="Input Variable" type="fnin" Offset="0" />
+		<_2 Name="Range Variable" type="fnir" Offset="4" />
+		<_37 Name="Mapping" type="fned" Offset="8" />
+		<_38 Name="Mapping" Offset="8" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_B16B4278D6E8140F95B494AC9B69A726>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

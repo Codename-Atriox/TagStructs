@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:06 PM" Name="ScreenDefinition" Parents="aTag" Index="-170">
+	<_5BE54F10FAB947D60B832EA2891ACEEC Name="Interface::FastHud::ScreenDefinition" Size="30">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_2 Name="name" Offset="10" />
+		<_2 Name="warp params name" Offset="14" />
+		<_2 Name="chromatic aberration params name" Offset="18" />
+		<_40 Name="components" Offset="1C" GUID="111945F6BC0D2EBCF7CF30C28BE2EB1B" StructName1="Interface::FastHud::ScreenDefinition" Min="0" Max="32" />
+	</_5BE54F10FAB947D60B832EA2891ACEEC>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_111945F6BC0D2EBCF7CF30C28BE2EB1B Name="Interface::FastHud::ScreenComponentReference" Size="1C">
+		<_41 Name="reference" Offset="0" Allowed="fuic" Flags="0" />
+	</_111945F6BC0D2EBCF7CF30C28BE2EB1B>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

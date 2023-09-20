@@ -1,0 +1,1341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:02 PM" Name="dialogue_system_data" Parents="aTag" Index="-112">
+	<_FD3C46B03C131FA662A3A8ACB3CAFFC1 Name="DialogueSystemDataTag" Size="78">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="vocalizations" Offset="10" GUID="3EA148E6EFA010A47FA151D5A44C41E0" StructName1="DialogueSystemDataTag" Min="0" Max="4096" />
+		<_40 Name="patterns" Offset="24" GUID="CD6C43A7D957FA41C3ECCB8C9D2BA7B7" StructName1="DialogueSystemDataTag" Min="0" Max="4096" />
+		<_40 Name="pattern type look up data" Offset="38" GUID="169B4D90FCF21C42C4EAC71E98F06443" StructName1="DialogueSystemDataTag" Min="0" Max="523" />
+		<_40 Name="involuntary data" Offset="4C" GUID="08024456208CDC38A73BF24086F2C9BA" StructName1="DialogueSystemDataTag" Min="0" Max="100" />
+		<_40 Name="content defined events" Offset="60" GUID="6CFC924745B3A4484C3B78FFA4237429" StructName1="DialogueSystemDataTag" Min="0" Max="200" />
+		<_34 Name="generated_paddcb7" Offset="74" Length="4" />
+	</_FD3C46B03C131FA662A3A8ACB3CAFFC1>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_3EA148E6EFA010A47FA151D5A44C41E0 Name="Vocalization" Size="6C">
+		<_2 Name="vocalization" Offset="0" />
+		<_5 Name="offset from parent" Offset="4" />
+		<_B Name="priority" Offset="6" StructName1="DialoguePriority">
+			<Flag n="NONE" />
+			<Flag n="autonomic" />
+			<Flag n="recall" />
+			<Flag n="idle" />
+			<Flag n="comment" />
+			<Flag n="idle_response" />
+			<Flag n="postcombat" />
+			<Flag n="combat" />
+			<Flag n="status" />
+			<Flag n="respond" />
+			<Flag n="warn" />
+			<Flag n="act" />
+			<Flag n="react" />
+			<Flag n="involuntary" />
+			<Flag n="scream" />
+			<Flag n="scripted" />
+			<Flag n="death" />
+		</_B>
+		<_F Name="flags" Offset="8" StructName1="VocalizationFlags">
+			<Flag n="disable dialogue effect" />
+			<Flag n="no distance check exceptions" />
+			<Flag n="2d speaker" />
+			<Flag n="allowed in active camo" />
+			<Flag n="ignore post delay" />
+		</_F>
+		<_34 Name="generated_padbcab" Offset="9" Length="1" />
+		<_B Name="2D Speaker Voice" Offset="A" StructName1="i343::Dialogue::SpeakerVoice2D">
+			<Flag n="SpeakerVoice1" />
+			<Flag n="SpeakerVoice2" />
+			<Flag n="SpeakerVoice3" />
+			<Flag n="SpeakerVoice4" />
+			<Flag n="SpeakerVoice5" />
+		</_B>
+		<_A Name="glance behavior" Offset="C" StructName1="GlanceType">
+			<Flag n="NONE" />
+			<Flag n="glance subject short" />
+			<Flag n="glance subject long" />
+			<Flag n="glance cause short" />
+			<Flag n="glance cause long" />
+			<Flag n="glance friend short" />
+			<Flag n="glance friend long" />
+		</_A>
+		<_A Name="glance recipient behavior" Offset="D" StructName1="GlanceType">
+			<Flag n="NONE" />
+			<Flag n="glance subject short" />
+			<Flag n="glance subject long" />
+			<Flag n="glance cause short" />
+			<Flag n="glance cause long" />
+			<Flag n="glance friend short" />
+			<Flag n="glance friend long" />
+		</_A>
+		<_A Name="perception type" Offset="E" StructName1="PerceptionType">
+			<Flag n="NONE" />
+			<Flag n="speaker" />
+			<Flag n="listener" />
+		</_A>
+		<_34 Name="generated_pad6ff6" Offset="F" Length="1" />
+		<_B Name="max combat status" Offset="10" StructName1="ActorCombatStatus">
+			<Flag n="asleep" />
+			<Flag n="idle" />
+			<Flag n="alert" />
+			<Flag n="uninspected orphan" />
+			<Flag n="active" />
+			<Flag n="definite orphan" />
+			<Flag n="certain orphan" />
+			<Flag n="visible enemy" />
+			<Flag n="clear enemy los" />
+			<Flag n="dangerous enemy" />
+		</_B>
+		<_A Name="animation impulse" Offset="12" StructName1="DialogueAnimation">
+			<Flag n="NONE" />
+			<Flag n="shakefist" />
+			<Flag n="cheer" />
+			<Flag n="surprise-front" />
+			<Flag n="surprise-back" />
+			<Flag n="taunt" />
+			<Flag n="brace" />
+			<Flag n="point" />
+			<Flag n="hold" />
+			<Flag n="wave" />
+			<Flag n="advance" />
+			<Flag n="fallback" />
+		</_A>
+		<_34 Name="generated_pad2341" Offset="13" Length="1" />
+		<_5 Name="proxy dialogue index" Offset="14" />
+		<_34 Name="generated_padd68c" Offset="16" Length="2" />
+		<_14 Name="sound repetition delay" Offset="18" />
+		<_14 Name="allowable queue delay" Offset="1C" />
+		<_14 Name="pre voc. delay" Offset="20" />
+		<_14 Name="notification delay" Offset="24" />
+		<_14 Name="post voc. delay" Offset="28" />
+		<_14 Name="repeat delay" Offset="2C" />
+		<_14 Name="weight" Offset="30" />
+		<_14 Name="speaker freeze time" Offset="34" />
+		<_14 Name="listener freeze time" Offset="38" />
+		<_B Name="speaker emotion" Offset="3C" StructName1="e_facial_animation_emotions">
+			<Flag n="NONE" />
+			<Flag n="happy" />
+			<Flag n="sad" />
+			<Flag n="angry" />
+			<Flag n="disgusted" />
+			<Flag n="scared" />
+			<Flag n="surprised" />
+			<Flag n="pain" />
+			<Flag n="shout" />
+		</_B>
+		<_B Name="listener emotion" Offset="3E" StructName1="e_facial_animation_emotions">
+			<Flag n="NONE" />
+			<Flag n="happy" />
+			<Flag n="sad" />
+			<Flag n="angry" />
+			<Flag n="disgusted" />
+			<Flag n="scared" />
+			<Flag n="surprised" />
+			<Flag n="pain" />
+			<Flag n="shout" />
+		</_B>
+		<_14 Name="player speaker skip fraction" Offset="40" />
+		<_14 Name="player skip fraction" Offset="44" />
+		<_14 Name="flood skip fraction" Offset="48" />
+		<_14 Name="skip fraction" Offset="4C" />
+		<_5 Name="mission min value" Offset="50" />
+		<_5 Name="mission max value" Offset="52" />
+		<_2 Name="Sample line" Offset="54" />
+		<_40 Name="reponses" Offset="58" GUID="7A5844460D94F5608A08206A8346DEA4" StructName1="Vocalization" Min="0" Max="20" />
+	</_3EA148E6EFA010A47FA151D5A44C41E0>
+	<_CD6C43A7D957FA41C3ECCB8C9D2BA7B7 Name="VocalizationPattern" Size="88">
+		<_B Name="dialogue type" Offset="0" StructName1="c_dialogue_event_enum">
+			<Flag n="NONE" />
+			<Flag n="death" />
+			<Flag n="death_headshot" />
+			<Flag n="death_assassination" />
+			<Flag n="damage" />
+			<Flag n="damage_weakspot" />
+			<Flag n="anounce" />
+			<Flag n="sighted_interest" />
+			<Flag n="sighted_new" />
+			<Flag n="sighted_new major" />
+			<Flag n="sighted_first" />
+			<Flag n="sighted_special" />
+			<Flag n="sighted_alert" />
+			<Flag n="heard_new" />
+			<Flag n="heard_old" />
+			<Flag n="found_unit" />
+			<Flag n="found_unit_pursuit" />
+			<Flag n="found_unit_searching" />
+			<Flag n="throwing_grenade" />
+			<Flag n="throwing_grenade_all" />
+			<Flag n="stuck_grenade" />
+			<Flag n="fighting" />
+			<Flag n="suppressing_fire" />
+			<Flag n="grenade_uncover" />
+			<Flag n="move_uncover" />
+			<Flag n="jump" />
+			<Flag n="reload" />
+			<Flag n="reload_low_ammo" />
+			<Flag n="ready_spartan_laser" />
+			<Flag n="ready_rocket_launcher" />
+			<Flag n="ready_flak_cannon" />
+			<Flag n="ready_plasma_launcher" />
+			<Flag n="ready_weapon" />
+			<Flag n="weapon_pickup" />
+			<Flag n="spartan_equipment_pickup" />
+			<Flag n="surprised" />
+			<Flag n="lost_contact" />
+			<Flag n="investigate_failed" />
+			<Flag n="pursuit_failed" />
+			<Flag n="investigate_start" />
+			<Flag n="investigate_interest" />
+			<Flag n="searching" />
+			<Flag n="abandoned_search_space" />
+			<Flag n="abandoned_search_time" />
+			<Flag n="presearch_failed" />
+			<Flag n="abandoned_search_restricted" />
+			<Flag n="pursuit_start" />
+			<Flag n="guarding" />
+			<Flag n="postcombat_inspect_body" />
+			<Flag n="vehicle_slow_down" />
+			<Flag n="vehicle_get_in" />
+			<Flag n="idle" />
+			<Flag n="combat_idle" />
+			<Flag n="taunt" />
+			<Flag n="taunt_reply" />
+			<Flag n="retreat" />
+			<Flag n="retreat_from_scary_target" />
+			<Flag n="retreat_from_dead_leader" />
+			<Flag n="retreat_from_proximity" />
+			<Flag n="retreat_from_low_shield" />
+			<Flag n="flee" />
+			<Flag n="melee_charge" />
+			<Flag n="melee_attack" />
+			<Flag n="assassination_attack" />
+			<Flag n="assassination_interrupted" />
+			<Flag n="vehicle_falling" />
+			<Flag n="vehicle_woohoo" />
+			<Flag n="vehicle_scared" />
+			<Flag n="vehicle_crazy" />
+			<Flag n="leap" />
+			<Flag n="postcombat_win" />
+			<Flag n="postcombat_lose" />
+			<Flag n="postcombat_neutral" />
+			<Flag n="shoot_corpse" />
+			<Flag n="postcombat start" />
+			<Flag n="inspect_body_start" />
+			<Flag n="postcombat_status" />
+			<Flag n="postcombat_last_standing" />
+			<Flag n="vehicle_entry_start_driver" />
+			<Flag n="vehicle_enter" />
+			<Flag n="vehicle_entry_start_gun" />
+			<Flag n="vehicle_entry_start_passenger" />
+			<Flag n="vehicle_exit" />
+			<Flag n="evict_driver" />
+			<Flag n="evict_gunner" />
+			<Flag n="evict_passenger" />
+			<Flag n="vehicle_boarded" />
+			<Flag n="new_order_enemy_advancing" />
+			<Flag n="new_order_enemy_charging" />
+			<Flag n="new_order_enemy_fallingback" />
+			<Flag n="new_order_advance" />
+			<Flag n="new_order_charge" />
+			<Flag n="new_order_fallback" />
+			<Flag n="new_order_moveon" />
+			<Flag n="new_order_fllplr" />
+			<Flag n="new_order_arrive_combat" />
+			<Flag n="new_order_end_combat" />
+			<Flag n="new_order_investigate" />
+			<Flag n="new_order_spread" />
+			<Flag n="new_order_hold" />
+			<Flag n="new_order_find_cover" />
+			<Flag n="new_order_covering_fire" />
+			<Flag n="order_ack_positive" />
+			<Flag n="order_ack_negative" />
+			<Flag n="order_ack_canceled" />
+			<Flag n="order_ack_completed" />
+			<Flag n="order_ack_regroup" />
+			<Flag n="order_ack_disband" />
+			<Flag n="order_ack_weapon_change" />
+			<Flag n="order_ack_attack_vehicle" />
+			<Flag n="order_ack_attack_infantry" />
+			<Flag n="order_ack_interact" />
+			<Flag n="order_ack_pinned_down" />
+			<Flag n="fireteam_member_join" />
+			<Flag n="fireteam_member_danger" />
+			<Flag n="fireteam_member_died" />
+			<Flag n="emerge" />
+			<Flag n="curse" />
+			<Flag n="threaten" />
+			<Flag n="cover_friend" />
+			<Flag n="move_cover" />
+			<Flag n="in_cover" />
+			<Flag n="unassailable_cover" />
+			<Flag n="pinned_down" />
+			<Flag n="strike" />
+			<Flag n="open_fire" />
+			<Flag n="shoot" />
+			<Flag n="player_shoot" />
+			<Flag n="shoot_multiple" />
+			<Flag n="shoot_gunner" />
+			<Flag n="player_shoot_gunner" />
+			<Flag n="gloat" />
+			<Flag n="greet" />
+			<Flag n="player_look" />
+			<Flag n="player_look_longtime" />
+			<Flag n="panic_grenade_attached" />
+			<Flag n="panic_vehicle_destroyed" />
+			<Flag n="help response" />
+			<Flag n="remind" />
+			<Flag n="overheated" />
+			<Flag n="weapon_trade_better" />
+			<Flag n="weapon_trade_worse" />
+			<Flag n="weapon_trade_equal" />
+			<Flag n="betray" />
+			<Flag n="forgive" />
+			<Flag n="warn_target" />
+			<Flag n="warn_pursuit" />
+			<Flag n="order_protect" />
+			<Flag n="order_protect_accept" />
+			<Flag n="damage_stunned" />
+			<Flag n="use_equipment" />
+			<Flag n="ambush" />
+			<Flag n="undr_fire" />
+			<Flag n="undr_fire_trrt" />
+			<Flag n="flood_boom" />
+			<Flag n="vehicle_boom" />
+			<Flag n="berserk" />
+			<Flag n="stealth" />
+			<Flag n="infection" />
+			<Flag n="reanimate" />
+			<Flag n="scold" />
+			<Flag n="praise" />
+			<Flag n="scorn" />
+			<Flag n="plead" />
+			<Flag n="thank" />
+			<Flag n="ok" />
+			<Flag n="cheer" />
+			<Flag n="invite_vehicle" />
+			<Flag n="invite_vehicle_driver" />
+			<Flag n="invite_vehicle_gunner" />
+			<Flag n="player_blocking" />
+			<Flag n="player_multi_kill" />
+			<Flag n="advance_start" />
+			<Flag n="hamstring_charge" />
+			<Flag n="gangfire" />
+			<Flag n="lioncharge_begin" />
+			<Flag n="lioncharge_shoot" />
+			<Flag n="lioncharge_abandon" />
+			<Flag n="lioncharge_runner" />
+			<Flag n="pack_charge" />
+			<Flag n="tracking_ping" />
+			<Flag n="tracking_reflection" />
+			<Flag n="catch_up_to_player" />
+			<Flag n="blocking_player" />
+			<Flag n="attraction_area_on_player" />
+			<Flag n="attraction_area_general" />
+			<Flag n="attraction_area_sniper" />
+			<Flag n="attraction_area_suppress" />
+			<Flag n="attraction_area_cqb" />
+			<Flag n="player_order_occupy_ground" />
+			<Flag n="player_order_prosecute_target" />
+			<Flag n="player_order_enter_vehicle" />
+			<Flag n="player_order_get_weapon" />
+			<Flag n="player_order_regroup" />
+			<Flag n="player_order_revive" />
+			<Flag n="actor_acknowledge_order" />
+			<Flag n="actor_order_occupy_ground_completed" />
+			<Flag n="actor_order_prosecute_target_completed" />
+			<Flag n="actor_order_enter_vehicle_completed" />
+			<Flag n="actor_order_get_weapon_completed" />
+			<Flag n="actor_order_get_weapon_denied" />
+			<Flag n="actor_order_target_change_delayed" />
+			<Flag n="actor_order_unreachable" />
+			<Flag n="actor_notice_something" />
+			<Flag n="musk_report_idle" />
+			<Flag n="musk_report_scanning" />
+			<Flag n="musk_report_imminent_threat" />
+			<Flag n="musk_report_troops_in_combat" />
+			<Flag n="bounding_providing_cover" />
+			<Flag n="bounding_advancing" />
+			<Flag n="shield_wall_invite" />
+			<Flag n="shield_wall_join" />
+			<Flag n="cavalier_gate_spawn" />
+			<Flag n="cavalier_close_threat" />
+			<Flag n="cavalier_reveal_player" />
+			<Flag n="cavalier_block_player" />
+			<Flag n="cavalier_transition_mode" />
+			<Flag n="soldier_warp" />
+			<Flag n="firing_wall_create" />
+			<Flag n="firing_wall_join" />
+			<Flag n="firebuddy_follower_death" />
+			<Flag n="firebuddy_leader_death" />
+			<Flag n="downed_start" />
+			<Flag n="downed_player_order_help" />
+			<Flag n="downed_call_for_help" />
+			<Flag n="downed_call_for_help_reminder" />
+			<Flag n="moving_to_revive" />
+			<Flag n="unit_revives_unit" />
+			<Flag n="unit_revived_unit" />
+			<Flag n="clamber" />
+			<Flag n="vault" />
+			<Flag n="spawn_gate_spawning" />
+			<Flag n="spawn_gate_destroyed" />
+			<Flag n="spawn_gate_exhausted" />
+			<Flag n="shield_depleted" />
+			<Flag n="shield_recharge_started" />
+			<Flag n="shield_recharge_finished" />
+			<Flag n="overshield_depleted" />
+			<Flag n="dropped_weapon" />
+			<Flag n="spot_character" />
+			<Flag n="death_assist" />
+			<Flag n="first_strike" />
+			<Flag n="rocket_roll" />
+			<Flag n="extermination" />
+			<Flag n="weapon_pad_warning" />
+			<Flag n="weapon_pad_spawn" />
+			<Flag n="halfway_to_win" />
+			<Flag n="10_points_to_win" />
+			<Flag n="5_points_to_win" />
+			<Flag n="1_point_to_win" />
+			<Flag n="10_minutes_remaining" />
+			<Flag n="5_minutes_remaining" />
+			<Flag n="1_minute_remaining" />
+			<Flag n="30_seconds_remaining" />
+			<Flag n="player_spawn" />
+			<Flag n="captured_first" />
+			<Flag n="captured" />
+			<Flag n="captured_last" />
+			<Flag n="capturing_started" />
+			<Flag n="capturing_joined" />
+			<Flag n="capturing_contested" />
+			<Flag n="breakout_heartbeat" />
+			<Flag n="breakout_death" />
+			<Flag n="round_start" />
+			<Flag n="round_start_after_loss" />
+			<Flag n="round_start_after_win" />
+			<Flag n="round_start_elimination" />
+			<Flag n="cower" />
+			<Flag n="kamikaze" />
+			<Flag n="kamikaze_launched" />
+			<Flag n="evade" />
+			<Flag n="special_fire" />
+			<Flag n="shoulder_bash" />
+			<Flag n="ground_pound" />
+			<Flag n="ground_pound_started" />
+			<Flag n="armor_break" />
+			<Flag n="projectile_deflect_try" />
+			<Flag n="vehicle_critical_damage" />
+			<Flag n="vehicle critical damage occupied" />
+			<Flag n="vehicle_boarding_started" />
+			<Flag n="dropship_spawned" />
+			<Flag n="knight_hover_shoot" />
+			<Flag n="cavalier_death_ball_fire" />
+			<Flag n="cavalier_death_ball_charge" />
+			<Flag n="cavalier_death_ball_charge_suppress" />
+			<Flag n="watcher_heal" />
+			<Flag n="watcher_deflect_grenade" />
+			<Flag n="watcher_shield" />
+			<Flag n="collectible_pickup" />
+			<Flag n="bump_into" />
+			<Flag n="aggressive_fight_start" />
+			<Flag n="evasive_fight_start" />
+			<Flag n="interactive_objects_interested" />
+			<Flag n="camouflaged_rush_attack" />
+			<Flag n="shield_raise" />
+			<Flag n="precombat_lookout" />
+			<Flag n="precombat_sentry" />
+			<Flag n="precombat_recreation" />
+			<Flag n="precombat_vehicle" />
+			<Flag n="launch_object" />
+			<Flag n="go_to_weapon_rack" />
+			<Flag n="spartan_ability_evade_activate" />
+			<Flag n="spartan_ability_grapple_pull_activate" />
+			<Flag n="spartan_equipment_ability_activate" />
+			<Flag n="response" />
+			<Flag n="response_idle" />
+			<Flag n="shoot_major" />
+			<Flag n="follow_start" />
+			<Flag n="follow_end" />
+			<Flag n="follow_end_distance" />
+			<Flag n="follow_arrive" />
+			<Flag n="damage_camouflage_active" />
+			<Flag n="damage_overshield_active" />
+			<Flag n="user_01" />
+			<Flag n="user_02" />
+			<Flag n="user_03" />
+			<Flag n="user_04" />
+			<Flag n="user_05" />
+			<Flag n="user_06" />
+			<Flag n="user_07" />
+			<Flag n="user_08" />
+			<Flag n="user_09" />
+			<Flag n="user_10" />
+		</_B>
+		<_5 Name="vocalization index" Offset="2" />
+		<_2 Name="vocalization name" type="sted" Offset="4" />
+		<_A Name="audience type" Offset="8" StructName1="AudienceType">
+			<Flag n="subject" />
+			<Flag n="cause" />
+			<Flag n="friends" />
+			<Flag n="team" />
+			<Flag n="root" />
+			<Flag n="everyone" />
+			<Flag n="mp_squad" />
+		</_A>
+		<_A Name="listener/target" Offset="9" StructName1="SpeakerTypeEnum">
+			<Flag n="NONE" />
+			<Flag n="subject" />
+			<Flag n="cause" />
+			<Flag n="friend" />
+			<Flag n="friend_of_cause" />
+			<Flag n="target" />
+			<Flag n="enemy" />
+			<Flag n="enemy_of_cause" />
+			<Flag n="vehicle" />
+			<Flag n="joint" />
+			<Flag n="task" />
+			<Flag n="leader" />
+			<Flag n="joint_leader" />
+			<Flag n="clump" />
+			<Flag n="peer" />
+		</_A>
+		<_A Name="game type" Offset="A" StructName1="GameType">
+			<Flag n="NONE" />
+			<Flag n="campaign" />
+			<Flag n="campaign_blue" />
+			<Flag n="campaign_osiris" />
+			<Flag n="campaign_warzone" />
+			<Flag n="multiplayer" />
+			<Flag n="multiplayer_warzone" />
+			<Flag n="warzone" />
+		</_A>
+		<_A Name="hostility" Offset="B" StructName1="HostilityType">
+			<Flag n="NONE" />
+			<Flag n="self" />
+			<Flag n="neutral" />
+			<Flag n="friend" />
+			<Flag n="enemy" />
+			<Flag n="traitor" />
+		</_A>
+		<_D Name="flags" Offset="C" StructName1="PatternFlags">
+			<Flag n="subject visible" />
+			<Flag n="cause visible" />
+			<Flag n="friends present" />
+			<Flag n="subject is speaker's target" />
+			<Flag n="cause is speaker's target" />
+			<Flag n="cause is player" />
+			<Flag n="cause is primary player ally" />
+			<Flag n="cause is infantry" />
+			<Flag n="subject is infantry" />
+			<Flag n="speaker is infantry" />
+			<Flag n="speaker has low health" />
+			<Flag n="cause is targeting player" />
+			<Flag n="speaker must be in active camo" />
+			<Flag n="speaker is in friendly follower squad" />
+			<Flag n="speaker is not in friendly follower squad" />
+			<Flag n="subject has flag" />
+			<Flag n="cause has flag" />
+		</_D>
+		<_36 Name="Subject" Offset="10" />
+		<_B Name="subject actor type" Offset="10" StructName1="ActorType">
+			<Flag n="none" />
+			<Flag n="player" />
+			<Flag n="marine" />
+			<Flag n="crew" />
+			<Flag n="spartan" />
+			<Flag n="elite" />
+			<Flag n="jackal" />
+			<Flag n="jackal sniper" />
+			<Flag n="grunt" />
+			<Flag n="hunter" />
+			<Flag n="prophet" />
+			<Flag n="bugger" />
+			<Flag n="scarab" />
+			<Flag n="engineer" />
+			<Flag n="skirmisher" />
+			<Flag n="bishop" />
+			<Flag n="knight" />
+			<Flag n="pawn" />
+			<Flag n="cavalier" />
+			<Flag n="packmaster" />
+			<Flag n="soldier" />
+			<Flag n="soldier sniper" />
+			<Flag n="soldier officer" />
+			<Flag n="rook" />
+			<Flag n="sentinel" />
+			<Flag n="brute" />
+			<Flag n="hoverer" />
+			<Flag n="crusher" />
+			<Flag n="mule" />
+			<Flag n="mounted_weapon" />
+			<Flag n="octopus" />
+			<Flag n="wildlife" />
+		</_B>
+		<_A Name="subject type" Offset="12" StructName1="DialogueObjectType">
+			<Flag n="NONE" />
+			<Flag n="actor" />
+			<Flag n="actor or player" />
+			<Flag n="biped" />
+			<Flag n="body" />
+			<Flag n="driver" />
+			<Flag n="equipment" />
+			<Flag n="female" />
+			<Flag n="flood" />
+			<Flag n="fred" />
+			<Flag n="grenade" />
+			<Flag n="gunner" />
+			<Flag n="heretic" />
+			<Flag n="kelly" />
+			<Flag n="last man in vehicle" />
+			<Flag n="linda" />
+			<Flag n="locke" />
+			<Flag n="majorly scary" />
+			<Flag n="male" />
+			<Flag n="masterchief" />
+			<Flag n="osiris blue team" />
+			<Flag n="passenger" />
+			<Flag n="player" />
+			<Flag n="player dervish" />
+			<Flag n="player empty vehicle" />
+			<Flag n="player spartans" />
+			<Flag n="postcombat" />
+			<Flag n="postcombat_won" />
+			<Flag n="postcombat_lost" />
+			<Flag n="projectile" />
+			<Flag n="pureform" />
+			<Flag n="stealth" />
+			<Flag n="tanaka" />
+			<Flag n="thorne" />
+			<Flag n="vehicle" />
+			<Flag n="turret" />
+			<Flag n="unit in vehicle" />
+			<Flag n="unit in turret" />
+			<Flag n="unit carrying turret" />
+			<Flag n="vale" />
+			<Flag n="weapon" />
+		</_A>
+		<_34 Name="generated_padb5a9" Offset="13" Length="1" />
+		<_2 Name="subject ai type name" Offset="14" />
+		<_2 Name="subject dialogue system metadata label" Offset="18" />
+		<_2 Name="subject weapon name" Offset="1C" />
+		<_2 Name="subject location influence" Offset="20" />
+		<_A Name="subject min danger level" Offset="24" StructName1="DangerLevel">
+			<Flag n="NONE" />
+			<Flag n="broadly facing" />
+			<Flag n="shooting near" />
+			<Flag n="shooting at" />
+			<Flag n="extremely close" />
+			<Flag n="shield damage" />
+			<Flag n="shield extended damage" />
+			<Flag n="body damage" />
+			<Flag n="body extended damage" />
+		</_A>
+		<_A Name="subject max danger level" Offset="25" StructName1="DangerLevel">
+			<Flag n="NONE" />
+			<Flag n="broadly facing" />
+			<Flag n="shooting near" />
+			<Flag n="shooting at" />
+			<Flag n="extremely close" />
+			<Flag n="shield damage" />
+			<Flag n="shield extended damage" />
+			<Flag n="body damage" />
+			<Flag n="body extended damage" />
+		</_A>
+		<_5 Name="subject min team count" Offset="26" />
+		<_5 Name="subject max team count" Offset="28" />
+		<_36 Name="Cause" Offset="2A" />
+		<_B Name="cause actor type" Offset="2A" StructName1="ActorType">
+			<Flag n="none" />
+			<Flag n="player" />
+			<Flag n="marine" />
+			<Flag n="crew" />
+			<Flag n="spartan" />
+			<Flag n="elite" />
+			<Flag n="jackal" />
+			<Flag n="jackal sniper" />
+			<Flag n="grunt" />
+			<Flag n="hunter" />
+			<Flag n="prophet" />
+			<Flag n="bugger" />
+			<Flag n="scarab" />
+			<Flag n="engineer" />
+			<Flag n="skirmisher" />
+			<Flag n="bishop" />
+			<Flag n="knight" />
+			<Flag n="pawn" />
+			<Flag n="cavalier" />
+			<Flag n="packmaster" />
+			<Flag n="soldier" />
+			<Flag n="soldier sniper" />
+			<Flag n="soldier officer" />
+			<Flag n="rook" />
+			<Flag n="sentinel" />
+			<Flag n="brute" />
+			<Flag n="hoverer" />
+			<Flag n="crusher" />
+			<Flag n="mule" />
+			<Flag n="mounted_weapon" />
+			<Flag n="octopus" />
+			<Flag n="wildlife" />
+		</_B>
+		<_A Name="cause type" Offset="2C" StructName1="DialogueObjectType">
+			<Flag n="NONE" />
+			<Flag n="actor" />
+			<Flag n="actor or player" />
+			<Flag n="biped" />
+			<Flag n="body" />
+			<Flag n="driver" />
+			<Flag n="equipment" />
+			<Flag n="female" />
+			<Flag n="flood" />
+			<Flag n="fred" />
+			<Flag n="grenade" />
+			<Flag n="gunner" />
+			<Flag n="heretic" />
+			<Flag n="kelly" />
+			<Flag n="last man in vehicle" />
+			<Flag n="linda" />
+			<Flag n="locke" />
+			<Flag n="majorly scary" />
+			<Flag n="male" />
+			<Flag n="masterchief" />
+			<Flag n="osiris blue team" />
+			<Flag n="passenger" />
+			<Flag n="player" />
+			<Flag n="player dervish" />
+			<Flag n="player empty vehicle" />
+			<Flag n="player spartans" />
+			<Flag n="postcombat" />
+			<Flag n="postcombat_won" />
+			<Flag n="postcombat_lost" />
+			<Flag n="projectile" />
+			<Flag n="pureform" />
+			<Flag n="stealth" />
+			<Flag n="tanaka" />
+			<Flag n="thorne" />
+			<Flag n="vehicle" />
+			<Flag n="turret" />
+			<Flag n="unit in vehicle" />
+			<Flag n="unit in turret" />
+			<Flag n="unit carrying turret" />
+			<Flag n="vale" />
+			<Flag n="weapon" />
+		</_A>
+		<_34 Name="generated_pad9bc8" Offset="2D" Length="3" />
+		<_2 Name="cause ai type name" Offset="30" />
+		<_2 Name="cause dialogue system metadata label" Offset="34" />
+		<_2 Name="cause equipment type name" Offset="38" />
+		<_2 Name="cause weapon name" Offset="3C" />
+		<_2 Name="cause location influence" Offset="40" />
+		<_A Name="cause min danger level" Offset="44" StructName1="DangerLevel">
+			<Flag n="NONE" />
+			<Flag n="broadly facing" />
+			<Flag n="shooting near" />
+			<Flag n="shooting at" />
+			<Flag n="extremely close" />
+			<Flag n="shield damage" />
+			<Flag n="shield extended damage" />
+			<Flag n="body damage" />
+			<Flag n="body extended damage" />
+		</_A>
+		<_A Name="cause max danger level" Offset="45" StructName1="DangerLevel">
+			<Flag n="NONE" />
+			<Flag n="broadly facing" />
+			<Flag n="shooting near" />
+			<Flag n="shooting at" />
+			<Flag n="extremely close" />
+			<Flag n="shield damage" />
+			<Flag n="shield extended damage" />
+			<Flag n="body damage" />
+			<Flag n="body extended damage" />
+		</_A>
+		<_5 Name="cause min team count" Offset="46" />
+		<_5 Name="cause max team count" Offset="48" />
+		<_36 Name="Speaker" Offset="4A" />
+		<_A Name="speaker type" Offset="4A" StructName1="SpeakerTypeEnum">
+			<Flag n="NONE" />
+			<Flag n="subject" />
+			<Flag n="cause" />
+			<Flag n="friend" />
+			<Flag n="friend_of_cause" />
+			<Flag n="target" />
+			<Flag n="enemy" />
+			<Flag n="enemy_of_cause" />
+			<Flag n="vehicle" />
+			<Flag n="joint" />
+			<Flag n="task" />
+			<Flag n="leader" />
+			<Flag n="joint_leader" />
+			<Flag n="clump" />
+			<Flag n="peer" />
+		</_A>
+		<_A Name="speaker object type" Offset="4B" StructName1="DialogueObjectType">
+			<Flag n="NONE" />
+			<Flag n="actor" />
+			<Flag n="actor or player" />
+			<Flag n="biped" />
+			<Flag n="body" />
+			<Flag n="driver" />
+			<Flag n="equipment" />
+			<Flag n="female" />
+			<Flag n="flood" />
+			<Flag n="fred" />
+			<Flag n="grenade" />
+			<Flag n="gunner" />
+			<Flag n="heretic" />
+			<Flag n="kelly" />
+			<Flag n="last man in vehicle" />
+			<Flag n="linda" />
+			<Flag n="locke" />
+			<Flag n="majorly scary" />
+			<Flag n="male" />
+			<Flag n="masterchief" />
+			<Flag n="osiris blue team" />
+			<Flag n="passenger" />
+			<Flag n="player" />
+			<Flag n="player dervish" />
+			<Flag n="player empty vehicle" />
+			<Flag n="player spartans" />
+			<Flag n="postcombat" />
+			<Flag n="postcombat_won" />
+			<Flag n="postcombat_lost" />
+			<Flag n="projectile" />
+			<Flag n="pureform" />
+			<Flag n="stealth" />
+			<Flag n="tanaka" />
+			<Flag n="thorne" />
+			<Flag n="vehicle" />
+			<Flag n="turret" />
+			<Flag n="unit in vehicle" />
+			<Flag n="unit in turret" />
+			<Flag n="unit carrying turret" />
+			<Flag n="vale" />
+			<Flag n="weapon" />
+		</_A>
+		<_A Name="speaker behavior" Offset="4C" StructName1="SpeakerBehavior">
+			<Flag n="any" />
+			<Flag n="combat" />
+			<Flag n="engage" />
+			<Flag n="search" />
+			<Flag n="cover" />
+			<Flag n="retreat" />
+			<Flag n="follow" />
+			<Flag n="shoot" />
+			<Flag n="clump_idle" />
+			<Flag n="clump_combat" />
+			<Flag n="fought_brutes" />
+			<Flag n="fought_flood" />
+		</_A>
+		<_A Name="speaker min danger level" Offset="4D" StructName1="DangerLevel">
+			<Flag n="NONE" />
+			<Flag n="broadly facing" />
+			<Flag n="shooting near" />
+			<Flag n="shooting at" />
+			<Flag n="extremely close" />
+			<Flag n="shield damage" />
+			<Flag n="shield extended damage" />
+			<Flag n="body damage" />
+			<Flag n="body extended damage" />
+		</_A>
+		<_A Name="speaker max danger level" Offset="4E" StructName1="DangerLevel">
+			<Flag n="NONE" />
+			<Flag n="broadly facing" />
+			<Flag n="shooting near" />
+			<Flag n="shooting at" />
+			<Flag n="extremely close" />
+			<Flag n="shield damage" />
+			<Flag n="shield extended damage" />
+			<Flag n="body damage" />
+			<Flag n="body extended damage" />
+		</_A>
+		<_A Name="speaker/subject min distance" Offset="4F" StructName1="DistanceType">
+			<Flag n="NONE" />
+			<Flag n="very near" />
+			<Flag n="near" />
+			<Flag n="medium range" />
+			<Flag n="far" />
+			<Flag n="very far" />
+		</_A>
+		<_A Name="speaker/subject max distance" Offset="50" StructName1="DistanceType">
+			<Flag n="NONE" />
+			<Flag n="very near" />
+			<Flag n="near" />
+			<Flag n="medium range" />
+			<Flag n="far" />
+			<Flag n="very far" />
+		</_A>
+		<_A Name="speaker/subject position" Offset="51" StructName1="SpatialRelation">
+			<Flag n="NONE" />
+			<Flag n="in front of" />
+			<Flag n="behind" />
+			<Flag n="above" />
+			<Flag n="below" />
+			<Flag n="few" />
+			<Flag n="in range" />
+		</_A>
+		<_A Name="speaker/cause min distance" Offset="52" StructName1="DistanceType">
+			<Flag n="NONE" />
+			<Flag n="very near" />
+			<Flag n="near" />
+			<Flag n="medium range" />
+			<Flag n="far" />
+			<Flag n="very far" />
+		</_A>
+		<_A Name="speaker/cause max distance" Offset="53" StructName1="DistanceType">
+			<Flag n="NONE" />
+			<Flag n="very near" />
+			<Flag n="near" />
+			<Flag n="medium range" />
+			<Flag n="far" />
+			<Flag n="very far" />
+		</_A>
+		<_A Name="speaker/cause position" Offset="54" StructName1="SpatialRelation">
+			<Flag n="NONE" />
+			<Flag n="in front of" />
+			<Flag n="behind" />
+			<Flag n="above" />
+			<Flag n="below" />
+			<Flag n="few" />
+			<Flag n="in range" />
+		</_A>
+		<_34 Name="generated_pad4f13" Offset="55" Length="3" />
+		<_D Name="Conditions" Offset="58" StructName1="DialogueConditionFlags">
+			<Flag n="asleep" />
+			<Flag n="idle" />
+			<Flag n="alert" />
+			<Flag n="active" />
+			<Flag n="uninspected orphan" />
+			<Flag n="definite orphan" />
+			<Flag n="certain orphan" />
+			<Flag n="visible enemy" />
+			<Flag n="clear los enemy" />
+			<Flag n="dangerous enemy" />
+			<Flag n="no vehicle" />
+			<Flag n="vehicle driver" />
+			<Flag n="vehicle passenger" />
+		</_D>
+		<_36 Name="Matching" Offset="5C" />
+		<_A Name="subject/cause min distance" Offset="5C" StructName1="DistanceType">
+			<Flag n="NONE" />
+			<Flag n="very near" />
+			<Flag n="near" />
+			<Flag n="medium range" />
+			<Flag n="far" />
+			<Flag n="very far" />
+		</_A>
+		<_A Name="subject/cause max distance" Offset="5D" StructName1="DistanceType">
+			<Flag n="NONE" />
+			<Flag n="very near" />
+			<Flag n="near" />
+			<Flag n="medium range" />
+			<Flag n="far" />
+			<Flag n="very far" />
+		</_A>
+		<_A Name="spatial relation" Offset="5E" StructName1="SpatialRelation">
+			<Flag n="NONE" />
+			<Flag n="in front of" />
+			<Flag n="behind" />
+			<Flag n="above" />
+			<Flag n="below" />
+			<Flag n="few" />
+			<Flag n="in range" />
+		</_A>
+		<_34 Name="generated_padcf8a" Offset="5F" Length="1" />
+		<_B Name="damage category" Offset="60" StructName1="DamageCategories">
+			<Flag n="none" />
+			<Flag n="falling" />
+			<Flag n="bullet" />
+			<Flag n="grenade" />
+			<Flag n="high explosive" />
+			<Flag n="sniper" />
+			<Flag n="melee" />
+			<Flag n="flame" />
+			<Flag n="mounted weapon" />
+			<Flag n="vehicle" />
+			<Flag n="plasma" />
+			<Flag n="needle" />
+			<Flag n="shotgun" />
+		</_B>
+		<_34 Name="generated_pad82d5" Offset="62" Length="2" />
+		<_37 Name="damage type" type="fgrb" Offset="64" />
+		<_36 Name="Explanation" Offset="64" />
+		<_38 Name="damage type" Offset="64" GUID="C2AA4096BB9B94886F1E7181806076AE" />
+		<_37 Name="" type="fgre" Offset="68" />
+		<_37 Name="damage source name" type="fgrb" Offset="68" />
+		<_36 Name="Explanation" Offset="68" />
+		<_38 Name="damage source name" Offset="68" GUID="491E4E62FB19CD2F9DA1CACD8F5B712C" />
+		<_37 Name="" type="fgre" Offset="6C" />
+		<_2 Name="vocalization triggered" Offset="6C" />
+		<_2 Name="dst expression" Offset="70" />
+		<_40 Name="dst expression tokens" Offset="74" GUID="FAB1024AB78F742AA39BC27A927B503B" StructName1="VocalizationPattern" Min="0" Max="16" />
+	</_CD6C43A7D957FA41C3ECCB8C9D2BA7B7>
+	<_169B4D90FCF21C42C4EAC71E98F06443 Name="PatternTypeLookUpData" Size="4">
+		<_5 Name="start index (postprocess)" Offset="0" />
+		<_5 Name="length (postprocess)" Offset="2" />
+	</_169B4D90FCF21C42C4EAC71E98F06443>
+	<_08024456208CDC38A73BF24086F2C9BA Name="InvoluntaryData" Size="4">
+		<_6 Name="involuntary vocalization index" Offset="0" />
+	</_08024456208CDC38A73BF24086F2C9BA>
+	<_6CFC924745B3A4484C3B78FFA4237429 Name="CustomEventDefinition" Size="4">
+		<_2 Name="event name" Offset="0" />
+	</_6CFC924745B3A4484C3B78FFA4237429>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_7A5844460D94F5608A08206A8346DEA4 Name="Response" Size="10">
+		<_2 Name="vocalization name" type="sted" Offset="0" />
+		<_5 Name="vocalization index" Offset="4" />
+		<_A Name="response type" Offset="6" StructName1="ResponseType">
+			<Flag n="friend" />
+			<Flag n="enemy" />
+			<Flag n="listener" />
+			<Flag n="joint" />
+			<Flag n="peer" />
+			<Flag n="leader" />
+			<Flag n="friend_infantry" />
+		</_A>
+		<_34 Name="generated_padcb8f" Offset="7" Length="1" />
+		<_B Name="dialogue event" Offset="8" StructName1="c_dialogue_event_enum">
+			<Flag n="NONE" />
+			<Flag n="death" />
+			<Flag n="death_headshot" />
+			<Flag n="death_assassination" />
+			<Flag n="damage" />
+			<Flag n="damage_weakspot" />
+			<Flag n="anounce" />
+			<Flag n="sighted_interest" />
+			<Flag n="sighted_new" />
+			<Flag n="sighted_new major" />
+			<Flag n="sighted_first" />
+			<Flag n="sighted_special" />
+			<Flag n="sighted_alert" />
+			<Flag n="heard_new" />
+			<Flag n="heard_old" />
+			<Flag n="found_unit" />
+			<Flag n="found_unit_pursuit" />
+			<Flag n="found_unit_searching" />
+			<Flag n="throwing_grenade" />
+			<Flag n="throwing_grenade_all" />
+			<Flag n="stuck_grenade" />
+			<Flag n="fighting" />
+			<Flag n="suppressing_fire" />
+			<Flag n="grenade_uncover" />
+			<Flag n="move_uncover" />
+			<Flag n="jump" />
+			<Flag n="reload" />
+			<Flag n="reload_low_ammo" />
+			<Flag n="ready_spartan_laser" />
+			<Flag n="ready_rocket_launcher" />
+			<Flag n="ready_flak_cannon" />
+			<Flag n="ready_plasma_launcher" />
+			<Flag n="ready_weapon" />
+			<Flag n="weapon_pickup" />
+			<Flag n="spartan_equipment_pickup" />
+			<Flag n="surprised" />
+			<Flag n="lost_contact" />
+			<Flag n="investigate_failed" />
+			<Flag n="pursuit_failed" />
+			<Flag n="investigate_start" />
+			<Flag n="investigate_interest" />
+			<Flag n="searching" />
+			<Flag n="abandoned_search_space" />
+			<Flag n="abandoned_search_time" />
+			<Flag n="presearch_failed" />
+			<Flag n="abandoned_search_restricted" />
+			<Flag n="pursuit_start" />
+			<Flag n="guarding" />
+			<Flag n="postcombat_inspect_body" />
+			<Flag n="vehicle_slow_down" />
+			<Flag n="vehicle_get_in" />
+			<Flag n="idle" />
+			<Flag n="combat_idle" />
+			<Flag n="taunt" />
+			<Flag n="taunt_reply" />
+			<Flag n="retreat" />
+			<Flag n="retreat_from_scary_target" />
+			<Flag n="retreat_from_dead_leader" />
+			<Flag n="retreat_from_proximity" />
+			<Flag n="retreat_from_low_shield" />
+			<Flag n="flee" />
+			<Flag n="melee_charge" />
+			<Flag n="melee_attack" />
+			<Flag n="assassination_attack" />
+			<Flag n="assassination_interrupted" />
+			<Flag n="vehicle_falling" />
+			<Flag n="vehicle_woohoo" />
+			<Flag n="vehicle_scared" />
+			<Flag n="vehicle_crazy" />
+			<Flag n="leap" />
+			<Flag n="postcombat_win" />
+			<Flag n="postcombat_lose" />
+			<Flag n="postcombat_neutral" />
+			<Flag n="shoot_corpse" />
+			<Flag n="postcombat start" />
+			<Flag n="inspect_body_start" />
+			<Flag n="postcombat_status" />
+			<Flag n="postcombat_last_standing" />
+			<Flag n="vehicle_entry_start_driver" />
+			<Flag n="vehicle_enter" />
+			<Flag n="vehicle_entry_start_gun" />
+			<Flag n="vehicle_entry_start_passenger" />
+			<Flag n="vehicle_exit" />
+			<Flag n="evict_driver" />
+			<Flag n="evict_gunner" />
+			<Flag n="evict_passenger" />
+			<Flag n="vehicle_boarded" />
+			<Flag n="new_order_enemy_advancing" />
+			<Flag n="new_order_enemy_charging" />
+			<Flag n="new_order_enemy_fallingback" />
+			<Flag n="new_order_advance" />
+			<Flag n="new_order_charge" />
+			<Flag n="new_order_fallback" />
+			<Flag n="new_order_moveon" />
+			<Flag n="new_order_fllplr" />
+			<Flag n="new_order_arrive_combat" />
+			<Flag n="new_order_end_combat" />
+			<Flag n="new_order_investigate" />
+			<Flag n="new_order_spread" />
+			<Flag n="new_order_hold" />
+			<Flag n="new_order_find_cover" />
+			<Flag n="new_order_covering_fire" />
+			<Flag n="order_ack_positive" />
+			<Flag n="order_ack_negative" />
+			<Flag n="order_ack_canceled" />
+			<Flag n="order_ack_completed" />
+			<Flag n="order_ack_regroup" />
+			<Flag n="order_ack_disband" />
+			<Flag n="order_ack_weapon_change" />
+			<Flag n="order_ack_attack_vehicle" />
+			<Flag n="order_ack_attack_infantry" />
+			<Flag n="order_ack_interact" />
+			<Flag n="order_ack_pinned_down" />
+			<Flag n="fireteam_member_join" />
+			<Flag n="fireteam_member_danger" />
+			<Flag n="fireteam_member_died" />
+			<Flag n="emerge" />
+			<Flag n="curse" />
+			<Flag n="threaten" />
+			<Flag n="cover_friend" />
+			<Flag n="move_cover" />
+			<Flag n="in_cover" />
+			<Flag n="unassailable_cover" />
+			<Flag n="pinned_down" />
+			<Flag n="strike" />
+			<Flag n="open_fire" />
+			<Flag n="shoot" />
+			<Flag n="player_shoot" />
+			<Flag n="shoot_multiple" />
+			<Flag n="shoot_gunner" />
+			<Flag n="player_shoot_gunner" />
+			<Flag n="gloat" />
+			<Flag n="greet" />
+			<Flag n="player_look" />
+			<Flag n="player_look_longtime" />
+			<Flag n="panic_grenade_attached" />
+			<Flag n="panic_vehicle_destroyed" />
+			<Flag n="help response" />
+			<Flag n="remind" />
+			<Flag n="overheated" />
+			<Flag n="weapon_trade_better" />
+			<Flag n="weapon_trade_worse" />
+			<Flag n="weapon_trade_equal" />
+			<Flag n="betray" />
+			<Flag n="forgive" />
+			<Flag n="warn_target" />
+			<Flag n="warn_pursuit" />
+			<Flag n="order_protect" />
+			<Flag n="order_protect_accept" />
+			<Flag n="damage_stunned" />
+			<Flag n="use_equipment" />
+			<Flag n="ambush" />
+			<Flag n="undr_fire" />
+			<Flag n="undr_fire_trrt" />
+			<Flag n="flood_boom" />
+			<Flag n="vehicle_boom" />
+			<Flag n="berserk" />
+			<Flag n="stealth" />
+			<Flag n="infection" />
+			<Flag n="reanimate" />
+			<Flag n="scold" />
+			<Flag n="praise" />
+			<Flag n="scorn" />
+			<Flag n="plead" />
+			<Flag n="thank" />
+			<Flag n="ok" />
+			<Flag n="cheer" />
+			<Flag n="invite_vehicle" />
+			<Flag n="invite_vehicle_driver" />
+			<Flag n="invite_vehicle_gunner" />
+			<Flag n="player_blocking" />
+			<Flag n="player_multi_kill" />
+			<Flag n="advance_start" />
+			<Flag n="hamstring_charge" />
+			<Flag n="gangfire" />
+			<Flag n="lioncharge_begin" />
+			<Flag n="lioncharge_shoot" />
+			<Flag n="lioncharge_abandon" />
+			<Flag n="lioncharge_runner" />
+			<Flag n="pack_charge" />
+			<Flag n="tracking_ping" />
+			<Flag n="tracking_reflection" />
+			<Flag n="catch_up_to_player" />
+			<Flag n="blocking_player" />
+			<Flag n="attraction_area_on_player" />
+			<Flag n="attraction_area_general" />
+			<Flag n="attraction_area_sniper" />
+			<Flag n="attraction_area_suppress" />
+			<Flag n="attraction_area_cqb" />
+			<Flag n="player_order_occupy_ground" />
+			<Flag n="player_order_prosecute_target" />
+			<Flag n="player_order_enter_vehicle" />
+			<Flag n="player_order_get_weapon" />
+			<Flag n="player_order_regroup" />
+			<Flag n="player_order_revive" />
+			<Flag n="actor_acknowledge_order" />
+			<Flag n="actor_order_occupy_ground_completed" />
+			<Flag n="actor_order_prosecute_target_completed" />
+			<Flag n="actor_order_enter_vehicle_completed" />
+			<Flag n="actor_order_get_weapon_completed" />
+			<Flag n="actor_order_get_weapon_denied" />
+			<Flag n="actor_order_target_change_delayed" />
+			<Flag n="actor_order_unreachable" />
+			<Flag n="actor_notice_something" />
+			<Flag n="musk_report_idle" />
+			<Flag n="musk_report_scanning" />
+			<Flag n="musk_report_imminent_threat" />
+			<Flag n="musk_report_troops_in_combat" />
+			<Flag n="bounding_providing_cover" />
+			<Flag n="bounding_advancing" />
+			<Flag n="shield_wall_invite" />
+			<Flag n="shield_wall_join" />
+			<Flag n="cavalier_gate_spawn" />
+			<Flag n="cavalier_close_threat" />
+			<Flag n="cavalier_reveal_player" />
+			<Flag n="cavalier_block_player" />
+			<Flag n="cavalier_transition_mode" />
+			<Flag n="soldier_warp" />
+			<Flag n="firing_wall_create" />
+			<Flag n="firing_wall_join" />
+			<Flag n="firebuddy_follower_death" />
+			<Flag n="firebuddy_leader_death" />
+			<Flag n="downed_start" />
+			<Flag n="downed_player_order_help" />
+			<Flag n="downed_call_for_help" />
+			<Flag n="downed_call_for_help_reminder" />
+			<Flag n="moving_to_revive" />
+			<Flag n="unit_revives_unit" />
+			<Flag n="unit_revived_unit" />
+			<Flag n="clamber" />
+			<Flag n="vault" />
+			<Flag n="spawn_gate_spawning" />
+			<Flag n="spawn_gate_destroyed" />
+			<Flag n="spawn_gate_exhausted" />
+			<Flag n="shield_depleted" />
+			<Flag n="shield_recharge_started" />
+			<Flag n="shield_recharge_finished" />
+			<Flag n="overshield_depleted" />
+			<Flag n="dropped_weapon" />
+			<Flag n="spot_character" />
+			<Flag n="death_assist" />
+			<Flag n="first_strike" />
+			<Flag n="rocket_roll" />
+			<Flag n="extermination" />
+			<Flag n="weapon_pad_warning" />
+			<Flag n="weapon_pad_spawn" />
+			<Flag n="halfway_to_win" />
+			<Flag n="10_points_to_win" />
+			<Flag n="5_points_to_win" />
+			<Flag n="1_point_to_win" />
+			<Flag n="10_minutes_remaining" />
+			<Flag n="5_minutes_remaining" />
+			<Flag n="1_minute_remaining" />
+			<Flag n="30_seconds_remaining" />
+			<Flag n="player_spawn" />
+			<Flag n="captured_first" />
+			<Flag n="captured" />
+			<Flag n="captured_last" />
+			<Flag n="capturing_started" />
+			<Flag n="capturing_joined" />
+			<Flag n="capturing_contested" />
+			<Flag n="breakout_heartbeat" />
+			<Flag n="breakout_death" />
+			<Flag n="round_start" />
+			<Flag n="round_start_after_loss" />
+			<Flag n="round_start_after_win" />
+			<Flag n="round_start_elimination" />
+			<Flag n="cower" />
+			<Flag n="kamikaze" />
+			<Flag n="kamikaze_launched" />
+			<Flag n="evade" />
+			<Flag n="special_fire" />
+			<Flag n="shoulder_bash" />
+			<Flag n="ground_pound" />
+			<Flag n="ground_pound_started" />
+			<Flag n="armor_break" />
+			<Flag n="projectile_deflect_try" />
+			<Flag n="vehicle_critical_damage" />
+			<Flag n="vehicle critical damage occupied" />
+			<Flag n="vehicle_boarding_started" />
+			<Flag n="dropship_spawned" />
+			<Flag n="knight_hover_shoot" />
+			<Flag n="cavalier_death_ball_fire" />
+			<Flag n="cavalier_death_ball_charge" />
+			<Flag n="cavalier_death_ball_charge_suppress" />
+			<Flag n="watcher_heal" />
+			<Flag n="watcher_deflect_grenade" />
+			<Flag n="watcher_shield" />
+			<Flag n="collectible_pickup" />
+			<Flag n="bump_into" />
+			<Flag n="aggressive_fight_start" />
+			<Flag n="evasive_fight_start" />
+			<Flag n="interactive_objects_interested" />
+			<Flag n="camouflaged_rush_attack" />
+			<Flag n="shield_raise" />
+			<Flag n="precombat_lookout" />
+			<Flag n="precombat_sentry" />
+			<Flag n="precombat_recreation" />
+			<Flag n="precombat_vehicle" />
+			<Flag n="launch_object" />
+			<Flag n="go_to_weapon_rack" />
+			<Flag n="spartan_ability_evade_activate" />
+			<Flag n="spartan_ability_grapple_pull_activate" />
+			<Flag n="spartan_equipment_ability_activate" />
+			<Flag n="response" />
+			<Flag n="response_idle" />
+			<Flag n="shoot_major" />
+			<Flag n="follow_start" />
+			<Flag n="follow_end" />
+			<Flag n="follow_end_distance" />
+			<Flag n="follow_arrive" />
+			<Flag n="damage_camouflage_active" />
+			<Flag n="damage_overshield_active" />
+			<Flag n="user_01" />
+			<Flag n="user_02" />
+			<Flag n="user_03" />
+			<Flag n="user_04" />
+			<Flag n="user_05" />
+			<Flag n="user_06" />
+			<Flag n="user_07" />
+			<Flag n="user_08" />
+			<Flag n="user_09" />
+			<Flag n="user_10" />
+		</_B>
+		<_A Name="response behavior" Offset="A" StructName1="ResponseBehavior">
+			<Flag n="reply" />
+			<Flag n="trigger" />
+		</_A>
+		<_34 Name="generated_pad7eda" Offset="B" Length="1" />
+		<_6 Name="vocalization index offset from owner" Offset="C" />
+	</_7A5844460D94F5608A08206A8346DEA4>
+	<_C2AA4096BB9B94886F1E7181806076AE Name="i343::Damage::DamageTypeReference" Size="4">
+		<_36 Name="NOTE" Offset="0" />
+		<_2 Name="Damage Type Name" type="sted" Offset="0" />
+	</_C2AA4096BB9B94886F1E7181806076AE>
+	<_491E4E62FB19CD2F9DA1CACD8F5B712C Name="i343::Damage::DamageSourceReference" Size="4">
+		<_36 Name="NOTE" Offset="0" />
+		<_2 Name="Damage Source Name" type="sted" Offset="0" />
+	</_491E4E62FB19CD2F9DA1CACD8F5B712C>
+	<_FAB1024AB78F742AA39BC27A927B503B Name="DialogueStateTableExpressionToken" Size="8">
+		<_2 Name="an expression token" Offset="0" />
+		<_6 Name="numeric constant, if applicable" Offset="4" />
+	</_FAB1024AB78F742AA39BC27A927B503B>
+</root>

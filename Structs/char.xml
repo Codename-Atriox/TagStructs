@@ -1,0 +1,2420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="character" Parents="aTag" Index="-57" C="objects\characters">
+	<_831E43A2CE98F60C2D0DA2E297556737 Name="character_definition" Size="8C8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_D Name="Character flags" Offset="10" StructName1="CharacterFlags">
+			<Flag n="Flag1" />
+			<Flag n="Disable Velocity/Throttle Alignment" />
+			<Flag n="Use Boss Damage Audio" />
+		</_D>
+		<_41 Name="parent character" Offset="14" Allowed="char" Flags="0" />
+		<_41 Name="unit" Offset="30" Allowed="unit" Flags="0" />
+		<_41 Name="creature" Offset="4C" Allowed="crea" Flags="0" />
+		<_41 Name="style" Offset="68" Allowed="styl" Flags="0" />
+		<_41 Name="major character" Offset="84" Allowed="char" Flags="0" />
+		<_41 Name="mythic skull character" Offset="A0" Allowed="char" Flags="0" />
+		<_40 Name="variants" Offset="BC" GUID="D2E541371DE400220CCD699E8F9E70A1" StructName1="character_definition" Min="0" Max="64" />
+		<_40 Name="voice" Offset="D0" GUID="3966482F7759D0CE26B935C0AF71A161" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Development Status" Offset="E4" GUID="D72A4EA3D4ACD1D5879AEF4099FEAF8E" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="general properties" Offset="F8" GUID="6CE843B77BA5643FCCBFCABCBFB797FF" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="proto spawn properties" Offset="10C" GUID="68944D2623FCF6C58D509E899FE18A7E" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="interact properties" Offset="120" GUID="D1E5457CB806ECFB521A93EBBF5AE757" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="emotion properties" Offset="134" GUID="CC0545AA70004598947DE280A4E626D3" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="vitality properties" Offset="148" GUID="F974437DC3D6238DB37E2EF3A9364C31" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="placement properties" Offset="15C" GUID="2AC14914DA6187AF5BEAF008B36A1D7A" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="base perception properties" Offset="170" GUID="39F24DFFD076ABD2AC699DD5BDFDCC9D" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="perception properties" Offset="184" GUID="1CF146C7D79572702BD86AB9A0034E06" StructName1="character_definition" Min="0" Max="6" />
+		<_40 Name="target properties" Offset="198" GUID="12A84E426E370ABF543A30AE995AF927" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="look properties" Offset="1AC" GUID="206E41516DC12D2424BF69B394C93A4E" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="hopping properties" Offset="1C0" GUID="557348CB93390CFA430122A2BF5426A6" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="warp properties" Offset="1D4" GUID="8F3A4C36D94441DD93F7EE5F89A0A7EE" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="movement properties" Offset="1E8" GUID="A6B741735CD8B49C2F6BF8CFA61C4E79" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="aiming-facing properties" Offset="1FC" GUID="74C84ECDAFFFAFD730977EE985E64380" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="decelerated turns properties" Offset="210" GUID="664A4A254E479864F88BD4A4B75F5D6F" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="locomotion overrides" Offset="224" GUID="04F646926BB2BF0A7FE12FA5B30AA947" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="movement tweak properties" Offset="238" GUID="B0464CB206C3B43E34DB9A20AF6113D9" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="throttle styles" Offset="24C" GUID="E54E4C37D90E60176B67DE8987D2E7B9" StructName1="character_definition" Min="0" Max="256" />
+		<_40 Name="movement sets" Offset="260" GUID="217942218AACE34CC7525D2DA8F6C67C" StructName1="character_definition" Min="0" Max="9" />
+		<_40 Name="flocking properties" Offset="274" GUID="721C41A5D497EF979EC4938A8BCF6C55" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="swarm properties" Offset="288" GUID="8CAC4D3AAE465FC21934DE5ABF219507" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="ready properties" Offset="29C" GUID="7640401C978647F9EF9C02E992C9ADB5" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="engage properties" Offset="2B0" GUID="10024F2FFFA4E45D213E9865B4987122" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Berserk Properties" Offset="2C4" GUID="B4044B28ED2506ED20234116BC26944A" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Weapon Pickup Properties" Offset="2D8" GUID="8CDC40B696F46A10F4C362BBB4EDD814" StructName1="character_definition" Min="0" Max="1" />
+		<_36 Name="Danger Values" Offset="2EC" />
+		<_40 Name="evasion properties" Offset="2EC" GUID="602941089687EC756CA5ED35AD4F6DCE" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Dodge properties" Offset="300" GUID="E764AF4A112C5AD7B5C674709F4054C8" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Run Away From Vehicle properties" Offset="314" GUID="C44A48024CB5F15B0BB5CED8BBECD1DB" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="cover properties" Offset="328" GUID="2E39471C1D0E6BC943C54E8AA35B152D" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="retreat properties" Offset="33C" GUID="2CC14DDCF0F699B8968C260197D26266" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="search properties" Offset="350" GUID="87D3457B541F97307B8B58F6AE101AD3" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="pre-search properties" Offset="364" GUID="BD02452D4E5E33E3A972C742AA84500D" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Recognizing Properties" Offset="378" GUID="46A041459965BEAA07BCD5FD8C90624C" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="idle properties" Offset="38C" GUID="68E942AB6C8BCFDBFC1CE1EAA9EED157" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Precombat Properties" Offset="3A0" GUID="AABF4733F10D70E124ADD41AAD5107E5" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="vocalization properties" Offset="3B4" GUID="9E1040FD62F8205D9DF2201DAD1ACD08" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="boarding properties" Offset="3C8" GUID="5987413AE8176F59138FF9FC97AD3E48" StructName1="character_definition" Min="0" Max="8" />
+		<_40 Name="kungfu properties" Offset="3DC" GUID="15E24373E2DA6F8532BDFAF8A3BFB379" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="bunker properties" Offset="3F0" GUID="32EA48028EDF6B9E72BE6A6180A25CBC" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="shield wall properties" Offset="404" GUID="D2234E2D34E8567028E05D24A5EB0BA1" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="firing wall properties" Offset="418" GUID="242D4A9B331A598B93A843B8AF7AE3F5" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Interpose Request Properties" Offset="42C" GUID="00EBF24EF40609CC5E4423EEB9042F90" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Interpose Properties" Offset="440" GUID="43785B440960AEC4244DF351AC197F54" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="bounding properties" Offset="454" GUID="D2C1421AA70BCFE37A97A6319E944828" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="projectile deflection properties" Offset="468" GUID="F82347E5153C94F417F1648399309D0B" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Bot Properties" Offset="47C" GUID="FBF54F69253B83710B6066339CEF5F91" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Evasive Fight Properties" Offset="490" GUID="906C4C58A981C50E362FC909A3260783" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Aggressive Fight Properties" Offset="4A4" GUID="90854E41208A0E9BC34E142FB85B0858" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Linear Advance Fight Properties" Offset="4B8" GUID="C53711E90536C7E21F0C15DF87C7D6CE" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Static Fight Properties" Offset="4CC" GUID="F55F4132D296C7496ACB2B6985F7F1B9" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Stand Ground Properties" Offset="4E0" GUID="192C474AF76BC02345033AB196D946A0" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Grenade Fight Properties" Offset="4F4" GUID="47F77D400A6CFBD0FCBB55FE9C17DBA5" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Cover Sequence Properties" Offset="508" GUID="AEF94241E1CEF1DDD177C245B203218D" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Cover Move Properties" Offset="51C" GUID="DC8B416ED511D14324783829AB8534AE" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Cover Hide Properties" Offset="530" GUID="ADCD6F4651BC0063B733CCFA9A00FCCC" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Long Range Attack Properties" Offset="544" GUID="4B07449EA5E7C0FE3E5D2B7680D0054E" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Hoist Attack Properties" Offset="558" GUID="0A6140DE97BCFDD1EBED0F748AE7E077" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Hunker Down Properties" Offset="56C" GUID="0D0F412109ECE692E2F2C43798BE77AE" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Shield Raise Properties" Offset="580" GUID="BE4B418A80C7C44A011D7A1FA592A606" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Vehicle Aggressive Fight Properties" Offset="594" GUID="79BE4C20213AFC678D02B12894B0FBE9" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Vehicle Defensive Fight Properties" Offset="5A8" GUID="D865416AAA033A64CCE994B90EBAEFF2" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="engineer properties" Offset="5BC" GUID="0A6B4E9ADE4C5EE8E4B95DED91405D14" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="inspect properties" Offset="5D0" GUID="2AFB47C3E542B59FF3973A07AD2D4FC3" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="vehicle entrance properties" Offset="5E4" GUID="E7984CAFDCAA6191C2A469DBA3F64321" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="test-only weapons properties" type="sort" Offset="5F8" GUID="C11346DE56A87FADB55DB355BD3D7878" StructName1="character_definition" Min="0" Max="256" />
+		<_40 Name="firing styles" Offset="60C" GUID="8C57481FB640224063ED5079803A2719" StructName1="character_definition" Min="0" Max="256" />
+		<_40 Name="grenade overrides" type="sort" Offset="620" GUID="568C444F729B0298FD56CBC3A8977182" StructName1="character_definition" Min="0" Max="10" />
+		<_40 Name="grenades properties" type="sort" Offset="634" GUID="8092499AA92D1ADCD2F00083BDD03A7B" StructName1="character_definition" Min="0" Max="10" />
+		<_40 Name="vehicle properties" type="sort" Offset="648" GUID="10444DF9503F6E32B994B4FAAA8B8164" StructName1="character_definition" Min="0" Max="100" />
+		<_40 Name="flying movement properties" type="sort" Offset="65C" GUID="BFBB4F464E812719D34F70DCB4BA4A05" StructName1="character_definition" Min="0" Max="32" />
+		<_40 Name="equipment definitions" Offset="670" GUID="B16E4667A874BCDC8B39612C8F2752A7" StructName1="character_definition" Min="0" Max="8" />
+		<_40 Name="stimuli responses" Offset="684" GUID="4F3E4CE882B4B10507A2658591D438EC" StructName1="character_definition" Min="0" Max="16" />
+		<_40 Name="campaign metagame bucket" Offset="698" GUID="CFE44D6F63D7EE667128E562BC5A8E71" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="activity objects" Offset="6AC" GUID="85744FD163D73A39A8EEC55A812FF1AD" StructName1="character_definition" Min="0" Max="32" />
+		<_40 Name="pain screen properties" Offset="6C0" GUID="8FBA45C34D243C14AB62A9B1B6D62008" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Melee animation scaling properties" Offset="6D4" GUID="D9E64504D7DDB5D5CA85475B8C89D49D" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Close Quarters Defense Blast" Offset="6E8" GUID="82DB4C5FECC500113526E740BF8627A9" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="bishop properties" Offset="6FC" GUID="D01D4F25F351D0276BBD1DE3A835C84C" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Healing Properties" Offset="710" GUID="6C514668E6C49D763E9EAD31AF767F53" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="packmaster properties" Offset="724" GUID="6BE7491A4A34985D16C3389CB840166A" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Dynamic Task" Offset="738" GUID="C1BB4066EC3CB9649EED9EE3B6F02900" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Rush Attack" Offset="74C" GUID="DDDB4162DBEC66B22B0993CFA71BA1F2" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Leap Attack" Offset="760" GUID="192E415355E0F9C5CDD467E2A3A766DF" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Teleport Attack" Offset="774" GUID="362E4EF1F96606308394D3D2B35CF4EF" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Jink and Shoot" Offset="788" GUID="F691419C0CF07EE324487C93ACB48BF8" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Teleport and Tackle" Offset="79C" GUID="4A544D0F2FBAAF29B95BF878A6911A55" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Teleport and Taunt Animation" Offset="7B0" GUID="68184D2DE3EEF0E593167B06ACD4663D" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Desperation Rush" Offset="7C4" GUID="B76F7541A314C521555D12C38D246594" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Proximity Melee" Offset="7D8" GUID="F36F894FBCC65A3D68ED47C99F1E6B50" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Dive Bomb Kamikaze" Offset="7EC" GUID="AAAA41FB23C5ED746B56835DB0C56196" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Post Combat" Offset="800" GUID="8A46488ECB7B8F9FD8607579BBFFCB9C" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Pack Stalk" Offset="814" GUID="4E0F4B6D9DC1DCD245F409B985C5FC36" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Fight Circle" Offset="828" GUID="1632455AA53B9A5EDE0289A89A7974F8" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Hamstring" Offset="83C" GUID="10DA4D0E827B35C79C63C3E3B73DCE79" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Forerunner" Offset="850" GUID="79CB4A2BC635622B761E8D04B84387A8" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Gravity Jump" Offset="864" GUID="FC9545766E887EBFB0E53A42988E0565" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Co-op Modifiers" Offset="878" GUID="93CD4145D64FBE797A65118EBAD34B7D" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Multi Target Tracked Attack" Offset="88C" GUID="44D84A99E93E937512038C1AB09A3E4A" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Drop Objects" Offset="8A0" GUID="822B4C6B2E383484E352780798E5303A" StructName1="character_definition" Min="0" Max="1" />
+		<_40 Name="Custom Scripting" Offset="8B4" GUID="5B4D428C1CD842AEED06F13EB71D8475" StructName1="character_definition" Min="0" Max="1" />
+	</_831E43A2CE98F60C2D0DA2E297556737>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_D2E541371DE400220CCD699E8F9E70A1 Name="character_variant" Size="20">
+		<_2 Name="variant name" Offset="0" />
+		<_5 Name="variant index" Offset="4" />
+		<_34 Name="generated_padedbf" Offset="6" Length="2" />
+		<_2 Name="Style Id" Offset="8" />
+		<_40 Name="voices" Offset="C" GUID="3ECD47C80E9694AE3C8CF1EA99F06F2E" StructName1="character_variant" Min="0" Max="64" />
+	</_D2E541371DE400220CCD699E8F9E70A1>
+	<_3966482F7759D0CE26B935C0AF71A161 Name="c_character_voice_properties_internal" Size="14">
+		<_40 Name="voices" Offset="0" GUID="3ECD47C80E9694AE3C8CF1EA99F06F2E" StructName1="c_character_voice_properties_internal" Min="0" Max="64" />
+	</_3966482F7759D0CE26B935C0AF71A161>
+	<_D72A4EA3D4ACD1D5879AEF4099FEAF8E Name="c_character_development_status_properties_internal" Size="4">
+		<_B Name="Stage" Offset="0" StructName1="CharacterDevelopmentStage">
+			<Flag n="Unknown" />
+			<Flag n="Prototype" />
+			<Flag n="Final" />
+			<Flag n="Deprecated" />
+		</_B>
+		<_34 Name="padding1" Offset="2" Length="2" />
+	</_D72A4EA3D4ACD1D5879AEF4099FEAF8E>
+	<_6CE843B77BA5643FCCBFCABCBFB797FF Name="c_character_general_properties_internal" Size="124">
+		<_D Name="general flags" Offset="0" StructName1="CharacterGeneralFlags">
+			<Flag n="flying" />
+			<Flag n="dual wields" />
+			<Flag n="uses gravemind" />
+			<Flag n="gravemind chorus" />
+			<Flag n="don't trade weapon" />
+			<Flag n="don't stow weapon" />
+			<Flag n="hero character" />
+			<Flag n="leader independent positioning" />
+			<Flag n="has active camo" />
+			<Flag n="use head marker for looking" />
+			<Flag n="space character" />
+			<Flag n="do not drop equipment" />
+			<Flag n="do not allow crouch" />
+			<Flag n="do not allow moving crouch" />
+			<Flag n="critical betrayal" />
+			<Flag n="deathless critical betrayal" />
+			<Flag n="armor prevents assassination" />
+			<Flag n="drop all weapons on death" />
+			<Flag n="drop no weapons on death" />
+			<Flag n="shield prevents assassination" />
+			<Flag n="cannot be assassinated" />
+			<Flag n="infinite ammo" />
+			<Flag n="Effectiveness Token Override" />
+		</_D>
+		<_B Name="type" Offset="4" StructName1="ActorType">
+			<Flag n="none" />
+			<Flag n="player" />
+			<Flag n="marine" />
+			<Flag n="crew" />
+			<Flag n="spartan" />
+			<Flag n="elite" />
+			<Flag n="jackal" />
+			<Flag n="jackal sniper" />
+			<Flag n="grunt" />
+			<Flag n="hunter" />
+			<Flag n="prophet" />
+			<Flag n="bugger" />
+			<Flag n="scarab" />
+			<Flag n="engineer" />
+			<Flag n="skirmisher" />
+			<Flag n="bishop" />
+			<Flag n="knight" />
+			<Flag n="pawn" />
+			<Flag n="cavalier" />
+			<Flag n="packmaster" />
+			<Flag n="soldier" />
+			<Flag n="soldier sniper" />
+			<Flag n="soldier officer" />
+			<Flag n="rook" />
+			<Flag n="sentinel" />
+			<Flag n="brute" />
+			<Flag n="hoverer" />
+			<Flag n="crusher" />
+			<Flag n="mule" />
+			<Flag n="mounted_weapon" />
+			<Flag n="octopus" />
+			<Flag n="wildlife" />
+		</_B>
+		<_5 Name="rank" Offset="6" />
+		<_41 Name="prototype script" Offset="8" Allowed="hsc*" Flags="0" />
+		<_14 Name="max leader dist" Offset="24" />
+		<_14 Name="absolute max leader dist" Offset="28" />
+		<_14 Name="max player dialogue dist" Offset="2C" />
+		<_14 Name="scariness" Offset="30" />
+		<_A Name="default grenade type" Offset="34" StructName1="UnitGrenadeType">
+			<Flag n="none" />
+			<Flag n="fragmentation grenade" />
+			<Flag n="plasma grenade" />
+			<Flag n="lightning grenade" />
+			<Flag n="spike grenade" />
+			<Flag n="sapper grenade" />
+			<Flag n="stasis grenade" />
+		</_A>
+		<_34 Name="generated_pad6d7e" Offset="35" Length="1" />
+		<_B Name="behavior tree root" Offset="36" StructName1="BehaviorTreeRoots">
+			<Flag n="Default" />
+			<Flag n="Flying" />
+			<Flag n="Bot" />
+			<Flag n="Test" />
+		</_B>
+		<_41 Name="Data Behavior Tree" Offset="38" Allowed="beht" Flags="0" />
+		<_40 Name="disallowed weapons from trading" Offset="54" GUID="B48E4EA4A61E00D6929D8ACE84FD513A" StructName1="c_character_general_properties_internal" Min="0" Max="32" />
+		<_41 Name="Initial Primary Weapon " Offset="68" Allowed="weap" Flags="0" />
+		<_41 Name="Primary Weapon Configuration" Offset="84" Allowed="wcfg" Flags="0" />
+		<_41 Name="Initial Secondary Weapon " Offset="A0" Allowed="weap" Flags="0" />
+		<_41 Name="Secondary Weapon Configuration" Offset="BC" Allowed="wcfg" Flags="0" />
+		<_41 Name="Initial Equipment " Offset="D8" Allowed="eqip" Flags="0" />
+		<_2 Name="Shield Frame Attachment" Offset="F4" />
+		<_5 Name="Token Priority" Offset="F8" />
+		<_34 Name="generated_padba33" Offset="FA" Length="2" />
+		<_40 Name="Designer Metadata" Offset="FC" GUID="66974B5B7A236D95F43A8A409414695B" StructName1="c_character_general_properties_internal" Min="0" Max="32" />
+		<_40 Name="Dialogue System Metadata" Offset="110" GUID="66974B5B7A236D95F43A8A409414695B" StructName1="c_character_general_properties_internal" Min="0" Max="32" />
+	</_6CE843B77BA5643FCCBFCABCBFB797FF>
+	<_68944D2623FCF6C58D509E899FE18A7E Name="c_character_proto_spawn_properties_internal" Size="2">
+		<_B Name="Proto Spawn Type " Offset="0" StructName1="ProtoSpawnType">
+			<Flag n="None" />
+			<Flag n="Limbo" />
+			<Flag n="Spawner" />
+			<Flag n="Birther" />
+		</_B>
+	</_68944D2623FCF6C58D509E899FE18A7E>
+	<_D1E5457CB806ECFB521A93EBBF5AE757 Name="c_character_interact_properties_internal" Size="8">
+		<_F Name="Interact Flags" Offset="0" StructName1="CharacterInteractFlags">
+			<Flag n="Do not shoot while moving" />
+		</_F>
+		<_34 Name="generated_padb4d2" Offset="1" Length="3" />
+		<_14 Name="default maximum object interact range" Offset="4" />
+	</_D1E5457CB806ECFB521A93EBBF5AE757>
+	<_CC0545AA70004598947DE280A4E626D3 Name="c_character_emotions_properties_internal" Size="24">
+		<_40 Name="situational danger" Offset="0" GUID="3DF54E170179C04A232E950C82454233" StructName1="c_character_emotions_properties_internal" Min="0" Max="14" />
+		<_14 Name="perceived danger increase half-life" Offset="14" />
+		<_14 Name="perceived danger decay half-life" Offset="18" />
+		<_14 Name="Perceived Danger Alert Threshold" Offset="1C" />
+		<_14 Name="Perceived Danger Combat Threshold" Offset="20" />
+	</_CC0545AA70004598947DE280A4E626D3>
+	<_F974437DC3D6238DB37E2EF3A9364C31 Name="c_character_vitality_properties_internal" Size="E0">
+		<_D Name="vitality flags" Offset="0" StructName1="CharacterVitalityFlags">
+			<Flag n="auto resurrect" />
+			<Flag n="disable vitality override" />
+			<Flag n="no friendly damage" />
+		</_D>
+		<_14 Name="normal body vitality" Offset="4" />
+		<_14 Name="normal shield vitality" Offset="8" />
+		<_14 Name="legendary body vitality" Offset="C" />
+		<_14 Name="legendary shield vitality" Offset="10" />
+		<_14 Name="body recharge fraction" Offset="14" />
+		<_14 Name="soft ping threshold (with shields)" Offset="18" />
+		<_14 Name="soft ping threshold (no shields)" Offset="1C" />
+		<_14 Name="medium ping threshold (with shields)" Offset="20" />
+		<_14 Name="medium ping threshold (no shields)" Offset="24" />
+		<_14 Name="medium ping cooldown time" Offset="28" />
+		<_14 Name="hard ping threshold (with shields)" Offset="2C" />
+		<_14 Name="hard ping threshold (no shields)" Offset="30" />
+		<_14 Name="hard ping cooldown time" Offset="34" />
+		<_14 Name="body recharge delay time" Offset="38" />
+		<_14 Name="body recharge time" Offset="3C" />
+		<_14 Name="shield recharge delay time" Offset="40" />
+		<_14 Name="shield recharge time" Offset="44" />
+		<_14 Name="extended shield damage threshold" Offset="48" />
+		<_14 Name="extended body damage threshold" Offset="4C" />
+		<_14 Name="runtime_body_recharge_velocity" Offset="50" />
+		<_14 Name="runtime_shield_recharge_velocity" Offset="54" />
+		<_41 Name="resurrect weapon" Offset="58" Allowed="weap" Flags="0" />
+		<_14 Name="player damage_scale" Offset="74" />
+		<_41 Name="collision damage override" Offset="78" Allowed="cddf" Flags="0" />
+		<_41 Name="Knockback Collision Damage Override" Offset="94" Allowed="cddf" Flags="0" />
+		<_14 Name="stun threshold (easy)" Offset="B0" />
+		<_14 Name="stun threshold (normal)" Offset="B4" />
+		<_14 Name="stun threshold (heroic)" Offset="B8" />
+		<_14 Name="stun threshold (legendary)" Offset="BC" />
+		<_14 Name="stun time scale (easy)" Offset="C0" />
+		<_14 Name="stun time scale (normal)" Offset="C4" />
+		<_14 Name="stun time scale (heroic)" Offset="C8" />
+		<_14 Name="stun time scale (legendary)" Offset="CC" />
+		<_14 Name="stun cooldown (easy)" Offset="D0" />
+		<_14 Name="stun cooldown (normal)" Offset="D4" />
+		<_14 Name="stun cooldown (heroic)" Offset="D8" />
+		<_14 Name="stun cooldown (legendary)" Offset="DC" />
+	</_F974437DC3D6238DB37E2EF3A9364C31>
+	<_2AC14914DA6187AF5BEAF008B36A1D7A Name="c_character_placement_properties_internal" Size="30">
+		<_14 Name="few upgrade chance (easy)" Offset="0" />
+		<_14 Name="few upgrade chance (normal)" Offset="4" />
+		<_14 Name="few upgrade chance (heroic)" Offset="8" />
+		<_14 Name="few upgrade chance (legendary)" Offset="C" />
+		<_14 Name="normal upgrade chance (easy)" Offset="10" />
+		<_14 Name="normal upgrade chance (normal)" Offset="14" />
+		<_14 Name="normal upgrade chance (heroic)" Offset="18" />
+		<_14 Name="normal upgrade chance (legendary)" Offset="1C" />
+		<_14 Name="many upgrade chance (easy)" Offset="20" />
+		<_14 Name="many upgrade chance (normal)" Offset="24" />
+		<_14 Name="many upgrade chance (heroic)" Offset="28" />
+		<_14 Name="many upgrade chance (legendary)" Offset="2C" />
+	</_2AC14914DA6187AF5BEAF008B36A1D7A>
+	<_39F24DFFD076ABD2AC699DD5BDFDCC9D Name="c_character_base_perception_properties_internal" Size="24">
+		<_F Name="flags" Offset="0" StructName1="CharacterBasePerceptionFlags">
+			<Flag n="Has Magic Sight" />
+			<Flag n="More Frequent Prop Perception" />
+		</_F>
+		<_34 Name="generated_pad16e5" Offset="1" Length="3" />
+		<_14 Name="Silent Movement Speed Threshold" Offset="4" />
+		<_14 Name="Perception Decay Delay" Offset="8" />
+		<_14 Name="Moving Perception Decay Delay" Offset="C" />
+		<_14 Name="Perception Begin To Forget Time" Offset="10" />
+		<_14 Name="Perception Forget Time" Offset="14" />
+		<_14 Name="Combat Status Alert Cooldown" Offset="18" />
+		<_14 Name="Combat Status Active Cooldown" Offset="1C" />
+		<_14 Name="Postcombat clump state time" Offset="20" />
+	</_39F24DFFD076ABD2AC699DD5BDFDCC9D>
+	<_1CF146C7D79572702BD86AB9A0034E06 Name="c_character_perception_properties_internal" Size="C0">
+		<_B Name="perception_mode" Offset="0" StructName1="c_perception_mode">
+			<Flag n="idle" />
+			<Flag n="alert" />
+			<Flag n="combat" />
+			<Flag n="vehicle idle" />
+			<Flag n="vehicle alert" />
+			<Flag n="vehicle combat" />
+		</_B>
+		<_E Name="flags" Offset="2" StructName1="CharacterPerceptionFlags">
+			<Flag n="character can see in darkness" />
+			<Flag n="ignore tracking projectiles" />
+			<Flag n="ignore minor tracking projectiles" />
+		</_E>
+		<_14 Name="maximum vision distance" Offset="4" />
+		<_14 Name="reliable vision distance" Offset="8" />
+		<_14 Name="maximum peripheral vision distance" Offset="C" />
+		<_14 Name="reliable peripheral vision distance" Offset="10" />
+		<_14 Name="max peripheral vision distance at peripheral vision angle" Offset="14" />
+		<_14 Name="max reliable peripheral vision distance at peripheral vision angle" Offset="18" />
+		<_14 Name="Maximum Unmistakable Distance" Offset="1C" />
+		<_14 Name="surprise distance" Offset="20" />
+		<_14 Name="Min distance from last known position to surprise" Offset="24" />
+		<_14 Name="Min time from last clump surprise" Offset="28" />
+		<_14 Name="Min time from last seen to surprise" Offset="2C" />
+		<_25 Name="Surprise lerp distance range" Offset="30" />
+		<_25 Name="Surprise angle range" Offset="38" />
+		<_8 Name="focus interior angle" Offset="40" />
+		<_8 Name="focus exterior angle" Offset="44" />
+		<_8 Name="peripheral vision angle" Offset="48" />
+		<_8 Name="Vertical Exterior Up Angle" Offset="4C" />
+		<_8 Name="Vertical Exterior Down Angle" Offset="50" />
+		<_14 Name="hearing distance" Offset="54" />
+		<_14 Name="Max Propagation Time" Offset="58" />
+		<_14 Name="Partial Perception Awareness Delay" Offset="5C" />
+		<_14 Name="Full Perception Awareness Delay" Offset="60" />
+		<_14 Name="Unmistakable Perception Awareness Delay" Offset="64" />
+		<_14 Name="Partial Perception Acknowledgement Delay" Offset="68" />
+		<_14 Name="Full Perception Acknowledgement Delay" Offset="6C" />
+		<_14 Name="Unmistakable Perception Acknowledgement Delay" Offset="70" />
+		<_14 Name="awareness glance level" Offset="74" />
+		<_15 Name="identify hologram chance" Offset="78" />
+		<_25 Name="hologram ignore timer" Offset="7C" />
+		<_14 Name="hologram ignore timer shot penalty" Offset="84" />
+		<_37 Name="Parital Perception/Distance distribution function" type="fned" Offset="88" />
+		<_38 Name="mapping" Offset="88" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_37 Name="Normal active-camo perception" type="fgrb" Offset="A0" />
+		<_38 Name="normal active camo perception" Offset="A0" GUID="BBD048D72171E4A2A65A559880519BC3" />
+		<_37 Name="" type="fgre" Offset="B0" />
+		<_37 Name="Legendary active-camo perception" type="fgrb" Offset="B0" />
+		<_38 Name="legendary active camo perception" Offset="B0" GUID="BBD048D72171E4A2A65A559880519BC3" />
+		<_37 Name="" type="fgre" Offset="C0" />
+	</_1CF146C7D79572702BD86AB9A0034E06>
+	<_12A84E426E370ABF543A30AE995AF927 Name="c_character_target_properties_internal" Size="4">
+		<_14 Name="player preference" Offset="0" />
+	</_12A84E426E370ABF543A30AE995AF927>
+	<_206E41516DC12D2424BF69B394C93A4E Name="c_character_look_properties_internal" Size="50">
+		<_1B Name="maximum aiming deviation" Offset="0" />
+		<_1B Name="maximum looking deviation" Offset="8" />
+		<_1B Name="runtime aiming deviation cosines" Offset="10" />
+		<_1B Name="runtime looking deviation cosines" Offset="18" />
+		<_8 Name="noncombat look delta L" Offset="20" />
+		<_8 Name="noncombat look delta R" Offset="24" />
+		<_8 Name="combat look delta L" Offset="28" />
+		<_8 Name="combat look delta R" Offset="2C" />
+		<_25 Name="noncombat idle looking" Offset="30" />
+		<_25 Name="noncombat idle aiming" Offset="38" />
+		<_25 Name="combat idle looking" Offset="40" />
+		<_25 Name="combat idle aiming" Offset="48" />
+	</_206E41516DC12D2424BF69B394C93A4E>
+	<_557348CB93390CFA430122A2BF5426A6 Name="c_character_hopping_properties_internal" Size="18">
+		<_D Name="Hopping Flags" Offset="0" StructName1="CharacterHoppingFlags">
+			<Flag n="to cover path segements" />
+			<Flag n="to end of path" />
+			<Flag n="forward only" />
+			<Flag n="force fire" />
+		</_D>
+		<_40 Name="Hopping Definition" Offset="4" GUID="2EEB4F122467A7F3E2C12CEB92754F79" StructName1="c_character_hopping_properties_internal" Min="0" Max="1" />
+	</_557348CB93390CFA430122A2BF5426A6>
+	<_8F3A4C36D94441DD93F7EE5F89A0A7EE Name="c_character_warp_properties_internal" Size="68">
+		<_40 Name="Warp Definition" Offset="0" GUID="951A45D2864DAE31395A71B0A0E1D3CE" StructName1="c_character_warp_properties_internal" Min="0" Max="1" />
+		<_41 Name="Intro Effect" Offset="14" Allowed="effe" Flags="0" />
+		<_41 Name="Travel Effect" Offset="30" Allowed="effe" Flags="0" />
+		<_41 Name="Outro Effect" Offset="4C" Allowed="effe" Flags="0" />
+	</_8F3A4C36D94441DD93F7EE5F89A0A7EE>
+	<_A6B741735CD8B49C2F6BF8CFA61C4E79 Name="c_character_movement_properties_internal" Size="C0">
+		<_D Name="movement flags" Offset="0" StructName1="CharacterMovementFlags">
+			<Flag n="danger crouch allow movement" />
+			<Flag n="no side-step" />
+			<Flag n="prefer to combar near friends" />
+			<Flag n="allow boosted jump" />
+			<Flag n="allow mid-jump free facing" />
+			<Flag n="climb" />
+			<Flag n="prefer wall movement" />
+			<Flag n="has flying mode" />
+			<Flag n="disallow crouch" />
+			<Flag n="disallow all movement" />
+			<Flag n="always use search points" />
+			<Flag n="keep moving" />
+			<Flag n="cure isolation jump" />
+			<Flag n="gain elevation" />
+			<Flag n="reposition distant" />
+			<Flag n="only use aerial firing positions" />
+			<Flag n="use high priority pathfinding" />
+			<Flag n="lower weapon when no alert movement override" />
+			<Flag n="phase" />
+			<Flag n="no override when firing" />
+			<Flag n="no stow during idle activities" />
+			<Flag n="flip any vehicle" />
+			<Flag n="bound along path" />
+			<Flag n="use new aiming and facing control" />
+			<Flag n="force strafe when crouching" />
+			<Flag n="disallow hard stop" />
+			<Flag n="Disable velocity/throttle alignment" />
+			<Flag n="Fixed facing hunker" />
+			<Flag n="Zero Smash Cost In Combat" />
+		</_D>
+		<_14 Name="pathfinding radius" Offset="4" />
+		<_14 Name="avoidance radius" Offset="8" />
+		<_14 Name="destination radius" Offset="C" />
+		<_14 Name="Friendly Outer Radius" Offset="10" />
+		<_14 Name="Friendly Inner Radius" Offset="14" />
+		<_14 Name="Friendly Player Outer Radius" Offset="18" />
+		<_14 Name="Friendly Player Inner Radius" Offset="1C" />
+		<_36 Name="Danger Zone Avoidance" Offset="20" />
+		<_B Name="obstacle leap min size" Offset="20" StructName1="ObjectAISize">
+			<Flag n="default" />
+			<Flag n="tiny" />
+			<Flag n="small" />
+			<Flag n="medium" />
+			<Flag n="large" />
+			<Flag n="immobile" />
+		</_B>
+		<_B Name="obstacle leap max size" Offset="22" StructName1="ObjectAISize">
+			<Flag n="default" />
+			<Flag n="tiny" />
+			<Flag n="small" />
+			<Flag n="medium" />
+			<Flag n="large" />
+			<Flag n="immobile" />
+		</_B>
+		<_B Name="obstacle ignore size" Offset="24" StructName1="ObjectAISize">
+			<Flag n="default" />
+			<Flag n="tiny" />
+			<Flag n="small" />
+			<Flag n="medium" />
+			<Flag n="large" />
+			<Flag n="immobile" />
+		</_B>
+		<_B Name="obstacle smashable size" Offset="26" StructName1="ObjectAISize">
+			<Flag n="default" />
+			<Flag n="tiny" />
+			<Flag n="small" />
+			<Flag n="medium" />
+			<Flag n="large" />
+			<Flag n="immobile" />
+		</_B>
+		<_36 Name="clearance cache" Offset="28" />
+		<_B Name="clearance cache bucket size" Offset="28" StructName1="ClearanceCacheBucketSize">
+			<Flag n="default" />
+			<Flag n="small" />
+			<Flag n="medium" />
+			<Flag n="large" />
+			<Flag n="no cache" />
+		</_B>
+		<_34 Name="generated_pad024b" Offset="2A" Length="2" />
+		<_14 Name="max jump height" Offset="2C" />
+		<_14 Name="max jump distance" Offset="30" />
+		<_14 Name="maximum leap height" Offset="34" />
+		<_14 Name="leap proximity fraction" Offset="38" />
+		<_14 Name="maximum hoist height" Offset="3C" />
+		<_14 Name="obstacle smash strength" Offset="40" />
+		<_D Name="movement hints" Offset="44" StructName1="CharacterMovementHintFlags">
+			<Flag n="vault step" />
+			<Flag n="vault crouch" />
+			<Flag n="unused0" />
+			<Flag n="unused1" />
+			<Flag n="unused2" />
+			<Flag n="mount step" />
+			<Flag n="mount crouch" />
+			<Flag n="mount stand" />
+			<Flag n="unused3" />
+			<Flag n="unused4" />
+			<Flag n="unused5" />
+			<Flag n="hoist crouch" />
+			<Flag n="hoist stand" />
+			<Flag n="unused6" />
+			<Flag n="unused7" />
+			<Flag n="unused8" />
+		</_D>
+		<_37 Name="Throttle and inertia" type="fgrb" Offset="48" />
+		<_40 Name="change direction pause" Offset="48" GUID="416F456ECD24A769EABA2837B2335CFB" StructName1="c_character_movement_properties_internal" Min="0" Max="8" />
+		<_14 Name="maximum throttle" Offset="5C" />
+		<_14 Name="minimum throttle" Offset="60" />
+		<_14 Name="throttle smoothing rate" Offset="64" />
+		<_40 Name="movement throttle control" Offset="68" GUID="A634485F82A128868C086C23B8A3F2BF" StructName1="c_character_movement_properties_internal" Min="0" Max="10" />
+		<_14 Name="minimum juke throttle" Offset="7C" />
+		<_8 Name="minimum direction change juke angle" Offset="80" />
+		<_14 Name="non direction change juke probability" Offset="84" />
+		<_14 Name="non direction change juke timeout" Offset="88" />
+		<_6 Name="minimum post juke movement ticks" Offset="8C" />
+		<_37 Name="" type="fgre" Offset="90" />
+		<_14 Name="stationary turn radius" Offset="90" />
+		<_25 Name="move distance" Offset="94" />
+		<_37 Name="Phasing" type="fgrb" Offset="9C" />
+		<_14 Name="phase chance" Offset="9C" />
+		<_14 Name="phase delay seconds" Offset="A0" />
+		<_37 Name="" type="fgre" Offset="A4" />
+		<_37 Name="Movement Facing" type="fgrb" Offset="A4" />
+		<_36 Name="Movement Facing" Offset="A4" />
+		<_8 Name="Maximum Deviation Angle" Offset="A4" />
+		<_37 Name="" type="fgre" Offset="A8" />
+		<_38 Name="locomotion settings" Offset="A8" GUID="9ADE4DE46CC78B045035E2A5901520F9" />
+		<_14 Name="wall climb cost multiplier " Offset="B8" />
+		<_37 Name="Character flight" type="fgrb" Offset="BC" />
+		<_A Name="Air nav firing point position" Offset="BC" StructName1="i343::AI::FPEval::AirNavPosition">
+			<Flag n="Center" />
+			<Flag n="Bottom" />
+		</_A>
+		<_37 Name="" type="fgre" Offset="BD" />
+		<_34 Name="generated_padb596" Offset="BD" Length="3" />
+	</_A6B741735CD8B49C2F6BF8CFA61C4E79>
+	<_74C84ECDAFFFAFD730977EE985E64380 Name="c_character_AimingFacing_properties_internal" Size="1C">
+		<_F Name="Flags" Offset="0" StructName1="CharacterAimingFacingFlags">
+			<Flag n="Disallow behaviors forcing baseball runs" />
+			<Flag n="Disallow firing during 'running' phase in baseball run" />
+		</_F>
+		<_A Name="Default facing mode" Offset="1" StructName1="i343::AI::FacingMode">
+			<Flag n="Baseball run" />
+			<Flag n="Strafe only" />
+			<Flag n="Run only" />
+		</_A>
+		<_34 Name="generated_padbf57" Offset="2" Length="2" />
+		<_37 Name="Baseball run properties" type="fgrb" Offset="4" />
+		<_36 Name="Baseball run properties" Offset="4" />
+		<_14 Name="Strafe to run rate" Offset="4" />
+		<_14 Name="Run to strafe rate" Offset="8" />
+		<_14 Name="Start distance threshold" Offset="C" />
+		<_14 Name="End distance threshold" Offset="10" />
+		<_14 Name="Path minimum length" Offset="14" />
+		<_14 Name="Minimum distance to target" Offset="18" />
+		<_37 Name="" type="fgre" Offset="1C" />
+	</_74C84ECDAFFFAFD730977EE985E64380>
+	<_664A4A254E479864F88BD4A4B75F5D6F Name="c_character_DeceleratedTurns_properties_internal" Size="50">
+		<_37 Name="Turn Slerp Blend Table" type="fgrb" Offset="0" />
+		<_37 Name="Turn Slerp Blend Table Table" type="fned" Offset="0" />
+		<_38 Name="Turn Slerp Blend Table" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_37 Name="" type="fgre" Offset="18" />
+		<_37 Name="Turn Anticipation Blend Table" type="fgrb" Offset="18" />
+		<_37 Name="Turn Anticipation Blend Table" type="fned" Offset="18" />
+		<_38 Name="Turn Anticipation Blend Table" Offset="18" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="Turn Reaction Blend Table" type="fgrb" Offset="30" />
+		<_37 Name="Turn Reaction Blend Table" type="fned" Offset="30" />
+		<_38 Name="Turn Reaction Blend Table" Offset="30" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_37 Name="" type="fgre" Offset="48" />
+		<_14 Name="Turn reaction cosine power" Offset="48" />
+		<_14 Name="Turn reaction cosine factor" Offset="4C" />
+	</_664A4A254E479864F88BD4A4B75F5D6F>
+	<_04F646926BB2BF0A7FE12FA5B30AA947 Name="c_character_LocomotionOverrides_properties_internal" Size="90">
+		<_38 Name="locomotion overrides" Offset="0" GUID="06034378EF7CEB85520186D9AB850818" />
+	</_04F646926BB2BF0A7FE12FA5B30AA947>
+	<_B0464CB206C3B43E34DB9A20AF6113D9 Name="c_character_MovementTweak_properties_internal" Size="40">
+		<_14 Name="Dive grenade chance" Offset="0" />
+		<_14 Name="Brace grenade chance" Offset="4" />
+		<_14 Name="Dive vehicle chance" Offset="8" />
+		<_14 Name="Brace vehicle chance" Offset="C" />
+		<_14 Name="Stand Ground Chance" Offset="10" />
+		<_14 Name="Stand Ground Anticipation Time" Offset="14" />
+		<_14 Name="Brace For Grenade Time" Offset="18" />
+		<_14 Name="Brace For Vehicle Impact Time" Offset="1C" />
+		<_14 Name="Brace For Vehicle Impact Prediction Time" Offset="20" />
+		<_14 Name="Brace For Vehicle Impact Velocity Threshold" Offset="24" />
+		<_B Name="jump height" Offset="28" StructName1="CharacterJumpHeight">
+			<Flag n="NONE" />
+			<Flag n="very short" />
+			<Flag n="short" />
+			<Flag n="medium short" />
+			<Flag n="medium long" />
+			<Flag n="long" />
+			<Flag n="very long" />
+			<Flag n="infinite" />
+		</_B>
+		<_34 Name="generated_pad113f" Offset="2A" Length="2" />
+		<_40 Name="Full Body Animation Jump Preventers" Offset="2C" GUID="5FB8404AA951DE2CF523FF208F3A1D4C" StructName1="c_character_MovementTweak_properties_internal" Min="0" Max="5" />
+	</_B0464CB206C3B43E34DB9A20AF6113D9>
+	<_E54E4C37D90E60176B67DE8987D2E7B9 Name="c_character_throttle_style_properties_internal" Size="44">
+		<_2 Name="style name" Offset="0" />
+		<_15 Name="desired throttle" Offset="4" />
+		<_14 Name="acceleration time" Offset="8" />
+		<_38 Name="acceleration function" Offset="C" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_14 Name="deceleration distance" Offset="24" />
+		<_38 Name="deceleration function" Offset="28" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_2 Name="stance" Offset="40" />
+	</_E54E4C37D90E60176B67DE8987D2E7B9>
+	<_217942218AACE34CC7525D2DA8F6C67C Name="character_movement_set" Size="18">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="variants" Offset="4" GUID="EF3046282D4F623ED747C2E7BA8D7DA4" StructName1="character_movement_set" Min="0" Max="9" />
+	</_217942218AACE34CC7525D2DA8F6C67C>
+	<_721C41A5D497EF979EC4938A8BCF6C55 Name="c_character_flocking_properties_internal" Size="18">
+		<_36 Name="Jaime, don't touch this" Offset="0" />
+		<_14 Name="deceleration distance" Offset="0" />
+		<_14 Name="normalized speed" Offset="4" />
+		<_14 Name="buffer distance" Offset="8" />
+		<_25 Name="throttle threshold bounds" Offset="C" />
+		<_14 Name="deceleration stop time" Offset="14" />
+	</_721C41A5D497EF979EC4938A8BCF6C55>
+	<_8CAC4D3AAE465FC21934DE5ABF219507 Name="c_character_swarm_properties_internal" Size="30">
+		<_5 Name="scatter killed count" Offset="0" />
+		<_34 Name="generated_pad8e1a" Offset="2" Length="2" />
+		<_14 Name="scatter radius" Offset="4" />
+		<_14 Name="scatter time" Offset="8" />
+		<_14 Name="hound min distance" Offset="C" />
+		<_14 Name="hound max distance" Offset="10" />
+		<_14 Name="perlin offset scale" Offset="14" />
+		<_25 Name="offset period" Offset="18" />
+		<_14 Name="perlin idle movement threshold" Offset="20" />
+		<_14 Name="perlin combat movement threshold" Offset="24" />
+		<_14 Name="stuck time" Offset="28" />
+		<_14 Name="stuck distance" Offset="2C" />
+	</_8CAC4D3AAE465FC21934DE5ABF219507>
+	<_7640401C978647F9EF9C02E992C9ADB5 Name="c_character_ready_properties_internal" Size="8">
+		<_25 Name="ready time bounds" Offset="0" />
+	</_7640401C978647F9EF9C02E992C9ADB5>
+	<_10024F2FFFA4E45D213E9865B4987122 Name="c_character_engage_properties_internal" Size="88">
+		<_D Name="flags" Offset="0" StructName1="CharacterEngageFlags">
+			<Flag n="defend threat axis " />
+			<Flag n="fight constant movement" />
+			<Flag n="flight fight constant movement" />
+			<Flag n="disallow combat crouching" />
+			<Flag n="disallow crouch shooting" />
+			<Flag n="fight stable" />
+			<Flag n="throw should lob" />
+			<Flag n="allow positioning beyond ideal range" />
+			<Flag n="can suppress" />
+			<Flag n="Prefers Bunker" />
+			<Flag n="Burst Inhibits Evasion" />
+			<Flag n="Allow midair shooting" />
+			<Flag n="Disallow Surround" />
+			<Flag n="Provides Cover" />
+			<Flag n="Desires Cover" />
+			<Flag n="Want Danger Crouch LOS check" />
+		</_D>
+		<_25 Name="Reposition bounds" Offset="4" />
+		<_25 Name="Bunkering Reposition bounds" Offset="C" />
+		<_36 Name="Danger Crouch" Offset="14" />
+		<_14 Name="Crouch danger threshold" Offset="14" />
+		<_14 Name="Crouch max path distance" Offset="18" />
+		<_14 Name="Stand danger threshold" Offset="1C" />
+		<_14 Name="Fight danger move threshold" Offset="20" />
+		<_23 Name="Fight danger move threshold cooldown" Offset="24" />
+		<_41 Name="override grenade projectile" Offset="28" Allowed="proj" Flags="0" />
+		<_25 Name="default combat range" Offset="44" />
+		<_25 Name="default firing range" Offset="4C" />
+		<_15 Name="Preferred engage fraction " Offset="54" />
+		<_14 Name="Active Shield Fire Cutoff Delay" Offset="58" />
+		<_14 Name="Friendly Avoid Distance" Offset="5C" />
+		<_14 Name="Friendly Close Avoid Distance" Offset="60" />
+		<_14 Name="TeamLead flocking distance" Offset="64" />
+		<_14 Name="Enemy avoid distance" Offset="68" />
+		<_14 Name="Scary enemy avoid distance" Offset="6C" />
+		<_40 Name="Full Body Animation Exceptions for Firing Reset" Offset="70" GUID="5FB8404AA951DE2CF523FF208F3A1D4C" StructName1="c_character_engage_properties_internal" Min="0" Max="5" />
+		<_36 Name="Flying" Offset="84" />
+		<_8 Name="Max angle from level" Offset="84" />
+	</_10024F2FFFA4E45D213E9865B4987122>
+	<_B4044B28ED2506ED20234116BC26944A Name="c_character_Berserk_properties_internal" Size="90">
+		<_D Name="Flags" Offset="0" StructName1="c_character_Berserk_properties_internal::BerserkFlags">
+			<Flag n="Don't use the berserk anim stance" />
+			<Flag n="Don't stow weapon" />
+			<Flag n="Allow dialog" />
+			<Flag n="Don't play the intro animation" />
+			<Flag n="Permanent once initiated" />
+			<Flag n="Unreachable exit permanent berserk" />
+			<Flag n="Allow anim when stuck and already berserked" />
+			<Flag n="Can berserk when no target visible" />
+			<Flag n="Stop berserk when target unassailable" />
+			<Flag n="Ignore Hard Pings" />
+		</_D>
+		<_41 Name="Berserk Weapon" Offset="4" Allowed="weap" Flags="0" />
+		<_14 Name="Timeout" Offset="20" />
+		<_26 Name="Shield down chance" Offset="24" />
+		<_25 Name="Shield down range" Offset="2C" />
+		<_14 Name="Friendly killed distance" Offset="34" />
+		<_15 Name="Peer killed chance" Offset="38" />
+		<_15 Name="Leader killed chance" Offset="3C" />
+		<_14 Name="Chance to play berserk anim" Offset="40" />
+		<_14 Name="Chance to play berserk anim when stuck" Offset="44" />
+		<_15 Name="Proximity chance" Offset="48" />
+		<_14 Name="Proximity check cooldown" Offset="4C" />
+		<_14 Name="Proximity abort distance" Offset="50" />
+		<_15 Name="Broken kamikaze chance" Offset="54" />
+		<_15 Name="Surprise kamikaze chance" Offset="58" />
+		<_40 Name="Kamikaze attachment Markers" Offset="5C" GUID="B65E46EEEFF440ED79EA833D8D7FFF31" StructName1="c_character_Berserk_properties_internal" Min="0" Max="8" />
+		<_14 Name="Broken Kamikaze stuck delay" Offset="70" />
+		<_14 Name="Max kamikaze time" Offset="74" />
+		<_14 Name="Last man trigger distance" Offset="78" />
+		<_40 Name="Difficulty limits" Offset="7C" GUID="FA814E3B7AA4AD54CCC805A9A455CB7C" StructName1="c_character_Berserk_properties_internal" Min="0" Max="4" />
+	</_B4044B28ED2506ED20234116BC26944A>
+	<_8CDC40B696F46A10F4C362BBB4EDD814 Name="c_character_WeaponPickup_properties_internal" Size="20">
+		<_14 Name="Search range" Offset="0" />
+		<_14 Name="Minimum target range" Offset="4" />
+		<_14 Name="Range threshold" Offset="8" />
+		<_14 Name="Vehicle threshold" Offset="C" />
+		<_14 Name="Search delay min" Offset="10" />
+		<_14 Name="Search delay max" Offset="14" />
+		<_A Name="Bias" Offset="18" StructName1="c_character_WeaponPickup_properties_internal::PickupBias">
+			<Flag n="Reactive" />
+			<Flag n="Proactive" />
+		</_A>
+		<_34 Name="generated_pad5304" Offset="19" Length="3" />
+		<_14 Name="Danger threshold" Offset="1C" />
+	</_8CDC40B696F46A10F4C362BBB4EDD814>
+	<_602941089687EC756CA5ED35AD4F6DCE Name="c_character_evasion_properties_internal" Size="14">
+		<_14 Name="Evasion danger threshold" Offset="0" />
+		<_14 Name="Evasion delay timer" Offset="4" />
+		<_14 Name="Evasion chance" Offset="8" />
+		<_14 Name="Evasion proximity threshold" Offset="C" />
+		<_14 Name="dive retreat chance" Offset="10" />
+	</_602941089687EC756CA5ED35AD4F6DCE>
+	<_E764AF4A112C5AD7B5C674709F4054C8 Name="c_character_dodge_properties_internal" Size="10">
+		<_14 Name="Danger threshold" Offset="0" />
+		<_14 Name="Cooldown" Offset="4" />
+		<_14 Name="Chance" Offset="8" />
+		<_14 Name="Stop proximity" Offset="C" />
+	</_E764AF4A112C5AD7B5C674709F4054C8>
+	<_C44A48024CB5F15B0BB5CED8BBECD1DB Name="CharacterRunAwayFromVehiclePropertiesInternal" Size="10">
+		<_14 Name="Chance" Offset="0" />
+		<_14 Name="Minimum time to flee" Offset="4" />
+		<_14 Name="Time to flee" Offset="8" />
+		<_14 Name="Time to keep path" Offset="C" />
+	</_C44A48024CB5F15B0BB5CED8BBECD1DB>
+	<_2E39471C1D0E6BC943C54E8AA35B152D Name="c_character_cover_properties_internal" Size="48">
+		<_D Name="cover flags" Offset="0" StructName1="CoverPropertiesFlags">
+			<Flag n="Dive To cover" />
+			<Flag n="Reject Visible Points" />
+			<Flag n="Cover Against Multiple Enemies" />
+			<Flag n="Disallow Cover-point Evaluation while hiding" />
+		</_D>
+		<_25 Name="hide behind cover time" Offset="4" />
+		<_36 Name="Cover conditions" Offset="C" />
+		<_14 Name="Cover shield fraction" Offset="C" />
+		<_14 Name="Cover vitality threshold" Offset="10" />
+		<_14 Name="Cover danger threshold" Offset="14" />
+		<_14 Name="Leave cover danger threshold" Offset="18" />
+		<_37 Name="Aggresive/Defensive cover properties" type="fgrb" Offset="1C" />
+		<_14 Name="minimum defensive distance from target" Offset="1C" />
+		<_14 Name="minimum defensive distance from cover" Offset="20" />
+		<_14 Name="always defensive scary threshold" Offset="24" />
+		<_37 Name="" type="fgre" Offset="28" />
+		<_36 Name="Other" Offset="28" />
+		<_14 Name="Cover check delay" Offset="28" />
+		<_14 Name="Cover pinned down check delay" Offset="2C" />
+		<_14 Name="Emerge from cover when shield fraction reaches threshold" Offset="30" />
+		<_14 Name="Body Vitality Exit Threshold" Offset="34" />
+		<_14 Name="Proximity self-preserve" Offset="38" />
+		<_14 Name="unreachable enemy danger threshold" Offset="3C" />
+		<_14 Name="scary target threshold" Offset="40" />
+		<_14 Name="Minimum enemy distance" Offset="44" />
+	</_2E39471C1D0E6BC943C54E8AA35B152D>
+	<_2CC14DDCF0F699B8968C260197D26266 Name="c_character_retreat_properties_internal" Size="48">
+		<_D Name="Retreat flags" Offset="0" StructName1="CharacterRetreatFlags">
+			<Flag n="Zig-zag when fleeing" />
+			<Flag n="Unused1" />
+		</_D>
+		<_14 Name="Shield threshold" Offset="4" />
+		<_14 Name="Scary target threshold" Offset="8" />
+		<_14 Name="Danger threshold" Offset="C" />
+		<_14 Name="Proximity threshold" Offset="10" />
+		<_25 Name="min/max forced cower time bounds" Offset="14" />
+		<_25 Name="min/max cower timeout bounds" Offset="1C" />
+		<_14 Name="proximity ambush threshold" Offset="24" />
+		<_14 Name="awareness ambush threshold" Offset="28" />
+		<_14 Name="leader dead retreat chance" Offset="2C" />
+		<_14 Name="peer dead retreat chance" Offset="30" />
+		<_14 Name="second peer dead retreat chance" Offset="34" />
+		<_14 Name="flee timeout" Offset="38" />
+		<_8 Name="zig-zag angle" Offset="3C" />
+		<_14 Name="zig-zag period" Offset="40" />
+		<_14 Name="retreat grenade chance" Offset="44" />
+	</_2CC14DDCF0F699B8968C260197D26266>
+	<_87D3457B541F97307B8B58F6AE101AD3 Name="c_character_search_properties_internal" Size="24">
+		<_D Name="Search flags" Offset="0" StructName1="CharacterSearchFlags">
+			<Flag n="crouch on investigate" />
+			<Flag n="walk on pursuit" />
+			<Flag n="search forever" />
+			<Flag n="search exclusively" />
+			<Flag n="search points only while searching" />
+		</_D>
+		<_25 Name="search time" Offset="4" />
+		<_14 Name="Search distance" Offset="C" />
+		<_14 Name="Max Searcher Count " Offset="10" />
+		<_36 Name="Uncover" Offset="14" />
+		<_25 Name="Uncover distance bounds" Offset="14" />
+		<_36 Name="Investigate" Offset="1C" />
+		<_25 Name="vocalization time" Offset="1C" />
+	</_87D3457B541F97307B8B58F6AE101AD3>
+	<_BD02452D4E5E33E3A972C742AA84500D Name="c_character_presearch_properties_internal" Size="58">
+		<_D Name="Pre-search flags" Offset="0" StructName1="PresearchGenericFlags">
+			<Flag n="Flag1" />
+		</_D>
+		<_25 Name="min presearch time" Offset="4" />
+		<_25 Name="max presearch time" Offset="C" />
+		<_25 Name="Peek Time" Offset="14" />
+		<_14 Name="Max Certainty Radius" Offset="1C" />
+		<_14 Name="Max Presearcher Count " Offset="20" />
+		<_14 Name="Max Suppressing Count" Offset="24" />
+		<_14 Name="Max Uncover Count" Offset="28" />
+		<_6 Name="Max Destroy Cover Count" Offset="2C" />
+		<_14 Name="max suppress time" Offset="30" />
+		<_14 Name="fire to uncover chance " Offset="34" />
+		<_14 Name="Max destroy cover time" Offset="38" />
+		<_37 Name="Child Weights" type="fgrb" Offset="3C" />
+		<_14 Name="suppressing fire weight" Offset="3C" />
+		<_14 Name="uncover weight" Offset="40" />
+		<_14 Name="leap on cover weight" Offset="44" />
+		<_14 Name="destroy cover weight" Offset="48" />
+		<_14 Name="guard weight" Offset="4C" />
+		<_14 Name="investigate weight" Offset="50" />
+		<_14 Name="search by fire weight" Offset="54" />
+		<_37 Name="" type="fgre" Offset="58" />
+	</_BD02452D4E5E33E3A972C742AA84500D>
+	<_46A041459965BEAA07BCD5FD8C90624C Name="CharacterRecognizingPropertiesInternal" Size="8">
+		<_36 Name="Recognizing" Offset="0" />
+		<_14 Name="Recognize min time" Offset="0" />
+		<_14 Name="Recognize max time" Offset="4" />
+	</_46A041459965BEAA07BCD5FD8C90624C>
+	<_68E942AB6C8BCFDBFC1CE1EAA9EED157 Name="c_character_idle_properties_internal" Size="10">
+		<_25 Name="idle pose delay time" Offset="0" />
+		<_25 Name="wander delay time" Offset="8" />
+	</_68E942AB6C8BCFDBFC1CE1EAA9EED157>
+	<_AABF4733F10D70E124ADD41AAD5107E5 Name="c_character_precombat_properties_internal" Size="14">
+		<_40 Name="Systematic Recreation Settings" Offset="0" GUID="D0DD44CA3E4F7010AA5C59C8A64F8A36" StructName1="c_character_precombat_properties_internal" Min="0" Max="16" />
+	</_AABF4733F10D70E124ADD41AAD5107E5>
+	<_9E1040FD62F8205D9DF2201DAD1ACD08 Name="c_character_vocalization_properties_internal" Size="20">
+		<_36 Name="Skip Fraction" Offset="0" />
+		<_14 Name="character skip fraction" Offset="0" />
+		<_14 Name="speaker weight bonus" Offset="4" />
+		<_14 Name="look trigger distance" Offset="8" />
+		<_14 Name="look cooldown time" Offset="C" />
+		<_14 Name="look comment time" Offset="10" />
+		<_14 Name="look long comment time" Offset="14" />
+		<_14 Name="look respond max time" Offset="18" />
+		<_14 Name="look respond early out time" Offset="1C" />
+	</_9E1040FD62F8205D9DF2201DAD1ACD08>
+	<_5987413AE8176F59138FF9FC97AD3E48 Name="c_character_boarding_properties_internal" Size="7C">
+		<_2 Name="rule name" Offset="0" />
+		<_D Name="flags" Offset="4" StructName1="CharacterBoardingFlags">
+			<Flag n="airborne boarding" />
+		</_D>
+		<_14 Name="Boarding Distance" Offset="8" />
+		<_14 Name="abort distance" Offset="C" />
+		<_14 Name="Minimum Entry Distance" Offset="10" />
+		<_14 Name="Maximum Entry Distance" Offset="14" />
+		<_14 Name="max speed" Offset="18" />
+		<_14 Name="board time" Offset="1C" />
+		<_25 Name="boarding timeout" Offset="20" />
+		<_40 Name="vehicle specific properties" type="sort" Offset="28" GUID="1DC34D0B86521B2C87548C9087D35EF3" StructName1="c_character_boarding_properties_internal" Min="0" Max="32" />
+		<_40 Name="vehicle specific pull properties" type="sort" Offset="3C" GUID="ADCE411D52FC06DB3DF888DBAD7D72F6" StructName1="c_character_boarding_properties_internal" Min="0" Max="32" />
+		<_36 Name="New boarding behavior" Offset="50" />
+		<_14 Name="max danger" Offset="50" />
+		<_14 Name="max pull" Offset="54" />
+		<_14 Name="min linear acceleration" Offset="58" />
+		<_14 Name="pull history factor" Offset="5C" />
+		<_14 Name="Ejection Knockback Time" Offset="60" />
+		<_14 Name="entry timeout" Offset="64" />
+		<_14 Name="Boarding Chance" Offset="68" />
+		<_14 Name="Hijack Max Wait Time" Offset="6C" />
+		<_14 Name="Min Vehicle Vitality" Offset="70" />
+		<_25 Name="melee cooldown" Offset="74" />
+	</_5987413AE8176F59138FF9FC97AD3E48>
+	<_15E24373E2DA6F8532BDFAF8A3BFB379 Name="c_character_kungfu_properties_internal" Size="10">
+		<_14 Name="kungfu override distance" Offset="0" />
+		<_14 Name="kungfu cover danger threshold" Offset="4" />
+		<_14 Name="Min Allowed Time" Offset="8" />
+		<_14 Name="Min Disallowed Time" Offset="C" />
+	</_15E24373E2DA6F8532BDFAF8A3BFB379>
+	<_32EA48028EDF6B9E72BE6A6180A25CBC Name="c_character_bunker_properties_internal" Size="64">
+		<_D Name="Flags" Offset="0" StructName1="c_character_bunker_properties_internal::Flags">
+			<Flag n="No Bunker During Guard" />
+		</_D>
+		<_36 Name="DEFAULT TIMINGS" Offset="4" />
+		<_38 Name="default" Offset="4" GUID="8FAF437A4C18982BAD0B2D85A9D9BCDA" />
+		<_36 Name="FIGHT TIMINGS" Offset="1C" />
+		<_38 Name="fight" Offset="1C" GUID="8FAF437A4C18982BAD0B2D85A9D9BCDA" />
+		<_36 Name="COVER TIMINGS" Offset="34" />
+		<_38 Name="cover" Offset="34" GUID="8FAF437A4C18982BAD0B2D85A9D9BCDA" />
+		<_36 Name="GUARD TIMINGS" Offset="4C" />
+		<_38 Name="guard" Offset="4C" GUID="8FAF437A4C18982BAD0B2D85A9D9BCDA" />
+	</_32EA48028EDF6B9E72BE6A6180A25CBC>
+	<_D2234E2D34E8567028E05D24A5EB0BA1 Name="c_character_shield_wall_properties_internal" Size="40">
+		<_14 Name="Raise Shield Delay" Offset="0" />
+		<_14 Name="Relocate Delay" Offset="4" />
+		<_14 Name="Max Leader Protect Distance" Offset="8" />
+		<_37 Name="Formation" type="fgrb" Offset="C" />
+		<_38 Name="Formation Description" Offset="C" GUID="E106429ADF419EBA5BAB97E0A434BF46" />
+		<_37 Name="" type="fgre" Offset="40" />
+	</_D2234E2D34E8567028E05D24A5EB0BA1>
+	<_242D4A9B331A598B93A843B8AF7AE3F5 Name="c_character_firing_wall_properties_internal" Size="78">
+		<_37 Name="Activation Chance" type="fgrb" Offset="0" />
+		<_15 Name="Activation Chance (easy)" Offset="0" />
+		<_15 Name="Activation Chance (normal)" Offset="4" />
+		<_15 Name="Activation Chance (heroic)" Offset="8" />
+		<_15 Name="Activation Chance (legendary)" Offset="C" />
+		<_37 Name="" type="fgre" Offset="10" />
+		<_14 Name="Max Distance" Offset="10" />
+		<_6 Name="Min Member Count" Offset="14" />
+		<_6 Name="Max Member Count" Offset="18" />
+		<_25 Name="Fire Time" Offset="1C" />
+		<_14 Name="Cooldown" Offset="24" />
+		<_14 Name="Warp In Time" Offset="28" />
+		<_14 Name="Min Arrival Time Variation" Offset="2C" />
+		<_14 Name="Max Arrival Time Variation" Offset="30" />
+		<_14 Name="Warp Out Time" Offset="34" />
+		<_14 Name="Min Departure Time Variation" Offset="38" />
+		<_14 Name="Max Departure Time Variation" Offset="3C" />
+		<_8 Name="Max Angle Between Formation and Target" Offset="40" />
+		<_37 Name="Formation" type="fgrb" Offset="44" />
+		<_38 Name="Formation Description" Offset="44" GUID="E106429ADF419EBA5BAB97E0A434BF46" />
+		<_37 Name="" type="fgre" Offset="78" />
+	</_242D4A9B331A598B93A843B8AF7AE3F5>
+	<_00EBF24EF40609CC5E4423EEB9042F90 Name="CharacterInterposeRequestPropertiesInternal" Size="10">
+		<_14 Name="Danger Level" Offset="0" />
+		<_25 Name="Wait Time" Offset="4" />
+		<_14 Name="Cooldown" Offset="C" />
+	</_00EBF24EF40609CC5E4423EEB9042F90>
+	<_43785B440960AEC4244DF351AC197F54 Name="CharacterInterposePropertiesInternal" Size="10">
+		<_25 Name="Protect Time" Offset="0" />
+		<_14 Name="Distance from Protect" Offset="8" />
+		<_2 Name="Firing Style" Offset="C" />
+	</_43785B440960AEC4244DF351AC197F54>
+	<_D2C1421AA70BCFE37A97A6319E944828 Name="c_character_bounding_properties_internal" Size="14">
+		<_14 Name="Max Wait Time" Offset="0" />
+		<_14 Name="Advance Time" Offset="4" />
+		<_14 Name="Reposition Search Range" Offset="8" />
+		<_14 Name="Max Destination Age" Offset="C" />
+		<_3C Name="Max Cover Agents" Offset="10" />
+		<_34 Name="generated_pada6c0" Offset="11" Length="3" />
+	</_D2C1421AA70BCFE37A97A6319E944828>
+	<_F82347E5153C94F417F1648399309D0B Name="c_character_deflection_properties_internal" Size="14">
+		<_36 Name="Deflection areas" Offset="0" />
+		<_40 Name="Target Areas" Offset="0" GUID="6E634338E341B4C63BD9CB96AEDA7C26" StructName1="c_character_deflection_properties_internal" Min="0" Max="10" />
+	</_F82347E5153C94F417F1648399309D0B>
+	<_FBF54F69253B83710B6066339CEF5F91 Name="c_character_bot_properties_internal" Size="2C">
+		<_D Name="movement flags" Offset="0" StructName1="BotPropertiesFlags">
+			<Flag n="crouch" />
+			<Flag n="jump" />
+			<Flag n="evade" />
+			<Flag n="discard recent firing positions" />
+		</_D>
+		<_36 Name="Bot info" Offset="4" />
+		<_14 Name="crouch time" Offset="4" />
+		<_15 Name="crouch Low shield threshold" Offset="8" />
+		<_15 Name="jump chance" Offset="C" />
+		<_15 Name="evade low shield threshold" Offset="10" />
+		<_14 Name="strafing influence vector radius" Offset="14" />
+		<_14 Name="strafing influence vector weight" Offset="18" />
+		<_14 Name="firing point refresh distance" Offset="1C" />
+		<_14 Name="influence rejection radius" Offset="20" />
+		<_14 Name="movement cooldown min" Offset="24" />
+		<_14 Name="movement cooldown max" Offset="28" />
+	</_FBF54F69253B83710B6066339CEF5F91>
+	<_906C4C58A981C50E362FC909A3260783 Name="c_character_EvasiveFight_properties_internal" Size="20">
+		<_14 Name="Engage Fraction" Offset="0" />
+		<_25 Name="Stationary Time" Offset="4" />
+		<_14 Name="Move Danger Threshold" Offset="C" />
+		<_14 Name="Shield Threshold" Offset="10" />
+		<_14 Name="Dive Cooldown" Offset="14" />
+		<_14 Name="Dive Shield Threshold" Offset="18" />
+		<_14 Name="Dive Danger Threshold" Offset="1C" />
+	</_906C4C58A981C50E362FC909A3260783>
+	<_90854E41208A0E9BC34E142FB85B0858 Name="c_character_AggressiveFight_properties_internal" Size="18">
+		<_F Name="Flags" Offset="0" StructName1="AggressiveFightFlags">
+			<Flag n="Ignore lower bound when target advancing" />
+			<Flag n="Face exactly" />
+		</_F>
+		<_34 Name="generated_padcd38" Offset="1" Length="3" />
+		<_14 Name="Engage Fraction" Offset="4" />
+		<_25 Name="Stationary Time" Offset="8" />
+		<_14 Name="Move Danger Threshold" Offset="10" />
+		<_14 Name="Max Speed Percent" Offset="14" />
+	</_90854E41208A0E9BC34E142FB85B0858>
+	<_C53711E90536C7E21F0C15DF87C7D6CE Name="c_character_LinearAdvanceFight_properties_internal" Size="C">
+		<_25 Name="Stationary Time" Offset="0" />
+		<_14 Name="Advance Distance" Offset="8" />
+	</_C53711E90536C7E21F0C15DF87C7D6CE>
+	<_F55F4132D296C7496ACB2B6985F7F1B9 Name="CharacterStaticFightPropertiesInternal" Size="C">
+		<_25 Name="Stationary Time" Offset="0" />
+		<_14 Name="Danger Move Threshold" Offset="8" />
+	</_F55F4132D296C7496ACB2B6985F7F1B9>
+	<_192C474AF76BC02345033AB196D946A0 Name="CharacterStandGroundPropertiesInternal" Size="14">
+		<_25 Name="Target Distance" Offset="0" />
+		<_14 Name="Ally Distance" Offset="8" />
+		<_14 Name="Ally Attacker Distance" Offset="C" />
+		<_14 Name="Behavior Linger Time" Offset="10" />
+	</_192C474AF76BC02345033AB196D946A0>
+	<_47F77D400A6CFBD0FCBB55FE9C17DBA5 Name="CharacterGrenadeFightPropertiesInternal" Size="10">
+		<_25 Name="Stationary Time" Offset="0" />
+		<_14 Name="Minimum Movement" Offset="8" />
+		<_15 Name="Ideal Fraction" Offset="C" />
+	</_47F77D400A6CFBD0FCBB55FE9C17DBA5>
+	<_AEF94241E1CEF1DDD177C245B203218D Name="c_character_CoverSequence_properties_internal" Size="14">
+		<_14 Name="Shield Start Threshold" Offset="0" />
+		<_14 Name="Shield End Threshold" Offset="4" />
+		<_14 Name="Danger Start Threshold" Offset="8" />
+		<_14 Name="Danger End Threshold" Offset="C" />
+		<_14 Name="Minimum Hide Duration" Offset="10" />
+	</_AEF94241E1CEF1DDD177C245B203218D>
+	<_DC8B416ED511D14324783829AB8534AE Name="c_character_CoverMove_properties_internal" Size="8">
+		<_D Name="Flags" Offset="0" StructName1="CoverMoveFlags">
+			<Flag n="Dive to Cover" />
+		</_D>
+		<_14 Name="Cover Failed Duration" Offset="4" />
+	</_DC8B416ED511D14324783829AB8534AE>
+	<_ADCD6F4651BC0063B733CCFA9A00FCCC Name="c_character_CoverHide_properties_internal" Size="4">
+		<_14 Name="Minimum Hide Duration" Offset="0" />
+	</_ADCD6F4651BC0063B733CCFA9A00FCCC>
+	<_4B07449EA5E7C0FE3E5D2B7680D0054E Name="c_character_LongRangeAttack_properties_internal" Size="10">
+		<_D Name="Flags" Offset="0" StructName1="LongRangeAttackFlags">
+			<Flag n="Take potshots while running" />
+			<Flag n="Do not take cover" />
+		</_D>
+		<_14 Name="Potshot duration" Offset="4" />
+		<_14 Name="Peek duration" Offset="8" />
+		<_14 Name="Time between potshots" Offset="C" />
+	</_4B07449EA5E7C0FE3E5D2B7680D0054E>
+	<_0A6140DE97BCFDD1EBED0F748AE7E077 Name="c_character_HoistAttack_properties_internal" Size="8">
+		<_14 Name="Max Danger Threshold" Offset="0" />
+		<_14 Name="Hoist Attack Chance" Offset="4" />
+	</_0A6140DE97BCFDD1EBED0F748AE7E077>
+	<_0D0F412109ECE692E2F2C43798BE77AE Name="c_character_HunkerDown_properties_internal" Size="14">
+		<_14 Name="Danger Start Threshold" Offset="0" />
+		<_14 Name="Distance Abort Threshold" Offset="4" />
+		<_15 Name="Shield Health Threshold" Offset="8" />
+		<_25 Name="Hunker Time" Offset="C" />
+	</_0D0F412109ECE692E2F2C43798BE77AE>
+	<_BE4B418A80C7C44A011D7A1FA592A606 Name="c_character_ShieldRaise_properties_internal" Size="4">
+		<_14 Name="Danger Threshold" Offset="0" />
+	</_BE4B418A80C7C44A011D7A1FA592A606>
+	<_79BE4C20213AFC678D02B12894B0FBE9 Name="c_character_VehicleAggressiveFight_properties_internal" Size="10">
+		<_38 Name="Fight Properties" Offset="0" GUID="A63446690CF491F3DEDA54248E51B7EB" />
+		<_D Name="Flags" Offset="8" StructName1="VehicleBoostFlags">
+			<Flag n="Can Boost" />
+		</_D>
+		<_14 Name="Max Danger to Boost" Offset="C" />
+	</_79BE4C20213AFC678D02B12894B0FBE9>
+	<_D865416AAA033A64CCE994B90EBAEFF2 Name="c_character_VehicleDefensiveFight_properties_internal" Size="8">
+		<_38 Name="Fight Properties" Offset="0" GUID="A63446690CF491F3DEDA54248E51B7EB" />
+	</_D865416AAA033A64CCE994B90EBAEFF2>
+	<_0A6B4E9ADE4C5EE8E4B95DED91405D14 Name="c_character_engineer_properties_internal" Size="44">
+		<_14 Name="death height" Offset="0" />
+		<_14 Name="death rise time" Offset="4" />
+		<_14 Name="death detonation time" Offset="8" />
+		<_14 Name="shield boost radius max" Offset="C" />
+		<_14 Name="shield boost period" Offset="10" />
+		<_2 Name="shield boost damage section name" Offset="14" />
+		<_36 Name="Detonation Thresholds" Offset="18" />
+		<_14 Name="detonation shield threshold" Offset="18" />
+		<_14 Name="detonation body vitality" Offset="1C" />
+		<_14 Name="proximity radius" Offset="20" />
+		<_14 Name="proximity detonation chance" Offset="24" />
+		<_41 Name="proximity equipment" Offset="28" Allowed="eqip" Flags="0" />
+	</_0A6B4E9ADE4C5EE8E4B95DED91405D14>
+	<_2AFB47C3E542B59FF3973A07AD2D4FC3 Name="c_character_inspect_properties_internal" Size="14">
+		<_14 Name="stop distance" Offset="0" />
+		<_25 Name="inspect time" Offset="4" />
+		<_25 Name="search range" Offset="C" />
+	</_2AFB47C3E542B59FF3973A07AD2D4FC3>
+	<_E7984CAFDCAA6191C2A469DBA3F64321 Name="c_character_VehicleEntranceExit_properties_internal" Size="28">
+		<_14 Name="Max Distance From Actor" Offset="0" />
+		<_14 Name="Minimum Distance From Player" Offset="4" />
+		<_14 Name="Minimum Distance From Vehicle" Offset="8" />
+		<_14 Name="Perceived Danger Threshold" Offset="C" />
+		<_36 Name="Total Health Percentage" Offset="10" />
+		<_14 Name="Minimum Health to Enter" Offset="10" />
+		<_14 Name="Health Percentage to Exit" Offset="14" />
+		<_36 Name="Remaining Damage Sections Percentage" Offset="18" />
+		<_14 Name="Threshold to Enter" Offset="18" />
+		<_14 Name="Threshold to Exit" Offset="1C" />
+		<_14 Name="Chance To Exit Vehicle" Offset="20" />
+		<_14 Name="Vehicle Exit Impulse Timer" Offset="24" />
+	</_E7984CAFDCAA6191C2A469DBA3F64321>
+	<_C11346DE56A87FADB55DB355BD3D7878 Name="CharacterPrototypeWeaponPropertiesInternal" Size="90">
+		<_41 Name="weapon" Offset="0" Allowed="weap" Flags="1" />
+		<_36 Name="Weapon drop when killed" Offset="1C" />
+		<_25 Name="drop weapon loaded" Offset="1C" />
+		<_23 Name="drop weapon ammo" Offset="24" />
+		<_41 Name="weapon melee damage" Offset="28" Allowed="jpt!" Flags="0" />
+		<_36 Name="Accuracy" Offset="44" />
+		<_25 Name="normal accuracy bounds" Offset="44" />
+		<_14 Name="normal accuracy time" Offset="4C" />
+		<_25 Name="heroic accuracy bounds" Offset="50" />
+		<_14 Name="heroic accuracy time" Offset="58" />
+		<_25 Name="legendary accuracy bounds" Offset="5C" />
+		<_14 Name="legendary accuracy time" Offset="64" />
+		<_40 Name="weapon preferences" Offset="68" GUID="85B6A44E325FAC04CF7F9CB3B777270E" StructName1="CharacterPrototypeWeaponPropertiesInternal" Min="0" Max="1" />
+		<_40 Name="weapon modes" Offset="7C" GUID="0A4248CB8637E2A2DC6F3C3CBEBD0D0D" StructName1="CharacterPrototypeWeaponPropertiesInternal" Min="0" Max="8" />
+	</_C11346DE56A87FADB55DB355BD3D7878>
+	<_8C57481FB640224063ED5079803A2719 Name="PrototypeCharacterStyle" Size="1C">
+		<_2 Name="style name" Offset="0" />
+		<_14 Name="precision" Offset="4" />
+		<_14 Name="hostility" Offset="8" />
+		<_26 Name="Precision Range" Offset="C" />
+		<_26 Name="Hostility Range" Offset="14" />
+	</_8C57481FB640224063ED5079803A2719>
+	<_568C444F729B0298FD56CBC3A8977182 Name="CharacterGrenadeOverridesInternal" Size="20">
+		<_A Name="grenade type" Offset="0" StructName1="UnitGrenadeType">
+			<Flag n="none" />
+			<Flag n="fragmentation grenade" />
+			<Flag n="plasma grenade" />
+			<Flag n="lightning grenade" />
+			<Flag n="spike grenade" />
+			<Flag n="sapper grenade" />
+			<Flag n="stasis grenade" />
+		</_A>
+		<_34 Name="generated_padf18b" Offset="1" Length="3" />
+		<_41 Name="override grenade projectile" Offset="4" Allowed="proj" Flags="0" />
+	</_568C444F729B0298FD56CBC3A8977182>
+	<_8092499AA92D1ADCD2F00083BDD03A7B Name="c_character_grenade_properties_internal" Size="64">
+		<_D Name="grenades flags" Offset="0" StructName1="CharacterGrenadesFlags">
+			<Flag n="do not throw while bunkering" />
+			<Flag n="allow while berserking" />
+		</_D>
+		<_A Name="grenade type" Offset="4" StructName1="UnitGrenadeType">
+			<Flag n="none" />
+			<Flag n="fragmentation grenade" />
+			<Flag n="plasma grenade" />
+			<Flag n="lightning grenade" />
+			<Flag n="spike grenade" />
+			<Flag n="sapper grenade" />
+			<Flag n="stasis grenade" />
+		</_A>
+		<_34 Name="generated_padcce0" Offset="5" Length="1" />
+		<_B Name="trajectory type" Offset="6" StructName1="GrenadeTrajectoryTypes">
+			<Flag n="toss" />
+			<Flag n="lob" />
+			<Flag n="bounce" />
+		</_B>
+		<_5 Name="minimum enemy count" Offset="8" />
+		<_34 Name="generated_pade6c1" Offset="A" Length="2" />
+		<_14 Name="enemy radius" Offset="C" />
+		<_37 Name="throw error" type="fgrb" Offset="10" />
+		<_8 Name="throw error (easy)" Offset="10" />
+		<_8 Name="throw error (normal)" Offset="14" />
+		<_8 Name="throw error (heroic)" Offset="18" />
+		<_8 Name="throw error (legendary)" Offset="1C" />
+		<_37 Name="" type="fgre" Offset="20" />
+		<_37 Name="Damage Modifier" type="fgrb" Offset="20" />
+		<_14 Name="Damage Modifier (easy)" Offset="20" />
+		<_14 Name="Damage Modifier (normal)" Offset="24" />
+		<_14 Name="Damage Modifier (heroic)" Offset="28" />
+		<_14 Name="Damage Modifier (legendary)" Offset="2C" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_14 Name="grenade ideal velocity" Offset="30" />
+		<_14 Name="grenade velocity" Offset="34" />
+		<_25 Name="grenade ranges" Offset="38" />
+		<_14 Name="collateral damage radius" Offset="40" />
+		<_15 Name="grenade chance" Offset="44" />
+		<_14 Name="Active Shield Modifier" Offset="48" />
+		<_14 Name="grenade throw delay" Offset="4C" />
+		<_14 Name="Global grenade delay" Offset="50" />
+		<_15 Name="grenade uncover chance" Offset="54" />
+		<_15 Name="anti-vehicle grenade chance" Offset="58" />
+		<_36 Name="Grenade drop when killed" Offset="5C" />
+		<_23 Name="grenade count" Offset="5C" />
+		<_14 Name="dont drop grenades chance" Offset="60" />
+	</_8092499AA92D1ADCD2F00083BDD03A7B>
+	<_10444DF9503F6E32B994B4FAAA8B8164 Name="c_character_vehicle_properties_internal" Size="228">
+		<_41 Name="unit" Offset="0" Allowed="unit" Flags="1" />
+		<_41 Name="style" Offset="1C" Allowed="styl" Flags="0" />
+		<_41 Name="Behavior Tree" Offset="38" Allowed="beht" Flags="0" />
+		<_41 Name="Nondriver Behavior Tree" Offset="54" Allowed="beht" Flags="0" />
+		<_36 Name="Flying Avoidance" Offset="70" />
+		<_14 Name="lookahead_time" Offset="70" />
+		<_14 Name="roll change magnitude" Offset="74" />
+		<_14 Name="roll decay multiplier" Offset="78" />
+		<_14 Name="throttle grace period" Offset="7C" />
+		<_14 Name="minimum throttle" Offset="80" />
+		<_36 Name="Vehicle flags" Offset="84" />
+		<_D Name="vehicle flags" Offset="84" StructName1="CharacterVehicleFlags">
+			<Flag n="passengers adopt original squad" />
+			<Flag n="snap facing to forward (ghosts)" />
+			<Flag n="throttle to target (hornets)" />
+			<Flag n="stationary fight (tanks)" />
+			<Flag n="keep moving" />
+			<Flag n="can pathfind with avoidance only" />
+			<Flag n="use volume avoidance" />
+			<Flag n="target equality" />
+			<Flag n="don't face target" />
+			<Flag n="override aiming limits" />
+		</_D>
+		<_36 Name="Hover Perturbation New" Offset="88" />
+		<_14 Name="hover deceleration distance" Offset="88" />
+		<_14 Name="hover offset distance" Offset="8C" />
+		<_36 Name="Hover Perturbation Fallback" Offset="90" />
+		<_14 Name="hover allow perturbation speed" Offset="90" />
+		<_14 Name="hover random x-axis period" Offset="94" />
+		<_14 Name="hover random y-axis period" Offset="98" />
+		<_14 Name="hover random z-axis period" Offset="9C" />
+		<_14 Name="hover random radius" Offset="A0" />
+		<_14 Name="hover anchor approach speed limit" Offset="A4" />
+		<_25 Name="hover anchor throttle scale distance" Offset="A8" />
+		<_25 Name="hover anchor xy-throttle scale" Offset="B0" />
+		<_25 Name="hover anchor z-throttle scale" Offset="B8" />
+		<_14 Name="hover throttle min z" Offset="C0" />
+		<_36 Name="Pathfinding" Offset="C4" />
+		<_14 Name="ai pathfinding radius" Offset="C4" />
+		<_14 Name="ai avoidance radius" Offset="C8" />
+		<_14 Name="ai destination radius" Offset="CC" />
+		<_14 Name="ai deceleration distance" Offset="D0" />
+		<_14 Name="roughly, the time it would take this vehicle to stop; default is 2 seconds" Offset="D4" />
+		<_36 Name="Turning" Offset="D8" />
+		<_14 Name="ai turning radius" Offset="D8" />
+		<_36 Name="Steering" Offset="DC" />
+		<_8 Name="ai banshee steering maximum" Offset="DC" />
+		<_14 Name="ai max steering angle" Offset="E0" />
+		<_14 Name="ai max steering delta" Offset="E4" />
+		<_14 Name="ai oversteering scale" Offset="E8" />
+		<_14 Name="ai sideslip distance (combat)" Offset="EC" />
+		<_14 Name="ai sideslip distance (non-combat)" Offset="F0" />
+		<_14 Name="ai avoidance distance" Offset="F4" />
+		<_14 Name="ai min urgency" Offset="F8" />
+		<_8 Name="destination behind angle" Offset="FC" />
+		<_14 Name="skid scale" Offset="100" />
+		<_8 Name="aiming velocity maximum" Offset="104" />
+		<_8 Name="aiming acceleration maximum" Offset="108" />
+		<_36 Name="Throttle" Offset="10C" />
+		<_14 Name="ai throttle maximum" Offset="10C" />
+		<_14 Name="ai reverse throttle maximum" Offset="110" />
+		<_14 Name="ai goal min throttle scale" Offset="114" />
+		<_14 Name="ai turn min throttle scale" Offset="118" />
+		<_14 Name="ai direction min throttle scale" Offset="11C" />
+		<_14 Name="ai skid min throttle scale" Offset="120" />
+		<_8 Name="skid attentuation max angle" Offset="124" />
+		<_14 Name="ai acceleration scale" Offset="128" />
+		<_14 Name="ai throttle blend" Offset="12C" />
+		<_14 Name="theoretical max speed" Offset="130" />
+		<_14 Name="error scale" Offset="134" />
+		<_14 Name="Throttle Ramp Step" Offset="138" />
+		<_36 Name="Speed" Offset="13C" />
+		<_14 Name="Target Speed" Offset="13C" />
+		<_36 Name="Boost For Locomotion - Directional Ground Vehicles" Offset="140" />
+		<_15 Name="ai boost forward facing angle" Offset="140" />
+		<_14 Name="ai min throttle to boost" Offset="144" />
+		<_36 Name="Combat" Offset="148" />
+		<_8 Name="ai allowable aim deviation angle" Offset="148" />
+		<_14 Name="Melee Cooldown" Offset="14C" />
+		<_36 Name="Behavior" Offset="150" />
+		<_14 Name="ai charge tight angle distance" Offset="150" />
+		<_14 Name="ai charge tight angle" Offset="154" />
+		<_14 Name="ai charge repeat timeout" Offset="158" />
+		<_14 Name="ai charge look-ahead time" Offset="15C" />
+		<_14 Name="ai charge consider distance" Offset="160" />
+		<_14 Name="ai charge abort distance" Offset="164" />
+		<_14 Name="ai charge abort close distance" Offset="168" />
+		<_14 Name="ai charge max out of area distance" Offset="16C" />
+		<_14 Name="vehicle ram timeout" Offset="170" />
+		<_14 Name="ram paralysis time" Offset="174" />
+		<_14 Name="ai cover damage threshold" Offset="178" />
+		<_14 Name="ai cover shield damage threshold" Offset="17C" />
+		<_14 Name="ai cover min distance" Offset="180" />
+		<_14 Name="ai cover time" Offset="184" />
+		<_14 Name="ai cover min boost distance" Offset="188" />
+		<_14 Name="turtling recent damage threshold" Offset="18C" />
+		<_14 Name="turtling min time" Offset="190" />
+		<_14 Name="turtling timeout" Offset="194" />
+		<_40 Name="Vehicle Strafing Properties" Offset="198" GUID="E2A54C5196DFE6252B15C37F9447A8B6" StructName1="c_character_vehicle_properties_internal" Min="0" Max="1" />
+		<_40 Name="Vehicle Flying Holding Pattern Properties" Offset="1AC" GUID="BDA9493203E195C0826CB1A0846B5A67" StructName1="c_character_vehicle_properties_internal" Min="0" Max="1" />
+		<_40 Name="Vehicle Flying Preengage Properties" Offset="1C0" GUID="9F8F438A2DC0DAF0CFA9D845B6E0F38B" StructName1="c_character_vehicle_properties_internal" Min="0" Max="1" />
+		<_40 Name="Vehicle Flying Suppressed Properties" Offset="1D4" GUID="1A50428722CBCBF94B2C7EE8B3731367" StructName1="c_character_vehicle_properties_internal" Min="0" Max="1" />
+		<_40 Name="Vehicle Flying Aggressive Engage Properties" Offset="1E8" GUID="42F6440B8ADBB2604C9A938AADE0A21B" StructName1="c_character_vehicle_properties_internal" Min="0" Max="1" />
+		<_40 Name="Vehicle Flying Defensive Engage Properties" Offset="1FC" GUID="1AD1491F795BAE19E43979C080763857" StructName1="c_character_vehicle_properties_internal" Min="0" Max="1" />
+		<_40 Name="Vehicle Flying Fallback Properties" Offset="210" GUID="E1DB421CE66CCA6083DFC7FF80D9E79F" StructName1="c_character_vehicle_properties_internal" Min="0" Max="1" />
+		<_B Name="obstacle ignore size" Offset="224" StructName1="ObjectAISize">
+			<Flag n="default" />
+			<Flag n="tiny" />
+			<Flag n="small" />
+			<Flag n="medium" />
+			<Flag n="large" />
+			<Flag n="immobile" />
+		</_B>
+		<_34 Name="generated_pad354a" Offset="226" Length="2" />
+	</_10444DF9503F6E32B994B4FAAA8B8164>
+	<_BFBB4F464E812719D34F70DCB4BA4A05 Name="c_character_flying_movement_properties_internal" Size="F4">
+		<_41 Name="vehicle" Offset="0" Allowed="unit" Flags="1" />
+		<_37 Name="Default Values" type="edit" Offset="1C" />
+		<_36 Name="Vector Weights" Offset="1C" />
+		<_14 Name="facing" Offset="1C" />
+		<_14 Name="perturbation" Offset="20" />
+		<_14 Name="volume avoidance" Offset="24" />
+		<_14 Name="volume perturbation" Offset="28" />
+		<_14 Name="volume cover" Offset="2C" />
+		<_14 Name="flocking" Offset="30" />
+		<_14 Name="target" Offset="34" />
+		<_14 Name="target tail" Offset="38" />
+		<_36 Name="Area Selection" Offset="3C" />
+		<_25 Name="area reselect time" Offset="3C" />
+		<_36 Name="Idle" Offset="44" />
+		<_25 Name="idle time" Offset="44" />
+		<_36 Name="Cover" Offset="4C" />
+		<_25 Name="unsafe cover reselect time" Offset="4C" />
+		<_25 Name="cover heading reselect time" Offset="54" />
+		<_14 Name="max cover search distance" Offset="5C" />
+		<_14 Name="max cover impulse distance" Offset="60" />
+		<_25 Name="spline cooldown time" Offset="64" />
+		<_36 Name="Volume Avoidance" Offset="6C" />
+		<_14 Name="volume influence distance" Offset="6C" />
+		<_14 Name="volume perturbation phase" Offset="70" />
+		<_14 Name="volume bounding distance" Offset="74" />
+		<_36 Name="Approach" Offset="78" />
+		<_14 Name="volume approach distance" Offset="78" />
+		<_14 Name="volume break off distance" Offset="7C" />
+		<_14 Name="minimum approach distance" Offset="80" />
+		<_25 Name="collision avoidance range" Offset="84" />
+		<_36 Name="Evasion" Offset="8C" />
+		<_25 Name="evade time" Offset="8C" />
+		<_15 Name="evade body damage threshold" Offset="94" />
+		<_15 Name="evade shield damage threshold" Offset="98" />
+		<_14 Name="bogey retreat time" Offset="9C" />
+		<_14 Name="bogey retreat distance" Offset="A0" />
+		<_36 Name="Flocking" Offset="A4" />
+		<_25 Name="flock radius" Offset="A4" />
+		<_8 Name="forward follow angle" Offset="AC" />
+		<_8 Name="behind follow angle" Offset="B0" />
+		<_36 Name="Tailing" Offset="B4" />
+		<_14 Name="min tailing time" Offset="B4" />
+		<_25 Name="tailing radius" Offset="B8" />
+		<_8 Name="tailing cone angle" Offset="C0" />
+		<_36 Name="Strafing" Offset="C4" />
+		<_14 Name="volume strafe distance" Offset="C4" />
+		<_14 Name="strafe min distance" Offset="C8" />
+		<_14 Name="strafe above distance" Offset="CC" />
+		<_14 Name="strafe abort distance" Offset="D0" />
+		<_14 Name="strafe timeout" Offset="D4" />
+		<_36 Name="Attitude Control" Offset="D8" />
+		<_8 Name="max descend angle" Offset="D8" />
+		<_8 Name="max ascend angle" Offset="DC" />
+		<_36 Name="Shooting" Offset="E0" />
+		<_8 Name="shooting cone angle" Offset="E0" />
+		<_36 Name="Evasive Maneuvers" Offset="E4" />
+		<_15 Name="missile dodge change" Offset="E4" />
+		<_14 Name="ideal missile dodge distance" Offset="E8" />
+		<_25 Name="Dodge Timeout" Offset="EC" />
+	</_BFBB4F464E812719D34F70DCB4BA4A05>
+	<_B16E4667A874BCDC8B39612C8F2752A7 Name="character_equipment_definition" Size="3C">
+		<_36 Name="Equipment" Offset="0" />
+		<_41 Name="equipment" Offset="0" Allowed="eqip" Flags="0" />
+		<_D Name="flags" Offset="1C" StructName1="CharacterEquipmentFlags">
+			<Flag n="Stop If No Energy" />
+		</_D>
+		<_14 Name="relative drop chance" Offset="20" />
+		<_2 Name="Animation" Offset="24" />
+		<_40 Name="equipment use" Offset="28" GUID="62C44D6379ECCF83A3206993ADF0D813" StructName1="character_equipment_definition" Min="0" Max="8" />
+	</_B16E4667A874BCDC8B39612C8F2752A7>
+	<_4F3E4CE882B4B10507A2658591D438EC Name="s_character_stimuli_response_definition" Size="28">
+		<_36 Name="Stimulus Response" Offset="0" />
+		<_2 Name="stimulus name" Offset="0" />
+		<_41 Name="override character" Offset="4" Allowed="char" Flags="0" />
+		<_35 Name="Resolved Stimulus" Offset="20" Length="8" />
+	</_4F3E4CE882B4B10507A2658591D438EC>
+	<_CFE44D6F63D7EE667128E562BC5A8E71 Name="s_campaign_metagame_bucket" Size="6">
+		<_F Name="flags" Offset="0" StructName1="c_campaign_metagame_bucket_flags">
+			<Flag n="only counts with riders" />
+		</_F>
+		<_A Name="type" Offset="1" StructName1="c_campaign_metagame_bucket_type">
+			<Flag n="grunt" />
+			<Flag n="jackal" />
+			<Flag n="skirmisher" />
+			<Flag n="marine" />
+			<Flag n="spartan" />
+			<Flag n="bugger" />
+			<Flag n="hunter" />
+			<Flag n="flood_infection" />
+			<Flag n="flood_carrier" />
+			<Flag n="flood_combat" />
+			<Flag n="flood_pure" />
+			<Flag n="sentinel" />
+			<Flag n="elite" />
+			<Flag n="engineer" />
+			<Flag n="mule" />
+			<Flag n="turret" />
+			<Flag n="mongoose" />
+			<Flag n="warthog" />
+			<Flag n="scorpion" />
+			<Flag n="hornet" />
+			<Flag n="pelican" />
+			<Flag n="revenant" />
+			<Flag n="seraph" />
+			<Flag n="shade" />
+			<Flag n="watchtower" />
+			<Flag n="ghost" />
+			<Flag n="chopper" />
+			<Flag n="mauler" />
+			<Flag n="wraith" />
+			<Flag n="banshee" />
+			<Flag n="phantom" />
+			<Flag n="scarab" />
+			<Flag n="guntower" />
+			<Flag n="tuning_fork" />
+			<Flag n="broadsword" />
+			<Flag n="mammoth" />
+			<Flag n="lich" />
+			<Flag n="mantis" />
+			<Flag n="wasp" />
+			<Flag n="phaeton" />
+			<Flag n="bishop" />
+			<Flag n="knight" />
+			<Flag n="pawn" />
+			<Flag n="soldier" />
+			<Flag n="packmaster" />
+			<Flag n="cavalier" />
+			<Flag n="brute" />
+			<Flag n="hoverer" />
+			<Flag n="crusher" />
+		</_A>
+		<_A Name="class" Offset="2" StructName1="c_campaign_metagame_bucket_class">
+			<Flag n="infantry" />
+			<Flag n="leader" />
+			<Flag n="hero" />
+			<Flag n="specialist" />
+			<Flag n="light vehicle" />
+			<Flag n="heavy vehicle" />
+			<Flag n="giant vehicle" />
+			<Flag n="standard vehicle" />
+		</_A>
+		<_34 Name="generated_pad6695" Offset="3" Length="1" />
+		<_5 Name="point count" Offset="4" />
+	</_CFE44D6F63D7EE667128E562BC5A8E71>
+	<_85744FD163D73A39A8EEC55A812FF1AD Name="character_activity_objects" Size="28">
+		<_2 Name="activity name" Offset="0" />
+		<_41 Name="crate" Offset="4" Allowed="bloc" Flags="1" />
+		<_37 Name="" type="amkr" Offset="20" />
+		<_2 Name="crate marker name" Offset="20" />
+		<_37 Name="" type="amkr" Offset="24" />
+		<_2 Name="unit marker name" Offset="24" />
+	</_85744FD163D73A39A8EEC55A812FF1AD>
+	<_8FBA45C34D243C14AB62A9B1B6D62008 Name="c_character_pain_screen_properties_internal" Size="1C">
+		<_36 Name="Pain Reactions" Offset="0" />
+		<_14 Name="pain screen duration" Offset="0" />
+		<_14 Name="pain screen region fade out duration" Offset="4" />
+		<_15 Name="pain screen region fade out weight threshold" Offset="8" />
+		<_8 Name="pain screen angle tolerance" Offset="C" />
+		<_8 Name="pain screen angle randomness" Offset="10" />
+		<_36 Name="Defensive Reactions" Offset="14" />
+		<_14 Name="defensive screen duration" Offset="14" />
+		<_15 Name="defensive screen scrub fallback fraction" Offset="18" />
+	</_8FBA45C34D243C14AB62A9B1B6D62008>
+	<_D9E64504D7DDB5D5CA85475B8C89D49D Name="CharacterMeleeAnimationScalingPropertiesInternal" Size="20">
+		<_36 Name="Easy Scaling" Offset="0" />
+		<_14 Name="Easy Windup Scaling" Offset="0" />
+		<_14 Name="Easy Recovery Scaling" Offset="4" />
+		<_36 Name="Normal Scaling" Offset="8" />
+		<_14 Name="Normal Windup Scaling" Offset="8" />
+		<_14 Name="Normal Recovery Scaling" Offset="C" />
+		<_36 Name="Heroic Scaling" Offset="10" />
+		<_14 Name="Heroic Windup Scaling" Offset="10" />
+		<_14 Name="Heroic Recovery Scaling" Offset="14" />
+		<_36 Name="Legendary Scaling" Offset="18" />
+		<_14 Name="Legendary Windup Scaling" Offset="18" />
+		<_14 Name="Legendary Recovery Scaling" Offset="1C" />
+	</_D9E64504D7DDB5D5CA85475B8C89D49D>
+	<_82DB4C5FECC500113526E740BF8627A9 Name="c_character_closeQuartersDefenseBlast_properties_internal" Size="58">
+		<_37 Name="Close Quarters Defense Blast Parameters" type="fgrb" Offset="0" />
+		<_37 Name="Activation Chance" type="fgrb" Offset="0" />
+		<_15 Name="Activation Chance (easy)" Offset="0" />
+		<_15 Name="Activation Chance (normal)" Offset="4" />
+		<_15 Name="Activation Chance (heroic)" Offset="8" />
+		<_15 Name="Activation Chance (legendary)" Offset="C" />
+		<_37 Name="" type="fgre" Offset="10" />
+		<_14 Name="cooldown" Offset="10" />
+		<_25 Name="attack range" Offset="14" />
+		<_2 Name="marker" Offset="1C" />
+		<_41 Name="damage effect" Offset="20" Allowed="jpt!" Flags="0" />
+		<_41 Name="effect" Offset="3C" Allowed="effe" Flags="0" />
+		<_37 Name="" type="fgre" Offset="58" />
+	</_82DB4C5FECC500113526E740BF8627A9>
+	<_D01D4F25F351D0276BBD1DE3A835C84C Name="c_character_bishop_properties_internal" Size="C8">
+		<_36 Name="Repair" Offset="0" />
+		<_41 Name="repair beam effect" Offset="0" Allowed="effe" Flags="0" />
+		<_36 Name="Protect Allies" Offset="1C" />
+		<_14 Name="Min Follow Distance " Offset="1C" />
+		<_36 Name="Resurrect Allies" Offset="20" />
+		<_14 Name="Resurrection Initiation Delay Time (seconds) " Offset="20" />
+		<_14 Name="Resurrection Charge Up Time (seconds) " Offset="24" />
+		<_14 Name="Resurrection Give Up Time (seconds) " Offset="28" />
+		<_41 Name="Resurrection Ground Effect " Offset="2C" Allowed="effe" Flags="0" />
+		<_41 Name="Res. Area Scan Start Effect " Offset="48" Allowed="effe" Flags="0" />
+		<_41 Name="Res. Area Scan Success Effect " Offset="64" Allowed="effe" Flags="0" />
+		<_41 Name="Res. Area Scan Failure Effect " Offset="80" Allowed="effe" Flags="0" />
+		<_36 Name="Shard Spawning" Offset="9C" />
+		<_41 Name="Shard Spawn Ground Effect " Offset="9C" Allowed="effe" Flags="0" />
+		<_14 Name="Shard Creation Delay (seconds) " Offset="B8" />
+		<_25 Name="Spawn Delay (seconds) " Offset="BC" />
+		<_36 Name="Healing Allies" Offset="C4" />
+		<_14 Name="Healing Time" Offset="C4" />
+	</_D01D4F25F351D0276BBD1DE3A835C84C>
+	<_6C514668E6C49D763E9EAD31AF767F53 Name="CharacterHealingPropertiesInternal" Size="8">
+		<_14 Name="Healing delay time" Offset="0" />
+		<_14 Name="Healing standby time" Offset="4" />
+	</_6C514668E6C49D763E9EAD31AF767F53>
+	<_6BE7491A4A34985D16C3389CB840166A Name="c_character_packmaster_properties_internal" Size="6C">
+		<_41 Name="Pack Character Ancestor " Offset="0" Allowed="char" Flags="0" />
+		<_14 Name="command radius" Offset="1C" />
+		<_6 Name="group fire min count" Offset="20" />
+		<_6 Name="group fire max count" Offset="24" />
+		<_37 Name="group fire chance" type="fgrb" Offset="28" />
+		<_15 Name="group fire chance (easy)" Offset="28" />
+		<_15 Name="group fire chance (normal)" Offset="2C" />
+		<_15 Name="group fire chance (heroic)" Offset="30" />
+		<_15 Name="group fire chance (legendary)" Offset="34" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_14 Name="group fire burst time" Offset="38" />
+		<_14 Name="group fire cooldown time" Offset="3C" />
+		<_6 Name="group fire burst count" Offset="40" />
+		<_14 Name="group fire burst delay" Offset="44" />
+		<_14 Name="group fire target range" Offset="48" />
+		<_14 Name="lion charge max range" Offset="4C" />
+		<_14 Name="lion charge chance" Offset="50" />
+		<_14 Name="lion charge melee range" Offset="54" />
+		<_14 Name="lion charge fire duration" Offset="58" />
+		<_14 Name="lion charge throttle override" Offset="5C" />
+		<_14 Name="lion charge abort range" Offset="60" />
+		<_14 Name="pack charge distance" Offset="64" />
+		<_14 Name="pack charge cooldown" Offset="68" />
+	</_6BE7491A4A34985D16C3389CB840166A>
+	<_C1BB4066EC3CB9649EED9EE3B6F02900 Name="c_character_dynamic_task_properties_internal" Size="4C">
+		<_D Name="Agent Filter Flags " Offset="0" StructName1="i343::AI::OpportunityRequirementFlags">
+			<Flag n="Companion" />
+			<Flag n="Protector" />
+			<Flag n="Spawner" />
+			<Flag n="Birther" />
+			<Flag n="Cover Fire" />
+			<Flag n="SlipSpace Spawner" />
+			<Flag n="Healer" />
+		</_D>
+		<_D Name="Task Generation Flags " Offset="4" StructName1="TaskGenerationFlags">
+			<Flag n="Protect Me" />
+			<Flag n="Resurrect On Death" />
+			<Flag n="Heal Me" />
+		</_D>
+		<_15 Name="Protect Request Shield Level " Offset="8" />
+		<_15 Name="Protect Request Body Level " Offset="C" />
+		<_15 Name="Resurrection Req. Chance " Offset="10" />
+		<_14 Name="Shield Task Priority " Offset="14" />
+		<_25 Name="Protect Task Priorities (Min Health - Max Health) " Offset="18" />
+		<_14 Name="Resurrection Task Priority " Offset="20" />
+		<_14 Name="Shield During Resurrection Task Priority " Offset="24" />
+		<_41 Name="Shield Crate Override " Offset="28" Allowed="bloc" Flags="0" />
+		<_14 Name="Heal Request Shield Level " Offset="44" />
+		<_14 Name="Heal Request Body Level " Offset="48" />
+	</_C1BB4066EC3CB9649EED9EE3B6F02900>
+	<_DDDB4162DBEC66B22B0993CFA71BA1F2 Name="c_character_RushAttack_properties_internal" Size="A4">
+		<_36 Name="Rush Attack" Offset="0" />
+		<_38 Name="Generic Advance Attack" Offset="0" GUID="F61D4D727BD9BAAF5F4D0748A70C3AA3" />
+		<_36 Name="Rush specific settings" Offset="5C" />
+		<_D Name="Rush flags" Offset="5C" StructName1="c_character_RushAttack_properties_internal::RushFlags">
+			<Flag n="Don't shoot while advancing" />
+			<Flag n="Allow multiple hits" />
+			<Flag n="Ignore followers" />
+		</_D>
+		<_14 Name="Leader Abandoned Chance" Offset="60" />
+		<_15 Name="Berserk chance" Offset="64" />
+		<_14 Name="Berserk recheck cooldown" Offset="68" />
+		<_14 Name="Min abort time" Offset="6C" />
+		<_14 Name="Min abort dist travelled" Offset="70" />
+		<_14 Name="Vertical Range Scalar" Offset="74" />
+		<_15 Name="Zig-zag chance" Offset="78" />
+		<_8 Name="Zig-zag angle" Offset="7C" />
+		<_14 Name="Zig-zag period" Offset="80" />
+		<_8 Name="Tackle angle" Offset="84" />
+		<_14 Name="Tackle wait" Offset="88" />
+		<_40 Name="Combo Definitions" Offset="8C" GUID="E46C48B6AECD66C9365FF108BAEDDBE6" StructName1="c_character_RushAttack_properties_internal" Min="0" Max="16" />
+		<_2 Name="Taunt Animation Name" Offset="A0" />
+	</_DDDB4162DBEC66B22B0993CFA71BA1F2>
+	<_192E415355E0F9C5CDD467E2A3A766DF Name="c_character_LeapAttack_properties_internal" Size="84">
+		<_36 Name="Leap Attack" Offset="0" />
+		<_38 Name="Generic Advance Attack" Offset="0" GUID="F61D4D727BD9BAAF5F4D0748A70C3AA3" />
+		<_36 Name="Leap specific settings" Offset="5C" />
+		<_D Name="Leap Flags" Offset="5C" StructName1="c_character_LeapAttack_properties_internal::LeapFlags">
+			<Flag n="Allow with ranged weapons" />
+			<Flag n="Always face target" />
+			<Flag n="Can lose target mid jump" />
+			<Flag n="Stick the landing" />
+			<Flag n="Swoop tracks target" />
+		</_D>
+		<_14 Name="Ideal leap speed" Offset="60" />
+		<_14 Name="Max leap speed" Offset="64" />
+		<_15 Name="Ballistic fraction" Offset="68" />
+		<_14 Name="Prediction percent" Offset="6C" />
+		<_14 Name="Shortfall" Offset="70" />
+		<_14 Name="Swoop accel rate" Offset="74" />
+		<_14 Name="Swoop accel time" Offset="78" />
+		<_8 Name="Swoop max deviation" Offset="7C" />
+		<_14 Name="Swoop prediction" Offset="80" />
+	</_192E415355E0F9C5CDD467E2A3A766DF>
+	<_362E4EF1F96606308394D3D2B35CF4EF Name="c_character_TeleportAttack_properties_internal" Size="B4">
+		<_36 Name="Teleport attack" Offset="0" />
+		<_38 Name="Generic Advance Attack" Offset="0" GUID="F61D4D727BD9BAAF5F4D0748A70C3AA3" />
+		<_36 Name="Teleport specific settings" Offset="5C" />
+		<_14 Name="Destination distance" Offset="5C" />
+		<_14 Name="Side step distance" Offset="60" />
+		<_14 Name="Forward distance" Offset="64" />
+		<_14 Name="Tracking distance" Offset="68" />
+		<_14 Name="Runup time" Offset="6C" />
+		<_14 Name="Position pause" Offset="70" />
+		<_14 Name="Escape Cooldown" Offset="74" />
+		<_14 Name="Lock Distance" Offset="78" />
+		<_41 Name="Launch effect" Offset="7C" Allowed="effe" Flags="0" />
+		<_41 Name="Land effect" Offset="98" Allowed="effe" Flags="0" />
+	</_362E4EF1F96606308394D3D2B35CF4EF>
+	<_F691419C0CF07EE324487C93ACB48BF8 Name="CharacterJinkAndShootPropertiesInternal" Size="80">
+		<_36 Name="Jink and Shoot" Offset="0" />
+		<_25 Name="Start distance" Offset="0" />
+		<_14 Name="Start max offset angle" Offset="8" />
+		<_14 Name="Min start teleport distance" Offset="C" />
+		<_6 Name="Number of intermediate teleports" Offset="10" />
+		<_14 Name="Max offset angle" Offset="14" />
+		<_25 Name="Side step distance" Offset="18" />
+		<_25 Name="Forward distance" Offset="20" />
+		<_41 Name="Launch effect" Offset="28" Allowed="effe" Flags="0" />
+		<_41 Name="Land effect" Offset="44" Allowed="effe" Flags="0" />
+		<_2 Name="Effect marker" Offset="60" />
+		<_41 Name="Jink and Shoot Weapon" Offset="64" Allowed="weap" Flags="0" />
+	</_F691419C0CF07EE324487C93ACB48BF8>
+	<_4A544D0F2FBAAF29B95BF878A6911A55 Name="CharacterTeleportAndTacklePropertiesInternal" Size="6C">
+		<_36 Name="Teleport and Tackle" Offset="0" />
+		<_25 Name="Destination distance" Offset="0" />
+		<_14 Name="Max offset angle" Offset="8" />
+		<_14 Name="Duration to Align" Offset="C" />
+		<_14 Name="Min teleport distance" Offset="10" />
+		<_41 Name="Launch effect" Offset="14" Allowed="effe" Flags="0" />
+		<_41 Name="Land effect" Offset="30" Allowed="effe" Flags="0" />
+		<_2 Name="Effect marker" Offset="4C" />
+		<_41 Name="Teleport and Tackle Weapon" Offset="50" Allowed="weap" Flags="0" />
+	</_4A544D0F2FBAAF29B95BF878A6911A55>
+	<_68184D2DE3EEF0E593167B06ACD4663D Name="CharacterTeleportAndTauntPropertiesInternal" Size="58">
+		<_36 Name="Teleport and Taunt Behavior" Offset="0" />
+		<_2 Name="Custom Animation Name" Offset="0" />
+		<_14 Name="Taunt Frequency" Offset="4" />
+		<_14 Name="Taunt chance" Offset="8" />
+		<_25 Name="Destination distance" Offset="C" />
+		<_14 Name="Max offset angle" Offset="14" />
+		<_14 Name="Min teleport distance" Offset="18" />
+		<_41 Name="Launch effect" Offset="1C" Allowed="effe" Flags="0" />
+		<_41 Name="Land effect" Offset="38" Allowed="effe" Flags="0" />
+		<_2 Name="Effect marker" Offset="54" />
+	</_68184D2DE3EEF0E593167B06ACD4663D>
+	<_B76F7541A314C521555D12C38D246594 Name="c_character_DesperationRush_properties_internal" Size="8">
+		<_D Name="Properties" Offset="0" StructName1="c_character_DesperationRush_properties_internal::Flags">
+			<Flag n="Ignore Cooldown" />
+		</_D>
+		<_14 Name="Range" Offset="4" />
+	</_B76F7541A314C521555D12C38D246594>
+	<_F36F894FBCC65A3D68ED47C99F1E6B50 Name="CharacterProximityMeleePropertiesInternal" Size="C">
+		<_36 Name="Proximity Melee Impulse" Offset="0" />
+		<_14 Name="Range" Offset="0" />
+		<_14 Name="Cooldown" Offset="4" />
+		<_14 Name="Outside area range" Offset="8" />
+	</_F36F894FBCC65A3D68ED47C99F1E6B50>
+	<_AAAA41FB23C5ED746B56835DB0C56196 Name="CharacterDiveBombKamikazePropertiesInternal" Size="4C">
+		<_15 Name="Ally target chance" Offset="0" />
+		<_15 Name="Enemy target chance" Offset="4" />
+		<_25 Name="Travel distance" Offset="8" />
+		<_14 Name="Travel time before exploding" Offset="10" />
+		<_41 Name="Impact detonation projectile" Offset="14" Allowed="proj" Flags="0" />
+		<_25 Name="Target error range" Offset="30" />
+		<_F Name="Behavior flags" Offset="38" StructName1="DiveBombKamikazeFlags">
+			<Flag n="Enable target leading" />
+			<Flag n="Should drop Weapon" />
+		</_F>
+		<_34 Name="generated_pad94ce" Offset="39" Length="3" />
+		<_15 Name="Kamikaze below health percentage" Offset="3C" />
+		<_15 Name="Chance to kamikaze at low health (per second)" Offset="40" />
+		<_15 Name="Chance to kamikaze when last man (per second)" Offset="44" />
+		<_14 Name="a Pause between Kamikaze anim and dive bomb action(default 2 seconds)" Offset="48" />
+	</_AAAA41FB23C5ED746B56835DB0C56196>
+	<_8A46488ECB7B8F9FD8607579BBFFCB9C Name="CharacterPostCombatPropertiesInternal" Size="C">
+		<_15 Name="Shoot Corpse Chance" Offset="0" />
+		<_25 Name="Postcombat Phase 1 Time" Offset="4" />
+	</_8A46488ECB7B8F9FD8607579BBFFCB9C>
+	<_4E0F4B6D9DC1DCD245F409B985C5FC36 Name="c_character_pack_stalk_properties_internal" Size="14">
+		<_14 Name="Min Wander Distance " Offset="0" />
+		<_14 Name="Outside Area Border " Offset="4" />
+		<_25 Name="Position Update Delay " Offset="8" />
+		<_15 Name="Throttle In Cover " Offset="10" />
+	</_4E0F4B6D9DC1DCD245F409B985C5FC36>
+	<_1632455AA53B9A5EDE0289A89A7974F8 Name="c_character_fight_circle_properties_internal" Size="28">
+		<_25 Name="Strafe Time " Offset="0" />
+		<_25 Name="Extra Firing Time " Offset="8" />
+		<_14 Name="Target Patience Time " Offset="10" />
+		<_8 Name="Max Angle From ThreatAxis " Offset="14" />
+		<_8 Name="Nearby Inner Angle " Offset="18" />
+		<_8 Name="Nearby Outer Angle " Offset="1C" />
+		<_2 Name="strafe throttle style " Offset="20" />
+		<_2 Name="move throttle style " Offset="24" />
+	</_1632455AA53B9A5EDE0289A89A7974F8>
+	<_10DA4D0E827B35C79C63C3E3B73DCE79 Name="c_character_hamstring_charge_properties_internal" Size="24">
+		<_8 Name="Flank Angle " Offset="0" />
+		<_14 Name="Flank Distance " Offset="4" />
+		<_14 Name="Outer Engage Distance " Offset="8" />
+		<_14 Name="Hamstring Delay " Offset="C" />
+		<_14 Name="Initiate chance " Offset="10" />
+		<_14 Name="Max Rush Time " Offset="14" />
+		<_14 Name="Melee Attack Time Min " Offset="18" />
+		<_14 Name="Melee Attack Time Max " Offset="1C" />
+		<_14 Name="Max Charge Range" Offset="20" />
+	</_10DA4D0E827B35C79C63C3E3B73DCE79>
+	<_79CB4A2BC635622B761E8D04B84387A8 Name="c_character_forerunner_properties_internal" Size="24">
+		<_D Name="forerunner flags" Offset="0" StructName1="ForerunnerFlags">
+			<Flag n="charge on command" />
+			<Flag n="Teleport to combat pos" />
+			<Flag n="Treat as leader" />
+		</_D>
+		<_14 Name="order minion charge chance " Offset="4" />
+		<_14 Name="order minion charge radius " Offset="8" />
+		<_14 Name="minion charge min time " Offset="C" />
+		<_14 Name="minion charge max time " Offset="10" />
+		<_25 Name="Phase To Position distance bounds " Offset="14" />
+		<_25 Name="Phase To Position Probability range " Offset="1C" />
+	</_79CB4A2BC635622B761E8D04B84387A8>
+	<_FC9545766E887EBFB0E53A42988E0565 Name="c_character_gravity_jump_properties_internal" Size="40">
+		<_37 Name="Activation Chance" type="fgrb" Offset="0" />
+		<_15 Name="Activation Chance (easy)" Offset="0" />
+		<_15 Name="Activation Chance (normal)" Offset="4" />
+		<_15 Name="Activation Chance (heroic)" Offset="8" />
+		<_15 Name="Activation Chance (legendary)" Offset="C" />
+		<_37 Name="" type="fgre" Offset="10" />
+		<_14 Name="Float Time " Offset="10" />
+		<_14 Name="Float Gravity Scale" Offset="14" />
+		<_37 Name="Descent Gravity Scale Function" type="fned" Offset="18" />
+		<_38 Name="descendGravityScaleFunction" Offset="18" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_14 Name="Slow descend time " Offset="30" />
+		<_14 Name="Jump Target Height " Offset="34" />
+		<_14 Name="Cooldown " Offset="38" />
+		<_14 Name="Trigger Distance " Offset="3C" />
+	</_FC9545766E887EBFB0E53A42988E0565>
+	<_93CD4145D64FBE797A65118EBAD34B7D Name="c_character_coop_modifier_properties_internal" Size="10">
+		<_14 Name="Body Vitality Scale for 2-3 Players" Offset="0" />
+		<_14 Name="Body Vitality Scale for 4 Players" Offset="4" />
+		<_14 Name="Shield Vitality Scale for 2-3 Players" Offset="8" />
+		<_14 Name="Shield Vitality Scale for 4 Players" Offset="C" />
+	</_93CD4145D64FBE797A65118EBAD34B7D>
+	<_44D84A99E93E937512038C1AB09A3E4A Name="CharacterMultiTargetTrackedAttackPropertiesInternal" Size="24">
+		<_37 Name="activation chance" type="fgrb" Offset="0" />
+		<_15 Name="activation chance (easy)" Offset="0" />
+		<_15 Name="activation chance (normal)" Offset="4" />
+		<_15 Name="activation chance (heroic)" Offset="8" />
+		<_15 Name="activation chance (legendary)" Offset="C" />
+		<_37 Name="" type="fgre" Offset="10" />
+		<_8 Name="targeting angle" Offset="10" />
+		<_25 Name="activation range" Offset="14" />
+		<_3C Name="min targets in range" Offset="1C" />
+		<_3C Name="bursts" Offset="1D" />
+		<_A Name="trigger" Offset="1E" StructName1="i343::Weapon::TriggerSlot">
+			<Flag n="primary" />
+			<Flag n="secondary" />
+		</_A>
+		<_34 Name="generated_pade74f" Offset="1F" Length="1" />
+		<_14 Name="cooldown" Offset="20" />
+	</_44D84A99E93E937512038C1AB09A3E4A>
+	<_822B4C6B2E383484E352780798E5303A Name="c_character_drop_objects_properties_internal" Size="24">
+		<_6 Name="Number of Rolls" Offset="0" />
+		<_14 Name="Min Item Launch Velocity" Offset="4" />
+		<_14 Name="Max Item Launch Velocity" Offset="8" />
+		<_15 Name="Max Trajectory Radius" Offset="C" />
+		<_40 Name="Drop Objects" Offset="10" GUID="A29F4FCA899C5F0F6C6E120A88196D53" StructName1="c_character_drop_objects_properties_internal" Min="0" Max="16" />
+	</_822B4C6B2E383484E352780798E5303A>
+	<_5B4D428C1CD842AEED06F13EB71D8475 Name="c_character_CustomScript_properties_internal" Size="14">
+		<_40 Name="Scripted Threshold" Offset="0" GUID="688444F61DF512A1F80A21D2A221E10C" StructName1="c_character_CustomScript_properties_internal" Min="0" Max="16" />
+	</_5B4D428C1CD842AEED06F13EB71D8475>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_3ECD47C80E9694AE3C8CF1EA99F06F2E Name="s_character_voice" Size="38">
+		<_41 Name="dialogue" Offset="0" Allowed="udlg" Flags="0" />
+		<_2 Name="designator" Offset="1C" />
+		<_14 Name="weight" Offset="20" />
+		<_40 Name="region filters" Offset="24" GUID="CC244B90CCC4D9D2A3CBD899BCE6554E" StructName1="s_character_voice" Min="0" Max="32" />
+	</_3ECD47C80E9694AE3C8CF1EA99F06F2E>
+	<_B48E4EA4A61E00D6929D8ACE84FD513A Name="s_disallowed_weapons_from_trading" Size="1C">
+		<_41 Name="weapon" Offset="0" Allowed="weap" Flags="1" />
+	</_B48E4EA4A61E00D6929D8ACE84FD513A>
+	<_66974B5B7A236D95F43A8A409414695B Name="s_object_meta_label" Size="4">
+		<_2 Name="meta label" Offset="0" />
+	</_66974B5B7A236D95F43A8A409414695B>
+	<_3DF54E170179C04A232E950C82454233 Name="s_ai_character_emotion_situational_danger_properties" Size="8">
+		<_B Name="highest prop class" Offset="0" StructName1="PropClassification">
+			<Flag n="none - actor has no targets whatsoever" />
+			<Flag n="dead enemy- my only target is a dead enemy" />
+			<Flag n="non-attacking enemy- I am debilitated and the enemy is not attacking me" />
+			<Flag n="disregarded orphan- did not find my target and gave up searching" />
+			<Flag n="inspected orphan- checked last know position and didn't find target; still searching" />
+			<Flag n="uninspected orphan- can't see target, but have a good idea where they may be" />
+			<Flag n="certain orphan- can't see target, but know exactly where they are" />
+			<Flag n="visible enemy- I can see the target" />
+			<Flag n="nearby enemy- I can see the target, and it's close" />
+			<Flag n="potentially dangerous enemy- target is near and is facing me" />
+			<Flag n="dangerous enemy- target is facing my way and fighting" />
+			<Flag n="attacking enemy- target is aiming at me and shooting me" />
+			<Flag n="very close enemy- enemy is really close" />
+			<Flag n="damaging_enemy- enemy is damaging me" />
+		</_B>
+		<_34 Name="generated_pad78a8" Offset="2" Length="2" />
+		<_14 Name="situational danger" Offset="4" />
+	</_3DF54E170179C04A232E950C82454233>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+	<_BBD048D72171E4A2A65A559880519BC3 Name="s_active_camo_perception_properties" Size="10">
+		<_15 Name="partial invisibility amount" Offset="0" />
+		<_14 Name="partial invisibility vision distance" Offset="4" />
+		<_15 Name="full invisibility amount" Offset="8" />
+		<_14 Name="full invisibility vision distance" Offset="C" />
+	</_BBD048D72171E4A2A65A559880519BC3>
+	<_2EEB4F122467A7F3E2C12CEB92754F79 Name="CharacterHopDefinitionSet" Size="48">
+		<_37 Name="Default" type="fgrb" Offset="0" />
+		<_38 Name="Default" Offset="0" GUID="84624A2ECC9F15F68FA2A9CDAD8BA6B1" />
+		<_37 Name="" type="fgre" Offset="18" />
+		<_37 Name="Passive" type="fgrb" Offset="18" />
+		<_38 Name="Passive" Offset="18" GUID="84624A2ECC9F15F68FA2A9CDAD8BA6B1" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="Aggressive" type="fgrb" Offset="30" />
+		<_38 Name="Aggressive" Offset="30" GUID="84624A2ECC9F15F68FA2A9CDAD8BA6B1" />
+		<_37 Name="" type="fgre" Offset="48" />
+	</_2EEB4F122467A7F3E2C12CEB92754F79>
+	<_951A45D2864DAE31395A71B0A0E1D3CE Name="CharacterWarpDefinitionSet" Size="54">
+		<_37 Name="Default" type="fgrb" Offset="0" />
+		<_38 Name="Default" Offset="0" GUID="78F141EE74943571D8E3F669B06FF33A" />
+		<_37 Name="" type="fgre" Offset="1C" />
+		<_37 Name="Passive" type="fgrb" Offset="1C" />
+		<_38 Name="Passive" Offset="1C" GUID="78F141EE74943571D8E3F669B06FF33A" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_37 Name="Aggressive" type="fgrb" Offset="38" />
+		<_38 Name="Aggressive" Offset="38" GUID="78F141EE74943571D8E3F669B06FF33A" />
+		<_37 Name="" type="fgre" Offset="54" />
+	</_951A45D2864DAE31395A71B0A0E1D3CE>
+	<_416F456ECD24A769EABA2837B2335CFB Name="s_character_movement_stationary_pause_settings" Size="8">
+		<_36 Name="Inertial pause settings" Offset="0" />
+		<_8 Name="direction change angle" Offset="0" />
+		<_6 Name="stationary change" Offset="4" />
+	</_416F456ECD24A769EABA2837B2335CFB>
+	<_A634485F82A128868C086C23B8A3F2BF Name="s_character_movement_throttle_per_combat_status_settings" Size="18">
+		<_B Name="combat status" Offset="0" StructName1="ActorCombatStatus">
+			<Flag n="asleep" />
+			<Flag n="idle" />
+			<Flag n="alert" />
+			<Flag n="uninspected orphan" />
+			<Flag n="active" />
+			<Flag n="definite orphan" />
+			<Flag n="certain orphan" />
+			<Flag n="visible enemy" />
+			<Flag n="clear enemy los" />
+			<Flag n="dangerous enemy" />
+		</_B>
+		<_34 Name="generated_padd966" Offset="2" Length="2" />
+		<_40 Name="throttle settings" Offset="4" GUID="EE01407E471A7D905435EA17A1F77B89" StructName1="s_character_movement_throttle_per_combat_status_settings" Min="0" Max="16" />
+	</_A634485F82A128868C086C23B8A3F2BF>
+	<_9ADE4DE46CC78B045035E2A5901520F9 Name="CharacterLocomotionSettings" Size="10">
+		<_37 Name="Locomotion Settings" type="fgrb" Offset="0" />
+		<_15 Name="Sharp Turn Throttle" Offset="0" />
+		<_8 Name="Sharp Turn Angle" Offset="4" />
+		<_14 Name="Max Accel Time" Offset="8" />
+		<_14 Name="Max Decel Time" Offset="C" />
+		<_37 Name="" type="fgre" Offset="10" />
+	</_9ADE4DE46CC78B045035E2A5901520F9>
+	<_06034378EF7CEB85520186D9AB850818 Name="i343::Biped::LocomotionPropertiesDefinition" Size="90">
+		<_F Name="Flags" Offset="0" StructName1="i343::Biped::LocomotionFlags">
+			<Flag n="Disable STAS (Stick-To-Authored-Samples)" />
+		</_F>
+		<_34 Name="generated_pad2640" Offset="1" Length="3" />
+		<_36 Name="Walk speed properties" Offset="4" />
+		<_14 Name="walking speed" Offset="4" />
+		<_36 Name="AI Sprint speed properties" Offset="8" />
+		<_14 Name="AI sprinting speed" Offset="8" />
+		<_36 Name="Run speed properties" Offset="C" />
+		<_14 Name="running forward speed" Offset="C" />
+		<_14 Name="running backward speed" Offset="10" />
+		<_14 Name="running sideways speed" Offset="14" />
+		<_36 Name="Crouch speed properties" Offset="18" />
+		<_14 Name="crouching forward speed" Offset="18" />
+		<_14 Name="crouching backward speed" Offset="1C" />
+		<_14 Name="crouching sideways speed" Offset="20" />
+		<_36 Name="Acceleration/deceleration properties" Offset="24" />
+		<_14 Name="maximum run acceleration" Offset="24" />
+		<_14 Name="maximum run deceleration" Offset="28" />
+		<_14 Name="maximum crouch acceleration" Offset="2C" />
+		<_14 Name="maximum crouch deceleration" Offset="30" />
+		<_14 Name="minimum slip recovery acceleration" Offset="34" />
+		<_36 Name="Airborne Acceleration/Deceleration" Offset="38" />
+		<_14 Name="maximum airborne acceleration" Offset="38" />
+		<_14 Name="maximum airborne deceleration" Offset="3C" />
+		<_36 Name="Stationary turn properties old action system" Offset="40" />
+		<_14 Name="low speed threshold" Offset="40" />
+		<_14 Name="high speed threshold" Offset="44" />
+		<_14 Name="acceleration" Offset="48" />
+		<_36 Name="Stationary turn properties new action system" Offset="4C" />
+		<_14 Name="stationary turn trigger range factor" Offset="4C" />
+		<_14 Name="stationary turn max anim playback speed up factor" Offset="50" />
+		<_36 Name="Stationary turn properties new action system (DEPRECATED)" Offset="54" />
+		<_8 Name="min stationary turn angle" Offset="54" />
+		<_14 Name="stationary turn max speed threshold" Offset="58" />
+		<_8 Name="stationary turn min yaw threshold" Offset="5C" />
+		<_8 Name="stationary turn max speed yaw" Offset="60" />
+		<_8 Name="min stationary turn speed" Offset="64" />
+		<_8 Name="max stationary turn speed" Offset="68" />
+		<_14 Name="stationary turn acceleration rate" Offset="6C" />
+		<_14 Name="stationary turn decceleration rate" Offset="70" />
+		<_36 Name="Non stationary turn properties" Offset="74" />
+		<_8 Name="max angular velocity clamp" Offset="74" />
+		<_8 Name="turn accel/decel rate" Offset="78" />
+		<_36 Name="Speed/acceleration scales based on mode" Offset="7C" />
+		<_40 Name="Mode specific scaling" Offset="7C" GUID="E1E747880A10FFFD269887EA8D98FA29" StructName1="i343::Biped::LocomotionPropertiesDefinition" Min="0" Max="64" />
+	</_06034378EF7CEB85520186D9AB850818>
+	<_5FB8404AA951DE2CF523FF208F3A1D4C Name="AnimationException" Size="4">
+		<_2 Name="Animation exception name" Offset="0" />
+	</_5FB8404AA951DE2CF523FF208F3A1D4C>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+	<_EF3046282D4F623ED747C2E7BA8D7DA4 Name="character_movement_mapping" Size="44">
+		<_14 Name="chance" Offset="0" />
+		<_36 Name="MAPPING" Offset="4" />
+		<_2 Name="idle" Offset="4" />
+		<_2 Name="alert" Offset="8" />
+		<_2 Name="engage" Offset="C" />
+		<_2 Name="self_preserve" Offset="10" />
+		<_2 Name="search" Offset="14" />
+		<_2 Name="retreat" Offset="18" />
+		<_2 Name="panic" Offset="1C" />
+		<_2 Name="flank" Offset="20" />
+		<_2 Name="protected" Offset="24" />
+		<_2 Name="stunned" Offset="28" />
+		<_2 Name="post_combat" Offset="2C" />
+		<_2 Name="hurry" Offset="30" />
+		<_2 Name="custom_1" Offset="34" />
+		<_2 Name="custom_2" Offset="38" />
+		<_2 Name="custom_3" Offset="3C" />
+		<_2 Name="custom_4" Offset="40" />
+	</_EF3046282D4F623ED747C2E7BA8D7DA4>
+	<_B65E46EEEFF440ED79EA833D8D7FFF31 Name="KamikazeAttachmentMarkers" Size="4">
+		<_2 Name="Attachment Marker" Offset="0" />
+	</_B65E46EEEFF440ED79EA833D8D7FFF31>
+	<_FA814E3B7AA4AD54CCC805A9A455CB7C Name="character_charge_difficulty_limits" Size="6">
+		<_36 Name="Difficulty Limits" Offset="0" />
+		<_5 Name="max kamikaze count" Offset="0" />
+		<_5 Name="max berserk count" Offset="2" />
+		<_5 Name="min berserk count" Offset="4" />
+	</_FA814E3B7AA4AD54CCC805A9A455CB7C>
+	<_D0DD44CA3E4F7010AA5C59C8A64F8A36 Name="SystematicRecreationSettings" Size="14">
+		<_2 Name="Required Weapon Class" Offset="0" />
+		<_25 Name="Cooldown" Offset="4" />
+		<_25 Name="Duration" Offset="C" />
+	</_D0DD44CA3E4F7010AA5C59C8A64F8A36>
+	<_1DC34D0B86521B2C87548C9087D35EF3 Name="s_character_vehicle_boarding_properties" Size="20">
+		<_41 Name="vehicle" Offset="0" Allowed="unit" Flags="1" />
+		<_D Name="flags" Offset="1C" StructName1="CharacterVehicleBoardingFlags">
+			<Flag n="boarding does not enter seat" />
+		</_D>
+	</_1DC34D0B86521B2C87548C9087D35EF3>
+	<_ADCE411D52FC06DB3DF888DBAD7D72F6 Name="CharacterVehicleBoardingPullProperties" Size="28">
+		<_41 Name="vehicle" Offset="0" Allowed="unit" Flags="1" />
+		<_14 Name="max pull" Offset="1C" />
+		<_14 Name="min linear acceleration" Offset="20" />
+		<_14 Name="pull history factor" Offset="24" />
+	</_ADCE411D52FC06DB3DF888DBAD7D72F6>
+	<_8FAF437A4C18982BAD0B2D85A9D9BCDA Name="s_bunker_timings" Size="18">
+		<_25 Name="open time" Offset="0" />
+		<_14 Name="closed min time" Offset="8" />
+		<_14 Name="close danger level" Offset="C" />
+		<_14 Name="open chance" Offset="10" />
+		<_14 Name="peek chance" Offset="14" />
+	</_8FAF437A4C18982BAD0B2D85A9D9BCDA>
+	<_E106429ADF419EBA5BAB97E0A434BF46 Name="i343::AI::FormationDescription" Size="34">
+		<_36 Name="Procedural" Offset="0" />
+		<_C Name="Shape" Offset="0" StructName1="i343::AI::FormationDescription::Shape">
+			<Flag n="None" />
+			<Flag n="Line" />
+			<Flag n="Rectangle" />
+			<Flag n="Wedge" />
+			<Flag n="Circle" />
+		</_C>
+		<_8 Name="Yaw" Offset="4" />
+		<_14 Name="Spacing" Offset="8" />
+		<_6 Name="Max Rectangle Width" Offset="C" />
+		<_36 Name="Custom" Offset="10" />
+		<_41 Name="Formation Reference" Offset="10" Allowed="form" Flags="0" />
+		<_36 Name="Common" Offset="2C" />
+		<_14 Name="Max Speed" Offset="2C" />
+		<_8 Name="Max Yaw Rate" Offset="30" />
+	</_E106429ADF419EBA5BAB97E0A434BF46>
+	<_6E634338E341B4C63BD9CB96AEDA7C26 Name="ProjectileDeflectionZone" Size="20">
+		<_25 Name="Time to Target Window" Offset="0" />
+		<_19 Name="Target Offset" Offset="8" />
+		<_14 Name="Target Radius" Offset="14" />
+		<_8 Name="Max Incoming Angle" Offset="18" />
+		<_2 Name="Animation Name" Offset="1C" />
+	</_6E634338E341B4C63BD9CB96AEDA7C26>
+	<_A63446690CF491F3DEDA54248E51B7EB Name="SharedVehicleFightProperties" Size="8">
+		<_15 Name="Engage Fraction" Offset="0" />
+		<_14 Name="Max Speed Percent" Offset="4" />
+	</_A63446690CF491F3DEDA54248E51B7EB>
+	<_85B6A44E325FAC04CF7F9CB3B777270E Name="CharacterWeaponPreferences" Size="C">
+		<_A Name="Tier Category" Offset="0" StructName1="CharacterWeaponPreferences::Tier">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+		</_A>
+		<_34 Name="generated_padb31f" Offset="1" Length="3" />
+		<_6 Name="Weight" Offset="4" />
+		<_6 Name="Multi-Tier Multiplier" Offset="8" />
+	</_85B6A44E325FAC04CF7F9CB3B777270E>
+	<_0A4248CB8637E2A2DC6F3C3CBEBD0D0D Name="CharacterWeaponMode" Size="F8">
+		<_2 Name="mode name" Offset="0" />
+		<_D Name="weapons flags" Offset="4" StructName1="WeaponPropertiesFlags">
+			<Flag n="bursting inhibits movement" />
+			<Flag n="must crouch to shoot" />
+			<Flag n="use extended safe-to-save range" />
+			<Flag n="fixed aiming vector" />
+			<Flag n="aim at feet" />
+			<Flag n="force aim from barrel position" />
+			<Flag n="Favor for long range" />
+			<Flag n="Favor for close range" />
+			<Flag n="Favor Against Vehicles " />
+			<Flag n="Favored Special Weapon (Class Specific weapon marker)" />
+			<Flag n="bursting inhibits evasion" />
+			<Flag n="aim at head" />
+			<Flag n="vehicle disabling" />
+			<Flag n="Override Mode" />
+			<Flag n="Force aim down sight(ADS) AutoCharge" />
+			<Flag n="Do not use pre-fire tell" />
+			<Flag n="Preparing to fire inhibits movement" />
+			<Flag n="Ignore splash damage" />
+			<Flag n="Shoot at last seen position" />
+			<Flag n="Aim before firing" />
+			<Flag n="Face aim exactly" />
+		</_D>
+		<_36 Name="Combat ranges" Offset="8" />
+		<_14 Name="maximum firing range" Offset="8" />
+		<_14 Name="minimum firing range" Offset="C" />
+		<_25 Name="normal combat range" Offset="10" />
+		<_14 Name="bombardment range" Offset="18" />
+		<_14 Name="Max special target distance" Offset="1C" />
+		<_14 Name="Max extreme target distance" Offset="20" />
+		<_A Name="Lower bound option" Offset="24" StructName1="CombatRangeIgnoreLowerBoundOption">
+			<Flag n="Fixed" />
+			<Flag n="Ignore aggressively" />
+			<Flag n="Ignore when firing" />
+			<Flag n="Ignore when target advancing" />
+		</_A>
+		<_34 Name="generated_pad6ff4" Offset="25" Length="3" />
+		<_36 Name="Ballistic Firing" Offset="28" />
+		<_25 Name="Ballistic firing bounds" Offset="28" />
+		<_25 Name="Ballistic fraction bounds" Offset="30" />
+		<_36 Name="Use Preferences" Offset="38" />
+		<_19 Name="Favored Ranges" Offset="38" />
+		<_19 Name="Range Ratings" Offset="44" />
+		<_14 Name="anti-vehicle rating " Offset="50" />
+		<_14 Name="Scariness Threshold" Offset="54" />
+		<_36 Name="Behavior" Offset="58" />
+		<_25 Name="first burst delay time" Offset="58" />
+		<_14 Name="death fire-wildly chance" Offset="60" />
+		<_14 Name="death fire-wildly time" Offset="64" />
+		<_15 Name="heat vent min percent" Offset="68" />
+		<_15 Name="ammo reload min percent" Offset="6C" />
+		<_15 Name="reload chance if not empty" Offset="70" />
+		<_14 Name="heat vent cooldown" Offset="74" />
+		<_19 Name="custom stand gun offset" Offset="78" />
+		<_19 Name="custom crouch gun offset" Offset="84" />
+		<_6 Name="Blocked Shot Count" Offset="90" />
+		<_14 Name="Max Pre-Fire Time (Normal)" Offset="94" />
+		<_14 Name="Max Pre-Fire Time (Heroic)" Offset="98" />
+		<_14 Name="Max Pre-Fire Time (Legendary)" Offset="9C" />
+		<_40 Name="selection properties" Offset="A0" GUID="46B64C536DE6163B5C9F15B0B154C710" StructName1="CharacterWeaponMode" Min="0" Max="1" />
+		<_A Name="Threat Level" Offset="B4" StructName1="i343::AI::TokenSystem::Level">
+			<Flag n="Low" />
+			<Flag n="High" />
+		</_A>
+		<_34 Name="generated_pad89d5" Offset="B5" Length="3" />
+		<_14 Name="Effectiveness Token Close Player Distance" Offset="B8" />
+		<_40 Name="Firing Program" Offset="BC" GUID="46C7487E7377147F0276A1998841A1CF" StructName1="CharacterWeaponMode" Min="0" Max="1" />
+		<_36 Name="Unit Target Preference" Offset="D0" />
+		<_40 Name="Unit Target Preference" Offset="D0" GUID="C85C9F47722E402FC8DF3537BEA32A3A" StructName1="CharacterWeaponMode" Min="0" Max="6" />
+		<_40 Name="Prefire Beam" Offset="E4" GUID="2EEA44C6A767DF329FF681E08EE379F4" StructName1="CharacterWeaponMode" Min="0" Max="1" />
+	</_0A4248CB8637E2A2DC6F3C3CBEBD0D0D>
+	<_E2A54C5196DFE6252B15C37F9447A8B6 Name="VehicleStrafingProperties" Size="C">
+		<_14 Name="strafe min distance" Offset="0" />
+		<_14 Name="strafe abort distance" Offset="4" />
+		<_14 Name="defensive strafe abort distance" Offset="8" />
+	</_E2A54C5196DFE6252B15C37F9447A8B6>
+	<_BDA9493203E195C0826CB1A0846B5A67 Name="VehicleFlyingHoldingPatternProperties" Size="10">
+		<_14 Name="holding pattern elevation" Offset="0" />
+		<_15 Name="holding pattern speed percentage" Offset="4" />
+		<_14 Name="holding pattern radius" Offset="8" />
+		<_15 Name="max turn angle percentage" Offset="C" />
+	</_BDA9493203E195C0826CB1A0846B5A67>
+	<_9F8F438A2DC0DAF0CFA9D845B6E0F38B Name="VehicleFlyingPreengageProperties" Size="10">
+		<_25 Name="pre engage time" Offset="0" />
+		<_14 Name="pre engage elevation" Offset="8" />
+		<_14 Name="pre engage radius" Offset="C" />
+	</_9F8F438A2DC0DAF0CFA9D845B6E0F38B>
+	<_1A50428722CBCBF94B2C7EE8B3731367 Name="VehicleFlyingSuppressedProperties" Size="18">
+		<_25 Name="suppressed time" Offset="0" />
+		<_14 Name="suppressed damage threshold" Offset="8" />
+		<_14 Name="suppressed retreat distance" Offset="C" />
+		<_14 Name="suppressed elevation" Offset="10" />
+		<_14 Name="suppressed radius" Offset="14" />
+	</_1A50428722CBCBF94B2C7EE8B3731367>
+	<_42F6440B8ADBB2604C9A938AADE0A21B Name="VehicleFlyingAggressiveEngageProperties" Size="4">
+		<_23 Name="aggressive loops" Offset="0" />
+	</_42F6440B8ADBB2604C9A938AADE0A21B>
+	<_1AD1491F795BAE19E43979C080763857 Name="VehicleFlyingDefensiveEngageProperties" Size="8">
+		<_25 Name="defensive time" Offset="0" />
+	</_1AD1491F795BAE19E43979C080763857>
+	<_E1DB421CE66CCA6083DFC7FF80D9E79F Name="VehicleFlyingFallbackProperties" Size="10">
+		<_25 Name="combat elevation" Offset="0" />
+		<_14 Name="fallback minimum distance" Offset="8" />
+		<_14 Name="flyby distance" Offset="C" />
+	</_E1DB421CE66CCA6083DFC7FF80D9E79F>
+	<_62C44D6379ECCF83A3206993ADF0D813 Name="CharacterEquipmentUsage" Size="24">
+		<_36 Name="Equipment Use" Offset="0" />
+		<_40 Name="Use Conditions" Offset="0" GUID="CFE34FB6B0B98E63BAA02363865C7261" StructName1="CharacterEquipmentUsage" Min="0" Max="13" />
+		<_B Name="use how" Offset="14" StructName1="EquipmentUseHow">
+			<Flag n="Attach to self" />
+			<Flag n="Throw at enemy" />
+			<Flag n="Throw at feet" />
+			<Flag n="Throw at ally" />
+			<Flag n="Use on self" />
+			<Flag n="Stop using on self" />
+		</_B>
+		<_34 Name="generated_padd6c8" Offset="16" Length="2" />
+		<_36 Name="Skip Fraction" Offset="18" />
+		<_14 Name="easy/normal" Offset="18" />
+		<_14 Name="legendary" Offset="1C" />
+		<_14 Name="Chance Per Second" Offset="20" />
+	</_62C44D6379ECCF83A3206993ADF0D813>
+	<_F61D4D727BD9BAAF5F4D0748A70C3AA3 Name="GenericAdvanceAttack" Size="5C">
+		<_D Name="Flags" Offset="0" StructName1="GenericAdvanceAttack::AdvanceAttackFlags">
+			<Flag n="Berserk on activation" />
+			<Flag n="Don't always advance without ranged" />
+			<Flag n="Advance on shields down" />
+			<Flag n="Advance on vehicles" />
+			<Flag n="Use slow advance" />
+		</_D>
+		<_25 Name="Range" Offset="4" />
+		<_14 Name="Max scariness" Offset="C" />
+		<_A Name="Threat Level" Offset="10" StructName1="i343::AI::TokenSystem::Level">
+			<Flag n="Low" />
+			<Flag n="High" />
+		</_A>
+		<_34 Name="generated_pad8a75" Offset="11" Length="3" />
+		<_37 Name="Activation Chance" type="fgrb" Offset="14" />
+		<_15 Name="Activation Chance (easy)" Offset="14" />
+		<_15 Name="Activation Chance (normal)" Offset="18" />
+		<_15 Name="Activation Chance (heroic)" Offset="1C" />
+		<_15 Name="Activation Chance (legendary)" Offset="20" />
+		<_37 Name="" type="fgre" Offset="24" />
+		<_14 Name="Attack timeout" Offset="24" />
+		<_14 Name="Melee range" Offset="28" />
+		<_15 Name="Shield down threshold" Offset="2C" />
+		<_14 Name="Abort danger threshold" Offset="30" />
+		<_14 Name="Abort distance" Offset="34" />
+		<_14 Name="Outside area range" Offset="38" />
+		<_14 Name="Berserk abort distance" Offset="3C" />
+		<_14 Name="Cooldown" Offset="40" />
+		<_15 Name="Tell animation chance" Offset="44" />
+		<_14 Name="Tell Animation Cooldown" Offset="48" />
+		<_2 Name="Throttle style" Offset="4C" />
+		<_38 Name="Slow Advance" Offset="50" GUID="06094E84BFDC2E054C55CA33B8105812" />
+	</_F61D4D727BD9BAAF5F4D0748A70C3AA3>
+	<_E46C48B6AECD66C9365FF108BAEDDBE6 Name="MeleeComboDefinition" Size="1C">
+		<_D Name="Combo Flags" Offset="0" StructName1="MeleeComboDefinition::Flags" />
+		<_14 Name="Weight Modifier" Offset="4" />
+		<_40 Name="Attacks" Offset="8" GUID="ED5647CEACB45ECE3D6AE632A0DCAD61" StructName1="MeleeComboDefinition" Min="0" Max="8" />
+	</_E46C48B6AECD66C9365FF108BAEDDBE6>
+	<_A29F4FCA899C5F0F6C6E120A88196D53 Name="DropObject" Size="28">
+		<_15 Name="Easy_Normal Drop Chance" Offset="0" />
+		<_15 Name="Heroic Drop Chance" Offset="4" />
+		<_15 Name="Legendary Drop Chance" Offset="8" />
+		<_41 Name="Drop Object" Offset="C" Allowed="obje" Flags="0" />
+	</_A29F4FCA899C5F0F6C6E120A88196D53>
+	<_688444F61DF512A1F80A21D2A221E10C Name="ThresholdScript" Size="114">
+		<_36 Name="Scripted Thresholds" Offset="0" />
+		<_D Name="Flags" Offset="0" StructName1="ThresholdScript::ThresholdScriptFlags">
+			<Flag n="Called Only Once" />
+		</_D>
+		<_B Name="Tracked Attribute" Offset="4" StructName1="ThresholdScript::AttributeType">
+			<Flag n="Danger" />
+			<Flag n="Target Distance" />
+			<Flag n="Target Perceived Scariness" />
+			<Flag n="Target Inherent Scariness" />
+			<Flag n="Body Vitality" />
+			<Flag n="Shield Vitality" />
+		</_B>
+		<_B Name="Trigger When" Offset="6" StructName1="ThresholdScript::ComparisonType">
+			<Flag n="Greater Than" />
+			<Flag n="Less Than" />
+		</_B>
+		<_14 Name="Threshold Value" Offset="8" />
+		<_14 Name="Recheck Buffer" Offset="C" />
+		<_14 Name="Recheck Cooldown" Offset="10" />
+		<_1 Name="Function" Offset="14" />
+	</_688444F61DF512A1F80A21D2A221E10C>
+	<_CC244B90CCC4D9D2A3CBD899BCE6554E Name="s_character_voice_region_filter" Size="18">
+		<_2 Name="region name" Offset="0" />
+		<_40 Name="permutation filters" Offset="4" GUID="E1A64AED34A689D6AD13A480819E1A9F" StructName1="s_character_voice_region_filter" Min="0" Max="1023" />
+	</_CC244B90CCC4D9D2A3CBD899BCE6554E>
+	<_84624A2ECC9F15F68FA2A9CDAD8BA6B1 Name="CharacterHopDefinition" Size="18">
+		<_14 Name="Min hop distance" Offset="0" />
+		<_14 Name="Min hop distance to path end" Offset="4" />
+		<_25 Name="Hop wait timer min/max" Offset="8" />
+		<_14 Name="Max hop distance" Offset="10" />
+		<_14 Name="pad" Offset="14" />
+	</_84624A2ECC9F15F68FA2A9CDAD8BA6B1>
+	<_78F141EE74943571D8E3F669B06FF33A Name="CharacterWarpDefinition" Size="1C">
+		<_14 Name="min warp distance" Offset="0" />
+		<_14 Name="max warp distance" Offset="4" />
+		<_14 Name="warp speed" Offset="8" />
+		<_14 Name="run up distance" Offset="C" />
+		<_14 Name="linear distance until cooldown" Offset="10" />
+		<_14 Name="cooldown duration" Offset="14" />
+		<_14 Name="min jump distance" Offset="18" />
+	</_78F141EE74943571D8E3F669B06FF33A>
+	<_EE01407E471A7D905435EA17A1F77B89 Name="s_character_movement_throttle_control_settings" Size="8">
+		<_14 Name="distance" Offset="0" />
+		<_14 Name="throttle scale" Offset="4" />
+	</_EE01407E471A7D905435EA17A1F77B89>
+	<_E1E747880A10FFFD269887EA8D98FA29 Name="i343::Biped::ModeSpecificLocomotionScaleDefinition" Size="10">
+		<_2 Name="mode name" Offset="0" />
+		<_14 Name="speed scale" Offset="4" />
+		<_14 Name="acceleration scale" Offset="8" />
+		<_14 Name="locomotion turn rate scale" Offset="C" />
+	</_E1E747880A10FFFD269887EA8D98FA29>
+	<_46B64C536DE6163B5C9F15B0B154C710 Name="CharacterWeaponModeSelector" Size="3C">
+		<_D Name="Initiators" Offset="0" StructName1="CharacterWeaponModeSelector::InitiatorFlags">
+			<Flag n="Target Biped" />
+			<Flag n="Target Vehicle" />
+			<Flag n="Target Cluster" />
+			<Flag n="Self Berserk" />
+			<Flag n="Self Healing" />
+			<Flag n="Vehicle Aggressive" />
+			<Flag n="Vehicle Defensive" />
+			<Flag n="Hunker" />
+		</_D>
+		<_D Name="Required Conditions" Offset="4" StructName1="CharacterWeaponModeSelector::RequirementFlags">
+			<Flag n="Target Not Player On Foot" />
+			<Flag n="Target Flying" />
+			<Flag n="Target on Ground" />
+			<Flag n="Target Visible" />
+			<Flag n="Target Out of Sight" />
+			<Flag n="Actor wants to heal" />
+		</_D>
+		<_14 Name="Cluster Radius" Offset="8" />
+		<_6 Name="Min Cluster Count" Offset="C" />
+		<_25 Name="Target Range Bounds" Offset="10" />
+		<_25 Name="Danger Bounds" Offset="18" />
+		<_14 Name="Activation Chance" Offset="20" />
+		<_14 Name="Activation Check Delay" Offset="24" />
+		<_14 Name="Projectile Error" Offset="28" />
+		<_25 Name="Lifetime" Offset="2C" />
+		<_6 Name="Max Burst Count" Offset="34" />
+		<_A Name="Trigger Behavior" Offset="38" StructName1="CharacterWeaponModeSelector::TriggerBehavior">
+			<Flag n="Primary" />
+			<Flag n="Secondary" />
+			<Flag n="Overcharge" />
+			<Flag n="Disabled" />
+		</_A>
+		<_34 Name="generated_padabe7" Offset="39" Length="3" />
+	</_46B64C536DE6163B5C9F15B0B154C710>
+	<_46C7487E7377147F0276A1998841A1CF Name="CharacterFiringProgram" Size="C4">
+		<_36 Name="Precision" Offset="0" />
+		<_37 Name="Target Position" type="fgrb" Offset="0" />
+		<_26 Name="Tracking" Offset="0" />
+		<_25 Name="Matching Fraction" Offset="8" />
+		<_25 Name="Matching Spring Force" Offset="10" />
+		<_26 Name="Leading" Offset="18" />
+		<_37 Name="" type="fgre" Offset="20" />
+		<_37 Name="Aiming Error" type="fgrb" Offset="20" />
+		<_25 Name="Error Distance" Offset="20" />
+		<_24 Name="Error Angle" Offset="28" />
+		<_24 Name="Error Max Angle" Offset="30" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_37 Name="Linear Burst Geo." type="fgrb" Offset="38" />
+		<_A Name="Burst Line Style" Offset="38" StructName1="CharacterFiringProgram::LinearBurstStyle">
+			<Flag n="Mirror" />
+			<Flag n="No Mirror" />
+			<Flag n="Fixed" />
+		</_A>
+		<_34 Name="generated_paddb86" Offset="39" Length="3" />
+		<_24 Name="Burst Line Angle" Offset="3C" />
+		<_25 Name="Burst Origin Radius" Offset="44" />
+		<_24 Name="Burst Origin Angle" Offset="4C" />
+		<_25 Name="Burst Return Length Min" Offset="54" />
+		<_25 Name="Burst Return Length Max" Offset="5C" />
+		<_24 Name="Burst Return Angle" Offset="64" />
+		<_25 Name="Burst Maximum Angular Vel." Offset="6C" />
+		<_24 Name="Burst Maximum Error Angle" Offset="74" />
+		<_37 Name="" type="fgre" Offset="7C" />
+		<_36 Name="Hostility" Offset="7C" />
+		<_25 Name="Rate of Fire" Offset="7C" />
+		<_25 Name="Weapon Damage Mod." Offset="84" />
+		<_37 Name="Burst Pattern" type="fgrb" Offset="8C" />
+		<_25 Name="Duration Min" Offset="8C" />
+		<_25 Name="Duration Max" Offset="94" />
+		<_25 Name="Separation Min" Offset="9C" />
+		<_25 Name="Separation Max" Offset="A4" />
+		<_37 Name="" type="fgre" Offset="AC" />
+		<_37 Name="Burst Noise" type="fgrb" Offset="AC" />
+		<_26 Name="Amount" Offset="AC" />
+		<_25 Name="Min Period" Offset="B4" />
+		<_25 Name="Max Period" Offset="BC" />
+		<_37 Name="" type="fgre" Offset="C4" />
+	</_46C7487E7377147F0276A1998841A1CF>
+	<_C85C9F47722E402FC8DF3537BEA32A3A Name="CharacterWeaponUnitTargeting" Size="1C">
+		<_A Name="Category" Offset="0" StructName1="i343::Model::ModelTargetCategory">
+			<Flag n="Chassis" />
+			<Flag n="Traversal" />
+			<Flag n="Engine" />
+			<Flag n="Cover" />
+			<Flag n="Weapon" />
+			<Flag n="Occupant" />
+		</_A>
+		<_34 Name="generated_pad0052" Offset="1" Length="3" />
+		<_14 Name="Preference" Offset="4" />
+		<_36 Name="Vehicle Velocity Targeting Prefernces" Offset="8" />
+		<_40 Name="Vehicle Velocity Based Targeting" Offset="8" GUID="56D043B2556638699B5747469A69FF3C" StructName1="CharacterWeaponUnitTargeting" Min="0" Max="1" />
+	</_C85C9F47722E402FC8DF3537BEA32A3A>
+	<_2EEA44C6A767DF329FF681E08EE379F4 Name="CharacterWeaponModePrefireBeam" Size="74">
+		<_8 Name="initial error angle" Offset="0" />
+		<_36 Name="Radius Decay" Offset="4" />
+		<_37 Name="radius decay function" type="fned" Offset="4" />
+		<_38 Name="radius decay function" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_36 Name="Beam Spin" Offset="1C" />
+		<_37 Name="beam spin function" type="fned" Offset="1C" />
+		<_38 Name="beam spin function" Offset="1C" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_41 Name="beam effect" Offset="34" Allowed="effe" Flags="0" />
+		<_41 Name="full screen effect" Offset="50" Allowed="sefc" Flags="0" />
+		<_36 Name="Marker overrides" Offset="6C" />
+		<_2 Name="start marker" Offset="6C" />
+		<_2 Name="fallback marker" Offset="70" />
+	</_2EEA44C6A767DF329FF681E08EE379F4>
+	<_CFE34FB6B0B98E63BAA02363865C7261 Name="CharacterEquipmentUseConditions" Size="8">
+		<_36 Name="Use Conditions" Offset="0" />
+		<_B Name="use when" Offset="0" StructName1="EquipmentUseWhen">
+			<Flag n="combat" />
+			<Flag n="cover" />
+			<Flag n="shield" />
+			<Flag n="health" />
+			<Flag n="uncover" />
+			<Flag n="berserk" />
+			<Flag n="investigate" />
+			<Flag n="anti vehicle" />
+			<Flag n="long range attack" />
+			<Flag n="Cannot attack target" />
+			<Flag n="Cannot find cover" />
+			<Flag n="Tracked Armor Destroyed" />
+			<Flag n="Ally Can Attack" />
+		</_B>
+		<_34 Name="generated_padd2ce" Offset="2" Length="2" />
+		<_14 Name="health/shield use threshold" Offset="4" />
+	</_CFE34FB6B0B98E63BAA02363865C7261>
+	<_06094E84BFDC2E054C55CA33B8105812 Name="SlowAdvance" Size="C">
+		<_36 Name="Slow Advance" Offset="0" />
+		<_14 Name="Slow range" Offset="0" />
+		<_2 Name="Slow throttle style" Offset="4" />
+		<_14 Name="Exit range" Offset="8" />
+	</_06094E84BFDC2E054C55CA33B8105812>
+	<_ED5647CEACB45ECE3D6AE632A0DCAD61 Name="MeleeAttackDefinition" Size="24">
+		<_D Name="Direction Flags" Offset="0" StructName1="MeleeAttackDefinition::DirectionFlags">
+			<Flag n="Front" />
+			<Flag n="Left" />
+			<Flag n="Right" />
+			<Flag n="Back" />
+		</_D>
+		<_2 Name="Animation Name" Offset="4" />
+		<_41 Name="Damage Override" Offset="8" Allowed="jpt!" Flags="0" />
+	</_ED5647CEACB45ECE3D6AE632A0DCAD61>
+	<_E1A64AED34A689D6AD13A480819E1A9F Name="s_character_voice_region_permutation_filter" Size="4">
+		<_2 Name="permutation name" Offset="0" />
+	</_E1A64AED34A689D6AD13A480819E1A9F>
+	<_56D043B2556638699B5747469A69FF3C Name="VehicleVelocityTargeting" Size="8">
+		<_14 Name="Vehicle Velocity Override Preference" Offset="0" />
+		<_14 Name="Velocity Threshold" Offset="4" />
+	</_56D043B2556638699B5747469A69FF3C>
+</root>

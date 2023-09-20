@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="XAnimNodeGraph" Parents="aTag" Index="-20">
+	<_DC3F4ED978E1F117E702DB29AC1C8E30 Name="ExportedAnimNodeGraph" Size="4D8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="Source Graph" Offset="10" Allowed="agct" Flags="1" />
+		<_40 Name="Anim Node Subgraphs" Offset="2C" GUID="97634F3D6C666E05AD23FE6BBC70A7CD" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Anim State Subgraphs" Offset="40" GUID="DAA742E8322A87B138A2A907A50F5EF2" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_38 Name="Control Parameters Definitions" Offset="54" GUID="34AA4B1F8B8FCEC136FD9BF7824584BC" />
+		<_40 Name="Blackboard Entries" Offset="B8" GUID="EB6046ED99E45B97FA048DA698FB6E3C" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Connections" Offset="CC" GUID="960A407C207D4883597FCE0E91E6238A" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Animation Tokens" Offset="E0" GUID="1B554BB8BF79989F7ECC207DBE7639AB" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Animation Exists Nodes" Offset="F4" GUID="AECE47576D488436D9AFD3A1976CCCB7" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Anim Set Exists Nodes" Offset="108" GUID="C6204D50A9E52E9CB4BBD77CA8360A8B" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_6 Name="Blend Node Count" Offset="11C" />
+		<_6 Name="Overlay Node Count" Offset="120" />
+		<_6 Name="Dummy Pose Node Count" Offset="124" />
+		<_6 Name="Branch Node Count" Offset="128" />
+		<_40 Name="Pose Nodes" Offset="12C" GUID="E0C547DF08D92F9B0796AF9DA828CCA6" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Selection Nodes" Offset="140" GUID="EBD048DF50B8B53AE78AB1BD8D9B8526" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Layer Nodes" Offset="154" GUID="40E6BA0DE96BBA89E77D9E47D5205609" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Blend Space Nodes" Offset="168" GUID="86314EBFB798C5C925A5F6AAAB707F1C" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="State Machine Nodes" Offset="17C" GUID="1DC8408840138070648C6A1C9E51E04F" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Control Parameters" Offset="190" GUID="999C42EE885B714C77D58168BC17C55A" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Sub Anim Graphs" Offset="1A4" GUID="951C422E8321BE95C21A862CBA2521A8" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Transition Data Nodes" Offset="1B8" GUID="07CE424D3AF51F49272175B39FCC09A6" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Transition Data Pose Nodes" Offset="1CC" GUID="5EE6465B7A10B3A1707E2FDCA82A14BC" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Object Function Nodes" Offset="1E0" GUID="946E4A4D19CAF524FFD645938B6B3B28" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Editable Number Nodes" Offset="1F4" GUID="B8A34E0FF672234CFA90DE38B87BCFD5" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Boolean Logic Nodes" Offset="208" GUID="D7554AE09D5D351AB7A4978BB208FE4B" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="String Logic Nodes" Offset="21C" GUID="181F4A8DD4F3674804BE7764A1B6964D" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Float Logic Nodes" Offset="230" GUID="B0A24AD2C7A8BD7350BC7D7681985214" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Float Operator Nodes" Offset="244" GUID="D9984E03796AB6CAA9E19A7B963331A2" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Int Logic Nodes" Offset="258" GUID="684E497F66AADF457B639824A13E4FC1" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Int Operator Nodes" Offset="26C" GUID="C76646CFC508A065B77B2EE191F8CEE7" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Trig Nodes" Offset="280" GUID="72F44CB940BC6467536C3FF9A2FB14B4" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Blackboard Nodes" Offset="294" GUID="934E485F18C933472D78FDAB9E7263FD" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="ValueConversion Nodes" Offset="2A8" GUID="E6A44C5727779CF1F7C53BF3ACDBDEBA" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Interpolation Nodes" Offset="2BC" GUID="B0F44E5D226245702B9A9C2A81DAFD0C" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Constant Float Nodes" Offset="2D0" GUID="22B04D37275F088BA0EDA9F2AA88A9A6" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Constant Int Nodes" Offset="2E4" GUID="E9E342725287BE67B8BDF980A4B3A1B0" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Constant Int64 Nodes" Offset="2F8" GUID="3A564BAA1FC36A9F6AE851F8841170F6" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Constant UInt64 Nodes" Offset="30C" GUID="C05144F163239CE6419AB6C180379C81" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Constant String Nodes" Offset="320" GUID="BB9A4BFEFDE92C5040E96753ADE1370C" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Constant Bool Nodes" Offset="334" GUID="030C4AE8DEF0D8725C7FC1A698F760FA" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="End of Animation Nodes" Offset="348" GUID="BB534FA6DD8FACCC5E4E2B9FBCC0678D" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Mask Nodes" Offset="35C" GUID="7B7F4624EA564A4C3D23FB28571482AD" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="IK Nodes" Offset="370" GUID="E2A1433C9434F35527347A8192A8B7C8" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Ground IK Nodes" Offset="384" GUID="2B624E4FCF40553426A51DC5BE571D61" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Look IK Nodes" Offset="398" GUID="6CDF4517FC4ADC0C0D4285599BDB3B9D" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Concatenate Nodes" Offset="3AC" GUID="4BAA4427E61E36909D5A3DEF8CF7C897" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Anim Set Push Nodes" Offset="3C0" GUID="514A401049233104C3C088EC9636F360" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Switch Nodes" Offset="3D4" GUID="60B844831B6AD9654D4864C699A93941" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="SwitchOnAsset Nodes" Offset="3E8" GUID="B88F46C3A3A6931AC32C3C22BD526950" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Aim Screen Nodes" Offset="3FC" GUID="D842442547B818B7C17958F0A2BA875C" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Acc Space Nodes" Offset="410" GUID="45ED49B60D2CF8F68FD0A61BBDFEB0FE" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Animation Extract Nodes" Offset="424" GUID="271B42E5F54DF205A98419BC922516D2" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Animation Get Local Offset Nodes" Offset="438" GUID="E34643D5D69C15D95B1A3C41A79B7B20" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Animation Get Values Nodes" Offset="44C" GUID="A505435DE4A5C0C237CA1E2982C54E75" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Animation FK Nodes" Offset="460" GUID="C5214E1CC6888447A1E9818F9D7C74B4" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Animation Constraint Nodes" Offset="474" GUID="574E46785094A9FE360000AD905E4073" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Voiceover Animation Nodes" Offset="488" GUID="D89C4652C3111B199447224995827645" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Native Expression Nodes" Offset="49C" GUID="315B4C9CA4E16BDDC317FC3797304D41" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_40 Name="Native Pose Nodes" Offset="4B0" GUID="1F634C201D8FE8FBCF5A79C49AD2A74B" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
+		<_C Name="Final Pose Node Type" Offset="4C4" StructName1="AnimGraphNodeType">
+			<Flag n="Animation Token" />
+			<Flag n="Animation Extract" />
+			<Flag n="Animation Get Local Offset" />
+			<Flag n="Animation Get Values" />
+			<Flag n="Animation FK" />
+			<Flag n="Animation Constraint" />
+			<Flag n="Blend" />
+			<Flag n="Overlay" />
+			<Flag n="Selection" />
+			<Flag n="Blend Space" />
+			<Flag n="Layer" />
+			<Flag n="State Machine" />
+			<Flag n="Control Parameter" />
+			<Flag n="Sub Anim Graph" />
+			<Flag n="Transition Data" />
+			<Flag n="Transition Data Pose" />
+			<Flag n="Object Function" />
+			<Flag n="Editable Number" />
+			<Flag n="Unit Parameter" />
+			<Flag n="Dummy Pose" />
+			<Flag n="End of Animation" />
+			<Flag n="Bone Mask" />
+			<Flag n="IK Node" />
+			<Flag n="Ground IK Node" />
+			<Flag n="Look IK Node" />
+			<Flag n="Final Pose" />
+			<Flag n="Concatenate" />
+			<Flag n="Anim Set Push" />
+			<Flag n="Switches" />
+			<Flag n="Switch On Asset" />
+			<Flag n="Boolean Logic" />
+			<Flag n="String Logic" />
+			<Flag n="Float Logic" />
+			<Flag n="Float Operators" />
+			<Flag n="Int Logic" />
+			<Flag n="Int Operators" />
+			<Flag n="Trig" />
+			<Flag n="Value Conversion" />
+			<Flag n="Interpolation" />
+			<Flag n="Constant Float" />
+			<Flag n="Constant Int" />
+			<Flag n="Constant Int64" />
+			<Flag n="Constant UInt64" />
+			<Flag n="Constant String" />
+			<Flag n="Aim Screen" />
+			<Flag n="Acc Space" />
+			<Flag n="Constant Bool" />
+			<Flag n="Blackboard" />
+			<Flag n="Branch" />
+			<Flag n="Animation Exists" />
+			<Flag n="Anim Set Exists" />
+			<Flag n="Invalid Node Type" />
+			<Flag n="Voiceover Animation" />
+			<Flag n="Native Expression" />
+			<Flag n="Native Pose" />
+		</_C>
+		<_6 Name="Final Pose Node Index" Offset="4C8" />
+		<_6 Name="Final Pose Pin Index" Offset="4CC" />
+		<_6 Name="Use Native Graph" Offset="4D0" />
+		<_6 Name="Code Generation Hash" Offset="4D4" />
+	</_DC3F4ED978E1F117E702DB29AC1C8E30>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_97634F3D6C666E05AD23FE6BBC70A7CD Name="SubgraphReferenceExportedAnimNodeGraph" Size="1C">
+		<_41 Name="Anim Subgraph" Offset="0" Allowed="angt" Flags="0" />
+	</_97634F3D6C666E05AD23FE6BBC70A7CD>
+	<_DAA742E8322A87B138A2A907A50F5EF2 Name="SubgraphReferenceAnimStateGraph" Size="1C">
+		<_41 Name="State Subgraph" Offset="0" Allowed="ansm" Flags="0" />
+	</_DAA742E8322A87B138A2A907A50F5EF2>
+	<_34AA4B1F8B8FCEC136FD9BF7824584BC Name="i343::Animation::LocalControlParametersDefinition" Size="64">
+		<_40 Name="Int Control Parameters" Offset="0" GUID="4C5C4EA5505585531AAE400CA778D338" StructName1="i343::Animation::LocalControlParametersDefinition" Min="0" Max="128" />
+		<_40 Name="Float Control Parameters" Offset="14" GUID="4C5C4EA5505585531AAE400CA778D338" StructName1="i343::Animation::LocalControlParametersDefinition" Min="0" Max="128" />
+		<_40 Name="Vector Control Parameters" Offset="28" GUID="4C5C4EA5505585531AAE400CA778D338" StructName1="i343::Animation::LocalControlParametersDefinition" Min="0" Max="128" />
+		<_40 Name="Bool Control Parameters" Offset="3C" GUID="4C5C4EA5505585531AAE400CA778D338" StructName1="i343::Animation::LocalControlParametersDefinition" Min="0" Max="128" />
+		<_40 Name="String Control Parameters" Offset="50" GUID="4C5C4EA5505585531AAE400CA778D338" StructName1="i343::Animation::LocalControlParametersDefinition" Min="0" Max="128" />
+	</_34AA4B1F8B8FCEC136FD9BF7824584BC>
+	<_EB6046ED99E45B97FA048DA698FB6E3C Name="BlackboardEntryDescriptor" Size="8">
+		<_C Name="Data Type" Offset="0" StructName1="BlackboardDataType">
+			<Flag n="Bool" />
+			<Flag n="Float" />
+			<Flag n="Int" />
+			<Flag n="Vector3" />
+		</_C>
+		<_2 Name="Blackboard Id" Offset="4" />
+	</_EB6046ED99E45B97FA048DA698FB6E3C>
+	<_960A407C207D4883597FCE0E91E6238A Name="AnimGraphConnection" Size="18">
+		<_C Name="Source Node Type" Offset="0" StructName1="AnimGraphNodeType">
+			<Flag n="Animation Token" />
+			<Flag n="Animation Extract" />
+			<Flag n="Animation Get Local Offset" />
+			<Flag n="Animation Get Values" />
+			<Flag n="Animation FK" />
+			<Flag n="Animation Constraint" />
+			<Flag n="Blend" />
+			<Flag n="Overlay" />
+			<Flag n="Selection" />
+			<Flag n="Blend Space" />
+			<Flag n="Layer" />
+			<Flag n="State Machine" />
+			<Flag n="Control Parameter" />
+			<Flag n="Sub Anim Graph" />
+			<Flag n="Transition Data" />
+			<Flag n="Transition Data Pose" />
+			<Flag n="Object Function" />
+			<Flag n="Editable Number" />
+			<Flag n="Unit Parameter" />
+			<Flag n="Dummy Pose" />
+			<Flag n="End of Animation" />
+			<Flag n="Bone Mask" />
+			<Flag n="IK Node" />
+			<Flag n="Ground IK Node" />
+			<Flag n="Look IK Node" />
+			<Flag n="Final Pose" />
+			<Flag n="Concatenate" />
+			<Flag n="Anim Set Push" />
+			<Flag n="Switches" />
+			<Flag n="Switch On Asset" />
+			<Flag n="Boolean Logic" />
+			<Flag n="String Logic" />
+			<Flag n="Float Logic" />
+			<Flag n="Float Operators" />
+			<Flag n="Int Logic" />
+			<Flag n="Int Operators" />
+			<Flag n="Trig" />
+			<Flag n="Value Conversion" />
+			<Flag n="Interpolation" />
+			<Flag n="Constant Float" />
+			<Flag n="Constant Int" />
+			<Flag n="Constant Int64" />
+			<Flag n="Constant UInt64" />
+			<Flag n="Constant String" />
+			<Flag n="Aim Screen" />
+			<Flag n="Acc Space" />
+			<Flag n="Constant Bool" />
+			<Flag n="Blackboard" />
+			<Flag n="Branch" />
+			<Flag n="Animation Exists" />
+			<Flag n="Anim Set Exists" />
+			<Flag n="Invalid Node Type" />
+			<Flag n="Voiceover Animation" />
+			<Flag n="Native Expression" />
+			<Flag n="Native Pose" />
+		</_C>
+		<_6 Name="Source Node Index" Offset="4" />
+		<_6 Name="Source Pin Index" Offset="8" />
+		<_C Name="Destination Node Type" Offset="C" StructName1="AnimGraphNodeType">
+			<Flag n="Animation Token" />
+			<Flag n="Animation Extract" />
+			<Flag n="Animation Get Local Offset" />
+			<Flag n="Animation Get Values" />
+			<Flag n="Animation FK" />
+			<Flag n="Animation Constraint" />
+			<Flag n="Blend" />
+			<Flag n="Overlay" />
+			<Flag n="Selection" />
+			<Flag n="Blend Space" />
+			<Flag n="Layer" />
+			<Flag n="State Machine" />
+			<Flag n="Control Parameter" />
+			<Flag n="Sub Anim Graph" />
+			<Flag n="Transition Data" />
+			<Flag n="Transition Data Pose" />
+			<Flag n="Object Function" />
+			<Flag n="Editable Number" />
+			<Flag n="Unit Parameter" />
+			<Flag n="Dummy Pose" />
+			<Flag n="End of Animation" />
+			<Flag n="Bone Mask" />
+			<Flag n="IK Node" />
+			<Flag n="Ground IK Node" />
+			<Flag n="Look IK Node" />
+			<Flag n="Final Pose" />
+			<Flag n="Concatenate" />
+			<Flag n="Anim Set Push" />
+			<Flag n="Switches" />
+			<Flag n="Switch On Asset" />
+			<Flag n="Boolean Logic" />
+			<Flag n="String Logic" />
+			<Flag n="Float Logic" />
+			<Flag n="Float Operators" />
+			<Flag n="Int Logic" />
+			<Flag n="Int Operators" />
+			<Flag n="Trig" />
+			<Flag n="Value Conversion" />
+			<Flag n="Interpolation" />
+			<Flag n="Constant Float" />
+			<Flag n="Constant Int" />
+			<Flag n="Constant Int64" />
+			<Flag n="Constant UInt64" />
+			<Flag n="Constant String" />
+			<Flag n="Aim Screen" />
+			<Flag n="Acc Space" />
+			<Flag n="Constant Bool" />
+			<Flag n="Blackboard" />
+			<Flag n="Branch" />
+			<Flag n="Animation Exists" />
+			<Flag n="Anim Set Exists" />
+			<Flag n="Invalid Node Type" />
+			<Flag n="Voiceover Animation" />
+			<Flag n="Native Expression" />
+			<Flag n="Native Pose" />
+		</_C>
+		<_6 Name="Destination Node Index" Offset="10" />
+		<_6 Name="Destination Pin Index" Offset="14" />
+	</_960A407C207D4883597FCE0E91E6238A>
+	<_1B554BB8BF79989F7ECC207DBE7639AB Name="AnimationTokenNode" Size="18">
+		<_2 Name="Animation Name" Offset="0" />
+		<_2 Name="Group Name" Offset="4" />
+		<_C Name="Mode" Offset="8" StructName1="AnimationMode">
+			<Flag n="Frame" />
+			<Flag n="Seconds" />
+			<Flag n="Frame Ratio" />
+		</_C>
+		<_14 Name="Playback Rate" Offset="C" />
+		<_14 Name="Start Position" Offset="10" />
+		<_E Name="Animation Token Flags" Offset="14" StructName1="AnimTokenFlags">
+			<Flag n="Looping" />
+			<Flag n="Play Loops From Start" />
+			<Flag n="Notify End Of Loop" />
+			<Flag n="Root Motion" />
+			<Flag n="Opt Out Of Procedural Footsteps" />
+		</_E>
+		<_34 Name="generated_pad4403" Offset="16" Length="2" />
+	</_1B554BB8BF79989F7ECC207DBE7639AB>
+	<_AECE47576D488436D9AFD3A1976CCCB7 Name="AnimationExistsNode" Size="C">
+		<_2 Name="Anim Set Name" Offset="0" />
+		<_2 Name="Animation Name" Offset="4" />
+		<_6 Name="Variation Index" Offset="8" />
+	</_AECE47576D488436D9AFD3A1976CCCB7>
+	<_C6204D50A9E52E9CB4BBD77CA8360A8B Name="AnimSetExistsNode" Size="4">
+		<_2 Name="Anim Set Name" Offset="0" />
+	</_C6204D50A9E52E9CB4BBD77CA8360A8B>
+	<_E0C547DF08D92F9B0796AF9DA828CCA6 Name="PoseNode" Size="8">
+		<_2 Name="Animation Name" Offset="0" />
+		<_6 Name="Frame" Offset="4" />
+	</_E0C547DF08D92F9B0796AF9DA828CCA6>
+	<_EBD048DF50B8B53AE78AB1BD8D9B8526 Name="SelectionNode" Size="1C">
+		<_6 Name="Default Selection" Offset="0" />
+		<_E Name="Selection Node Flags" Offset="4" StructName1="SelectionNodeFlags">
+			<Flag n="Evaluate On Relevant" />
+		</_E>
+		<_34 Name="generated_pad6efe" Offset="6" Length="2" />
+		<_40 Name="Pose Connections" Offset="8" GUID="C78B4DC0FC0C48A66BC59A04ACE3526B" StructName1="SelectionNode" Min="0" Max="128" />
+	</_EBD048DF50B8B53AE78AB1BD8D9B8526>
+	<_40E6BA0DE96BBA89E77D9E47D5205609 Name="LayerNode" Size="14">
+		<_40 Name="Layers" Offset="0" GUID="13A64C28877296B615D675F19F094A01" StructName1="LayerNode" Min="0" Max="128" />
+	</_40E6BA0DE96BBA89E77D9E47D5205609>
+	<_86314EBFB798C5C925A5F6AAAB707F1C Name="BlendSpaceNode" Size="78">
+		<_C Name="Blend Type" Offset="0" StructName1="AnimBlendNodeType">
+			<Flag n="Blend1d" />
+			<Flag n="Blend2d" />
+			<Flag n="RadialBlend" />
+			<Flag n="AimScreen" />
+			<Flag n="RadialLocomotion" />
+		</_C>
+		<_41 Name="Blend Graph" Offset="4" Allowed="xbgt" Flags="0" />
+		<_2 Name="Anim Name" Offset="20" />
+		<_40 Name="Auto Speed Tokens" Offset="24" GUID="5F8A49456A81EF8ECB23969AA6385571" StructName1="BlendSpaceNode" Min="0" Max="2048" />
+		<_40 Name="Auto Turn Rate Tokens" Offset="38" GUID="5F8A49456A81EF8ECB23969AA6385571" StructName1="BlendSpaceNode" Min="0" Max="2048" />
+		<_14 Name="Min Alpha" Offset="4C" />
+		<_14 Name="Max Alpha" Offset="50" />
+		<_14 Name="Radius" Offset="54" />
+		<_6 Name="Partition Count" Offset="58" />
+		<_2 Name="Group Name" Offset="5C" />
+		<_2 Name="Label" Offset="60" />
+		<_E Name="Flags" Offset="64" StructName1="BlendSpaceFlags">
+			<Flag n="Auto Detect Speed and Angle" />
+			<Flag n="Auto Detect Turn Rate" />
+			<Flag n="Animations Loop" />
+			<Flag n="Play Loops From Start" />
+			<Flag n="Notify End Of Loop" />
+			<Flag n="Enable Input Smoothing" />
+			<Flag n="Opt Out Of Procedural Footsteps" />
+			<Flag n="Enable Aimscreen Style Triangle Limits" />
+		</_E>
+		<_34 Name="generated_pad29df" Offset="66" Length="2" />
+		<_2 Name="channel_1" type="sted" Offset="68" />
+		<_2 Name="channel_2" type="sted" Offset="6C" />
+		<_2 Name="channel_3" type="sted" Offset="70" />
+		<_14 Name="Input Smoothing Traversal Time" Offset="74" />
+	</_86314EBFB798C5C925A5F6AAAB707F1C>
+	<_1DC8408840138070648C6A1C9E51E04F Name="StateMachineNode" Size="1C">
+		<_41 Name="Animation State Machine" Offset="0" Allowed="ansm" Flags="0" />
+	</_1DC8408840138070648C6A1C9E51E04F>
+	<_999C42EE885B714C77D58168BC17C55A Name="ControlParameterNode" Size="8">
+		<_2 Name="Parameter Name" type="sted" Offset="0" />
+		<_C Name="Type" Offset="4" StructName1="ControlParameterType">
+			<Flag n="Int" />
+			<Flag n="Float" />
+			<Flag n="Bool" />
+			<Flag n="String" />
+			<Flag n="Vector" />
+		</_C>
+	</_999C42EE885B714C77D58168BC17C55A>
+	<_951C422E8321BE95C21A862CBA2521A8 Name="SubAnimGraphNode" Size="1C">
+		<_41 Name="Animation Graph" Offset="0" Allowed="angt" Flags="1" />
+	</_951C422E8321BE95C21A862CBA2521A8>
+	<_07CE424D3AF51F49272175B39FCC09A6 Name="TransitionDataNode" Size="4">
+		<_C Name="Data Type" Offset="0" StructName1="TransitionDataType">
+			<Flag n="Source Pose" />
+			<Flag n="Destination Pose" />
+			<Flag n="Transition Time Elapsed" />
+			<Flag n="Transition Time Elapsed Percentage" />
+			<Flag n="Transition Duration" />
+		</_C>
+	</_07CE424D3AF51F49272175B39FCC09A6>
+	<_5EE6465B7A10B3A1707E2FDCA82A14BC Name="TransitionDataPoseNode" Size="4">
+		<_C Name="Data Type" Offset="0" StructName1="TransitionDataPoseType">
+			<Flag n="Source Pose" />
+			<Flag n="Destination Pose" />
+		</_C>
+	</_5EE6465B7A10B3A1707E2FDCA82A14BC>
+	<_946E4A4D19CAF524FFD645938B6B3B28 Name="ObjectFunctionNode" Size="4">
+		<_2 Name="Function Name" Offset="0" />
+	</_946E4A4D19CAF524FFD645938B6B3B28>
+	<_B8A34E0FF672234CFA90DE38B87BCFD5 Name="EditableNumberNode" Size="28">
+		<_2 Name="Property Name" Offset="0" />
+		<_C Name="Data Type" Offset="4" StructName1="EditableNumberType">
+			<Flag n="Float" />
+			<Flag n="Int" />
+			<Flag n="Bool" />
+			<Flag n="Vector" />
+		</_C>
+		<_14 Name="Float Value" Offset="8" />
+		<_14 Name="Float Min Value" Offset="C" />
+		<_14 Name="Float Max Value" Offset="10" />
+		<_6 Name="Int Value" Offset="14" />
+		<_6 Name="Bool Value" Offset="18" />
+		<_19 Name="Vector Value" Offset="1C" />
+	</_B8A34E0FF672234CFA90DE38B87BCFD5>
+	<_D7554AE09D5D351AB7A4978BB208FE4B Name="BooleanLogicNode" Size="4">
+		<_C Name="Operation Type" Offset="0" StructName1="BooleanLogicType">
+			<Flag n="And" />
+			<Flag n="Or" />
+			<Flag n="Nand" />
+			<Flag n="Nor" />
+			<Flag n="Xor" />
+			<Flag n="Equal" />
+			<Flag n="Not Equal" />
+			<Flag n="Invert" />
+		</_C>
+	</_D7554AE09D5D351AB7A4978BB208FE4B>
+	<_181F4A8DD4F3674804BE7764A1B6964D Name="StringLogicNode" Size="4">
+		<_C Name="Operation Type" Offset="0" StructName1="StringLogicType">
+			<Flag n="Equal" />
+			<Flag n="Not Equal" />
+			<Flag n="Is Empty" />
+		</_C>
+	</_181F4A8DD4F3674804BE7764A1B6964D>
+	<_B0A24AD2C7A8BD7350BC7D7681985214 Name="FloatLogicNode" Size="4">
+		<_C Name="Condition" Offset="0" StructName1="FloatLogicType">
+			<Flag n="LessThan" />
+			<Flag n="LessThanOrEqual" />
+			<Flag n="GreaterThan" />
+			<Flag n="GreaterThanOrEqual" />
+			<Flag n="Equal" />
+			<Flag n="Not Equal" />
+		</_C>
+	</_B0A24AD2C7A8BD7350BC7D7681985214>
+	<_D9984E03796AB6CAA9E19A7B963331A2 Name="FloatOperatorNode" Size="4">
+		<_C Name="Operation Type" Offset="0" StructName1="FloatOperatorType">
+			<Flag n="Modulo" />
+			<Flag n="Absolute" />
+			<Flag n="Clamp" />
+			<Flag n="ClampAngle" />
+			<Flag n="Hypotenuse" />
+			<Flag n="Floor" />
+			<Flag n="InRange" />
+			<Flag n="Lerp" />
+			<Flag n="Log" />
+			<Flag n="MappedRangeClamped" />
+			<Flag n="MappedRangeUnclamped" />
+			<Flag n="Max" />
+			<Flag n="Min" />
+			<Flag n="MultiplyByPI" />
+			<Flag n="NearlyEqual" />
+			<Flag n="NormalizeToRange" />
+			<Flag n="Power" />
+			<Flag n="Round" />
+			<Flag n="SnapToGrid" />
+			<Flag n="Sqrt" />
+			<Flag n="Square" />
+			<Flag n="Addition" />
+			<Flag n="Subtraction" />
+			<Flag n="Multiplication" />
+			<Flag n="Division" />
+		</_C>
+	</_D9984E03796AB6CAA9E19A7B963331A2>
+	<_684E497F66AADF457B639824A13E4FC1 Name="IntLogicNode" Size="4">
+		<_C Name="Condition" Offset="0" StructName1="IntLogicType">
+			<Flag n="LessThan" />
+			<Flag n="LessThanOrEqual" />
+			<Flag n="GreaterThan" />
+			<Flag n="GreaterThanOrEqual" />
+			<Flag n="Equal" />
+			<Flag n="Not Equal" />
+		</_C>
+	</_684E497F66AADF457B639824A13E4FC1>
+	<_C76646CFC508A065B77B2EE191F8CEE7 Name="IntOperatorNode" Size="4">
+		<_C Name="Operation Type" Offset="0" StructName1="IntOperatorType">
+			<Flag n="Addition" />
+			<Flag n="Subtraction" />
+			<Flag n="Multiplication" />
+			<Flag n="Division" />
+		</_C>
+	</_C76646CFC508A065B77B2EE191F8CEE7>
+	<_72F44CB940BC6467536C3FF9A2FB14B4 Name="TrigNode" Size="4">
+		<_C Name="Operation Type" Offset="0" StructName1="TrigType">
+			<Flag n="AcosInDegrees" />
+			<Flag n="AcosInRadians" />
+			<Flag n="AsinInDegrees" />
+			<Flag n="AsinInRadians" />
+			<Flag n="AtanInDegrees" />
+			<Flag n="AtanInRadians" />
+			<Flag n="Atan2InDegrees" />
+			<Flag n="Atan2InRadians" />
+			<Flag n="CosInDegrees" />
+			<Flag n="CosInRadians" />
+			<Flag n="DegreesToRadians" />
+			<Flag n="GetPI" />
+			<Flag n="GetTAU" />
+			<Flag n="RadiansToDegrees" />
+			<Flag n="SinInDegrees" />
+			<Flag n="SinInRadians" />
+			<Flag n="TanInDegrees" />
+			<Flag n="TanInRadians" />
+		</_C>
+	</_72F44CB940BC6467536C3FF9A2FB14B4>
+	<_934E485F18C933472D78FDAB9E7263FD Name="BlackboardNode" Size="C">
+		<_C Name="Operation Type" Offset="0" StructName1="BlackboardOperationType">
+			<Flag n="Getter" />
+			<Flag n="Setter" />
+		</_C>
+		<_38 Name="Blackboard Entry Descriptor" Offset="4" GUID="EB6046ED99E45B97FA048DA698FB6E3C" />
+	</_934E485F18C933472D78FDAB9E7263FD>
+	<_E6A44C5727779CF1F7C53BF3ACDBDEBA Name="ValueConversionNode" Size="4">
+		<_C Name="Conversion Type" Offset="0" StructName1="ValueConversionType">
+			<Flag n="Int to Bool" />
+			<Flag n="Int to Float" />
+			<Flag n="Float to Int" />
+			<Flag n="Float to Bool" />
+			<Flag n="Bool to Int" />
+			<Flag n="Bool to Float" />
+		</_C>
+	</_E6A44C5727779CF1F7C53BF3ACDBDEBA>
+	<_B0F44E5D226245702B9A9C2A81DAFD0C Name="InterpolationNode" Size="4">
+		<_C Name="interpolation Type" Offset="0" StructName1="InterpolationType">
+			<Flag n="Float Linear Acceleration" />
+			<Flag n="Float Constant Velocity" />
+			<Flag n="Float Fractional" />
+			<Flag n="Float Damped Spring" />
+			<Flag n="Rotator Linear Acceleration" />
+			<Flag n="Rotator Constant Velocity" />
+			<Flag n="Rotator Fractional" />
+			<Flag n="Rotator Damped Spring" />
+			<Flag n="Vector2 Linear Acceleration" />
+			<Flag n="Vector2 Constant Velocity" />
+			<Flag n="Vector2 Fractional" />
+			<Flag n="Vector2 Damped Spring" />
+			<Flag n="Vector3 Linear Acceleration" />
+			<Flag n="Vector3 Constant Velocity" />
+			<Flag n="Vector3 Fractional" />
+			<Flag n="Vector3 Damped Spring" />
+		</_C>
+	</_B0F44E5D226245702B9A9C2A81DAFD0C>
+	<_22B04D37275F088BA0EDA9F2AA88A9A6 Name="ConstantFloatNode" Size="4">
+		<_14 Name="Value" Offset="0" />
+	</_22B04D37275F088BA0EDA9F2AA88A9A6>
+	<_E9E342725287BE67B8BDF980A4B3A1B0 Name="ConstantIntNode" Size="4">
+		<_6 Name="Value" Offset="0" />
+	</_E9E342725287BE67B8BDF980A4B3A1B0>
+	<_3A564BAA1FC36A9F6AE851F8841170F6 Name="ConstantInt64Node" Size="8">
+		<_6 Name="Value" Offset="0" />
+		<_34 Name="generated_pad8671" Offset="4" Length="4" />
+	</_3A564BAA1FC36A9F6AE851F8841170F6>
+	<_C05144F163239CE6419AB6C180379C81 Name="ConstantUInt64Node" Size="8">
+		<_6 Name="Value" Offset="0" />
+		<_34 Name="generated_pad75b8" Offset="4" Length="4" />
+	</_C05144F163239CE6419AB6C180379C81>
+	<_BB9A4BFEFDE92C5040E96753ADE1370C Name="ConstantStringNode" Size="100">
+		<_1 Name="Value" Offset="0" />
+	</_BB9A4BFEFDE92C5040E96753ADE1370C>
+	<_030C4AE8DEF0D8725C7FC1A698F760FA Name="ConstantBoolNode" Size="4">
+		<_6 Name="Value" Offset="0" />
+	</_030C4AE8DEF0D8725C7FC1A698F760FA>
+	<_BB534FA6DD8FACCC5E4E2B9FBCC0678D Name="EndOfAnimationNode" Size="C">
+		<_A Name="Node Type" Offset="0" StructName1="EndOfAnimationEventType">
+			<Flag n="End Of Animation" />
+			<Flag n="End Of Loop" />
+		</_A>
+		<_34 Name="generated_pade774" Offset="1" Length="3" />
+		<_2 Name="Group Name" Offset="4" />
+		<_14 Name="Offset Time" Offset="8" />
+	</_BB534FA6DD8FACCC5E4E2B9FBCC0678D>
+	<_7B7F4624EA564A4C3D23FB28571482AD Name="MaskNode" Size="8">
+		<_2 Name="Mask ID" Offset="0" />
+		<_A Name="Mask Node Type" Offset="4" StructName1="MaskType">
+			<Flag n="Bone Mask" />
+			<Flag n="User Parameter Mask" />
+		</_A>
+		<_34 Name="generated_pad238e" Offset="5" Length="3" />
+	</_7B7F4624EA564A4C3D23FB28571482AD>
+	<_E2A1433C9434F35527347A8192A8B7C8 Name="IKNodeTag" Size="20">
+		<_14 Name="Weight" Offset="0" />
+		<_2 Name="Source Marker Name" Offset="4" />
+		<_2 Name="Target Marker Name" Offset="8" />
+		<_2 Name="Preferred IK Chain Name" Offset="C" />
+		<_14 Name="Blend Rate" Offset="10" />
+		<_A Name="IK Type" Offset="14" StructName1="IKType">
+			<Flag n="Weapon Primary" />
+			<Flag n="Weapon Secondary" />
+			<Flag n="Parent" />
+			<Flag n="Self" />
+			<Flag n="World" />
+			<Flag n="Look" />
+			<Flag n="Ground" />
+			<Flag n="Wrist Rotation Fixup" />
+			<Flag n="Hand Slide Fixup" />
+		</_A>
+		<_34 Name="generated_pad0318" Offset="15" Length="3" />
+		<_14 Name="Priority" Offset="18" />
+		<_F Name="Flags" Offset="1C" StructName1="IKTaskFlags">
+			<Flag n="Apply Rotation" />
+			<Flag n="Apply Translation" />
+		</_F>
+		<_34 Name="generated_pad1cf9" Offset="1D" Length="3" />
+	</_E2A1433C9434F35527347A8192A8B7C8>
+	<_2B624E4FCF40553426A51DC5BE571D61 Name="GroundIKNodeTag" Size="14">
+		<_14 Name="Weight" Offset="0" />
+		<_2 Name="Source Marker Name" Offset="4" />
+		<_2 Name="Preferred IK Chain Name" Offset="8" />
+		<_14 Name="Blend Rate" Offset="C" />
+		<_14 Name="Priority" Offset="10" />
+	</_2B624E4FCF40553426A51DC5BE571D61>
+	<_6CDF4517FC4ADC0C0D4285599BDB3B9D Name="LookIKNodeTag" Size="34">
+		<_14 Name="Weight" Offset="0" />
+		<_14 Name="Blend Rate" Offset="4" />
+		<_14 Name="Priority" Offset="8" />
+		<_2 Name="Relative Forward Marker" Offset="C" />
+		<_14 Name="Yaw" Offset="10" />
+		<_14 Name="Pitch" Offset="14" />
+		<_14 Name="Yaw Min" Offset="18" />
+		<_14 Name="Yaw Max" Offset="1C" />
+		<_14 Name="Pitch Min" Offset="20" />
+		<_14 Name="Pitch Max" Offset="24" />
+		<_14 Name="Yaw Pose Contribution" Offset="28" />
+		<_14 Name="Pitch Pose Contribution" Offset="2C" />
+		<_A Name="Relative Forward Mode" Offset="30" StructName1="LookIKRelativeForwardMode">
+			<Flag n="Aim Vector" />
+			<Flag n="Marker" />
+		</_A>
+		<_34 Name="generated_pad9f7b" Offset="31" Length="3" />
+	</_6CDF4517FC4ADC0C0D4285599BDB3B9D>
+	<_4BAA4427E61E36909D5A3DEF8CF7C897 Name="ConcatenateNode" Size="14">
+		<_40 Name="Strings" Offset="0" GUID="42A3498AA3EB7EFE3290F4CC8AA82C64" StructName1="ConcatenateNode" Min="0" Max="16" />
+	</_4BAA4427E61E36909D5A3DEF8CF7C897>
+	<_514A401049233104C3C088EC9636F360 Name="AnimSetPushNode" Size="108">
+		<_A Name="Type" Offset="0" StructName1="PushNodeType">
+			<Flag n="Conditional" />
+			<Flag n="Constant" />
+		</_A>
+		<_1 Name="String" Offset="1" />
+		<_34 Name="generated_pada121" Offset="101" Length="3" />
+		<_6 Name="Push Order" Offset="104" />
+	</_514A401049233104C3C088EC9636F360>
+	<_60B844831B6AD9654D4864C699A93941 Name="SwitchNode" Size="2C">
+		<_40 Name="Int Input Values" Offset="0" GUID="BC66489C5BD6C0516805B809B8D0C91B" StructName1="SwitchNode" Min="0" Max="12" />
+		<_40 Name="String Input Values" Offset="14" GUID="F6E3482692A0979A6D8C3EF597ECCDDA" StructName1="SwitchNode" Min="0" Max="12" />
+		<_6 Name="Default Pin Index" Offset="28" />
+	</_60B844831B6AD9654D4864C699A93941>
+	<_B88F46C3A3A6931AC32C3C22BD526950 Name="SwitchOnAssetNode" Size="14">
+		<_40 Name="Inputs" Offset="0" GUID="5A4241F14BA919B1F25244D483029F5A" StructName1="SwitchOnAssetNode" Min="0" Max="12" />
+	</_B88F46C3A3A6931AC32C3C22BD526950>
+	<_D842442547B818B7C17958F0A2BA875C Name="AimScreenNode" Size="48">
+		<_14 Name="Yaw" Offset="0" />
+		<_14 Name="Pitch" Offset="4" />
+		<_38 Name="Yaw Connection" Offset="8" GUID="960A407C207D4883597FCE0E91E6238A" />
+		<_38 Name="Pitch Connection" Offset="20" GUID="960A407C207D4883597FCE0E91E6238A" />
+		<_2 Name="Aim Animation Name" Offset="38" />
+		<_2 Name="Label" Offset="3C" />
+		<_E Name="Flags" Offset="40" StructName1="AimScreenFlags">
+			<Flag n="Enable Input Smoothing" />
+		</_E>
+		<_34 Name="generated_pad6467" Offset="42" Length="2" />
+		<_14 Name="Input Smoothing Traversal Time" Offset="44" />
+	</_D842442547B818B7C17958F0A2BA875C>
+	<_45ED49B60D2CF8F68FD0A61BBDFEB0FE Name="AccSpaceNode" Size="4">
+		<_2 Name="Acceleration Animation Name" Offset="0" />
+	</_45ED49B60D2CF8F68FD0A61BBDFEB0FE>
+	<_271B42E5F54DF205A98419BC922516D2 Name="AnimationExtractNode" Size="1C">
+		<_38 Name="Pose Connection" Offset="0" GUID="960A407C207D4883597FCE0E91E6238A" />
+		<_2 Name="Joint Name" Offset="18" />
+	</_271B42E5F54DF205A98419BC922516D2>
+	<_E34643D5D69C15D95B1A3C41A79B7B20 Name="AnimationGetLocalOffsetNode" Size="C">
+		<_2 Name="Joint Name 1" Offset="0" />
+		<_2 Name="Joint Name 2" Offset="4" />
+		<_E Name="Animation Get Local Offset Flags" Offset="8" StructName1="AnimationGetLocalOffsetFlags">
+			<Flag n="Include Translation" />
+			<Flag n="Include Scale" />
+		</_E>
+		<_34 Name="generated_padb27a" Offset="A" Length="2" />
+	</_E34643D5D69C15D95B1A3C41A79B7B20>
+	<_A505435DE4A5C0C237CA1E2982C54E75 Name="AnimationGetValuesNode" Size="20">
+		<_38 Name="Pose Connection" Offset="0" GUID="960A407C207D4883597FCE0E91E6238A" />
+		<_2 Name="Joint Name" Offset="18" />
+		<_E Name="Animation Get Values Node Flags" Offset="1C" StructName1="AnimationGetValuesFlags">
+			<Flag n="World Space" />
+		</_E>
+		<_34 Name="generated_pad70a2" Offset="1E" Length="2" />
+	</_A505435DE4A5C0C237CA1E2982C54E75>
+	<_C5214E1CC6888447A1E9818F9D7C74B4 Name="AnimationFKNode" Size="94">
+		<_38 Name="Pose Connection" Offset="0" GUID="960A407C207D4883597FCE0E91E6238A" />
+		<_40 Name="Joint Names" Offset="18" GUID="1DBF4746CBD8D9A4F1C06E689DDE3F47" StructName1="AnimationFKNode" Min="0" Max="32" />
+		<_38 Name="Translation" Offset="2C" GUID="960A407C207D4883597FCE0E91E6238A" />
+		<_38 Name="Rotation" Offset="44" GUID="960A407C207D4883597FCE0E91E6238A" />
+		<_38 Name="Scale" Offset="5C" GUID="960A407C207D4883597FCE0E91E6238A" />
+		<_E Name="Animation FK Node Flags" Offset="74" StructName1="AnimationFKFlags">
+			<Flag n="Apply Translation" />
+			<Flag n="Apply Rotation" />
+			<Flag n="Apply Scale" />
+			<Flag n="World Space" />
+			<Flag n="Propagate" />
+		</_E>
+		<_34 Name="generated_pad8b37" Offset="76" Length="2" />
+		<_38 Name="Pivot Pose Connection" Offset="78" GUID="960A407C207D4883597FCE0E91E6238A" />
+		<_2 Name="Pivot Joint Name" Offset="90" />
+	</_C5214E1CC6888447A1E9818F9D7C74B4>
+	<_574E46785094A9FE360000AD905E4073 Name="AnimationConstraintNode" Size="10">
+		<_2 Name="Joint Name" Offset="0" />
+		<_2 Name="Target Joint Name" Offset="4" />
+		<_2 Name="Offset Joint Name" Offset="8" />
+		<_E Name="Animation Constraint Node Flags" Offset="C" StructName1="AnimationConstraintFlags">
+			<Flag n="Apply Translation" />
+			<Flag n="Apply Rotation" />
+			<Flag n="Propagate" />
+		</_E>
+		<_34 Name="generated_pade4e3" Offset="E" Length="2" />
+	</_574E46785094A9FE360000AD905E4073>
+	<_D89C4652C3111B199447224995827645 Name="VoiceoverAnimationNode" Size="4">
+		<_C Name="Voiceover Animation Data Types" Offset="0" StructName1="VoiceOverAnimationDataTypes">
+			<Flag n="VoiceOverSoundData" />
+		</_C>
+	</_D89C4652C3111B199447224995827645>
+	<_315B4C9CA4E16BDDC317FC3797304D41 Name="NativeExpressionNode" Size="C">
+		<_C Name="Type" Offset="0" StructName1="NativeExpressionType">
+			<Flag n="Int" />
+			<Flag n="Float" />
+			<Flag n="Bool" />
+			<Flag n="String" />
+			<Flag n="Vector3" />
+		</_C>
+		<_2 Name="Native Graph Name" Offset="4" />
+		<_6 Name="Use Native Graph" Offset="8" />
+	</_315B4C9CA4E16BDDC317FC3797304D41>
+	<_1F634C201D8FE8FBCF5A79C49AD2A74B Name="NativePoseNode" Size="8">
+		<_2 Name="Native Graph Name" Offset="0" />
+		<_6 Name="Use Native Graph" Offset="4" />
+	</_1F634C201D8FE8FBCF5A79C49AD2A74B>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_4C5C4EA5505585531AAE400CA778D338 Name="i343::Animation::ControlParameter" Size="4">
+		<_2 Name="Name" Offset="0" />
+	</_4C5C4EA5505585531AAE400CA778D338>
+	<_C78B4DC0FC0C48A66BC59A04ACE3526B Name="SelectionNodePose" Size="18">
+		<_38 Name="Pose Connection" Offset="0" GUID="960A407C207D4883597FCE0E91E6238A" />
+	</_C78B4DC0FC0C48A66BC59A04ACE3526B>
+	<_13A64C28877296B615D675F19F094A01 Name="LayerNodeLayer" Size="5C">
+		<_6 Name="Index" Offset="0" />
+		<_C Name="Mode" Offset="4" StructName1="LayerNodeMode">
+			<Flag n="Ignored" />
+			<Flag n="Additive" />
+			<Flag n="Replacement" />
+		</_C>
+		<_14 Name="Alpha" Offset="8" />
+		<_38 Name="Pose Connection" Offset="C" GUID="960A407C207D4883597FCE0E91E6238A" />
+		<_38 Name="Alpha Connection" Offset="24" GUID="960A407C207D4883597FCE0E91E6238A" />
+		<_E Name="Layer Token Flags" Offset="3C" StructName1="LayerNodeLayerFlags">
+			<Flag n="Enable Replacement Correction" />
+		</_E>
+		<_34 Name="generated_pad47a8" Offset="3E" Length="2" />
+		<_2 Name="Correction Pose Bone" Offset="40" />
+		<_38 Name="Replacement Anim Correction Pose Connection" Offset="44" GUID="960A407C207D4883597FCE0E91E6238A" />
+	</_13A64C28877296B615D675F19F094A01>
+	<_5F8A49456A81EF8ECB23969AA6385571 Name="AutoSpeedToken" Size="24">
+		<_2 Name="Animation Token" Offset="0" />
+		<_14 Name="Weight" Offset="4" />
+		<_38 Name="Subgraph Reference" Offset="8" GUID="97634F3D6C666E05AD23FE6BBC70A7CD" />
+	</_5F8A49456A81EF8ECB23969AA6385571>
+	<_42A3498AA3EB7EFE3290F4CC8AA82C64 Name="ConcatenateString" Size="104">
+		<_6 Name="Index" Offset="0" />
+		<_1 Name="String" Offset="4" />
+	</_42A3498AA3EB7EFE3290F4CC8AA82C64>
+	<_BC66489C5BD6C0516805B809B8D0C91B Name="SwitchIntInputValue" Size="4">
+		<_6 Name="Int Value" Offset="0" />
+	</_BC66489C5BD6C0516805B809B8D0C91B>
+	<_F6E3482692A0979A6D8C3EF597ECCDDA Name="SwitchStringInputValue" Size="4">
+		<_2 Name="String Value" Offset="0" />
+	</_F6E3482692A0979A6D8C3EF597ECCDDA>
+	<_5A4241F14BA919B1F25244D483029F5A Name="SwitchOnAssetInputValue" Size="20">
+		<_41 Name="Asset Reference" Offset="0" Allowed="aTag" Flags="1" />
+		<_A Name="Is Asset Category" Offset="1C" StructName1="SwitchableAssetInputType">
+			<Flag n="Asset" />
+			<Flag n="Asset Set" />
+		</_A>
+		<_34 Name="generated_pade0fe" Offset="1D" Length="3" />
+	</_5A4241F14BA919B1F25244D483029F5A>
+	<_1DBF4746CBD8D9A4F1C06E689DDE3F47 Name="AnimationFKJointNames" Size="4">
+		<_2 Name="Joint Name" Offset="0" />
+	</_1DBF4746CBD8D9A4F1C06E689DDE3F47>
+</root>

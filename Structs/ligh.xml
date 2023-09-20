@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:11 PM" Name="light" Parents="aTag" Index="-234">
+	<_B6AF482D671EB9F2EDB665A1902D0F25 Name="DynamicLight" Size="258">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="Midnight_Light_Parameters" Offset="10" GUID="E0004613C74B158EE1E69DA7893D65F6" />
+	</_B6AF482D671EB9F2EDB665A1902D0F25>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_E0004613C74B158EE1E69DA7893D65F6 Name="LightDefinition" Size="248">
+		<_36 Name="Dynamic/Static Shared Light Parameters" Offset="0" />
+		<_2 Name="haloLightNode" Offset="0" />
+		<_C Name="Type" Offset="4" StructName1="e_light_type">
+			<Flag n="Omni" />
+			<Flag n="Spot" />
+			<Flag n="Directional" />
+			<Flag n="Planar" />
+			<Flag n="Sun" />
+		</_C>
+		<_1F Name="Color" Offset="8" />
+		<_14 Name="Source Energy" Offset="14" />
+		<_14 Name="Baked Indirect Intensity Scalar" Offset="18" />
+		<_14 Name="Dimmer" Offset="1C" />
+		<_14 Name="Far Attenuation" Offset="20" />
+		<_14 Name="Near Begin" Offset="24" />
+		<_A Name="Properties Override Source" Offset="28" StructName1="LightPropertiesOverrideSource">
+			<Flag n="None" />
+			<Flag n="Dynamic World State Sun" />
+			<Flag n="Dynamic World State Atmosphere" />
+			<Flag n="Dynamic World State Sky" />
+			<Flag n="Dynamic World State Sun Intensity Only" />
+		</_A>
+		<_34 Name="generated_pade39f" Offset="29" Length="3" />
+		<_14 Name="Override Source Intensity Multiplier" Offset="2C" />
+		<_38 Name="Intensity Function" Offset="30" GUID="42B4434A26AA4A8308A920CD93ACA3CB" />
+		<_41 Name="Light Group" Offset="58" Allowed="ligr" Flags="0" />
+		<_38 Name="Dimmer Function" Offset="74" GUID="42B4434A26AA4A8308A920CD93ACA3CB" />
+		<_14 Name="Near Attenuation" Offset="9C" />
+		<_38 Name="Outer Attenuation Function" Offset="A0" GUID="42B4434A26AA4A8308A920CD93ACA3CB" />
+		<_14 Name="Far Begin" Offset="C8" />
+		<_14 Name="Base position modifier for fading" Offset="CC" />
+		<_14 Name="Camera Near Distance Fade End" Offset="D0" />
+		<_14 Name="Camera Near Distance Fade Start" Offset="D4" />
+		<_14 Name="Camera Distance Fade Start" Offset="D8" />
+		<_14 Name="Camera Distance Fade End" Offset="DC" />
+		<_14 Name="Light Screen Size Fade Start" Offset="E0" />
+		<_14 Name="Light Screen Size Fade End" Offset="E4" />
+		<_14 Name="Fog Intensity" Offset="E8" />
+		<_14 Name="Particle Intensity" Offset="EC" />
+		<_14 Name="Minimum Roughness" Offset="F0" />
+		<_36 Name="Area Lights Parameters" Offset="F4" />
+		<_14 Name="Planar Light Width" Offset="F4" />
+		<_14 Name="Planar Light Height" Offset="F8" />
+		<_14 Name="Area Light Radius" Offset="FC" />
+		<_14 Name="Area Light Length" Offset="100" />
+		<_36 Name="Shared Spot Parameters" Offset="104" />
+		<_14 Name="Inner Cone Angle" Offset="104" />
+		<_14 Name="Outer Cone Angle" Offset="108" />
+		<_38 Name="Outer Cone Angle Function" Offset="10C" GUID="42B4434A26AA4A8308A920CD93ACA3CB" />
+		<_C Name="Cone Projection Shape" Offset="134" StructName1="e_light_projection_type">
+			<Flag n="Cone" />
+			<Flag n="Frustum" />
+		</_C>
+		<_36 Name="Dynamic Only Parameters" Offset="138" />
+		<_A Name="Static Shadows" Offset="138" StructName1="LightBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_A>
+		<_A Name="Dynamic Shadows" Offset="139" StructName1="LightBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_A>
+		<_5 Name="Static Shadow Resolution" Offset="13A" />
+		<_5 Name="Dynamic Shadow Resolution" Offset="13C" />
+		<_5 Name="Minimum Static Shadow Resolution" Offset="13E" />
+		<_5 Name="Minimum Dynamic Shadow Resolution" Offset="140" />
+		<_A Name="Enable Static Shadow Caching" Offset="142" StructName1="LightBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_A>
+		<_A Name="Enable Dynamic Objects Shadow Caching" Offset="143" StructName1="LightBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_A>
+		<_A Name="Composer Shadows" Offset="144" StructName1="LightBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_A>
+		<_A Name="Contact Shadows for CVW" Offset="145" StructName1="LightBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_A>
+		<_A Name="Contact Shadows for First Person" Offset="146" StructName1="LightBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_A>
+		<_A Name="Contact Shadows for Environment" Offset="147" StructName1="LightBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_A>
+		<_14 Name="Shadow Resolution Distance Scaler" Offset="148" />
+		<_14 Name="Camera Distance Static Shadow + Gobo Fade Start" Offset="14C" />
+		<_14 Name="Camera Distance Static Shadow + Gobo Fade End" Offset="150" />
+		<_14 Name="Camera Distance DO Shadow Fade Start" Offset="154" />
+		<_14 Name="Camera Distance DO Shadow Fade End" Offset="158" />
+		<_14 Name="Inner DO Shadow Cone Angle %" Offset="15C" />
+		<_14 Name="Outer DO Shadow Cone Angle %" Offset="160" />
+		<_14 Name="DO Shadow Far Attenuation Start %" Offset="164" />
+		<_14 Name="DO Shadow Far Attenuation End %" Offset="168" />
+		<_14 Name="Static Object Shadow LOD Scaler" Offset="16C" />
+		<_14 Name="Dynamic Object Shadow LOD Scaler" Offset="170" />
+		<_14 Name="Shadow Near Clip Plane" Offset="174" />
+		<_14 Name="Shadow Far Clip Plane" Offset="178" />
+		<_A Name="Enable light OBB" Offset="17C" StructName1="LightBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_A>
+		<_34 Name="generated_pad96ea" Offset="17D" Length="3" />
+		<_19 Name="OBB Center Offset" Offset="180" />
+		<_19 Name="OBB Scale Factor" Offset="18C" />
+		<_19 Name="OBB Orientation Adjust" Offset="198" />
+		<_14 Name="Shadow Bias Offset" Offset="1A4" />
+		<_14 Name="Shadow Filter Width" Offset="1A8" />
+		<_14 Name="Minimum Shadow Filter Width" Offset="1AC" />
+		<_14 Name="PCSS Light Size" Offset="1B0" />
+		<_14 Name="PCSS Min Filter Size" Offset="1B4" />
+		<_14 Name="PCSS Max Filter Size" Offset="1B8" />
+		<_A Name="Force Forward Lighting" Offset="1BC" StructName1="LightBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_A>
+		<_A Name="Ignore Dynamic Objects" Offset="1BD" StructName1="LightBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_A>
+		<_F Name="Attenuation flags" Offset="1BE" StructName1="LightDefinition::LightAttenuationFlags">
+			<Flag n="Sync Light Energy and Near Attenuation" />
+			<Flag n="Sync Light Energy and Far Attenuation" />
+		</_F>
+		<_A Name="Specular Contribution" Offset="1BF" StructName1="LightBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_A>
+		<_A Name="Diffuse Contribution" Offset="1C0" StructName1="LightBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_A>
+		<_34 Name="generated_pad4a35" Offset="1C1" Length="1" />
+		<_5 Name="Minimum Gobo Resolution" Offset="1C2" />
+		<_36 Name="Dynamic Gobo" Offset="1C4" />
+		<_41 Name="Gobos" Offset="1C4" Allowed="GobS" Flags="0" />
+		<_1F Name="Target Color" Offset="1E0" />
+		<_14 Name="destroy light after" Offset="1EC" />
+		<_36 Name="Color Change" Offset="1F0" />
+		<_38 Name="Interpolation Function" Offset="1F0" GUID="54F94FD03DBB8F1A297A30789D24DA91" />
+		<_36 Name="Bungie Parameters" Offset="218" />
+		<_D Name="flags" Offset="218" StructName1="LightDefinitionFlags">
+			<Flag n="dont render splitscreen" />
+			<Flag n="render in multiplayer override" />
+			<Flag n="always on for weapon" />
+			<Flag n="induces translucency in subsurface scattering materials" />
+			<Flag n="ignore optimization and force update every frame" />
+			<Flag n="disable shadow on particles" />
+		</_D>
+		<_41 Name="Lens Flare" Offset="21C" Allowed="lens" Flags="0" />
+		<_6 Name="Light Shadow Priority" Offset="238" />
+		<_4 Name="needs update state" Offset="23C" />
+		<_4 Name="needs update bounding sphere" Offset="23D" />
+		<_34 Name="generated_pad6328" Offset="23E" Length="2" />
+		<_6 Name="tick of last state update" Offset="240" />
+		<_6 Name="tick of last bounding sphere update" Offset="244" />
+	</_E0004613C74B158EE1E69DA7893D65F6>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_42B4434A26AA4A8308A920CD93ACA3CB Name="ScalarLightFunction" Size="28">
+		<_2 Name="Input Variable" type="fnin" Offset="0" />
+		<_2 Name="Range Variable" type="fnir" Offset="4" />
+		<_B Name="Output Modifier" type="fnop" Offset="8" StructName1="LightOutputModifier">
+			<Flag n=" " />
+			<Flag n="Plus" />
+			<Flag n="Times" />
+		</_B>
+		<_34 Name="generated_padc7e0" Offset="A" Length="2" />
+		<_2 Name="Output Modifier Input" type="fnom" Offset="C" />
+		<_37 Name="Mapping" type="fned" Offset="10" />
+		<_38 Name="Mapping" Offset="10" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_42B4434A26AA4A8308A920CD93ACA3CB>
+	<_54F94FD03DBB8F1A297A30789D24DA91 Name="ColorLightFunction" Size="28">
+		<_2 Name="Input Variable" type="fnin" Offset="0" />
+		<_2 Name="Range Variable" type="fnir" Offset="4" />
+		<_B Name="Output Modifier" type="fnop" Offset="8" StructName1="LightOutputModifier">
+			<Flag n=" " />
+			<Flag n="Plus" />
+			<Flag n="Times" />
+		</_B>
+		<_34 Name="generated_pad8f6d" Offset="A" Length="2" />
+		<_2 Name="Output Modifier Input" type="fnom" Offset="C" />
+		<_37 Name="Mapping" type="fned" Offset="10" />
+		<_38 Name="Mapping" Offset="10" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_54F94FD03DBB8F1A297A30789D24DA91>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

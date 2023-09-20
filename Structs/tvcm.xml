@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="trigger_volume_component" Parents="aTag" Index="-440">
+	<_867A44A4E4AE328A75C71B4EB5B13696 Name="TriggerVolumeComponentDefinition" Size="30">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_D Name="Flags" Offset="10" StructName1="i343::Objects::TriggerVolumeFlags">
+			<Flag n="Track non-Havok objects" />
+		</_D>
+		<_41 Name="Phantom physics sounds" Offset="14" Allowed="pphs" Flags="0" />
+	</_867A44A4E4AE328A75C71B4EB5B13696>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

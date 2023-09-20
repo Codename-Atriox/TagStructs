@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="area_screen_effect" Parents="aTag" Index="-365">
+	<_57E84346E25095D48088091EAA15B7AB Name="s_area_screen_effect_definition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_E Name="global flags" Offset="10" StructName1="s_area_screen_effect_definition::Flags">
+			<Flag n="play sequentially - ignore delay settings" />
+			<Flag n="debug this screen effect" />
+			<Flag n="force delete when attached to dead object" />
+			<Flag n="force max one per object" />
+			<Flag n="force looping (dangerous; lasts forever)" />
+			<Flag n="die when effect ends" />
+		</_E>
+		<_E Name="global hidden flags" Offset="12" StructName1="s_area_screen_effect_definition::c_area_screen_effect_hidden_flags">
+			<Flag n="update thread" />
+			<Flag n="render thread" />
+		</_E>
+		<_40 Name="screen effects" Offset="14" GUID="4E3546A72E559B3690AA239FA1AE1E29" StructName1="s_area_screen_effect_definition" Min="0" Max="8" />
+	</_57E84346E25095D48088091EAA15B7AB>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_4E3546A72E559B3690AA239FA1AE1E29 Name="s_single_screen_effect_definition" Size="168">
+		<_2 Name="name" Offset="0" />
+		<_E Name="flags" Offset="4" StructName1="s_single_screen_effect_definition::c_single_screen_effect_flags">
+			<Flag n="debug disable" />
+			<Flag n="allow effect outside radius" />
+			<Flag n="unattached" />
+			<Flag n="first person" />
+			<Flag n="third person" />
+			<Flag n="disable camera falloffs" />
+			<Flag n="only affects attached object" />
+			<Flag n="draw precisely one (ask Bill before you check this)" />
+			<Flag n="use player travel direction" />
+			<Flag n="use color override as tint" />
+			<Flag n="don't render for spectators" />
+			<Flag n="multiply maximum distance by parent effect scale" />
+		</_E>
+		<_E Name="hidden flags" Offset="6" StructName1="s_single_screen_effect_definition::c_single_screen_effect_hidden_flags">
+			<Flag n="update thread" />
+			<Flag n="render thread" />
+		</_E>
+		<_36 Name="DISTANCE FALLOFF" Offset="8" />
+		<_14 Name="maximum distance" Offset="8" />
+		<_38 Name="distance falloff" Offset="C" GUID="A3D24359D2D2C2B87EB7F3D88D127DD8" />
+		<_36 Name="TIME EVOLUTION" Offset="24" />
+		<_14 Name="delay" Offset="24" />
+		<_14 Name="lifetime" Offset="28" />
+		<_38 Name="time falloff" Offset="2C" GUID="A3D24359D2D2C2B87EB7F3D88D127DD8" />
+		<_36 Name="ANGLE FALLOFF" Offset="44" />
+		<_38 Name="angle falloff" Offset="44" GUID="A3D24359D2D2C2B87EB7F3D88D127DD8" />
+		<_36 Name="OBJECT FALLOFF" Offset="5C" />
+		<_38 Name="object falloff" Offset="5C" GUID="4B42466592C128E6CE6CDB1D80E1707B" />
+		<_36 Name="EFFECTS" Offset="7C" />
+		<_41 Name="color grading look-up-texture" Offset="7C" Allowed="bitm" Flags="0" />
+		<_14 Name="runtime color grading strength" Offset="98" />
+		<_41 Name="hdr color grading look-up-texture" Offset="9C" Allowed="bitm" Flags="0" />
+		<_14 Name="runtime hdr color grading strength" Offset="B8" />
+		<_14 Name="exposure boost" Offset="BC" />
+		<_14 Name="exposure deboost" Offset="C0" />
+		<_14 Name="hue left" Offset="C4" />
+		<_14 Name="hue right" Offset="C8" />
+		<_14 Name="saturation" Offset="CC" />
+		<_14 Name="desaturation" Offset="D0" />
+		<_14 Name="contrast enhance" Offset="D4" />
+		<_14 Name="gamma enhance" Offset="D8" />
+		<_14 Name="gamma reduce" Offset="DC" />
+		<_A Name="filter color override mode" Offset="E0" StructName1="i343::Effects::ColorOverrideMode">
+			<Flag n="None" />
+			<Flag n="Color Override 1" />
+			<Flag n="Color Override 2" />
+			<Flag n="Team Color" />
+			<Flag n="DWS Sun Color" />
+		</_A>
+		<_34 Name="generated_pad1d18" Offset="E1" Length="3" />
+		<_1F Name="color filter" Offset="E4" />
+		<_A Name="floor color override mode" Offset="F0" StructName1="i343::Effects::ColorOverrideMode">
+			<Flag n="None" />
+			<Flag n="Color Override 1" />
+			<Flag n="Color Override 2" />
+			<Flag n="Team Color" />
+			<Flag n="DWS Sun Color" />
+		</_A>
+		<_34 Name="generated_pad36f9" Offset="F1" Length="3" />
+		<_1F Name="color floor" Offset="F4" />
+		<_15 Name="color replace strength" Offset="100" />
+		<_A Name="replace color override mode" Offset="104" StructName1="i343::Effects::ColorOverrideMode">
+			<Flag n="None" />
+			<Flag n="Color Override 1" />
+			<Flag n="Color Override 2" />
+			<Flag n="Team Color" />
+			<Flag n="DWS Sun Color" />
+		</_A>
+		<_34 Name="generated_pad83ae" Offset="105" Length="3" />
+		<_1F Name="color replace" Offset="108" />
+		<_14 Name="tron" Offset="114" />
+		<_14 Name="radial blur" Offset="118" />
+		<_19 Name="radial blur direction" Offset="11C" />
+		<_14 Name="vision mode" Offset="128" />
+		<_14 Name="hud fade" Offset="12C" />
+		<_14 Name="fov in" Offset="130" />
+		<_14 Name="fov out" Offset="134" />
+		<_14 Name="screen shake" Offset="138" />
+		<_34 Name="generated_padb9c9" Offset="13C" Length="4" />
+		<_41 Name="shader effect" Offset="140" Allowed="mat " Flags="0" />
+		<_34 Name="generated_pad6f0e" Offset="15C" Length="4" />
+		<_7 Name="m_pipelineState" Offset="160" />
+	</_4E3546A72E559B3690AA239FA1AE1E29>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_A3D24359D2D2C2B87EB7F3D88D127DD8 Name="AreaScreenEffectScalarFunction" Size="18">
+		<_37 Name="Mapping" type="fned" Offset="0" />
+		<_38 Name="Mapping" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_A3D24359D2D2C2B87EB7F3D88D127DD8>
+	<_4B42466592C128E6CE6CDB1D80E1707B Name="ScreenEffectFunctionDefinitionWithInputs" Size="20">
+		<_2 Name="Input Variable" type="fnin" Offset="0" />
+		<_2 Name="Range Variable" type="fnir" Offset="4" />
+		<_37 Name="Mapping" type="fned" Offset="8" />
+		<_38 Name="Mapping" Offset="8" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_4B42466592C128E6CE6CDB1D80E1707B>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:16 PM" Name="render_water_ripple" Parents="aTag" Index="-344">
+	<_882E4775CB60D0888CE7CD58883C8C94 Name="s_render_water_ripple_definition" Size="60">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="TYPE FLAGS" Offset="10" />
+		<_D Name="flags" Offset="10" StructName1="RippleBehaviorFlags">
+			<Flag n="ripple drifted by flow" />
+			<Flag n="amplitude changed by pendulum function" />
+			<Flag n="display flash foam" />
+			<Flag n="foam size defined in game unit" />
+		</_D>
+		<_36 Name="INITIAL SETTINGS" Offset="14" />
+		<_14 Name="initial radius" Offset="14" />
+		<_14 Name="initial amplitude" Offset="18" />
+		<_14 Name="spread speed" Offset="1C" />
+		<_14 Name="speed bias" Offset="20" />
+		<_14 Name="position random range" Offset="24" />
+		<_14 Name="max visibility distance" Offset="28" />
+		<_36 Name="LIFE SETTINGS" Offset="2C" />
+		<_14 Name="duration max" Offset="2C" />
+		<_14 Name="duration min" Offset="30" />
+		<_14 Name="rise period ratio" Offset="34" />
+		<_B Name="rise function" Offset="38" StructName1="TransitionFunction">
+			<Flag n="linear" />
+			<Flag n="early" />
+			<Flag n="very early" />
+			<Flag n="late" />
+			<Flag n="very late" />
+			<Flag n="cosine" />
+			<Flag n="one" />
+			<Flag n="zero" />
+		</_B>
+		<_B Name="descend function" Offset="3A" StructName1="TransitionFunction">
+			<Flag n="linear" />
+			<Flag n="early" />
+			<Flag n="very early" />
+			<Flag n="late" />
+			<Flag n="very late" />
+			<Flag n="cosine" />
+			<Flag n="one" />
+			<Flag n="zero" />
+		</_B>
+		<_36 Name="PENDULUM SETTINGS" Offset="3C" />
+		<_14 Name="phase revolution speed" Offset="3C" />
+		<_14 Name="phase repeat along radius" Offset="40" />
+		<_36 Name="SHAPE TRANSITION" Offset="44" />
+		<_14 Name="pattern start idx" Offset="44" />
+		<_14 Name="pattern end idx" Offset="48" />
+		<_B Name="pattern transition" Offset="4C" StructName1="TransitionFunction">
+			<Flag n="linear" />
+			<Flag n="early" />
+			<Flag n="very early" />
+			<Flag n="late" />
+			<Flag n="very late" />
+			<Flag n="cosine" />
+			<Flag n="one" />
+			<Flag n="zero" />
+		</_B>
+		<_34 Name="generated_pad8f3f" Offset="4E" Length="2" />
+		<_36 Name="FOAM" Offset="50" />
+		<_14 Name="foam out radius" Offset="50" />
+		<_14 Name="foam fade distance" Offset="54" />
+		<_14 Name="foam duration" Offset="58" />
+		<_B Name="foam rise function" Offset="5C" StructName1="TransitionFunction">
+			<Flag n="linear" />
+			<Flag n="early" />
+			<Flag n="very early" />
+			<Flag n="late" />
+			<Flag n="very late" />
+			<Flag n="cosine" />
+			<Flag n="one" />
+			<Flag n="zero" />
+		</_B>
+		<_B Name="foam fade function" Offset="5E" StructName1="TransitionFunction">
+			<Flag n="linear" />
+			<Flag n="early" />
+			<Flag n="very early" />
+			<Flag n="late" />
+			<Flag n="very late" />
+			<Flag n="cosine" />
+			<Flag n="one" />
+			<Flag n="zero" />
+		</_B>
+	</_882E4775CB60D0888CE7CD58883C8C94>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

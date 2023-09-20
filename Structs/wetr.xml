@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:22 PM" Name="weapon_attachment_trigger" Parents="aTag" Index="-476">
+	<_3B92432E75399576E4B5DCB9BD08B096 Name="i343::Weapon::AttachmentTriggerDefinition" Size="150">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="weapon attachment component" Offset="10" GUID="89184EDE128B8F41C1F5C4D699007385" />
+		<_38 Name="weapon attachment trigger component" Offset="128" GUID="27424531773BCC7C8EB54A35A9DE8AFD" />
+	</_3B92432E75399576E4B5DCB9BD08B096>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_89184EDE128B8F41C1F5C4D699007385 Name="i343::Weapon::AttachmentComponentDefinition" Size="118">
+		<_37 Name="Weapon Attachment" type="fgrb" Offset="0" />
+		<_2 Name="variant region name" Offset="0" />
+		<_2 Name="variant permutation name" Offset="4" />
+		<_40 Name="region permutations" Offset="8" GUID="EB864527F5DE3409AAD17E47A7C2911B" StructName1="i343::Weapon::AttachmentComponentDefinition" Min="0" Max="32" />
+		<_40 Name="attachments" Offset="1C" GUID="4775429C11097257EE75453FA775D933" StructName1="i343::Weapon::AttachmentComponentDefinition" Min="0" Max="48" />
+		<_36 Name="Attachment Name" Offset="30" />
+		<_38 Name="attachmentName" Offset="30" GUID="60FC40907166D96B7D15F0919CBF2E1C" />
+		<_40 Name="attachment object" Offset="34" GUID="977C4A1869A0D8182A8D785C9C2CC52E" StructName1="i343::Weapon::AttachmentComponentDefinition" Min="0" Max="8" />
+		<_40 Name="accuracy modifiers" Offset="48" GUID="4ED54A0FDA8879984F1548408F3C1279" StructName1="i343::Weapon::AttachmentComponentDefinition" Min="0" Max="1" />
+		<_40 Name="precision aim modifiers" Offset="5C" GUID="313B462480940841968E582D8E656F54" StructName1="i343::Weapon::AttachmentComponentDefinition" Min="0" Max="1" />
+		<_40 Name="unit modifiers" Offset="70" GUID="9FFE4926C17F9F4075A7D92A8E7BB7BB" StructName1="i343::Weapon::AttachmentComponentDefinition" Min="0" Max="1" />
+		<_40 Name="aim assist modifiers" Offset="84" GUID="28A048142CB7BA74318118C4932A7D0D" StructName1="i343::Weapon::AttachmentComponentDefinition" Min="0" Max="1" />
+		<_41 Name="aim assist reference" Offset="98" Allowed="weaa" Flags="0" />
+		<_40 Name="recoil view kick modifiers" Offset="B4" GUID="09B745EE867B6CEBB6000AB4940C8734" StructName1="i343::Weapon::AttachmentComponentDefinition" Min="0" Max="1" />
+		<_40 Name="recoil gunkick modifiers" Offset="C8" GUID="0B164408C0B6345AA19436C088DE6B98" StructName1="i343::Weapon::AttachmentComponentDefinition" Min="0" Max="1" />
+		<_40 Name="animation modifiers" Offset="DC" GUID="B5F64356F921D36C6B56B174AEEFB15B" StructName1="i343::Weapon::AttachmentComponentDefinition" Min="0" Max="1" />
+		<_40 Name="heat modifiers" Offset="F0" GUID="B8B1469C4A20A34AC05E9733A66AB0BD" StructName1="i343::Weapon::AttachmentComponentDefinition" Min="0" Max="1" />
+		<_40 Name="UI display info" Offset="104" GUID="52C6472B6BB873FD804507D0909B9077" StructName1="i343::Weapon::AttachmentComponentDefinition" Min="0" Max="1" />
+		<_37 Name="" type="fgre" Offset="118" />
+	</_89184EDE128B8F41C1F5C4D699007385>
+	<_27424531773BCC7C8EB54A35A9DE8AFD Name="i343::Weapon::AttachmentTriggerComponentDefinition" Size="28">
+		<_37 Name="Weapon Trigger" type="fgrb" Offset="0" />
+		<_40 Name="primary trigger override" Offset="0" GUID="A6E7476008D63A10A00455AAA66924A0" StructName1="i343::Weapon::AttachmentTriggerComponentDefinition" Min="0" Max="1" />
+		<_40 Name="secondary trigger override" Offset="14" GUID="A6E7476008D63A10A00455AAA66924A0" StructName1="i343::Weapon::AttachmentTriggerComponentDefinition" Min="0" Max="1" />
+		<_37 Name="" type="fgre" Offset="28" />
+	</_27424531773BCC7C8EB54A35A9DE8AFD>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_EB864527F5DE3409AAD17E47A7C2911B Name="i343::Weapon::AttachmentRegionPermutationDefinition" Size="8">
+		<_2 Name="region name" Offset="0" />
+		<_2 Name="permutation name" Offset="4" />
+	</_EB864527F5DE3409AAD17E47A7C2911B>
+	<_4775429C11097257EE75453FA775D933 Name="object_attachment_definition" Size="D0">
+		<_2 Name="name" Offset="0" />
+		<_41 Name="type" Offset="4" Allowed="tagg, ligh, gldf, ltvl, effe, lsnd, lens, cpem, egfd, decs" Flags="1" />
+		<_41 Name="tag graph output" Offset="20" Allowed="ligh, gldf, ltvl, effe, lsnd, lens, cpem, egfd, decs" Flags="0" />
+		<_2 Name="output node name" type="sted" Offset="3C" />
+		<_40 Name="tag graph float params" Offset="40" GUID="217941128AACE34BC7334D2EA8F6C67D" StructName1="object_attachment_definition" Min="0" Max="10" />
+		<_40 Name="tag graph bool params" Offset="54" GUID="80204605BFA6F4BF93CDD10F96C1C2B9" StructName1="object_attachment_definition" Min="0" Max="10" />
+		<_40 Name="taggraph instance variables - strings" Offset="68" GUID="AF7648E707ABAC2BFB95694D48E79C90" StructName1="object_attachment_definition" Min="0" Max="10" />
+		<_40 Name="taggraph instance variables - tag references" Offset="7C" GUID="75F34BCE26A27E545DB61B22BEC316D9" StructName1="object_attachment_definition" Min="0" Max="10" />
+		<_41 Name="override type" Offset="90" Allowed="ligh, gldf, ltvl, effe, lsnd, lens, cpem, egfd, decs" Flags="0" />
+		<_36 Name="variant names" Offset="AC" />
+		<_40 Name="variant names" Offset="AC" GUID="727F437E3853EE60753D9D508599809E" StructName1="object_attachment_definition" Min="0" Max="64" />
+		<_37 Name="" type="amkr" Offset="C0" />
+		<_2 Name="marker" Offset="C0" />
+		<_A Name="change color" Offset="C4" StructName1="e_change_color_reference">
+			<Flag n="none" />
+			<Flag n="primary" />
+			<Flag n="secondary" />
+			<Flag n="tertiary" />
+			<Flag n="quaternary" />
+		</_A>
+		<_F Name="flags" Offset="C5" StructName1="i343::Objects::AttachmentDefinitionFlags">
+			<Flag n="always create" />
+			<Flag n="effect size scale from object scale" />
+			<Flag n="update on create" />
+			<Flag n="always update" />
+		</_F>
+		<_34 Name="generated_padbd3f" Offset="C6" Length="2" />
+		<_2 Name="primary scale" type="sted" Offset="C8" />
+		<_2 Name="secondary scale" type="sted" Offset="CC" />
+	</_4775429C11097257EE75453FA775D933>
+	<_60FC40907166D96B7D15F0919CBF2E1C Name="i343::Damage::AttachmentNameDefinition" Size="4">
+		<_2 Name="Attachment Name" Offset="0" />
+	</_60FC40907166D96B7D15F0919CBF2E1C>
+	<_977C4A1869A0D8182A8D785C9C2CC52E Name="i343::Weapon::AttachmentObjectComponentDefinition" Size="24">
+		<_41 Name="object" Offset="0" Allowed="obje" Flags="0" />
+		<_2 Name="weapon marker" Offset="1C" />
+		<_2 Name="attachment marker" Offset="20" />
+	</_977C4A1869A0D8182A8D785C9C2CC52E>
+	<_4ED54A0FDA8879984F1548408F3C1279 Name="i343::Weapon::AccuracyPropertyModifiersDefinition" Size="4">
+		<_14 Name="accuracy spread" Offset="0" />
+	</_4ED54A0FDA8879984F1548408F3C1279>
+	<_313B462480940841968E582D8E656F54 Name="i343::Weapon::PrecisionAimPropertyModifiersDefinition" Size="8">
+		<_14 Name="precision transition in time modifier" Offset="0" />
+		<_14 Name="precision transition out time modifier" Offset="4" />
+	</_313B462480940841968E582D8E656F54>
+	<_9FFE4926C17F9F4075A7D92A8E7BB7BB Name="i343::Weapon::UnitPropertyModifiersDefinition" Size="C">
+		<_14 Name="move speed scale modifier" Offset="0" />
+		<_14 Name="turn rate scale modifier" Offset="4" />
+		<_14 Name="simulated input scale modifier" Offset="8" />
+	</_9FFE4926C17F9F4075A7D92A8E7BB7BB>
+	<_28A048142CB7BA74318118C4932A7D0D Name="i343::Weapon::AimAssistPropertyModifiersDefinition" Size="28">
+		<_14 Name="autoaim angle" Offset="0" />
+		<_14 Name="prioritization angle" Offset="4" />
+		<_14 Name="autoaim range" Offset="8" />
+		<_14 Name="autoaim falloff range" Offset="C" />
+		<_14 Name="autoaim near falloff range" Offset="10" />
+		<_14 Name="magnetism angle" Offset="14" />
+		<_14 Name="magnetism range" Offset="18" />
+		<_14 Name="magnetism falloff range" Offset="1C" />
+		<_14 Name="magnetism near falloff range" Offset="20" />
+		<_14 Name="deviation angle" Offset="24" />
+	</_28A048142CB7BA74318118C4932A7D0D>
+	<_09B745EE867B6CEBB6000AB4940C8734 Name="i343::Weapon::RecoilViewKickPropertyModifiersDefinition" Size="8">
+		<_14 Name="view kick deceleration modifier" Offset="0" />
+		<_14 Name="view kick return to center modifier" Offset="4" />
+	</_09B745EE867B6CEBB6000AB4940C8734>
+	<_0B164408C0B6345AA19436C088DE6B98 Name="i343::Weapon::RecoilGunkickPropertyModifiersDefinition" Size="4">
+		<_14 Name="gunkick spring constant modifier" Offset="0" />
+	</_0B164408C0B6345AA19436C088DE6B98>
+	<_B5F64356F921D36C6B56B174AEEFB15B Name="i343::Weapon::AnimationPropertyModifiersDefinition" Size="14">
+		<_14 Name="ready playback speed modifier" Offset="0" />
+		<_14 Name="ready initial playback modifier" Offset="4" />
+		<_14 Name="put away playback speed modifier" Offset="8" />
+		<_14 Name="reload playback speed modifier" Offset="C" />
+		<_14 Name="reload while empty playback speed modifier" Offset="10" />
+	</_B5F64356F921D36C6B56B174AEEFB15B>
+	<_B8B1469C4A20A34AC05E9733A66AB0BD Name="i343::Weapon::HeatPropertyModifiersDefinition" Size="C">
+		<_14 Name="heat loss per second modifier" Offset="0" />
+		<_14 Name="overheated heat loss per second modifier" Offset="4" />
+		<_14 Name="heat generated per round modifier" Offset="8" />
+	</_B8B1469C4A20A34AC05E9733A66AB0BD>
+	<_52C6472B6BB873FD804507D0909B9077 Name="Interface::UIItemInfo" Size="74">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="alt name " Offset="4" />
+		<_2 Name="description" Offset="8" />
+		<_2 Name="help text" Offset="C" />
+		<_2 Name="icon string id" Offset="10" />
+		<_41 Name="sprite" Offset="14" Allowed="bitm" Flags="0" />
+		<_6 Name="sprite index" Offset="30" />
+		<_41 Name="alt sprite" Offset="34" Allowed="bitm" Flags="0" />
+		<_6 Name="alt sprite index" Offset="50" />
+		<_6 Name="damage sprite index" Offset="54" />
+		<_41 Name="ui vehicle screen reference" Offset="58" Allowed="cusc" Flags="0" />
+	</_52C6472B6BB873FD804507D0909B9077>
+	<_A6E7476008D63A10A00455AAA66924A0 Name="i343::Weapon::TriggerOverrideDefinition" Size="14">
+		<_40 Name="trigger override" Offset="0" GUID="BE294D3A98B7CDA29BD7F5558EE80C1C" StructName1="i343::Weapon::TriggerOverrideDefinition" Min="0" Max="1" />
+	</_A6E7476008D63A10A00455AAA66924A0>
+	<_217941128AACE34BC7334D2EA8F6C67D Name="TagGraph::TagGraphFloatParam" Size="8">
+		<_2 Name="name" type="sted" Offset="0" />
+		<_14 Name="value" Offset="4" />
+	</_217941128AACE34BC7334D2EA8F6C67D>
+	<_80204605BFA6F4BF93CDD10F96C1C2B9 Name="TagGraph::TagGraphBoolParam" Size="8">
+		<_2 Name="name" type="sted" Offset="0" />
+		<_F Name="value" Offset="4" StructName1="TagGraph::TagGraphBoolVariableValue">
+			<Flag n="value" />
+		</_F>
+		<_34 Name="generated_pad0473" Offset="5" Length="3" />
+	</_80204605BFA6F4BF93CDD10F96C1C2B9>
+	<_AF7648E707ABAC2BFB95694D48E79C90 Name="TagGraph::TagGraphInstanceVariableString" Size="8">
+		<_2 Name="name" type="sted" Offset="0" />
+		<_2 Name="value" Offset="4" />
+	</_AF7648E707ABAC2BFB95694D48E79C90>
+	<_75F34BCE26A27E545DB61B22BEC316D9 Name="TagGraph::TagGraphInstanceVariableTagRef" Size="20">
+		<_2 Name="name" type="sted" Offset="0" />
+		<_41 Name="value" Offset="4" Allowed="aTag" Flags="0" />
+	</_75F34BCE26A27E545DB61B22BEC316D9>
+	<_727F437E3853EE60753D9D508599809E Name="i343::Objects::AttachmentVariantName" Size="4">
+		<_2 Name="variant name" type="sted" Offset="0" />
+	</_727F437E3853EE60753D9D508599809E>
+	<_BE294D3A98B7CDA29BD7F5558EE80C1C Name="i343::Weapon::WeaponTriggerChargingOverride" Size="B8">
+		<_38 Name="charging" Offset="0" GUID="D9FD48DD2A90D1863B897118879003FA" />
+	</_BE294D3A98B7CDA29BD7F5558EE80C1C>
+	<_D9FD48DD2A90D1863B897118879003FA Name="i343::Weapon::TriggerChargingDefinition" Size="B8">
+		<_36 Name="CHARGING" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="i343::Weapon::ChargingDefinitionFlags">
+			<Flag n="can fire spew fraction from partial charge" />
+			<Flag n="limit to current rounds loaded" />
+			<Flag n="Wont charge unless tracked target is valid" />
+			<Flag n="disallow fire from partial charge" />
+			<Flag n="melee dash on releasing charge" />
+			<Flag n="wait for idle magazines" />
+			<Flag n="do not charge if the barrel cannot fire" />
+			<Flag n="do not charge if not enough ammo available to fire" />
+			<Flag n="spew while charging" />
+		</_E>
+		<_A Name="charging initiation mechanism" Offset="2" StructName1="i343::Weapon::TriggerChargeInitiationMechanism">
+			<Flag n="press and hold trigger" />
+			<Flag n="auto charge" />
+			<Flag n="auto charge in ADS" />
+		</_A>
+		<_A Name="overcharged action" Offset="3" StructName1="i343::Weapon::TriggerOverchargedAction">
+			<Flag n="none" />
+			<Flag n="explode" />
+			<Flag n="discharge" />
+		</_A>
+		<_14 Name="charging time" Offset="4" />
+		<_14 Name="charged time" Offset="8" />
+		<_3D Name="cancelled trigger throw" Offset="C" />
+		<_34 Name="generated_padfd33" Offset="E" Length="2" />
+		<_14 Name="charged illumination" Offset="10" />
+		<_41 Name="charging effect" Offset="14" Allowed="snd!, effe" Flags="0" />
+		<_41 Name="charging damage effect" Offset="30" Allowed="jpt!, drdf" Flags="0" />
+		<_41 Name="charging continuous damage response" Offset="4C" Allowed="drdf" Flags="0" />
+		<_14 Name="charged drain rate" Offset="68" />
+		<_41 Name="discharge effect" Offset="6C" Allowed="snd!, effe" Flags="0" />
+		<_41 Name="discharge damage effect" Offset="88" Allowed="jpt!, drdf" Flags="0" />
+		<_40 Name="fire fractions" Offset="A4" GUID="8986456E59082A5C229B0B5EBF034B9A" StructName1="i343::Weapon::TriggerChargingDefinition" Min="0" Max="16" />
+	</_D9FD48DD2A90D1863B897118879003FA>
+	<_8986456E59082A5C229B0B5EBF034B9A Name="i343::Weapon::TiggerChargingFireFractions" Size="4">
+		<_15 Name="charge fraction" Offset="0" />
+	</_8986456E59082A5C229B0B5EBF034B9A>
+</root>

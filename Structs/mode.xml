@@ -1,0 +1,901 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="render_model" Parents="aTag" Index="-256">
+	<_07F94EB669FF7DC3BBF9621CA4788DFF Name="render_model_definition" Size="298">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_2 Name="name" Offset="10" />
+		<_E Name="flags" Offset="14" StructName1="RenderModelFlags">
+			<Flag n="is hologram" />
+			<Flag n="has node maps" />
+			<Flag n="LOD regions enabled" />
+			<Flag n="has custom shadow meshes" />
+			<Flag n="is hologram lofi" />
+			<Flag n="has skinned tree parts" />
+			<Flag n="Supports Material Coatings" />
+			<Flag n="Requires Hologram Prepass" />
+		</_E>
+		<_3D Name="version" Offset="16" />
+		<_C Name="mesh resource packing policy" Offset="18" StructName1="RenderModelMeshResourcePackingPolicy">
+			<Flag n="Single resource" />
+			<Flag n="Resource per mesh permutation" />
+		</_C>
+		<_A Name="Default Load Variant Policy" Offset="1C" StructName1="RenderModelDefaultLoadVariantPolicy">
+			<Flag n="All Variants" />
+			<Flag n="First Variant" />
+			<Flag n="No Variant" />
+		</_A>
+		<_34 Name="generated_padd53e" Offset="1D" Length="3" />
+		<_6 Name="Number of LODS to make required memory" Offset="20" />
+		<_37 Name="" type="dnc+" Offset="24" />
+		<_6 Name="runtime import info checksum" Offset="24" />
+		<_37 Name="" type="dnc-" Offset="28" />
+		<_40 Name="regions" type="slap" Offset="28" GUID="B76B42D75F23BC111DEE5813A38C6C46" StructName1="render_model_definition" Min="0" Max="32" />
+		<_6 Name="node list checksum" Offset="3C" />
+		<_40 Name="nodes" type="slap" Offset="40" GUID="D6E3402EB74453B7EFBF22EA8A1587D0" StructName1="render_model_definition" Min="0" Max="1024" />
+		<_40 Name="Bone Settings" type="slap" Offset="54" GUID="5858CB1457A4D1A37C907B64DA36D2B4" StructName1="render_model_definition" Min="0" Max="20" />
+		<_40 Name="marker groups" type="slap" Offset="68" GUID="A9EC4D0DE60694FAF66CBE1589E6238C" StructName1="render_model_definition" Min="0" Max="4096" />
+		<_40 Name="materials" type="slap" Offset="7C" GUID="34A54DC5B1135973B0B5E57399901631" StructName1="render_model_definition" Min="0" Max="10240" />
+		<_40 Name="errors" type="slap" Offset="90" GUID="CA074D833CBB78D58E13F4968994291A" StructName1="render_model_definition" Min="0" Max="512" />
+		<_14 Name="don't draw over camera cosine angle" Offset="A4" />
+		<_38 Name="render geometry" Offset="A8" GUID="8FB042BA97D423E43A363C6CB0E025A9" />
+		<_40 Name="node map mapping" type="slap" Offset="1F8" GUID="0221F3EF1119ACFD8441FBB838131BEE" StructName1="render_model_definition" Min="0" Max="1024" />
+		<_40 Name="runtime node orientations" type="slap" Offset="20C" GUID="41D84244A3A5979BA5CD38C9A1400226" StructName1="render_model_definition" Min="0" Max="1024" />
+		<_40 Name="bone groups" type="slap" Offset="220" GUID="A7D74D0A0CECE1830A8E8A6DA78A641B" StructName1="render_model_definition" Min="0" Max="64" />
+		<_40 Name="cloth meshes" Offset="234" GUID="A4EB427A558222EAC0FC9843AF41F23D" StructName1="render_model_definition" Min="0" Max="256" />
+		<_40 Name="cloth datas" Offset="248" GUID="BCB743B774DA5CD4BFCCD04AA7556654" StructName1="render_model_definition" Min="0" Max="256" />
+		<_41 Name="parent model" Offset="25C" Allowed="hlmt" Flags="2" />
+		<_40 Name="MaterialPipelineStateInfos" Offset="278" GUID="8BADC0F61C6CF51AF0653C2A07DB8082" StructName1="render_model_definition" Min="0" Max="10240" />
+		<_34 Name="generated_pad21f3" Offset="28C" Length="4" />
+		<_7 Name="m_instanceGroupPipelineStateCache" Offset="290" />
+	</_07F94EB669FF7DC3BBF9621CA4788DFF>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_B76B42D75F23BC111DEE5813A38C6C46 Name="region" Name2="render_model_region" Size="18">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="permutations" type="slap" Offset="4" GUID="064B40BE7900DDE2878B35EB8F806330" StructName1="region" StructName2="render_model_region" Min="0" Max="1023" />
+	</_B76B42D75F23BC111DEE5813A38C6C46>
+	<_D6E3402EB74453B7EFBF22EA8A1587D0 Name="node" Name2="render_model_node" Size="7C">
+		<_2 Name="name" Offset="0" />
+		<_2E Name="parent node" Offset="4" GUID="D6E3402EB74453B7EFBF22EA8A1587D0" StructName1="node" StructName2="render_model_node" Min="0" Max="1024" />
+		<_2E Name="first child node" Offset="6" GUID="D6E3402EB74453B7EFBF22EA8A1587D0" StructName1="node" StructName2="render_model_node" Min="0" Max="1024" />
+		<_2E Name="next sibling node" Offset="8" GUID="D6E3402EB74453B7EFBF22EA8A1587D0" StructName1="node" StructName2="render_model_node" Min="0" Max="1024" />
+		<_E Name="flags" Offset="A" StructName1="RenderModelNodeFlags">
+			<Flag n="forceDeterministic" />
+			<Flag n="forceRenderthread" />
+		</_E>
+		<_17 Name="default translation" Offset="C" />
+		<_1A Name="default rotation" Offset="18" />
+		<_19 Name="inverse forward" Offset="28" />
+		<_19 Name="inverse left" Offset="34" />
+		<_19 Name="inverse up" Offset="40" />
+		<_17 Name="inverse position" Offset="4C" />
+		<_14 Name="inverse scale" Offset="58" />
+		<_14 Name="distance from parent" Offset="5C" />
+		<_37 Name="Procedural Joint" type="fgrb" Offset="60" />
+		<_A Name="procedure" Offset="60" StructName1="e_render_model_node_procedure">
+			<Flag n="NONE" />
+			<Flag n="multiply rotation" />
+			<Flag n="copy_scaled_twist" />
+			<Flag n="look_at" />
+			<Flag n="copy_local_orientation" />
+			<Flag n="copy_scaled_twist_legacy" />
+		</_A>
+		<_A Name="procedure axis" Offset="61" StructName1="e_render_model_node_procedure_axis">
+			<Flag n="ALL" />
+			<Flag n="Yaw (Maya Y)" />
+			<Flag n="Pitch (Maya X)" />
+			<Flag n="Roll (Maya Z)" />
+		</_A>
+		<_3C Name="procedure index" Offset="62" />
+		<_34 Name="generated_pad3a2d" Offset="63" Length="1" />
+		<_2E Name="procedure node A" Offset="64" GUID="D6E3402EB74453B7EFBF22EA8A1587D0" StructName1="node" StructName2="render_model_node" Min="0" Max="1024" />
+		<_2E Name="procedure node B" Offset="66" GUID="D6E3402EB74453B7EFBF22EA8A1587D0" StructName1="node" StructName2="render_model_node" Min="0" Max="1024" />
+		<_14 Name="procedure var 1" Offset="68" />
+		<_14 Name="procedure var 2" Offset="6C" />
+		<_1C Name="procedure neutral offset" Offset="70" />
+		<_37 Name="" type="fgre" Offset="7C" />
+	</_D6E3402EB74453B7EFBF22EA8A1587D0>
+	<_5858CB1457A4D1A37C907B64DA36D2B4 Name="Bone Physics" Name2="i343::Model::BonePhysicsDefinition" Size="10">
+		<_2E Name="Node" Offset="0" GUID="D6E3402EB74453B7EFBF22EA8A1587D0" StructName1="Bone Physics" StructName2="i343::Model::BonePhysicsDefinition" Min="0" Max="1024" />
+		<_34 Name="generated_pad07da" Offset="2" Length="2" />
+		<_14 Name="Spring Coefficient" Offset="4" />
+		<_15 Name="Dampening Fraction[0-1]" Offset="8" />
+		<_8 Name="Max Angle" Offset="C" />
+	</_5858CB1457A4D1A37C907B64DA36D2B4>
+	<_A9EC4D0DE60694FAF66CBE1589E6238C Name="marker group" Name2="render_model_marker_group" Size="18">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="markers" Offset="4" GUID="39874D92D7CC940F0AF0AC68808A0C39" StructName1="marker group" StructName2="render_model_marker_group" Min="0" Max="4096" />
+	</_A9EC4D0DE60694FAF66CBE1589E6238C>
+	<_34A54DC5B1135973B0B5E57399901631 Name="geometry_material" Size="1C">
+		<_41 Name="material" Offset="0" Allowed="mat " Flags="0" />
+	</_34A54DC5B1135973B0B5E57399901631>
+	<_CA074D833CBB78D58E13F4968994291A Name="error_report_category" Size="120">
+		<_1 Name="name" Offset="0" />
+		<_A Name="report type" Offset="100" StructName1="ErrorReportTypes">
+			<Flag n="silent" />
+			<Flag n="comment" />
+			<Flag n="warning" />
+			<Flag n="error" />
+		</_A>
+		<_34 Name="generated_padf276" Offset="101" Length="1" />
+		<_E Name="flags" Offset="102" StructName1="ErrorReportFlags">
+			<Flag n="rendered" />
+			<Flag n="tangent-space" />
+			<Flag n="non-critical" />
+			<Flag n="lightmap light" />
+			<Flag n="report key is valid" />
+		</_E>
+		<_3D Name="runtime generation flags" Offset="104" />
+		<_34 Name="generated_pad3f2b" Offset="106" Length="2" />
+		<_6 Name="runtime something" Offset="108" />
+		<_40 Name="reports" Offset="10C" GUID="3227499FEE6AAB2040FCAA9E914508D6" StructName1="error_report_category" Min="0" Max="1048576" />
+	</_CA074D833CBB78D58E13F4968994291A>
+	<_8FB042BA97D423E43A363C6CB0E025A9 Name="s_render_geometry" Size="150">
+		<_D Name="runtime flags" Offset="0" StructName1="RenderGeometryFlags">
+			<Flag n="processed" />
+			<Flag n="available" />
+			<Flag n="has valid budgets (really)" />
+			<Flag n="manual resource creation" />
+			<Flag n="keep raw geometry" />
+			<Flag n="dont use compressed vertex positions" />
+			<Flag n="pca animation table sorted" />
+			<Flag n="has dual quat" />
+			<Flag n="mesh streaming" />
+		</_D>
+		<_40 Name="meshes import info" Offset="4" GUID="883D4E7D67FAC4968DFF93F7B794F7A2" StructName1="s_render_geometry" Min="0" Max="8191" />
+		<_40 Name="meshes" Offset="18" GUID="A7C04CC8EBB348BBA5A99C7DA6E51515" StructName1="s_render_geometry" Min="0" Max="8191" />
+		<_40 Name="PCA Mesh Indices" Offset="2C" GUID="1F274D1647C61323CCA9FFA597CD4802" StructName1="s_render_geometry" Min="0" Max="8191" />
+		<_40 Name="compression info" Offset="40" GUID="62FF4778FE51FDACA023A96CA8C33054" StructName1="s_render_geometry" Min="0" Max="65536" />
+		<_40 Name="per mesh node map" Offset="54" GUID="2AA6450CC23B20036C50810F8B2497D9" StructName1="s_render_geometry" Min="0" Max="8191" />
+		<_40 Name="Optional animated mesh tag references" Offset="68" GUID="1CBD4D7EF74AC124B2C4E377BB4B2E2D" StructName1="s_render_geometry" Min="0" Max="64" />
+		<_40 Name="Optional LOD volumes data" Offset="7C" GUID="54E84536D7CC9A5EA18919C9AF913B97" StructName1="s_render_geometry" Min="0" Max="4096" />
+		<_38 Name="mesh package" Offset="90" GUID="78F044A88BBCA247625FBE28BDE44CC0" />
+		<_40 Name="blendshape compression info" Offset="EC" GUID="9AF7420FB700DE5AEE5229CD868B4AF3" StructName1="s_render_geometry" Min="0" Max="65535" />
+		<_40 Name="blendshape Procedural Deformation function list" Offset="100" GUID="F7BA4A0745F051EBF08F18E1890B36E2" StructName1="s_render_geometry" Min="0" Max="65535" />
+		<_40 Name="Procedural Deformation function Remap Table List" Offset="114" GUID="FB6245162643567C58DDA664BD71CC11" StructName1="s_render_geometry" Min="0" Max="65535" />
+		<_40 Name="Deformation parameter default value table from skeleton" Offset="128" GUID="43624166A05BCB61E1B36FB1BA76CDE2" StructName1="s_render_geometry" Min="0" Max="65535" />
+		<_34 Name="generated_paddf2d" Offset="13C" Length="4" />
+		<_7 Name="perMeshPartConstantBuffer" type="nuke" Offset="140" />
+		<_4 Name="target platformization" Offset="148" />
+		<_34 Name="generated_padc54c" Offset="149" Length="7" />
+	</_8FB042BA97D423E43A363C6CB0E025A9>
+	<_0221F3EF1119ACFD8441FBB838131BEE Name="InstanceNodeMapping" Size="2">
+		<_5 Name="instance_node map region node index" Offset="0" />
+	</_0221F3EF1119ACFD8441FBB838131BEE>
+	<_41D84244A3A5979BA5CD38C9A1400226 Name="DefaultNodeOrientations" Size="20">
+		<_1A Name="rotation" Offset="0" />
+		<_17 Name="translation" Offset="10" />
+		<_14 Name="scale" Offset="1C" />
+	</_41D84244A3A5979BA5CD38C9A1400226>
+	<_A7D74D0A0CECE1830A8E8A6DA78A641B Name="bone_group" Name2="RenderModelBoneGroup" Size="18">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="bones" Offset="4" GUID="6EAF447EEA52C9C39B765F308B78348F" StructName1="bone_group" StructName2="RenderModelBoneGroup" Min="0" Max="1024" />
+	</_A7D74D0A0CECE1830A8E8A6DA78A641B>
+	<_A4EB427A558222EAC0FC9843AF41F23D Name="RenderModelClothMesh" Size="40">
+		<_3E Name="nameHash" Offset="0" />
+		<_40 Name="meshIndex" Offset="4" GUID="AE3C4CEDB495B1040FE25E4EB0277A81" StructName1="RenderModelClothMesh" Min="0" Max="64" />
+		<_6 Name="meshLodIndex" Offset="18" />
+		<_E Name="flags" Offset="1C" StructName1="ClothMeshFlags">
+			<Flag n="16 bit indices" />
+		</_E>
+		<_3D Name="numVertexComponents" Offset="1E" />
+		<_6 Name="vertexCount" Offset="20" />
+		<_6 Name="triangleCount" Offset="24" />
+		<_42 Name="geometry" Offset="28" StructName1="RenderModelClothMesh.geometry" Int1="0" Int2="4" Flags="100000" />
+	</_A4EB427A558222EAC0FC9843AF41F23D>
+	<_BCB743B774DA5CD4BFCCD04AA7556654 Name="RenderModelClothData" Size="30">
+		<_6 Name="regionIndex" Offset="0" />
+		<_40 Name="meshIndex" Offset="4" GUID="AE3C4CEDB495B1040FE25E4EB0277A81" StructName1="RenderModelClothData" Min="0" Max="64" />
+		<_42 Name="havokData" Offset="18" StructName1="RenderModelClothData.havokData" Int1="0" Int2="4" Flags="100000" />
+	</_BCB743B774DA5CD4BFCCD04AA7556654>
+	<_8BADC0F61C6CF51AF0653C2A07DB8082 Name="MaterialPipelineStateInfo" Size="20">
+		<_41 Name="shader" Offset="0" Allowed="shdr, shdv, ngfc" Flags="0" />
+		<_A Name="alpha blend mode" Offset="1C" StructName1="AlphaBlendMode">
+			<Flag n="opaque" />
+			<Flag n="additive" />
+			<Flag n="multiply" />
+			<Flag n="alpha_blend" />
+			<Flag n="double_multiply" />
+			<Flag n="pre_multiplied_alpha" />
+			<Flag n="maximum" />
+			<Flag n="multiply_add" />
+			<Flag n="add_src_times_dstalpha" />
+			<Flag n="add_src_times_srcalpha" />
+			<Flag n="inv_alpha_blend" />
+			<Flag n="overdraw_apply" />
+			<Flag n="decal" />
+			<Flag n="minimum" />
+			<Flag n="revsubtract" />
+			<Flag n="alpha_blend_max" />
+			<Flag n="opaque_alpha_blend" />
+			<Flag n="alpha_blend_additive_transparent" />
+			<Flag n="unused0" />
+			<Flag n="decal_alpha_blend" />
+			<Flag n="decal_add_src_times_src_alpha" />
+			<Flag n="decal_multiply_add" />
+			<Flag n="wpf_no_color_blend_mode" />
+			<Flag n="decal opaque" />
+			<Flag n="accumulate_pre_multiplied_alpha" />
+			<Flag n="wpf_blend_mode" />
+			<Flag n="accumulate_multiply_add" />
+			<Flag n="accumulate_alpha_blend" />
+			<Flag n="accumulate_inverse_alpha_blend" />
+			<Flag n="accumulate_additive" />
+			<Flag n="accumulate_additive_transparent" />
+			<Flag n="accumulate_add_src_times_srcalpha" />
+			<Flag n="accumulate_multiply" />
+			<Flag n="alpha_blend_for_display_planes" />
+			<Flag n="texturePainter_SrcAddDestMult" />
+			<Flag n="texturePainter_DestMultSubSrc" />
+			<Flag n="logical OR" />
+			<Flag n="logical AND" />
+			<Flag n="decal_multiply" />
+			<Flag n="decal_double_multiply" />
+			<Flag n="fourChannelAdditive" />
+			<Flag n="wpf_additive_blend_mode" />
+			<Flag n="cloud apply" />
+			<Flag n="subsurfaceScattering_convolution" />
+			<Flag n="reflectionOcclusionMask" />
+			<Flag n="TAA mask Additive" />
+			<Flag n="TAA mask RevSubtract" />
+			<Flag n="TAA mask Multiply" />
+			<Flag n="TAA mask DoubleMultiply" />
+			<Flag n="TAA mask PreMultipliedAlpha" />
+			<Flag n="TAA mask MultiplyAdd" />
+			<Flag n="TAA mask AlphaBlend" />
+			<Flag n="TAA mask AddSrcTimesDstAlpha" />
+			<Flag n="TAA mask AddSrcTimesSrcAlpha" />
+			<Flag n="TAA mask AdditiveTransparent" />
+			<Flag n="TAA mask Alpha Blend for Display Plane" />
+			<Flag n="TAA Velocity Additive" />
+			<Flag n="TAA Velocity RevSubtract" />
+			<Flag n="TAA Velocity Multiply" />
+			<Flag n="TAA Velocity DoubleMultiply" />
+			<Flag n="TAA Velocity PreMultipliedAlpha" />
+			<Flag n="TAA Velocity MultiplyAdd" />
+			<Flag n="TAA Velocity AlphaBlend" />
+			<Flag n="TAA Velocity AddSrcTimesDstAlpha" />
+			<Flag n="TAA Velocity AddSrcTimesSrcAlpha" />
+			<Flag n="TAA Velocity AdditiveTransparent" />
+			<Flag n="TAA Velocity Alpha Blend for Display Plane" />
+			<Flag n="DeferredDecalsResolve" />
+			<Flag n="decal_ao_opaque" />
+			<Flag n="decal_ao_alpha_blend" />
+			<Flag n="decal_sss_blend" />
+			<Flag n="Hud Damage Alpha Blend" />
+		</_A>
+		<_F Name="flags" Offset="1D" StructName1="MaterialPipelineStateInfo::MaterialPipelineStateFlags">
+			<Flag n="transparent write depth" />
+			<Flag n="taa mask" />
+			<Flag n="taa write velocity" />
+			<Flag n="no fog" />
+		</_F>
+		<_34 Name="generated_pad67cc" Offset="1E" Length="2" />
+	</_8BADC0F61C6CF51AF0653C2A07DB8082>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_064B40BE7900DDE2878B35EB8F806330 Name="permutation" Name2="render_model_permutation" Size="C">
+		<_2 Name="name" Offset="0" />
+		<_5 Name="mesh index" Offset="4" />
+		<_3D Name="mesh count" Offset="6" />
+		<_2 Name="clone name" Offset="8" />
+	</_064B40BE7900DDE2878B35EB8F806330>
+	<_39874D92D7CC940F0AF0AC68808A0C39 Name="marker" Name2="render_model_marker" Size="38">
+		<_4 Name="region index" Offset="0" />
+		<_34 Name="generated_padb0cb" Offset="1" Length="3" />
+		<_3E Name="permutation index" Offset="4" />
+		<_3D Name="node index" Offset="8" />
+		<_F Name="flags" Offset="A" StructName1="render_model_marker::Flags">
+			<Flag n="has node relative direction" />
+		</_F>
+		<_34 Name="generated_pad6416" Offset="B" Length="1" />
+		<_17 Name="translation" Offset="C" />
+		<_1A Name="rotation" Offset="18" />
+		<_14 Name="scale" Offset="28" />
+		<_19 Name="direction" Offset="2C" />
+	</_39874D92D7CC940F0AF0AC68808A0C39>
+	<_3227499FEE6AAB2040FCAA9E914508D6 Name="error_report" Size="EC">
+		<_A Name="type" Offset="0" StructName1="ErrorReportTypes">
+			<Flag n="silent" />
+			<Flag n="comment" />
+			<Flag n="warning" />
+			<Flag n="error" />
+		</_A>
+		<_A Name="source" Offset="1" StructName1="e_error_report_source">
+			<Flag n="none" />
+			<Flag n="structure" />
+			<Flag n="poop" />
+			<Flag n="lightmap" />
+			<Flag n="pathfinding" />
+		</_A>
+		<_E Name="flags" Offset="2" StructName1="ErrorReportFlags">
+			<Flag n="rendered" />
+			<Flag n="tangent-space" />
+			<Flag n="non-critical" />
+			<Flag n="lightmap light" />
+			<Flag n="report key is valid" />
+		</_E>
+		<_42 Name="text" Offset="4" StructName1="error_report.text" Int1="2" Int2="0" Flags="2000" />
+		<_6 Name="source identifier" Offset="1C" />
+		<_0 Name="source filename" Offset="20" />
+		<_6 Name="source line number" Offset="40" />
+		<_40 Name="vertices" Offset="44" GUID="A884463DB44D11D10E390450B9552513" StructName1="error_report" Min="0" Max="1048576" />
+		<_40 Name="vectors" Offset="58" GUID="0B4E4E8DF617E03802745E1FAF4F86B9" StructName1="error_report" Min="0" Max="1048576" />
+		<_40 Name="lines" Offset="6C" GUID="604A43561C172D3CE0CA82848F1BDE48" StructName1="error_report" Min="0" Max="1048576" />
+		<_40 Name="triangles" Offset="80" GUID="001244E3F926E7612B96347A85173116" StructName1="error_report" Min="0" Max="1048576" />
+		<_40 Name="quads" Offset="94" GUID="E7D84305D1071621C52955BF8AEA9FCC" StructName1="error_report" Min="0" Max="1048576" />
+		<_40 Name="comments" Offset="A8" GUID="DEA34617709A9566DB6DE9508AFF50B9" StructName1="error_report" Min="0" Max="1048576" />
+		<_6 Name="report key" Offset="BC" />
+		<_6 Name="node index" Offset="C0" />
+		<_25 Name="bounds x" Offset="C4" />
+		<_25 Name="bounds y" Offset="CC" />
+		<_25 Name="bounds z" Offset="D4" />
+		<_20 Name="color" Offset="DC" />
+	</_3227499FEE6AAB2040FCAA9E914508D6>
+	<_883D4E7D67FAC4968DFF93F7B794F7A2 Name="MeshImportInfo" Size="2C">
+		<_3E Name="CRC" Offset="0" />
+		<_17 Name="position bounds 0" Offset="4" />
+		<_17 Name="position bounds 1" Offset="10" />
+		<_16 Name="texcoord bounds 0" Offset="1C" />
+		<_16 Name="texcoord bounds 1" Offset="24" />
+	</_883D4E7D67FAC4968DFF93F7B794F7A2>
+	<_A7C04CC8EBB348BBA5A99C7DA6E51515 Name="s_mesh" Size="3C">
+		<_40 Name="LOD render data" Offset="0" GUID="883D4E7D67FAC4978DFF93F8B794F7A2" StructName1="s_mesh" Min="0" Max="16" />
+		<_E Name="mesh flags" Offset="14" StructName1="MeshFlags">
+			<Flag n="mesh has vertex color" />
+			<Flag n="use region index for sorting" />
+			<Flag n="can be rendered in draw bundles" />
+			<Flag n="mesh is custom shadow caster" />
+			<Flag n="mesh is unindexed (do not modify)" />
+			<Flag n="mash should render in z prepass" />
+			<Flag n="use uncompressed vertex format" />
+			<Flag n="mesh is PCA" />
+			<Flag n="mesh has a useful set of second texture coords" />
+			<Flag n="mesh has a useful set of third texture coords" />
+			<Flag n="Use UV3 Tangent Rotation" />
+		</_E>
+		<_3C Name="rigid node index" Offset="16" />
+		<_A Name="vertex type" Offset="17" StructName1="VertexType">
+			<Flag n="world" />
+			<Flag n="rigid" />
+			<Flag n="skinned" />
+			<Flag n="particle_model" />
+			<Flag n="screen" />
+			<Flag n="debug" />
+			<Flag n="transparent" />
+			<Flag n="particle" />
+			<Flag n="removed08" />
+			<Flag n="removed09" />
+			<Flag n="chud_simple" />
+			<Flag n="decorator" />
+			<Flag n="position only" />
+			<Flag n="removed13" />
+			<Flag n="ripple" />
+			<Flag n="removed15" />
+			<Flag n="tessellatedTerrain" />
+			<Flag n="empty" />
+			<Flag n="decal" />
+			<Flag n="removed19" />
+			<Flag n="removed20" />
+			<Flag n="position_only" />
+			<Flag n="tracer" />
+			<Flag n="rigid_boned" />
+			<Flag n="removed24" />
+			<Flag n="CheapParticle" />
+			<Flag n="dq_skinned" />
+			<Flag n="skinned 8 weights" />
+			<Flag n="tessellated vector" />
+			<Flag n="interaction" />
+			<Flag n="number of standard vertex types" />
+		</_A>
+		<_4 Name="use dual quat" Offset="18" />
+		<_A Name="index buffer type" Offset="19" StructName1="IndexBufferPrimitiveType">
+			<Flag n="DEFAULT" />
+			<Flag n="line list" />
+			<Flag n="line strip" />
+			<Flag n="triangle list" />
+			<Flag n="triangle patch" />
+			<Flag n="triangle strip" />
+			<Flag n="quad list" />
+		</_A>
+		<_5 Name="pca mesh index" Offset="1A" />
+		<_40 Name="vertex keys" Offset="1C" GUID="570F4E4EDAD1C118860BB1E0AF86840B" StructName1="s_mesh" Min="0" Max="16777216" />
+		<_2E Name="clone index" Offset="30" GUID="A7C04CC8EBB348BBA5A99C7DA6E51515" StructName1="s_mesh" Min="0" Max="8191" />
+		<_5 Name="optional LOD volume index" Offset="32" />
+		<_5 Name="Procedural Deformation Remap Table" Offset="34" />
+		<_34 Name="generated_pad8fb3" Offset="36" Length="2" />
+		<_6 Name="lod state cache slot" Offset="38" />
+	</_A7C04CC8EBB348BBA5A99C7DA6E51515>
+	<_1F274D1647C61323CCA9FFA597CD4802 Name="PCAMeshIndex" Size="4">
+		<_30 Name="mesh index" Offset="0" GUID="A7C04CC8EBB348BBA5A99C7DA6E51515" StructName1="PCAMeshIndex" Min="0" Max="8191" />
+	</_1F274D1647C61323CCA9FFA597CD4802>
+	<_62FF4778FE51FDACA023A96CA8C33054 Name="s_compression_info" Size="54">
+		<_E Name="compression flags" Offset="0" StructName1="CompressionFlags">
+			<Flag n="compressed position" />
+			<Flag n="compressed texcoord" />
+			<Flag n="compression optimized" />
+		</_E>
+		<_34 Name="generated_pad1711" Offset="2" Length="2" />
+		<_36 Name="WARNING" Offset="4" />
+		<_17 Name="position bounds 0" Offset="4" />
+		<_17 Name="position bounds 1" Offset="10" />
+		<_16 Name="texcoord bounds 0" Offset="1C" />
+		<_16 Name="texcoord bounds 1" Offset="24" />
+		<_16 Name="texcoord bounds2 0" Offset="2C" />
+		<_16 Name="texcoord bounds2 1" Offset="34" />
+		<_16 Name="texcoord bounds3 0" Offset="3C" />
+		<_16 Name="texcoord bounds3 1" Offset="44" />
+		<_14 Name="unused0" Offset="4C" />
+		<_14 Name="unused1" Offset="50" />
+	</_62FF4778FE51FDACA023A96CA8C33054>
+	<_2AA6450CC23B20036C50810F8B2497D9 Name="s_per_mesh_node_map" Size="14">
+		<_40 Name="node map" Offset="0" GUID="0EC6490D77DB2A4A3026F880822EA727" StructName1="s_per_mesh_node_map" Min="0" Max="255" />
+	</_2AA6450CC23B20036C50810F8B2497D9>
+	<_1CBD4D7EF74AC124B2C4E377BB4B2E2D Name="RenderGeometryAnimatedMeshRef" Size="20">
+		<_41 Name="Animated mesh tag reference" Offset="0" Allowed="ames" Flags="0" />
+		<_2 Name="Name" Offset="1C" />
+	</_1CBD4D7EF74AC124B2C4E377BB4B2E2D>
+	<_54E84536D7CC9A5EA18919C9AF913B97 Name="s_render_geometry_lod_volume" Size="2C">
+		<_17 Name="position bounds 0" Offset="0" />
+		<_17 Name="position bounds 1" Offset="C" />
+		<_40 Name="position data" Offset="18" GUID="B52E4111684EF46DEEFB1C9E8E20FEFB" StructName1="s_render_geometry_lod_volume" Min="0" Max="65535" />
+	</_54E84536D7CC9A5EA18919C9AF913B97>
+	<_78F044A88BBCA247625FBE28BDE44CC0 Name="RenderGeometryMeshPackage" Size="5C">
+		<_3D Name="flags" Offset="0" />
+		<_B Name="mesh resource packing policy" Offset="2" StructName1="RenderGeometryMeshPackage::Policy">
+			<Flag n="Single Resource" />
+			<Flag n="N Meshes Per Resource" />
+		</_B>
+		<_3D Name="total index buffer count" Offset="4" />
+		<_3D Name="total vertex buffer count" Offset="6" />
+		<_3D Name="total raytracing metadata count" Offset="8" />
+		<_34 Name="generated_pad4c35" Offset="A" Length="2" />
+		<_40 Name="mesh resource groups" Offset="C" GUID="41C34C98211C66F6E044689C99478E8C" StructName1="RenderGeometryMeshPackage" Min="0" Max="16384" />
+		<_40 Name="index resource look up" Offset="20" GUID="05754FE2B12CFDD4480A4799BAE034FB" StructName1="RenderGeometryMeshPackage" Min="0" Max="16384" />
+		<_40 Name="vertex resource look up" Offset="34" GUID="05754FE2B12CFDD4480A4799BAE034FB" StructName1="RenderGeometryMeshPackage" Min="0" Max="16384" />
+		<_40 Name="raytracing resource look up" Offset="48" GUID="05754FE2B12CFDD4480A4799BAE034FB" StructName1="RenderGeometryMeshPackage" Min="0" Max="16384" />
+	</_78F044A88BBCA247625FBE28BDE44CC0>
+	<_9AF7420FB700DE5AEE5229CD868B4AF3 Name="s_blendshape_compression_info" Size="44">
+		<_17 Name="position scale" Offset="0" />
+		<_17 Name="position offset" Offset="C" />
+		<_17 Name="normal scale" Offset="18" />
+		<_17 Name="normal offset" Offset="24" />
+		<_40 Name="raw target hash name" Offset="30" GUID="5EA5497873514B8E39E1C24C8AAA440D" StructName1="s_blendshape_compression_info" Min="0" Max="67108864" />
+	</_9AF7420FB700DE5AEE5229CD868B4AF3>
+	<_F7BA4A0745F051EBF08F18E1890B36E2 Name="RenderGeometryProceduralDeformation" Size="18">
+		<_40 Name="parameter list" Offset="0" GUID="B8624F3F50829B5859DBA60E9808AA62" StructName1="RenderGeometryProceduralDeformation" Min="0" Max="65535" />
+		<_2 Name="Procedural deformation function name" Offset="14" />
+	</_F7BA4A0745F051EBF08F18E1890B36E2>
+	<_FB6245162643567C58DDA664BD71CC11 Name="RenderGeometryProceduralRemapTable" Size="14">
+		<_40 Name="Procedural Remap Table" Offset="0" GUID="FC5B45B592F5E99B688E96A8A594973C" StructName1="RenderGeometryProceduralRemapTable" Min="0" Max="2621400" />
+	</_FB6245162643567C58DDA664BD71CC11>
+	<_43624166A05BCB61E1B36FB1BA76CDE2 Name="DeformationParameterDefaultValue" Size="8">
+		<_2 Name="parameter name" Offset="0" />
+		<_14 Name="parameter default value" Offset="4" />
+	</_43624166A05BCB61E1B36FB1BA76CDE2>
+	<_6EAF447EEA52C9C39B765F308B78348F Name="node_index" Name2="RenderModelNodeIndex" Size="2">
+		<_2E Name="node index" Offset="0" GUID="D6E3402EB74453B7EFBF22EA8A1587D0" StructName1="node_index" StructName2="RenderModelNodeIndex" Min="0" Max="1024" />
+	</_6EAF447EEA52C9C39B765F308B78348F>
+	<_AE3C4CEDB495B1040FE25E4EB0277A81 Name="ClothMeshIndex" Size="4">
+		<_6 Name="index" Offset="0" />
+	</_AE3C4CEDB495B1040FE25E4EB0277A81>
+	<_A884463DB44D11D10E390450B9552513 Name="error_report_vertex" Size="34">
+		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
+		<_20 Name="color" Offset="20" />
+		<_14 Name="screen size" Offset="30" />
+	</_A884463DB44D11D10E390450B9552513>
+	<_0B4E4E8DF617E03802745E1FAF4F86B9 Name="error_report_vector" Size="40">
+		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
+		<_20 Name="color" Offset="20" />
+		<_19 Name="normal" Offset="30" />
+		<_14 Name="screen length" Offset="3C" />
+	</_0B4E4E8DF617E03802745E1FAF4F86B9>
+	<_604A43561C172D3CE0CA82848F1BDE48 Name="error_report_line" Size="50">
+		<_39 Name="points" Offset="0" GUID="338142C90F4729E04888C89ABB1ABDAE" Count="2" StructName1="points" />
+		<_20 Name="color" Offset="40" />
+	</_604A43561C172D3CE0CA82848F1BDE48>
+	<_001244E3F926E7612B96347A85173116 Name="error_report_triangle" Size="70">
+		<_39 Name="points" Offset="0" GUID="DDD84F94D717639859AEA1898AFE9068" Count="3" StructName1="points" />
+		<_20 Name="color" Offset="60" />
+	</_001244E3F926E7612B96347A85173116>
+	<_E7D84305D1071621C52955BF8AEA9FCC Name="error_report_quad" Size="90">
+		<_39 Name="points" Offset="0" GUID="0A0E42FD81027CE96EB082A3AE95FE26" Count="4" StructName1="points" />
+		<_20 Name="color" Offset="80" />
+	</_E7D84305D1071621C52955BF8AEA9FCC>
+	<_DEA34617709A9566DB6DE9508AFF50B9 Name="error_report_comment" Size="48">
+		<_42 Name="text" Offset="0" StructName1="error_report_comment.text" Int1="2" Int2="0" Flags="2000" />
+		<_38 Name="point" Offset="18" GUID="78534A62B6C2368CE2181EF59882F40C" />
+		<_20 Name="color" Offset="38" />
+	</_DEA34617709A9566DB6DE9508AFF50B9>
+	<_883D4E7D67FAC4978DFF93F8B794F7A2 Name="LODRenderData" Size="94">
+		<_40 Name="per mesh temporary" Offset="0" GUID="23054B6452900AB02CC95C01BA861C13" StructName1="LODRenderData" Min="0" Max="8191" />
+		<_40 Name="part sorting position" Offset="14" GUID="B52E4111684EF46DEEFB1C9E8E20FEFB" StructName1="LODRenderData" Min="0" Max="65535" />
+		<_40 Name="parts" Offset="28" GUID="FBEE42B44A81849DE6530F18A3C956AC" StructName1="LODRenderData" Min="0" Max="255" />
+		<_40 Name="subparts" Offset="3C" GUID="9C27436F09109A33B6971BAEB438BFBA" StructName1="LODRenderData" Min="0" Max="65535" />
+		<_40 Name="material streaming scale" Offset="50" GUID="ECD54CCA474555496ADFBA56B9D76429" StructName1="LODRenderData" Min="0" Max="10240" />
+		<_39 Name="vertex buffer indices" Offset="64" GUID="376042765E95A6C952D11A96BD4EEEA3" Count="19" StructName1="vertex buffer indices" />
+		<_3D Name="index buffer index" Offset="8A" />
+		<_E Name="lod flags" Offset="8C" StructName1="LODFlags">
+			<Flag n="lod 0" />
+			<Flag n="lod 1" />
+			<Flag n="lod 2" />
+			<Flag n="lod 3" />
+			<Flag n="lod 4" />
+			<Flag n="lod 5" />
+			<Flag n="lod 6" />
+			<Flag n="lod 7" />
+			<Flag n="lod 8" />
+			<Flag n="lod 9" />
+			<Flag n="lod 10" />
+			<Flag n="lod 11" />
+			<Flag n="lod 12" />
+			<Flag n="lod 13" />
+			<Flag n="lod 14" />
+			<Flag n="lod 15" />
+		</_E>
+		<_E Name="lod render flags" Offset="8E" StructName1="LODRenderFlags">
+			<Flag n="LOD has shadow proxies" />
+		</_E>
+		<_3D Name="raytracing metadata index" Offset="90" />
+		<_34 Name="generated_paddaed" Offset="92" Length="2" />
+	</_883D4E7D67FAC4978DFF93F8B794F7A2>
+	<_570F4E4EDAD1C118860BB1E0AF86840B Name="MeshVertexKey" Size="8">
+		<_6 Name="key1" Offset="0" />
+		<_6 Name="key2" Offset="4" />
+	</_570F4E4EDAD1C118860BB1E0AF86840B>
+	<_0EC6490D77DB2A4A3026F880822EA727 Name="NodeIndexStruct" Size="2">
+		<_3D Name="node index" Offset="0" />
+	</_0EC6490D77DB2A4A3026F880822EA727>
+	<_B52E4111684EF46DEEFB1C9E8E20FEFB Name="s_positioning" Size="44">
+		<_1E Name="plane" Offset="0" />
+		<_17 Name="position" Offset="10" />
+		<_14 Name="radius" Offset="1C" />
+		<_39 Name="node indices" Offset="20" GUID="7D854A1A96D9B8773D993ECB94447B36" Count="8" StructName1="node indices" />
+		<_39 Name="node weights" Offset="28" GUID="93AA40C8688AC37688C1B821B49A447E" Count="7" StructName1="node weights" />
+	</_B52E4111684EF46DEEFB1C9E8E20FEFB>
+	<_41C34C98211C66F6E044689C99478E8C Name="RenderGeometryMeshPackageResourceGroup" Size="10">
+		<_43 Name="mesh resource" Offset="0" StructName1="s_render_geometry_api_resource" Int1="0" GUID="F60A41648AEB802123365545970C7091" />
+	</_41C34C98211C66F6E044689C99478E8C>
+	<_05754FE2B12CFDD4480A4799BAE034FB Name="RenderGeometryMeshPackage::ResourceLookup" Size="4">
+		<_5 Name="resource group index" Offset="0" />
+		<_5 Name="group item index" Offset="2" />
+	</_05754FE2B12CFDD4480A4799BAE034FB>
+	<_5EA5497873514B8E39E1C24C8AAA440D Name="DwordIndex" Size="4">
+		<_3E Name="dword" Offset="0" />
+	</_5EA5497873514B8E39E1C24C8AAA440D>
+	<_B8624F3F50829B5859DBA60E9808AA62 Name="RenderGeometryDeformationParameter" Size="C">
+		<_2 Name="parameter name" Offset="0" />
+		<_3C Name="parameter mode" Offset="4" />
+		<_34 Name="generated_pad8065" Offset="5" Length="3" />
+		<_14 Name="constant input" Offset="8" />
+	</_B8624F3F50829B5859DBA60E9808AA62>
+	<_FC5B45B592F5E99B688E96A8A594973C Name="WordIndex" Size="2">
+		<_3D Name="word" Offset="0" />
+	</_FC5B45B592F5E99B688E96A8A594973C>
+	<_78534A62B6C2368CE2181EF59882F40C Name="error_report_point" Size="20">
+		<_17 Name="position" Offset="0" />
+		<_39 Name="node indices" Offset="C" GUID="F4FF4938B0BC81FECE3EBDC0BA0BD7A5" Count="4" StructName1="node indices" />
+		<_39 Name="node weights" Offset="10" GUID="A37C4DC7FA12933312F05638B1050C1B" Count="4" StructName1="node weights" />
+	</_78534A62B6C2368CE2181EF59882F40C>
+	<_338142C90F4729E04888C89ABB1ABDAE Name="ErrorReportLinePoint" Size="20">
+		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
+	</_338142C90F4729E04888C89ABB1ABDAE>
+	<_DDD84F94D717639859AEA1898AFE9068 Name="ErrorReportTrianglePoint" Size="20">
+		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
+	</_DDD84F94D717639859AEA1898AFE9068>
+	<_0A0E42FD81027CE96EB082A3AE95FE26 Name="ErrorReportQuadPoint" Size="20">
+		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
+	</_0A0E42FD81027CE96EB082A3AE95FE26>
+	<_23054B6452900AB02CC95C01BA861C13 Name="s_per_mesh_raw_data" Size="CC">
+		<_40 Name="raw vertices" Offset="0" GUID="CD9343C598F6C83605BDBA77BA313188" StructName1="s_per_mesh_raw_data" Min="0" Max="16777214" />
+		<_40 Name="raw indices" Offset="14" GUID="FC5B45B592F5E99B688E96A8A594973C" StructName1="s_per_mesh_raw_data" Min="0" Max="2621400" />
+		<_40 Name="raw indices32" Offset="28" GUID="5EA5497873514B8E39E1C24C8AAA440D" StructName1="s_per_mesh_raw_data" Min="0" Max="67108864" />
+		<_40 Name="raw water data" Offset="3C" GUID="93ED4F124F09C6446E7054C7A9D754E1" StructName1="s_per_mesh_raw_data" Min="0" Max="32" />
+		<_40 Name="raw blendshapes" Offset="50" GUID="F97E4DB97D5E559372EC5CE98E97BC00" StructName1="s_per_mesh_raw_data" Min="0" Max="16777216" />
+		<_40 Name="raw blendshapes indices" Offset="64" GUID="5EA5497873514B8E39E1C24C8AAA440D" StructName1="s_per_mesh_raw_data" Min="0" Max="67108864" />
+		<_40 Name="raw tension edges" Offset="78" GUID="7FD2498E44A4D456145DDA1495F79DA7" StructName1="s_per_mesh_raw_data" Min="0" Max="262144" />
+		<_40 Name="raw blendshapes triangle and edge Indices" Offset="8C" GUID="5EA5497873514B8E39E1C24C8AAA440D" StructName1="s_per_mesh_raw_data" Min="0" Max="67108864" />
+		<_40 Name="raw blendshapes triangle and edge index info" Offset="A0" GUID="5F2D4E16AAFDA4300C08366E84256C0F" StructName1="s_per_mesh_raw_data" Min="0" Max="262144" />
+		<_D Name="flags" Offset="B4" StructName1="PerMeshRawDataFlags">
+			<Flag n="indices are triangle strips" />
+			<Flag n="indices are triangle lists" />
+			<Flag n="indices are quad lists" />
+		</_D>
+		<_40 Name="level breakdown data" Offset="B8" GUID="F7F849F56DBDC6997B768A8198C9A0EC" StructName1="s_per_mesh_raw_data" Min="0" Max="1" />
+	</_23054B6452900AB02CC95C01BA861C13>
+	<_FBEE42B44A81849DE6530F18A3C956AC Name="s_part" Size="18">
+		<_2E Name="material index" Offset="0" GUID="34A54DC5B1135973B0B5E57399901631" StructName1="s_part" Min="0" Max="10240" />
+		<_2E Name="transparent sorting index" Offset="2" GUID="B52E4111684EF46DEEFB1C9E8E20FEFB" StructName1="s_part" Min="0" Max="65535" />
+		<_6 Name="index start" Offset="4" />
+		<_6 Name="index count" Offset="8" />
+		<_6 Name="perMeshPartConstantsOffset" Offset="C" />
+		<_3C Name="part type" Offset="10" />
+		<_34 Name="generated_pad5c53" Offset="11" Length="1" />
+		<_E Name="part flags" Offset="12" StructName1="PartFlags">
+			<Flag n="draw cull rendering shields" />
+			<Flag n="blendshape" />
+			<Flag n="colormask Control NormalBlend" />
+			<Flag n="draw cull rendering active camo" />
+			<Flag n="Don't use virtual texturing" />
+			<Flag n="Virtual texturing UV shell skirt" />
+		</_E>
+		<_3D Name="budget vertex count" Offset="14" />
+		<_34 Name="generated_pad0f9e" Offset="16" Length="2" />
+	</_FBEE42B44A81849DE6530F18A3C956AC>
+	<_9C27436F09109A33B6971BAEB438BFBA Name="s_subpart" Size="C">
+		<_6 Name="index start" Offset="0" />
+		<_6 Name="index count" Offset="4" />
+		<_2E Name="part index" Offset="8" GUID="FBEE42B44A81849DE6530F18A3C956AC" StructName1="s_subpart" Min="0" Max="255" />
+		<_3D Name="budget vertex count" Offset="A" />
+	</_9C27436F09109A33B6971BAEB438BFBA>
+	<_ECD54CCA474555496ADFBA56B9D76429 Name="MaterialStreamingScale" Size="8">
+		<_6 Name="material index" Offset="0" />
+		<_14 Name="material scale" Offset="4" />
+	</_ECD54CCA474555496ADFBA56B9D76429>
+	<_376042765E95A6C952D11A96BD4EEEA3 Name="LODRenderDataVertexBufferIndex" Size="2">
+		<_3D Name="vertex buffer index" Offset="0" />
+	</_376042765E95A6C952D11A96BD4EEEA3>
+	<_7D854A1A96D9B8773D993ECB94447B36 Name="GeometryNodeIndex" Size="1">
+		<_3C Name="node index" Offset="0" />
+	</_7D854A1A96D9B8773D993ECB94447B36>
+	<_93AA40C8688AC37688C1B821B49A447E Name="PositioningNodeWeight" Size="4">
+		<_14 Name="node weight" Offset="0" />
+	</_93AA40C8688AC37688C1B821B49A447E>
+	<_F60A41648AEB802123365545970C7091 Name="s_render_geometry_api_resource" Size="138">
+		<_40 Name="pc vertex buffers" Offset="0" GUID="E07F488010DD7329253227EEBC8BB79A" StructName1="s_render_geometry_api_resource" Min="0" Max="65535" />
+		<_40 Name="pc index buffers" Offset="14" GUID="88D1483BC747C29EF00BDD099336EC15" StructName1="s_render_geometry_api_resource" Min="0" Max="8191" />
+		<_40 Name="raytracing metadata" Offset="28" GUID="E03F4D15B98AA29BC7FFCE68871C3B54" StructName1="s_render_geometry_api_resource" Min="0" Max="131056" />
+		<_40 Name="Streaming Meshes" Offset="3C" GUID="BF91471CD187ADACAD0A6F3DB1221ED0" StructName1="s_render_geometry_api_resource" Min="0" Max="8191" />
+		<_40 Name="Streaming Chunks" Offset="50" GUID="65FE439F850DD75065AC45B18672391E" StructName1="s_render_geometry_api_resource" Min="0" Max="8192" />
+		<_40 Name="Streaming Buffers" Offset="64" GUID="F8F248923C60BDCF3C432E0F85CE17ED" StructName1="s_render_geometry_api_resource" Min="0" Max="1048576" />
+		<_7 Name="m_sharedDXResources" type="nuke" Offset="78" />
+		<_7 Name="m_sharedDXResourceRawView" type="nuke" Offset="80" />
+		<_39 Name="m_sharedDXResourceTypedViews" type="nuke" Offset="88" GUID="C9A74D928B59ABF6747AF7E4B185B6CE" Count="21" StructName1="m_sharedDXResourceTypedViews" />
+		<_7 Name="Runtime Data" type="nuke" Offset="130" />
+	</_F60A41648AEB802123365545970C7091>
+	<_F4FF4938B0BC81FECE3EBDC0BA0BD7A5 Name="ErrorReportNodeIndex" Size="1">
+		<_3C Name="node index" Offset="0" />
+	</_F4FF4938B0BC81FECE3EBDC0BA0BD7A5>
+	<_A37C4DC7FA12933312F05638B1050C1B Name="ErrorReportNodeWeight" Size="4">
+		<_14 Name="node weight" Offset="0" />
+	</_A37C4DC7FA12933312F05638B1050C1B>
+	<_CD9343C598F6C83605BDBA77BA313188 Name="RawVertex" Size="A4">
+		<_17 Name="position" Offset="0" />
+		<_16 Name="texcoord" Offset="C" />
+		<_17 Name="normal" Offset="14" />
+		<_17 Name="binormal" Offset="20" />
+		<_17 Name="tangent" Offset="2C" />
+		<_16 Name="lightmap texcoord" Offset="38" />
+		<_39 Name="node indices" Offset="40" GUID="7D854A1A96D9B8773D993ECB94447B36" Count="8" StructName1="node indices" />
+		<_39 Name="node weights" Offset="48" GUID="935C482493F6CB70199C0BA7AFBCAA80" Count="8" StructName1="node weights" />
+		<_17 Name="vertex color" Offset="68" />
+		<_16 Name="texcoord1" Offset="74" />
+		<_14 Name="dual quat weight" Offset="7C" />
+		<_14 Name="vertex alpha" Offset="80" />
+		<_17 Name="tangent UV2" Offset="84" />
+		<_16 Name="texcoord2" Offset="90" />
+		<_17 Name="tangent UV3" Offset="98" />
+	</_CD9343C598F6C83605BDBA77BA313188>
+	<_93ED4F124F09C6446E7054C7A9D754E1 Name="s_raw_water_data" Size="28">
+		<_40 Name="raw water indices" Offset="0" GUID="FC5B45B592F5E99B688E96A8A594973C" StructName1="s_raw_water_data" Min="0" Max="2621400" />
+		<_40 Name="raw water vertices" Offset="14" GUID="C99A41B1B6F830855AE2008EB7F454A8" StructName1="s_raw_water_data" Min="0" Max="65535" />
+	</_93ED4F124F09C6446E7054C7A9D754E1>
+	<_F97E4DB97D5E559372EC5CE98E97BC00 Name="RawBlendshapeVertex" Size="2C">
+		<_19 Name="position" Offset="0" />
+		<_19 Name="normal" Offset="C" />
+		<_20 Name="tension and ambient occlusion" Offset="18" />
+		<_3E Name="target Id" Offset="28" />
+	</_F97E4DB97D5E559372EC5CE98E97BC00>
+	<_7FD2498E44A4D456145DDA1495F79DA7 Name="RawTensionEdge" Size="C">
+		<_3E Name="start vertex index" Offset="0" />
+		<_3E Name="end vertex index" Offset="4" />
+		<_14 Name="edge rest length" Offset="8" />
+	</_7FD2498E44A4D456145DDA1495F79DA7>
+	<_5F2D4E16AAFDA4300C08366E84256C0F Name="RawTriangleEdgeIndexInfo" Size="8">
+		<_3E Name="triangle and edge index pos" Offset="0" />
+		<_3E Name="encoded triangle and edge size" Offset="4" />
+	</_5F2D4E16AAFDA4300C08366E84256C0F>
+	<_F7F849F56DBDC6997B768A8198C9A0EC Name="i343::LevelBreakdown::RuntimeGeoLevelBreakdownData" Size="58">
+		<_41 Name="Asset tag" Offset="0" Allowed="aset" Flags="9" />
+		<_2 Name="Default variant name" Offset="1C" />
+		<_41 Name="LOD settings tag" Offset="20" Allowed="lods" Flags="9" />
+		<_2 Name="LOD settings name" Offset="3C" />
+		<_6 Name="Convert Collision to Shadow Geometry" Offset="40" />
+		<_40 Name="Asset variants" Offset="44" GUID="E5C04865750CB47DC9F25EA09D4D86AE" StructName1="i343::LevelBreakdown::RuntimeGeoLevelBreakdownData" Min="0" Max="2048" />
+	</_F7F849F56DBDC6997B768A8198C9A0EC>
+	<_E07F488010DD7329253227EEBC8BB79A Name="RasterizerVertexBuffer" Size="50">
+		<_C Name="usage" Offset="0" StructName1="eVertexBufferUsage">
+			<Flag n="Position" />
+			<Flag n="UV0" />
+			<Flag n="UV1" />
+			<Flag n="UV2" />
+			<Flag n="Color" />
+			<Flag n="Normal" />
+			<Flag n="Tangent" />
+			<Flag n="BlendIndices0" />
+			<Flag n="BlendWeights0" />
+			<Flag n="BlendIndices1" />
+			<Flag n="BlendWeights1" />
+			<Flag n="PrevPosition" />
+			<Flag n="InstanceData" />
+			<Flag n="BlendshapePosition" />
+			<Flag n="BlendshapeNormal" />
+			<Flag n="BlendshapeIndex" />
+			<Flag n="Edge" />
+			<Flag n="EdgeIndex" />
+			<Flag n="EdgeIndexInfo" />
+		</_C>
+		<_C Name="format" Offset="4" StructName1="eRasterizerVertexFormat">
+			<Flag n="real" />
+			<Flag n="realVector2D" />
+			<Flag n="realVector3D" />
+			<Flag n="realVector4D" />
+			<Flag n="byteVector4D" />
+			<Flag n="byteARGBColor" />
+			<Flag n="shortVector2D" />
+			<Flag n="shortVector2DNormalized" />
+			<Flag n="shortVector4DNormalized" />
+			<Flag n="wordVector2DNormalized" />
+			<Flag n="wordVector4DNormalized" />
+			<Flag n="real16Vector2D" />
+			<Flag n="real16Vector4D" />
+			<Flag n="10_10_10_normalized" />
+			<Flag n="10_10_10_2" />
+			<Flag n="10_10_10_2_signedNormalizedPackedAsUnorm" />
+			<Flag n="dword" />
+			<Flag n="dwordVector2D" />
+			<Flag n="11_11_10_float" />
+			<Flag n="byteUnitVector3D" />
+			<Flag n="wordVector3DNormalizedWith4Word" />
+		</_C>
+		<_3C Name="stride" Offset="8" />
+		<_3C Name="ownsD3DResource" type="nuke" Offset="9" />
+		<_34 Name="generated_pad9e95" Offset="A" Length="2" />
+		<_3E Name="count" Offset="C" />
+		<_3E Name="offset" Offset="10" />
+		<_38 Name="d3dbuffer" Offset="14" GUID="E3E04E6E298CB894B11817718E961916" />
+		<_7 Name="m_resource" Offset="40" />
+		<_7 Name="m_resourceView" Offset="48" />
+	</_E07F488010DD7329253227EEBC8BB79A>
+	<_88D1483BC747C29EF00BDD099336EC15 Name="RasterizerIndexBuffer" Size="48">
+		<_3C Name="declaration type" Offset="0" />
+		<_3C Name="stride" Offset="1" />
+		<_3C Name="ownsD3DResource" type="nuke" Offset="2" />
+		<_34 Name="generated_pad8bf7" Offset="3" Length="1" />
+		<_3E Name="count" Offset="4" />
+		<_3E Name="offset" Offset="8" />
+		<_38 Name="d3dbuffer" Offset="C" GUID="E3E04E6E298CB894B11817718E961916" />
+		<_7 Name="m_resource" Offset="38" />
+		<_7 Name="m_resourceView" Offset="40" />
+	</_88D1483BC747C29EF00BDD099336EC15>
+	<_E03F4D15B98AA29BC7FFCE68871C3B54 Name="RaytracingMetaData" Size="70">
+		<_3D Name="index buffer index" Offset="0" />
+		<_3D Name="vertex buffer index" Offset="2" />
+		<_C Name="vertex format" Offset="4" StructName1="eRasterizerVertexFormat">
+			<Flag n="real" />
+			<Flag n="realVector2D" />
+			<Flag n="realVector3D" />
+			<Flag n="realVector4D" />
+			<Flag n="byteVector4D" />
+			<Flag n="byteARGBColor" />
+			<Flag n="shortVector2D" />
+			<Flag n="shortVector2DNormalized" />
+			<Flag n="shortVector4DNormalized" />
+			<Flag n="wordVector2DNormalized" />
+			<Flag n="wordVector4DNormalized" />
+			<Flag n="real16Vector2D" />
+			<Flag n="real16Vector4D" />
+			<Flag n="10_10_10_normalized" />
+			<Flag n="10_10_10_2" />
+			<Flag n="10_10_10_2_signedNormalizedPackedAsUnorm" />
+			<Flag n="dword" />
+			<Flag n="dwordVector2D" />
+			<Flag n="11_11_10_float" />
+			<Flag n="byteUnitVector3D" />
+			<Flag n="wordVector3DNormalizedWith4Word" />
+		</_C>
+		<_A Name="vertex type" Offset="8" StructName1="VertexType">
+			<Flag n="world" />
+			<Flag n="rigid" />
+			<Flag n="skinned" />
+			<Flag n="particle_model" />
+			<Flag n="screen" />
+			<Flag n="debug" />
+			<Flag n="transparent" />
+			<Flag n="particle" />
+			<Flag n="removed08" />
+			<Flag n="removed09" />
+			<Flag n="chud_simple" />
+			<Flag n="decorator" />
+			<Flag n="position only" />
+			<Flag n="removed13" />
+			<Flag n="ripple" />
+			<Flag n="removed15" />
+			<Flag n="tessellatedTerrain" />
+			<Flag n="empty" />
+			<Flag n="decal" />
+			<Flag n="removed19" />
+			<Flag n="removed20" />
+			<Flag n="position_only" />
+			<Flag n="tracer" />
+			<Flag n="rigid_boned" />
+			<Flag n="removed24" />
+			<Flag n="CheapParticle" />
+			<Flag n="dq_skinned" />
+			<Flag n="skinned 8 weights" />
+			<Flag n="tessellated vector" />
+			<Flag n="interaction" />
+			<Flag n="number of standard vertex types" />
+		</_A>
+		<_34 Name="generated_pad35fb" Offset="9" Length="3" />
+		<_19 Name="decompression Scale" Offset="C" />
+		<_19 Name="decompression Translation" Offset="18" />
+		<_40 Name="mesh part metadata" Offset="24" GUID="2A8243165F4F96B2FC3C653099BE3C67" StructName1="RaytracingMetaData" Min="0" Max="255" />
+		<_E Name="meta data flags" Offset="38" StructName1="RaytracingMetaDataFlags">
+			<Flag n="has blendshape" />
+		</_E>
+		<_34 Name="generated_pade946" Offset="3A" Length="6" />
+		<_38 Name="blas offline data" Offset="40" GUID="9E5746289CB282E82B490C0C87CE22DD" />
+	</_E03F4D15B98AA29BC7FFCE68871C3B54>
+	<_BF91471CD187ADACAD0A6F3DB1221ED0 Name="StreamingGeometryMesh" Size="34">
+		<_6 Name="lod state cache slot" Offset="0" />
+		<_4 Name="required lod" Offset="4" />
+		<_34 Name="generated_pad413f" Offset="5" Length="3" />
+		<_42 Name="lod raytracing meta data" Offset="8" StructName1="StreamingGeometryMesh.lod raytracing meta data" Int1="0" Int2="0" Flags="20" />
+		<_40 Name="mesh lod chunks" Offset="20" GUID="EF4442568081AD34602D9DD0B563A894" StructName1="StreamingGeometryMesh" Min="0" Max="16" />
+	</_BF91471CD187ADACAD0A6F3DB1221ED0>
+	<_65FE439F850DD75065AC45B18672391E Name="StreamingGeometryChunk" Size="C">
+		<_3D Name="buffer index" Offset="0" />
+		<_3D Name="allocation priority" Offset="2" />
+		<_3E Name="buffer start" Offset="4" />
+		<_3E Name="buffer end" Offset="8" />
+	</_65FE439F850DD75065AC45B18672391E>
+	<_F8F248923C60BDCF3C432E0F85CE17ED Name="StreamingGeometryBuffer" Size="20">
+		<_3E Name="buffer size" Offset="0" />
+		<_3E Name="bind flags" Offset="4" />
+		<_42 Name="Temp buffer for pipeline" Offset="8" StructName1="StreamingGeometryBuffer.Temp buffer for pipeline" Int1="0" Int2="0" Flags="3E800000" />
+	</_F8F248923C60BDCF3C432E0F85CE17ED>
+	<_C9A74D928B59ABF6747AF7E4B185B6CE Name="IResourceViewPointer" Size="8">
+		<_7 Name="IResourceView" Offset="0" />
+	</_C9A74D928B59ABF6747AF7E4B185B6CE>
+	<_935C482493F6CB70199C0BA7AFBCAA80 Name="GeometryNodeWeight" Size="4">
+		<_14 Name="node weight" Offset="0" />
+	</_935C482493F6CB70199C0BA7AFBCAA80>
+	<_C99A41B1B6F830855AE2008EB7F454A8 Name="s_raw_water_append" Size="8">
+		<_16 Name="base texcoord" Offset="0" />
+	</_C99A41B1B6F830855AE2008EB7F454A8>
+	<_E5C04865750CB47DC9F25EA09D4D86AE Name="i343::LevelBreakdown::AssetVariantLevelBreakdownData" Size="3C">
+		<_2 Name="Variant name" Offset="0" />
+		<_41 Name="Runtime Geo" Offset="4" Allowed="rtgo" Flags="9" />
+		<_41 Name="Static Collision Geo" Offset="20" Allowed="scgt" Flags="9" />
+	</_E5C04865750CB47DC9F25EA09D4D86AE>
+	<_E3E04E6E298CB894B11817718E961916 Name="D3DBufferData" Size="2C">
+		<_3E Name="byte width" Offset="0" />
+		<_3E Name="bind flags" Offset="4" />
+		<_3E Name="misc flags" Offset="8" />
+		<_3E Name="stride" Offset="C" />
+		<_42 Name="d3d buffer" Offset="10" StructName1="D3DBufferData.d3d buffer" Int1="128" Int2="4" Flags="40000000" />
+		<_3D Name="usage" Offset="28" />
+		<_3D Name="cpu flags" Offset="2A" />
+	</_E3E04E6E298CB894B11817718E961916>
+	<_2A8243165F4F96B2FC3C653099BE3C67 Name="MeshPartRaytracingMetaData" Size="C">
+		<_3E Name="index count" Offset="0" />
+		<_3E Name="index offset" Offset="4" />
+		<_3C Name="geo type" Offset="8" />
+		<_34 Name="generated_padf9a7" Offset="9" Length="3" />
+	</_2A8243165F4F96B2FC3C653099BE3C67>
+	<_9E5746289CB282E82B490C0C87CE22DD Name="BLASOfflineData" Size="30">
+		<_42 Name="Temp BLAS buffer" Offset="0" StructName1="BLASOfflineData.Temp BLAS buffer" Int1="0" Int2="8" Flags="40000000" />
+		<_6 Name="PostbuildCurrentSize" Offset="18" />
+		<_6 Name="PostbuildSerializedSize" Offset="1C" />
+		<_3E Name="offset" Offset="20" />
+		<_34 Name="generated_pad707f" Offset="24" Length="4" />
+		<_7 Name="m_resource" Offset="28" />
+	</_9E5746289CB282E82B490C0C87CE22DD>
+	<_EF4442568081AD34602D9DD0B563A894 Name="StreamingChunkList" Size="18">
+		<_42 Name="chunks" Offset="0" StructName1="StreamingChunkList.chunks" Int1="0" Int2="0" Flags="4000" />
+	</_EF4442568081AD34602D9DD0B563A894>
+</root>

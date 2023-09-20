@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:06 PM" Name="CameraGlobalsDefinition" Parents="aTag" Index="-177">
+	<_4CC5465C2A67A0AE2247E9F9B21B5926 Name="i343::CameraGlobals" Size="38">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="camera" Offset="10" GUID="F3D044765544FB066BA634E2A51F6257" StructName1="i343::CameraGlobals" Min="0" Max="1" />
+		<_40 Name="camera impulse" Offset="24" GUID="0B82456557F39345FDAD9A47A343C4B0" StructName1="i343::CameraGlobals" Min="0" Max="1" />
+	</_4CC5465C2A67A0AE2247E9F9B21B5926>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_F3D044765544FB066BA634E2A51F6257 Name="s_game_globals_camera" Size="11C">
+		<_41 Name="default unit camera track" Offset="0" Allowed="trak" Flags="0" />
+		<_36 Name="SANDBOX" Offset="1C" />
+		<_38 Name="pitch to vertical offset" Offset="1C" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_36 Name="CAMERA UNIVERSALS" Offset="34" />
+		<_14 Name="field of view" Offset="34" />
+		<_14 Name="yaw scale" Offset="38" />
+		<_14 Name="pitch scale" Offset="3C" />
+		<_14 Name="forward scale" Offset="40" />
+		<_14 Name="side scale" Offset="44" />
+		<_14 Name="up scale" Offset="48" />
+		<_36 Name="DEAD CAMERA" Offset="4C" />
+		<_14 Name="minimum distance to player" Offset="4C" />
+		<_14 Name="transition time" Offset="50" />
+		<_14 Name="falling death transition time" Offset="54" />
+		<_14 Name="initial distance" Offset="58" />
+		<_14 Name="final distance" Offset="5C" />
+		<_14 Name="dead cam z offset" Offset="60" />
+		<_14 Name="dead cam maximum elevation" Offset="64" />
+		<_14 Name="dead cam movement delay" Offset="68" />
+		<_14 Name="time_to_auto_switch_to_orbiting" Offset="6C" />
+		<_14 Name="ignore_stick_time" Offset="70" />
+		<_14 Name="ignore_button_time" Offset="74" />
+		<_14 Name="dead camera minimum falling velocity" Offset="78" />
+		<_36 Name="FLYING CAMERA" Offset="7C" />
+		<_14 Name="maximum boost speed" Offset="7C" />
+		<_14 Name="time to maximum_boost" Offset="80" />
+		<_B Name="boost function" Offset="84" StructName1="TransitionFunction">
+			<Flag n="linear" />
+			<Flag n="early" />
+			<Flag n="very early" />
+			<Flag n="late" />
+			<Flag n="very late" />
+			<Flag n="cosine" />
+			<Flag n="one" />
+			<Flag n="zero" />
+		</_B>
+		<_34 Name="generated_pad632c" Offset="86" Length="2" />
+		<_14 Name="zoomed field of view" Offset="88" />
+		<_14 Name="zoomed look speed" Offset="8C" />
+		<_14 Name="bounding sphere radius" Offset="90" />
+		<_14 Name="flying cam movement delay" Offset="94" />
+		<_14 Name="zoom transition time" Offset="98" />
+		<_14 Name="vertical movement time to max speed" Offset="9C" />
+		<_B Name="vertical movement function" Offset="A0" StructName1="TransitionFunction">
+			<Flag n="linear" />
+			<Flag n="early" />
+			<Flag n="very early" />
+			<Flag n="late" />
+			<Flag n="very late" />
+			<Flag n="cosine" />
+			<Flag n="one" />
+			<Flag n="zero" />
+		</_B>
+		<_34 Name="generated_pad7d0d" Offset="A2" Length="2" />
+		<_36 Name="ORBITING CAMERA" Offset="A4" />
+		<_14 Name="minimum distance" Offset="A4" />
+		<_14 Name="maximum distance" Offset="A8" />
+		<_14 Name="initial distance on focus" Offset="AC" />
+		<_14 Name="orbit cam movement delay" Offset="B0" />
+		<_14 Name="orbit cam z offset" Offset="B4" />
+		<_14 Name="orbit cam minimum elevation" Offset="B8" />
+		<_14 Name="orbit cam maximum elevation" Offset="BC" />
+		<_14 Name="orbit cam use targets facing direction after " Offset="C0" />
+		<_14 Name="film specific tuning orbit cam use targets facing direction after " Offset="C4" />
+		<_14 Name="orbit cam transition to targets facing direction delay" Offset="C8" />
+		<_36 Name="FIRST PERSON CAMERA" Offset="CC" />
+		<_8 Name="first person vertical field of view" Offset="CC" />
+		<_36 Name="SAVED FILMS" Offset="D0" />
+		<_14 Name="max playback speed" Offset="D0" />
+		<_14 Name="fade out time" Offset="D4" />
+		<_14 Name="fade in time" Offset="D8" />
+		<_36 Name="IN GAME" Offset="DC" />
+		<_14 Name="enter vehicle transition time" Offset="DC" />
+		<_14 Name="exit vehicle transition time" Offset="E0" />
+		<_36 Name="CAMERA OBSTRUCTION" Offset="E4" />
+		<_38 Name="obstruction" Offset="E4" GUID="57744B3B3A9D370F93F2A8CC863CAE2F" />
+		<_36 Name="KILLPLAYBACK CAMERA" Offset="FC" />
+		<_14 Name="initial_distance" Offset="FC" />
+		<_14 Name="kill playback camera use target's facing direction for " Offset="100" />
+		<_14 Name="kill playback camera z offset" Offset="104" />
+		<_8 Name="kill playback camera initial angle" Offset="108" />
+		<_36 Name="PLAYER PROFILE DEFAULTS" Offset="10C" />
+		<_25 Name="horizontal fov bounds" Offset="10C" />
+		<_36 Name="EDITOR PROFILE DEFAULTS" Offset="114" />
+		<_25 Name="editor horizontal fov bounds" Offset="114" />
+	</_F3D044765544FB066BA634E2A51F6257>
+	<_0B82456557F39345FDAD9A47A343C4B0 Name="s_camera_impulse_globals" Size="18">
+		<_37 Name="Mapping function" type="fned" Offset="0" />
+		<_38 Name="mapping" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0B82456557F39345FDAD9A47A343C4B0>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+	<_57744B3B3A9D370F93F2A8CC863CAE2F Name="s_camera_obstruction_parameters" Size="18">
+		<_15 Name="cylinder fraction" Offset="0" />
+		<_8 Name="obstruction test angle" Offset="4" />
+		<_14 Name="obstruction max inward accel" Offset="8" />
+		<_14 Name="obstruction max outward accel" Offset="C" />
+		<_14 Name="obstruction max velocity" Offset="10" />
+		<_14 Name="obstruction return delay" Offset="14" />
+	</_57744B3B3A9D370F93F2A8CC863CAE2F>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

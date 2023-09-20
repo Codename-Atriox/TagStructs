@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="impostor" Parents="aTag" Index="-211">
+	<_70014C541B443C76B353C25F9499F277 Name="ImpostorTag" Size="20">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_14 Name="Camera distance" Offset="10" />
+		<_B Name="Number of camera points" Offset="14" StructName1="eImpostorCameraPointsCount">
+			<Flag n="13 camera positions" />
+			<Flag n="41 camera positions" />
+			<Flag n="145 camera positions" />
+			<Flag n="181 camera positions" />
+			<Flag n="221 camera positions" />
+		</_B>
+		<_E Name="Texture channels rendered" Offset="16" StructName1="ImpostorTextureChannels">
+			<Flag n="Alpha" />
+			<Flag n="Albedo" />
+			<Flag n="Normals" />
+			<Flag n="Roughness" />
+			<Flag n="Ambient Occlusion" />
+			<Flag n="Depth" />
+		</_E>
+		<_B Name="Grid shape" Offset="18" StructName1="eImpostorGridShape">
+			<Flag n="Camera placements around hemisphere" />
+		</_B>
+		<_B Name="Texture size" Offset="1A" StructName1="eImpostorTextureSize">
+			<Flag n="128x128" />
+			<Flag n="256x256" />
+			<Flag n="512x512" />
+		</_B>
+		<_B Name="Maximum LOD index" Offset="1C" StructName1="eLODFlags">
+			<Flag n="lod 0" />
+			<Flag n="lod 1" />
+			<Flag n="lod 2" />
+			<Flag n="lod 3" />
+			<Flag n="lod 4" />
+			<Flag n="lod 5" />
+			<Flag n="lod 6" />
+			<Flag n="lod 7" />
+			<Flag n="lod 8" />
+			<Flag n="lod 9" />
+			<Flag n="lod 10" />
+			<Flag n="lod 11" />
+			<Flag n="lod 12" />
+			<Flag n="lod 13" />
+			<Flag n="lod 14" />
+			<Flag n="lod 15" />
+		</_B>
+		<_34 Name="generated_padac96" Offset="1E" Length="2" />
+	</_70014C541B443C76B353C25F9499F277>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

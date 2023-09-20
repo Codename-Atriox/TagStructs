@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="AmbientActionPointDefinitionTag" Parents="aTag" Index="-6">
+	<_A0EF4DD7F0130B08BC29D80BA0DA92E4 Name="AmbientActionPointDefinition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Ambient Info" Offset="10" GUID="EFFE48AE2E60A80B0CA20619AC10EA61" StructName1="AmbientActionPointDefinition" Min="0" Max="512" />
+		<_34 Name="generated_padc9b5" Offset="24" Length="4" />
+	</_A0EF4DD7F0130B08BC29D80BA0DA92E4>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_EFFE48AE2E60A80B0CA20619AC10EA61 Name="AmbientActionInfo" Size="7C">
+		<_A Name="desire type" Offset="0" StructName1="i343::InteractiveObjects::InteractiveDesire">
+			<Flag n="Scripted" />
+			<Flag n="Health" />
+			<Flag n="Defense" />
+			<Flag n="Attack Enemy" />
+			<Flag n="Weapon" />
+			<Flag n="Vehicle" />
+		</_A>
+		<_34 Name="generated_pad5f2a" Offset="1" Length="3" />
+		<_C Name="action" Offset="4" StructName1="i343::ActionSystem::ActionType">
+			<Flag n="Base (Do not use)" />
+			<Flag n="Ground" />
+			<Flag n="Crouch" />
+			<Flag n="Melee" />
+			<Flag n="Turn" />
+			<Flag n="Shoot" />
+			<Flag n="Airborne" />
+			<Flag n="Jump" />
+			<Flag n="WeaponReady" />
+			<Flag n="WeaponSwitch" />
+			<Flag n="WeaponPickup" />
+			<Flag n="WeaponDrop" />
+			<Flag n="Grenade" />
+			<Flag n="Dead" />
+			<Flag n="AnimatedMove" />
+			<Flag n="InteractWeaponPickup" />
+			<Flag n="InteractDevice" />
+			<Flag n="InteractLaunchObject" />
+			<Flag n="HardPing" />
+			<Flag n="Align" />
+			<Flag n="ShieldRaise" />
+			<Flag n="ActivateEquipment" />
+			<Flag n="PhysicsImpulse" />
+			<Flag n="DeathPing" />
+			<Flag n="MediumPing" />
+			<Flag n="SoftPing" />
+			<Flag n="ScriptedSequence" />
+			<Flag n="CustomAnimation" />
+			<Flag n="DeflectProjectile" />
+			<Flag n="VehicleEnter" />
+			<Flag n="VehicleExit" />
+			<Flag n="Vehicle" />
+			<Flag n="Brace" />
+			<Flag n="WeaponDraw" />
+			<Flag n="WeaponStow" />
+			<Flag n="HardStop" />
+			<Flag n="Hoist" />
+			<Flag n="PreCombatPointActivity" />
+			<Flag n="Stunned" />
+			<Flag n="ObstacleSmash" />
+			<Flag n="WeaponVent" />
+			<Flag n="SoftPingDefenseScreen" />
+			<Flag n="ThrowEquipment" />
+			<Flag n="Hijack" />
+			<Flag n="Kamikaze" />
+			<Flag n="CloseQuartersDefenseBlast" />
+			<Flag n="Search" />
+			<Flag n="SearchFound" />
+			<Flag n="Surprise" />
+			<Flag n="Hover" />
+			<Flag n="Alert" />
+			<Flag n="AlertCallout" />
+			<Flag n="WeaponFidget" />
+			<Flag n="WeaponReload" />
+			<Flag n="FullbodyAnimation" />
+			<Flag n="ActivateCamo" />
+			<Flag n="TradeWeapon" />
+			<Flag n="Flying" />
+			<Flag n="MultiTargetTrackedAttack" />
+			<Flag n="Berserk" />
+			<Flag n="LeapWindup" />
+			<Flag n="AnimatedTell" />
+			<Flag n="TeleportArrive" />
+			<Flag n="JinkFire" />
+			<Flag n="DialogueAnimation" />
+			<Flag n="Swoop" />
+			<Flag n="AirborneMelee" />
+			<Flag n="Land" />
+			<Flag n="Hunker" />
+			<Flag n="Launching" />
+			<Flag n="PreAndPostFire" />
+			<Flag n="AnimatedPosture" />
+			<Flag n="Boarding" />
+		</_C>
+		<_2 Name="Animation Token Override" Offset="8" />
+		<_14 Name="Time playing animation" Offset="C" />
+		<_14 Name="Cooldown time" Offset="10" />
+		<_2 Name="composition name" Offset="14" />
+		<_41 Name="composition definition" Offset="18" Allowed="comp" Flags="0" />
+		<_14 Name="Max distance agents will consider this opp from" Offset="34" />
+		<_40 Name="Ambient meta labels" Offset="38" GUID="66974B5B7A236D95F43A8A409414695B" StructName1="AmbientActionInfo" Min="0" Max="32" />
+		<_40 Name="Exclusion meta labels" Offset="4C" GUID="66974B5B7A236D95F43A8A409414695B" StructName1="AmbientActionInfo" Min="0" Max="32" />
+		<_14 Name="Min Danger to Activate" Offset="60" />
+		<_14 Name="Max Danger to Activate" Offset="64" />
+		<_14 Name="Abort Danger Level" Offset="68" />
+		<_14 Name="Chance Per Second" Offset="6C" />
+		<_14 Name="Min Enemy Target Distance" Offset="70" />
+		<_14 Name="Max Enemy Target Distance" Offset="74" />
+		<_14 Name="Max Height Difference" Offset="78" />
+	</_EFFE48AE2E60A80B0CA20619AC10EA61>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_66974B5B7A236D95F43A8A409414695B Name="s_object_meta_label" Size="4">
+		<_2 Name="meta label" Offset="0" />
+	</_66974B5B7A236D95F43A8A409414695B>
+</root>

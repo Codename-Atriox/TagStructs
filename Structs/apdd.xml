@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="ActionPriorityDataDefinitionTag" Parents="aTag" Index="-24">
+	<_F6744B3A0C0CBA3FC89AC2BA250A3811 Name="i343::ActionSystem::ActionPriorityDataDefinition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="incoming actions" Offset="10" GUID="7ABD09329CF2B119B5E2073F8CE606BC" StructName1="i343::ActionSystem::ActionPriorityDataDefinition" Min="0" Max="128" />
+		<_34 Name="generated_pade8f1" Offset="24" Length="4" />
+	</_F6744B3A0C0CBA3FC89AC2BA250A3811>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_7ABD09329CF2B119B5E2073F8CE606BC Name="i343::ActionSystem::ActionPriorityDataDefinitionIncomingEntry" Size="18">
+		<_C Name="this action" Offset="0" StructName1="i343::ActionSystem::ActionType">
+			<Flag n="Base (Do not use)" />
+			<Flag n="Ground" />
+			<Flag n="Crouch" />
+			<Flag n="Melee" />
+			<Flag n="Turn" />
+			<Flag n="Shoot" />
+			<Flag n="Airborne" />
+			<Flag n="Jump" />
+			<Flag n="WeaponReady" />
+			<Flag n="WeaponSwitch" />
+			<Flag n="WeaponPickup" />
+			<Flag n="WeaponDrop" />
+			<Flag n="Grenade" />
+			<Flag n="Dead" />
+			<Flag n="AnimatedMove" />
+			<Flag n="InteractWeaponPickup" />
+			<Flag n="InteractDevice" />
+			<Flag n="InteractLaunchObject" />
+			<Flag n="HardPing" />
+			<Flag n="Align" />
+			<Flag n="ShieldRaise" />
+			<Flag n="ActivateEquipment" />
+			<Flag n="PhysicsImpulse" />
+			<Flag n="DeathPing" />
+			<Flag n="MediumPing" />
+			<Flag n="SoftPing" />
+			<Flag n="ScriptedSequence" />
+			<Flag n="CustomAnimation" />
+			<Flag n="DeflectProjectile" />
+			<Flag n="VehicleEnter" />
+			<Flag n="VehicleExit" />
+			<Flag n="Vehicle" />
+			<Flag n="Brace" />
+			<Flag n="WeaponDraw" />
+			<Flag n="WeaponStow" />
+			<Flag n="HardStop" />
+			<Flag n="Hoist" />
+			<Flag n="PreCombatPointActivity" />
+			<Flag n="Stunned" />
+			<Flag n="ObstacleSmash" />
+			<Flag n="WeaponVent" />
+			<Flag n="SoftPingDefenseScreen" />
+			<Flag n="ThrowEquipment" />
+			<Flag n="Hijack" />
+			<Flag n="Kamikaze" />
+			<Flag n="CloseQuartersDefenseBlast" />
+			<Flag n="Search" />
+			<Flag n="SearchFound" />
+			<Flag n="Surprise" />
+			<Flag n="Hover" />
+			<Flag n="Alert" />
+			<Flag n="AlertCallout" />
+			<Flag n="WeaponFidget" />
+			<Flag n="WeaponReload" />
+			<Flag n="FullbodyAnimation" />
+			<Flag n="ActivateCamo" />
+			<Flag n="TradeWeapon" />
+			<Flag n="Flying" />
+			<Flag n="MultiTargetTrackedAttack" />
+			<Flag n="Berserk" />
+			<Flag n="LeapWindup" />
+			<Flag n="AnimatedTell" />
+			<Flag n="TeleportArrive" />
+			<Flag n="JinkFire" />
+			<Flag n="DialogueAnimation" />
+			<Flag n="Swoop" />
+			<Flag n="AirborneMelee" />
+			<Flag n="Land" />
+			<Flag n="Hunker" />
+			<Flag n="Launching" />
+			<Flag n="PreAndPostFire" />
+			<Flag n="AnimatedPosture" />
+			<Flag n="Boarding" />
+		</_C>
+		<_40 Name="existing actions" Offset="4" GUID="7AB049320CF2B016B5E2573F8CE636BC" StructName1="i343::ActionSystem::ActionPriorityDataDefinitionIncomingEntry" Min="0" Max="128" />
+	</_7ABD09329CF2B119B5E2073F8CE606BC>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_7AB049320CF2B016B5E2573F8CE636BC Name="i343::ActionSystem::ActionPriorityDataDefinitionExistingEntry" Size="8">
+		<_C Name="this action" Offset="0" StructName1="i343::ActionSystem::ActionType">
+			<Flag n="Base (Do not use)" />
+			<Flag n="Ground" />
+			<Flag n="Crouch" />
+			<Flag n="Melee" />
+			<Flag n="Turn" />
+			<Flag n="Shoot" />
+			<Flag n="Airborne" />
+			<Flag n="Jump" />
+			<Flag n="WeaponReady" />
+			<Flag n="WeaponSwitch" />
+			<Flag n="WeaponPickup" />
+			<Flag n="WeaponDrop" />
+			<Flag n="Grenade" />
+			<Flag n="Dead" />
+			<Flag n="AnimatedMove" />
+			<Flag n="InteractWeaponPickup" />
+			<Flag n="InteractDevice" />
+			<Flag n="InteractLaunchObject" />
+			<Flag n="HardPing" />
+			<Flag n="Align" />
+			<Flag n="ShieldRaise" />
+			<Flag n="ActivateEquipment" />
+			<Flag n="PhysicsImpulse" />
+			<Flag n="DeathPing" />
+			<Flag n="MediumPing" />
+			<Flag n="SoftPing" />
+			<Flag n="ScriptedSequence" />
+			<Flag n="CustomAnimation" />
+			<Flag n="DeflectProjectile" />
+			<Flag n="VehicleEnter" />
+			<Flag n="VehicleExit" />
+			<Flag n="Vehicle" />
+			<Flag n="Brace" />
+			<Flag n="WeaponDraw" />
+			<Flag n="WeaponStow" />
+			<Flag n="HardStop" />
+			<Flag n="Hoist" />
+			<Flag n="PreCombatPointActivity" />
+			<Flag n="Stunned" />
+			<Flag n="ObstacleSmash" />
+			<Flag n="WeaponVent" />
+			<Flag n="SoftPingDefenseScreen" />
+			<Flag n="ThrowEquipment" />
+			<Flag n="Hijack" />
+			<Flag n="Kamikaze" />
+			<Flag n="CloseQuartersDefenseBlast" />
+			<Flag n="Search" />
+			<Flag n="SearchFound" />
+			<Flag n="Surprise" />
+			<Flag n="Hover" />
+			<Flag n="Alert" />
+			<Flag n="AlertCallout" />
+			<Flag n="WeaponFidget" />
+			<Flag n="WeaponReload" />
+			<Flag n="FullbodyAnimation" />
+			<Flag n="ActivateCamo" />
+			<Flag n="TradeWeapon" />
+			<Flag n="Flying" />
+			<Flag n="MultiTargetTrackedAttack" />
+			<Flag n="Berserk" />
+			<Flag n="LeapWindup" />
+			<Flag n="AnimatedTell" />
+			<Flag n="TeleportArrive" />
+			<Flag n="JinkFire" />
+			<Flag n="DialogueAnimation" />
+			<Flag n="Swoop" />
+			<Flag n="AirborneMelee" />
+			<Flag n="Land" />
+			<Flag n="Hunker" />
+			<Flag n="Launching" />
+			<Flag n="PreAndPostFire" />
+			<Flag n="AnimatedPosture" />
+			<Flag n="Boarding" />
+		</_C>
+		<_C Name="combined result" Offset="4" StructName1="i343::ActionSystem::ActionPriorityResult">
+			<Flag n="Synchronous" />
+			<Flag n="Interrupt" />
+			<Flag n="InterruptAfterEvent" />
+			<Flag n="Disallow" />
+		</_C>
+	</_7AB049320CF2B016B5E2573F8CE636BC>
+</root>

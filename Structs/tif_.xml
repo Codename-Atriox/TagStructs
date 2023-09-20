@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="tif" Parents="aTag" Index="-425">
+	<_3DF1472D6F18CD7CC8C8A9669962C9D4 Name="TifSourceFileTag" Size="58">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_7 Name="width" Offset="10" />
+		<_7 Name="height" Offset="18" />
+		<_6 Name="format" Offset="20" />
+		<_34 Name="generated_pad09ba" Offset="24" Length="4" />
+		<_7 Name="rowPitch" Offset="28" />
+		<_7 Name="slicePitch" Offset="30" />
+		<_7 Name="pixels" type="arpt" Offset="38" />
+		<_42 Name="pixel data" Offset="40" StructName1="TifSourceFileTag.pixel data" Int1="0" Int2="0" Flags="10000000" />
+	</_3DF1472D6F18CD7CC8C8A9669962C9D4>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

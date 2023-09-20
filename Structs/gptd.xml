@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="game_performance_throttle" Parents="aTag" Index="-196">
+	<_3D1447BB1073ABE0B0BD63B189E0B4FC Name="s_game_performance_throttle_definitions" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="entries" Offset="10" GUID="69BE49A57195A90357868FDCC5CD305E" StructName1="s_game_performance_throttle_definitions" Min="0" Max="32" />
+		<_34 Name="generated_pad2b25" Offset="24" Length="4" />
+	</_3D1447BB1073ABE0B0BD63B189E0B4FC>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_69BE49A57195A90357868FDCC5CD305E Name="s_game_performance_throttle_entry" Size="1C">
+		<_38 Name="filter" Offset="0" GUID="08434959AAA4CF0512AB070EC0C30D92" />
+		<_38 Name="profile" Offset="4" GUID="88434959A9A4CF0516AB070EB0C30D92" />
+	</_69BE49A57195A90357868FDCC5CD305E>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_08434959AAA4CF0512AB070EC0C30D92 Name="s_game_performance_throttle_filter" Size="4">
+		<_6 Name="minimum player count" Offset="0" />
+	</_08434959AAA4CF0512AB070EC0C30D92>
+	<_88434959A9A4CF0516AB070EB0C30D92 Name="s_game_performance_throttle_profile" Size="18">
+		<_6 Name="maximum havok proxy count" Offset="0" />
+		<_6 Name="maximum impact count" Offset="4" />
+		<_6 Name="vehicle suspension update frequency" Offset="8" />
+		<_6 Name="Actor LOD, AI actors to update fully each frame" Offset="C" />
+		<_6 Name="Actor LOD, Number of frames to tick LODed AI" Offset="10" />
+		<_6 Name="Actor LOD, Number of concurrent LOD actors to tick" Offset="14" />
+	</_88434959A9A4CF0516AB070EB0C30D92>
+</root>

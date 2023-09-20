@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="MeleeGlobals" Parents="aTag" Index="-255">
+	<_C980482A7D6556259827722E9794481F Name="i343::Melee::MeleeGlobalsDefinition" Size="90">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_D Name="flags" Offset="10" StructName1="i343::Melee::MeleeGlobalsDefinitionFlags">
+			<Flag n="clang save both if both died" />
+			<Flag n="enable predictable rebound" />
+			<Flag n="enable damage acceleration with predictable rebound" />
+			<Flag n="use predictable collision pill" />
+			<Flag n="enable legacy pvp lunge distance calculation" />
+		</_D>
+		<_A Name="head position calculation method" Offset="14" StructName1="i343::Melee::HeadPositionCalculationMethod">
+			<Flag n="from head marker" />
+			<Flag n="as offset from base position" />
+			<Flag n="sight position" />
+		</_A>
+		<_A Name="head position calculation method (parented)" Offset="15" StructName1="i343::Melee::HeadPositionCalculationMethod">
+			<Flag n="from head marker" />
+			<Flag n="as offset from base position" />
+			<Flag n="sight position" />
+		</_A>
+		<_34 Name="generated_paded36" Offset="16" Length="2" />
+		<_14 Name="melee death acceleration" Offset="18" />
+		<_14 Name="uber melee death acceleration" Offset="1C" />
+		<_37 Name="clang" type="fgrb" Offset="20" />
+		<_36 Name="clang" Offset="20" />
+		<_36 Name="Network sensitive fields" Offset="20" />
+		<_14 Name="clang simultaneous death vitality threshold" Offset="20" />
+		<_37 Name="" type="fgre" Offset="24" />
+		<_38 Name="targeting" Offset="24" GUID="8CFF430E5AE3C88AB9CA63ABB363C2AE" />
+		<_38 Name="physics" Offset="5C" GUID="72B34BCD60D7025701A1EC4C89A79AC0" />
+		<_37 Name="default melee damage" type="fgrb" Offset="6C" />
+		<_40 Name="default damage" Offset="6C" GUID="E895A76CB9EBA02E409CC1A5AB8BEA74" StructName1="i343::Melee::MeleeGlobalsDefinition" Min="0" Max="2" />
+		<_37 Name="" type="fgre" Offset="80" />
+		<_37 Name="predictable rebound" type="fgrb" Offset="80" />
+		<_36 Name="predictable rebound" Offset="80" />
+		<_8 Name="rebound angle" Offset="80" />
+		<_14 Name="rebound speed" Offset="84" />
+		<_14 Name="rebound ignore throttle time" Offset="88" />
+		<_37 Name="" type="fgre" Offset="8C" />
+		<_34 Name="generated_pad39eb" Offset="8C" Length="4" />
+	</_C980482A7D6556259827722E9794481F>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_8CFF430E5AE3C88AB9CA63ABB363C2AE Name="i343::Melee::TargetingDefinition" Size="38">
+		<_37 Name="targeting" type="fgrb" Offset="0" />
+		<_24 Name="yaw angles" Offset="0" />
+		<_24 Name="yaw angles lunging" Offset="8" />
+		<_24 Name="pitch angles" Offset="10" />
+		<_24 Name="pitch angles lunging" Offset="18" />
+		<_8 Name="ground pitch down max" Offset="20" />
+		<_36 Name="aim bending" Offset="24" />
+		<_8 Name="aim bend yaw max speed" Offset="24" />
+		<_8 Name="aim bend yaw max" Offset="28" />
+		<_8 Name="aim bend yaw pitch speed" Offset="2C" />
+		<_8 Name="aim bend yaw pitch up max" Offset="30" />
+		<_8 Name="aim bend yaw pitch down max" Offset="34" />
+		<_37 Name="" type="fgre" Offset="38" />
+	</_8CFF430E5AE3C88AB9CA63ABB363C2AE>
+	<_72B34BCD60D7025701A1EC4C89A79AC0 Name="i343::Melee::PhysicsDefinition" Size="10">
+		<_37 Name="physics" type="fgrb" Offset="0" />
+		<_14 Name="lunge maximum speed" Offset="0" />
+		<_14 Name="uber lunge maximum speed" Offset="4" />
+		<_14 Name="lunge acceleration time" Offset="8" />
+		<_14 Name="lunge deceleration time" Offset="C" />
+		<_37 Name="" type="fgre" Offset="10" />
+	</_72B34BCD60D7025701A1EC4C89A79AC0>
+	<_E895A76CB9EBA02E409CC1A5AB8BEA74 Name="s_melee_damage_parameters" Size="188">
+		<_36 Name="melee damage parameters" Offset="0" />
+		<_1B Name="damage pyramid angles" Offset="0" />
+		<_14 Name="damage pyramid depth" Offset="8" />
+		<_14 Name="damage pyramid depth when lunging" Offset="C" />
+		<_14 Name="maximum lunge range" Offset="10" />
+		<_14 Name="damage lunge explosive depth" Offset="14" />
+		<_14 Name="runtime damage lunge explosive fraction" Offset="18" />
+		<_41 Name="melee damage" Offset="1C" Allowed="jpt!" Flags="0" />
+		<_41 Name="melee response" Offset="38" Allowed="jpt!, drdf" Flags="0" />
+		<_41 Name="lunge melee damage" Offset="54" Allowed="jpt!" Flags="0" />
+		<_41 Name="lunge melee response" Offset="70" Allowed="jpt!, drdf" Flags="0" />
+		<_41 Name="empty melee damage" Offset="8C" Allowed="jpt!" Flags="0" />
+		<_41 Name="empty melee response" Offset="A8" Allowed="jpt!, drdf" Flags="0" />
+		<_41 Name="clang melee damage" Offset="C4" Allowed="jpt!" Flags="0" />
+		<_41 Name="clang melee response" Offset="E0" Allowed="jpt!, drdf" Flags="0" />
+		<_41 Name="clang melee against melee weapon damage" Offset="FC" Allowed="jpt!" Flags="0" />
+		<_41 Name="clang melee against melee weapon damage response" Offset="118" Allowed="jpt!, drdf" Flags="0" />
+		<_41 Name="lunge melee explosive damage" Offset="134" Allowed="effe" Flags="0" />
+		<_41 Name="melee attack effect" Offset="150" Allowed="effe" Flags="0" />
+		<_41 Name="biped melee hit effect" Offset="16C" Allowed="effe" Flags="0" />
+	</_E895A76CB9EBA02E409CC1A5AB8BEA74>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

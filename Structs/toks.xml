@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="TokenSystemGlobalsDefinition" Parents="aTag" Index="-428">
+	<_3388EC4A94046522928131FEEACE96B6 Name="i343::AI::TokenSystem::TokenSystemGlobalsDefinition" Size="88">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Threat Token Globals" Offset="10" GUID="FA4691A4FB28DDCD29101D6B6421F11E" StructName1="i343::AI::TokenSystem::TokenSystemGlobalsDefinition" Min="0" Max="1" />
+		<_40 Name="Grenade Token Globals" Offset="24" GUID="868B488F2AA8C64910A0FACFB77C8F00" StructName1="i343::AI::TokenSystem::TokenSystemGlobalsDefinition" Min="0" Max="1" />
+		<_37 Name="Effectiveness Token Globals" type="fgrb" Offset="38" />
+		<_37 Name="Scoring Criteria" type="fgrb" Offset="38" />
+		<_36 Name="" Offset="38" />
+		<_14 Name="Recently Damaged Duration" Offset="38" />
+		<_8 Name="Player Aiming Angle" Offset="3C" />
+		<_14 Name="Close Player Distance" Offset="40" />
+		<_14 Name="Recently Acquired Duration" Offset="44" />
+		<_14 Name="Aimed At Transition Time" Offset="48" />
+		<_37 Name="" type="fgre" Offset="4C" />
+		<_37 Name="Score Modifiers" type="fgrb" Offset="4C" />
+		<_36 Name="" Offset="4C" />
+		<_5 Name="Recently Damaged Score Modifier" Offset="4C" />
+		<_5 Name="Player Aiming At Score Modifier" Offset="4E" />
+		<_5 Name="Close Player Score Modifier" Offset="50" />
+		<_5 Name="In Combat Range Score Modifier" Offset="52" />
+		<_5 Name="Recently Acquired Score Modifier" Offset="54" />
+		<_5 Name="Player Within EZ Score Modifier" Offset="56" />
+		<_5 Name="First Character Type Score Modifier" Offset="58" />
+		<_5 Name="Has clear LOS score modifier" Offset="5A" />
+		<_37 Name="" type="fgre" Offset="5C" />
+		<_37 Name="Override Parameters" type="fgrb" Offset="5C" />
+		<_36 Name="" Offset="5C" />
+		<_14 Name="Recently Acquired Override Time" Offset="5C" />
+		<_5 Name="Score Override Threshold" Offset="60" />
+		<_5 Name="Holding Score Override Threshold" Offset="62" />
+		<_14 Name="Proximity Override Distance" Offset="64" />
+		<_37 Name="" type="fgre" Offset="68" />
+		<_37 Name="Effectivity Modifiers" type="fgrb" Offset="68" />
+		<_36 Name="" Offset="68" />
+		<_14 Name="Damage Modifier" Offset="68" />
+		<_14 Name="Burst Error Modifier" Offset="6C" />
+		<_14 Name="Burst Error Bonus" Offset="70" />
+		<_14 Name="Burst Duration Modifier" Offset="74" />
+		<_14 Name="Burst Radius Modifier" Offset="78" />
+		<_14 Name="Grenade Miss Distance" Offset="7C" />
+		<_14 Name="Accuracy Time Modifier" Offset="80" />
+		<_37 Name="" type="fgre" Offset="84" />
+		<_37 Name="" type="fgre" Offset="84" />
+		<_34 Name="generated_pada628" Offset="84" Length="4" />
+	</_3388EC4A94046522928131FEEACE96B6>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_FA4691A4FB28DDCD29101D6B6421F11E Name="i343::AI::TokenSystem::ThreatTokenDefinition" Size="34">
+		<_36 Name="Threat Token Tuning Globals" Offset="0" />
+		<_8 Name="Aiming Angle" Offset="0" />
+		<_36 Name="Threat Score Modifiers" Offset="4" />
+		<_5 Name="Aiming score modifier" Offset="4" />
+		<_5 Name="Recently damaged score modifier" Offset="6" />
+		<_14 Name="Recently damaged duration" Offset="8" />
+		<_5 Name="Has clear LOS score modifier" Offset="C" />
+		<_5 Name="Player close to enemy score modifier" Offset="E" />
+		<_5 Name="Close player distance" Offset="10" />
+		<_5 Name="Player within combat range of enemy score modifier" Offset="12" />
+		<_5 Name="Hasn't acquired token in a while score modifier" Offset="14" />
+		<_5 Name="Hasn't acquired token in a while time" Offset="16" />
+		<_5 Name="Recently acquired token score modifier" Offset="18" />
+		<_5 Name="Recently acquired token time" Offset="1A" />
+		<_5 Name="Fully Effective Score Modifier" Offset="1C" />
+		<_5 Name="Character type limit modifier" Offset="1E" />
+		<_36 Name="Threat Token Character Limits" Offset="20" />
+		<_40 Name="Character Limits" Offset="20" GUID="385C3CAE44D8D0E50FA40C54BF85C773" StructName1="i343::AI::TokenSystem::ThreatTokenDefinition" Min="0" Max="32" />
+	</_FA4691A4FB28DDCD29101D6B6421F11E>
+	<_868B488F2AA8C64910A0FACFB77C8F00 Name="i343::AI::TokenSystem::GrenadeTokenDefinition" Size="14">
+		<_F Name="flags" Offset="0" StructName1="i343::AI::TokenSystem::GrenadeTokenFlags">
+			<Flag n="Friendly actors need tokens" />
+		</_F>
+		<_34 Name="generated_pad7795" Offset="1" Length="1" />
+		<_5 Name="Hasn't thrown a grenade recently score modifier" Offset="2" />
+		<_14 Name="Hasn't thrown a grenade recently time" Offset="4" />
+		<_5 Name="Has no ranged weapon score modifier" Offset="8" />
+		<_5 Name="Recently damaged score modifier" Offset="A" />
+		<_14 Name="Recently damaged duration" Offset="C" />
+		<_5 Name="High Priority Behavior Score Modifier" Offset="10" />
+		<_34 Name="generated_pad5db4" Offset="12" Length="2" />
+	</_868B488F2AA8C64910A0FACFB77C8F00>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_385C3CAE44D8D0E50FA40C54BF85C773 Name="i343::AI::TokenSystem::ThreatTokenCharacterLimit" Size="4">
+		<_B Name="Character Type" Offset="0" StructName1="ActorType">
+			<Flag n="none" />
+			<Flag n="player" />
+			<Flag n="marine" />
+			<Flag n="crew" />
+			<Flag n="spartan" />
+			<Flag n="elite" />
+			<Flag n="jackal" />
+			<Flag n="jackal sniper" />
+			<Flag n="grunt" />
+			<Flag n="hunter" />
+			<Flag n="prophet" />
+			<Flag n="bugger" />
+			<Flag n="scarab" />
+			<Flag n="engineer" />
+			<Flag n="skirmisher" />
+			<Flag n="bishop" />
+			<Flag n="knight" />
+			<Flag n="pawn" />
+			<Flag n="cavalier" />
+			<Flag n="packmaster" />
+			<Flag n="soldier" />
+			<Flag n="soldier sniper" />
+			<Flag n="soldier officer" />
+			<Flag n="rook" />
+			<Flag n="sentinel" />
+			<Flag n="brute" />
+			<Flag n="hoverer" />
+			<Flag n="crusher" />
+			<Flag n="mule" />
+			<Flag n="mounted_weapon" />
+			<Flag n="octopus" />
+			<Flag n="wildlife" />
+		</_B>
+		<_5 Name="Max character instances" Offset="2" />
+	</_385C3CAE44D8D0E50FA40C54BF85C773>
+</root>

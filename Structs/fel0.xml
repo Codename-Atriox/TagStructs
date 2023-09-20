@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="AnimFrameEvents" Parents="aTag" Index="-136">
+	<_8216450231A9DF353526B9878286C9F1 Name="AnimationFrameEventList" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Animations" Offset="10" GUID="FA5B4D397C0262331E8153A1909C6EDF" StructName1="AnimationFrameEventList" Min="0" Max="8192" />
+		<_34 Name="generated_padfeff" Offset="24" Length="4" />
+	</_8216450231A9DF353526B9878286C9F1>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_FA5B4D397C0262331E8153A1909C6EDF Name="AnimFrameEvents" Size="30">
+		<_2 Name="Name" Offset="0" />
+		<_6 Name="Guid" Offset="4" />
+		<_40 Name="Frame events" Offset="8" GUID="2BC8424EF967DB3F0A770D6A9F4E37B3" StructName1="AnimFrameEvents" Min="0" Max="512" />
+		<_40 Name="Functions" Offset="1C" GUID="281B41E969A3A216954B24669C1722A9" StructName1="AnimFrameEvents" Min="0" Max="255" />
+	</_FA5B4D397C0262331E8153A1909C6EDF>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_2BC8424EF967DB3F0A770D6A9F4E37B3 Name="AnimFrameEvent" Size="8">
+		<_5 Name="Frame" Offset="0" />
+		<_34 Name="generated_pad8ebc" Offset="2" Length="2" />
+		<_2 Name="Anim event type" type="sted" Offset="4" />
+	</_2BC8424EF967DB3F0A770D6A9F4E37B3>
+	<_281B41E969A3A216954B24669C1722A9 Name="AnimFunction" Size="4C">
+		<_2 Name="Function name" type="sted" Offset="0" />
+		<_2 Name="Comment" Offset="4" />
+		<_38 Name="Function curve" Offset="8" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+	</_281B41E969A3A216954B24669C1722A9>
+	<_76144B6AE05BBD5164A56C16BD5CC07A Name="i343::Curve::AnimatedCurve1d" Size="44">
+		<_2 Name="Name" Offset="0" />
+		<_F Name="Flags" Offset="4" StructName1="i343::Curve::AnimatedCurveFlags">
+			<Flag n="Enabled" />
+			<Flag n="Visible" />
+		</_F>
+		<_34 Name="generated_pad94fd" Offset="5" Length="3" />
+		<_38 Name="Value Curve" Offset="8" GUID="0F9747AA89121CCE609267FD9685FC92" />
+		<_40 Name="AnimatedCurveMetadata" Offset="1C" GUID="3F964DDA0953303E62C6151BBBD199AE" StructName1="i343::Curve::AnimatedCurve1d" Min="0" Max="1024" />
+		<_40 Name="EditorCurveProperties" Offset="30" GUID="7E334986D2CF3A61A27890EAA945BBF5" StructName1="i343::Curve::AnimatedCurve1d" Min="0" Max="1" />
+	</_76144B6AE05BBD5164A56C16BD5CC07A>
+	<_0F9747AA89121CCE609267FD9685FC92 Name="i343::Curve::Curve1dDefinition" Size="14">
+		<_40 Name="control points" Offset="0" GUID="F01E43007DADE047C5A8963E807C1A31" StructName1="i343::Curve::Curve1dDefinition" Min="0" Max="1024" />
+	</_0F9747AA89121CCE609267FD9685FC92>
+	<_3F964DDA0953303E62C6151BBBD199AE Name="i343::Curve::AnimatedCurveMetadata" Size="4">
+		<_14 Name="time" Offset="0" />
+	</_3F964DDA0953303E62C6151BBBD199AE>
+	<_7E334986D2CF3A61A27890EAA945BBF5 Name="i343::Curve::EditorCurveProperties" Size="28">
+		<_40 Name="wizard settings" Offset="0" GUID="D0AC41A0CA658DFDF2105B8E8859B6F6" StructName1="i343::Curve::EditorCurveProperties" Min="0" Max="1" />
+		<_40 Name="Colors" Offset="14" GUID="2D4746EBEE69FC63B0BB44D695596FDB" StructName1="i343::Curve::EditorCurveProperties" Min="0" Max="3" />
+	</_7E334986D2CF3A61A27890EAA945BBF5>
+	<_F01E43007DADE047C5A8963E807C1A31 Name="i343::Curve::Curve1dControlPoint" Size="14">
+		<_14 Name="value" Offset="0" />
+		<_14 Name="tangent in" Offset="4" />
+		<_14 Name="tangent out" Offset="8" />
+		<_14 Name="curviness" Offset="C" />
+		<_A Name="segment type" Offset="10" StructName1="i343::Curve::SegmentType">
+			<Flag n="Spline" />
+			<Flag n="Linear" />
+			<Flag n="Stepped" />
+			<Flag n="SteppedNext" />
+		</_A>
+		<_A Name="tangent mode" Offset="11" StructName1="i343::Curve::TangentMode">
+			<Flag n="AutoStraight" />
+			<Flag n="UserStraight" />
+			<Flag n="UserBroken" />
+		</_A>
+		<_34 Name="generated_pad7103" Offset="12" Length="2" />
+	</_F01E43007DADE047C5A8963E807C1A31>
+	<_D0AC41A0CA658DFDF2105B8E8859B6F6 Name="i343::Curve::PeriodicFunctionWizardSettings" Size="24">
+		<_A Name="range mode" Offset="0" StructName1="i343::Curve::PeriodicFunctionWizardRangeMode">
+			<Flag n="UseTrackLength" />
+			<Flag n="UseTrackLengthLooping" />
+			<Flag n="Range" />
+		</_A>
+		<_34 Name="generated_pad4449" Offset="1" Length="3" />
+		<_14 Name="start frame" Offset="4" />
+		<_14 Name="end frame" Offset="8" />
+		<_B Name="function" Offset="C" StructName1="PeriodicFunction">
+			<Flag n="one" />
+			<Flag n="zero" />
+			<Flag n="cosine" />
+			<Flag n="cosine (variable period)" />
+			<Flag n="diagonal wave" />
+			<Flag n="diagonal wave (variable period)" />
+			<Flag n="slide" />
+			<Flag n="slide (variable period)" />
+			<Flag n="noise" />
+			<Flag n="jitter" />
+			<Flag n="wander" />
+			<Flag n="spark" />
+		</_B>
+		<_34 Name="generated_pad2a68" Offset="E" Length="2" />
+		<_14 Name="keyframe frequency" Offset="10" />
+		<_14 Name="function frequency" Offset="14" />
+		<_14 Name="offset" Offset="18" />
+		<_14 Name="min value" Offset="1C" />
+		<_14 Name="max value" Offset="20" />
+	</_D0AC41A0CA658DFDF2105B8E8859B6F6>
+	<_2D4746EBEE69FC63B0BB44D695596FDB Name="i343::Curve::EditorCurveColor" Size="4">
+		<_3E Name="color" Offset="0" />
+	</_2D4746EBEE69FC63B0BB44D695596FDB>
+</root>

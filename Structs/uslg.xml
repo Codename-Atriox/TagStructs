@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:20 PM" Name="stringList" Parents="aTag" Index="-456">
+	<_5329CD749FC93C5206D4895098257C52 Name="UnicodeStringListGroup" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="import - directory" type="tcwd" Offset="10" Float1="1.831937E+25" Max="0" Min="1.602216E+31" Float4="0" />
+		<_37 Name="import - single file" type="ctcd" Offset="10" Float1="1.602216E+31" Max="0" Min="3.831279E+29" Float4="0" />
+		<_40 Name="language references" Offset="10" GUID="B873A40F70A597AEC11A813BA35936B0" StructName1="UnicodeStringListGroup" Min="0" Max="18" />
+		<_34 Name="generated_pad95a9" Offset="24" Length="4" />
+	</_5329CD749FC93C5206D4895098257C52>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_B873A40F70A597AEC11A813BA35936B0 Name="LanguageReference" Size="14">
+		<_C Name="language" Offset="0" StructName1="e_language">
+			<Flag n="English" />
+			<Flag n="Japanese" />
+			<Flag n="German" />
+			<Flag n="French" />
+			<Flag n="Spanish" />
+			<Flag n="Mexican-Spanish" />
+			<Flag n="Italian" />
+			<Flag n="Korean" />
+			<Flag n="Traditional-Chinese" />
+			<Flag n="Simplified-Chinese" />
+			<Flag n="Portuguese" />
+			<Flag n="Polish" />
+			<Flag n="Russian" />
+			<Flag n="Danish" />
+			<Flag n="Finnish" />
+			<Flag n="Dutch" />
+			<Flag n="Norwegian" />
+			<Flag n="Brazilian-Portuguese" />
+		</_C>
+		<_43 Name="string list resource" Offset="4" StructName1="UnicodeStringListResource" Int1="0" GUID="45706B3B582737CA49DE40659030D637" />
+	</_B873A40F70A597AEC11A813BA35936B0>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_45706B3B582737CA49DE40659030D637 Name="UnicodeStringListResource" Size="40">
+		<_40 Name="string lookup info" Offset="0" GUID="672B17D5FDD644EEBCDB40D14523CABA" StructName1="UnicodeStringListResource" Min="0" Max="2048" />
+		<_40 Name="substitution pairs" Offset="14" GUID="37054DE157436AF6685EDB0BBB030AB6" StructName1="UnicodeStringListResource" Min="0" Max="2048" />
+		<_42 Name="string data utf8" Offset="28" StructName1="UnicodeStringListResource.string data utf8" Int1="0" Int2="0" Flags="200000" />
+	</_45706B3B582737CA49DE40659030D637>
+	<_672B17D5FDD644EEBCDB40D14523CABA Name="UnicodeStringLookupInfo" Size="8">
+		<_2 Name="string id" Offset="0" />
+		<_6 Name="offset" Offset="4" />
+	</_672B17D5FDD644EEBCDB40D14523CABA>
+	<_37054DE157436AF6685EDB0BBB030AB6 Name="s_string_substitution_pair" Size="C">
+		<_2 Name="first string id" Offset="0" />
+		<_2 Name="second string id" Offset="4" />
+		<_6 Name="associated value" Offset="8" />
+	</_37054DE157436AF6685EDB0BBB030AB6>
+</root>

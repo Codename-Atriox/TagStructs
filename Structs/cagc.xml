@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="CageCameraDefinition" Parents="cage,aTag" Index="-49">
+	<_ABD44190CCE3DC94F15C58F68DBF3E97 Name="i343::CageSystem::CageCameraDefinitionTag" Size="40">
+		<_38 Name="CageDefinition" Offset="0" GUID="B0224A2E2114B783A82596FF9252412D" />
+		<_40 Name="Camera Data" Offset="28" GUID="15104C55E4D7D35C4E5679228EE7D70B" StructName1="i343::CageSystem::CageCameraDefinitionTag" Min="0" Max="128" />
+		<_34 Name="generated_pad7d32" Offset="3C" Length="4" />
+	</_ABD44190CCE3DC94F15C58F68DBF3E97>
+	<_B0224A2E2114B783A82596FF9252412D Name="i343::CageSystem::CageDefinitionTag" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Points" Offset="10" GUID="BE8F401AC139960BFEBB5F67A178C1DD" StructName1="i343::CageSystem::CageDefinitionTag" Min="0" Max="128" />
+		<_34 Name="generated_pad90a9" Offset="24" Length="4" />
+	</_B0224A2E2114B783A82596FF9252412D>
+	<_15104C55E4D7D35C4E5679228EE7D70B Name="i343::CageSystem::CageCameraData" Size="40">
+		<_F Name="Flags" Offset="0" StructName1="i343::CageSystem::CageCameraFlags">
+			<Flag n="Adjust FOV with Aspect Ratio" />
+		</_F>
+		<_34 Name="generated_padf2a3" Offset="1" Length="3" />
+		<_14 Name="Sensor Size" Offset="4" />
+		<_14 Name="Focal Length" Offset="8" />
+		<_14 Name="Focus Distance" Offset="C" />
+		<_14 Name="F-Stop" Offset="10" />
+		<_6 Name="Bokeh Side Count" Offset="14" />
+		<_A Name="Blend Curve" Offset="18" StructName1="i343::Curve::CurveBuiltIn">
+			<Flag n="None" />
+			<Flag n="Linear" />
+			<Flag n="Zero" />
+			<Flag n="One" />
+			<Flag n="EaseInQuad" />
+			<Flag n="EaseOutQuad" />
+			<Flag n="EaseInOutQuad" />
+			<Flag n="EaseInCubic" />
+			<Flag n="EaseOutCubic" />
+			<Flag n="EaseInOutCubic" />
+			<Flag n="EaseInQuart" />
+			<Flag n="EaseOutQuart" />
+			<Flag n="EaseInOutQuart" />
+			<Flag n="EaseInQuint" />
+			<Flag n="EaseOutQuint" />
+			<Flag n="EaseInOutQuint" />
+			<Flag n="EaseInSine" />
+			<Flag n="EaseOutSine" />
+			<Flag n="EaseInOutSine" />
+			<Flag n="EaseInExpo" />
+			<Flag n="EaseOutExpo" />
+			<Flag n="EaseInOutExpo" />
+			<Flag n="EaseInCirc" />
+			<Flag n="EaseOutCirc" />
+			<Flag n="EaseInOutCirc" />
+			<Flag n="EaseInOutLight" />
+			<Flag n="EaseInOutHeavy" />
+		</_A>
+		<_34 Name="generated_pada5ee" Offset="19" Length="3" />
+		<_2 Name="Blend Curve Name" Offset="1C" />
+		<_41 Name="Blend Curve Tag" Offset="20" Allowed="curv" Flags="0" />
+		<_14 Name="Blend Time" Offset="3C" />
+	</_15104C55E4D7D35C4E5679228EE7D70B>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_BE8F401AC139960BFEBB5F67A178C1DD Name="i343::CageSystem::CagePoint" Size="2C">
+		<_E Name="Flags" Offset="0" StructName1="i343::CageSystem::CagePointFlags">
+			<Flag n="Ignore X" />
+			<Flag n="Ignore Y" />
+			<Flag n="Ignore Z" />
+			<Flag n="Ignore Yaw" />
+			<Flag n="Ignore Pitch" />
+			<Flag n="Ignore Roll" />
+			<Flag n="Use Bounding Sphere Center" />
+			<Flag n="Put Z-Axis At Floor" />
+			<Flag n="Sample Once" />
+		</_E>
+		<_34 Name="generated_pad7a22" Offset="2" Length="2" />
+		<_2 Name="name" Offset="4" />
+		<_A Name="offsetType" Offset="8" StructName1="i343::CageSystem::CageOffsetType">
+			<Flag n="Local" />
+			<Flag n="Location" />
+			<Flag n="World" />
+			<Flag n="Orbit" />
+			<Flag n="LocalWithCenter" />
+			<Flag n="WindDirection" />
+		</_A>
+		<_34 Name="generated_padc6d7" Offset="9" Length="3" />
+		<_19 Name="offsetPosition" Offset="C" />
+		<_1C Name="offsetRotation" Offset="18" />
+		<_A Name="locationType" Offset="24" StructName1="i343::CageSystem::CageLocationType">
+			<Flag n="None" />
+			<Flag n="Marker" />
+			<Flag n="Bone" />
+			<Flag n="FPS" />
+		</_A>
+		<_34 Name="generated_pad138c" Offset="25" Length="3" />
+		<_2 Name="locationName" Offset="28" />
+	</_BE8F401AC139960BFEBB5F67A178C1DD>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

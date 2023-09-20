@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="EffectOverride" Parents="aTag" Index="-287">
+	<_741B4823566A36A58B97887B94427EB0 Name="i343::ObjectCustomization::EffectOverride" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Effect Overrides" Offset="10" GUID="039C47812990BE7D85FCF8D4AFAC37DC" StructName1="i343::ObjectCustomization::EffectOverride" Min="0" Max="4096" />
+		<_34 Name="generated_pad6db2" Offset="24" Length="4" />
+	</_741B4823566A36A58B97887B94427EB0>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_039C47812990BE7D85FCF8D4AFAC37DC Name="i343::ObjectCustomization::EffectOverrideDefinition" Size="38">
+		<_41 Name="Source Effect" Offset="0" Allowed="effe" Flags="0" />
+		<_41 Name="Override Effect" Offset="1C" Allowed="effe" Flags="0" />
+	</_039C47812990BE7D85FCF8D4AFAC37DC>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

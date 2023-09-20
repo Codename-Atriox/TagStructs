@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="DialogDescriptions" Parents="aTag" Index="-100">
+	<_53C242AD91120580943DF7BAA5F29C3D Name="DialogDescriptionTag" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="Dialogs" Offset="10" />
+		<_40 Name="descriptions" Offset="10" GUID="94744F387C5393A4299DFBF48CC51E2D" StructName1="DialogDescriptionTag" Min="0" Max="256" />
+		<_34 Name="generated_padf92c" Offset="24" Length="4" />
+	</_53C242AD91120580943DF7BAA5F29C3D>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_94744F387C5393A4299DFBF48CC51E2D Name="s_gui_dialog_description" Size="28">
+		<_2 Name="dialog name" Offset="0" />
+		<_E Name="flags" Offset="4" StructName1="c_gui_dialog_description_flags">
+			<Flag n="unused" />
+		</_E>
+		<_34 Name="generated_pad869b" Offset="6" Length="2" />
+		<_2 Name="title" Offset="8" />
+		<_2 Name="message" Offset="C" />
+		<_2 Name="first_item" Offset="10" />
+		<_2 Name="second_item" Offset="14" />
+		<_2 Name="third_item" Offset="18" />
+		<_2 Name="fourth_item" Offset="1C" />
+		<_2 Name="button key" Offset="20" />
+		<_B Name="default item" Offset="24" StructName1="e_gui_dialog_choice">
+			<Flag n="first item" />
+			<Flag n="second item" />
+			<Flag n="third item" />
+			<Flag n="fourth item" />
+		</_B>
+		<_B Name="b button action" Offset="26" StructName1="e_gui_dialog_b_button_action">
+			<Flag n="dismisses dialog" />
+			<Flag n="button ignored" />
+			<Flag n="first item activates" />
+			<Flag n="second item activates" />
+			<Flag n="third item activates" />
+			<Flag n="fourth item activates" />
+		</_B>
+	</_94744F387C5393A4299DFBF48CC51E2D>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

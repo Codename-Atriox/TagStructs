@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:06 PM" Name="game_engine_globals" Parents="aTag" Index="-172">
+	<_65054DAA796F3498B1677B4E882DA33D Name="s_game_engine_globals_definition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="game engine text" Offset="10" GUID="D84A477120C34820DCB077B09BA17D66" StructName1="s_game_engine_globals_definition" Min="0" Max="16" />
+		<_34 Name="generated_padba96" Offset="24" Length="4" />
+	</_65054DAA796F3498B1677B4E882DA33D>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_D84A477120C34820DCB077B09BA17D66 Name="GameEngineTextDefinition" Size="1C">
+		<_41 Name="new text source" Offset="0" Allowed="uslg" Flags="0" />
+	</_D84A477120C34820DCB077B09BA17D66>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

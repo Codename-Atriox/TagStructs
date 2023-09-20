@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="texturegroup" Parents="aTag" Index="-423">
+	<_F2EA4485AB6A2AC1FAFAE195982F8194 Name="i343::Graphics::TextureGroupTable" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_E Name="options" Offset="10" StructName1="i343::Graphics::TextureGroupFlags">
+			<Flag n="Array Texture Mip Skip" />
+			<Flag n="Use Required Resolution" />
+			<Flag n="Load Skipped Mips" />
+		</_E>
+		<_34 Name="generated_pada88a" Offset="12" Length="2" />
+		<_36 Name="TEXTURE GROUPS" Offset="14" />
+		<_40 Name="settings" Offset="14" GUID="51004156F4480CE3A01C99319830223B" StructName1="i343::Graphics::TextureGroupTable" Min="0" Max="64" />
+	</_F2EA4485AB6A2AC1FAFAE195982F8194>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_51004156F4480CE3A01C99319830223B Name="i343::Graphics::TextureGroupSettings" Size="60">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="editor group" Offset="4" />
+		<_36 Name="Mips to Drop" Offset="8" />
+		<_38 Name="mip settings" Offset="8" GUID="D5A456AA566FC2EA11B8AE8756453DBA" />
+		<_36 Name="Required Resolution" Offset="24" />
+		<_A Name="Use Required Resolution Policy" Offset="24" StructName1="i343::Graphics::UseRequiredResolutionPolicy">
+			<Flag n="Allow Spec Control Adjustment Of Required Resolution" />
+			<Flag n="Force Use Required Resolution" />
+		</_A>
+		<_34 Name="generated_pad6823" Offset="25" Length="3" />
+		<_38 Name="required resolution settings" Offset="28" GUID="D5A456AA566FC2EA11B8AE8756453DBA" />
+		<_36 Name="Minimum Resolution" Offset="44" />
+		<_38 Name="minimum resolution settings" Offset="44" GUID="D5A456AA566FC2EA11B8AE8756453DBA" />
+	</_51004156F4480CE3A01C99319830223B>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_D5A456AA566FC2EA11B8AE8756453DBA Name="s_basic_spec_control_setting_int" Size="1C">
+		<_6 Name="Low" Offset="0" />
+		<_6 Name="Medium" Offset="4" />
+		<_6 Name="High" Offset="8" />
+		<_6 Name="Ultra" Offset="C" />
+		<_14 Name="2 Player Splitscreen" Offset="10" />
+		<_14 Name="3 Player Splitscreen" Offset="14" />
+		<_14 Name="4 Player Splitscreen" Offset="18" />
+	</_D5A456AA566FC2EA11B8AE8756453DBA>
+</root>

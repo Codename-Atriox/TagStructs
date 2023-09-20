@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="forge_sounds" Parents="aTag" Index="-160">
+	<_4D894DB457064F06F86D27449C329AB1 Name="ForgeActionSoundsDefinition" Size="400">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="$$$ General $$$" type="fgrb" Offset="10" />
+		<_41 Name="Enter Edit Mode" Offset="10" Allowed="snd!" Flags="0" />
+		<_41 Name="Enter Play Mode" Offset="2C" Allowed="snd!" Flags="0" />
+		<_41 Name="Undo Sound" Offset="48" Allowed="snd!" Flags="0" />
+		<_41 Name="Redo Sound" Offset="64" Allowed="snd!" Flags="0" />
+		<_41 Name="Monitor Speed Change Sound" Offset="80" Allowed="snd!" Flags="0" />
+		<_41 Name="Error Sound" Offset="9C" Allowed="snd!" Flags="0" />
+		<_41 Name="Menu Opened Sound" Offset="B8" Allowed="snd!" Flags="0" />
+		<_41 Name="Menu Closed Sound" Offset="D4" Allowed="snd!" Flags="0" />
+		<_37 Name="" type="fgre" Offset="F0" />
+		<_37 Name="$$$ Objects $$$" type="fgrb" Offset="F0" />
+		<_41 Name="Object Select Sound" Offset="F0" Allowed="snd!" Flags="0" />
+		<_41 Name="Object Deselect Sound" Offset="10C" Allowed="snd!" Flags="0" />
+		<_41 Name="Object Snap Sound" Offset="128" Allowed="snd!" Flags="0" />
+		<_41 Name="Object Place Sound" Offset="144" Allowed="snd!" Flags="0" />
+		<_41 Name="Object Place Error Sound" Offset="160" Allowed="snd!" Flags="0" />
+		<_41 Name="Object Duplicate Sound" Offset="17C" Allowed="snd!" Flags="0" />
+		<_41 Name="Object Delete Sound" Offset="198" Allowed="snd!" Flags="0" />
+		<_41 Name="Object Lock Focus Sound" Offset="1B4" Allowed="snd!" Flags="0" />
+		<_41 Name="Object Hide Sound" Offset="1D0" Allowed="snd!" Flags="0" />
+		<_41 Name="Object Show Sound" Offset="1EC" Allowed="snd!" Flags="0" />
+		<_41 Name="Object Lock Sound" Offset="208" Allowed="snd!" Flags="0" />
+		<_41 Name="Object Unlock Sound" Offset="224" Allowed="snd!" Flags="0" />
+		<_41 Name="Object Group Sound" Offset="240" Allowed="snd!" Flags="0" />
+		<_41 Name="Object Ungroup Sound" Offset="25C" Allowed="snd!" Flags="0" />
+		<_41 Name="Object Rotate Sound" Offset="278" Allowed="snd!" Flags="0" />
+		<_41 Name="Object Scale Sound" Offset="294" Allowed="snd!" Flags="0" />
+		<_41 Name="Save Prefab Sound" Offset="2B0" Allowed="snd!" Flags="0" />
+		<_37 Name="" type="fgre" Offset="2CC" />
+		<_37 Name="$$$ Nodegraph $$$" type="fgrb" Offset="2CC" />
+		<_41 Name="Nodegraph Enter Editor Sound" Offset="2CC" Allowed="snd!" Flags="0" />
+		<_41 Name="Nodegraph Exit Editor Sound" Offset="2E8" Allowed="snd!" Flags="0" />
+		<_41 Name="Nodegraph Place Node Sound" Offset="304" Allowed="snd!" Flags="0" />
+		<_41 Name="Nodegraph Select Node Sound" Offset="320" Allowed="snd!" Flags="0" />
+		<_41 Name="Nodegraph Deselect Node Sound" Offset="33C" Allowed="snd!" Flags="0" />
+		<_41 Name="Nodegraph Connect Nodes Sound" Offset="358" Allowed="snd!" Flags="0" />
+		<_41 Name="Nodegraph Disconnect Node Sound" Offset="374" Allowed="snd!" Flags="0" />
+		<_41 Name="Nodegraph Delete Node Sound" Offset="390" Allowed="snd!" Flags="0" />
+		<_41 Name="Nodegraph Duplicate Node Sound" Offset="3AC" Allowed="snd!" Flags="0" />
+		<_37 Name="" type="fgre" Offset="3C8" />
+		<_37 Name="$$$ Script Validation $$$" type="fgrb" Offset="3C8" />
+		<_41 Name="Script Validation Success Sound" Offset="3C8" Allowed="snd!" Flags="0" />
+		<_41 Name="Script Validation Error Sound" Offset="3E4" Allowed="snd!" Flags="0" />
+		<_37 Name="" type="fgre" Offset="400" />
+	</_4D894DB457064F06F86D27449C329AB1>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

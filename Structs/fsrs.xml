@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="forge_sound_response_sounds" Parents="aTag" Index="-167">
+	<_41DBB77993C3EF4AC040991ABE8B369F Name="ForgeSoundResponseSounds" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Sound Response Sounds" Offset="10" GUID="116876CDE9C5E8E5EB6FC3AA408471B3" StructName1="ForgeSoundResponseSounds" Min="0" Max="32" />
+		<_34 Name="generated_pad13f9" Offset="24" Length="4" />
+	</_41DBB77993C3EF4AC040991ABE8B369F>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_116876CDE9C5E8E5EB6FC3AA408471B3 Name="ForgeSoundResponseDefinition" Size="20">
+		<_2 Name="name" Offset="0" />
+		<_41 Name="Sound Response Reference" Offset="4" Allowed="sgrp" Flags="4" />
+	</_116876CDE9C5E8E5EB6FC3AA408471B3>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

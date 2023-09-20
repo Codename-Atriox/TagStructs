@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="ai_globals" Parents="aTag" Index="-15">
+	<_80EC4724EFB33B8C53DD39B39858CAF2 Name="s_ai_globals_definition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="data" Offset="10" GUID="A5BD4A1B1D0F80A0A8706C119A070B18" StructName1="s_ai_globals_definition" Min="0" Max="1" />
+		<_34 Name="generated_pad5c43" Offset="24" Length="4" />
+	</_80EC4724EFB33B8C53DD39B39858CAF2>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_A5BD4A1B1D0F80A0A8706C119A070B18 Name="s_ai_globals_data" Size="30C">
+		<_14 Name="AI infantry-on-AI weapon damage scale" Offset="0" />
+		<_14 Name="AI vehicle-on-AI weapon damage scale" Offset="4" />
+		<_14 Name="AI player vehicle-on-AI weapon damage scale" Offset="8" />
+		<_14 Name="Absolute Maximum AI Hearing Distance " Offset="C" />
+		<_14 Name="Absolute Maximum AI Speech Distance " Offset="10" />
+		<_36 Name="Sound Fraction" Offset="14" />
+		<_14 Name="Quiet Perception Distance Fraction" Offset="14" />
+		<_14 Name="Medium Perception Distance Fraction" Offset="18" />
+		<_14 Name="Shout Perception Distance Fraction" Offset="1C" />
+		<_36 Name="AI Suicide Damage Source" Offset="20" />
+		<_38 Name="aiSuicideDamageSource" Offset="20" GUID="FF87433DC31A245D49183EE68FE5BB27" />
+		<_14 Name="danger broadly facing" Offset="24" />
+		<_14 Name="danger shooting near" Offset="28" />
+		<_14 Name="danger shooting at" Offset="2C" />
+		<_14 Name="danger extremely close" Offset="30" />
+		<_14 Name="danger shield damage" Offset="34" />
+		<_14 Name="danger exetended shield damage" Offset="38" />
+		<_14 Name="danger body damage" Offset="3C" />
+		<_14 Name="danger extended body damage" Offset="40" />
+		<_41 Name="global dialogue tag" Offset="44" Allowed="adlg" Flags="0" />
+		<_2 Name="default mission dialogue sound effect" Offset="60" />
+		<_14 Name="jump velocity - very short" Offset="64" />
+		<_14 Name="jump velocity - short" Offset="68" />
+		<_14 Name="jump velocity - medium short" Offset="6C" />
+		<_14 Name="jump velocity - medium long" Offset="70" />
+		<_14 Name="jump velocity - long" Offset="74" />
+		<_14 Name="jump velocity - very long" Offset="78" />
+		<_34 Name="jump leap placeholder" Offset="7C" Length="4" />
+		<_14 Name="max jump down height - very short" Offset="80" />
+		<_14 Name="max jump down height - short" Offset="84" />
+		<_14 Name="max jump down height - medium short" Offset="88" />
+		<_14 Name="max jump down height - medium long" Offset="8C" />
+		<_14 Name="max jump down height - long" Offset="90" />
+		<_14 Name="max jump down height - very long" Offset="94" />
+		<_34 Name="another leap placeholder" Offset="98" Length="4" />
+		<_25 Name="hoist step" Offset="9C" />
+		<_25 Name="hoist crouch" Offset="A4" />
+		<_25 Name="hoist stand" Offset="AC" />
+		<_25 Name="vault step" Offset="B4" />
+		<_25 Name="vault crouch" Offset="BC" />
+		<_36 Name="PATHFINDING SEARCH RANGES" Offset="C4" />
+		<_14 Name="search range infantry" Offset="C4" />
+		<_14 Name="search range flying" Offset="C8" />
+		<_14 Name="search range vehicle" Offset="CC" />
+		<_14 Name="search range giant" Offset="D0" />
+		<_14 Name="AI seat cooldown" Offset="D4" />
+		<_14 Name="alert stagger delay max" Offset="D8" />
+		<_14 Name="Berserk animation suppress radius" Offset="DC" />
+		<_40 Name="gravemind properties" Offset="E0" GUID="1FC047FE5D6B3B9DA287DA568CDF19E7" StructName1="s_ai_globals_data" Min="0" Max="1" />
+		<_14 Name="scary target threhold" Offset="F4" />
+		<_14 Name="scary weapon threhold" Offset="F8" />
+		<_14 Name="player scariness" Offset="FC" />
+		<_15 Name="player desires healing health threshold" Offset="100" />
+		<_15 Name="player desires healing shield threshold" Offset="104" />
+		<_14 Name="berserking actor scariness" Offset="108" />
+		<_14 Name="kamikazeing actor scariness" Offset="10C" />
+		<_36 Name="RESURRECTION" Offset="110" />
+		<_14 Name="min death time" Offset="110" />
+		<_14 Name="projectile distance" Offset="114" />
+		<_14 Name="idle clump distance" Offset="118" />
+		<_14 Name="dangerous clump distance" Offset="11C" />
+		<_36 Name="TELEPORTATION" Offset="120" />
+		<_14 Name="cover search duration" Offset="120" />
+		<_14 Name="task direction search duration" Offset="124" />
+		<_36 Name="CURE ISOLATION" Offset="128" />
+		<_14 Name="Time unseen before teleport allowed" Offset="128" />
+		<_14 Name="Time isolated before exiting vehicle" Offset="12C" />
+		<_14 Name="Time isolated before can attempt kill" Offset="130" />
+		<_14 Name="Time unseen before kill allowed" Offset="134" />
+		<_14 Name="Time isolated before force killed" Offset="138" />
+		<_40 Name="spawn formations" Offset="13C" GUID="3B8542AB33FDDAB44E45A8989FC8A81A" StructName1="s_ai_globals_data" Min="0" Max="128" />
+		<_40 Name="squad template folders" Offset="150" GUID="F2F54C0FFCA99DE53B390792B4F47498" StructName1="s_ai_globals_data" Min="0" Max="32" />
+		<_40 Name="custom stimuli" Offset="164" GUID="7BC942E7A198B5537D86F5DFBD3BC6BE" StructName1="s_ai_globals_data" Min="0" Max="128" />
+		<_36 Name="CLUMP THROTTLING" Offset="178" />
+		<_14 Name="stop dist" Offset="178" />
+		<_14 Name="resume dist" Offset="17C" />
+		<_14 Name="min dist" Offset="180" />
+		<_14 Name="max dist" Offset="184" />
+		<_14 Name="min scale" Offset="188" />
+		<_36 Name="SQUAD PATROLLING" Offset="18C" />
+		<_14 Name="passthrough chance" Offset="18C" />
+		<_14 Name="search phase skip chance" Offset="190" />
+		<_14 Name="patrol transition timeout" Offset="194" />
+		<_14 Name="patrol maneuver timeout" Offset="198" />
+		<_25 Name="patrol search firing point time" Offset="19C" />
+		<_14 Name="patrol isolation distance" Offset="1A4" />
+		<_14 Name="patrol isolation time" Offset="1A8" />
+		<_36 Name="KUNGFU CONTROL" Offset="1AC" />
+		<_14 Name="kungfu deactivation delay" Offset="1AC" />
+		<_37 Name="Presearch Child Counts (0 means no limit)" type="fgrb" Offset="1B0" />
+		<_5 Name="suppressing fire count" Offset="1B0" />
+		<_5 Name="uncover count" Offset="1B2" />
+		<_5 Name="leap on cover count" Offset="1B4" />
+		<_5 Name="destroy cover count" Offset="1B6" />
+		<_5 Name="guard count" Offset="1B8" />
+		<_5 Name="investigate count" Offset="1BA" />
+		<_5 Name="search by fire count" Offset="1BC" />
+		<_34 Name="search padding" Offset="1BE" Length="2" />
+		<_37 Name="" type="fgre" Offset="1C0" />
+		<_40 Name="vision traits" Offset="1C0" GUID="590F4CBB5E1B04EFC4860BF89A08D75A" StructName1="s_ai_globals_data" Min="0" Max="3" />
+		<_40 Name="sound traits" Offset="1D4" GUID="A8274506FC75461E1B2BB7D691D2A359" StructName1="s_ai_globals_data" Min="0" Max="2" />
+		<_40 Name="luck traits" Offset="1E8" GUID="F7DA4CF9B158B95F8A9DD1B2BC3FD0FD" StructName1="s_ai_globals_data" Min="0" Max="3" />
+		<_40 Name="grenade traits" Offset="1FC" GUID="3F9547560B0F309974E8579683E0F6F3" StructName1="s_ai_globals_data" Min="0" Max="2" />
+		<_37 Name="Search Pattern Specification" type="fgrb" Offset="210" />
+		<_14 Name="max decay time" Offset="210" />
+		<_14 Name="decay time ping" Offset="214" />
+		<_14 Name="search pattern radius" Offset="218" />
+		<_5 Name="search pattern shell count" Offset="21C" />
+		<_23 Name="search pattern cells per shell range" Offset="21E" />
+		<_34 Name="generated_pad10c4" Offset="222" Length="2" />
+		<_37 Name="" type="fgre" Offset="224" />
+		<_37 Name="Playfighting Modifiers" type="fgrb" Offset="224" />
+		<_14 Name="Playfight Burst Duration Mod" Offset="224" />
+		<_14 Name="Playfight Burst Error Mod" Offset="228" />
+		<_14 Name="Playfight Burst Error Bonus" Offset="22C" />
+		<_14 Name="Playfight Burst Radius Mod" Offset="230" />
+		<_14 Name="Playfight Grenade Miss Distance" Offset="234" />
+		<_14 Name="Playfight Damage Mod" Offset="238" />
+		<_37 Name="Procedural Playfighting" type="fgrb" Offset="23C" />
+		<_36 Name="" Offset="23C" />
+		<_25 Name="Playfight Distance Thresholds" Offset="23C" />
+		<_38 Name="Distance Function" Offset="244" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_37 Name="" type="fgre" Offset="25C" />
+		<_37 Name="" type="fgre" Offset="25C" />
+		<_37 Name="AI Networking Parameters" type="fgrb" Offset="25C" />
+		<_36 Name="IMPORTANT" Offset="25C" />
+		<_14 Name="Positional discrepancy below which throttle fixups are NOT used if authority is stopped" Offset="25C" />
+		<_14 Name="Predict ahead time" Offset="260" />
+		<_36 Name="Interpolation Settings" Offset="264" />
+		<_41 Name="Simulation interpolation parameters" Offset="264" Allowed="siin" Flags="0" />
+		<_41 Name="Action simulation interpolation parameters" Offset="280" Allowed="siin" Flags="0" />
+		<_14 Name="Jump takeoff warp threshold" Offset="29C" />
+		<_37 Name="" type="fgre" Offset="2A0" />
+		<_14 Name="default max active camouflage" Offset="2A0" />
+		<_14 Name="max player LOF crouch distance" Offset="2A4" />
+		<_14 Name="player LOF crouch time" Offset="2A8" />
+		<_14 Name="Player LOF Stand Time" Offset="2AC" />
+		<_37 Name="Vehicle Properties" type="fgrb" Offset="2B0" />
+		<_14 Name="Vehicle Exit After Player Delay Time" Offset="2B0" />
+		<_37 Name="" type="fgre" Offset="2B4" />
+		<_37 Name="Slip Space Spawning" type="fgrb" Offset="2B4" />
+		<_41 Name="Slip Space Spawning Effect" Offset="2B4" Allowed="effe" Flags="0" />
+		<_37 Name="" type="fgre" Offset="2D0" />
+		<_37 Name="Weapon Interactive Object Properties" type="fgrb" Offset="2D0" />
+		<_40 Name="Ambient Info" Offset="2D0" GUID="EFFE48AE2E60A80B0CA20619AC10EA61" StructName1="s_ai_globals_data" Min="0" Max="512" />
+		<_37 Name="" type="fgre" Offset="2E4" />
+		<_40 Name="Friendly Squad Properties" Offset="2E4" GUID="D46C484810C248C6AB491B4DA38C27E8" StructName1="s_ai_globals_data" Min="0" Max="1" />
+		<_40 Name="Pathing Cost Modifiers" Offset="2F8" GUID="060B572EEB9321FEF2D327708DB3FD29" StructName1="s_ai_globals_data" Min="0" Max="1" />
+	</_A5BD4A1B1D0F80A0A8706C119A070B18>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_FF87433DC31A245D49183EE68FE5BB27 Name="i343::Damage::DamageSourceDefinition" Size="4">
+		<_2 Name="Damage Source Name" Offset="0" />
+	</_FF87433DC31A245D49183EE68FE5BB27>
+	<_1FC047FE5D6B3B9DA287DA568CDF19E7 Name="s_ai_globals_gravemind_definition" Size="C">
+		<_14 Name="min retreat time" Offset="0" />
+		<_14 Name="ideal retreat time" Offset="4" />
+		<_14 Name="max retreat time" Offset="8" />
+	</_1FC047FE5D6B3B9DA287DA568CDF19E7>
+	<_3B8542AB33FDDAB44E45A8989FC8A81A Name="s_ai_globals_formation_definition" Size="1C">
+		<_41 Name="formation" Offset="0" Allowed="form" Flags="0" />
+	</_3B8542AB33FDDAB44E45A8989FC8A81A>
+	<_F2F54C0FFCA99DE53B390792B4F47498 Name="s_ai_globals_squad_template_folder_definition" Size="2C">
+		<_2 Name="folder name" Offset="0" />
+		<_40 Name="sub folders" Offset="4" GUID="DC4A4D55411A7443017E72E0B4E36B7B" StructName1="s_ai_globals_squad_template_folder_definition" Min="0" Max="32" />
+		<_40 Name="templates" Offset="18" GUID="5B2E4CA5B77AC64982C99E1BA7AC56CB" StructName1="s_ai_globals_squad_template_folder_definition" Min="0" Max="128" />
+	</_F2F54C0FFCA99DE53B390792B4F47498>
+	<_7BC942E7A198B5537D86F5DFBD3BC6BE Name="s_ai_globals_custom_stimulus_definition" Size="4">
+		<_2 Name="name" Offset="0" />
+	</_7BC942E7A198B5537D86F5DFBD3BC6BE>
+	<_590F4CBB5E1B04EFC4860BF89A08D75A Name="s_ai_globals_trait_vision_definition" Size="8">
+		<_36 Name="Vision Traits" Offset="0" />
+		<_14 Name="vision distance scale" Offset="0" />
+		<_14 Name="vision angle scale" Offset="4" />
+	</_590F4CBB5E1B04EFC4860BF89A08D75A>
+	<_A8274506FC75461E1B2BB7D691D2A359 Name="s_ai_globals_trait_sound_definition" Size="4">
+		<_36 Name="Sound Traits" Offset="0" />
+		<_14 Name="hearing distance scale" Offset="0" />
+	</_A8274506FC75461E1B2BB7D691D2A359>
+	<_F7DA4CF9B158B95F8A9DD1B2BC3FD0FD Name="s_ai_globals_trait_luck_definition" Size="2C">
+		<_36 Name="Luck Traits" Offset="0" />
+		<_14 Name="evasion chance scale" Offset="0" />
+		<_14 Name="grenade dive chance scale" Offset="4" />
+		<_14 Name="broken kamikaze chance scale" Offset="8" />
+		<_14 Name="leader dead retreat chance scale" Offset="C" />
+		<_14 Name="dive retreat chance scale" Offset="10" />
+		<_14 Name="shield depleted berserk chance scale" Offset="14" />
+		<_14 Name="leader abandoned berserk chance scale" Offset="18" />
+		<_14 Name="melee attack delay timer scale" Offset="1C" />
+		<_14 Name="melee chance scale" Offset="20" />
+		<_14 Name="melee leap delay timer scale" Offset="24" />
+		<_14 Name="throw grenade delay scale" Offset="28" />
+	</_F7DA4CF9B158B95F8A9DD1B2BC3FD0FD>
+	<_3F9547560B0F309974E8579683E0F6F3 Name="s_ai_globals_trait_grenade_definition" Size="1C">
+		<_36 Name="Grenade Traits" Offset="0" />
+		<_14 Name="velocity scale" Offset="0" />
+		<_14 Name="throw grenade delay scale" Offset="4" />
+		<_14 Name="don't drop grenades chance scale" Offset="8" />
+		<_14 Name="grenade uncover chance scale" Offset="C" />
+		<_14 Name="retreat throw grenade chance scale" Offset="10" />
+		<_14 Name="anti vehicle grenade chance scale" Offset="14" />
+		<_14 Name="throw grenade chance scale" Offset="18" />
+	</_3F9547560B0F309974E8579683E0F6F3>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+	<_EFFE48AE2E60A80B0CA20619AC10EA61 Name="AmbientActionInfo" Size="7C">
+		<_A Name="desire type" Offset="0" StructName1="i343::InteractiveObjects::InteractiveDesire">
+			<Flag n="Scripted" />
+			<Flag n="Health" />
+			<Flag n="Defense" />
+			<Flag n="Attack Enemy" />
+			<Flag n="Weapon" />
+			<Flag n="Vehicle" />
+		</_A>
+		<_34 Name="generated_pad5f2a" Offset="1" Length="3" />
+		<_C Name="action" Offset="4" StructName1="i343::ActionSystem::ActionType">
+			<Flag n="Base (Do not use)" />
+			<Flag n="Ground" />
+			<Flag n="Crouch" />
+			<Flag n="Melee" />
+			<Flag n="Turn" />
+			<Flag n="Shoot" />
+			<Flag n="Airborne" />
+			<Flag n="Jump" />
+			<Flag n="WeaponReady" />
+			<Flag n="WeaponSwitch" />
+			<Flag n="WeaponPickup" />
+			<Flag n="WeaponDrop" />
+			<Flag n="Grenade" />
+			<Flag n="Dead" />
+			<Flag n="AnimatedMove" />
+			<Flag n="InteractWeaponPickup" />
+			<Flag n="InteractDevice" />
+			<Flag n="InteractLaunchObject" />
+			<Flag n="HardPing" />
+			<Flag n="Align" />
+			<Flag n="ShieldRaise" />
+			<Flag n="ActivateEquipment" />
+			<Flag n="PhysicsImpulse" />
+			<Flag n="DeathPing" />
+			<Flag n="MediumPing" />
+			<Flag n="SoftPing" />
+			<Flag n="ScriptedSequence" />
+			<Flag n="CustomAnimation" />
+			<Flag n="DeflectProjectile" />
+			<Flag n="VehicleEnter" />
+			<Flag n="VehicleExit" />
+			<Flag n="Vehicle" />
+			<Flag n="Brace" />
+			<Flag n="WeaponDraw" />
+			<Flag n="WeaponStow" />
+			<Flag n="HardStop" />
+			<Flag n="Hoist" />
+			<Flag n="PreCombatPointActivity" />
+			<Flag n="Stunned" />
+			<Flag n="ObstacleSmash" />
+			<Flag n="WeaponVent" />
+			<Flag n="SoftPingDefenseScreen" />
+			<Flag n="ThrowEquipment" />
+			<Flag n="Hijack" />
+			<Flag n="Kamikaze" />
+			<Flag n="CloseQuartersDefenseBlast" />
+			<Flag n="Search" />
+			<Flag n="SearchFound" />
+			<Flag n="Surprise" />
+			<Flag n="Hover" />
+			<Flag n="Alert" />
+			<Flag n="AlertCallout" />
+			<Flag n="WeaponFidget" />
+			<Flag n="WeaponReload" />
+			<Flag n="FullbodyAnimation" />
+			<Flag n="ActivateCamo" />
+			<Flag n="TradeWeapon" />
+			<Flag n="Flying" />
+			<Flag n="MultiTargetTrackedAttack" />
+			<Flag n="Berserk" />
+			<Flag n="LeapWindup" />
+			<Flag n="AnimatedTell" />
+			<Flag n="TeleportArrive" />
+			<Flag n="JinkFire" />
+			<Flag n="DialogueAnimation" />
+			<Flag n="Swoop" />
+			<Flag n="AirborneMelee" />
+			<Flag n="Land" />
+			<Flag n="Hunker" />
+			<Flag n="Launching" />
+			<Flag n="PreAndPostFire" />
+			<Flag n="AnimatedPosture" />
+			<Flag n="Boarding" />
+		</_C>
+		<_2 Name="Animation Token Override" Offset="8" />
+		<_14 Name="Time playing animation" Offset="C" />
+		<_14 Name="Cooldown time" Offset="10" />
+		<_2 Name="composition name" Offset="14" />
+		<_41 Name="composition definition" Offset="18" Allowed="comp" Flags="0" />
+		<_14 Name="Max distance agents will consider this opp from" Offset="34" />
+		<_40 Name="Ambient meta labels" Offset="38" GUID="66974B5B7A236D95F43A8A409414695B" StructName1="AmbientActionInfo" Min="0" Max="32" />
+		<_40 Name="Exclusion meta labels" Offset="4C" GUID="66974B5B7A236D95F43A8A409414695B" StructName1="AmbientActionInfo" Min="0" Max="32" />
+		<_14 Name="Min Danger to Activate" Offset="60" />
+		<_14 Name="Max Danger to Activate" Offset="64" />
+		<_14 Name="Abort Danger Level" Offset="68" />
+		<_14 Name="Chance Per Second" Offset="6C" />
+		<_14 Name="Min Enemy Target Distance" Offset="70" />
+		<_14 Name="Max Enemy Target Distance" Offset="74" />
+		<_14 Name="Max Height Difference" Offset="78" />
+	</_EFFE48AE2E60A80B0CA20619AC10EA61>
+	<_D46C484810C248C6AB491B4DA38C27E8 Name="FriendlySquadProperties" Size="4C">
+		<_40 Name="Follow Actor Types" Offset="0" GUID="B4ED4FCA118603D3AABC8FC29B8212AB" StructName1="FriendlySquadProperties" Min="0" Max="16" />
+		<_14 Name="Encounter Zone Exit Threshold" Offset="14" />
+		<_14 Name="Dynamic Encounter Radius" Offset="18" />
+		<_14 Name="Follow Radius" Offset="1C" />
+		<_14 Name="Area Refresh Distance" Offset="20" />
+		<_37 Name="Left Behind Properties" type="fgrb" Offset="24" />
+		<_14 Name="Maximum Follow Path Length" Offset="24" />
+		<_14 Name="Waiting Distance Threshold" Offset="28" />
+		<_14 Name="Minimum Waiting Time" Offset="2C" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_14 Name="Area Refresh Time" Offset="30" />
+		<_14 Name="New Vehicle Distance" Offset="34" />
+		<_14 Name="Non-Turret Passenger Exit Time" Offset="38" />
+		<_36 Name="" Offset="3C" />
+		<_14 Name="Turret Passenger Exit Time" Offset="3C" />
+		<_14 Name="Turret Passenger Exit Distance" Offset="40" />
+		<_14 Name="Arrival Dialogue Event Min Delay Time" Offset="44" />
+		<_14 Name="Arrival Dialogue Event Min Travel Distance" Offset="48" />
+	</_D46C484810C248C6AB491B4DA38C27E8>
+	<_060B572EEB9321FEF2D327708DB3FD29 Name="PathingCostModifiers" Size="C">
+		<_36 Name="Pathing cost modifiers" Offset="0" />
+		<_14 Name="Damage area" Offset="0" />
+		<_14 Name="No Drive zone" Offset="4" />
+		<_14 Name="Avoid area" Offset="8" />
+	</_060B572EEB9321FEF2D327708DB3FD29>
+	<_DC4A4D55411A7443017E72E0B4E36B7B Name="s_ai_globals_squad_template_sub_folder_definition" Size="18">
+		<_2 Name="sub folder name" Offset="0" />
+		<_40 Name="templates" Offset="4" GUID="5B2E4CA5B77AC64982C99E1BA7AC56CB" StructName1="s_ai_globals_squad_template_sub_folder_definition" Min="0" Max="128" />
+	</_DC4A4D55411A7443017E72E0B4E36B7B>
+	<_5B2E4CA5B77AC64982C99E1BA7AC56CB Name="s_ai_globals_squad_template_definition" Size="1C">
+		<_41 Name="squad_template" Offset="0" Allowed="sqtm" Flags="0" />
+	</_5B2E4CA5B77AC64982C99E1BA7AC56CB>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+	<_66974B5B7A236D95F43A8A409414695B Name="s_object_meta_label" Size="4">
+		<_2 Name="meta label" Offset="0" />
+	</_66974B5B7A236D95F43A8A409414695B>
+	<_B4ED4FCA118603D3AABC8FC29B8212AB Name="i343::AI::AIMarkupFilter" Size="2">
+		<_B Name="Actor Type" Offset="0" StructName1="ActorType">
+			<Flag n="none" />
+			<Flag n="player" />
+			<Flag n="marine" />
+			<Flag n="crew" />
+			<Flag n="spartan" />
+			<Flag n="elite" />
+			<Flag n="jackal" />
+			<Flag n="jackal sniper" />
+			<Flag n="grunt" />
+			<Flag n="hunter" />
+			<Flag n="prophet" />
+			<Flag n="bugger" />
+			<Flag n="scarab" />
+			<Flag n="engineer" />
+			<Flag n="skirmisher" />
+			<Flag n="bishop" />
+			<Flag n="knight" />
+			<Flag n="pawn" />
+			<Flag n="cavalier" />
+			<Flag n="packmaster" />
+			<Flag n="soldier" />
+			<Flag n="soldier sniper" />
+			<Flag n="soldier officer" />
+			<Flag n="rook" />
+			<Flag n="sentinel" />
+			<Flag n="brute" />
+			<Flag n="hoverer" />
+			<Flag n="crusher" />
+			<Flag n="mule" />
+			<Flag n="mounted_weapon" />
+			<Flag n="octopus" />
+			<Flag n="wildlife" />
+		</_B>
+	</_B4ED4FCA118603D3AABC8FC29B8212AB>
+</root>

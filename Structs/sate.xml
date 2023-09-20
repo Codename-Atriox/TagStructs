@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:16 PM" Name="TeleportDefinitionTag" Parents="aTag" Index="-354">
+	<_5B0045870CCD66CBD9845DF29F091C97 Name="i343::SpartanAbilities::TeleportDefinitionTag" Size="198">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="teleport" Offset="10" GUID="9D3B40698F1A1894D45FFC178203C720" />
+	</_5B0045870CCD66CBD9845DF29F091C97>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_9D3B40698F1A1894D45FFC178203C720 Name="i343::SpartanAbilities::TeleportDefinition" Size="188">
+		<_38 Name="common ability parameters" Offset="0" GUID="D954483CA0B1EFF4F0B4EBCD88F17DD4" />
+		<_D Name="teleport flags" Offset="78" StructName1="i343::SpartanAbilities::TeleportDefinitionFlags">
+			<Flag n="Must be airborne to activate" />
+			<Flag n="Must land again after activating" />
+			<Flag n="Preserve relative velocity" />
+			<Flag n="Allow crouch" />
+			<Flag n="Allow jump" />
+			<Flag n="Latch input" />
+			<Flag n="Show aim effect to other players" />
+		</_D>
+		<_36 Name="Stabilization/Charge up" Offset="7C" />
+		<_40 Name="stabilizer" Offset="7C" GUID="6D2345D56E6506A6FBFAAB5B8EFA7E5D" StructName1="i343::SpartanAbilities::TeleportDefinition" Min="0" Max="1" />
+		<_36 Name="Charge Up Settings" Offset="90" />
+		<_14 Name="charge up button down delay" Offset="90" />
+		<_14 Name="charge up min time" Offset="94" />
+		<_14 Name="charge up max distance time" Offset="98" />
+		<_14 Name="charge up auto release time" Offset="9C" />
+		<_36 Name="Teleport" Offset="A0" />
+		<_41 Name="teleport ready effect" Offset="A0" Allowed="effe" Flags="0" />
+		<_41 Name="teleport post ready effect" Offset="BC" Allowed="effe" Flags="0" />
+		<_15 Name="teleport post ready effect activation fraction" Offset="D8" />
+		<_15 Name="teleport activation energy cost" Offset="DC" />
+		<_41 Name="teleport source effect" Offset="E0" Allowed="effe" Flags="0" />
+		<_41 Name="teleport destination effect" Offset="FC" Allowed="effe" Flags="0" />
+		<_41 Name="teleport fail effect" Offset="118" Allowed="effe" Flags="0" />
+		<_36 Name="Aiming" Offset="134" />
+		<_A Name="aim style" Offset="134" StructName1="i343::SpartanAbilities::TeleportDefinition::AimStyle">
+			<Flag n="Swept capsule" />
+			<Flag n="Swept sphere" />
+		</_A>
+		<_A Name="capsule positioning" Offset="135" StructName1="i343::SpartanAbilities::TeleportDefinition::SweptSphereCapsulePositioning">
+			<Flag n="Base" />
+			<Flag n="Center" />
+			<Flag n="Camera" />
+			<Flag n="Top" />
+		</_A>
+		<_34 Name="generated_paddaca" Offset="136" Length="2" />
+		<_41 Name="aim effect" Offset="138" Allowed="effe" Flags="0" />
+		<_25 Name="aim distance" Offset="154" />
+		<_14 Name="swept shape pull back distance" Offset="15C" />
+		<_14 Name="swept sphere radius" Offset="160" />
+		<_36 Name="Object function ids" Offset="164" />
+		<_2 Name="overlay animation function id" Offset="164" />
+		<_2 Name="charge up fraction function id" Offset="168" />
+		<_2 Name="obstructed function id" Offset="16C" />
+		<_36 Name="FOV delta function (charge up)" Offset="170" />
+		<_37 Name="FOV delta function (charge up)" type="fned" Offset="170" />
+		<_38 Name="FOV delta function charge up" Offset="170" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_9D3B40698F1A1894D45FFC178203C720>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_D954483CA0B1EFF4F0B4EBCD88F17DD4 Name="i343::SpartanAbilities::SpartanAbilityCommonParameters" Size="78">
+		<_37 Name="common ability parameters" type="fgrb" Offset="0" />
+		<_C Name="input" Offset="0" StructName1="i343::Units::ArmorInput">
+			<Flag n="Default" />
+			<Flag n="Mobility" />
+			<Flag n="Suit" />
+			<Flag n="Jump" />
+			<Flag n="Equipment" />
+			<Flag n="Melee" />
+			<Flag n="PowerUp" />
+			<Flag n="Unmapped" />
+		</_C>
+		<_D Name="flags" Offset="4" StructName1="i343::SpartanAbilities::SpartanAbilityDefinitionFlags">
+			<Flag n="Use 3rd Person Camera When Active" />
+			<Flag n="Hide Reticle When Active" />
+			<Flag n="Is Motion Tracked (By Enemies) When Active" />
+			<Flag n="One-Shot Activation Effect" />
+			<Flag n="Can be activated when weapon state is relaxed" />
+			<Flag n="Does Not Appear In Extended Motion Tracker Range" />
+			<Flag n="Energy persists across deaths" />
+			<Flag n="Activation interrupts weapon switching" />
+			<Flag n="Allow activation during weapon throw" />
+			<Flag n="Allow activation while sliding" />
+			<Flag n="Drop support weapon when activated" />
+			<Flag n="Drop must be readied weapon when activated" />
+		</_D>
+		<_15 Name="activation energy cost" Offset="8" />
+		<_14 Name="active energy consumption" Offset="C" />
+		<_14 Name="recharge duration" Offset="10" />
+		<_14 Name="recharge delay" Offset="14" />
+		<_14 Name="cooldown delay" Offset="18" />
+		<_41 Name="activation effect" Offset="1C" Allowed="effe" Flags="0" />
+		<_14 Name="activation effect kill delay" Offset="38" />
+		<_A Name="sprint preservation" Offset="3C" StructName1="i343::SpartanAbilities::SprintPreservation">
+			<Flag n="No" />
+			<Flag n="Zero fraction" />
+			<Flag n="Retain fraction" />
+			<Flag n="Decay (normal)" />
+			<Flag n="Decay (forced)" />
+		</_A>
+		<_34 Name="generated_pad0aca" Offset="3D" Length="3" />
+		<_41 Name="active malleable property modifiers" Offset="40" Allowed="gmpm" Flags="0" />
+		<_41 Name="timed malleable property modifiers" Offset="5C" Allowed="gmpm" Flags="0" />
+		<_37 Name="" type="fgre" Offset="78" />
+	</_D954483CA0B1EFF4F0B4EBCD88F17DD4>
+	<_6D2345D56E6506A6FBFAAB5B8EFA7E5D Name="i343::SpartanAbilities::StabilizerDefinition" Size="DC">
+		<_38 Name="common ability parameters" Offset="0" GUID="D954483CA0B1EFF4F0B4EBCD88F17DD4" />
+		<_D Name="flags" Offset="78" StructName1="i343::SpartanAbilities::StabilizerDefinitionFlags">
+			<Flag n="Must land again after activating" />
+			<Flag n="Auto activate only if already in the air" />
+			<Flag n="Independent of ADS" />
+			<Flag n="Vertical only" />
+			<Flag n="Allow air control" />
+			<Flag n="Limit upwards motion post stall" />
+		</_D>
+		<_14 Name="minimum height above floor" Offset="7C" />
+		<_14 Name="activation deceleration" Offset="80" />
+		<_14 Name="stall duration" Offset="84" />
+		<_37 Name="malleable time limit" type="mpfi" Offset="88" />
+		<_38 Name="malleable time limit" Offset="88" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_14 Name="cooldown" Offset="94" />
+		<_37 Name="malleable time scale" type="mpfi" Offset="98" />
+		<_38 Name="malleable time scale" Offset="98" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_14 Name="max horizontal speed" Offset="A4" />
+		<_38 Name="vertical speed boost at exit" Offset="A8" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_41 Name="rumble" Offset="C0" Allowed="rmbl" Flags="0" />
+	</_6D2345D56E6506A6FBFAAB5B8EFA7E5D>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+	<_DB6340E6F8D8B4A163AE2E8B97EA8CBB Name="i343::MalleableProperty::BaseFloatStructDefinition" Size="C">
+		<_14 Name="Base Value" Offset="0" />
+		<_25 Name="Value Bounds" Offset="4" />
+	</_DB6340E6F8D8B4A163AE2E8B97EA8CBB>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+</root>

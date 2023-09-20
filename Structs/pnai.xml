@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="PersonalAIGlobalsDefinition" Parents="aTag" Index="-317">
+	<_9B05F64EE8EAE04177FEFCA8BEF6B628 Name="i343::PersonalAI::PersonalAIGlobalsDefinition" Size="68">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_E Name="Flags" Offset="10" StructName1="i343::PersonalAI::AvatarFlags">
+			<Flag n="Auto-play Spawn Animation" />
+			<Flag n="Use Dissolve on Spawn and Despawn" />
+		</_E>
+		<_34 Name="generated_pad7f42" Offset="12" Length="2" />
+		<_14 Name="Effect On Spawn Duration" Offset="14" />
+		<_14 Name="Effect On Despawn Duration" Offset="18" />
+		<_14 Name="Gaze Return Orientation Speed" Offset="1C" />
+		<_14 Name="Initial Gaze Duration" Offset="20" />
+		<_6 Name="Maximum Base Color Intensity" Offset="24" />
+		<_6 Name="Maximum Face Color Intensity" Offset="28" />
+		<_6 Name="Maximum Glow Color Intensity" Offset="2C" />
+		<_6 Name="Maximum Scanline Scale" Offset="30" />
+		<_6 Name="Maximum Scanline Speed" Offset="34" />
+		<_6 Name="Scanline Pattern Count" Offset="38" />
+		<_40 Name="Color Preset Definitions" Offset="3C" GUID="08E9B044AFB2C9772A32C0D4A468F5BB" StructName1="i343::PersonalAI::PersonalAIGlobalsDefinition" Min="0" Max="64" />
+		<_40 Name="Avatar Configurations" Offset="50" GUID="88F06645A72DE70D048680FA9625D70B" StructName1="i343::PersonalAI::PersonalAIGlobalsDefinition" Min="0" Max="32" />
+		<_34 Name="generated_padcbf7" Offset="64" Length="4" />
+	</_9B05F64EE8EAE04177FEFCA8BEF6B628>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_08E9B044AFB2C9772A32C0D4A468F5BB Name="i343::PersonalAI::ColorPresetData" Size="40">
+		<_2 Name="Color Preset" Offset="0" />
+		<_14 Name="Color Intensity" Offset="4" />
+		<_1F Name="Base Color" Offset="8" />
+		<_14 Name="Glow Color Intensity" Offset="14" />
+		<_1F Name="Glow Color" Offset="18" />
+		<_6 Name="Scanline Pattern" Offset="24" />
+		<_14 Name="Scanline Scale" Offset="28" />
+		<_14 Name="Scanline Speed" Offset="2C" />
+		<_14 Name="Face Color Intensity" Offset="30" />
+		<_1F Name="Face Color" Offset="34" />
+	</_08E9B044AFB2C9772A32C0D4A468F5BB>
+	<_88F06645A72DE70D048680FA9625D70B Name="i343::PersonalAI::AvatarConfigurationData" Size="34">
+		<_C Name="Avatar Type" Offset="0" StructName1="i343::PersonalAI::AvatarType">
+			<Flag n="Prism" />
+			<Flag n="Pyramid" />
+			<Flag n="Sphere" />
+			<Flag n="Teardrop" />
+			<Flag n="Superintendent" />
+			<Flag n="Mister Chief" />
+			<Flag n="Iratus" />
+			<Flag n="Mati" />
+			<Flag n="Auntie Dot" />
+			<Flag n="Proto1" />
+			<Flag n="Proto2" />
+		</_C>
+		<_2 Name="Avatar Variant Name" Offset="4" />
+		<_6 Name="Facial Bitmap Index Count" Offset="8" />
+		<_2 Name="Facial Animation Parameter" Offset="C" />
+		<_6 Name="Second Facial Bitmap Index Count" Offset="10" />
+		<_2 Name="Second Facial Animation Parameter" Offset="14" />
+		<_14 Name="Effect On Spawn Delay" Offset="18" />
+		<_14 Name="Effect On Despawn Delay" Offset="1C" />
+		<_40 Name="Animations" Offset="20" GUID="8CA6BC466D66460BFE1AA83CAD759D8B" StructName1="i343::PersonalAI::AvatarConfigurationData" Min="0" Max="32" />
+	</_88F06645A72DE70D048680FA9625D70B>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_8CA6BC466D66460BFE1AA83CAD759D8B Name="i343::PersonalAI::AnimationData" Size="20">
+		<_C Name="Animation Type" Offset="0" StructName1="i343::PersonalAI::AnimationType">
+			<Flag n="Idle" />
+			<Flag n="Spawn" />
+			<Flag n="Despawn" />
+			<Flag n="DespawnNegative" />
+			<Flag n="DespawnSad" />
+			<Flag n="HackingEnter" />
+			<Flag n="HackingLoop" />
+			<Flag n="HackingSuccess" />
+			<Flag n="HackingFailure" />
+			<Flag n="EmotePanic" />
+			<Flag n="EmoteCelebration" />
+			<Flag n="EmoteGreeting" />
+			<Flag n="EmotePositive" />
+		</_C>
+		<_2 Name="Body Transition Parameter" Offset="4" />
+		<_E Name="Flags" Offset="8" StructName1="i343::PersonalAI::AnimationFlags">
+			<Flag n="Looping" />
+		</_E>
+		<_34 Name="generated_pad60f5" Offset="A" Length="2" />
+		<_40 Name="Facial Animation Data" Offset="C" GUID="1E1BE1484E086039640C72669C394B1B" StructName1="i343::PersonalAI::AnimationData" Min="0" Max="64" />
+	</_8CA6BC466D66460BFE1AA83CAD759D8B>
+	<_1E1BE1484E086039640C72669C394B1B Name="i343::PersonalAI::FacialAnimationFrameEventData" Size="C">
+		<_6 Name="Bitmap Index" Offset="0" />
+		<_6 Name="Second Bitmap Index" Offset="4" />
+		<_14 Name="Display Frame Length" Offset="8" />
+	</_1E1BE1484E086039640C72669C394B1B>
+</root>

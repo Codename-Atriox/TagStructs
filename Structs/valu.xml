@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:20 PM" Name="ValorUnlocks" Parents="aTag" Index="-458">
+	<_839993A3C678F6032D9DA2E397996738 Name="i343::ValorRewards::ValorUnlocks" Size="60">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Valor Rewards" Offset="10" GUID="839993A2C678F6022D9DA2E297996737" StructName1="i343::ValorRewards::ValorUnlocks" Min="0" Max="512" />
+		<_40 Name="Valor Points" Offset="24" GUID="839993A4C678F6042D9DA2E497996739" StructName1="i343::ValorRewards::ValorUnlocks" Min="0" Max="512" />
+		<_40 Name="Icons" Offset="38" GUID="839993A2C678F6022D9DA2E497996737" StructName1="i343::ValorRewards::ValorUnlocks" Min="0" Max="8" />
+		<_40 Name="Backgrounds" Offset="4C" GUID="839993A2C678F6022D9DA2E397996737" StructName1="i343::ValorRewards::ValorUnlocks" Min="0" Max="8" />
+	</_839993A3C678F6032D9DA2E397996738>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_839993A2C678F6022D9DA2E297996737 Name="i343::ValorRewards::Reward" Size="68">
+		<_2 Name="Reward Name" Offset="0" />
+		<_2 Name="Is Read Key" Offset="4" />
+		<_2E Name="Icon" Offset="8" GUID="839993A2C678F6022D9DA2E497996737" StructName1="i343::ValorRewards::Reward" Min="0" Max="8" />
+		<_2E Name="Background" Offset="A" GUID="839993A2C678F6022D9DA2E397996737" StructName1="i343::ValorRewards::Reward" Min="0" Max="8" />
+		<_6 Name="Sprite Index" Offset="C" />
+		<_B Name="Damage Type" Offset="10" StructName1="i343::ValorRewards::DamageType">
+			<Flag n="None" />
+			<Flag n="Kinetic" />
+			<Flag n="Plasma" />
+			<Flag n="Hardlight" />
+			<Flag n="Shock" />
+			<Flag n="Power" />
+			<Flag n="Melee" />
+		</_B>
+		<_34 Name="generated_pad0c76" Offset="12" Length="2" />
+		<_41 Name="Vehicle Sprite" Offset="14" Allowed="bitm" Flags="0" />
+		<_41 Name="Weapon Sprite" Offset="30" Allowed="bitm" Flags="0" />
+		<_41 Name="Marine Sprite" Offset="4C" Allowed="bitm" Flags="0" />
+	</_839993A2C678F6022D9DA2E297996737>
+	<_839993A4C678F6042D9DA2E497996739 Name="i343::ValorRewards::Points" Size="4">
+		<_2 Name="Persistence Key" Offset="0" />
+	</_839993A4C678F6042D9DA2E497996739>
+	<_839993A2C678F6022D9DA2E497996737 Name="i343::ValorRewards::IconBitmap" Size="20">
+		<_2 Name="Name" Offset="0" />
+		<_41 Name="Sprite" Offset="4" Allowed="bitm" Flags="0" />
+	</_839993A2C678F6022D9DA2E497996737>
+	<_839993A2C678F6022D9DA2E397996737 Name="i343::ValorRewards::BackgroundBitmap" Size="20">
+		<_2 Name="Name" Offset="0" />
+		<_41 Name="Sprite" Offset="4" Allowed="bitm" Flags="0" />
+	</_839993A2C678F6022D9DA2E397996737>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

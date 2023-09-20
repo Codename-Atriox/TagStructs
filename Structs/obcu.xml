@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="UIObjectCustomization" Parents="aTag" Index="-283">
+	<_7BF54496EE64450AC516E23187B14FEA Name="Interface::Customization::UIObjectCustomizationDataTag" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Customization Data" Offset="10" GUID="A4B94A390BA15BC6027E0A3A84204BF1" StructName1="Interface::Customization::UIObjectCustomizationDataTag" Min="0" Max="1" />
+		<_34 Name="generated_pad77ac" Offset="24" Length="4" />
+	</_7BF54496EE64450AC516E23187B14FEA>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_A4B94A390BA15BC6027E0A3A84204BF1 Name="Interface::Customization::UIObjectCustomizationData" Size="F4">
+		<_0 Name="Camera Point" Offset="0" />
+		<_2 Name="Default Idle Animation" Offset="20" />
+		<_2 Name="Idle Animation" Offset="24" />
+		<_2 Name="Idle 2 Focused Animation" Offset="28" />
+		<_2 Name="Idle Focused Animation" Offset="2C" />
+		<_2 Name="Focused 2 Idle Animation" Offset="30" />
+		<_2 Name="Armor Change Reaction Animation" Offset="34" />
+		<_2 Name="Armor Change Reaction Animation Variant" Offset="38" />
+		<_2 Name="Holo Table Animation" Offset="3C" />
+		<_2 Name="Idle Spartan Ai Animation" Offset="40" />
+		<_2 Name="Spartan Platform Glow Effect" Offset="44" />
+		<_1C Name="Rotation Angle Limitation" Offset="48" />
+		<_1C Name="Default Weapon Orientation" Offset="54" />
+		<_40 Name="Camera Settings Data" Offset="60" GUID="9E70442C611268F2A7EE1EE1B385532A" StructName1="Interface::Customization::UIObjectCustomizationData" Min="0" Max="2" />
+		<_40 Name="Region Data" Offset="74" GUID="C202488A34995D12CC93B4CDBD31BDC2" StructName1="Interface::Customization::UIObjectCustomizationData" Min="0" Max="256" />
+		<_40 Name="RTT Region Data" Offset="88" GUID="D797AD11C73BBDC8CAB2188BCC81A4C1" StructName1="Interface::Customization::UIObjectCustomizationData" Min="0" Max="256" />
+		<_2 Name="AI Spartan Marker" Offset="9C" />
+		<_14 Name="AI Spartan Marker Scale" Offset="A0" />
+		<_36 Name="Complex Rotation Settings" Offset="A4" />
+		<_40 Name="Orientation Limits" Offset="A4" GUID="F9E24DA96A730BE0D3772FE3826FD32B" StructName1="Interface::Customization::UIObjectCustomizationData" Min="0" Max="16" />
+		<_36 Name="Cage Tag Data" Offset="B8" />
+		<_40 Name="Socket" Offset="B8" GUID="C4B14AC89A082271A4F058069A17D5B3" StructName1="Interface::Customization::UIObjectCustomizationData" Min="0" Max="19" />
+		<_40 Name="Inspect" Offset="CC" GUID="C4B14AC89A082271A4F058069A17D5B3" StructName1="Interface::Customization::UIObjectCustomizationData" Min="0" Max="19" />
+		<_40 Name="Battle Pass Reward" Offset="E0" GUID="C4B14AC89A082271A4F058069A17D5B3" StructName1="Interface::Customization::UIObjectCustomizationData" Min="0" Max="19" />
+	</_A4B94A390BA15BC6027E0A3A84204BF1>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_9E70442C611268F2A7EE1EE1B385532A Name="Interface::Customization::UICameraSettings" Size="2C">
+		<_B Name="Core Focus Mode" Offset="0" StructName1="Interface::Customization::CoreFocusMode">
+			<Flag n="Default" />
+			<Flag n="CoreFocused" />
+		</_B>
+		<_B Name="Animation Easing" Offset="2" StructName1="Interface::Customization::AnimationEasing">
+			<Flag n="LinearTween" />
+			<Flag n="EaseInQuad" />
+			<Flag n="EaseOutQuad" />
+			<Flag n="EaseInOutQuad" />
+			<Flag n="EaseInCubic" />
+			<Flag n="EaseOutCubic" />
+			<Flag n="EaseInOutCubic" />
+			<Flag n="EaseInQuart" />
+			<Flag n="EaseOutQuart" />
+			<Flag n="EaseInOutQuart" />
+			<Flag n="EaseInQuint" />
+			<Flag n="EaseOutQuint" />
+			<Flag n="EaseInOutQuint" />
+			<Flag n="EaseInSine" />
+			<Flag n="EaseOutSine" />
+			<Flag n="EaseInOutSine" />
+			<Flag n="EaseInExpo" />
+			<Flag n="EaseOutExpo" />
+			<Flag n="EaseInOutExpo" />
+			<Flag n="EaseInCirc" />
+			<Flag n="EaseOutCirc" />
+			<Flag n="EaseInOutCirc" />
+			<Flag n="EaseInSinCustom" />
+			<Flag n="EaseOutSinCustom" />
+		</_B>
+		<_40 Name="Camera Positions" Offset="4" GUID="9EE5423BF672890A8560DEFAB444B6D8" StructName1="Interface::Customization::UICameraSettings" Min="0" Max="3" />
+		<_14 Name="Camera FOV" Offset="18" />
+		<_14 Name="Camera Transition" Offset="1C" />
+		<_1C Name="Orientation" Offset="20" />
+	</_9E70442C611268F2A7EE1EE1B385532A>
+	<_C202488A34995D12CC93B4CDBD31BDC2 Name="Interface::Customization::UIRegionData" Size="60">
+		<_2 Name="UI Display String" Offset="0" />
+		<_2 Name="UI Description String" Offset="4" />
+		<_6 Name="CMS Customization Item Type" Offset="8" />
+		<_B Name="CMS Customization Core Type" Offset="C" StructName1="Interface::Customization::CoreType">
+			<Flag n="Unknown" />
+			<Flag n="Armor" />
+			<Flag n="Ai" />
+			<Flag n="WeaponSidekick" />
+			<Flag n="WeaponAR" />
+			<Flag n="WeaponBR" />
+			<Flag n="WeaponCommando" />
+			<Flag n="WeaponSPnKr" />
+			<Flag n="WeaponSniper" />
+			<Flag n="WeaponShotgun" />
+			<Flag n="WeaponHydra" />
+			<Flag n="WeaponBandit" />
+			<Flag n="VehicleWarthog" />
+			<Flag n="VehicleMongoose" />
+			<Flag n="VehicleScorpion" />
+			<Flag n="VehicleWasp" />
+			<Flag n="VehicleRazorBack" />
+			<Flag n="VehicleGungoose" />
+			<Flag n="VehicleRockethog" />
+		</_B>
+		<_34 Name="generated_pade424" Offset="E" Length="2" />
+		<_2 Name="Region Name" Offset="10" />
+		<_2 Name="Marker Name" Offset="14" />
+		<_14 Name="Marker Offset" Offset="18" />
+		<_B Name="Animation Easing" Offset="1C" StructName1="Interface::Customization::AnimationEasing">
+			<Flag n="LinearTween" />
+			<Flag n="EaseInQuad" />
+			<Flag n="EaseOutQuad" />
+			<Flag n="EaseInOutQuad" />
+			<Flag n="EaseInCubic" />
+			<Flag n="EaseOutCubic" />
+			<Flag n="EaseInOutCubic" />
+			<Flag n="EaseInQuart" />
+			<Flag n="EaseOutQuart" />
+			<Flag n="EaseInOutQuart" />
+			<Flag n="EaseInQuint" />
+			<Flag n="EaseOutQuint" />
+			<Flag n="EaseInOutQuint" />
+			<Flag n="EaseInSine" />
+			<Flag n="EaseOutSine" />
+			<Flag n="EaseInOutSine" />
+			<Flag n="EaseInExpo" />
+			<Flag n="EaseOutExpo" />
+			<Flag n="EaseInOutExpo" />
+			<Flag n="EaseInCirc" />
+			<Flag n="EaseOutCirc" />
+			<Flag n="EaseInOutCirc" />
+			<Flag n="EaseInSinCustom" />
+			<Flag n="EaseOutSinCustom" />
+		</_B>
+		<_34 Name="generated_padfe05" Offset="1E" Length="2" />
+		<_40 Name="Camera Positions" Offset="20" GUID="9EE5423BF672890A8560DEFAB444B6D8" StructName1="Interface::Customization::UIRegionData" Min="0" Max="3" />
+		<_14 Name="Camera FOV" Offset="34" />
+		<_14 Name="Camera Transition time" Offset="38" />
+		<_1C Name="Camera Orientation" Offset="3C" />
+		<_1C Name="Focused Object Orientation" Offset="48" />
+		<_2 Name="Idle Animation" Offset="54" />
+		<_2 Name="To Idle Animation" Offset="58" />
+		<_2 Name="From Idle Animation" Offset="5C" />
+	</_C202488A34995D12CC93B4CDBD31BDC2>
+	<_D797AD11C73BBDC8CAB2188BCC81A4C1 Name="Interface::Customization::UIRTTRegionData" Size="74">
+		<_2 Name="UI Display String" Offset="0" />
+		<_2 Name="UI Description String" Offset="4" />
+		<_6 Name="CMS Customization Item Type" Offset="8" />
+		<_B Name="CMS Customization Core Type" Offset="C" StructName1="Interface::Customization::CoreType">
+			<Flag n="Unknown" />
+			<Flag n="Armor" />
+			<Flag n="Ai" />
+			<Flag n="WeaponSidekick" />
+			<Flag n="WeaponAR" />
+			<Flag n="WeaponBR" />
+			<Flag n="WeaponCommando" />
+			<Flag n="WeaponSPnKr" />
+			<Flag n="WeaponSniper" />
+			<Flag n="WeaponShotgun" />
+			<Flag n="WeaponHydra" />
+			<Flag n="WeaponBandit" />
+			<Flag n="VehicleWarthog" />
+			<Flag n="VehicleMongoose" />
+			<Flag n="VehicleScorpion" />
+			<Flag n="VehicleWasp" />
+			<Flag n="VehicleRazorBack" />
+			<Flag n="VehicleGungoose" />
+			<Flag n="VehicleRockethog" />
+		</_B>
+		<_34 Name="generated_pad2a44" Offset="E" Length="2" />
+		<_2 Name="Region Name" Offset="10" />
+		<_2 Name="Marker Name" Offset="14" />
+		<_14 Name="Marker Offset" Offset="18" />
+		<_14 Name="Camera Offset" Offset="1C" />
+		<_B Name="Animation Easing" Offset="20" StructName1="Interface::Customization::AnimationEasing">
+			<Flag n="LinearTween" />
+			<Flag n="EaseInQuad" />
+			<Flag n="EaseOutQuad" />
+			<Flag n="EaseInOutQuad" />
+			<Flag n="EaseInCubic" />
+			<Flag n="EaseOutCubic" />
+			<Flag n="EaseInOutCubic" />
+			<Flag n="EaseInQuart" />
+			<Flag n="EaseOutQuart" />
+			<Flag n="EaseInOutQuart" />
+			<Flag n="EaseInQuint" />
+			<Flag n="EaseOutQuint" />
+			<Flag n="EaseInOutQuint" />
+			<Flag n="EaseInSine" />
+			<Flag n="EaseOutSine" />
+			<Flag n="EaseInOutSine" />
+			<Flag n="EaseInExpo" />
+			<Flag n="EaseOutExpo" />
+			<Flag n="EaseInOutExpo" />
+			<Flag n="EaseInCirc" />
+			<Flag n="EaseOutCirc" />
+			<Flag n="EaseInOutCirc" />
+			<Flag n="EaseInSinCustom" />
+			<Flag n="EaseOutSinCustom" />
+		</_B>
+		<_34 Name="generated_pad4425" Offset="22" Length="2" />
+		<_40 Name="Camera Positions" Offset="24" GUID="9EE5423BF672890A8560DEFAB444B6D8" StructName1="Interface::Customization::UIRTTRegionData" Min="0" Max="3" />
+		<_14 Name="Camera FOV" Offset="38" />
+		<_14 Name="Camera Transition time" Offset="3C" />
+		<_1C Name="Camera Orientation" Offset="40" />
+		<_1C Name="Focused Object Orientation" Offset="4C" />
+		<_F Name="DOF Flags" Offset="58" StructName1="Interface::Customization::UIDOFFlags">
+			<Flag n="Enable DOF" />
+			<Flag n="Enable DOF RTT" />
+			<Flag n="Enable DOF World" />
+		</_F>
+		<_34 Name="generated_pad90da" Offset="59" Length="3" />
+		<_14 Name="DOF Focal Length" Offset="5C" />
+		<_14 Name="DOF Focal Distance" Offset="60" />
+		<_14 Name="DOF FStop" Offset="64" />
+		<_2 Name="Idle Animation" Offset="68" />
+		<_2 Name="To Idle Animation" Offset="6C" />
+		<_2 Name="From Idle Animation" Offset="70" />
+	</_D797AD11C73BBDC8CAB2188BCC81A4C1>
+	<_F9E24DA96A730BE0D3772FE3826FD32B Name="Interface::Customization::UICustomizationOrientationLimits" Size="14">
+		<_2 Name="Name" Offset="0" />
+		<_14 Name="Minimum Yaw" Offset="4" />
+		<_14 Name="Maximum Yaw" Offset="8" />
+		<_14 Name="Minimum Roll" Offset="C" />
+		<_14 Name="Maximum Roll" Offset="10" />
+	</_F9E24DA96A730BE0D3772FE3826FD32B>
+	<_C4B14AC89A082271A4F058069A17D5B3 Name="Interface::Customization::UICustomizationCageData" Size="20">
+		<_B Name="Core Type" Offset="0" StructName1="Interface::Customization::CoreType">
+			<Flag n="Unknown" />
+			<Flag n="Armor" />
+			<Flag n="Ai" />
+			<Flag n="WeaponSidekick" />
+			<Flag n="WeaponAR" />
+			<Flag n="WeaponBR" />
+			<Flag n="WeaponCommando" />
+			<Flag n="WeaponSPnKr" />
+			<Flag n="WeaponSniper" />
+			<Flag n="WeaponShotgun" />
+			<Flag n="WeaponHydra" />
+			<Flag n="WeaponBandit" />
+			<Flag n="VehicleWarthog" />
+			<Flag n="VehicleMongoose" />
+			<Flag n="VehicleScorpion" />
+			<Flag n="VehicleWasp" />
+			<Flag n="VehicleRazorBack" />
+			<Flag n="VehicleGungoose" />
+			<Flag n="VehicleRockethog" />
+		</_B>
+		<_34 Name="generated_padb16d" Offset="2" Length="2" />
+		<_41 Name="Cage Camera Definition Tag" Offset="4" Allowed="cagc" Flags="0" />
+	</_C4B14AC89A082271A4F058069A17D5B3>
+	<_9EE5423BF672890A8560DEFAB444B6D8 Name="Interface::Customization::UICameraPositionOffset" Size="30">
+		<_B Name="Camera Position Type" Offset="0" StructName1="Interface::Customization::ItemInspectionPosition">
+			<Flag n="Default" />
+			<Flag n="Custom" />
+			<Flag n="Custom1" />
+		</_B>
+		<_34 Name="generated_pad010d" Offset="2" Length="2" />
+		<_19 Name="Camera Position" Offset="4" />
+		<_1C Name="Camera Orientation" Offset="10" />
+		<_2 Name="Composer Scene Name" Offset="1C" />
+		<_F Name="DOF Flags" Offset="20" StructName1="Interface::Customization::UIDOFFlags">
+			<Flag n="Enable DOF" />
+			<Flag n="Enable DOF RTT" />
+			<Flag n="Enable DOF World" />
+		</_F>
+		<_34 Name="generated_pade72c" Offset="21" Length="3" />
+		<_14 Name="DOF Focal Length" Offset="24" />
+		<_14 Name="DOF Focal Distance" Offset="28" />
+		<_14 Name="DOF FStop" Offset="2C" />
+	</_9EE5423BF672890A8560DEFAB444B6D8>
+</root>

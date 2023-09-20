@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="UIVehicleDisplayInfoDefinition" Parents="aTag" Index="-449">
+	<_662D4A93763EA9D98C5A596D96789733 Name="Interface::UIVehicleDisplayInfo" Size="48">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_2 Name="name" Offset="10" />
+		<_2 Name="Vehicle Flip String" Offset="14" />
+		<_2 Name="Tint Color" Offset="18" />
+		<_40 Name="UI Info" Offset="1C" GUID="52C6472B6BB873FD804507D0909B9077" StructName1="Interface::UIVehicleDisplayInfo" Min="0" Max="1" />
+		<_40 Name="Seats" Offset="30" GUID="C8D842C2AEC19F99F1298605B62A1E21" StructName1="Interface::UIVehicleDisplayInfo" Min="0" Max="8" />
+		<_34 Name="generated_pad1d69" Offset="44" Length="4" />
+	</_662D4A93763EA9D98C5A596D96789733>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_52C6472B6BB873FD804507D0909B9077 Name="Interface::UIItemInfo" Size="74">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="alt name " Offset="4" />
+		<_2 Name="description" Offset="8" />
+		<_2 Name="help text" Offset="C" />
+		<_2 Name="icon string id" Offset="10" />
+		<_41 Name="sprite" Offset="14" Allowed="bitm" Flags="0" />
+		<_6 Name="sprite index" Offset="30" />
+		<_41 Name="alt sprite" Offset="34" Allowed="bitm" Flags="0" />
+		<_6 Name="alt sprite index" Offset="50" />
+		<_6 Name="damage sprite index" Offset="54" />
+		<_41 Name="ui vehicle screen reference" Offset="58" Allowed="cusc" Flags="0" />
+	</_52C6472B6BB873FD804507D0909B9077>
+	<_C8D842C2AEC19F99F1298605B62A1E21 Name="Interface::UIVehicleSeatTagBlock" Size="14">
+		<_2 Name="label" Offset="0" />
+		<_2 Name="Boarding Grenade String" Offset="4" />
+		<_2 Name="Boarding Melee String" Offset="8" />
+		<_2 Name="In Seat String" Offset="C" />
+		<_2 Name="Enter Seat String" Offset="10" />
+	</_C8D842C2AEC19F99F1298605B62A1E21>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

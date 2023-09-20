@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="musketeer_toe_definition_tag" Parents="aTag" Index="-261">
+	<_F6DA48BF4B154B7D78A5FA698A5AC8BB Name="MusketeerTOEDefinition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Musketeer Teams" Offset="10" GUID="C6FC4AD66A244837FCA036AFA4B7BD72" StructName1="MusketeerTOEDefinition" Min="0" Max="32" />
+		<_34 Name="generated_pad4122" Offset="24" Length="4" />
+	</_F6DA48BF4B154B7D78A5FA698A5AC8BB>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_C6FC4AD66A244837FCA036AFA4B7BD72 Name="MusketeerTeamDefinition" Size="28">
+		<_40 Name="Musketeer" Offset="0" GUID="D75D41AFACC36AAE3F765CCE8D769CD2" StructName1="MusketeerTeamDefinition" Min="0" Max="32" />
+		<_40 Name="Difficulty Tunings" Offset="14" GUID="7B6C49A4CCA1607FCDC4B42FBDBF24F0" StructName1="MusketeerTeamDefinition" Min="0" Max="1" />
+	</_C6FC4AD66A244837FCA036AFA4B7BD72>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_D75D41AFACC36AAE3F765CCE8D769CD2 Name="MusketeerDefinition" Size="1C">
+		<_41 Name="character" Offset="0" Allowed="char" Flags="0" />
+	</_D75D41AFACC36AAE3F765CCE8D769CD2>
+	<_7B6C49A4CCA1607FCDC4B42FBDBF24F0 Name="i343::Musketeer::Difficulty::Tunings" Size="1C">
+		<_40 Name="Tuning Sets" Offset="0" GUID="0C3C4003E07B541D6762EAA589013817" StructName1="i343::Musketeer::Difficulty::Tunings" Min="0" Max="10" />
+		<_36 Name="clamps" Offset="14" />
+		<_14 Name="minimum value for starting accuracy" Offset="14" />
+		<_14 Name="minimum value for ending accuracy" Offset="18" />
+	</_7B6C49A4CCA1607FCDC4B42FBDBF24F0>
+	<_0C3C4003E07B541D6762EAA589013817 Name="i343::Musketeer::Difficulty::TuningSet" Size="18C">
+		<_C Name="Type" Offset="0" StructName1="i343::Musketeer::Difficulty::TuningSetType">
+			<Flag n="Target visible to any player" />
+			<Flag n="Actor gunning for any player" />
+			<Flag n="Actor following order" />
+			<Flag n="Musketeer" />
+			<Flag n="Actor visible to any player" />
+			<Flag n="Actor not visible to any player" />
+			<Flag n="Moving to revive Player" />
+			<Flag n="Moving to revive Ai" />
+			<Flag n="Reviving Player" />
+			<Flag n="Reviving Ai" />
+		</_C>
+		<_36 Name="health" Offset="4" />
+		<_14 Name="SCALE enemy damage" Offset="4" />
+		<_14 Name="MIN enemy damage" Offset="8" />
+		<_14 Name="SCALE enemy vitality" Offset="C" />
+		<_14 Name="MIN enemy vitality" Offset="10" />
+		<_14 Name="SCALE enemy shield" Offset="14" />
+		<_14 Name="MIN enemy shield" Offset="18" />
+		<_14 Name="SCALE enemy recharge" Offset="1C" />
+		<_14 Name="MIN enemy recharge" Offset="20" />
+		<_14 Name="SCALE friend damage" Offset="24" />
+		<_14 Name="MIN friend damage" Offset="28" />
+		<_14 Name="SCALE friend vitality" Offset="2C" />
+		<_14 Name="MIN friend vitality" Offset="30" />
+		<_14 Name="SCALE friend shield" Offset="34" />
+		<_14 Name="MIN friend shield" Offset="38" />
+		<_14 Name="SCALE friend recharge" Offset="3C" />
+		<_14 Name="MIN friend recharge" Offset="40" />
+		<_34 Name="pad0" Offset="44" Length="16" />
+		<_36 Name="ranged fire" Offset="54" />
+		<_14 Name="SCALE rate of fire" Offset="54" />
+		<_14 Name="MIN rate of fire" Offset="58" />
+		<_14 Name="SCALE projectile error" Offset="5C" />
+		<_14 Name="MIN projectile error" Offset="60" />
+		<_14 Name="SCALE burst error" Offset="64" />
+		<_14 Name="MIN burst error" Offset="68" />
+		<_14 Name="SCALE new target delay" Offset="6C" />
+		<_14 Name="MIN new target delay" Offset="70" />
+		<_14 Name="SCALE burst separation" Offset="74" />
+		<_14 Name="MIN burst separation" Offset="78" />
+		<_14 Name="SCALE target tracking" Offset="7C" />
+		<_14 Name="MIN target tracking" Offset="80" />
+		<_14 Name="SCALE target leading" Offset="84" />
+		<_14 Name="MIN target leading" Offset="88" />
+		<_14 Name="SCALE overcharge chance" Offset="8C" />
+		<_14 Name="MIN overcharge chance" Offset="90" />
+		<_14 Name="SCALE special fire delay" Offset="94" />
+		<_14 Name="MIN special fire delay" Offset="98" />
+		<_14 Name="SCALE guidance vs player" Offset="9C" />
+		<_14 Name="MIN guidance vs player" Offset="A0" />
+		<_14 Name="SCALE melee delay base" Offset="A4" />
+		<_14 Name="MIN melee delay base" Offset="A8" />
+		<_14 Name="SCALE melee delay scale" Offset="AC" />
+		<_14 Name="MIN melee delay scale" Offset="B0" />
+		<_34 Name="pad1" Offset="B4" Length="8" />
+		<_36 Name="grenades" Offset="BC" />
+		<_14 Name="SCALE grenade chance scale" Offset="BC" />
+		<_14 Name="MIN grenade chance scale" Offset="C0" />
+		<_14 Name="SCALE grenade timer scale" Offset="C4" />
+		<_14 Name="MIN grenade timer scale" Offset="C8" />
+		<_14 Name="SCALE grenade detonation timer scale" Offset="CC" />
+		<_14 Name="MIN grenade detonation timer scale" Offset="D0" />
+		<_14 Name="SCALE grenade arming timer scale" Offset="D4" />
+		<_14 Name="MIN grenade arming timer scale" Offset="D8" />
+		<_14 Name="SCALE grenade velocity scale" Offset="DC" />
+		<_14 Name="MIN grenade velocity scale" Offset="E0" />
+		<_36 Name="placement" Offset="E4" />
+		<_14 Name="SCALE major upgrade (normal)" Offset="E4" />
+		<_14 Name="MIN major upgrade (normal)" Offset="E8" />
+		<_14 Name="SCALE major upgrade (few)" Offset="EC" />
+		<_14 Name="MIN major upgrade (few)" Offset="F0" />
+		<_14 Name="SCALE major upgrade (many)" Offset="F4" />
+		<_14 Name="MIN major upgrade (many)" Offset="F8" />
+		<_36 Name="vehicles" Offset="FC" />
+		<_14 Name="SCALE player vehicle ram chance" Offset="FC" />
+		<_14 Name="MIN player vehicle ram chance" Offset="100" />
+		<_14 Name="SCALE trick dodge chance scale" Offset="104" />
+		<_14 Name="MIN trick dodge chance scale" Offset="108" />
+		<_14 Name="SCALE vehicle boarding chance" Offset="10C" />
+		<_14 Name="MIN vehicle boarding chance" Offset="110" />
+		<_36 Name="cover" Offset="114" />
+		<_14 Name="SCALE hide time" Offset="114" />
+		<_14 Name="MIN hide time" Offset="118" />
+		<_14 Name="SCALE shield fraction hide" Offset="11C" />
+		<_14 Name="MIN shield fraction hide" Offset="120" />
+		<_14 Name="SCALE cover vitality threshold" Offset="124" />
+		<_14 Name="MIN cover vitality threshold" Offset="128" />
+		<_14 Name="SCALE bunker open duration" Offset="12C" />
+		<_14 Name="MIN bunker open duration" Offset="130" />
+		<_14 Name="SCALE bunker closed duration" Offset="134" />
+		<_14 Name="MIN bunker closed duration" Offset="138" />
+		<_34 Name="pad2" Offset="13C" Length="8" />
+		<_36 Name="global kung fu" Offset="144" />
+		<_14 Name="SCALE max attackers" Offset="144" />
+		<_14 Name="MIN max attackers" Offset="148" />
+		<_36 Name="threat tokens" Offset="14C" />
+		<_14 Name="SCALE max high tokens" Offset="14C" />
+		<_14 Name="MIN max high tokens" Offset="150" />
+		<_14 Name="SCALE max low tokens" Offset="154" />
+		<_14 Name="MIN max low tokens" Offset="158" />
+		<_14 Name="SCALE max engagement tokens" Offset="15C" />
+		<_14 Name="MIN max engagement tokens" Offset="160" />
+		<_36 Name="grenade tokens" Offset="164" />
+		<_14 Name="SCALE max grenade tokens" Offset="164" />
+		<_14 Name="MIN max grenade tokens" Offset="168" />
+		<_14 Name="SCALE grenade token cooldown" Offset="16C" />
+		<_14 Name="MIN grenade token cooldown" Offset="170" />
+		<_36 Name="effectiveness tokens" Offset="174" />
+		<_14 Name="SCALE max effectiveness tokens" Offset="174" />
+		<_14 Name="MIN max effectiveness tokens" Offset="178" />
+		<_36 Name="weapon fidget" Offset="17C" />
+		<_14 Name="SCALE weapon fidget chance per second" Offset="17C" />
+		<_14 Name="MIN weapon fidget chance per second" Offset="180" />
+		<_36 Name="Damage Scaling" Offset="184" />
+		<_14 Name="SCALE Damage received from enemy AI" Offset="184" />
+		<_14 Name="MIN Damage received from enemy AI" Offset="188" />
+	</_0C3C4003E07B541D6762EAA589013817>
+</root>

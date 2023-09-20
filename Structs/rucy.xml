@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:16 PM" Name="RuntimeCoatingStyle" Parents="aTag" Index="-343">
+	<_A17C45E0FE135E47C8E1A8E9A9A4FA7B Name="RuntimeCoatingStyleTag" Size="240">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="info" Offset="10" GUID="6FFB426EB02A515E2C78DB06A05EF861" />
+		<_40 Name="regions" Offset="228" GUID="DF03416A1FF8B6E6966E77CEA1C5FA5A" StructName1="RuntimeCoatingStyleTag" Min="0" Max="2048" />
+		<_34 Name="generated_paddb44" Offset="23C" Length="4" />
+	</_A17C45E0FE135E47C8E1A8E9A9A4FA7B>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_6FFB426EB02A515E2C78DB06A05EF861 Name="RuntimeCoatingStyleInfo" Size="218">
+		<_38 Name="globalDamageSwatch" Offset="0" GUID="DA124CD3B1E94BCAD22F3A20B5107F13" />
+		<_38 Name="heroDamageSwatch" Offset="80" GUID="DA124CD3B1E94BCAD22F3A20B5107F13" />
+		<_38 Name="globalEmissiveSwatch" Offset="100" GUID="DA124CD3B1E94BCAD22F3A20B5107F13" />
+		<_14 Name="emissiveAmount" Offset="180" />
+		<_14 Name="emissiveIntensity" Offset="184" />
+		<_14 Name="scratchAmount" Offset="188" />
+		<_34 Name="generated_padee36" Offset="18C" Length="4" />
+		<_38 Name="grimeSwatch" Offset="190" GUID="DA124CD3B1E94BCAD22F3A20B5107F13" />
+		<_14 Name="grimeAmount" Offset="210" />
+		<_34 Name="generated_pad3aeb" Offset="214" Length="4" />
+	</_6FFB426EB02A515E2C78DB06A05EF861>
+	<_DF03416A1FF8B6E6966E77CEA1C5FA5A Name="RuntimeCoatingRegion" Size="34">
+		<_2 Name="name" Offset="0" />
+		<_41 Name="coatingMaterialOverride" Offset="4" Allowed="cwms" Flags="0" />
+		<_40 Name="intentions" Offset="20" GUID="644748B8749E0475CFF0D868A93BEA43" StructName1="RuntimeCoatingRegion" Min="0" Max="2048" />
+	</_DF03416A1FF8B6E6966E77CEA1C5FA5A>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_DA124CD3B1E94BCAD22F3A20B5107F13 Name="CoatingPaletteInfo" Size="80">
+		<_3F Name="elementID" Offset="0" />
+		<_2 Name="Description" Offset="8" />
+		<_41 Name="Swatch" Offset="C" Allowed="cmsw" Flags="4" />
+		<_A Name="gradientColorFlag" Offset="28" StructName1="OverrideColorsEnum">
+			<Flag n="Override Colors" />
+			<Flag n="Use Default Colors From Swatch" />
+		</_A>
+		<_34 Name="generated_pad9b5a" Offset="29" Length="3" />
+		<_1F Name="gradientTopColor" Offset="2C" />
+		<_1F Name="gradientMidColor" Offset="38" />
+		<_1F Name="gradientBottomColor" Offset="44" />
+		<_14 Name="roughnessOffset" Offset="50" />
+		<_37 Name="Scratch Overrides" type="fgrb" Offset="54" />
+		<_A Name="scratchColorFlag" Offset="54" StructName1="OverrideColorsEnum">
+			<Flag n="Override Colors" />
+			<Flag n="Use Default Colors From Swatch" />
+		</_A>
+		<_34 Name="generated_pade80f" Offset="55" Length="3" />
+		<_1F Name="scratchColor" Offset="58" />
+		<_14 Name="scratchRoughnessOffset" Offset="64" />
+		<_37 Name="" type="fgre" Offset="68" />
+		<_37 Name="Emissive Overrides" type="fgrb" Offset="68" />
+		<_A Name="Use Emissive?" Offset="68" StructName1="MaterialState">
+			<Flag n="disabled" />
+			<Flag n="enabled" />
+		</_A>
+		<_34 Name="generated_pad34c4" Offset="69" Length="3" />
+		<_14 Name="emissiveIntensity" Offset="6C" />
+		<_14 Name="emissiveAmount" Offset="70" />
+		<_37 Name="" type="fgre" Offset="74" />
+		<_37 Name="Advanced" type="fgrb" Offset="74" />
+		<_A Name="Use Alpha?" Offset="74" StructName1="MaterialState">
+			<Flag n="disabled" />
+			<Flag n="enabled" />
+		</_A>
+		<_A Name="Use Subsurface Scattering?" Offset="75" StructName1="UseSSSEnum">
+			<Flag n="Do Not Use Subsurface" />
+			<Flag n="Use Subsurface" />
+			<Flag n="Use Subsurface (gummy)" />
+		</_A>
+		<_A Name="Hero Reveal" Offset="76" StructName1="MaterialState">
+			<Flag n="disabled" />
+			<Flag n="enabled" />
+		</_A>
+		<_A Name="Color Blend" Offset="77" StructName1="MaterialState">
+			<Flag n="disabled" />
+			<Flag n="enabled" />
+		</_A>
+		<_A Name="Normal Blend" Offset="78" StructName1="MaterialState">
+			<Flag n="disabled" />
+			<Flag n="enabled" />
+		</_A>
+		<_A Name="Ignore Texel Density Scalar" Offset="79" StructName1="MaterialState">
+			<Flag n="disabled" />
+			<Flag n="enabled" />
+		</_A>
+		<_37 Name="" type="fgre" Offset="7A" />
+		<_34 Name="generated_pad8179" Offset="7A" Length="6" />
+	</_DA124CD3B1E94BCAD22F3A20B5107F13>
+	<_644748B8749E0475CFF0D868A93BEA43 Name="RuntimeCoatingIntention" Size="88">
+		<_2 Name="name" Offset="0" />
+		<_34 Name="generated_pad7d15" Offset="4" Length="4" />
+		<_38 Name="info" Offset="8" GUID="DA124CD3B1E94BCAD22F3A20B5107F13" />
+	</_644748B8749E0475CFF0D868A93BEA43>
+</root>

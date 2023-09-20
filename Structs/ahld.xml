@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="AutoHlodSettings" Parents="aTag" Index="-14">
+	<_CB894B9DAD1139FCF630954290D1D040 Name="AutoHlodSettings" Size="98">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="HLOD Auto-Generation Parameters" Offset="10" />
+		<_37 Name="BSP Cells" type="fgrb" Offset="10" />
+		<_6 Name="X Splits" Offset="10" />
+		<_6 Name="Y Splits" Offset="14" />
+		<_6 Name="Z Splits" Offset="18" />
+		<_37 Name="" type="fgre" Offset="1C" />
+		<_37 Name="HLOD settings" type="fgrb" Offset="1C" />
+		<_37 Name="Multi BSP HLOD Settings" type="fgrb" Offset="1C" />
+		<_38 Name="Multi BSP HLOD Settings" Offset="1C" GUID="303D4134CB8917C9985C6ED385C381F4" />
+		<_37 Name="" type="fgre" Offset="44" />
+		<_37 Name="BSP HLOD Settings" type="fgrb" Offset="44" />
+		<_38 Name="BSP HLOD Settings" Offset="44" GUID="303D4134CB8917C9985C6ED385C381F4" />
+		<_37 Name="" type="fgre" Offset="6C" />
+		<_37 Name="BSP Cell HLOD Settings" type="fgrb" Offset="6C" />
+		<_38 Name="BSP Cell Hlod Settings" Offset="6C" GUID="303D4134CB8917C9985C6ED385C381F4" />
+		<_37 Name="" type="fgre" Offset="94" />
+		<_37 Name="" type="fgre" Offset="94" />
+		<_34 Name="generated_padd9ad" Offset="94" Length="4" />
+	</_CB894B9DAD1139FCF630954290D1D040>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_303D4134CB8917C9985C6ED385C381F4 Name="AutoHlodLevelSettings" Size="28">
+		<_38 Name="Hlod Settings" Offset="0" GUID="8CFD485FDF8BE1BD03355B27B4419A26" />
+		<_14 Name="Switch Distance" Offset="20" />
+		<_B Name="Maximum LOD" Offset="24" StructName1="eTargetLOD">
+			<Flag n="LOD0" />
+			<Flag n="LOD1" />
+			<Flag n="LOD2" />
+			<Flag n="LOD3" />
+			<Flag n="LOD4" />
+			<Flag n="LOD5" />
+			<Flag n="LOD6" />
+			<Flag n="LOD7" />
+			<Flag n="LOD8" />
+			<Flag n="LOD9" />
+			<Flag n="LOD10" />
+			<Flag n="LOD11" />
+			<Flag n="LOD12" />
+			<Flag n="LOD13" />
+			<Flag n="LOD14" />
+			<Flag n="LOD15" />
+			<Flag n="Use Distance" />
+		</_B>
+		<_34 Name="generated_padd86d" Offset="26" Length="2" />
+	</_303D4134CB8917C9985C6ED385C381F4>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_8CFD485FDF8BE1BD03355B27B4419A26 Name="NamedHlodSettings" Size="20">
+		<_41 Name="HLOD settings preset list" Offset="0" Allowed="hlpl" Flags="9" />
+		<_2 Name="HLOD settings name" type="sted" Offset="1C" />
+	</_8CFD485FDF8BE1BD03355B27B4419A26>
+</root>

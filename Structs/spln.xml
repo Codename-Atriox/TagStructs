@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="SupplyLinesSystemGlobalsDefinition" Parents="aTag" Index="-396">
+	<_59FA4B785948E91A961E292188E534EF Name="i343::SupplyLines::SupplyLinesSystemGlobalsDefinition" Size="68">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="Drop Ship" Offset="10" Allowed="vehi" Flags="0" />
+		<_2 Name="Drop Ship Nav Marker Type" Offset="2C" />
+		<_2 Name="Drop Ship Nav Marker Sub Type" Offset="30" />
+		<_20 Name="Drop Ship Nav Marker Color" Offset="34" />
+		<_41 Name="Pilot" Offset="44" Allowed="char" Flags="0" />
+		<_14 Name="Vehicle Drop Height" Offset="60" />
+		<_34 Name="generated_pad479b" Offset="64" Length="4" />
+	</_59FA4B785948E91A961E292188E534EF>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

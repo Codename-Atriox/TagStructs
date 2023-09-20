@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="node_graph_stack" Parents="aTag" Index="-274">
+	<_F6964F1F9C9A59E5C2FDF1DBB2845EDC Name="Interface::NodeGraph::NodeGraphStackDefinition" Size="40">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_2 Name="name" Offset="10" />
+		<_C Name="transform method" Offset="14" StructName1="Interface::NodeGraph::eTransformMethodType">
+			<Flag n="Default 2D" />
+			<Flag n="Object Marker 3D" />
+			<Flag n="Primary Weapon Marker 3D" />
+			<Flag n="Primary Weapon Marker 2D" />
+			<Flag n="Inherited" />
+			<Flag n="Weapon Reticle" />
+		</_C>
+		<_C Name="projection method" Offset="18" StructName1="Interface::NodeGraph::eProjectionMethodType">
+			<Flag n="Default 2D" />
+			<Flag n="Player View" />
+			<Flag n="Inherited" />
+		</_C>
+		<_C Name="render mode" Offset="1C" StructName1="Interface::NodeGraph::eStackRenderMode">
+			<Flag n="2D" />
+			<Flag n="3D In World" />
+		</_C>
+		<_2 Name="markerName" Offset="20" />
+		<_14 Name="scale" Offset="24" />
+		<_C Name="loading mode" Offset="28" StructName1="Interface::NodeGraph::eLoadingMode">
+			<Flag n="LoadWhenActive" />
+			<Flag n="Preload" />
+		</_C>
+		<_40 Name="node graphs" Offset="2C" GUID="5AA84748F2BFB070A861D88F8BC9AFC7" StructName1="Interface::NodeGraph::NodeGraphStackDefinition" Min="0" Max="128" />
+	</_F6964F1F9C9A59E5C2FDF1DBB2845EDC>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_5AA84748F2BFB070A861D88F8BC9AFC7 Name="Interface::NodeGraph::NodeGraphDefinition" Size="1C">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="initial node" Offset="4" />
+		<_40 Name="nodes" type="gnvb" Offset="8" GUID="F9B643B157C87F0CC3C4136AA2938057" StructName1="Interface::NodeGraph::NodeGraphDefinition" Min="0" Max="128" />
+	</_5AA84748F2BFB070A861D88F8BC9AFC7>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_F9B643B157C87F0CC3C4136AA2938057 Name="Interface::NodeGraph::NodeDefinition" Size="8C">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="Placement Node name" Offset="4" />
+		<_40 Name="transitions" Offset="8" GUID="F1AF4F18232B0CA97227B4698E5B3012" StructName1="Interface::NodeGraph::NodeDefinition" Min="0" Max="64" />
+		<_C Name="screen wrapper" Offset="1C" StructName1="Interface::Screen::ScreenWrapperType">
+			<Flag n="guess from screen tag" />
+			<Flag n="none" />
+			<Flag n="WPF" />
+			<Flag n="CUI" />
+			<Flag n="NodeGraph" />
+			<Flag n="SharedNodeGraph" />
+			<Flag n="ADSWeaponNode" />
+			<Flag n="VehicleNode" />
+			<Flag n="FUI" />
+			<Flag n="SLAMS" />
+		</_C>
+		<_41 Name="screen reference" Offset="20" Allowed="cusc, ngst, uiwn, uivn, fuis" Flags="0" />
+		<_41 Name="fui screen reference" Offset="3C" Allowed="fuis" Flags="0" />
+		<_2 Name="uri name" Offset="58" />
+		<_C Name="SLAMS node type" Offset="5C" StructName1="Interface::NodeGraph::SLAMSNodeType">
+			<Flag n="Overlay" />
+			<Flag n="Content" />
+		</_C>
+		<_C Name="loading mode" Offset="60" StructName1="Interface::NodeGraph::eLoadingMode">
+			<Flag n="LoadWhenActive" />
+			<Flag n="Preload" />
+		</_C>
+		<_40 Name="child stacks" Offset="64" GUID="AE1E45D08833880E59015CEC82FC4C50" StructName1="Interface::NodeGraph::NodeDefinition" Min="0" Max="64" />
+		<_D Name="state flags" Offset="78" StructName1="Interface::NodeGraph::NodeGraphFlags">
+			<Flag n="Allow Input Fall Through" />
+			<Flag n="Matchmaking status should appear on top of this" />
+			<Flag n="Allow Input Fall Through Even When Handled" />
+			<Flag n="Fixed size screen which loads at the default canvas size, for eg. screens in world space" />
+			<Flag n="Does not suspend when the hud is suspended" />
+		</_D>
+		<_14 Name="editor pos x" Offset="7C" />
+		<_14 Name="editor pos y" Offset="80" />
+		<_D Name="editor flags" Offset="84" StructName1="Interface::NodeGraph::NodeEditorFlags">
+			<Flag n="locked" />
+		</_D>
+		<_C Name="editor shape" Offset="88" StructName1="Interface::NodeGraph::eNodeShape">
+			<Flag n="rectangle" />
+			<Flag n="hexagon" />
+			<Flag n="trapezoid" />
+			<Flag n="circle" />
+			<Flag n="diamond" />
+		</_C>
+	</_F9B643B157C87F0CC3C4136AA2938057>
+	<_F1AF4F18232B0CA97227B4698E5B3012 Name="Interface::NodeGraph::TransitionDefinition" Size="22C">
+		<_2 Name="event" Offset="0" />
+		<_2 Name="target node" Offset="4" />
+		<_1 Name="out animation name" Offset="8" />
+		<_1 Name="in animation name" Offset="108" />
+		<_D Name="flags" Offset="208" StructName1="Interface::NodeGraph::TransitionDefinitionFlags">
+			<Flag n="Override Default" />
+		</_D>
+		<_14 Name="editor from angle" Offset="20C" />
+		<_14 Name="editor to angle" Offset="210" />
+		<_14 Name="editor bezier from x" Offset="214" />
+		<_14 Name="editor bezier from y" Offset="218" />
+		<_14 Name="editor bezier to x" Offset="21C" />
+		<_14 Name="editor bezier to y" Offset="220" />
+		<_14 Name="editor caption x" Offset="224" />
+		<_14 Name="editor caption y" Offset="228" />
+	</_F1AF4F18232B0CA97227B4698E5B3012>
+	<_AE1E45D08833880E59015CEC82FC4C50 Name="Interface::NodeGraph::NodeGraphStackReferenceDefinition" Size="1C">
+		<_41 Name="child stack reference" Offset="0" Allowed="ngst" Flags="0" />
+	</_AE1E45D08833880E59015CEC82FC4C50>
+</root>

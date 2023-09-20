@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="hlod_metadata" Parents="aTag" Index="-201">
+	<_F28411E927359A61BFB073F095C31831 Name="HlodMetadata" Size="E8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_2 Name="name" Offset="10" />
+		<_6 Name="GUID" Offset="14" />
+		<_19 Name="Position" Offset="18" />
+		<_19 Name="VolumeMin" Offset="24" />
+		<_19 Name="VolumeMax" Offset="30" />
+		<_40 Name="Child static geo" Offset="3C" GUID="058048112C70CB797D60D2EFBA6C5AC5" StructName1="HlodMetadata" Min="0" Max="1024000" />
+		<_40 Name="Child HLOD Volumes" Offset="50" GUID="058048112C70CB797D60D2EFBA6C5AC5" StructName1="HlodMetadata" Min="0" Max="1024000" />
+		<_B Name="Maximum LOD" Offset="64" StructName1="eTargetLOD">
+			<Flag n="LOD0" />
+			<Flag n="LOD1" />
+			<Flag n="LOD2" />
+			<Flag n="LOD3" />
+			<Flag n="LOD4" />
+			<Flag n="LOD5" />
+			<Flag n="LOD6" />
+			<Flag n="LOD7" />
+			<Flag n="LOD8" />
+			<Flag n="LOD9" />
+			<Flag n="LOD10" />
+			<Flag n="LOD11" />
+			<Flag n="LOD12" />
+			<Flag n="LOD13" />
+			<Flag n="LOD14" />
+			<Flag n="LOD15" />
+			<Flag n="Use Distance" />
+		</_B>
+		<_34 Name="generated_pad77b4" Offset="66" Length="2" />
+		<_40 Name="BSPs" Offset="68" GUID="051F48112C71CB797D69D2EFBA6C56C5" StructName1="HlodMetadata" Min="0" Max="1024000" />
+		<_40 Name="BSPs involved by all children" Offset="7C" GUID="051F48112C71CB797D69D2EFBA6C56C5" StructName1="HlodMetadata" Min="0" Max="1024000" />
+		<_14 Name="SwitchDistance" Offset="90" />
+		<_41 Name="HlodSettings" Offset="94" Allowed="hlst" Flags="9" />
+		<_41 Name="Asset" Offset="B0" Allowed="aset" Flags="9" />
+		<_2 Name="Asset Category" Offset="CC" />
+		<_B Name="Use Visibility" Offset="D0" StructName1="HlodVisibilityEnum">
+			<Flag n="Use Visibility" />
+			<Flag n="Do Not Use Visibility" />
+		</_B>
+		<_34 Name="generated_pad9195" Offset="D2" Length="2" />
+		<_38 Name="Visibility Camera Sphere Settings" Offset="D4" GUID="386611EA7BDC01C2BFB073F0A1F71831" />
+		<_34 Name="generated_padde4a" Offset="E4" Length="4" />
+	</_F28411E927359A61BFB073F095C31831>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_058048112C70CB797D60D2EFBA6C5AC5 Name="HlodObject" Size="24">
+		<_6 Name="Guid" Offset="0" />
+		<_41 Name="Parent Layer Ref" Offset="4" Allowed="layr" Flags="0" />
+		<_A Name="Included In Geo" Offset="20" StructName1="HlodIncludeInGeoEnum">
+			<Flag n="Include In Geo" />
+			<Flag n="Dont Include In Geo" />
+		</_A>
+		<_34 Name="generated_pad944a" Offset="21" Length="3" />
+	</_058048112C70CB797D60D2EFBA6C5AC5>
+	<_051F48112C71CB797D69D2EFBA6C56C5 Name="HlodBsp" Size="20">
+		<_41 Name="BSP" Offset="0" Allowed="sbsp" Flags="9" />
+		<_6 Name="ioCount" Offset="1C" />
+	</_051F48112C71CB797D69D2EFBA6C56C5>
+	<_386611EA7BDC01C2BFB073F0A1F71831 Name="HlodSimplygonCustomSphereCameraPath" Size="10">
+		<_3E Name="Quality" Offset="0" />
+		<_14 Name="Semisphere Center Pitch Angle" Offset="4" />
+		<_14 Name="Semisphere Center Yaw Angle" Offset="8" />
+		<_14 Name="Sphere Coverage" Offset="C" />
+	</_386611EA7BDC01C2BFB073F0A1F71831>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="bitmap_package_settings" Parents="aTag" Index="-46">
+	<_217A4C15A1EF563F70DA4035AEC48D79 Name="BitmapPackageSettingsTable" Size="38">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="settings" Offset="10" GUID="C128495360D66DDCBFE796B8A0B591E8" StructName1="BitmapPackageSettingsTable" Min="0" Max="1024" />
+		<_36 Name="TEXTURE GROUPS" Offset="24" />
+		<_40 Name="texture groups" Offset="24" GUID="F0E24308F612453A60F17DB2ADF4E08F" StructName1="BitmapPackageSettingsTable" Min="0" Max="1024" />
+	</_217A4C15A1EF563F70DA4035AEC48D79>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_C128495360D66DDCBFE796B8A0B591E8 Name="BitmapPackageSettings" Size="14">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="editor group" Offset="4" />
+		<_D Name="flags" Offset="8" StructName1="BitmapPackageSettings::GroupFlags">
+			<Flag n="single mipmap" />
+			<Flag n="ui texture" />
+		</_D>
+		<_A Name="reduction rate" Offset="C" StructName1="BitmapPackageSettings::ReductionRate">
+			<Flag n="100" />
+			<Flag n="50" />
+			<Flag n="25" />
+		</_A>
+		<_34 Name="generated_padbb20" Offset="D" Length="3" />
+		<_6 Name="minimum texture size" Offset="10" />
+	</_C128495360D66DDCBFE796B8A0B591E8>
+	<_F0E24308F612453A60F17DB2ADF4E08F Name="BitmapPackageTextureGroup" Size="8">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="Package" type="sted" Offset="4" />
+	</_F0E24308F612453A60F17DB2ADF4E08F>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

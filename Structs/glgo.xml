@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="GameplayObjectGlobalsDefinition" Parents="aTag" Index="-186">
+	<_254E406135C662BD1504DEB18C0EA2EA Name="i343::GameplayObjectGlobals" Size="60">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Hologram Lighting" Offset="10" GUID="9FD147458E264B3B9FBB73AC83BCD78E" StructName1="i343::GameplayObjectGlobals" Min="0" Max="1" />
+		<_40 Name="active camo" Offset="24" GUID="39D84C2D4034FF5E0C7983BC916CA4FB" StructName1="i343::GameplayObjectGlobals" Min="0" Max="1" />
+		<_40 Name="shield boost" Offset="38" GUID="830F49E4C8A4D40E1FDC8F7C90962271" StructName1="i343::GameplayObjectGlobals" Min="0" Max="1" />
+		<_40 Name="Item Toss" Offset="4C" GUID="019A4E9C4F14BA9DE45DAADB8C0A48F5" StructName1="i343::GameplayObjectGlobals" Min="0" Max="1" />
+	</_254E406135C662BD1504DEB18C0EA2EA>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_9FD147458E264B3B9FBB73AC83BCD78E Name="HologramLightingGlobals" Size="34">
+		<_37 Name="HOLOGRAM FUNCTIONS" type="fgrb" Offset="0" />
+		<_2 Name="Intensity" Offset="0" />
+		<_37 Name="" type="fgre" Offset="4" />
+		<_37 Name="KEY LIGHT FUNCTIONS" type="fgrb" Offset="4" />
+		<_38 Name="Key Light Functions" Offset="4" GUID="AA5542A48A2592760A50BEB18927B452" />
+		<_37 Name="" type="fgre" Offset="14" />
+		<_37 Name="FILL LIGHT FUNCTIONS" type="fgrb" Offset="14" />
+		<_38 Name="Fill Light Functions" Offset="14" GUID="AA5542A48A2592760A50BEB18927B452" />
+		<_37 Name="" type="fgre" Offset="24" />
+		<_37 Name="RIM LIGHT FUNCTIONS" type="fgrb" Offset="24" />
+		<_38 Name="Rim Light Functions" Offset="24" GUID="AA5542A48A2592760A50BEB18927B452" />
+		<_37 Name="" type="fgre" Offset="34" />
+	</_9FD147458E264B3B9FBB73AC83BCD78E>
+	<_39D84C2D4034FF5E0C7983BC916CA4FB Name="s_active_camo_globals" Size="B8">
+		<_14 Name="biped speed reference" Offset="0" />
+		<_14 Name="active camo ground vertical speed scalar" Offset="4" />
+		<_14 Name="active camo airborne vertical speed scalar" Offset="8" />
+		<_14 Name="vehicle speed reference" Offset="C" />
+		<_15 Name="camo value for game name" Offset="10" />
+		<_38 Name="camo value to distortion" Offset="14" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_38 Name="camo value to transparency" Offset="2C" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_38 Name="camo distortion texture strength" Offset="44" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_18 Name="camo distortion scale" Offset="5C" />
+		<_18 Name="camo distortion translate speed" Offset="64" />
+		<_41 Name="camo distortion texture" Offset="6C" Allowed="bitm" Flags="0" />
+		<_14 Name="camo depth bias max distance" Offset="88" />
+		<_38 Name="camo depth bias function" Offset="8C" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_40 Name="camo levels" Offset="A4" GUID="D17B46FFE283DEAAF186E3778002F669" StructName1="s_active_camo_globals" Min="0" Max="5" />
+	</_39D84C2D4034FF5E0C7983BC916CA4FB>
+	<_830F49E4C8A4D40E1FDC8F7C90962271 Name="s_game_globals_shield_boost" Size="C">
+		<_36 Name="shield boosting" Offset="0" />
+		<_14 Name="shield boost decay" Offset="0" />
+		<_14 Name="shield boost recharge time" Offset="4" />
+		<_14 Name="shield boost stun time" Offset="8" />
+	</_830F49E4C8A4D40E1FDC8F7C90962271>
+	<_019A4E9C4F14BA9DE45DAADB8C0A48F5 Name="i343::Units::UnitItemTossGlobals" Size="10">
+		<_37 Name="Random Toss Angles" type="fgrb" Offset="0" />
+		<_36 Name="Possible Toss Directions" Offset="0" />
+		<_36 Name="Radial Toss Direction" Offset="0" />
+		<_36 Name="Toss Pitch Angle" Offset="0" />
+		<_24 Name="Pitch Angle" Offset="0" />
+		<_37 Name="" type="fgre" Offset="8" />
+		<_37 Name="Random Toss Speed" type="fgrb" Offset="8" />
+		<_36 Name="Speed" Offset="8" />
+		<_25 Name="Speed" Offset="8" />
+		<_37 Name="" type="fgre" Offset="10" />
+	</_019A4E9C4F14BA9DE45DAADB8C0A48F5>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_AA5542A48A2592760A50BEB18927B452 Name="HologramLightFunctions" Size="10">
+		<_2 Name="Intensity" Offset="0" />
+		<_2 Name="Forward" Offset="4" />
+		<_2 Name="Right" Offset="8" />
+		<_2 Name="Up" Offset="C" />
+	</_AA5542A48A2592760A50BEB18927B452>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+	<_D17B46FFE283DEAAF186E3778002F669 Name="s_active_camo_level_definition" Size="C4">
+		<_14 Name="biped speed reference" Offset="0" />
+		<_14 Name="active camo ground vertical speed scalar" Offset="4" />
+		<_14 Name="active camo airborne vertical speed scalar" Offset="8" />
+		<_14 Name="landing protection speed threshold" Offset="C" />
+		<_14 Name="landing protection duration" Offset="10" />
+		<_14 Name="vehicle speed reference" Offset="14" />
+		<_15 Name="camo value for game name" Offset="18" />
+		<_38 Name="camo value to distortion" Offset="1C" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_38 Name="camo value to transparency" Offset="34" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_38 Name="camo distortion texture strength" Offset="4C" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_18 Name="camo distortion scale" Offset="64" />
+		<_18 Name="camo distortion translate speed" Offset="6C" />
+		<_41 Name="camo distortion texture" Offset="74" Allowed="bitm" Flags="0" />
+		<_14 Name="camo depth bias max distance" Offset="90" />
+		<_38 Name="camo depth bias function" Offset="94" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_38 Name="speed to maximum camo" Offset="AC" GUID="0276481E72CB9289F56D7C189467A351" />
+	</_D17B46FFE283DEAAF186E3778002F669>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

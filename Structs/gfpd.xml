@@ -1,0 +1,958 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:06 PM" Name="GraphicsPresetDefinitions" Parents="aTag" Index="-173">
+	<_48167FAFEEBBDD8081C0E9C54C2EBDCC Name="PresetDefinitionsTag" Size="258">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Basic Presets" Offset="10" GUID="96294688F3647F16244C6F75100C655B" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_37 Name="Preset Details" type="fgrb" Offset="24" />
+		<_40 Name="Reflection Presets" Offset="24" GUID="DBBC39AC6581E7D05E385AEDD5A23FEE" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Volumetric Fog Presets" Offset="38" GUID="16916CF8298B50A66B4D944252DC8A9C" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Shadow Presets" Offset="4C" GUID="439E505B90DA05B916ED8B428738A756" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Sky Quality Presets" Offset="60" GUID="E919C2A2A3A09761DE22C5A25BF3FC36" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Temporal AA Presets" Offset="74" GUID="AE215BB8A74EC18B1091B2EFC096C861" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="AO Presets" Offset="88" GUID="42CD411D43CBEE8F87E2FB8EB8EC86C5" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Depth of Field Presets" Offset="9C" GUID="5993273BB65BD336B5D74AC746AB099A" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Anisotropic Filtering Presets" Offset="B0" GUID="D77FEA271151280C662B5503C70C930A" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Terrain Presets" Offset="C4" GUID="820DAAE38799C8AFA41D9DD8DA2ED304" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Lighting Presets" Offset="D8" GUID="1945AB1215D5CB205161248616BB24AD" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Decorators Presets" Offset="EC" GUID="984FA59219574A264A5FA5641FA567BB" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Asset Category Presets" Offset="100" GUID="D025CBF15D77FBC58F22E5F79383A1D1" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Dynamic Wind Presets" Offset="114" GUID="F5BB19717F58B6859BFBD9FE14A76529" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Push Bending Presets" Offset="128" GUID="5C424F38818517A85B86FF4D9DEED22E" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Hlod Presets" Offset="13C" GUID="3D58499B4F71430ECCC2CE3B880DEA97" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Animation Quality Presets" Offset="150" GUID="D54E2BC1FA7D752208CAB9480144E535" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Visual Damage Presets" Offset="164" GUID="EB6C0E4309E945867DD52DA0C3B1BD46" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Virtual Texturing Presets" Offset="178" GUID="22BC2D9E74B90A68971CEA8BD23BF6C3" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Flocks Presets" Offset="18C" GUID="E0ED0791746DD2B57DA9C65FFE4FC522" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Simulation Quality Presets" Offset="1A0" GUID="756798B2BAEEA9E5179AB897FE73560B" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Effects Presets" Offset="1B4" GUID="30E74044D15E4CF97C233F6ABB48D854" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Emblem Quality Presets" Offset="1C8" GUID="E3F545E390031A5E550EC91EB89EE923" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Texture Quality Presets" Offset="1DC" GUID="02C947F5309CF2BC063B51D1A463E612" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Chromatic Aberration Presets" Offset="1F0" GUID="4E312D0166DC3BE5E9B24A8326415011" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="UI Presets" Offset="204" GUID="684D4F77755B77B56F6BEFA19FDD21C6" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Decal Presets" Offset="218" GUID="21DD2F387AA64C3A7C306807E6A05E85" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Shader Quality Presets" Offset="22C" GUID="F91E4EAEEC81C4EC663F058EA5BA7CAF" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_40 Name="Raytraced Sun Shadows Presets" Offset="240" GUID="A5E6462F48E3E42B44F48D21B08677F5" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
+		<_37 Name="" type="fgre" Offset="254" />
+		<_34 Name="generated_pad3e85" Offset="254" Length="4" />
+	</_48167FAFEEBBDD8081C0E9C54C2EBDCC>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_96294688F3647F16244C6F75100C655B Name="BasicPresetDefinition" Size="40">
+		<_0 Name="Preset" Offset="0" />
+		<_A Name="Reflections" Offset="20" StructName1="ReflectionPresetDefinition::Presets">
+			<Flag n="Off" />
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_A Name="Volumetric Fog" Offset="21" StructName1="VolumetricFogPresetDefinition::Presets">
+			<Flag n="Off" />
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+		</_A>
+		<_A Name="Shadows" Offset="22" StructName1="ShadowPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_A Name="Sky Quality" Offset="23" StructName1="SkyQualityPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_A Name="Temporal AA" Offset="24" StructName1="TemporalAAPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="High" />
+		</_A>
+		<_A Name="Ambient Occlusion" Offset="25" StructName1="AoPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_A Name="Depth of Field" Offset="26" StructName1="DepthOfFieldPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+		</_A>
+		<_A Name="Anisotropic Filtering" Offset="27" StructName1="AnisotropicFilteringPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_A Name="Terrain" Offset="28" StructName1="TerrainPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_A Name="Lighting" Offset="29" StructName1="LightingPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_A Name="Decorators" Offset="2A" StructName1="DecoratorsPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_A Name="Asset Category Preset" Offset="2B" StructName1="AssetCategoryPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_A Name="Dynamic Wind" Offset="2C" StructName1="DynamicWindPresetDefinition::Presets">
+			<Flag n="Off" />
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_A Name="Hlod Preset" Offset="2D" StructName1="HlodPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_A Name="Animation Quality" Offset="2E" StructName1="AnimationQualityPresetDefinition::Presets">
+			<Flag n="Auto" />
+			<Flag n="Max" />
+		</_A>
+		<_A Name="Flocks" Offset="2F" StructName1="FlocksQualityPresetDefinition::Presets">
+			<Flag n="Off" />
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_A Name="Simulation Quality" Offset="30" StructName1="SimulationQualityPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_A Name="Effects" Offset="31" StructName1="EffectsPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_A Name="Texture Quality" Offset="32" StructName1="TextureQualityPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_A Name="Decals" Offset="33" StructName1="DecalsPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_A Name="Shader Quality" Offset="34" StructName1="ShaderQualityPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_34 Name="generated_pad3000" Offset="35" Length="3" />
+		<_37 Name="VRAM" type="fgrb" Offset="38" />
+		<_38 Name="vram" Offset="38" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="40" />
+	</_96294688F3647F16244C6F75100C655B>
+	<_DBBC39AC6581E7D05E385AEDD5A23FEE Name="ReflectionPresetDefinition" Size="30">
+		<_0 Name="Preset" Offset="0" />
+		<_A Name="Mode" Offset="20" StructName1="ReflectionPresetDefinition::Modes">
+			<Flag n="None" />
+			<Flag n="SSR" />
+			<Flag n="SSR Full Resolution" />
+		</_A>
+		<_37 Name="Single Screen" type="fgrb" Offset="21" />
+		<_38 Name="Single Screen Preset" Offset="21" GUID="168A4C88C03256D539546534969AA3E9" />
+		<_37 Name="" type="fgre" Offset="22" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="22" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="22" GUID="168A4C88C03256D539546534969AA3E9" />
+		<_37 Name="" type="fgre" Offset="23" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="23" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="23" GUID="168A4C88C03256D539546534969AA3E9" />
+		<_37 Name="" type="fgre" Offset="24" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="24" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="24" GUID="168A4C88C03256D539546534969AA3E9" />
+		<_34 Name="generated_padeff7" Offset="25" Length="3" />
+		<_37 Name="" type="fgre" Offset="28" />
+		<_37 Name="VRAM" type="fgrb" Offset="28" />
+		<_38 Name="vram" Offset="28" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="30" />
+	</_DBBC39AC6581E7D05E385AEDD5A23FEE>
+	<_16916CF8298B50A66B4D944252DC8A9C Name="VolumetricFogPresetDefinition" Size="50">
+		<_0 Name="Preset" Offset="0" />
+		<_6 Name="Resolution" Offset="20" />
+		<_F Name="Volumetric Fog Flags" Offset="24" StructName1="VolumetricFogPresetDefinition::VolumetricFogFlags">
+			<Flag n="Enabled" />
+		</_F>
+		<_34 Name="generated_pad0612" Offset="25" Length="3" />
+		<_37 Name="Single Screen" type="fgrb" Offset="28" />
+		<_38 Name="Single Screen Preset" Offset="28" GUID="EC9E4168A7AD120CB673D2E7BB6DEF4A" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="30" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="30" GUID="EC9E4168A7AD120CB673D2E7BB6DEF4A" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="38" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="38" GUID="EC9E4168A7AD120CB673D2E7BB6DEF4A" />
+		<_37 Name="" type="fgre" Offset="40" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="40" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="40" GUID="EC9E4168A7AD120CB673D2E7BB6DEF4A" />
+		<_37 Name="" type="fgre" Offset="48" />
+		<_37 Name="VRAM" type="fgrb" Offset="48" />
+		<_38 Name="vram" Offset="48" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="50" />
+	</_16916CF8298B50A66B4D944252DC8A9C>
+	<_439E505B90DA05B916ED8B428738A756 Name="ShadowPresetDefinition" Size="A0">
+		<_0 Name="Preset" Offset="0" />
+		<_6 Name="Dynamic Shadowmap Atlas Resolution" Offset="20" />
+		<_6 Name="Dynamic Shadowmap Atlas Resolution No Sun" Offset="24" />
+		<_6 Name="Static Shadowmap Atlas Resolution" Offset="28" />
+		<_F Name="Deferred Shadow Mask" Offset="2C" StructName1="ShadowPresetDefinition::EnableDeferredShadowMaskFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_F Name="Contact Shadows" Offset="2D" StructName1="ShadowPresetDefinition::EnableContactShadowsFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_F Name="Contact Shadows Local Lights" Offset="2E" StructName1="ShadowPresetDefinition::EnableContactShadowsFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_F Name="Local Lights Low Shadow Sampling" Offset="2F" StructName1="ShadowPresetDefinition::EnableLocalLightsLowShadowSamplingFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_F Name="Shadows For Non-Visible Objects" Offset="30" StructName1="ShadowPresetDefinition::EnableShadowsForNonVisibleObjectsFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_34 Name="generated_pad91b0" Offset="31" Length="3" />
+		<_14 Name="Local Lights Shadow Sampling Falloff" Offset="34" />
+		<_37 Name="Single Screen" type="fgrb" Offset="38" />
+		<_38 Name="Single Screen Preset" Offset="38" GUID="E63D07E47E15EDB7B2E15AEA91D3BBFF" />
+		<_37 Name="" type="fgre" Offset="50" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="50" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="50" GUID="E63D07E47E15EDB7B2E15AEA91D3BBFF" />
+		<_37 Name="" type="fgre" Offset="68" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="68" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="68" GUID="E63D07E47E15EDB7B2E15AEA91D3BBFF" />
+		<_37 Name="" type="fgre" Offset="80" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="80" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="80" GUID="E63D07E47E15EDB7B2E15AEA91D3BBFF" />
+		<_37 Name="" type="fgre" Offset="98" />
+		<_37 Name="VRAM" type="fgrb" Offset="98" />
+		<_38 Name="vram" Offset="98" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="A0" />
+	</_439E505B90DA05B916ED8B428738A756>
+	<_E919C2A2A3A09761DE22C5A25BF3FC36 Name="SkyQualityPresetDefinition" Size="12C">
+		<_0 Name="Preset" Offset="0" />
+		<_F Name="Volumetric Clouds Enable Flag" Offset="20" StructName1="SkyQualityPresetDefinition::EnableVolumetricCloudsFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_34 Name="generated_pad520a" Offset="21" Length="3" />
+		<_6 Name="Volumetric Clouds RT Width Resolution" Offset="24" />
+		<_6 Name="Volumetric Clouds RT Height Resolution" Offset="28" />
+		<_6 Name="Volumetric Clouds Coverage RT Resolution" Offset="2C" />
+		<_6 Name="Perlin Worley Noise Resolution" Offset="30" />
+		<_6 Name="Worley Noise Resolution" Offset="34" />
+		<_6 Name="Curl Noise Resolution" Offset="38" />
+		<_6 Name="Volumetric Clouds Shape Ray Steps" Offset="3C" />
+		<_6 Name="Volumetric Clouds Lighting Ray Steps" Offset="40" />
+		<_14 Name="Volumetric Clouds Beer Scale" Offset="44" />
+		<_14 Name="Volumetric Clouds Cornette Scale" Offset="48" />
+		<_14 Name="Volumetric Clouds Coverage Strength" Offset="4C" />
+		<_6 Name="Volumetric Clouds Perf Tier" Offset="50" />
+		<_37 Name="Single Screen" type="fgrb" Offset="54" />
+		<_38 Name="Single Screen Preset" Offset="54" GUID="15064E7F964671209EF5ECB0680E242A" />
+		<_37 Name="" type="fgre" Offset="88" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="88" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="88" GUID="15064E7F964671209EF5ECB0680E242A" />
+		<_37 Name="" type="fgre" Offset="BC" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="BC" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="BC" GUID="15064E7F964671209EF5ECB0680E242A" />
+		<_37 Name="" type="fgre" Offset="F0" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="F0" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="F0" GUID="15064E7F964671209EF5ECB0680E242A" />
+		<_37 Name="" type="fgre" Offset="124" />
+		<_37 Name="VRAM" type="fgrb" Offset="124" />
+		<_38 Name="vram" Offset="124" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="12C" />
+	</_E919C2A2A3A09761DE22C5A25BF3FC36>
+	<_AE215BB8A74EC18B1091B2EFC096C861 Name="TemporalAAPresetDefinition" Size="50">
+		<_0 Name="Preset" Offset="0" />
+		<_F Name="Enable Flag" Offset="20" StructName1="TemporalAAPresetDefinition::EnableTemporalAAFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_34 Name="generated_pad3998" Offset="21" Length="3" />
+		<_6 Name="Quality" Offset="24" />
+		<_37 Name="Single Screen" type="fgrb" Offset="28" />
+		<_38 Name="Single Screen Preset" Offset="28" GUID="582643DAC05A6C7D8E25835083416E24" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="30" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="30" GUID="582643DAC05A6C7D8E25835083416E24" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="38" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="38" GUID="582643DAC05A6C7D8E25835083416E24" />
+		<_37 Name="" type="fgre" Offset="40" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="40" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="40" GUID="582643DAC05A6C7D8E25835083416E24" />
+		<_37 Name="" type="fgre" Offset="48" />
+		<_37 Name="VRAM" type="fgrb" Offset="48" />
+		<_38 Name="vram" Offset="48" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="50" />
+	</_AE215BB8A74EC18B1091B2EFC096C861>
+	<_42CD411D43CBEE8F87E2FB8EB8EC86C5 Name="AoPresetDefinition" Size="50">
+		<_0 Name="Preset" Offset="0" />
+		<_F Name="Flags" Offset="20" StructName1="AoPresetDefinition::AoFlags">
+			<Flag n="AO Disabled" />
+		</_F>
+		<_34 Name="generated_paddfa8" Offset="21" Length="3" />
+		<_6 Name="Quality" Offset="24" />
+		<_37 Name="Single Screen" type="fgrb" Offset="28" />
+		<_38 Name="Single Screen Preset" Offset="28" GUID="105A472043D40703766BC5BE9C60B2DE" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="30" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="30" GUID="105A472043D40703766BC5BE9C60B2DE" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="38" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="38" GUID="105A472043D40703766BC5BE9C60B2DE" />
+		<_37 Name="" type="fgre" Offset="40" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="40" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="40" GUID="105A472043D40703766BC5BE9C60B2DE" />
+		<_37 Name="" type="fgre" Offset="48" />
+		<_37 Name="VRAM" type="fgrb" Offset="48" />
+		<_38 Name="vram" Offset="48" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="50" />
+	</_42CD411D43CBEE8F87E2FB8EB8EC86C5>
+	<_5993273BB65BD336B5D74AC746AB099A Name="DepthOfFieldPresetDefinition" Size="50">
+		<_0 Name="Preset" Offset="0" />
+		<_6 Name="Ring Count" Offset="20" />
+		<_A Name="Blur Type" Offset="24" StructName1="DepthOfFieldPresetDefinition::BlurType">
+			<Flag n="Hex" />
+			<Flag n="Circle" />
+		</_A>
+		<_34 Name="generated_pad9984" Offset="25" Length="3" />
+		<_37 Name="Single Screen" type="fgrb" Offset="28" />
+		<_38 Name="Single Screen Preset" Offset="28" GUID="2473B94626A09B0AF807C0D5D1CE8FED" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="30" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="30" GUID="2473B94626A09B0AF807C0D5D1CE8FED" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="38" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="38" GUID="2473B94626A09B0AF807C0D5D1CE8FED" />
+		<_37 Name="" type="fgre" Offset="40" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="40" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="40" GUID="2473B94626A09B0AF807C0D5D1CE8FED" />
+		<_37 Name="" type="fgre" Offset="48" />
+		<_37 Name="VRAM" type="fgrb" Offset="48" />
+		<_38 Name="vram" Offset="48" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="50" />
+	</_5993273BB65BD336B5D74AC746AB099A>
+	<_D77FEA271151280C662B5503C70C930A Name="AnisotropicFilteringPresetDefinition" Size="30">
+		<_0 Name="Preset" Offset="0" />
+		<_A Name="Level" Offset="20" StructName1="AnisotropicFilteringPresetDefinition::AnisotropicFilteringLevel">
+			<Flag n="0" />
+			<Flag n="2" />
+			<Flag n="4" />
+			<Flag n="8" />
+			<Flag n="16" />
+		</_A>
+		<_37 Name="Single Screen" type="fgrb" Offset="21" />
+		<_38 Name="Single Screen Preset" Offset="21" GUID="7A0AF732E037148D7C42E033F30A9B22" />
+		<_37 Name="" type="fgre" Offset="22" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="22" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="22" GUID="7A0AF732E037148D7C42E033F30A9B22" />
+		<_37 Name="" type="fgre" Offset="23" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="23" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="23" GUID="7A0AF732E037148D7C42E033F30A9B22" />
+		<_37 Name="" type="fgre" Offset="24" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="24" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="24" GUID="7A0AF732E037148D7C42E033F30A9B22" />
+		<_34 Name="generated_padc853" Offset="25" Length="3" />
+		<_37 Name="" type="fgre" Offset="28" />
+		<_37 Name="VRAM" type="fgrb" Offset="28" />
+		<_38 Name="vram" Offset="28" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="30" />
+	</_D77FEA271151280C662B5503C70C930A>
+	<_820DAAE38799C8AFA41D9DD8DA2ED304 Name="TerrainPresetDefinition" Size="3C">
+		<_0 Name="Preset" Offset="0" />
+		<_14 Name="LOD Radius Factor" Offset="20" />
+		<_37 Name="Single Screen" type="fgrb" Offset="24" />
+		<_38 Name="Single Screen Preset" Offset="24" GUID="E9B588565F0308CDE226E3EC8BC3EC54" />
+		<_37 Name="" type="fgre" Offset="28" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="28" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="28" GUID="E9B588565F0308CDE226E3EC8BC3EC54" />
+		<_37 Name="" type="fgre" Offset="2C" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="2C" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="2C" GUID="E9B588565F0308CDE226E3EC8BC3EC54" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="30" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="30" GUID="E9B588565F0308CDE226E3EC8BC3EC54" />
+		<_37 Name="" type="fgre" Offset="34" />
+		<_37 Name="VRAM" type="fgrb" Offset="34" />
+		<_38 Name="vram" Offset="34" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="3C" />
+	</_820DAAE38799C8AFA41D9DD8DA2ED304>
+	<_1945AB1215D5CB205161248616BB24AD Name="LightingPresetDefinition" Size="3C">
+		<_0 Name="Preset" Offset="0" />
+		<_14 Name="Light Simulation Radius Scale" Offset="20" />
+		<_37 Name="Single Screen" type="fgrb" Offset="24" />
+		<_38 Name="Single Screen Preset" Offset="24" GUID="AEAE46E7540C3399249F78E0852A36A4" />
+		<_37 Name="" type="fgre" Offset="28" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="28" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="28" GUID="AEAE46E7540C3399249F78E0852A36A4" />
+		<_37 Name="" type="fgre" Offset="2C" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="2C" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="2C" GUID="AEAE46E7540C3399249F78E0852A36A4" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="30" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="30" GUID="AEAE46E7540C3399249F78E0852A36A4" />
+		<_37 Name="" type="fgre" Offset="34" />
+		<_37 Name="VRAM" type="fgrb" Offset="34" />
+		<_38 Name="vram" Offset="34" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="3C" />
+	</_1945AB1215D5CB205161248616BB24AD>
+	<_984FA59219574A264A5FA5641FA567BB Name="DecoratorsPresetDefinition" Size="2C">
+		<_A Name="Push Bending" Offset="0" StructName1="InteractionPresetDefinition::Presets">
+			<Flag n="Off" />
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+		</_A>
+		<_0 Name="Preset" Offset="1" />
+		<_34 Name="generated_pad704e" Offset="21" Length="3" />
+		<_37 Name="VRAM" type="fgrb" Offset="24" />
+		<_38 Name="vram" Offset="24" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="2C" />
+	</_984FA59219574A264A5FA5641FA567BB>
+	<_D025CBF15D77FBC58F22E5F79383A1D1 Name="AssetCategoryPresetDefinition" Size="28">
+		<_0 Name="Preset" Offset="0" />
+		<_37 Name="VRAM" type="fgrb" Offset="20" />
+		<_38 Name="vram" Offset="20" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="28" />
+	</_D025CBF15D77FBC58F22E5F79383A1D1>
+	<_F5BB19717F58B6859BFBD9FE14A76529 Name="DynamicWindPresetDefinition" Size="78">
+		<_0 Name="Preset" Offset="0" />
+		<_37 Name="Single Screen" type="fgrb" Offset="20" />
+		<_38 Name="Single Screen Preset" Offset="20" GUID="E429F21E1F377888BAABA83BBB772664" />
+		<_37 Name="" type="fgre" Offset="34" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="34" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="34" GUID="E429F21E1F377888BAABA83BBB772664" />
+		<_37 Name="" type="fgre" Offset="48" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="48" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="48" GUID="E429F21E1F377888BAABA83BBB772664" />
+		<_37 Name="" type="fgre" Offset="5C" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="5C" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="5C" GUID="E429F21E1F377888BAABA83BBB772664" />
+		<_37 Name="" type="fgre" Offset="70" />
+		<_37 Name="VRAM" type="fgrb" Offset="70" />
+		<_38 Name="vram" Offset="70" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="78" />
+	</_F5BB19717F58B6859BFBD9FE14A76529>
+	<_5C424F38818517A85B86FF4D9DEED22E Name="InteractionPresetDefinition" Size="48">
+		<_0 Name="Preset" Offset="0" />
+		<_37 Name="Single Screen" type="fgrb" Offset="20" />
+		<_38 Name="Single Screen Preset" Offset="20" GUID="35084A2B83CAEA01C3DA305BBA9C6178" />
+		<_37 Name="" type="fgre" Offset="28" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="28" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="28" GUID="35084A2B83CAEA01C3DA305BBA9C6178" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="30" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="30" GUID="35084A2B83CAEA01C3DA305BBA9C6178" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="38" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="38" GUID="35084A2B83CAEA01C3DA305BBA9C6178" />
+		<_37 Name="" type="fgre" Offset="40" />
+		<_37 Name="VRAM" type="fgrb" Offset="40" />
+		<_38 Name="vram" Offset="40" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="48" />
+	</_5C424F38818517A85B86FF4D9DEED22E>
+	<_3D58499B4F71430ECCC2CE3B880DEA97 Name="HlodPresetDefinition" Size="68">
+		<_0 Name="Preset" Offset="0" />
+		<_37 Name="Single Screen" type="fgrb" Offset="20" />
+		<_38 Name="Single Screen Preset" Offset="20" GUID="6DCA433AD0FFF271C5942D9D83D40BD3" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="30" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="30" GUID="6DCA433AD0FFF271C5942D9D83D40BD3" />
+		<_37 Name="" type="fgre" Offset="40" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="40" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="40" GUID="6DCA433AD0FFF271C5942D9D83D40BD3" />
+		<_37 Name="" type="fgre" Offset="50" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="50" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="50" GUID="6DCA433AD0FFF271C5942D9D83D40BD3" />
+		<_37 Name="" type="fgre" Offset="60" />
+		<_37 Name="VRAM" type="fgrb" Offset="60" />
+		<_38 Name="vram" Offset="60" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="68" />
+	</_3D58499B4F71430ECCC2CE3B880DEA97>
+	<_D54E2BC1FA7D752208CAB9480144E535 Name="AnimationQualityPresetDefinition" Size="28">
+		<_0 Name="Preset" Offset="0" />
+		<_37 Name="VRAM" type="fgrb" Offset="20" />
+		<_38 Name="vram" Offset="20" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="28" />
+	</_D54E2BC1FA7D752208CAB9480144E535>
+	<_EB6C0E4309E945867DD52DA0C3B1BD46 Name="VisualDamagePresetDefinition" Size="50">
+		<_0 Name="Preset" Offset="0" />
+		<_F Name="Enable Flag" Offset="20" StructName1="VisualDamagePresetDefinition::EnableVisualDamageFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_34 Name="generated_pada34f" Offset="21" Length="3" />
+		<_6 Name="Mask Resolution" Offset="24" />
+		<_37 Name="Single Screen" type="fgrb" Offset="28" />
+		<_38 Name="Single Screen Preset" Offset="28" GUID="0E3AC82451F086615AE811AC0C060866" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="30" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="30" GUID="0E3AC82451F086615AE811AC0C060866" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="38" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="38" GUID="0E3AC82451F086615AE811AC0C060866" />
+		<_37 Name="" type="fgre" Offset="40" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="40" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="40" GUID="0E3AC82451F086615AE811AC0C060866" />
+		<_37 Name="" type="fgre" Offset="48" />
+		<_37 Name="VRAM" type="fgrb" Offset="48" />
+		<_38 Name="vram" Offset="48" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="50" />
+	</_EB6C0E4309E945867DD52DA0C3B1BD46>
+	<_22BC2D9E74B90A68971CEA8BD23BF6C3 Name="VirtualTexturingPresetDefinition" Size="68">
+		<_0 Name="Preset" Offset="0" />
+		<_37 Name="Single Screen" type="fgrb" Offset="20" />
+		<_38 Name="Single Screen Preset" Offset="20" GUID="BFCE8F6754D55F62F61FA5D4AEED60C6" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="30" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="30" GUID="BFCE8F6754D55F62F61FA5D4AEED60C6" />
+		<_37 Name="" type="fgre" Offset="40" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="40" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="40" GUID="BFCE8F6754D55F62F61FA5D4AEED60C6" />
+		<_37 Name="" type="fgre" Offset="50" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="50" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="50" GUID="BFCE8F6754D55F62F61FA5D4AEED60C6" />
+		<_37 Name="" type="fgre" Offset="60" />
+		<_37 Name="VRAM" type="fgrb" Offset="60" />
+		<_38 Name="vram" Offset="60" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="68" />
+	</_22BC2D9E74B90A68971CEA8BD23BF6C3>
+	<_E0ED0791746DD2B57DA9C65FFE4FC522 Name="FlocksQualityPresetDefinition" Size="28">
+		<_0 Name="Preset" Offset="0" />
+		<_37 Name="VRAM" type="fgrb" Offset="20" />
+		<_38 Name="vram" Offset="20" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="28" />
+	</_E0ED0791746DD2B57DA9C65FFE4FC522>
+	<_756798B2BAEEA9E5179AB897FE73560B Name="SimulationQualityPresetDefinition" Size="28">
+		<_0 Name="Preset" Offset="0" />
+		<_37 Name="VRAM" type="fgrb" Offset="20" />
+		<_38 Name="vram" Offset="20" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="28" />
+	</_756798B2BAEEA9E5179AB897FE73560B>
+	<_30E74044D15E4CF97C233F6ABB48D854 Name="EffectsPresetDefinition" Size="1AC">
+		<_0 Name="Preset" Offset="0" />
+		<_F Name="Effect Quality Options Flags" Offset="20" StructName1="EffectsPresetDefinition::EffectQualityOptionsFlags">
+			<Flag n="Enable CPU Particle Collisions" />
+			<Flag n="Disable Low Priority Parts" />
+			<Flag n="High Quality Particle Lighting" />
+		</_F>
+		<_34 Name="generated_pad5cbc" Offset="21" Length="3" />
+		<_14 Name="Dynamic Low Priority Culling Threshold" Offset="24" />
+		<_14 Name="Low Priority Culling Distance" Offset="28" />
+		<_14 Name="Dynamic Medium Priority Culling Threshold" Offset="2C" />
+		<_14 Name="Medium Priority Culling Distance" Offset="30" />
+		<_14 Name="Distortion Throttling Threshold" Offset="34" />
+		<_14 Name="Distortion Fade Threshold" Offset="38" />
+		<_14 Name="LOD Distance Scaling" Offset="3C" />
+		<_14 Name="LOD Distance Dynamic Throttle Min" Offset="40" />
+		<_14 Name="LOD Distance Dynamic Throttle Max" Offset="44" />
+		<_14 Name="Cheap Light Falloff Throttle" Offset="48" />
+		<_A Name="Visual Damage Preset" Offset="4C" StructName1="VisualDamagePresetDefinition::Presets">
+			<Flag n="Off" />
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+		</_A>
+		<_34 Name="generated_pad769d" Offset="4D" Length="3" />
+		<_14 Name="Material Effects Distance Scalar" Offset="50" />
+		<_A Name="Chromatic Aberration Preset" Offset="54" StructName1="ChromaticAberrationPresetDefinition::Presets">
+			<Flag n="Off" />
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+		</_A>
+		<_A Name="UI Preset" Offset="55" StructName1="UIPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+		</_A>
+		<_34 Name="generated_padc352" Offset="56" Length="2" />
+		<_37 Name="Effect Streaming Relevancy Settings" type="fgrb" Offset="58" />
+		<_38 Name="Effect Streaming Relevancy Settings" Offset="58" GUID="86B54956362889EA67A96F47AADD543E" />
+		<_37 Name="" type="fgre" Offset="74" />
+		<_37 Name="Single Screen" type="fgrb" Offset="74" />
+		<_38 Name="Single Screen Preset" Offset="74" GUID="9FD5B0367E8FCB5FC8F8AD2786CA7617" />
+		<_37 Name="" type="fgre" Offset="C0" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="C0" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="C0" GUID="9FD5B0367E8FCB5FC8F8AD2786CA7617" />
+		<_37 Name="" type="fgre" Offset="10C" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="10C" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="10C" GUID="9FD5B0367E8FCB5FC8F8AD2786CA7617" />
+		<_37 Name="" type="fgre" Offset="158" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="158" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="158" GUID="9FD5B0367E8FCB5FC8F8AD2786CA7617" />
+		<_37 Name="" type="fgre" Offset="1A4" />
+		<_37 Name="VRAM" type="fgrb" Offset="1A4" />
+		<_38 Name="vram" Offset="1A4" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="1AC" />
+	</_30E74044D15E4CF97C233F6ABB48D854>
+	<_E3F545E390031A5E550EC91EB89EE923 Name="EmblemQualityPresetDefinition" Size="3C">
+		<_0 Name="Preset" Offset="0" />
+		<_3E Name="Resolution" Offset="20" />
+		<_37 Name="Single Screen" type="fgrb" Offset="24" />
+		<_38 Name="Single Screen Preset" Offset="24" GUID="BFC772CD9F5FBEAFBAD7BB643ABB6697" />
+		<_37 Name="" type="fgre" Offset="28" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="28" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="28" GUID="BFC772CD9F5FBEAFBAD7BB643ABB6697" />
+		<_37 Name="" type="fgre" Offset="2C" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="2C" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="2C" GUID="BFC772CD9F5FBEAFBAD7BB643ABB6697" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="30" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="30" GUID="BFC772CD9F5FBEAFBAD7BB643ABB6697" />
+		<_37 Name="" type="fgre" Offset="34" />
+		<_37 Name="VRAM" type="fgrb" Offset="34" />
+		<_38 Name="vram" Offset="34" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="3C" />
+	</_E3F545E390031A5E550EC91EB89EE923>
+	<_02C947F5309CF2BC063B51D1A463E612 Name="TextureQualityPresetDefinition" Size="48">
+		<_0 Name="Preset" Offset="0" />
+		<_14 Name="Texture Prediction Resolution Limit" Offset="20" />
+		<_14 Name="Texture Prediction Target Resolution" Offset="24" />
+		<_A Name="Emblem Quality Preset" Offset="28" StructName1="EmblemQualityPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_A Name="Virtual Texturing Preset" Offset="29" StructName1="VirtualTexturingPresetDefinition::Presets">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_A>
+		<_34 Name="generated_pad880c" Offset="2A" Length="2" />
+		<_37 Name="Single Screen" type="fgrb" Offset="2C" />
+		<_38 Name="Single Screen Preset" Offset="2C" GUID="0948434589FEFB46EA27F34DB46BE945" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="30" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="30" GUID="0948434589FEFB46EA27F34DB46BE945" />
+		<_37 Name="" type="fgre" Offset="34" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="34" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="34" GUID="0948434589FEFB46EA27F34DB46BE945" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="38" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="38" GUID="0948434589FEFB46EA27F34DB46BE945" />
+		<_37 Name="" type="fgre" Offset="3C" />
+		<_37 Name="VRAM" type="fgrb" Offset="3C" />
+		<_38 Name="vram" Offset="3C" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_6 Name="Fudge Factor Size" Offset="44" />
+		<_37 Name="" type="fgre" Offset="48" />
+	</_02C947F5309CF2BC063B51D1A463E612>
+	<_4E312D0166DC3BE5E9B24A8326415011 Name="ChromaticAberrationPresetDefinition" Size="24">
+		<_0 Name="Preset" Offset="0" />
+		<_6 Name="Number of samples" Offset="20" />
+	</_4E312D0166DC3BE5E9B24A8326415011>
+	<_684D4F77755B77B56F6BEFA19FDD21C6 Name="UIPresetDefinition" Size="25">
+		<_0 Name="Preset" Offset="0" />
+		<_F Name="Bloom" Offset="20" StructName1="UIPresetDefinition::EnableBloomFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_37 Name="Single Screen" type="fgrb" Offset="21" />
+		<_38 Name="Single Screen Preset" Offset="21" GUID="CF01457A4F00F856ED24640DB39F8028" />
+		<_37 Name="" type="fgre" Offset="22" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="22" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="22" GUID="CF01457A4F00F856ED24640DB39F8028" />
+		<_37 Name="" type="fgre" Offset="23" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="23" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="23" GUID="CF01457A4F00F856ED24640DB39F8028" />
+		<_37 Name="" type="fgre" Offset="24" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="24" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="24" GUID="CF01457A4F00F856ED24640DB39F8028" />
+		<_37 Name="" type="fgre" Offset="25" />
+	</_684D4F77755B77B56F6BEFA19FDD21C6>
+	<_21DD2F387AA64C3A7C306807E6A05E85 Name="DecalsPresetDefinition" Size="64">
+		<_0 Name="Preset" Offset="0" />
+		<_6 Name="Max Decal Count" Offset="20" />
+		<_14 Name="Decal Lifetime Scale" Offset="24" />
+		<_A Name="Max Clustered Decals" Offset="28" StructName1="DecalsPresetDefinition::MaxClusteredDecals">
+			<Flag n="Cluster 16" />
+			<Flag n="Cluster 32" />
+			<Flag n="Cluster 64" />
+		</_A>
+		<_A Name="Blend Quality" Offset="29" StructName1="DecalsPresetDefinition::BlendQuality">
+			<Flag n="Albedo Only No Derivatives" />
+			<Flag n="Albedo Only" />
+			<Flag n="Normal No Derivatives" />
+			<Flag n="Normal" />
+		</_A>
+		<_F Name="Decal Options Flags" Offset="2A" StructName1="DecalsPresetDefinition::DecalOptionsFlags">
+			<Flag n="Enable Track Decals" />
+		</_F>
+		<_34 Name="generated_pada386" Offset="2B" Length="1" />
+		<_37 Name="Single Screen" type="fgrb" Offset="2C" />
+		<_38 Name="Single Screen Preset" Offset="2C" GUID="711FAB545F6BFC1DB97ACA7B18BDE0C0" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="38" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="38" GUID="711FAB545F6BFC1DB97ACA7B18BDE0C0" />
+		<_37 Name="" type="fgre" Offset="44" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="44" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="44" GUID="711FAB545F6BFC1DB97ACA7B18BDE0C0" />
+		<_37 Name="" type="fgre" Offset="50" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="50" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="50" GUID="711FAB545F6BFC1DB97ACA7B18BDE0C0" />
+		<_37 Name="" type="fgre" Offset="5C" />
+		<_37 Name="VRAM" type="fgrb" Offset="5C" />
+		<_38 Name="vram" Offset="5C" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="64" />
+	</_21DD2F387AA64C3A7C306807E6A05E85>
+	<_F91E4EAEEC81C4EC663F058EA5BA7CAF Name="ShaderQualityPresetDefinition" Size="28">
+		<_0 Name="Preset" Offset="0" />
+		<_37 Name="VRAM" type="fgrb" Offset="20" />
+		<_38 Name="vram" Offset="20" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="28" />
+	</_F91E4EAEEC81C4EC663F058EA5BA7CAF>
+	<_A5E6462F48E3E42B44F48D21B08677F5 Name="RaytracedSunShadowsPresetDefinition" Size="54">
+		<_0 Name="Preset" Offset="0" />
+		<_14 Name="Shadow Ray Push Off" Offset="20" />
+		<_6 Name="Min Tile Rate" Offset="24" />
+		<_6 Name="Max Tile Rate" Offset="28" />
+		<_F Name="Trace Outside Cascade" Offset="2C" StructName1="RaytracedSunShadowsPresetDefinition::EnableTraceOutSideOfCascadesFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_F Name="Reject Lit Pixels" Offset="2D" StructName1="RaytracedSunShadowsPresetDefinition::EnableRejectLitPixelsFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_34 Name="generated_pad68be" Offset="2E" Length="2" />
+		<_6 Name="Max Alpha Geo Iterations" Offset="30" />
+		<_6 Name="Hybrid Shadows Quality Mode" Offset="34" />
+		<_14 Name="Hybrid Shadows Lit Sigma" Offset="38" />
+		<_14 Name="Hybrid Shadows Shadow Sigma" Offset="3C" />
+		<_14 Name="Hybrid Shadows 2X2 Tile Sigma" Offset="40" />
+		<_14 Name="Hybrid Shadows 4X4 Tile Sigma" Offset="44" />
+		<_14 Name="Shadow History Damper Weight" Offset="48" />
+		<_37 Name="VRAM" type="fgrb" Offset="4C" />
+		<_38 Name="vram" Offset="4C" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="54" />
+	</_A5E6462F48E3E42B44F48D21B08677F5>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_80CBCBAC42C3290A222918B339A97396 Name="SpecControlVramSettings" Size="8">
+		<_6 Name="Initial VRAM usage" Offset="0" />
+		<_6 Name="VRAM per 1 million pixels" Offset="4" />
+	</_80CBCBAC42C3290A222918B339A97396>
+	<_168A4C88C03256D539546534969AA3E9 Name="ReflectionPresetDefinition::SplitscreenPreset" Size="1">
+		<_A Name="Mode" Offset="0" StructName1="ReflectionPresetDefinition::Modes">
+			<Flag n="None" />
+			<Flag n="SSR" />
+			<Flag n="SSR Full Resolution" />
+		</_A>
+	</_168A4C88C03256D539546534969AA3E9>
+	<_EC9E4168A7AD120CB673D2E7BB6DEF4A Name="VolumetricFogPresetDefinition::SplitscreenPreset" Size="8">
+		<_6 Name="Resolution" Offset="0" />
+		<_F Name="Volumetric Fog Flags" Offset="4" StructName1="VolumetricFogPresetDefinition::VolumetricFogFlags">
+			<Flag n="Enabled" />
+		</_F>
+		<_34 Name="generated_pad26b1" Offset="5" Length="3" />
+	</_EC9E4168A7AD120CB673D2E7BB6DEF4A>
+	<_E63D07E47E15EDB7B2E15AEA91D3BBFF Name="ShadowPresetDefinition::SplitscreenPreset" Size="18">
+		<_6 Name="Dynamic Shadowmap Atlas Resolution" Offset="0" />
+		<_6 Name="Dynamic Shadowmap Atlas Resolution No Sun" Offset="4" />
+		<_6 Name="Static Shadowmap Atlas Resolution" Offset="8" />
+		<_F Name="Deferred Shadow Mask" Offset="C" StructName1="ShadowPresetDefinition::EnableDeferredShadowMaskFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_F Name="Contact Shadows" Offset="D" StructName1="ShadowPresetDefinition::EnableContactShadowsFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_F Name="Contact Shadows Local Lights" Offset="E" StructName1="ShadowPresetDefinition::EnableContactShadowsFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_F Name="Local Lights Low Shadow Sampling" Offset="F" StructName1="ShadowPresetDefinition::EnableLocalLightsLowShadowSamplingFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_F Name="Shadows For Non-Visible Objects" Offset="10" StructName1="ShadowPresetDefinition::EnableShadowsForNonVisibleObjectsFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_34 Name="generated_padf8ff" Offset="11" Length="3" />
+		<_14 Name="Local Lights Shadow Sampling Falloff" Offset="14" />
+	</_E63D07E47E15EDB7B2E15AEA91D3BBFF>
+	<_15064E7F964671209EF5ECB0680E242A Name="SkyQualityPresetDefinition::SplitscreenPreset" Size="34">
+		<_F Name="Volumetric Clouds Enable Flag" Offset="0" StructName1="SkyQualityPresetDefinition::EnableVolumetricCloudsFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_34 Name="generated_pad31c9" Offset="1" Length="3" />
+		<_6 Name="Volumetric Clouds RT Width Resolution" Offset="4" />
+		<_6 Name="Volumetric Clouds RT Height Resolution" Offset="8" />
+		<_6 Name="Volumetric Clouds Coverage RT Resolution" Offset="C" />
+		<_6 Name="Perlin Worley Noise Resolution" Offset="10" />
+		<_6 Name="Worley Noise Resolution" Offset="14" />
+		<_6 Name="Curl Noise Resolution" Offset="18" />
+		<_6 Name="Volumetric Clouds Shape Ray Steps" Offset="1C" />
+		<_6 Name="Volumetric Clouds Lighting Ray Steps" Offset="20" />
+		<_14 Name="Volumetric Clouds Beer Scale" Offset="24" />
+		<_14 Name="Volumetric Clouds Cornette Scale" Offset="28" />
+		<_14 Name="Volumetric Clouds Coverage Strength" Offset="2C" />
+		<_6 Name="Volumetric Clouds Perf Tier" Offset="30" />
+	</_15064E7F964671209EF5ECB0680E242A>
+	<_582643DAC05A6C7D8E25835083416E24 Name="TemporalAAPresetDefinition::SplitscreenPreset" Size="8">
+		<_F Name="Enable Flag" Offset="0" StructName1="TemporalAAPresetDefinition::EnableTemporalAAFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_34 Name="generated_pad7fc7" Offset="1" Length="3" />
+		<_6 Name="Quality" Offset="4" />
+	</_582643DAC05A6C7D8E25835083416E24>
+	<_105A472043D40703766BC5BE9C60B2DE Name="AoPresetDefinition::SplitscreenPreset" Size="8">
+		<_F Name="Flags" Offset="0" StructName1="AoPresetDefinition::AoFlags">
+			<Flag n="AO Disabled" />
+		</_F>
+		<_34 Name="generated_pad8c97" Offset="1" Length="3" />
+		<_6 Name="Quality" Offset="4" />
+	</_105A472043D40703766BC5BE9C60B2DE>
+	<_2473B94626A09B0AF807C0D5D1CE8FED Name="DepthOfFieldPresetDefinition::SplitscreenPreset" Size="8">
+		<_6 Name="Ring Count" Offset="0" />
+		<_A Name="Blur Type" Offset="4" StructName1="DepthOfFieldPresetDefinition::BlurType">
+			<Flag n="Hex" />
+			<Flag n="Circle" />
+		</_A>
+		<_34 Name="generated_pad9a0b" Offset="5" Length="3" />
+	</_2473B94626A09B0AF807C0D5D1CE8FED>
+	<_7A0AF732E037148D7C42E033F30A9B22 Name="AnisotropicFilteringPresetDefinition::SplitscreenPreset" Size="1">
+		<_A Name="Level" Offset="0" StructName1="AnisotropicFilteringPresetDefinition::AnisotropicFilteringLevel">
+			<Flag n="0" />
+			<Flag n="2" />
+			<Flag n="4" />
+			<Flag n="8" />
+			<Flag n="16" />
+		</_A>
+	</_7A0AF732E037148D7C42E033F30A9B22>
+	<_E9B588565F0308CDE226E3EC8BC3EC54 Name="TerrainPresetDefinition::SplitscreenPreset" Size="4">
+		<_14 Name="LOD Radius Factor" Offset="0" />
+	</_E9B588565F0308CDE226E3EC8BC3EC54>
+	<_AEAE46E7540C3399249F78E0852A36A4 Name="LightingPresetDefinition::SplitscreenPreset" Size="4">
+		<_14 Name="Light Simulation Radius Scale" Offset="0" />
+	</_AEAE46E7540C3399249F78E0852A36A4>
+	<_E429F21E1F377888BAABA83BBB772664 Name="DynamicWindPresetDefinition::SplitscreenPreset" Size="14">
+		<_F Name="Flags" Offset="0" StructName1="DynamicWindPresetDefinition::DynamicWindFlags">
+			<Flag n="Disabled" />
+		</_F>
+		<_34 Name="generated_pad48fe" Offset="1" Length="3" />
+		<_14 Name="Texel Size" Offset="4" />
+		<_6 Name="Texture Resolution X" Offset="8" />
+		<_6 Name="Texture Resolution Y" Offset="C" />
+		<_6 Name="Texture Resolution Z" Offset="10" />
+	</_E429F21E1F377888BAABA83BBB772664>
+	<_35084A2B83CAEA01C3DA305BBA9C6178 Name="InteractionPresetDefinition::SplitscreenPreset" Size="8">
+		<_6 Name="Resolution" Offset="0" />
+		<_F Name="Flags" Offset="4" StructName1="InteractionPresetDefinition::InteractionFlags">
+			<Flag n="Disabled" />
+		</_F>
+		<_34 Name="generated_padb399" Offset="5" Length="3" />
+	</_35084A2B83CAEA01C3DA305BBA9C6178>
+	<_6DCA433AD0FFF271C5942D9D83D40BD3 Name="HlodPresetDefinition::SplitscreenPreset" Size="10">
+		<_14 Name="HLOD Switch Distance Multiplier" Offset="0" />
+		<_14 Name="HLOD Switch Distance Buffer" Offset="4" />
+		<_14 Name="HLOD Texture Streaming Multiplier" Offset="8" />
+		<_14 Name="Distant Geo Streaming Distance Multiplier" Offset="C" />
+	</_6DCA433AD0FFF271C5942D9D83D40BD3>
+	<_0E3AC82451F086615AE811AC0C060866 Name="VisualDamagePresetDefinition::SplitscreenPreset" Size="8">
+		<_F Name="Enable Flag" Offset="0" StructName1="VisualDamagePresetDefinition::EnableVisualDamageFlag">
+			<Flag n="Enabled" />
+		</_F>
+		<_34 Name="generated_pad9506" Offset="1" Length="3" />
+		<_6 Name="Mask Resolution" Offset="4" />
+	</_0E3AC82451F086615AE811AC0C060866>
+	<_BFCE8F6754D55F62F61FA5D4AEED60C6 Name="VirtualTexturingPresetDefinition::SplitscreenPreset" Size="10">
+		<_6 Name="Desired Page Count" Offset="0" />
+		<_6 Name="Max Pages Per Frame" Offset="4" />
+		<_6 Name="Low Priority Pages Per Frame" Offset="8" />
+		<_A Name="Compression Quality" Offset="C" StructName1="VirtualTexturingPresetDefinition::CompressionQuality">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+		</_A>
+		<_F Name="Virtual Texturing Flags" Offset="D" StructName1="VirtualTexturingPresetDefinition::VirtualTexturingOptionFlags">
+			<Flag n="Objects Enabled" />
+		</_F>
+		<_34 Name="generated_pad5b4a" Offset="E" Length="2" />
+	</_BFCE8F6754D55F62F61FA5D4AEED60C6>
+	<_86B54956362889EA67A96F47AADD543E Name="EffectsPresetDefinition::EffectStreamingRelevancySettings" Size="1C">
+		<_14 Name="inner radius" Offset="0" />
+		<_14 Name="outer radius" Offset="4" />
+		<_14 Name="front-facing radius" Offset="8" />
+		<_8 Name="front-facing FOV" Offset="C" />
+		<_14 Name="Environment effect distance scale" Offset="10" />
+		<_14 Name="Sandbox effect distance scale" Offset="14" />
+		<_14 Name="Critical effect distance scale" Offset="18" />
+	</_86B54956362889EA67A96F47AADD543E>
+	<_9FD5B0367E8FCB5FC8F8AD2786CA7617 Name="EffectsPresetDefinition::SplitscreenPreset" Size="4C">
+		<_F Name="Effect Quality Options Flags" Offset="0" StructName1="EffectsPresetDefinition::EffectQualityOptionsFlags">
+			<Flag n="Enable CPU Particle Collisions" />
+			<Flag n="Disable Low Priority Parts" />
+			<Flag n="High Quality Particle Lighting" />
+		</_F>
+		<_34 Name="generated_paded43" Offset="1" Length="3" />
+		<_14 Name="Dynamic Low Priority Culling Threshold" Offset="4" />
+		<_14 Name="Low Priority Culling Distance" Offset="8" />
+		<_14 Name="Dynamic Medium Priority Culling Threshold" Offset="C" />
+		<_14 Name="Medium Priority Culling Distance" Offset="10" />
+		<_14 Name="Distortion Throttling Threshold" Offset="14" />
+		<_14 Name="Distortion Fade Threshold" Offset="18" />
+		<_14 Name="LOD Distance Scaling" Offset="1C" />
+		<_14 Name="LOD Distance Dynamic Throttle Min" Offset="20" />
+		<_14 Name="LOD Distance Dynamic Throttle Max" Offset="24" />
+		<_14 Name="Cheap Light Falloff Throttle" Offset="28" />
+		<_14 Name="Material Effects Distance Scalar" Offset="2C" />
+		<_37 Name="Effect Streaming Relevancy Settings" type="fgrb" Offset="30" />
+		<_38 Name="Effect Streaming Relevancy Settings" Offset="30" GUID="86B54956362889EA67A96F47AADD543E" />
+		<_37 Name="" type="fgre" Offset="4C" />
+	</_9FD5B0367E8FCB5FC8F8AD2786CA7617>
+	<_BFC772CD9F5FBEAFBAD7BB643ABB6697 Name="EmblemQualityPresetDefinition::SplitscreenPreset" Size="4">
+		<_3E Name="Resolution" Offset="0" />
+	</_BFC772CD9F5FBEAFBAD7BB643ABB6697>
+	<_0948434589FEFB46EA27F34DB46BE945 Name="TextureQualityPresetDefinition::SplitscreenPreset" Size="4">
+		<_6 Name="Texture Array Bias" Offset="0" />
+	</_0948434589FEFB46EA27F34DB46BE945>
+	<_CF01457A4F00F856ED24640DB39F8028 Name="UIPresetDefinition::SplitscreenPreset" Size="1">
+		<_F Name="Bloom" Offset="0" StructName1="UIPresetDefinition::EnableBloomFlag">
+			<Flag n="Enabled" />
+		</_F>
+	</_CF01457A4F00F856ED24640DB39F8028>
+	<_711FAB545F6BFC1DB97ACA7B18BDE0C0 Name="DecalsPresetDefinition::SplitscreenPreset" Size="C">
+		<_6 Name="Max Decal Count" Offset="0" />
+		<_14 Name="Decal Lifetime Scale" Offset="4" />
+		<_A Name="Max Clustered Decals" Offset="8" StructName1="DecalsPresetDefinition::MaxClusteredDecals">
+			<Flag n="Cluster 16" />
+			<Flag n="Cluster 32" />
+			<Flag n="Cluster 64" />
+		</_A>
+		<_A Name="Blend Quality" Offset="9" StructName1="DecalsPresetDefinition::BlendQuality">
+			<Flag n="Albedo Only No Derivatives" />
+			<Flag n="Albedo Only" />
+			<Flag n="Normal No Derivatives" />
+			<Flag n="Normal" />
+		</_A>
+		<_F Name="Decal Options Flags" Offset="A" StructName1="DecalsPresetDefinition::DecalOptionsFlags">
+			<Flag n="Enable Track Decals" />
+		</_F>
+		<_34 Name="generated_pad2c5d" Offset="B" Length="1" />
+	</_711FAB545F6BFC1DB97ACA7B18BDE0C0>
+</root>

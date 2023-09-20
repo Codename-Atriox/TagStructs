@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="GameplayMenuUIInfo" Parents="aTag" Index="-444">
+	<_5D9F42C76756ACA173500AAF882F3CD2 Name="i343::GameplayMenu::GameplayMenuUIInfo" Size="30">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="HVT" type="fgrb" Offset="10" />
+		<_40 Name="High Value Target UI Info" Offset="10" GUID="782E40278D0BAF085634EE22B4494CBF" StructName1="i343::GameplayMenu::GameplayMenuUIInfo" Min="0" Max="30" />
+		<_38 Name="DeepLink Info" Offset="24" GUID="923F477463EC3731B6B57B4A9ECC4829" />
+		<_3C Name="Unlock Compare Value" Offset="2C" />
+		<_3C Name="Alive Compare Value" Offset="2D" />
+		<_37 Name="" type="fgre" Offset="2E" />
+		<_34 Name="generated_padcad7" Offset="2E" Length="2" />
+	</_5D9F42C76756ACA173500AAF882F3CD2>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_782E40278D0BAF085634EE22B4494CBF Name="i343::GameplayMenu::HighValueTargetUIInfo" Size="20">
+		<_6 Name="Target Number" Offset="0" />
+		<_6 Name="TargetSpriteIndex" Offset="4" />
+		<_2 Name="Mission Id" Offset="8" />
+		<_A Name="Faction" Offset="C" StructName1="i343::GameplayMenu::Faction">
+			<Flag n="UNSC" />
+			<Flag n="Oni" />
+			<Flag n="Banished" />
+			<Flag n="Forerunner" />
+			<Flag n="Covenant" />
+			<Flag n="Lasky" />
+		</_A>
+		<_34 Name="generated_pad6a84" Offset="D" Length="3" />
+		<_2 Name="Unlock Weapon Name" Offset="10" />
+		<_2 Name="Unlock Weapon Description" Offset="14" />
+		<_6 Name="Unlock Weapon Sprite Index" Offset="18" />
+		<_6 Name="Unlock Weapon Damage Type" Offset="1C" />
+	</_782E40278D0BAF085634EE22B4494CBF>
+	<_923F477463EC3731B6B57B4A9ECC4829 Name="i343::GameplayMenu::HighValueTargetDeepLinkInfo" Size="8">
+		<_14 Name="zoomLevel" Offset="0" />
+		<_14 Name="duration" Offset="4" />
+	</_923F477463EC3731B6B57B4A9ECC4829>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

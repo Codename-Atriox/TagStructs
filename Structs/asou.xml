@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="asset_sound" Parents="aTag" Index="-28">
+	<_75B648380662D8A721A21E40999AA23A Name="AssetSoundTag" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_A Name="Use model hit" Offset="10" StructName1="i343::ContentTags::ModelHitType">
+			<Flag n="Disabled" />
+			<Flag n="Enabled" />
+		</_A>
+		<_34 Name="generated_padddab" Offset="11" Length="3" />
+		<_40 Name="Per-variant model hit" Offset="14" GUID="2F3A45D89A4C595F6D118E3BA70D68BC" StructName1="AssetSoundTag" Min="0" Max="2048" />
+	</_75B648380662D8A721A21E40999AA23A>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_2F3A45D89A4C595F6D118E3BA70D68BC Name="i343::ContentTags::VariantModelHitType" Size="8">
+		<_2 Name="Variant name" Offset="0" />
+		<_A Name="Use model hit override" Offset="4" StructName1="i343::ContentTags::ModelHitTypeOverride">
+			<Flag n="Use default" />
+			<Flag n="Disabled" />
+			<Flag n="Enabled" />
+		</_A>
+		<_34 Name="generated_padf148" Offset="5" Length="3" />
+	</_2F3A45D89A4C595F6D118E3BA70D68BC>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

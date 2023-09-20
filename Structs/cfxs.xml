@@ -1,0 +1,597 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="camera_fx_settings" Parents="aTag" Index="-56">
+	<_03134945C7122CD8BFBE70FEAAB3E3DA Name="c_camera_fx_settings" Size="530">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="" type="ifp+" Offset="10" />
+		<_38 Name="exposure" Offset="10" GUID="38C74B701FBECC293C5FD67BAF139847" />
+		<_38 Name="auto_exposure_sensitivity" Offset="38" GUID="80E54585B2285D8B5A2A16B5A4116DDE" />
+		<_38 Name="exposure pitch influence" Offset="40" GUID="4DC044CC2971E5C91248E7AC9BFDB9B7" />
+		<_38 Name="exposure compensation" Offset="5C" GUID="C66E4F27FCFBA2316DFBB394ABA45FCA" />
+		<_38 Name="bloom_highlight" Offset="78" GUID="7AA741365C28BDB2477781EA95D02E4D" />
+		<_38 Name="bloom_highlight_threshold" Offset="88" GUID="7AA741375C28BDB3477781EB95D02E4E" />
+		<_38 Name="bloom_inherent" Offset="98" GUID="A56D48C81889C93201DCD5F7B0B3D7D4" />
+		<_38 Name="bloom_intensity" Offset="A8" GUID="F5B240F3A87763D2F5DFD719A22524B0" />
+		<_38 Name="bloom_layer_intensity" Offset="B8" GUID="F5B240F4A87763D3F5DFD71AA22524B1" />
+		<_38 Name="bloom_tint_color" Offset="D0" GUID="02EC4CD53318D9F00292B6B5ADE89517" />
+		<_38 Name="self_illum_exposure_settings" Offset="E0" GUID="C6D54D23E684AD74C011911B996036C6" />
+		<_38 Name="self_illum_scale" Offset="F0" GUID="22624FE44545C7001696B87BB9FDE3E7" />
+		<_36 Name="EFFECT EXPOSURE OVERRIDE" Offset="100" />
+		<_41 Name="effect exposure override" Offset="100" Allowed="efex" Flags="0" />
+		<_38 Name="color_grading" Offset="11C" GUID="88C0460320D7EB2342178565BEB7FEF8" />
+		<_38 Name="ssao_settings" Offset="15C" GUID="A444C1CF0877319BBEE40C6E617D4FDD" />
+		<_38 Name="deferred_reflections_settings" Offset="198" GUID="797145775B4D834DF5CD1EB485DCF4C8" />
+		<_38 Name="camera lens dirt" Offset="238" GUID="7CE5AB8A07A2FBE1F42D282BE5BC3F20" />
+		<_38 Name="contact shadows" Offset="260" GUID="FFDAC0963F82D9CB0DE347C502F2B95F" />
+		<_38 Name="contact shadows local lights" Offset="3C8" GUID="FFDAC0963F82D9CB0DE347C502F2B95F" />
+		<_37 Name="" type="ifp-" Offset="530" />
+	</_03134945C7122CD8BFBE70FEAAB3E3DA>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_38C74B701FBECC293C5FD67BAF139847 Name="camera_fx_settings::s_real_exposure_parameter" Size="28">
+		<_37 Name="" type="ifp+" Offset="0" />
+		<_36 Name="EXPOSURE" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="CameraFXParameterAutoAdjustFlags">
+			<Flag n="use default (ignore these values)" />
+			<Flag n="maximum change is relative" />
+			<Flag n="auto-adjust target" />
+			<Flag n="bit3" />
+			<Flag n="fixed" />
+			<Flag n="(unused2)" />
+			<Flag n="fixed2" />
+		</_E>
+		<_34 Name="generated_pad3d40" Offset="2" Length="2" />
+		<_14 Name="exposure" Offset="4" />
+		<_14 Name="maximum change" Offset="8" />
+		<_14 Name="blend speed (0-1)" Offset="C" />
+		<_14 Name="minimum" Offset="10" />
+		<_14 Name="maximum" Offset="14" />
+		<_37 Name="" type="ifp-" Offset="18" />
+		<_14 Name="auto-exposure screen brightness" Offset="18" />
+		<_14 Name="exposure offset" Offset="1C" />
+		<_14 Name="sky exposure offset (stops)" Offset="20" />
+		<_37 Name="" type="ifp+" Offset="24" />
+		<_14 Name="prevent fluctuation time range" Offset="24" />
+		<_37 Name="" type="ifp-" Offset="28" />
+	</_38C74B701FBECC293C5FD67BAF139847>
+	<_80E54585B2285D8B5A2A16B5A4116DDE Name="camera_fx_settings::CameraFXExposureSensitivity" Size="8">
+		<_36 Name="AUTO EXPOSURE SENSITIVITY" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
+			<Flag n="use default (ignore these values)" />
+			<Flag n="maximum change is relative" />
+			<Flag n="(unused)" />
+			<Flag n="bit3" />
+			<Flag n="fixed" />
+			<Flag n="(unused2)" />
+			<Flag n="fixed2" />
+		</_E>
+		<_34 Name="generated_padf2eb" Offset="2" Length="2" />
+		<_14 Name="sensitivity (0-1)" Offset="4" />
+	</_80E54585B2285D8B5A2A16B5A4116DDE>
+	<_4DC044CC2971E5C91248E7AC9BFDB9B7 Name="camera_fx_settings::CameraFXExposurePitchInfluence" Size="1C">
+		<_36 Name="EXPOSURE PITCH INFLUENCE" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
+			<Flag n="use default (ignore these values)" />
+			<Flag n="maximum change is relative" />
+			<Flag n="(unused)" />
+			<Flag n="bit3" />
+			<Flag n="fixed" />
+			<Flag n="(unused2)" />
+			<Flag n="fixed2" />
+		</_E>
+		<_34 Name="generated_pad3993" Offset="2" Length="2" />
+		<_36 Name="INFLUENCE FUNCTION (GROUND -&gt; HORIZON -&gt; SKY)" Offset="4" />
+		<_37 Name="function" type="fned" Offset="4" />
+		<_38 Name="function" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_4DC044CC2971E5C91248E7AC9BFDB9B7>
+	<_C66E4F27FCFBA2316DFBB394ABA45FCA Name="camera_fx_settings::CameraFXExposureCompensation" Size="1C">
+		<_36 Name="EXPOSURE COMPENSATION" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
+			<Flag n="use default (ignore these values)" />
+			<Flag n="maximum change is relative" />
+			<Flag n="(unused)" />
+			<Flag n="bit3" />
+			<Flag n="fixed" />
+			<Flag n="(unused2)" />
+			<Flag n="fixed2" />
+		</_E>
+		<_34 Name="generated_pad19de" Offset="2" Length="2" />
+		<_36 Name="COMPENSATION FUNCTION (EXPOSURE MIN -&gt; EXPOSURE MAX)" Offset="4" />
+		<_37 Name="function" type="fned" Offset="4" />
+		<_38 Name="function" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_C66E4F27FCFBA2316DFBB394ABA45FCA>
+	<_7AA741365C28BDB2477781EA95D02E4D Name="camera_fx_settings::CameraFXBloomHighlight" Size="10">
+		<_36 Name="HIGHLIGHT BLOOM" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
+			<Flag n="use default (ignore these values)" />
+			<Flag n="maximum change is relative" />
+			<Flag n="(unused)" />
+			<Flag n="bit3" />
+			<Flag n="fixed" />
+			<Flag n="(unused2)" />
+			<Flag n="fixed2" />
+		</_E>
+		<_34 Name="generated_paddc8c" Offset="2" Length="2" />
+		<_14 Name="highlight bloom" Offset="4" />
+		<_14 Name="maximum change" Offset="8" />
+		<_14 Name="blend speed (0-1)" Offset="C" />
+	</_7AA741365C28BDB2477781EA95D02E4D>
+	<_7AA741375C28BDB3477781EB95D02E4E Name="camera_fx_settings::CameraFXBloomHighlightThreshold" Size="10">
+		<_36 Name="HIGHLIGHT BLOOM THRESHOLD" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
+			<Flag n="use default (ignore these values)" />
+			<Flag n="maximum change is relative" />
+			<Flag n="(unused)" />
+			<Flag n="bit3" />
+			<Flag n="fixed" />
+			<Flag n="(unused2)" />
+			<Flag n="fixed2" />
+		</_E>
+		<_34 Name="generated_padedb3" Offset="2" Length="2" />
+		<_14 Name="highlight bloom threshold" Offset="4" />
+		<_14 Name="maximum change" Offset="8" />
+		<_14 Name="blend speed (0-1)" Offset="C" />
+	</_7AA741375C28BDB3477781EB95D02E4E>
+	<_A56D48C81889C93201DCD5F7B0B3D7D4 Name="camera_fx_settings::CameraFXBloomInherent" Size="10">
+		<_36 Name="AMBIENT BLOOM" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
+			<Flag n="use default (ignore these values)" />
+			<Flag n="maximum change is relative" />
+			<Flag n="(unused)" />
+			<Flag n="bit3" />
+			<Flag n="fixed" />
+			<Flag n="(unused2)" />
+			<Flag n="fixed2" />
+		</_E>
+		<_34 Name="generated_padfee3" Offset="2" Length="2" />
+		<_14 Name="ambient bloom" Offset="4" />
+		<_14 Name="maximum change" Offset="8" />
+		<_14 Name="blend speed (0-1)" Offset="C" />
+	</_A56D48C81889C93201DCD5F7B0B3D7D4>
+	<_F5B240F3A87763D2F5DFD719A22524B0 Name="camera_fx_settings::CameraFXBloomIntensity" Size="10">
+		<_36 Name="BLOOM INTENSITY" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
+			<Flag n="use default (ignore these values)" />
+			<Flag n="maximum change is relative" />
+			<Flag n="(unused)" />
+			<Flag n="bit3" />
+			<Flag n="fixed" />
+			<Flag n="(unused2)" />
+			<Flag n="fixed2" />
+		</_E>
+		<_34 Name="generated_pad4287" Offset="2" Length="2" />
+		<_14 Name="bloom intensity" Offset="4" />
+		<_14 Name="maximum change" Offset="8" />
+		<_14 Name="blend speed (0-1)" Offset="C" />
+	</_F5B240F3A87763D2F5DFD719A22524B0>
+	<_F5B240F4A87763D3F5DFD71AA22524B1 Name="camera_fx_settings::CameraFXBloomLayerIntensity" Size="18">
+		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
+			<Flag n="use default (ignore these values)" />
+			<Flag n="maximum change is relative" />
+			<Flag n="(unused)" />
+			<Flag n="bit3" />
+			<Flag n="fixed" />
+			<Flag n="(unused2)" />
+			<Flag n="fixed2" />
+		</_E>
+		<_34 Name="generated_pad8248" Offset="2" Length="2" />
+		<_14 Name="large layer intensity" Offset="4" />
+		<_14 Name="medium layer intensity" Offset="8" />
+		<_14 Name="small layer intensity" Offset="C" />
+		<_14 Name="maximum change" Offset="10" />
+		<_14 Name="blend speed (0-1)" Offset="14" />
+	</_F5B240F4A87763D3F5DFD71AA22524B1>
+	<_02EC4CD53318D9F00292B6B5ADE89517 Name="camera_fx_settings::CameraFXBloomTintColor" Size="10">
+		<_36 Name="BLOOM TINT COLOR" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
+			<Flag n="use default (ignore these values)" />
+			<Flag n="maximum change is relative" />
+			<Flag n="(unused)" />
+			<Flag n="bit3" />
+			<Flag n="fixed" />
+			<Flag n="(unused2)" />
+			<Flag n="fixed2" />
+		</_E>
+		<_34 Name="generated_pad8bf4" Offset="2" Length="2" />
+		<_1F Name="tint color" Offset="4" />
+	</_02EC4CD53318D9F00292B6B5ADE89517>
+	<_C6D54D23E684AD74C011911B996036C6 Name="camera_fx_settings::CameraFXSelfIllumExposureSettings" Size="10">
+		<_36 Name="SELF ILLUM EXPOSURE" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
+			<Flag n="use default (ignore these values)" />
+			<Flag n="maximum change is relative" />
+			<Flag n="(unused)" />
+			<Flag n="bit3" />
+			<Flag n="fixed" />
+			<Flag n="(unused2)" />
+			<Flag n="fixed2" />
+		</_E>
+		<_34 Name="generated_pad01be" Offset="2" Length="2" />
+		<_14 Name="preferred exposure" Offset="4" />
+		<_14 Name="maximum change" Offset="8" />
+		<_14 Name="blend speed (0-1)" Offset="C" />
+	</_C6D54D23E684AD74C011911B996036C6>
+	<_22624FE44545C7001696B87BB9FDE3E7 Name="camera_fx_settings::CameraFXSelfIllumScale" Size="10">
+		<_36 Name="SELF ILLUM CHANGE" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
+			<Flag n="use default (ignore these values)" />
+			<Flag n="maximum change is relative" />
+			<Flag n="(unused)" />
+			<Flag n="bit3" />
+			<Flag n="fixed" />
+			<Flag n="(unused2)" />
+			<Flag n="fixed2" />
+		</_E>
+		<_34 Name="generated_pad5a4a" Offset="2" Length="2" />
+		<_14 Name="exposure change" Offset="4" />
+		<_14 Name="maximum change" Offset="8" />
+		<_14 Name="blend speed (0-1)" Offset="C" />
+	</_22624FE44545C7001696B87BB9FDE3E7>
+	<_88C0460320D7EB2342178565BEB7FEF8 Name="camera_fx_settings::s_color_grading_parameter" Size="40">
+		<_36 Name="Color Grading" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
+			<Flag n="use default (ignore these values)" />
+			<Flag n="maximum change is relative" />
+			<Flag n="(unused)" />
+			<Flag n="bit3" />
+			<Flag n="fixed" />
+			<Flag n="(unused2)" />
+			<Flag n="fixed2" />
+		</_E>
+		<_34 Name="generated_pad78c0" Offset="2" Length="2" />
+		<_41 Name="color grading texture" Offset="4" Allowed="bitm" Flags="0" />
+		<_41 Name="hdr color grading texture" Offset="20" Allowed="bitm" Flags="0" />
+		<_14 Name="blend time" Offset="3C" />
+	</_88C0460320D7EB2342178565BEB7FEF8>
+	<_A444C1CF0877319BBEE40C6E617D4FDD Name="camera_fx_settings::s_ssao_parameter" Size="3C">
+		<_36 Name="SSAO settings" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="CameraFXParameterEnabledFlags">
+			<Flag n="use default (ignore these values)" />
+			<Flag n="maximum change is relative" />
+			<Flag n="(unused)" />
+			<Flag n="bit3" />
+			<Flag n="fixed" />
+			<Flag n="enabled" />
+			<Flag n="fixed2" />
+		</_E>
+		<_34 Name="generated_pad4870" Offset="2" Length="2" />
+		<_E Name="ssao flags" Offset="4" StructName1="CameraFXSSAOFlags">
+			<Flag n="SSAO enabled" />
+		</_E>
+		<_34 Name="generated_padf382" Offset="6" Length="2" />
+		<_14 Name="Radius" Offset="8" />
+		<_3E Name="Step size" Offset="C" />
+		<_14 Name="Angle bias" Offset="10" />
+		<_14 Name="Strength" Offset="14" />
+		<_14 Name="Power exponent" Offset="18" />
+		<_3E Name="Blur radius" Offset="1C" />
+		<_14 Name="Blur sharpness" Offset="20" />
+		<_14 Name="Decorator apply darkening scaler" Offset="24" />
+		<_14 Name="Hemi rejection falloff" Offset="28" />
+		<_14 Name="GTAO Intensity" Offset="2C" />
+		<_14 Name="Sun AO" Offset="30" />
+		<_14 Name="Spot Light AO" Offset="34" />
+		<_14 Name="Omni Light AO" Offset="38" />
+	</_A444C1CF0877319BBEE40C6E617D4FDD>
+	<_797145775B4D834DF5CD1EB485DCF4C8 Name="camera_fx_settings::DeferredReflectionsParameter" Size="A0">
+		<_36 Name="Deferred Reflections settings" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="CameraFXParameterEnabledFlags">
+			<Flag n="use default (ignore these values)" />
+			<Flag n="maximum change is relative" />
+			<Flag n="(unused)" />
+			<Flag n="bit3" />
+			<Flag n="fixed" />
+			<Flag n="enabled" />
+			<Flag n="fixed2" />
+		</_E>
+		<_34 Name="generated_padbf0e" Offset="2" Length="2" />
+		<_D Name="deferred reflection flags" Offset="4" StructName1="DeferredReflectionFlags">
+			<Flag n="Enabled" />
+			<Flag n="Include Transparents" />
+		</_D>
+		<_14 Name="Intensity" Offset="8" />
+		<_14 Name="Intensity First Person" Offset="C" />
+		<_14 Name="Fade to Cubemap" Offset="10" />
+		<_14 Name="Border Fade Size" Offset="14" />
+		<_38 Name="Ray Steps" Offset="18" GUID="4161EF12A16E262114ABE16421C61BE3" />
+		<_14 Name="Mip Blur Distance Scale" Offset="44" />
+		<_14 Name="Depth thickness" Offset="48" />
+		<_14 Name="SSR Near Fade Distance" Offset="4C" />
+		<_14 Name="SSR Far Fade Distance" Offset="50" />
+		<_14 Name="SSR Roughness Threshold" Offset="54" />
+		<_14 Name="SSR Tonemap Strength" Offset="58" />
+		<_14 Name="SSR Tonemap Clamp" Offset="5C" />
+		<_38 Name="Resolution" Offset="60" GUID="41265BA612365AB514265AE852165FA7" />
+		<_38 Name="SSR Enabled" Offset="8C" GUID="9845E179FB0D9C0F04684ED9954B8BF1" />
+		<_34 Name="generated_pad2316" Offset="9D" Length="3" />
+	</_797145775B4D834DF5CD1EB485DCF4C8>
+	<_7CE5AB8A07A2FBE1F42D282BE5BC3F20 Name="camera_fx_settings::s_camera_lens_dirt_parameter" Size="28">
+		<_36 Name="Camera Lens Dirt Settings" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="CameraFXParameterEnabledFlags">
+			<Flag n="use default (ignore these values)" />
+			<Flag n="maximum change is relative" />
+			<Flag n="(unused)" />
+			<Flag n="bit3" />
+			<Flag n="fixed" />
+			<Flag n="enabled" />
+			<Flag n="fixed2" />
+		</_E>
+		<_34 Name="generated_pad28b2" Offset="2" Length="2" />
+		<_14 Name="Intensity" Offset="4" />
+		<_41 Name="dirt texture" Offset="8" Allowed="bitm" Flags="0" />
+		<_A Name="Dirt Type" Offset="24" StructName1="CameraLensDirt::DirtType">
+			<Flag n="Apply at bloom res" />
+			<Flag n="Apply at full res" />
+		</_A>
+		<_34 Name="generated_pad409c" Offset="25" Length="3" />
+	</_7CE5AB8A07A2FBE1F42D282BE5BC3F20>
+	<_FFDAC0963F82D9CB0DE347C502F2B95F Name="camera_fx_settings::ContactShadowsParameter" Size="168">
+		<_36 Name="Sun Contact Shadow Settings" Offset="0" />
+		<_E Name="flags" Offset="0" StructName1="CameraFXParameterEnabledFlags">
+			<Flag n="use default (ignore these values)" />
+			<Flag n="maximum change is relative" />
+			<Flag n="(unused)" />
+			<Flag n="bit3" />
+			<Flag n="fixed" />
+			<Flag n="enabled" />
+			<Flag n="fixed2" />
+		</_E>
+		<_34 Name="generated_pad3bce" Offset="2" Length="2" />
+		<_D Name="Contact Shadow Flags" Offset="4" StructName1="ContactShadowFlags">
+			<Flag n="Enabled" />
+		</_D>
+		<_38 Name="Enabled" Offset="8" GUID="1A211F2315AC21BE1A35D15931FA5EB1" />
+		<_38 Name="Ray Steps" Offset="C" GUID="4161EF12A16E262114ABE16421C61BE3" />
+		<_14 Name="Ray Steps First Person Scalar" Offset="38" />
+		<_38 Name="Maximum Shadow Ray Length" Offset="3C" GUID="41265BA612365AB514265AE852165FA7" />
+		<_14 Name="Maximum Shadow Ray Length First Person Scalar" Offset="68" />
+		<_38 Name="Ray Pixel Stride" Offset="6C" GUID="41265BA612365AB514265AE852165FA7" />
+		<_14 Name="First Person Pixel Stride First Person Scalar" Offset="98" />
+		<_14 Name="Average Occluder Thickness" Offset="9C" />
+		<_14 Name="Average Occluder Thickness First Person" Offset="A0" />
+		<_14 Name="Shadow Softness Scale" Offset="A4" />
+		<_14 Name="Shadow Softness Scale First Person" Offset="A8" />
+		<_14 Name="Shadow Fade Start Distance" Offset="AC" />
+		<_14 Name="Shadow Fade End Distance" Offset="B0" />
+		<_14 Name="Global Opacity" Offset="B4" />
+		<_14 Name="Global Opacity First Person" Offset="B8" />
+		<_38 Name="Global Opacity Fade Multiplier" Offset="BC" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
+		<_14 Name="Ray Start Bias" Offset="100" />
+		<_14 Name="Ray Start Bias Far Distance" Offset="104" />
+		<_14 Name="Ray Start Bias Offset At Far Distance" Offset="108" />
+		<_14 Name="Ray Start Bias First Person" Offset="10C" />
+		<_14 Name="First Person Transition Scalar" Offset="110" />
+		<_14 Name="Normal Bias First Person" Offset="114" />
+		<_14 Name="Normal Bias Near" Offset="118" />
+		<_14 Name="Normal Bias Far" Offset="11C" />
+		<_14 Name="FOV Slope Near Bias Scalar" Offset="120" />
+		<_38 Name="Per-Spec Near Bias Scalar" Offset="124" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
+	</_FFDAC0963F82D9CB0DE347C502F2B95F>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+	<_4161EF12A16E262114ABE16421C61BE3 Name="SpecControlNodeInt" Size="2C">
+		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
+			<Flag n="Default" />
+			<Flag n="Sync" />
+			<Flag n="HDR" />
+			<Flag n="Reflections" />
+			<Flag n="VolumetricFog" />
+			<Flag n="Shadows" />
+			<Flag n="Sky" />
+			<Flag n="TAA" />
+			<Flag n="Ambient Occlusion" />
+			<Flag n="DOF" />
+			<Flag n="Aniso" />
+			<Flag n="Terrain" />
+			<Flag n="Tesselation" />
+			<Flag n="Lighting" />
+			<Flag n="Decorators" />
+			<Flag n="Asset Category" />
+			<Flag n="Dynamic Wind" />
+			<Flag n="Push Bending" />
+			<Flag n="Hlod" />
+			<Flag n="Visual Damage" />
+			<Flag n="Virtual Texturing" />
+			<Flag n="Effects" />
+			<Flag n="Emblem Quality" />
+			<Flag n="Texture Quality" />
+			<Flag n="Decals" />
+		</_A>
+		<_34 Name="generated_pad11b5" Offset="1" Length="3" />
+		<_D Name="Flags" Offset="4" StructName1="SpecControlNodeOverrideFlags">
+			<Flag n="Override Input" />
+		</_D>
+		<_6 Name="Input" Offset="8" />
+		<_14 Name="Low" Offset="C" />
+		<_14 Name="Medium" Offset="10" />
+		<_14 Name="High" Offset="14" />
+		<_14 Name="Ultra" Offset="18" />
+		<_A Name="Splitscreen Logic" Offset="1C" StructName1="i343::SpecControl::SplitScreenLogicType">
+			<Flag n="Off" />
+			<Flag n="Multiply" />
+			<Flag n="Add" />
+		</_A>
+		<_34 Name="generated_padf7d4" Offset="1D" Length="3" />
+		<_14 Name="2 Player Splitscreen" Offset="20" />
+		<_14 Name="3 Player Splitscreen" Offset="24" />
+		<_14 Name="4 Player Splitscreen" Offset="28" />
+	</_4161EF12A16E262114ABE16421C61BE3>
+	<_41265BA612365AB514265AE852165FA7 Name="SpecControlNodeFloat" Size="2C">
+		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
+			<Flag n="Default" />
+			<Flag n="Sync" />
+			<Flag n="HDR" />
+			<Flag n="Reflections" />
+			<Flag n="VolumetricFog" />
+			<Flag n="Shadows" />
+			<Flag n="Sky" />
+			<Flag n="TAA" />
+			<Flag n="Ambient Occlusion" />
+			<Flag n="DOF" />
+			<Flag n="Aniso" />
+			<Flag n="Terrain" />
+			<Flag n="Tesselation" />
+			<Flag n="Lighting" />
+			<Flag n="Decorators" />
+			<Flag n="Asset Category" />
+			<Flag n="Dynamic Wind" />
+			<Flag n="Push Bending" />
+			<Flag n="Hlod" />
+			<Flag n="Visual Damage" />
+			<Flag n="Virtual Texturing" />
+			<Flag n="Effects" />
+			<Flag n="Emblem Quality" />
+			<Flag n="Texture Quality" />
+			<Flag n="Decals" />
+		</_A>
+		<_34 Name="generated_padf78c" Offset="1" Length="3" />
+		<_D Name="Flags" Offset="4" StructName1="SpecControlNodeOverrideFlags">
+			<Flag n="Override Input" />
+		</_D>
+		<_14 Name="Input" Offset="8" />
+		<_14 Name="Low" Offset="C" />
+		<_14 Name="Medium" Offset="10" />
+		<_14 Name="High" Offset="14" />
+		<_14 Name="Ultra" Offset="18" />
+		<_A Name="Splitscreen Logic" Offset="1C" StructName1="i343::SpecControl::SplitScreenLogicType">
+			<Flag n="Off" />
+			<Flag n="Multiply" />
+			<Flag n="Add" />
+		</_A>
+		<_34 Name="generated_pad116d" Offset="1D" Length="3" />
+		<_14 Name="2 Player Splitscreen" Offset="20" />
+		<_14 Name="3 Player Splitscreen" Offset="24" />
+		<_14 Name="4 Player Splitscreen" Offset="28" />
+	</_41265BA612365AB514265AE852165FA7>
+	<_9845E179FB0D9C0F04684ED9954B8BF1 Name="SpecControlNodeBoolExact" Size="11">
+		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
+			<Flag n="Default" />
+			<Flag n="Sync" />
+			<Flag n="HDR" />
+			<Flag n="Reflections" />
+			<Flag n="VolumetricFog" />
+			<Flag n="Shadows" />
+			<Flag n="Sky" />
+			<Flag n="TAA" />
+			<Flag n="Ambient Occlusion" />
+			<Flag n="DOF" />
+			<Flag n="Aniso" />
+			<Flag n="Terrain" />
+			<Flag n="Tesselation" />
+			<Flag n="Lighting" />
+			<Flag n="Decorators" />
+			<Flag n="Asset Category" />
+			<Flag n="Dynamic Wind" />
+			<Flag n="Push Bending" />
+			<Flag n="Hlod" />
+			<Flag n="Visual Damage" />
+			<Flag n="Virtual Texturing" />
+			<Flag n="Effects" />
+			<Flag n="Emblem Quality" />
+			<Flag n="Texture Quality" />
+			<Flag n="Decals" />
+		</_A>
+		<_38 Name="Low" Offset="1" GUID="2945F447027B04468D896F1523DC6254" />
+		<_38 Name="Medium" Offset="5" GUID="2945F447027B04468D896F1523DC6254" />
+		<_38 Name="High" Offset="9" GUID="2945F447027B04468D896F1523DC6254" />
+		<_38 Name="Ultra" Offset="D" GUID="2945F447027B04468D896F1523DC6254" />
+	</_9845E179FB0D9C0F04684ED9954B8BF1>
+	<_1A211F2315AC21BE1A35D15931FA5EB1 Name="SpecControlNodeBool" Size="4">
+		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
+			<Flag n="Default" />
+			<Flag n="Sync" />
+			<Flag n="HDR" />
+			<Flag n="Reflections" />
+			<Flag n="VolumetricFog" />
+			<Flag n="Shadows" />
+			<Flag n="Sky" />
+			<Flag n="TAA" />
+			<Flag n="Ambient Occlusion" />
+			<Flag n="DOF" />
+			<Flag n="Aniso" />
+			<Flag n="Terrain" />
+			<Flag n="Tesselation" />
+			<Flag n="Lighting" />
+			<Flag n="Decorators" />
+			<Flag n="Asset Category" />
+			<Flag n="Dynamic Wind" />
+			<Flag n="Push Bending" />
+			<Flag n="Hlod" />
+			<Flag n="Visual Damage" />
+			<Flag n="Virtual Texturing" />
+			<Flag n="Effects" />
+			<Flag n="Emblem Quality" />
+			<Flag n="Texture Quality" />
+			<Flag n="Decals" />
+		</_A>
+		<_34 Name="generated_padfbf4" Offset="1" Length="1" />
+		<_E Name="Flags" Offset="2" StructName1="SpecControlNodeBoolFlags">
+			<Flag n="Low" />
+			<Flag n="Medium" />
+			<Flag n="High" />
+			<Flag n="Ultra" />
+		</_E>
+	</_1A211F2315AC21BE1A35D15931FA5EB1>
+	<_97B1869D8D63F754A21F0D593E02B7F1 Name="SpecControlNodeFloatExact" Size="44">
+		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
+			<Flag n="Default" />
+			<Flag n="Sync" />
+			<Flag n="HDR" />
+			<Flag n="Reflections" />
+			<Flag n="VolumetricFog" />
+			<Flag n="Shadows" />
+			<Flag n="Sky" />
+			<Flag n="TAA" />
+			<Flag n="Ambient Occlusion" />
+			<Flag n="DOF" />
+			<Flag n="Aniso" />
+			<Flag n="Terrain" />
+			<Flag n="Tesselation" />
+			<Flag n="Lighting" />
+			<Flag n="Decorators" />
+			<Flag n="Asset Category" />
+			<Flag n="Dynamic Wind" />
+			<Flag n="Push Bending" />
+			<Flag n="Hlod" />
+			<Flag n="Visual Damage" />
+			<Flag n="Virtual Texturing" />
+			<Flag n="Effects" />
+			<Flag n="Emblem Quality" />
+			<Flag n="Texture Quality" />
+			<Flag n="Decals" />
+		</_A>
+		<_34 Name="generated_pad4417" Offset="1" Length="3" />
+		<_38 Name="Low" Offset="4" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
+		<_38 Name="Medium" Offset="14" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
+		<_38 Name="High" Offset="24" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
+		<_38 Name="Ultra" Offset="34" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
+	</_97B1869D8D63F754A21F0D593E02B7F1>
+	<_2945F447027B04468D896F1523DC6254 Name="SpecControlSplitscreenValuesBool" Size="4">
+		<_F Name="Single Player" Offset="0" StructName1="SpecControlNodeBoolExactFlags">
+			<Flag n="True" />
+		</_F>
+		<_F Name="2 Player Splitscreen" Offset="1" StructName1="SpecControlNodeBoolExactFlags">
+			<Flag n="True" />
+		</_F>
+		<_F Name="3 Player Splitscreen" Offset="2" StructName1="SpecControlNodeBoolExactFlags">
+			<Flag n="True" />
+		</_F>
+		<_F Name="4 Player Splitscreen" Offset="3" StructName1="SpecControlNodeBoolExactFlags">
+			<Flag n="True" />
+		</_F>
+	</_2945F447027B04468D896F1523DC6254>
+	<_0B69E7FC16240A124EB051BE14E7BFC5 Name="SpecControlSplitscreenValuesFloat" Size="10">
+		<_14 Name="Single Player" Offset="0" />
+		<_14 Name="2 Player Splitscreen" Offset="4" />
+		<_14 Name="3 Player Splitscreen" Offset="8" />
+		<_14 Name="4 Player Splitscreen" Offset="C" />
+	</_0B69E7FC16240A124EB051BE14E7BFC5>
+</root>

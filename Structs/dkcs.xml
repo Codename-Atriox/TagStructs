@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="DarkRoomCameraSpec" Parents="aTag" Index="-103">
+	<_389140D771FC5CFBFEAE4778B1098DBA Name="i343::DarkRoom::CameraSpecDefinition" Size="90">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_F Name="Flags" Offset="10" StructName1="i343::DarkRoom::CameraSettingsFlags">
+			<Flag n="UseComposition" />
+			<Flag n="UseDepthOfField" />
+			<Flag n="OverrideTransform" />
+			<Flag n="WorldOverrideTransform" />
+			<Flag n="ParentAssetsToCamera" />
+			<Flag n="ParentLightsToCamera" />
+		</_F>
+		<_34 Name="generated_pad10db" Offset="11" Length="3" />
+		<_41 Name="Composition" Offset="14" Allowed="obje" Flags="0" />
+		<_14 Name="Field of View" Offset="30" />
+		<_19 Name="DOF" Offset="34" />
+		<_41 Name="Inherit Transforms" Offset="40" Allowed="dkas" Flags="0" />
+		<_19 Name="Position" Offset="5C" />
+		<_19 Name="Rotation" Offset="68" />
+		<_19 Name="WorldPosition" Offset="74" />
+		<_19 Name="WorldRotation" Offset="80" />
+		<_14 Name="Scale" Offset="8C" />
+	</_389140D771FC5CFBFEAE4778B1098DBA>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

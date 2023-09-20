@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="asset" Parents="aTag" Index="-26">
+	<_E36E4E5A50E3D2DB4E21E9D4BE5F8106 Name="AssetTag" Size="260">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="Regions" type="fgrb" Offset="10" />
+		<_40 Name="Visual region names" Offset="10" GUID="4366C4BC4A3F1FB324631BE1A24365BD" StructName1="AssetTag" Min="0" Max="32" />
+		<_40 Name="Property regions" Offset="24" GUID="4365C4BC4A3F1F5324631B51A24565BD" StructName1="AssetTag" Min="0" Max="32" />
+		<_37 Name="" type="fgre" Offset="38" />
+		<_37 Name="Component Tags/Files" type="fgrb" Offset="38" />
+		<_40 Name="Geometry tags" Offset="38" GUID="437614BC4A3F17B321631BE7A24317BD" StructName1="AssetTag" Min="0" Max="1024" />
+		<_40 Name="Skeleton" Offset="4C" GUID="437614BC4A3F17B321631BE8A24317BD" StructName1="AssetTag" Min="0" Max="1" />
+		<_40 Name="Additional content paths" Offset="60" GUID="44DC74BC4ADF17B3E1E71BE1A27C18BD" StructName1="AssetTag" Min="0" Max="24" />
+		<_40 Name="Marker tags" Offset="74" GUID="2C524C3988BED9FA3BE41A5B8448FD0F" StructName1="AssetTag" Min="0" Max="64" />
+		<_41 Name="Asset physics tag" Offset="88" Allowed="phys" Flags="9" />
+		<_41 Name="Damage tag" Offset="A4" Allowed="damg" Flags="9" />
+		<_41 Name="Legacy animset tag" Offset="C0" Allowed="lani" Flags="9" />
+		<_41 Name="Asset sound tag" Offset="DC" Allowed="asou" Flags="9" />
+		<_41 Name="Asset dialogue tag" Offset="F8" Allowed="adia" Flags="9" />
+		<_37 Name="" type="fgre" Offset="114" />
+		<_2 Name="Asset category" type="sted" Offset="114" />
+		<_37 Name="LODs" type="fgrb" Offset="118" />
+		<_37 Name="Automatically Generated LOD Settings" type="fgrb" Offset="118" />
+		<_41 Name="LOD settings tag" Offset="118" Allowed="lods" Flags="9" />
+		<_2 Name="LOD settings name" type="sted" Offset="134" />
+		<_14 Name="LOD distance bias" Offset="138" />
+		<_37 Name="" type="fgre" Offset="13C" />
+		<_40 Name="LOD transition distances" Offset="13C" GUID="43AC14BC4ACA11B321C31B21A2AC15BD" StructName1="AssetTag" Min="0" Max="16" />
+		<_14 Name="LOD fade out after distance" Offset="150" />
+		<_A Name="HLOD policy" Offset="154" StructName1="HLODPolicy">
+			<Flag n="include in HLODs normally, exclude from level distant geo" />
+			<Flag n="switch with HLODs but do not include geo in HLOD, exclude from level distant geo" />
+			<Flag n="exclude from HLODs, include in level distant geo normally" />
+			<Flag n="exclude from HLODs, force include in level distant geo always" />
+		</_A>
+		<_34 Name="generated_padebca" Offset="155" Length="3" />
+		<_37 Name="Streaming Settings" type="fgrb" Offset="158" />
+		<_6 Name="Number of LODS to make required" Offset="158" />
+		<_A Name="Default Load Variant Policy" Offset="15C" StructName1="RenderModelDefaultLoadVariantPolicy">
+			<Flag n="All Variants" />
+			<Flag n="First Variant" />
+			<Flag n="No Variant" />
+		</_A>
+		<_34 Name="generated_pad387f" Offset="15D" Length="3" />
+		<_37 Name="" type="fgre" Offset="160" />
+		<_6 Name="LOD index override for damage draw" Offset="160" />
+		<_37 Name="" type="fgre" Offset="164" />
+		<_37 Name="Variants" type="fgrb" Offset="164" />
+		<_2 Name="Default variant name" type="sted" Offset="164" />
+		<_40 Name="Asset variants" Offset="168" GUID="4EF6C4BC4CD6EFB3296E1AF1E24695BD" StructName1="AssetTag" Min="0" Max="2048" />
+		<_40 Name="Unique geometry" Offset="17C" GUID="D92DB46311E7673C1E205CBB75358E48" StructName1="AssetTag" Min="0" Max="2048" />
+		<_37 Name="" type="fgre" Offset="190" />
+		<_37 Name="Static Collision Generation Settings" type="fgrb" Offset="190" />
+		<_A Name="Static collision build policy" Offset="190" StructName1="StaticCollisionBuildPolicy">
+			<Flag n="Auto" />
+			<Flag n="Maximum precision" />
+		</_A>
+		<_A Name="Static collision decals policy" Offset="191" StructName1="StaticCollisionDecalsPolicy">
+			<Flag n="Allow decals" />
+			<Flag n="Do not allow decals" />
+		</_A>
+		<_A Name="Static collision shape type" Offset="192" StructName1="StaticCollisionShapeType">
+			<Flag n="Mesh" />
+			<Flag n="Compressed Mesh" />
+			<Flag n="Convex" />
+		</_A>
+		<_34 Name="generated_pad8534" Offset="193" Length="1" />
+		<_37 Name="" type="fgre" Offset="194" />
+		<_37 Name="Static Render Generation Settings" type="fgrb" Offset="194" />
+		<_C Name="Convert Collision to Shadow Geometry" Offset="194" StructName1="AssetUseCollisionAsShadowPolicy">
+			<Flag n="auto" />
+			<Flag n="enabled" />
+			<Flag n="disabled" />
+		</_C>
+		<_E Name="Converted Bullet Collision LOD flags" Offset="198" StructName1="MeshLODFlagsDefinition">
+			<Flag n="LOD 0" />
+			<Flag n="LOD 1" />
+			<Flag n="LOD 2" />
+			<Flag n="LOD 3" />
+			<Flag n="LOD 4" />
+			<Flag n="LOD 5" />
+			<Flag n="LOD 6" />
+			<Flag n="LOD 7" />
+			<Flag n="LOD 8" />
+			<Flag n="LOD 9" />
+			<Flag n="LOD 10" />
+			<Flag n="LOD 11" />
+			<Flag n="LOD 12" />
+			<Flag n="LOD 13" />
+			<Flag n="LOD 14" />
+			<Flag n="LOD 15" />
+		</_E>
+		<_E Name="Converted Play Collision LOD flags" Offset="19A" StructName1="MeshLODFlagsDefinition">
+			<Flag n="LOD 0" />
+			<Flag n="LOD 1" />
+			<Flag n="LOD 2" />
+			<Flag n="LOD 3" />
+			<Flag n="LOD 4" />
+			<Flag n="LOD 5" />
+			<Flag n="LOD 6" />
+			<Flag n="LOD 7" />
+			<Flag n="LOD 8" />
+			<Flag n="LOD 9" />
+			<Flag n="LOD 10" />
+			<Flag n="LOD 11" />
+			<Flag n="LOD 12" />
+			<Flag n="LOD 13" />
+			<Flag n="LOD 14" />
+			<Flag n="LOD 15" />
+		</_E>
+		<_37 Name="" type="fgre" Offset="19C" />
+		<_37 Name="Model Generation Settings" type="fgrb" Offset="19C" />
+		<_C Name="Generate Customization Damage Variant" Offset="19C" StructName1="AssetGenerateCustomizationDamageVariantPolicy">
+			<Flag n="auto" />
+			<Flag n="enabled" />
+			<Flag n="disabled" />
+		</_C>
+		<_37 Name="" type="fgre" Offset="1A0" />
+		<_37 Name="Generated Tags" type="fgrb" Offset="1A0" />
+		<_41 Name="Model tag" Offset="1A0" Allowed="hlmt" Flags="9" />
+		<_41 Name="Render model tag" Offset="1BC" Allowed="mode" Flags="9" />
+		<_41 Name="Physics model tag" Offset="1D8" Allowed="phmo" Flags="9" />
+		<_41 Name="Collision model tag" Offset="1F4" Allowed="coll" Flags="9" />
+		<_41 Name="Legacy model animation graph tag" Offset="210" Allowed="jmad" Flags="9" />
+		<_37 Name="Impostor" type="fgrb" Offset="22C" />
+		<_41 Name="Impostor tag" Offset="22C" Allowed="impr" Flags="9" />
+		<_37 Name="" type="fgre" Offset="248" />
+		<_37 Name="Validation" type="fgrb" Offset="248" />
+		<_38 Name="Validation" Offset="248" GUID="E22E4E5A50E233DD4E2F74A4BE593E06" />
+		<_37 Name="" type="fgre" Offset="260" />
+	</_E36E4E5A50E3D2DB4E21E9D4BE5F8106>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_4366C4BC4A3F1FB324631BE1A24365BD Name="VisualRegionNameBlock" Size="4">
+		<_2 Name="Name" Offset="0" />
+	</_4366C4BC4A3F1FB324631BE1A24365BD>
+	<_4365C4BC4A3F1F5324631B51A24565BD Name="PropertyRegion" Size="38">
+		<_2 Name="Name" Offset="0" />
+		<_D Name="Flags" Offset="4" StructName1="PropertyRegionFlagsDefinition">
+			<Flag n="Casts shadow" />
+			<Flag n="Blocks AOE" />
+			<Flag n="Use uncompressed vertex format" />
+			<Flag n="Don't use virtual texturing" />
+			<Flag n="Virtual texturing UV shell skirt" />
+		</_D>
+		<_C Name="Static geometry merge mode" Offset="8" StructName1="StaticGeometryMergeMode">
+			<Flag n="Merge on visual regions" />
+			<Flag n="Split on visual regions" />
+			<Flag n="Split on visual regions, and re-center pivots" />
+		</_C>
+		<_C Name="Number of sides" Offset="C" StructName1="AssetNumberOfSides">
+			<Flag n="single-sided" />
+			<Flag n="double-sided" />
+			<Flag n="double-sided (keep normals)" />
+			<Flag n="double-sided (mirror normals)" />
+		</_C>
+		<_A Name="Lightmapping policy" Offset="10" StructName1="PrefabLightmappingPolicy">
+			<Flag n="automatic" />
+			<Flag n="per-pixel" />
+			<Flag n="per-vertex" />
+			<Flag n="single-probe" />
+			<Flag n="exclude" />
+			<Flag n="per-pixel ao" />
+			<Flag n="per-vertex ao" />
+			<Flag n="probe grid" />
+		</_A>
+		<_34 Name="generated_pad5489" Offset="11" Length="3" />
+		<_19 Name="Probe-grid capture offset" Offset="14" />
+		<_2 Name="Physics material name" type="sted" Offset="20" />
+		<_2 Name="Damage section" type="sted" Offset="24" />
+		<_37 Name="Blendshapes" type="fgrb" Offset="28" />
+		<_C Name="Tension backing data" Offset="28" StructName1="TensionSupportLOD">
+			<Flag n="Don't Generate backing data" />
+			<Flag n="Generate backing data for the first LODs" />
+			<Flag n="Generate backing data for the first 2 LODs" />
+			<Flag n="Generate backing data for the first 3 LODs" />
+			<Flag n="Generate backing data for the first 4 LODs" />
+			<Flag n="Generate backing data for the first 5 LODs" />
+			<Flag n="Generate backing data for the first 6 LODs" />
+			<Flag n="Generate backing data for the first 7 LODs" />
+			<Flag n="Generate backing data for the first 8 LODs" />
+			<Flag n="Generate backing data for all LODs" />
+		</_C>
+		<_14 Name="Prune threshold" Offset="2C" />
+		<_C Name="Recomputed Normal Blend Mode" Offset="30" StructName1="RecomputedNormalBlendMode">
+			<Flag n="Whole mesh" />
+			<Flag n="Vertex color mask" />
+		</_C>
+		<_37 Name="" type="fgre" Offset="34" />
+		<_37 Name="Emblem Data" type="fgrb" Offset="34" />
+		<_6 Name="Emblem Layer Depth" Offset="34" />
+		<_37 Name="" type="fgre" Offset="38" />
+	</_4365C4BC4A3F1F5324631B51A24565BD>
+	<_437614BC4A3F17B321631BE7A24317BD Name="ContentTagBlock" Size="4C">
+		<_2 Name="Name" Offset="0" />
+		<_2 Name="GroupName" Offset="4" />
+		<_41 Name="Reference" Offset="8" Allowed="gtag" Flags="9" />
+		<_40 Name="Relative source paths" Offset="24" GUID="43DC74BC4ACF17B3E1C71BE1A27C15BD" StructName1="ContentTagBlock" Min="0" Max="24" />
+		<_40 Name="Damage States" Offset="38" GUID="43B614BC4A3F17C321638BE8A24327BD" StructName1="ContentTagBlock" Min="0" Max="5" />
+	</_437614BC4A3F17B321631BE7A24317BD>
+	<_437614BC4A3F17B321631BE8A24317BD Name="SkeletonBlock" Size="20">
+		<_41 Name="Reference" Offset="0" Allowed="skel" Flags="9" />
+		<_44 Name="Alembic source path" Offset="1C" />
+	</_437614BC4A3F17B321631BE8A24317BD>
+	<_44DC74BC4ADF17B3E1E71BE1A27C18BD Name="AdditionalContentPath" Size="8">
+		<_2 Name="Name" Offset="0" />
+		<_44 Name="Path" Offset="4" />
+	</_44DC74BC4ADF17B3E1E71BE1A27C18BD>
+	<_2C524C3988BED9FA3BE41A5B8448FD0F Name="MarkerBlock" Size="24">
+		<_2 Name="Name" Offset="0" />
+		<_2 Name="GroupName" Offset="4" />
+		<_41 Name="Reference" Offset="8" Allowed="mrkr" Flags="9" />
+	</_2C524C3988BED9FA3BE41A5B8448FD0F>
+	<_43AC14BC4ACA11B321C31B21A2AC15BD Name="LODTransitionDistancesBlock" Size="4">
+		<_14 Name="Transition distance" Offset="0" />
+	</_43AC14BC4ACA11B321C31B21A2AC15BD>
+	<_4EF6C4BC4CD6EFB3296E1AF1E24695BD Name="AssetVariant" Size="E4">
+		<_2 Name="Name" Offset="0" />
+		<_2 Name="Style" Offset="4" />
+		<_6 Name="Damage Style Index" Offset="8" />
+		<_2 Name="All visual region" type="sted" Offset="C" />
+		<_40 Name="Visual region overrides" Offset="10" GUID="436334BC435F1FB323E31BE1A24765B3" StructName1="AssetVariant" Min="0" Max="32" />
+		<_40 Name="Material overrides" Offset="24" GUID="4563C4BC4A5F3FB324691B31A23663BD" StructName1="AssetVariant" Min="0" Max="64" />
+		<_40 Name="Child objects" Offset="38" GUID="5118452A6A78EF68C2DB0E798A4DED79" StructName1="AssetVariant" Min="0" Max="31" />
+		<_40 Name="Muted joints" Offset="4C" GUID="2C534C3988BDD9FA3BE51A5B8548FD0F" StructName1="AssetVariant" Min="0" Max="31" />
+		<_40 Name="Object Node Graphs Overrides" Offset="60" GUID="F773409B74B26D9D525AC5EA87FC4CEA" StructName1="AssetVariant" Min="0" Max="32" />
+		<_41 Name="Reference to material palette tag" Offset="74" Allowed="rtmp" Flags="9" />
+		<_41 Name="Reference to generated vector art" Offset="90" Allowed="vart" Flags="9" />
+		<_41 Name="Reference round trip ABC tag from a render model" Offset="AC" Allowed="abc*" Flags="9" />
+		<_41 Name="Reference round trip ABC tag from a runtimegeo" Offset="C8" Allowed="abc*" Flags="9" />
+	</_4EF6C4BC4CD6EFB3296E1AF1E24695BD>
+	<_D92DB46311E7673C1E205CBB75358E48 Name="UniqueAssetGeometryVariant" Size="90">
+		<_3F Name="UUID" Offset="0" />
+		<_40 Name="Explicit visual region list" Offset="8" GUID="436334BC435F1FB323E31BE1A24765B3" StructName1="UniqueAssetGeometryVariant" Min="0" Max="32" />
+		<_41 Name="Reference to generated prefab" Offset="1C" Allowed="rtgo" Flags="9" />
+		<_41 Name="Reference to raw triangle data" Offset="38" Allowed="rawg" Flags="9" />
+		<_41 Name="Reference to generated static collision geometry" Offset="54" Allowed="scgt" Flags="9" />
+		<_41 Name="Reference to generated lightweight fixed-depth quadtree" Offset="70" Allowed="fdqt" Flags="9" />
+		<_34 Name="generated_pada40c" Offset="8C" Length="4" />
+	</_D92DB46311E7673C1E205CBB75358E48>
+	<_E22E4E5A50E233DD4E2F74A4BE593E06 Name="ContentValidationBlockData" Size="18">
+		<_36 Name="Content validation tests" Offset="0" />
+		<_D Name="Validation status" Offset="0" StructName1="ValidationStatusFlags">
+			<Flag n="Performance (performance will be effected)" />
+			<Flag n="Functionality (functionality will be impaired)" />
+			<Flag n="Critical (will cause crashes or instability if processed)" />
+			<Flag n="Not Run (this test has not been run as of the last pass)" />
+		</_D>
+		<_40 Name="Validation test batteries" Offset="4" GUID="EDD94E5A50ED33DD4E8D74ADBEDD3106" StructName1="ContentValidationBlockData" Min="0" Max="2048" />
+	</_E22E4E5A50E233DD4E2F74A4BE593E06>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_43DC74BC4ACF17B3E1C71BE1A27C15BD Name="RelativeSourcePath" Size="4">
+		<_44 Name="Path" Offset="0" />
+	</_43DC74BC4ACF17B3E1C71BE1A27C15BD>
+	<_43B614BC4A3F17C321638BE8A24327BD Name="DamageStateBlock" Size="C">
+		<_C Name="State" Offset="0" StructName1="AssetDamageStates">
+			<Flag n="undamaged" />
+			<Flag n="minor" />
+			<Flag n="medium" />
+			<Flag n="major" />
+			<Flag n="destroyed" />
+		</_C>
+		<_C Name="Blur" Offset="4" StructName1="AssetBlurStates">
+			<Flag n="None" />
+			<Flag n="Blurred" />
+		</_C>
+		<_2 Name="Geometry name" type="sted" Offset="8" />
+	</_43B614BC4A3F17C321638BE8A24327BD>
+	<_436334BC435F1FB323E31BE1A24765B3 Name="VisualRegionOverrideEntry" Size="8">
+		<_2 Name="Region name" type="sted" Offset="0" />
+		<_2 Name="Geometry name" type="sted" Offset="4" />
+	</_436334BC435F1FB323E31BE1A24765B3>
+	<_4563C4BC4A5F3FB324691B31A23663BD Name="MaterialOverrideEntry" Size="38">
+		<_41 Name="Original material ref" Offset="0" Allowed="mat " Flags="9" />
+		<_41 Name="Override material ref" Offset="1C" Allowed="mat " Flags="9" />
+	</_4563C4BC4A5F3FB324691B31A23663BD>
+	<_5118452A6A78EF68C2DB0E798A4DED79 Name="AssetChildObject" Size="4C">
+		<_2 Name="Parent marker" type="sted" Offset="0" />
+		<_2 Name="Child marker" Offset="4" />
+		<_2 Name="Child variant name" Offset="8" />
+		<_41 Name="Child object" Offset="C" Allowed="obje" Flags="2" />
+		<_41 Name="Child configuration" Offset="28" Allowed="ocfg" Flags="2" />
+		<_2 Name="Damage section" type="sted" Offset="44" />
+		<_F Name="Flags" Offset="48" StructName1="i343::Model::ModelVariantObjectFlags">
+			<Flag n="enable physics" />
+			<Flag n="share bones with parent" />
+		</_F>
+		<_34 Name="generated_padb3ad" Offset="49" Length="3" />
+	</_5118452A6A78EF68C2DB0E798A4DED79>
+	<_2C534C3988BDD9FA3BE51A5B8548FD0F Name="MutedJointEntry" Size="4">
+		<_2 Name="Joint name" type="sted" Offset="0" />
+	</_2C534C3988BDD9FA3BE51A5B8548FD0F>
+	<_F773409B74B26D9D525AC5EA87FC4CEA Name="i343::Objects::ObjectNodeGraphDefinition" Size="24">
+		<_2 Name="Name" Offset="0" />
+		<_41 Name="Exported Node Graph" Offset="4" Allowed="xong" Flags="0" />
+		<_F Name="Flags" Offset="20" StructName1="ObjectNodeGraphFlags">
+			<Flag n="Runs on Server" />
+			<Flag n="Runs on Client" />
+			<Flag n="Start updating on the first frame" />
+		</_F>
+		<_A Name="Enable Node Graph" Offset="21" StructName1="BooleanOverride">
+			<Flag n="Default" />
+			<Flag n="Yes" />
+			<Flag n="No" />
+		</_A>
+		<_34 Name="generated_pad8671" Offset="22" Length="2" />
+	</_F773409B74B26D9D525AC5EA87FC4CEA>
+	<_EDD94E5A50ED33DD4E8D74ADBEDD3106 Name="ContentValidationGroup" Size="11C">
+		<_1 Name="Group name" Offset="0" />
+		<_6 Name="Group ID" Offset="100" />
+		<_D Name="Validation status" Offset="104" StructName1="ValidationStatusFlags">
+			<Flag n="Performance (performance will be effected)" />
+			<Flag n="Functionality (functionality will be impaired)" />
+			<Flag n="Critical (will cause crashes or instability if processed)" />
+			<Flag n="Not Run (this test has not been run as of the last pass)" />
+		</_D>
+		<_40 Name="Validation Tests" Offset="108" GUID="431C14BC1ACA11B321431B21A21C15BD" StructName1="ContentValidationGroup" Min="0" Max="1024" />
+	</_EDD94E5A50ED33DD4E8D74ADBEDD3106>
+	<_431C14BC1ACA11B321431B21A21C15BD Name="Validation" Size="118">
+		<_1 Name="Test name" Offset="0" />
+		<_D Name="Test status" Offset="100" StructName1="ValidationStatusFlags">
+			<Flag n="Performance (performance will be effected)" />
+			<Flag n="Functionality (functionality will be impaired)" />
+			<Flag n="Critical (will cause crashes or instability if processed)" />
+			<Flag n="Not Run (this test has not been run as of the last pass)" />
+		</_D>
+		<_40 Name="Comments" Offset="104" GUID="4E1C14BC1ECA11B32E431B21AE1C15BD" StructName1="Validation" Min="0" Max="50000" />
+	</_431C14BC1ACA11B321431B21A21C15BD>
+	<_4E1C14BC1ECA11B32E431B21AE1C15BD Name="ValidationComment" Size="104">
+		<_1 Name="Comment" Offset="0" />
+		<_D Name="Status" Offset="100" StructName1="ValidationStatusFlags">
+			<Flag n="Performance (performance will be effected)" />
+			<Flag n="Functionality (functionality will be impaired)" />
+			<Flag n="Critical (will cause crashes or instability if processed)" />
+			<Flag n="Not Run (this test has not been run as of the last pass)" />
+		</_D>
+	</_4E1C14BC1ECA11B32E431B21AE1C15BD>
+</root>

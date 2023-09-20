@@ -1,0 +1,1619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="composition_scene" Parents="aTag" Index="-67">
+	<_14D340AF85AEDCB2C08A4F569D7C4B67 Name="CompositionScene" Size="1A0">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="Scene" Offset="10" GUID="DA40444AE44A3192208D2CB18520C43A" />
+		<_34 Name="generated_pad059c" Offset="19C" Length="4" />
+	</_14D340AF85AEDCB2C08A4F569D7C4B67>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_DA40444AE44A3192208D2CB18520C43A Name="ComposerScene" Size="18C">
+		<_2 Name="Name" Offset="0" />
+		<_2 Name="Anchor Marker" Offset="4" />
+		<_17 Name="Anchor Position" Offset="8" />
+		<_1C Name="Anchor Rotation" Offset="14" />
+		<_A Name="Reset Lighting" Offset="20" StructName1="ComposerResetLightingTypeEnum">
+			<Flag n="Default" />
+			<Flag n="Don't Reset" />
+			<Flag n="Reset" />
+		</_A>
+		<_F Name="Flags" Offset="21" StructName1="ComposerSceneFlags">
+			<Flag n="Supports Multiplayer Team Cameras" />
+			<Flag n="Use Local Players First" />
+			<Flag n="Sort Players By Place" />
+		</_F>
+		<_34 Name="generated_padd502" Offset="22" Length="2" />
+		<_41 Name="Skip Sound Event" Offset="24" Allowed="snd!" Flags="0" />
+		<_41 Name="Start Sound Event" Offset="40" Allowed="snd!" Flags="0" />
+		<_41 Name="End Sound Event" Offset="5C" Allowed="snd!" Flags="0" />
+		<_41 Name="Skip Music Event" Offset="78" Allowed="musc" Flags="0" />
+		<_41 Name="Start Music Event" Offset="94" Allowed="musc" Flags="0" />
+		<_41 Name="End Music Event" Offset="B0" Allowed="musc" Flags="0" />
+		<_41 Name="Skip Dialog Event" Offset="CC" Allowed="snd!" Flags="0" />
+		<_41 Name="Start Dialog Event" Offset="E8" Allowed="snd!" Flags="0" />
+		<_41 Name="End Dialog Event" Offset="104" Allowed="snd!" Flags="0" />
+		<_40 Name="Synced Audio Tracks" Offset="120" GUID="1822442BBE38E62AFB9BCF95861E9F46" StructName1="ComposerScene" Min="0" Max="8" />
+		<_40 Name="Tracks" type="slap" Offset="134" GUID="464146F069681225E864F9ADABB47F6A" StructName1="ComposerScene" Min="0" Max="10000" />
+		<_40 Name="Editor Tracks" type="slap" Offset="148" GUID="BD664CFD7F85191AF82E1A0AA96B4508" StructName1="ComposerScene" Min="0" Max="10000" />
+		<_40 Name="Puppet Tracks" type="slap" Offset="15C" GUID="45C44375A9CA162417C2ABD4841970A3" StructName1="ComposerScene" Min="0" Max="10000" />
+		<_40 Name="Camera Tracks" type="slap" Offset="170" GUID="FBF2455845FB278904D92E9CA3DEFCF8" StructName1="ComposerScene" Min="0" Max="9" />
+		<_6 Name="lastActionId" Offset="184" />
+		<_6 Name="lastTrackId" Offset="188" />
+	</_DA40444AE44A3192208D2CB18520C43A>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_1822442BBE38E62AFB9BCF95861E9F46 Name="SoundEventDefinitionReference" Size="1C">
+		<_41 Name="SoundEvent" Offset="0" Allowed="snd!" Flags="0" />
+	</_1822442BBE38E62AFB9BCF95861E9F46>
+	<_464146F069681225E864F9ADABB47F6A Name="ComposerTrack" Size="1BC">
+		<_2 Name="Name" Offset="0" />
+		<_A Name="Type" Offset="4" StructName1="ComposerTrackTypeEnum">
+			<Flag n="Camera" />
+			<Flag n="Puppet" />
+			<Flag n="Dummy" />
+		</_A>
+		<_34 Name="generated_padec1b" Offset="5" Length="3" />
+		<_6 Name="Id" Offset="8" />
+		<_5 Name="Data Index" Offset="C" />
+		<_5 Name="SubAction Count" Offset="E" />
+		<_40 Name="Actions" type="slap" Offset="10" GUID="D68A46FA432F0A15B6866A4194BEBF3B" StructName1="ComposerTrack" Min="0" Max="256" />
+		<_40 Name="Editor Actions" type="slap" Offset="24" GUID="F0664B6EA87D3FA9A63D3F769FD68A34" StructName1="ComposerTrack" Min="0" Max="256" />
+		<_40 Name="Cameras" type="slap" Offset="38" GUID="61CD46EE941D36002FBB83ABBC98348C" StructName1="ComposerTrack" Min="0" Max="256" />
+		<_40 Name="Camera Cages" type="slap" Offset="4C" GUID="3928BD17E3928BD128BD17AC928BD17A" StructName1="ComposerTrack" Min="0" Max="256" />
+		<_40 Name="Animations" type="slap" Offset="60" GUID="733D47B8A590E4274FC31FA7915CB7D4" StructName1="ComposerTrack" Min="0" Max="256" />
+		<_40 Name="Alembic Animations" type="slap" Offset="74" GUID="976EBBF8BC1FF71A471C846264B56490" StructName1="ComposerTrack" Min="0" Max="256" />
+		<_40 Name="Animated Meshes" type="slap" Offset="88" GUID="1C7D42E2E08F9D46F2EF1E2E972717E1" StructName1="ComposerTrack" Min="0" Max="256" />
+		<_40 Name="Paths" type="slap" Offset="9C" GUID="D79143BD63539ADBED69D5E884046B1C" StructName1="ComposerTrack" Min="0" Max="256" />
+		<_40 Name="Unit Recordings" type="slap" Offset="B0" GUID="E2F6401293ACA270D634037995A04943" StructName1="ComposerTrack" Min="0" Max="256" />
+		<_40 Name="Command Scripts" type="slap" Offset="C4" GUID="DEA649037F1228E41A7EA29AA97706BD" StructName1="ComposerTrack" Min="0" Max="256" />
+		<_2 Name="Composition Variant" type="slap" Offset="D8" />
+		<_38 Name="SubTracks" type="slap" Offset="DC" GUID="FC304C086A9146564C5FEA19BA3E7323" />
+		<_38 Name="Start Script" Offset="104" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" />
+		<_38 Name="End Script" Offset="160" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" />
+	</_464146F069681225E864F9ADABB47F6A>
+	<_BD664CFD7F85191AF82E1A0AA96B4508 Name="ComposerEditorTrack" Size="150">
+		<_1 Name="Comment" Offset="0" />
+		<_3E Name="Color" Offset="100" />
+		<_5 Name="Height" Offset="104" />
+		<_F Name="Editor Flags" Offset="106" StructName1="ComposerEditorFlags">
+			<Flag n="Muted" />
+			<Flag n="Expanded" />
+			<Flag n="Imported" />
+			<Flag n="Playing" />
+			<Flag n="Recording" />
+			<Flag n="Hidden" />
+			<Flag n="HasTrailingEmptyAction" />
+		</_F>
+		<_34 Name="generated_padf616" Offset="107" Length="1" />
+		<_37 Name="Start Script" type="fgrb" Offset="108" />
+		<_38 Name="Start Script" Offset="108" GUID="81B947E15541B078F73A4C89AB7BBE21" />
+		<_37 Name="" type="fgre" Offset="124" />
+		<_37 Name="End Script" type="fgrb" Offset="124" />
+		<_38 Name="End Script" Offset="124" GUID="81B947E15541B078F73A4C89AB7BBE21" />
+		<_37 Name="" type="fgre" Offset="140" />
+		<_38 Name="Editor GUID bytes" Offset="140" GUID="985A478FF539AD56E1EE1A3A8EDE01BB" />
+	</_BD664CFD7F85191AF82E1A0AA96B4508>
+	<_45C44375A9CA162417C2ABD4841970A3 Name="ComposerTrackPuppet" Size="164">
+		<_2 Name="Variant Name" Offset="0" />
+		<_2 Name="Style Id" Offset="4" />
+		<_2 Name="Object Attachment Name" Offset="8" />
+		<_2 Name="Graphics Scene Override" Offset="C" />
+		<_41 Name="Cage Definition Tag Handle" Offset="10" Allowed="cage" Flags="0" />
+		<_38 Name="Subject" Offset="2C" GUID="DB114656C96CA9B0B831C0C987618570" />
+		<_D Name="Flags" Offset="64" StructName1="ComposerPuppetFlags">
+			<Flag n="Optional" />
+			<Flag n="Player" />
+			<Flag n="deprecated" />
+			<Flag n="Create If Missing" />
+			<Flag n="Destroy When Finished" />
+			<Flag n="Leave Show on Damage" />
+			<Flag n="Leave Show on Alert" />
+			<Flag n="Critical (abort the show when leaving)" />
+			<Flag n="No Lightmap Shadow" />
+			<Flag n="Apply Player Customization" />
+			<Flag n="Apply First Person Player Customization" />
+			<Flag n="Primary Hologram" />
+			<Flag n="Pin Textures" />
+			<Flag n="Never LOD" />
+			<Flag n="Lower Weapon" />
+			<Flag n="Stow Weapon Immediately" />
+			<Flag n="Cinematic Visibility" />
+			<Flag n="Disable Physics" />
+			<Flag n="ICS 3rd Person Camera" />
+			<Flag n="Enable 3rd Person FOV" />
+			<Flag n="Deathless" />
+			<Flag n="Invincible" />
+			<Flag n="AI Vehicle" />
+			<Flag n="AI Aware Of Player On Release" />
+			<Flag n="AI Look At Player On Release" />
+			<Flag n="Preserve Velocity" />
+			<Flag n="Muted" />
+			<Flag n="Restore Object Variant" />
+			<Flag n="Blend World Position" />
+			<Flag n="No Ready Weapon" />
+			<Flag n="No Restore Limbo" />
+			<Flag n="Use Player Action Pose Weapon" />
+		</_D>
+		<_38 Name="Weapon Action" Offset="68" GUID="1155416DBCADDAF9D6D88C229B7C0C30" />
+		<_34 Name="generated_pad8afd" Offset="6A" Length="2" />
+		<_41 Name="Type" Offset="6C" Allowed="bipd, char, ctrl, bloc, crea, efsc, gint, mach, scen, vehi, weap" Flags="0" />
+		<_41 Name="Parent Model Animation Graph" Offset="88" Allowed="jmad" Flags="0" />
+		<_40 Name="Model Animation Graphs" Offset="A4" GUID="B4874B828832D89F2EA5F1C88616EB52" StructName1="ComposerTrackPuppet" Min="0" Max="8" />
+		<_37 Name="Position" type="fgrb" Offset="B8" />
+		<_38 Name="Position" Offset="B8" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
+		<_37 Name="" type="fgre" Offset="110" />
+		<_37 Name="Bounding Sphere Override" type="fgrb" Offset="110" />
+		<_2 Name="Bone For Bounding Sphere Center" Offset="110" />
+		<_14 Name="Bounding Sphere Radius" Offset="114" />
+		<_37 Name="" type="fgre" Offset="118" />
+		<_40 Name="Player Puppet Data" type="slap" Offset="118" GUID="57604CD98E2771A3CEDBF513B65ED4B6" StructName1="ComposerTrackPuppet" Min="0" Max="1" />
+		<_41 Name="Runtime Animset (used by code only)" Offset="12C" Allowed="Rani" Flags="0" />
+		<_41 Name="Reference to generated anim pool tag" Offset="148" Allowed="jmad" Flags="0" />
+	</_45C44375A9CA162417C2ABD4841970A3>
+	<_FBF2455845FB278904D92E9CA3DEFCF8 Name="ComposerTrackCamera" Size="B0">
+		<_41 Name="Camera Animation Graph" Offset="0" Allowed="camg" Flags="0" />
+		<_38 Name="Subject" Offset="1C" GUID="DB114656C96CA9B0B831C0C987618570" />
+		<_37 Name="Position" type="fgrb" Offset="54" />
+		<_38 Name="Position" Offset="54" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
+		<_37 Name="" type="fgre" Offset="AC" />
+		<_A Name="Team Camera" Offset="AC" StructName1="i343::NetProtocol::GameOptions::MultiplayerTeamDesignatorEnum">
+			<Flag n="Defender" />
+			<Flag n="Attacker" />
+			<Flag n="ThirdParty" />
+			<Flag n="FourthParty" />
+			<Flag n="FifthParty" />
+			<Flag n="SixthParty" />
+			<Flag n="SeventhParty" />
+			<Flag n="EighthParty" />
+			<Flag n="Neutral" />
+		</_A>
+		<_34 Name="generated_pad8b2a" Offset="AD" Length="3" />
+	</_FBF2455845FB278904D92E9CA3DEFCF8>
+	<_D68A46FA432F0A15B6866A4194BEBF3B Name="ComposerAction" Size="78">
+		<_2 Name="Name" Offset="0" />
+		<_6 Name="Id" Offset="4" />
+		<_6 Name="Blend In" Offset="8" />
+		<_A Name="Blend In Curve" Offset="C" StructName1="i343::Curve::CurveBuiltIn">
+			<Flag n="None" />
+			<Flag n="Linear" />
+			<Flag n="Zero" />
+			<Flag n="One" />
+			<Flag n="EaseInQuad" />
+			<Flag n="EaseOutQuad" />
+			<Flag n="EaseInOutQuad" />
+			<Flag n="EaseInCubic" />
+			<Flag n="EaseOutCubic" />
+			<Flag n="EaseInOutCubic" />
+			<Flag n="EaseInQuart" />
+			<Flag n="EaseOutQuart" />
+			<Flag n="EaseInOutQuart" />
+			<Flag n="EaseInQuint" />
+			<Flag n="EaseOutQuint" />
+			<Flag n="EaseInOutQuint" />
+			<Flag n="EaseInSine" />
+			<Flag n="EaseOutSine" />
+			<Flag n="EaseInOutSine" />
+			<Flag n="EaseInExpo" />
+			<Flag n="EaseOutExpo" />
+			<Flag n="EaseInOutExpo" />
+			<Flag n="EaseInCirc" />
+			<Flag n="EaseOutCirc" />
+			<Flag n="EaseInOutCirc" />
+			<Flag n="EaseInOutLight" />
+			<Flag n="EaseInOutHeavy" />
+		</_A>
+		<_34 Name="generated_pad61be" Offset="D" Length="3" />
+		<_6 Name="Length" Offset="10" />
+		<_F Name="Flags" Offset="14" StructName1="ComposerActionFlags">
+			<Flag n="Looping" />
+			<Flag n="Simulate Position" />
+			<Flag n="Lower Weapon" />
+			<Flag n="Stow Weapon Immediately" />
+		</_F>
+		<_A Name="Type" Offset="15" StructName1="ComposerActionTypeEnum">
+			<Flag n="Animation" />
+			<Flag n="Graph Animation" />
+			<Flag n="Path" />
+			<Flag n="Camera" />
+			<Flag n="CameraCage" />
+			<Flag n="Hide" />
+			<Flag n="Dummy" />
+			<Flag n="Geometry Cache" />
+			<Flag n="Unit Recording" />
+			<Flag n="Command Script" />
+		</_A>
+		<_A Name="Simulation Type" Offset="16" StructName1="ComposerSimulationTypeEnum">
+			<Flag n="Default" />
+			<Flag n="Simulation On" />
+			<Flag n="Simulation Off" />
+		</_A>
+		<_34 Name="generated_padae73" Offset="17" Length="1" />
+		<_5 Name="Data Index" Offset="18" />
+		<_5 Name="Condition Check Rate" Offset="1A" />
+		<_38 Name="Condition Script" Offset="1C" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" />
+	</_D68A46FA432F0A15B6866A4194BEBF3B>
+	<_F0664B6EA87D3FA9A63D3F769FD68A34 Name="ComposerEditorAction" Size="124">
+		<_1 Name="Comment" Offset="0" />
+		<_3E Name="Color" Offset="100" />
+		<_F Name="Editor Flags" Offset="104" StructName1="ComposerEditorFlags">
+			<Flag n="Muted" />
+			<Flag n="Expanded" />
+			<Flag n="Imported" />
+			<Flag n="Playing" />
+			<Flag n="Recording" />
+			<Flag n="Hidden" />
+			<Flag n="HasTrailingEmptyAction" />
+		</_F>
+		<_34 Name="generated_padd075" Offset="105" Length="3" />
+		<_37 Name="Condition Script" type="fgrb" Offset="108" />
+		<_38 Name="Condition Script" Offset="108" GUID="81B947E15541B078F73A4C89AB7BBE21" />
+		<_37 Name="" type="fgre" Offset="124" />
+	</_F0664B6EA87D3FA9A63D3F769FD68A34>
+	<_61CD46EE941D36002FBB83ABBC98348C Name="ComposerActionCamera" Size="8C">
+		<_F Name="Flags" Offset="0" StructName1="ComposerCameraFlags">
+			<Flag n="Disable Lightmap Shadow" />
+			<Flag n="Instant Auto Exposure" />
+			<Flag n="Looping" />
+			<Flag n="Play in Reverse" />
+			<Flag n="Disable Floating Shadow" />
+			<Flag n="No Subframe Interpolation" />
+			<Flag n="Preserve Player Aim" />
+		</_F>
+		<_34 Name="generated_padb1af" Offset="1" Length="3" />
+		<_2 Name="Animation Name" Offset="4" />
+		<_6 Name="Animation Index" Offset="8" />
+		<_37 Name="Position" type="fgrb" Offset="C" />
+		<_38 Name="Position" Offset="C" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
+		<_37 Name="" type="fgre" Offset="64" />
+		<_6 Name="Start Frame" Offset="64" />
+		<_6 Name="End Frame" Offset="68" />
+		<_6 Name="Repeat Count" Offset="6C" />
+		<_14 Name="Scale" Offset="70" />
+		<_37 Name="Look Drift" type="fgrb" Offset="74" />
+		<_8 Name="Max Look Drift Angle" Offset="74" />
+		<_1B Name="Look Drift Speed" Offset="78" />
+		<_3C Name="Look Drift Dampen Percentage" Offset="80" />
+		<_34 Name="generated_pad64fa" Offset="81" Length="3" />
+		<_14 Name="Look Drift Dampen Time" Offset="84" />
+		<_14 Name="Look Drift No Input Delay" Offset="88" />
+		<_37 Name="" type="fgre" Offset="8C" />
+	</_61CD46EE941D36002FBB83ABBC98348C>
+	<_3928BD17E3928BD128BD17AC928BD17A Name="ComposerActionCameraCage" Size="218">
+		<_37 Name="Placement" type="fgrb" Offset="0" />
+		<_38 Name="Placement" Offset="0" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
+		<_37 Name="" type="fgre" Offset="58" />
+		<_38 Name="Position Subject" Offset="58" GUID="DB114656C96CA9B0B831C0C987618570" />
+		<_41 Name="Position Cage or Abc" Offset="90" Allowed="cage, abc*" Flags="9" />
+		<_6 Name="Start Frame" Offset="AC" />
+		<_6 Name="End Frame" Offset="B0" />
+		<_6 Name="Repeat Count" Offset="B4" />
+		<_14 Name="Scale" Offset="B8" />
+		<_8 Name="Max Look Drift Angle" Offset="BC" />
+		<_1B Name="Look Drift Speed" Offset="C0" />
+		<_3C Name="Look Drift Dampen Percentage" Offset="C8" />
+		<_34 Name="generated_pad2bb7" Offset="C9" Length="3" />
+		<_14 Name="Look Drift Dampen Time" Offset="CC" />
+		<_14 Name="Look Drift No Input Delay" Offset="D0" />
+		<_2 Name="Position Cage Point" Offset="D4" />
+		<_2 Name="Camera Name" Offset="D8" />
+		<_40 Name="Target Points" Offset="DC" GUID="D3BBAC124D3BBAC1BBAC12BE3BBAC12B" StructName1="ComposerActionCameraCage" Min="0" Max="256" />
+		<_38 Name="Blend Settings" Offset="F0" GUID="8573405F4E822DCF07D060E79F284A07" />
+		<_38 Name="Camera Properties" Offset="F8" GUID="F3D546B703DDA2009B25682D94F62E54" />
+		<_14 Name="Blur Amount" Offset="1D4" />
+		<_F Name="Vibration Flags" Offset="1D8" StructName1="CameraCageVibrationFlags">
+			<Flag n="Position Enable" />
+			<Flag n="Spring Enable" />
+		</_F>
+		<_F Name="Player Control Flags" Offset="1D9" StructName1="CameraCagePlayerControlFlags">
+			<Flag n="Jump" />
+			<Flag n="Crouch" />
+			<Flag n="Equip" />
+			<Flag n="Action" />
+			<Flag n="Throw Grenade" />
+			<Flag n="Fire" />
+		</_F>
+		<_34 Name="generated_paddf02" Offset="1DA" Length="2" />
+		<_14 Name="Walk/Run Weight" Offset="1DC" />
+		<_14 Name="Camera Weight" Offset="1E0" />
+		<_F Name="Flags" Offset="1E4" StructName1="ComposerCameraCageFlags">
+			<Flag n="Disable Lightmap Shadow" />
+			<Flag n="Instant Auto Exposure" />
+			<Flag n="Looping" />
+			<Flag n="Play in Reverse" />
+			<Flag n="Disable Floating Shadow" />
+			<Flag n="No Subframe Interpolation" />
+			<Flag n="Disable Cage Orbit" />
+			<Flag n="Preserve Player Aim" />
+		</_F>
+		<_34 Name="generated_pad924d" Offset="1E5" Length="3" />
+		<_41 Name="Resolved Camera Position" Offset="1E8" Allowed="cage, camg" Flags="0" />
+		<_37 Name="Player Controlled Zoom" type="fgrb" Offset="204" />
+		<_40 Name="Zoom Settings" Offset="204" GUID="C8AA4CB5068678340113C0C78CC2E41A" StructName1="ComposerActionCameraCage" Min="0" Max="1" />
+		<_37 Name="" type="fgre" Offset="218" />
+	</_3928BD17E3928BD128BD17AC928BD17A>
+	<_733D47B8A590E4274FC31FA7915CB7D4 Name="ComposerActionAnimation" Size="F0">
+		<_40 Name="Animations" Offset="0" GUID="B49D4268E475648CB89B44DC8C6B6A7E" StructName1="ComposerActionAnimation" Min="0" Max="8" />
+		<_40 Name="Model Animation Graphs" Offset="14" GUID="B4874B828832D89F2EA5F1C88616EB52" StructName1="ComposerActionAnimation" Min="0" Max="8" />
+		<_37 Name="Point" type="fgrb" Offset="28" />
+		<_38 Name="Position" Offset="28" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
+		<_37 Name="" type="fgre" Offset="80" />
+		<_A Name="Position Type" Offset="80" StructName1="ComposerAnimPositionTypeEnum">
+			<Flag n="Teleport" />
+			<Flag n="Force Position" />
+			<Flag n="Motion" />
+			<Flag n="Attach" />
+			<Flag n="Teleport Vertical" />
+			<Flag n="None" />
+		</_A>
+		<_34 Name="generated_pad0dd6" Offset="81" Length="1" />
+		<_E Name="Flags" Offset="82" StructName1="ComposerAnimationFlags">
+			<Flag n="Looping" />
+			<Flag n="Play in Reverse" />
+			<Flag n="Reset Object Position" />
+			<Flag n="Reset Object Position to Floor" />
+			<Flag n="ICS Animation" />
+			<Flag n="Reset Camera Rotation" />
+			<Flag n="No Lightmap Shadow" />
+			<Flag n="Never LOD" />
+			<Flag n="Disable Physics" />
+			<Flag n="Pause at End" />
+			<Flag n="Use Token" />
+			<Flag n="No Subframe Interpolation" />
+			<Flag n="Reset Motion to First Frame" />
+			<Flag n="Hide for First Frame" />
+			<Flag n="Blend Root Bone in Inertialization" />
+			<Flag n="Use Linear Blend" />
+		</_E>
+		<_2 Name="Sync Puppet" Offset="84" />
+		<_6 Name="Start Frame" Offset="88" />
+		<_6 Name="End Frame" Offset="8C" />
+		<_6 Name="Repeat Count" Offset="90" />
+		<_14 Name="Scale" Offset="94" />
+		<_41 Name="Overlay Group Graph" Offset="98" Allowed="jmad" Flags="0" />
+		<_2 Name="Overlay Group Name" Offset="B4" />
+		<_2 Name="Animation Mode" Offset="B8" />
+		<_38 Name="Override Transition Settings" Offset="BC" GUID="2FE646728FA0504B599261A39C8BA099" />
+		<_40 Name="Override Animation Events" Offset="C8" GUID="8DC245BE21FCD10F5944CCFFBB5BF4CE" StructName1="ComposerActionAnimation" Min="0" Max="512" />
+		<_40 Name="Overlay Channels" Offset="DC" GUID="15844653EE5B1B4D3C92C29FA416728E" StructName1="ComposerActionAnimation" Min="0" Max="16" />
+	</_733D47B8A590E4274FC31FA7915CB7D4>
+	<_976EBBF8BC1FF71A471C846264B56490 Name="ComposerActionAlembicAnimation" Size="BC">
+		<_40 Name="Animations" Offset="0" GUID="CA50410A1110D0DE497B8472B08265D1" StructName1="ComposerActionAlembicAnimation" Min="0" Max="8" />
+		<_37 Name="Point" type="fgrb" Offset="14" />
+		<_38 Name="Position" Offset="14" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
+		<_37 Name="" type="fgre" Offset="6C" />
+		<_A Name="Position Type" Offset="6C" StructName1="ComposerAnimPositionTypeEnum">
+			<Flag n="Teleport" />
+			<Flag n="Force Position" />
+			<Flag n="Motion" />
+			<Flag n="Attach" />
+			<Flag n="Teleport Vertical" />
+			<Flag n="None" />
+		</_A>
+		<_34 Name="generated_pad49af" Offset="6D" Length="1" />
+		<_E Name="Flags" Offset="6E" StructName1="ComposerAnimationFlags">
+			<Flag n="Looping" />
+			<Flag n="Play in Reverse" />
+			<Flag n="Reset Object Position" />
+			<Flag n="Reset Object Position to Floor" />
+			<Flag n="ICS Animation" />
+			<Flag n="Reset Camera Rotation" />
+			<Flag n="No Lightmap Shadow" />
+			<Flag n="Never LOD" />
+			<Flag n="Disable Physics" />
+			<Flag n="Pause at End" />
+			<Flag n="Use Token" />
+			<Flag n="No Subframe Interpolation" />
+			<Flag n="Reset Motion to First Frame" />
+			<Flag n="Hide for First Frame" />
+			<Flag n="Blend Root Bone in Inertialization" />
+			<Flag n="Use Linear Blend" />
+		</_E>
+		<_2 Name="Sync Puppet" Offset="70" />
+		<_6 Name="Start Frame" Offset="74" />
+		<_6 Name="End Frame" Offset="78" />
+		<_6 Name="Repeat Count" Offset="7C" />
+		<_14 Name="Scale" Offset="80" />
+		<_2 Name="Animation Mode" Offset="84" />
+		<_38 Name="Override Transition Settings" Offset="88" GUID="2FE646728FA0504B599261A39C8BA099" />
+		<_40 Name="Override Animation Events" Offset="94" GUID="8DC245BE21FCD10F5944CCFFBB5BF4CE" StructName1="ComposerActionAlembicAnimation" Min="0" Max="512" />
+		<_40 Name="Overlay Channels" Offset="A8" GUID="15844653EE5B1B4D3C92C29FA416728E" StructName1="ComposerActionAlembicAnimation" Min="0" Max="16" />
+	</_976EBBF8BC1FF71A471C846264B56490>
+	<_1C7D42E2E08F9D46F2EF1E2E972717E1 Name="ComposerActionAnimatedMesh" Size="24">
+		<_40 Name="Animated Meshes" Offset="0" GUID="DFF445FB3825778F3C2778D69ADF8834" StructName1="ComposerActionAnimatedMesh" Min="0" Max="8" />
+		<_E Name="Flags" Offset="14" StructName1="ComposerAnimatedMeshFlags">
+			<Flag n="Looping" />
+			<Flag n="Reset At End" />
+			<Flag n="Never LOD" />
+			<Flag n="Disable Physics" />
+		</_E>
+		<_34 Name="generated_pad65ba" Offset="16" Length="2" />
+		<_14 Name="Scale" Offset="18" />
+		<_6 Name="Start Frame" Offset="1C" />
+		<_6 Name="End Frame" Offset="20" />
+	</_1C7D42E2E08F9D46F2EF1E2E972717E1>
+	<_D79143BD63539ADBED69D5E884046B1C Name="ComposerActionPath" Size="34">
+		<_14 Name="Throttle" Offset="0" />
+		<_40 Name="Points" type="slap" Offset="4" GUID="78F085EBC78F085EF085EB1D8F085EB1" StructName1="ComposerActionPath" Min="0" Max="10000" />
+		<_14 Name="Destination Tolerance" Offset="18" />
+		<_2 Name="Animation Mode" Offset="1C" />
+		<_40 Name="Overlay Channels" Offset="20" GUID="15844653EE5B1B4D3C92C29FA416728E" StructName1="ComposerActionPath" Min="0" Max="16" />
+	</_D79143BD63539ADBED69D5E884046B1C>
+	<_E2F6401293ACA270D634037995A04943 Name="ComposerActionUnitRecording" Size="18">
+		<_2 Name="recording unit type" Offset="0" />
+		<_2 Name="recording name" Offset="4" />
+		<_14 Name="Scale" Offset="8" />
+		<_6 Name="Start Frame" Offset="C" />
+		<_6 Name="End Frame" Offset="10" />
+		<_5 Name="Smoothing Time" Offset="14" />
+		<_F Name="Flags" Offset="16" StructName1="ComposerUnitRecordingFlags">
+			<Flag n="Play in Reverse" />
+			<Flag n="Pause at End" />
+			<Flag n="Never LOD" />
+		</_F>
+		<_34 Name="generated_pad3413" Offset="17" Length="1" />
+	</_E2F6401293ACA270D634037995A04943>
+	<_DEA649037F1228E41A7EA29AA97706BD Name="ComposerActionCommandScript" Size="5C">
+		<_38 Name="Script" Offset="0" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" />
+	</_DEA649037F1228E41A7EA29AA97706BD>
+	<_FC304C086A9146564C5FEA19BA3E7323 Name="ComposerSubTracks" Size="28">
+		<_40 Name="SubTracks References" type="slap" Offset="0" GUID="42C6497915C839FF36B6CF01AF1362E0" StructName1="ComposerSubTracks" Min="0" Max="1000" />
+		<_40 Name="SubTracks" type="slap" Offset="14" GUID="7F1C4780264DF9BB71FF6F5FA7DB2794" StructName1="ComposerSubTracks" Min="0" Max="1000" />
+	</_FC304C086A9146564C5FEA19BA3E7323>
+	<_9C0D436D385EADFDA6697D2C8E8AE86D Name="ComposerScript" Size="5C">
+		<_F Name="Flags" Offset="0" StructName1="ComposerScriptFlags">
+			<Flag n="Client" />
+			<Flag n="HasAssociatedScript" />
+			<Flag n="IgnoreInEditor" />
+		</_F>
+		<_34 Name="generated_pad585d" Offset="1" Length="3" />
+		<_42 Name="Data" Offset="4" StructName1="ComposerScript.Data" Int1="2" Int2="0" Flags="1000" />
+		<_3C Name="Boolean Expression" Offset="1C" />
+		<_34 Name="generated_pad3e7c" Offset="1D" Length="3" />
+		<_42 Name="Runtime Script Binary" Offset="20" StructName1="ComposerScript.Runtime Script Binary" Int1="2" Int2="0" Flags="1000" />
+		<_0 Name="Runtime Script Name" Offset="38" />
+		<_3E Name="Runtime Script CRC" Offset="58" />
+	</_9C0D436D385EADFDA6697D2C8E8AE86D>
+	<_81B947E15541B078F73A4C89AB7BBE21 Name="ComposerTextData" Size="1C">
+		<_42 Name="Data" Offset="0" StructName1="ComposerTextData.Data" Int1="2" Int2="0" Flags="1000" />
+		<_3E Name="Script CRC" Offset="18" />
+	</_81B947E15541B078F73A4C89AB7BBE21>
+	<_985A478FF539AD56E1EE1A3A8EDE01BB Name="TagGuid" Size="10">
+		<_39 Name="Guid Bytes" Offset="0" GUID="74CD408B46801A205A4D308A98F8BDBC" Count="16" StructName1="Guid Bytes" />
+	</_985A478FF539AD56E1EE1A3A8EDE01BB>
+	<_DB114656C96CA9B0B831C0C987618570 Name="ComposerSubject" Size="38">
+		<_2 Name="Object Name" Offset="0" />
+		<_42 Name="Raw Object Name" Offset="4" StructName1="ComposerSubject.Raw Object Name" Int1="2" Int2="0" Flags="200" />
+		<_38 Name="Object" Offset="1C" GUID="F87643B7908D235027669B07968E32EE" />
+		<_A Name="Object Resolution Type" Offset="34" StructName1="ComposerObjectResolutionTypeEnum">
+			<Flag n="Invalid" />
+			<Flag n="Reference" />
+			<Flag n="Name" />
+			<Flag n="AI" />
+			<Flag n="Global" />
+			<Flag n="Puppet" />
+			<Flag n="Point Set" />
+			<Flag n="Flag" />
+		</_A>
+		<_34 Name="generated_padc9c6" Offset="35" Length="3" />
+	</_DB114656C96CA9B0B831C0C987618570>
+	<_1155416DBCADDAF9D6D88C229B7C0C30 Name="WeaponActionProperties" Size="2">
+		<_A Name="Weapon Action" Offset="0" StructName1="PuppetWeaponActionTypeEnum">
+			<Flag n="LowerWeapon" />
+			<Flag n="LowerThenStowWeapon" />
+			<Flag n="StowWeapon" />
+			<Flag n="RaiseWeapon" />
+			<Flag n="DoNothing" />
+		</_A>
+		<_F Name="Weapon Flags" Offset="1" StructName1="PuppetWeaponActionFlags">
+			<Flag n="Hide Stowed Weapon" />
+		</_F>
+	</_1155416DBCADDAF9D6D88C229B7C0C30>
+	<_B4874B828832D89F2EA5F1C88616EB52 Name="ComposerPuppetGraph" Size="74">
+		<_41 Name="Puppet Object Type" Offset="0" Allowed="bipd, char, ctrl, bloc, crea, efsc, gint, mach, scen, vehi, weap" Flags="0" />
+		<_41 Name="Model Animation Graph" Offset="1C" Allowed="jmad, abc*" Flags="9" />
+		<_A Name="ABC Animation Type" Offset="38" StructName1="AnimationType">
+			<Flag n="Base" />
+			<Flag n="Base + Txy motion type" />
+			<Flag n="Base + Txy,Yaw motion type" />
+			<Flag n="Base + Txyz,Yaw motion type" />
+			<Flag n="Base + Txyz,AngleAxis motion type" />
+			<Flag n="Base + Full motion type" />
+			<Flag n="Base + No motion type" />
+			<Flag n="Overlay" />
+			<Flag n="Overlay Additive - Pose" />
+			<Flag n="Replacement" />
+		</_A>
+		<_A Name="ABC Compression Type" Offset="39" StructName1="AnimationCompressionType">
+			<Flag n="Auto" />
+			<Flag n="None" />
+			<Flag n="Medium" />
+			<Flag n="Rough" />
+			<Flag n="Light" />
+			<Flag n="ACL Auto" />
+		</_A>
+		<_34 Name="generated_padfe48" Offset="3A" Length="2" />
+		<_41 Name="ABC Skeleton Tag (Optional)" Offset="3C" Allowed="skel" Flags="0" />
+		<_41 Name="generatedModelAnimationInternal" Offset="58" Allowed="jmad" Flags="2" />
+	</_B4874B828832D89F2EA5F1C88616EB52>
+	<_78F085EBC78F085EF085EB1D8F085EB1 Name="ComposerPathPoint" Size="58">
+		<_B Name="Type" Offset="0" StructName1="ComposerPathPointTypeEnum">
+			<Flag n="Current" />
+			<Flag n="Object" />
+			<Flag n="Placement" />
+			<Flag n="Point Set" />
+			<Flag n="Flag" />
+			<Flag n="Custom" />
+			<Flag n="Scene Anchor" />
+			<Flag n="Instance Anchor" />
+			<Flag n="Nearest Player" />
+			<Flag n="Inherit from Parent" />
+			<Flag n="Light" />
+			<Flag n="Effect" />
+			<Flag n="None" />
+		</_B>
+		<_F Name="Flags" Offset="2" StructName1="ComposerPathPointFlags">
+			<Flag n="Use Orientation" />
+			<Flag n="Don't Stop" />
+		</_F>
+		<_34 Name="generated_pad5f87" Offset="3" Length="1" />
+		<_38 Name="Subject" Offset="4" GUID="DB114656C96CA9B0B831C0C987618570" />
+		<_2 Name="Marker" Offset="3C" />
+		<_17 Name="Position" Offset="40" />
+		<_1C Name="Rotation" Offset="4C" />
+	</_78F085EBC78F085EF085EB1D8F085EB1>
+	<_57604CD98E2771A3CEDBF513B65ED4B6 Name="ComposerPlayerData" Size="C">
+		<_A Name="Player Type" Offset="0" StructName1="ComposerPlayerPuppetTypeEnum">
+			<Flag n="Multiplayer" />
+			<Flag n="Campaign" />
+			<Flag n="Dynamic" />
+		</_A>
+		<_A Name="Multiplayer Team" Offset="1" StructName1="i343::NetProtocol::GameOptions::MultiplayerTeamDesignatorEnum">
+			<Flag n="Defender" />
+			<Flag n="Attacker" />
+			<Flag n="ThirdParty" />
+			<Flag n="FourthParty" />
+			<Flag n="FifthParty" />
+			<Flag n="SixthParty" />
+			<Flag n="SeventhParty" />
+			<Flag n="EighthParty" />
+			<Flag n="Neutral" />
+		</_A>
+		<_F Name="Flags" Offset="2" StructName1="ComposerPlayerPuppetFlags">
+			<Flag n="UseWinningTeam" />
+			<Flag n="ForgeIntroSpectator" />
+		</_F>
+		<_34 Name="generated_padf92f" Offset="3" Length="1" />
+		<_6 Name="Player Index" Offset="4" />
+		<_6 Name="Forge Spectator Player Index" Offset="8" />
+	</_57604CD98E2771A3CEDBF513B65ED4B6>
+	<_D3BBAC124D3BBAC1BBAC12BE3BBAC12B Name="ComposerCagePoint" Size="5C">
+		<_38 Name="Subject" Offset="0" GUID="DB114656C96CA9B0B831C0C987618570" />
+		<_41 Name="Cage" Offset="38" Allowed="cage" Flags="0" />
+		<_2 Name="Cage Point" Offset="54" />
+		<_14 Name="Weight" Offset="58" />
+	</_D3BBAC124D3BBAC1BBAC12BE3BBAC12B>
+	<_8573405F4E822DCF07D060E79F284A07 Name="ComposerActionCageBlendSettings" Size="8">
+		<_6 Name="Blend Time" Offset="0" />
+		<_A Name="Transform Curve" Offset="4" StructName1="i343::Curve::CurveBuiltIn">
+			<Flag n="None" />
+			<Flag n="Linear" />
+			<Flag n="Zero" />
+			<Flag n="One" />
+			<Flag n="EaseInQuad" />
+			<Flag n="EaseOutQuad" />
+			<Flag n="EaseInOutQuad" />
+			<Flag n="EaseInCubic" />
+			<Flag n="EaseOutCubic" />
+			<Flag n="EaseInOutCubic" />
+			<Flag n="EaseInQuart" />
+			<Flag n="EaseOutQuart" />
+			<Flag n="EaseInOutQuart" />
+			<Flag n="EaseInQuint" />
+			<Flag n="EaseOutQuint" />
+			<Flag n="EaseInOutQuint" />
+			<Flag n="EaseInSine" />
+			<Flag n="EaseOutSine" />
+			<Flag n="EaseInOutSine" />
+			<Flag n="EaseInExpo" />
+			<Flag n="EaseOutExpo" />
+			<Flag n="EaseInOutExpo" />
+			<Flag n="EaseInCirc" />
+			<Flag n="EaseOutCirc" />
+			<Flag n="EaseInOutCirc" />
+			<Flag n="EaseInOutLight" />
+			<Flag n="EaseInOutHeavy" />
+		</_A>
+		<_A Name="Properties Curve" Offset="5" StructName1="i343::Curve::CurveBuiltIn">
+			<Flag n="None" />
+			<Flag n="Linear" />
+			<Flag n="Zero" />
+			<Flag n="One" />
+			<Flag n="EaseInQuad" />
+			<Flag n="EaseOutQuad" />
+			<Flag n="EaseInOutQuad" />
+			<Flag n="EaseInCubic" />
+			<Flag n="EaseOutCubic" />
+			<Flag n="EaseInOutCubic" />
+			<Flag n="EaseInQuart" />
+			<Flag n="EaseOutQuart" />
+			<Flag n="EaseInOutQuart" />
+			<Flag n="EaseInQuint" />
+			<Flag n="EaseOutQuint" />
+			<Flag n="EaseInOutQuint" />
+			<Flag n="EaseInSine" />
+			<Flag n="EaseOutSine" />
+			<Flag n="EaseInOutSine" />
+			<Flag n="EaseInExpo" />
+			<Flag n="EaseOutExpo" />
+			<Flag n="EaseInOutExpo" />
+			<Flag n="EaseInCirc" />
+			<Flag n="EaseOutCirc" />
+			<Flag n="EaseInOutCirc" />
+			<Flag n="EaseInOutLight" />
+			<Flag n="EaseInOutHeavy" />
+		</_A>
+		<_34 Name="generated_paddf02" Offset="6" Length="2" />
+	</_8573405F4E822DCF07D060E79F284A07>
+	<_F3D546B703DDA2009B25682D94F62E54 Name="ComposerActionCageCameraProperties" Size="DC">
+		<_14 Name="Focal Length" Offset="0" />
+		<_14 Name="Focus Distance" Offset="4" />
+		<_14 Name="F-Stop" Offset="8" />
+		<_6 Name="Bokeh Side Count" Offset="C" />
+		<_38 Name="Focal Length Curve" Offset="10" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+		<_38 Name="Focus Distance Curve" Offset="54" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+		<_38 Name="F-Stop Curve" Offset="98" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+	</_F3D546B703DDA2009B25682D94F62E54>
+	<_C8AA4CB5068678340113C0C78CC2E41A Name="i343::Narrative::CageCameraZoomSettings" Size="3C">
+		<_41 Name="Curve Definition" Offset="0" Allowed="curv" Flags="0" />
+		<_38 Name="Positional Curve Adjustments" Offset="1C" GUID="A84F4568E09F9B71A572B4259829AFF1" />
+		<_38 Name="Focal Length Curve Adjustments" Offset="2C" GUID="A84F4568E09F9B71A572B4259829AFF1" />
+	</_C8AA4CB5068678340113C0C78CC2E41A>
+	<_B49D4268E475648CB89B44DC8C6B6A7E Name="ComposerAnimation" Size="14">
+		<_2 Name="Name" Offset="0" />
+		<_6 Name="Weight" Offset="4" />
+		<_2 Name="IKPointSet" Offset="8" />
+		<_2 Name="Weapon Class" type="sted" Offset="C" />
+		<_2 Name="ABC Anim Token" Offset="10" />
+	</_B49D4268E475648CB89B44DC8C6B6A7E>
+	<_2FE646728FA0504B599261A39C8BA099 Name="ComposerActionTransitionSettings" Size="C">
+		<_A Name="Type" Offset="0" StructName1="ComposerActionTransitionTypes">
+			<Flag n="None" />
+			<Flag n="Interpolation" />
+			<Flag n="Crossblend" />
+		</_A>
+		<_34 Name="generated_pad6308" Offset="1" Length="3" />
+		<_6 Name="Interpolation Time" Offset="4" />
+		<_2 Name="Interpolator Set" Offset="8" />
+	</_2FE646728FA0504B599261A39C8BA099>
+	<_8DC245BE21FCD10F5944CCFFBB5BF4CE Name="ComposerAnimationEventData" Size="10">
+		<_5 Name="Event Type" Offset="0" />
+		<_5 Name="Frame Index" Offset="2" />
+		<_5 Name="Data Index" Offset="4" />
+		<_F Name="Event Flags" Offset="6" StructName1="ComposerAnimationEventFlags">
+			<Flag n="Mute" />
+		</_F>
+		<_34 Name="generated_pad2246" Offset="7" Length="1" />
+		<_2 Name="Data Identifier" Offset="8" />
+		<_2 Name="Anim Data Identifier" Offset="C" />
+	</_8DC245BE21FCD10F5944CCFFBB5BF4CE>
+	<_15844653EE5B1B4D3C92C29FA416728E Name="ComposerOverlayChannelData" Size="8C">
+		<_A Name="Type" Offset="0" StructName1="i343::Composer::ComposerOverlayChannelTypes">
+			<Flag n="Overlay" />
+			<Flag n="Pose Blend" />
+		</_A>
+		<_34 Name="generated_pad2a65" Offset="1" Length="3" />
+		<_41 Name="Channel Graph" Offset="4" Allowed="jmad" Flags="0" />
+		<_2 Name="Overlay Name" Offset="20" />
+		<_14 Name="Playback Data" Offset="24" />
+		<_6 Name="Frame Start" Offset="28" />
+		<_6 Name="Frame End" Offset="2C" />
+		<_38 Name="Proximity Object" Offset="30" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
+		<_14 Name="Radius" Offset="88" />
+	</_15844653EE5B1B4D3C92C29FA416728E>
+	<_CA50410A1110D0DE497B8472B08265D1 Name="ComposerAlembicAnimation" Size="40">
+		<_41 Name="Animation Source" Offset="0" Allowed="abc*" Flags="9" />
+		<_A Name="ABC Animation Type" Offset="1C" StructName1="AnimationType">
+			<Flag n="Base" />
+			<Flag n="Base + Txy motion type" />
+			<Flag n="Base + Txy,Yaw motion type" />
+			<Flag n="Base + Txyz,Yaw motion type" />
+			<Flag n="Base + Txyz,AngleAxis motion type" />
+			<Flag n="Base + Full motion type" />
+			<Flag n="Base + No motion type" />
+			<Flag n="Overlay" />
+			<Flag n="Overlay Additive - Pose" />
+			<Flag n="Replacement" />
+		</_A>
+		<_A Name="ABC Compression Type" Offset="1D" StructName1="AnimationCompressionType">
+			<Flag n="Auto" />
+			<Flag n="None" />
+			<Flag n="Medium" />
+			<Flag n="Rough" />
+			<Flag n="Light" />
+			<Flag n="ACL Auto" />
+		</_A>
+		<_34 Name="generated_padbc6d" Offset="1E" Length="2" />
+		<_6 Name="Weight" Offset="20" />
+		<_41 Name="generatedModelAnimationInternal" Offset="24" Allowed="jmad" Flags="2" />
+	</_CA50410A1110D0DE497B8472B08265D1>
+	<_DFF445FB3825778F3C2778D69ADF8834 Name="ComposerAnimatedMesh" Size="8">
+		<_2 Name="Name" Offset="0" />
+		<_6 Name="Weight" Offset="4" />
+	</_DFF445FB3825778F3C2778D69ADF8834>
+	<_42C6497915C839FF36B6CF01AF1362E0 Name="SubTracksReference" Size="1C">
+		<_41 Name="SubTracks Reference" Offset="0" Allowed="subt" Flags="0" />
+	</_42C6497915C839FF36B6CF01AF1362E0>
+	<_7F1C4780264DF9BB71FF6F5FA7DB2794 Name="ComposerSubTrack" Size="304">
+		<_2 Name="Name" Offset="0" />
+		<_3E Name="Color" Offset="4" />
+		<_A Name="Category" Offset="8" StructName1="ComposerSubActionCategoryEnum">
+			<Flag n="General" />
+			<Flag n="Lighting" />
+			<Flag n="Effects" />
+			<Flag n="Audio" />
+		</_A>
+		<_34 Name="generated_padbc0b" Offset="9" Length="3" />
+		<_40 Name="SubActions" type="slap" Offset="C" GUID="E81D442CDC2099935EBF54F8926F9C86" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Editor SubActions" type="slap" Offset="20" GUID="A2C64F1973035674D76285A1A8836607" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Points" type="slap" Offset="34" GUID="ABCD418157193946B55A423CBDCB8A26" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Branches" type="slap" Offset="48" GUID="BF274519453617F742B46D5493AC4F44" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Dialog" type="slap" Offset="5C" GUID="19D7432DF658181159CE766E84364339" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Subtitles" type="slap" Offset="70" GUID="9E3042F001B162DE3424C697B4DA0722" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Effects" type="slap" Offset="84" GUID="B1754F87A3550DC63ED4476AA5A08188" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Lens Flares" type="slap" Offset="98" GUID="E4AC4396172A70BFA615FD648A327AD9" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Lights" type="slap" Offset="AC" GUID="77B3483399B9AA41DACA67F9BD9D6D4B" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Clip Planes" type="slap" Offset="C0" GUID="78C5417BA0B7BDCCB62F63E1851C6291" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Functions" type="slap" Offset="D4" GUID="29414CC5DF6FD1BDEC7A9277917F1956" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Function Curves" type="slap" Offset="E8" GUID="DF7D48BE270765B0304FE43887C2B109" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Input Constraints" type="slap" Offset="FC" GUID="485D4D8C44E22C9426E282FA93C1722F" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Generic SubActions" type="slap" Offset="110" GUID="F7364F77CAED71028AF341CA98078501" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Object SubActions" type="slap" Offset="124" GUID="8D4D483948D4D4834D4839F5D4D4839F" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Value SubActions" type="slap" Offset="138" GUID="2D434CDFEE632FA9B204D957ACBD8CBE" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Camera Fade Screens" type="slap" Offset="14C" GUID="17F54C030AD8D053A6721E928234A4EC" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Camera Trigger SubActions" type="slap" Offset="160" GUID="774F41E7273AB11976D5048DAEB21C6F" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Scripts" type="slap" Offset="174" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" StructName1="ComposerSubTrack" Min="0" Max="10000" />
+		<_40 Name="UI Scenes" type="slap" Offset="188" GUID="6DDDEDE0B6374CC1D6DA4B7DAC65AFA4" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="NodeGraph Events" type="slap" Offset="19C" GUID="2F53AD560010758093BEADDF8AF7D50C" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Game Engine Vignette Events" type="slap" Offset="1B0" GUID="F894433EA43307FC5462069689993965" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Camera Lens Dirt" type="slap" Offset="1C4" GUID="19BF4CDEACAF71EF36460564A417A7F1" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Transform SubActions" type="slap" Offset="1D8" GUID="980B485C272FF5E74B118398A4471E11" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Transform Curve SubActions" type="slap" Offset="1EC" GUID="70C5491BD8500E27826FE0DEA5717F8D" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Generic AI SubActions" type="slap" Offset="200" GUID="99BE4B7406D06A3C164EC4E5B4741714" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="IK Influencer SubActions" type="slap" Offset="214" GUID="E4C441DD61C92206FDA5FF70A34D35DF" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Camera DOF Curve SubActions" type="slap" Offset="228" GUID="B7804BA5DEC326CBBCA2500598D71B66" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Script Curves SubActions" type="slap" Offset="23C" GUID="2E9D46C479DEEFA1F130B25CA006D263" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Puppet Variant SubActions" type="slap" Offset="250" GUID="1D9F440845EB9B2E974729E28FA4A84A" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Color RGBA SubActions" type="slap" Offset="264" GUID="BD474D38E79070740B32FD2DA4347862" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Cubemap Volume SubActions" type="slap" Offset="278" GUID="3242495522C6701CC57416B4B394A795" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="DWS State SubActions" type="slap" Offset="28C" GUID="44194AAC4F771E8CAEE8CA0B8FC866A7" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="DWS Color Grading SubActions" type="slap" Offset="2A0" GUID="59F14192778BF20B42BCE9E68D8E844D" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="DWS Chromatic Aberration SubActions" type="slap" Offset="2B4" GUID="E57B42876B99C2DCB52D3FBDB1B3A8DC" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Rumble SubActions" type="slap" Offset="2C8" GUID="9AA145E61C474EC9FC81A00BBB916FF7" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Camera Shake SubActions" type="slap" Offset="2DC" GUID="F8924C649CF20F6FF398D15DA3990584" StructName1="ComposerSubTrack" Min="0" Max="512" />
+		<_40 Name="Weapon Action SubActions" type="slap" Offset="2F0" GUID="AAFB482F4C83DED1C1D8BF6E87F92198" StructName1="ComposerSubTrack" Min="0" Max="512" />
+	</_7F1C4780264DF9BB71FF6F5FA7DB2794>
+	<_74CD408B46801A205A4D308A98F8BDBC Name="GuidByte" Size="1">
+		<_3C Name="Byte Value" Offset="0" />
+	</_74CD408B46801A205A4D308A98F8BDBC>
+	<_F87643B7908D235027669B07968E32EE Name="LevelObjectReference" Size="18">
+		<_40 Name="path" Offset="0" GUID="689849540174FB9326701C02A42ED2BF" StructName1="LevelObjectReference" Min="0" Max="256" />
+		<_6 Name="guid" Offset="14" />
+	</_F87643B7908D235027669B07968E32EE>
+	<_76144B6AE05BBD5164A56C16BD5CC07A Name="i343::Curve::AnimatedCurve1d" Size="44">
+		<_2 Name="Name" Offset="0" />
+		<_F Name="Flags" Offset="4" StructName1="i343::Curve::AnimatedCurveFlags">
+			<Flag n="Enabled" />
+			<Flag n="Visible" />
+		</_F>
+		<_34 Name="generated_pad94fd" Offset="5" Length="3" />
+		<_38 Name="Value Curve" Offset="8" GUID="0F9747AA89121CCE609267FD9685FC92" />
+		<_40 Name="AnimatedCurveMetadata" Offset="1C" GUID="3F964DDA0953303E62C6151BBBD199AE" StructName1="i343::Curve::AnimatedCurve1d" Min="0" Max="1024" />
+		<_40 Name="EditorCurveProperties" Offset="30" GUID="7E334986D2CF3A61A27890EAA945BBF5" StructName1="i343::Curve::AnimatedCurve1d" Min="0" Max="1" />
+	</_76144B6AE05BBD5164A56C16BD5CC07A>
+	<_A84F4568E09F9B71A572B4259829AFF1 Name="i343::Narrative::StringAndSpring" Size="10">
+		<_A Name="Curve Type" Offset="0" StructName1="i343::Curve::CurveBuiltIn">
+			<Flag n="None" />
+			<Flag n="Linear" />
+			<Flag n="Zero" />
+			<Flag n="One" />
+			<Flag n="EaseInQuad" />
+			<Flag n="EaseOutQuad" />
+			<Flag n="EaseInOutQuad" />
+			<Flag n="EaseInCubic" />
+			<Flag n="EaseOutCubic" />
+			<Flag n="EaseInOutCubic" />
+			<Flag n="EaseInQuart" />
+			<Flag n="EaseOutQuart" />
+			<Flag n="EaseInOutQuart" />
+			<Flag n="EaseInQuint" />
+			<Flag n="EaseOutQuint" />
+			<Flag n="EaseInOutQuint" />
+			<Flag n="EaseInSine" />
+			<Flag n="EaseOutSine" />
+			<Flag n="EaseInOutSine" />
+			<Flag n="EaseInExpo" />
+			<Flag n="EaseOutExpo" />
+			<Flag n="EaseInOutExpo" />
+			<Flag n="EaseInCirc" />
+			<Flag n="EaseOutCirc" />
+			<Flag n="EaseInOutCirc" />
+			<Flag n="EaseInOutLight" />
+			<Flag n="EaseInOutHeavy" />
+		</_A>
+		<_34 Name="generated_padc5da" Offset="1" Length="3" />
+		<_2 Name="Curve Name" Offset="4" />
+		<_3C Name="Dampen Percentage" Offset="8" />
+		<_34 Name="generated_pad128f" Offset="9" Length="3" />
+		<_14 Name="Dampen Time" Offset="C" />
+	</_A84F4568E09F9B71A572B4259829AFF1>
+	<_E81D442CDC2099935EBF54F8926F9C86 Name="ComposerSubAction" Size="D4">
+		<_C Name="Type" Offset="0" StructName1="ComposerSubActionTypeEnum">
+			<Flag n="Branch" />
+			<Flag n="Look At" />
+			<Flag n="Face" />
+			<Flag n="Shoot At" />
+			<Flag n="Effect" />
+			<Flag n="Script" />
+			<Flag n="Clip Plane" />
+			<Flag n="Function" />
+			<Flag n="Function Curve" />
+			<Flag n="Input Constraint" />
+			<Flag n="Dialog" />
+			<Flag n="Sound" />
+			<Flag n="Screen Effect" />
+			<Flag n="Texture Movie" />
+			<Flag n="Custom Lighting" />
+			<Flag n="Atmosphere Fog" />
+			<Flag n="Camera FX Settings" />
+			<Flag n="Cubemap" />
+			<Flag n="Environment Darken" />
+			<Flag n="Exposure" />
+			<Flag n="Static Scalar" />
+			<Flag n="DWS State" />
+			<Flag n="Analytic Scalar" />
+			<Flag n="Light" />
+			<Flag n="Hologram Lighting" />
+			<Flag n="Aim At" />
+			<Flag n="Effect Object" />
+			<Flag n="Title" />
+			<Flag n="UI Scene" />
+			<Flag n="NodeGraph Event" />
+			<Flag n="Subtitle" />
+			<Flag n="Camera Trigger" />
+			<Flag n="Game Engine Vignette Event" />
+			<Flag n="Sound Object" />
+			<Flag n="Light Cone" />
+			<Flag n="Color Grading" />
+			<Flag n="HDR Color Grading" />
+			<Flag n="Camera Lens Dirt" />
+			<Flag n="Transform" />
+			<Flag n="Throw Grenade" />
+			<Flag n="Crouch" />
+			<Flag n="Melee" />
+			<Flag n="Smash" />
+			<Flag n="Die" />
+			<Flag n="Lens Flare Object" />
+			<Flag n="Lens Flare" />
+			<Flag n="IK Influencer" />
+			<Flag n="Transform Curve" />
+			<Flag n="Camera DOF Curve" />
+			<Flag n="Script Curves" />
+			<Flag n="Puppet Variant" />
+			<Flag n="Camera Fade Screen" />
+			<Flag n="Vehicle Int Indirect Tint" />
+			<Flag n="Vehicle Int Cubemap Tint" />
+			<Flag n="DWS Exposure Offset" />
+			<Flag n="DWS Bloom Highlight Offset" />
+			<Flag n="DWS Bounce Lighting Tint" />
+			<Flag n="DWS Sky Lighting Tint" />
+			<Flag n="DWS Cubemap Tint" />
+			<Flag n="DWS Cubemap Tint Intensity" />
+			<Flag n="DWS Sun Intensity EV Scalar" />
+			<Flag n="DWS Exposure Lock" />
+			<Flag n="DWS Color Grading" />
+			<Flag n="DWS Chromatic Aberration" />
+			<Flag n="Object" />
+			<Flag n="Rumble" />
+			<Flag n="Camera Shake" />
+			<Flag n="Weapon Action" />
+			<Flag n="Cubemap Volume" />
+		</_C>
+		<_A Name="Start Type" Offset="4" StructName1="ComposerTimeTypeEnum">
+			<Flag n="Offset From Start" />
+			<Flag n="Offset From End" />
+			<Flag n="Condition" />
+		</_A>
+		<_A Name="End Type" Offset="5" StructName1="ComposerTimeTypeEnum">
+			<Flag n="Offset From Start" />
+			<Flag n="Offset From End" />
+			<Flag n="Condition" />
+		</_A>
+		<_5 Name="Data Index" Offset="6" />
+		<_6 Name="Start Action" Offset="8" />
+		<_6 Name="Start Offset" Offset="C" />
+		<_38 Name="Start Condition Script" Offset="10" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" />
+		<_38 Name="End Condition Script" Offset="6C" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" />
+		<_6 Name="End Action" Offset="C8" />
+		<_6 Name="End Offset" Offset="CC" />
+		<_F Name="SubAction Flags" Offset="D0" StructName1="ComposerSubactionFlags">
+			<Flag n="Must Run On Skip" />
+			<Flag n="First Loop Only" />
+			<Flag n="Avoid Loop Interruption" />
+		</_F>
+		<_34 Name="generated_pad6d2e" Offset="D1" Length="3" />
+	</_E81D442CDC2099935EBF54F8926F9C86>
+	<_A2C64F1973035674D76285A1A8836607 Name="ComposerEditorSubAction" Size="170">
+		<_1 Name="Comment" Offset="0" />
+		<_3E Name="Color" Offset="100" />
+		<_3C Name="SubTrack" Offset="104" />
+		<_F Name="Editor Flags" Offset="105" StructName1="ComposerEditorFlags">
+			<Flag n="Muted" />
+			<Flag n="Expanded" />
+			<Flag n="Imported" />
+			<Flag n="Playing" />
+			<Flag n="Recording" />
+			<Flag n="Hidden" />
+			<Flag n="HasTrailingEmptyAction" />
+		</_F>
+		<_34 Name="generated_pad8687" Offset="106" Length="2" />
+		<_37 Name="Start Condition Script" type="fgrb" Offset="108" />
+		<_38 Name="Start Condition Script" Offset="108" GUID="81B947E15541B078F73A4C89AB7BBE21" />
+		<_37 Name="" type="fgre" Offset="124" />
+		<_37 Name="End Condition Script" type="fgrb" Offset="124" />
+		<_38 Name="End Condition Script" Offset="124" GUID="81B947E15541B078F73A4C89AB7BBE21" />
+		<_37 Name="" type="fgre" Offset="140" />
+		<_37 Name="Custom Script" type="fgrb" Offset="140" />
+		<_38 Name="Custom Script" Offset="140" GUID="81B947E15541B078F73A4C89AB7BBE21" />
+		<_37 Name="" type="fgre" Offset="15C" />
+		<_40 Name="Branch Scripts" type="slap" Offset="15C" GUID="81B947E15541B078F73A4C89AB7BBE21" StructName1="ComposerEditorSubAction" Min="0" Max="10000" />
+	</_A2C64F1973035674D76285A1A8836607>
+	<_ABCD418157193946B55A423CBDCB8A26 Name="SubActionPoint" Size="78">
+		<_F Name="Flags" Offset="0" StructName1="SubActionFlags">
+			<Flag n="Unattached" />
+		</_F>
+		<_34 Name="generated_pad00d4" Offset="1" Length="3" />
+		<_37 Name="Point" type="fgrb" Offset="4" />
+		<_38 Name="Point" Offset="4" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
+		<_37 Name="" type="fgre" Offset="5C" />
+		<_41 Name="Asset" Offset="5C" Allowed="lsnd, snd!, musc" Flags="0" />
+	</_ABCD418157193946B55A423CBDCB8A26>
+	<_BF274519453617F742B46D5493AC4F44 Name="SubActionBranch" Size="18">
+		<_40 Name="Elements" Offset="0" GUID="75CC4E195A1E6C2934C7E695865E4E47" StructName1="SubActionBranch" Min="0" Max="8" />
+		<_5 Name="Check Rate" Offset="14" />
+		<_34 Name="generated_padb7d8" Offset="16" Length="2" />
+	</_BF274519453617F742B46D5493AC4F44>
+	<_19D7432DF658181159CE766E84364339 Name="SubActionDialog" Size="4C">
+		<_36 Name="Dialog Sub-Action information" Offset="0" />
+		<_40 Name="Dialogs" Offset="0" GUID="BC1D472DD8D8CC1564FC4B2FA1D92FBA" StructName1="SubActionDialog" Min="0" Max="8" />
+		<_38 Name="Subject" Offset="14" GUID="DB114656C96CA9B0B831C0C987618570" />
+	</_19D7432DF658181159CE766E84364339>
+	<_9E3042F001B162DE3424C697B4DA0722 Name="SubActionSubtitle" Size="8">
+		<_2 Name="Subtitle" Offset="0" />
+		<_2 Name="Character" Offset="4" />
+	</_9E3042F001B162DE3424C697B4DA0722>
+	<_B1754F87A3550DC63ED4476AA5A08188 Name="SubActionEffect" Size="84">
+		<_36 Name="Effect Sub-Action information" Offset="0" />
+		<_F Name="Flags" Offset="0" StructName1="ComposerEffectFlags">
+			<Flag n="Loop" />
+			<Flag n="Kill" />
+			<Flag n="Attach" />
+			<Flag n="Attach To Camera" />
+			<Flag n="Pin Effect" />
+		</_F>
+		<_34 Name="generated_pad6b33" Offset="1" Length="3" />
+		<_41 Name="Effect" Offset="4" Allowed="effe" Flags="0" />
+		<_37 Name="Point" type="fgrb" Offset="20" />
+		<_38 Name="Point" Offset="20" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
+		<_37 Name="" type="fgre" Offset="78" />
+		<_14 Name="Scale" Offset="78" />
+		<_2 Name="Function A" Offset="7C" />
+		<_2 Name="Function B" Offset="80" />
+	</_B1754F87A3550DC63ED4476AA5A08188>
+	<_E4AC4396172A70BFA615FD648A327AD9 Name="SubActionLensFlare" Size="7C">
+		<_41 Name="Lens Flare" Offset="0" Allowed="lens" Flags="0" />
+		<_37 Name="Point" type="fgrb" Offset="1C" />
+		<_38 Name="Point" Offset="1C" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
+		<_37 Name="" type="fgre" Offset="74" />
+		<_2 Name="Function" Offset="74" />
+		<_F Name="Flags" Offset="78" StructName1="ComposerLensFlareFlags">
+			<Flag n="Attach" />
+		</_F>
+		<_34 Name="generated_pad13c6" Offset="79" Length="3" />
+	</_E4AC4396172A70BFA615FD648A327AD9>
+	<_77B3483399B9AA41DACA67F9BD9D6D4B Name="SubActionLight" Size="1E4">
+		<_38 Name="Light" Offset="0" GUID="F87643B7908D235027669B07968E32EE" />
+		<_2 Name="Light Name" Offset="18" />
+		<_6 Name="Light Guid" Offset="1C" />
+		<_40 Name="Linked Objects" Offset="20" GUID="DB114656C96CA9B0B831C0C987618570" StructName1="SubActionLight" Min="0" Max="16" />
+		<_38 Name="Transform Curve" Offset="34" GUID="609D4427E8A081058FA4DFFD8D5A5013" />
+		<_F Name="Curves" Offset="1C8" StructName1="ComposerLightCurveFlags">
+			<Flag n="IntensityScalar" />
+			<Flag n="Color" />
+			<Flag n="NearAttenuation" />
+			<Flag n="FarAttenuation" />
+			<Flag n="InnerConeAngle" />
+			<Flag n="OuterConeAngle" />
+			<Flag n="DimmerValue" />
+			<Flag n="OverrideSourceIntensityMultiplier" />
+		</_F>
+		<_34 Name="generated_pad018e" Offset="1C9" Length="3" />
+		<_40 Name="Curve List" Offset="1CC" GUID="36984D8B0310C6CE79E90C21A48A1D61" StructName1="SubActionLight" Min="0" Max="255" />
+		<_F Name="Light Flags" Offset="1E0" StructName1="SubActionLightFlags">
+			<Flag n="Persist Values" />
+		</_F>
+		<_34 Name="generated_pad4e43" Offset="1E1" Length="3" />
+	</_77B3483399B9AA41DACA67F9BD9D6D4B>
+	<_78C5417BA0B7BDCCB62F63E1851C6291 Name="SubActionClipPlane" Size="2C">
+		<_17 Name="Plane Center" Offset="0" />
+		<_17 Name="Plane Direction" Offset="C" />
+		<_40 Name="Subjects" type="slap" Offset="18" GUID="DB114656C96CA9B0B831C0C987618570" StructName1="SubActionClipPlane" Min="0" Max="16" />
+	</_78C5417BA0B7BDCCB62F63E1851C6291>
+	<_29414CC5DF6FD1BDEC7A9277917F1956 Name="SubActionFunction" Size="20">
+		<_36 Name="Function Sub-Action information" Offset="0" />
+		<_F Name="Flags" Offset="0" StructName1="ComposerFunctionFlags">
+			<Flag n="Clear Value At End" />
+			<Flag n="Global" />
+		</_F>
+		<_34 Name="generated_pade2ec" Offset="1" Length="3" />
+		<_2 Name="Function Name" Offset="4" />
+		<_38 Name="Function" Offset="8" GUID="2AA94534384EBA004A23EF26AD11D043" />
+	</_29414CC5DF6FD1BDEC7A9277917F1956>
+	<_DF7D48BE270765B0304FE43887C2B109 Name="SubActionFunctionCurve" Size="48">
+		<_36 Name="Function Sub-Action information" Offset="0" />
+		<_F Name="Flags" Offset="0" StructName1="ComposerFunctionFlags">
+			<Flag n="Clear Value At End" />
+			<Flag n="Global" />
+		</_F>
+		<_34 Name="generated_pade687" Offset="1" Length="3" />
+		<_38 Name="Curve" Offset="4" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+	</_DF7D48BE270765B0304FE43887C2B109>
+	<_485D4D8C44E22C9426E282FA93C1722F Name="SubActionUserInputConstraints" Size="8">
+		<_11 Name="Maximum Look Angles" Offset="0" />
+		<_14 Name="Frictional Force" Offset="4" />
+	</_485D4D8C44E22C9426E282FA93C1722F>
+	<_F7364F77CAED71028AF341CA98078501 Name="SubActionGeneric" Size="20">
+		<_41 Name="Asset" Offset="0" Allowed="lsnd, snd!, musc, sefc, bink, fogg, cfxs, bitm, colt, holt" Flags="0" />
+		<_6 Name="Blend Frames" Offset="1C" />
+	</_F7364F77CAED71028AF341CA98078501>
+	<_8D4D483948D4D4834D4839F5D4D4839F Name="SubActionObject" Size="1E8">
+		<_38 Name="Subject" Offset="0" GUID="DB114656C96CA9B0B831C0C987618570" />
+		<_6 Name="Object Guid" Offset="38" />
+		<_38 Name="Transform Curve" Offset="3C" GUID="609D4427E8A081058FA4DFFD8D5A5013" />
+		<_F Name="Flags" Offset="1D0" StructName1="SubActionObjectFlags">
+			<Flag n="Create If Missing" />
+			<Flag n="Destroy When Finished" />
+			<Flag n="Pin Effects" />
+			<Flag n="Hide On End" />
+			<Flag n="Keep Enabled When Finished" />
+		</_F>
+		<_F Name="Curves" Offset="1D1" StructName1="ComposerSubActionObjectCurveFlags">
+			<Flag n="LightConeIntensity" />
+			<Flag n="LightConeColor" />
+		</_F>
+		<_34 Name="generated_pad69f5" Offset="1D2" Length="2" />
+		<_40 Name="Curve List" Offset="1D4" GUID="36984D8B0310C6CE79E90C21A48A1D61" StructName1="SubActionObject" Min="0" Max="255" />
+	</_8D4D483948D4D4834D4839F5D4D4839F>
+	<_2D434CDFEE632FA9B204D957ACBD8CBE Name="SubActionValue" Size="50">
+		<_A Name="Type" Offset="0" StructName1="SubActionValueTypeEnum">
+			<Flag n="Linear" />
+			<Flag n="Constant" />
+			<Flag n="Curve" />
+		</_A>
+		<_34 Name="generated_pad0885" Offset="1" Length="3" />
+		<_14 Name="Start Value" Offset="4" />
+		<_14 Name="End Value" Offset="8" />
+		<_38 Name="Value Curve" Offset="C" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+	</_2D434CDFEE632FA9B204D957ACBD8CBE>
+	<_17F54C030AD8D053A6721E928234A4EC Name="SubActionCameraFadeScreen" Size="54">
+		<_F Name="Fade Screen Flags" Offset="0" StructName1="ComposerCameraFadeScreenFlags">
+			<Flag n="Clear Fade At End" />
+			<Flag n="Preserve Fade After Level Load" />
+		</_F>
+		<_34 Name="generated_pad8ae3" Offset="1" Length="3" />
+		<_1F Name="Fade Color" Offset="4" />
+		<_38 Name="Fade Curve" Offset="10" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+	</_17F54C030AD8D053A6721E928234A4EC>
+	<_774F41E7273AB11976D5048DAEB21C6F Name="SubActionCameraTrigger" Size="1">
+		<_F Name="Flags" Offset="0" StructName1="SubActionCameraTriggerFlags">
+			<Flag n="First Person Perspective" />
+			<Flag n="Ready Weapon Immediately" />
+			<Flag n="Offset First Person Hands for Blend Out" />
+			<Flag n="Animated Arms" />
+		</_F>
+	</_774F41E7273AB11976D5048DAEB21C6F>
+	<_6DDDEDE0B6374CC1D6DA4B7DAC65AFA4 Name="SubActionUIScene" Size="90">
+		<_F Name="Flags" Offset="0" StructName1="ComposerUISceneFlags">
+			<Flag n="Attach" />
+			<Flag n="Render 2D" />
+			<Flag n="Render on display plane (1080p)" />
+		</_F>
+		<_34 Name="generated_pad2864" Offset="1" Length="3" />
+		<_41 Name="UI Scene" Offset="4" Allowed="ngst" Flags="0" />
+		<_37 Name="Point" type="fgrb" Offset="20" />
+		<_38 Name="Point" Offset="20" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
+		<_37 Name="" type="fgre" Offset="78" />
+		<_14 Name="Scale" Offset="78" />
+		<_40 Name="Player Data" type="slap" Offset="7C" GUID="57604CD98E2771A3CEDBF513B65ED4B6" StructName1="SubActionUIScene" Min="0" Max="1" />
+	</_6DDDEDE0B6374CC1D6DA4B7DAC65AFA4>
+	<_2F53AD560010758093BEADDF8AF7D50C Name="SubActionNodeGraphEvent" Size="8">
+		<_2 Name="Event Name" Offset="0" />
+		<_F Name="Flags" Offset="4" StructName1="ComposerNodeGraphEventFlags">
+			<Flag n="Global Event" />
+		</_F>
+		<_34 Name="generated_pad5d68" Offset="5" Length="3" />
+	</_2F53AD560010758093BEADDF8AF7D50C>
+	<_F894433EA43307FC5462069689993965 Name="SubActionGameEngineVignetteEvent" Size="4">
+		<_2 Name="Event Name" Offset="0" />
+	</_F894433EA43307FC5462069689993965>
+	<_19BF4CDEACAF71EF36460564A417A7F1 Name="SubActionCameraLensDirt" Size="24">
+		<_14 Name="Intensity" Offset="0" />
+		<_41 Name="Dirt Texture" Offset="4" Allowed="bitm" Flags="0" />
+		<_A Name="Dirt Type" Offset="20" StructName1="CameraLensDirt::DirtType">
+			<Flag n="Apply at bloom res" />
+			<Flag n="Apply at full res" />
+		</_A>
+		<_34 Name="generated_pad40de" Offset="21" Length="3" />
+	</_19BF4CDEACAF71EF36460564A417A7F1>
+	<_980B485C272FF5E74B118398A4471E11 Name="SubActionTransform" Size="CC">
+		<_F Name="Flags" Offset="0" StructName1="SubActionTransformFlags">
+			<Flag n="Position" />
+			<Flag n="Rotation" />
+			<Flag n="Scale" />
+		</_F>
+		<_34 Name="generated_pad6ca2" Offset="1" Length="3" />
+		<_37 Name="Point 1" type="fgrb" Offset="4" />
+		<_38 Name="Point 1" Offset="4" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
+		<_37 Name="" type="fgre" Offset="5C" />
+		<_37 Name="Point 2" type="fgrb" Offset="5C" />
+		<_38 Name="Point 2" Offset="5C" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
+		<_37 Name="" type="fgre" Offset="B4" />
+		<_38 Name="Mapping" Offset="B4" GUID="0276481E72CB9289F56D7C189467A351" />
+	</_980B485C272FF5E74B118398A4471E11>
+	<_70C5491BD8500E27826FE0DEA5717F8D Name="SubActionTransformCurve" Size="194">
+		<_38 Name="Transform Curve" Offset="0" GUID="609D4427E8A081058FA4DFFD8D5A5013" />
+	</_70C5491BD8500E27826FE0DEA5717F8D>
+	<_99BE4B7406D06A3C164EC4E5B4741714 Name="SubActionGenericAI" Size="60">
+		<_37 Name="Point" type="fgrb" Offset="0" />
+		<_38 Name="Point" Offset="0" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
+		<_37 Name="" type="fgre" Offset="58" />
+		<_14 Name="Scalar" Offset="58" />
+		<_3D Name="Flags" Offset="5C" />
+		<_34 Name="generated_pade30f" Offset="5E" Length="2" />
+	</_99BE4B7406D06A3C164EC4E5B4741714>
+	<_E4C441DD61C92206FDA5FF70A34D35DF Name="SubActionIKInfluencer" Size="68">
+		<_37 Name="Target" type="fgrb" Offset="0" />
+		<_38 Name="IK Target" Offset="0" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
+		<_37 Name="" type="fgre" Offset="58" />
+		<_2 Name="Chain Name" Offset="58" />
+		<_14 Name="Weight" Offset="5C" />
+		<_14 Name="Current Influence Scale" Offset="60" />
+		<_14 Name="Influence Priority" Offset="64" />
+	</_E4C441DD61C92206FDA5FF70A34D35DF>
+	<_B7804BA5DEC326CBBCA2500598D71B66 Name="SubActionCameraDOFCurve" Size="B8">
+		<_38 Name="Camera DOF Curve" Offset="0" GUID="23494D45B3AA945038C2CB038683B2FB" />
+		<_6 Name="Bokeh Side Count" Offset="B4" />
+	</_B7804BA5DEC326CBBCA2500598D71B66>
+	<_2E9D46C479DEEFA1F130B25CA006D263 Name="SubActionScriptCurves" Size="16C">
+		<_38 Name="Script" Offset="0" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" />
+		<_38 Name="script_curve_value_1" Offset="5C" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+		<_38 Name="script_curve_value_2" Offset="A0" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+		<_38 Name="script_curve_value_3" Offset="E4" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+		<_38 Name="script_curve_value_4" Offset="128" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+	</_2E9D46C479DEEFA1F130B25CA006D263>
+	<_1D9F440845EB9B2E974729E28FA4A84A Name="SubActionPuppetVariant" Size="8">
+		<_2 Name="Variant Name" Offset="0" />
+		<_2 Name="Style Id" Offset="4" />
+	</_1D9F440845EB9B2E974729E28FA4A84A>
+	<_BD474D38E79070740B32FD2DA4347862 Name="SubActionColorRgba" Size="134">
+		<_A Name="Type" Offset="0" StructName1="SubActionValueTypeEnum">
+			<Flag n="Linear" />
+			<Flag n="Constant" />
+			<Flag n="Curve" />
+		</_A>
+		<_34 Name="generated_padc5f1" Offset="1" Length="3" />
+		<_14 Name="Red Start Value" Offset="4" />
+		<_14 Name="Red End Value" Offset="8" />
+		<_14 Name="Green Start Value" Offset="C" />
+		<_14 Name="Green End Value" Offset="10" />
+		<_14 Name="Blue Start Value" Offset="14" />
+		<_14 Name="Blue End Value" Offset="18" />
+		<_14 Name="Alpha Start Value" Offset="1C" />
+		<_14 Name="Alpha End Value" Offset="20" />
+		<_38 Name="Red Curve" Offset="24" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+		<_38 Name="Green Curve" Offset="68" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+		<_38 Name="Blue Curve" Offset="AC" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+		<_38 Name="Alpha Curve" Offset="F0" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+	</_BD474D38E79070740B32FD2DA4347862>
+	<_3242495522C6701CC57416B4B394A795 Name="SubActionCubemapVolume" Size="60">
+		<_A Name="State" Offset="0" StructName1="ComposerCubemapVolumeStateEnum">
+			<Flag n="On" />
+			<Flag n="Off" />
+		</_A>
+		<_34 Name="generated_pad03b7" Offset="1" Length="3" />
+		<_38 Name="Cubemap Volume" Offset="4" GUID="F87643B7908D235027669B07968E32EE" />
+		<_38 Name="Fade Curve" Offset="1C" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+	</_3242495522C6701CC57416B4B394A795>
+	<_44194AAC4F771E8CAEE8CA0B8FC866A7 Name="SubActionDwsState" Size="1C">
+		<_A Name="DWS State" Offset="0" StructName1="ComposerDwsStateTypeEnum">
+			<Flag n="Push for duration" />
+			<Flag n="Pop for duration" />
+			<Flag n="Push (persist after Composition ends)" />
+			<Flag n="Pop (persist after Composition ends)" />
+		</_A>
+		<_34 Name="generated_pad1c61" Offset="1" Length="3" />
+		<_2 Name="Event List Name" Offset="4" />
+		<_2 Name="Target State" Offset="8" />
+		<_14 Name="Start Interpolation Time" Offset="C" />
+		<_6 Name="Start Steps" Offset="10" />
+		<_14 Name="End Interpolation Time" Offset="14" />
+		<_6 Name="End Steps" Offset="18" />
+	</_44194AAC4F771E8CAEE8CA0B8FC866A7>
+	<_59F14192778BF20B42BCE9E68D8E844D Name="SubActionDwsColorGrading" Size="5C">
+		<_E Name="Curves" Offset="0" StructName1="ComposerDwsColorGradingCurveFlags">
+			<Flag n="Weight" />
+			<Flag n="Exposure" />
+			<Flag n="Saturation" />
+			<Flag n="Contrast" />
+			<Flag n="ContrastMidpoint" />
+			<Flag n="Lift" />
+			<Flag n="LiftLuma" />
+			<Flag n="Gamma" />
+			<Flag n="GammaLuma" />
+			<Flag n="Gain" />
+			<Flag n="GainLuma" />
+		</_E>
+		<_34 Name="generated_padc74f" Offset="2" Length="2" />
+		<_40 Name="Curve List" Offset="4" GUID="36984D8B0310C6CE79E90C21A48A1D61" StructName1="SubActionDwsColorGrading" Min="0" Max="255" />
+		<_38 Name="Blending Curve" Offset="18" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+	</_59F14192778BF20B42BCE9E68D8E844D>
+	<_E57B42876B99C2DCB52D3FBDB1B3A8DC Name="SubActionDwsChromaticAberration" Size="88">
+		<_38 Name="Weight" Offset="0" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+		<_38 Name="Blending Curve" Offset="44" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+	</_E57B42876B99C2DCB52D3FBDB1B3A8DC>
+	<_9AA145E61C474EC9FC81A00BBB916FF7 Name="SubActionRumble" Size="12C">
+		<_41 Name="Rumble Definition" Offset="0" Allowed="rmbl" Flags="0" />
+		<_37 Name="Rumble Curves" type="fgrb" Offset="1C" />
+		<_38 Name="Low Frequency Curve" Offset="1C" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+		<_38 Name="High Frequency Curve" Offset="60" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+		<_38 Name="Primary Trigger Curve" Offset="A4" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+		<_38 Name="Secondary Trigger Curve" Offset="E8" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+		<_37 Name="" type="fgre" Offset="12C" />
+	</_9AA145E61C474EC9FC81A00BBB916FF7>
+	<_F8924C649CF20F6FF398D15DA3990584 Name="SubActionCameraShake" Size="D4">
+		<_38 Name="Blending Curve" Offset="0" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+		<_38 Name="Camera Shake Properties" Offset="44" GUID="A8964476ED9D0FD26C6CBFABA8E1929A" />
+	</_F8924C649CF20F6FF398D15DA3990584>
+	<_AAFB482F4C83DED1C1D8BF6E87F92198 Name="SubActionWeaponAction" Size="2">
+		<_38 Name="Weapon Action" Offset="0" GUID="1155416DBCADDAF9D6D88C229B7C0C30" />
+	</_AAFB482F4C83DED1C1D8BF6E87F92198>
+	<_689849540174FB9326701C02A42ED2BF Name="LevelObjectReferenceElement" Size="8">
+		<_6 Name="guid" Offset="0" />
+		<_2 Name="name" Offset="4" />
+	</_689849540174FB9326701C02A42ED2BF>
+	<_0F9747AA89121CCE609267FD9685FC92 Name="i343::Curve::Curve1dDefinition" Size="14">
+		<_40 Name="control points" Offset="0" GUID="F01E43007DADE047C5A8963E807C1A31" StructName1="i343::Curve::Curve1dDefinition" Min="0" Max="1024" />
+	</_0F9747AA89121CCE609267FD9685FC92>
+	<_3F964DDA0953303E62C6151BBBD199AE Name="i343::Curve::AnimatedCurveMetadata" Size="4">
+		<_14 Name="time" Offset="0" />
+	</_3F964DDA0953303E62C6151BBBD199AE>
+	<_7E334986D2CF3A61A27890EAA945BBF5 Name="i343::Curve::EditorCurveProperties" Size="28">
+		<_40 Name="wizard settings" Offset="0" GUID="D0AC41A0CA658DFDF2105B8E8859B6F6" StructName1="i343::Curve::EditorCurveProperties" Min="0" Max="1" />
+		<_40 Name="Colors" Offset="14" GUID="2D4746EBEE69FC63B0BB44D695596FDB" StructName1="i343::Curve::EditorCurveProperties" Min="0" Max="3" />
+	</_7E334986D2CF3A61A27890EAA945BBF5>
+	<_75CC4E195A1E6C2934C7E695865E4E47 Name="ComposerBranchElement" Size="60">
+		<_6 Name="Target Action" Offset="0" />
+		<_38 Name="Condition Script" Offset="4" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" />
+	</_75CC4E195A1E6C2934C7E695865E4E47>
+	<_BC1D472DD8D8CC1564FC4B2FA1D92FBA Name="ComposerDialog" Size="80">
+		<_41 Name="Dialog" Offset="0" Allowed="snd!" Flags="8" />
+		<_6 Name="Weight" Offset="1C" />
+		<_14 Name="Scale" Offset="20" />
+		<_38 Name="Dialog Script" Offset="24" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" />
+	</_BC1D472DD8D8CC1564FC4B2FA1D92FBA>
+	<_609D4427E8A081058FA4DFFD8D5A5013 Name="TransformCurve" Size="194">
+		<_A Name="Translation Type" Offset="0" StructName1="TransformCurveTranslationTypeEnum">
+			<Flag n="Off" />
+			<Flag n="Curve" />
+			<Flag n="Point with Curve Offset" />
+		</_A>
+		<_A Name="Rotation Type" Offset="1" StructName1="TransformCurveRotationTypeEnum">
+			<Flag n="Off" />
+			<Flag n="Curve" />
+			<Flag n="Look At" />
+			<Flag n="Curve with Offset" />
+		</_A>
+		<_A Name="Scale Type" Offset="2" StructName1="TransformCurveScaleTypeEnum">
+			<Flag n="Off" />
+			<Flag n="Curve" />
+		</_A>
+		<_34 Name="generated_paddcfb" Offset="3" Length="1" />
+		<_38 Name="Translation Curve" Offset="4" GUID="A36A4B056D9A73A4F4171DECB18EE418" />
+		<_38 Name="Rotation Curve" Offset="30" GUID="A36A4B056D9A73A4F4171DECB18EE418" />
+		<_38 Name="Scale Curve" Offset="5C" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+		<_38 Name="Blend Curve" Offset="A0" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+		<_37 Name="Translation Point" type="fgrb" Offset="E4" />
+		<_38 Name="Translation Point" Offset="E4" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
+		<_37 Name="" type="fgre" Offset="13C" />
+		<_37 Name="Rotation Point" type="fgrb" Offset="13C" />
+		<_38 Name="Rotation Point" Offset="13C" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
+		<_37 Name="" type="fgre" Offset="194" />
+	</_609D4427E8A081058FA4DFFD8D5A5013>
+	<_36984D8B0310C6CE79E90C21A48A1D61 Name="i343::Curve::PropertyCurve" Size="16C">
+		<_2 Name="Name" Offset="0" />
+		<_A Name="Curve Type" Offset="4" StructName1="i343::Curve::CurveStructType">
+			<Flag n="AnimatedCurveType" />
+			<Flag n="Vector2dCurveType" />
+			<Flag n="Vector3dCurveType" />
+			<Flag n="DepthOfFieldCurveType" />
+			<Flag n="AnimatedCurve1dType" />
+			<Flag n="AnimatedCurve2dType" />
+			<Flag n="AnimatedCurve3dType" />
+		</_A>
+		<_34 Name="generated_pad711a" Offset="5" Length="3" />
+		<_38 Name="Animated Curve 2d" Offset="8" GUID="DBF64500377A35B8A8879E748EA2450E" />
+		<_38 Name="Animated Curve 3d" Offset="48" GUID="A36A4B056D9A73A4F4171DECB18EE418" />
+		<_38 Name="Depth of Field Curve" Offset="74" GUID="23494D45B3AA945038C2CB038683B2FB" />
+		<_38 Name="Animated Curve 1d" Offset="128" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
+	</_36984D8B0310C6CE79E90C21A48A1D61>
+	<_2AA94534384EBA004A23EF26AD11D043 Name="ScalarFunctionNameDefaultOne" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="4C5A4A1A9019ABA511FDA1ADAD1AF034" />
+	</_2AA94534384EBA004A23EF26AD11D043>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+	<_23494D45B3AA945038C2CB038683B2FB Name="i343::Curve::DepthOfFieldCurve" Size="B4">
+		<_F Name="Flags" Offset="0" StructName1="i343::Curve::DepthOfFieldCurve::CurveFlags">
+			<Flag n="Enabled" />
+			<Flag n="Visible" />
+		</_F>
+		<_34 Name="generated_pad134b" Offset="1" Length="3" />
+		<_38 Name="FocalLength" type="slap" Offset="4" GUID="94144B360D5BC689E3349147AF518ED1" />
+		<_38 Name="FocusDistance" type="slap" Offset="30" GUID="94144B360D5BC689E3349147AF518ED1" />
+		<_38 Name="FStop" type="slap" Offset="5C" GUID="94144B360D5BC689E3349147AF518ED1" />
+		<_38 Name="Gameplay FOV Blend" type="slap" Offset="88" GUID="94144B360D5BC689E3349147AF518ED1" />
+	</_23494D45B3AA945038C2CB038683B2FB>
+	<_A8964476ED9D0FD26C6CBFABA8E1929A Name="i343::Narrative::CageShakeProperties" Size="90">
+		<_38 Name="Scale Damping" Offset="0" GUID="69804F44DBE20A67639D16AE97058D1C" />
+		<_37 Name="Position" type="fgrb" Offset="10" />
+		<_19 Name="Position Sample Values" Offset="10" />
+		<_19 Name="Position Offset Scale" Offset="1C" />
+		<_18 Name="Position Offset Velocity Range" Offset="28" />
+		<_19 Name="Position Offset Velocity Scale Min" Offset="30" />
+		<_19 Name="Position Offset Velocity Scale Max" Offset="3C" />
+		<_18 Name="Position Time Velocity Scale" Offset="48" />
+		<_37 Name="" type="fgre" Offset="50" />
+		<_37 Name="Rotation" type="fgrb" Offset="50" />
+		<_19 Name="Rotation Sample Values" Offset="50" />
+		<_1C Name="Rotation Offset Scale" Offset="5C" />
+		<_18 Name="Rotation Offset Velocity Range" Offset="68" />
+		<_19 Name="Rotation Offset Velocity Scale Min" Offset="70" />
+		<_19 Name="Rotation Offset Velocity Scale Max" Offset="7C" />
+		<_18 Name="Rotation Time Velocity Scale" Offset="88" />
+		<_37 Name="" type="fgre" Offset="90" />
+	</_A8964476ED9D0FD26C6CBFABA8E1929A>
+	<_F01E43007DADE047C5A8963E807C1A31 Name="i343::Curve::Curve1dControlPoint" Size="14">
+		<_14 Name="value" Offset="0" />
+		<_14 Name="tangent in" Offset="4" />
+		<_14 Name="tangent out" Offset="8" />
+		<_14 Name="curviness" Offset="C" />
+		<_A Name="segment type" Offset="10" StructName1="i343::Curve::SegmentType">
+			<Flag n="Spline" />
+			<Flag n="Linear" />
+			<Flag n="Stepped" />
+			<Flag n="SteppedNext" />
+		</_A>
+		<_A Name="tangent mode" Offset="11" StructName1="i343::Curve::TangentMode">
+			<Flag n="AutoStraight" />
+			<Flag n="UserStraight" />
+			<Flag n="UserBroken" />
+		</_A>
+		<_34 Name="generated_pad7103" Offset="12" Length="2" />
+	</_F01E43007DADE047C5A8963E807C1A31>
+	<_D0AC41A0CA658DFDF2105B8E8859B6F6 Name="i343::Curve::PeriodicFunctionWizardSettings" Size="24">
+		<_A Name="range mode" Offset="0" StructName1="i343::Curve::PeriodicFunctionWizardRangeMode">
+			<Flag n="UseTrackLength" />
+			<Flag n="UseTrackLengthLooping" />
+			<Flag n="Range" />
+		</_A>
+		<_34 Name="generated_pad4449" Offset="1" Length="3" />
+		<_14 Name="start frame" Offset="4" />
+		<_14 Name="end frame" Offset="8" />
+		<_B Name="function" Offset="C" StructName1="PeriodicFunction">
+			<Flag n="one" />
+			<Flag n="zero" />
+			<Flag n="cosine" />
+			<Flag n="cosine (variable period)" />
+			<Flag n="diagonal wave" />
+			<Flag n="diagonal wave (variable period)" />
+			<Flag n="slide" />
+			<Flag n="slide (variable period)" />
+			<Flag n="noise" />
+			<Flag n="jitter" />
+			<Flag n="wander" />
+			<Flag n="spark" />
+		</_B>
+		<_34 Name="generated_pad2a68" Offset="E" Length="2" />
+		<_14 Name="keyframe frequency" Offset="10" />
+		<_14 Name="function frequency" Offset="14" />
+		<_14 Name="offset" Offset="18" />
+		<_14 Name="min value" Offset="1C" />
+		<_14 Name="max value" Offset="20" />
+	</_D0AC41A0CA658DFDF2105B8E8859B6F6>
+	<_2D4746EBEE69FC63B0BB44D695596FDB Name="i343::Curve::EditorCurveColor" Size="4">
+		<_3E Name="color" Offset="0" />
+	</_2D4746EBEE69FC63B0BB44D695596FDB>
+	<_A36A4B056D9A73A4F4171DECB18EE418 Name="i343::Curve::AnimatedCurve3d" Size="2C">
+		<_F Name="Flags" Offset="0" StructName1="i343::Curve::AnimatedCurveFlags">
+			<Flag n="Enabled" />
+			<Flag n="Visible" />
+		</_F>
+		<_34 Name="generated_padc23f" Offset="1" Length="3" />
+		<_38 Name="Value Curve" Offset="4" GUID="019A49F49D5E2ECAED2D06FCA24C1356" />
+		<_40 Name="EditorCurveProperties" Offset="18" GUID="7E334986D2CF3A61A27890EAA945BBF5" StructName1="i343::Curve::AnimatedCurve3d" Min="0" Max="1" />
+	</_A36A4B056D9A73A4F4171DECB18EE418>
+	<_DBF64500377A35B8A8879E748EA2450E Name="i343::Curve::AnimatedCurve2d" Size="40">
+		<_F Name="Flags" Offset="0" StructName1="i343::Curve::AnimatedCurveFlags">
+			<Flag n="Enabled" />
+			<Flag n="Visible" />
+		</_F>
+		<_34 Name="generated_paddf2c" Offset="1" Length="3" />
+		<_38 Name="Value Curve" Offset="4" GUID="6E2F48EB646C923BD28E8C6BA226CEB3" />
+		<_40 Name="AnimatedCurveMetadata" Offset="18" GUID="3F964DDA0953303E62C6151BBBD199AE" StructName1="i343::Curve::AnimatedCurve2d" Min="0" Max="1024" />
+		<_40 Name="EditorCurveProperties" Offset="2C" GUID="7E334986D2CF3A61A27890EAA945BBF5" StructName1="i343::Curve::AnimatedCurve2d" Min="0" Max="1" />
+	</_DBF64500377A35B8A8879E748EA2450E>
+	<_4C5A4A1A9019ABA511FDA1ADAD1AF034 Name="FunctionDefinitionDefaultOne" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_4C5A4A1A9019ABA511FDA1ADAD1AF034>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+	<_94144B360D5BC689E3349147AF518ED1 Name="i343::Curve::AnimatedCurve" Size="2C">
+		<_40 Name="KeyFrames" type="slap" Offset="0" GUID="23AC4D50C981A5503DD2B2EF85C5E10E" StructName1="i343::Curve::AnimatedCurve" Min="0" Max="1024" />
+		<_F Name="Flags" Offset="14" StructName1="i343::Curve::AnimatedCurve::CurveFlags">
+			<Flag n="Enabled" />
+			<Flag n="Visible" />
+		</_F>
+		<_34 Name="generated_pad5cd6" Offset="15" Length="3" />
+		<_40 Name="EditorCurveProperties" Offset="18" GUID="7E334986D2CF3A61A27890EAA945BBF5" StructName1="i343::Curve::AnimatedCurve" Min="0" Max="1" />
+	</_94144B360D5BC689E3349147AF518ED1>
+	<_69804F44DBE20A67639D16AE97058D1C Name="i343::Narrative::CageDampingProperties" Size="10">
+		<_3C Name="Position Dampen Percentage" Offset="0" />
+		<_34 Name="generated_pad6a9e" Offset="1" Length="3" />
+		<_14 Name="Position Dampen Time" Offset="4" />
+		<_3C Name="Rotation Dampen Percentage" Offset="8" />
+		<_34 Name="generated_padb753" Offset="9" Length="3" />
+		<_14 Name="Rotation Dampen Time" Offset="C" />
+	</_69804F44DBE20A67639D16AE97058D1C>
+	<_019A49F49D5E2ECAED2D06FCA24C1356 Name="i343::Curve::Curve3dDefinition" Size="14">
+		<_40 Name="control points" Offset="0" GUID="29C547C8AC5C536494CC256697923B5C" StructName1="i343::Curve::Curve3dDefinition" Min="0" Max="1024" />
+	</_019A49F49D5E2ECAED2D06FCA24C1356>
+	<_6E2F48EB646C923BD28E8C6BA226CEB3 Name="i343::Curve::Curve2dDefinition" Size="14">
+		<_40 Name="control points" Offset="0" GUID="7EC743402A79404C8298A95EA81462E7" StructName1="i343::Curve::Curve2dDefinition" Min="0" Max="1024" />
+	</_6E2F48EB646C923BD28E8C6BA226CEB3>
+	<_23AC4D50C981A5503DD2B2EF85C5E10E Name="i343::Curve::AnimatedCurve::KeyFrame" Size="14">
+		<_18 Name="Position" Offset="0" />
+		<_14 Name="LeftSlope" Offset="8" />
+		<_14 Name="RightSlope" Offset="C" />
+		<_A Name="SegmentType" Offset="10" StructName1="i343::Curve::SegmentType">
+			<Flag n="Spline" />
+			<Flag n="Linear" />
+			<Flag n="Stepped" />
+			<Flag n="SteppedNext" />
+		</_A>
+		<_A Name="TangentMode" Offset="11" StructName1="i343::Curve::TangentMode">
+			<Flag n="AutoStraight" />
+			<Flag n="UserStraight" />
+			<Flag n="UserBroken" />
+		</_A>
+		<_34 Name="generated_pad4bfe" Offset="12" Length="2" />
+	</_23AC4D50C981A5503DD2B2EF85C5E10E>
+	<_29C547C8AC5C536494CC256697923B5C Name="i343::Curve::Curve3dControlPoint" Size="44">
+		<_19 Name="value" Offset="0" />
+		<_19 Name="tangent in" Offset="C" />
+		<_19 Name="tangent out" Offset="18" />
+		<_14 Name="curviness" Offset="24" />
+		<_A Name="segment type x" Offset="28" StructName1="i343::Curve::SegmentType">
+			<Flag n="Spline" />
+			<Flag n="Linear" />
+			<Flag n="Stepped" />
+			<Flag n="SteppedNext" />
+		</_A>
+		<_A Name="segment type y" Offset="29" StructName1="i343::Curve::SegmentType">
+			<Flag n="Spline" />
+			<Flag n="Linear" />
+			<Flag n="Stepped" />
+			<Flag n="SteppedNext" />
+		</_A>
+		<_A Name="segment type z" Offset="2A" StructName1="i343::Curve::SegmentType">
+			<Flag n="Spline" />
+			<Flag n="Linear" />
+			<Flag n="Stepped" />
+			<Flag n="SteppedNext" />
+		</_A>
+		<_A Name="tangent mode x" Offset="2B" StructName1="i343::Curve::TangentMode">
+			<Flag n="AutoStraight" />
+			<Flag n="UserStraight" />
+			<Flag n="UserBroken" />
+		</_A>
+		<_A Name="tangent mode y" Offset="2C" StructName1="i343::Curve::TangentMode">
+			<Flag n="AutoStraight" />
+			<Flag n="UserStraight" />
+			<Flag n="UserBroken" />
+		</_A>
+		<_A Name="tangent mode z" Offset="2D" StructName1="i343::Curve::TangentMode">
+			<Flag n="AutoStraight" />
+			<Flag n="UserStraight" />
+			<Flag n="UserBroken" />
+		</_A>
+		<_34 Name="generated_pad30cd" Offset="2E" Length="2" />
+		<_40 Name="pointMetadata" Offset="30" GUID="890146DC86C3D79B3F6D2AF7BE9C4A02" StructName1="i343::Curve::Curve3dControlPoint" Min="0" Max="1" />
+	</_29C547C8AC5C536494CC256697923B5C>
+	<_7EC743402A79404C8298A95EA81462E7 Name="i343::Curve::Curve2dControlPoint" Size="20">
+		<_18 Name="value" Offset="0" />
+		<_18 Name="tangent in" Offset="8" />
+		<_18 Name="tangent out" Offset="10" />
+		<_14 Name="curviness" Offset="18" />
+		<_A Name="segment type x" Offset="1C" StructName1="i343::Curve::SegmentType">
+			<Flag n="Spline" />
+			<Flag n="Linear" />
+			<Flag n="Stepped" />
+			<Flag n="SteppedNext" />
+		</_A>
+		<_A Name="segment type y" Offset="1D" StructName1="i343::Curve::SegmentType">
+			<Flag n="Spline" />
+			<Flag n="Linear" />
+			<Flag n="Stepped" />
+			<Flag n="SteppedNext" />
+		</_A>
+		<_A Name="tangent mode x" Offset="1E" StructName1="i343::Curve::TangentMode">
+			<Flag n="AutoStraight" />
+			<Flag n="UserStraight" />
+			<Flag n="UserBroken" />
+		</_A>
+		<_A Name="tangent mode y" Offset="1F" StructName1="i343::Curve::TangentMode">
+			<Flag n="AutoStraight" />
+			<Flag n="UserStraight" />
+			<Flag n="UserBroken" />
+		</_A>
+	</_7EC743402A79404C8298A95EA81462E7>
+	<_890146DC86C3D79B3F6D2AF7BE9C4A02 Name="i343::Curve::CurveControlPointMetadata" Size="3C">
+		<_40 Name="spline road metadata" Offset="0" GUID="781B4DEB48B4EEDDE67B060C86194139" StructName1="i343::Curve::CurveControlPointMetadata" Min="0" Max="1" />
+		<_40 Name="road decal metadata" Offset="14" GUID="3F0A493018D98594F83880CABBB76829" StructName1="i343::Curve::CurveControlPointMetadata" Min="0" Max="1" />
+		<_40 Name="animated spline metadata" Offset="28" GUID="B83E4A756AA20FB6536D5B2CB680453F" StructName1="i343::Curve::CurveControlPointMetadata" Min="0" Max="1" />
+	</_890146DC86C3D79B3F6D2AF7BE9C4A02>
+	<_781B4DEB48B4EEDDE67B060C86194139 Name="i343::Curve::RoadCurveControlPointMetadata" Size="14">
+		<_14 Name="width" Offset="0" />
+		<_14 Name="opacity" Offset="4" />
+		<_14 Name="falloffLeft" Offset="8" />
+		<_14 Name="falloffRight" Offset="C" />
+		<_14 Name="bank" Offset="10" />
+	</_781B4DEB48B4EEDDE67B060C86194139>
+	<_3F0A493018D98594F83880CABBB76829 Name="i343::Curve::RoadDecalControlPointMetadata" Size="40">
+		<_40 Name="Road Decal Textures" Offset="0" GUID="BB484B70CB48EF7259B8DDA794BD5E5F" StructName1="i343::Curve::RoadDecalControlPointMetadata" Min="0" Max="32" />
+		<_18 Name="Road Decal Scale" Offset="14" />
+		<_18 Name="Road Decal Offset" Offset="1C" />
+		<_14 Name="Road Decal Tile Repeat Count" Offset="24" />
+		<_14 Name="Road Decal Height Strength" Offset="28" />
+		<_14 Name="Road Decal Mask Strength" Offset="2C" />
+		<_14 Name="Road Decal Height Contrast" Offset="30" />
+		<_14 Name="Road Decal Mask Contrast" Offset="34" />
+		<_14 Name="Road Decal Edge Fade" Offset="38" />
+		<_6 Name="Road Decal Random Seed" Offset="3C" />
+	</_3F0A493018D98594F83880CABBB76829>
+	<_B83E4A756AA20FB6536D5B2CB680453F Name="i343::Curve::AnimatedSplineControlPointMetadata" Size="4">
+		<_14 Name="Time" Offset="0" />
+	</_B83E4A756AA20FB6536D5B2CB680453F>
+	<_BB484B70CB48EF7259B8DDA794BD5E5F Name="i343::Curve::RoadDecalBitmapReference" Size="1C">
+		<_41 Name="Reference" Offset="0" Allowed="bitm" Flags="0" />
+	</_BB484B70CB48EF7259B8DDA794BD5E5F>
+</root>

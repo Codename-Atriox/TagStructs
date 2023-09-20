@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="user_interface_hud_globals_definition" Parents="aTag" Index="-445">
+	<_2C16428726873A9CDBD13CFCA3863666 Name="UserInterfaceHUDGlobalsDefinitions" Size="230">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_37 Name="Motion Sensor" type="fgrb" Offset="10" />
+		<_36 Name="Motion sensor globals" Offset="10" />
+		<_F Name="flags" Offset="10" StructName1="HUDMotionSensorGlobals::HUDMotionSensorGlobalsFlags">
+			<Flag n="show scripted pings at any distance" />
+			<Flag n="enable north indicator" />
+		</_F>
+		<_34 Name="generated_pad0c0f" Offset="11" Length="3" />
+		<_14 Name="active camo appears as enemy when lower than" Offset="14" />
+		<_14 Name="height classified as above" Offset="18" />
+		<_14 Name="height classified as below" Offset="1C" />
+		<_14 Name="upwards movement scaling" Offset="20" />
+		<_14 Name="downwards movement scaling" Offset="24" />
+		<_14 Name="crouching movement scaling" Offset="28" />
+		<_14 Name="edge indicator position scale" Offset="2C" />
+		<_14 Name="vehicle navigation marker range detection" Offset="30" />
+		<_14 Name="vehicle contested flash time" Offset="34" />
+		<_14 Name="activecamo xray animation cooldown " Offset="38" />
+		<_14 Name="dead people visible time" Offset="3C" />
+		<_6 Name="Motion Tracker Fade Frames" Offset="40" />
+		<_6 Name="Armor Mod Display Counter" Offset="44" />
+		<_14 Name="Broadsword Parallax Velocity Override" Offset="48" />
+		<_14 Name="Pelican Parallax Velocity Override" Offset="4C" />
+		<_36 Name="Fanfare and Messaging globals" Offset="50" />
+		<_14 Name="fanfare display time " Offset="50" />
+		<_14 Name="fanfare speed up display time " Offset="54" />
+		<_14 Name="medal score message lifetime " Offset="58" />
+		<_14 Name="medal score message restart time " Offset="5C" />
+		<_14 Name="Event Feed life time (cui)" Offset="60" />
+		<_37 Name="" type="fgre" Offset="64" />
+		<_37 Name="NavPoints" type="fgrb" Offset="64" />
+		<_40 Name="navpoint presentation tags" Offset="64" GUID="A6FF42D42B3A1AE4D49AD4BA8BC40BBA" StructName1="UserInterfaceHUDGlobalsDefinitions" Min="0" Max="16" />
+		<_16 Name="Docking Position (Default)" Offset="78" />
+		<_36 Name="Named Docking Positions" Offset="80" />
+		<_40 Name="Named Docking Positions" Offset="80" GUID="E75045ADD19DE36F8598401C80EA58B1" StructName1="UserInterfaceHUDGlobalsDefinitions" Min="0" Max="32" />
+		<_14 Name="Docked 2D Spacing" Offset="94" />
+		<_14 Name="Docking Move Fraction" Offset="98" />
+		<_14 Name="defaultNavPoint2dDelayTime (seconds)" Offset="9C" />
+		<_14 Name="Numeric Timer Expiry Threshold (seconds)" Offset="A0" />
+		<_14 Name="Normalized Timer Expiry Threshold" Offset="A4" />
+		<_14 Name="Camouflage Maximum Visible Intensity" Offset="A8" />
+		<_14 Name="damage state reset time (milliseconds)" Offset="AC" />
+		<_14 Name="firing state reset time (milliseconds)" Offset="B0" />
+		<_14 Name="Enemy Name Visibility Distance" Offset="B4" />
+		<_14 Name="Fireteam Name Visibility Distance" Offset="B8" />
+		<_14 Name="Friendly Name Visibility Distance" Offset="BC" />
+		<_37 Name="" type="fgre" Offset="C0" />
+		<_37 Name="Damage" type="fgrb" Offset="C0" />
+		<_36 Name="Damage globals" Offset="C0" />
+		<_14 Name="shield bar recent damage duration" Offset="C0" />
+		<_14 Name="damage indicator response duration" Offset="C4" />
+		<_14 Name="damage flash response duration" Offset="C8" />
+		<_41 Name="tiled mesh seen when hit in 1st person" Offset="CC" Allowed="bitm" Flags="0" />
+		<_14 Name="number of tiles across the screen" Offset="E8" />
+		<_14 Name="microtexture warp x" Offset="EC" />
+		<_14 Name="microtexture warp y" Offset="F0" />
+		<_14 Name="intensity scalar" Offset="F4" />
+		<_14 Name="taa mask strength" Offset="F8" />
+		<_14 Name="alpha multiplier" Offset="FC" />
+		<_14 Name="total intensity cap (0..1)" Offset="100" />
+		<_37 Name="" type="fgre" Offset="104" />
+		<_37 Name="Reticule" type="fgrb" Offset="104" />
+		<_36 Name="Reticule globals" Offset="104" />
+		<_14 Name="Reticule maximum spread angle" Offset="104" />
+		<_14 Name="Hit tick persist time" Offset="108" />
+		<_37 Name="" type="fgre" Offset="10C" />
+		<_37 Name="Sound" type="fgrb" Offset="10C" />
+		<_36 Name="Sounds" Offset="10C" />
+		<_41 Name="banned vehicle entrance sound" Offset="10C" Allowed="lsnd, snd!" Flags="0" />
+		<_37 Name="" type="fgre" Offset="128" />
+		<_37 Name="Text" type="fgrb" Offset="128" />
+		<_36 Name="Text" Offset="128" />
+		<_40 Name="string references" Offset="128" GUID="4CA54CECF35BA8A62117E52294707022" StructName1="UserInterfaceHUDGlobalsDefinitions" Min="0" Max="64" />
+		<_41 Name="Interact Message Appear Sound" Offset="13C" Allowed="snd!" Flags="0" />
+		<_41 Name="Interact Message Disappear Sound " Offset="158" Allowed="snd!" Flags="0" />
+		<_14 Name="medal fanfare animation lifetime " Offset="174" />
+		<_14 Name="medal fanfare animation in lifetime " Offset="178" />
+		<_14 Name="medal fanfare animation out begin time " Offset="17C" />
+		<_5 Name="Max Medals On Screen" Offset="180" />
+		<_34 Name="generated_pad7a08" Offset="182" Length="2" />
+		<_14 Name="event fanfare animation lifetime " Offset="184" />
+		<_14 Name="event fanfare animation in lifetime " Offset="188" />
+		<_14 Name="event fanfare animation out begin time " Offset="18C" />
+		<_14 Name="personal score animation lifetime " Offset="190" />
+		<_14 Name="personal score animation in lifetime " Offset="194" />
+		<_14 Name="personal score animation out begin time " Offset="198" />
+		<_20 Name="Heroic Killfeed Color" Offset="19C" />
+		<_20 Name="Legendary Killfeed Color" Offset="1AC" />
+		<_20 Name="Mythic Killfeed Color " Offset="1BC" />
+		<_40 Name="keyboard mouse string id overrides" Offset="1CC" GUID="E6BA4E3449C7F1DD1EBA1DDF929FAC9A" StructName1="UserInterfaceHUDGlobalsDefinitions" Min="0" Max="14" />
+		<_37 Name="" type="fgre" Offset="1E0" />
+		<_37 Name="Grenade Indicator" type="fgrb" Offset="1E0" />
+		<_36 Name="Grenade Indicator Globals" Offset="1E0" />
+		<_14 Name="grenade indicator danger radius " Offset="1E0" />
+		<_14 Name="grenade indicator lifetime dampener " Offset="1E4" />
+		<_37 Name="" type="fgre" Offset="1E8" />
+		<_37 Name="Parallax" type="fgrb" Offset="1E8" />
+		<_36 Name="Parallax globals" Offset="1E8" />
+		<_14 Name="vehicle transition time (seconds)" Offset="1E8" />
+		<_40 Name="parallax params" Offset="1EC" GUID="ECC94BAE272F07A65AF180C781E8DA22" StructName1="UserInterfaceHUDGlobalsDefinitions" Min="0" Max="32" />
+		<_37 Name="" type="fgre" Offset="200" />
+		<_37 Name="Warp" type="fgrb" Offset="200" />
+		<_36 Name="Warp params" Offset="200" />
+		<_40 Name="warp params" Offset="200" GUID="09374470743AD28A35C85DBCB83BE0C0" StructName1="UserInterfaceHUDGlobalsDefinitions" Min="0" Max="32" />
+		<_37 Name="" type="fgre" Offset="214" />
+		<_37 Name="Chromatic Aberration" type="fgrb" Offset="214" />
+		<_36 Name="Chromatic aberration params" Offset="214" />
+		<_40 Name="chromatic aberration params" Offset="214" GUID="9EF54C79CB32F419544E15A29A2D5824" StructName1="UserInterfaceHUDGlobalsDefinitions" Min="0" Max="32" />
+		<_37 Name="" type="fgre" Offset="228" />
+		<_37 Name="Threat Tracker" type="fgrb" Offset="228" />
+		<_36 Name="Threat tracker globals" Offset="228" />
+		<_14 Name="threat tracker range" Offset="228" />
+		<_37 Name="" type="fgre" Offset="22C" />
+		<_34 Name="generated_pad28bd" Offset="22C" Length="4" />
+	</_2C16428726873A9CDBD13CFCA3863666>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_A6FF42D42B3A1AE4D49AD4BA8BC40BBA Name="NavPointSetTagReference" Size="1C">
+		<_41 Name="reference" Offset="0" Allowed="nvps" Flags="0" />
+	</_A6FF42D42B3A1AE4D49AD4BA8BC40BBA>
+	<_E75045ADD19DE36F8598401C80EA58B1 Name="DockingPosition" Size="C">
+		<_2 Name="Name" Offset="0" />
+		<_16 Name="Position" Offset="4" />
+	</_E75045ADD19DE36F8598401C80EA58B1>
+	<_4CA54CECF35BA8A62117E52294707022 Name="StringFileReferences" Size="1C">
+		<_41 Name="new string list" Offset="0" Allowed="uslg" Flags="0" />
+	</_4CA54CECF35BA8A62117E52294707022>
+	<_E6BA4E3449C7F1DD1EBA1DDF929FAC9A Name="Interface::StringIdOverride" Size="8">
+		<_2 Name="original string id" Offset="0" />
+		<_2 Name="string id override" Offset="4" />
+	</_E6BA4E3449C7F1DD1EBA1DDF929FAC9A>
+	<_ECC94BAE272F07A65AF180C781E8DA22 Name="HUDParallaxParamsBlock" Size="58">
+		<_2 Name="name" Offset="0" />
+		<_14 Name="parallax falloff time" Offset="4" />
+		<_14 Name="parallax camera velocity factor" Offset="8" />
+		<_17 Name="parallax movement multiplier" Offset="C" />
+		<_17 Name="parallax clamp min" Offset="18" />
+		<_17 Name="parallax clamp max" Offset="24" />
+		<_1C Name="parallax angular multiplier" Offset="30" />
+		<_1C Name="parallax angle clamp min" Offset="3C" />
+		<_1C Name="parallax angle clamp max" Offset="48" />
+		<_A Name="Camera Type" Offset="54" StructName1="CameraType">
+			<Flag n="PlayerCamera" />
+			<Flag n="RawCamera" />
+		</_A>
+		<_34 Name="generated_pade2be" Offset="55" Length="3" />
+	</_ECC94BAE272F07A65AF180C781E8DA22>
+	<_09374470743AD28A35C85DBCB83BE0C0 Name="HUDWarpParamsBlock" Size="38">
+		<_2 Name="name" Offset="0" />
+		<_17 Name="ellipsoid scale" Offset="4" />
+		<_17 Name="ellipsoid center" Offset="10" />
+		<_17 Name="output offset" Offset="1C" />
+		<_6 Name="tessellation X" Offset="28" />
+		<_6 Name="tessellation Y" Offset="2C" />
+		<_14 Name="warp descale in ultrawide factor" Offset="30" />
+		<_F Name="flags" Offset="34" StructName1="Interface::FastHud::EnableWarpFlags">
+			<Flag n="enabled" />
+		</_F>
+		<_34 Name="generated_pad390e" Offset="35" Length="3" />
+	</_09374470743AD28A35C85DBCB83BE0C0>
+	<_9EF54C79CB32F419544E15A29A2D5824 Name="HUDChromaticAberrationParamsBlock" Size="24">
+		<_2 Name="name" Offset="0" />
+		<_14 Name="base mix" Offset="4" />
+		<_16 Name="red aberration scale" Offset="8" />
+		<_16 Name="green aberration scale" Offset="10" />
+		<_16 Name="blue aberration scale" Offset="18" />
+		<_F Name="flags" Offset="20" StructName1="Interface::FastHud::EnableChromaticAberrationFlags">
+			<Flag n="enabled" />
+		</_F>
+		<_34 Name="generated_pad4665" Offset="21" Length="3" />
+	</_9EF54C79CB32F419544E15A29A2D5824>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

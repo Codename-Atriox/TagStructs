@@ -1,0 +1,902 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="model" Parents="aTag" Index="-203">
+	<_C76C4EA3AB569A7ED006A3D899F00227 Name="s_model_definition" Size="438">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="MODEL" Offset="10" />
+		<_37 Name="" type="hlmt" Offset="10" />
+		<_41 Name="render model" Offset="10" Allowed="mode" Flags="0" />
+		<_41 Name="collision model" Offset="2C" Allowed="coll" Flags="0" />
+		<_41 Name="animation" Offset="48" Allowed="jmad" Flags="0" />
+		<_41 Name="physics_model" Offset="64" Allowed="phmo" Flags="0" />
+		<_6 Name="runtime render checksum" Offset="80" />
+		<_6 Name="runtime collision checksum" Offset="84" />
+		<_36 Name="Optional Static Lightmap" Offset="88" />
+		<_D Name="Lightmap Flags" Offset="88" StructName1="PVSFlags">
+			<Flag n="pvs enabled" />
+		</_D>
+		<_36 Name="PVS" Offset="8C" />
+		<_14 Name="PVS bounding box extension factor " Offset="8C" />
+		<_19 Name="PVS block size " Offset="90" />
+		<_6 Name="PVS sampling subdivision per axis " Offset="9C" />
+		<_14 Name="PVS visibility threshold " Offset="A0" />
+		<_2 Name="asset category name" Offset="A4" />
+		<_6 Name="asset category index" Offset="A8" />
+		<_36 Name="level of detail" Offset="AC" />
+		<_40 Name="lod levels" Offset="AC" GUID="1F374D1647361323C3A9FFA497C34802" StructName1="s_model_definition" Min="0" Max="16" />
+		<_14 Name="Fade out after distance" Offset="C0" />
+		<_14 Name="disappear distance" Offset="C4" />
+		<_14 Name="begin fade distance" Offset="C8" />
+		<_14 Name="animation lod distance" Offset="CC" />
+		<_14 Name="shadow fade distance" Offset="D0" />
+		<_14 Name="instance disappear distance" Offset="D4" />
+		<_14 Name="midrange detail disappear distance" Offset="D8" />
+		<_14 Name="close detail disappear distance" Offset="DC" />
+		<_14 Name="tessellation max draw distance" Offset="E0" />
+		<_D Name="resource distance override flags" Offset="E4" StructName1="LODResourceDistanceFlags">
+			<Flag n="override enabled" />
+		</_D>
+		<_14 Name="medium priority distance" Offset="E8" />
+		<_14 Name="low priority distance" Offset="EC" />
+		<_6 Name="lod index override for damage draw" Offset="F0" />
+		<_40 Name="variants" Offset="F4" GUID="7412487A539CDDB4C3AAF51091B85DAA" StructName1="s_model_definition" Min="0" Max="64" />
+		<_40 Name="region sort" Offset="108" GUID="C2D24E95D0B3901BE9133E8486D47E0D" StructName1="s_model_definition" Min="0" Max="1024" />
+		<_40 Name="model materials" Offset="11C" GUID="8B7E4FD99D7DA35AB415A6809C66D02E" StructName1="s_model_definition" Min="0" Max="32" />
+		<_40 Name="new damage info" Offset="130" GUID="560E438EF8EA703F1C77B3F2903E0A00" StructName1="s_model_definition" Min="0" Max="1" />
+		<_38 Name="damage info" Offset="144" GUID="847E4BBC887578F532304069BE3F2152" />
+		<_40 Name="targets old" Offset="210" GUID="A1CC4756BDD4E4FE1698A8A6B5EEDB07" StructName1="s_model_definition" Min="0" Max="32" />
+		<_40 Name="model targets" Offset="224" GUID="A1CC4756BDD4E4FE1698A8A6B5EEDB07" StructName1="s_model_definition" Min="0" Max="32" />
+		<_40 Name="runtime regions" Offset="238" GUID="9CA248F74E1EFAA1C7A5C1A49223106F" StructName1="s_model_definition" Min="0" Max="32" />
+		<_40 Name="runtime nodes" Offset="24C" GUID="F8384408E5E9FB0128E7E6F4AFEC9EFF" StructName1="s_model_definition" Min="0" Max="1024" />
+		<_6 Name="runtime node list checksum" Offset="260" />
+		<_40 Name="prepopulated runtime nodes" Offset="264" GUID="F8384408E5E9FB0128E7E6F4AFEC9EFF" StructName1="s_model_definition" Min="0" Max="1024" />
+		<_36 Name="more stuff" Offset="278" />
+		<_40 Name="variant overrides" Offset="278" GUID="49BE4103F21882DF9448B9E696641075" StructName1="s_model_definition" Min="0" Max="64" />
+		<_41 Name="default dialogue" Offset="28C" Allowed="udlg" Flags="0" />
+		<_41 Name="default dialogue female" Offset="2A8" Allowed="udlg" Flags="0" />
+		<_40 Name="teammate chatter dialogue male" Offset="2C4" GUID="DA524251CD3E056D682D12D197620ADE" StructName1="s_model_definition" Min="0" Max="16" />
+		<_40 Name="teammate chatter dialogue female" Offset="2D8" GUID="DA524251CD3E056D682D12D197620ADE" StructName1="s_model_definition" Min="0" Max="16" />
+		<_40 Name="special dialogues" Offset="2EC" GUID="8CE644ADF5772C5979ED0CC19F47CE56" StructName1="s_model_definition" Min="0" Max="16" />
+		<_D Name="flags" Offset="300" StructName1="ModelDefinitionFlags">
+			<Flag n="active camo always on" />
+			<Flag n="active camo never" />
+			<Flag n="inconsequential target" />
+			<Flag n="locked precomputed probes" />
+			<Flag n="If sky attaches to camera" />
+			<Flag n="model is big battle object" />
+			<Flag n="model never uses compressed vertex position" />
+			<Flag n="model is invisible, even attachments" />
+			<Flag n="DEPRECATED DO NOT USE 0" />
+			<Flag n="DEPRECATED DO NOT USE 1" />
+			<Flag n="DEPRECATED DO NOT USE 2" />
+			<Flag n="DEPRECATED DO NOT USE 3" />
+			<Flag n="DEPRECATED DO NOT USE 4" />
+			<Flag n="DEPRECATED DO NOT USE 5" />
+			<Flag n="DEPRECATED DO NOT USE 6" />
+			<Flag n="Damage Effect Sounds - Enable Model Hit" />
+			<Flag n="Do not validate skeleton" />
+		</_D>
+		<_6 Name="runtime flags" Offset="304" />
+		<_39 Name="render-only node flags" Offset="308" GUID="31004754FA382E96C9AA134CA73B7ADD" Count="32" StructName1="render-only node flags" />
+		<_39 Name="render-only section flags" Offset="388" GUID="31004754FA382E96C9AA134CA73B7ADD" Count="32" StructName1="render-only section flags" />
+		<_15 Name="Sky parallax percent" Offset="408" />
+		<_14 Name="shadow depth compare bias" Offset="40C" />
+		<_14 Name="shadow slope scale bias" Offset="410" />
+		<_14 Name="shadow depth compare bias (dynamic lights)" Offset="414" />
+		<_14 Name="shadow slope scale bias (dynamic lights)" Offset="418" />
+		<_14 Name="runtime bounding radius" Offset="41C" />
+		<_17 Name="runtime bounding offset" Offset="420" />
+		<_34 Name="generated_pad57cd" Offset="42C" Length="4" />
+		<_7 Name="reload hash" Offset="430" />
+	</_C76C4EA3AB569A7ED006A3D899F00227>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_1F374D1647361323C3A9FFA497C34802 Name="LODTransitionDistanceBlock" Size="4">
+		<_14 Name="lodTransitionDistance" Offset="0" />
+	</_1F374D1647361323C3A9FFA497C34802>
+	<_7412487A539CDDB4C3AAF51091B85DAA Name="variant" Name2="s_model_variant" Size="16C">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="style" Offset="4" />
+		<_6 Name="Damage Style Index" Offset="8" />
+		<_D Name="model variant flags" Offset="C" StructName1="ModelVariantFlags">
+			<Flag n="available in forge" />
+			<Flag n="exclude default materials" />
+		</_D>
+		<_B Name="Damage Effect Sounds - Enable Model Hit Override" Offset="10" StructName1="ModelVariantEnableHitDamageEffectSoundsOverride">
+			<Flag n="Same As Model" />
+			<Flag n="Disable" />
+			<Flag n="Enable" />
+		</_B>
+		<_39 Name="runtime variant region indices" Offset="12" GUID="87E64985698D671CF3EAE84E8D63EF05" Count="32" StructName1="runtime variant region indices" />
+		<_34 Name="generated_pad364f" Offset="32" Length="2" />
+		<_40 Name="regions" Offset="34" GUID="05F64F74070F6AFA12F8BD5CBAFFFFE6" StructName1="variant" StructName2="s_model_variant" Min="0" Max="32" />
+		<_40 Name="objects" Offset="48" GUID="EAD546C386B36FDB34938689B0190BC3" StructName1="variant" StructName2="s_model_variant" Min="0" Max="31" />
+		<_37 Name="Object Node Graph Overrides" type="fgrb" Offset="5C" />
+		<_40 Name="Object Node Graphs" Offset="5C" GUID="F773409B74B26D9D525AC5EA87FC4CEA" StructName1="variant" StructName2="s_model_variant" Min="0" Max="32" />
+		<_37 Name="" type="fgre" Offset="70" />
+		<_40 Name="muted nodes" Offset="70" GUID="5A714A16FBAAF7D3C70FEEF59A3638D1" StructName1="variant" StructName2="s_model_variant" Min="0" Max="31" />
+		<_39 Name="muted flag" Offset="84" GUID="31004754FA382E96C9AA134CA73B7ADD" Count="32" StructName1="muted flag" />
+		<_41 Name="structure lighting_info" Offset="104" Allowed="strl" Flags="0" />
+		<_41 Name="lighting volumes" Offset="120" Allowed="blvo" Flags="0" />
+		<_41 Name="Object Lightmap" Offset="13C" Allowed="stlm" Flags="0" />
+		<_40 Name="Object Cubemap set" Offset="158" GUID="D1CE481ABA187D43BE71513CBC6C9C8B" StructName1="variant" StructName2="s_model_variant" Min="0" Max="1048576" />
+	</_7412487A539CDDB4C3AAF51091B85DAA>
+	<_C2D24E95D0B3901BE9133E8486D47E0D Name="RegionNameBlock" Size="4">
+		<_2 Name="name" Offset="0" />
+	</_C2D24E95D0B3901BE9133E8486D47E0D>
+	<_8B7E4FD99D7DA35AB415A6809C66D02E Name="material" Name2="s_model_material" Size="14">
+		<_2 Name="material name" Offset="0" />
+		<_2E Name="damage section" Offset="4" GUID="EE1D49A5B8F6D2FDFE09380EA82B01A4" StructName1="material" StructName2="s_model_material" Min="0" Max="32" />
+		<_5 Name="runtime collision material index" Offset="6" />
+		<_5 Name="runtime damager material index" Offset="8" />
+		<_34 Name="generated_pad5ad1" Offset="A" Length="2" />
+		<_2 Name="global material name" type="sted" Offset="C" />
+		<_5 Name="runtime global material index" Offset="10" />
+		<_34 Name="generated_pad40f0" Offset="12" Length="2" />
+	</_8B7E4FD99D7DA35AB415A6809C66D02E>
+	<_560E438EF8EA703F1C77B3F2903E0A00 Name="s_model_damage_info" Size="F4">
+		<_D Name="flags" Offset="0" StructName1="c_damage_info_flags">
+			<Flag n="takes shield damage for children" />
+			<Flag n="takes body damage for children" />
+			<Flag n="always shields friendly damage" />
+			<Flag n="passes area damage to children" />
+			<Flag n="parent never takes body damage for us" />
+			<Flag n="only damaged by explosives" />
+			<Flag n="parent never takes shield damage for us" />
+			<Flag n="cannot die from damage" />
+			<Flag n="passes attached damage to riders" />
+			<Flag n="shield depletion is permanent" />
+			<Flag n="shield depletion force hard ping" />
+			<Flag n="AI do not damage without player" />
+			<Flag n="health regrows while dead" />
+			<Flag n="shield recharge plays only when empty" />
+			<Flag n="IGNORE force minimum transfer" />
+			<Flag n="orphan from postprocess autogen" />
+			<Flag n="only damaged by boarding damage" />
+		</_D>
+		<_2 Name="global indirect material name" Offset="4" />
+		<_2F Name="indirect damage section" Offset="8" />
+		<_34 Name="generated_pad0d7e" Offset="A" Length="2" />
+		<_36 Name="body" Offset="C" />
+		<_38 Name="body" Offset="C" GUID="9A4245E733ECAC95413516E88F244955" />
+		<_36 Name="shield" Offset="20" />
+		<_38 Name="shield" Offset="20" GUID="F030462CD30C88ACA6F752C19536E894" />
+		<_40 Name="damage sections" Offset="94" GUID="C6584BCA62D3077B989EB4F19A4E7C7A" StructName1="s_model_damage_info" Min="0" Max="32" />
+		<_40 Name="nodes" Offset="A8" GUID="7C0A40E13736D0B422F811F0A4811152" StructName1="s_model_damage_info" Min="0" Max="1024" />
+		<_5 Name="runtime shield material type" Offset="BC" />
+		<_5 Name="runtime indirect material type" Offset="BE" />
+		<_14 Name="runtime shield recharge velocity" Offset="C0" />
+		<_14 Name="runtime overcharge velocity" Offset="C4" />
+		<_14 Name="runtime health recharge velocity" Offset="C8" />
+		<_40 Name="damage seats" Offset="CC" GUID="CAA541C0F8A6BCA3FED5C84DA3EBD6F5" StructName1="s_model_damage_info" Min="0" Max="16" />
+		<_40 Name="damage constraints" Offset="E0" GUID="6DBB4594B2695CA4292B27638CD7C095" StructName1="s_model_damage_info" Min="0" Max="16" />
+	</_560E438EF8EA703F1C77B3F2903E0A00>
+	<_847E4BBC887578F532304069BE3F2152 Name="s_new_model_damage_info" Size="CC">
+		<_36 Name="Damage Info" Offset="0" />
+		<_D Name="flags" Offset="0" StructName1="c_new_damage_info_flags">
+			<Flag n="takes damage for children" />
+			<Flag n="parent never takes damage for us" />
+			<Flag n="cannot die from damage" />
+			<Flag n="dies with riders" />
+			<Flag n="passes area damage to children" />
+			<Flag n="Don't use region packing for visual damage mask" />
+		</_D>
+		<_2 Name="indirect material name" Offset="4" />
+		<_2E Name="indirect damage section" Offset="8" GUID="EE1D49A5B8F6D2FDFE09380EA82B01A4" StructName1="s_new_model_damage_info" Min="0" Max="32" />
+		<_2E Name="shielded state damage section" Offset="A" GUID="EE1D49A5B8F6D2FDFE09380EA82B01A4" StructName1="s_new_model_damage_info" Min="0" Max="32" />
+		<_41 Name="restoration effect" Offset="C" Allowed="effe" Flags="0" />
+		<_40 Name="damage sections" Offset="28" GUID="EE1D49A5B8F6D2FDFE09380EA82B01A4" StructName1="s_new_model_damage_info" Min="0" Max="32" />
+		<_40 Name="damage constraints" Offset="3C" GUID="6DBB4594B2695CA4292B27638CD7C095" StructName1="s_new_model_damage_info" Min="0" Max="16" />
+		<_40 Name="nodes" Offset="50" GUID="7C0A40E13736D0B422F811F0A4811152" StructName1="s_new_model_damage_info" Min="0" Max="1024" />
+		<_5 Name="runtime indirect material type" Offset="64" />
+		<_34 Name="generated_pad9f05" Offset="66" Length="2" />
+		<_36 Name="Malleable Properties" Offset="68" />
+		<_38 Name="properties" Offset="68" GUID="D78C406398CB1A2FE56515918737018B" />
+	</_847E4BBC887578F532304069BE3F2152>
+	<_A1CC4756BDD4E4FE1698A8A6B5EEDB07 Name="i343::Model::ModelTarget" Size="28">
+		<_F Name="flags" Offset="0" StructName1="i343::Model::ModelTargetFlags">
+			<Flag n="aoe top level" />
+			<Flag n="aoe test obstruction" />
+			<Flag n="shows tracking reticle" />
+			<Flag n="ignored on local physics" />
+			<Flag n="use for network lead vector only" />
+		</_F>
+		<_A Name="type" Offset="1" StructName1="i343::Model::ModelTargetType">
+			<Flag n="standard" />
+			<Flag n="head" />
+			<Flag n="weak spot" />
+		</_A>
+		<_A Name="category" Offset="2" StructName1="i343::Model::ModelTargetCategory">
+			<Flag n="Chassis" />
+			<Flag n="Traversal" />
+			<Flag n="Engine" />
+			<Flag n="Cover" />
+			<Flag n="Weapon" />
+			<Flag n="Occupant" />
+		</_A>
+		<_34 Name="generated_padb298" Offset="3" Length="1" />
+		<_37 Name="" type="amkr" Offset="4" />
+		<_2 Name="marker name" Offset="4" />
+		<_14 Name="size" Offset="8" />
+		<_8 Name="cone angle" Offset="C" />
+		<_2E Name="damage section" Offset="10" GUID="EE1D49A5B8F6D2FDFE09380EA82B01A4" StructName1="i343::Model::ModelTarget" Min="0" Max="32" />
+		<_2E Name="variant" Offset="12" GUID="7412487A539CDDB4C3AAF51091B85DAA" StructName1="i343::Model::ModelTarget" Min="0" Max="64" />
+		<_15 Name="aim assist magnetism scale" Offset="14" />
+		<_15 Name="ai selection priority scale" Offset="18" />
+		<_14 Name="aoe exclusion radius" Offset="1C" />
+		<_38 Name="lock-on data" Offset="20" GUID="BE794507CEA3CA60DA65D0C9A7FDA057" />
+	</_A1CC4756BDD4E4FE1698A8A6B5EEDB07>
+	<_9CA248F74E1EFAA1C7A5C1A49223106F Name="s_model_region" Size="1C">
+		<_2 Name="name" Offset="0" />
+		<_4 Name="collision region index" Offset="4" />
+		<_4 Name="physics region index" Offset="5" />
+		<_34 Name="generated_pad1fd6" Offset="6" Length="2" />
+		<_40 Name="permutations" Offset="8" GUID="63CE420772671B5F3EB1033FBE9A29D5" StructName1="s_model_region" Min="0" Max="1023" />
+	</_9CA248F74E1EFAA1C7A5C1A49223106F>
+	<_F8384408E5E9FB0128E7E6F4AFEC9EFF Name="s_model_node" Size="5C">
+		<_2 Name="name" Offset="0" />
+		<_2E Name="parent node" Offset="4" GUID="F8384408E5E9FB0128E7E6F4AFEC9EFF" StructName1="s_model_node" Min="0" Max="1024" />
+		<_2E Name="first child node" Offset="6" GUID="F8384408E5E9FB0128E7E6F4AFEC9EFF" StructName1="s_model_node" Min="0" Max="1024" />
+		<_2E Name="next sibling node" Offset="8" GUID="F8384408E5E9FB0128E7E6F4AFEC9EFF" StructName1="s_model_node" Min="0" Max="1024" />
+		<_34 Name="generated_pad1c9e" Offset="A" Length="2" />
+		<_17 Name="default translation" Offset="C" />
+		<_1A Name="default rotation" Offset="18" />
+		<_14 Name="default inverse scale" Offset="28" />
+		<_19 Name="default inverse forward" Offset="2C" />
+		<_19 Name="default inverse left" Offset="38" />
+		<_19 Name="default inverse up" Offset="44" />
+		<_17 Name="default inverse position" Offset="50" />
+	</_F8384408E5E9FB0128E7E6F4AFEC9EFF>
+	<_49BE4103F21882DF9448B9E696641075 Name="ModelVariantOverrideDef" Size="10">
+		<_2 Name="base variant" Offset="0" />
+		<_2 Name="override a" Offset="4" />
+		<_2 Name="override b" Offset="8" />
+		<_2 Name="override c" Offset="C" />
+	</_49BE4103F21882DF9448B9E696641075>
+	<_DA524251CD3E056D682D12D197620ADE Name="TeammateChatterDialogueBlockDefinition" Size="1C">
+		<_41 Name="teammate chatter dialogue" Offset="0" Allowed="udlg" Flags="4" />
+	</_DA524251CD3E056D682D12D197620ADE>
+	<_8CE644ADF5772C5979ED0CC19F47CE56 Name="SpecialDialogueBlockDefinition" Size="20">
+		<_2 Name="identifier" Offset="0" />
+		<_41 Name="special dialogue" Offset="4" Allowed="udlg" Flags="4" />
+	</_8CE644ADF5772C5979ED0CC19F47CE56>
+	<_31004754FA382E96C9AA134CA73B7ADD Name="NodeFlagStorageArray" Size="4">
+		<_6 Name="flag data" Offset="0" />
+	</_31004754FA382E96C9AA134CA73B7ADD>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_87E64985698D671CF3EAE84E8D63EF05 Name="RuntimeRegionIndex" Size="1">
+		<_4 Name="runtime region index" Offset="0" />
+	</_87E64985698D671CF3EAE84E8D63EF05>
+	<_05F64F74070F6AFA12F8BD5CBAFFFFE6 Name="region" Name2="s_model_variant_region" Size="20">
+		<_2 Name="region name" Offset="0" />
+		<_4 Name="runtime region index" Offset="4" />
+		<_3C Name="runtime flags" Offset="5" />
+		<_2E Name="parent variant" Offset="6" GUID="7412487A539CDDB4C3AAF51091B85DAA" StructName1="region" StructName2="s_model_variant_region" Min="0" Max="64" />
+		<_40 Name="permutations" Offset="8" GUID="1D7045CC4ED990046C3550AD98959600" StructName1="region" StructName2="s_model_variant_region" Min="0" Max="1023" />
+		<_B Name="sort order" Offset="1C" StructName1="ModelRegionSorting">
+			<Flag n="no sorting" />
+			<Flag n="-5 (closest)" />
+			<Flag n="-4" />
+			<Flag n="-3" />
+			<Flag n="-2" />
+			<Flag n="-1" />
+			<Flag n="0 (same as model)" />
+			<Flag n="1" />
+			<Flag n="2" />
+			<Flag n="3" />
+			<Flag n="4" />
+			<Flag n="5 (farthest)" />
+		</_B>
+		<_34 Name="generated_pade9d0" Offset="1E" Length="2" />
+	</_05F64F74070F6AFA12F8BD5CBAFFFFE6>
+	<_EAD546C386B36FDB34938689B0190BC3 Name="object" Name2="i343::Model::ModelVariantObject" Size="48">
+		<_37 Name="" type="amkr" Offset="0" />
+		<_2 Name="parent marker" Offset="0" />
+		<_37 Name="" type="amkr" Offset="4" />
+		<_2 Name="child marker" Offset="4" />
+		<_2 Name="child variant name" Offset="8" />
+		<_41 Name="child object" Offset="C" Allowed="obje" Flags="2" />
+		<_41 Name="child configuration" Offset="28" Allowed="ocfg" Flags="2" />
+		<_2E Name="damage section" Offset="44" GUID="EE1D49A5B8F6D2FDFE09380EA82B01A4" StructName1="object" StructName2="i343::Model::ModelVariantObject" Min="0" Max="32" />
+		<_F Name="flags" Offset="46" StructName1="i343::Model::ModelVariantObjectFlags">
+			<Flag n="enable physics" />
+			<Flag n="share bones with parent" />
+		</_F>
+		<_34 Name="generated_padd065" Offset="47" Length="1" />
+	</_EAD546C386B36FDB34938689B0190BC3>
+	<_F773409B74B26D9D525AC5EA87FC4CEA Name="i343::Objects::ObjectNodeGraphDefinition" Size="24">
+		<_2 Name="Name" Offset="0" />
+		<_41 Name="Exported Node Graph" Offset="4" Allowed="xong" Flags="0" />
+		<_F Name="Flags" Offset="20" StructName1="ObjectNodeGraphFlags">
+			<Flag n="Runs on Server" />
+			<Flag n="Runs on Client" />
+			<Flag n="Start updating on the first frame" />
+		</_F>
+		<_A Name="Enable Node Graph" Offset="21" StructName1="BooleanOverride">
+			<Flag n="Default" />
+			<Flag n="Yes" />
+			<Flag n="No" />
+		</_A>
+		<_34 Name="generated_pad8671" Offset="22" Length="2" />
+	</_F773409B74B26D9D525AC5EA87FC4CEA>
+	<_5A714A16FBAAF7D3C70FEEF59A3638D1 Name="muted node" Name2="ModelVariantMutedNodeBlock" Size="4">
+		<_2 Name="node name" Offset="0" />
+	</_5A714A16FBAAF7D3C70FEEF59A3638D1>
+	<_D1CE481ABA187D43BE71513CBC6C9C8B Name="CubemapVolume" Size="120">
+		<_2 Name="Name" Offset="0" />
+		<_6 Name="Guid" Offset="4" />
+		<_D Name="Flags" Offset="8" StructName1="CubemapFlagsClass">
+			<Flag n="Enable Intensity Correction" />
+			<Flag n="Capture With Effects" />
+			<Flag n="Affects Adjacent Bsps" />
+			<Flag n="Capture Dynamic Objects" />
+		</_D>
+		<_38 Name="Dumpling" Offset="C" GUID="B3764EDA2FF9A01B1E7F95ADB70B64FE" />
+		<_41 Name="Cubemap Bitmap" Offset="58" Allowed="bitm" Flags="4" />
+		<_B Name="Enable Parallax Correction" Offset="74" StructName1="CubemapBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_B>
+		<_5 Name="Cubemap Volume Priority" Offset="76" />
+		<_17 Name="Cubemap Origin" Offset="78" />
+		<_19 Name="Depth Positive" Offset="84" />
+		<_19 Name="Depth Negative" Offset="90" />
+		<_B Name="Active Volume" Offset="9C" StructName1="CubemapBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_B>
+		<_B Name="Maximum cubemap size" Offset="9E" StructName1="CubemapSizeClassification">
+			<Flag n="128x128" />
+			<Flag n="256x256" />
+			<Flag n="512x512" />
+		</_B>
+		<_17 Name="Intensity" Offset="A0" />
+		<_14 Name="Self-illum Scale Down" Offset="AC" />
+		<_40 Name="EditorMetadata" Offset="B0" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="CubemapVolume" Min="4" Max="1" />
+		<_41 Name="owner bsp" Offset="C4" Allowed="sbsp" Flags="1" />
+		<_2 Name="owner variant" type="sted" Offset="E0" />
+		<_5 Name="runtime bsp index" Offset="E4" />
+		<_5 Name="runtime variant index" Offset="E6" />
+		<_14 Name="Blend Distance" Offset="E8" />
+		<_C Name="Cubemap Volume Type" Offset="EC" StructName1="CubemapVolumeType">
+			<Flag n="Prism" />
+			<Flag n="Sphere" />
+		</_C>
+		<_14 Name="Orientation" Offset="F0" />
+		<_41 Name="Cubemap Depth Bitmap" Offset="F4" Allowed="bitm" Flags="4" />
+		<_14 Name="Depth Blend Range" Offset="110" />
+		<_14 Name="Intensity Scale" Offset="114" />
+		<_B Name="Tintable" Offset="118" StructName1="CubemapBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_B>
+		<_B Name="Runtime Force Add Inactive" Offset="11A" StructName1="CubemapBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_B>
+		<_14 Name="Relevancy Radius" Offset="11C" />
+	</_D1CE481ABA187D43BE71513CBC6C9C8B>
+	<_EE1D49A5B8F6D2FDFE09380EA82B01A4 Name="s_new_model_damage_section" Size="130">
+		<_2 Name="name" Offset="0" />
+		<_A Name="damage part" Offset="4" StructName1="DamagePart">
+			<Flag n="gut" />
+			<Flag n="chest" />
+			<Flag n="head" />
+			<Flag n="left shoulder" />
+			<Flag n="left arm" />
+			<Flag n="left leg" />
+			<Flag n="left foot" />
+			<Flag n="right shoulder" />
+			<Flag n="right arm" />
+			<Flag n="right leg" />
+			<Flag n="right foot" />
+		</_A>
+		<_34 Name="generated_padaef0" Offset="5" Length="3" />
+		<_D Name="flags" Offset="8" StructName1="c_new_damage_section_flags">
+			<Flag n="starts inactive" />
+			<Flag n="takes full dmg when object dies" />
+			<Flag n="takes full dmg when obj dstryd" />
+			<Flag n="restored on ressurection" />
+			<Flag n="headshot" />
+			<Flag n="depletion is permanent" />
+			<Flag n="recharges while dead" />
+			<Flag n="play recharge effect only when empty" />
+			<Flag n="networked (note that primary body and shield are always networked)" />
+			<Flag n="can recharge independently" />
+			<Flag n="depletion tracked by AI characters" />
+			<Flag n="DEPRECATED DO NOT USE 1" />
+			<Flag n="DEPRECATED DO NOT USE 2" />
+			<Flag n="DEPRECATED DO NOT USE 3" />
+			<Flag n="DEPRECATED DO NOT USE 4" />
+			<Flag n="DEPRECATED DO NOT USE 5" />
+			<Flag n="DEPRECATED DO NOT USE 6" />
+			<Flag n="blocks headshots" />
+			<Flag n="weak spot" />
+			<Flag n="trivial collision" />
+			<Flag n="disable additive player damage sound" />
+			<Flag n="strippable armor" />
+			<Flag n="takes visual damage" />
+			<Flag n="requires ordered instant responses" />
+		</_D>
+		<_6 Name="runtime flags" Offset="C" />
+		<_37 Name="" type="hide" Offset="10" />
+		<_15 Name="vitality percentage" Offset="10" />
+		<_37 Name="" type="edih" Offset="14" />
+		<_37 Name="maximum vitality percentage" type="mpfi" Offset="14" />
+		<_38 Name="maximum vitality percentage" Offset="14" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_2 Name="shield material name" type="sted" Offset="20" />
+		<_36 Name="stun" Offset="24" />
+		<_37 Name="" type="hide" Offset="24" />
+		<_14 Name="stun time" Offset="24" />
+		<_37 Name="" type="edih" Offset="28" />
+		<_37 Name="stun duration" type="mpfi" Offset="28" />
+		<_38 Name="stun duration" Offset="28" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_14 Name="minimum stun damage" Offset="34" />
+		<_36 Name="recharge" Offset="38" />
+		<_14 Name="recharge time" Offset="38" />
+		<_37 Name="recharge speed base scalar" type="mpfi" Offset="3C" />
+		<_38 Name="recharge speed base scalar" Offset="3C" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_40 Name="recharge speed curve" Offset="48" GUID="DC9D498C93ADFC1417FF6AD8AF3BA884" StructName1="s_new_model_damage_section" Min="0" Max="1" />
+		<_40 Name="recharge fractions" Offset="5C" GUID="69D54EC5974937E753C817CEB34261A9" StructName1="s_new_model_damage_section" Min="0" Max="16" />
+		<_41 Name="recharging effect" Offset="70" Allowed="effe" Flags="0" />
+		<_14 Name="pre recharge effect warn time" Offset="8C" />
+		<_41 Name="pre recharge effect" Offset="90" Allowed="effe" Flags="0" />
+		<_2 Name="pre recharge effect marker" Offset="AC" />
+		<_41 Name="pre recharge abort effect" Offset="B0" Allowed="effe" Flags="0" />
+		<_2 Name="pre recharge abort effect marker" Offset="CC" />
+		<_36 Name="overcharge" Offset="D0" />
+		<_14 Name="overcharge time" Offset="D0" />
+		<_14 Name="overcharge fraction" Offset="D4" />
+		<_36 Name="decay" Offset="D8" />
+		<_14 Name="pre decay time" Offset="D8" />
+		<_14 Name="decay time" Offset="DC" />
+		<_36 Name="resurrection" Offset="E0" />
+		<_2 Name="resurrection restored region name" Offset="E0" />
+		<_14 Name="anti spam timer duration" Offset="E4" />
+		<_40 Name="instant responses" Offset="E8" GUID="E3724DAB559D19CAFF415CD4B0CCAE0B" StructName1="s_new_model_damage_section" Min="0" Max="16" />
+		<_40 Name="section damage transfers" Offset="FC" GUID="7BE043FAD77922D660490EB9B5E62CE4" StructName1="s_new_model_damage_section" Min="0" Max="32" />
+		<_40 Name="rendering" Offset="110" GUID="E53A427754A5FE0B9F92413195555319" StructName1="s_new_model_damage_section" Min="0" Max="1" />
+		<_14 Name="runtime recharge velocity" Offset="124" />
+		<_14 Name="runtime overcharge velocity" Offset="128" />
+		<_5 Name="runtime resurrection restored region index" Offset="12C" />
+		<_5 Name="runtime global shield material type" Offset="12E" />
+	</_EE1D49A5B8F6D2FDFE09380EA82B01A4>
+	<_9A4245E733ECAC95413516E88F244955 Name="DamageBodyParameters" Size="14">
+		<_14 Name="maximum vitality" Offset="0" />
+		<_14 Name="minimum stun damage" Offset="4" />
+		<_14 Name="stun time" Offset="8" />
+		<_14 Name="recharge time" Offset="C" />
+		<_15 Name="recharge fraction" Offset="10" />
+	</_9A4245E733ECAC95413516E88F244955>
+	<_F030462CD30C88ACA6F752C19536E894 Name="DamageShieldParameters" Size="74">
+		<_14 Name="maximum shield vitality" Offset="0" />
+		<_2 Name="global shield material name" type="sted" Offset="4" />
+		<_14 Name="minimum stun damage" Offset="8" />
+		<_14 Name="stun time" Offset="C" />
+		<_14 Name="recharge time" Offset="10" />
+		<_14 Name="shield overcharge fraction" Offset="14" />
+		<_14 Name="shield overcharge time" Offset="18" />
+		<_14 Name="shield damaged threshold" Offset="1C" />
+		<_41 Name="shield damaged effect" Offset="20" Allowed="effe" Flags="0" />
+		<_41 Name="shield depleted effect" Offset="3C" Allowed="effe" Flags="0" />
+		<_41 Name="shield recharging effect" Offset="58" Allowed="effe" Flags="0" />
+	</_F030462CD30C88ACA6F752C19536E894>
+	<_C6584BCA62D3077B989EB4F19A4E7C7A Name="s_model_damage_section" Size="34">
+		<_2 Name="name" Offset="0" />
+		<_36 Name="damage section flags" Offset="4" />
+		<_D Name="flags" Offset="4" StructName1="c_old_damage_section_flags">
+			<Flag n="absorbs body damage" />
+			<Flag n="takes full dmg when object dies" />
+			<Flag n="cannot die with riders" />
+			<Flag n="takes full dmg when obj dstryd" />
+			<Flag n="restored on ressurection" />
+			<Flag n="unused0" />
+			<Flag n="unused1" />
+			<Flag n="heatshottable" />
+			<Flag n="ignores shields" />
+			<Flag n="takes full dmg when shield depl" />
+			<Flag n="networked (e.g. armor lock)" />
+			<Flag n="allow damage response overflow" />
+		</_D>
+		<_15 Name="vitality percentage" Offset="8" />
+		<_40 Name="instant responses" Offset="C" GUID="10DE4CDB2A8C9E6BBB69FEED9C2F98C4" StructName1="s_model_damage_section" Min="0" Max="16" />
+		<_14 Name="stun time" Offset="20" />
+		<_14 Name="recharge time" Offset="24" />
+		<_14 Name="runtime recharge velocity" Offset="28" />
+		<_2 Name="resurrection restored region name" Offset="2C" />
+		<_5 Name="runtime resurrection restored region index" Offset="30" />
+		<_34 Name="generated_padab79" Offset="32" Length="2" />
+	</_C6584BCA62D3077B989EB4F19A4E7C7A>
+	<_7C0A40E13736D0B422F811F0A4811152 Name="s_damage_node" Size="2">
+		<_5 Name="runtime damage part" Offset="0" />
+	</_7C0A40E13736D0B422F811F0A4811152>
+	<_CAA541C0F8A6BCA3FED5C84DA3EBD6F5 Name="s_damage_seat_info" Size="28">
+		<_2 Name="seat label" Offset="0" />
+		<_15 Name="direct damage scale" Offset="4" />
+		<_14 Name="damage transfer fall-off radius" Offset="8" />
+		<_14 Name="maximum transfer damage scale" Offset="C" />
+		<_14 Name="minimum transfer damage scale" Offset="10" />
+		<_40 Name="region-specific-damage" Offset="14" GUID="C1A14C1E11C1834D8A6494539BB6EFBD" StructName1="s_damage_seat_info" Min="0" Max="1" />
+	</_CAA541C0F8A6BCA3FED5C84DA3EBD6F5>
+	<_6DBB4594B2695CA4292B27638CD7C095 Name="s_damage_constraint_info" Size="14">
+		<_2 Name="physics model constraint name" Offset="0" />
+		<_2 Name="damage constraint name" Offset="4" />
+		<_2 Name="damage constraint group name" Offset="8" />
+		<_14 Name="group probability scale" Offset="C" />
+		<_5 Name="runtime constraint type" Offset="10" />
+		<_5 Name="runtime constraint index" Offset="12" />
+	</_6DBB4594B2695CA4292B27638CD7C095>
+	<_D78C406398CB1A2FE56515918737018B Name="i343::Damage::DamageableComponentPropertiesDefinition" Size="64">
+		<_37 Name="max overshield scalar" type="mpfi" Offset="0" />
+		<_38 Name="max overshield scalar" Offset="0" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_37 Name="overshield decay rate base scalar" type="mpfi" Offset="C" />
+		<_38 Name="overshield decay rate base scalar" Offset="C" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_14 Name="body vitality" Offset="18" />
+		<_37 Name="direct damage resistance" type="mpfi" Offset="1C" />
+		<_38 Name="direct damage resistance" Offset="1C" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_37 Name="grenade damage resistance" type="mpfi" Offset="28" />
+		<_38 Name="grenade damage resistance" Offset="28" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_37 Name="aoe damage resistance" type="mpfi" Offset="34" />
+		<_38 Name="aoe damage resistance" Offset="34" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
+		<_38 Name="overshield information" Offset="40" GUID="37874EA78A79DE8F6C405174B16821C2" />
+	</_D78C406398CB1A2FE56515918737018B>
+	<_BE794507CEA3CA60DA65D0C9A7FDA057 Name="i343::Model::ModelTargetLockOnData" Size="8">
+		<_36 Name="lock-on fields" Offset="0" />
+		<_14 Name="lock on distance" Offset="0" />
+		<_2 Name="tracking type" Offset="4" />
+	</_BE794507CEA3CA60DA65D0C9A7FDA057>
+	<_63CE420772671B5F3EB1033FBE9A29D5 Name="s_model_permutation" Size="8">
+		<_2 Name="name" Offset="0" />
+		<_F Name="flags" Offset="4" StructName1="PermutationFlags">
+			<Flag n="cannot be chosen randomly" />
+		</_F>
+		<_4 Name="collision permutation index" Offset="5" />
+		<_4 Name="physics permutation index" Offset="6" />
+		<_34 Name="generated_padf2b8" Offset="7" Length="1" />
+	</_63CE420772671B5F3EB1033FBE9A29D5>
+	<_1D7045CC4ED990046C3550AD98959600 Name="permutation" Name2="s_model_variant_permutation" Size="2C">
+		<_2 Name="permutation name" Offset="0" />
+		<_3E Name="runtime permutation index" Offset="4" />
+		<_F Name="flags" Offset="8" StructName1="VariantPermutationFlags">
+			<Flag n="copy states to all permutations" />
+		</_F>
+		<_34 Name="generated_padd60a" Offset="9" Length="3" />
+		<_14 Name="probability" Offset="C" />
+		<_40 Name="states" Offset="10" GUID="C81742A9DD3D5ACB4A18CA81911C9F78" StructName1="permutation" StructName2="s_model_variant_permutation" Min="0" Max="10" />
+		<_39 Name="runtime state permutation indices" Offset="24" GUID="148440EA42CDCB9BB3C86C53B21C6D08" Count="5" StructName1="runtime state permutation indices" />
+		<_34 Name="generated_pad22bf" Offset="29" Length="3" />
+	</_1D7045CC4ED990046C3550AD98959600>
+	<_B3764EDA2FF9A01B1E7F95ADB70B64FE Name="s_scenario_dumpling" Size="4C">
+		<_40 Name="inner points" Offset="0" GUID="9AAD49315B797CB13AE0B8EFA4D67F82" StructName1="s_scenario_dumpling" Min="0" Max="128" />
+		<_40 Name="outer points" Offset="14" GUID="9AAD49315B797CB13AE0B8EFA4D67F82" StructName1="s_scenario_dumpling" Min="0" Max="128" />
+		<_14 Name="height" Offset="28" />
+		<_14 Name="sink" Offset="2C" />
+		<_14 Name="inner value" Offset="30" />
+		<_14 Name="outer value" Offset="34" />
+		<_17 Name="center point" Offset="38" />
+		<_14 Name="trivial cull radius squared" Offset="44" />
+		<_14 Name="bound volume" Offset="48" />
+	</_B3764EDA2FF9A01B1E7F95ADB70B64FE>
+	<_CAFD409521D5D5297D81B801A0BADD13 Name="EditorMetadata" Size="10C">
+		<_1 Name="folder name" Offset="0" />
+		<_17 Name="local space pivot point position" Offset="100" />
+	</_CAFD409521D5D5297D81B801A0BADD13>
+	<_DB6340E6F8D8B4A163AE2E8B97EA8CBB Name="i343::MalleableProperty::BaseFloatStructDefinition" Size="C">
+		<_14 Name="Base Value" Offset="0" />
+		<_25 Name="Value Bounds" Offset="4" />
+	</_DB6340E6F8D8B4A163AE2E8B97EA8CBB>
+	<_DC9D498C93ADFC1417FF6AD8AF3BA884 Name="s_damage_section_recharge_speed_multiplier_curve" Size="18">
+		<_37 Name="Mapping" type="fned" Offset="0" />
+		<_38 Name="Mapping" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_DC9D498C93ADFC1417FF6AD8AF3BA884>
+	<_69D54EC5974937E753C817CEB34261A9 Name="DamageSectionSegmentedRechargeFractionBlock" Size="4">
+		<_15 Name="vitality percentage" Offset="0" />
+	</_69D54EC5974937E753C817CEB34261A9>
+	<_E3724DAB559D19CAFF415CD4B0CCAE0B Name="s_new_instantaneous_damage_response" Size="1B8">
+		<_D Name="flags" type="dumb" Offset="0" StructName1="NewDamageResponseFlagsSchemaPart1">
+			<Flag n="kills object" />
+			<Flag n="inhibits melee attack" />
+			<Flag n="inhibits weapon attack" />
+			<Flag n="inhibits walking" />
+			<Flag n="forces drop weapon" />
+			<Flag n="kills weapon primary trigger" />
+			<Flag n="kills weapon secondary trigger" />
+			<Flag n="destroys object" />
+			<Flag n="damages weapon primary trigger" />
+			<Flag n="damages weapon secondary trigger" />
+			<Flag n="kills object (no player solo)" />
+			<Flag n="causes detonation" />
+			<Flag n="kills variant objects" />
+			<Flag n="force unattached effects" />
+			<Flag n="fires under threshold" />
+			<Flag n="triggers special death" />
+			<Flag n="only on special death" />
+			<Flag n="only NOT on special death" />
+			<Flag n="buckles giants" />
+			<Flag n="causes sp detonation" />
+			<Flag n="skip sounds on generic effect" />
+			<Flag n="kills giants" />
+			<Flag n="skip sounds on special death" />
+			<Flag n="force hard ping" />
+			<Flag n="can refire" />
+			<Flag n="can skip transition effects" />
+			<Flag n="dooms unit" />
+			<Flag n="can cause actor kamikaze" />
+			<Flag n="hides object if destroyed by response on predicted client" />
+			<Flag n="repeatable" />
+			<Flag n="use anti spam timer" />
+			<Flag n="ignores looping effects" />
+		</_D>
+		<_D Name="flags2" type="dumb" Offset="4" StructName1="NewDamageResponseFlagsSchemaPart2">
+			<Flag n="skip on incineration" />
+			<Flag n="generate script event" />
+		</_D>
+		<_2 Name="label" Offset="8" />
+		<_40 Name="included variants" Offset="C" GUID="EF89412C9F11D1BDACD4738880993F43" StructName1="s_new_instantaneous_damage_response" Min="0" Max="16" />
+		<_40 Name="excluded variants" Offset="20" GUID="EF89412C9F11D1BDACD4738880993F43" StructName1="s_new_instantaneous_damage_response" Min="0" Max="16" />
+		<_15 Name="damage threshold" Offset="34" />
+		<_15 Name="min damage threshold" Offset="38" />
+		<_2 Name="forced hard ping anim " Offset="3C" />
+		<_41 Name="transition effect (generic)" Offset="40" Allowed="effe" Flags="0" />
+		<_2 Name="generic effect marker" Offset="5C" />
+		<_41 Name="transition effect (specific)" Offset="60" Allowed="effe" Flags="0" />
+		<_2 Name="specific effect marker" Offset="7C" />
+		<_38 Name="damage effect" Offset="80" GUID="451A491416BAF7617244DA1EB508138C" />
+		<_38 Name="damage effect marker" Offset="9C" GUID="C8664D2F6272DDC9B0C9B9DFB77E21BC" />
+		<_41 Name="looping effect" Offset="A0" Allowed="effe" Flags="0" />
+		<_37 Name="Contextual Effects" type="fgrb" Offset="BC" />
+		<_36 Name="Contextual Transition Effects" Offset="BC" />
+		<_2 Name="ray cast marker" Offset="BC" />
+		<_14 Name="ray cast length" Offset="C0" />
+		<_41 Name="combined material effects" Offset="C4" Allowed="foot" Flags="0" />
+		<_41 Name="visual material effects" Offset="E0" Allowed="vmed" Flags="1" />
+		<_41 Name="sound material effects" Offset="FC" Allowed="smed" Flags="1" />
+		<_41 Name="fallback effect" Offset="118" Allowed="effe" Flags="0" />
+		<_2 Name="fallback effect marker" Offset="134" />
+		<_37 Name="" type="fgre" Offset="138" />
+		<_40 Name="region_transitions" Offset="138" GUID="2463448AAB37ECDD6A0B2580A416FEB5" StructName1="s_new_instantaneous_damage_response" Min="0" Max="16" />
+		<_40 Name="response damage transfers" Offset="14C" GUID="7BE043FAD77922D660490EB9B5E62CE4" StructName1="s_new_instantaneous_damage_response" Min="0" Max="32" />
+		<_B Name="custom response behavior" Offset="160" StructName1="DamageResponseCustomResponseBehavior">
+			<Flag n="plays always" />
+			<Flag n="plays if labels match" />
+			<Flag n="plays if labels differ" />
+		</_B>
+		<_34 Name="generated_padec95" Offset="162" Length="2" />
+		<_2 Name="custom response label" Offset="164" />
+		<_14 Name="response delay" Offset="168" />
+		<_41 Name="delay effect" Offset="16C" Allowed="effe" Flags="0" />
+		<_2 Name="delay effect marker name" Offset="188" />
+		<_40 Name="seat eject" Offset="18C" GUID="2CBA40A26CB868BBCA96880DAEB08A95" StructName1="s_new_instantaneous_damage_response" Min="0" Max="8" />
+		<_15 Name="skip fraction" Offset="1A0" />
+		<_2 Name="destroyed child object marker name" Offset="1A4" />
+		<_15 Name="total damage threshold" Offset="1A8" />
+		<_2 Name="constraint or group name" Offset="1AC" />
+		<_B Name="constraint damage type" Offset="1B0" StructName1="DamageResponseConstraintDamageType">
+			<Flag n="none" />
+			<Flag n="destroy one of group" />
+			<Flag n="destroy entire group" />
+			<Flag n="loosen one of group" />
+			<Flag n="loosen entire group" />
+		</_B>
+		<_34 Name="generated_padd2b4" Offset="1B2" Length="2" />
+		<_C Name="ai dialog event" Offset="1B4" StructName1="eDamageResponseAiDialogeEventType">
+			<Flag n="none" />
+			<Flag n="armor broken" />
+			<Flag n="vehicle damage state worsens" />
+		</_C>
+	</_E3724DAB559D19CAFF415CD4B0CCAE0B>
+	<_7BE043FAD77922D660490EB9B5E62CE4 Name="s_damage_transfer" Size="18">
+		<_D Name="flags" Offset="0" StructName1="DamageTransferFlags">
+			<Flag n="transfer damage to damage section" />
+			<Flag n="transfer damage to parent" />
+			<Flag n="transfer damage to children" />
+			<Flag n="transfer damage to seats" />
+			<Flag n="transfer direct damage" />
+			<Flag n="transfer AOE exposed damage" />
+			<Flag n="transfer AOE obstructed damage" />
+		</_D>
+		<_14 Name="transfer amount" Offset="4" />
+		<_B Name="transfer function" Offset="8" StructName1="DamageTransferFunction">
+			<Flag n="percent" />
+			<Flag n="points" />
+			<Flag n="ceiling" />
+		</_B>
+		<_34 Name="generated_pad53f9" Offset="A" Length="2" />
+		<_14 Name="Ai Stun Transfer Amount" Offset="C" />
+		<_B Name="Ai Stun Transfer Function" Offset="10" StructName1="DamageTransferFunction">
+			<Flag n="percent" />
+			<Flag n="points" />
+			<Flag n="ceiling" />
+		</_B>
+		<_2E Name="damage section" Offset="12" GUID="EE1D49A5B8F6D2FDFE09380EA82B01A4" StructName1="s_damage_transfer" Min="0" Max="32" />
+		<_2 Name="seat label" Offset="14" />
+	</_7BE043FAD77922D660490EB9B5E62CE4>
+	<_E53A427754A5FE0B9F92413195555319 Name="s_damage_section_rendering_parameters" Size="38">
+		<_41 Name="3rd person impact parameters (Generator)" Offset="0" Allowed="efge" Flags="0" />
+		<_41 Name="1st person impact parameters (Generator)" Offset="1C" Allowed="efge" Flags="0" />
+	</_E53A427754A5FE0B9F92413195555319>
+	<_10DE4CDB2A8C9E6BBB69FEED9C2F98C4 Name="s_instantaneous_damage_response" Size="C8">
+		<_B Name="response type" Offset="0" StructName1="DamageResponseType">
+			<Flag n="receives all damage" />
+			<Flag n="receives area effect damage" />
+			<Flag n="receives local damage" />
+		</_B>
+		<_36 Name="Constraint damage type" Offset="2" />
+		<_B Name="constraint damage type" Offset="2" StructName1="DamageResponseConstraintDamageType">
+			<Flag n="none" />
+			<Flag n="destroy one of group" />
+			<Flag n="destroy entire group" />
+			<Flag n="loosen one of group" />
+			<Flag n="loosen entire group" />
+		</_B>
+		<_36 Name="Constraint destruction" Offset="4" />
+		<_2 Name="constraint/group name" Offset="4" />
+		<_36 Name="Damage response flags" Offset="8" />
+		<_D Name="flags" type="dumb" Offset="8" StructName1="c_damage_response_flag_schema_part1">
+			<Flag n="kills object" />
+			<Flag n="inhibits melee attack" />
+			<Flag n="inhibits weapon attack" />
+			<Flag n="inhibits walking" />
+			<Flag n="forces drop weapon" />
+			<Flag n="kills weapon primary trigger" />
+			<Flag n="kills weapon secondary trigger" />
+			<Flag n="destroys object" />
+			<Flag n="damages weapon primary trigger" />
+			<Flag n="damages weapon secondary trigger" />
+			<Flag n="light damage left turn" />
+			<Flag n="major damage left turn" />
+			<Flag n="light damage right turn" />
+			<Flag n="major damage right turn" />
+			<Flag n="light damage engine" />
+			<Flag n="major damage engine" />
+			<Flag n="kills object (no player solo)" />
+			<Flag n="causes detonation" />
+			<Flag n="fires on creation" />
+			<Flag n="kills variant objects" />
+			<Flag n="force unattached effects" />
+			<Flag n="fires under threshold" />
+			<Flag n="triggers special death" />
+			<Flag n="only on special death" />
+			<Flag n="only NOT on special death" />
+			<Flag n="buckles giants" />
+			<Flag n="causes sp detonation" />
+			<Flag n="skip sounds on generic effect" />
+			<Flag n="kills giants" />
+			<Flag n="skip sounds on special death" />
+			<Flag n="cause head dismemberment" />
+			<Flag n="cause left leg dismemberment" />
+		</_D>
+		<_D Name="flags2" type="dumb" Offset="C" StructName1="c_damage_response_flag_schema_part2">
+			<Flag n="cause right leg dismemberment" />
+			<Flag n="cause left arm dismemberment" />
+			<Flag n="cause right arm dismemberment" />
+			<Flag n="allow damage recharge overflow" />
+		</_D>
+		<_15 Name="damage threshold" Offset="10" />
+		<_D Name="body threshold flags" Offset="14" StructName1="DamageResponseBodyThresholdFlag">
+			<Flag n="body threshold active" />
+		</_D>
+		<_14 Name="body damage threshold" Offset="18" />
+		<_41 Name="transition effect (generic)" Offset="1C" Allowed="effe" Flags="0" />
+		<_41 Name="transition effect (specific)" Offset="38" Allowed="effe" Flags="0" />
+		<_38 Name="damage effect" Offset="54" GUID="451A491416BAF7617244DA1EB508138C" />
+		<_2 Name="region" Offset="70" />
+		<_B Name="new state" Offset="74" StructName1="ModelStates">
+			<Flag n="default" />
+			<Flag n="minor damage" />
+			<Flag n="medium damage" />
+			<Flag n="major damage" />
+			<Flag n="destroyed" />
+		</_B>
+		<_5 Name="runtime region index" Offset="76" />
+		<_2 Name="region (secondary)" Offset="78" />
+		<_B Name="new state (secondary)" Offset="7C" StructName1="ModelStates">
+			<Flag n="default" />
+			<Flag n="minor damage" />
+			<Flag n="medium damage" />
+			<Flag n="major damage" />
+			<Flag n="destroyed" />
+		</_B>
+		<_5 Name="runtime region index (secondary)" Offset="7E" />
+		<_B Name="custom response behavior" Offset="80" StructName1="DamageResponseCustomResponseBehavior">
+			<Flag n="plays always" />
+			<Flag n="plays if labels match" />
+			<Flag n="plays if labels differ" />
+		</_B>
+		<_34 Name="generated_pad870e" Offset="82" Length="2" />
+		<_2 Name="custom response label" Offset="84" />
+		<_2 Name="effect marker name" Offset="88" />
+		<_38 Name="damage effect marker" Offset="8C" GUID="C8664D2F6272DDC9B0C9B9DFB77E21BC" />
+		<_36 Name="Response delay" Offset="90" />
+		<_14 Name="response delay" Offset="90" />
+		<_41 Name="delay effect" Offset="94" Allowed="effe" Flags="0" />
+		<_2 Name="delay effect marker name" Offset="B0" />
+		<_14 Name="response delay premature damage threshold" Offset="B4" />
+		<_36 Name="seat ejaculation" Offset="B8" />
+		<_2 Name="ejecting seat label" Offset="B8" />
+		<_36 Name="skip fraction" Offset="BC" />
+		<_15 Name="skip fraction" Offset="BC" />
+		<_36 Name="destroyed child object marker name" Offset="C0" />
+		<_2 Name="destroyed child object marker name" Offset="C0" />
+		<_36 Name="total damage threshold" Offset="C4" />
+		<_15 Name="total damage threshold" Offset="C4" />
+	</_10DE4CDB2A8C9E6BBB69FEED9C2F98C4>
+	<_C1A14C1E11C1834D8A6494539BB6EFBD Name="s_damage_seat_region_setting" Size="2C">
+		<_36 Name="region-state-specific-damage" Offset="0" />
+		<_2 Name="damage region name" Offset="0" />
+		<_5 Name="runtime damage region index" Offset="4" />
+		<_34 Name="generated_padf8cd" Offset="6" Length="2" />
+		<_14 Name="direct damage scale (minor)" Offset="8" />
+		<_14 Name="Max. transfer scale (minor)" Offset="C" />
+		<_14 Name="min. transfer scale (minor)" Offset="10" />
+		<_14 Name="direct damage scale (medium)" Offset="14" />
+		<_14 Name="Max. transfer scale (medium)" Offset="18" />
+		<_14 Name="min. transfer scale (medium)" Offset="1C" />
+		<_14 Name="direct damage scale (major)" Offset="20" />
+		<_14 Name="Max. transfer scale (major)" Offset="24" />
+		<_14 Name="min. transfer scale (major)" Offset="28" />
+	</_C1A14C1E11C1834D8A6494539BB6EFBD>
+	<_37874EA78A79DE8F6C405174B16821C2 Name="i343::Damage::OvershieldInformation" Size="24">
+		<_37 Name="Overshield" type="fgrb" Offset="0" />
+		<_14 Name="decay rate " Offset="0" />
+		<_14 Name="stun time scalar [0, n] " Offset="4" />
+		<_41 Name="Generic modifiers" Offset="8" Allowed="gmpm" Flags="0" />
+		<_37 Name="" type="fgre" Offset="24" />
+	</_37874EA78A79DE8F6C405174B16821C2>
+	<_C81742A9DD3D5ACB4A18CA81911C9F78 Name="s_model_variant_state" Size="C">
+		<_2 Name="permutation name" Offset="0" />
+		<_4 Name="runtime permutation index" Offset="4" />
+		<_F Name="property flags" Offset="5" StructName1="ModelStatePropertyFlags">
+			<Flag n="blurred" />
+			<Flag n="hella blurred" />
+			<Flag n="unshielded" />
+			<Flag n="battery depleted" />
+		</_F>
+		<_B Name="state" Offset="6" StructName1="ModelStates">
+			<Flag n="default" />
+			<Flag n="minor damage" />
+			<Flag n="medium damage" />
+			<Flag n="major damage" />
+			<Flag n="destroyed" />
+		</_B>
+		<_15 Name="initial probability" Offset="8" />
+	</_C81742A9DD3D5ACB4A18CA81911C9F78>
+	<_148440EA42CDCB9BB3C86C53B21C6D08 Name="ModelStatePermutationIndex" Size="1">
+		<_4 Name="runtime permutation index" Offset="0" />
+	</_148440EA42CDCB9BB3C86C53B21C6D08>
+	<_9AAD49315B797CB13AE0B8EFA4D67F82 Name="s_dumpling_sector_point" Size="C">
+		<_17 Name="position" Offset="0" />
+	</_9AAD49315B797CB13AE0B8EFA4D67F82>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+	<_EF89412C9F11D1BDACD4738880993F43 Name="VariantSpecificationBlock" Size="4">
+		<_2 Name="name" Offset="0" />
+	</_EF89412C9F11D1BDACD4738880993F43>
+	<_451A491416BAF7617244DA1EB508138C Name="InstantaneousResponseDamageEffect" Size="1C">
+		<_41 Name="transition damage effect" Offset="0" Allowed="jpt!" Flags="0" />
+	</_451A491416BAF7617244DA1EB508138C>
+	<_C8664D2F6272DDC9B0C9B9DFB77E21BC Name="InstantaneousResponseDamageEffectMarker" Size="4">
+		<_2 Name="damage effect marker name" Offset="0" />
+	</_C8664D2F6272DDC9B0C9B9DFB77E21BC>
+	<_2463448AAB37ECDD6A0B2580A416FEB5 Name="s_region_transition" Size="8">
+		<_2 Name="region" Offset="0" />
+		<_B Name="new state" Offset="4" StructName1="ModelStates">
+			<Flag n="default" />
+			<Flag n="minor damage" />
+			<Flag n="medium damage" />
+			<Flag n="major damage" />
+			<Flag n="destroyed" />
+		</_B>
+		<_5 Name="runtime region index" Offset="6" />
+	</_2463448AAB37ECDD6A0B2580A416FEB5>
+	<_2CBA40A26CB868BBCA96880DAEB08A95 Name="SeatEjectionBlock" Size="4">
+		<_2 Name="seat label" Offset="0" />
+	</_2CBA40A26CB868BBCA96880DAEB08A95>
+</root>

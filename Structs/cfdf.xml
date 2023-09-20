@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="CollisionFilterDefinition" Parents="aTag" Index="-55">
+	<_7A0641875935E5CA5642EAE7BFE7DB34 Name="i343::Physics::CollisionFilterDefinition" Size="38">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="types" Offset="10" GUID="2361439038026B6313F43DDEADDE0991" StructName1="i343::Physics::CollisionFilterDefinition" Min="0" Max="255" />
+		<_40 Name="layers" Offset="24" GUID="189B45F0EDB2780B803011769B37230B" StructName1="i343::Physics::CollisionFilterDefinition" Min="0" Max="520200" />
+	</_7A0641875935E5CA5642EAE7BFE7DB34>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_2361439038026B6313F43DDEADDE0991 Name="i343::Physics::CollisionTypeName" Size="4">
+		<_2 Name="name" Offset="0" />
+	</_2361439038026B6313F43DDEADDE0991>
+	<_189B45F0EDB2780B803011769B37230B Name="i343::Physics::CollisionLayerData" Size="1">
+		<_4 Name="collision" Offset="0" />
+	</_189B45F0EDB2780B803011769B37230B>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

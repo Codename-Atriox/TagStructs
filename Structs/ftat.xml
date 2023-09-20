@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="ForgeTelescopingAsset" Parents="aTag" Index="-168">
+	<_E2C242B91E5CE5C0A3DFAC2DB556DCF3 Name="ForgeEngine::TelescopingAssetTag" Size="A8">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_A Name="TelescopingSolutionType" Offset="10" StructName1="ForgeEngine::TelescopingSolutionType">
+			<Flag n="AlgebraicWithMarkup" />
+			<Flag n="Interpolation" />
+		</_A>
+		<_34 Name="generated_pad4682" Offset="11" Length="3" />
+		<_40 Name="Corners" Offset="14" GUID="80934AEBA26F147D594496C8AB6D738E" StructName1="ForgeEngine::TelescopingAssetTag" Min="0" Max="20" />
+		<_40 Name="Edges" Offset="28" GUID="38A945E7D02FE84E5FF678CBA3A1E542" StructName1="ForgeEngine::TelescopingAssetTag" Min="0" Max="32" />
+		<_40 Name="Faces" Offset="3C" GUID="EA254456D852B31CE3E3D59C87DFC9B8" StructName1="ForgeEngine::TelescopingAssetTag" Min="0" Max="16" />
+		<_A Name="ScaleConstraint" Offset="50" StructName1="ForgeEngine::TelescopingScaleConstraint">
+			<Flag n="None" />
+			<Flag n="XY" />
+			<Flag n="XZ" />
+			<Flag n="YZ" />
+			<Flag n="XYZ" />
+		</_A>
+		<_A Name="ScaleRestriction" Offset="51" StructName1="ForgeEngine::TelescopingScaleRestriction">
+			<Flag n="None" />
+			<Flag n="X" />
+			<Flag n="Y" />
+			<Flag n="Z" />
+			<Flag n="XY" />
+			<Flag n="XZ" />
+			<Flag n="YZ" />
+			<Flag n="Unscalable" />
+		</_A>
+		<_34 Name="generated_pad9337" Offset="52" Length="2" />
+		<_19 Name="Minimum Scale" Offset="54" />
+		<_19 Name="Maximum Scale" Offset="60" />
+		<_41 Name="Runtime Underlying Collision Geo (Static IO)" Offset="6C" Allowed="scgt" Flags="0" />
+		<_41 Name="Runtime Underlying Material Palette (Static IO)" Offset="88" Allowed="rtmp" Flags="0" />
+		<_34 Name="generated_paddfec" Offset="A4" Length="4" />
+	</_E2C242B91E5CE5C0A3DFAC2DB556DCF3>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_80934AEBA26F147D594496C8AB6D738E Name="ForgeEngine::TelescopingCorner" Size="BC">
+		<_41 Name="Object" Offset="0" Allowed="aTag" Flags="1" />
+		<_19 Name="Position" Offset="1C" />
+		<_2 Name="variant" Offset="28" />
+		<_19 Name="Tip" Offset="2C" />
+		<_40 Name="Magnets" Offset="38" GUID="83EE4CB8AE1B56CCDE81E20B846057C0" StructName1="ForgeEngine::TelescopingCorner" Min="0" Max="12" />
+		<_19 Name="PositionAtMinScale" Offset="4C" />
+		<_19 Name="PositionAtMaxScale" Offset="58" />
+		<_41 Name="Runtime Underlying Geo (Static IO)" Offset="64" Allowed="rtgo" Flags="0" />
+		<_41 Name="Runtime Underlying Collision Geo (Static IO)" Offset="80" Allowed="scgt" Flags="0" />
+		<_41 Name="Runtime Underlying Material Palette (Static IO)" Offset="9C" Allowed="rtmp" Flags="0" />
+		<_2 Name="Style" Offset="B8" />
+	</_80934AEBA26F147D594496C8AB6D738E>
+	<_38A945E7D02FE84E5FF678CBA3A1E542 Name="ForgeEngine::TelescopingEdge" Size="F8">
+		<_41 Name="Object" Offset="0" Allowed="aTag" Flags="1" />
+		<_19 Name="Position" Offset="1C" />
+		<_2 Name="variant" Offset="28" />
+		<_19 Name="CreaseTip1" Offset="2C" />
+		<_19 Name="CreaseTip2" Offset="38" />
+		<_40 Name="endPoints" Offset="44" GUID="83EE4CB8AE1B56CCDE81E20B846057C0" StructName1="ForgeEngine::TelescopingEdge" Min="0" Max="12" />
+		<_1A Name="rotation" Offset="58" />
+		<_A Name="ObjectSpaceEdgeAlignment" Offset="68" StructName1="ForgeEngine::TelescopingObjectSpaceEdgeAlignment">
+			<Flag n="NoRotate" />
+			<Flag n="X" />
+			<Flag n="Y" />
+			<Flag n="Z" />
+		</_A>
+		<_34 Name="generated_padf5c1" Offset="69" Length="3" />
+		<_40 Name="Magnets" Offset="6C" GUID="83EE4CB8AE1B56CCDE81E20B846057C0" StructName1="ForgeEngine::TelescopingEdge" Min="0" Max="12" />
+		<_19 Name="PositionAtMinScale" Offset="80" />
+		<_19 Name="PositionAtMaxScale" Offset="8C" />
+		<_14 Name="ScaleAtMinScale" Offset="98" />
+		<_14 Name="ScaleAtMaxScale" Offset="9C" />
+		<_41 Name="Runtime Underlying Geo (Static IO)" Offset="A0" Allowed="rtgo" Flags="0" />
+		<_41 Name="Runtime Underlying Collision Geo (Static IO)" Offset="BC" Allowed="scgt" Flags="0" />
+		<_41 Name="Runtime Underlying Material Palette (Static IO)" Offset="D8" Allowed="rtmp" Flags="0" />
+		<_2 Name="Style" Offset="F4" />
+	</_38A945E7D02FE84E5FF678CBA3A1E542>
+	<_EA254456D852B31CE3E3D59C87DFC9B8 Name="ForgeEngine::TelescopingFace" Size="120">
+		<_41 Name="Object" Offset="0" Allowed="aTag" Flags="1" />
+		<_19 Name="Position" Offset="1C" />
+		<_1A Name="Rotation" Offset="28" />
+		<_2 Name="variant" Offset="38" />
+		<_40 Name="FaceEndPoints" Offset="3C" GUID="83EE4CB8AE1B56CCDE81E20B846057C0" StructName1="ForgeEngine::TelescopingFace" Min="0" Max="12" />
+		<_40 Name="Magnets" Offset="50" GUID="83EE4CB8AE1B56CCDE81E20B846057C0" StructName1="ForgeEngine::TelescopingFace" Min="0" Max="12" />
+		<_41 Name="Runtime Underlying Geo (Static IO)" Offset="64" Allowed="rtgo" Flags="0" />
+		<_41 Name="Runtime Underlying Collision Geo (Static IO)" Offset="80" Allowed="scgt" Flags="0" />
+		<_41 Name="Runtime Underlying Material Palette (Static IO)" Offset="9C" Allowed="rtmp" Flags="0" />
+		<_2 Name="Style" Offset="B8" />
+		<_19 Name="endPointsBoundsMax" Offset="BC" />
+		<_19 Name="endPointsBoundsMin" Offset="C8" />
+		<_19 Name="geoBoundsMin" Offset="D4" />
+		<_19 Name="geoBoundsMax" Offset="E0" />
+		<_A Name="faceWidthToMaintain" Offset="EC" StructName1="ForgeEngine::TelescopingMaintainFaceWidth">
+			<Flag n="None" />
+			<Flag n="X" />
+			<Flag n="Y" />
+			<Flag n="Z" />
+		</_A>
+		<_34 Name="generated_padac75" Offset="ED" Length="3" />
+		<_19 Name="PositionAtMinScale" Offset="F0" />
+		<_19 Name="PositionAtMaxScale" Offset="FC" />
+		<_19 Name="ScaleAtMinScale" Offset="108" />
+		<_19 Name="ScaleAtMaxScale" Offset="114" />
+	</_EA254456D852B31CE3E3D59C87DFC9B8>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_83EE4CB8AE1B56CCDE81E20B846057C0 Name="ForgeEngine::TelescopingPoint" Size="C">
+		<_19 Name="point" Offset="0" />
+	</_83EE4CB8AE1B56CCDE81E20B846057C0>
+</root>

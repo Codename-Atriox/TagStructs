@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="baseshader" Parents="aTag" Index="-370">
+	<_6B0A4EBCEE8783DB9BBBA7009C2BED6A Name="BaseShader" Size="70">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_6 Name="shader compiler version" Offset="10" />
+		<_D Name="flags" Offset="14" StructName1="ShaderFlags">
+			<Flag n="is_distortion" />
+			<Flag n="is_decal" />
+			<Flag n="is_water" />
+			<Flag n="is_hologram" />
+			<Flag n="is_wireframe_hologram" />
+			<Flag n="SupportsForgeCoatingCustomization" />
+			<Flag n="is_alpha_clip" />
+			<Flag n="is_explicit_shader" />
+			<Flag n="uses_fade_time" />
+			<Flag n="is_hologram_lofi" />
+			<Flag n="custom_deformer" />
+			<Flag n="has_compute" />
+			<Flag n="is_shield_generator" />
+			<Flag n="is_olympus_effect_lighting" />
+			<Flag n="is_skinned_tree" />
+			<Flag n="is_static_branching_shader" />
+			<Flag n="generator_uses_depth_buffer" />
+			<Flag n="has_subsurface_scattering" />
+			<Flag n="transparent_requires_scene_color" />
+			<Flag n="uses_point_input_patch" />
+			<Flag n="supports_packed_ovt" />
+			<Flag n="uses_deferred_shading" />
+			<Flag n="is_decorator" />
+			<Flag n="is_foliage" />
+			<Flag n="is_composited_card" />
+			<Flag n="is_low_res_lighting_eligible" />
+			<Flag n="is_high_res_lighting_eligible" />
+			<Flag n="is_two_sided_shader" />
+			<Flag n="decorator_requires_zpp" />
+			<Flag n="uses_terrain_sampling" />
+			<Flag n="decal_use_uav_normal" />
+		</_D>
+		<_D Name="Compile Flags" Offset="18" StructName1="ShaderCompileFlags">
+			<Flag n="validation" />
+			<Flag n="debug" />
+			<Flag n="deoptimize" />
+			<Flag n="generate_pdbs" />
+			<Flag n="iteration" />
+		</_D>
+		<_40 Name="emitter property names" Offset="1C" GUID="A88440717CB844E0C95259049078EE82" StructName1="BaseShader" Min="0" Max="32" />
+		<_40 Name="simulator property names" Offset="30" GUID="A88440717CB844E0C95259049078EE82" StructName1="BaseShader" Min="0" Max="32" />
+		<_40 Name="renderer property names" Offset="44" GUID="A88440717CB844E0C95259049078EE82" StructName1="BaseShader" Min="0" Max="32" />
+		<_42 Name="shader source data" Offset="58" StructName1="BaseShader.shader source data" Int1="8" Int2="0" Flags="1400000" />
+	</_6B0A4EBCEE8783DB9BBBA7009C2BED6A>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_A88440717CB844E0C95259049078EE82 Name="ShaderGPUPropertyName" Size="4">
+		<_2 Name="name" Offset="0" />
+	</_A88440717CB844E0C95259049078EE82>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

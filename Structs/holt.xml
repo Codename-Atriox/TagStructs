@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="hologram_lighting" Parents="aTag" Index="-206">
+	<_0C4F4327E44AB0428CAA4662A69C2E0B Name="HologramLightingTag" Size="70">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="Hologram Lighting" Offset="10" GUID="97B94053797B81377A735DA4928DC395" />
+	</_0C4F4327E44AB0428CAA4662A69C2E0B>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_97B94053797B81377A735DA4928DC395 Name="HologramLighting" Size="60">
+		<_37 Name="HOLOGRAM" type="fgrb" Offset="0" />
+		<_37 Name="Intensity" type="sled" Offset="0" Float1="0" Max="1" Min="0.01" Float4="0" />
+		<_14 Name="Intensity" type="sled" Offset="0" />
+		<_14 Name="Intensity Input" Offset="4" />
+		<_A Name="Transparency Mode" Offset="8" StructName1="HologramTransparencyMode">
+			<Flag n="cheap" />
+			<Flag n="expensive" />
+		</_A>
+		<_34 Name="generated_pad2b63" Offset="9" Length="3" />
+		<_37 Name="" type="fgre" Offset="C" />
+		<_37 Name="KEY LIGHT" type="fgrb" Offset="C" />
+		<_38 Name="Key Light" Offset="C" GUID="FC3C45A63906DA321B292C95ADEDC284" />
+		<_37 Name="" type="fgre" Offset="28" />
+		<_37 Name="FILL LIGHT" type="fgrb" Offset="28" />
+		<_38 Name="Fill Light" Offset="28" GUID="FC3C45A63906DA321B292C95ADEDC284" />
+		<_37 Name="" type="fgre" Offset="44" />
+		<_37 Name="RIM LIGHT" type="fgrb" Offset="44" />
+		<_38 Name="Rim Light" Offset="44" GUID="FC3C45A63906DA321B292C95ADEDC284" />
+		<_37 Name="" type="fgre" Offset="60" />
+	</_97B94053797B81377A735DA4928DC395>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_FC3C45A63906DA321B292C95ADEDC284 Name="HologramLight" Size="1C">
+		<_37 Name="Hologram Light" type="holl" Offset="0" />
+		<_37 Name="Direction" type="sled" Offset="0" Float1="0" Max="360" Min="1" Float4="0" />
+		<_14 Name="Direction" type="sled" Offset="0" />
+		<_37 Name="Front-Back" type="sled" Offset="4" Float1="0" Max="180" Min="1" Float4="0" />
+		<_14 Name="Front-Back" type="sled" Offset="4" />
+		<_37 Name="Intensity" type="sled" Offset="8" Float1="0" Max="1" Min="0.01" Float4="0" />
+		<_14 Name="Intensity" type="sled" Offset="8" />
+		<_14 Name="Intensity Input" Offset="C" />
+		<_14 Name="Forward Input" Offset="10" />
+		<_14 Name="Right Input" Offset="14" />
+		<_14 Name="Up Input" Offset="18" />
+	</_FC3C45A63906DA321B292C95ADEDC284>
+</root>

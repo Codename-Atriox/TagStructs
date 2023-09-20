@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="antenna" Parents="aTag" Index="-23">
+	<_EF274B86B3BE1D39E030C9EE866479C8 Name="antenna_definition" Size="80">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_2 Name="attachment marker name" Offset="10" />
+		<_41 Name="bitmaps" Offset="14" Allowed="bitm" Flags="0" />
+		<_41 Name="physics" Offset="30" Allowed="pphy" Flags="0" />
+		<_15 Name="spring strength coefficient" Offset="4C" />
+		<_14 Name="texel to world width scale" Offset="50" />
+		<_14 Name="falloff pixels" Offset="54" />
+		<_14 Name="cutoff pixels" Offset="58" />
+		<_14 Name="point of bend" Offset="5C" />
+		<_14 Name="starting bend" Offset="60" />
+		<_14 Name="ending bend" Offset="64" />
+		<_14 Name="runtime total length" Offset="68" />
+		<_40 Name="vertices" Offset="6C" GUID="7754476A5F3BF4F0AB160F498359AD41" StructName1="antenna_definition" Min="0" Max="20" />
+	</_EF274B86B3BE1D39E030C9EE866479C8>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_7754476A5F3BF4F0AB160F498359AD41 Name="antenna_vertex" Size="40">
+		<_1B Name="angles" Offset="0" />
+		<_14 Name="length" Offset="8" />
+		<_5 Name="sequence index" Offset="C" />
+		<_34 Name="generated_padd920" Offset="E" Length="2" />
+		<_20 Name="color" Offset="10" />
+		<_20 Name="LOD color" Offset="20" />
+		<_14 Name="hermite t" Offset="30" />
+		<_19 Name="vector to next" Offset="34" />
+	</_7754476A5F3BF4F0AB160F498359AD41>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="performance_throttles" Parents="aTag" Index="-306">
+	<_26134854044A456372F14803A54E1DDE Name="c_performance_throttles" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="Performance Throttles" Offset="10" />
+		<_40 Name="Performance Throttles" Offset="10" GUID="8B6740B385D15105D1A37CE3A382FD88" StructName1="c_performance_throttles" Min="0" Max="7" />
+		<_34 Name="generated_pada5ca" Offset="24" Length="4" />
+	</_26134854044A456372F14803A54E1DDE>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_8B6740B385D15105D1A37CE3A382FD88 Name="s_performance_throttles" Size="4C">
+		<_D Name="flags" Offset="0" StructName1="s_performance_throttles::Flag">
+			<Flag n="disable object attachment lights" />
+			<Flag n="disable cheap particles" />
+			<Flag n="disable blob shadows" />
+			<Flag n="disable screen distortion" />
+			<Flag n="disable light shafts" />
+			<Flag n="disable first person depth of field" />
+			<Flag n="disable motion blur" />
+			<Flag n="disable particles continue offscreen" />
+			<Flag n="disable light cones" />
+			<Flag n="disable water interraction" />
+			<Flag n="disable water refraction" />
+			<Flag n="disable decorators" />
+			<Flag n="disable instance occlusion queries" />
+			<Flag n="disable structure decals" />
+			<Flag n="disable object decals" />
+		</_D>
+		<_14 Name="water tessellation scale" Offset="4" />
+		<_14 Name="decorator fade dist scale" Offset="8" />
+		<_14 Name="effect lod distance scale" Offset="C" />
+		<_37 Name="Object settings" type="fgrb" Offset="10" />
+		<_14 Name="instance fade modifier" Offset="10" />
+		<_14 Name="object fade modifier" Offset="14" />
+		<_14 Name="object detail fade modifier" Offset="18" />
+		<_14 Name="object lighting time limit" Offset="1C" />
+		<_37 Name="" type="fgre" Offset="20" />
+		<_37 Name="LOD settings" type="fgrb" Offset="20" />
+		<_14 Name="LOD modifier" Offset="20" />
+		<_14 Name="LOD vertical modifier" Offset="24" />
+		<_6 Name="Maximum Instance Group LOD draw bundles" Offset="28" />
+		<_37 Name="" type="fgre" Offset="2C" />
+		<_37 Name="Dynamic light settings" type="fgrb" Offset="2C" />
+		<_6 Name="max forward dynamic lights" Offset="2C" />
+		<_14 Name="forward dynamic light fade distance scale" Offset="30" />
+		<_6 Name="max screenspace dynamic lights" Offset="34" />
+		<_14 Name="screenspace light fade distance scale" Offset="38" />
+		<_6 Name="max effect lights (screenspace)" Offset="3C" />
+		<_37 Name="" type="fgre" Offset="40" />
+		<_37 Name="Shadow settings" type="fgrb" Offset="40" />
+		<_6 Name="max shadow casting objects" Offset="40" />
+		<_14 Name="shadow quality lod" Offset="44" />
+		<_14 Name="floating shadow quality lod" Offset="48" />
+		<_37 Name="" type="fgre" Offset="4C" />
+	</_8B6740B385D15105D1A37CE3A382FD88>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

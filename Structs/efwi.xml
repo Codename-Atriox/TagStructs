@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:04 PM" Name="effect_wind" Parents="aTag" Index="-123">
+	<_75614B62358B28A2C53B6AC58D1410E6 Name="i343::Effects::EffectWindMotor" Size="90">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_C Name="Type" Offset="10" StructName1="i343::Wind::WindInfluencerVolumeTypeEnum">
+			<Flag n="Blocker" />
+			<Flag n="Directional Emitter" />
+			<Flag n="Omnidirectional Emitter" />
+		</_C>
+		<_19 Name="Direction" Offset="14" />
+		<_38 Name="Strength" Offset="20" GUID="33014967E0B2D627F99B8D5DA11D8CF2" />
+		<_38 Name="Scale X or Radius" Offset="3C" GUID="33014967E0B2D627F99B8D5DA11D8CF2" />
+		<_38 Name="Scale Y" Offset="58" GUID="33014967E0B2D627F99B8D5DA11D8CF2" />
+		<_38 Name="Scale Z" Offset="74" GUID="33014967E0B2D627F99B8D5DA11D8CF2" />
+	</_75614B62358B28A2C53B6AC58D1410E6>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_33014967E0B2D627F99B8D5DA11D8CF2 Name="i343::Effects::EffectWindFunction" Size="1C">
+		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="i343::Effects::WindFunctionInputs">
+			<Flag n="Event Age" />
+			<Flag n="Effect Scale A" />
+			<Flag n="Effect Scale B" />
+		</_A>
+		<_A Name="Range Variable" type="fnir" Offset="1" StructName1="i343::Effects::WindFunctionInputs">
+			<Flag n="Event Age" />
+			<Flag n="Effect Scale A" />
+			<Flag n="Effect Scale B" />
+		</_A>
+		<_A Name="Output Modifier" type="fnop" Offset="2" StructName1="i343::Effects::OutputModifier">
+			<Flag n=" " />
+			<Flag n="Plus" />
+			<Flag n="Times" />
+		</_A>
+		<_A Name="Output Modifier Input" type="fnom" Offset="3" StructName1="i343::Effects::WindFunctionInputs">
+			<Flag n="Event Age" />
+			<Flag n="Effect Scale A" />
+			<Flag n="Effect Scale B" />
+		</_A>
+		<_37 Name="Mapping" type="fned" Offset="4" />
+		<_38 Name="Mapping" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_33014967E0B2D627F99B8D5DA11D8CF2>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

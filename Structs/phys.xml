@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="asset_physics" Parents="aTag" Index="-311">
+	<_B56E4370060C9B94B3B67740B5BE45BA Name="AssetPhysicsTag" Size="B0">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_F Name="Flags" Offset="10" StructName1="i343::AssetPhysics::AssetPhysicsFlags">
+			<Flag n="Make physical children keyframed" />
+			<Flag n="Use physics for collision" />
+			<Flag n="Use aggressive deactivation for havok bodies" />
+		</_F>
+		<_34 Name="generated_pad7535" Offset="11" Length="3" />
+		<_14 Name="Mass override" Offset="14" />
+		<_14 Name="Mass scale override" Offset="18" />
+		<_14 Name="Collision look ahead distance" Offset="1C" />
+		<_40 Name="Materials" Offset="20" GUID="2C504F3274CF3874C4B66316ADD9AA62" StructName1="AssetPhysicsTag" Min="0" Max="12" />
+		<_37 Name="Shapes" type="fgrb" Offset="34" />
+		<_40 Name="Shapes" Offset="34" GUID="D45A4000CD05894AC2489C08BA527042" StructName1="AssetPhysicsTag" Min="0" Max="16384" />
+		<_40 Name="Self-collision pairs" Offset="48" GUID="FF644857FA460A1E0F739963B742984C" StructName1="AssetPhysicsTag" Min="0" Max="512" />
+		<_37 Name="" type="fgre" Offset="5C" />
+		<_40 Name="Phantom types" Offset="5C" GUID="BE0D498CB268731B505FB710B3D2E255" StructName1="AssetPhysicsTag" Min="0" Max="12" />
+		<_37 Name="Constraints and Motors" type="fgrb" Offset="70" />
+		<_40 Name="Constraints" Offset="70" GUID="427748009BAF9D3D83F41601B953B282" StructName1="AssetPhysicsTag" Min="0" Max="128" />
+		<_40 Name="Damped spring motors" Offset="84" GUID="EFF444CEEDC34F17864AA664852368E3" StructName1="AssetPhysicsTag" Min="0" Max="128" />
+		<_40 Name="Position motors" Offset="98" GUID="626D43BFCA7AA30B55DF983C952AAB8D" StructName1="AssetPhysicsTag" Min="0" Max="128" />
+		<_37 Name="" type="fgre" Offset="AC" />
+		<_34 Name="generated_pad5b54" Offset="AC" Length="4" />
+	</_B56E4370060C9B94B3B67740B5BE45BA>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_2C504F3274CF3874C4B66316ADD9AA62 Name="i343::AssetPhysics::PhysicsMaterial" Size="10">
+		<_2 Name="Property region" Offset="0" />
+		<_F Name="Flags" Offset="4" StructName1="i343::AssetPhysics::PhysicsMaterialFlags">
+			<Flag n="Suppresses effects" />
+			<Flag n="Force enable collision with player" />
+		</_F>
+		<_34 Name="generated_padfd60" Offset="5" Length="3" />
+		<_2 Name="Phantom type name" type="sted" Offset="8" />
+		<_36 Name="Collision layer override" Offset="C" />
+		<_2 Name="Collision layer" type="sted" Offset="C" />
+	</_2C504F3274CF3874C4B66316ADD9AA62>
+	<_D45A4000CD05894AC2489C08BA527042 Name="i343::AssetPhysics::PhysicsShape" Size="58">
+		<_2 Name="Name" Offset="0" />
+		<_A Name="Compound shape policy" Offset="4" StructName1="i343::AssetPhysics::CompoundShapePolicy">
+			<Flag n="Disabled" />
+			<Flag n="Enabled" />
+		</_A>
+		<_34 Name="generated_pad2544" Offset="5" Length="3" />
+		<_14 Name="Relative mass scale" Offset="8" />
+		<_A Name="Motion type" Offset="C" StructName1="i343::AssetPhysics::RigidBodyMotionType">
+			<Flag n="Dynamic" />
+			<Flag n="Keyframed" />
+			<Flag n="Static" />
+		</_A>
+		<_A Name="Size" Offset="D" StructName1="i343::AssetPhysics::RigidBodySize">
+			<Flag n="Default" />
+			<Flag n="Tiny" />
+			<Flag n="Small" />
+			<Flag n="Medium" />
+			<Flag n="Large" />
+			<Flag n="Huge" />
+			<Flag n="Extra huge" />
+		</_A>
+		<_34 Name="generated_pad3f25" Offset="E" Length="2" />
+		<_14 Name="Bounding sphere pad" Offset="10" />
+		<_40 Name="Havok data" Offset="14" GUID="621E4B928C3C995352883BF283C8417F" StructName1="i343::AssetPhysics::PhysicsShape" Min="0" Max="1" />
+		<_37 Name="Collision layer" type="fgrb" Offset="28" />
+		<_36 Name="Collision layer override" Offset="28" />
+		<_2 Name="Collision layer" type="sted" Offset="28" />
+		<_A Name="Collision quality override type" Offset="2C" StructName1="i343::AssetPhysics::RigidBodyCollisionQualityOverride">
+			<Flag n="None" />
+			<Flag n="Static" />
+			<Flag n="Debris" />
+			<Flag n="Dynamic" />
+			<Flag n="Critical" />
+			<Flag n="Character" />
+		</_A>
+		<_34 Name="generated_pad8bda" Offset="2D" Length="3" />
+		<_37 Name="" type="fgre" Offset="30" />
+		<_37 Name="Stupid Mass" type="fgrb" Offset="30" />
+		<_36 Name="Stupid mass override" Offset="30" />
+		<_14 Name="Mass body override" Offset="30" />
+		<_19 Name="Mass distribution override" Offset="34" />
+		<_37 Name="" type="fgre" Offset="40" />
+		<_37 Name="Water Physics" type="fgrb" Offset="40" />
+		<_36 Name="Water physics bounding box" Offset="40" />
+		<_14 Name="Water physics x0" Offset="40" />
+		<_14 Name="Water physics x1" Offset="44" />
+		<_14 Name="Water physics y0" Offset="48" />
+		<_14 Name="Water physics y1" Offset="4C" />
+		<_14 Name="Water physics z0" Offset="50" />
+		<_14 Name="Water physics z1" Offset="54" />
+		<_37 Name="" type="fgre" Offset="58" />
+	</_D45A4000CD05894AC2489C08BA527042>
+	<_FF644857FA460A1E0F739963B742984C Name="i343::AssetPhysics::SelfCollisionPair" Size="4">
+		<_2E Name="First shape setting" Offset="0" GUID="D45A4000CD05894AC2489C08BA527042" StructName1="i343::AssetPhysics::SelfCollisionPair" Min="0" Max="16384" />
+		<_2E Name="Second shape setting" Offset="2" GUID="D45A4000CD05894AC2489C08BA527042" StructName1="i343::AssetPhysics::SelfCollisionPair" Min="0" Max="16384" />
+	</_FF644857FA460A1E0F739963B742984C>
+	<_BE0D498CB268731B505FB710B3D2E255 Name="i343::AssetPhysics::PhantomType" Size="AC">
+		<_2 Name="Name" Offset="0" />
+		<_37 Name="Flags" type="fgrb" Offset="4" />
+		<_D Name="Flags" Offset="4" StructName1="i343::AssetPhysics::PhantomFlags">
+			<Flag n="Only affects authoritative gameplay" />
+			<Flag n="Ignores players" />
+			<Flag n="Ignores nonplayers" />
+			<Flag n="Ignores bipeds" />
+			<Flag n="Ignores dead bipeds" />
+			<Flag n="Ignores live bipeds" />
+			<Flag n="Ignores grounded bipeds" />
+			<Flag n="Ignores vehicles" />
+			<Flag n="Ignores weapons" />
+			<Flag n="Ignores equipment" />
+			<Flag n="Ignores projectiles" />
+			<Flag n="Ignores scenery" />
+			<Flag n="Ignores devices" />
+			<Flag n="Ignores crates" />
+			<Flag n="Ignores creatures" />
+			<Flag n="Ignores giants" />
+			<Flag n="Ignores mechs" />
+			<Flag n="ignores damage owner" />
+			<Flag n="ignores attached objects" />
+			<Flag n="Ignores forge editor" />
+			<Flag n="Use acceleration as force" />
+			<Flag n="Smart directional acceleration" />
+			<Flag n="Accelerate along input direction" />
+			<Flag n="Negates gravity" />
+			<Flag n="Disable linear air drag" />
+			<Flag n="Disable angular air drag" />
+			<Flag n="Latching disabled" />
+			<Flag n="Mirrored axis" />
+			<Flag n="Activate ragdolls" />
+		</_D>
+		<_37 Name="" type="fgre" Offset="8" />
+		<_14 Name="Brittle timer" Offset="8" />
+		<_A Name="Minimum size" Offset="C" StructName1="i343::AssetPhysics::RigidBodySize">
+			<Flag n="Default" />
+			<Flag n="Tiny" />
+			<Flag n="Small" />
+			<Flag n="Medium" />
+			<Flag n="Large" />
+			<Flag n="Huge" />
+			<Flag n="Extra huge" />
+		</_A>
+		<_A Name="Maximum size" Offset="D" StructName1="i343::AssetPhysics::RigidBodySize">
+			<Flag n="Default" />
+			<Flag n="Tiny" />
+			<Flag n="Small" />
+			<Flag n="Medium" />
+			<Flag n="Large" />
+			<Flag n="Huge" />
+			<Flag n="Extra huge" />
+		</_A>
+		<_34 Name="generated_paddcef" Offset="E" Length="2" />
+		<_37 Name="" type="amkr" Offset="10" />
+		<_2 Name="Marker name" Offset="10" />
+		<_37 Name="" type="amkr" Offset="14" />
+		<_2 Name="Mancannon launched object marker name" Offset="14" />
+		<_37 Name="" type="amkr" Offset="18" />
+		<_2 Name="Alignment marker name" Offset="18" />
+		<_37 Name="Linear motion" type="fgrb" Offset="1C" />
+		<_36 Name="Linear motion" Offset="1C" />
+		<_14 Name="Hooke's Law e" Offset="1C" />
+		<_14 Name="Linear dead radius" Offset="20" />
+		<_14 Name="Center acceleration" Offset="24" />
+		<_14 Name="Center maximum velocity" Offset="28" />
+		<_14 Name="Axis acceleration" Offset="2C" />
+		<_14 Name="Axis maximum velocity" Offset="30" />
+		<_14 Name="Direction acceleration" Offset="34" />
+		<_14 Name="Direction maximum velocity" Offset="38" />
+		<_14 Name="Orbit acceleration" Offset="3C" />
+		<_14 Name="Orbit maximum velocity" Offset="40" />
+		<_37 Name="" type="fgre" Offset="44" />
+		<_37 Name="Angular motion" type="fgrb" Offset="44" />
+		<_36 Name="Angular motion" Offset="44" />
+		<_14 Name="Alignment Hooke's Law e" Offset="44" />
+		<_14 Name="Alignment acceleration" Offset="48" />
+		<_14 Name="Alignment maximum velocity" Offset="4C" />
+		<_37 Name="" type="fgre" Offset="50" />
+		<_37 Name="Damage per second" type="fgrb" Offset="50" />
+		<_41 Name="Damage per second effect" Offset="50" Allowed="jpt!" Flags="0" />
+		<_41 Name="Damage per second visual material effects" Offset="6C" Allowed="vmed" Flags="1" />
+		<_41 Name="Damage per second sound material effects" Offset="88" Allowed="smed" Flags="1" />
+		<_2 Name="damage per second object function" Offset="A4" />
+		<_14 Name="damage per second object function threshold" Offset="A8" />
+		<_37 Name="" type="fgre" Offset="AC" />
+	</_BE0D498CB268731B505FB710B3D2E255>
+	<_427748009BAF9D3D83F41601B953B282 Name="i343::AssetPhysics::ConstraintSettings" Size="84">
+		<_2 Name="Name" Offset="0" />
+		<_A Name="Type" Offset="4" StructName1="i343::AssetPhysics::ConstraintType">
+			<Flag n="Hinge" />
+			<Flag n="Limited hinge" />
+			<Flag n="Ragdoll" />
+			<Flag n="Stiff spring" />
+			<Flag n="Ball and socket" />
+			<Flag n="Prismatic" />
+		</_A>
+		<_F Name="Flags" Offset="5" StructName1="i343::AssetPhysics::RigidBodyConstraintEdgeConstraintFlags">
+			<Flag n="Is physical child" />
+			<Flag n="Is rigid" />
+			<Flag n="Disable effects" />
+			<Flag n="Not created automatically" />
+		</_F>
+		<_34 Name="generated_padd2a4" Offset="6" Length="2" />
+		<_14 Name="Friction" Offset="8" />
+		<_40 Name="Ragdoll settings" Offset="C" GUID="9904499C57FBF54F83996655BE44B9DA" StructName1="i343::AssetPhysics::ConstraintSettings" Min="0" Max="1" />
+		<_40 Name="Ragdoll motors" Offset="20" GUID="471446CE70A61A1BFFFED1A69C2885CE" StructName1="i343::AssetPhysics::ConstraintSettings" Min="0" Max="1" />
+		<_40 Name="Limited hinge settings" Offset="34" GUID="1917469CCEC3413A8F2597358D974740" StructName1="i343::AssetPhysics::ConstraintSettings" Min="0" Max="1" />
+		<_40 Name="Limited hinge motors" Offset="48" GUID="89FC401CFC78461483E9E142BF8035CC" StructName1="i343::AssetPhysics::ConstraintSettings" Min="0" Max="1" />
+		<_40 Name="Stiff spring settings" Offset="5C" GUID="BCE544B160D7EDB8CCF4478AA7CC2D28" StructName1="i343::AssetPhysics::ConstraintSettings" Min="0" Max="1" />
+		<_40 Name="Prismatic settings" Offset="70" GUID="8E3D497D83B1D704C8223B6EA1914878" StructName1="i343::AssetPhysics::ConstraintSettings" Min="0" Max="1" />
+	</_427748009BAF9D3D83F41601B953B282>
+	<_EFF444CEEDC34F17864AA664852368E3 Name="i343::AssetPhysics::DampedSpringMotor" Size="18">
+		<_2 Name="Name" Offset="0" />
+		<_14 Name="Maximum force" Offset="4" />
+		<_14 Name="Minimum force" Offset="8" />
+		<_14 Name="Spring k" Offset="C" />
+		<_14 Name="Damping" Offset="10" />
+		<_14 Name="Initial position" Offset="14" />
+	</_EFF444CEEDC34F17864AA664852368E3>
+	<_626D43BFCA7AA30B55DF983C952AAB8D Name="i343::AssetPhysics::PositionMotor" Size="20">
+		<_2 Name="Name" Offset="0" />
+		<_14 Name="Maximum force" Offset="4" />
+		<_14 Name="Minimum force" Offset="8" />
+		<_14 Name="Tau" Offset="C" />
+		<_14 Name="Damping" Offset="10" />
+		<_14 Name="Proportion recover velocity" Offset="14" />
+		<_14 Name="Constant recover velocity" Offset="18" />
+		<_14 Name="Initial position" Offset="1C" />
+	</_626D43BFCA7AA30B55DF983C952AAB8D>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_621E4B928C3C995352883BF283C8417F Name="i343::AssetPhysics::HavokData" Size="20">
+		<_F Name="Flags" Offset="0" StructName1="i343::AssetPhysics::HavokDataFlags">
+			<Flag n="Infinite intertia tensor" />
+			<Flag n="Explicit mass" />
+			<Flag n="Absolute center of mass" />
+			<Flag n="Force keyframed" />
+			<Flag n="Force not cut NavMesh" />
+		</_F>
+		<_34 Name="generated_padebef" Offset="1" Length="3" />
+		<_14 Name="Mass" Offset="4" />
+		<_19 Name="Center of mass offset" Offset="8" />
+		<_14 Name="Inertial tensor scale" Offset="14" />
+		<_14 Name="Linear air drag" Offset="18" />
+		<_14 Name="Angular air drag" Offset="1C" />
+	</_621E4B928C3C995352883BF283C8417F>
+	<_9904499C57FBF54F83996655BE44B9DA Name="i343::AssetPhysics::RagdollConstraintSettings" Size="1C">
+		<_14 Name="Minimum twist" Offset="0" />
+		<_14 Name="Maximum twist" Offset="4" />
+		<_14 Name="Minimum cone" Offset="8" />
+		<_14 Name="Maximum cone" Offset="C" />
+		<_14 Name="Minimum plane" Offset="10" />
+		<_14 Name="Maximum plane" Offset="14" />
+		<_14 Name="Maximum friction torque" Offset="18" />
+	</_9904499C57FBF54F83996655BE44B9DA>
+	<_471446CE70A61A1BFFFED1A69C2885CE Name="i343::AssetPhysics::RagdollMotors" Size="18">
+		<_36 Name="Twist" Offset="0" />
+		<_38 Name="Twist motor" Offset="0" GUID="D7094E051716F5AA1B77A17AA18542AC" />
+		<_36 Name="Cone" Offset="8" />
+		<_38 Name="Cone motor" Offset="8" GUID="D7094E051716F5AA1B77A17AA18542AC" />
+		<_36 Name="Plane" Offset="10" />
+		<_38 Name="Plane motor" Offset="10" GUID="D7094E051716F5AA1B77A17AA18542AC" />
+	</_471446CE70A61A1BFFFED1A69C2885CE>
+	<_1917469CCEC3413A8F2597358D974740 Name="i343::AssetPhysics::LimitedHingeConstraintSettings" Size="C">
+		<_14 Name="Limit friction" Offset="0" />
+		<_14 Name="Limit minimum angle" Offset="4" />
+		<_14 Name="Limit maximum angle" Offset="8" />
+	</_1917469CCEC3413A8F2597358D974740>
+	<_89FC401CFC78461483E9E142BF8035CC Name="i343::AssetPhysics::LimitedHingeMotor" Size="8">
+		<_38 Name="Motor" Offset="0" GUID="D7094E051716F5AA1B77A17AA18542AC" />
+	</_89FC401CFC78461483E9E142BF8035CC>
+	<_BCE544B160D7EDB8CCF4478AA7CC2D28 Name="i343::AssetPhysics::StiffSpringConstraintSettings" Size="4">
+		<_14 Name="Spring length" Offset="0" />
+	</_BCE544B160D7EDB8CCF4478AA7CC2D28>
+	<_8E3D497D83B1D704C8223B6EA1914878 Name="i343::AssetPhysics::PrismaticConstraintSettings" Size="C">
+		<_14 Name="Minimum limit" Offset="0" />
+		<_14 Name="Maximum limit" Offset="4" />
+		<_14 Name="Maximum friction force" Offset="8" />
+	</_8E3D497D83B1D704C8223B6EA1914878>
+	<_D7094E051716F5AA1B77A17AA18542AC Name="i343::AssetPhysics::Motor" Size="8">
+		<_A Name="Motor type" Offset="0" StructName1="i343::AssetPhysics::MotorType">
+			<Flag n="None" />
+			<Flag n="Damped spring" />
+			<Flag n="Position" />
+		</_A>
+		<_34 Name="generated_pad18f3" Offset="1" Length="3" />
+		<_2 Name="Motor name (reference)" type="sted" Offset="4" />
+	</_D7094E051716F5AA1B77A17AA18542AC>
+</root>

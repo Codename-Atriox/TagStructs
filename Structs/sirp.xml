@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="scenario_interpolator" Parents="aTag" Index="-382">
+	<_EA7944548A877FF653A71CCF853A9148 Name="s_scenario_interpolator_tag_definition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="interpolators" Offset="10" GUID="658E4C1D2FA4AF3DEE9A10518B561159" StructName1="s_scenario_interpolator_tag_definition" Min="0" Max="32" />
+		<_34 Name="generated_pad61c1" Offset="24" Length="4" />
+	</_EA7944548A877FF653A71CCF853A9148>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_658E4C1D2FA4AF3DEE9A10518B561159 Name="s_scenario_interpolator_entry_definition" Size="38">
+		<_D Name="flags" Offset="0" StructName1="InterpolatorFlags">
+			<Flag n="loop" />
+			<Flag n="always active" />
+		</_D>
+		<_2 Name="name" Offset="4" />
+		<_38 Name="function" Offset="8" GUID="0276481E72CB9289F56D7C189467A351" />
+		<_14 Name="duration" Offset="20" />
+		<_C Name="map reset type" Offset="24" StructName1="ScenarioInterpolatorResetValueEnum">
+			<Flag n="initial" />
+			<Flag n="ending" />
+			<Flag n="custom" />
+		</_C>
+		<_14 Name="custom map reset value" Offset="28" />
+		<_C Name="start type" Offset="2C" StructName1="ScenarioInterpolatorStartValueTypeEnum">
+			<Flag n="initial" />
+			<Flag n="unchanged" />
+		</_C>
+		<_C Name="stop type" Offset="30" StructName1="ScenarioInterpolatorStopValueTypeEnum">
+			<Flag n="initial" />
+			<Flag n="hold" />
+			<Flag n="end" />
+			<Flag n="custom" />
+		</_C>
+		<_14 Name="custom stop value" Offset="34" />
+	</_658E4C1D2FA4AF3DEE9A10518B561159>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+		<_37 Name="function" type="fned" Offset="0" />
+		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_0276481E72CB9289F56D7C189467A351>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

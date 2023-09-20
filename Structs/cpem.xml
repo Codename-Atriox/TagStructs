@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:00 PM" Name="cheap_particle_emitter" Parents="aTag" Index="-80">
+	<_E31FA29B03578EF200E427CA53BAF43A Name="CheapParticleEmitter" Size="148">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_E Name="flags" Offset="10" StructName1="CheapParticleEmitter::Flags">
+			<Flag n="correlate position and velocity" />
+			<Flag n="position texture in local space" />
+			<Flag n="velocity texture in local space" />
+			<Flag n="normalize velocity before scaling" />
+			<Flag n="randomly rotate emitter about up vector" />
+		</_E>
+		<_3D Name="version" Offset="12" />
+		<_14 Name="spawn rate" Offset="14" />
+		<_36 Name="SPAWN RATE" Offset="18" />
+		<_38 Name="spawnrate" Offset="18" GUID="ED024F7FE439295B393D4F18BA3D7B94" />
+		<_36 Name="LOD" Offset="38" />
+		<_14 Name="distance fade start" Offset="38" />
+		<_14 Name="distance fade end" Offset="3C" />
+		<_36 Name="TYPES" Offset="40" />
+		<_37 Name="types" type="fgrb" Offset="40" />
+		<_2 Name="type 0" type="sted" Offset="40" />
+		<_14 Name="weight 0" Offset="44" />
+		<_2 Name="type 1" type="sted" Offset="48" />
+		<_14 Name="weight 1" Offset="4C" />
+		<_2 Name="type 2" type="sted" Offset="50" />
+		<_14 Name="weight 2" Offset="54" />
+		<_2 Name="type 3" type="sted" Offset="58" />
+		<_14 Name="weight 3" Offset="5C" />
+		<_37 Name="" type="fgre" Offset="60" />
+		<_36 Name="LIFETIME" Offset="60" />
+		<_25 Name="lifetime" Offset="60" />
+		<_36 Name="EMITTER PARAMETERS" Offset="68" />
+		<_41 Name="position texture" Offset="68" Allowed="bitm" Flags="0" />
+		<_14 Name="position scale" Offset="84" />
+		<_14 Name="position flatten" Offset="88" />
+		<_41 Name="velocity texture" Offset="8C" Allowed="bitm" Flags="0" />
+		<_25 Name="directionality" Offset="A8" />
+		<_25 Name="speed scale" Offset="B0" />
+		<_25 Name="subframe offset" Offset="B8" />
+		<_36 Name="PARTICLE PARAMETERS" Offset="C0" />
+		<_14 Name="rotation randomness" Offset="C0" />
+		<_14 Name="particle scale modifier" Offset="C4" />
+		<_36 Name="LIGHTING PARAMETERS" Offset="C8" />
+		<_14 Name="lighting contrast" Offset="C8" />
+		<_14 Name="lighting offset" Offset="CC" />
+		<_14 Name="lighting min" Offset="D0" />
+		<_14 Name="lighting max" Offset="D4" />
+		<_1A Name="spawn_params0" Offset="D8" />
+		<_1A Name="spawn_params1" Offset="E8" />
+		<_1A Name="spawn_params2" Offset="F8" />
+		<_1A Name="spawn_params3" Offset="108" />
+		<_1A Name="spawn_params4" Offset="118" />
+		<_41 Name="global type library" Offset="128" Allowed="cptl" Flags="0" />
+		<_34 Name="generated_pad1e19" Offset="144" Length="4" />
+	</_E31FA29B03578EF200E427CA53BAF43A>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_ED024F7FE439295B393D4F18BA3D7B94 Name="CheapParticleScalarFunction" Size="20">
+		<_2 Name="Input Variable" type="fnin" Offset="0" />
+		<_2 Name="Range Variable" type="fnir" Offset="4" />
+		<_37 Name="Mapping" type="fned" Offset="8" />
+		<_38 Name="Mapping" Offset="8" GUID="53FA44845A14A98F0AF1459E801068D4" />
+	</_ED024F7FE439295B393D4F18BA3D7B94>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+</root>

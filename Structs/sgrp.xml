@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="sound_response" Parents="aTag" Index="-367">
+	<_6C774DA7048F8E352E123BABA440224B Name="SoundResponseGroupDefinition" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="responses" Offset="10" GUID="8B344910FE59D7D1932B62A091A59CF1" StructName1="SoundResponseGroupDefinition" Min="0" Max="10" />
+		<_34 Name="generated_pad2940" Offset="24" Length="4" />
+	</_6C774DA7048F8E352E123BABA440224B>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_8B344910FE59D7D1932B62A091A59CF1 Name="SoundResponseDefinition" Size="48">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="channel" Offset="4" />
+		<_2 Name="category" Offset="8" />
+		<_6 Name="category priority" Offset="C" />
+		<_14 Name="queue timeout" Offset="10" />
+		<_14 Name="consideration time" Offset="14" />
+		<_14 Name="gap after sound" Offset="18" />
+		<_F Name="queue behavior" Offset="1C" StructName1="c_sound_response_queue_flags">
+			<Flag n="bypass queue" />
+			<Flag n="clear queue" />
+			<Flag n="stop active sound" />
+			<Flag n="do not track" />
+		</_F>
+		<_34 Name="generated_padb18f" Offset="1D" Length="3" />
+		<_40 Name="potential responses" Offset="20" GUID="3FFD46FB4EFF149132D82AD5BCB2BA66" StructName1="SoundResponseDefinition" Min="0" Max="10" />
+		<_40 Name="combiners" Offset="34" GUID="0E27470F794704488EC2CA95974CFBF3" StructName1="SoundResponseDefinition" Min="0" Max="10" />
+	</_8B344910FE59D7D1932B62A091A59CF1>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_3FFD46FB4EFF149132D82AD5BCB2BA66 Name="SoundResponsePermutationDefinition" Size="38">
+		<_41 Name="sound" Offset="0" Allowed="snd!" Flags="0" />
+		<_41 Name="music" Offset="1C" Allowed="musc" Flags="0" />
+	</_3FFD46FB4EFF149132D82AD5BCB2BA66>
+	<_0E27470F794704488EC2CA95974CFBF3 Name="SoundCombineResponseDefinition" Size="24">
+		<_2 Name="name" Offset="0" />
+		<_F Name="response behavior" Offset="4" StructName1="c_sound_combine_response_flags">
+			<Flag n="cancel queued" />
+			<Flag n="cancel active" />
+			<Flag n="cancel new" />
+		</_F>
+		<_34 Name="generated_pad9b20" Offset="5" Length="3" />
+		<_41 Name="response" Offset="8" Allowed="sgrp" Flags="0" />
+	</_0E27470F794704488EC2CA95974CFBF3>
+</root>

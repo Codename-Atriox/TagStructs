@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="InGameMapMaterialVariations" Parents="aTag" Index="-210">
+	<_7FAF3D213D491FC29CBEF567A42A1E7A Name="InGameMapMaterialVariationsTag" Size="40">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="defaultMaterial" Offset="10" Allowed="mat " Flags="0" />
+		<_40 Name="variations" Offset="2C" GUID="3B2145BDF18D4DE27CCEF5DFACBEB7B0" StructName1="InGameMapMaterialVariationsTag" Min="0" Max="128" />
+	</_7FAF3D213D491FC29CBEF567A42A1E7A>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_3B2145BDF18D4DE27CCEF5DFACBEB7B0 Name="InGameMapMaterialVariation" Size="20">
+		<_2 Name="name" Offset="0" />
+		<_41 Name="material" Offset="4" Allowed="mat " Flags="0" />
+	</_3B2145BDF18D4DE27CCEF5DFACBEB7B0>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

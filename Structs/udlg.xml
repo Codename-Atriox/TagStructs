@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="dialogue" Parents="aTag" Index="-442">
+	<_E8A4480CAA0A2CFC20BCFEF8AFF53536 Name="s_dialogue_definition" Size="38">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_D Name="flags" Offset="10" StructName1="DialogueFlags">
+			<Flag n="female" />
+		</_D>
+		<_40 Name="vocalizations" Offset="14" GUID="AF5143486751BC8068DB8F16886AF0F0" StructName1="s_dialogue_definition" Min="0" Max="4096" />
+		<_2 Name="mission dialogue designator" Offset="28" />
+		<_34 Name="generated_pada3f0" Offset="2C" Length="4" />
+		<_7 Name="vocalizationLookUp" Offset="30" />
+	</_E8A4480CAA0A2CFC20BCFEF8AFF53536>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_AF5143486751BC8068DB8F16886AF0F0 Name="s_vocalization_sound" Size="1C">
+		<_2 Name="vocalization" Offset="0" />
+		<_E Name="flags" Offset="4" StructName1="VocalizationSoundFlagsObject">
+			<Flag n="no default stimulus" />
+		</_E>
+		<_34 Name="generated_pad3ad5" Offset="6" Length="2" />
+		<_40 Name="stimuli" type="grid" Offset="8" GUID="E73C4EE88EA8B87CB6EF9EC68C95D4FE" StructName1="s_vocalization_sound" Min="0" Max="6" />
+	</_AF5143486751BC8068DB8F16886AF0F0>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_E73C4EE88EA8B87CB6EF9EC68C95D4FE Name="s_vocalization_stimulus" Size="24">
+		<_E Name="flags" Offset="0" StructName1="c_dialog_definition_stimulus_flags">
+			<Flag n="don't suppress" />
+			<Flag n="custom vocalization stimulus setup" />
+		</_E>
+		<_34 Name="generated_pad22a6" Offset="2" Length="2" />
+		<_2 Name="stimulus" Offset="4" />
+		<_41 Name="sound" Offset="8" Allowed="snd!" Flags="0" />
+	</_E73C4EE88EA8B87CB6EF9EC68C95D4FE>
+</root>

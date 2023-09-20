@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="flinch_impulse" Parents="aTag" Index="-145">
+	<_62CB4B24C3567B23C9E418AFB3513333 Name="i343::Flinch::FlinchImpulseDefinition" Size="48">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="flinch impulse" Offset="10" GUID="584542BBDB9F05B1A6010525B678D24D" />
+	</_62CB4B24C3567B23C9E418AFB3513333>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_584542BBDB9F05B1A6010525B678D24D Name="i343::Flinch::FlinchImpulseInternalDefinition" Size="38">
+		<_37 Name="Gun Flinch" type="fgrb" Offset="0" />
+		<_38 Name="gun flinch" Offset="0" GUID="C1F84D026063182204066F1184F9668A" />
+		<_37 Name="" type="fgre" Offset="1C" />
+		<_37 Name="View Flinch" type="fgrb" Offset="1C" />
+		<_38 Name="view flinch" Offset="1C" GUID="C1F84D026063182204066F1184F9668A" />
+		<_37 Name="" type="fgre" Offset="38" />
+	</_584542BBDB9F05B1A6010525B678D24D>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_C1F84D026063182204066F1184F9668A Name="i343::Flinch::FlinchImpulseSettings" Size="1C">
+		<_A Name="flinch direction" Offset="0" StructName1="i343::Flinch::eFlinchDirectionType">
+			<Flag n="hit direction" />
+			<Flag n="inverse hit direction" />
+			<Flag n="attacker to victim" />
+			<Flag n="victim to attacker" />
+			<Flag n="absolute" />
+		</_A>
+		<_A Name="flinch mapping" Offset="1" StructName1="i343::Flinch::eFlinchMapping">
+			<Flag n="top down" />
+			<Flag n="camera" />
+		</_A>
+		<_34 Name="generated_pad3673" Offset="2" Length="2" />
+		<_24 Name="magnitude range" Offset="4" />
+		<_8 Name="random rotation" Offset="C" />
+		<_8 Name="absolute flinch angle" Offset="10" />
+		<_18 Name="normalized screen relative absolute flinch" Offset="14" />
+	</_C1F84D026063182204066F1184F9668A>
+</root>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="scenario_render_data" Parents="aTag" Index="-401">
+	<_BC324BCF6CE1342B732A225C3598E731 Name="ScenarioRenderData" Size="20">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_5 Name="dynamic/analytic gobo texture slots" Offset="10" />
+		<_E Name="flags" Offset="12" StructName1="ScenarioRenderDataFlags">
+			<Flag n="Use volumetric lighting" />
+			<Flag n="Enable DWS" />
+			<Flag n="Enable DWS Indirect Irradiance" />
+			<Flag n="Decouple DWS / Sky Hand Painted" />
+			<Flag n="Decouple DWS / Sky Atm. Scattering" />
+			<Flag n="Decouple DWS / Sky Vol. Clouds" />
+			<Flag n="Disable Sun" />
+			<Flag n="Disallow User to Enable Ray Tracing through UI" />
+		</_E>
+		<_5 Name="Volumetric Clouds DWS Sun Index" Offset="14" />
+		<_5 Name="Atmospheric Scattering DWS Sun Index" Offset="16" />
+		<_5 Name="DWS Sun Lens flare Index" Offset="18" />
+		<_5 Name="max gobo resolution" Offset="1A" />
+		<_A Name="gobo bit depth" Offset="1C" StructName1="GoboBitDepth">
+			<Flag n="8-bit" />
+			<Flag n="16-bit" />
+		</_A>
+		<_A Name="single pass lighting mode" Offset="1D" StructName1="SinglePassLightingMode">
+			<Flag n="sun only" />
+			<Flag n="multiple lights" />
+		</_A>
+		<_A Name="shadow rendering mode" Offset="1E" StructName1="ShadowRenderingMode">
+			<Flag n="default" />
+			<Flag n="gpu-driven" />
+		</_A>
+		<_F Name="Enable Shadows For Uncached Lights" Offset="1F" StructName1="EnableNonCachedShadowsFlag">
+			<Flag n="Enabled" />
+		</_F>
+	</_BC324BCF6CE1342B732A225C3598E731>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

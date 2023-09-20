@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="animclip" Parents="aTag" Index="-61">
+	<_A8B2919894A618C92C99D84AD600A1E2 Name="AnimClipTag" Size="C0">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_6 Name="frameCount" Offset="10" />
+		<_14 Name="fps" Offset="14" />
+		<_40 Name="joints" Offset="18" GUID="42B5B7D05A708909A6E36F8CCED41B8B" StructName1="AnimClipTag" Min="0" Max="1024" />
+		<_40 Name="userParameters" Offset="2C" GUID="6C408103546D9099B0552EB98FF6DBCA" StructName1="AnimClipTag" Min="0" Max="1024" />
+		<_41 Name="asset" Offset="40" Allowed="aset" Flags="1" />
+		<_40 Name="IKEvents" Offset="5C" GUID="0F53959C3E1E515DB41B84D8B47A04A3" StructName1="AnimClipTag" Min="0" Max="1024" />
+		<_40 Name="objectSpaceOffsetJoint" Offset="70" GUID="0F729F9C34FE215D241284DFB27A08F3" StructName1="AnimClipTag" Min="0" Max="1" />
+		<_40 Name="replacementCorrectionJoint" Offset="84" GUID="0F729F9C34FE215D241284DFB27A08F3" StructName1="AnimClipTag" Min="0" Max="1" />
+		<_40 Name="FIKAnchorJoint" Offset="98" GUID="0F729F9C34FE215D241284DFB27A08F3" StructName1="AnimClipTag" Min="0" Max="1" />
+		<_40 Name="cameras" Offset="AC" GUID="8D8C4F059D6AB5332DB2C9ABB95B7497" StructName1="AnimClipTag" Min="0" Max="1024" />
+	</_A8B2919894A618C92C99D84AD600A1E2>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_42B5B7D05A708909A6E36F8CCED41B8B Name="AnimJoint" Size="4C">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="perFrameTranslations" Offset="4" GUID="B0224EA134926244E04B68432A773F9E" StructName1="AnimJoint" Min="0" Max="4096" />
+		<_40 Name="perFrameRotations" Offset="18" GUID="F680C6E0498BD478A0EB75D6082A085A" StructName1="AnimJoint" Min="0" Max="4096" />
+		<_40 Name="perFrameScales" Offset="2C" GUID="C00A40FD6C5E2D07FB5EE9BF37D42678" StructName1="AnimJoint" Min="0" Max="4096" />
+		<_30 Name="processingPerFrameTranslationCount" Offset="40" GUID="B0224EA134926244E04B68432A773F9E" StructName1="AnimJoint" Min="0" Max="4096" />
+		<_30 Name="processingPerFrameRotationCount" Offset="44" GUID="F680C6E0498BD478A0EB75D6082A085A" StructName1="AnimJoint" Min="0" Max="4096" />
+		<_30 Name="processingPerFrameScaleCount" Offset="48" GUID="C00A40FD6C5E2D07FB5EE9BF37D42678" StructName1="AnimJoint" Min="0" Max="4096" />
+	</_42B5B7D05A708909A6E36F8CCED41B8B>
+	<_6C408103546D9099B0552EB98FF6DBCA Name="AnimUserParameter" Size="1C">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="perFrameValues" Offset="4" GUID="C00A40FD6C5E2D07FB5EE9BF37D42678" StructName1="AnimUserParameter" Min="0" Max="4096" />
+		<_30 Name="processingPerFrameValueCount" Offset="18" GUID="C00A40FD6C5E2D07FB5EE9BF37D42678" StructName1="AnimUserParameter" Min="0" Max="4096" />
+	</_6C408103546D9099B0552EB98FF6DBCA>
+	<_0F53959C3E1E515DB41B84D8B47A04A3 Name="AnimIKEvent" Size="6C">
+		<_2 Name="targetMarkerName" Offset="0" />
+		<_2 Name="chainName" Offset="4" />
+		<_A Name="usageType" Offset="8" StructName1="AnimIKUsageType">
+			<Flag n="None" />
+			<Flag n="World" />
+			<Flag n="Self" />
+			<Flag n="Parent" />
+			<Flag n="PrimaryWeapon" />
+			<Flag n="SecondaryWeapon" />
+			<Flag n="Assassination" />
+		</_A>
+		<_34 Name="generated_pade6b5" Offset="9" Length="3" />
+		<_40 Name="perFrameEffect" Offset="C" GUID="C00A40FD6C5E2D07FB5EE9BF37D42678" StructName1="AnimIKEvent" Min="0" Max="4096" />
+		<_40 Name="targetMarkerTranslations" Offset="20" GUID="B0224EA134926244E04B68432A773F9E" StructName1="AnimIKEvent" Min="0" Max="4096" />
+		<_40 Name="targetMarkerRotations" Offset="34" GUID="F680C6E0498BD478A0EB75D6082A085A" StructName1="AnimIKEvent" Min="0" Max="4096" />
+		<_40 Name="targetMarkerScales" Offset="48" GUID="C00A40FD6C5E2D07FB5EE9BF37D42678" StructName1="AnimIKEvent" Min="0" Max="4096" />
+		<_30 Name="processingPerFrameEffectCount" Offset="5C" GUID="C00A40FD6C5E2D07FB5EE9BF37D42678" StructName1="AnimIKEvent" Min="0" Max="4096" />
+		<_30 Name="processingPerFrameTranslationCount" Offset="60" GUID="B0224EA134926244E04B68432A773F9E" StructName1="AnimIKEvent" Min="0" Max="4096" />
+		<_30 Name="processingPerFrameRotationCount" Offset="64" GUID="F680C6E0498BD478A0EB75D6082A085A" StructName1="AnimIKEvent" Min="0" Max="4096" />
+		<_30 Name="processingPerFrameScaleCount" Offset="68" GUID="C00A40FD6C5E2D07FB5EE9BF37D42678" StructName1="AnimIKEvent" Min="0" Max="4096" />
+	</_0F53959C3E1E515DB41B84D8B47A04A3>
+	<_0F729F9C34FE215D241284DFB27A08F3 Name="AnimJointReference" Size="2">
+		<_2E Name="jointReferenceIndex" Offset="0" GUID="42B5B7D05A708909A6E36F8CCED41B8B" StructName1="AnimJointReference" Min="0" Max="1024" />
+	</_0F729F9C34FE215D241284DFB27A08F3>
+	<_8D8C4F059D6AB5332DB2C9ABB95B7497 Name="AnimCamera" Size="7C">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="perFrameTranslations" Offset="4" GUID="B0224EA134926244E04B68432A773F9E" StructName1="AnimCamera" Min="0" Max="4096" />
+		<_40 Name="perFrameRotations" Offset="18" GUID="F680C6E0498BD478A0EB75D6082A085A" StructName1="AnimCamera" Min="0" Max="4096" />
+		<_40 Name="perFrameFocalLengths" Offset="2C" GUID="C00A40FD6C5E2D07FB5EE9BF37D42678" StructName1="AnimCamera" Min="0" Max="4096" />
+		<_40 Name="perFrameFocusDistances" Offset="40" GUID="C00A40FD6C5E2D07FB5EE9BF37D42678" StructName1="AnimCamera" Min="0" Max="4096" />
+		<_40 Name="perFrameFStops" Offset="54" GUID="C00A40FD6C5E2D07FB5EE9BF37D42678" StructName1="AnimCamera" Min="0" Max="4096" />
+		<_30 Name="processingPerFrameTranslationCount" Offset="68" GUID="B0224EA134926244E04B68432A773F9E" StructName1="AnimCamera" Min="0" Max="4096" />
+		<_30 Name="processingPerFrameRotationCount" Offset="6C" GUID="F680C6E0498BD478A0EB75D6082A085A" StructName1="AnimCamera" Min="0" Max="4096" />
+		<_30 Name="processingPerFrameFocalLengthCount" Offset="70" GUID="C00A40FD6C5E2D07FB5EE9BF37D42678" StructName1="AnimCamera" Min="0" Max="4096" />
+		<_30 Name="processingPerFrameFocusDistanceCount" Offset="74" GUID="C00A40FD6C5E2D07FB5EE9BF37D42678" StructName1="AnimCamera" Min="0" Max="4096" />
+		<_30 Name="processingPerFrameFStopCount" Offset="78" GUID="C00A40FD6C5E2D07FB5EE9BF37D42678" StructName1="AnimCamera" Min="0" Max="4096" />
+	</_8D8C4F059D6AB5332DB2C9ABB95B7497>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_B0224EA134926244E04B68432A773F9E Name="AnimTranslation" Size="14">
+		<_6 Name="beginFrame" Offset="0" />
+		<_6 Name="endFrame" Offset="4" />
+		<_17 Name="value" Offset="8" />
+	</_B0224EA134926244E04B68432A773F9E>
+	<_F680C6E0498BD478A0EB75D6082A085A Name="AnimRotation" Size="18">
+		<_6 Name="beginFrame" Offset="0" />
+		<_6 Name="endFrame" Offset="4" />
+		<_1A Name="value" Offset="8" />
+	</_F680C6E0498BD478A0EB75D6082A085A>
+	<_C00A40FD6C5E2D07FB5EE9BF37D42678 Name="AnimFloat" Size="C">
+		<_6 Name="beginFrame" Offset="0" />
+		<_6 Name="endFrame" Offset="4" />
+		<_14 Name="value" Offset="8" />
+	</_C00A40FD6C5E2D07FB5EE9BF37D42678>
+</root>

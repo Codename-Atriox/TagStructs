@@ -1,0 +1,1302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="pathfinding" Parents="aTag" Index="-307">
+	<_CE734B9DF210336B354F357BBB5DC546 Name="ai_pathfinding" Size="60">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="navMeshes" Offset="10" GUID="FA834172977133BCE182DF3380410E60" StructName1="ai_pathfinding" Min="0" Max="1024" />
+		<_40 Name="mobileNavMeshes" Offset="24" GUID="4FE14FA5606F09F57BCCEF4CA83D39ED" StructName1="ai_pathfinding" Min="0" Max="500000" />
+		<_40 Name="navVolumes" Offset="38" GUID="9F7E4A96D7A90FFE0C6D4157B6DA8F1F" StructName1="ai_pathfinding" Min="0" Max="256" />
+		<_40 Name="hints" Offset="4C" GUID="A5224EB78C8EEEF8C4CC53509DFEA695" StructName1="ai_pathfinding" Min="0" Max="1" />
+	</_CE734B9DF210336B354F357BBB5DC546>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_FA834172977133BCE182DF3380410E60 Name="NavMeshData" Size="18">
+		<_43 Name="resource data" Offset="0" StructName1="NavMeshResource" Int1="0" GUID="B6CC40E08B666F964EC359A9A46484AA" />
+		<_5 Name="major version" Offset="10" />
+		<_5 Name="minor version" Offset="12" />
+		<_6 Name="structure checksum" Offset="14" />
+	</_FA834172977133BCE182DF3380410E60>
+	<_4FE14FA5606F09F57BCCEF4CA83D39ED Name="MobileNavMeshData" Size="24">
+		<_43 Name="resource data" Offset="0" StructName1="NavMeshResource" Int1="0" GUID="B6CC40E08B666F964EC359A9A46484AA" />
+		<_5 Name="major version" Offset="10" />
+		<_5 Name="minor version" Offset="12" />
+		<_38 Name="object id" Offset="14" GUID="DE4B45AEA40A140199C39E7BB47F4714" />
+		<_6 Name="nodeIndex" Offset="1C" />
+		<_F Name="flags" Offset="20" StructName1="MobileNavMeshFlags">
+			<Flag n="always loaded" />
+		</_F>
+		<_34 Name="generated_pad5c22" Offset="21" Length="3" />
+	</_4FE14FA5606F09F57BCCEF4CA83D39ED>
+	<_9F7E4A96D7A90FFE0C6D4157B6DA8F1F Name="NavVolumeData" Size="30">
+		<_6 Name="navMeshAreaIndex" Offset="0" />
+		<_19 Name="navMeshAreaPosition" Offset="4" />
+		<_14 Name="navMeshAreaHeight" Offset="10" />
+		<_14 Name="navMeshAreaSink" Offset="14" />
+		<_5 Name="major version" Offset="18" />
+		<_5 Name="minor version" Offset="1A" />
+		<_40 Name="buckets" Offset="1C" GUID="7D284E3590F5BBBB2023F7E7AA6DC3F4" StructName1="NavVolumeData" Min="0" Max="3" />
+	</_9F7E4A96D7A90FFE0C6D4157B6DA8F1F>
+	<_A5224EB78C8EEEF8C4CC53509DFEA695 Name="user_hint_data" Size="3C">
+		<_40 Name="nav links" Offset="0" GUID="675141C00E281BD7F4BFCFC2844AC8AC" StructName1="user_hint_data" Min="0" Max="1048576" />
+		<_40 Name="cookie cutters" Offset="14" GUID="A506453851C7F11E8154A396AAAFEA9C" StructName1="user_hint_data" Min="0" Max="1048576" />
+		<_40 Name="navmesh areas" Offset="28" GUID="EC9C446B60C6E6A6ACFE022EAC02F347" StructName1="user_hint_data" Min="0" Max="1048576" />
+	</_A5224EB78C8EEEF8C4CC53509DFEA695>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_B6CC40E08B666F964EC359A9A46484AA Name="NavMeshResource" Size="A4">
+		<_42 Name="navGraphData" Offset="0" StructName1="NavMeshResource.navGraphData" Int1="32" Int2="4" Flags="400000" />
+		<_42 Name="navMeshData" Offset="18" StructName1="NavMeshResource.navMeshData" Int1="32" Int2="4" Flags="3000000" />
+		<_42 Name="navTraversalData" Offset="30" StructName1="NavMeshResource.navTraversalData" Int1="32" Int2="4" Flags="1800000" />
+		<_42 Name="navFPTreeData" Offset="48" StructName1="NavMeshResource.navFPTreeData" Int1="32" Int2="4" Flags="1800000" />
+		<_42 Name="navMeshStreamingData" Offset="60" StructName1="NavMeshResource.navMeshStreamingData" Int1="32" Int2="4" Flags="C00000" />
+		<_42 Name="navGraphStreamingData" Offset="78" StructName1="NavMeshResource.navGraphStreamingData" Int1="32" Int2="4" Flags="400000" />
+		<_40 Name="firingPointAABBList" Offset="90" GUID="260C400C673648E3F32F49D6BD2C091A" StructName1="NavMeshResource" Min="0" Max="2147483647" />
+	</_B6CC40E08B666F964EC359A9A46484AA>
+	<_DE4B45AEA40A140199C39E7BB47F4714 Name="c_object_identifier" Size="8">
+		<_6 Name="unique id" type="obj#" Offset="0" />
+		<_5 Name="origin bsp index" type="obj#" Offset="4" />
+		<_A Name="type" type="obj#" Offset="6" StructName1="ScenarioObjectTypeEnum">
+			<Flag n="biped" />
+			<Flag n="vehicle" />
+			<Flag n="weapon" />
+			<Flag n="equipment" />
+			<Flag n="terminal" />
+			<Flag n="projectile" />
+			<Flag n="scenery" />
+			<Flag n="machine" />
+			<Flag n="control" />
+			<Flag n="dispenser" />
+			<Flag n="crate" />
+			<Flag n="creature" />
+			<Flag n="giant" />
+			<Flag n="effect_scenery" />
+		</_A>
+		<_A Name="source" type="obj#" Offset="7" StructName1="e_object_source">
+			<Flag n="structure" />
+			<Flag n="editor" />
+			<Flag n="dynamic" />
+			<Flag n="legacy" />
+			<Flag n="sky" />
+			<Flag n="parent" />
+		</_A>
+	</_DE4B45AEA40A140199C39E7BB47F4714>
+	<_7D284E3590F5BBBB2023F7E7AA6DC3F4 Name="NavVolumeBucket" Size="14">
+		<_43 Name="resource data" Offset="0" StructName1="NavVolumeResource" Int1="0" GUID="9078438EBAF3ECD37BE26AAEBCAE0A53" />
+		<_4 Name="bucketID" Offset="10" />
+		<_34 Name="generated_padfba7" Offset="11" Length="3" />
+	</_7D284E3590F5BBBB2023F7E7AA6DC3F4>
+	<_675141C00E281BD7F4BFCFC2844AC8AC Name="user_hint_jump" Size="60">
+		<_B Name="link type" Offset="0" StructName1="PathfindingHintType">
+			<Flag n="jump link" />
+			<Flag n="force walk link" />
+			<Flag n="force movement link" />
+			<Flag n="vehicle link" />
+			<Flag n="crouch link" />
+		</_B>
+		<_2E Name="Squad group filter" Offset="2" GUID="87A04E62924C4B163116A14F9A767F70" StructName1="user_hint_jump" Min="0" Max="1048576" />
+		<_6 Name="hint data 0" Offset="4" />
+		<_5 Name="hint data 1" Offset="8" />
+		<_3C Name="hint data 2" Offset="A" />
+		<_3C Name="pad1" Offset="B" />
+		<_2 Name="name" Offset="C" />
+		<_E Name="Flags" Offset="10" StructName1="UserHintGeometryFlags">
+			<Flag n="bidirectional" />
+		</_E>
+		<_B Name="force jump height" Offset="12" StructName1="CharacterJumpHeight">
+			<Flag n="NONE" />
+			<Flag n="very short" />
+			<Flag n="short" />
+			<Flag n="medium short" />
+			<Flag n="medium long" />
+			<Flag n="long" />
+			<Flag n="very long" />
+			<Flag n="infinite" />
+		</_B>
+		<_E Name="control flags" Offset="14" StructName1="UserHintJumpTypeFlags">
+			<Flag n="walk down" />
+			<Flag n="bots can't use if slowed" />
+			<Flag n="cheap jump" />
+		</_E>
+		<_34 Name="generated_pad04d0" Offset="16" Length="2" />
+		<_38 Name="geometry" Offset="18" GUID="0D2B4C5A15170FEDC889A15E84A14BCE" />
+		<_40 Name="EditorMetadata" Offset="4C" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="user_hint_jump" Min="4" Max="1" />
+	</_675141C00E281BD7F4BFCFC2844AC8AC>
+	<_A506453851C7F11E8154A396AAAFEA9C Name="s_cookie_cutter" Size="50">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="points" Offset="4" GUID="126041FF33170C5B4C98464E8EBBD6A4" StructName1="s_cookie_cutter" Min="0" Max="128" />
+		<_40 Name="pointsObjectIds" Offset="18" GUID="4AB243C29B758221A09A93E09A3B5FE5" StructName1="s_cookie_cutter" Min="0" Max="128" />
+		<_14 Name="z height" Offset="2C" />
+		<_14 Name="z sink" Offset="30" />
+		<_B Name="type" Offset="34" StructName1="CookieCutterType">
+			<Flag n="carve out" />
+			<Flag n="carve air volume" />
+			<Flag n="Remove Auto-Generated Hints" />
+			<Flag n="preserve" />
+		</_B>
+		<_5 Name="pad" Offset="36" />
+		<_40 Name="EditorMetadata" Offset="38" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="s_cookie_cutter" Min="4" Max="1" />
+		<_4 Name="invalid" Offset="4C" />
+		<_34 Name="generated_pad8e8a" Offset="4D" Length="3" />
+	</_A506453851C7F11E8154A396AAAFEA9C>
+	<_EC9C446B60C6E6A6ACFE022EAC02F347 Name="NavMeshArea" Size="3C">
+		<_40 Name="points" Offset="0" GUID="126041FF33170C5B4C98464E8EBBD6A4" StructName1="NavMeshArea" Min="0" Max="128" />
+		<_2 Name="name" Offset="14" />
+		<_14 Name="z height" Offset="18" />
+		<_14 Name="z sink" Offset="1C" />
+		<_C Name="type" Offset="20" StructName1="NavMeshAreaType">
+			<Flag n="Generate Ground" />
+			<Flag n="Generate Air" />
+			<Flag n="No Bunkering" />
+			<Flag n="Generate Climb" />
+			<Flag n="Generate Custom Air" />
+			<Flag n="Navmesh Low Res" />
+			<Flag n="Navmesh 2" />
+			<Flag n="Navmesh 3" />
+			<Flag n="Navmesh 4" />
+			<Flag n="Navmesh 5" />
+			<Flag n="Navmesh 6" />
+			<Flag n="Navmesh 7" />
+			<Flag n="Navmesh 8" />
+			<Flag n="Navmesh High Res" />
+			<Flag n="CUSTOM (Recommended)" />
+		</_C>
+		<_3C Name="isValid" Offset="24" />
+		<_34 Name="generated_pad7d37" Offset="25" Length="3" />
+		<_40 Name="EditorMetadata" Offset="28" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="NavMeshArea" Min="4" Max="1" />
+	</_EC9C446B60C6E6A6ACFE022EAC02F347>
+	<_260C400C673648E3F32F49D6BD2C091A Name="FiringPointAABB" Size="40">
+		<_19 Name="m_min" Offset="0" />
+		<_14 Name="havok w m_min" Offset="C" />
+		<_19 Name="m_max" Offset="10" />
+		<_14 Name="havok w m_max" Offset="1C" />
+		<_40 Name="firingPoints" Offset="20" GUID="E01E4A70625D9E16A9A6607A85DBDDAD" StructName1="FiringPointAABB" Min="0" Max="32767" />
+		<_34 Name="generated_pad9007" Offset="34" Length="12" />
+	</_260C400C673648E3F32F49D6BD2C091A>
+	<_9078438EBAF3ECD37BE26AAEBCAE0A53 Name="NavVolumeResource" Size="18">
+		<_42 Name="navMeshData" Offset="0" StructName1="NavVolumeResource.navMeshData" Int1="32" Int2="4" Flags="3000000" />
+	</_9078438EBAF3ECD37BE26AAEBCAE0A53>
+	<_87A04E62924C4B163116A14F9A767F70 Name="squad_group_definition" Size="64">
+		<_0 Name="name" Offset="0" />
+		<_2E Name="parent" type="sqdt" Offset="20" GUID="87A04E62924C4B163116A14F9A767F70" StructName1="squad_group_definition" Min="0" Max="1048576" />
+		<_2E Name="initial objective" Offset="22" GUID="C49F426B337629EED2A66AE8B388142C" StructName1="squad_group_definition" Min="0" Max="256" />
+		<_30 Name="editor folder" type="ugly" Offset="24" GUID="9A5741CB0B9D6A599F085A3DA1D7A5D1" StructName1="squad_group_definition" Min="0" Max="1048576" />
+		<_2 Name="module id" Offset="28" />
+		<_38 Name="warzone objective definition membership" Offset="2C" GUID="78F64E2F5FA93E885791937E96DB2404" />
+		<_34 Name="generated_pad5300" Offset="4E" Length="2" />
+		<_40 Name="EditorMetadata" Offset="50" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="squad_group_definition" Min="4" Max="1" />
+	</_87A04E62924C4B163116A14F9A767F70>
+	<_0D2B4C5A15170FEDC889A15E84A14BCE Name="user_hint_parallelogram" Size="34">
+		<_17 Name="Point 0" Offset="0" />
+		<_17 Name="Point 1" Offset="C" />
+		<_17 Name="Point 2" Offset="18" />
+		<_17 Name="Point 3" Offset="24" />
+		<_E Name="invalid_points" Offset="30" StructName1="ParallelogramInvalidFlags">
+			<Flag n="1" />
+			<Flag n="2" />
+			<Flag n="3" />
+			<Flag n="4" />
+		</_E>
+		<_34 Name="generated_pad733f" Offset="32" Length="2" />
+	</_0D2B4C5A15170FEDC889A15E84A14BCE>
+	<_CAFD409521D5D5297D81B801A0BADD13 Name="EditorMetadata" Size="10C">
+		<_1 Name="folder name" Offset="0" />
+		<_17 Name="local space pivot point position" Offset="100" />
+	</_CAFD409521D5D5297D81B801A0BADD13>
+	<_126041FF33170C5B4C98464E8EBBD6A4 Name="AIHintSectorPoint" Size="14">
+		<_17 Name="point" type="aipt" Offset="0" />
+		<_6 Name="_navMeshUIDOffaceref" Offset="C" />
+		<_6 Name="_packedKeyOffaceref" Offset="10" />
+	</_126041FF33170C5B4C98464E8EBBD6A4>
+	<_4AB243C29B758221A09A93E09A3B5FE5 Name="s_cookie_cutter::ObjectIdentifier" Size="8">
+		<_38 Name="object ID" Offset="0" GUID="DE4B45AEA40A140199C39E7BB47F4714" />
+	</_4AB243C29B758221A09A93E09A3B5FE5>
+	<_E01E4A70625D9E16A9A6607A85DBDDAD Name="s_firing_position_definition" Size="2C">
+		<_17 Name="position" type="aipt" Offset="0" />
+		<_6 Name="navMeshUIDOffaceref" Offset="C" />
+		<_6 Name="packedKeyOffaceref" Offset="10" />
+		<_E Name="flags" Offset="14" StructName1="FiringPositionFlags">
+			<Flag n="open" />
+			<Flag n="partial" />
+			<Flag n="closed" />
+			<Flag n="mobile" />
+			<Flag n="wall lean" />
+			<Flag n="perch don't use this doesn't work" />
+			<Flag n="ground point" />
+			<Flag n="dynamic cover point" />
+			<Flag n="automatically generated" />
+			<Flag n="nav volume" />
+			<Flag n="center bunkering" />
+		</_E>
+		<_E Name="posture flags" Offset="16" StructName1="FiringPositionBunkerTypeFlags">
+			<Flag n="corner_left" />
+			<Flag n="corner_right" />
+			<Flag n="bunker" />
+			<Flag n="bunker high" />
+			<Flag n="bunker low" />
+		</_E>
+		<_1B Name="normal" Offset="18" />
+		<_8 Name="facing" Offset="20" />
+		<_6 Name="lastAbsoluteRejectionGameTime" Offset="24" />
+		<_14 Name="distanceSqToClosestBoundary" Offset="28" />
+	</_E01E4A70625D9E16A9A6607A85DBDDAD>
+	<_C49F426B337629EED2A66AE8B388142C Name="s_objective" Size="64">
+		<_0 Name="name" Offset="0" />
+		<_40 Name="opposing objectives" Offset="20" GUID="862A48E5B1CF48074ACD02F3987F56BD" StructName1="s_objective" Min="0" Max="4" />
+		<_E Name="objective flags" Offset="34" StructName1="c_objective_flags">
+			<Flag n="use front area selection" />
+			<Flag n="use players as front" />
+			<Flag n="inhibit vehicle entry" />
+		</_E>
+		<_2E Name="zone index" Offset="36" GUID="D7F44761661CA582147ECA8B8100E014" StructName1="s_objective" Min="0" Max="1048576" />
+		<_2E Name="first task index" Offset="38" GUID="ABF244420C243A66F1C57BB0826D572E" StructName1="s_objective" Min="0" Max="100" />
+		<_2E Name="editor folder" type="ugly" Offset="3A" GUID="9A5741CB0B9D6A599F085A3DA1D7A5D1" StructName1="s_objective" Min="0" Max="1048576" />
+		<_40 Name="tasks" Offset="3C" GUID="ABF244420C243A66F1C57BB0826D572E" StructName1="s_objective" Min="0" Max="100" />
+		<_40 Name="EditorMetadata" Offset="50" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="s_objective" Min="4" Max="1" />
+	</_C49F426B337629EED2A66AE8B388142C>
+	<_9A5741CB0B9D6A599F085A3DA1D7A5D1 Name="s_scenario_editor_folder" Size="B4">
+		<_30 Name="parent folder" Offset="0" GUID="9A5741CB0B9D6A599F085A3DA1D7A5D1" StructName1="s_scenario_editor_folder" Min="0" Max="1048576" />
+		<_2 Name="name" Offset="4" />
+		<_41 Name="prototype script" Offset="8" Allowed="hsc*" Flags="0" />
+		<_38 Name="scriptable properties" Offset="24" GUID="9A3E4FF2915AE3F75AE8EF15892E317F" />
+		<_40 Name="EditorMetadata" Offset="9C" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="s_scenario_editor_folder" Min="4" Max="1" />
+		<_F Name="flags" Offset="B0" StructName1="s_scenario_editor_folder::ModuleFlags">
+			<Flag n="is kit" />
+			<Flag n="is streamed" />
+			<Flag n="is from map variant" />
+		</_F>
+		<_34 Name="generated_pad9b2d" Offset="B1" Length="3" />
+	</_9A5741CB0B9D6A599F085A3DA1D7A5D1>
+	<_78F64E2F5FA93E885791937E96DB2404 Name="WarzoneObjectiveDefinitionMembership" Size="22">
+		<_2E Name="warzone objective definition" Offset="0" GUID="6B6D443C109C5D4C12FAB7B2AB9ED05A" StructName1="WarzoneObjectiveDefinitionMembership" Min="0" Max="320" />
+		<_0 Name="warzone objective label" Offset="2" />
+	</_78F64E2F5FA93E885791937E96DB2404>
+	<_862A48E5B1CF48074ACD02F3987F56BD Name="s_opposing_objective" Size="2">
+		<_2E Name="objective" Offset="0" GUID="C49F426B337629EED2A66AE8B388142C" StructName1="s_opposing_objective" Min="0" Max="256" />
+	</_862A48E5B1CF48074ACD02F3987F56BD>
+	<_D7F44761661CA582147ECA8B8100E014 Name="zone_definition" Size="94">
+		<_0 Name="name" Offset="0" />
+		<_E Name="flags" Offset="20" StructName1="AIZoneFlags">
+			<Flag n="giants zone" />
+		</_E>
+		<_34 Name="generated_pad0eda" Offset="22" Length="2" />
+		<_30 Name="editor folder index" type="ugly" Offset="24" GUID="9A5741CB0B9D6A599F085A3DA1D7A5D1" StructName1="zone_definition" Min="0" Max="1048576" />
+		<_40 Name="areas" Offset="28" GUID="EEF54EC7653517162F48E3D7B16396B1" StructName1="zone_definition" Min="0" Max="128" />
+		<_38 Name="Nav Mesh Attachments" Offset="3C" GUID="EC31496C39206AE09A3E893B8A09F9EF" />
+		<_38 Name="disallowed attachment bsps" Offset="50" GUID="F8D84D6DE57DE86ED070CD3A987EFC12" />
+		<_40 Name="EditorMetadata" Offset="80" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="zone_definition" Min="4" Max="1" />
+	</_D7F44761661CA582147ECA8B8100E014>
+	<_ABF244420C243A66F1C57BB0826D572E Name="s_task_definition" Size="AC">
+		<_E Name="flags" Offset="0" StructName1="c_task_flags">
+			<Flag n="latch ON" />
+			<Flag n="latch OFF" />
+			<Flag n="gate" />
+			<Flag n="single use" />
+			<Flag n="suppress combat" />
+			<Flag n="suppress active camo" />
+			<Flag n="blind" />
+			<Flag n="deaf" />
+			<Flag n="braindead" />
+			<Flag n="magic player sight" />
+			<Flag n="DISABLE" />
+			<Flag n="reverse direction" />
+			<Flag n="invert filter logic" />
+		</_E>
+		<_E Name="inhibit groups" Offset="2" StructName1="c_behavior_inhibit_flags">
+			<Flag n="Cover" />
+			<Flag n="Retreat" />
+			<Flag n="Vehicles (All)" />
+			<Flag n="Grenades" />
+			<Flag n="Berserk" />
+			<Flag n="Equipment" />
+			<Flag n="Object Interaction" />
+			<Flag n="Turrets" />
+			<Flag n="Vehicles (Non-Turrets)" />
+		</_E>
+		<_E Name="inhibit on difficulty" Offset="4" StructName1="GameDifficultyFlags">
+			<Flag n="easy" />
+			<Flag n="normal" />
+			<Flag n="heroic" />
+			<Flag n="legendary" />
+		</_E>
+		<_B Name="movement" Offset="6" StructName1="c_task_movement">
+			<Flag n="run (alert)" />
+			<Flag n="walk (idle)" />
+			<Flag n="crouch (alert)" />
+		</_B>
+		<_B Name="follow" Offset="8" StructName1="c_task_follow">
+			<Flag n="NONE" />
+			<Flag n="player" />
+			<Flag n="squad" />
+		</_B>
+		<_2E Name="follow squad" Offset="A" GUID="6CC847B7650EB872AC519202B11BDACA" StructName1="s_task_definition" Min="0" Max="1048576" />
+		<_14 Name="follow radius" Offset="C" />
+		<_E Name="follow players" Offset="10" StructName1="c_task_follow_players">
+			<Flag n="player 0" />
+			<Flag n="player 1" />
+			<Flag n="player 2" />
+			<Flag n="player 3" />
+		</_E>
+		<_34 Name="generated_pad4a13" Offset="12" Length="2" />
+		<_40 Name="areas" Offset="14" GUID="40034CC8F805BB85C5D6C669A7CED22B" StructName1="s_task_definition" Min="0" Max="64" />
+		<_14 Name="maximum duration" Offset="28" />
+		<_14 Name="exhaustion delay" Offset="2C" />
+		<_2 Name="Entry Script" Offset="30" />
+		<_2 Name="Command Script" Offset="34" />
+		<_2 Name="Exhaustion Script" Offset="38" />
+		<_2E Name="Squad group filter" Offset="3C" GUID="87A04E62924C4B163116A14F9A767F70" StructName1="s_task_definition" Min="0" Max="1048576" />
+		<_B Name="dialogue type" Offset="3E" StructName1="TaskOrderDialogue">
+			<Flag n="none" />
+			<Flag n="enemy is advancing" />
+			<Flag n="enemy is charging" />
+			<Flag n="enemy is falling back" />
+			<Flag n="advance" />
+			<Flag n="charge" />
+			<Flag n="fall_back" />
+			<Flag n="move on" />
+			<Flag n="follow_player" />
+			<Flag n="arriving into combat" />
+			<Flag n="end combat" />
+			<Flag n="investigate" />
+			<Flag n="spread out" />
+			<Flag n="hold position" />
+			<Flag n="find cover" />
+			<Flag n="covering fire" />
+		</_B>
+		<_E Name="runtime flags" type="nuke" Offset="40" StructName1="task_runtime_flags">
+			<Flag n="area connectivity valid" />
+		</_E>
+		<_5 Name="Kungfu count" Offset="42" />
+		<_36 Name="UI-Controlled" Offset="44" />
+		<_0 Name="name" Offset="44" />
+		<_5 Name="priority" type="ohoc" Offset="64" />
+		<_2E Name="first_child" Offset="66" GUID="ABF244420C243A66F1C57BB0826D572E" StructName1="s_task_definition" Min="0" Max="100" />
+		<_2E Name="next_sibling" Offset="68" GUID="ABF244420C243A66F1C57BB0826D572E" StructName1="s_task_definition" Min="0" Max="100" />
+		<_2E Name="parent" type="ohoc" Offset="6A" GUID="ABF244420C243A66F1C57BB0826D572E" StructName1="s_task_definition" Min="0" Max="100" />
+		<_40 Name="activation script" Offset="6C" GUID="1D254941BE3330E461A61F94949273FC" StructName1="s_task_definition" Min="0" Max="1" />
+		<_3E Name="script crc" Offset="80" />
+		<_5 Name="lifetime count" Offset="84" />
+		<_E Name="filter flags" Offset="86" StructName1="c_filter_flags">
+			<Flag n="exclusive" />
+		</_E>
+		<_B Name="filter" Offset="88" StructName1="c_objective_filter">
+			<Flag n="none" />
+			<Flag n="fireteam" />
+			<Flag n="leader" />
+			<Flag n="no leader" />
+			<Flag n="arbiter" />
+			<Flag n="player in my vehicle" />
+			<Flag n="in combat" />
+			<Flag n="sighted player" />
+			<Flag n="sighted enemy" />
+			<Flag n="target disengaged" />
+			<Flag n="infantry" />
+			<Flag n="has an engineer" />
+			<Flag n="strength &gt; 0.25" />
+			<Flag n="strength &gt; 0.5" />
+			<Flag n="strength &gt; 0.75" />
+			<Flag n="strength &lt; 0.25" />
+			<Flag n="strength &lt; 0.5" />
+			<Flag n="strength &lt; 0.75" />
+			<Flag n="human team" />
+			<Flag n="covenant team" />
+			<Flag n="mule team" />
+			<Flag n="forerunner team" />
+			<Flag n="brute team" />
+			<Flag n="elite" />
+			<Flag n="jackal" />
+			<Flag n="jackal sniper" />
+			<Flag n="grunt" />
+			<Flag n="hunter" />
+			<Flag n="marine" />
+			<Flag n="brute" />
+			<Flag n="hoverer" />
+			<Flag n="crusher" />
+			<Flag n="bugger" />
+			<Flag n="bishop" />
+			<Flag n="knight" />
+			<Flag n="pawn" />
+			<Flag n="cavalier" />
+			<Flag n="packmaster" />
+			<Flag n="soldier" />
+			<Flag n="soldier sniper" />
+			<Flag n="soldier officer" />
+			<Flag n="rook" />
+			<Flag n="engineer" />
+			<Flag n="skirmisher" />
+			<Flag n="mule" />
+			<Flag n="spartan" />
+			<Flag n="sniper" />
+			<Flag n="rifle" />
+			<Flag n="sword" />
+			<Flag n="hammer" />
+			<Flag n="fist" />
+			<Flag n="melee" />
+			<Flag n="vehicle" />
+			<Flag n="scorpion" />
+			<Flag n="ghost" />
+			<Flag n="warthog" />
+			<Flag n="wraith" />
+			<Flag n="phantom" />
+			<Flag n="tuning fork" />
+			<Flag n="falcon" />
+			<Flag n="seraph" />
+			<Flag n="sabre" />
+			<Flag n="pelican" />
+			<Flag n="banshee" />
+			<Flag n="mongoose" />
+			<Flag n="revenant" />
+			<Flag n="shade turret" />
+			<Flag n="phaeton" />
+		</_B>
+		<_23 Name="capacity" Offset="8A" />
+		<_5 Name="max body count" Offset="8E" />
+		<_B Name="attitude" Offset="90" StructName1="c_task_attitude">
+			<Flag n="normal" />
+			<Flag n="defensive" />
+			<Flag n="aggressive" />
+			<Flag n="playfighting" />
+			<Flag n="patrol" />
+			<Flag n="chckn shit recon" />
+			<Flag n="spread out" />
+		</_B>
+		<_34 Name="generated_padfd5e" Offset="92" Length="2" />
+		<_14 Name="min strength" Offset="94" />
+		<_40 Name="direction" Offset="98" GUID="58824DDCFD7F6876C4D351E49EE64C67" StructName1="s_task_definition" Min="0" Max="1" />
+	</_ABF244420C243A66F1C57BB0826D572E>
+	<_9A3E4FF2915AE3F75AE8EF15892E317F Name="s_property_collection" Size="78">
+		<_40 Name="bool properties" Offset="0" GUID="2FE7429C4EE726FBB489F288B4DD8A95" StructName1="s_property_collection" Min="0" Max="32" />
+		<_40 Name="numeric properties" Offset="14" GUID="936045522176C9FDA27104FC8512D854" StructName1="s_property_collection" Min="0" Max="32" />
+		<_40 Name="string properties" Offset="28" GUID="68024D2A459B882E2C55CE7BA4206A30" StructName1="s_property_collection" Min="0" Max="32" />
+		<_40 Name="tag properties" Offset="3C" GUID="96094070CEC043C032F17B8996DC13B8" StructName1="s_property_collection" Min="0" Max="32" />
+		<_40 Name="color properties" Offset="50" GUID="1C434BAAA2EE0547067515C792E31E8C" StructName1="s_property_collection" Min="0" Max="32" />
+		<_40 Name="vector properties" Offset="64" GUID="CE834D444653F5B4FA256202B625D247" StructName1="s_property_collection" Min="0" Max="32" />
+	</_9A3E4FF2915AE3F75AE8EF15892E317F>
+	<_6B6D443C109C5D4C12FAB7B2AB9ED05A Name="WarzoneObjectiveDefinition" Size="70">
+		<_2 Name="name" Offset="0" />
+		<_0 Name="label" Offset="4" />
+		<_0 Name="user facing name" Offset="24" />
+		<_A Name="initial team" Offset="44" StructName1="i343::NetProtocol::GameOptions::MultiplayerTeamDesignatorEnum">
+			<Flag n="Defender" />
+			<Flag n="Attacker" />
+			<Flag n="ThirdParty" />
+			<Flag n="FourthParty" />
+			<Flag n="FifthParty" />
+			<Flag n="SixthParty" />
+			<Flag n="SeventhParty" />
+			<Flag n="EighthParty" />
+			<Flag n="Neutral" />
+		</_A>
+		<_34 Name="generated_pad6d54" Offset="45" Length="3" />
+		<_40 Name="trigger volumes" Offset="48" GUID="0BCB4E06C6DFE1E82BE7990FA7B0ADDE" StructName1="WarzoneObjectiveDefinition" Min="0" Max="16" />
+		<_40 Name="EditorMetadata" Offset="5C" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="WarzoneObjectiveDefinition" Min="4" Max="1" />
+	</_6B6D443C109C5D4C12FAB7B2AB9ED05A>
+	<_EEF54EC7653517162F48E3D7B16396B1 Name="area_definition" Size="74">
+		<_0 Name="name" Offset="0" />
+		<_D Name="area flags" Offset="20" StructName1="AIAreaFlags">
+			<Flag n="vehicle area" />
+			<Flag n="wall climb" />
+			<Flag n="manual reference frame" />
+			<Flag n="turret deployment area" />
+			<Flag n="invalid sector def" />
+		</_D>
+		<_17 Name="runtime relative mean point" type="aipt" Offset="24" />
+		<_6 Name="_navMeshUIDOffaceref" Offset="30" />
+		<_6 Name="_packedKeyOffaceref" Offset="34" />
+		<_14 Name="runtime standard deviation" Offset="38" />
+		<_38 Name="Nav Mesh Attachments" Offset="3C" GUID="EC31496C39206AE09A3E893B8A09F9EF" />
+		<_40 Name="points" Offset="50" GUID="F0C94F3540B3B9F793918A26B1D416B3" StructName1="area_definition" Min="0" Max="128" />
+		<_36 Name="Generation Properties" Offset="64" />
+		<_D Name="flags" Offset="64" StructName1="AIAreaGenerateFlags">
+			<Flag n="exclude cover" />
+			<Flag n="ignore existing" />
+			<Flag n="generate radial" />
+			<Flag n="don't stagger" />
+			<Flag n="airborne" />
+			<Flag n="airborne stagger" />
+			<Flag n="continue casting" />
+		</_D>
+		<_14 Name="extrusion" Offset="68" />
+		<_14 Name="sink" Offset="6C" />
+		<_14 Name="air firing point density" Offset="70" />
+	</_EEF54EC7653517162F48E3D7B16396B1>
+	<_EC31496C39206AE09A3E893B8A09F9EF Name="NavMeshAttachment" Size="14">
+		<_40 Name="attachments" Offset="0" GUID="4B8343052D17D937205D022E97485CEC" StructName1="NavMeshAttachment" Min="0" Max="501024" />
+	</_EC31496C39206AE09A3E893B8A09F9EF>
+	<_F8D84D6DE57DE86ED070CD3A987EFC12 Name="CompressedBspReferenceFlags" Size="30">
+		<_40 Name="references" Offset="0" GUID="5E7649D47DDBEF56C7523C29A10F631A" StructName1="CompressedBspReferenceFlags" Min="0" Max="1024" />
+		<_42 Name="flags" type="bspf" Offset="14" StructName1="CompressedBspReferenceFlags.flags" Int1="0" Int2="0" Flags="80" />
+		<_6 Name="bsp index" type="bspf" Offset="2C" />
+	</_F8D84D6DE57DE86ED070CD3A987EFC12>
+	<_6CC847B7650EB872AC519202B11BDACA Name="s_squad_definition" Size="F8">
+		<_0 Name="name" Offset="0" />
+		<_D Name="flags" Offset="20" StructName1="c_squad_flags">
+			<Flag n="unused" />
+			<Flag n="blind" />
+			<Flag n="deaf" />
+			<Flag n="braindead" />
+			<Flag n="initially placed" />
+			<Flag n="units not enterable by player" />
+			<Flag n="fireteam absorber" />
+			<Flag n="squad is runtime(DO NOT USE)" />
+			<Flag n="no wave spawn" />
+			<Flag n="squad is musketeer" />
+		</_D>
+		<_B Name="team" type="usqd" Offset="24" StructName1="e_campaign_team">
+			<Flag n="default" />
+			<Flag n="player" />
+			<Flag n="human" />
+			<Flag n="covenant" />
+			<Flag n="brute" />
+			<Flag n="mule" />
+			<Flag n="wild_captive" />
+			<Flag n="wild_free" />
+			<Flag n="spare" />
+			<Flag n="covenant_player" />
+			<Flag n="forerunner" />
+			<Flag n="neutral" />
+		</_B>
+		<_2E Name="parent" type="sqdt" Offset="26" GUID="87A04E62924C4B163116A14F9A767F70" StructName1="s_squad_definition" Min="0" Max="1048576" />
+		<_38 Name="bsp flags" Offset="28" GUID="F8D84D6DE57DE86ED070CD3A987EFC12" />
+		<_2E Name="initial zone" Offset="58" GUID="D7F44761661CA582147ECA8B8100E014" StructName1="s_squad_definition" Min="0" Max="1048576" />
+		<_2E Name="initial objective" type="usqd" Offset="5A" GUID="C49F426B337629EED2A66AE8B388142C" StructName1="s_squad_definition" Min="0" Max="256" />
+		<_2F Name="initial task" type="usqd" Offset="5C" />
+		<_34 Name="generated_pad8aa2" Offset="5E" Length="2" />
+		<_30 Name="editor folder" type="ugly" Offset="60" GUID="9A5741CB0B9D6A599F085A3DA1D7A5D1" StructName1="s_squad_definition" Min="0" Max="1048576" />
+		<_40 Name="spawn formations" Offset="64" GUID="829343BDE19AC3AA54DAD4A388085421" StructName1="s_squad_definition" Min="0" Max="8" />
+		<_40 Name="spawn points" Offset="78" GUID="915E47FC2288B87415D83BA8A59792AF" StructName1="s_squad_definition" Min="0" Max="128" />
+		<_2 Name="module id" Offset="8C" />
+		<_2 Name="template" type="sted" Offset="90" />
+		<_6 Name="squad template index" Offset="94" />
+		<_38 Name="designer" Offset="98" GUID="B8B849EE5DA7C80999C9CDD39CE778C1" />
+		<_38 Name="templated" Offset="AC" GUID="B8B849EE5DA7C80999C9CDD39CE778C1" />
+		<_38 Name="warzone objective definition membership" Offset="C0" GUID="78F64E2F5FA93E885791937E96DB2404" />
+		<_A Name="bsp policy" Offset="E2" StructName1="c_object_bsp_placement_policy">
+			<Flag n="default" />
+			<Flag n="always placed" />
+			<Flag n="manual bsp placement" />
+		</_A>
+		<_34 Name="generated_padd757" Offset="E3" Length="1" />
+		<_40 Name="EditorMetadata" Offset="E4" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="s_squad_definition" Min="4" Max="1" />
+	</_6CC847B7650EB872AC519202B11BDACA>
+	<_40034CC8F805BB85C5D6C669A7CED22B Name="s_area_reference" Size="1C">
+		<_B Name="area type" Offset="0" StructName1="c_zone_set_type">
+			<Flag n="normal" />
+			<Flag n="search" />
+			<Flag n="core" />
+		</_B>
+		<_F Name="flags" Offset="2" StructName1="c_zone_set_flags">
+			<Flag n="goal" />
+			<Flag n="direction valid" />
+		</_F>
+		<_34 Name="generated_pad1249" Offset="3" Length="1" />
+		<_2E Name="zone" Offset="4" GUID="D7F44761661CA582147ECA8B8100E014" StructName1="s_area_reference" Min="0" Max="1048576" />
+		<_2F Name="area" Offset="6" />
+		<_8 Name="yaw" Offset="8" />
+		<_6 Name="connection flags 0" Offset="C" />
+		<_6 Name="connection flags 1" Offset="10" />
+		<_6 Name="connection flags 2" Offset="14" />
+		<_6 Name="connection flags 3" Offset="18" />
+	</_40034CC8F805BB85C5D6C669A7CED22B>
+	<_1D254941BE3330E461A61F94949273FC Name="s_script_fragment" Size="104">
+		<_6 Name="script name" Offset="0" />
+		<_1 Name="script source" type="maeo" Offset="4" />
+	</_1D254941BE3330E461A61F94949273FC>
+	<_58824DDCFD7F6876C4D351E49EE64C67 Name="s_task_direction" Size="14">
+		<_40 Name="points" Offset="0" GUID="72574833E85253E6BFF2A0EDAFA188B9" StructName1="s_task_direction" Min="0" Max="8" />
+	</_58824DDCFD7F6876C4D351E49EE64C67>
+	<_2FE7429C4EE726FBB489F288B4DD8A95 Name="s_bool_property" Size="101">
+		<_1 Name="name" Offset="0" />
+		<_3C Name="Value" Offset="100" />
+	</_2FE7429C4EE726FBB489F288B4DD8A95>
+	<_936045522176C9FDA27104FC8512D854 Name="s_numeric_property" Size="104">
+		<_1 Name="name" Offset="0" />
+		<_14 Name="Value" Offset="100" />
+	</_936045522176C9FDA27104FC8512D854>
+	<_68024D2A459B882E2C55CE7BA4206A30 Name="s_string_property" Size="200">
+		<_1 Name="name" Offset="0" />
+		<_1 Name="Value" Offset="100" />
+	</_68024D2A459B882E2C55CE7BA4206A30>
+	<_96094070CEC043C032F17B8996DC13B8 Name="s_tag_property" Size="120">
+		<_1 Name="name" Offset="0" />
+		<_41 Name="Value" Offset="100" Allowed="aTag" Flags="0" />
+		<_2 Name="load variant" Offset="11C" />
+	</_96094070CEC043C032F17B8996DC13B8>
+	<_1C434BAAA2EE0547067515C792E31E8C Name="s_color_property" Size="110">
+		<_1 Name="name" Offset="0" />
+		<_20 Name="Value" Offset="100" />
+	</_1C434BAAA2EE0547067515C792E31E8C>
+	<_CE834D444653F5B4FA256202B625D247 Name="s_vector_property" Size="10C">
+		<_1 Name="name" Offset="0" />
+		<_19 Name="Value" Offset="100" />
+	</_CE834D444653F5B4FA256202B625D247>
+	<_0BCB4E06C6DFE1E82BE7990FA7B0ADDE Name="WarzoneObjectiveDefinitionTriggerVolume" Size="22">
+		<_0 Name="label" Offset="0" />
+		<_2E Name="trigger volume" Offset="20" GUID="05A9439EBF59DB68ADE31F09811C3B2F" StructName1="WarzoneObjectiveDefinitionTriggerVolume" Min="0" Max="8192" />
+	</_0BCB4E06C6DFE1E82BE7990FA7B0ADDE>
+	<_F0C94F3540B3B9F793918A26B1D416B3 Name="s_ai_sector_point" Size="14">
+		<_17 Name="point" type="aipt" Offset="0" />
+		<_6 Name="_navMeshUIDOffaceref" Offset="C" />
+		<_6 Name="_packedKeyOffaceref" Offset="10" />
+	</_F0C94F3540B3B9F793918A26B1D416B3>
+	<_4B8343052D17D937205D022E97485CEC Name="NavMeshAttachment::NavMeshAttachmentId" Size="4">
+		<_3E Name="navMeshUID" Offset="0" />
+	</_4B8343052D17D937205D022E97485CEC>
+	<_5E7649D47DDBEF56C7523C29A10F631A Name="ScenarioBspReference" Size="1C">
+		<_41 Name="structure bsp" Offset="0" Allowed="sbsp" Flags="1" />
+	</_5E7649D47DDBEF56C7523C29A10F631A>
+	<_829343BDE19AC3AA54DAD4A388085421 Name="s_spawn_formation_definition" Size="5C">
+		<_38 Name="place on" Offset="0" GUID="46764415F95BF66AEFDE15CFB6C52F11" />
+		<_2 Name="name" Offset="4" />
+		<_17 Name="position" type="aipt" Offset="8" />
+		<_6 Name="_navMeshUIDOffaceref" Offset="14" />
+		<_6 Name="_packedKeyOffaceref" Offset="18" />
+		<_1B Name="facing (yaw, pitch)" Offset="1C" />
+		<_14 Name="roll" Offset="24" />
+		<_2 Name="formation" type="sted" Offset="28" />
+		<_14 Name="initial movement distance" Offset="2C" />
+		<_B Name="initial movement mode" Offset="30" StructName1="eStartingMovementType">
+			<Flag n="default" />
+			<Flag n="climbing" />
+			<Flag n="flying" />
+		</_B>
+		<_34 Name="generated_padee0b" Offset="32" Length="2" />
+		<_2 Name="placement script" Offset="34" />
+		<_2 Name="activity name" type="sted" Offset="38" />
+		<_2 Name="movement set" Offset="3C" />
+		<_2F Name="point set" Offset="40" />
+		<_B Name="patrol mode" Offset="42" StructName1="PatrolMode">
+			<Flag n="ping-pong" />
+			<Flag n="loop" />
+			<Flag n="random" />
+		</_B>
+		<_40 Name="points" Offset="44" GUID="97634244C516E1B088B435C180F25696" StructName1="s_spawn_formation_definition" Min="0" Max="32" />
+		<_F Name="flags" Offset="58" StructName1="c_spawn_formation_flags">
+			<Flag n="no vertical offset for flying" />
+		</_F>
+		<_34 Name="generated_pada156" Offset="59" Length="3" />
+	</_829343BDE19AC3AA54DAD4A388085421>
+	<_915E47FC2288B87415D83BA8A59792AF Name="s_spawn_point_definition" Size="120">
+		<_38 Name="place on" Offset="0" GUID="46764415F95BF66AEFDE15CFB6C52F11" />
+		<_2 Name="name" Offset="4" />
+		<_2F Name="cell" Offset="8" />
+		<_34 Name="generated_pad6f52" Offset="A" Length="2" />
+		<_17 Name="position" type="aipt" Offset="C" />
+		<_6 Name="_navMeshUIDOffaceref" Offset="18" />
+		<_6 Name="_packedKeyOffaceref" Offset="1C" />
+		<_1B Name="facing (yaw, pitch)" Offset="20" />
+		<_14 Name="roll" Offset="28" />
+		<_E Name="flags" Offset="2C" StructName1="AISpawnPointFlags">
+			<Flag n="infection form explode" />
+			<Flag n="n/a" />
+			<Flag n="always place" />
+			<Flag n="initially hidden" />
+			<Flag n="vehicle destroyed when no driver" />
+			<Flag n="vehicle open" />
+			<Flag n="actor surface emerge" />
+			<Flag n="actor surface emerge auto" />
+			<Flag n="actor surface emerge upwards" />
+		</_E>
+		<_34 Name="generated_padbc07" Offset="2E" Length="2" />
+		<_41 Name="character" Offset="30" Allowed="char" Flags="0" />
+		<_41 Name="primary weapon" Offset="4C" Allowed="weap" Flags="0" />
+		<_41 Name="secondary weapon" Offset="68" Allowed="weap" Flags="0" />
+		<_41 Name="equipment" Offset="84" Allowed="eqip" Flags="0" />
+		<_41 Name="vehicle" Offset="A0" Allowed="vehi" Flags="0" />
+		<_41 Name="vehicle configuration" Offset="BC" Allowed="vcdd" Flags="0" />
+		<_B Name="seat type" Offset="D8" StructName1="AISeatPreference">
+			<Flag n="DEFAULT" />
+			<Flag n="passenger" />
+			<Flag n="gunner" />
+			<Flag n="driver" />
+			<Flag n="small cargo" />
+			<Flag n="large cargo" />
+			<Flag n="NO driver" />
+			<Flag n="NO vehicle" />
+		</_B>
+		<_A Name="grenade type" Offset="DA" StructName1="UnitGrenadeType">
+			<Flag n="none" />
+			<Flag n="fragmentation grenade" />
+			<Flag n="plasma grenade" />
+			<Flag n="lightning grenade" />
+			<Flag n="spike grenade" />
+			<Flag n="sapper grenade" />
+			<Flag n="stasis grenade" />
+		</_A>
+		<_34 Name="generated_pad08bc" Offset="DB" Length="1" />
+		<_5 Name="swarm count" Offset="DC" />
+		<_34 Name="generated_pad5571" Offset="DE" Length="2" />
+		<_2 Name="actor variant name" Offset="E0" />
+		<_2 Name="vehicle variant name" Offset="E4" />
+		<_2 Name="voice designator" Offset="E8" />
+		<_14 Name="initial movement distance" Offset="EC" />
+		<_B Name="initial movement mode" Offset="F0" StructName1="eStartingMovementType">
+			<Flag n="default" />
+			<Flag n="climbing" />
+			<Flag n="flying" />
+		</_B>
+		<_2E Name="emitter vehicle" Offset="F2" GUID="DEF4497E756D14F1C9C52931A140AC68" StructName1="s_spawn_point_definition" Min="0" Max="262144" />
+		<_2E Name="giant body" Offset="F4" GUID="4E5541D4D4AC3CB5364F882EA63121B6" StructName1="s_spawn_point_definition" Min="0" Max="262144" />
+		<_2E Name="biped body" Offset="F6" GUID="4EB541D4D9AC3CB5364F885EA631C1B6" StructName1="s_spawn_point_definition" Min="0" Max="262144" />
+		<_2 Name="placement script" Offset="F8" />
+		<_2 Name="activity name" type="sted" Offset="FC" />
+		<_2 Name="movement set" Offset="100" />
+		<_2F Name="point set" Offset="104" />
+		<_B Name="patrol mode" Offset="106" StructName1="PatrolMode">
+			<Flag n="ping-pong" />
+			<Flag n="loop" />
+			<Flag n="random" />
+		</_B>
+		<_40 Name="points" Offset="108" GUID="97634244C516E1B088B435C180F25696" StructName1="s_spawn_point_definition" Min="0" Max="32" />
+		<_2E Name="vehicle body" Offset="11C" GUID="DEF4497E756D14F1C9C52931A140AC68" StructName1="s_spawn_point_definition" Min="0" Max="262144" />
+		<_34 Name="generated_pada226" Offset="11E" Length="2" />
+	</_915E47FC2288B87415D83BA8A59792AF>
+	<_B8B849EE5DA7C80999C9CDD39CE778C1 Name="s_squad_definition_internal" Size="14">
+		<_40 Name="cells" Offset="0" GUID="E05345C93EBCDDBBABA2BEDD81A0110C" StructName1="s_squad_definition_internal" Min="0" Max="10" />
+	</_B8B849EE5DA7C80999C9CDD39CE778C1>
+	<_72574833E85253E6BFF2A0EDAFA188B9 Name="s_task_direction_point" Size="14">
+		<_17 Name="point0" type="aipt" Offset="0" />
+		<_6 Name="_navMeshUIDOffaceref" Offset="C" />
+		<_6 Name="_packedKeyOffaceref" Offset="10" />
+	</_72574833E85253E6BFF2A0EDAFA188B9>
+	<_05A9439EBF59DB68ADE31F09811C3B2F Name="scenario_trigger_volume" Size="D0">
+		<_2 Name="name" Offset="0" />
+		<_2 Name="object" type="npik" Offset="4" />
+		<_6 Name="object name" Offset="8" />
+		<_5 Name="runtime node index" Offset="C" />
+		<_34 Name="generated_padb464" Offset="E" Length="2" />
+		<_2 Name="node name" Offset="10" />
+		<_B Name="type" Offset="14" StructName1="e_trigger_volume_type">
+			<Flag n="bounding box" />
+			<Flag n="sector" />
+		</_B>
+		<_A Name="behavior" Offset="16" StructName1="eTriggerVolumeBehavior">
+			<Flag n="None" />
+			<Flag n="Kill volume" />
+			<Flag n="Safe zone" />
+			<Flag n="Unsafe spawn" />
+			<Flag n="Begin zone set" />
+			<Flag n="Commit zone set" />
+			<Flag n="Location" />
+			<Flag n="Object Kill Volume" />
+		</_A>
+		<_F Name="flags" Offset="17" StructName1="TriggerVolumeFlags">
+			<Flag n="don't kill immediately" />
+			<Flag n="only kill players" />
+			<Flag n="don't kill immediately, and don't apply to air vehicles" />
+			<Flag n="teleport vehicles" />
+			<Flag n="prevent spawn in vehicle" />
+			<Flag n="only kill game objects" />
+			<Flag n="don't apply to air vehicles" />
+		</_F>
+		<_2 Name="zone set name" Offset="18" />
+		<_2 Name="module id" Offset="1C" />
+		<_19 Name="forward" Offset="20" />
+		<_19 Name="up" Offset="2C" />
+		<_1C Name="orientation" Offset="38" />
+		<_17 Name="position" type="aipt" Offset="44" />
+		<_6 Name="_navMeshUIDOffaceref" Offset="50" />
+		<_6 Name="_packedKeyOffaceref" Offset="54" />
+		<_17 Name="extents" Offset="58" />
+		<_14 Name="z height" Offset="64" />
+		<_14 Name="z sink" Offset="68" />
+		<_40 Name="sector points" Offset="6C" GUID="069F41B2C82D658B13062FAB9F32D7A8" StructName1="scenario_trigger_volume" Min="0" Max="128" />
+		<_40 Name="runtime triangles" Offset="80" GUID="069F4165CAB2658B1306123B9AC2D7A8" StructName1="scenario_trigger_volume" Min="0" Max="126" />
+		<_14 Name="runtime sector bounds x0" Offset="94" />
+		<_14 Name="runtime sector bounds x1" Offset="98" />
+		<_14 Name="runtime sector bounds y0" Offset="9C" />
+		<_14 Name="runtime sector bounds y1" Offset="A0" />
+		<_14 Name="runtime sector bounds z0" Offset="A4" />
+		<_14 Name="runtime sector bounds z1" Offset="A8" />
+		<_14 Name="C" Offset="AC" />
+		<_5 Name="kill trigger volume" Offset="B0" />
+		<_34 Name="generated_padce45" Offset="B2" Length="2" />
+		<_30 Name="editor folder" type="ugly" Offset="B4" GUID="9A5741CB0B9D6A599F085A3DA1D7A5D1" StructName1="scenario_trigger_volume" Min="0" Max="1048576" />
+		<_40 Name="EditorMetadata" Offset="B8" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="scenario_trigger_volume" Min="4" Max="1" />
+		<_6 Name="Guid" Offset="CC" />
+	</_05A9439EBF59DB68ADE31F09811C3B2F>
+	<_46764415F95BF66AEFDE15CFB6C52F11 Name="s_ai_spawn_conditions" Size="4">
+		<_E Name="difficulty flags" Offset="0" StructName1="GameDifficultyFlags">
+			<Flag n="easy" />
+			<Flag n="normal" />
+			<Flag n="heroic" />
+			<Flag n="legendary" />
+		</_E>
+		<_34 Name="pad0" Offset="2" Length="2" />
+	</_46764415F95BF66AEFDE15CFB6C52F11>
+	<_97634244C516E1B088B435C180F25696 Name="s_patrol_point" Size="14">
+		<_2F Name="point" Offset="0" />
+		<_E Name="flags" Offset="2" StructName1="c_patrol_point_flags">
+			<Flag n="single use" />
+		</_E>
+		<_14 Name="delay" Offset="4" />
+		<_14 Name="angle" Offset="8" />
+		<_2 Name="activity name" type="sted" Offset="C" />
+		<_2 Name="command script" Offset="10" />
+	</_97634244C516E1B088B435C180F25696>
+	<_DEF4497E756D14F1C9C52931A140AC68 Name="s_scenario_vehicle" Size="1EC">
+		<_6 Name="name" Offset="0" />
+		<_2 Name="object name" type="name" Offset="4" />
+		<_41 Name="asset" Offset="8" Allowed="vehi" Flags="0" />
+		<_38 Name="object data" Offset="24" GUID="F27A4A22B2D98DC927B43F20B6CD6942" />
+		<_40 Name="EditorMetadata" Offset="180" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="s_scenario_vehicle" Min="4" Max="1" />
+		<_38 Name="permutation data" Offset="194" GUID="22A7466903BD8F07096D3305A02A4C64" />
+		<_38 Name="unit data" Offset="1B0" GUID="7E524E9DF7C2581397EDBB1689F06521" />
+		<_40 Name="multiplayer data" Offset="1B8" GUID="207B47B5D7949B5329AF1E1699E1EB91" StructName1="s_scenario_vehicle" Min="0" Max="1" />
+		<_38 Name="vehicle data" Offset="1CC" GUID="7A834CE5252FB58449D3CD60A99C3145" />
+	</_DEF4497E756D14F1C9C52931A140AC68>
+	<_4E5541D4D4AC3CB5364F882EA63121B6 Name="s_scenario_giant" Size="1BC">
+		<_6 Name="name" Offset="0" />
+		<_2 Name="object name" type="name" Offset="4" />
+		<_41 Name="asset" Offset="8" Allowed="gint" Flags="0" />
+		<_38 Name="object data" Offset="24" GUID="F27A4A22B2D98DC927B43F20B6CD6942" />
+		<_40 Name="EditorMetadata" Offset="180" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="s_scenario_giant" Min="4" Max="1" />
+		<_38 Name="permutation data" Offset="194" GUID="22A7466903BD8F07096D3305A02A4C64" />
+		<_38 Name="unit data" Offset="1B0" GUID="7E524E9DF7C2581397EDBB1689F06521" />
+		<_38 Name="giant data" Offset="1B8" GUID="890C4F04894053296E648B53B9B87A12" />
+		<_34 Name="generated_padea38" Offset="1BA" Length="2" />
+	</_4E5541D4D4AC3CB5364F882EA63121B6>
+	<_4EB541D4D9AC3CB5364F885EA631C1B6 Name="s_scenario_biped" Size="1CC">
+		<_6 Name="name" Offset="0" />
+		<_2 Name="object name" type="name" Offset="4" />
+		<_41 Name="asset" Offset="8" Allowed="bipd" Flags="0" />
+		<_38 Name="object data" Offset="24" GUID="F27A4A22B2D98DC927B43F20B6CD6942" />
+		<_40 Name="EditorMetadata" Offset="180" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="s_scenario_biped" Min="4" Max="1" />
+		<_38 Name="permutation data" Offset="194" GUID="22A7466903BD8F07096D3305A02A4C64" />
+		<_38 Name="unit data" Offset="1B0" GUID="7E524E9DF7C2581397EDBB1689F06521" />
+		<_40 Name="multiplayer data" Offset="1B8" GUID="207B47B5D7949B5329AF1E1699E1EB91" StructName1="s_scenario_biped" Min="0" Max="1" />
+	</_4EB541D4D9AC3CB5364F885EA631C1B6>
+	<_E05345C93EBCDDBBABA2BEDD81A0110C Name="s_cell_definition" Size="A4">
+		<_36 Name="Character Build" Offset="0" />
+		<_2 Name="name" Offset="0" />
+		<_38 Name="place on" Offset="4" GUID="46764415F95BF66AEFDE15CFB6C52F11" />
+		<_5 Name="normal diff count" Offset="8" />
+		<_B Name="major upgrade" Offset="A" StructName1="SquadMajorUpgradeType">
+			<Flag n="normal" />
+			<Flag n="few" />
+			<Flag n="many" />
+			<Flag n="none" />
+			<Flag n="all" />
+		</_B>
+		<_40 Name="character" Offset="C" GUID="5B094D5AFB44A16AA050747FA5F349F7" StructName1="s_cell_definition" Min="0" Max="8" />
+		<_40 Name="primary weapon" Offset="20" GUID="33CE47963F4964746603610AA2DF3E45" StructName1="s_cell_definition" Min="0" Max="8" />
+		<_40 Name="secondary weapon" Offset="34" GUID="33CE47963F4964746603610AA2DF3E45" StructName1="s_cell_definition" Min="0" Max="8" />
+		<_40 Name="equipment" Offset="48" GUID="8618413EA97BE0E62D86F75CA966B9BD" StructName1="s_cell_definition" Min="0" Max="8" />
+		<_A Name="grenade type" Offset="5C" StructName1="UnitGrenadeType">
+			<Flag n="none" />
+			<Flag n="fragmentation grenade" />
+			<Flag n="plasma grenade" />
+			<Flag n="lightning grenade" />
+			<Flag n="spike grenade" />
+			<Flag n="sapper grenade" />
+			<Flag n="stasis grenade" />
+		</_A>
+		<_34 Name="generated_pad6c56" Offset="5D" Length="3" />
+		<_41 Name="vehicle" Offset="60" Allowed="vehi" Flags="0" />
+		<_2 Name="vehicle variant" Offset="7C" />
+		<_2 Name="Placement script" Offset="80" />
+		<_2 Name="activity name" type="sted" Offset="84" />
+		<_2 Name="movement set" Offset="88" />
+		<_2F Name="point set" Offset="8C" />
+		<_B Name="patrol mode" Offset="8E" StructName1="PatrolMode">
+			<Flag n="ping-pong" />
+			<Flag n="loop" />
+			<Flag n="random" />
+		</_B>
+		<_40 Name="points" Offset="90" GUID="97634244C516E1B088B435C180F25696" StructName1="s_cell_definition" Min="0" Max="32" />
+	</_E05345C93EBCDDBBABA2BEDD81A0110C>
+	<_069F41B2C82D658B13062FAB9F32D7A8 Name="s_real_sector_point" Size="C">
+		<_17 Name="position" Offset="0" />
+	</_069F41B2C82D658B13062FAB9F32D7A8>
+	<_069F4165CAB2658B1306123B9AC2D7A8 Name="s_trigger_volume_triangle" Size="70">
+		<_1E Name="plane 0" Offset="0" />
+		<_1E Name="plane 1" Offset="10" />
+		<_1E Name="plane 2" Offset="20" />
+		<_1E Name="plane 3" Offset="30" />
+		<_1E Name="plane 4" Offset="40" />
+		<_16 Name="vertex 0" Offset="50" />
+		<_16 Name="vertex 1" Offset="58" />
+		<_16 Name="vertex 2" Offset="60" />
+		<_34 Name="pad" Offset="68" Length="8" />
+	</_069F4165CAB2658B1306123B9AC2D7A8>
+	<_F27A4A22B2D98DC927B43F20B6CD6942 Name="s_scenario_object_datum" Size="15C">
+		<_37 Name="" type="obed" Offset="0" />
+		<_D Name="placement flags" Offset="0" StructName1="c_scenario_object_placement_flags">
+			<Flag n="not automatically" />
+			<Flag n="unused0" />
+			<Flag n="unused1" />
+			<Flag n="unused2" />
+			<Flag n="lock type to env. object" />
+			<Flag n="lock transform to env. object" />
+			<Flag n="never placed" />
+			<Flag n="lock name to env. object" />
+			<Flag n="create at rest" />
+			<Flag n="store orientations" />
+			<Flag n="startup" />
+			<Flag n="attach physically" />
+			<Flag n="attach with scale" />
+			<Flag n="no parent lighting" />
+			<Flag n="disable opportunity" />
+			<Flag n="Subtract" />
+			<Flag n="override CVW lighting" />
+			<Flag n="override CVW lighting - disable CVW for this placement" />
+			<Flag n="client only no relevancy" />
+		</_D>
+		<_17 Name="position" type="poin" Offset="4" />
+		<_1C Name="rotation" type="orie" Offset="10" />
+		<_14 Name="scale" type="scal" Offset="1C" />
+		<_14 Name="gravity override" Offset="20" />
+		<_F Name="gravity flags" Offset="24" StructName1="c_scenario_object_gravity_flags">
+			<Flag n="apply override" />
+			<Flag n="apply to children also" />
+		</_F>
+		<_A Name="bsp policy" type="enum" Offset="25" StructName1="c_object_bsp_placement_policy">
+			<Flag n="default" />
+			<Flag n="always placed" />
+			<Flag n="manual bsp placement" />
+		</_A>
+		<_F Name="script flags" Offset="26" StructName1="ScenarioObjectScriptFlags">
+			<Flag n="scripts disabled" />
+			<Flag n="use override lists" />
+			<Flag n="scripts always run" />
+		</_F>
+		<_34 Name="generated_pad1c32" Offset="27" Length="1" />
+		<_38 Name="scriptable properties" Offset="28" GUID="9A3E4FF2915AE3F75AE8EF15892E317F" />
+		<_38 Name="bsp flags" Offset="A0" GUID="F8D84D6DE57DE86ED070CD3A987EFC12" />
+		<_E Name="transform flags" Offset="D0" StructName1="TransformFlags">
+			<Flag n="mirrored" />
+		</_E>
+		<_A Name="Nav Mesh Cutting" Offset="D2" StructName1="NavMeshCuttingOverride">
+			<Flag n="Default" />
+			<Flag n="Cut" />
+			<Flag n="NotCut" />
+		</_A>
+		<_F Name="Nav Mesh Flags" Offset="D3" StructName1="c_scenario_object_navmesh_flags">
+			<Flag n="children inherit navmesh interaction" />
+			<Flag n="navmesh always loaded" />
+		</_F>
+		<_30 Name="editor folder" type="ugly" Offset="D4" GUID="9A5741CB0B9D6A599F085A3DA1D7A5D1" StructName1="s_scenario_object_datum" Min="0" Max="1048576" />
+		<_38 Name="object id" Offset="D8" GUID="DE4B45AEA40A140199C39E7BB47F4714" />
+		<_34 Name="runtimeObjectHandle" Offset="E0" Length="4" />
+		<_2 Name="module id" Offset="E4" />
+		<_38 Name="parent id" Offset="E8" GUID="C0AA4656C16E1FE341BB4DF495075B5F" />
+		<_2 Name="in-game-maps material id" type="sted" Offset="F8" />
+		<_14 Name="Directional Acceleration Mult. " Offset="FC" />
+		<_41 Name="Custom Object Lighting Reference" Offset="100" Allowed="colt" Flags="0" />
+		<_40 Name="Man Cannon Ballistic Arc Data" Offset="11C" GUID="82944FC6D0BA0CFE893A664A90315DDD" StructName1="s_scenario_object_datum" Min="0" Max="2" />
+		<_40 Name="Spartan Tracking" Offset="130" GUID="B52A42D5C3031D37424678BCBE0FD563" StructName1="s_scenario_object_datum" Min="0" Max="8" />
+		<_F Name="Layer flags" Offset="144" StructName1="c_scenario_object_layer_flags">
+			<Flag n="Layer is map variant" />
+		</_F>
+		<_34 Name="generated_pad68e7" Offset="145" Length="3" />
+		<_40 Name="associates" Offset="148" GUID="A2E346C7B71D3CA1DCF066BE9890B903" StructName1="s_scenario_object_datum" Min="0" Max="20" />
+	</_F27A4A22B2D98DC927B43F20B6CD6942>
+	<_22A7466903BD8F07096D3305A02A4C64 Name="s_scenario_object_permutation" Size="1C">
+		<_2 Name="variant name" type="sted" Offset="0" />
+		<_F Name="active change colors" Offset="4" StructName1="c_object_change_color_flags">
+			<Flag n="primary" />
+			<Flag n="secondary" />
+			<Flag n="tertiary" />
+			<Flag n="quaternary" />
+		</_F>
+		<_34 Name="generated_paddcc3" Offset="5" Length="3" />
+		<_2 Name="Style Id" type="sted" Offset="8" />
+		<_12 Name="primary color" Offset="C" />
+		<_12 Name="secondary color" Offset="10" />
+		<_12 Name="tertiary color" Offset="14" />
+		<_12 Name="quaternary color" Offset="18" />
+	</_22A7466903BD8F07096D3305A02A4C64>
+	<_7E524E9DF7C2581397EDBB1689F06521 Name="s_scenario_unit_datum" Size="8">
+		<_14 Name="body vitality" Offset="0" />
+		<_D Name="flags" Offset="4" StructName1="ScenarioUnitFlags">
+			<Flag n="dead" />
+			<Flag n="opened" />
+			<Flag n="not enterable by player" />
+		</_D>
+	</_7E524E9DF7C2581397EDBB1689F06521>
+	<_207B47B5D7949B5329AF1E1699E1EB91 Name="s_scenario_multiplayer_object_properties" Size="EC">
+		<_36 Name="Multiplayer Data" Offset="0" />
+		<_2 Name="megalo label" Offset="0" />
+		<_2 Name="megalo label 2" Offset="4" />
+		<_2 Name="megalo label 3" Offset="8" />
+		<_2 Name="megalo label 4" Offset="C" />
+		<_A Name="game engine symmetric placement" Offset="10" StructName1="i343::NetProtocol::BondEnumHelper&lt;i343::NetProtocol::MapVariant::PlacementMode&gt;::Enum">
+			<Flag n="ignore" />
+			<Flag n="symmetric" />
+			<Flag n="asymmetric" />
+		</_A>
+		<_A Name="owner team" Offset="11" StructName1="i343::NetProtocol::GameOptions::MultiplayerTeamDesignatorEnum">
+			<Flag n="Defender" />
+			<Flag n="Attacker" />
+			<Flag n="ThirdParty" />
+			<Flag n="FourthParty" />
+			<Flag n="FifthParty" />
+			<Flag n="SixthParty" />
+			<Flag n="SeventhParty" />
+			<Flag n="EighthParty" />
+			<Flag n="Neutral" />
+		</_A>
+		<_A Name="owner squad" Offset="12" StructName1="i343::NetProtocol::GameOptions::MultiplayerSquadEnum_FaberSafe">
+			<Flag n="None" />
+			<Flag n="Alpha" />
+			<Flag n="Bravo" />
+			<Flag n="Charlie" />
+			<Flag n="Delta" />
+			<Flag n="Echo" />
+			<Flag n="Foxtrot" />
+			<Flag n="Gamma" />
+			<Flag n="Hotel" />
+		</_A>
+		<_34 Name="generated_pad2291" Offset="13" Length="1" />
+		<_E Name="spawn flags" Offset="14" StructName1="c_multiplayer_object_placement_spawn_flags">
+			<Flag n="unique spawn" />
+			<Flag n="not initially placed" />
+			<Flag n="Deprecated" />
+			<Flag n="is shortcut object" />
+			<Flag n="can spawn on bipeds" />
+			<Flag n="does not respawn" />
+			<Flag n="abandonment timer always active" />
+			<Flag n="override candy monitor defaults" />
+			<Flag n="tracked by candy monitor" />
+		</_E>
+		<_A Name="teleporter channel" Offset="16" StructName1="i343::NetProtocol::BondEnumHelper&lt;i343::NetProtocol::Phonetic&gt;::Enum">
+			<Flag n="alpha" />
+			<Flag n="bravo" />
+			<Flag n="charlie" />
+			<Flag n="delta" />
+			<Flag n="echo" />
+			<Flag n="foxtrot" />
+			<Flag n="golf" />
+			<Flag n="hotel" />
+			<Flag n="india" />
+			<Flag n="juliet" />
+			<Flag n="kilo" />
+			<Flag n="lima" />
+			<Flag n="mike" />
+			<Flag n="november" />
+			<Flag n="oscar" />
+			<Flag n="papa" />
+			<Flag n="quebec" />
+			<Flag n="romeo" />
+			<Flag n="sierra" />
+			<Flag n="tango" />
+			<Flag n="uniform" />
+			<Flag n="victor" />
+			<Flag n="whiskey" />
+			<Flag n="xray" />
+			<Flag n="yankee" />
+			<Flag n="zulu" />
+		</_A>
+		<_F Name="teleporter passability" Offset="17" StructName1="c_teleporter_passability">
+			<Flag n="disallow players" />
+			<Flag n="allow light land vehicles" />
+			<Flag n="allow heavy land vehicles" />
+			<Flag n="allow flying vehicles" />
+			<Flag n="allow projectiles" />
+		</_F>
+		<_A Name="trait zone channel" Offset="18" StructName1="i343::NetProtocol::BondEnumHelper&lt;i343::NetProtocol::Phonetic&gt;::Enum">
+			<Flag n="alpha" />
+			<Flag n="bravo" />
+			<Flag n="charlie" />
+			<Flag n="delta" />
+			<Flag n="echo" />
+			<Flag n="foxtrot" />
+			<Flag n="golf" />
+			<Flag n="hotel" />
+			<Flag n="india" />
+			<Flag n="juliet" />
+			<Flag n="kilo" />
+			<Flag n="lima" />
+			<Flag n="mike" />
+			<Flag n="november" />
+			<Flag n="oscar" />
+			<Flag n="papa" />
+			<Flag n="quebec" />
+			<Flag n="romeo" />
+			<Flag n="sierra" />
+			<Flag n="tango" />
+			<Flag n="uniform" />
+			<Flag n="victor" />
+			<Flag n="whiskey" />
+			<Flag n="xray" />
+			<Flag n="yankee" />
+			<Flag n="zulu" />
+		</_A>
+		<_34 Name="generated_pad08b0" Offset="19" Length="3" />
+		<_14 Name="trait zone seconds to apply" Offset="1C" />
+		<_14 Name="phantomVelocityMultiplier" Offset="20" />
+		<_14 Name="phantomAccelerationMultiplier" Offset="24" />
+		<_14 Name="boundary width or radius" Offset="28" />
+		<_14 Name="boundary box length" Offset="2C" />
+		<_14 Name="boundary positive height" Offset="30" />
+		<_14 Name="boundary negative height" Offset="34" />
+		<_A Name="boundary shape" Offset="38" StructName1="i343::NetProtocol::BondEnumHelper&lt;i343::NetProtocol::BoundaryType&gt;::Enum">
+			<Flag n="unused" />
+			<Flag n="sphere" />
+			<Flag n="cylinder" />
+			<Flag n="box" />
+		</_A>
+		<_34 Name="boundary pad" Offset="39" Length="1" />
+		<_34 Name="boundary pad2" Offset="3A" Length="2" />
+		<_5 Name="initial spawn delay" Offset="3C" />
+		<_5 Name="spawn time" Offset="3E" />
+		<_5 Name="abandonment time" Offset="40" />
+		<_34 Name="generated_padbbfb" Offset="42" Length="2" />
+		<_2 Name="location name" type="sted" Offset="44" />
+		<_40 Name="spline" Offset="48" GUID="881B429955F6D9F8167E3852B87C3FE8" StructName1="s_scenario_multiplayer_object_properties" Min="0" Max="200" />
+		<_40 Name="SpawnPointProperties" Offset="5C" GUID="E7A645B16F5361207F3CFFCF8AD96C31" StructName1="s_scenario_multiplayer_object_properties" Min="0" Max="1" />
+		<_14 Name="respawn weight" Offset="70" />
+		<_38 Name="warzone objective definition membership" Offset="74" GUID="78F64E2F5FA93E885791937E96DB2404" />
+		<_3C Name="spawn order" Offset="96" />
+		<_F Name="Multiplayer Property Flags" Offset="97" StructName1="MultiplayerObjectPropertyFlags">
+			<Flag n="Deny Spawn Points" />
+			<Flag n="Apply Spawn Zone Properties To Opposing Teams" />
+			<Flag n="Apply Spawn Zone Properties To Initial Spawn" />
+			<Flag n="WeaponPad Initially Disabled" />
+			<Flag n="Ignore Spawn Zone Falloff Function" />
+		</_F>
+		<_41 Name="WeaponPad object to spawn" Offset="98" Allowed="obje" Flags="0" />
+		<_41 Name="WeaponPad object to spawn configuration" Offset="B4" Allowed="ocfg" Flags="0" />
+		<_14 Name="WeaponPad respawn time" Offset="D0" />
+		<_40 Name="terminal redeemable objects" Offset="D4" GUID="4734415694CFD34A29893B2EAFFE0110" StructName1="s_scenario_multiplayer_object_properties" Min="0" Max="3" />
+		<_F Name="MapZones" Offset="E8" StructName1="MultiplayerProperties::MapZoneFlags">
+			<Flag n="Zero" />
+			<Flag n="One" />
+			<Flag n="Two" />
+			<Flag n="Three" />
+			<Flag n="Four" />
+			<Flag n="Five" />
+			<Flag n="Six" />
+			<Flag n="Seven" />
+		</_F>
+		<_F Name="MapZoneConfigurations" Offset="E9" StructName1="MultiplayerProperties::MapZoneConfigurationFlags">
+			<Flag n="Alpha" />
+			<Flag n="Bravo" />
+			<Flag n="Charlie" />
+			<Flag n="Delta" />
+			<Flag n="Echo" />
+			<Flag n="Foxtrot" />
+			<Flag n="Golf" />
+			<Flag n="Hotel" />
+		</_F>
+		<_34 Name="generated_pad3c72" Offset="EA" Length="2" />
+	</_207B47B5D7949B5329AF1E1699E1EB91>
+	<_7A834CE5252FB58449D3CD60A99C3145 Name="s_scenario_vehicle_datum" Size="20">
+		<_B Name="Pathfinding policy" Offset="0" StructName1="ObjectPathfindingPolicy">
+			<Flag n="default" />
+			<Flag n="yes" />
+			<Flag n="no" />
+		</_B>
+		<_34 Name="generated_pad3f53" Offset="2" Length="2" />
+		<_41 Name="configuration" Offset="4" Allowed="vcdd" Flags="0" />
+	</_7A834CE5252FB58449D3CD60A99C3145>
+	<_890C4F04894053296E648B53B9B87A12 Name="s_scenario_giant_datum" Size="2">
+		<_B Name="Pathfinding policy" Offset="0" StructName1="ObjectPathfindingPolicy">
+			<Flag n="default" />
+			<Flag n="yes" />
+			<Flag n="no" />
+		</_B>
+	</_890C4F04894053296E648B53B9B87A12>
+	<_5B094D5AFB44A16AA050747FA5F349F7 Name="AICharacterChoice" Size="24">
+		<_38 Name="place on" Offset="0" GUID="46764415F95BF66AEFDE15CFB6C52F11" />
+		<_41 Name="character type" Offset="4" Allowed="char" Flags="0" />
+		<_5 Name="chance" Offset="20" />
+		<_34 Name="generated_padc8d2" Offset="22" Length="2" />
+	</_5B094D5AFB44A16AA050747FA5F349F7>
+	<_33CE47963F4964746603610AA2DF3E45 Name="AIWeaponChoice" Size="24">
+		<_38 Name="place on" Offset="0" GUID="46764415F95BF66AEFDE15CFB6C52F11" />
+		<_41 Name="weapon type" Offset="4" Allowed="weap" Flags="0" />
+		<_5 Name="chance" Offset="20" />
+		<_34 Name="generated_pada3bd" Offset="22" Length="2" />
+	</_33CE47963F4964746603610AA2DF3E45>
+	<_8618413EA97BE0E62D86F75CA966B9BD Name="AIEquipmentChoice" Size="24">
+		<_38 Name="place on" Offset="0" GUID="46764415F95BF66AEFDE15CFB6C52F11" />
+		<_41 Name="equipment type" Offset="4" Allowed="eqip" Flags="0" />
+		<_5 Name="chance" Offset="20" />
+		<_34 Name="generated_pada94b" Offset="22" Length="2" />
+	</_8618413EA97BE0E62D86F75CA966B9BD>
+	<_C0AA4656C16E1FE341BB4DF495075B5F Name="s_scenario_object_parent" Size="10">
+		<_6 Name="parent object" Offset="0" />
+		<_2 Name="parent name" type="npik" Offset="4" />
+		<_2 Name="parent marker" Offset="8" />
+		<_37 Name="" type="amkr" Offset="C" />
+		<_2 Name="connection marker" Offset="C" />
+	</_C0AA4656C16E1FE341BB4DF495075B5F>
+	<_82944FC6D0BA0CFE893A664A90315DDD Name="i343::Physics::ManCannonBallisticArcData" Size="14">
+		<_17 Name="Man Cannon End Point" Offset="0" />
+		<_14 Name="Man Cannon Apex Height" Offset="C" />
+		<_6 Name="Man Cannon Phantom Index" Offset="10" />
+	</_82944FC6D0BA0CFE893A664A90315DDD>
+	<_B52A42D5C3031D37424678BCBE0FD563 Name="i343::SpartanTracking::ObjectDefinition" Size="6C">
+		<_36 Name="Map these settings to a ping type" Offset="0" />
+		<_F Name="flags" Offset="0" StructName1="i343::SpartanTracking::ObjectDefinition::Flags">
+			<Flag n="trackable" />
+			<Flag n="enabled by default" />
+			<Flag n="outline" />
+			<Flag n="immediate response" />
+			<Flag n="follow offscreen" />
+			<Flag n="do not track children" />
+			<Flag n="do not outline children" />
+		</_F>
+		<_A Name="ping type" Offset="1" StructName1="i343::SpartanTracking::ePingType">
+			<Flag n="active" />
+			<Flag n="passive" />
+			<Flag n="custom active" />
+			<Flag n="target marking" />
+		</_A>
+		<_A Name="team visibility" Offset="2" StructName1="i343::SpartanTracking::TeamVisibility">
+			<Flag n="visible to everyone" />
+			<Flag n="hidden from enemies" />
+			<Flag n="hidden from friends" />
+		</_A>
+		<_37 Name="Misc" type="fgrb" Offset="3" />
+		<_A Name="priority" Offset="3" StructName1="i343::SpartanTracking::ePriority">
+			<Flag n="critical" />
+			<Flag n="high" />
+			<Flag n="normal" />
+			<Flag n="low" />
+		</_A>
+		<_37 Name="" type="fgre" Offset="4" />
+		<_2 Name="ping group" Offset="4" />
+		<_37 Name="Nav Point" type="fgrb" Offset="8" />
+		<_2 Name="nav point screen" Offset="8" />
+		<_2 Name="nav point label" Offset="C" />
+		<_14 Name="nav point vertical offset" Offset="10" />
+		<_37 Name="" type="fgre" Offset="14" />
+		<_36 Name="Range Override" Offset="14" />
+		<_14 Name="range" Offset="14" />
+		<_37 Name="Effects" type="fgrb" Offset="18" />
+		<_41 Name="ping hit instigator effect" Offset="18" Allowed="effe" Flags="0" />
+		<_41 Name="ping hit effect" Offset="34" Allowed="effe" Flags="0" />
+		<_41 Name="outline override" Offset="50" Allowed="ostd" Flags="0" />
+		<_37 Name="" type="fgre" Offset="6C" />
+	</_B52A42D5C3031D37424678BCBE0FD563>
+	<_A2E346C7B71D3CA1DCF066BE9890B903 Name="i343::Objects::Association" Size="14">
+		<_E Name="association types" Offset="0" StructName1="i343::Objects::AssociationFlags">
+			<Flag n="aerial vehicle spawn point" />
+			<Flag n="ground vehicle spawn point" />
+		</_E>
+		<_34 Name="generated_padee80" Offset="2" Length="2" />
+		<_6 Name="target index" Offset="4" />
+		<_2 Name="target object name" type="npik" Offset="8" />
+		<_2 Name="target marker name" Offset="C" />
+		<_37 Name="" type="amkr" Offset="10" />
+		<_2 Name="source marker name" Offset="10" />
+	</_A2E346C7B71D3CA1DCF066BE9890B903>
+	<_881B429955F6D9F8167E3852B87C3FE8 Name="SplineNode" Size="1C">
+		<_17 Name="position" Offset="0" />
+		<_1C Name="rotation" Offset="C" />
+		<_14 Name="scale" Offset="18" />
+	</_881B429955F6D9F8167E3852B87C3FE8>
+	<_E7A645B16F5361207F3CFFCF8AD96C31 Name="SpawnPointMultiplayerProperties" Size="1">
+		<_F Name="Spawn Point Flags" Offset="0" StructName1="SpawnPointFlags">
+			<Flag n="Never Spawn In Vehicle" />
+		</_F>
+	</_E7A645B16F5361207F3CFFCF8AD96C31>
+	<_4734415694CFD34A29893B2EAFFE0110 Name="TerminalRedeemableObjectDefinition" Size="20">
+		<_41 Name="redeemable object" Offset="0" Allowed="obje" Flags="0" />
+		<_6 Name="level requirement" Offset="1C" />
+	</_4734415694CFD34A29893B2EAFFE0110>
+</root>

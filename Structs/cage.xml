@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="CageDefinition" Parents="aTag" Index="-50">
+	<_B0224A2E2114B783A82596FF9252412D Name="i343::CageSystem::CageDefinitionTag" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Points" Offset="10" GUID="BE8F401AC139960BFEBB5F67A178C1DD" StructName1="i343::CageSystem::CageDefinitionTag" Min="0" Max="128" />
+		<_34 Name="generated_pad90a9" Offset="24" Length="4" />
+	</_B0224A2E2114B783A82596FF9252412D>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_BE8F401AC139960BFEBB5F67A178C1DD Name="i343::CageSystem::CagePoint" Size="2C">
+		<_E Name="Flags" Offset="0" StructName1="i343::CageSystem::CagePointFlags">
+			<Flag n="Ignore X" />
+			<Flag n="Ignore Y" />
+			<Flag n="Ignore Z" />
+			<Flag n="Ignore Yaw" />
+			<Flag n="Ignore Pitch" />
+			<Flag n="Ignore Roll" />
+			<Flag n="Use Bounding Sphere Center" />
+			<Flag n="Put Z-Axis At Floor" />
+			<Flag n="Sample Once" />
+		</_E>
+		<_34 Name="generated_pad7a22" Offset="2" Length="2" />
+		<_2 Name="name" Offset="4" />
+		<_A Name="offsetType" Offset="8" StructName1="i343::CageSystem::CageOffsetType">
+			<Flag n="Local" />
+			<Flag n="Location" />
+			<Flag n="World" />
+			<Flag n="Orbit" />
+			<Flag n="LocalWithCenter" />
+			<Flag n="WindDirection" />
+		</_A>
+		<_34 Name="generated_padc6d7" Offset="9" Length="3" />
+		<_19 Name="offsetPosition" Offset="C" />
+		<_1C Name="offsetRotation" Offset="18" />
+		<_A Name="locationType" Offset="24" StructName1="i343::CageSystem::CageLocationType">
+			<Flag n="None" />
+			<Flag n="Marker" />
+			<Flag n="Bone" />
+			<Flag n="FPS" />
+		</_A>
+		<_34 Name="generated_pad138c" Offset="25" Length="3" />
+		<_2 Name="locationName" Offset="28" />
+	</_BE8F401AC139960BFEBB5F67A178C1DD>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

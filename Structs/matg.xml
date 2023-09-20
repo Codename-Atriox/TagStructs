@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:12 PM" Name="globals" Parents="aTag" Index="-249">
+	<_A2CF414508DE77CBB2A866B3BB807A30 Name="s_game_globals" Size="7D0">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="sound globals" Offset="10" Allowed="sngl" Flags="0" />
+		<_36 Name="AI globals" Offset="2C" />
+		<_41 Name="ai globals ref" Offset="2C" Allowed="aigl" Flags="0" />
+		<_41 Name="navigation globals ref" Offset="48" Allowed="nagl" Flags="0" />
+		<_41 Name="forge globals" Offset="64" Allowed="forg" Flags="0" />
+		<_41 Name="game engine globals" Offset="80" Allowed="gegl" Flags="0" />
+		<_41 Name="multiplayer globals" Offset="9C" Allowed="mulg" Flags="32" />
+		<_41 Name="global multiplayer object type list" Offset="B8" Allowed="motl" Flags="0" />
+		<_41 Name="grenades" Offset="D4" Allowed="gggl" Flags="0" />
+		<_41 Name="weapon globals" Offset="F0" Allowed="wgbl" Flags="0" />
+		<_41 Name="melee globals" Offset="10C" Allowed="mglb" Flags="0" />
+		<_41 Name="game medal globals" Offset="128" Allowed="gmeg" Flags="0" />
+		<_41 Name="Highlight Event Globals" Offset="144" Allowed="ghig" Flags="0" />
+		<_41 Name="Token Systems Globals" Offset="160" Allowed="toks" Flags="0" />
+		<_41 Name="AirDrop System Globals" Offset="17C" Allowed="adrp" Flags="4" />
+		<_36 Name="Rasterizer globals" Offset="198" />
+		<_41 Name="bitmap usage table" Offset="198" Allowed="biut" Flags="0" />
+		<_41 Name="rasterizer_globals_ref" Offset="1B4" Allowed="rasg" Flags="0" />
+		<_36 Name="Default camera fx settings" Offset="1D0" />
+		<_41 Name="default camera fx settings" Offset="1D0" Allowed="cfxs" Flags="0" />
+		<_36 Name="Default lighting settings" Offset="1EC" />
+		<_41 Name="default lighting settings" Offset="1EC" Allowed="LigS" Flags="0" />
+		<_41 Name="default atmosphere definition" Offset="208" Allowed="fogg" Flags="0" />
+		<_41 Name="default light group" Offset="224" Allowed="ligr" Flags="0" />
+		<_41 Name="default cheap light group" Offset="240" Allowed="ligr" Flags="0" />
+		<_36 Name="Default wind settings" Offset="25C" />
+		<_41 Name="default wind settings" Offset="25C" Allowed="wind" Flags="0" />
+		<_36 Name="Default collision damage" Offset="278" />
+		<_41 Name="collision damage effect" Offset="278" Allowed="jpt!" Flags="0" />
+		<_41 Name="collision damage" Offset="294" Allowed="cddf" Flags="0" />
+		<_41 Name="effect globals" Offset="2B0" Allowed="effg" Flags="0" />
+		<_41 Name="collision filter" Offset="2CC" Allowed="cfdf" Flags="0" />
+		<_41 Name="default item grounded friction" Offset="2E8" Allowed="grfr" Flags="0" />
+		<_41 Name="player model customization globals" Offset="304" Allowed="pmcg" Flags="0" />
+		<_41 Name="loadout globals" Offset="320" Allowed="lgtd" Flags="0" />
+		<_41 Name="game performance thortles default" Offset="33C" Allowed="gptd" Flags="0" />
+		<_41 Name="Control Globals" Offset="358" Allowed="glcn" Flags="0" />
+		<_41 Name="Player Globals" Offset="374" Allowed="glpa" Flags="32" />
+		<_41 Name="Damage Globals" Offset="390" Allowed="glda" Flags="0" />
+		<_41 Name="Material Globals" Offset="3AC" Allowed="glma" Flags="0" />
+		<_41 Name="Camera Globals" Offset="3C8" Allowed="glca" Flags="0" />
+		<_41 Name="Difficulty Globals" Offset="3E4" Allowed="gldi" Flags="0" />
+		<_41 Name="Gameplay Object Globals" Offset="400" Allowed="glgo" Flags="0" />
+		<_41 Name="Composer Globals" Offset="41C" Allowed="glcm" Flags="0" />
+		<_41 Name="Garbage Collection Globals" Offset="438" Allowed="glga" Flags="0" />
+		<_41 Name="Soft Ceiling Globals" Offset="454" Allowed="glso" Flags="0" />
+		<_41 Name="Color Globals" Offset="470" Allowed="glco" Flags="0" />
+		<_41 Name="Skull Globals" Offset="48C" Allowed="glsk" Flags="0" />
+		<_41 Name="Cheat Globals" Offset="4A8" Allowed="glch" Flags="0" />
+		<_41 Name="Interface Globals" Offset="4C4" Allowed="glin" Flags="0" />
+		<_41 Name="Skill Rank Globals" Offset="4E0" Allowed="glsa" Flags="0" />
+		<_41 Name="Campaign Globals" Offset="4FC" Allowed="cmpg" Flags="0" />
+		<_41 Name="Spartan Tracking Globals" Offset="518" Allowed="sptg" Flags="0" />
+		<_41 Name="Lua Refactor File" Offset="534" Allowed="hsc*" Flags="0" />
+		<_41 Name="Lua Preloaded Standard Scripts Definition File" Offset="550" Allowed="hsc*" Flags="0" />
+		<_41 Name="Custom Games UI Markup Scripts Definition File" Offset="56C" Allowed="hsc*" Flags="1" />
+		<_41 Name="Outline Service Globals" Offset="588" Allowed="osgd" Flags="0" />
+		<_41 Name="Highlight Service Globals" Offset="5A4" Allowed="hsgd" Flags="0" />
+		<_41 Name="audio threat globals" Offset="5C0" Allowed="attd" Flags="0" />
+		<_41 Name="Physics Globals" Offset="5DC" Allowed="phyg" Flags="0" />
+		<_41 Name="Action System Globals" Offset="5F8" Allowed="apdd" Flags="0" />
+		<_41 Name="Bot Globals" Offset="614" Allowed="botg" Flags="4" />
+		<_41 Name="DWS Globals" Offset="630" Allowed="dwsg" Flags="0" />
+		<_41 Name="Cage System Globals" Offset="64C" Allowed="cagg" Flags="0" />
+		<_41 Name="Object Node Graph Globals" Offset="668" Allowed="ongg" Flags="0" />
+		<_41 Name="Preset Definitions Globals" Offset="684" Allowed="gfpd" Flags="0" />
+		<_41 Name="Asset Category Globals" Offset="6A0" Allowed="atcg" Flags="0" />
+		<_41 Name="Global Benchmark Definition" Offset="6BC" Allowed="bnch" Flags="0" />
+		<_40 Name="Test Benchmark Definitions" Offset="6D8" GUID="5FE49E41A6D6895D179AB91D47753CAA" StructName1="s_game_globals" Min="0" Max="32" />
+		<_41 Name="Texture Group Globals" Offset="6EC" Allowed="texg" Flags="0" />
+		<_41 Name="Fixture Curve Globals" Offset="708" Allowed="curv" Flags="0" />
+		<_41 Name="Animation Globals" Offset="724" Allowed="angb" Flags="0" />
+		<_41 Name="Emblem tag" Offset="740" Allowed="embl" Flags="0" />
+		<_41 Name="Chroma Animations Defintion" Offset="75C" Allowed="chrd" Flags="0" />
+		<_41 Name="Narrative Globals" Offset="778" Allowed="narg" Flags="0" />
+		<_41 Name="Subtitle Globals" Offset="794" Allowed="glst" Flags="0" />
+		<_41 Name="Intentions Globals" Offset="7B0" Allowed="cogl" Flags="0" />
+		<_34 Name="generated_pad10ab" Offset="7CC" Length="4" />
+	</_A2CF414508DE77CBB2A866B3BB807A30>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_5FE49E41A6D6895D179AB91D47753CAA Name="i343::Benchmark::BenchmarkDefinitionBlock" Size="1C">
+		<_41 Name="Benchmark Definition" Offset="0" Allowed="bnch" Flags="0" />
+	</_5FE49E41A6D6895D179AB91D47753CAA>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

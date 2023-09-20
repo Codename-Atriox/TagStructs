@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="UICameraPresets" Parents="aTag" Index="-53">
+	<_E372452C5E03CA5DB2701157BABD4F0D Name="Interface::Customization::UICameraPresetsTag" Size="38">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Camera Presets Settings" Offset="10" GUID="3CA7420EA286A3BD13BB2A2BAAD6E021" StructName1="Interface::Customization::UICameraPresetsTag" Min="0" Max="200" />
+		<_40 Name="Camera Scene Presets Settings" Offset="24" GUID="AE41486E8CDAED5CC205BD249806D14A" StructName1="Interface::Customization::UICameraPresetsTag" Min="0" Max="9" />
+	</_E372452C5E03CA5DB2701157BABD4F0D>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_3CA7420EA286A3BD13BB2A2BAAD6E021 Name="Interface::Customization::UICameraPreset" Size="1C">
+		<_2 Name="Preset Name" Offset="0" />
+		<_B Name="Core Type" Offset="4" StructName1="Interface::Customization::CoreType">
+			<Flag n="Unknown" />
+			<Flag n="Armor" />
+			<Flag n="Ai" />
+			<Flag n="WeaponSidekick" />
+			<Flag n="WeaponAR" />
+			<Flag n="WeaponBR" />
+			<Flag n="WeaponCommando" />
+			<Flag n="WeaponSPnKr" />
+			<Flag n="WeaponSniper" />
+			<Flag n="WeaponShotgun" />
+			<Flag n="WeaponHydra" />
+			<Flag n="WeaponBandit" />
+			<Flag n="VehicleWarthog" />
+			<Flag n="VehicleMongoose" />
+			<Flag n="VehicleScorpion" />
+			<Flag n="VehicleWasp" />
+			<Flag n="VehicleRazorBack" />
+			<Flag n="VehicleGungoose" />
+			<Flag n="VehicleRockethog" />
+		</_B>
+		<_B Name="Item Type" Offset="6" StructName1="Interface::Customization::SocketItemType">
+			<Flag n="None" />
+			<Flag n="ArmorChestAttachment" />
+			<Flag n="ArmorCoating" />
+			<Flag n="ArmorGlove" />
+			<Flag n="ArmorHelmetAttachment" />
+			<Flag n="ArmorHelmet" />
+			<Flag n="ArmorKneePad" />
+			<Flag n="ArmorTheme" />
+			<Flag n="ArmorLeftShoulderPad" />
+			<Flag n="ArmorRightShoulderPad" />
+			<Flag n="ArmorHipAttachment" />
+			<Flag n="ArmorWristAttachment" />
+			<Flag n="ArmorVisor" />
+			<Flag n="ArmorEmblem" />
+			<Flag n="ArmorFx" />
+			<Flag n="ArmorMythicFx" />
+			<Flag n="ArmorCore" />
+			<Flag n="SpartanActionPose" />
+			<Flag n="SpartanStance" />
+			<Flag n="SpartanBackdropImage" />
+			<Flag n="SpartanEmblem" />
+			<Flag n="SpartanVoice" />
+			<Flag n="WeaponCharm" />
+			<Flag n="WeaponAmmoCounterColor" />
+			<Flag n="WeaponCoating" />
+			<Flag n="WeaponDeathFx" />
+			<Flag n="WeaponEmblem" />
+			<Flag n="WeaponTheme" />
+			<Flag n="WeaponStatTracker" />
+			<Flag n="WeaponCore" />
+			<Flag n="WeaponAlternateGeometryRegion" />
+			<Flag n="AiColor" />
+			<Flag n="AiModel" />
+			<Flag n="AiTheme" />
+			<Flag n="AiCore" />
+			<Flag n="VehicleAlternateGeometryRegion" />
+			<Flag n="VehicleCharm" />
+			<Flag n="VehicleCoating" />
+			<Flag n="VehicleEmblem" />
+			<Flag n="VehicleFx" />
+			<Flag n="VehicleHorn" />
+			<Flag n="VehicleTheme" />
+			<Flag n="VehicleCore" />
+			<Flag n="ArmorEmblemCoating" />
+			<Flag n="WeaponEmblemCoating" />
+			<Flag n="VehicleEmblemCoating" />
+			<Flag n="SpartanEmblemCoating" />
+			<Flag n="Consumable" />
+			<Flag n="XPGrant" />
+			<Flag n="XPBoost" />
+			<Flag n="ChallengeReroll" />
+			<Flag n="VirtualCurrency" />
+		</_B>
+		<_40 Name="Camera Settings" Offset="8" GUID="EC8183B01BC3440D1AB724ABDA7AE82D" StructName1="Interface::Customization::UICameraPreset" Min="0" Max="100" />
+	</_3CA7420EA286A3BD13BB2A2BAAD6E021>
+	<_AE41486E8CDAED5CC205BD249806D14A Name="Interface::Customization::UICameraScenePreset" Size="18">
+		<_B Name="Scene type" Offset="0" StructName1="Interface::Customization::SpartanCustomizationSceneTypes">
+			<Flag n="SpartanArmor" />
+			<Flag n="Weapons" />
+			<Flag n="Vehicle" />
+			<Flag n="Ai" />
+			<Flag n="Fireteam" />
+			<Flag n="Presentation" />
+			<Flag n="Inspect" />
+			<Flag n="InspectPlayer" />
+			<Flag n="PGCR" />
+		</_B>
+		<_34 Name="generated_pad0124" Offset="2" Length="2" />
+		<_40 Name="Camera Presets Settings" Offset="4" GUID="3CA7420EA286A3BD13BB2A2BAAD6E021" StructName1="Interface::Customization::UICameraScenePreset" Min="0" Max="200" />
+	</_AE41486E8CDAED5CC205BD249806D14A>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_EC8183B01BC3440D1AB724ABDA7AE82D Name="Interface::Customization::UICameraPresetSettings" Size="34">
+		<_B Name="Core Focus Mode" Offset="0" StructName1="Interface::Customization::CoreFocusMode">
+			<Flag n="Default" />
+			<Flag n="CoreFocused" />
+		</_B>
+		<_34 Name="generated_padbfbb" Offset="2" Length="2" />
+		<_14 Name="Camera Offset" Offset="4" />
+		<_19 Name="Camera Position Offset" Offset="8" />
+		<_1C Name="Camera Facing" Offset="14" />
+		<_F Name="DOF Flags" Offset="20" StructName1="Interface::Customization::UIDOFFlags">
+			<Flag n="Enable DOF" />
+			<Flag n="Enable DOF RTT" />
+			<Flag n="Enable DOF World" />
+		</_F>
+		<_34 Name="generated_pad7306" Offset="21" Length="3" />
+		<_14 Name="DOF Focal Length" Offset="24" />
+		<_14 Name="DOF Focal Distance" Offset="28" />
+		<_14 Name="DOF FStop" Offset="2C" />
+		<_2 Name="Composer Scene Name" Offset="30" />
+	</_EC8183B01BC3440D1AB724ABDA7AE82D>
+</root>

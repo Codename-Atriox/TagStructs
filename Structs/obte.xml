@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="TeleportEffectsDefinitionTag" Parents="aTag" Index="-285">
+	<_569F42219E96AE1EBB276798BA1CE659 Name="i343::Objects::TeleportEffectsDefinitionTag" Size="40">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="teleport effects" Offset="10" GUID="F5CF41E59BD5F2A05F4DB2BD81CD5F6B" />
+		<_34 Name="generated_pad97e7" Offset="3C" Length="4" />
+	</_569F42219E96AE1EBB276798BA1CE659>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_F5CF41E59BD5F2A05F4DB2BD81CD5F6B Name="i343::Objects::TeleportEffectsDefinition" Size="2C">
+		<_36 Name="Target Effects" Offset="0" />
+		<_40 Name="target effects" Offset="0" GUID="263149586261A25F78F03E1BAC970D2A" StructName1="i343::Objects::TeleportEffectsDefinition" Min="0" Max="8" />
+		<_2 Name="target effects marker" Offset="14" />
+		<_36 Name="Nodegraph Events" Offset="18" />
+		<_40 Name="nodegraph events" Offset="18" GUID="F7C54D32D741CECA7C8021AC97B595C2" StructName1="i343::Objects::TeleportEffectsDefinition" Min="0" Max="64" />
+	</_F5CF41E59BD5F2A05F4DB2BD81CD5F6B>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_263149586261A25F78F03E1BAC970D2A Name="i343::Objects::TeleportTargetEffects" Size="3C">
+		<_14 Name="radius" Offset="0" />
+		<_41 Name="disappear effect" Offset="4" Allowed="effe" Flags="0" />
+		<_41 Name="appear effect" Offset="20" Allowed="effe" Flags="0" />
+	</_263149586261A25F78F03E1BAC970D2A>
+	<_F7C54D32D741CECA7C8021AC97B595C2 Name="i343::Objects::TeleportNodeGraphEventDefinition" Size="10">
+		<_E Name="object types" Offset="0" StructName1="ObjectTypes">
+			<Flag n="biped" />
+			<Flag n="vehicle" />
+			<Flag n="weapon" />
+			<Flag n="equipment" />
+			<Flag n="terminal" />
+			<Flag n="projectile" />
+			<Flag n="scenery" />
+			<Flag n="machine" />
+			<Flag n="control" />
+			<Flag n="dispenser" />
+			<Flag n="crate" />
+			<Flag n="creature" />
+			<Flag n="giant" />
+			<Flag n="effect_scenery" />
+		</_E>
+		<_34 Name="generated_padaba7" Offset="2" Length="2" />
+		<_D Name="flags" Offset="4" StructName1="i343::Objects::TeleportNodeGraphEventFlags">
+			<Flag n="locally controlled" />
+		</_D>
+		<_2 Name="source object event" Offset="8" />
+		<_2 Name="destination object event" Offset="C" />
+	</_F7C54D32D741CECA7C8021AC97B595C2>
+</root>

@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="frame_event_list" Parents="aTag" Index="-165">
+	<_6CF7474065EB9164337EB6829EAEF341 Name="c_animation_frame_event_list" Size="98">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="IMPORTANT TAG NOTES" Offset="10" />
+		<_40 Name="sound references" type="slap" Offset="10" GUID="62BA4FBF44FF5AD9CACD391D8BB4DB29" StructName1="c_animation_frame_event_list" Min="0" Max="4096" />
+		<_40 Name="dialogue references" type="slap" Offset="24" GUID="153AB5047E2418A6970CB5DAA6E98612" StructName1="c_animation_frame_event_list" Min="0" Max="4096" />
+		<_40 Name="effect references" type="slap" Offset="38" GUID="DC344E87BDB82602FAE0C8C7A9919561" StructName1="c_animation_frame_event_list" Min="0" Max="4096" />
+		<_40 Name="frame events" type="slap" Offset="4C" GUID="A0014A1F2AA3BA59745D90578DEF04DD" StructName1="c_animation_frame_event_list" Min="0" Max="8192" />
+		<_41 Name="Audio Frame Events Tag" Offset="60" Allowed="fela" Flags="0" />
+		<_41 Name="Effect Frame Events Tag" Offset="7C" Allowed="fele" Flags="0" />
+	</_6CF7474065EB9164337EB6829EAEF341>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_62BA4FBF44FF5AD9CACD391D8BB4DB29 Name="SoundEventReferenceSet" Size="18">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="sounds" Offset="4" GUID="0ED046283B0B92F2A8A93A27A1DBB76E" StructName1="SoundEventReferenceSet" Min="0" Max="256" />
+	</_62BA4FBF44FF5AD9CACD391D8BB4DB29>
+	<_153AB5047E2418A6970CB5DAA6E98612 Name="AnimationGraphDialogueReference" Size="8">
+		<_2 Name="vocalization name" Offset="0" />
+		<_A Name="play restriction" Offset="4" StructName1="eDialoguePlayRestriction">
+			<Flag n="Unrestricted" />
+			<Flag n="Only With Shield" />
+			<Flag n="Only With Shield Empty" />
+		</_A>
+		<_34 Name="generated_padf213" Offset="5" Length="3" />
+	</_153AB5047E2418A6970CB5DAA6E98612>
+	<_DC344E87BDB82602FAE0C8C7A9919561 Name="EffectEventReferenceSet" Size="18">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="effects" Offset="4" GUID="CA1C43884D6A825DD3DDF65DB4C05693" StructName1="EffectEventReferenceSet" Min="0" Max="256" />
+	</_DC344E87BDB82602FAE0C8C7A9919561>
+	<_A0014A1F2AA3BA59745D90578DEF04DD Name="s_import_animation_event" Size="58">
+		<_2 Name="animation name" Offset="0" />
+		<_6 Name="animation frame count" Offset="4" />
+		<_40 Name="animation events" Offset="8" GUID="FFC7421BAB6DDD39CBA52259BCB9FA2C" StructName1="s_import_animation_event" Min="0" Max="512" />
+		<_40 Name="sound events" Offset="1C" GUID="ED064EBAA93991CBB23DDA26911B680B" StructName1="s_import_animation_event" Min="0" Max="512" />
+		<_40 Name="effect events" Offset="30" GUID="73CF40558ED7D41D9C9C10B5A152950D" StructName1="s_import_animation_event" Min="0" Max="512" />
+		<_40 Name="dialogue events" Offset="44" GUID="29134CBC649B1755624F5E32BCF06814" StructName1="s_import_animation_event" Min="0" Max="512" />
+	</_A0014A1F2AA3BA59745D90578DEF04DD>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_0ED046283B0B92F2A8A93A27A1DBB76E Name="SoundEventReference" Size="60">
+		<_41 Name="sound" Offset="0" Allowed="snd!" Flags="0" />
+		<_E Name="flags" Offset="1C" StructName1="c_animation_key_event_flags">
+			<Flag n="allow on player" />
+			<Flag n="left arm only" />
+			<Flag n="right arm only" />
+			<Flag n="first-person only" />
+			<Flag n="third-person only" />
+			<Flag n="forward only" />
+			<Flag n="reverse only" />
+			<Flag n="fp no aged weapons" />
+		</_E>
+		<_34 Name="generated_padeb82" Offset="1E" Length="2" />
+		<_41 Name="model" Offset="20" Allowed="hlmt" Flags="1" />
+		<_2 Name="model variant" Offset="3C" />
+		<_41 Name="weapon" Offset="40" Allowed="weap" Flags="1" />
+		<_2 Name="weapon variant" Offset="5C" />
+	</_0ED046283B0B92F2A8A93A27A1DBB76E>
+	<_CA1C43884D6A825DD3DDF65DB4C05693 Name="EffectEventReference" Size="60">
+		<_41 Name="effect" Offset="0" Allowed="effe" Flags="0" />
+		<_E Name="flags" Offset="1C" StructName1="c_animation_key_event_flags">
+			<Flag n="allow on player" />
+			<Flag n="left arm only" />
+			<Flag n="right arm only" />
+			<Flag n="first-person only" />
+			<Flag n="third-person only" />
+			<Flag n="forward only" />
+			<Flag n="reverse only" />
+			<Flag n="fp no aged weapons" />
+		</_E>
+		<_34 Name="generated_pad9456" Offset="1E" Length="2" />
+		<_41 Name="model" Offset="20" Allowed="hlmt" Flags="1" />
+		<_2 Name="model variant" Offset="3C" />
+		<_41 Name="weapon" Offset="40" Allowed="weap" Flags="1" />
+		<_2 Name="weapon variant" Offset="5C" />
+	</_CA1C43884D6A825DD3DDF65DB4C05693>
+	<_FFC7421BAB6DDD39CBA52259BCB9FA2C Name="s_import_frame_event" Size="14">
+		<_2 Name="event name" Offset="0" />
+		<_2 Name="animation name" Offset="4" />
+		<_5 Name="frame" Offset="8" />
+		<_5 Name="frame offset" Offset="A" />
+		<_B Name="type" Offset="C" StructName1="AnimationFrameEventType">
+			<Flag n="none" />
+			<Flag n="primary_keyframe" />
+			<Flag n="secondary_keyframe" />
+			<Flag n="tertiary_keyframe" />
+			<Flag n="left_foot" />
+			<Flag n="right_foot" />
+			<Flag n="allow_interruption" />
+			<Flag n="do_not_allow_interruption" />
+			<Flag n="both_feet_shuffle" />
+			<Flag n="body_impact" />
+			<Flag n="left_foot_lock" />
+			<Flag n="left_foot_unlock" />
+			<Flag n="right_foot_lock" />
+			<Flag n="right_foot_unlock" />
+			<Flag n="blend_range_marker" />
+			<Flag n="stride_expansion" />
+			<Flag n="stride_contraction" />
+			<Flag n="ragdoll_keyframe" />
+			<Flag n="drop_weapon_keyframe" />
+			<Flag n="match_a" />
+			<Flag n="match_b" />
+			<Flag n="match_c" />
+			<Flag n="match_d" />
+			<Flag n="jetpack_closed" />
+			<Flag n="jetpack_open" />
+			<Flag n="sound_event" />
+			<Flag n="effect_event" />
+			<Flag n="left_hand" />
+			<Flag n="right_hand" />
+			<Flag n="grenade" />
+			<Flag n="melee" />
+			<Flag n="interact_device" />
+			<Flag n="shield_raise" />
+			<Flag n="activate_equipment" />
+			<Flag n="aoe_attack" />
+			<Flag n="equipment" />
+			<Flag n="jink_fire" />
+			<Flag n="align_to_target" />
+			<Flag n="block_exiting" />
+			<Flag n="set_interruptable" />
+			<Flag n="disable_shooting" />
+			<Flag n="re_enable_shooting" />
+			<Flag n="skip_crouch_transition" />
+			<Flag n="start_bamf" />
+			<Flag n="end_bamf" />
+			<Flag n="hide" />
+			<Flag n="frame_attachment_objects_show" />
+			<Flag n="frame_attachment_objects_hide" />
+			<Flag n="creature_physics_mode_change" />
+			<Flag n="melee_range" />
+			<Flag n="frame_attachment_switch_to_secondary_parent_marker" />
+			<Flag n="frame_attachment_switch_to_default_parent_marker" />
+			<Flag n="allow_sprint_interrupt" />
+			<Flag n="hide_3p_primary_weapon" />
+			<Flag n="show_3p_primary_weapon" />
+		</_B>
+		<_34 Name="generated_pade518" Offset="E" Length="2" />
+		<_6 Name="unique ID" Offset="10" />
+	</_FFC7421BAB6DDD39CBA52259BCB9FA2C>
+	<_ED064EBAA93991CBB23DDA26911B680B Name="s_sound_event_extended_deprecated" Size="C">
+		<_2E Name="frame event" Offset="0" GUID="FFC7421BAB6DDD39CBA52259BCB9FA2C" StructName1="s_sound_event_extended_deprecated" Min="0" Max="512" />
+		<_2E Name="sound" Offset="2" GUID="62BA4FBF44FF5AD9CACD391D8BB4DB29" StructName1="s_sound_event_extended_deprecated" Min="0" Max="4096" />
+		<_5 Name="frame offset" Offset="4" />
+		<_34 Name="generated_pad72c6" Offset="6" Length="2" />
+		<_37 Name="" type="amkr" Offset="8" />
+		<_2 Name="marker name" Offset="8" />
+	</_ED064EBAA93991CBB23DDA26911B680B>
+	<_73CF40558ED7D41D9C9C10B5A152950D Name="s_effect_event_extended_deprecated" Size="C">
+		<_2E Name="frame event" Offset="0" GUID="FFC7421BAB6DDD39CBA52259BCB9FA2C" StructName1="s_effect_event_extended_deprecated" Min="0" Max="512" />
+		<_2E Name="effect" Offset="2" GUID="DC344E87BDB82602FAE0C8C7A9919561" StructName1="s_effect_event_extended_deprecated" Min="0" Max="4096" />
+		<_5 Name="frame offset" Offset="4" />
+		<_34 Name="generated_pad3d06" Offset="6" Length="2" />
+		<_37 Name="" type="amkr" Offset="8" />
+		<_2 Name="marker name" Offset="8" />
+	</_73CF40558ED7D41D9C9C10B5A152950D>
+	<_29134CBC649B1755624F5E32BCF06814 Name="s_dialogue_event_extended_deprecated" Size="6">
+		<_2E Name="frame event" Offset="0" GUID="FFC7421BAB6DDD39CBA52259BCB9FA2C" StructName1="s_dialogue_event_extended_deprecated" Min="0" Max="512" />
+		<_2E Name="dialogue reference" Offset="2" GUID="153AB5047E2418A6970CB5DAA6E98612" StructName1="s_dialogue_event_extended_deprecated" Min="0" Max="4096" />
+		<_5 Name="frame offset" Offset="4" />
+	</_29134CBC649B1755624F5E32BCF06814>
+</root>

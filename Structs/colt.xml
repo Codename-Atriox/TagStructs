@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="custom_object_lighting" Parents="aTag" Index="-77">
+	<_57AE78E0F1140F4AC1B9C40291851F36 Name="CustomObjectLightingTag" Size="28">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="Probe" Offset="10" GUID="71CD349453C7719127414A7DD50E7289" />
+	</_57AE78E0F1140F4AC1B9C40291851F36>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_71CD349453C7719127414A7DD50E7289 Name="CustomObjectLighting" Size="18">
+		<_36 Name="Character Lighting" Offset="0" />
+		<_40 Name="Authored Light Probes" Offset="0" GUID="5A0DE5691202400EF0D5DF9AE696EA15" StructName1="CustomObjectLighting" Min="0" Max="4" />
+		<_A Name="Is Camera-space" Offset="14" StructName1="LightBoolean">
+			<Flag n="Off" />
+			<Flag n="On" />
+		</_A>
+		<_34 Name="generated_pad79fe" Offset="15" Length="3" />
+	</_71CD349453C7719127414A7DD50E7289>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_5A0DE5691202400EF0D5DF9AE696EA15 Name="AuthoredLightProbe" Size="10C">
+		<_40 Name="Lights" Offset="0" GUID="E1B9C6ADC2EA80AD79A6A3FF667ED3BE" StructName1="AuthoredLightProbe" Min="0" Max="1" />
+		<_37 Name="Generated Air Probe Intensity Scale" type="sled" Offset="14" Float1="0" Max="1" Min="0.01" Float4="0" />
+		<_14 Name="Generated Air Probe Intensity Scale" type="sled" Offset="14" />
+		<_39 Name="raw sh data" Offset="18" GUID="E49BA421E8F859140B6D71111216AB74" Count="27" StructName1="raw sh data" />
+		<_39 Name="per frame sh data" Offset="84" GUID="E49BA421E8F859140B6D71111216AB74" Count="27" StructName1="per frame sh data" />
+		<_17 Name="Sun Color" Offset="F0" />
+		<_17 Name="Cubemap Scale" Offset="FC" />
+		<_36 Name="" Offset="108" />
+		<_E Name="Flags" Offset="108" StructName1="AuthoredLightProbeFlags">
+			<Flag n="Characters" />
+			<Flag n="First Person Geometry" />
+			<Flag n="Vehicles" />
+		</_E>
+		<_34 Name="generated_padb28a" Offset="10A" Length="2" />
+	</_5A0DE5691202400EF0D5DF9AE696EA15>
+	<_E1B9C6ADC2EA80AD79A6A3FF667ED3BE Name="AuthoredLightProbeLights" Size="68">
+		<_37 Name="Authored Light Probe" type="aulp" Offset="0" />
+		<_37 Name="Direction 1" type="sled" Offset="0" Float1="0" Max="360" Min="1" Float4="0" />
+		<_14 Name="Direction 1" type="sled" Offset="0" />
+		<_37 Name="Front-Back 1" type="sled" Offset="4" Float1="0" Max="180" Min="1" Float4="0" />
+		<_14 Name="Front-Back 1" type="sled" Offset="4" />
+		<_1F Name="Direct color 1" Offset="8" />
+		<_37 Name="Direct intensity 1" type="sled" Offset="14" Float1="0" Max="1" Min="0.01" Float4="0" />
+		<_14 Name="Direct intensity 1" type="sled" Offset="14" />
+		<_37 Name="Direction 2" type="sled" Offset="18" Float1="0" Max="360" Min="1" Float4="0" />
+		<_14 Name="Direction 2" type="sled" Offset="18" />
+		<_37 Name="Front-Back 2" type="sled" Offset="1C" Float1="0" Max="180" Min="1" Float4="0" />
+		<_14 Name="Front-Back 2" type="sled" Offset="1C" />
+		<_1F Name="Direct color 2" Offset="20" />
+		<_37 Name="Direct intensity 2" type="sled" Offset="2C" Float1="0" Max="1" Min="0.01" Float4="0" />
+		<_14 Name="Direct intensity 2" type="sled" Offset="2C" />
+		<_1F Name="Ambient Color" Offset="30" />
+		<_37 Name="Ambient intensity" type="sled" Offset="3C" Float1="0" Max="1" Min="0.01" Float4="0" />
+		<_14 Name="Ambient intensity" type="sled" Offset="3C" />
+		<_1F Name="Sun Color" Offset="40" />
+		<_37 Name="Sun intensity" type="sled" Offset="4C" Float1="0" Max="1" Min="0.01" Float4="0" />
+		<_14 Name="Sun intensity" type="sled" Offset="4C" />
+		<_1F Name="Cubemap Scale Color" Offset="50" />
+		<_37 Name="Cubemap Scale intensity" type="sled" Offset="5C" Float1="0" Max="1" Min="0.01" Float4="0" />
+		<_14 Name="Cubemap Scale intensity" type="sled" Offset="5C" />
+		<_37 Name="Authored Light Probe Intensity Scale" type="sled" Offset="60" Float1="0" Max="10" Min="0.2" Float4="0" />
+		<_14 Name="Authored Light Probe Intensity Scale" type="sled" Offset="60" />
+		<_37 Name="Generated Air Probe Intensity Scale" type="sled" Offset="64" Float1="0" Max="10" Min="0.2" Float4="0" />
+		<_14 Name="Generated Air Probe Intensity Scale" type="sled" Offset="64" />
+	</_E1B9C6ADC2EA80AD79A6A3FF667ED3BE>
+	<_E49BA421E8F859140B6D71111216AB74 Name="RGBLightprobe" Size="4">
+		<_14 Name="sh data" Offset="0" />
+	</_E49BA421E8F859140B6D71111216AB74>
+</root>

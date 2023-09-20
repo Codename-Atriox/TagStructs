@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="frame_event_list_effect" Parents="aTag" Index="-143">
+	<_912A4AEF6EF46C1471BEADACADF574DA Name="c_animation_frame_event_list_effect" Size="38">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="effect references" Offset="10" GUID="DC344E87BDB82602FAE0C8C7A9919561" StructName1="c_animation_frame_event_list_effect" Min="0" Max="4096" />
+		<_40 Name="frame event containers" Offset="24" GUID="1DC64D7A0E8118566D3D780993724135" StructName1="c_animation_frame_event_list_effect" Min="0" Max="8192" />
+	</_912A4AEF6EF46C1471BEADACADF574DA>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_DC344E87BDB82602FAE0C8C7A9919561 Name="EffectEventReferenceSet" Size="18">
+		<_2 Name="name" Offset="0" />
+		<_40 Name="effects" Offset="4" GUID="CA1C43884D6A825DD3DDF65DB4C05693" StructName1="EffectEventReferenceSet" Min="0" Max="256" />
+	</_DC344E87BDB82602FAE0C8C7A9919561>
+	<_1DC64D7A0E8118566D3D780993724135 Name="EffectFrameEventContainer" Size="18">
+		<_2 Name="animation name" Offset="0" />
+		<_40 Name="effect events" Offset="4" GUID="F00149CF0FB1471E39EDC9EF959B46E5" StructName1="EffectFrameEventContainer" Min="0" Max="512" />
+	</_1DC64D7A0E8118566D3D780993724135>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_CA1C43884D6A825DD3DDF65DB4C05693 Name="EffectEventReference" Size="60">
+		<_41 Name="effect" Offset="0" Allowed="effe" Flags="0" />
+		<_E Name="flags" Offset="1C" StructName1="c_animation_key_event_flags">
+			<Flag n="allow on player" />
+			<Flag n="left arm only" />
+			<Flag n="right arm only" />
+			<Flag n="first-person only" />
+			<Flag n="third-person only" />
+			<Flag n="forward only" />
+			<Flag n="reverse only" />
+			<Flag n="fp no aged weapons" />
+		</_E>
+		<_34 Name="generated_pad9456" Offset="1E" Length="2" />
+		<_41 Name="model" Offset="20" Allowed="hlmt" Flags="1" />
+		<_2 Name="model variant" Offset="3C" />
+		<_41 Name="weapon" Offset="40" Allowed="weap" Flags="1" />
+		<_2 Name="weapon variant" Offset="5C" />
+	</_CA1C43884D6A825DD3DDF65DB4C05693>
+	<_F00149CF0FB1471E39EDC9EF959B46E5 Name="EffectFrameEventDescriptor" Size="C">
+		<_2 Name="linked frame event id" Offset="0" />
+		<_2E Name="effect" Offset="4" GUID="DC344E87BDB82602FAE0C8C7A9919561" StructName1="EffectFrameEventDescriptor" Min="0" Max="4096" />
+		<_5 Name="frame offset" Offset="6" />
+		<_37 Name="" type="amkr" Offset="8" />
+		<_2 Name="marker name" Offset="8" />
+	</_F00149CF0FB1471E39EDC9EF959B46E5>
+</root>

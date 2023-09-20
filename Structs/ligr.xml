@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:11 PM" Name="LightGroup" Parents="aTag" Index="-235">
+	<_CE42D89053AF7842529DD912AE7898EE Name="LightGroupTag" Size="120">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_36 Name="Fadeoff distance multiplier" Offset="10" />
+		<_38 Name="fadeoff_distance_multiplier" Offset="10" GUID="25198A15BB42A34BBE6A754651133212" />
+		<_36 Name="Near Fadeoff distance multiplier" Offset="3C" />
+		<_38 Name="near_fadeoff_distance_multiplier" Offset="3C" GUID="25198A15BB42A34BBE6A754651133212" />
+		<_36 Name="Static Object Shadow Fade" Offset="68" />
+		<_38 Name="static_object_shadow_fade" Offset="68" GUID="25198A15BB42A34BBE6A754651133212" />
+		<_36 Name="Dynamic Object Shadow Fade" Offset="94" />
+		<_38 Name="dynamic_object_shadow_fade" Offset="94" GUID="25198A15BB42A34BBE6A754651133212" />
+		<_36 Name="Cast Shadows" Offset="C0" />
+		<_38 Name="cast_shadows" Offset="C0" GUID="48EA513A1435B56A52EA4518534489BB" />
+		<_36 Name="Dynamic Object Shadow Casting" Offset="C2" />
+		<_38 Name="dynamic_object_shadow_casting" Offset="C2" GUID="48EA513A1435B56A52EA4518534489BB" />
+		<_36 Name="Static Shadow Resolution Multiplier" Offset="C4" />
+		<_38 Name="static_shadow_resolution_multiplier" Offset="C4" GUID="42A51C651EBA162A521651FA165ADBAC" />
+		<_36 Name="Dynamic Shadow Resolution Multiplier" Offset="E0" />
+		<_38 Name="dynamic_shadow_resolution_multiplier" Offset="E0" GUID="42A51C651EBA162A521651FA165ADBAC" />
+		<_36 Name="Shadow Filter Width Multiplier" Offset="FC" />
+		<_38 Name="shadow_filter_width_multiplier" Offset="FC" GUID="42A51C651EBA162A521651FA165ADBAC" />
+		<_36 Name="Cast Contact Shadows" Offset="118" />
+		<_38 Name="cast_contact_shadows" Offset="118" GUID="48EA513A1435B56A52EA4518534489BB" />
+		<_34 Name="generated_pad133b" Offset="11A" Length="6" />
+	</_CE42D89053AF7842529DD912AE7898EE>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_25198A15BB42A34BBE6A754651133212 Name="s_throttle_spec_control_setting_float" Size="2C">
+		<_25 Name="Low" Offset="0" />
+		<_25 Name="Medium" Offset="8" />
+		<_25 Name="High" Offset="10" />
+		<_25 Name="Ultra" Offset="18" />
+		<_14 Name="2 Player Splitscreen" Offset="20" />
+		<_14 Name="3 Player Splitscreen" Offset="24" />
+		<_14 Name="4 Player Splitscreen" Offset="28" />
+	</_25198A15BB42A34BBE6A754651133212>
+	<_48EA513A1435B56A52EA4518534489BB Name="s_basic_spec_control_setting_bool" Size="2">
+		<_E Name="Flags" Offset="0" StructName1="s_basic_spec_control_setting_bool::SpecControlBoolFlags">
+			<Flag n="low" />
+			<Flag n="medium" />
+			<Flag n="high" />
+			<Flag n="ultra" />
+		</_E>
+	</_48EA513A1435B56A52EA4518534489BB>
+	<_42A51C651EBA162A521651FA165ADBAC Name="s_basic_spec_control_setting_float" Size="1C">
+		<_14 Name="Low" Offset="0" />
+		<_14 Name="Medium" Offset="4" />
+		<_14 Name="High" Offset="8" />
+		<_14 Name="Ultra" Offset="C" />
+		<_14 Name="2 Player Splitscreen" Offset="10" />
+		<_14 Name="3 Player Splitscreen" Offset="14" />
+		<_14 Name="4 Player Splitscreen" Offset="18" />
+	</_42A51C651EBA162A521651FA165ADBAC>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+</root>

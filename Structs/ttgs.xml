@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="test_sparse" Parents="ttag,aTag" Index="-439">
+	<_573C4D1B3E214C320E37B49998F50FA0 Name="test_tag_definition_sparse" Size="A9D">
+		<_38 Name="test_tag" Offset="0" GUID="40F6DE042802FC453AD324883B356693" />
+		<_41 Name="parent" type="parr" Offset="A7D" Allowed="ttag" Flags="9" />
+		<_34 Name="generated_padf488" Offset="A99" Length="4" />
+	</_573C4D1B3E214C320E37B49998F50FA0>
+	<_40F6DE042802FC453AD324883B356693 Name="test_tag_definition" Size="A7D">
+		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_0 Name="string" Offset="10" />
+		<_1 Name="long string" Offset="30" />
+		<_2 Name="hashstring global namespace" Offset="130" />
+		<_2 Name="hashstring test namespace" Offset="134" />
+		<_2 Name="hashstring multi namespace" Offset="138" />
+		<_4 Name="char" Offset="13C" />
+		<_34 Name="generated_pad5a87" Offset="13D" Length="1" />
+		<_5 Name="short" Offset="13E" />
+		<_7 Name="int64" Offset="140" />
+		<_6 Name="long" Offset="148" />
+		<_3C Name="byte" Offset="14C" />
+		<_34 Name="generated_pad0dd2" Offset="14D" Length="1" />
+		<_3D Name="word" Offset="14E" />
+		<_3E Name="dword" Offset="150" />
+		<_34 Name="generated_padc11d" Offset="154" Length="4" />
+		<_3F Name="qword" Offset="158" />
+		<_8 Name="angle" Offset="160" />
+		<_9 Name="tag" Offset="164" />
+		<_A Name="char enum" Offset="168" StructName1="c_char_enum">
+			<Flag n="CharEnumOne" />
+			<Flag n="CharEnumTwo" />
+			<Flag n="CharEnumThree" />
+		</_A>
+		<_34 Name="generated_padda10" Offset="169" Length="1" />
+		<_B Name="short enum" Offset="16A" StructName1="c_short_enum">
+			<Flag n="ShortEnumOne" />
+			<Flag n="ShortEnumTwo" />
+			<Flag n="ShortEnumThree" />
+		</_B>
+		<_C Name="long enum" Offset="16C" StructName1="c_long_enum">
+			<Flag n="LongEnumOne" />
+			<Flag n="LongEnumTwo" />
+			<Flag n="LongEnumThree" />
+		</_C>
+		<_F Name="byte flags" Offset="170" StructName1="c_byte_flags">
+			<Flag n="first byte flag" />
+			<Flag n="second byte flag" />
+			<Flag n="third byte flag" />
+		</_F>
+		<_34 Name="generated_pad8d5b" Offset="171" Length="1" />
+		<_E Name="word flags" Offset="172" StructName1="c_word_flags">
+			<Flag n="first word flag" />
+			<Flag n="second word flag" />
+			<Flag n="third word flag" />
+		</_E>
+		<_D Name="long flags" Offset="174" StructName1="c_long_flags">
+			<Flag n="first long flag" />
+			<Flag n="second long flag" />
+			<Flag n="third long flag" />
+		</_D>
+		<_10 Name="short point 2d" Offset="178" />
+		<_11 Name="short rectangle 2d" Offset="17C" />
+		<_12 Name="rgb pixel 32" Offset="180" />
+		<_13 Name="argb pixel 32" Offset="184" />
+		<_14 Name="real" Offset="188" />
+		<_15 Name="fraction" Offset="18C" />
+		<_16 Name="real point 2d" Offset="190" />
+		<_17 Name="real point 3d" Offset="198" />
+		<_18 Name="real vector 2d" Offset="1A4" />
+		<_19 Name="real vector 3d" Offset="1AC" />
+		<_1A Name="real quaternion" Offset="1B8" />
+		<_1B Name="real euler angles 2d" Offset="1C8" />
+		<_1C Name="real euler angles 3d" Offset="1D0" />
+		<_1D Name="plane 2d" Offset="1DC" />
+		<_1E Name="plane 3d" Offset="1E8" />
+		<_1F Name="real rgb color" Offset="1F8" />
+		<_20 Name="real argb color" Offset="204" />
+		<_23 Name="short bounds" Offset="214" />
+		<_24 Name="angle bounds" Offset="218" />
+		<_25 Name="real bounds" Offset="220" />
+		<_26 Name="fraction bounds" Offset="228" />
+		<_41 Name="tag reference" Offset="230" Allowed="ttag" Flags="0" />
+		<_40 Name="basic block" Offset="24C" GUID="41B353150A4BF989F7782BCCE0A0C6AD" StructName1="test_tag_definition" Min="0" Max="8" />
+		<_2B Name="byte block flags" Offset="260" GUID="41B353150A4BF989F7782BCCE0A0C6AD" StructName1="test_tag_definition" Min="0" Max="8" />
+		<_34 Name="generated_pad40a6" Offset="264" Length="1" />
+		<_2A Name="word block flags" Offset="265" GUID="41B353150A4BF989F7782BCCE0A0C6AD" StructName1="test_tag_definition" Min="0" Max="8" />
+		<_29 Name="dword block flags" Offset="269" GUID="41B353150A4BF989F7782BCCE0A0C6AD" StructName1="test_tag_definition" Min="0" Max="8" />
+		<_2C Name="char block index" Offset="26D" GUID="41B353150A4BF989F7782BCCE0A0C6AD" StructName1="test_tag_definition" Min="0" Max="8" />
+		<_34 Name="generated_padf3f1" Offset="26E" Length="1" />
+		<_2E Name="short block index" Offset="26F" GUID="41B353150A4BF989F7782BCCE0A0C6AD" StructName1="test_tag_definition" Min="0" Max="8" />
+		<_30 Name="long block index" Offset="271" GUID="41B353150A4BF989F7782BCCE0A0C6AD" StructName1="test_tag_definition" Min="0" Max="8" />
+		<_2D Name="char block index custom" Offset="275" />
+		<_34 Name="generated_pad4194" Offset="276" Length="1" />
+		<_2F Name="short block index custom" Offset="277" />
+		<_31 Name="long block index custom" Offset="279" />
+		<_42 Name="data" Offset="27D" StructName1="test_tag_definition.data" Int1="0" Int2="0" Flags="100000" />
+		<_44 Name="data path" Offset="295" />
+		<_36 Name="explanation" Offset="299" />
+		<_38 Name="basic struct" Offset="299" GUID="4E3038C0C39FB862B32EACECDE98B4B6" />
+		<_39 Name="basic array" Offset="29D" GUID="471294D0C3B6EE9C9DEBA0C54F6559BF" Count="8" StructName1="basic array" />
+		<_40 Name="block with struct" Offset="2BD" GUID="48A9473BE4454F73131360BC9B652EBE" StructName1="test_tag_definition" Min="0" Max="8" />
+		<_40 Name="complex block" Offset="2D1" GUID="4CC44EC54E888658BDC0A3BD304D60A1" StructName1="test_tag_definition" Min="0" Max="1024" />
+		<_38 Name="complex struct" Offset="2E5" GUID="4EDAB9E335CE4F80A97B3A43DDC8D987" />
+		<_39 Name="complex array" Offset="31D" GUID="4AAF092FB1B5F199672D9748B4F4BE86" Count="8" StructName1="complex array" />
+		<_38 Name="motherload struct" Offset="69D" GUID="4191D6CBED2C2B01FF596FF1F6803BBA" />
+		<_40 Name="taggraph structs" Offset="A69" GUID="1EFD491BCC3278A6B62762A59BA68BBA" StructName1="test_tag_definition" Min="0" Max="8" />
+	</_40F6DE042802FC453AD324883B356693>
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
+	<_41B353150A4BF989F7782BCCE0A0C6AD Name="BasicBlockUseOnce" Size="100">
+		<_1 Name="name" Offset="0" />
+	</_41B353150A4BF989F7782BCCE0A0C6AD>
+	<_4E3038C0C39FB862B32EACECDE98B4B6 Name="s_basic_struct" Size="4">
+		<_6 Name="long in struct" Offset="0" />
+	</_4E3038C0C39FB862B32EACECDE98B4B6>
+	<_471294D0C3B6EE9C9DEBA0C54F6559BF Name="BasicArray" Size="4">
+		<_6 Name="long in array" Offset="0" />
+	</_471294D0C3B6EE9C9DEBA0C54F6559BF>
+	<_48A9473BE4454F73131360BC9B652EBE Name="s_block_with_struct" Size="4">
+		<_38 Name="struct in block" Offset="0" GUID="4E3038C0C39FB862B32EACECDE98B4B6" />
+	</_48A9473BE4454F73131360BC9B652EBE>
+	<_4CC44EC54E888658BDC0A3BD304D60A1 Name="s_complex_block" Size="28">
+		<_40 Name="foo" Offset="0" GUID="48150530A197FB9A3263AC67F9B18CA0" StructName1="s_complex_block" Min="0" Max="8" />
+		<_40 Name="bar" Offset="14" GUID="4227FCB740AA5814CFDE69E52F50358C" StructName1="s_complex_block" Min="0" Max="8" />
+	</_4CC44EC54E888658BDC0A3BD304D60A1>
+	<_4EDAB9E335CE4F80A97B3A43DDC8D987 Name="s_complex_struct" Size="38">
+		<_40 Name="basic block" Offset="0" GUID="48150530A197FB9A3263AC67F9B18CA0" StructName1="s_complex_struct" Min="0" Max="8" />
+		<_20 Name="color" Offset="14" />
+		<_40 Name="complex block" Offset="24" GUID="4CC44EC54E888658BDC0A3BD304D60A1" StructName1="s_complex_struct" Min="0" Max="1024" />
+	</_4EDAB9E335CE4F80A97B3A43DDC8D987>
+	<_4AAF092FB1B5F199672D9748B4F4BE86 Name="s_complex_array_element" Size="70">
+		<_0 Name="string in array" Offset="0" />
+		<_40 Name="basic block in array" Offset="20" GUID="48150530A197FB9A3263AC67F9B18CA0" StructName1="s_complex_array_element" Min="0" Max="8" />
+		<_10 Name="point 2d in array" Offset="34" />
+		<_38 Name="complex struct in array" Offset="38" GUID="4EDAB9E335CE4F80A97B3A43DDC8D987" />
+	</_4AAF092FB1B5F199672D9748B4F4BE86>
+	<_4191D6CBED2C2B01FF596FF1F6803BBA Name="s_motherload_struct" Size="3CC">
+		<_38 Name="struct" Offset="0" GUID="4EDAB9E335CE4F80A97B3A43DDC8D987" />
+		<_39 Name="array" Offset="38" GUID="4AAF092FB1B5F199672D9748B4F4BE86" Count="8" StructName1="array" />
+		<_40 Name="block" Offset="3B8" GUID="4CC44EC54E888658BDC0A3BD304D60A1" StructName1="s_motherload_struct" Min="0" Max="1024" />
+	</_4191D6CBED2C2B01FF596FF1F6803BBA>
+	<_1EFD491BCC3278A6B62762A59BA68BBA Name="s_struct_with_taggraph_attributes" Size="C">
+		<_14 Name="aFloat" Offset="0" />
+		<_14 Name="aDifferentlyNamedFloat" Offset="4" />
+		<_38 Name="anEmbeddedStruct" Offset="8" GUID="A69940BA66E6E114BEF535F5819A7AE6" />
+	</_1EFD491BCC3278A6B62762A59BA68BBA>
+	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
+	</_181F479C151D014633BC439086EC7039>
+	<_48150530A197FB9A3263AC67F9B18CA0 Name="s_basic_block" Size="100">
+		<_1 Name="name" Offset="0" />
+	</_48150530A197FB9A3263AC67F9B18CA0>
+	<_4227FCB740AA5814CFDE69E52F50358C Name="s_complex_sub_block" Size="30">
+		<_41 Name="reference" Offset="0" Allowed="ttag" Flags="0" />
+		<_40 Name="raz" Offset="1C" GUID="48150530A197FB9A3263AC67F9B18CA0" StructName1="s_complex_sub_block" Min="0" Max="8" />
+	</_4227FCB740AA5814CFDE69E52F50358C>
+	<_A69940BA66E6E114BEF535F5819A7AE6 Name="s_simple_embedded_taggraph_struct" Size="4">
+		<_14 Name="sensibleFloatName" Offset="0" />
+	</_A69940BA66E6E114BEF535F5819A7AE6>
+</root>
