@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="BotGlobalsTag" Parents="aTag" Index="-45">
-	<_2BA29914A3EBB8D82E6CCC29816C2719 Name="BotGlobals" Size="60">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="BotGlobalsTag" Parents="aTag" Index="-45">
+	<_2BA29914A3EBB8D82E6CCC29816C2719 Name="BotGlobals" Alt="7F2EC9506C48C968" Size="60">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="Bot Backfill" Offset="10" GUID="22C95E80A0E0D79F1F1B18A853E1EBD3" />
 		<_40 Name="Difficulty Specific Tuning" Offset="20" GUID="32EA6D23D5EFDCE91D6ABC10815A1621" StructName1="BotGlobals" Min="0" Max="10" />
@@ -8,11 +8,11 @@
 		<_40 Name="Adaptive Difficulty Tuning" Offset="48" GUID="63DD4DDB53EAC5784F61410386D51C43" StructName1="BotGlobals" Min="0" Max="1" />
 		<_34 Name="generated_pad7603" Offset="5C" Length="4" />
 	</_2BA29914A3EBB8D82E6CCC29816C2719>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_22C95E80A0E0D79F1F1B18A853E1EBD3 Name="BotBackfillTuningDefinition" Size="10">
+	<_22C95E80A0E0D79F1F1B18A853E1EBD3 Name="BotBackfillTuningDefinition" Alt="AABD6A19EEF54A6E" Size="10">
 		<_37 Name="Bot Backfill" type="fgrb" Offset="0" />
 		<_14 Name="MMR threshold for Recruit" Offset="0" />
 		<_14 Name="MMR threshold for Marine" Offset="4" />
@@ -20,7 +20,7 @@
 		<_14 Name="MMR threshold for Spartan" Offset="C" />
 		<_37 Name="" type="fgre" Offset="10" />
 	</_22C95E80A0E0D79F1F1B18A853E1EBD3>
-	<_32EA6D23D5EFDCE91D6ABC10815A1621 Name="BotDifficultyLevelTuningDefinition" Size="258">
+	<_32EA6D23D5EFDCE91D6ABC10815A1621 Name="BotDifficultyLevelTuningDefinition" Alt="B5A2A838FD1432E4" Size="258">
 		<_B Name="Difficulty Level" Offset="0" StructName1="i343::Bots::BotDifficultyLevel">
 			<Flag n="Unused 1" />
 			<Flag n="Unused 2" />
@@ -58,10 +58,10 @@
 		<_38 Name="Vehicle Tuning" Offset="22C" GUID="9132708DABC2078D85A75A1F2A27AD4C" />
 		<_40 Name="Weapon Tuning" Offset="244" GUID="EA1D4A8F006CB1EA3115A169B3212A10" StructName1="BotDifficultyLevelTuningDefinition" Min="0" Max="64" />
 	</_32EA6D23D5EFDCE91D6ABC10815A1621>
-	<_1DC24E76BA18E2F571100C80AF8EA634 Name="BotEquipmentDefTagBlock" Size="1C">
+	<_1DC24E76BA18E2F571100C80AF8EA634 Name="BotEquipmentDefTagBlock" Alt="EE3F8B6A4A43F4AC" Size="1C">
 		<_41 Name="Approved Equipment Definition Tag" Offset="0" Allowed="eqip" Flags="0" />
 	</_1DC24E76BA18E2F571100C80AF8EA634>
-	<_63DD4DDB53EAC5784F61410386D51C43 Name="BotAdaptiveTuningDefinition" Size="18">
+	<_63DD4DDB53EAC5784F61410386D51C43 Name="BotAdaptiveTuningDefinition" Alt="B1CFEFE80CFCA29D" Size="18">
 		<_37 Name="Adaptive Difficulty" type="fgrb" Offset="0" />
 		<_14 Name="Player Health Shooting Threshold" Offset="0" />
 		<_14 Name="Max Movement" Offset="4" />
@@ -70,17 +70,17 @@
 		<_14 Name="Position Coefficient" Offset="10" />
 		<_14 Name="Engagement Constant" Offset="14" />
 	</_63DD4DDB53EAC5784F61410386D51C43>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_32EA6D23D52F2CE91D6ABC10855A2631 Name="BotHysteresisTuningDefinition" Size="8">
+	<_32EA6D23D52F2CE91D6ABC10855A2631 Name="BotHysteresisTuningDefinition" Alt="D5103119F134A5EC" Size="8">
 		<_37 Name="Hysteresis" type="fgrb" Offset="0" />
 		<_14 Name="Hysteresis Max Amount" Offset="0" />
 		<_14 Name="Hysteresis Timeout Seconds" Offset="4" />
 		<_37 Name="" type="fgre" Offset="8" />
 	</_32EA6D23D52F2CE91D6ABC10855A2631>
-	<_11EA5D23D4EFDBE93D6ABC10825A2621 Name="BotTraversalPropertiesDefinition" Size="3C">
+	<_11EA5D23D4EFDBE93D6ABC10825A2621 Name="BotTraversalPropertiesDefinition" Alt="8547C18C08BB9A7B" Size="3C">
 		<_37 Name="Traversal Properties" type="fgrb" Offset="0" />
 		<_14 Name="Destination Evaluation Tolerance" Offset="0" />
 		<_14 Name="Random Neighbor Selection Chance" Offset="4" />
@@ -99,7 +99,7 @@
 		<_14 Name="Hunt look at ambition distance" Offset="38" />
 		<_37 Name="" type="fgre" Offset="3C" />
 	</_11EA5D23D4EFDBE93D6ABC10825A2621>
-	<_32EFFD86F6123C082CA7BC9779AA2B47 Name="BotCombatTuningDefinition" Size="128">
+	<_32EFFD86F6123C082CA7BC9779AA2B47 Name="BotCombatTuningDefinition" Alt="6F2962BC1DFC4C83" Size="128">
 		<_37 Name="Combat" type="fgrb" Offset="0" />
 		<_38 Name="Melee" Offset="0" GUID="42AFFB26AD183C193CA7BC9379AB2C21" />
 		<_37 Name="Combat Dance" type="fgrb" Offset="38" />
@@ -174,7 +174,7 @@
 		<_14 Name="Disengage max jump height" Offset="124" />
 		<_37 Name="" type="fgre" Offset="128" />
 	</_32EFFD86F6123C082CA7BC9779AA2B47>
-	<_22E6FC8AD81437B4CC0ABCB719EA3B87 Name="BotAwarenessTuningDefinition" Size="58">
+	<_22E6FC8AD81437B4CC0ABCB719EA3B87 Name="BotAwarenessTuningDefinition" Alt="CE4EDAB1517C85C1" Size="58">
 		<_37 Name="Awareness" type="fgrb" Offset="0" />
 		<_14 Name="Max ground awareness distance" Offset="0" />
 		<_14 Name="Max air awareness distance" Offset="4" />
@@ -196,7 +196,7 @@
 		<_40 Name="Target Priority Calculation Inputs" Offset="44" GUID="12D6AC82D9A247B4C10BBCB781EAABC7" StructName1="BotAwarenessTuningDefinition" Min="0" Max="4" />
 		<_37 Name="" type="fgre" Offset="58" />
 	</_22E6FC8AD81437B4CC0ABCB719EA3B87>
-	<_213B498D2F87D76D2EA7AAAEBA115D3C Name="BotGuardBehaviorTuningDefinition" Size="28">
+	<_213B498D2F87D76D2EA7AAAEBA115D3C Name="BotGuardBehaviorTuningDefinition" Alt="A1D14A0C0EB93C77" Size="28">
 		<_37 Name="Guard" type="fgrb" Offset="0" />
 		<_14 Name="Min guard look time" Offset="0" />
 		<_14 Name="Max guard look time" Offset="4" />
@@ -210,7 +210,7 @@
 		<_14 Name="Guard height difference threshold" Offset="24" />
 		<_37 Name="" type="fgre" Offset="28" />
 	</_213B498D2F87D76D2EA7AAAEBA115D3C>
-	<_2A97071D2BC7498D2EA75D4CBA116ADF Name="BotGuardRankedBehaviorTuningDefinition" Size="24">
+	<_2A97071D2BC7498D2EA75D4CBA116ADF Name="BotGuardRankedBehaviorTuningDefinition" Alt="17230B3C8074A6E8" Size="24">
 		<_37 Name="GuardRanked" type="fgrb" Offset="0" />
 		<_14 Name="Max Guard Distance" Offset="0" />
 		<_14 Name="Non-Owning AmbitionOwnershipState Input Score" Offset="4" />
@@ -219,7 +219,7 @@
 		<_40 Name="Ambition Priority Calculation Inputs" Offset="10" GUID="12DEA38A29A2476D13EB2CA7AC10BAC7" StructName1="BotGuardRankedBehaviorTuningDefinition" Min="0" Max="3" />
 		<_37 Name="" type="fgre" Offset="24" />
 	</_2A97071D2BC7498D2EA75D4CBA116ADF>
-	<_2136798D2BC7071D25C76ADF2A975D4C Name="BotPickupTuningDefinition" Size="14">
+	<_2136798D2BC7071D25C76ADF2A975D4C Name="BotPickupTuningDefinition" Alt="B8CEC05402299489" Size="14">
 		<_37 Name="Pickup" type="fgrb" Offset="0" />
 		<_14 Name="Pickup distance sq" Offset="0" />
 		<_14 Name="Pathless distance sq" Offset="4" />
@@ -228,7 +228,7 @@
 		<_14 Name="Item observation radius" Offset="10" />
 		<_37 Name="" type="fgre" Offset="14" />
 	</_2136798D2BC7071D25C76ADF2A975D4C>
-	<_9132708DABC2078D85A75A1F2A27AD4C Name="BotVehicleTuningDefinition" Size="18">
+	<_9132708DABC2078D85A75A1F2A27AD4C Name="BotVehicleTuningDefinition" Alt="6571305208BD5528" Size="18">
 		<_37 Name="Vehicles" type="fgrb" Offset="0" />
 		<_14 Name="Vehicle observation radius" Offset="0" />
 		<_14 Name="Max linear velocity for enterable vehicle sq" Offset="4" />
@@ -238,7 +238,7 @@
 		<_14 Name="Exit inactive vehicle time" Offset="14" />
 		<_37 Name="" type="fgre" Offset="18" />
 	</_9132708DABC2078D85A75A1F2A27AD4C>
-	<_EA1D4A8F006CB1EA3115A169B3212A10 Name="BotWeaponDefTagBlock" Size="38">
+	<_EA1D4A8F006CB1EA3115A169B3212A10 Name="BotWeaponDefTagBlock" Alt="DBF75F8CAE178B7D" Size="38">
 		<_41 Name="Approved Weapon Definition Tag" Offset="0" Allowed="weap" Flags="0" />
 		<_D Name="Weapon usage flags" Offset="1C" StructName1="BotWeaponUsageFlags">
 			<Flag n="Aims at head" />
@@ -256,7 +256,7 @@
 		<_14 Name="Min distance sq" Offset="30" />
 		<_14 Name="Max distance sq" Offset="34" />
 	</_EA1D4A8F006CB1EA3115A169B3212A10>
-	<_42AFFB26AD183C193CA7BC9379AB2C21 Name="BotMeleeTuningDefinition" Size="38">
+	<_42AFFB26AD183C193CA7BC9379AB2C21 Name="BotMeleeTuningDefinition" Alt="3890BEE0E5ADD333" Size="38">
 		<_37 Name="Melee" type="fgrb" Offset="0" />
 		<_14 Name="Melee min delay time" Offset="0" />
 		<_14 Name="Melee max delay time" Offset="4" />
@@ -274,7 +274,7 @@
 		<_8 Name="'Target is facing away' angle threshold" Offset="34" />
 		<_37 Name="" type="fgre" Offset="38" />
 	</_42AFFB26AD183C193CA7BC9379AB2C21>
-	<_12D6AC82D9A247B4C10BBCB781EAABC7 Name="BotTargetPriorityInputDefinition" Size="8">
+	<_12D6AC82D9A247B4C10BBCB781EAABC7 Name="BotTargetPriorityInputDefinition" Alt="28AA494D050C4B43" Size="8">
 		<_B Name="Input" Offset="0" StructName1="i343::Bots::BotTargetPriorityInput">
 			<Flag n="Distance to Target" />
 			<Flag n="Target Shields Popped" />
@@ -284,7 +284,7 @@
 		<_34 Name="generated_pad9bc9" Offset="2" Length="2" />
 		<_14 Name="Weight" Offset="4" />
 	</_12D6AC82D9A247B4C10BBCB781EAABC7>
-	<_12DEA38A29A2476D13EB2CA7AC10BAC7 Name="BotAmbitionPriorityInputDefinition" Size="8">
+	<_12DEA38A29A2476D13EB2CA7AC10BAC7 Name="BotAmbitionPriorityInputDefinition" Alt="BCB5BC561C03D50A" Size="8">
 		<_B Name="Input" Offset="0" StructName1="i343::Bots::BotAmbitionPriorityInput">
 			<Flag n="Distance to Ambition" />
 			<Flag n="Ambition Ownership State" />

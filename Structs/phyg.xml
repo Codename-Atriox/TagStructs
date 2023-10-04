@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="PhysicsGlobalsDefinition" Parents="aTag" Index="-310">
-	<_56C0451BE9762E4568F95D0D82D3A053 Name="i343::Physics::PhysicsGlobalsDefinition" Size="30">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="PhysicsGlobalsDefinition" Parents="aTag" Index="-310">
+	<_56C0451BE9762E4568F95D0D82D3A053 Name="i343::Physics::PhysicsGlobalsDefinition" Alt="2EB940BD4F130398" Size="30">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="Shape density configuration" type="fgrb" Offset="10" />
 		<_36 Name="Shape density configuration" Offset="10" />
@@ -14,16 +14,16 @@
 		<_38 Name="Bullet collision thresholds for levels" Offset="28" GUID="18F442850ED1BE0FB43BEE1FA71C947B" />
 		<_37 Name="" type="fgre" Offset="30" />
 	</_56C0451BE9762E4568F95D0D82D3A053>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_18F442850ED1BE0FB43BEE1FA71C947B Name="i343::Physics::ShapeDensityThresholds" Size="8">
+	<_18F442850ED1BE0FB43BEE1FA71C947B Name="i343::Physics::ShapeDensityThresholds" Alt="A068AF088A80C473" Size="8">
 		<_14 Name="Shape density error threshold" Offset="0" />
 		<_14 Name="Shape density warning threshold" Offset="4" />
 	</_18F442850ED1BE0FB43BEE1FA71C947B>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

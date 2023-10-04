@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="sound" Parents="aTag" Index="-389" C="sound">
-	<_E64446ED9F72CF909767C27C823380DF Name="OneShotSoundTag" Size="E8">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="sound" Parents="aTag" Index="-389" C="sound">
+	<_E64446ED9F72CF909767C27C823380DF Name="OneShotSoundTag" Alt="32DEDF752E90267B" Size="E8">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_D Name="flags" Offset="10" StructName1="OneShotSoundTagFlag">
 			<Flag n="trigger cell event when played" />
@@ -24,11 +24,11 @@
 		<_34 Name="generated_padf447" Offset="C9" Length="3" />
 		<_41 Name="Unicode Subtitles Tag" Offset="CC" Allowed="uslg" Flags="0" />
 	</_E64446ED9F72CF909767C27C823380DF>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_62FE4BBA0E0134DDE72E07D882D9858D Name="soundVOEventInfo" Size="50">
+	<_62FE4BBA0E0134DDE72E07D882D9858D Name="soundVOEventInfo" Alt="D16CDEDAA04008D3" Size="50">
 		<_2 Name="Event Name" Offset="0" />
 		<_2 Name="External Source" Offset="4" />
 		<_2 Name="Subtitle Name" Offset="8" />
@@ -38,11 +38,11 @@
 		<_40 Name="AI Dialogue Info" Offset="28" GUID="F8524194B62C04EDA9B749459E8FCC6F" StructName1="soundVOEventInfo" Min="0" Max="1" />
 		<_40 Name="facial animation resource languages" Offset="3C" GUID="A2804A455280F0A032312FB4B6512D45" StructName1="soundVOEventInfo" Min="0" Max="18" />
 	</_62FE4BBA0E0134DDE72E07D882D9858D>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_10F2497D1108C4920E4D821D89A30DF7 Name="narrativeReferenceInfo" Size="16C">
+	<_10F2497D1108C4920E4D821D89A30DF7 Name="narrativeReferenceInfo" Alt="586C5B5DB114265A" Size="16C">
 		<_0 Name="Character name" Offset="0" />
 		<_1 Name="Dialogue" Offset="20" />
 		<_0 Name="WWise effect" Offset="120" />
@@ -59,7 +59,7 @@
 		</_C>
 		<_14 Name="WWise Attenuation" Offset="168" />
 	</_10F2497D1108C4920E4D821D89A30DF7>
-	<_F8524194B62C04EDA9B749459E8FCC6F Name="aiDialogueEventInfo" Size="11C">
+	<_F8524194B62C04EDA9B749459E8FCC6F Name="aiDialogueEventInfo" Alt="F0CBBB02A609867E" Size="11C">
 		<_D Name="flags" Offset="0" StructName1="SpeechEventInfoFlag">
 			<Flag n="Campaign Only" />
 			<Flag n="Exclude from certain missions" />
@@ -76,7 +76,7 @@
 		<_1 Name="Dialogue State Table Skip Rule" Offset="8" />
 		<_40 Name="dst expression tokens" Offset="108" GUID="FAB1024AB78F742AA39BC27A927B503B" StructName1="aiDialogueEventInfo" Min="0" Max="16" />
 	</_F8524194B62C04EDA9B749459E8FCC6F>
-	<_A2804A455280F0A032312FB4B6512D45 Name="s_facial_animation_language" Size="24">
+	<_A2804A455280F0A032312FB4B6512D45 Name="s_facial_animation_language" Alt="3694313C2A3A105A" Size="24">
 		<_43 Name="facial animation resource" Offset="0" StructName1="s_facial_animation" Int1="0" GUID="D68743D8268C469EC60502E7898CC9F7" />
 		<_43 Name="model animation resource" Offset="10" StructName1="s_model_animations" Int1="0" GUID="4CFB4CD55B35C2E8AA4A62F0B4248387" />
 		<_C Name="language" Offset="20" StructName1="e_language">
@@ -100,30 +100,30 @@
 			<Flag n="Brazilian-Portuguese" />
 		</_C>
 	</_A2804A455280F0A032312FB4B6512D45>
-	<_FAB1024AB78F742AA39BC27A927B503B Name="DialogueStateTableExpressionToken" Size="8">
+	<_FAB1024AB78F742AA39BC27A927B503B Name="DialogueStateTableExpressionToken" Alt="2C8021D75A9618C2" Size="8">
 		<_2 Name="an expression token" Offset="0" />
 		<_6 Name="numeric constant, if applicable" Offset="4" />
 	</_FAB1024AB78F742AA39BC27A927B503B>
-	<_D68743D8268C469EC60502E7898CC9F7 Name="s_facial_animation" Size="2C">
+	<_D68743D8268C469EC60502E7898CC9F7 Name="s_facial_animation" Alt="5B6E963711976F1F" Size="2C">
 		<_40 Name="facial animation permutations" Offset="0" GUID="36EC48710EFE0F996551CE61A87914A5" StructName1="s_facial_animation" Min="0" Max="576" />
 		<_42 Name="compressed facial animation curve data" Offset="14" StructName1="s_facial_animation.compressed facial animation curve data" Int1="0" Int2="2" Flags="1320000" />
 	</_D68743D8268C469EC60502E7898CC9F7>
-	<_4CFB4CD55B35C2E8AA4A62F0B4248387 Name="s_model_animations" Size="14">
+	<_4CFB4CD55B35C2E8AA4A62F0B4248387 Name="s_model_animations" Alt="B73C2509F4A201A9" Size="14">
 		<_40 Name="model animation permutations" Offset="0" GUID="0A224C12739BF16A8839106F8DD16B3F" StructName1="s_model_animations" Min="0" Max="576" />
 	</_4CFB4CD55B35C2E8AA4A62F0B4248387>
-	<_36EC48710EFE0F996551CE61A87914A5 Name="s_facial_animation_permutation" Size="24">
+	<_36EC48710EFE0F996551CE61A87914A5 Name="s_facial_animation_permutation" Alt="AB3E83D30F1E53F6" Size="24">
 		<_14 Name="start time" Offset="0" />
 		<_14 Name="end time" Offset="4" />
 		<_14 Name="blend in" Offset="8" />
 		<_14 Name="blend out" Offset="C" />
 		<_40 Name="facial animation curves" Offset="10" GUID="9431409FA566493B19D5B5C8ABE0F9B2" StructName1="s_facial_animation_permutation" Min="0" Max="34" />
 	</_36EC48710EFE0F996551CE61A87914A5>
-	<_0A224C12739BF16A8839106F8DD16B3F Name="s_model_animation_permutation" Size="218">
+	<_0A224C12739BF16A8839106F8DD16B3F Name="s_model_animation_permutation" Alt="7D78968288A0CA5D" Size="218">
 		<_38 Name="c_model_animation" Offset="0" GUID="2D124DF5AB063E746B6A9B389FC7F4EB" />
 		<_38 Name="c_model_animation_tag_resource_member" Offset="78" GUID="BB494C5CF84A790E9758A12CA5D85B12" />
 		<_40 Name="user parameters" Offset="204" GUID="C2BDFC6C3D28C66EE4DF4541E5E2ECC9" StructName1="s_model_animation_permutation" Min="0" Max="512" />
 	</_0A224C12739BF16A8839106F8DD16B3F>
-	<_9431409FA566493B19D5B5C8ABE0F9B2 Name="s_facial_animation_curve" Size="C">
+	<_9431409FA566493B19D5B5C8ABE0F9B2 Name="s_facial_animation_curve" Alt="F3D3B6DD7D96854F" Size="C">
 		<_C Name="facial animation track" Offset="0" StructName1="FacialAnimationTrackList">
 			<Flag n="Silence" />
 			<Flag n="Eat" />
@@ -163,7 +163,7 @@
 		<_6 Name="facial animation curve data offset" Offset="4" />
 		<_6 Name="facial animation curve data size" Offset="8" />
 	</_9431409FA566493B19D5B5C8ABE0F9B2>
-	<_2D124DF5AB063E746B6A9B389FC7F4EB Name="c_model_animation" Size="78">
+	<_2D124DF5AB063E746B6A9B389FC7F4EB Name="c_model_animation" Alt="11F7A0A99A1FD243" Size="78">
 		<_2 Name="name" Offset="0" />
 		<_37 Name="Play on player" type="edit" Offset="4" />
 		<_5 Name="frame count" Offset="4" />
@@ -271,7 +271,7 @@
 		<_3E Name="node list checksum" Offset="70" />
 		<_38 Name="resource index" Offset="74" GUID="686F47A2288464EF9588326695306B80" />
 	</_2D124DF5AB063E746B6A9B389FC7F4EB>
-	<_BB494C5CF84A790E9758A12CA5D85B12 Name="c_model_animation_tag_resource_member" Size="18C">
+	<_BB494C5CF84A790E9758A12CA5D85B12 Name="c_model_animation_tag_resource_member" Alt="8DA462C88609B718" Size="18C">
 		<_2 Name="name" Offset="0" />
 		<_3E Name="animation_checksum" Offset="4" />
 		<_5 Name="frame count" Offset="8" />
@@ -290,7 +290,7 @@
 		<_38 Name="data sizes" Offset="128" GUID="840641F21FBE28A202D54A2E8852141E" />
 		<_42 Name="animation_data" Offset="174" StructName1="c_model_animation_tag_resource_member.animation_data" Int1="0" Int2="4" Flags="84E5D90" />
 	</_BB494C5CF84A790E9758A12CA5D85B12>
-	<_C2BDFC6C3D28C66EE4DF4541E5E2ECC9 Name="AnimationGraphUserParameter" Size="C">
+	<_C2BDFC6C3D28C66EE4DF4541E5E2ECC9 Name="AnimationGraphUserParameter" Alt="1A5ABD579230A280" Size="C">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="default value" Offset="4" />
 		<_F Name="flags" Offset="8" StructName1="UserParameterFlags">
@@ -298,7 +298,7 @@
 		</_F>
 		<_34 Name="generated_pad54cc" Offset="9" Length="3" />
 	</_C2BDFC6C3D28C66EE4DF4541E5E2ECC9>
-	<_50AB45EDCE71BB1A047FF66490C7C874 Name="CompositeTag" Size="5C">
+	<_50AB45EDCE71BB1A047FF66490C7C874 Name="CompositeTag" Alt="7478A76D341947B" Size="5C">
 		<_2 Name="name" Offset="0" />
 		<_40 Name="axes" Offset="4" GUID="9B0A4844168DE62EE440F78E8A388EE4" StructName1="CompositeTag" Min="0" Max="16" />
 		<_40 Name="anims" Offset="18" GUID="E025466376AF98750EEE3D79A0BF321B" StructName1="CompositeTag" Min="0" Max="256" />
@@ -308,23 +308,23 @@
 		<_5 Name="timingAnimIndex" Offset="58" />
 		<_5 Name="medianThrottleMag" Offset="5A" />
 	</_50AB45EDCE71BB1A047FF66490C7C874>
-	<_93B54204E5AC9EB285BAB4E58F9A3469 Name="AnimationInterpolationSet" Size="34">
+	<_93B54204E5AC9EB285BAB4E58F9A3469 Name="AnimationInterpolationSet" Alt="21AF795618CC714C" Size="34">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="seconds" Offset="4" />
 		<_40 Name="interpolators" Offset="8" GUID="E2F442BB2DF76527D3448217878FF74F" StructName1="AnimationInterpolationSet" Min="0" Max="32" />
 		<_38 Name="default curve" Offset="1C" GUID="0276481E72CB9289F56D7C189467A351" />
 	</_93B54204E5AC9EB285BAB4E58F9A3469>
-	<_859E43BF63E4C89FC32298C28CF9355D Name="i343::Animation::FirstPersonOverlayChannelSliderWeightFunctionMap" Size="8">
+	<_859E43BF63E4C89FC32298C28CF9355D Name="i343::Animation::FirstPersonOverlayChannelSliderWeightFunctionMap" Alt="19A6DE78C84F85E3" Size="8">
 		<_36 Name="FIRST PERSON OVERLAY CHANNEL WEIGHT SCALING" Offset="0" />
 		<_2 Name="overlay animation name" type="sted" Offset="0" />
 		<_37 Name="" type="coff" Offset="4" />
 		<_2 Name="channel weight scale source" type="sted" Offset="4" />
 	</_859E43BF63E4C89FC32298C28CF9355D>
-	<_686F47A2288464EF9588326695306B80 Name="AnimationResourceIndex" Size="4">
+	<_686F47A2288464EF9588326695306B80 Name="AnimationResourceIndex" Alt="69E386502F48532A" Size="4">
 		<_2E Name="resource group" Offset="0" GUID="26C74AF547846C50972458F68CBDED72" StructName1="AnimationResourceIndex" Min="0" Max="12288" />
 		<_5 Name="resource member index" Offset="2" />
 	</_686F47A2288464EF9588326695306B80>
-	<_525D45A0E35A164D3F26614F83A4523E Name="AnimationEventBlocks" Size="118">
+	<_525D45A0E35A164D3F26614F83A4523E Name="AnimationEventBlocks" Alt="50C1D8F47F861918" Size="118">
 		<_36 Name="a" Offset="0" />
 		<_40 Name="frame events" Offset="0" GUID="086345404B5424547CF531E194899D46" StructName1="AnimationEventBlocks" Min="0" Max="512" />
 		<_40 Name="sound events" Offset="14" GUID="13E84535B35BC4A28C7AEE2F99DC4BB0" StructName1="AnimationEventBlocks" Min="0" Max="512" />
@@ -342,7 +342,7 @@
 		<_40 Name="key orientations" Offset="F0" GUID="242447FBB78775108D84DFE8B8C1E705" StructName1="AnimationEventBlocks" Min="0" Max="1" />
 		<_40 Name="reference orientations" Offset="104" GUID="CA52447FA7063B3FE5917264A1733B29" StructName1="AnimationEventBlocks" Min="0" Max="1024" />
 	</_525D45A0E35A164D3F26614F83A4523E>
-	<_840641F21FBE28A202D54A2E8852141E Name="c_animation_data_sizes" Size="4C">
+	<_840641F21FBE28A202D54A2E8852141E Name="c_animation_data_sizes" Alt="1420E13074105CA0" Size="4C">
 		<_36 Name="Bad Names Warning" Offset="0" />
 		<_6 Name="static_node_flags" Offset="0" />
 		<_6 Name="animated_node_flags" Offset="4" />
@@ -364,7 +364,7 @@
 		<_6 Name="compressed_static_pose" Offset="44" />
 		<_6 Name="user_parameter" Offset="48" />
 	</_840641F21FBE28A202D54A2E8852141E>
-	<_9B0A4844168DE62EE440F78E8A388EE4 Name="CompositeAxis" Size="44">
+	<_9B0A4844168DE62EE440F78E8A388EE4 Name="CompositeAxis" Alt="E2613B233F3E48CE" Size="44">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="animation source" Offset="4" />
 		<_37 Name="" type="coff" Offset="8" />
@@ -383,7 +383,7 @@
 			<Flag n="clamped" />
 		</_D>
 	</_9B0A4844168DE62EE440F78E8A388EE4>
-	<_E025466376AF98750EEE3D79A0BF321B Name="CompositeEntry" Size="20">
+	<_E025466376AF98750EEE3D79A0BF321B Name="CompositeEntry" Alt="C40FCBC7C0EF16AF" Size="20">
 		<_2 Name="source" Offset="0" />
 		<_40 Name="values" Offset="4" GUID="E3824A072C6E4B321FF851B6B95A6F5D" StructName1="CompositeEntry" Min="0" Max="16" />
 		<_6 Name="overridden" Offset="18" />
@@ -391,7 +391,7 @@
 		<_3C Name="slideAxis" Offset="1E" />
 		<_34 Name="generated_padd329" Offset="1F" Length="1" />
 	</_E025466376AF98750EEE3D79A0BF321B>
-	<_07ED44201C6DD71A5F2604DA97E43A00 Name="CompositePhaseSet" Size="A0">
+	<_07ED44201C6DD71A5F2604DA97E43A00 Name="CompositePhaseSet" Alt="6CA6AD9D628FC56A" Size="A0">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="timing source" Offset="4" />
 		<_40 Name="sync points" Offset="8" GUID="FAD949D9FB3CC58F357D10858879258F" StructName1="CompositePhaseSet" Min="0" Max="8" />
@@ -405,21 +405,21 @@
 		<_34 Name="generated_pad597a" Offset="9D" Length="1" />
 		<_5 Name="timingAnimIndex" Offset="9E" />
 	</_07ED44201C6DD71A5F2604DA97E43A00>
-	<_EA3C4FFDB75016D85680313287191515 Name="AnimationOrDefaultStringIDBlockType" Size="4">
+	<_EA3C4FFDB75016D85680313287191515 Name="AnimationOrDefaultStringIDBlockType" Alt="E130E8331729B46D" Size="4">
 		<_2 Name="name" Offset="0" />
 	</_EA3C4FFDB75016D85680313287191515>
-	<_E2F442BB2DF76527D3448217878FF74F Name="AnimationInterpolationEntry" Size="4">
+	<_E2F442BB2DF76527D3448217878FF74F Name="AnimationInterpolationEntry" Alt="FEA1017609771233" Size="4">
 		<_30 Name="interpolator" Offset="0" GUID="6B0241138DD55035B2B7B7B5831A13DB" StructName1="AnimationInterpolationEntry" Min="0" Max="256" />
 	</_E2F442BB2DF76527D3448217878FF74F>
-	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_26C74AF547846C50972458F68CBDED72 Name="c_model_animation_tag_refrence_counted_resource" Size="14">
+	<_26C74AF547846C50972458F68CBDED72 Name="c_model_animation_tag_refrence_counted_resource" Alt="34DF72150D5DB46A" Size="14">
 		<_6 Name="reference_count" Offset="0" />
 		<_43 Name="tag_resource" Offset="4" StructName1="c_model_animation_tag_animation_group_resource" Int1="0" GUID="3BDA48B109439BE6A12806119947AD2E" />
 	</_26C74AF547846C50972458F68CBDED72>
-	<_086345404B5424547CF531E194899D46 Name="s_frame_event" Size="4">
+	<_086345404B5424547CF531E194899D46 Name="s_frame_event" Alt="506C1DD3E6FCAF55" Size="4">
 		<_B Name="type" Offset="0" StructName1="AnimationFrameEventType">
 			<Flag n="none" />
 			<Flag n="primary_keyframe" />
@@ -479,23 +479,23 @@
 		</_B>
 		<_5 Name="frame" Offset="2" />
 	</_086345404B5424547CF531E194899D46>
-	<_13E84535B35BC4A28C7AEE2F99DC4BB0 Name="s_sound_event" Size="8">
+	<_13E84535B35BC4A28C7AEE2F99DC4BB0 Name="s_sound_event" Alt="D5A1302C7B8E000" Size="8">
 		<_2E Name="sound" Offset="0" GUID="62BA4FBF44FF5AD9CACD391D8BB4DB29" StructName1="s_sound_event" Min="0" Max="4096" />
 		<_5 Name="frame" Offset="2" />
 		<_37 Name="" type="amkr" Offset="4" />
 		<_2 Name="marker name" Offset="4" />
 	</_13E84535B35BC4A28C7AEE2F99DC4BB0>
-	<_8A8342C9E4CD073073E441C9B1A8EE0B Name="s_effect_event" Size="8">
+	<_8A8342C9E4CD073073E441C9B1A8EE0B Name="s_effect_event" Alt="8C2ECBA1816FF591" Size="8">
 		<_2E Name="effect" Offset="0" GUID="DC344E87BDB82602FAE0C8C7A9919561" StructName1="s_effect_event" Min="0" Max="4096" />
 		<_5 Name="frame" Offset="2" />
 		<_37 Name="" type="amkr" Offset="4" />
 		<_2 Name="marker name" Offset="4" />
 	</_8A8342C9E4CD073073E441C9B1A8EE0B>
-	<_9AAD473C2A844863D1BF6F0E93A75C3E Name="s_dialogue_event" Size="4">
+	<_9AAD473C2A844863D1BF6F0E93A75C3E Name="s_dialogue_event" Alt="96546663D736B214" Size="4">
 		<_2E Name="dialogue event" Offset="0" GUID="153AB5047E2418A6970CB5DAA6E98612" StructName1="s_dialogue_event" Min="0" Max="4096" />
 		<_5 Name="frame" Offset="2" />
 	</_9AAD473C2A844863D1BF6F0E93A75C3E>
-	<_04C147A127BCCD47FA16E7029D4D4A77 Name="s_object_space_node_data" Size="1C">
+	<_04C147A127BCCD47FA16E7029D4D4A77 Name="s_object_space_node_data" Alt="E01D2FC22614C867" Size="1C">
 		<_2E Name="node index" Offset="0" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_object_space_node_data" Min="0" Max="1024" />
 		<_E Name="flags" Offset="2" StructName1="c_object_space_node_flags">
 			<Flag n="rotation" />
@@ -505,13 +505,13 @@
 		</_E>
 		<_38 Name="parent orientation" Offset="4" GUID="146C45DD214A383678CBEE5D91315D22" />
 	</_04C147A127BCCD47FA16E7029D4D4A77>
-	<_00154F22F10FB882BBEBAE8A8BF8942F Name="s_object_space_offset_node_reference" Size="2">
+	<_00154F22F10FB882BBEBAE8A8BF8942F Name="s_object_space_offset_node_reference" Alt="3496FC571B2C86AD" Size="2">
 		<_2E Name="object space offset node" Offset="0" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_object_space_offset_node_reference" Min="0" Max="1024" />
 	</_00154F22F10FB882BBEBAE8A8BF8942F>
-	<_B26A414B34216E16926F5CFFA0C0515C Name="s_fik_anchor_node_reference" Size="2">
+	<_B26A414B34216E16926F5CFFA0C0515C Name="s_fik_anchor_node_reference" Alt="6EEE40F6B36A84CC" Size="2">
 		<_2E Name="anchor node" Offset="0" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_fik_anchor_node_reference" Min="0" Max="1024" />
 	</_B26A414B34216E16926F5CFFA0C0515C>
-	<_2C2B4D5E093101E5699BE416B71AF5DE Name="s_animation_ik_chain_event" Size="1C">
+	<_2C2B4D5E093101E5699BE416B71AF5DE Name="s_animation_ik_chain_event" Alt="78E0983020548886" Size="1C">
 		<_36 Name="REFERENCE IK CHAIN INFO" Offset="0" />
 		<_2 Name="chain name" Offset="0" />
 		<_B Name="chain type" Offset="4" StructName1="c_animation_ik_chain_type">
@@ -544,14 +544,14 @@
 		<_3C Name="chain index" Offset="18" />
 		<_34 Name="generated_pad365a" Offset="19" Length="3" />
 	</_2C2B4D5E093101E5699BE416B71AF5DE>
-	<_038D4FBBCC1A00C4A19647E08F1F3051 Name="s_animation_ik_chain_proxy" Size="C">
+	<_038D4FBBCC1A00C4A19647E08F1F3051 Name="s_animation_ik_chain_proxy" Alt="1BF9FCAC61A372A2" Size="C">
 		<_6 Name="id" Offset="0" />
 		<_37 Name="" type="amkr" Offset="4" />
 		<_2 Name="target marker" Offset="4" />
 		<_3C Name="proxy transform data index" Offset="8" />
 		<_34 Name="generated_pade6ae" Offset="9" Length="3" />
 	</_038D4FBBCC1A00C4A19647E08F1F3051>
-	<_41204C755D78B2BAA7383DE1AAC24254 Name="s_animation_wrinkle_event" Size="10">
+	<_41204C755D78B2BAA7383DE1AAC24254 Name="s_animation_wrinkle_event" Alt="18826C3BC5BC2F67" Size="10">
 		<_36 Name="REFERENCE FACIAL WRINKLE EVENT INFO" Offset="0" />
 		<_2 Name="wrinkle name" Offset="0" />
 		<_14 Name="default value" Offset="4" />
@@ -572,7 +572,7 @@
 		<_36 Name="POST PROCESS WRINKLE EVENT INFO" Offset="E" />
 		<_5 Name="wrinkle data index" Offset="E" />
 	</_41204C755D78B2BAA7383DE1AAC24254>
-	<_876B4FA920B7F5412667B4FAAD5F76AC Name="s_animation_extended_event" Size="10">
+	<_876B4FA920B7F5412667B4FAAD5F76AC Name="s_animation_extended_event" Alt="68151B29CBAED478" Size="10">
 		<_36 Name="IMPORTED EXTENDED DATA EVENT INFO" Offset="0" />
 		<_2 Name="name" Offset="0" />
 		<_5 Name="start frame" Offset="4" />
@@ -581,7 +581,7 @@
 		<_5 Name="data index" Offset="C" />
 		<_34 Name="generated_pad91d3" Offset="E" Length="2" />
 	</_876B4FA920B7F5412667B4FAAD5F76AC>
-	<_FC974C482C6B2EE2EBF8E9149127F7F0 Name="s_animation_object_function" Size="24">
+	<_FC974C482C6B2EE2EBF8E9149127F7F0 Name="s_animation_object_function" Alt="80E43E2995567848" Size="24">
 		<_2 Name="real_name" Offset="0" />
 		<_C Name="name" Offset="4" StructName1="c_animation_object_function_name">
 			<Flag n="animation_object_function_a" />
@@ -593,7 +593,7 @@
 		<_5 Name="frame count" Offset="A" />
 		<_38 Name="function curve" Offset="C" GUID="0276481E72CB9289F56D7C189467A351" />
 	</_FC974C482C6B2EE2EBF8E9149127F7F0>
-	<_242447FBB78775108D84DFE8B8C1E705 Name="AnimationKeyJointOrientations" Size="60">
+	<_242447FBB78775108D84DFE8B8C1E705 Name="AnimationKeyJointOrientations" Alt="7E7E62A7EA43942" Size="60">
 		<_37 Name="world anchor" type="fgrb" Offset="0" />
 		<_38 Name="world anchor" Offset="0" GUID="E04945A89670DCEE87A7F58E8C8228C2" />
 		<_37 Name="" type="fgre" Offset="20" />
@@ -604,10 +604,10 @@
 		<_38 Name="pedestal end" Offset="40" GUID="E04945A89670DCEE87A7F58E8C8228C2" />
 		<_37 Name="" type="fgre" Offset="60" />
 	</_242447FBB78775108D84DFE8B8C1E705>
-	<_CA52447FA7063B3FE5917264A1733B29 Name="ReferenceData" Size="20">
+	<_CA52447FA7063B3FE5917264A1733B29 Name="ReferenceData" Alt="896288BE8852FA64" Size="20">
 		<_38 Name="reference orientation" Offset="0" GUID="E04945A89670DCEE87A7F58E8C8228C2" />
 	</_CA52447FA7063B3FE5917264A1733B29>
-	<_2C9E462F48E34FCAFFF4A197AD47F2DC Name="CompositeDeadZone" Size="1C">
+	<_2C9E462F48E34FCAFFF4A197AD47F2DC Name="CompositeDeadZone" Alt="CEC5F51812D03F78" Size="1C">
 		<_25 Name="bounds" Offset="0" />
 		<_14 Name="rate" Offset="8" />
 		<_14 Name="center" Offset="C" />
@@ -615,10 +615,10 @@
 		<_14 Name="amount" Offset="14" />
 		<_14 Name="delay" Offset="18" />
 	</_2C9E462F48E34FCAFFF4A197AD47F2DC>
-	<_E3824A072C6E4B321FF851B6B95A6F5D Name="CompositeEntryValue" Size="4">
+	<_E3824A072C6E4B321FF851B6B95A6F5D Name="CompositeEntryValue" Alt="8901A1BC1D5FF455" Size="4">
 		<_14 Name="value" Offset="0" />
 	</_E3824A072C6E4B321FF851B6B95A6F5D>
-	<_FAD949D9FB3CC58F357D10858879258F Name="SyncKey" Size="2">
+	<_FAD949D9FB3CC58F357D10858879258F Name="SyncKey" Alt="129770131068122" Size="2">
 		<_B Name="key" Offset="0" StructName1="AnimationFrameEventType">
 			<Flag n="none" />
 			<Flag n="primary_keyframe" />
@@ -677,28 +677,28 @@
 			<Flag n="show_3p_primary_weapon" />
 		</_B>
 	</_FAD949D9FB3CC58F357D10858879258F>
-	<_6B0241138DD55035B2B7B7B5831A13DB Name="AnimationInterpolator" Size="20">
+	<_6B0241138DD55035B2B7B7B5831A13DB Name="AnimationInterpolator" Alt="C83B5211EEA3AEE5" Size="20">
 		<_2 Name="name" Offset="0" />
 		<_30 Name="bone mask" Offset="4" GUID="6F224C2252C3A3B1E0F3E55389363C08" StructName1="AnimationInterpolator" Min="0" Max="32" />
 		<_38 Name="function" Offset="8" GUID="0276481E72CB9289F56D7C189467A351" />
 	</_6B0241138DD55035B2B7B7B5831A13DB>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
-	<_3BDA48B109439BE6A12806119947AD2E Name="c_model_animation_tag_animation_group_resource" Size="14">
+	<_3BDA48B109439BE6A12806119947AD2E Name="c_model_animation_tag_animation_group_resource" Alt="AB87ADC42DA3A521" Size="14">
 		<_40 Name="group_members" Offset="0" GUID="BB494C5CF84A790E9758A12CA5D85B12" StructName1="c_model_animation_tag_animation_group_resource" Min="0" Max="4096" />
 	</_3BDA48B109439BE6A12806119947AD2E>
-	<_62BA4FBF44FF5AD9CACD391D8BB4DB29 Name="SoundEventReferenceSet" Size="18">
+	<_62BA4FBF44FF5AD9CACD391D8BB4DB29 Name="SoundEventReferenceSet" Alt="1EEA5E8BC8A11245" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_40 Name="sounds" Offset="4" GUID="0ED046283B0B92F2A8A93A27A1DBB76E" StructName1="SoundEventReferenceSet" Min="0" Max="256" />
 	</_62BA4FBF44FF5AD9CACD391D8BB4DB29>
-	<_DC344E87BDB82602FAE0C8C7A9919561 Name="EffectEventReferenceSet" Size="18">
+	<_DC344E87BDB82602FAE0C8C7A9919561 Name="EffectEventReferenceSet" Alt="99286984A643C86B" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_40 Name="effects" Offset="4" GUID="CA1C43884D6A825DD3DDF65DB4C05693" StructName1="EffectEventReferenceSet" Min="0" Max="256" />
 	</_DC344E87BDB82602FAE0C8C7A9919561>
-	<_153AB5047E2418A6970CB5DAA6E98612 Name="AnimationGraphDialogueReference" Size="8">
+	<_153AB5047E2418A6970CB5DAA6E98612 Name="AnimationGraphDialogueReference" Alt="54AF43E77561FC0E" Size="8">
 		<_2 Name="vocalization name" Offset="0" />
 		<_A Name="play restriction" Offset="4" StructName1="eDialoguePlayRestriction">
 			<Flag n="Unrestricted" />
@@ -707,7 +707,7 @@
 		</_A>
 		<_34 Name="generated_padf213" Offset="5" Length="3" />
 	</_153AB5047E2418A6970CB5DAA6E98612>
-	<_A8A1454CA1BC3EC92CAC13688C893F2D Name="s_animation_graph_node" Size="18">
+	<_A8A1454CA1BC3EC92CAC13688C893F2D Name="s_animation_graph_node" Alt="86B3EB97A4F64C4" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_2E Name="next sibling node index" Offset="4" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_graph_node" Min="0" Max="1024" />
 		<_2E Name="first child node index" Offset="6" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_graph_node" Min="0" Max="1024" />
@@ -725,7 +725,7 @@
 		<_6 Name="frame_ID1" Offset="10" />
 		<_6 Name="frame_ID2" Offset="14" />
 	</_A8A1454CA1BC3EC92CAC13688C893F2D>
-	<_146C45DD214A383678CBEE5D91315D22 Name="c_quantized_orientation" Size="18">
+	<_146C45DD214A383678CBEE5D91315D22 Name="c_quantized_orientation" Alt="9C5ACDE27FFFEE7E" Size="18">
 		<_5 Name="rotation x" Offset="0" />
 		<_5 Name="rotation y" Offset="2" />
 		<_5 Name="rotation z" Offset="4" />
@@ -733,12 +733,12 @@
 		<_17 Name="default translation" Offset="8" />
 		<_14 Name="default scale" Offset="14" />
 	</_146C45DD214A383678CBEE5D91315D22>
-	<_E04945A89670DCEE87A7F58E8C8228C2 Name="RealOrientationTagStruct" Size="20">
+	<_E04945A89670DCEE87A7F58E8C8228C2 Name="RealOrientationTagStruct" Alt="B0DF9BDBF44431C9" Size="20">
 		<_1A Name="rotation" Offset="0" />
 		<_17 Name="translation" Offset="10" />
 		<_14 Name="scale" Offset="1C" />
 	</_E04945A89670DCEE87A7F58E8C8228C2>
-	<_6F224C2252C3A3B1E0F3E55389363C08 Name="s_animation_node_mask" Size="B4">
+	<_6F224C2252C3A3B1E0F3E55389363C08 Name="s_animation_node_mask" Alt="7917D9932E547AA5" Size="B4">
 		<_2 Name="name" Offset="0" />
 		<_E Name="flags" Offset="4" StructName1="NodeMaskFlags">
 			<Flag n="invert" />
@@ -750,7 +750,7 @@
 		<_2E Name="remove nodes" Offset="32" GUID="6F224C2252C3A3B1E0F3E55389363C08" StructName1="s_animation_node_mask" Min="0" Max="32" />
 		<_39 Name="node flags" Offset="34" GUID="31004754FA382E96C9AA134CA73B7ADD" Count="32" StructName1="node flags" />
 	</_6F224C2252C3A3B1E0F3E55389363C08>
-	<_0ED046283B0B92F2A8A93A27A1DBB76E Name="SoundEventReference" Size="60">
+	<_0ED046283B0B92F2A8A93A27A1DBB76E Name="SoundEventReference" Alt="C8FCCC4F8EB080E" Size="60">
 		<_41 Name="sound" Offset="0" Allowed="snd!" Flags="0" />
 		<_E Name="flags" Offset="1C" StructName1="c_animation_key_event_flags">
 			<Flag n="allow on player" />
@@ -768,7 +768,7 @@
 		<_41 Name="weapon" Offset="40" Allowed="weap" Flags="1" />
 		<_2 Name="weapon variant" Offset="5C" />
 	</_0ED046283B0B92F2A8A93A27A1DBB76E>
-	<_CA1C43884D6A825DD3DDF65DB4C05693 Name="EffectEventReference" Size="60">
+	<_CA1C43884D6A825DD3DDF65DB4C05693 Name="EffectEventReference" Alt="1017BA2AACC0FEE1" Size="60">
 		<_41 Name="effect" Offset="0" Allowed="effe" Flags="0" />
 		<_E Name="flags" Offset="1C" StructName1="c_animation_key_event_flags">
 			<Flag n="allow on player" />
@@ -786,10 +786,10 @@
 		<_41 Name="weapon" Offset="40" Allowed="weap" Flags="1" />
 		<_2 Name="weapon variant" Offset="5C" />
 	</_CA1C43884D6A825DD3DDF65DB4C05693>
-	<_6A2B4DED7A9DBE1FD964D836BE03214D Name="s_animation_node_mask_entry" Size="2">
+	<_6A2B4DED7A9DBE1FD964D836BE03214D Name="s_animation_node_mask_entry" Alt="3FCE588525BA034C" Size="2">
 		<_2E Name="node" Offset="0" GUID="A8A1454CA1BC3EC92CAC13688C893F2D" StructName1="s_animation_node_mask_entry" Min="0" Max="1024" />
 	</_6A2B4DED7A9DBE1FD964D836BE03214D>
-	<_31004754FA382E96C9AA134CA73B7ADD Name="NodeFlagStorageArray" Size="4">
+	<_31004754FA382E96C9AA134CA73B7ADD Name="NodeFlagStorageArray" Alt="304C17326DE81884" Size="4">
 		<_6 Name="flag data" Offset="0" />
 	</_31004754FA382E96C9AA134CA73B7ADD>
 </root>

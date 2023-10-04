@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="MotionTrackerAttachment" Parents="aTag" Index="-260">
-	<_62444B06B191D122066159CF9CB751A7 Name="i343::Units::MotionTrackerAttachmentDefinition" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="MotionTrackerAttachment" Parents="aTag" Index="-260">
+	<_62444B06B191D122066159CF9CB751A7 Name="i343::Units::MotionTrackerAttachmentDefinition" Alt="5AC1F40825444BB6" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Visibility Overrides" Offset="10" GUID="3A2E4E59FE7C0AF9D6456114B8FDA666" StructName1="i343::Units::MotionTrackerAttachmentDefinition" Min="0" Max="1" />
 		<_34 Name="generated_padb628" Offset="24" Length="4" />
 	</_62444B06B191D122066159CF9CB751A7>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_3A2E4E59FE7C0AF9D6456114B8FDA666 Name="i343::Units::MotionTrackerAttachmentVisibilityOverrides" Size="C">
+	<_3A2E4E59FE7C0AF9D6456114B8FDA666 Name="i343::Units::MotionTrackerAttachmentVisibilityOverrides" Alt="E819C5F814DBD5F0" Size="C">
 		<_F Name="visibilityFlags" Offset="0" StructName1="i343::Units::MotionTrackerVisibilityOverrideFlags">
 			<Flag n="close" />
 			<Flag n="mid" />
@@ -20,8 +20,8 @@
 		<_8 Name="sector visibility yaw threshold" Offset="4" />
 		<_8 Name="blip visibility yaw threshold" Offset="8" />
 	</_3A2E4E59FE7C0AF9D6456114B8FDA666>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

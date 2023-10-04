@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="AmbientActionPointDefinitionTag" Parents="aTag" Index="-6">
-	<_A0EF4DD7F0130B08BC29D80BA0DA92E4 Name="AmbientActionPointDefinition" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="AmbientActionPointDefinitionTag" Parents="aTag" Index="-6">
+	<_A0EF4DD7F0130B08BC29D80BA0DA92E4 Name="AmbientActionPointDefinition" Alt="50BCEAE796EAC190" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Ambient Info" Offset="10" GUID="EFFE48AE2E60A80B0CA20619AC10EA61" StructName1="AmbientActionPointDefinition" Min="0" Max="512" />
 		<_34 Name="generated_padc9b5" Offset="24" Length="4" />
 	</_A0EF4DD7F0130B08BC29D80BA0DA92E4>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_EFFE48AE2E60A80B0CA20619AC10EA61 Name="AmbientActionInfo" Size="7C">
+	<_EFFE48AE2E60A80B0CA20619AC10EA61 Name="AmbientActionInfo" Alt="1154EAF3403BA9B9" Size="7C">
 		<_A Name="desire type" Offset="0" StructName1="i343::InteractiveObjects::InteractiveDesire">
 			<Flag n="Scripted" />
 			<Flag n="Health" />
@@ -110,11 +110,11 @@
 		<_14 Name="Max Enemy Target Distance" Offset="74" />
 		<_14 Name="Max Height Difference" Offset="78" />
 	</_EFFE48AE2E60A80B0CA20619AC10EA61>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_66974B5B7A236D95F43A8A409414695B Name="s_object_meta_label" Size="4">
+	<_66974B5B7A236D95F43A8A409414695B Name="s_object_meta_label" Alt="470D21C1A8F5C28C" Size="4">
 		<_2 Name="meta label" Offset="0" />
 	</_66974B5B7A236D95F43A8A409414695B>
 </root>

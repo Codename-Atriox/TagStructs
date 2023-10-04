@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="model" Parents="aTag" Index="-203">
-	<_C76C4EA3AB569A7ED006A3D899F00227 Name="s_model_definition" Size="438">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="model" Parents="aTag" Index="-203">
+	<_C76C4EA3AB569A7ED006A3D899F00227 Name="s_model_definition" Alt="34AC1274F9738849" Size="438">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="MODEL" Offset="10" />
 		<_37 Name="" type="hlmt" Offset="10" />
@@ -88,14 +88,14 @@
 		<_34 Name="generated_pad57cd" Offset="42C" Length="4" />
 		<_7 Name="reload hash" Offset="430" />
 	</_C76C4EA3AB569A7ED006A3D899F00227>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_1F374D1647361323C3A9FFA497C34802 Name="LODTransitionDistanceBlock" Size="4">
+	<_1F374D1647361323C3A9FFA497C34802 Name="LODTransitionDistanceBlock" Alt="730E14104A1A8097" Size="4">
 		<_14 Name="lodTransitionDistance" Offset="0" />
 	</_1F374D1647361323C3A9FFA497C34802>
-	<_7412487A539CDDB4C3AAF51091B85DAA Name="variant" Name2="s_model_variant" Size="16C">
+	<_7412487A539CDDB4C3AAF51091B85DAA Name="variant" Name2="s_model_variant" Alt="E9D818024290C84D" Size="16C">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="style" Offset="4" />
 		<_6 Name="Damage Style Index" Offset="8" />
@@ -122,10 +122,10 @@
 		<_41 Name="Object Lightmap" Offset="13C" Allowed="stlm" Flags="0" />
 		<_40 Name="Object Cubemap set" Offset="158" GUID="D1CE481ABA187D43BE71513CBC6C9C8B" StructName1="variant" StructName2="s_model_variant" Min="0" Max="1048576" />
 	</_7412487A539CDDB4C3AAF51091B85DAA>
-	<_C2D24E95D0B3901BE9133E8486D47E0D Name="RegionNameBlock" Size="4">
+	<_C2D24E95D0B3901BE9133E8486D47E0D Name="RegionNameBlock" Alt="3072AD7F57A025AD" Size="4">
 		<_2 Name="name" Offset="0" />
 	</_C2D24E95D0B3901BE9133E8486D47E0D>
-	<_8B7E4FD99D7DA35AB415A6809C66D02E Name="material" Name2="s_model_material" Size="14">
+	<_8B7E4FD99D7DA35AB415A6809C66D02E Name="material" Name2="s_model_material" Alt="65831D49CC8C3CCB" Size="14">
 		<_2 Name="material name" Offset="0" />
 		<_2E Name="damage section" Offset="4" GUID="EE1D49A5B8F6D2FDFE09380EA82B01A4" StructName1="material" StructName2="s_model_material" Min="0" Max="32" />
 		<_5 Name="runtime collision material index" Offset="6" />
@@ -135,7 +135,7 @@
 		<_5 Name="runtime global material index" Offset="10" />
 		<_34 Name="generated_pad40f0" Offset="12" Length="2" />
 	</_8B7E4FD99D7DA35AB415A6809C66D02E>
-	<_560E438EF8EA703F1C77B3F2903E0A00 Name="s_model_damage_info" Size="F4">
+	<_560E438EF8EA703F1C77B3F2903E0A00 Name="s_model_damage_info" Alt="AC8F85AAA96F24CB" Size="F4">
 		<_D Name="flags" Offset="0" StructName1="c_damage_info_flags">
 			<Flag n="takes shield damage for children" />
 			<Flag n="takes body damage for children" />
@@ -172,7 +172,7 @@
 		<_40 Name="damage seats" Offset="CC" GUID="CAA541C0F8A6BCA3FED5C84DA3EBD6F5" StructName1="s_model_damage_info" Min="0" Max="16" />
 		<_40 Name="damage constraints" Offset="E0" GUID="6DBB4594B2695CA4292B27638CD7C095" StructName1="s_model_damage_info" Min="0" Max="16" />
 	</_560E438EF8EA703F1C77B3F2903E0A00>
-	<_847E4BBC887578F532304069BE3F2152 Name="s_new_model_damage_info" Size="CC">
+	<_847E4BBC887578F532304069BE3F2152 Name="s_new_model_damage_info" Alt="E950E3493563F85B" Size="CC">
 		<_36 Name="Damage Info" Offset="0" />
 		<_D Name="flags" Offset="0" StructName1="c_new_damage_info_flags">
 			<Flag n="takes damage for children" />
@@ -194,7 +194,7 @@
 		<_36 Name="Malleable Properties" Offset="68" />
 		<_38 Name="properties" Offset="68" GUID="D78C406398CB1A2FE56515918737018B" />
 	</_847E4BBC887578F532304069BE3F2152>
-	<_A1CC4756BDD4E4FE1698A8A6B5EEDB07 Name="i343::Model::ModelTarget" Size="28">
+	<_A1CC4756BDD4E4FE1698A8A6B5EEDB07 Name="i343::Model::ModelTarget" Alt="7A812DA0513A1E46" Size="28">
 		<_F Name="flags" Offset="0" StructName1="i343::Model::ModelTargetFlags">
 			<Flag n="aoe top level" />
 			<Flag n="aoe test obstruction" />
@@ -227,14 +227,14 @@
 		<_14 Name="aoe exclusion radius" Offset="1C" />
 		<_38 Name="lock-on data" Offset="20" GUID="BE794507CEA3CA60DA65D0C9A7FDA057" />
 	</_A1CC4756BDD4E4FE1698A8A6B5EEDB07>
-	<_9CA248F74E1EFAA1C7A5C1A49223106F Name="s_model_region" Size="1C">
+	<_9CA248F74E1EFAA1C7A5C1A49223106F Name="s_model_region" Alt="A9B69929B336B8D6" Size="1C">
 		<_2 Name="name" Offset="0" />
 		<_4 Name="collision region index" Offset="4" />
 		<_4 Name="physics region index" Offset="5" />
 		<_34 Name="generated_pad1fd6" Offset="6" Length="2" />
 		<_40 Name="permutations" Offset="8" GUID="63CE420772671B5F3EB1033FBE9A29D5" StructName1="s_model_region" Min="0" Max="1023" />
 	</_9CA248F74E1EFAA1C7A5C1A49223106F>
-	<_F8384408E5E9FB0128E7E6F4AFEC9EFF Name="s_model_node" Size="5C">
+	<_F8384408E5E9FB0128E7E6F4AFEC9EFF Name="s_model_node" Alt="3A7093EDDCF5550C" Size="5C">
 		<_2 Name="name" Offset="0" />
 		<_2E Name="parent node" Offset="4" GUID="F8384408E5E9FB0128E7E6F4AFEC9EFF" StructName1="s_model_node" Min="0" Max="1024" />
 		<_2E Name="first child node" Offset="6" GUID="F8384408E5E9FB0128E7E6F4AFEC9EFF" StructName1="s_model_node" Min="0" Max="1024" />
@@ -248,30 +248,30 @@
 		<_19 Name="default inverse up" Offset="44" />
 		<_17 Name="default inverse position" Offset="50" />
 	</_F8384408E5E9FB0128E7E6F4AFEC9EFF>
-	<_49BE4103F21882DF9448B9E696641075 Name="ModelVariantOverrideDef" Size="10">
+	<_49BE4103F21882DF9448B9E696641075 Name="ModelVariantOverrideDef" Alt="90EEBAC98E77CCC0" Size="10">
 		<_2 Name="base variant" Offset="0" />
 		<_2 Name="override a" Offset="4" />
 		<_2 Name="override b" Offset="8" />
 		<_2 Name="override c" Offset="C" />
 	</_49BE4103F21882DF9448B9E696641075>
-	<_DA524251CD3E056D682D12D197620ADE Name="TeammateChatterDialogueBlockDefinition" Size="1C">
+	<_DA524251CD3E056D682D12D197620ADE Name="TeammateChatterDialogueBlockDefinition" Alt="C8C55D08990D24CD" Size="1C">
 		<_41 Name="teammate chatter dialogue" Offset="0" Allowed="udlg" Flags="4" />
 	</_DA524251CD3E056D682D12D197620ADE>
-	<_8CE644ADF5772C5979ED0CC19F47CE56 Name="SpecialDialogueBlockDefinition" Size="20">
+	<_8CE644ADF5772C5979ED0CC19F47CE56 Name="SpecialDialogueBlockDefinition" Alt="D38436971578B35F" Size="20">
 		<_2 Name="identifier" Offset="0" />
 		<_41 Name="special dialogue" Offset="4" Allowed="udlg" Flags="4" />
 	</_8CE644ADF5772C5979ED0CC19F47CE56>
-	<_31004754FA382E96C9AA134CA73B7ADD Name="NodeFlagStorageArray" Size="4">
+	<_31004754FA382E96C9AA134CA73B7ADD Name="NodeFlagStorageArray" Alt="304C17326DE81884" Size="4">
 		<_6 Name="flag data" Offset="0" />
 	</_31004754FA382E96C9AA134CA73B7ADD>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_87E64985698D671CF3EAE84E8D63EF05 Name="RuntimeRegionIndex" Size="1">
+	<_87E64985698D671CF3EAE84E8D63EF05 Name="RuntimeRegionIndex" Alt="9370A28FBC936B8" Size="1">
 		<_4 Name="runtime region index" Offset="0" />
 	</_87E64985698D671CF3EAE84E8D63EF05>
-	<_05F64F74070F6AFA12F8BD5CBAFFFFE6 Name="region" Name2="s_model_variant_region" Size="20">
+	<_05F64F74070F6AFA12F8BD5CBAFFFFE6 Name="region" Name2="s_model_variant_region" Alt="956A6066C4C39FC5" Size="20">
 		<_2 Name="region name" Offset="0" />
 		<_4 Name="runtime region index" Offset="4" />
 		<_3C Name="runtime flags" Offset="5" />
@@ -293,7 +293,7 @@
 		</_B>
 		<_34 Name="generated_pade9d0" Offset="1E" Length="2" />
 	</_05F64F74070F6AFA12F8BD5CBAFFFFE6>
-	<_EAD546C386B36FDB34938689B0190BC3 Name="object" Name2="i343::Model::ModelVariantObject" Size="48">
+	<_EAD546C386B36FDB34938689B0190BC3 Name="object" Name2="i343::Model::ModelVariantObject" Alt="D71AFC5962BFF0ED" Size="48">
 		<_37 Name="" type="amkr" Offset="0" />
 		<_2 Name="parent marker" Offset="0" />
 		<_37 Name="" type="amkr" Offset="4" />
@@ -308,7 +308,7 @@
 		</_F>
 		<_34 Name="generated_padd065" Offset="47" Length="1" />
 	</_EAD546C386B36FDB34938689B0190BC3>
-	<_F773409B74B26D9D525AC5EA87FC4CEA Name="i343::Objects::ObjectNodeGraphDefinition" Size="24">
+	<_F773409B74B26D9D525AC5EA87FC4CEA Name="i343::Objects::ObjectNodeGraphDefinition" Alt="3907973BD3A74A62" Size="24">
 		<_2 Name="Name" Offset="0" />
 		<_41 Name="Exported Node Graph" Offset="4" Allowed="xong" Flags="0" />
 		<_F Name="Flags" Offset="20" StructName1="ObjectNodeGraphFlags">
@@ -323,10 +323,10 @@
 		</_A>
 		<_34 Name="generated_pad8671" Offset="22" Length="2" />
 	</_F773409B74B26D9D525AC5EA87FC4CEA>
-	<_5A714A16FBAAF7D3C70FEEF59A3638D1 Name="muted node" Name2="ModelVariantMutedNodeBlock" Size="4">
+	<_5A714A16FBAAF7D3C70FEEF59A3638D1 Name="muted node" Name2="ModelVariantMutedNodeBlock" Alt="BE83AB4E92E7833F" Size="4">
 		<_2 Name="node name" Offset="0" />
 	</_5A714A16FBAAF7D3C70FEEF59A3638D1>
-	<_D1CE481ABA187D43BE71513CBC6C9C8B Name="CubemapVolume" Size="120">
+	<_D1CE481ABA187D43BE71513CBC6C9C8B Name="CubemapVolume" Alt="ACE679F3120A235B" Size="120">
 		<_2 Name="Name" Offset="0" />
 		<_6 Name="Guid" Offset="4" />
 		<_D Name="Flags" Offset="8" StructName1="CubemapFlagsClass">
@@ -380,7 +380,7 @@
 		</_B>
 		<_14 Name="Relevancy Radius" Offset="11C" />
 	</_D1CE481ABA187D43BE71513CBC6C9C8B>
-	<_EE1D49A5B8F6D2FDFE09380EA82B01A4 Name="s_new_model_damage_section" Size="130">
+	<_EE1D49A5B8F6D2FDFE09380EA82B01A4 Name="s_new_model_damage_section" Alt="14A39FE0CB5AC4BB" Size="130">
 		<_2 Name="name" Offset="0" />
 		<_A Name="damage part" Offset="4" StructName1="DamagePart">
 			<Flag n="gut" />
@@ -465,14 +465,14 @@
 		<_5 Name="runtime resurrection restored region index" Offset="12C" />
 		<_5 Name="runtime global shield material type" Offset="12E" />
 	</_EE1D49A5B8F6D2FDFE09380EA82B01A4>
-	<_9A4245E733ECAC95413516E88F244955 Name="DamageBodyParameters" Size="14">
+	<_9A4245E733ECAC95413516E88F244955 Name="DamageBodyParameters" Alt="B37BB1C08B6CC5E8" Size="14">
 		<_14 Name="maximum vitality" Offset="0" />
 		<_14 Name="minimum stun damage" Offset="4" />
 		<_14 Name="stun time" Offset="8" />
 		<_14 Name="recharge time" Offset="C" />
 		<_15 Name="recharge fraction" Offset="10" />
 	</_9A4245E733ECAC95413516E88F244955>
-	<_F030462CD30C88ACA6F752C19536E894 Name="DamageShieldParameters" Size="74">
+	<_F030462CD30C88ACA6F752C19536E894 Name="DamageShieldParameters" Alt="D984B3BA8C8105E4" Size="74">
 		<_14 Name="maximum shield vitality" Offset="0" />
 		<_2 Name="global shield material name" type="sted" Offset="4" />
 		<_14 Name="minimum stun damage" Offset="8" />
@@ -485,7 +485,7 @@
 		<_41 Name="shield depleted effect" Offset="3C" Allowed="effe" Flags="0" />
 		<_41 Name="shield recharging effect" Offset="58" Allowed="effe" Flags="0" />
 	</_F030462CD30C88ACA6F752C19536E894>
-	<_C6584BCA62D3077B989EB4F19A4E7C7A Name="s_model_damage_section" Size="34">
+	<_C6584BCA62D3077B989EB4F19A4E7C7A Name="s_model_damage_section" Alt="D05953DD2741F735" Size="34">
 		<_2 Name="name" Offset="0" />
 		<_36 Name="damage section flags" Offset="4" />
 		<_D Name="flags" Offset="4" StructName1="c_old_damage_section_flags">
@@ -511,10 +511,10 @@
 		<_5 Name="runtime resurrection restored region index" Offset="30" />
 		<_34 Name="generated_padab79" Offset="32" Length="2" />
 	</_C6584BCA62D3077B989EB4F19A4E7C7A>
-	<_7C0A40E13736D0B422F811F0A4811152 Name="s_damage_node" Size="2">
+	<_7C0A40E13736D0B422F811F0A4811152 Name="s_damage_node" Alt="B795BF8ED4399F34" Size="2">
 		<_5 Name="runtime damage part" Offset="0" />
 	</_7C0A40E13736D0B422F811F0A4811152>
-	<_CAA541C0F8A6BCA3FED5C84DA3EBD6F5 Name="s_damage_seat_info" Size="28">
+	<_CAA541C0F8A6BCA3FED5C84DA3EBD6F5 Name="s_damage_seat_info" Alt="6BA1350C1AC7D4C3" Size="28">
 		<_2 Name="seat label" Offset="0" />
 		<_15 Name="direct damage scale" Offset="4" />
 		<_14 Name="damage transfer fall-off radius" Offset="8" />
@@ -522,7 +522,7 @@
 		<_14 Name="minimum transfer damage scale" Offset="10" />
 		<_40 Name="region-specific-damage" Offset="14" GUID="C1A14C1E11C1834D8A6494539BB6EFBD" StructName1="s_damage_seat_info" Min="0" Max="1" />
 	</_CAA541C0F8A6BCA3FED5C84DA3EBD6F5>
-	<_6DBB4594B2695CA4292B27638CD7C095 Name="s_damage_constraint_info" Size="14">
+	<_6DBB4594B2695CA4292B27638CD7C095 Name="s_damage_constraint_info" Alt="79698EC9C729A20" Size="14">
 		<_2 Name="physics model constraint name" Offset="0" />
 		<_2 Name="damage constraint name" Offset="4" />
 		<_2 Name="damage constraint group name" Offset="8" />
@@ -530,7 +530,7 @@
 		<_5 Name="runtime constraint type" Offset="10" />
 		<_5 Name="runtime constraint index" Offset="12" />
 	</_6DBB4594B2695CA4292B27638CD7C095>
-	<_D78C406398CB1A2FE56515918737018B Name="i343::Damage::DamageableComponentPropertiesDefinition" Size="64">
+	<_D78C406398CB1A2FE56515918737018B Name="i343::Damage::DamageableComponentPropertiesDefinition" Alt="3DAF92891C378EFD" Size="64">
 		<_37 Name="max overshield scalar" type="mpfi" Offset="0" />
 		<_38 Name="max overshield scalar" Offset="0" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
 		<_37 Name="overshield decay rate base scalar" type="mpfi" Offset="C" />
@@ -544,12 +544,12 @@
 		<_38 Name="aoe damage resistance" Offset="34" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
 		<_38 Name="overshield information" Offset="40" GUID="37874EA78A79DE8F6C405174B16821C2" />
 	</_D78C406398CB1A2FE56515918737018B>
-	<_BE794507CEA3CA60DA65D0C9A7FDA057 Name="i343::Model::ModelTargetLockOnData" Size="8">
+	<_BE794507CEA3CA60DA65D0C9A7FDA057 Name="i343::Model::ModelTargetLockOnData" Alt="8C7263D6BC98B7B3" Size="8">
 		<_36 Name="lock-on fields" Offset="0" />
 		<_14 Name="lock on distance" Offset="0" />
 		<_2 Name="tracking type" Offset="4" />
 	</_BE794507CEA3CA60DA65D0C9A7FDA057>
-	<_63CE420772671B5F3EB1033FBE9A29D5 Name="s_model_permutation" Size="8">
+	<_63CE420772671B5F3EB1033FBE9A29D5 Name="s_model_permutation" Alt="90DB2F4AFD3533D6" Size="8">
 		<_2 Name="name" Offset="0" />
 		<_F Name="flags" Offset="4" StructName1="PermutationFlags">
 			<Flag n="cannot be chosen randomly" />
@@ -558,7 +558,7 @@
 		<_4 Name="physics permutation index" Offset="6" />
 		<_34 Name="generated_padf2b8" Offset="7" Length="1" />
 	</_63CE420772671B5F3EB1033FBE9A29D5>
-	<_1D7045CC4ED990046C3550AD98959600 Name="permutation" Name2="s_model_variant_permutation" Size="2C">
+	<_1D7045CC4ED990046C3550AD98959600 Name="permutation" Name2="s_model_variant_permutation" Alt="80E47791D1A2B689" Size="2C">
 		<_2 Name="permutation name" Offset="0" />
 		<_3E Name="runtime permutation index" Offset="4" />
 		<_F Name="flags" Offset="8" StructName1="VariantPermutationFlags">
@@ -570,7 +570,7 @@
 		<_39 Name="runtime state permutation indices" Offset="24" GUID="148440EA42CDCB9BB3C86C53B21C6D08" Count="5" StructName1="runtime state permutation indices" />
 		<_34 Name="generated_pad22bf" Offset="29" Length="3" />
 	</_1D7045CC4ED990046C3550AD98959600>
-	<_B3764EDA2FF9A01B1E7F95ADB70B64FE Name="s_scenario_dumpling" Size="4C">
+	<_B3764EDA2FF9A01B1E7F95ADB70B64FE Name="s_scenario_dumpling" Alt="3DC91D8E63BB3996" Size="4C">
 		<_40 Name="inner points" Offset="0" GUID="9AAD49315B797CB13AE0B8EFA4D67F82" StructName1="s_scenario_dumpling" Min="0" Max="128" />
 		<_40 Name="outer points" Offset="14" GUID="9AAD49315B797CB13AE0B8EFA4D67F82" StructName1="s_scenario_dumpling" Min="0" Max="128" />
 		<_14 Name="height" Offset="28" />
@@ -581,22 +581,22 @@
 		<_14 Name="trivial cull radius squared" Offset="44" />
 		<_14 Name="bound volume" Offset="48" />
 	</_B3764EDA2FF9A01B1E7F95ADB70B64FE>
-	<_CAFD409521D5D5297D81B801A0BADD13 Name="EditorMetadata" Size="10C">
+	<_CAFD409521D5D5297D81B801A0BADD13 Name="EditorMetadata" Alt="8896C3D79F347A73" Size="10C">
 		<_1 Name="folder name" Offset="0" />
 		<_17 Name="local space pivot point position" Offset="100" />
 	</_CAFD409521D5D5297D81B801A0BADD13>
-	<_DB6340E6F8D8B4A163AE2E8B97EA8CBB Name="i343::MalleableProperty::BaseFloatStructDefinition" Size="C">
+	<_DB6340E6F8D8B4A163AE2E8B97EA8CBB Name="i343::MalleableProperty::BaseFloatStructDefinition" Alt="A276DB883D38A54E" Size="C">
 		<_14 Name="Base Value" Offset="0" />
 		<_25 Name="Value Bounds" Offset="4" />
 	</_DB6340E6F8D8B4A163AE2E8B97EA8CBB>
-	<_DC9D498C93ADFC1417FF6AD8AF3BA884 Name="s_damage_section_recharge_speed_multiplier_curve" Size="18">
+	<_DC9D498C93ADFC1417FF6AD8AF3BA884 Name="s_damage_section_recharge_speed_multiplier_curve" Alt="67A5D19DEE446F83" Size="18">
 		<_37 Name="Mapping" type="fned" Offset="0" />
 		<_38 Name="Mapping" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_DC9D498C93ADFC1417FF6AD8AF3BA884>
-	<_69D54EC5974937E753C817CEB34261A9 Name="DamageSectionSegmentedRechargeFractionBlock" Size="4">
+	<_69D54EC5974937E753C817CEB34261A9 Name="DamageSectionSegmentedRechargeFractionBlock" Alt="CB1CD7B8F6FCEC" Size="4">
 		<_15 Name="vitality percentage" Offset="0" />
 	</_69D54EC5974937E753C817CEB34261A9>
-	<_E3724DAB559D19CAFF415CD4B0CCAE0B Name="s_new_instantaneous_damage_response" Size="1B8">
+	<_E3724DAB559D19CAFF415CD4B0CCAE0B Name="s_new_instantaneous_damage_response" Alt="7C2E2F93CE502B60" Size="1B8">
 		<_D Name="flags" type="dumb" Offset="0" StructName1="NewDamageResponseFlagsSchemaPart1">
 			<Flag n="kills object" />
 			<Flag n="inhibits melee attack" />
@@ -689,7 +689,7 @@
 			<Flag n="vehicle damage state worsens" />
 		</_C>
 	</_E3724DAB559D19CAFF415CD4B0CCAE0B>
-	<_7BE043FAD77922D660490EB9B5E62CE4 Name="s_damage_transfer" Size="18">
+	<_7BE043FAD77922D660490EB9B5E62CE4 Name="s_damage_transfer" Alt="9D133EE3550E3CCE" Size="18">
 		<_D Name="flags" Offset="0" StructName1="DamageTransferFlags">
 			<Flag n="transfer damage to damage section" />
 			<Flag n="transfer damage to parent" />
@@ -715,11 +715,11 @@
 		<_2E Name="damage section" Offset="12" GUID="EE1D49A5B8F6D2FDFE09380EA82B01A4" StructName1="s_damage_transfer" Min="0" Max="32" />
 		<_2 Name="seat label" Offset="14" />
 	</_7BE043FAD77922D660490EB9B5E62CE4>
-	<_E53A427754A5FE0B9F92413195555319 Name="s_damage_section_rendering_parameters" Size="38">
+	<_E53A427754A5FE0B9F92413195555319 Name="s_damage_section_rendering_parameters" Alt="9C2B93C2D4051079" Size="38">
 		<_41 Name="3rd person impact parameters (Generator)" Offset="0" Allowed="efge" Flags="0" />
 		<_41 Name="1st person impact parameters (Generator)" Offset="1C" Allowed="efge" Flags="0" />
 	</_E53A427754A5FE0B9F92413195555319>
-	<_10DE4CDB2A8C9E6BBB69FEED9C2F98C4 Name="s_instantaneous_damage_response" Size="C8">
+	<_10DE4CDB2A8C9E6BBB69FEED9C2F98C4 Name="s_instantaneous_damage_response" Alt="6833E6720D0A2C6C" Size="C8">
 		<_B Name="response type" Offset="0" StructName1="DamageResponseType">
 			<Flag n="receives all damage" />
 			<Flag n="receives area effect damage" />
@@ -825,7 +825,7 @@
 		<_36 Name="total damage threshold" Offset="C4" />
 		<_15 Name="total damage threshold" Offset="C4" />
 	</_10DE4CDB2A8C9E6BBB69FEED9C2F98C4>
-	<_C1A14C1E11C1834D8A6494539BB6EFBD Name="s_damage_seat_region_setting" Size="2C">
+	<_C1A14C1E11C1834D8A6494539BB6EFBD Name="s_damage_seat_region_setting" Alt="EE5B96F4447FB3D7" Size="2C">
 		<_36 Name="region-state-specific-damage" Offset="0" />
 		<_2 Name="damage region name" Offset="0" />
 		<_5 Name="runtime damage region index" Offset="4" />
@@ -840,14 +840,14 @@
 		<_14 Name="Max. transfer scale (major)" Offset="24" />
 		<_14 Name="min. transfer scale (major)" Offset="28" />
 	</_C1A14C1E11C1834D8A6494539BB6EFBD>
-	<_37874EA78A79DE8F6C405174B16821C2 Name="i343::Damage::OvershieldInformation" Size="24">
+	<_37874EA78A79DE8F6C405174B16821C2 Name="i343::Damage::OvershieldInformation" Alt="B74BA5B8799D73B1" Size="24">
 		<_37 Name="Overshield" type="fgrb" Offset="0" />
 		<_14 Name="decay rate " Offset="0" />
 		<_14 Name="stun time scalar [0, n] " Offset="4" />
 		<_41 Name="Generic modifiers" Offset="8" Allowed="gmpm" Flags="0" />
 		<_37 Name="" type="fgre" Offset="24" />
 	</_37874EA78A79DE8F6C405174B16821C2>
-	<_C81742A9DD3D5ACB4A18CA81911C9F78 Name="s_model_variant_state" Size="C">
+	<_C81742A9DD3D5ACB4A18CA81911C9F78 Name="s_model_variant_state" Alt="CF256A12AC1CDD62" Size="C">
 		<_2 Name="permutation name" Offset="0" />
 		<_4 Name="runtime permutation index" Offset="4" />
 		<_F Name="property flags" Offset="5" StructName1="ModelStatePropertyFlags">
@@ -865,27 +865,27 @@
 		</_B>
 		<_15 Name="initial probability" Offset="8" />
 	</_C81742A9DD3D5ACB4A18CA81911C9F78>
-	<_148440EA42CDCB9BB3C86C53B21C6D08 Name="ModelStatePermutationIndex" Size="1">
+	<_148440EA42CDCB9BB3C86C53B21C6D08 Name="ModelStatePermutationIndex" Alt="14DE4E1FB1F58688" Size="1">
 		<_4 Name="runtime permutation index" Offset="0" />
 	</_148440EA42CDCB9BB3C86C53B21C6D08>
-	<_9AAD49315B797CB13AE0B8EFA4D67F82 Name="s_dumpling_sector_point" Size="C">
+	<_9AAD49315B797CB13AE0B8EFA4D67F82 Name="s_dumpling_sector_point" Alt="6A2D0015D2EC1E90" Size="C">
 		<_17 Name="position" Offset="0" />
 	</_9AAD49315B797CB13AE0B8EFA4D67F82>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
-	<_EF89412C9F11D1BDACD4738880993F43 Name="VariantSpecificationBlock" Size="4">
+	<_EF89412C9F11D1BDACD4738880993F43 Name="VariantSpecificationBlock" Alt="E94496B605D18028" Size="4">
 		<_2 Name="name" Offset="0" />
 	</_EF89412C9F11D1BDACD4738880993F43>
-	<_451A491416BAF7617244DA1EB508138C Name="InstantaneousResponseDamageEffect" Size="1C">
+	<_451A491416BAF7617244DA1EB508138C Name="InstantaneousResponseDamageEffect" Alt="91E16D916B291B4" Size="1C">
 		<_41 Name="transition damage effect" Offset="0" Allowed="jpt!" Flags="0" />
 	</_451A491416BAF7617244DA1EB508138C>
-	<_C8664D2F6272DDC9B0C9B9DFB77E21BC Name="InstantaneousResponseDamageEffectMarker" Size="4">
+	<_C8664D2F6272DDC9B0C9B9DFB77E21BC Name="InstantaneousResponseDamageEffectMarker" Alt="91F46F1CF554F430" Size="4">
 		<_2 Name="damage effect marker name" Offset="0" />
 	</_C8664D2F6272DDC9B0C9B9DFB77E21BC>
-	<_2463448AAB37ECDD6A0B2580A416FEB5 Name="s_region_transition" Size="8">
+	<_2463448AAB37ECDD6A0B2580A416FEB5 Name="s_region_transition" Alt="6F077AB3F240DF63" Size="8">
 		<_2 Name="region" Offset="0" />
 		<_B Name="new state" Offset="4" StructName1="ModelStates">
 			<Flag n="default" />
@@ -896,7 +896,7 @@
 		</_B>
 		<_5 Name="runtime region index" Offset="6" />
 	</_2463448AAB37ECDD6A0B2580A416FEB5>
-	<_2CBA40A26CB868BBCA96880DAEB08A95 Name="SeatEjectionBlock" Size="4">
+	<_2CBA40A26CB868BBCA96880DAEB08A95 Name="SeatEjectionBlock" Alt="9D55AA80B809241C" Size="4">
 		<_2 Name="seat label" Offset="0" />
 	</_2CBA40A26CB868BBCA96880DAEB08A95>
 </root>

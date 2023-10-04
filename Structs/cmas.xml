@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="CoatingStyle" Parents="aTag" Index="-63">
-	<_35C94279083E272B1C16864D819AE17D Name="CoatingStyleTag" Size="70">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="CoatingStyle" Parents="aTag" Index="-63">
+	<_35C94279083E272B1C16864D819AE17D Name="CoatingStyleTag" Alt="AA0CCA9EE8F1BC72" Size="70">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Parent" type="parr" Offset="10" Allowed="cmas" Flags="1" />
 		<_40 Name="Swatch Palette" Offset="2C" GUID="DA124CD3B1E94BCAD22F3A20B5107F13" StructName1="CoatingStyleTag" Min="0" Max="2048" />
@@ -16,11 +16,11 @@
 		<_34 Name="generated_pad6b77" Offset="6A" Length="2" />
 		<_14 Name="Grime Amount" Offset="6C" />
 	</_35C94279083E272B1C16864D819AE17D>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_DA124CD3B1E94BCAD22F3A20B5107F13 Name="CoatingPaletteInfo" Size="80">
+	<_DA124CD3B1E94BCAD22F3A20B5107F13 Name="CoatingPaletteInfo" Alt="CA87E80C93E23F30" Size="80">
 		<_3F Name="elementID" Offset="0" />
 		<_2 Name="Description" Offset="8" />
 		<_41 Name="Swatch" Offset="C" Allowed="cmsw" Flags="4" />
@@ -80,25 +80,25 @@
 		<_37 Name="" type="fgre" Offset="7A" />
 		<_34 Name="generated_pad8179" Offset="7A" Length="6" />
 	</_DA124CD3B1E94BCAD22F3A20B5107F13>
-	<_9B064E6610D050A7486790E598C55C22 Name="CoatingStyleRegion" Size="50">
+	<_9B064E6610D050A7486790E598C55C22 Name="CoatingStyleRegion" Alt="2574A7895FE04319" Size="50">
 		<_3F Name="elementID" Offset="0" />
 		<_2 Name="Region Group Name" Offset="8" />
 		<_40 Name="Region Membership" Offset="C" GUID="BDDA4318C4AF607F976BD52A8011539C" StructName1="CoatingStyleRegion" Min="0" Max="2048" />
 		<_40 Name="Intention Overrides" Offset="20" GUID="165346F083B876E25017498C862C719A" StructName1="CoatingStyleRegion" Min="0" Max="2048" />
 		<_41 Name="Shader Override" Offset="34" Allowed="cwms" Flags="9" />
 	</_9B064E6610D050A7486790E598C55C22>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_BDDA4318C4AF607F976BD52A8011539C Name="CoatingStyleRegionName" Size="8">
+	<_BDDA4318C4AF607F976BD52A8011539C Name="CoatingStyleRegionName" Alt="67A69AA073D2F2EB" Size="8">
 		<_2 Name="Region Name" Offset="0" />
 		<_F Name="Override" Offset="4" StructName1="CoatingOverrideFlags">
 			<Flag n="Enable" />
 		</_F>
 		<_34 Name="generated_padc621" Offset="5" Length="3" />
 	</_BDDA4318C4AF607F976BD52A8011539C>
-	<_165346F083B876E25017498C862C719A Name="CoatingIntention" Size="8">
+	<_165346F083B876E25017498C862C719A Name="CoatingIntention" Alt="E53B2B240275A6D4" Size="8">
 		<_2 Name="Intention Name" Offset="0" />
 		<_F Name="Override" Offset="4" StructName1="CoatingOverrideFlags">
 			<Flag n="Enable" />

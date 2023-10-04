@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:10 PM" Name="lens_flare" Parents="aTag" Index="-227">
-	<_EFC54593DA19E8C274E25FCBAB4A3192 Name="s_lens_flare_definition" Size="140">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="lens_flare" Parents="aTag" Index="-227">
+	<_EFC54593DA19E8C274E25FCBAB4A3192 Name="s_lens_flare_definition" Alt="624525F3CFEECB8A" Size="140">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="LENS FLARE" Offset="10" />
 		<_8 Name="falloff angle" Offset="10" />
@@ -93,11 +93,11 @@
 		<_14 Name="aim down sight radius multiplier" Offset="138" />
 		<_34 Name="generated_pad85a7" Offset="13C" Length="4" />
 	</_EFC54593DA19E8C274E25FCBAB4A3192>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_B9824923A2DEA64CF01600059F297865 Name="LensFlareReflection" Size="12C">
+	<_B9824923A2DEA64CF01600059F297865 Name="LensFlareReflection" Alt="70CB0ED6A7BA6D82" Size="12C">
 		<_37 Name="" type="ifp+" Offset="0" />
 		<_2 Name="name" Offset="0" />
 		<_D Name="flags" Offset="4" StructName1="LensFlareReflection::Flags">
@@ -155,27 +155,27 @@
 		<_14 Name="tint power" Offset="128" />
 		<_37 Name="" type="ifp-" Offset="12C" />
 	</_B9824923A2DEA64CF01600059F297865>
-	<_AABD40BB70D821269D77D10BA37A03B0 Name="LensFlareScalarAnimation" Size="18">
+	<_AABD40BB70D821269D77D10BA37A03B0 Name="LensFlareScalarAnimation" Alt="22EE7EDCBE892319" Size="18">
 		<_38 Name="function" Offset="0" GUID="0276481E72CB9289F56D7C189467A351" />
 	</_AABD40BB70D821269D77D10BA37A03B0>
-	<_2A634A2FA0B6D1318BDC993A8DD9CB77 Name="LensFlareColorAnimation" Size="28">
+	<_2A634A2FA0B6D1318BDC993A8DD9CB77 Name="LensFlareColorAnimation" Alt="F432092C08EFFC2C" Size="28">
 		<_38 Name="color animation" Offset="0" GUID="54F94FD03DBB7F1A297A30789D24DA91" />
 	</_2A634A2FA0B6D1318BDC993A8DD9CB77>
-	<_14324DF68D7384609E632C1D9E349A2D Name="i343::Effects::GlobalLensFlareScaleFunction" Size="20">
+	<_14324DF68D7384609E632C1D9E349A2D Name="i343::Effects::GlobalLensFlareScaleFunction" Alt="F592D539091B8D6B" Size="20">
 		<_14 Name="near distance function start" Offset="0" />
 		<_14 Name="far distance function end" Offset="4" />
 		<_37 Name="Mapping" type="fned" Offset="8" />
 		<_38 Name="Mapping" Offset="8" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_14324DF68D7384609E632C1D9E349A2D>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_64B04BB2AB57F31A5FBBBA4285942B18 Name="i343::Effects::ScalarLensFlareReflectionFunction" Size="1C">
+	<_64B04BB2AB57F31A5FBBBA4285942B18 Name="i343::Effects::ScalarLensFlareReflectionFunction" Alt="16E67D07439DCEF0" Size="1C">
 		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="i343::Effects::LensFlareInputs">
 			<Flag n="Legacy" />
 			<Flag n="Time/Age" />
@@ -187,7 +187,7 @@
 		<_37 Name="Mapping" type="fned" Offset="4" />
 		<_38 Name="Mapping" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_64B04BB2AB57F31A5FBBBA4285942B18>
-	<_97974E141E64199D6EF0EFDFA41D5C8C Name="i343::Effects::ColorLensFlareReflectionFunction" Size="1C">
+	<_97974E141E64199D6EF0EFDFA41D5C8C Name="i343::Effects::ColorLensFlareReflectionFunction" Alt="D06E312F7BABD1D" Size="1C">
 		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="i343::Effects::LensFlareInputs">
 			<Flag n="Legacy" />
 			<Flag n="Time/Age" />
@@ -199,7 +199,7 @@
 		<_37 Name="Mapping" type="fned" Offset="4" />
 		<_38 Name="Mapping" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_97974E141E64199D6EF0EFDFA41D5C8C>
-	<_54F94FD03DBB7F1A297A30789D24DA91 Name="s_editing_function" Size="28">
+	<_54F94FD03DBB7F1A297A30789D24DA91 Name="s_editing_function" Alt="3097D38323B67342" Size="28">
 		<_2 Name="Input Variable" type="fnin" Offset="0" />
 		<_2 Name="Range Variable" type="fnir" Offset="4" />
 		<_B Name="Output Modifier" type="fnop" Offset="8" StructName1="s_editing_function::LensFlareOutputMod">
@@ -212,9 +212,9 @@
 		<_37 Name="Lens flare color editor" type="fned" Offset="10" />
 		<_38 Name="lens flare color mapping" Offset="10" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_54F94FD03DBB7F1A297A30789D24DA91>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

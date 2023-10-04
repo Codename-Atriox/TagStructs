@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="ForgeObjectData" Parents="aTag" Index="-157">
-	<_AD8A4F187C493BE0A3ACBE92A732D4D9 Name="ForgeEngine::ForgeObjectData" Size="220">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="ForgeObjectData" Parents="aTag" Index="-157">
+	<_AD8A4F187C493BE0A3ACBE92A732D4D9 Name="ForgeEngine::ForgeObjectData" Alt="EB36DD05047DF630" Size="220">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Static IO Representation" Offset="10" Allowed="aset, ftat" Flags="1" />
 		<_2 Name="Asset variant to be used with the Static IO Representation." Offset="2C" />
@@ -17,25 +17,25 @@
 		<_38 Name="scriptable properties" Offset="1A4" GUID="9A3E4FF2915AE3F75AE8EF15892E317F" />
 		<_34 Name="generated_pad285a" Offset="21C" Length="4" />
 	</_AD8A4F187C493BE0A3ACBE92A732D4D9>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_1A92483BAA2B35BB3CBA1D00B8B41AD3 Name="ForgeEngine::ForgeObjectDefinitionVariant" Size="5C">
+	<_1A92483BAA2B35BB3CBA1D00B8B41AD3 Name="ForgeEngine::ForgeObjectDefinitionVariant" Alt="CA8070C800415437" Size="5C">
 		<_2 Name="Representation Name" Offset="0" />
 		<_2 Name="Crate Variant" Offset="4" />
 		<_41 Name="Configuration" Offset="8" Allowed="vcdd, wcfg" Flags="0" />
 		<_41 Name="Object Definition (Crate)" Offset="24" Allowed="obje" Flags="4" />
 		<_41 Name="Menu Item Definitions" Offset="40" Allowed="fosp" Flags="0" />
 	</_1A92483BAA2B35BB3CBA1D00B8B41AD3>
-	<_D29644366B486064F5E0904685DC9936 Name="ForgeEngine::ForgeAssetVariant" Size="5C">
+	<_D29644366B486064F5E0904685DC9936 Name="ForgeEngine::ForgeAssetVariant" Alt="31DE44CA2D9B24A5" Size="5C">
 		<_2 Name="Variant Name" Offset="0" />
 		<_41 Name="Runtime Underlying Geo (Static IO)" Offset="4" Allowed="rtgo" Flags="4" />
 		<_41 Name="Runtime Underlying Collision Geo (Static IO)" Offset="20" Allowed="scgt" Flags="4" />
 		<_41 Name="Runtime Underlying Material Palette (Static IO)" Offset="3C" Allowed="rtmp" Flags="4" />
 		<_2 Name="Style" Offset="58" />
 	</_D29644366B486064F5E0904685DC9936>
-	<_69DA4175A73271D7A4896503B0844BA9 Name="ForgeEngine::ForgeObjectConfigOptions" Size="10C">
+	<_69DA4175A73271D7A4896503B0844BA9 Name="ForgeEngine::ForgeObjectConfigOptions" Alt="B8DD4084C18844D8" Size="10C">
 		<_E Name="Property Flags" Offset="0" StructName1="ForgeEngine::ForgeObjectDataPropertyFlags">
 			<Flag n="Yaw Rotation Only" />
 			<Flag n="Allow In-Game Variant Toggle" />
@@ -115,7 +115,7 @@
 		<_37 Name="" type="fgre" Offset="10C" />
 		<_37 Name="" type="fgre" Offset="10C" />
 	</_69DA4175A73271D7A4896503B0844BA9>
-	<_9A3E4FF2915AE3F75AE8EF15892E317F Name="s_property_collection" Size="78">
+	<_9A3E4FF2915AE3F75AE8EF15892E317F Name="s_property_collection" Alt="DAB9DE0B736F025" Size="78">
 		<_40 Name="bool properties" Offset="0" GUID="2FE7429C4EE726FBB489F288B4DD8A95" StructName1="s_property_collection" Min="0" Max="32" />
 		<_40 Name="numeric properties" Offset="14" GUID="936045522176C9FDA27104FC8512D854" StructName1="s_property_collection" Min="0" Max="32" />
 		<_40 Name="string properties" Offset="28" GUID="68024D2A459B882E2C55CE7BA4206A30" StructName1="s_property_collection" Min="0" Max="32" />
@@ -123,11 +123,11 @@
 		<_40 Name="color properties" Offset="50" GUID="1C434BAAA2EE0547067515C792E31E8C" StructName1="s_property_collection" Min="0" Max="32" />
 		<_40 Name="vector properties" Offset="64" GUID="CE834D444653F5B4FA256202B625D247" StructName1="s_property_collection" Min="0" Max="32" />
 	</_9A3E4FF2915AE3F75AE8EF15892E317F>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_063047F72EF304F52DC2F107BE2E0AB9 Name="ForgeEngine::MaterialRegionSettings" Size="28">
+	<_063047F72EF304F52DC2F107BE2E0AB9 Name="ForgeEngine::MaterialRegionSettings" Alt="AF0269E449515C23" Size="28">
 		<_40 Name="Swatch Groups" Offset="0" GUID="4889420874EB88AE5C9A804CA04FC5BB" StructName1="ForgeEngine::MaterialRegionSettings" Min="0" Max="16" />
 		<_A Name="Force Region Always Visible" Offset="14" StructName1="ForgeEngine::MaterialParameterState">
 			<Flag n="enabled" />
@@ -154,31 +154,31 @@
 		<_14 Name="Intial Color Intensity" Offset="20" />
 		<_14 Name="Color Spread" Offset="24" />
 	</_063047F72EF304F52DC2F107BE2E0AB9>
-	<_4889420874EB88AE5C9A804CA04FC5BB Name="ForgeEngine::SwatchGroupName" Size="4">
+	<_4889420874EB88AE5C9A804CA04FC5BB Name="ForgeEngine::SwatchGroupName" Alt="BB9EF775574372B7" Size="4">
 		<_2 Name="Swatch Group Name" Offset="0" />
 	</_4889420874EB88AE5C9A804CA04FC5BB>
-	<_2FE7429C4EE726FBB489F288B4DD8A95 Name="s_bool_property" Size="101">
+	<_2FE7429C4EE726FBB489F288B4DD8A95 Name="s_bool_property" Alt="3B4DC23A76A6F144" Size="101">
 		<_1 Name="name" Offset="0" />
 		<_3C Name="Value" Offset="100" />
 	</_2FE7429C4EE726FBB489F288B4DD8A95>
-	<_936045522176C9FDA27104FC8512D854 Name="s_numeric_property" Size="104">
+	<_936045522176C9FDA27104FC8512D854 Name="s_numeric_property" Alt="44DC99354D7ED716" Size="104">
 		<_1 Name="name" Offset="0" />
 		<_14 Name="Value" Offset="100" />
 	</_936045522176C9FDA27104FC8512D854>
-	<_68024D2A459B882E2C55CE7BA4206A30 Name="s_string_property" Size="200">
+	<_68024D2A459B882E2C55CE7BA4206A30 Name="s_string_property" Alt="9AB226E4E4AAFA33" Size="200">
 		<_1 Name="name" Offset="0" />
 		<_1 Name="Value" Offset="100" />
 	</_68024D2A459B882E2C55CE7BA4206A30>
-	<_96094070CEC043C032F17B8996DC13B8 Name="s_tag_property" Size="120">
+	<_96094070CEC043C032F17B8996DC13B8 Name="s_tag_property" Alt="34CADE30B893BB82" Size="120">
 		<_1 Name="name" Offset="0" />
 		<_41 Name="Value" Offset="100" Allowed="aTag" Flags="0" />
 		<_2 Name="load variant" Offset="11C" />
 	</_96094070CEC043C032F17B8996DC13B8>
-	<_1C434BAAA2EE0547067515C792E31E8C Name="s_color_property" Size="110">
+	<_1C434BAAA2EE0547067515C792E31E8C Name="s_color_property" Alt="8DC6729DE64478D2" Size="110">
 		<_1 Name="name" Offset="0" />
 		<_20 Name="Value" Offset="100" />
 	</_1C434BAAA2EE0547067515C792E31E8C>
-	<_CE834D444653F5B4FA256202B625D247 Name="s_vector_property" Size="10C">
+	<_CE834D444653F5B4FA256202B625D247 Name="s_vector_property" Alt="3DB91922FC6DB3B9" Size="10C">
 		<_1 Name="name" Offset="0" />
 		<_19 Name="Value" Offset="100" />
 	</_CE834D444653F5B4FA256202B625D247>

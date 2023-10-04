@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:09 PM" Name="LegacyAnimSet" Parents="aTag" Index="-225">
-	<_83D428AD206DC8AA82AE18CC125DC185 Name="LegacyAnimSetTag" Size="158">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="LegacyAnimSet" Parents="aTag" Index="-225">
+	<_83D428AD206DC8AA82AE18CC125DC185 Name="LegacyAnimSetTag" Alt="292272822082FDAD" Size="158">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Anim sets" Offset="10" GUID="047A2B778E5E565A0BC63FC358833942" StructName1="LegacyAnimSetTag" Min="0" Max="4096" />
 		<_40 Name="Animations" Offset="24" GUID="6F054B6F27C7CA463D05C73CA4DE3958" StructName1="LegacyAnimSetTag" Min="0" Max="4096" />
@@ -30,14 +30,14 @@
 		<_37 Name="Special Case Animations" type="fgre" Offset="154" />
 		<_34 Name="generated_padc3b9" Offset="154" Length="4" />
 	</_83D428AD206DC8AA82AE18CC125DC185>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_047A2B778E5E565A0BC63FC358833942 Name="AnimSetRef" Size="1C">
+	<_047A2B778E5E565A0BC63FC358833942 Name="AnimSetRef" Alt="A7ABC2228EE37C8D" Size="1C">
 		<_41 Name="Anim set reference" Offset="0" Allowed="anim" Flags="9" />
 	</_047A2B778E5E565A0BC63FC358833942>
-	<_6F054B6F27C7CA463D05C73CA4DE3958 Name="LegacyAnimSetAnimationEntry" Size="10">
+	<_6F054B6F27C7CA463D05C73CA4DE3958 Name="LegacyAnimSetAnimationEntry" Alt="7184F592F59217FA" Size="10">
 		<_2 Name="Name" Offset="0" />
 		<_5 Name="AnimSet index in legacyanimset tag" Offset="4" />
 		<_5 Name="AnimSet parent depth" Offset="6" />
@@ -46,13 +46,13 @@
 		<_5 Name="Anim pool subgraph index" Offset="C" />
 		<_5 Name="Anim pool animation index" Offset="E" />
 	</_6F054B6F27C7CA463D05C73CA4DE3958>
-	<_87911EF3610E99066D57939C678A968C Name="AnimationJointFlags" Size="40">
+	<_87911EF3610E99066D57939C678A968C Name="AnimationJointFlags" Alt="A72841F07C4D9345" Size="40">
 		<_2 Name="Legacy animation name" type="sted" Offset="0" />
 		<_40 Name="FIK joint names" Offset="4" GUID="30CD3ACF0FFB799B0E155CF490F666FB" StructName1="AnimationJointFlags" Min="0" Max="2048" />
 		<_40 Name="Object space correction joint name" Offset="18" GUID="30CD3ACF0FFB799B0E155CF490F666FB" StructName1="AnimationJointFlags" Min="0" Max="2048" />
 		<_40 Name="Replacement offset correction joint name" Offset="2C" GUID="30CD3ACF0FFB799B0E155CF490F666FB" StructName1="AnimationJointFlags" Min="0" Max="2048" />
 	</_87911EF3610E99066D57939C678A968C>
-	<_D2C046980182B2A4182CE00CB5C3743F Name="LegacyAnimSetRenameEntry" Size="C">
+	<_D2C046980182B2A4182CE00CB5C3743F Name="LegacyAnimSetRenameEntry" Alt="FCD05480A4333CBF" Size="C">
 		<_2 Name="Alias" Offset="0" />
 		<_2 Name="Source" type="sted" Offset="4" />
 		<_F Name="Flags" Offset="8" StructName1="RenameAndCopyEntryFlags">
@@ -61,7 +61,7 @@
 		</_F>
 		<_34 Name="generated_pade78a" Offset="9" Length="3" />
 	</_D2C046980182B2A4182CE00CB5C3743F>
-	<_B4FD409465E6DC316D2A52238B0F75DF Name="LegacyAnimSetCopyEntry" Size="C">
+	<_B4FD409465E6DC316D2A52238B0F75DF Name="LegacyAnimSetCopyEntry" Alt="21AA722C9C41D968" Size="C">
 		<_2 Name="Destination" Offset="0" />
 		<_2 Name="Source" Offset="4" />
 		<_F Name="Flags" Offset="8" StructName1="RenameAndCopyEntryFlags">
@@ -70,11 +70,11 @@
 		</_F>
 		<_34 Name="generated_pad20b9" Offset="9" Length="3" />
 	</_B4FD409465E6DC316D2A52238B0F75DF>
-	<_D9BB4ACCE89D9CC969B1FD7EA0567E09 Name="LegacyAnimSetFunction" Size="1C">
+	<_D9BB4ACCE89D9CC969B1FD7EA0567E09 Name="LegacyAnimSetFunction" Alt="5A545D8D795D7447" Size="1C">
 		<_2 Name="Name" Offset="0" />
 		<_38 Name="Function" Offset="4" GUID="0276481E72CB9289F56D7C189467A351" />
 	</_D9BB4ACCE89D9CC969B1FD7EA0567E09>
-	<_2B5F4F1F046EBB31C9323537A2363506 Name="LegacyAnimSetBlendScreen" Size="30">
+	<_2B5F4F1F046EBB31C9323537A2363506 Name="LegacyAnimSetBlendScreen" Alt="18EA6978B24B7BE8" Size="30">
 		<_2 Name="Name" Offset="0" />
 		<_D Name="Flags" Offset="4" StructName1="c_animation_blend_screen_flags">
 			<Flag n="active only when weapon down" />
@@ -239,7 +239,7 @@
 		<_34 Name="generated_padffad" Offset="2A" Length="2" />
 		<_2 Name="Animation" type="sted" Offset="2C" />
 	</_2B5F4F1F046EBB31C9323537A2363506>
-	<_78C64F83F268F9DFA6A060D0B14BD5AC Name="LegacyAnimSetFunctionOverlay" Size="28">
+	<_78C64F83F268F9DFA6A060D0B14BD5AC Name="LegacyAnimSetFunctionOverlay" Alt="DCD42956A6E6E5F2" Size="28">
 		<_2 Name="Name" Offset="0" />
 		<_D Name="Flags" Offset="4" StructName1="c_animation_function_overlay_flags">
 			<Flag n="strict looping" />
@@ -254,31 +254,31 @@
 		<_5 Name="Start LOD taper" Offset="24" />
 		<_5 Name="End LOD taper" Offset="26" />
 	</_78C64F83F268F9DFA6A060D0B14BD5AC>
-	<_25F8464B98A4D42D4F2A4FF58B5792AC Name="LegacyAnimSetOverlayGroup" Size="2C">
+	<_25F8464B98A4D42D4F2A4FF58B5792AC Name="LegacyAnimSetOverlayGroup" Alt="3974D795FE5E7835" Size="2C">
 		<_2 Name="Name" Offset="0" />
 		<_40 Name="Blend Screens" Offset="4" GUID="7ACF42D9A9F91E181EF1F816B607E07C" StructName1="LegacyAnimSetOverlayGroup" Min="0" Max="16" />
 		<_40 Name="Function Overlays" Offset="18" GUID="443E48B9CBFD584D7348258D89BA36BE" StructName1="LegacyAnimSetOverlayGroup" Min="0" Max="32" />
 	</_25F8464B98A4D42D4F2A4FF58B5792AC>
-	<_CB19421FC55F336170189438B8068833 Name="LegacyAnimSetInterpolator" Size="20">
+	<_CB19421FC55F336170189438B8068833 Name="LegacyAnimSetInterpolator" Alt="1D75246449ECBD24" Size="20">
 		<_2 Name="Name" Offset="0" />
 		<_2 Name="Joint Mask" type="sted" Offset="4" />
 		<_38 Name="Function" Offset="8" GUID="0276481E72CB9289F56D7C189467A351" />
 	</_CB19421FC55F336170189438B8068833>
-	<_50E54C0D11E52D3C132A8C59985CCA20 Name="LegacyAnimSetInterpolationSet" Size="34">
+	<_50E54C0D11E52D3C132A8C59985CCA20 Name="LegacyAnimSetInterpolationSet" Alt="6894F65951A0D118" Size="34">
 		<_2 Name="Name" Offset="0" />
 		<_14 Name="Seconds" Offset="4" />
 		<_40 Name="Interpolators" Offset="8" GUID="D35247645959B075042FD05DAC0EB3AD" StructName1="LegacyAnimSetInterpolationSet" Min="0" Max="256" />
 		<_38 Name="Function" Offset="1C" GUID="0276481E72CB9289F56D7C189467A351" />
 	</_50E54C0D11E52D3C132A8C59985CCA20>
-	<_40ED4C8B688A907287884AD4AD62C246 Name="LegacyAnimSetModelAnimationVariant" Size="18">
+	<_40ED4C8B688A907287884AD4AD62C246 Name="LegacyAnimSetModelAnimationVariant" Alt="3D844ACBD49BE585" Size="18">
 		<_2 Name="Name" Offset="0" />
 		<_40 Name="Mode or Stance Aliases" Offset="4" GUID="8C71410147963926B0320071906B7E9A" StructName1="LegacyAnimSetModelAnimationVariant" Min="0" Max="10000000" />
 	</_40ED4C8B688A907287884AD4AD62C246>
-	<_C3194DC050B4997A84A1621AB4CECBA6 Name="LegacyAnimSetObjectFunctionVariant" Size="18">
+	<_C3194DC050B4997A84A1621AB4CECBA6 Name="LegacyAnimSetObjectFunctionVariant" Alt="C7ED45F301836DF1" Size="18">
 		<_2 Name="Name" type="sted" Offset="0" />
 		<_40 Name="Mode or Stance Aliases" Offset="4" GUID="8C71410147963926B0320071906B7E9A" StructName1="LegacyAnimSetObjectFunctionVariant" Min="0" Max="10000000" />
 	</_C3194DC050B4997A84A1621AB4CECBA6>
-	<_15C646A383F6F78747F75EE79258A179 Name="ModeTreeMode" Size="38">
+	<_15C646A383F6F78747F75EE79258A179 Name="ModeTreeMode" Alt="9D8E5079358C6A38" Size="38">
 		<_2 Name="Anim mode name" Offset="0" />
 		<_2E Name="Overlay group" Offset="4" GUID="25F8464B98A4D42D4F2A4FF58B5792AC" StructName1="ModeTreeMode" Min="0" Max="1056" />
 		<_34 Name="generated_padb8e6" Offset="6" Length="2" />
@@ -289,7 +289,7 @@
 		<_40 Name="Weapon classes" Offset="10" GUID="EDE54FF78957CBBD114EDB9C8698A964" StructName1="ModeTreeMode" Min="0" Max="64" />
 		<_40 Name="Mode IK" Offset="24" GUID="D3BF44895CF8ECC5D976F245889D269E" StructName1="ModeTreeMode" Min="0" Max="64" />
 	</_15C646A383F6F78747F75EE79258A179>
-	<_34EE4E89D5410EF5CFF275F0ADBC7D4C Name="LegacyAnimSetVehicleSuspension" Size="30">
+	<_34EE4E89D5410EF5CFF275F0ADBC7D4C Name="LegacyAnimSetVehicleSuspension" Alt="C5031F8B10A7890A" Size="30">
 		<_2 Name="Label" Offset="0" />
 		<_2 Name="Animation" type="sted" Offset="4" />
 		<_2 Name="Function Name" type="sted" Offset="8" />
@@ -303,7 +303,7 @@
 		<_14 Name="Destroyed Extension Distance" Offset="28" />
 		<_14 Name="Destroyed Compression Distance" Offset="2C" />
 	</_34EE4E89D5410EF5CFF275F0ADBC7D4C>
-	<_F7624C2CD26786EA7209BC41837953E2 Name="LegacyAnimSetConstantOverlay" Size="10">
+	<_F7624C2CD26786EA7209BC41837953E2 Name="LegacyAnimSetConstantOverlay" Alt="FEADC1EEEBEC6B46" Size="10">
 		<_2 Name="Label" Offset="0" />
 		<_2 Name="Animation" type="sted" Offset="4" />
 		<_B Name="Function controls" Offset="8" StructName1="c_function_overlay_animation_mode">
@@ -313,38 +313,38 @@
 		<_34 Name="generated_pade41c" Offset="A" Length="2" />
 		<_2 Name="Function" type="sted" Offset="C" />
 	</_F7624C2CD26786EA7209BC41837953E2>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_30CD3ACF0FFB799B0E155CF490F666FB Name="JointNameBlock" Size="4">
+	<_30CD3ACF0FFB799B0E155CF490F666FB Name="JointNameBlock" Alt="76C44A36B7AF5A5E" Size="4">
 		<_2 Name="Joint name" type="sted" Offset="0" />
 	</_30CD3ACF0FFB799B0E155CF490F666FB>
-	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_7ACF42D9A9F91E181EF1F816B607E07C Name="BlendScreenReference" Size="8">
+	<_7ACF42D9A9F91E181EF1F816B607E07C Name="BlendScreenReference" Alt="A1A6BE9A343697DB" Size="8">
 		<_2E Name="Blend Screen" Offset="0" GUID="2B5F4F1F046EBB31C9323537A2363506" StructName1="BlendScreenReference" Min="0" Max="1024" />
 		<_E Name="Flags" Offset="2" StructName1="BlendScreenReferenceBlockFlags">
 			<Flag n="Disable" />
 		</_E>
 		<_2 Name="Node Mask" type="sted" Offset="4" />
 	</_7ACF42D9A9F91E181EF1F816B607E07C>
-	<_443E48B9CBFD584D7348258D89BA36BE Name="FunctionOverlayReference" Size="4">
+	<_443E48B9CBFD584D7348258D89BA36BE Name="FunctionOverlayReference" Alt="8FAAEA99EB555A1C" Size="4">
 		<_2E Name="Function Overlay" Offset="0" GUID="78C64F83F268F9DFA6A060D0B14BD5AC" StructName1="FunctionOverlayReference" Min="0" Max="32" />
 		<_E Name="Flags" Offset="2" StructName1="FunctionOverlayReferenceBlockFlags">
 			<Flag n="Disable" />
 		</_E>
 	</_443E48B9CBFD584D7348258D89BA36BE>
-	<_D35247645959B075042FD05DAC0EB3AD Name="InterpolatorListEntry" Size="2">
+	<_D35247645959B075042FD05DAC0EB3AD Name="InterpolatorListEntry" Alt="F3B60FA80E58B6CD" Size="2">
 		<_2E Name="Interpolator" Offset="0" GUID="CB19421FC55F336170189438B8068833" StructName1="InterpolatorListEntry" Min="0" Max="256" />
 	</_D35247645959B075042FD05DAC0EB3AD>
-	<_8C71410147963926B0320071906B7E9A Name="LegacyAnimSetModeOrStanceAlias" Size="8">
+	<_8C71410147963926B0320071906B7E9A Name="LegacyAnimSetModeOrStanceAlias" Alt="ABB9D8E2E32967B7" Size="8">
 		<_2 Name="Mode or Stance" Offset="0" />
 		<_2 Name="Alias" Offset="4" />
 	</_8C71410147963926B0320071906B7E9A>
-	<_EDE54FF78957CBBD114EDB9C8698A964 Name="ModeTreeWeaponClass" Size="48">
+	<_EDE54FF78957CBBD114EDB9C8698A964 Name="ModeTreeWeaponClass" Alt="941249DEF6332F41" Size="48">
 		<_2 Name="Weapon class name" Offset="0" />
 		<_2E Name="Overlay group" Offset="4" GUID="25F8464B98A4D42D4F2A4FF58B5792AC" StructName1="ModeTreeWeaponClass" Min="0" Max="1056" />
 		<_34 Name="generated_padf75f" Offset="6" Length="2" />
@@ -353,29 +353,29 @@
 		<_40 Name="Weapon IK" Offset="20" GUID="D3BF44895CF8ECC5D976F245889D269E" StructName1="ModeTreeWeaponClass" Min="0" Max="64" />
 		<_40 Name="Sync Actions Groups" Offset="34" GUID="13F245B90A4A1F6172EBB79DBC5574B6" StructName1="ModeTreeWeaponClass" Min="0" Max="128" />
 	</_EDE54FF78957CBBD114EDB9C8698A964>
-	<_D3BF44895CF8ECC5D976F245889D269E Name="ModeTreeIK" Size="10">
+	<_D3BF44895CF8ECC5D976F245889D269E Name="ModeTreeIK" Alt="48ECEAE36CCE9F12" Size="10">
 		<_2 Name="Marker" type="sted" Offset="0" />
 		<_2 Name="Attach to marker" type="sted" Offset="4" />
 		<_2 Name="Weight source object function" type="sted" Offset="8" />
 		<_2 Name="Priority source object function" type="sted" Offset="C" />
 	</_D3BF44895CF8ECC5D976F245889D269E>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
-	<_E66A44A8CE4190CF6F511E82AA7370C2 Name="ModeTreeWeaponType" Size="20">
+	<_E66A44A8CE4190CF6F511E82AA7370C2 Name="ModeTreeWeaponType" Alt="F445532844C5B58A" Size="20">
 		<_2 Name="Weapon type name" Offset="0" />
 		<_2E Name="Overlay group" Offset="4" GUID="25F8464B98A4D42D4F2A4FF58B5792AC" StructName1="ModeTreeWeaponType" Min="0" Max="1056" />
 		<_34 Name="generated_pad095f" Offset="6" Length="2" />
 		<_2 Name="IK set" type="sted" Offset="8" />
 		<_40 Name="Sets" Offset="C" GUID="F24943B93EF3EA483D520113B35E9491" StructName1="ModeTreeWeaponType" Min="0" Max="64" />
 	</_E66A44A8CE4190CF6F511E82AA7370C2>
-	<_13F245B90A4A1F6172EBB79DBC5574B6 Name="SyncActionsGroup" Size="18">
+	<_13F245B90A4A1F6172EBB79DBC5574B6 Name="SyncActionsGroup" Alt="48603BB00CFF0FF7" Size="18">
 		<_2 Name="Name" Offset="0" />
 		<_40 Name="Sync Actions" Offset="4" GUID="443443508B2BB45CBF6470CDB7030259" StructName1="SyncActionsGroup" Min="0" Max="32" />
 	</_13F245B90A4A1F6172EBB79DBC5574B6>
-	<_F24943B93EF3EA483D520113B35E9491 Name="ModeTreeSet" Size="5C">
+	<_F24943B93EF3EA483D520113B35E9491 Name="ModeTreeSet" Alt="A74560C1C5EBFEFC" Size="5C">
 		<_2 Name="Set name" Offset="0" />
 		<_2E Name="Overlay group" Offset="4" GUID="25F8464B98A4D42D4F2A4FF58B5792AC" StructName1="ModeTreeSet" Min="0" Max="1056" />
 		<_34 Name="generated_pad4fdb" Offset="6" Length="2" />
@@ -385,7 +385,7 @@
 		<_40 Name="Death And Damage" Offset="34" GUID="2A744644C201B5DBBE081EF1A8DC8F53" StructName1="ModeTreeSet" Min="0" Max="256" />
 		<_40 Name="Transitions" Offset="48" GUID="591D489E244ED6FC5B101BE49FAC7148" StructName1="ModeTreeSet" Min="0" Max="64" />
 	</_F24943B93EF3EA483D520113B35E9491>
-	<_443443508B2BB45CBF6470CDB7030259 Name="SyncAction" Size="30">
+	<_443443508B2BB45CBF6470CDB7030259 Name="SyncAction" Alt="7EFE86184A558C44" Size="30">
 		<_2 Name="Name" Offset="0" />
 		<_B Name="Sync Action Type" Offset="4" StructName1="AnimationSyncActionStyleType">
 			<Flag n="Default" />
@@ -395,7 +395,7 @@
 		<_40 Name="Same Type Participants" Offset="8" GUID="D98A4581BDE1C80E5401A64C9CC1CAE5" StructName1="SyncAction" Min="0" Max="6" />
 		<_40 Name="Other Participant" Offset="1C" GUID="D5D146B81BB2B8079601027787A763D0" StructName1="SyncAction" Min="0" Max="6" />
 	</_443443508B2BB45CBF6470CDB7030259>
-	<_029F41B4D53390951E0E85378D71C2CA Name="ModeTreeAnimEntry" Size="14">
+	<_029F41B4D53390951E0E85378D71C2CA Name="ModeTreeAnimEntry" Alt="C53FE6DF421ADDDE" Size="14">
 		<_2 Name="Name" Offset="0" />
 		<_2E Name="Overlay group" Offset="4" GUID="25F8464B98A4D42D4F2A4FF58B5792AC" StructName1="ModeTreeAnimEntry" Min="0" Max="1056" />
 		<_34 Name="generated_padede6" Offset="6" Length="2" />
@@ -404,11 +404,11 @@
 		<_34 Name="generated_pad3a9b" Offset="E" Length="2" />
 		<_2 Name="Animation name" type="sted" Offset="10" />
 	</_029F41B4D53390951E0E85378D71C2CA>
-	<_2A744644C201B5DBBE081EF1A8DC8F53 Name="ModeTreeDeathAndDamage" Size="18">
+	<_2A744644C201B5DBBE081EF1A8DC8F53 Name="ModeTreeDeathAndDamage" Alt="FF300A98091258A8" Size="18">
 		<_2 Name="Name" Offset="0" />
 		<_40 Name="Directions" Offset="4" GUID="B56545B02DD4ED14B5E307C6BFC2FFD5" StructName1="ModeTreeDeathAndDamage" Min="0" Max="4" />
 	</_2A744644C201B5DBBE081EF1A8DC8F53>
-	<_591D489E244ED6FC5B101BE49FAC7148 Name="ModeTreeTransition" Size="1C">
+	<_591D489E244ED6FC5B101BE49FAC7148 Name="ModeTreeTransition" Alt="E283C0388A0264C5" Size="1C">
 		<_2 Name="State name" Offset="0" />
 		<_40 Name="Destinations" Offset="4" GUID="A7E043F3D90C126B77725F3CBCB09581" StructName1="ModeTreeTransition" Min="0" Max="32" />
 		<_F Name="Flags" Offset="18" StructName1="ModeTreeTransitionFlags">
@@ -416,7 +416,7 @@
 		</_F>
 		<_34 Name="generated_pad9776" Offset="19" Length="3" />
 	</_591D489E244ED6FC5B101BE49FAC7148>
-	<_D98A4581BDE1C80E5401A64C9CC1CAE5 Name="SyncActionSameTypeParticipant" Size="3C">
+	<_D98A4581BDE1C80E5401A64C9CC1CAE5 Name="SyncActionSameTypeParticipant" Alt="5F19D2433A31A788" Size="3C">
 		<_E Name="Flags" Offset="0" StructName1="AnimationSyncActionFlags">
 			<Flag n="Initiator" />
 			<Flag n="CriticalParticipant" />
@@ -432,7 +432,7 @@
 		<_14 Name="Time Until Hurt" Offset="2C" />
 		<_19 Name="Apex Offset" Offset="30" />
 	</_D98A4581BDE1C80E5401A64C9CC1CAE5>
-	<_D5D146B81BB2B8079601027787A763D0 Name="SyncActionOtherParticipant" Size="20">
+	<_D5D146B81BB2B8079601027787A763D0 Name="SyncActionOtherParticipant" Alt="5D535969A575DED6" Size="20">
 		<_E Name="Flags" Offset="0" StructName1="AnimationSyncActionOtherTypeFlags">
 			<Flag n="Supports Any Type" />
 			<Flag n="Disabled" />
@@ -440,10 +440,10 @@
 		<_34 Name="generated_padc2f4" Offset="2" Length="2" />
 		<_41 Name="Object Type" Offset="4" Allowed="unit, scen" Flags="0" />
 	</_D5D146B81BB2B8079601027787A763D0>
-	<_B56545B02DD4ED14B5E307C6BFC2FFD5 Name="DamageDirection" Size="14">
+	<_B56545B02DD4ED14B5E307C6BFC2FFD5 Name="DamageDirection" Alt="13B8769F30F8AD" Size="14">
 		<_40 Name="Regions" Offset="0" GUID="28D8441A0788836FCAEEC1F98400AB0D" StructName1="DamageDirection" Min="0" Max="11" />
 	</_B56545B02DD4ED14B5E307C6BFC2FFD5>
-	<_A7E043F3D90C126B77725F3CBCB09581 Name="TransitionDestination" Size="18">
+	<_A7E043F3D90C126B77725F3CBCB09581 Name="TransitionDestination" Alt="3B87182F69DFE273" Size="18">
 		<_2 Name="Mode name" Offset="0" />
 		<_2 Name="State name" Offset="4" />
 		<_2E Name="Transition lerp" Offset="8" GUID="50E54C0D11E52D3C132A8C59985CCA20" StructName1="TransitionDestination" Min="0" Max="256" />
@@ -453,7 +453,7 @@
 		<_2E Name="Lerp in function" Offset="14" GUID="50E54C0D11E52D3C132A8C59985CCA20" StructName1="TransitionDestination" Min="0" Max="256" />
 		<_2E Name="Lerp out function" Offset="16" GUID="50E54C0D11E52D3C132A8C59985CCA20" StructName1="TransitionDestination" Min="0" Max="256" />
 	</_A7E043F3D90C126B77725F3CBCB09581>
-	<_28D8441A0788836FCAEEC1F98400AB0D Name="DamageRegion" Size="8">
+	<_28D8441A0788836FCAEEC1F98400AB0D Name="DamageRegion" Alt="84D0C8CFC119FFA4" Size="8">
 		<_2E Name="Animation" Offset="0" GUID="6F054B6F27C7CA463D05C73CA4DE3958" StructName1="DamageRegion" Min="0" Max="4096" />
 		<_34 Name="generated_padfe89" Offset="2" Length="2" />
 		<_2 Name="Animation name" type="sted" Offset="4" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="AnimatedMesh" Parents="aTag" Index="-18">
-	<_A92146D4859188FF0BA979DC9C57792F Name="AnimatedMesh" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="AnimatedMesh" Parents="aTag" Index="-18">
+	<_A92146D4859188FF0BA979DC9C57792F Name="AnimatedMesh" Alt="9A1C6D247DA583CA" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_3E Name="Flags" Offset="10" />
 		<_3C Name="Version" Offset="14" />
@@ -8,11 +8,11 @@
 		<_3D Name="Resource frame count" Offset="16" />
 		<_43 Name="Perframe rigid body resources" Offset="18" StructName1="AnimatedMeshRigidBodyResouce" Int1="0" GUID="41FB4389A606CE9CB64B18E3857B05B3" />
 	</_A92146D4859188FF0BA979DC9C57792F>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_41FB4389A606CE9CB64B18E3857B05B3 Name="AnimatedMeshRigidBodyResouce" Size="98">
+	<_41FB4389A606CE9CB64B18E3857B05B3 Name="AnimatedMeshRigidBodyResouce" Alt="D2FB091CF6714B9F" Size="98">
 		<_7 Name="Runtime" Offset="0" />
 		<_40 Name="Render stats per frame" Offset="8" GUID="E1B248677AFE1BF329ECA3BF8C6EF68C" StructName1="AnimatedMeshRigidBodyResouce" Min="0" Max="3000" />
 		<_40 Name="Bounds per frame" Offset="1C" GUID="94D39EBB003F8ACE93EE9824861F468B" StructName1="AnimatedMeshRigidBodyResouce" Min="0" Max="3000" />
@@ -28,53 +28,53 @@
 		</_A>
 		<_34 Name="generated_pad9ef3" Offset="97" Length="1" />
 	</_41FB4389A606CE9CB64B18E3857B05B3>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_E1B248677AFE1BF329ECA3BF8C6EF68C Name="AnimatedMeshRigidBodyFrameStats" Size="14">
+	<_E1B248677AFE1BF329ECA3BF8C6EF68C Name="AnimatedMeshRigidBodyFrameStats" Alt="2598C8EB25097264" Size="14">
 		<_40 Name="Render stats per frame per material" Offset="0" GUID="0E63418AA27D0165B97E7043A7D42984" StructName1="AnimatedMeshRigidBodyFrameStats" Min="0" Max="32" />
 	</_E1B248677AFE1BF329ECA3BF8C6EF68C>
-	<_94D39EBB003F8ACE93EE9824861F468B Name="AnimatedMeshRigidBodyFrameBounds" Size="18">
+	<_94D39EBB003F8ACE93EE9824861F468B Name="AnimatedMeshRigidBodyFrameBounds" Alt="5B842A8AA17FE97F" Size="18">
 		<_17 Name="Position AABB min" Offset="0" />
 		<_17 Name="Position AABB extents" Offset="C" />
 	</_94D39EBB003F8ACE93EE9824861F468B>
-	<_8F144FA3C2F3C539CDE0368C8F3F6666 Name="AnimatedMeshRigidBodyMaterialStats" Size="14">
+	<_8F144FA3C2F3C539CDE0368C8F3F6666 Name="AnimatedMeshRigidBodyMaterialStats" Alt="4E40EAAB364A40FC" Size="14">
 		<_40 Name="Referenced part indices" Offset="0" GUID="BDC749F40A57C5F17B7DD1BC92C9486D" StructName1="AnimatedMeshRigidBodyMaterialStats" Min="1" Max="21760" />
 	</_8F144FA3C2F3C539CDE0368C8F3F6666>
-	<_22DE4877FD90FBE2832A9E26861D915E Name="AnimatedMeshRigidBodyFrameTransforms" Size="14">
+	<_22DE4877FD90FBE2832A9E26861D915E Name="AnimatedMeshRigidBodyFrameTransforms" Alt="B9FB7C32BDCB1CAA" Size="14">
 		<_40 Name="Part transform" Offset="0" GUID="4A39480AA8C4C449747BD76097616F91" StructName1="AnimatedMeshRigidBodyFrameTransforms" Min="1" Max="87040" />
 	</_22DE4877FD90FBE2832A9E26861D915E>
-	<_5EA5497873514B8E99E1C24C8AAA440D Name="DwordIndexBuffer" Size="4">
+	<_5EA5497873514B8E99E1C24C8AAA440D Name="DwordIndexBuffer" Alt="7969A1388587D0B1" Size="4">
 		<_3E Name="dword" Offset="0" />
 	</_5EA5497873514B8E99E1C24C8AAA440D>
-	<_BC0941FB914B228F7AB953C2ADAD20EE Name="AnimatedMeshRigidBodyCSVertex" Size="1C">
+	<_BC0941FB914B228F7AB953C2ADAD20EE Name="AnimatedMeshRigidBodyCSVertex" Alt="CABC0C38EFB6DD58" Size="1C">
 		<_17 Name="position" Offset="0" />
 		<_14 Name="texcoord" Offset="C" />
 		<_3E Name="normal" Offset="10" />
 		<_3E Name="tangent" Offset="14" />
 		<_3E Name="part index" Offset="18" />
 	</_BC0941FB914B228F7AB953C2ADAD20EE>
-	<_CC3449E23299CCB6343E039580DF8818 Name="RasterizerVertexWorld" Size="1C">
+	<_CC3449E23299CCB6343E039580DF8818 Name="RasterizerVertexWorld" Alt="7A383F4358883EA9" Size="1C">
 		<_17 Name="position" Offset="0" />
 		<_3E Name="half texcoord" Offset="C" />
 		<_3E Name="compressed normal" Offset="10" />
 		<_3E Name="compressed tangent" Offset="14" />
 		<_3E Name="compressed color" Offset="18" />
 	</_CC3449E23299CCB6343E039580DF8818>
-	<_0E63418AA27D0165B97E7043A7D42984 Name="AnimatedMeshRigidBodyRenderStats" Size="10">
+	<_0E63418AA27D0165B97E7043A7D42984 Name="AnimatedMeshRigidBodyRenderStats" Alt="3B5392068B044B14" Size="10">
 		<_3E Name="Index buffer start index" Offset="0" />
 		<_3E Name="Index buffer indices count" Offset="4" />
 		<_3E Name="Vertex buffer start index" Offset="8" />
 		<_3E Name="Vertex buffer vertices count" Offset="C" />
 	</_0E63418AA27D0165B97E7043A7D42984>
-	<_BDC749F40A57C5F17B7DD1BC92C9486D Name="ReferencedPartPerMaterial" Size="2">
+	<_BDC749F40A57C5F17B7DD1BC92C9486D Name="ReferencedPartPerMaterial" Alt="76BFD8DEE1C02F64" Size="2">
 		<_3D Name="word" Offset="0" />
 	</_BDC749F40A57C5F17B7DD1BC92C9486D>
-	<_4A39480AA8C4C449747BD76097616F91 Name="AnimatedMeshQuantizedRigidTransform" Size="C">
+	<_4A39480AA8C4C449747BD76097616F91 Name="AnimatedMeshQuantizedRigidTransform" Alt="D2327C53378E2B08" Size="C">
 		<_39 Name="Compressed quantized rigid transform" Offset="0" GUID="9DAE436033D3F86A26EF331AAC550716" Count="3" StructName1="Compressed quantized rigid transform" />
 	</_4A39480AA8C4C449747BD76097616F91>
-	<_9DAE436033D3F86A26EF331AAC550716 Name="CompressedQuantizedRigidTransform" Size="4">
+	<_9DAE436033D3F86A26EF331AAC550716 Name="CompressedQuantizedRigidTransform" Alt="D22BE667B93507A8" Size="4">
 		<_3E Name="Compressed quantized rigid transform channel" Offset="0" />
 	</_9DAE436033D3F86A26EF331AAC550716>
 </root>

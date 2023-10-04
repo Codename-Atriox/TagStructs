@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="ai_globals" Parents="aTag" Index="-15">
-	<_80EC4724EFB33B8C53DD39B39858CAF2 Name="s_ai_globals_definition" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="ai_globals" Parents="aTag" Index="-15">
+	<_80EC4724EFB33B8C53DD39B39858CAF2 Name="s_ai_globals_definition" Alt="F0590173B43F097B" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="data" Offset="10" GUID="A5BD4A1B1D0F80A0A8706C119A070B18" StructName1="s_ai_globals_definition" Min="0" Max="1" />
 		<_34 Name="generated_pad5c43" Offset="24" Length="4" />
 	</_80EC4724EFB33B8C53DD39B39858CAF2>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_A5BD4A1B1D0F80A0A8706C119A070B18 Name="s_ai_globals_data" Size="30C">
+	<_A5BD4A1B1D0F80A0A8706C119A070B18 Name="s_ai_globals_data" Alt="F0CC2067E44F3AC7" Size="30C">
 		<_14 Name="AI infantry-on-AI weapon damage scale" Offset="0" />
 		<_14 Name="AI vehicle-on-AI weapon damage scale" Offset="4" />
 		<_14 Name="AI player vehicle-on-AI weapon damage scale" Offset="8" />
@@ -159,39 +159,39 @@
 		<_40 Name="Friendly Squad Properties" Offset="2E4" GUID="D46C484810C248C6AB491B4DA38C27E8" StructName1="s_ai_globals_data" Min="0" Max="1" />
 		<_40 Name="Pathing Cost Modifiers" Offset="2F8" GUID="060B572EEB9321FEF2D327708DB3FD29" StructName1="s_ai_globals_data" Min="0" Max="1" />
 	</_A5BD4A1B1D0F80A0A8706C119A070B18>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_FF87433DC31A245D49183EE68FE5BB27 Name="i343::Damage::DamageSourceDefinition" Size="4">
+	<_FF87433DC31A245D49183EE68FE5BB27 Name="i343::Damage::DamageSourceDefinition" Alt="A20F74767C5A02F8" Size="4">
 		<_2 Name="Damage Source Name" Offset="0" />
 	</_FF87433DC31A245D49183EE68FE5BB27>
-	<_1FC047FE5D6B3B9DA287DA568CDF19E7 Name="s_ai_globals_gravemind_definition" Size="C">
+	<_1FC047FE5D6B3B9DA287DA568CDF19E7 Name="s_ai_globals_gravemind_definition" Alt="89DACB9843D732FD" Size="C">
 		<_14 Name="min retreat time" Offset="0" />
 		<_14 Name="ideal retreat time" Offset="4" />
 		<_14 Name="max retreat time" Offset="8" />
 	</_1FC047FE5D6B3B9DA287DA568CDF19E7>
-	<_3B8542AB33FDDAB44E45A8989FC8A81A Name="s_ai_globals_formation_definition" Size="1C">
+	<_3B8542AB33FDDAB44E45A8989FC8A81A Name="s_ai_globals_formation_definition" Alt="F1BE580CDC04202E" Size="1C">
 		<_41 Name="formation" Offset="0" Allowed="form" Flags="0" />
 	</_3B8542AB33FDDAB44E45A8989FC8A81A>
-	<_F2F54C0FFCA99DE53B390792B4F47498 Name="s_ai_globals_squad_template_folder_definition" Size="2C">
+	<_F2F54C0FFCA99DE53B390792B4F47498 Name="s_ai_globals_squad_template_folder_definition" Alt="CAAC092632A319E1" Size="2C">
 		<_2 Name="folder name" Offset="0" />
 		<_40 Name="sub folders" Offset="4" GUID="DC4A4D55411A7443017E72E0B4E36B7B" StructName1="s_ai_globals_squad_template_folder_definition" Min="0" Max="32" />
 		<_40 Name="templates" Offset="18" GUID="5B2E4CA5B77AC64982C99E1BA7AC56CB" StructName1="s_ai_globals_squad_template_folder_definition" Min="0" Max="128" />
 	</_F2F54C0FFCA99DE53B390792B4F47498>
-	<_7BC942E7A198B5537D86F5DFBD3BC6BE Name="s_ai_globals_custom_stimulus_definition" Size="4">
+	<_7BC942E7A198B5537D86F5DFBD3BC6BE Name="s_ai_globals_custom_stimulus_definition" Alt="3F3840FA4BE5D3AB" Size="4">
 		<_2 Name="name" Offset="0" />
 	</_7BC942E7A198B5537D86F5DFBD3BC6BE>
-	<_590F4CBB5E1B04EFC4860BF89A08D75A Name="s_ai_globals_trait_vision_definition" Size="8">
+	<_590F4CBB5E1B04EFC4860BF89A08D75A Name="s_ai_globals_trait_vision_definition" Alt="FD7FABACBEEE1DE9" Size="8">
 		<_36 Name="Vision Traits" Offset="0" />
 		<_14 Name="vision distance scale" Offset="0" />
 		<_14 Name="vision angle scale" Offset="4" />
 	</_590F4CBB5E1B04EFC4860BF89A08D75A>
-	<_A8274506FC75461E1B2BB7D691D2A359 Name="s_ai_globals_trait_sound_definition" Size="4">
+	<_A8274506FC75461E1B2BB7D691D2A359 Name="s_ai_globals_trait_sound_definition" Alt="D7972E6CAA5991A8" Size="4">
 		<_36 Name="Sound Traits" Offset="0" />
 		<_14 Name="hearing distance scale" Offset="0" />
 	</_A8274506FC75461E1B2BB7D691D2A359>
-	<_F7DA4CF9B158B95F8A9DD1B2BC3FD0FD Name="s_ai_globals_trait_luck_definition" Size="2C">
+	<_F7DA4CF9B158B95F8A9DD1B2BC3FD0FD Name="s_ai_globals_trait_luck_definition" Alt="E36F5C33DCFEDA02" Size="2C">
 		<_36 Name="Luck Traits" Offset="0" />
 		<_14 Name="evasion chance scale" Offset="0" />
 		<_14 Name="grenade dive chance scale" Offset="4" />
@@ -205,7 +205,7 @@
 		<_14 Name="melee leap delay timer scale" Offset="24" />
 		<_14 Name="throw grenade delay scale" Offset="28" />
 	</_F7DA4CF9B158B95F8A9DD1B2BC3FD0FD>
-	<_3F9547560B0F309974E8579683E0F6F3 Name="s_ai_globals_trait_grenade_definition" Size="1C">
+	<_3F9547560B0F309974E8579683E0F6F3 Name="s_ai_globals_trait_grenade_definition" Alt="874868634E866B3D" Size="1C">
 		<_36 Name="Grenade Traits" Offset="0" />
 		<_14 Name="velocity scale" Offset="0" />
 		<_14 Name="throw grenade delay scale" Offset="4" />
@@ -215,11 +215,11 @@
 		<_14 Name="anti vehicle grenade chance scale" Offset="14" />
 		<_14 Name="throw grenade chance scale" Offset="18" />
 	</_3F9547560B0F309974E8579683E0F6F3>
-	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_EFFE48AE2E60A80B0CA20619AC10EA61 Name="AmbientActionInfo" Size="7C">
+	<_EFFE48AE2E60A80B0CA20619AC10EA61 Name="AmbientActionInfo" Alt="1154EAF3403BA9B9" Size="7C">
 		<_A Name="desire type" Offset="0" StructName1="i343::InteractiveObjects::InteractiveDesire">
 			<Flag n="Scripted" />
 			<Flag n="Health" />
@@ -320,7 +320,7 @@
 		<_14 Name="Max Enemy Target Distance" Offset="74" />
 		<_14 Name="Max Height Difference" Offset="78" />
 	</_EFFE48AE2E60A80B0CA20619AC10EA61>
-	<_D46C484810C248C6AB491B4DA38C27E8 Name="FriendlySquadProperties" Size="4C">
+	<_D46C484810C248C6AB491B4DA38C27E8 Name="FriendlySquadProperties" Alt="50AC6EEBB46515A3" Size="4C">
 		<_40 Name="Follow Actor Types" Offset="0" GUID="B4ED4FCA118603D3AABC8FC29B8212AB" StructName1="FriendlySquadProperties" Min="0" Max="16" />
 		<_14 Name="Encounter Zone Exit Threshold" Offset="14" />
 		<_14 Name="Dynamic Encounter Radius" Offset="18" />
@@ -340,28 +340,28 @@
 		<_14 Name="Arrival Dialogue Event Min Delay Time" Offset="44" />
 		<_14 Name="Arrival Dialogue Event Min Travel Distance" Offset="48" />
 	</_D46C484810C248C6AB491B4DA38C27E8>
-	<_060B572EEB9321FEF2D327708DB3FD29 Name="PathingCostModifiers" Size="C">
+	<_060B572EEB9321FEF2D327708DB3FD29 Name="PathingCostModifiers" Alt="99DEF6A5A2C17763" Size="C">
 		<_36 Name="Pathing cost modifiers" Offset="0" />
 		<_14 Name="Damage area" Offset="0" />
 		<_14 Name="No Drive zone" Offset="4" />
 		<_14 Name="Avoid area" Offset="8" />
 	</_060B572EEB9321FEF2D327708DB3FD29>
-	<_DC4A4D55411A7443017E72E0B4E36B7B Name="s_ai_globals_squad_template_sub_folder_definition" Size="18">
+	<_DC4A4D55411A7443017E72E0B4E36B7B Name="s_ai_globals_squad_template_sub_folder_definition" Alt="AEA31CC879578769" Size="18">
 		<_2 Name="sub folder name" Offset="0" />
 		<_40 Name="templates" Offset="4" GUID="5B2E4CA5B77AC64982C99E1BA7AC56CB" StructName1="s_ai_globals_squad_template_sub_folder_definition" Min="0" Max="128" />
 	</_DC4A4D55411A7443017E72E0B4E36B7B>
-	<_5B2E4CA5B77AC64982C99E1BA7AC56CB Name="s_ai_globals_squad_template_definition" Size="1C">
+	<_5B2E4CA5B77AC64982C99E1BA7AC56CB Name="s_ai_globals_squad_template_definition" Alt="F3C40D77B073455" Size="1C">
 		<_41 Name="squad_template" Offset="0" Allowed="sqtm" Flags="0" />
 	</_5B2E4CA5B77AC64982C99E1BA7AC56CB>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
 		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
-	<_66974B5B7A236D95F43A8A409414695B Name="s_object_meta_label" Size="4">
+	<_66974B5B7A236D95F43A8A409414695B Name="s_object_meta_label" Alt="470D21C1A8F5C28C" Size="4">
 		<_2 Name="meta label" Offset="0" />
 	</_66974B5B7A236D95F43A8A409414695B>
-	<_B4ED4FCA118603D3AABC8FC29B8212AB Name="i343::AI::AIMarkupFilter" Size="2">
+	<_B4ED4FCA118603D3AABC8FC29B8212AB Name="i343::AI::AIMarkupFilter" Alt="197E45F05C3290" Size="2">
 		<_B Name="Actor Type" Offset="0" StructName1="ActorType">
 			<Flag n="none" />
 			<Flag n="player" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:12 PM" Name="leaf_system" Parents="aTag" Index="-241">
-	<_1694654C0609FC2300C0A48B86B19DA1 Name="s_leaf_system_definition" Size="80">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="leaf_system" Parents="aTag" Index="-241">
+	<_1694654C0609FC2300C0A48B86B19DA1 Name="s_leaf_system_definition" Alt="3CD76ADAF9F695A5" Size="80">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_D Name="flags" Offset="10" StructName1="LeafSystemFlags">
 			<Flag n="collides structure" />
@@ -23,11 +23,11 @@
 		<_40 Name="leaf types" Offset="68" GUID="B33945219CB09D25FA4AED55BC2282FD" StructName1="s_leaf_system_definition" Min="0" Max="16" />
 		<_34 Name="generated_paddb8c" Offset="7C" Length="4" />
 	</_1694654C0609FC2300C0A48B86B19DA1>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_B33945219CB09D25FA4AED55BC2282FD Name="s_leaf_type" Size="3C">
+	<_B33945219CB09D25FA4AED55BC2282FD Name="s_leaf_type" Alt="B475E899D62D4C30" Size="3C">
 		<_5 Name="bitmap sprite index" Offset="0" />
 		<_34 Name="generated_padb751" Offset="2" Length="2" />
 		<_14 Name="frequency" Offset="4" />
@@ -43,8 +43,8 @@
 		<_14 Name="starting velocity" Offset="30" />
 		<_26 Name="air friction XY and Z" Offset="34" />
 	</_B33945219CB09D25FA4AED55BC2282FD>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

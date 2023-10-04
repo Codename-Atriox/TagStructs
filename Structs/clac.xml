@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="collisionLayerAuditConfigurationTag" Parents="aTag" Index="-60" C="globals\collision_filter\audit">
-	<_02504DFD7B5447EE2B58AB51827655E3 Name="i343::Physics::CollisionLayerAuditConfigurationTag" Size="38">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="collisionLayerAuditConfigurationTag" Parents="aTag" Index="-60" C="globals\collision_filter\audit">
+	<_02504DFD7B5447EE2B58AB51827655E3 Name="i343::Physics::CollisionLayerAuditConfigurationTag" Alt="1AA05DF87A20DB62" Size="38">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="ignored directories" Offset="10" GUID="AB78477FFB98340EC44E9266BC49C6D6" StructName1="i343::Physics::CollisionLayerAuditConfigurationTag" Min="0" Max="256" />
 		<_40 Name="ignored files" Offset="24" GUID="AB78477FFB98340EC44E9266BC49C6D6" StructName1="i343::Physics::CollisionLayerAuditConfigurationTag" Min="0" Max="256" />
 	</_02504DFD7B5447EE2B58AB51827655E3>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_AB78477FFB98340EC44E9266BC49C6D6 Name="i343::Physics::CollisionLayerAuditConfigString" Size="100">
+	<_AB78477FFB98340EC44E9266BC49C6D6 Name="i343::Physics::CollisionLayerAuditConfigString" Alt="929E6C7F3D7F33FF" Size="100">
 		<_1 Name="string" Offset="0" />
 	</_AB78477FFB98340EC44E9266BC49C6D6>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>

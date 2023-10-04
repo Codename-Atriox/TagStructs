@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="ObjBhvTreeNG" Parents="aTag" Index="-297">
-	<_8B114DF13F5C6CA8D4218D65842591EF Name="ObjectiveBehaviorTreeNodeGraph" Size="D0">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="ObjBhvTreeNG" Parents="aTag" Index="-297">
+	<_8B114DF13F5C6CA8D4218D65842591EF Name="ObjectiveBehaviorTreeNodeGraph" Alt="146EC7E54E30E463" Size="D0">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Source Graph" Offset="10" Allowed="obct" Flags="0" />
 		<_40 Name="Nodes" Offset="2C" GUID="199E4D5E530A1CE28A5B1738A90E83DB" StructName1="ObjectiveBehaviorTreeNodeGraph" Min="0" Max="2048" />
@@ -13,19 +13,19 @@
 		<_40 Name="Asset Parameters" Offset="B8" GUID="55514EF80F03A495C1AB59E9A8926E41" StructName1="ObjectiveBehaviorTreeNodeGraph" Min="0" Max="128" />
 		<_34 Name="generated_pada36f" Offset="CC" Length="4" />
 	</_8B114DF13F5C6CA8D4218D65842591EF>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_199E4D5E530A1CE28A5B1738A90E83DB Name="BehaviorTreeNode" Size="8">
+	<_199E4D5E530A1CE28A5B1738A90E83DB Name="BehaviorTreeNode" Alt="7EB72AEFDD824964" Size="8">
 		<_2 Name="Node Type" Offset="0" />
 		<_6 Name="Node ID" Offset="4" />
 	</_199E4D5E530A1CE28A5B1738A90E83DB>
-	<_E2534684A876CD75078F156FB0ADA3FE Name="BehaviorTreeNodeConnection" Size="8">
+	<_E2534684A876CD75078F156FB0ADA3FE Name="BehaviorTreeNodeConnection" Alt="EABAAFEB8E526E7D" Size="8">
 		<_6 Name="Parent Node ID" Offset="0" />
 		<_6 Name="Child Node ID" Offset="4" />
 	</_E2534684A876CD75078F156FB0ADA3FE>
-	<_DBB84B00DC6105EBB5334E36924CA770 Name="BehaviorTreeNodeParameterConnection" Size="10">
+	<_DBB84B00DC6105EBB5334E36924CA770 Name="BehaviorTreeNodeParameterConnection" Alt="CAFE5B0CFD16C188" Size="10">
 		<_6 Name="Owning Node ID" Offset="0" />
 		<_2 Name="Parameter Identifier" Offset="4" />
 		<_A Name="Parameter Type" Offset="8" StructName1="BehaviorNodeParameterTypes">
@@ -43,28 +43,28 @@
 		<_34 Name="generated_pad818f" Offset="9" Length="3" />
 		<_6 Name="Parameter Index" Offset="C" />
 	</_DBB84B00DC6105EBB5334E36924CA770>
-	<_834F45CA361D1E3625980FA5899DB815 Name="BehaviorTreeNodeParameterBool" Size="8">
+	<_834F45CA361D1E3625980FA5899DB815 Name="BehaviorTreeNodeParameterBool" Alt="15C610ECCD814F33" Size="8">
 		<_2 Name="Blackboard Identifier" Offset="0" />
 		<_4 Name="Parameter Value" Offset="4" />
 		<_34 Name="generated_pad1bf7" Offset="5" Length="3" />
 	</_834F45CA361D1E3625980FA5899DB815>
-	<_DACD4831ECEE4873EBC4D0A08204D770 Name="BehaviorTreeNodeParameterInt" Size="8">
+	<_DACD4831ECEE4873EBC4D0A08204D770 Name="BehaviorTreeNodeParameterInt" Alt="7A1E6821672F2B60" Size="8">
 		<_2 Name="Blackboard Identifier" Offset="0" />
 		<_6 Name="Parameter Value" Offset="4" />
 	</_DACD4831ECEE4873EBC4D0A08204D770>
-	<_2C4A4882DECA10BE826BC60087860FFF Name="BehaviorTreeNodeParameterFloat" Size="8">
+	<_2C4A4882DECA10BE826BC60087860FFF Name="BehaviorTreeNodeParameterFloat" Alt="67985687FEE557F9" Size="8">
 		<_2 Name="Blackboard Identifier" Offset="0" />
 		<_14 Name="Parameter Value" Offset="4" />
 	</_2C4A4882DECA10BE826BC60087860FFF>
-	<_E0A54E86F65937B09C23C71F8A0008C3 Name="BehaviorTreeNodeParameterStringId" Size="8">
+	<_E0A54E86F65937B09C23C71F8A0008C3 Name="BehaviorTreeNodeParameterStringId" Alt="771CFD6FB4BED617" Size="8">
 		<_2 Name="Blackboard Identifier" Offset="0" />
 		<_2 Name="Parameter Value" Offset="4" />
 	</_E0A54E86F65937B09C23C71F8A0008C3>
-	<_55514EF80F03A495C1AB59E9A8926E41 Name="BehaviorTreeNodeParameterRuntimeRef" Size="4">
+	<_55514EF80F03A495C1AB59E9A8926E41 Name="BehaviorTreeNodeParameterRuntimeRef" Alt="19DC1EB1971AE55F" Size="4">
 		<_2 Name="Blackboard Identifier" Offset="0" />
 	</_55514EF80F03A495C1AB59E9A8926E41>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

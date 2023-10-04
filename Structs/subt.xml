@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="composer_subtracks" Parents="aTag" Index="-412">
-	<_7DB64A98BEC2C9F626AB05FB968F3262 Name="SubTracksDefinition" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="composer_subtracks" Parents="aTag" Index="-412">
+	<_7DB64A98BEC2C9F626AB05FB968F3262 Name="SubTracksDefinition" Alt="A0D50D3A62DDEA69" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="SubTracks" type="slap" Offset="10" GUID="7F1C4780264DF9BB71FF6F5FA7DB2794" StructName1="SubTracksDefinition" Min="0" Max="1000" />
 		<_34 Name="generated_pad99a5" Offset="24" Length="4" />
 	</_7DB64A98BEC2C9F626AB05FB968F3262>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_7F1C4780264DF9BB71FF6F5FA7DB2794 Name="ComposerSubTrack" Size="304">
+	<_7F1C4780264DF9BB71FF6F5FA7DB2794 Name="ComposerSubTrack" Alt="30DBE0F9676A92D4" Size="304">
 		<_2 Name="Name" Offset="0" />
 		<_3E Name="Color" Offset="4" />
 		<_A Name="Category" Offset="8" StructName1="ComposerSubActionCategoryEnum">
@@ -58,11 +58,11 @@
 		<_40 Name="Camera Shake SubActions" type="slap" Offset="2DC" GUID="F8924C649CF20F6FF398D15DA3990584" StructName1="ComposerSubTrack" Min="0" Max="512" />
 		<_40 Name="Weapon Action SubActions" type="slap" Offset="2F0" GUID="AAFB482F4C83DED1C1D8BF6E87F92198" StructName1="ComposerSubTrack" Min="0" Max="512" />
 	</_7F1C4780264DF9BB71FF6F5FA7DB2794>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_E81D442CDC2099935EBF54F8926F9C86 Name="ComposerSubAction" Size="D4">
+	<_E81D442CDC2099935EBF54F8926F9C86 Name="ComposerSubAction" Alt="10041A7C53F11160" Size="D4">
 		<_C Name="Type" Offset="0" StructName1="ComposerSubActionTypeEnum">
 			<Flag n="Branch" />
 			<Flag n="Look At" />
@@ -158,7 +158,7 @@
 		</_F>
 		<_34 Name="generated_pad6d2e" Offset="D1" Length="3" />
 	</_E81D442CDC2099935EBF54F8926F9C86>
-	<_A2C64F1973035674D76285A1A8836607 Name="ComposerEditorSubAction" Size="170">
+	<_A2C64F1973035674D76285A1A8836607 Name="ComposerEditorSubAction" Alt="E8E6981B51DFB8B9" Size="170">
 		<_1 Name="Comment" Offset="0" />
 		<_3E Name="Color" Offset="100" />
 		<_3C Name="SubTrack" Offset="104" />
@@ -183,7 +183,7 @@
 		<_37 Name="" type="fgre" Offset="15C" />
 		<_40 Name="Branch Scripts" type="slap" Offset="15C" GUID="81B947E15541B078F73A4C89AB7BBE21" StructName1="ComposerEditorSubAction" Min="0" Max="10000" />
 	</_A2C64F1973035674D76285A1A8836607>
-	<_ABCD418157193946B55A423CBDCB8A26 Name="SubActionPoint" Size="78">
+	<_ABCD418157193946B55A423CBDCB8A26 Name="SubActionPoint" Alt="3C8339CB190B845" Size="78">
 		<_F Name="Flags" Offset="0" StructName1="SubActionFlags">
 			<Flag n="Unattached" />
 		</_F>
@@ -193,21 +193,21 @@
 		<_37 Name="" type="fgre" Offset="5C" />
 		<_41 Name="Asset" Offset="5C" Allowed="lsnd, snd!, musc" Flags="0" />
 	</_ABCD418157193946B55A423CBDCB8A26>
-	<_BF274519453617F742B46D5493AC4F44 Name="SubActionBranch" Size="18">
+	<_BF274519453617F742B46D5493AC4F44 Name="SubActionBranch" Alt="A6E4375F4F59851B" Size="18">
 		<_40 Name="Elements" Offset="0" GUID="75CC4E195A1E6C2934C7E695865E4E47" StructName1="SubActionBranch" Min="0" Max="8" />
 		<_5 Name="Check Rate" Offset="14" />
 		<_34 Name="generated_padb7d8" Offset="16" Length="2" />
 	</_BF274519453617F742B46D5493AC4F44>
-	<_19D7432DF658181159CE766E84364339 Name="SubActionDialog" Size="4C">
+	<_19D7432DF658181159CE766E84364339 Name="SubActionDialog" Alt="8F56BEAD7C3BB99F" Size="4C">
 		<_36 Name="Dialog Sub-Action information" Offset="0" />
 		<_40 Name="Dialogs" Offset="0" GUID="BC1D472DD8D8CC1564FC4B2FA1D92FBA" StructName1="SubActionDialog" Min="0" Max="8" />
 		<_38 Name="Subject" Offset="14" GUID="DB114656C96CA9B0B831C0C987618570" />
 	</_19D7432DF658181159CE766E84364339>
-	<_9E3042F001B162DE3424C697B4DA0722 Name="SubActionSubtitle" Size="8">
+	<_9E3042F001B162DE3424C697B4DA0722 Name="SubActionSubtitle" Alt="28C3841D3141E17D" Size="8">
 		<_2 Name="Subtitle" Offset="0" />
 		<_2 Name="Character" Offset="4" />
 	</_9E3042F001B162DE3424C697B4DA0722>
-	<_B1754F87A3550DC63ED4476AA5A08188 Name="SubActionEffect" Size="84">
+	<_B1754F87A3550DC63ED4476AA5A08188 Name="SubActionEffect" Alt="4AC788EB29D30E18" Size="84">
 		<_36 Name="Effect Sub-Action information" Offset="0" />
 		<_F Name="Flags" Offset="0" StructName1="ComposerEffectFlags">
 			<Flag n="Loop" />
@@ -225,7 +225,7 @@
 		<_2 Name="Function A" Offset="7C" />
 		<_2 Name="Function B" Offset="80" />
 	</_B1754F87A3550DC63ED4476AA5A08188>
-	<_E4AC4396172A70BFA615FD648A327AD9 Name="SubActionLensFlare" Size="7C">
+	<_E4AC4396172A70BFA615FD648A327AD9 Name="SubActionLensFlare" Alt="F87364DD22A16DE8" Size="7C">
 		<_41 Name="Lens Flare" Offset="0" Allowed="lens" Flags="0" />
 		<_37 Name="Point" type="fgrb" Offset="1C" />
 		<_38 Name="Point" Offset="1C" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
@@ -236,7 +236,7 @@
 		</_F>
 		<_34 Name="generated_pad13c6" Offset="79" Length="3" />
 	</_E4AC4396172A70BFA615FD648A327AD9>
-	<_77B3483399B9AA41DACA67F9BD9D6D4B Name="SubActionLight" Size="1E4">
+	<_77B3483399B9AA41DACA67F9BD9D6D4B Name="SubActionLight" Alt="7F7D033E80D833" Size="1E4">
 		<_38 Name="Light" Offset="0" GUID="F87643B7908D235027669B07968E32EE" />
 		<_2 Name="Light Name" Offset="18" />
 		<_6 Name="Light Guid" Offset="1C" />
@@ -259,12 +259,12 @@
 		</_F>
 		<_34 Name="generated_pad4e43" Offset="1E1" Length="3" />
 	</_77B3483399B9AA41DACA67F9BD9D6D4B>
-	<_78C5417BA0B7BDCCB62F63E1851C6291 Name="SubActionClipPlane" Size="2C">
+	<_78C5417BA0B7BDCCB62F63E1851C6291 Name="SubActionClipPlane" Alt="804DED165106DE0C" Size="2C">
 		<_17 Name="Plane Center" Offset="0" />
 		<_17 Name="Plane Direction" Offset="C" />
 		<_40 Name="Subjects" type="slap" Offset="18" GUID="DB114656C96CA9B0B831C0C987618570" StructName1="SubActionClipPlane" Min="0" Max="16" />
 	</_78C5417BA0B7BDCCB62F63E1851C6291>
-	<_29414CC5DF6FD1BDEC7A9277917F1956 Name="SubActionFunction" Size="20">
+	<_29414CC5DF6FD1BDEC7A9277917F1956 Name="SubActionFunction" Alt="5BFFFCA08A61B5E5" Size="20">
 		<_36 Name="Function Sub-Action information" Offset="0" />
 		<_F Name="Flags" Offset="0" StructName1="ComposerFunctionFlags">
 			<Flag n="Clear Value At End" />
@@ -274,7 +274,7 @@
 		<_2 Name="Function Name" Offset="4" />
 		<_38 Name="Function" Offset="8" GUID="2AA94534384EBA004A23EF26AD11D043" />
 	</_29414CC5DF6FD1BDEC7A9277917F1956>
-	<_DF7D48BE270765B0304FE43887C2B109 Name="SubActionFunctionCurve" Size="48">
+	<_DF7D48BE270765B0304FE43887C2B109 Name="SubActionFunctionCurve" Alt="324A9847818EBF4E" Size="48">
 		<_36 Name="Function Sub-Action information" Offset="0" />
 		<_F Name="Flags" Offset="0" StructName1="ComposerFunctionFlags">
 			<Flag n="Clear Value At End" />
@@ -283,15 +283,15 @@
 		<_34 Name="generated_pade687" Offset="1" Length="3" />
 		<_38 Name="Curve" Offset="4" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
 	</_DF7D48BE270765B0304FE43887C2B109>
-	<_485D4D8C44E22C9426E282FA93C1722F Name="SubActionUserInputConstraints" Size="8">
+	<_485D4D8C44E22C9426E282FA93C1722F Name="SubActionUserInputConstraints" Alt="70B2EADEF0E2AE6A" Size="8">
 		<_11 Name="Maximum Look Angles" Offset="0" />
 		<_14 Name="Frictional Force" Offset="4" />
 	</_485D4D8C44E22C9426E282FA93C1722F>
-	<_F7364F77CAED71028AF341CA98078501 Name="SubActionGeneric" Size="20">
+	<_F7364F77CAED71028AF341CA98078501 Name="SubActionGeneric" Alt="904AA4D7794C0F5" Size="20">
 		<_41 Name="Asset" Offset="0" Allowed="lsnd, snd!, musc, sefc, bink, fogg, cfxs, bitm, colt, holt" Flags="0" />
 		<_6 Name="Blend Frames" Offset="1C" />
 	</_F7364F77CAED71028AF341CA98078501>
-	<_8D4D483948D4D4834D4839F5D4D4839F Name="SubActionObject" Size="1E8">
+	<_8D4D483948D4D4834D4839F5D4D4839F Name="SubActionObject" Alt="DF51803E04789777" Size="1E8">
 		<_38 Name="Subject" Offset="0" GUID="DB114656C96CA9B0B831C0C987618570" />
 		<_6 Name="Object Guid" Offset="38" />
 		<_38 Name="Transform Curve" Offset="3C" GUID="609D4427E8A081058FA4DFFD8D5A5013" />
@@ -309,7 +309,7 @@
 		<_34 Name="generated_pad69f5" Offset="1D2" Length="2" />
 		<_40 Name="Curve List" Offset="1D4" GUID="36984D8B0310C6CE79E90C21A48A1D61" StructName1="SubActionObject" Min="0" Max="255" />
 	</_8D4D483948D4D4834D4839F5D4D4839F>
-	<_2D434CDFEE632FA9B204D957ACBD8CBE Name="SubActionValue" Size="50">
+	<_2D434CDFEE632FA9B204D957ACBD8CBE Name="SubActionValue" Alt="214DDCC032228AFA" Size="50">
 		<_A Name="Type" Offset="0" StructName1="SubActionValueTypeEnum">
 			<Flag n="Linear" />
 			<Flag n="Constant" />
@@ -320,7 +320,7 @@
 		<_14 Name="End Value" Offset="8" />
 		<_38 Name="Value Curve" Offset="C" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
 	</_2D434CDFEE632FA9B204D957ACBD8CBE>
-	<_17F54C030AD8D053A6721E928234A4EC Name="SubActionCameraFadeScreen" Size="54">
+	<_17F54C030AD8D053A6721E928234A4EC Name="SubActionCameraFadeScreen" Alt="478B3E8CE41D8C30" Size="54">
 		<_F Name="Fade Screen Flags" Offset="0" StructName1="ComposerCameraFadeScreenFlags">
 			<Flag n="Clear Fade At End" />
 			<Flag n="Preserve Fade After Level Load" />
@@ -329,7 +329,7 @@
 		<_1F Name="Fade Color" Offset="4" />
 		<_38 Name="Fade Curve" Offset="10" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
 	</_17F54C030AD8D053A6721E928234A4EC>
-	<_774F41E7273AB11976D5048DAEB21C6F Name="SubActionCameraTrigger" Size="1">
+	<_774F41E7273AB11976D5048DAEB21C6F Name="SubActionCameraTrigger" Alt="4F6D75A577F860AD" Size="1">
 		<_F Name="Flags" Offset="0" StructName1="SubActionCameraTriggerFlags">
 			<Flag n="First Person Perspective" />
 			<Flag n="Ready Weapon Immediately" />
@@ -337,7 +337,7 @@
 			<Flag n="Animated Arms" />
 		</_F>
 	</_774F41E7273AB11976D5048DAEB21C6F>
-	<_9C0D436D385EADFDA6697D2C8E8AE86D Name="ComposerScript" Size="5C">
+	<_9C0D436D385EADFDA6697D2C8E8AE86D Name="ComposerScript" Alt="A2885E59DD81B39" Size="5C">
 		<_F Name="Flags" Offset="0" StructName1="ComposerScriptFlags">
 			<Flag n="Client" />
 			<Flag n="HasAssociatedScript" />
@@ -351,7 +351,7 @@
 		<_0 Name="Runtime Script Name" Offset="38" />
 		<_3E Name="Runtime Script CRC" Offset="58" />
 	</_9C0D436D385EADFDA6697D2C8E8AE86D>
-	<_6DDDEDE0B6374CC1D6DA4B7DAC65AFA4 Name="SubActionUIScene" Size="90">
+	<_6DDDEDE0B6374CC1D6DA4B7DAC65AFA4 Name="SubActionUIScene" Alt="D56419D5E75B821D" Size="90">
 		<_F Name="Flags" Offset="0" StructName1="ComposerUISceneFlags">
 			<Flag n="Attach" />
 			<Flag n="Render 2D" />
@@ -365,17 +365,17 @@
 		<_14 Name="Scale" Offset="78" />
 		<_40 Name="Player Data" type="slap" Offset="7C" GUID="57604CD98E2771A3CEDBF513B65ED4B6" StructName1="SubActionUIScene" Min="0" Max="1" />
 	</_6DDDEDE0B6374CC1D6DA4B7DAC65AFA4>
-	<_2F53AD560010758093BEADDF8AF7D50C Name="SubActionNodeGraphEvent" Size="8">
+	<_2F53AD560010758093BEADDF8AF7D50C Name="SubActionNodeGraphEvent" Alt="A8E24934C2B262D6" Size="8">
 		<_2 Name="Event Name" Offset="0" />
 		<_F Name="Flags" Offset="4" StructName1="ComposerNodeGraphEventFlags">
 			<Flag n="Global Event" />
 		</_F>
 		<_34 Name="generated_pad5d68" Offset="5" Length="3" />
 	</_2F53AD560010758093BEADDF8AF7D50C>
-	<_F894433EA43307FC5462069689993965 Name="SubActionGameEngineVignetteEvent" Size="4">
+	<_F894433EA43307FC5462069689993965 Name="SubActionGameEngineVignetteEvent" Alt="78265744E5C746C" Size="4">
 		<_2 Name="Event Name" Offset="0" />
 	</_F894433EA43307FC5462069689993965>
-	<_19BF4CDEACAF71EF36460564A417A7F1 Name="SubActionCameraLensDirt" Size="24">
+	<_19BF4CDEACAF71EF36460564A417A7F1 Name="SubActionCameraLensDirt" Alt="A089DEF9A161328D" Size="24">
 		<_14 Name="Intensity" Offset="0" />
 		<_41 Name="Dirt Texture" Offset="4" Allowed="bitm" Flags="0" />
 		<_A Name="Dirt Type" Offset="20" StructName1="CameraLensDirt::DirtType">
@@ -384,7 +384,7 @@
 		</_A>
 		<_34 Name="generated_pad40de" Offset="21" Length="3" />
 	</_19BF4CDEACAF71EF36460564A417A7F1>
-	<_980B485C272FF5E74B118398A4471E11 Name="SubActionTransform" Size="CC">
+	<_980B485C272FF5E74B118398A4471E11 Name="SubActionTransform" Alt="B7C603CB0FFC13F4" Size="CC">
 		<_F Name="Flags" Offset="0" StructName1="SubActionTransformFlags">
 			<Flag n="Position" />
 			<Flag n="Rotation" />
@@ -399,10 +399,10 @@
 		<_37 Name="" type="fgre" Offset="B4" />
 		<_38 Name="Mapping" Offset="B4" GUID="0276481E72CB9289F56D7C189467A351" />
 	</_980B485C272FF5E74B118398A4471E11>
-	<_70C5491BD8500E27826FE0DEA5717F8D Name="SubActionTransformCurve" Size="194">
+	<_70C5491BD8500E27826FE0DEA5717F8D Name="SubActionTransformCurve" Alt="62F9FE336F3C2FA9" Size="194">
 		<_38 Name="Transform Curve" Offset="0" GUID="609D4427E8A081058FA4DFFD8D5A5013" />
 	</_70C5491BD8500E27826FE0DEA5717F8D>
-	<_99BE4B7406D06A3C164EC4E5B4741714 Name="SubActionGenericAI" Size="60">
+	<_99BE4B7406D06A3C164EC4E5B4741714 Name="SubActionGenericAI" Alt="AF7E555E804CF0F3" Size="60">
 		<_37 Name="Point" type="fgrb" Offset="0" />
 		<_38 Name="Point" Offset="0" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
 		<_37 Name="" type="fgre" Offset="58" />
@@ -410,7 +410,7 @@
 		<_3D Name="Flags" Offset="5C" />
 		<_34 Name="generated_pade30f" Offset="5E" Length="2" />
 	</_99BE4B7406D06A3C164EC4E5B4741714>
-	<_E4C441DD61C92206FDA5FF70A34D35DF Name="SubActionIKInfluencer" Size="68">
+	<_E4C441DD61C92206FDA5FF70A34D35DF Name="SubActionIKInfluencer" Alt="E39C0B1B11A7E3E2" Size="68">
 		<_37 Name="Target" type="fgrb" Offset="0" />
 		<_38 Name="IK Target" Offset="0" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
 		<_37 Name="" type="fgre" Offset="58" />
@@ -419,22 +419,22 @@
 		<_14 Name="Current Influence Scale" Offset="60" />
 		<_14 Name="Influence Priority" Offset="64" />
 	</_E4C441DD61C92206FDA5FF70A34D35DF>
-	<_B7804BA5DEC326CBBCA2500598D71B66 Name="SubActionCameraDOFCurve" Size="B8">
+	<_B7804BA5DEC326CBBCA2500598D71B66 Name="SubActionCameraDOFCurve" Alt="1A0420529CD72EF0" Size="B8">
 		<_38 Name="Camera DOF Curve" Offset="0" GUID="23494D45B3AA945038C2CB038683B2FB" />
 		<_6 Name="Bokeh Side Count" Offset="B4" />
 	</_B7804BA5DEC326CBBCA2500598D71B66>
-	<_2E9D46C479DEEFA1F130B25CA006D263 Name="SubActionScriptCurves" Size="16C">
+	<_2E9D46C479DEEFA1F130B25CA006D263 Name="SubActionScriptCurves" Alt="71F3064C2F1E29EC" Size="16C">
 		<_38 Name="Script" Offset="0" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" />
 		<_38 Name="script_curve_value_1" Offset="5C" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
 		<_38 Name="script_curve_value_2" Offset="A0" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
 		<_38 Name="script_curve_value_3" Offset="E4" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
 		<_38 Name="script_curve_value_4" Offset="128" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
 	</_2E9D46C479DEEFA1F130B25CA006D263>
-	<_1D9F440845EB9B2E974729E28FA4A84A Name="SubActionPuppetVariant" Size="8">
+	<_1D9F440845EB9B2E974729E28FA4A84A Name="SubActionPuppetVariant" Alt="DB754A2B57148018" Size="8">
 		<_2 Name="Variant Name" Offset="0" />
 		<_2 Name="Style Id" Offset="4" />
 	</_1D9F440845EB9B2E974729E28FA4A84A>
-	<_BD474D38E79070740B32FD2DA4347862 Name="SubActionColorRgba" Size="134">
+	<_BD474D38E79070740B32FD2DA4347862 Name="SubActionColorRgba" Alt="EA181AC49A8E75F5" Size="134">
 		<_A Name="Type" Offset="0" StructName1="SubActionValueTypeEnum">
 			<Flag n="Linear" />
 			<Flag n="Constant" />
@@ -454,7 +454,7 @@
 		<_38 Name="Blue Curve" Offset="AC" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
 		<_38 Name="Alpha Curve" Offset="F0" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
 	</_BD474D38E79070740B32FD2DA4347862>
-	<_3242495522C6701CC57416B4B394A795 Name="SubActionCubemapVolume" Size="60">
+	<_3242495522C6701CC57416B4B394A795 Name="SubActionCubemapVolume" Alt="958DE02519C27910" Size="60">
 		<_A Name="State" Offset="0" StructName1="ComposerCubemapVolumeStateEnum">
 			<Flag n="On" />
 			<Flag n="Off" />
@@ -463,7 +463,7 @@
 		<_38 Name="Cubemap Volume" Offset="4" GUID="F87643B7908D235027669B07968E32EE" />
 		<_38 Name="Fade Curve" Offset="1C" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
 	</_3242495522C6701CC57416B4B394A795>
-	<_44194AAC4F771E8CAEE8CA0B8FC866A7 Name="SubActionDwsState" Size="1C">
+	<_44194AAC4F771E8CAEE8CA0B8FC866A7 Name="SubActionDwsState" Alt="651C12B0A638A633" Size="1C">
 		<_A Name="DWS State" Offset="0" StructName1="ComposerDwsStateTypeEnum">
 			<Flag n="Push for duration" />
 			<Flag n="Pop for duration" />
@@ -478,7 +478,7 @@
 		<_14 Name="End Interpolation Time" Offset="14" />
 		<_6 Name="End Steps" Offset="18" />
 	</_44194AAC4F771E8CAEE8CA0B8FC866A7>
-	<_59F14192778BF20B42BCE9E68D8E844D Name="SubActionDwsColorGrading" Size="5C">
+	<_59F14192778BF20B42BCE9E68D8E844D Name="SubActionDwsColorGrading" Alt="661FCB2517ED8330" Size="5C">
 		<_E Name="Curves" Offset="0" StructName1="ComposerDwsColorGradingCurveFlags">
 			<Flag n="Weight" />
 			<Flag n="Exposure" />
@@ -496,11 +496,11 @@
 		<_40 Name="Curve List" Offset="4" GUID="36984D8B0310C6CE79E90C21A48A1D61" StructName1="SubActionDwsColorGrading" Min="0" Max="255" />
 		<_38 Name="Blending Curve" Offset="18" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
 	</_59F14192778BF20B42BCE9E68D8E844D>
-	<_E57B42876B99C2DCB52D3FBDB1B3A8DC Name="SubActionDwsChromaticAberration" Size="88">
+	<_E57B42876B99C2DCB52D3FBDB1B3A8DC Name="SubActionDwsChromaticAberration" Alt="8803A12A4C71A34D" Size="88">
 		<_38 Name="Weight" Offset="0" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
 		<_38 Name="Blending Curve" Offset="44" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
 	</_E57B42876B99C2DCB52D3FBDB1B3A8DC>
-	<_9AA145E61C474EC9FC81A00BBB916FF7 Name="SubActionRumble" Size="12C">
+	<_9AA145E61C474EC9FC81A00BBB916FF7 Name="SubActionRumble" Alt="8BABFF88B436F2AC" Size="12C">
 		<_41 Name="Rumble Definition" Offset="0" Allowed="rmbl" Flags="0" />
 		<_37 Name="Rumble Curves" type="fgrb" Offset="1C" />
 		<_38 Name="Low Frequency Curve" Offset="1C" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
@@ -509,18 +509,18 @@
 		<_38 Name="Secondary Trigger Curve" Offset="E8" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
 		<_37 Name="" type="fgre" Offset="12C" />
 	</_9AA145E61C474EC9FC81A00BBB916FF7>
-	<_F8924C649CF20F6FF398D15DA3990584 Name="SubActionCameraShake" Size="D4">
+	<_F8924C649CF20F6FF398D15DA3990584 Name="SubActionCameraShake" Alt="EC21E4D7365085C4" Size="D4">
 		<_38 Name="Blending Curve" Offset="0" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
 		<_38 Name="Camera Shake Properties" Offset="44" GUID="A8964476ED9D0FD26C6CBFABA8E1929A" />
 	</_F8924C649CF20F6FF398D15DA3990584>
-	<_AAFB482F4C83DED1C1D8BF6E87F92198 Name="SubActionWeaponAction" Size="2">
+	<_AAFB482F4C83DED1C1D8BF6E87F92198 Name="SubActionWeaponAction" Alt="BDE605EE0C71EA98" Size="2">
 		<_38 Name="Weapon Action" Offset="0" GUID="1155416DBCADDAF9D6D88C229B7C0C30" />
 	</_AAFB482F4C83DED1C1D8BF6E87F92198>
-	<_81B947E15541B078F73A4C89AB7BBE21 Name="ComposerTextData" Size="1C">
+	<_81B947E15541B078F73A4C89AB7BBE21 Name="ComposerTextData" Alt="C79D765FE5D0A628" Size="1C">
 		<_42 Name="Data" Offset="0" StructName1="ComposerTextData.Data" Int1="2" Int2="0" Flags="1000" />
 		<_3E Name="Script CRC" Offset="18" />
 	</_81B947E15541B078F73A4C89AB7BBE21>
-	<_78F085EBC78F085EF085EB1D8F085EB1 Name="ComposerPathPoint" Size="58">
+	<_78F085EBC78F085EF085EB1D8F085EB1 Name="ComposerPathPoint" Alt="158256213A8C3181" Size="58">
 		<_B Name="Type" Offset="0" StructName1="ComposerPathPointTypeEnum">
 			<Flag n="Current" />
 			<Flag n="Object" />
@@ -546,17 +546,17 @@
 		<_17 Name="Position" Offset="40" />
 		<_1C Name="Rotation" Offset="4C" />
 	</_78F085EBC78F085EF085EB1D8F085EB1>
-	<_75CC4E195A1E6C2934C7E695865E4E47 Name="ComposerBranchElement" Size="60">
+	<_75CC4E195A1E6C2934C7E695865E4E47 Name="ComposerBranchElement" Alt="8C2A54B375BB0D30" Size="60">
 		<_6 Name="Target Action" Offset="0" />
 		<_38 Name="Condition Script" Offset="4" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" />
 	</_75CC4E195A1E6C2934C7E695865E4E47>
-	<_BC1D472DD8D8CC1564FC4B2FA1D92FBA Name="ComposerDialog" Size="80">
+	<_BC1D472DD8D8CC1564FC4B2FA1D92FBA Name="ComposerDialog" Alt="29F3A57106C16FAE" Size="80">
 		<_41 Name="Dialog" Offset="0" Allowed="snd!" Flags="8" />
 		<_6 Name="Weight" Offset="1C" />
 		<_14 Name="Scale" Offset="20" />
 		<_38 Name="Dialog Script" Offset="24" GUID="9C0D436D385EADFDA6697D2C8E8AE86D" />
 	</_BC1D472DD8D8CC1564FC4B2FA1D92FBA>
-	<_DB114656C96CA9B0B831C0C987618570 Name="ComposerSubject" Size="38">
+	<_DB114656C96CA9B0B831C0C987618570 Name="ComposerSubject" Alt="E0107737C04BDCAA" Size="38">
 		<_2 Name="Object Name" Offset="0" />
 		<_42 Name="Raw Object Name" Offset="4" StructName1="ComposerSubject.Raw Object Name" Int1="2" Int2="0" Flags="200" />
 		<_38 Name="Object" Offset="1C" GUID="F87643B7908D235027669B07968E32EE" />
@@ -572,11 +572,11 @@
 		</_A>
 		<_34 Name="generated_padc9c6" Offset="35" Length="3" />
 	</_DB114656C96CA9B0B831C0C987618570>
-	<_F87643B7908D235027669B07968E32EE Name="LevelObjectReference" Size="18">
+	<_F87643B7908D235027669B07968E32EE Name="LevelObjectReference" Alt="CBD5C26DF46DBF7A" Size="18">
 		<_40 Name="path" Offset="0" GUID="689849540174FB9326701C02A42ED2BF" StructName1="LevelObjectReference" Min="0" Max="256" />
 		<_6 Name="guid" Offset="14" />
 	</_F87643B7908D235027669B07968E32EE>
-	<_609D4427E8A081058FA4DFFD8D5A5013 Name="TransformCurve" Size="194">
+	<_609D4427E8A081058FA4DFFD8D5A5013 Name="TransformCurve" Alt="1754E1415CEB6C2D" Size="194">
 		<_A Name="Translation Type" Offset="0" StructName1="TransformCurveTranslationTypeEnum">
 			<Flag n="Off" />
 			<Flag n="Curve" />
@@ -604,7 +604,7 @@
 		<_38 Name="Rotation Point" Offset="13C" GUID="78F085EBC78F085EF085EB1D8F085EB1" />
 		<_37 Name="" type="fgre" Offset="194" />
 	</_609D4427E8A081058FA4DFFD8D5A5013>
-	<_36984D8B0310C6CE79E90C21A48A1D61 Name="i343::Curve::PropertyCurve" Size="16C">
+	<_36984D8B0310C6CE79E90C21A48A1D61 Name="i343::Curve::PropertyCurve" Alt="C8A5E498D2F7B4CA" Size="16C">
 		<_2 Name="Name" Offset="0" />
 		<_A Name="Curve Type" Offset="4" StructName1="i343::Curve::CurveStructType">
 			<Flag n="AnimatedCurveType" />
@@ -621,11 +621,11 @@
 		<_38 Name="Depth of Field Curve" Offset="74" GUID="23494D45B3AA945038C2CB038683B2FB" />
 		<_38 Name="Animated Curve 1d" Offset="128" GUID="76144B6AE05BBD5164A56C16BD5CC07A" />
 	</_36984D8B0310C6CE79E90C21A48A1D61>
-	<_2AA94534384EBA004A23EF26AD11D043 Name="ScalarFunctionNameDefaultOne" Size="18">
+	<_2AA94534384EBA004A23EF26AD11D043 Name="ScalarFunctionNameDefaultOne" Alt="3C31DA9CDFBD201" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="4C5A4A1A9019ABA511FDA1ADAD1AF034" />
 	</_2AA94534384EBA004A23EF26AD11D043>
-	<_76144B6AE05BBD5164A56C16BD5CC07A Name="i343::Curve::AnimatedCurve1d" Size="44">
+	<_76144B6AE05BBD5164A56C16BD5CC07A Name="i343::Curve::AnimatedCurve1d" Alt="A91D52BBEC22D5FB" Size="44">
 		<_2 Name="Name" Offset="0" />
 		<_F Name="Flags" Offset="4" StructName1="i343::Curve::AnimatedCurveFlags">
 			<Flag n="Enabled" />
@@ -636,7 +636,7 @@
 		<_40 Name="AnimatedCurveMetadata" Offset="1C" GUID="3F964DDA0953303E62C6151BBBD199AE" StructName1="i343::Curve::AnimatedCurve1d" Min="0" Max="1024" />
 		<_40 Name="EditorCurveProperties" Offset="30" GUID="7E334986D2CF3A61A27890EAA945BBF5" StructName1="i343::Curve::AnimatedCurve1d" Min="0" Max="1" />
 	</_76144B6AE05BBD5164A56C16BD5CC07A>
-	<_57604CD98E2771A3CEDBF513B65ED4B6 Name="ComposerPlayerData" Size="C">
+	<_57604CD98E2771A3CEDBF513B65ED4B6 Name="ComposerPlayerData" Alt="ED7AF9064946B5D3" Size="C">
 		<_A Name="Player Type" Offset="0" StructName1="ComposerPlayerPuppetTypeEnum">
 			<Flag n="Multiplayer" />
 			<Flag n="Campaign" />
@@ -661,11 +661,11 @@
 		<_6 Name="Player Index" Offset="4" />
 		<_6 Name="Forge Spectator Player Index" Offset="8" />
 	</_57604CD98E2771A3CEDBF513B65ED4B6>
-	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_23494D45B3AA945038C2CB038683B2FB Name="i343::Curve::DepthOfFieldCurve" Size="B4">
+	<_23494D45B3AA945038C2CB038683B2FB Name="i343::Curve::DepthOfFieldCurve" Alt="36665A08D834A3B0" Size="B4">
 		<_F Name="Flags" Offset="0" StructName1="i343::Curve::DepthOfFieldCurve::CurveFlags">
 			<Flag n="Enabled" />
 			<Flag n="Visible" />
@@ -676,7 +676,7 @@
 		<_38 Name="FStop" type="slap" Offset="5C" GUID="94144B360D5BC689E3349147AF518ED1" />
 		<_38 Name="Gameplay FOV Blend" type="slap" Offset="88" GUID="94144B360D5BC689E3349147AF518ED1" />
 	</_23494D45B3AA945038C2CB038683B2FB>
-	<_A8964476ED9D0FD26C6CBFABA8E1929A Name="i343::Narrative::CageShakeProperties" Size="90">
+	<_A8964476ED9D0FD26C6CBFABA8E1929A Name="i343::Narrative::CageShakeProperties" Alt="5B93E0898312FFE" Size="90">
 		<_38 Name="Scale Damping" Offset="0" GUID="69804F44DBE20A67639D16AE97058D1C" />
 		<_37 Name="Position" type="fgrb" Offset="10" />
 		<_19 Name="Position Sample Values" Offset="10" />
@@ -695,7 +695,7 @@
 		<_18 Name="Rotation Time Velocity Scale" Offset="88" />
 		<_37 Name="" type="fgre" Offset="90" />
 	</_A8964476ED9D0FD26C6CBFABA8E1929A>
-	<_1155416DBCADDAF9D6D88C229B7C0C30 Name="WeaponActionProperties" Size="2">
+	<_1155416DBCADDAF9D6D88C229B7C0C30 Name="WeaponActionProperties" Alt="58C48A63BA5EF8E2" Size="2">
 		<_A Name="Weapon Action" Offset="0" StructName1="PuppetWeaponActionTypeEnum">
 			<Flag n="LowerWeapon" />
 			<Flag n="LowerThenStowWeapon" />
@@ -707,11 +707,11 @@
 			<Flag n="Hide Stowed Weapon" />
 		</_F>
 	</_1155416DBCADDAF9D6D88C229B7C0C30>
-	<_689849540174FB9326701C02A42ED2BF Name="LevelObjectReferenceElement" Size="8">
+	<_689849540174FB9326701C02A42ED2BF Name="LevelObjectReferenceElement" Alt="FC332D7EE90075A8" Size="8">
 		<_6 Name="guid" Offset="0" />
 		<_2 Name="name" Offset="4" />
 	</_689849540174FB9326701C02A42ED2BF>
-	<_A36A4B056D9A73A4F4171DECB18EE418 Name="i343::Curve::AnimatedCurve3d" Size="2C">
+	<_A36A4B056D9A73A4F4171DECB18EE418 Name="i343::Curve::AnimatedCurve3d" Alt="545088B8868C151" Size="2C">
 		<_F Name="Flags" Offset="0" StructName1="i343::Curve::AnimatedCurveFlags">
 			<Flag n="Enabled" />
 			<Flag n="Visible" />
@@ -720,7 +720,7 @@
 		<_38 Name="Value Curve" Offset="4" GUID="019A49F49D5E2ECAED2D06FCA24C1356" />
 		<_40 Name="EditorCurveProperties" Offset="18" GUID="7E334986D2CF3A61A27890EAA945BBF5" StructName1="i343::Curve::AnimatedCurve3d" Min="0" Max="1" />
 	</_A36A4B056D9A73A4F4171DECB18EE418>
-	<_DBF64500377A35B8A8879E748EA2450E Name="i343::Curve::AnimatedCurve2d" Size="40">
+	<_DBF64500377A35B8A8879E748EA2450E Name="i343::Curve::AnimatedCurve2d" Alt="E3539A1DB46DE207" Size="40">
 		<_F Name="Flags" Offset="0" StructName1="i343::Curve::AnimatedCurveFlags">
 			<Flag n="Enabled" />
 			<Flag n="Visible" />
@@ -730,27 +730,27 @@
 		<_40 Name="AnimatedCurveMetadata" Offset="18" GUID="3F964DDA0953303E62C6151BBBD199AE" StructName1="i343::Curve::AnimatedCurve2d" Min="0" Max="1024" />
 		<_40 Name="EditorCurveProperties" Offset="2C" GUID="7E334986D2CF3A61A27890EAA945BBF5" StructName1="i343::Curve::AnimatedCurve2d" Min="0" Max="1" />
 	</_DBF64500377A35B8A8879E748EA2450E>
-	<_4C5A4A1A9019ABA511FDA1ADAD1AF034 Name="FunctionDefinitionDefaultOne" Size="18">
+	<_4C5A4A1A9019ABA511FDA1ADAD1AF034 Name="FunctionDefinitionDefaultOne" Alt="E0E2BDF48D6E226A" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_4C5A4A1A9019ABA511FDA1ADAD1AF034>
-	<_0F9747AA89121CCE609267FD9685FC92 Name="i343::Curve::Curve1dDefinition" Size="14">
+	<_0F9747AA89121CCE609267FD9685FC92 Name="i343::Curve::Curve1dDefinition" Alt="5C5AFE65904470D9" Size="14">
 		<_40 Name="control points" Offset="0" GUID="F01E43007DADE047C5A8963E807C1A31" StructName1="i343::Curve::Curve1dDefinition" Min="0" Max="1024" />
 	</_0F9747AA89121CCE609267FD9685FC92>
-	<_3F964DDA0953303E62C6151BBBD199AE Name="i343::Curve::AnimatedCurveMetadata" Size="4">
+	<_3F964DDA0953303E62C6151BBBD199AE Name="i343::Curve::AnimatedCurveMetadata" Alt="239E4988EB98583D" Size="4">
 		<_14 Name="time" Offset="0" />
 	</_3F964DDA0953303E62C6151BBBD199AE>
-	<_7E334986D2CF3A61A27890EAA945BBF5 Name="i343::Curve::EditorCurveProperties" Size="28">
+	<_7E334986D2CF3A61A27890EAA945BBF5 Name="i343::Curve::EditorCurveProperties" Alt="4166D250BCEF59E7" Size="28">
 		<_40 Name="wizard settings" Offset="0" GUID="D0AC41A0CA658DFDF2105B8E8859B6F6" StructName1="i343::Curve::EditorCurveProperties" Min="0" Max="1" />
 		<_40 Name="Colors" Offset="14" GUID="2D4746EBEE69FC63B0BB44D695596FDB" StructName1="i343::Curve::EditorCurveProperties" Min="0" Max="3" />
 	</_7E334986D2CF3A61A27890EAA945BBF5>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
-	<_94144B360D5BC689E3349147AF518ED1 Name="i343::Curve::AnimatedCurve" Size="2C">
+	<_94144B360D5BC689E3349147AF518ED1 Name="i343::Curve::AnimatedCurve" Alt="8ACA9260F82F1950" Size="2C">
 		<_40 Name="KeyFrames" type="slap" Offset="0" GUID="23AC4D50C981A5503DD2B2EF85C5E10E" StructName1="i343::Curve::AnimatedCurve" Min="0" Max="1024" />
 		<_F Name="Flags" Offset="14" StructName1="i343::Curve::AnimatedCurve::CurveFlags">
 			<Flag n="Enabled" />
@@ -759,7 +759,7 @@
 		<_34 Name="generated_pad5cd6" Offset="15" Length="3" />
 		<_40 Name="EditorCurveProperties" Offset="18" GUID="7E334986D2CF3A61A27890EAA945BBF5" StructName1="i343::Curve::AnimatedCurve" Min="0" Max="1" />
 	</_94144B360D5BC689E3349147AF518ED1>
-	<_69804F44DBE20A67639D16AE97058D1C Name="i343::Narrative::CageDampingProperties" Size="10">
+	<_69804F44DBE20A67639D16AE97058D1C Name="i343::Narrative::CageDampingProperties" Alt="5612C2CE7E18ACA5" Size="10">
 		<_3C Name="Position Dampen Percentage" Offset="0" />
 		<_34 Name="generated_pad6a9e" Offset="1" Length="3" />
 		<_14 Name="Position Dampen Time" Offset="4" />
@@ -767,13 +767,13 @@
 		<_34 Name="generated_padb753" Offset="9" Length="3" />
 		<_14 Name="Rotation Dampen Time" Offset="C" />
 	</_69804F44DBE20A67639D16AE97058D1C>
-	<_019A49F49D5E2ECAED2D06FCA24C1356 Name="i343::Curve::Curve3dDefinition" Size="14">
+	<_019A49F49D5E2ECAED2D06FCA24C1356 Name="i343::Curve::Curve3dDefinition" Alt="5B19992C38BB1500" Size="14">
 		<_40 Name="control points" Offset="0" GUID="29C547C8AC5C536494CC256697923B5C" StructName1="i343::Curve::Curve3dDefinition" Min="0" Max="1024" />
 	</_019A49F49D5E2ECAED2D06FCA24C1356>
-	<_6E2F48EB646C923BD28E8C6BA226CEB3 Name="i343::Curve::Curve2dDefinition" Size="14">
+	<_6E2F48EB646C923BD28E8C6BA226CEB3 Name="i343::Curve::Curve2dDefinition" Alt="20B840BA5CE9C907" Size="14">
 		<_40 Name="control points" Offset="0" GUID="7EC743402A79404C8298A95EA81462E7" StructName1="i343::Curve::Curve2dDefinition" Min="0" Max="1024" />
 	</_6E2F48EB646C923BD28E8C6BA226CEB3>
-	<_F01E43007DADE047C5A8963E807C1A31 Name="i343::Curve::Curve1dControlPoint" Size="14">
+	<_F01E43007DADE047C5A8963E807C1A31 Name="i343::Curve::Curve1dControlPoint" Alt="CE8B44396F2F6534" Size="14">
 		<_14 Name="value" Offset="0" />
 		<_14 Name="tangent in" Offset="4" />
 		<_14 Name="tangent out" Offset="8" />
@@ -791,7 +791,7 @@
 		</_A>
 		<_34 Name="generated_pad7103" Offset="12" Length="2" />
 	</_F01E43007DADE047C5A8963E807C1A31>
-	<_D0AC41A0CA658DFDF2105B8E8859B6F6 Name="i343::Curve::PeriodicFunctionWizardSettings" Size="24">
+	<_D0AC41A0CA658DFDF2105B8E8859B6F6 Name="i343::Curve::PeriodicFunctionWizardSettings" Alt="89539DE4E336CB51" Size="24">
 		<_A Name="range mode" Offset="0" StructName1="i343::Curve::PeriodicFunctionWizardRangeMode">
 			<Flag n="UseTrackLength" />
 			<Flag n="UseTrackLengthLooping" />
@@ -821,10 +821,10 @@
 		<_14 Name="min value" Offset="1C" />
 		<_14 Name="max value" Offset="20" />
 	</_D0AC41A0CA658DFDF2105B8E8859B6F6>
-	<_2D4746EBEE69FC63B0BB44D695596FDB Name="i343::Curve::EditorCurveColor" Size="4">
+	<_2D4746EBEE69FC63B0BB44D695596FDB Name="i343::Curve::EditorCurveColor" Alt="A07440A0193CCBEA" Size="4">
 		<_3E Name="color" Offset="0" />
 	</_2D4746EBEE69FC63B0BB44D695596FDB>
-	<_23AC4D50C981A5503DD2B2EF85C5E10E Name="i343::Curve::AnimatedCurve::KeyFrame" Size="14">
+	<_23AC4D50C981A5503DD2B2EF85C5E10E Name="i343::Curve::AnimatedCurve::KeyFrame" Alt="D6859B7CBA5F086" Size="14">
 		<_18 Name="Position" Offset="0" />
 		<_14 Name="LeftSlope" Offset="8" />
 		<_14 Name="RightSlope" Offset="C" />
@@ -841,7 +841,7 @@
 		</_A>
 		<_34 Name="generated_pad4bfe" Offset="12" Length="2" />
 	</_23AC4D50C981A5503DD2B2EF85C5E10E>
-	<_29C547C8AC5C536494CC256697923B5C Name="i343::Curve::Curve3dControlPoint" Size="44">
+	<_29C547C8AC5C536494CC256697923B5C Name="i343::Curve::Curve3dControlPoint" Alt="7B8DECD202BF8DE2" Size="44">
 		<_19 Name="value" Offset="0" />
 		<_19 Name="tangent in" Offset="C" />
 		<_19 Name="tangent out" Offset="18" />
@@ -882,7 +882,7 @@
 		<_34 Name="generated_pad30cd" Offset="2E" Length="2" />
 		<_40 Name="pointMetadata" Offset="30" GUID="890146DC86C3D79B3F6D2AF7BE9C4A02" StructName1="i343::Curve::Curve3dControlPoint" Min="0" Max="1" />
 	</_29C547C8AC5C536494CC256697923B5C>
-	<_7EC743402A79404C8298A95EA81462E7 Name="i343::Curve::Curve2dControlPoint" Size="20">
+	<_7EC743402A79404C8298A95EA81462E7 Name="i343::Curve::Curve2dControlPoint" Alt="B9F54F765B84694A" Size="20">
 		<_18 Name="value" Offset="0" />
 		<_18 Name="tangent in" Offset="8" />
 		<_18 Name="tangent out" Offset="10" />
@@ -910,19 +910,19 @@
 			<Flag n="UserBroken" />
 		</_A>
 	</_7EC743402A79404C8298A95EA81462E7>
-	<_890146DC86C3D79B3F6D2AF7BE9C4A02 Name="i343::Curve::CurveControlPointMetadata" Size="3C">
+	<_890146DC86C3D79B3F6D2AF7BE9C4A02 Name="i343::Curve::CurveControlPointMetadata" Alt="CCD9A37676A71CA5" Size="3C">
 		<_40 Name="spline road metadata" Offset="0" GUID="781B4DEB48B4EEDDE67B060C86194139" StructName1="i343::Curve::CurveControlPointMetadata" Min="0" Max="1" />
 		<_40 Name="road decal metadata" Offset="14" GUID="3F0A493018D98594F83880CABBB76829" StructName1="i343::Curve::CurveControlPointMetadata" Min="0" Max="1" />
 		<_40 Name="animated spline metadata" Offset="28" GUID="B83E4A756AA20FB6536D5B2CB680453F" StructName1="i343::Curve::CurveControlPointMetadata" Min="0" Max="1" />
 	</_890146DC86C3D79B3F6D2AF7BE9C4A02>
-	<_781B4DEB48B4EEDDE67B060C86194139 Name="i343::Curve::RoadCurveControlPointMetadata" Size="14">
+	<_781B4DEB48B4EEDDE67B060C86194139 Name="i343::Curve::RoadCurveControlPointMetadata" Alt="655BD84A6547E60" Size="14">
 		<_14 Name="width" Offset="0" />
 		<_14 Name="opacity" Offset="4" />
 		<_14 Name="falloffLeft" Offset="8" />
 		<_14 Name="falloffRight" Offset="C" />
 		<_14 Name="bank" Offset="10" />
 	</_781B4DEB48B4EEDDE67B060C86194139>
-	<_3F0A493018D98594F83880CABBB76829 Name="i343::Curve::RoadDecalControlPointMetadata" Size="40">
+	<_3F0A493018D98594F83880CABBB76829 Name="i343::Curve::RoadDecalControlPointMetadata" Alt="C94C968F40398AA0" Size="40">
 		<_40 Name="Road Decal Textures" Offset="0" GUID="BB484B70CB48EF7259B8DDA794BD5E5F" StructName1="i343::Curve::RoadDecalControlPointMetadata" Min="0" Max="32" />
 		<_18 Name="Road Decal Scale" Offset="14" />
 		<_18 Name="Road Decal Offset" Offset="1C" />
@@ -934,10 +934,10 @@
 		<_14 Name="Road Decal Edge Fade" Offset="38" />
 		<_6 Name="Road Decal Random Seed" Offset="3C" />
 	</_3F0A493018D98594F83880CABBB76829>
-	<_B83E4A756AA20FB6536D5B2CB680453F Name="i343::Curve::AnimatedSplineControlPointMetadata" Size="4">
+	<_B83E4A756AA20FB6536D5B2CB680453F Name="i343::Curve::AnimatedSplineControlPointMetadata" Alt="57023B898CD5EE6C" Size="4">
 		<_14 Name="Time" Offset="0" />
 	</_B83E4A756AA20FB6536D5B2CB680453F>
-	<_BB484B70CB48EF7259B8DDA794BD5E5F Name="i343::Curve::RoadDecalBitmapReference" Size="1C">
+	<_BB484B70CB48EF7259B8DDA794BD5E5F Name="i343::Curve::RoadDecalBitmapReference" Alt="3DC59A7DEF559F64" Size="1C">
 		<_41 Name="Reference" Offset="0" Allowed="bitm" Flags="0" />
 	</_BB484B70CB48EF7259B8DDA794BD5E5F>
 </root>

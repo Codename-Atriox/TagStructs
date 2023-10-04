@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:16 PM" Name="supercombine" Parents="aTag" Index="-360">
-	<_258B48DFA1B18504B5DB8CC1B9A23BDA Name="i343::Projectiles::SuperCombineDefinition" Size="1E8">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="supercombine" Parents="aTag" Index="-360">
+	<_258B48DFA1B18504B5DB8CC1B9A23BDA Name="i343::Projectiles::SuperCombineDefinition" Alt="22CF68EF92C83748" Size="1E8">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="Default Effects" type="fgrb" Offset="10" />
 		<_38 Name="default super combine effects" Offset="10" GUID="0AA145C10E59463F5EC210CFBAEB4E73" />
@@ -38,18 +38,18 @@
 		<_14 Name="super det. time" Offset="1E0" />
 		<_34 Name="generated_pad0e4b" Offset="1E4" Length="4" />
 	</_258B48DFA1B18504B5DB8CC1B9A23BDA>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_0AA145C10E59463F5EC210CFBAEB4E73 Name="i343::Projectiles::SuperCombineEffects" Size="70">
+	<_0AA145C10E59463F5EC210CFBAEB4E73 Name="i343::Projectiles::SuperCombineEffects" Alt="267C497C3AB1EC7C" Size="70">
 		<_41 Name="super detonation" Offset="0" Allowed="effe" Flags="0" />
 		<_41 Name="super detonation damage" Offset="1C" Allowed="jpt!" Flags="0" />
 		<_41 Name="super detonation sound" Offset="38" Allowed="lsnd, snd!" Flags="0" />
 		<_41 Name="super attached detonation damage" Offset="54" Allowed="jpt!" Flags="0" />
 	</_0AA145C10E59463F5EC210CFBAEB4E73>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

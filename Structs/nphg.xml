@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="NarrationPhonemes" Parents="aTag" Index="-277">
-	<_D7A87F0A629D7616615A2D3F265593CC Name="Interface::Narration::NarrationPhonemesGroup" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="NarrationPhonemes" Parents="aTag" Index="-277">
+	<_D7A87F0A629D7616615A2D3F265593CC Name="Interface::Narration::NarrationPhonemesGroup" Alt="BF1A977B8EE7A5" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Narration phonemes" Offset="10" GUID="E2FB492844630EFC3FB25F3AD85BBFB0" StructName1="Interface::Narration::NarrationPhonemesGroup" Min="0" Max="512" />
 		<_34 Name="generated_pad803b" Offset="24" Length="4" />
 	</_D7A87F0A629D7616615A2D3F265593CC>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_E2FB492844630EFC3FB25F3AD85BBFB0 Name="Interface::Narration::NarrationPhonemeDefinition" Size="10">
+	<_E2FB492844630EFC3FB25F3AD85BBFB0 Name="Interface::Narration::NarrationPhonemeDefinition" Alt="EA30C04793D90E58" Size="10">
 		<_36 Name="Narration Phonemes" Offset="0" />
 		<_2 Name="String to find" Offset="0" />
 		<_2 Name="String to remove" Offset="4" />
@@ -20,8 +20,8 @@
 		</_A>
 		<_34 Name="generated_pad6e70" Offset="D" Length="3" />
 	</_E2FB492844630EFC3FB25F3AD85BBFB0>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

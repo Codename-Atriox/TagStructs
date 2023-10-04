@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:11 PM" Name="LightGroup" Parents="aTag" Index="-235">
-	<_CE42D89053AF7842529DD912AE7898EE Name="LightGroupTag" Size="120">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="LightGroup" Parents="aTag" Index="-235">
+	<_CE42D89053AF7842529DD912AE7898EE Name="LightGroupTag" Alt="D133A4C46BC9333D" Size="120">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Fadeoff distance multiplier" Offset="10" />
 		<_38 Name="fadeoff_distance_multiplier" Offset="10" GUID="25198A15BB42A34BBE6A754651133212" />
@@ -24,11 +24,11 @@
 		<_38 Name="cast_contact_shadows" Offset="118" GUID="48EA513A1435B56A52EA4518534489BB" />
 		<_34 Name="generated_pad133b" Offset="11A" Length="6" />
 	</_CE42D89053AF7842529DD912AE7898EE>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_25198A15BB42A34BBE6A754651133212 Name="s_throttle_spec_control_setting_float" Size="2C">
+	<_25198A15BB42A34BBE6A754651133212 Name="s_throttle_spec_control_setting_float" Alt="216FAB79F961B4E3" Size="2C">
 		<_25 Name="Low" Offset="0" />
 		<_25 Name="Medium" Offset="8" />
 		<_25 Name="High" Offset="10" />
@@ -37,7 +37,7 @@
 		<_14 Name="3 Player Splitscreen" Offset="24" />
 		<_14 Name="4 Player Splitscreen" Offset="28" />
 	</_25198A15BB42A34BBE6A754651133212>
-	<_48EA513A1435B56A52EA4518534489BB Name="s_basic_spec_control_setting_bool" Size="2">
+	<_48EA513A1435B56A52EA4518534489BB Name="s_basic_spec_control_setting_bool" Alt="C9918645648D6060" Size="2">
 		<_E Name="Flags" Offset="0" StructName1="s_basic_spec_control_setting_bool::SpecControlBoolFlags">
 			<Flag n="low" />
 			<Flag n="medium" />
@@ -45,7 +45,7 @@
 			<Flag n="ultra" />
 		</_E>
 	</_48EA513A1435B56A52EA4518534489BB>
-	<_42A51C651EBA162A521651FA165ADBAC Name="s_basic_spec_control_setting_float" Size="1C">
+	<_42A51C651EBA162A521651FA165ADBAC Name="s_basic_spec_control_setting_float" Alt="4702D401A97A7880" Size="1C">
 		<_14 Name="Low" Offset="0" />
 		<_14 Name="Medium" Offset="4" />
 		<_14 Name="High" Offset="8" />
@@ -54,8 +54,8 @@
 		<_14 Name="3 Player Splitscreen" Offset="14" />
 		<_14 Name="4 Player Splitscreen" Offset="18" />
 	</_42A51C651EBA162A521651FA165ADBAC>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="lua" Parents="aTag" Index="-207">
-	<_A5C94E61D48B9C35A88C73A7B477C707 Name="HsSourceFileTag" Size="2D8">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="lua" Parents="aTag" Index="-207">
+	<_A5C94E61D48B9C35A88C73A7B477C707 Name="HsSourceFileTag" Alt="8EC70AF4D13B911A" Size="2D8">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_7 Name="hash" Offset="10" />
 		<_F Name="sourceDirectiveFlags" Offset="18" StructName1="HsSourceDirectiveFlags">
@@ -20,48 +20,48 @@
 		<_43 Name="m_debugResource" Offset="2C4" StructName1="HsDebugResource" Int1="0" GUID="17F94EAED460B2EFCED865DA96E913E5" />
 		<_34 Name="generated_pad2f27" Offset="2D4" Length="4" />
 	</_A5C94E61D48B9C35A88C73A7B477C707>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_45CA4441CE387689919B07278D8624B0 Name="ObjectScriptDefinition" Size="200">
+	<_45CA4441CE387689919B07278D8624B0 Name="ObjectScriptDefinition" Alt="76C0E80FF1F82BF1" Size="200">
 		<_1 Name="className" Offset="0" />
 		<_1 Name="parentName" Offset="100" />
 	</_45CA4441CE387689919B07278D8624B0>
-	<_253111EB88C3D96EFC2CA371AA300235 Name="HsReferencesBlockWithVariant" Size="28">
+	<_253111EB88C3D96EFC2CA371AA300235 Name="HsReferencesBlockWithVariant" Alt="EA1BFBDAA6531CE2" Size="28">
 		<_41 Name="reference" Offset="0" Allowed="aTag" Flags="0" />
 		<_2 Name="load variant" Offset="1C" />
 		<_7 Name="name hash" Offset="20" />
 	</_253111EB88C3D96EFC2CA371AA300235>
-	<_606646B955FFC63C0439DB79B084661A Name="HsWeakReferencesBlockWithVariant" Size="28">
+	<_606646B955FFC63C0439DB79B084661A Name="HsWeakReferencesBlockWithVariant" Alt="24440E8BEA4431E4" Size="28">
 		<_41 Name="reference" Offset="0" Allowed="" Flags="2" />
 		<_2 Name="load variant" Offset="1C" />
 		<_7 Name="name hash" Offset="20" />
 	</_606646B955FFC63C0439DB79B084661A>
-	<_C5AE4B866603F1D7C82CE51697D95A8B Name="HSRemoteFunctionBlock" Size="18">
+	<_C5AE4B866603F1D7C82CE51697D95A8B Name="HSRemoteFunctionBlock" Alt="C73A9406A85C81C" Size="18">
 		<_42 Name="function name" Offset="0" StructName1="HSRemoteFunctionBlock.function name" Int1="2" Int2="0" Flags="100" />
 	</_C5AE4B866603F1D7C82CE51697D95A8B>
-	<_A75A41E5E6DD07EBBCB83884BE7B3204 Name="HStructBlock" Size="114">
+	<_A75A41E5E6DD07EBBCB83884BE7B3204 Name="HStructBlock" Alt="DCEC46D35E3D60C8" Size="114">
 		<_1 Name="name" Offset="0" />
 		<_40 Name="Fields" Offset="100" GUID="5B114AC1D652D7894467B1DC8EECF66C" StructName1="HStructBlock" Min="0" Max="64" />
 	</_A75A41E5E6DD07EBBCB83884BE7B3204>
-	<_76024F48A2A86B6D76E96F3A942E9A9A Name="HsSourceRuntimeErrorMessage" Size="100">
+	<_76024F48A2A86B6D76E96F3A942E9A9A Name="HsSourceRuntimeErrorMessage" Alt="C3592069C1177B85" Size="100">
 		<_1 Name="error message" Offset="0" />
 	</_76024F48A2A86B6D76E96F3A942E9A9A>
-	<_FA3C4C7F0F1A3EEEE57DD86C9355488B Name="HsByteCode" Size="30">
+	<_FA3C4C7F0F1A3EEEE57DD86C9355488B Name="HsByteCode" Alt="7F0574F175631820" Size="30">
 		<_42 Name="server" Offset="0" StructName1="HsByteCode.server" Int1="2" Int2="0" Flags="100000" />
 		<_42 Name="client" Offset="18" StructName1="HsByteCode.client" Int1="2" Int2="0" Flags="100000" />
 	</_FA3C4C7F0F1A3EEEE57DD86C9355488B>
-	<_17F94EAED460B2EFCED865DA96E913E5 Name="HsDebugResource" Size="98">
+	<_17F94EAED460B2EFCED865DA96E913E5 Name="HsDebugResource" Alt="E6EEF94EE2D47C37" Size="98">
 		<_38 Name="hsByteCode" Offset="0" GUID="FA3C4C7F0F1A3EEEE57DD86C9355488B" />
 		<_38 Name="hsSource" Offset="30" GUID="451243C16125D116802CDC57A6897DB5" />
 		<_38 Name="hsSymbol" Offset="48" GUID="C1324C18F04208A491400174B43E4F5A" />
 	</_17F94EAED460B2EFCED865DA96E913E5>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_5B114AC1D652D7894467B1DC8EECF66C Name="HStructFieldBlock" Size="63C">
+	<_5B114AC1D652D7894467B1DC8EECF66C Name="HStructFieldBlock" Alt="E7BCFA157DFA8E8C" Size="63C">
 		<_1 Name="name" Offset="0" />
 		<_C Name="Type" Offset="100" StructName1="e_hstruct_type">
 			<Flag n="Nil" />
@@ -96,28 +96,28 @@
 		<_14 Name="Step" Offset="538" />
 		<_1 Name="ForgeTagListId" Offset="53C" />
 	</_5B114AC1D652D7894467B1DC8EECF66C>
-	<_451243C16125D116802CDC57A6897DB5 Name="HsSource" Size="18">
+	<_451243C16125D116802CDC57A6897DB5 Name="HsSource" Alt="440411FA733DA15C" Size="18">
 		<_42 Name="data" Offset="0" StructName1="HsSource.data" Int1="2" Int2="0" Flags="100000" />
 	</_451243C16125D116802CDC57A6897DB5>
-	<_C1324C18F04208A491400174B43E4F5A Name="HsSymbol" Size="50">
+	<_C1324C18F04208A491400174B43E4F5A Name="HsSymbol" Alt="CB8028E0535AF97C" Size="50">
 		<_40 Name="server global variables" Offset="0" GUID="014244E6D7CEB6D2F265BDF7A6D41AD1" StructName1="HsSymbol" Min="0" Max="256" />
 		<_40 Name="server global functions" Offset="14" GUID="EEC94E5CB99F414036E254AAB78989F4" StructName1="HsSymbol" Min="0" Max="256" />
 		<_40 Name="client global variables" Offset="28" GUID="014244E6D7CEB6D2F265BDF7A6D41AD1" StructName1="HsSymbol" Min="0" Max="256" />
 		<_40 Name="client global functions" Offset="3C" GUID="EEC94E5CB99F414036E254AAB78989F4" StructName1="HsSymbol" Min="0" Max="256" />
 	</_C1324C18F04208A491400174B43E4F5A>
-	<_BBB44D5C57ABC87E588B723FAAA9A3F7 Name="HStructFieldStringBlock" Size="100">
+	<_BBB44D5C57ABC87E588B723FAAA9A3F7 Name="HStructFieldStringBlock" Alt="A40CCE64116F93B7" Size="100">
 		<_1 Name="name" Offset="0" />
 	</_BBB44D5C57ABC87E588B723FAAA9A3F7>
-	<_A10E430D02E8E958FE8D1513A8D21F29 Name="HStructFieldAllowedExtensionBlock" Size="20">
+	<_A10E430D02E8E958FE8D1513A8D21F29 Name="HStructFieldAllowedExtensionBlock" Alt="7D478B4EF189D70" Size="20">
 		<_0 Name="name" Offset="0" />
 	</_A10E430D02E8E958FE8D1513A8D21F29>
-	<_014244E6D7CEB6D2F265BDF7A6D41AD1 Name="HSGlobalVariable" Size="34">
+	<_014244E6D7CEB6D2F265BDF7A6D41AD1 Name="HSGlobalVariable" Alt="F65E1D32B5B5EA65" Size="34">
 		<_42 Name="name" Offset="0" StructName1="HSGlobalVariable.name" Int1="2" Int2="0" Flags="100" />
 		<_42 Name="type name" Offset="18" StructName1="HSGlobalVariable.type name" Int1="2" Int2="0" Flags="100" />
 		<_3C Name="is debug" Offset="30" />
 		<_34 Name="generated_pad5fe4" Offset="31" Length="3" />
 	</_014244E6D7CEB6D2F265BDF7A6D41AD1>
-	<_EEC94E5CB99F414036E254AAB78989F4 Name="HSGlobalFunction" Size="50">
+	<_EEC94E5CB99F414036E254AAB78989F4 Name="HSGlobalFunction" Alt="30AECA059AA44EE7" Size="50">
 		<_42 Name="name" Offset="0" StructName1="HSGlobalFunction.name" Int1="2" Int2="0" Flags="100" />
 		<_42 Name="return type name" Offset="18" StructName1="HSGlobalFunction.return type name" Int1="2" Int2="0" Flags="100" />
 		<_40 Name="arguments" Offset="30" GUID="853344D5C2471C8B09C859B5B7F493AC" StructName1="HSGlobalFunction" Min="0" Max="32" />
@@ -129,7 +129,7 @@
 		<_34 Name="generated_padea90" Offset="49" Length="3" />
 		<_6 Name="line" Offset="4C" />
 	</_EEC94E5CB99F414036E254AAB78989F4>
-	<_853344D5C2471C8B09C859B5B7F493AC Name="HSGlobalFunctionArgument" Size="18">
+	<_853344D5C2471C8B09C859B5B7F493AC Name="HSGlobalFunctionArgument" Alt="72359881468F0AA0" Size="18">
 		<_42 Name="argument name" Offset="0" StructName1="HSGlobalFunctionArgument.argument name" Int1="2" Int2="0" Flags="100" />
 	</_853344D5C2471C8B09C859B5B7F493AC>
 </root>

@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="decorator_palette" Parents="aTag" Index="-94">
-	<_D5B94B392F29902950DBFBB780C30E2F Name="i343::Decorators::DecoratorPaletteTag" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="decorator_palette" Parents="aTag" Index="-94">
+	<_D5B94B392F29902950DBFBB780C30E2F Name="i343::Decorators::DecoratorPaletteTag" Alt="BF2487122312FFB8" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="palettes" Offset="10" GUID="993A4C49B15B5E7D33FEE94F8132A025" StructName1="i343::Decorators::DecoratorPaletteTag" Min="0" Max="256" />
 		<_34 Name="generated_pade45f" Offset="24" Length="4" />
 	</_D5B94B392F29902950DBFBB780C30E2F>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_993A4C49B15B5E7D33FEE94F8132A025 Name="i343::Decorators::DecoratorPalette" Size="18">
+	<_993A4C49B15B5E7D33FEE94F8132A025 Name="i343::Decorators::DecoratorPalette" Alt="1CFEF105FCD1C43" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_40 Name="entries" Offset="4" GUID="DE07417B4CB1843CB43A40CBB4B0607F" StructName1="i343::Decorators::DecoratorPalette" Min="0" Max="256" />
 	</_993A4C49B15B5E7D33FEE94F8132A025>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_DE07417B4CB1843CB43A40CBB4B0607F Name="i343::Decorators::DecoratorPaletteEntry" Size="20">
+	<_DE07417B4CB1843CB43A40CBB4B0607F Name="i343::Decorators::DecoratorPaletteEntry" Alt="3DA81837050E2890" Size="20">
 		<_41 Name="asset" Offset="0" Allowed="dcat" Flags="9" />
 		<_3D Name="weight" Offset="1C" />
 		<_34 Name="generated_pad3dd3" Offset="1E" Length="2" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="test_tag" Parents="aTag" Index="-438">
-	<_40F6DE042802FC453AD324883B356693 Name="test_tag_definition" Size="A7D">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="test_tag" Parents="aTag" Index="-438">
+	<_40F6DE042802FC453AD324883B356693 Name="test_tag_definition" Alt="230D145E324C790D" Size="A7D">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_0 Name="string" Offset="10" />
 		<_1 Name="long string" Offset="30" />
@@ -99,59 +99,59 @@
 		<_38 Name="motherload struct" Offset="69D" GUID="4191D6CBED2C2B01FF596FF1F6803BBA" />
 		<_40 Name="taggraph structs" Offset="A69" GUID="1EFD491BCC3278A6B62762A59BA68BBA" StructName1="test_tag_definition" Min="0" Max="8" />
 	</_40F6DE042802FC453AD324883B356693>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_41B353150A4BF989F7782BCCE0A0C6AD Name="BasicBlockUseOnce" Size="100">
+	<_41B353150A4BF989F7782BCCE0A0C6AD Name="BasicBlockUseOnce" Alt="ED902ED1D6F7D559" Size="100">
 		<_1 Name="name" Offset="0" />
 	</_41B353150A4BF989F7782BCCE0A0C6AD>
-	<_4E3038C0C39FB862B32EACECDE98B4B6 Name="s_basic_struct" Size="4">
+	<_4E3038C0C39FB862B32EACECDE98B4B6 Name="s_basic_struct" Alt="1AEF75EC7E6CDC98" Size="4">
 		<_6 Name="long in struct" Offset="0" />
 	</_4E3038C0C39FB862B32EACECDE98B4B6>
-	<_471294D0C3B6EE9C9DEBA0C54F6559BF Name="BasicArray" Size="4">
+	<_471294D0C3B6EE9C9DEBA0C54F6559BF Name="BasicArray" Alt="92E9821BB7E3D26" Size="4">
 		<_6 Name="long in array" Offset="0" />
 	</_471294D0C3B6EE9C9DEBA0C54F6559BF>
-	<_48A9473BE4454F73131360BC9B652EBE Name="s_block_with_struct" Size="4">
+	<_48A9473BE4454F73131360BC9B652EBE Name="s_block_with_struct" Alt="6F51F42E14EAE851" Size="4">
 		<_38 Name="struct in block" Offset="0" GUID="4E3038C0C39FB862B32EACECDE98B4B6" />
 	</_48A9473BE4454F73131360BC9B652EBE>
-	<_4CC44EC54E888658BDC0A3BD304D60A1 Name="s_complex_block" Size="28">
+	<_4CC44EC54E888658BDC0A3BD304D60A1 Name="s_complex_block" Alt="61BEF65E258D0A4B" Size="28">
 		<_40 Name="foo" Offset="0" GUID="48150530A197FB9A3263AC67F9B18CA0" StructName1="s_complex_block" Min="0" Max="8" />
 		<_40 Name="bar" Offset="14" GUID="4227FCB740AA5814CFDE69E52F50358C" StructName1="s_complex_block" Min="0" Max="8" />
 	</_4CC44EC54E888658BDC0A3BD304D60A1>
-	<_4EDAB9E335CE4F80A97B3A43DDC8D987 Name="s_complex_struct" Size="38">
+	<_4EDAB9E335CE4F80A97B3A43DDC8D987 Name="s_complex_struct" Alt="278FC54A1E2B1464" Size="38">
 		<_40 Name="basic block" Offset="0" GUID="48150530A197FB9A3263AC67F9B18CA0" StructName1="s_complex_struct" Min="0" Max="8" />
 		<_20 Name="color" Offset="14" />
 		<_40 Name="complex block" Offset="24" GUID="4CC44EC54E888658BDC0A3BD304D60A1" StructName1="s_complex_struct" Min="0" Max="1024" />
 	</_4EDAB9E335CE4F80A97B3A43DDC8D987>
-	<_4AAF092FB1B5F199672D9748B4F4BE86 Name="s_complex_array_element" Size="70">
+	<_4AAF092FB1B5F199672D9748B4F4BE86 Name="s_complex_array_element" Alt="CDAE316B25F22C3D" Size="70">
 		<_0 Name="string in array" Offset="0" />
 		<_40 Name="basic block in array" Offset="20" GUID="48150530A197FB9A3263AC67F9B18CA0" StructName1="s_complex_array_element" Min="0" Max="8" />
 		<_10 Name="point 2d in array" Offset="34" />
 		<_38 Name="complex struct in array" Offset="38" GUID="4EDAB9E335CE4F80A97B3A43DDC8D987" />
 	</_4AAF092FB1B5F199672D9748B4F4BE86>
-	<_4191D6CBED2C2B01FF596FF1F6803BBA Name="s_motherload_struct" Size="3CC">
+	<_4191D6CBED2C2B01FF596FF1F6803BBA Name="s_motherload_struct" Alt="3074C381A19E4791" Size="3CC">
 		<_38 Name="struct" Offset="0" GUID="4EDAB9E335CE4F80A97B3A43DDC8D987" />
 		<_39 Name="array" Offset="38" GUID="4AAF092FB1B5F199672D9748B4F4BE86" Count="8" StructName1="array" />
 		<_40 Name="block" Offset="3B8" GUID="4CC44EC54E888658BDC0A3BD304D60A1" StructName1="s_motherload_struct" Min="0" Max="1024" />
 	</_4191D6CBED2C2B01FF596FF1F6803BBA>
-	<_1EFD491BCC3278A6B62762A59BA68BBA Name="s_struct_with_taggraph_attributes" Size="C">
+	<_1EFD491BCC3278A6B62762A59BA68BBA Name="s_struct_with_taggraph_attributes" Alt="317C6A7FCB0DBC7F" Size="C">
 		<_14 Name="aFloat" Offset="0" />
 		<_14 Name="aDifferentlyNamedFloat" Offset="4" />
 		<_38 Name="anEmbeddedStruct" Offset="8" GUID="A69940BA66E6E114BEF535F5819A7AE6" />
 	</_1EFD491BCC3278A6B62762A59BA68BBA>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_48150530A197FB9A3263AC67F9B18CA0 Name="s_basic_block" Size="100">
+	<_48150530A197FB9A3263AC67F9B18CA0 Name="s_basic_block" Alt="FB0F52D55EB50EE7" Size="100">
 		<_1 Name="name" Offset="0" />
 	</_48150530A197FB9A3263AC67F9B18CA0>
-	<_4227FCB740AA5814CFDE69E52F50358C Name="s_complex_sub_block" Size="30">
+	<_4227FCB740AA5814CFDE69E52F50358C Name="s_complex_sub_block" Alt="84DA383CC1B0CF33" Size="30">
 		<_41 Name="reference" Offset="0" Allowed="ttag" Flags="0" />
 		<_40 Name="raz" Offset="1C" GUID="48150530A197FB9A3263AC67F9B18CA0" StructName1="s_complex_sub_block" Min="0" Max="8" />
 	</_4227FCB740AA5814CFDE69E52F50358C>
-	<_A69940BA66E6E114BEF535F5819A7AE6 Name="s_simple_embedded_taggraph_struct" Size="4">
+	<_A69940BA66E6E114BEF535F5819A7AE6 Name="s_simple_embedded_taggraph_struct" Alt="3FD7E96CC1198B0E" Size="4">
 		<_14 Name="sensibleFloatName" Offset="0" />
 	</_A69940BA66E6E114BEF535F5819A7AE6>
 </root>

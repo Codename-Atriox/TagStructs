@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:04 PM" Name="effect" Parents="aTag" Index="-119" C="fx">
-	<_31EA4E8B6C1AEA4ABD1D9033B019756D Name="effect_definition" Size="88">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="effect" Parents="aTag" Index="-119" C="fx">
+	<_31EA4E8B6C1AEA4ABD1D9033B019756D Name="effect_definition" Alt="CB2152C262C9B9FC" Size="88">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Annotations" Offset="10" GUID="900B44F6781130FFDE1CD6679F763D19" StructName1="effect_definition" Min="0" Max="8" />
 		<_D Name="flags" Offset="24" StructName1="effect_definition::EffectDefinitionFlags">
@@ -57,18 +57,18 @@
 		<_40 Name="sounds" Offset="70" GUID="90C645FF7B58E873B5E8B9919EDB96EA" StructName1="effect_definition" Min="0" Max="8" />
 		<_34 Name="generated_pad94b0" Offset="84" Length="4" />
 	</_31EA4E8B6C1AEA4ABD1D9033B019756D>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_900B44F6781130FFDE1CD6679F763D19 Name="effect_definition::Annotation" Size="1C">
+	<_900B44F6781130FFDE1CD6679F763D19 Name="effect_definition::Annotation" Alt="16104E3E0040D463" Size="1C">
 		<_2 Name="Name" Offset="0" />
 		<_42 Name="Text" Offset="4" StructName1="effect_definition::Annotation.Text" Int1="2" Int2="0" Flags="400" />
 	</_900B44F6781130FFDE1CD6679F763D19>
-	<_FF87433DC31A245D49183EE68FE5BB27 Name="i343::Damage::DamageSourceDefinition" Size="4">
+	<_FF87433DC31A245D49183EE68FE5BB27 Name="i343::Damage::DamageSourceDefinition" Alt="A20F74767C5A02F8" Size="4">
 		<_2 Name="Damage Source Name" Offset="0" />
 	</_FF87433DC31A245D49183EE68FE5BB27>
-	<_EA2542E6312651852756589A831C0253 Name="EffectLodDefinition" Size="8C">
+	<_EA2542E6312651852756589A831C0253 Name="EffectLodDefinition" Alt="EE70150D02EF5F11" Size="8C">
 		<_2 Name="lod name" Offset="0" />
 		<_14 Name="lod distance" Offset="4" />
 		<_14 Name="lod timer" Offset="8" />
@@ -87,7 +87,7 @@
 		<_40 Name="lod events" Offset="64" GUID="3FEF470845ADB1578CF7F2FEB03F70BB" StructName1="EffectLodDefinition" Min="0" Max="32" />
 		<_40 Name="lod conical distribution" Offset="78" GUID="9891495D3B2368F15B933025B02F5E1C" StructName1="EffectLodDefinition" Min="0" Max="1" />
 	</_EA2542E6312651852756589A831C0253>
-	<_90C645FF7B58E873B5E8B9919EDB96EA Name="effect_sound_definition" Size="6C">
+	<_90C645FF7B58E873B5E8B9919EDB96EA Name="effect_sound_definition" Alt="A3D32A106C7B90E7" Size="6C">
 		<_41 Name="onEffectStartSound" Offset="0" Allowed="snd!" Flags="8" />
 		<_41 Name="onEffectStartLoop" Offset="1C" Allowed="lsnd" Flags="8" />
 		<_41 Name="onEffectEndSound" Offset="38" Allowed="snd!" Flags="8" />
@@ -95,15 +95,15 @@
 		<_2 Name="marker name" Offset="54" />
 		<_40 Name="events" Offset="58" GUID="F2934AEB36A0815E34FF38539A2954BF" StructName1="effect_sound_definition" Min="0" Max="32" />
 	</_90C645FF7B58E873B5E8B9919EDB96EA>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_2AA94534384EBA004A23EF26AD11D043 Name="ScalarFunctionNameDefaultOne" Size="18">
+	<_2AA94534384EBA004A23EF26AD11D043 Name="ScalarFunctionNameDefaultOne" Alt="3C31DA9CDFBD201" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="4C5A4A1A9019ABA511FDA1ADAD1AF034" />
 	</_2AA94534384EBA004A23EF26AD11D043>
-	<_3FEF470845ADB1578CF7F2FEB03F70BB Name="effect_event_definition" Size="5C">
+	<_3FEF470845ADB1578CF7F2FEB03F70BB Name="effect_event_definition" Alt="8C3436AE9EE86663" Size="5C">
 		<_2 Name="event name" Offset="0" />
 		<_E Name="flags" Offset="4" StructName1="effect_event_definition::EffectEventFlags">
 			<Flag n="disabled for debugging" />
@@ -123,7 +123,7 @@
 		<_40 Name="accelerations" Offset="34" GUID="2A084D2A007DDA954F217DD28AE44F3A" StructName1="effect_event_definition" Min="0" Max="32" />
 		<_40 Name="particle systems" Offset="48" GUID="44594963ED8EA5BE4FACCCF5B175896E" StructName1="effect_event_definition" Min="0" Max="32" />
 	</_3FEF470845ADB1578CF7F2FEB03F70BB>
-	<_CAA34E8BF2742E8C3868BCB3BD3E6DF9 Name="effect_location_definition" Size="8">
+	<_CAA34E8BF2742E8C3868BCB3BD3E6DF9 Name="effect_location_definition" Alt="1D69AC2CE9A98453" Size="8">
 		<_36 Name="MARKER NAMES" Offset="0" />
 		<_2 Name="marker name" type="sted" Offset="0" />
 		<_E Name="flags" Offset="4" StructName1="effect_location_definition::EffectLocationFlags">
@@ -134,24 +134,24 @@
 		</_E>
 		<_34 Name="generated_pad1a4b" Offset="6" Length="2" />
 	</_CAA34E8BF2742E8C3868BCB3BD3E6DF9>
-	<_9891495D3B2368F15B933025B02F5E1C Name="s_effect_conical_distribution_definition" Size="C">
+	<_9891495D3B2368F15B933025B02F5E1C Name="s_effect_conical_distribution_definition" Alt="E5918605CD64AF9A" Size="C">
 		<_36 Name="conical_projection - AKA shotgun" Offset="0" />
 		<_5 Name="yaw count" Offset="0" />
 		<_5 Name="pitch count" Offset="2" />
 		<_14 Name="distribution exponent" Offset="4" />
 		<_8 Name="spread" Offset="8" />
 	</_9891495D3B2368F15B933025B02F5E1C>
-	<_F2934AEB36A0815E34FF38539A2954BF Name="effect_sound_event_lod_definition" Size="6">
+	<_F2934AEB36A0815E34FF38539A2954BF Name="effect_sound_event_lod_definition" Alt="3FF721896C5F7CCA" Size="6">
 		<_2E Name="lod name" Offset="0" GUID="EA2542E6312651852756589A831C0253" StructName1="effect_sound_event_lod_definition" Min="0" Max="8" />
 		<_2F Name="location" Offset="2" />
 		<_2F Name="event" Offset="4" />
 	</_F2934AEB36A0815E34FF38539A2954BF>
-	<_4C5A4A1A9019ABA511FDA1ADAD1AF034 Name="FunctionDefinitionDefaultOne" Size="18">
+	<_4C5A4A1A9019ABA511FDA1ADAD1AF034 Name="FunctionDefinitionDefaultOne" Alt="E0E2BDF48D6E226A" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_4C5A4A1A9019ABA511FDA1ADAD1AF034>
-	<_E63D42D710814B9B6CF277F8945DD824 Name="effect_part_definition" Size="8C">
+	<_E63D42D710814B9B6CF277F8945DD824 Name="effect_part_definition" Alt="C4F5C0F52353943E" Size="8C">
 		<_B Name="violence mode" Offset="0" StructName1="EffectDisposition">
 			<Flag n="either mode" />
 			<Flag n="violent mode only" />
@@ -241,7 +241,7 @@
 		</_D>
 		<_2 Name="name" Offset="88" />
 	</_E63D42D710814B9B6CF277F8945DD824>
-	<_2A084D2A007DDA954F217DD28AE44F3A Name="effect_acceleration_definition" Size="10">
+	<_2A084D2A007DDA954F217DD28AE44F3A Name="effect_acceleration_definition" Alt="C325F2BB99947A5E" Size="10">
 		<_B Name="violence mode" Offset="0" StructName1="EffectDisposition">
 			<Flag n="either mode" />
 			<Flag n="violent mode only" />
@@ -252,7 +252,7 @@
 		<_14 Name="inner cone angle" Offset="8" />
 		<_14 Name="outer cone angle" Offset="C" />
 	</_2A084D2A007DDA954F217DD28AE44F3A>
-	<_44594963ED8EA5BE4FACCCF5B175896E Name="c_particle_system_definition" Size="78">
+	<_44594963ED8EA5BE4FACCCF5B175896E Name="c_particle_system_definition" Alt="BF76C70C6D8AB04B" Size="78">
 		<_37 Name="" type="ifp+" Offset="0" />
 		<_A Name="Priority" Offset="0" StructName1="PartPriority">
 			<Flag n="Low" />
@@ -331,14 +331,14 @@
 		<_14 Name="runtime max lifespan" Offset="70" />
 		<_2 Name="name" Offset="74" />
 	</_44594963ED8EA5BE4FACCCF5B175896E>
-	<_98D547C9271EB29DEDE56D98BAFEEB46 Name="EmitterInternal" Size="5A8">
+	<_98D547C9271EB29DEDE56D98BAFEEB46 Name="EmitterInternal" Alt="4BE1F5EDA7ED59B5" Size="5A8">
 		<_2 Name="emitter name" Offset="0" />
 		<_34 Name="generated_pada31d" Offset="4" Length="4" />
 		<_38 Name="emitter shared values" Offset="8" GUID="4967473B20B6E4A29B72732F8511F43B" />
 		<_38 Name="emitter" Offset="60" GUID="E031425256685118BF2EF872BCD98DE8" />
 		<_34 Name="generated_pad893c" Offset="5A4" Length="4" />
 	</_98D547C9271EB29DEDE56D98BAFEEB46>
-	<_4967473B20B6E4A29B72732F8511F43B Name="EmitterSharedValues" Size="58">
+	<_4967473B20B6E4A29B72732F8511F43B Name="EmitterSharedValues" Alt="62E6F6A5EFB1E3A4" Size="58">
 		<_F Name="emitter debug flags" Offset="0" StructName1="EmitterSharedValues::DebugFlags">
 			<Flag n="disabled for debugging" />
 		</_F>
@@ -350,7 +350,7 @@
 		<_7 Name="cachedConstants" Offset="48" />
 		<_7 Name="updateDataStatic" Offset="50" />
 	</_4967473B20B6E4A29B72732F8511F43B>
-	<_E031425256685118BF2EF872BCD98DE8 Name="c_particle_emitter_definition" Size="544">
+	<_E031425256685118BF2EF872BCD98DE8 Name="c_particle_emitter_definition" Alt="74FF34C6FF49E42B" Size="544">
 		<_14 Name="estimatedSize" Offset="0" />
 		<_3E Name="runtime m_constant_per_particle_properties" Offset="4" />
 		<_3E Name="runtime m_constant_over_time_properties" Offset="8" />
@@ -495,12 +495,12 @@
 		<_38 Name="animation rate" Offset="4FC" GUID="E8084E37646072529411483C8447409D" />
 		<_38 Name="palette animation" Offset="520" GUID="E8084E37646072529411483C8447409D" />
 	</_E031425256685118BF2EF872BCD98DE8>
-	<_7C6242C533DE2336992C78EAAD5A8C31 Name="GPUPropertyFunctionColor" Size="3C">
+	<_7C6242C533DE2336992C78EAAD5A8C31 Name="GPUPropertyFunctionColor" Alt="A78C62E9B0CAAA1" Size="3C">
 		<_40 Name="runtime gpu_property_block" Offset="0" GUID="46CF4B62A49C08232D11DA0EA45B3947" StructName1="GPUPropertyFunctionColor" Min="0" Max="20" />
 		<_40 Name="runtime gpu_functions_block" Offset="14" GUID="776D4521E4F4C1FD51350BCDAACCF4EA" StructName1="GPUPropertyFunctionColor" Min="0" Max="28" />
 		<_40 Name="runtime gpu_colors_block" Offset="28" GUID="0C16431977A26FFB69DC374981E4C4D3" StructName1="GPUPropertyFunctionColor" Min="0" Max="8" />
 	</_7C6242C533DE2336992C78EAAD5A8C31>
-	<_E8084E37646072529411483C8447409D Name="ParticlePropertyScalar" Size="24">
+	<_E8084E37646072529411483C8447409D Name="ParticlePropertyScalar" Alt="84E60C282D17A027" Size="24">
 		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="c_particle_state_list::e_particle_state_input">
 			<Flag n="particle age" />
 			<Flag n="system age" />
@@ -584,7 +584,7 @@
 		</_F>
 		<_34 Name="generated_pad859b" Offset="23" Length="1" />
 	</_E8084E37646072529411483C8447409D>
-	<_396440FDDB309672D30717368DB1932A Name="s_particle_attachment" Size="24">
+	<_396440FDDB309672D30717368DB1932A Name="s_particle_attachment" Alt="BB676FD371131149" Size="24">
 		<_F Name="flags" Offset="0" StructName1="s_particle_attachment::Flags">
 			<Flag n="disabled for debugging" />
 			<Flag n="pass effect scale to particle attachment" />
@@ -645,7 +645,7 @@
 			<Flag n="active camo (0 = on, 1 = off)" />
 		</_A>
 	</_396440FDDB309672D30717368DB1932A>
-	<_D5844EB4937386F6EF8BF01E82972518 Name="ParticlePropertyRealEulerAngles3d" Size="3C">
+	<_D5844EB4937386F6EF8BF01E82972518 Name="ParticlePropertyRealEulerAngles3d" Alt="3C700F049D0C8C8C" Size="3C">
 		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="c_particle_state_list::e_particle_state_input">
 			<Flag n="particle age" />
 			<Flag n="system age" />
@@ -731,7 +731,7 @@
 		<_1C Name="Direction at 0" Offset="24" />
 		<_1C Name="Direction at 1" Offset="30" />
 	</_D5844EB4937386F6EF8BF01E82972518>
-	<_6CE546FA0BEB218FE75582FCA21161F6 Name="ParticlePropertyRealPoint3d" Size="3C">
+	<_6CE546FA0BEB218FE75582FCA21161F6 Name="ParticlePropertyRealPoint3d" Alt="5DE815C192B21143" Size="3C">
 		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="c_particle_state_list::e_particle_state_input">
 			<Flag n="particle age" />
 			<Flag n="system age" />
@@ -817,7 +817,7 @@
 		<_17 Name="Starting interpolant" Offset="24" />
 		<_17 Name="Ending interpolant" Offset="30" />
 	</_6CE546FA0BEB218FE75582FCA21161F6>
-	<_6A544BEE02581257A5C42FB5A48450A0 Name="ParticlePropertyRealVector3d" Size="3C">
+	<_6A544BEE02581257A5C42FB5A48450A0 Name="ParticlePropertyRealVector3d" Alt="79E6AAA4014EC749" Size="3C">
 		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="c_particle_state_list::e_particle_state_input">
 			<Flag n="particle age" />
 			<Flag n="system age" />
@@ -903,16 +903,16 @@
 		<_19 Name="Starting interpolant" Offset="24" />
 		<_19 Name="Ending interpolant" Offset="30" />
 	</_6A544BEE02581257A5C42FB5A48450A0>
-	<_374E470DE17535034C8BECA4BD9324EE Name="c_particle_emitter_definition::ParticleEmitterGlobalForce" Size="40">
+	<_374E470DE17535034C8BECA4BD9324EE Name="c_particle_emitter_definition::ParticleEmitterGlobalForce" Alt="401E754690FEA372" Size="40">
 		<_38 Name="global force" Offset="0" GUID="769F4B02395EDDAE1D58C7E1BF35082B" />
 		<_19 Name="offset" Offset="28" />
 		<_19 Name="axis" Offset="34" />
 	</_374E470DE17535034C8BECA4BD9324EE>
-	<_759B4A18A39A3EB47511BBDABDB69AF7 Name="c_particle_emitter_definition::ParticleEmitterClipSphere" Size="10">
+	<_759B4A18A39A3EB47511BBDABDB69AF7 Name="c_particle_emitter_definition::ParticleEmitterClipSphere" Alt="276B8A1C0476F1E8" Size="10">
 		<_19 Name="offset" Offset="0" />
 		<_14 Name="radius" Offset="C" />
 	</_759B4A18A39A3EB47511BBDABDB69AF7>
-	<_EB8741A82E19EA879D4201DDB25C5661 Name="c_particle_movement_definition" Size="54">
+	<_EB8741A82E19EA879D4201DDB25C5661 Name="c_particle_movement_definition" Alt="A2D071E4DFFFE05C" Size="54">
 		<_41 Name="template" Offset="0" Allowed="pmov" Flags="0" />
 		<_E Name="flags" Offset="1C" StructName1="c_particle_movement_definition::Flags">
 			<Flag n="physics" />
@@ -936,7 +936,7 @@
 		<_40 Name="movements" Offset="24" GUID="E003416FFFDF1EEAA06AFA10BBE85C7F" StructName1="c_particle_movement_definition" Min="0" Max="8" />
 		<_41 Name="turbulence texture" Offset="38" Allowed="bitm" Flags="0" />
 	</_EB8741A82E19EA879D4201DDB25C5661>
-	<_BAFB43CF342C0071630D2DCA9FDA5DD6 Name="ParticlePropertyColor" Size="24">
+	<_BAFB43CF342C0071630D2DCA9FDA5DD6 Name="ParticlePropertyColor" Alt="B21DFEBCE3733ADF" Size="24">
 		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="c_particle_state_list::e_particle_state_input">
 			<Flag n="particle age" />
 			<Flag n="system age" />
@@ -1020,21 +1020,21 @@
 		</_F>
 		<_34 Name="generated_padd216" Offset="23" Length="1" />
 	</_BAFB43CF342C0071630D2DCA9FDA5DD6>
-	<_46CF4B62A49C08232D11DA0EA45B3947 Name="GPUPropertyParam" Size="10">
+	<_46CF4B62A49C08232D11DA0EA45B3947 Name="GPUPropertyParam" Alt="1D198F09812B19C1" Size="10">
 		<_39 Name="runtime gpu_property_sub_array" Offset="0" GUID="EC34402B5E56CDB19B7468BABF36EF1D" Count="4" StructName1="runtime gpu_property_sub_array" />
 	</_46CF4B62A49C08232D11DA0EA45B3947>
-	<_776D4521E4F4C1FD51350BCDAACCF4EA Name="GPUFunctionParam" Size="40">
+	<_776D4521E4F4C1FD51350BCDAACCF4EA Name="GPUFunctionParam" Alt="7248860DA64A3A4E" Size="40">
 		<_39 Name="runtime gpu_function_sub_array" Offset="0" GUID="E09141A2D6260931A3D78599984511D9" Count="16" StructName1="runtime gpu_function_sub_array" />
 	</_776D4521E4F4C1FD51350BCDAACCF4EA>
-	<_0C16431977A26FFB69DC374981E4C4D3 Name="GPUColorParam" Size="10">
+	<_0C16431977A26FFB69DC374981E4C4D3 Name="GPUColorParam" Alt="D35FF7D7E94DFEC" Size="10">
 		<_39 Name="runtime gpu_color_sub_array" Offset="0" GUID="84F141D4EBCC1FB08EFF6043A584B00F" Count="4" StructName1="runtime gpu_color_sub_array" />
 	</_0C16431977A26FFB69DC374981E4C4D3>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
-	<_769F4B02395EDDAE1D58C7E1BF35082B Name="EffectGlobalForceDefinition" Size="28">
+	<_769F4B02395EDDAE1D58C7E1BF35082B Name="EffectGlobalForceDefinition" Alt="5039F55F1A1DEBEE" Size="28">
 		<_F Name="flags" Offset="0" StructName1="EffectGlobalForceDefinition::Flags">
 			<Flag n="is infinitely long cylinder" />
 			<Flag n="multiply force by attached object speed" />
@@ -1055,7 +1055,7 @@
 		<_14 Name="max speed" Offset="18" />
 		<_19 Name="direction override" Offset="1C" />
 	</_769F4B02395EDDAE1D58C7E1BF35082B>
-	<_E003416FFFDF1EEAA06AFA10BBE85C7F Name="c_particle_controller" Size="20">
+	<_E003416FFFDF1EEAA06AFA10BBE85C7F Name="c_particle_controller" Alt="817B435170C4C304" Size="20">
 		<_B Name="type" Offset="0" StructName1="c_particle_movement_definition::ControllerType">
 			<Flag n="physics" />
 			<Flag n="collider" />
@@ -1072,16 +1072,16 @@
 		<_3E Name="runtime m_constant_parameters" Offset="18" />
 		<_3E Name="runtime m_used_particle_states" Offset="1C" />
 	</_E003416FFFDF1EEAA06AFA10BBE85C7F>
-	<_EC34402B5E56CDB19B7468BABF36EF1D Name="GPUPropertySubArray" Size="4">
+	<_EC34402B5E56CDB19B7468BABF36EF1D Name="GPUPropertySubArray" Alt="6465DDB09F231CAD" Size="4">
 		<_14 Name="runtime gpu_property_real" Offset="0" />
 	</_EC34402B5E56CDB19B7468BABF36EF1D>
-	<_E09141A2D6260931A3D78599984511D9 Name="GPUFunctionSubArray" Size="4">
+	<_E09141A2D6260931A3D78599984511D9 Name="GPUFunctionSubArray" Alt="8E884399FADBA683" Size="4">
 		<_14 Name="runtime gpu_function_real" Offset="0" />
 	</_E09141A2D6260931A3D78599984511D9>
-	<_84F141D4EBCC1FB08EFF6043A584B00F Name="GPUColorSubArray" Size="4">
+	<_84F141D4EBCC1FB08EFF6043A584B00F Name="GPUColorSubArray" Alt="E1133912BF12F333" Size="4">
 		<_14 Name="runtime gpu_color_real" Offset="0" />
 	</_84F141D4EBCC1FB08EFF6043A584B00F>
-	<_7FCF4CE1AC90ED639C137F95ADDEA140 Name="c_particle_controller_parameter" Size="28">
+	<_7FCF4CE1AC90ED639C137F95ADDEA140 Name="c_particle_controller_parameter" Alt="CCC07D089648783C" Size="28">
 		<_6 Name="parameter id" Offset="0" />
 		<_38 Name="property" Offset="4" GUID="E8084E37646072529411483C8447409D" />
 	</_7FCF4CE1AC90ED639C137F95ADDEA140>

@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="bsp_lighting_volumes" Parents="aTag" Index="-41">
-	<_23224FD7B2942B3BE676C04591C5505C Name="BspLightingVolumes" Size="38">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="bsp_lighting_volumes" Parents="aTag" Index="-41">
+	<_23224FD7B2942B3BE676C04591C5505C Name="BspLightingVolumes" Alt="C39118F088408190" Size="38">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Air Probe Region Volumes" Offset="10" GUID="B9424FA0531729E8F4ED722496548BDF" StructName1="BspLightingVolumes" Min="0" Max="1048576" />
 		<_40 Name="Cubemap Volumes" Offset="24" GUID="D1CE481ABA187D43BE71513CBC6C9C8B" StructName1="BspLightingVolumes" Min="0" Max="1048576" />
 	</_23224FD7B2942B3BE676C04591C5505C>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_B9424FA0531729E8F4ED722496548BDF Name="AirProbeRegionVolume" Size="B4">
+	<_B9424FA0531729E8F4ED722496548BDF Name="AirProbeRegionVolume" Alt="ABF73EA5F11CC9E4" Size="B4">
 		<_2 Name="Name" Offset="0" />
 		<_37 Name="Volume settings" type="fgrb" Offset="4" />
 		<_38 Name="Volume" Offset="4" GUID="5FD8458C879AF445816FD21692C3E12B" />
@@ -32,7 +32,7 @@
 		<_14 Name="Probe offset above ground" Offset="AC" />
 		<_6 Name="Number of Z layers" Offset="B0" />
 	</_B9424FA0531729E8F4ED722496548BDF>
-	<_D1CE481ABA187D43BE71513CBC6C9C8B Name="CubemapVolume" Size="120">
+	<_D1CE481ABA187D43BE71513CBC6C9C8B Name="CubemapVolume" Alt="ACE679F3120A235B" Size="120">
 		<_2 Name="Name" Offset="0" />
 		<_6 Name="Guid" Offset="4" />
 		<_D Name="Flags" Offset="8" StructName1="CubemapFlagsClass">
@@ -86,11 +86,11 @@
 		</_B>
 		<_14 Name="Relevancy Radius" Offset="11C" />
 	</_D1CE481ABA187D43BE71513CBC6C9C8B>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_5FD8458C879AF445816FD21692C3E12B Name="GenericVolume" Size="58">
+	<_5FD8458C879AF445816FD21692C3E12B Name="GenericVolume" Alt="A69E5ED642829DD3" Size="58">
 		<_40 Name="Points" Offset="0" GUID="67E442B766DD021F47A0735CAF44B769" StructName1="GenericVolume" Min="0" Max="128" />
 		<_14 Name="height" Offset="14" />
 		<_14 Name="sink" Offset="18" />
@@ -100,11 +100,11 @@
 		<_17 Name="aabbExtents" Offset="38" />
 		<_40 Name="nativePoints2D" Offset="44" GUID="CE644BA64DB5B94A1D9DC3AF8C4D6C02" StructName1="GenericVolume" Min="0" Max="128" />
 	</_5FD8458C879AF445816FD21692C3E12B>
-	<_CAFD409521D5D5297D81B801A0BADD13 Name="EditorMetadata" Size="10C">
+	<_CAFD409521D5D5297D81B801A0BADD13 Name="EditorMetadata" Alt="8896C3D79F347A73" Size="10C">
 		<_1 Name="folder name" Offset="0" />
 		<_17 Name="local space pivot point position" Offset="100" />
 	</_CAFD409521D5D5297D81B801A0BADD13>
-	<_B3764EDA2FF9A01B1E7F95ADB70B64FE Name="s_scenario_dumpling" Size="4C">
+	<_B3764EDA2FF9A01B1E7F95ADB70B64FE Name="s_scenario_dumpling" Alt="3DC91D8E63BB3996" Size="4C">
 		<_40 Name="inner points" Offset="0" GUID="9AAD49315B797CB13AE0B8EFA4D67F82" StructName1="s_scenario_dumpling" Min="0" Max="128" />
 		<_40 Name="outer points" Offset="14" GUID="9AAD49315B797CB13AE0B8EFA4D67F82" StructName1="s_scenario_dumpling" Min="0" Max="128" />
 		<_14 Name="height" Offset="28" />
@@ -115,13 +115,13 @@
 		<_14 Name="trivial cull radius squared" Offset="44" />
 		<_14 Name="bound volume" Offset="48" />
 	</_B3764EDA2FF9A01B1E7F95ADB70B64FE>
-	<_67E442B766DD021F47A0735CAF44B769 Name="s_real_sector_point_generic_volume" Size="C">
+	<_67E442B766DD021F47A0735CAF44B769 Name="s_real_sector_point_generic_volume" Alt="277F13536B1E6225" Size="C">
 		<_17 Name="position" Offset="0" />
 	</_67E442B766DD021F47A0735CAF44B769>
-	<_CE644BA64DB5B94A1D9DC3AF8C4D6C02 Name="GenericVolumeNativePoint2D" Size="8">
+	<_CE644BA64DB5B94A1D9DC3AF8C4D6C02 Name="GenericVolumeNativePoint2D" Alt="B1A36E18AA05860" Size="8">
 		<_16 Name="point" Offset="0" />
 	</_CE644BA64DB5B94A1D9DC3AF8C4D6C02>
-	<_9AAD49315B797CB13AE0B8EFA4D67F82 Name="s_dumpling_sector_point" Size="C">
+	<_9AAD49315B797CB13AE0B8EFA4D67F82 Name="s_dumpling_sector_point" Alt="6A2D0015D2EC1E90" Size="C">
 		<_17 Name="position" Offset="0" />
 	</_9AAD49315B797CB13AE0B8EFA4D67F82>
 </root>

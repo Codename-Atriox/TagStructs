@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="forge_looping_sound_categories" Parents="aTag" Index="-147">
-	<_B41042C75D4D9634D644EC24A4EEAEB6 Name="ForgeLoopingSoundCategories" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="forge_looping_sound_categories" Parents="aTag" Index="-147">
+	<_B41042C75D4D9634D644EC24A4EEAEB6 Name="ForgeLoopingSoundCategories" Alt="B0B8D8D08481BF6C" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Looping Sound Categories" Offset="10" GUID="5F1C40ADDFC420E317F212DFADFFAA7D" StructName1="ForgeLoopingSoundCategories" Min="0" Max="32" />
 		<_34 Name="generated_pad47fa" Offset="24" Length="4" />
 	</_B41042C75D4D9634D644EC24A4EEAEB6>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_5F1C40ADDFC420E317F212DFADFFAA7D Name="LoopingSoundCategory" Size="18">
+	<_5F1C40ADDFC420E317F212DFADFFAA7D Name="LoopingSoundCategory" Alt="6B623DA58602A345" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_40 Name="sounds" Offset="4" GUID="D89542C7482D33BB79B9DF698EA81E57" StructName1="LoopingSoundCategory" Min="0" Max="128" />
 	</_5F1C40ADDFC420E317F212DFADFFAA7D>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_D89542C7482D33BB79B9DF698EA81E57 Name="LoopingSoundDefinition" Size="20">
+	<_D89542C7482D33BB79B9DF698EA81E57 Name="LoopingSoundDefinition" Alt="4E209343F9847783" Size="20">
 		<_41 Name="Looping Sound Reference" Offset="0" Allowed="lsnd" Flags="4" />
 		<_2 Name="name" Offset="1C" />
 	</_D89542C7482D33BB79B9DF698EA81E57>

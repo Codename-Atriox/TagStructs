@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:22 PM" Name="wind" Parents="aTag" Index="-481">
-	<_390345454F54D275B8647BC2A099DD8C Name="s_wind_definition" Size="108">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:58 PM" Name="wind" Parents="aTag" Index="-481">
+	<_390345454F54D275B8647BC2A099DD8C Name="s_wind_definition" Alt="C2E465CCB0D3DD1A" Size="108">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="WIND DIRECTION" Offset="10" />
 		<_18 Name="wind_direction_radian" Offset="10" />
@@ -20,21 +20,21 @@
 		<_38 Name="materials world uv max z" Offset="EC" GUID="BDE74B5EC19F77F7198FA328A4BA598F" />
 		<_34 Name="generated_padb4ac" Offset="104" Length="4" />
 	</_390345454F54D275B8647BC2A099DD8C>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_BDE74B5EC19F77F7198FA328A4BA598F Name="s_wind_function" Size="18">
+	<_BDE74B5EC19F77F7198FA328A4BA598F Name="s_wind_function" Alt="D7229C65B9D779C2" Size="18">
 		<_37 Name="Mapping" type="fned" Offset="0" />
 		<_38 Name="Mapping" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_BDE74B5EC19F77F7198FA328A4BA598F>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

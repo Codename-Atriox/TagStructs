@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="UITransitionSounds" Parents="aTag" Index="-435">
-	<_27914BD7C5228E621726DC35864AA569 Name="Interface::Customization::UITransitionSoundsTag" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="UITransitionSounds" Parents="aTag" Index="-435">
+	<_27914BD7C5228E621726DC35864AA569 Name="Interface::Customization::UITransitionSoundsTag" Alt="91EA78145687FD7" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Transition sounds" Offset="10" GUID="A57F4899268BED4923CE5C0EB6D93A19" StructName1="Interface::Customization::UITransitionSoundsTag" Min="0" Max="16" />
 		<_34 Name="generated_pade975" Offset="24" Length="4" />
 	</_27914BD7C5228E621726DC35864AA569>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_A57F4899268BED4923CE5C0EB6D93A19 Name="Interface::Customization::UITransitionSound" Size="28">
+	<_A57F4899268BED4923CE5C0EB6D93A19 Name="Interface::Customization::UITransitionSound" Alt="4C07BD386FB15FF1" Size="28">
 		<_2 Name="Display Name" Offset="0" />
 		<_41 Name="Sound" Offset="4" Allowed="snd!" Flags="0" />
 		<_14 Name="Transition sound time" Offset="20" />
@@ -30,8 +30,8 @@
 			<Flag n="Lower" />
 		</_B>
 	</_A57F4899268BED4923CE5C0EB6D93A19>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

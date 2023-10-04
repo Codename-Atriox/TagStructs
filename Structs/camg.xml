@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="camera_animation_graph" Parents="aTag" Index="-52">
-	<_403A4F52C6B3D2FCE1D198B888BC00DE Name="CameraAnimationGraph" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="camera_animation_graph" Parents="aTag" Index="-52">
+	<_403A4F52C6B3D2FCE1D198B888BC00DE Name="CameraAnimationGraph" Alt="6342DCCF33D510C" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Animations" Offset="10" GUID="72764CE5852200177ED3830B8B8A01AE" StructName1="CameraAnimationGraph" Min="0" Max="1024" />
 		<_34 Name="generated_pad38ed" Offset="24" Length="4" />
 	</_403A4F52C6B3D2FCE1D198B888BC00DE>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_72764CE5852200177ED3830B8B8A01AE Name="CameraTrackAnimation" Size="34">
+	<_72764CE5852200177ED3830B8B8A01AE Name="CameraTrackAnimation" Alt="D4FB53A0833911B7" Size="34">
 		<_2 Name="Name" Offset="0" />
 		<_38 Name="Track" Offset="4" GUID="4B754BEA6968AA0001424F8F80087827" />
 		<_6 Name="Authored FPS" Offset="30" />
 	</_72764CE5852200177ED3830B8B8A01AE>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_4B754BEA6968AA0001424F8F80087827 Name="CameraTrack" Size="2C">
+	<_4B754BEA6968AA0001424F8F80087827 Name="CameraTrack" Alt="2E426BC9BF02ABA7" Size="2C">
 		<_F Name="Flags" Offset="0" StructName1="CameraTrackFlags">
 			<Flag n="Lens Enabled" />
 		</_F>
@@ -26,11 +26,11 @@
 		<_40 Name="Control Points" Offset="4" GUID="E4384E94CD7602FD45F707E2B9475AB8" StructName1="CameraTrack" Min="0" Max="4096" />
 		<_40 Name="Lenses" Offset="18" GUID="91F440BA38DEFDD9C972CDC0A1FE029D" StructName1="CameraTrack" Min="0" Max="4096" />
 	</_4B754BEA6968AA0001424F8F80087827>
-	<_E4384E94CD7602FD45F707E2B9475AB8 Name="CameraTrackControlPoint" Size="1C">
+	<_E4384E94CD7602FD45F707E2B9475AB8 Name="CameraTrackControlPoint" Alt="4D208FCEE8F4CFCD" Size="1C">
 		<_19 Name="position" Offset="0" />
 		<_1A Name="orientation" Offset="C" />
 	</_E4384E94CD7602FD45F707E2B9475AB8>
-	<_91F440BA38DEFDD9C972CDC0A1FE029D Name="CameraTrackLens" Size="14">
+	<_91F440BA38DEFDD9C972CDC0A1FE029D Name="CameraTrackLens" Alt="285DBD18A147C46F" Size="14">
 		<_F Name="Flags" Offset="0" StructName1="CameraTrackLensFlags">
 			<Flag n="Depth Of Field Enabled" />
 		</_F>

@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:11 PM" Name="AnimationLibraryAudio" Parents="aTag" Index="-231">
-	<_55F14FD5A86EB27EA056647FA192ACB2 Name="AnimationLibraryAudio" Size="38">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="AnimationLibraryAudio" Parents="aTag" Index="-231">
+	<_55F14FD5A86EB27EA056647FA192ACB2 Name="AnimationLibraryAudio" Alt="17FB421E8BBD0F1D" Size="38">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Sounds" Offset="10" GUID="F81D4355A98299C0DDED614FA07E982C" StructName1="AnimationLibraryAudio" Min="0" Max="10000000" />
 		<_40 Name="Dialogues" Offset="24" GUID="25AA437D35C9E59405EC7A74AF3A6C4C" StructName1="AnimationLibraryAudio" Min="0" Max="10000000" />
 	</_55F14FD5A86EB27EA056647FA192ACB2>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_F81D4355A98299C0DDED614FA07E982C Name="AnimationSounds" Size="1C">
+	<_F81D4355A98299C0DDED614FA07E982C Name="AnimationSounds" Alt="792DB7A66DA62501" Size="1C">
 		<_6 Name="Unique ID" Offset="0" />
 		<_2 Name="Name" Offset="4" />
 		<_40 Name="Sounds" Offset="8" GUID="E2924054D46D54EB48A1D5559E0E741F" StructName1="AnimationSounds" Min="0" Max="10000000" />
 	</_F81D4355A98299C0DDED614FA07E982C>
-	<_25AA437D35C9E59405EC7A74AF3A6C4C Name="AnimationDialogues" Size="C">
+	<_25AA437D35C9E59405EC7A74AF3A6C4C Name="AnimationDialogues" Alt="11F7CF3B91FC3A7E" Size="C">
 		<_6 Name="Unique ID" Offset="0" />
 		<_2 Name="Vocialization name" Offset="4" />
 		<_A Name="Dialogue play restrictions" Offset="8" StructName1="DialoguePlayRestriction">
@@ -24,11 +24,11 @@
 		</_A>
 		<_34 Name="generated_pad2391" Offset="9" Length="3" />
 	</_25AA437D35C9E59405EC7A74AF3A6C4C>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_E2924054D46D54EB48A1D5559E0E741F Name="SoundEventEntry" Size="60">
+	<_E2924054D46D54EB48A1D5559E0E741F Name="SoundEventEntry" Alt="5EEB79DE623DBFFE" Size="60">
 		<_41 Name="Sound" Offset="0" Allowed="snd!" Flags="0" />
 		<_E Name="Key event flags" Offset="1C" StructName1="AnimationKeyEventFlags">
 			<Flag n="AllowOnPlayer" />

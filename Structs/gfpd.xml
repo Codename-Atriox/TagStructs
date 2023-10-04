@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:06 PM" Name="GraphicsPresetDefinitions" Parents="aTag" Index="-173">
-	<_48167FAFEEBBDD8081C0E9C54C2EBDCC Name="PresetDefinitionsTag" Size="258">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="GraphicsPresetDefinitions" Parents="aTag" Index="-173">
+	<_48167FAFEEBBDD8081C0E9C54C2EBDCC Name="PresetDefinitionsTag" Alt="6A13C4AC5D400DC7" Size="258">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Basic Presets" Offset="10" GUID="96294688F3647F16244C6F75100C655B" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
 		<_37 Name="Preset Details" type="fgrb" Offset="24" />
@@ -35,11 +35,11 @@
 		<_37 Name="" type="fgre" Offset="254" />
 		<_34 Name="generated_pad3e85" Offset="254" Length="4" />
 	</_48167FAFEEBBDD8081C0E9C54C2EBDCC>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_96294688F3647F16244C6F75100C655B Name="BasicPresetDefinition" Size="40">
+	<_96294688F3647F16244C6F75100C655B Name="BasicPresetDefinition" Alt="F31111F8C4A420A6" Size="40">
 		<_0 Name="Preset" Offset="0" />
 		<_A Name="Reflections" Offset="20" StructName1="ReflectionPresetDefinition::Presets">
 			<Flag n="Off" />
@@ -170,7 +170,7 @@
 		<_38 Name="vram" Offset="38" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="40" />
 	</_96294688F3647F16244C6F75100C655B>
-	<_DBBC39AC6581E7D05E385AEDD5A23FEE Name="ReflectionPresetDefinition" Size="30">
+	<_DBBC39AC6581E7D05E385AEDD5A23FEE Name="ReflectionPresetDefinition" Alt="AB42D5BFE49CC918" Size="30">
 		<_0 Name="Preset" Offset="0" />
 		<_A Name="Mode" Offset="20" StructName1="ReflectionPresetDefinition::Modes">
 			<Flag n="None" />
@@ -194,7 +194,7 @@
 		<_38 Name="vram" Offset="28" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="30" />
 	</_DBBC39AC6581E7D05E385AEDD5A23FEE>
-	<_16916CF8298B50A66B4D944252DC8A9C Name="VolumetricFogPresetDefinition" Size="50">
+	<_16916CF8298B50A66B4D944252DC8A9C Name="VolumetricFogPresetDefinition" Alt="D2FEC2F8E8EADB36" Size="50">
 		<_0 Name="Preset" Offset="0" />
 		<_6 Name="Resolution" Offset="20" />
 		<_F Name="Volumetric Fog Flags" Offset="24" StructName1="VolumetricFogPresetDefinition::VolumetricFogFlags">
@@ -217,7 +217,7 @@
 		<_38 Name="vram" Offset="48" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="50" />
 	</_16916CF8298B50A66B4D944252DC8A9C>
-	<_439E505B90DA05B916ED8B428738A756 Name="ShadowPresetDefinition" Size="A0">
+	<_439E505B90DA05B916ED8B428738A756 Name="ShadowPresetDefinition" Alt="9220E8C263A0E4BC" Size="A0">
 		<_0 Name="Preset" Offset="0" />
 		<_6 Name="Dynamic Shadowmap Atlas Resolution" Offset="20" />
 		<_6 Name="Dynamic Shadowmap Atlas Resolution No Sun" Offset="24" />
@@ -255,7 +255,7 @@
 		<_38 Name="vram" Offset="98" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="A0" />
 	</_439E505B90DA05B916ED8B428738A756>
-	<_E919C2A2A3A09761DE22C5A25BF3FC36 Name="SkyQualityPresetDefinition" Size="12C">
+	<_E919C2A2A3A09761DE22C5A25BF3FC36 Name="SkyQualityPresetDefinition" Alt="4285E57A55A2723C" Size="12C">
 		<_0 Name="Preset" Offset="0" />
 		<_F Name="Volumetric Clouds Enable Flag" Offset="20" StructName1="SkyQualityPresetDefinition::EnableVolumetricCloudsFlag">
 			<Flag n="Enabled" />
@@ -289,7 +289,7 @@
 		<_38 Name="vram" Offset="124" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="12C" />
 	</_E919C2A2A3A09761DE22C5A25BF3FC36>
-	<_AE215BB8A74EC18B1091B2EFC096C861 Name="TemporalAAPresetDefinition" Size="50">
+	<_AE215BB8A74EC18B1091B2EFC096C861 Name="TemporalAAPresetDefinition" Alt="23BC85D8BAD454DF" Size="50">
 		<_0 Name="Preset" Offset="0" />
 		<_F Name="Enable Flag" Offset="20" StructName1="TemporalAAPresetDefinition::EnableTemporalAAFlag">
 			<Flag n="Enabled" />
@@ -312,7 +312,7 @@
 		<_38 Name="vram" Offset="48" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="50" />
 	</_AE215BB8A74EC18B1091B2EFC096C861>
-	<_42CD411D43CBEE8F87E2FB8EB8EC86C5 Name="AoPresetDefinition" Size="50">
+	<_42CD411D43CBEE8F87E2FB8EB8EC86C5 Name="AoPresetDefinition" Alt="E209AE2043D04337" Size="50">
 		<_0 Name="Preset" Offset="0" />
 		<_F Name="Flags" Offset="20" StructName1="AoPresetDefinition::AoFlags">
 			<Flag n="AO Disabled" />
@@ -335,7 +335,7 @@
 		<_38 Name="vram" Offset="48" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="50" />
 	</_42CD411D43CBEE8F87E2FB8EB8EC86C5>
-	<_5993273BB65BD336B5D74AC746AB099A Name="DepthOfFieldPresetDefinition" Size="50">
+	<_5993273BB65BD336B5D74AC746AB099A Name="DepthOfFieldPresetDefinition" Alt="8D2F5664CA928296" Size="50">
 		<_0 Name="Preset" Offset="0" />
 		<_6 Name="Ring Count" Offset="20" />
 		<_A Name="Blur Type" Offset="24" StructName1="DepthOfFieldPresetDefinition::BlurType">
@@ -359,7 +359,7 @@
 		<_38 Name="vram" Offset="48" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="50" />
 	</_5993273BB65BD336B5D74AC746AB099A>
-	<_D77FEA271151280C662B5503C70C930A Name="AnisotropicFilteringPresetDefinition" Size="30">
+	<_D77FEA271151280C662B5503C70C930A Name="AnisotropicFilteringPresetDefinition" Alt="D174181D319838ED" Size="30">
 		<_0 Name="Preset" Offset="0" />
 		<_A Name="Level" Offset="20" StructName1="AnisotropicFilteringPresetDefinition::AnisotropicFilteringLevel">
 			<Flag n="0" />
@@ -385,7 +385,7 @@
 		<_38 Name="vram" Offset="28" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="30" />
 	</_D77FEA271151280C662B5503C70C930A>
-	<_820DAAE38799C8AFA41D9DD8DA2ED304 Name="TerrainPresetDefinition" Size="3C">
+	<_820DAAE38799C8AFA41D9DD8DA2ED304 Name="TerrainPresetDefinition" Alt="2A60C9ADA6714DB7" Size="3C">
 		<_0 Name="Preset" Offset="0" />
 		<_14 Name="LOD Radius Factor" Offset="20" />
 		<_37 Name="Single Screen" type="fgrb" Offset="24" />
@@ -404,7 +404,7 @@
 		<_38 Name="vram" Offset="34" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="3C" />
 	</_820DAAE38799C8AFA41D9DD8DA2ED304>
-	<_1945AB1215D5CB205161248616BB24AD Name="LightingPresetDefinition" Size="3C">
+	<_1945AB1215D5CB205161248616BB24AD Name="LightingPresetDefinition" Alt="E4C9E147A92E8506" Size="3C">
 		<_0 Name="Preset" Offset="0" />
 		<_14 Name="Light Simulation Radius Scale" Offset="20" />
 		<_37 Name="Single Screen" type="fgrb" Offset="24" />
@@ -423,7 +423,7 @@
 		<_38 Name="vram" Offset="34" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="3C" />
 	</_1945AB1215D5CB205161248616BB24AD>
-	<_984FA59219574A264A5FA5641FA567BB Name="DecoratorsPresetDefinition" Size="2C">
+	<_984FA59219574A264A5FA5641FA567BB Name="DecoratorsPresetDefinition" Alt="9D2B241F31557145" Size="2C">
 		<_A Name="Push Bending" Offset="0" StructName1="InteractionPresetDefinition::Presets">
 			<Flag n="Off" />
 			<Flag n="Low" />
@@ -436,13 +436,13 @@
 		<_38 Name="vram" Offset="24" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="2C" />
 	</_984FA59219574A264A5FA5641FA567BB>
-	<_D025CBF15D77FBC58F22E5F79383A1D1 Name="AssetCategoryPresetDefinition" Size="28">
+	<_D025CBF15D77FBC58F22E5F79383A1D1 Name="AssetCategoryPresetDefinition" Alt="A68B364A64B5D65" Size="28">
 		<_0 Name="Preset" Offset="0" />
 		<_37 Name="VRAM" type="fgrb" Offset="20" />
 		<_38 Name="vram" Offset="20" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="28" />
 	</_D025CBF15D77FBC58F22E5F79383A1D1>
-	<_F5BB19717F58B6859BFBD9FE14A76529 Name="DynamicWindPresetDefinition" Size="78">
+	<_F5BB19717F58B6859BFBD9FE14A76529 Name="DynamicWindPresetDefinition" Alt="22F29F0EE55688FA" Size="78">
 		<_0 Name="Preset" Offset="0" />
 		<_37 Name="Single Screen" type="fgrb" Offset="20" />
 		<_38 Name="Single Screen Preset" Offset="20" GUID="E429F21E1F377888BAABA83BBB772664" />
@@ -460,7 +460,7 @@
 		<_38 Name="vram" Offset="70" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="78" />
 	</_F5BB19717F58B6859BFBD9FE14A76529>
-	<_5C424F38818517A85B86FF4D9DEED22E Name="InteractionPresetDefinition" Size="48">
+	<_5C424F38818517A85B86FF4D9DEED22E Name="InteractionPresetDefinition" Alt="4CA3C374A46C5AD2" Size="48">
 		<_0 Name="Preset" Offset="0" />
 		<_37 Name="Single Screen" type="fgrb" Offset="20" />
 		<_38 Name="Single Screen Preset" Offset="20" GUID="35084A2B83CAEA01C3DA305BBA9C6178" />
@@ -478,7 +478,7 @@
 		<_38 Name="vram" Offset="40" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="48" />
 	</_5C424F38818517A85B86FF4D9DEED22E>
-	<_3D58499B4F71430ECCC2CE3B880DEA97 Name="HlodPresetDefinition" Size="68">
+	<_3D58499B4F71430ECCC2CE3B880DEA97 Name="HlodPresetDefinition" Alt="E9A198ED93035F2D" Size="68">
 		<_0 Name="Preset" Offset="0" />
 		<_37 Name="Single Screen" type="fgrb" Offset="20" />
 		<_38 Name="Single Screen Preset" Offset="20" GUID="6DCA433AD0FFF271C5942D9D83D40BD3" />
@@ -496,13 +496,13 @@
 		<_38 Name="vram" Offset="60" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="68" />
 	</_3D58499B4F71430ECCC2CE3B880DEA97>
-	<_D54E2BC1FA7D752208CAB9480144E535 Name="AnimationQualityPresetDefinition" Size="28">
+	<_D54E2BC1FA7D752208CAB9480144E535 Name="AnimationQualityPresetDefinition" Alt="9D4F8BA9E497DB22" Size="28">
 		<_0 Name="Preset" Offset="0" />
 		<_37 Name="VRAM" type="fgrb" Offset="20" />
 		<_38 Name="vram" Offset="20" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="28" />
 	</_D54E2BC1FA7D752208CAB9480144E535>
-	<_EB6C0E4309E945867DD52DA0C3B1BD46 Name="VisualDamagePresetDefinition" Size="50">
+	<_EB6C0E4309E945867DD52DA0C3B1BD46 Name="VisualDamagePresetDefinition" Alt="B386696C6A1AED99" Size="50">
 		<_0 Name="Preset" Offset="0" />
 		<_F Name="Enable Flag" Offset="20" StructName1="VisualDamagePresetDefinition::EnableVisualDamageFlag">
 			<Flag n="Enabled" />
@@ -525,7 +525,7 @@
 		<_38 Name="vram" Offset="48" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="50" />
 	</_EB6C0E4309E945867DD52DA0C3B1BD46>
-	<_22BC2D9E74B90A68971CEA8BD23BF6C3 Name="VirtualTexturingPresetDefinition" Size="68">
+	<_22BC2D9E74B90A68971CEA8BD23BF6C3 Name="VirtualTexturingPresetDefinition" Alt="CE806A330E8FAEF2" Size="68">
 		<_0 Name="Preset" Offset="0" />
 		<_37 Name="Single Screen" type="fgrb" Offset="20" />
 		<_38 Name="Single Screen Preset" Offset="20" GUID="BFCE8F6754D55F62F61FA5D4AEED60C6" />
@@ -543,19 +543,19 @@
 		<_38 Name="vram" Offset="60" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="68" />
 	</_22BC2D9E74B90A68971CEA8BD23BF6C3>
-	<_E0ED0791746DD2B57DA9C65FFE4FC522 Name="FlocksQualityPresetDefinition" Size="28">
+	<_E0ED0791746DD2B57DA9C65FFE4FC522 Name="FlocksQualityPresetDefinition" Alt="F5A943C5550A025A" Size="28">
 		<_0 Name="Preset" Offset="0" />
 		<_37 Name="VRAM" type="fgrb" Offset="20" />
 		<_38 Name="vram" Offset="20" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="28" />
 	</_E0ED0791746DD2B57DA9C65FFE4FC522>
-	<_756798B2BAEEA9E5179AB897FE73560B Name="SimulationQualityPresetDefinition" Size="28">
+	<_756798B2BAEEA9E5179AB897FE73560B Name="SimulationQualityPresetDefinition" Alt="CE5DD841325518FA" Size="28">
 		<_0 Name="Preset" Offset="0" />
 		<_37 Name="VRAM" type="fgrb" Offset="20" />
 		<_38 Name="vram" Offset="20" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="28" />
 	</_756798B2BAEEA9E5179AB897FE73560B>
-	<_30E74044D15E4CF97C233F6ABB48D854 Name="EffectsPresetDefinition" Size="1AC">
+	<_30E74044D15E4CF97C233F6ABB48D854 Name="EffectsPresetDefinition" Alt="6EDACB0B447760DA" Size="1AC">
 		<_0 Name="Preset" Offset="0" />
 		<_F Name="Effect Quality Options Flags" Offset="20" StructName1="EffectsPresetDefinition::EffectQualityOptionsFlags">
 			<Flag n="Enable CPU Particle Collisions" />
@@ -612,7 +612,7 @@
 		<_38 Name="vram" Offset="1A4" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="1AC" />
 	</_30E74044D15E4CF97C233F6ABB48D854>
-	<_E3F545E390031A5E550EC91EB89EE923 Name="EmblemQualityPresetDefinition" Size="3C">
+	<_E3F545E390031A5E550EC91EB89EE923 Name="EmblemQualityPresetDefinition" Alt="9EACC4764B3B6B9" Size="3C">
 		<_0 Name="Preset" Offset="0" />
 		<_3E Name="Resolution" Offset="20" />
 		<_37 Name="Single Screen" type="fgrb" Offset="24" />
@@ -631,7 +631,7 @@
 		<_38 Name="vram" Offset="34" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="3C" />
 	</_E3F545E390031A5E550EC91EB89EE923>
-	<_02C947F5309CF2BC063B51D1A463E612 Name="TextureQualityPresetDefinition" Size="48">
+	<_02C947F5309CF2BC063B51D1A463E612 Name="TextureQualityPresetDefinition" Alt="D583E90B8FB7C0B8" Size="48">
 		<_0 Name="Preset" Offset="0" />
 		<_14 Name="Texture Prediction Resolution Limit" Offset="20" />
 		<_14 Name="Texture Prediction Target Resolution" Offset="24" />
@@ -665,11 +665,11 @@
 		<_6 Name="Fudge Factor Size" Offset="44" />
 		<_37 Name="" type="fgre" Offset="48" />
 	</_02C947F5309CF2BC063B51D1A463E612>
-	<_4E312D0166DC3BE5E9B24A8326415011 Name="ChromaticAberrationPresetDefinition" Size="24">
+	<_4E312D0166DC3BE5E9B24A8326415011 Name="ChromaticAberrationPresetDefinition" Alt="3EB32B700BB8294E" Size="24">
 		<_0 Name="Preset" Offset="0" />
 		<_6 Name="Number of samples" Offset="20" />
 	</_4E312D0166DC3BE5E9B24A8326415011>
-	<_684D4F77755B77B56F6BEFA19FDD21C6 Name="UIPresetDefinition" Size="25">
+	<_684D4F77755B77B56F6BEFA19FDD21C6 Name="UIPresetDefinition" Alt="750FBE71C38BC6F3" Size="25">
 		<_0 Name="Preset" Offset="0" />
 		<_F Name="Bloom" Offset="20" StructName1="UIPresetDefinition::EnableBloomFlag">
 			<Flag n="Enabled" />
@@ -687,7 +687,7 @@
 		<_38 Name="4 Player Splitscreen Preset" Offset="24" GUID="CF01457A4F00F856ED24640DB39F8028" />
 		<_37 Name="" type="fgre" Offset="25" />
 	</_684D4F77755B77B56F6BEFA19FDD21C6>
-	<_21DD2F387AA64C3A7C306807E6A05E85 Name="DecalsPresetDefinition" Size="64">
+	<_21DD2F387AA64C3A7C306807E6A05E85 Name="DecalsPresetDefinition" Alt="C56D7EE80A4F4912" Size="64">
 		<_0 Name="Preset" Offset="0" />
 		<_6 Name="Max Decal Count" Offset="20" />
 		<_14 Name="Decal Lifetime Scale" Offset="24" />
@@ -722,13 +722,13 @@
 		<_38 Name="vram" Offset="5C" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="64" />
 	</_21DD2F387AA64C3A7C306807E6A05E85>
-	<_F91E4EAEEC81C4EC663F058EA5BA7CAF Name="ShaderQualityPresetDefinition" Size="28">
+	<_F91E4EAEEC81C4EC663F058EA5BA7CAF Name="ShaderQualityPresetDefinition" Alt="82BD27C6F4D513A6" Size="28">
 		<_0 Name="Preset" Offset="0" />
 		<_37 Name="VRAM" type="fgrb" Offset="20" />
 		<_38 Name="vram" Offset="20" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="28" />
 	</_F91E4EAEEC81C4EC663F058EA5BA7CAF>
-	<_A5E6462F48E3E42B44F48D21B08677F5 Name="RaytracedSunShadowsPresetDefinition" Size="54">
+	<_A5E6462F48E3E42B44F48D21B08677F5 Name="RaytracedSunShadowsPresetDefinition" Alt="9B6BADCDD9F3E4C" Size="54">
 		<_0 Name="Preset" Offset="0" />
 		<_14 Name="Shadow Ray Push Off" Offset="20" />
 		<_6 Name="Min Tile Rate" Offset="24" />
@@ -751,29 +751,29 @@
 		<_38 Name="vram" Offset="4C" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="54" />
 	</_A5E6462F48E3E42B44F48D21B08677F5>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_80CBCBAC42C3290A222918B339A97396 Name="SpecControlVramSettings" Size="8">
+	<_80CBCBAC42C3290A222918B339A97396 Name="SpecControlVramSettings" Alt="CC1BC47848AD3D3A" Size="8">
 		<_6 Name="Initial VRAM usage" Offset="0" />
 		<_6 Name="VRAM per 1 million pixels" Offset="4" />
 	</_80CBCBAC42C3290A222918B339A97396>
-	<_168A4C88C03256D539546534969AA3E9 Name="ReflectionPresetDefinition::SplitscreenPreset" Size="1">
+	<_168A4C88C03256D539546534969AA3E9 Name="ReflectionPresetDefinition::SplitscreenPreset" Alt="DFE43DD506056911" Size="1">
 		<_A Name="Mode" Offset="0" StructName1="ReflectionPresetDefinition::Modes">
 			<Flag n="None" />
 			<Flag n="SSR" />
 			<Flag n="SSR Full Resolution" />
 		</_A>
 	</_168A4C88C03256D539546534969AA3E9>
-	<_EC9E4168A7AD120CB673D2E7BB6DEF4A Name="VolumetricFogPresetDefinition::SplitscreenPreset" Size="8">
+	<_EC9E4168A7AD120CB673D2E7BB6DEF4A Name="VolumetricFogPresetDefinition::SplitscreenPreset" Alt="7458586AD8906A3F" Size="8">
 		<_6 Name="Resolution" Offset="0" />
 		<_F Name="Volumetric Fog Flags" Offset="4" StructName1="VolumetricFogPresetDefinition::VolumetricFogFlags">
 			<Flag n="Enabled" />
 		</_F>
 		<_34 Name="generated_pad26b1" Offset="5" Length="3" />
 	</_EC9E4168A7AD120CB673D2E7BB6DEF4A>
-	<_E63D07E47E15EDB7B2E15AEA91D3BBFF Name="ShadowPresetDefinition::SplitscreenPreset" Size="18">
+	<_E63D07E47E15EDB7B2E15AEA91D3BBFF Name="ShadowPresetDefinition::SplitscreenPreset" Alt="7EEF02A69C12178C" Size="18">
 		<_6 Name="Dynamic Shadowmap Atlas Resolution" Offset="0" />
 		<_6 Name="Dynamic Shadowmap Atlas Resolution No Sun" Offset="4" />
 		<_6 Name="Static Shadowmap Atlas Resolution" Offset="8" />
@@ -795,7 +795,7 @@
 		<_34 Name="generated_padf8ff" Offset="11" Length="3" />
 		<_14 Name="Local Lights Shadow Sampling Falloff" Offset="14" />
 	</_E63D07E47E15EDB7B2E15AEA91D3BBFF>
-	<_15064E7F964671209EF5ECB0680E242A Name="SkyQualityPresetDefinition::SplitscreenPreset" Size="34">
+	<_15064E7F964671209EF5ECB0680E242A Name="SkyQualityPresetDefinition::SplitscreenPreset" Alt="DEEBB8AA7CC6BA98" Size="34">
 		<_F Name="Volumetric Clouds Enable Flag" Offset="0" StructName1="SkyQualityPresetDefinition::EnableVolumetricCloudsFlag">
 			<Flag n="Enabled" />
 		</_F>
@@ -813,21 +813,21 @@
 		<_14 Name="Volumetric Clouds Coverage Strength" Offset="2C" />
 		<_6 Name="Volumetric Clouds Perf Tier" Offset="30" />
 	</_15064E7F964671209EF5ECB0680E242A>
-	<_582643DAC05A6C7D8E25835083416E24 Name="TemporalAAPresetDefinition::SplitscreenPreset" Size="8">
+	<_582643DAC05A6C7D8E25835083416E24 Name="TemporalAAPresetDefinition::SplitscreenPreset" Alt="407BF3E7D7FA96D" Size="8">
 		<_F Name="Enable Flag" Offset="0" StructName1="TemporalAAPresetDefinition::EnableTemporalAAFlag">
 			<Flag n="Enabled" />
 		</_F>
 		<_34 Name="generated_pad7fc7" Offset="1" Length="3" />
 		<_6 Name="Quality" Offset="4" />
 	</_582643DAC05A6C7D8E25835083416E24>
-	<_105A472043D40703766BC5BE9C60B2DE Name="AoPresetDefinition::SplitscreenPreset" Size="8">
+	<_105A472043D40703766BC5BE9C60B2DE Name="AoPresetDefinition::SplitscreenPreset" Alt="F6A77A98DD1AE97B" Size="8">
 		<_F Name="Flags" Offset="0" StructName1="AoPresetDefinition::AoFlags">
 			<Flag n="AO Disabled" />
 		</_F>
 		<_34 Name="generated_pad8c97" Offset="1" Length="3" />
 		<_6 Name="Quality" Offset="4" />
 	</_105A472043D40703766BC5BE9C60B2DE>
-	<_2473B94626A09B0AF807C0D5D1CE8FED Name="DepthOfFieldPresetDefinition::SplitscreenPreset" Size="8">
+	<_2473B94626A09B0AF807C0D5D1CE8FED Name="DepthOfFieldPresetDefinition::SplitscreenPreset" Alt="5D14E16053DCD34F" Size="8">
 		<_6 Name="Ring Count" Offset="0" />
 		<_A Name="Blur Type" Offset="4" StructName1="DepthOfFieldPresetDefinition::BlurType">
 			<Flag n="Hex" />
@@ -835,7 +835,7 @@
 		</_A>
 		<_34 Name="generated_pad9a0b" Offset="5" Length="3" />
 	</_2473B94626A09B0AF807C0D5D1CE8FED>
-	<_7A0AF732E037148D7C42E033F30A9B22 Name="AnisotropicFilteringPresetDefinition::SplitscreenPreset" Size="1">
+	<_7A0AF732E037148D7C42E033F30A9B22 Name="AnisotropicFilteringPresetDefinition::SplitscreenPreset" Alt="979CBDE6E1210430" Size="1">
 		<_A Name="Level" Offset="0" StructName1="AnisotropicFilteringPresetDefinition::AnisotropicFilteringLevel">
 			<Flag n="0" />
 			<Flag n="2" />
@@ -844,13 +844,13 @@
 			<Flag n="16" />
 		</_A>
 	</_7A0AF732E037148D7C42E033F30A9B22>
-	<_E9B588565F0308CDE226E3EC8BC3EC54 Name="TerrainPresetDefinition::SplitscreenPreset" Size="4">
+	<_E9B588565F0308CDE226E3EC8BC3EC54 Name="TerrainPresetDefinition::SplitscreenPreset" Alt="8103A268CF496B25" Size="4">
 		<_14 Name="LOD Radius Factor" Offset="0" />
 	</_E9B588565F0308CDE226E3EC8BC3EC54>
-	<_AEAE46E7540C3399249F78E0852A36A4 Name="LightingPresetDefinition::SplitscreenPreset" Size="4">
+	<_AEAE46E7540C3399249F78E0852A36A4 Name="LightingPresetDefinition::SplitscreenPreset" Alt="FA1CCE573A561AC1" Size="4">
 		<_14 Name="Light Simulation Radius Scale" Offset="0" />
 	</_AEAE46E7540C3399249F78E0852A36A4>
-	<_E429F21E1F377888BAABA83BBB772664 Name="DynamicWindPresetDefinition::SplitscreenPreset" Size="14">
+	<_E429F21E1F377888BAABA83BBB772664 Name="DynamicWindPresetDefinition::SplitscreenPreset" Alt="BF7F97512A9D61C9" Size="14">
 		<_F Name="Flags" Offset="0" StructName1="DynamicWindPresetDefinition::DynamicWindFlags">
 			<Flag n="Disabled" />
 		</_F>
@@ -860,27 +860,27 @@
 		<_6 Name="Texture Resolution Y" Offset="C" />
 		<_6 Name="Texture Resolution Z" Offset="10" />
 	</_E429F21E1F377888BAABA83BBB772664>
-	<_35084A2B83CAEA01C3DA305BBA9C6178 Name="InteractionPresetDefinition::SplitscreenPreset" Size="8">
+	<_35084A2B83CAEA01C3DA305BBA9C6178 Name="InteractionPresetDefinition::SplitscreenPreset" Alt="CB13BA6A1382D5EB" Size="8">
 		<_6 Name="Resolution" Offset="0" />
 		<_F Name="Flags" Offset="4" StructName1="InteractionPresetDefinition::InteractionFlags">
 			<Flag n="Disabled" />
 		</_F>
 		<_34 Name="generated_padb399" Offset="5" Length="3" />
 	</_35084A2B83CAEA01C3DA305BBA9C6178>
-	<_6DCA433AD0FFF271C5942D9D83D40BD3 Name="HlodPresetDefinition::SplitscreenPreset" Size="10">
+	<_6DCA433AD0FFF271C5942D9D83D40BD3 Name="HlodPresetDefinition::SplitscreenPreset" Alt="ACA8236AAA1AC0CB" Size="10">
 		<_14 Name="HLOD Switch Distance Multiplier" Offset="0" />
 		<_14 Name="HLOD Switch Distance Buffer" Offset="4" />
 		<_14 Name="HLOD Texture Streaming Multiplier" Offset="8" />
 		<_14 Name="Distant Geo Streaming Distance Multiplier" Offset="C" />
 	</_6DCA433AD0FFF271C5942D9D83D40BD3>
-	<_0E3AC82451F086615AE811AC0C060866 Name="VisualDamagePresetDefinition::SplitscreenPreset" Size="8">
+	<_0E3AC82451F086615AE811AC0C060866 Name="VisualDamagePresetDefinition::SplitscreenPreset" Alt="913A5B4F8CB9F0E8" Size="8">
 		<_F Name="Enable Flag" Offset="0" StructName1="VisualDamagePresetDefinition::EnableVisualDamageFlag">
 			<Flag n="Enabled" />
 		</_F>
 		<_34 Name="generated_pad9506" Offset="1" Length="3" />
 		<_6 Name="Mask Resolution" Offset="4" />
 	</_0E3AC82451F086615AE811AC0C060866>
-	<_BFCE8F6754D55F62F61FA5D4AEED60C6 Name="VirtualTexturingPresetDefinition::SplitscreenPreset" Size="10">
+	<_BFCE8F6754D55F62F61FA5D4AEED60C6 Name="VirtualTexturingPresetDefinition::SplitscreenPreset" Alt="FCE0E34A37E52117" Size="10">
 		<_6 Name="Desired Page Count" Offset="0" />
 		<_6 Name="Max Pages Per Frame" Offset="4" />
 		<_6 Name="Low Priority Pages Per Frame" Offset="8" />
@@ -894,7 +894,7 @@
 		</_F>
 		<_34 Name="generated_pad5b4a" Offset="E" Length="2" />
 	</_BFCE8F6754D55F62F61FA5D4AEED60C6>
-	<_86B54956362889EA67A96F47AADD543E Name="EffectsPresetDefinition::EffectStreamingRelevancySettings" Size="1C">
+	<_86B54956362889EA67A96F47AADD543E Name="EffectsPresetDefinition::EffectStreamingRelevancySettings" Alt="BCDB1404191E3F47" Size="1C">
 		<_14 Name="inner radius" Offset="0" />
 		<_14 Name="outer radius" Offset="4" />
 		<_14 Name="front-facing radius" Offset="8" />
@@ -903,7 +903,7 @@
 		<_14 Name="Sandbox effect distance scale" Offset="14" />
 		<_14 Name="Critical effect distance scale" Offset="18" />
 	</_86B54956362889EA67A96F47AADD543E>
-	<_9FD5B0367E8FCB5FC8F8AD2786CA7617 Name="EffectsPresetDefinition::SplitscreenPreset" Size="4C">
+	<_9FD5B0367E8FCB5FC8F8AD2786CA7617 Name="EffectsPresetDefinition::SplitscreenPreset" Alt="92A1D94B249C56F" Size="4C">
 		<_F Name="Effect Quality Options Flags" Offset="0" StructName1="EffectsPresetDefinition::EffectQualityOptionsFlags">
 			<Flag n="Enable CPU Particle Collisions" />
 			<Flag n="Disable Low Priority Parts" />
@@ -925,18 +925,18 @@
 		<_38 Name="Effect Streaming Relevancy Settings" Offset="30" GUID="86B54956362889EA67A96F47AADD543E" />
 		<_37 Name="" type="fgre" Offset="4C" />
 	</_9FD5B0367E8FCB5FC8F8AD2786CA7617>
-	<_BFC772CD9F5FBEAFBAD7BB643ABB6697 Name="EmblemQualityPresetDefinition::SplitscreenPreset" Size="4">
+	<_BFC772CD9F5FBEAFBAD7BB643ABB6697 Name="EmblemQualityPresetDefinition::SplitscreenPreset" Alt="B731CA5200DB3FA1" Size="4">
 		<_3E Name="Resolution" Offset="0" />
 	</_BFC772CD9F5FBEAFBAD7BB643ABB6697>
-	<_0948434589FEFB46EA27F34DB46BE945 Name="TextureQualityPresetDefinition::SplitscreenPreset" Size="4">
+	<_0948434589FEFB46EA27F34DB46BE945 Name="TextureQualityPresetDefinition::SplitscreenPreset" Alt="7D2595A3AB10B513" Size="4">
 		<_6 Name="Texture Array Bias" Offset="0" />
 	</_0948434589FEFB46EA27F34DB46BE945>
-	<_CF01457A4F00F856ED24640DB39F8028 Name="UIPresetDefinition::SplitscreenPreset" Size="1">
+	<_CF01457A4F00F856ED24640DB39F8028 Name="UIPresetDefinition::SplitscreenPreset" Alt="A923FF78B22AAF87" Size="1">
 		<_F Name="Bloom" Offset="0" StructName1="UIPresetDefinition::EnableBloomFlag">
 			<Flag n="Enabled" />
 		</_F>
 	</_CF01457A4F00F856ED24640DB39F8028>
-	<_711FAB545F6BFC1DB97ACA7B18BDE0C0 Name="DecalsPresetDefinition::SplitscreenPreset" Size="C">
+	<_711FAB545F6BFC1DB97ACA7B18BDE0C0 Name="DecalsPresetDefinition::SplitscreenPreset" Alt="B484AA14DB9FACD2" Size="C">
 		<_6 Name="Max Decal Count" Offset="0" />
 		<_14 Name="Decal Lifetime Scale" Offset="4" />
 		<_A Name="Max Clustered Decals" Offset="8" StructName1="DecalsPresetDefinition::MaxClusteredDecals">

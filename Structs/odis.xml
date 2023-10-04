@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="object_dispenser_component" Parents="aTag" Index="-293">
-	<_589F4949E748867CA82F216FB004F86F Name="i343::ObjectDispenser::DispenserComponentDefinition" Size="90">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="object_dispenser_component" Parents="aTag" Index="-293">
+	<_589F4949E748867CA82F216FB004F86F Name="i343::ObjectDispenser::DispenserComponentDefinition" Alt="67EAD7CFF8CA207A" Size="90">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="object dispenser component" Offset="10" GUID="AEE74168F5015A2AC94EF0BBBE200630" />
 	</_589F4949E748867CA82F216FB004F86F>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_AEE74168F5015A2AC94EF0BBBE200630 Name="i343::ObjectDispenser::DispenserComponentInternalDefinition" Size="80">
+	<_AEE74168F5015A2AC94EF0BBBE200630 Name="i343::ObjectDispenser::DispenserComponentInternalDefinition" Alt="535E16E61FDDF98B" Size="80">
 		<_40 Name="dispense slots" Offset="0" GUID="F0224E2B2DD3032BA18616AC937D81DD" StructName1="i343::ObjectDispenser::DispenserComponentInternalDefinition" Min="0" Max="2" />
 		<_41 Name="incoming creation effect" Offset="14" Allowed="effe" Flags="0" />
 		<_41 Name="ready effect" Offset="30" Allowed="effe" Flags="0" />
@@ -36,11 +36,11 @@
 		<_2 Name="terminal navpoint UI screen" Offset="7C" />
 		<_37 Name="" type="fgre" Offset="80" />
 	</_AEE74168F5015A2AC94EF0BBBE200630>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_F0224E2B2DD3032BA18616AC937D81DD Name="i343::ObjectDispenser::DispenseSlotDefinition" Size="8">
+	<_F0224E2B2DD3032BA18616AC937D81DD Name="i343::ObjectDispenser::DispenseSlotDefinition" Alt="DE5CDAFBD03759D8" Size="8">
 		<_2 Name="slot name" Offset="0" />
 		<_2 Name="slot marker" Offset="4" />
 	</_F0224E2B2DD3032BA18616AC937D81DD>

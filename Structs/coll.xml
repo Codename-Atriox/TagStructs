@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="collision_model" Parents="aTag" Index="-75">
-	<_5D1942A58262932349FBDD9294270FB1 Name="collision_model_definition" Size="120">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="collision_model" Parents="aTag" Index="-75">
+	<_5D1942A58262932349FBDD9294270FB1 Name="collision_model_definition" Alt="90598D99C107A887" Size="120">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_6 Name="import_info_checksum" Offset="10" />
 		<_40 Name="errors" Offset="14" GUID="CA074D833CBB78D58E13F4968994291A" StructName1="collision_model_definition" Min="0" Max="512" />
@@ -19,11 +19,11 @@
 		<_43 Name="regions resource" Offset="90" StructName1="CollisionModelResource" Int1="0" GUID="2E624614402FD7CD48E37EB691F8C28F" />
 		<_39 Name="flags for nodes driving collision geo" Offset="A0" GUID="31004754FA382E96C9AA134CA73B7ADD" Count="32" StructName1="flags for nodes driving collision geo" />
 	</_5D1942A58262932349FBDD9294270FB1>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_CA074D833CBB78D58E13F4968994291A Name="error_report_category" Size="120">
+	<_CA074D833CBB78D58E13F4968994291A Name="error_report_category" Alt="D01ED771DC3AC05C" Size="120">
 		<_1 Name="name" Offset="0" />
 		<_A Name="report type" Offset="100" StructName1="ErrorReportTypes">
 			<Flag n="silent" />
@@ -44,14 +44,14 @@
 		<_6 Name="runtime something" Offset="108" />
 		<_40 Name="reports" Offset="10C" GUID="3227499FEE6AAB2040FCAA9E914508D6" StructName1="error_report_category" Min="0" Max="1048576" />
 	</_CA074D833CBB78D58E13F4968994291A>
-	<_CCA147A97B10BA4422B0B273BA00D05C Name="material" Name2="collision_model_material" Size="4">
+	<_CCA147A97B10BA4422B0B273BA00D05C Name="material" Name2="collision_model_material" Alt="AB9B0A2706B43993" Size="4">
 		<_2 Name="name" Offset="0" />
 	</_CCA147A97B10BA4422B0B273BA00D05C>
-	<_4F4246CEA2B3D98BC303404EA22339FE Name="region" Name2="collision_model_region" Size="18">
+	<_4F4246CEA2B3D98BC303404EA22339FE Name="region" Name2="collision_model_region" Alt="EC1D2F60828C24D8" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_40 Name="permutations" Offset="4" GUID="6FED4CD0AB85D1D752EE1C6D9D46D6F6" StructName1="region" StructName2="collision_model_region" Min="0" Max="1023" />
 	</_4F4246CEA2B3D98BC303404EA22339FE>
-	<_A1934E7AEC25013C515C39B6AD0346BB Name="sphere" Name2="collision_model_pathfinding_sphere" Size="14">
+	<_A1934E7AEC25013C515C39B6AD0346BB Name="sphere" Name2="collision_model_pathfinding_sphere" Alt="1300ACCDB6AD9030" Size="14">
 		<_2E Name="node" Offset="0" GUID="041E4597732343D3949F6A1892128A86" StructName1="sphere" StructName2="collision_model_pathfinding_sphere" Min="0" Max="1024" />
 		<_E Name="flags" Offset="2" StructName1="PathfindingSphereFlags">
 			<Flag n="remains when open" />
@@ -61,7 +61,7 @@
 		<_17 Name="center" Offset="4" />
 		<_14 Name="radius" Offset="10" />
 	</_A1934E7AEC25013C515C39B6AD0346BB>
-	<_041E4597732343D3949F6A1892128A86 Name="collision_model_node" Size="C">
+	<_041E4597732343D3949F6A1892128A86 Name="collision_model_node" Alt="2BB9F3590CD271C9" Size="C">
 		<_2 Name="name" Offset="0" />
 		<_E Name="flags" Offset="4" StructName1="CollisionNodeFlags">
 			<Flag n="Generate Nav Mesh" />
@@ -70,17 +70,17 @@
 		<_2E Name="next sibling node" Offset="8" GUID="041E4597732343D3949F6A1892128A86" StructName1="collision_model_node" Min="0" Max="1024" />
 		<_2E Name="first child node" Offset="A" GUID="041E4597732343D3949F6A1892128A86" StructName1="collision_model_node" Min="0" Max="1024" />
 	</_041E4597732343D3949F6A1892128A86>
-	<_2E624614402FD7CD48E37EB691F8C28F Name="CollisionModelResource" Size="14">
+	<_2E624614402FD7CD48E37EB691F8C28F Name="CollisionModelResource" Alt="D0D56A96E91CB5B8" Size="14">
 		<_40 Name="bsps" Offset="0" GUID="531648C1036840D2B140B84F887F7243" StructName1="CollisionModelResource" Min="0" Max="4190208" />
 	</_2E624614402FD7CD48E37EB691F8C28F>
-	<_31004754FA382E96C9AA134CA73B7ADD Name="NodeFlagStorageArray" Size="4">
+	<_31004754FA382E96C9AA134CA73B7ADD Name="NodeFlagStorageArray" Alt="304C17326DE81884" Size="4">
 		<_6 Name="flag data" Offset="0" />
 	</_31004754FA382E96C9AA134CA73B7ADD>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_3227499FEE6AAB2040FCAA9E914508D6 Name="error_report" Size="EC">
+	<_3227499FEE6AAB2040FCAA9E914508D6 Name="error_report" Alt="C9C02189F0A030D1" Size="EC">
 		<_A Name="type" Offset="0" StructName1="ErrorReportTypes">
 			<Flag n="silent" />
 			<Flag n="comment" />
@@ -118,47 +118,47 @@
 		<_25 Name="bounds z" Offset="D4" />
 		<_20 Name="color" Offset="DC" />
 	</_3227499FEE6AAB2040FCAA9E914508D6>
-	<_6FED4CD0AB85D1D752EE1C6D9D46D6F6 Name="collision_model_permutation" Size="30">
+	<_6FED4CD0AB85D1D752EE1C6D9D46D6F6 Name="collision_model_permutation" Alt="618E844681AE1B88" Size="30">
 		<_2 Name="name" Offset="0" />
 		<_5 Name="resourceBspOffset" Offset="4" />
 		<_5 Name="resourceBspCount" Offset="6" />
 		<_40 Name="bsps" Offset="8" GUID="531648C1036840D2B140B84F887F7243" StructName1="collision_model_permutation" Min="0" Max="128" />
 		<_40 Name="mopp_codes" Offset="1C" GUID="8AD14E98EE2BC898635CF676B64351E5" StructName1="collision_model_permutation" Min="0" Max="32767" />
 	</_6FED4CD0AB85D1D752EE1C6D9D46D6F6>
-	<_531648C1036840D2B140B84F887F7243 Name="collision_model_bsp" Size="B8">
+	<_531648C1036840D2B140B84F887F7243 Name="collision_model_bsp" Alt="B999B8586D629C51" Size="B8">
 		<_5 Name="node index" Offset="0" />
 		<_34 Name="generated_pad8a4c" Offset="2" Length="2" />
 		<_38 Name="bsp" Offset="4" GUID="A4684A1E130D16E93BDAA7ECA91958AD" />
 	</_531648C1036840D2B140B84F887F7243>
-	<_A884463DB44D11D10E390450B9552513 Name="error_report_vertex" Size="34">
+	<_A884463DB44D11D10E390450B9552513 Name="error_report_vertex" Alt="65207E7980C18C96" Size="34">
 		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
 		<_20 Name="color" Offset="20" />
 		<_14 Name="screen size" Offset="30" />
 	</_A884463DB44D11D10E390450B9552513>
-	<_0B4E4E8DF617E03802745E1FAF4F86B9 Name="error_report_vector" Size="40">
+	<_0B4E4E8DF617E03802745E1FAF4F86B9 Name="error_report_vector" Alt="653D8CACF7E1CA3B" Size="40">
 		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
 		<_20 Name="color" Offset="20" />
 		<_19 Name="normal" Offset="30" />
 		<_14 Name="screen length" Offset="3C" />
 	</_0B4E4E8DF617E03802745E1FAF4F86B9>
-	<_604A43561C172D3CE0CA82848F1BDE48 Name="error_report_line" Size="50">
+	<_604A43561C172D3CE0CA82848F1BDE48 Name="error_report_line" Alt="BFC04E6F05B86FA1" Size="50">
 		<_39 Name="points" Offset="0" GUID="338142C90F4729E04888C89ABB1ABDAE" Count="2" StructName1="points" />
 		<_20 Name="color" Offset="40" />
 	</_604A43561C172D3CE0CA82848F1BDE48>
-	<_001244E3F926E7612B96347A85173116 Name="error_report_triangle" Size="70">
+	<_001244E3F926E7612B96347A85173116 Name="error_report_triangle" Alt="E97DAA6C638534CB" Size="70">
 		<_39 Name="points" Offset="0" GUID="DDD84F94D717639859AEA1898AFE9068" Count="3" StructName1="points" />
 		<_20 Name="color" Offset="60" />
 	</_001244E3F926E7612B96347A85173116>
-	<_E7D84305D1071621C52955BF8AEA9FCC Name="error_report_quad" Size="90">
+	<_E7D84305D1071621C52955BF8AEA9FCC Name="error_report_quad" Alt="2F1967264D6D55AF" Size="90">
 		<_39 Name="points" Offset="0" GUID="0A0E42FD81027CE96EB082A3AE95FE26" Count="4" StructName1="points" />
 		<_20 Name="color" Offset="80" />
 	</_E7D84305D1071621C52955BF8AEA9FCC>
-	<_DEA34617709A9566DB6DE9508AFF50B9 Name="error_report_comment" Size="48">
+	<_DEA34617709A9566DB6DE9508AFF50B9 Name="error_report_comment" Alt="E322C3E2726E34E4" Size="48">
 		<_42 Name="text" Offset="0" StructName1="error_report_comment.text" Int1="2" Int2="0" Flags="2000" />
 		<_38 Name="point" Offset="18" GUID="78534A62B6C2368CE2181EF59882F40C" />
 		<_20 Name="color" Offset="38" />
 	</_DEA34617709A9566DB6DE9508AFF50B9>
-	<_8AD14E98EE2BC898635CF676B64351E5 Name="s_havok_mopp_code_definition" Size="70">
+	<_8AD14E98EE2BC898635CF676B64351E5 Name="s_havok_mopp_code_definition" Alt="DC2C86879F0C82D7" Size="70">
 		<_7 Name="field pointer skip" type="nuke" Offset="0" />
 		<_7 Name="property bag skip" type="nuke" Offset="8" />
 		<_5 Name="size" Offset="10" />
@@ -185,7 +185,7 @@
 		<_34 Name="pad2_1" Offset="66" Length="2" />
 		<_34 Name="generated_pad27be" Offset="68" Length="8" />
 	</_8AD14E98EE2BC898635CF676B64351E5>
-	<_A4684A1E130D16E93BDAA7ECA91958AD Name="collision_bsp" Size="B4">
+	<_A4684A1E130D16E93BDAA7ECA91958AD Name="collision_bsp" Alt="E7A1BE5715DB4975" Size="B4">
 		<_40 Name="bsp3d nodes" Offset="0" GUID="FF8E48E7B5D8FC213E7371A392611F52" StructName1="collision_bsp" Min="0" Max="8388608" />
 		<_40 Name="bsp3d supernodes" Offset="14" GUID="10124FA9ABCDC201E01AB4BCA7400AB4" StructName1="collision_bsp" Min="0" Max="2048" />
 		<_40 Name="planes" Offset="28" GUID="719C4E0D5D188A8D22E342EB8015A6DA" StructName1="collision_bsp" Min="0" Max="536870911" />
@@ -196,27 +196,27 @@
 		<_40 Name="edges" Offset="8C" GUID="EC534400B51DA635D1DCCAFD81B58C33" StructName1="collision_bsp" Min="0" Max="65535" />
 		<_40 Name="vertices" Offset="A0" GUID="1FCE4C6A6C3F6A60E56D2F608F89E265" StructName1="collision_bsp" Min="0" Max="131072" />
 	</_A4684A1E130D16E93BDAA7ECA91958AD>
-	<_78534A62B6C2368CE2181EF59882F40C Name="error_report_point" Size="20">
+	<_78534A62B6C2368CE2181EF59882F40C Name="error_report_point" Alt="A33BDDEC96E56D7C" Size="20">
 		<_17 Name="position" Offset="0" />
 		<_39 Name="node indices" Offset="C" GUID="F4FF4938B0BC81FECE3EBDC0BA0BD7A5" Count="4" StructName1="node indices" />
 		<_39 Name="node weights" Offset="10" GUID="A37C4DC7FA12933312F05638B1050C1B" Count="4" StructName1="node weights" />
 	</_78534A62B6C2368CE2181EF59882F40C>
-	<_338142C90F4729E04888C89ABB1ABDAE Name="ErrorReportLinePoint" Size="20">
+	<_338142C90F4729E04888C89ABB1ABDAE Name="ErrorReportLinePoint" Alt="6D317007B5B794AD" Size="20">
 		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
 	</_338142C90F4729E04888C89ABB1ABDAE>
-	<_DDD84F94D717639859AEA1898AFE9068 Name="ErrorReportTrianglePoint" Size="20">
+	<_DDD84F94D717639859AEA1898AFE9068 Name="ErrorReportTrianglePoint" Alt="3B3A463DCF0C03F8" Size="20">
 		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
 	</_DDD84F94D717639859AEA1898AFE9068>
-	<_0A0E42FD81027CE96EB082A3AE95FE26 Name="ErrorReportQuadPoint" Size="20">
+	<_0A0E42FD81027CE96EB082A3AE95FE26 Name="ErrorReportQuadPoint" Alt="FA5DF29DE17DD88F" Size="20">
 		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
 	</_0A0E42FD81027CE96EB082A3AE95FE26>
-	<_F5D744080EAB741F12D4FD6D9D5A32E1 Name="MoppCodeDataDefinitionParams" Size="1">
+	<_F5D744080EAB741F12D4FD6D9D5A32E1 Name="MoppCodeDataDefinitionParams" Alt="36FDCC53D28C3C9A" Size="1">
 		<_3C Name="mopp data" Offset="0" />
 	</_F5D744080EAB741F12D4FD6D9D5A32E1>
-	<_FF8E48E7B5D8FC213E7371A392611F52 Name="bsp3d_node" Size="8">
+	<_FF8E48E7B5D8FC213E7371A392611F52 Name="bsp3d_node" Alt="BB15B538ABC0CCC8" Size="8">
 		<_7 Name="node data designator" Offset="0" />
 	</_FF8E48E7B5D8FC213E7371A392611F52>
-	<_10124FA9ABCDC201E01AB4BCA7400AB4 Name="s_bsp3d_kd_super_node" Size="80">
+	<_10124FA9ABCDC201E01AB4BCA7400AB4 Name="s_bsp3d_kd_super_node" Alt="D9000FBFB0A07739" Size="80">
 		<_14 Name="plane 0" Offset="0" />
 		<_14 Name="plane 1" Offset="4" />
 		<_14 Name="plane 2" Offset="8" />
@@ -250,10 +250,10 @@
 		<_6 Name="child index14" Offset="78" />
 		<_6 Name="child index15" Offset="7C" />
 	</_10124FA9ABCDC201E01AB4BCA7400AB4>
-	<_719C4E0D5D188A8D22E342EB8015A6DA Name="PlanesParams" Size="10">
+	<_719C4E0D5D188A8D22E342EB8015A6DA Name="PlanesParams" Alt="BCB8858A7A39C725" Size="10">
 		<_1E Name="plane" Offset="0" />
 	</_719C4E0D5D188A8D22E342EB8015A6DA>
-	<_9A644ECCA5FD8EE345030CA19CEBF2FB Name="collision_leaf" Size="8">
+	<_9A644ECCA5FD8EE345030CA19CEBF2FB Name="collision_leaf" Alt="1F1DF0631326BFE1" Size="8">
 		<_F Name="flags" Offset="0" StructName1="LeafFlags">
 			<Flag n="contains double-sided surfaces" />
 		</_F>
@@ -261,16 +261,16 @@
 		<_3D Name="bsp2d reference count" Offset="2" />
 		<_3E Name="first bsp2d reference" Offset="4" />
 	</_9A644ECCA5FD8EE345030CA19CEBF2FB>
-	<_8C38445F591E809E3B5474FFB889DE6F Name="bsp2d_reference" Size="4">
+	<_8C38445F591E809E3B5474FFB889DE6F Name="bsp2d_reference" Alt="9A7CF9F50A1C78A7" Size="4">
 		<_5 Name="plane" Offset="0" />
 		<_5 Name="bsp2d node" Offset="2" />
 	</_8C38445F591E809E3B5474FFB889DE6F>
-	<_C73B41246CD60C8C966AD3BEB339408C Name="bsp2d_node" Size="10">
+	<_C73B41246CD60C8C966AD3BEB339408C Name="bsp2d_node" Alt="E3137876B7AB711A" Size="10">
 		<_1D Name="plane" Offset="0" />
 		<_5 Name="left child" Offset="C" />
 		<_5 Name="right child" Offset="E" />
 	</_C73B41246CD60C8C966AD3BEB339408C>
-	<_010A4B887AB8193585CD9139AB12DE80 Name="collision_surface" Size="8">
+	<_010A4B887AB8193585CD9139AB12DE80 Name="collision_surface" Alt="82C8D5A309E8E1BF" Size="8">
 		<_3D Name="plane index" Offset="0" />
 		<_3D Name="first edge" Offset="2" />
 		<_5 Name="material" Offset="4" />
@@ -285,7 +285,7 @@
 		</_F>
 		<_3C Name="best plane calculation vertex index " Offset="7" />
 	</_010A4B887AB8193585CD9139AB12DE80>
-	<_EC534400B51DA635D1DCCAFD81B58C33 Name="collision_edge" Size="C">
+	<_EC534400B51DA635D1DCCAFD81B58C33 Name="collision_edge" Alt="FE350D1678733BEE" Size="C">
 		<_3D Name="start vertex" Offset="0" />
 		<_3D Name="end vertex" Offset="2" />
 		<_3D Name="forward edge" Offset="4" />
@@ -293,15 +293,15 @@
 		<_3D Name="left surface" Offset="8" />
 		<_3D Name="right surface" Offset="A" />
 	</_EC534400B51DA635D1DCCAFD81B58C33>
-	<_1FCE4C6A6C3F6A60E56D2F608F89E265 Name="collision_vertex" Size="10">
+	<_1FCE4C6A6C3F6A60E56D2F608F89E265 Name="collision_vertex" Alt="F9DA2A3DEB5F8BB6" Size="10">
 		<_17 Name="point" Offset="0" />
 		<_3D Name="first edge" Offset="C" />
 		<_5 Name="sink" Offset="E" />
 	</_1FCE4C6A6C3F6A60E56D2F608F89E265>
-	<_F4FF4938B0BC81FECE3EBDC0BA0BD7A5 Name="ErrorReportNodeIndex" Size="1">
+	<_F4FF4938B0BC81FECE3EBDC0BA0BD7A5 Name="ErrorReportNodeIndex" Alt="33B827F7EFE678A2" Size="1">
 		<_3C Name="node index" Offset="0" />
 	</_F4FF4938B0BC81FECE3EBDC0BA0BD7A5>
-	<_A37C4DC7FA12933312F05638B1050C1B Name="ErrorReportNodeWeight" Size="4">
+	<_A37C4DC7FA12933312F05638B1050C1B Name="ErrorReportNodeWeight" Alt="538565A3DBD584DC" Size="4">
 		<_14 Name="node weight" Offset="0" />
 	</_A37C4DC7FA12933312F05638B1050C1B>
 </root>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="forge_globals" Parents="aTag" Index="-161">
-	<_93F311E19480BF0CBAE59B18A5A3AFAF Name="ForgeGlobalsDefinition" Size="590">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="forge_globals" Parents="aTag" Index="-161">
+	<_93F311E19480BF0CBAE59B18A5A3AFAF Name="ForgeGlobalsDefinition" Alt="D7E56B087D44441A" Size="590">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="forge colors" Offset="10" GUID="93F611E15F309018BAE59B1897D1F9B1" StructName1="ForgeGlobalsDefinition" Min="0" Max="253" />
 		<_40 Name="Forge Colors Lighting" Offset="24" GUID="93F611E15F309018BAE59B1897D1F9B1" StructName1="ForgeGlobalsDefinition" Min="0" Max="253" />
@@ -84,25 +84,25 @@
 		<_41 Name="Forgeable Character definitions" Offset="558" Allowed="fcdl" Flags="0" />
 		<_41 Name="Forge Dimensional Widgets Parameters Tag Reference" Offset="574" Allowed="fdwp" Flags="0" />
 	</_93F311E19480BF0CBAE59B18A5A3AFAF>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_93F611E15F309018BAE59B1897D1F9B1 Name="s_named_rgb_color" Size="10">
+	<_93F611E15F309018BAE59B1897D1F9B1 Name="s_named_rgb_color" Alt="9636931E443EEF67" Size="10">
 		<_2 Name="name" Offset="0" />
 		<_1F Name="color" Offset="4" />
 	</_93F611E15F309018BAE59B1897D1F9B1>
-	<_98894242F5F194BAE457895DBADC85B9 Name="ForgeEngine::MonitorMoveSpeed" Size="10">
+	<_98894242F5F194BAE457895DBADC85B9 Name="ForgeEngine::MonitorMoveSpeed" Alt="76CC160147EE60D6" Size="10">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="translation speed" Offset="4" />
 		<_14 Name="rotation speed" Offset="8" />
 		<_14 Name="scale speed" Offset="C" />
 	</_98894242F5F194BAE457895DBADC85B9>
-	<_ED91458DF35E9924A9E7CA4D8793B44B Name="JumbotronDefinition" Size="20">
+	<_ED91458DF35E9924A9E7CA4D8793B44B Name="JumbotronDefinition" Alt="C80ADA81E0C805A9" Size="20">
 		<_41 Name="jumbotron UI element" Offset="0" Allowed="ngst" Flags="4" />
 		<_2 Name="name" Offset="1C" />
 	</_ED91458DF35E9924A9E7CA4D8793B44B>
-	<_B0524FE8E7F281FCD199A46B8BCBA286 Name="ForgeDwsConstants" Size="68">
+	<_B0524FE8E7F281FCD199A46B8BCBA286 Name="ForgeDwsConstants" Alt="9E551E0B29085BFB" Size="68">
 		<_14 Name="Min Sun Intensity" Offset="0" />
 		<_14 Name="Max Sun Intensity" Offset="4" />
 		<_14 Name="Min Static Tint Intensity" Offset="8" />
@@ -130,47 +130,47 @@
 		<_14 Name="Min Volumetric Fog Density" Offset="60" />
 		<_14 Name="Max Volumetric Fog Density" Offset="64" />
 	</_B0524FE8E7F281FCD199A46B8BCBA286>
-	<_EEA8C7C9F74CBE7E164F9FD2EC78BB81 Name="ForgeGoboDefinition" Size="20">
+	<_EEA8C7C9F74CBE7E164F9FD2EC78BB81 Name="ForgeGoboDefinition" Alt="A19781F4F9931E0C" Size="20">
 		<_41 Name="gobo setting" Offset="0" Allowed="GobS" Flags="4" />
 		<_2 Name="name" Offset="1C" />
 	</_EEA8C7C9F74CBE7E164F9FD2EC78BB81>
-	<_457231F23C749B1DCC2037381264B8D2 Name="ForgeLightIntensityFunctionDefinition" Size="2C">
+	<_457231F23C749B1DCC2037381264B8D2 Name="ForgeLightIntensityFunctionDefinition" Alt="6E4230A02932872A" Size="2C">
 		<_38 Name="Intensity Function" Offset="0" GUID="42B4434A26AA4A8308A920CD93ACA3CB" />
 		<_2 Name="name" Offset="28" />
 	</_457231F23C749B1DCC2037381264B8D2>
-	<_10CFA4BDA5E33AC92032DA8801F3DC78 Name="ForgeAreaScreenEffectDefinition" Size="20">
+	<_10CFA4BDA5E33AC92032DA8801F3DC78 Name="ForgeAreaScreenEffectDefinition" Alt="16482678BB4E888C" Size="20">
 		<_41 Name="area screen effect" Offset="0" Allowed="sefc" Flags="4" />
 		<_2 Name="name" Offset="1C" />
 	</_10CFA4BDA5E33AC92032DA8801F3DC78>
-	<_0BA06CEF6653922196F4D2EFE0754059 Name="ForgeWeatherEffectDefinition" Size="20">
+	<_0BA06CEF6653922196F4D2EFE0754059 Name="ForgeWeatherEffectDefinition" Alt="934E158FADC7B3B9" Size="20">
 		<_41 Name="Weather Effect" Offset="0" Allowed="effe" Flags="4" />
 		<_2 Name="name" Offset="1C" />
 	</_0BA06CEF6653922196F4D2EFE0754059>
-	<_26FD11B1DE4249B806988A3DD7B2BDFC Name="ForgeBitmapDefinition" Size="20">
+	<_26FD11B1DE4249B806988A3DD7B2BDFC Name="ForgeBitmapDefinition" Alt="4F10279E1A466B1D" Size="20">
 		<_41 Name="bitmap" Offset="0" Allowed="bitm" Flags="4" />
 		<_2 Name="name" Offset="1C" />
 	</_26FD11B1DE4249B806988A3DD7B2BDFC>
-	<_5D8D6850B7FE2C67D7CF6CBEB78AD9DF Name="ForgeLensFlareDefinition" Size="20">
+	<_5D8D6850B7FE2C67D7CF6CBEB78AD9DF Name="ForgeLensFlareDefinition" Alt="5E531E1549F68A93" Size="20">
 		<_41 Name="lens flare" Offset="0" Allowed="lens" Flags="4" />
 		<_2 Name="name" Offset="1C" />
 	</_5D8D6850B7FE2C67D7CF6CBEB78AD9DF>
-	<_49521DAAE650E52C290584A32CB129ED Name="ForgeLightConeDefinition" Size="20">
+	<_49521DAAE650E52C290584A32CB129ED Name="ForgeLightConeDefinition" Alt="6C4FE8597494A96B" Size="20">
 		<_41 Name="light cone" Offset="0" Allowed="licn" Flags="4" />
 		<_2 Name="name" Offset="1C" />
 	</_49521DAAE650E52C290584A32CB129ED>
-	<_FBB54650275C2D125A9669BE89D5BD38 Name="ScaleSnapDefinition" Size="8">
+	<_FBB54650275C2D125A9669BE89D5BD38 Name="ScaleSnapDefinition" Alt="E3BE6070102F33D6" Size="8">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="scale snap amount (relative to default size)" Offset="4" />
 	</_FBB54650275C2D125A9669BE89D5BD38>
-	<_0B164CF28C03276228549146B604E7E0 Name="RotationSnapDefinition" Size="8">
+	<_0B164CF28C03276228549146B604E7E0 Name="RotationSnapDefinition" Alt="1071686B36EED895" Size="8">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="rotation snap amount (degrees)" Offset="4" />
 	</_0B164CF28C03276228549146B604E7E0>
-	<_A06F4310151D8C26F855A495A5839CF4 Name="TranslationSnapDefinition" Size="8">
+	<_A06F4310151D8C26F855A495A5839CF4 Name="TranslationSnapDefinition" Alt="333DE6968D703588" Size="8">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="translation snap amount (world units)" Offset="4" />
 	</_A06F4310151D8C26F855A495A5839CF4>
-	<_B2054D0EE1EB3BC1ADCBBC9FB195977D Name="ForgeLabelDefinition" Size="10">
+	<_B2054D0EE1EB3BC1ADCBBC9FB195977D Name="ForgeLabelDefinition" Alt="A718A37CB727E1C0" Size="10">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="label display name" Offset="4" />
 		<_2 Name="label display description" Offset="8" />
@@ -193,16 +193,16 @@
 		</_A>
 		<_34 Name="generated_pad20ec" Offset="F" Length="1" />
 	</_B2054D0EE1EB3BC1ADCBBC9FB195977D>
-	<_103A4693D8801B1F93E9E77B82FFD120 Name="ForgeOutlineDefinition" Size="1C">
+	<_103A4693D8801B1F93E9E77B82FFD120 Name="ForgeOutlineDefinition" Alt="788500EBCE1479FE" Size="1C">
 		<_41 Name="outline type" Offset="0" Allowed="ostd" Flags="4" />
 	</_103A4693D8801B1F93E9E77B82FFD120>
-	<_33FD44A672139956140A012DB2DDE4EC Name="CompositionDefinitionReference" Size="1C">
+	<_33FD44A672139956140A012DB2DDE4EC Name="CompositionDefinitionReference" Alt="D0E4126ACD72AB6" Size="1C">
 		<_41 Name="Composition Reference" Offset="0" Allowed="comp" Flags="0" />
 	</_33FD44A672139956140A012DB2DDE4EC>
-	<_D6394C77D692FE0D3235162FAF00E029 Name="GameTypeCinematicName" Size="4">
+	<_D6394C77D692FE0D3235162FAF00E029 Name="GameTypeCinematicName" Alt="F089B18527EAA38" Size="4">
 		<_2 Name="name" Offset="0" />
 	</_D6394C77D692FE0D3235162FAF00E029>
-	<_BBFE420A29488D2190B8A8A7AD11AB16 Name="TeamInfoToCinematicAnimation" Size="24">
+	<_BBFE420A29488D2190B8A8A7AD11AB16 Name="TeamInfoToCinematicAnimation" Alt="5535329C412D933A" Size="24">
 		<_3C Name="Player Index In Team" Offset="0" />
 		<_A Name="Team Size" Offset="1" StructName1="eCinematicTeamSize">
 			<Flag n="FourPlayerTeamSize" />
@@ -221,21 +221,21 @@
 		<_41 Name="Model Animation Graph" Offset="4" Allowed="jmad" Flags="4" />
 		<_2 Name="Animation Name" Offset="20" />
 	</_BBFE420A29488D2190B8A8A7AD11AB16>
-	<_03C54305F44E9C7064202A7ABC34AD4E Name="MaterialStyleShader" Size="3C">
+	<_03C54305F44E9C7064202A7ABC34AD4E Name="MaterialStyleShader" Alt="AEF80848B7FD2B5B" Size="3C">
 		<_2 Name="name" Offset="0" />
 		<_41 Name="palette" Offset="4" Allowed="mwpl" Flags="0" />
 		<_41 Name="coatingMaterialSet" Offset="20" Allowed="cwms" Flags="0" />
 	</_03C54305F44E9C7064202A7ABC34AD4E>
-	<_56FF4F6AA50998B6643FEA8638609B0E Name="ForgeEnabledShader" Size="1C">
+	<_56FF4F6AA50998B6643FEA8638609B0E Name="ForgeEnabledShader" Alt="402A4C5F992308A0" Size="1C">
 		<_41 Name="forgeShader" Offset="0" Allowed="shdr" Flags="0" />
 	</_56FF4F6AA50998B6643FEA8638609B0E>
-	<_9267498E2EF15AA9058C470AB87E6335 Name="ForgeNodeGraphSchemaDefinition" Size="18">
+	<_9267498E2EF15AA9058C470AB87E6335 Name="ForgeNodeGraphSchemaDefinition" Alt="B703FF7A72C38545" Size="18">
 		<_42 Name="graphSchema" Offset="0" StructName1="ForgeNodeGraphSchemaDefinition.graphSchema" Int1="2" Int2="0" Flags="100000" />
 	</_9267498E2EF15AA9058C470AB87E6335>
-	<_B9BA4DC591C31F97A9F65CA088AB642B Name="JsonSourceFileTag" Size="1C">
+	<_B9BA4DC591C31F97A9F65CA088AB642B Name="JsonSourceFileTag" Alt="151BE7ABFD29E0D3" Size="1C">
 		<_41 Name="Json Source File Tag" Offset="0" Allowed="jssc" Flags="0" />
 	</_B9BA4DC591C31F97A9F65CA088AB642B>
-	<_F57046D7B44C56C076BE7CBCA2E1D058 Name="ForgeAmbientSounds" Size="54">
+	<_F57046D7B44C56C076BE7CBCA2E1D058 Name="ForgeAmbientSounds" Alt="B176C006759F4F05" Size="54">
 		<_37 Name="Forge Ambient Sounds" type="fgrb" Offset="0" />
 		<_40 Name="Base Air Sounds" Offset="0" GUID="664A443E26A1689A58905B61A0579DAE" StructName1="ForgeAmbientSounds" Min="0" Max="32" />
 		<_40 Name="Base Air Sweetener Sounds" Offset="14" GUID="664A443E26A1689A58905B61A0579DAE" StructName1="ForgeAmbientSounds" Min="0" Max="32" />
@@ -244,20 +244,20 @@
 		<_40 Name="Mix States" Offset="40" GUID="A3B341D2387999B1A4C4FE38A943ADDF" StructName1="ForgeAmbientSounds" Min="0" Max="16" />
 		<_37 Name="" type="fgre" Offset="54" />
 	</_F57046D7B44C56C076BE7CBCA2E1D058>
-	<_DA074314BCDF57D4A79BD46F8F6FF05F Name="ForgeGameModeSounds" Size="14">
+	<_DA074314BCDF57D4A79BD46F8F6FF05F Name="ForgeGameModeSounds" Alt="F5570E49ED735A87" Size="14">
 		<_40 Name="Game Mode Sounds" Offset="0" GUID="D89542C7482D33BB79B9DF698EA81E57" StructName1="ForgeGameModeSounds" Min="0" Max="128" />
 	</_DA074314BCDF57D4A79BD46F8F6FF05F>
-	<_44B14B9B411AB06F51A121D6B37F5BBB Name="ForgeEmitterSoundPropertyIDs" Size="10">
+	<_44B14B9B411AB06F51A121D6B37F5BBB Name="ForgeEmitterSoundPropertyIDs" Alt="9A0950BD8017AD34" Size="10">
 		<_2 Name="Friendly Category Property ID" Offset="0" />
 		<_2 Name="Enemy Category Property ID" Offset="4" />
 		<_2 Name="Friendly Name Property ID" Offset="8" />
 		<_2 Name="Enemy Name Property ID" Offset="C" />
 	</_44B14B9B411AB06F51A121D6B37F5BBB>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_42B4434A26AA4A8308A920CD93ACA3CB Name="ScalarLightFunction" Size="28">
+	<_42B4434A26AA4A8308A920CD93ACA3CB Name="ScalarLightFunction" Alt="6C5BF192D9EB5A00" Size="28">
 		<_2 Name="Input Variable" type="fnin" Offset="0" />
 		<_2 Name="Range Variable" type="fnir" Offset="4" />
 		<_B Name="Output Modifier" type="fnop" Offset="8" StructName1="LightOutputModifier">
@@ -270,25 +270,25 @@
 		<_37 Name="Mapping" type="fned" Offset="10" />
 		<_38 Name="Mapping" Offset="10" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_42B4434A26AA4A8308A920CD93ACA3CB>
-	<_664A443E26A1689A58905B61A0579DAE Name="LoopingSoundDefinition_BlockSize32" Size="20">
+	<_664A443E26A1689A58905B61A0579DAE Name="LoopingSoundDefinition_BlockSize32" Alt="FFF0E2ED816F0B00" Size="20">
 		<_41 Name="Looping Sound Reference" Offset="0" Allowed="lsnd" Flags="4" />
 		<_2 Name="name" Offset="1C" />
 	</_664A443E26A1689A58905B61A0579DAE>
-	<_B21F4691524C93A7D1CD07E986728192 Name="ReverbDefinition" Size="20">
+	<_B21F4691524C93A7D1CD07E986728192 Name="ReverbDefinition" Alt="314F305DCE1F411D" Size="20">
 		<_41 Name="Reverb Environment Reference" Offset="0" Allowed="snde" Flags="4" />
 		<_2 Name="name" Offset="1C" />
 	</_B21F4691524C93A7D1CD07E986728192>
-	<_A3B341D2387999B1A4C4FE38A943ADDF Name="MixStateDefinition" Size="8">
+	<_A3B341D2387999B1A4C4FE38A943ADDF Name="MixStateDefinition" Alt="198D6201B3B8A7D4" Size="8">
 		<_2 Name="mix state value" Offset="0" />
 		<_2 Name="name" Offset="4" />
 	</_A3B341D2387999B1A4C4FE38A943ADDF>
-	<_D89542C7482D33BB79B9DF698EA81E57 Name="LoopingSoundDefinition" Size="20">
+	<_D89542C7482D33BB79B9DF698EA81E57 Name="LoopingSoundDefinition" Alt="4E209343F9847783" Size="20">
 		<_41 Name="Looping Sound Reference" Offset="0" Allowed="lsnd" Flags="4" />
 		<_2 Name="name" Offset="1C" />
 	</_D89542C7482D33BB79B9DF698EA81E57>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

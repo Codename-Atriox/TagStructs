@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="AnimSet" Parents="aTag" Index="-21">
-	<_B0EF4DD7D0150B08AC29D80BB0DA92E4 Name="AnimSetTag" Size="120">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="AnimSet" Parents="aTag" Index="-21">
+	<_B0EF4DD7D0150B08AC29D80BB0DA92E4 Name="AnimSetTag" Alt="39536B2104493A2B" Size="120">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="channel" type="sted" Offset="10" />
 		<_41 Name="parent" Offset="14" Allowed="anim" Flags="1" />
@@ -19,11 +19,11 @@
 		<_40 Name="composites" Offset="10C" GUID="52DC4D81B7389733EA90FFAFA0EB60EE" StructName1="AnimSetTag" Min="0" Max="256" />
 		<_37 Name="" type="fgre" Offset="120" />
 	</_B0EF4DD7D0150B08AC29D80BB0DA92E4>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_D87A8A08702832373533893DBBEDB28A Name="AnimEntry" Size="7C">
+	<_D87A8A08702832373533893DBBEDB28A Name="AnimEntry" Alt="7C6C60FE5B803ABF" Size="7C">
 		<_2 Name="token" Offset="0" />
 		<_6 Name="uniqueID" Offset="4" />
 		<_2 Name="legacyName" type="sted" Offset="8" />
@@ -87,22 +87,22 @@
 		<_2 Name="Replacement blend out weight function" type="sted" Offset="78" />
 		<_37 Name="" type="fgre" Offset="7C" />
 	</_D87A8A08702832373533893DBBEDB28A>
-	<_D9BB4ACCE89D9CC969B1FD7EA0567E09 Name="LegacyAnimSetFunction" Size="1C">
+	<_D9BB4ACCE89D9CC969B1FD7EA0567E09 Name="LegacyAnimSetFunction" Alt="5A545D8D795D7447" Size="1C">
 		<_2 Name="Name" Offset="0" />
 		<_38 Name="Function" Offset="4" GUID="0276481E72CB9289F56D7C189467A351" />
 	</_D9BB4ACCE89D9CC969B1FD7EA0567E09>
-	<_CB19421FC55F336170189438B8068833 Name="LegacyAnimSetInterpolator" Size="20">
+	<_CB19421FC55F336170189438B8068833 Name="LegacyAnimSetInterpolator" Alt="1D75246449ECBD24" Size="20">
 		<_2 Name="Name" Offset="0" />
 		<_2 Name="Joint Mask" type="sted" Offset="4" />
 		<_38 Name="Function" Offset="8" GUID="0276481E72CB9289F56D7C189467A351" />
 	</_CB19421FC55F336170189438B8068833>
-	<_50E54C0D11E52D3C132A8C59985CCA20 Name="LegacyAnimSetInterpolationSet" Size="34">
+	<_50E54C0D11E52D3C132A8C59985CCA20 Name="LegacyAnimSetInterpolationSet" Alt="6894F65951A0D118" Size="34">
 		<_2 Name="Name" Offset="0" />
 		<_14 Name="Seconds" Offset="4" />
 		<_40 Name="Interpolators" Offset="8" GUID="D35247645959B075042FD05DAC0EB3AD" StructName1="LegacyAnimSetInterpolationSet" Min="0" Max="256" />
 		<_38 Name="Function" Offset="1C" GUID="0276481E72CB9289F56D7C189467A351" />
 	</_50E54C0D11E52D3C132A8C59985CCA20>
-	<_52DC4D81B7389733EA90FFAFA0EB60EE Name="LegacyAnimSetCompositeEntry" Size="C">
+	<_52DC4D81B7389733EA90FFAFA0EB60EE Name="LegacyAnimSetCompositeEntry" Alt="79FCDE601AFC4B30" Size="C">
 		<_2 Name="Name" Offset="0" />
 		<_44 Name="Source XML" Offset="4" />
 		<_A Name="Type" Offset="8" StructName1="LegacyAnimSetCompositeType">
@@ -111,24 +111,24 @@
 		</_A>
 		<_34 Name="generated_padc60d" Offset="9" Length="3" />
 	</_52DC4D81B7389733EA90FFAFA0EB60EE>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_565F405AB7B72B43515D4170AB9B290C Name="AnimEntryWeightFunctionMap" Size="8">
+	<_565F405AB7B72B43515D4170AB9B290C Name="AnimEntryWeightFunctionMap" Alt="E66FE244574AFB4E" Size="8">
 		<_36 Name="FIRST PERSON OVERLAY CHANNEL WEIGHT SCALING" Offset="0" />
 		<_2 Name="Overlay animation name" type="sted" Offset="0" />
 		<_37 Name="" type="coff" Offset="4" />
 		<_2 Name="Channel weight scale source" type="sted" Offset="4" />
 	</_565F405AB7B72B43515D4170AB9B290C>
-	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_D35247645959B075042FD05DAC0EB3AD Name="InterpolatorListEntry" Size="2">
+	<_D35247645959B075042FD05DAC0EB3AD Name="InterpolatorListEntry" Alt="F3B60FA80E58B6CD" Size="2">
 		<_2E Name="Interpolator" Offset="0" GUID="CB19421FC55F336170189438B8068833" StructName1="InterpolatorListEntry" Min="0" Max="256" />
 	</_D35247645959B075042FD05DAC0EB3AD>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
 		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />

@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="ControlGlobalsDefinition" Parents="aTag" Index="-180">
-	<_777743AC66978BD5448B1FCA86A22206 Name="i343::ControlGlobals" Size="50">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="ControlGlobalsDefinition" Parents="aTag" Index="-180">
+	<_777743AC66978BD5448B1FCA86A22206 Name="i343::ControlGlobals" Alt="33CF27A95322F497" Size="50">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="controller input" Offset="10" GUID="BD194D1C056079C5D8A4D2ADB7544182" StructName1="i343::ControlGlobals" Min="0" Max="1" />
 		<_40 Name="player control" Offset="24" GUID="08FE4A96AFAD741439C2EEFC94E4BCF6" StructName1="i343::ControlGlobals" Min="0" Max="1" />
 		<_40 Name="input abstraction globals" Offset="38" GUID="6B934FB9DE4FA123FC086CAD97A35E72" StructName1="i343::ControlGlobals" Min="0" Max="32" />
 		<_34 Name="generated_pad0ea8" Offset="4C" Length="4" />
 	</_777743AC66978BD5448B1FCA86A22206>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_BD194D1C056079C5D8A4D2ADB7544182 Name="s_game_globals_input_abstraction" Size="8">
+	<_BD194D1C056079C5D8A4D2ADB7544182 Name="s_game_globals_input_abstraction" Alt="89617223AA566360" Size="8">
 		<_14 Name="axial dead zone" Offset="0" />
 		<_14 Name="radial dead zone" Offset="4" />
 	</_BD194D1C056079C5D8A4D2ADB7544182>
-	<_08FE4A96AFAD741439C2EEFC94E4BCF6 Name="s_game_globals_player_control" Size="200">
+	<_08FE4A96AFAD741439C2EEFC94E4BCF6 Name="s_game_globals_player_control" Alt="4F2D20C3CC3FCAA1" Size="200">
 		<_36 Name="controller bindings" Offset="0" />
 		<_40 Name="controller button mappings" Offset="0" GUID="921C4C4E6D1C4D66EC6AACBFB2A0F6C3" StructName1="s_game_globals_player_control" Min="0" Max="16" />
 		<_2 Name="default binding" Offset="14" />
@@ -126,20 +126,20 @@
 		<_14 Name="jump_stationary_gravity_2" Offset="1F8" />
 		<_14 Name="jump_stationary_height" Offset="1FC" />
 	</_08FE4A96AFAD741439C2EEFC94E4BCF6>
-	<_6B934FB9DE4FA123FC086CAD97A35E72 Name="InputScopeTagRef" Size="1C">
+	<_6B934FB9DE4FA123FC086CAD97A35E72 Name="InputScopeTagRef" Alt="C816F86A6BA4DA59" Size="1C">
 		<_41 Name="scope" Offset="0" Allowed="insc" Flags="0" />
 	</_6B934FB9DE4FA123FC086CAD97A35E72>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_921C4C4E6D1C4D66EC6AACBFB2A0F6C3 Name="s_controller_mapping_reference" Size="28">
+	<_921C4C4E6D1C4D66EC6AACBFB2A0F6C3 Name="s_controller_mapping_reference" Alt="ACC72B5797C3358F" Size="28">
 		<_2 Name="Default Binding Preset Name" Offset="0" />
 		<_2 Name="UI String ID" Offset="4" />
 		<_2 Name="UI Description String ID" Offset="8" />
 		<_41 Name="default bindings" Offset="C" Allowed="indb" Flags="0" />
 	</_921C4C4E6D1C4D66EC6AACBFB2A0F6C3>
-	<_53594E3BB4035B8991BA3B23AF1F2258 Name="i343::PlayerControlGlobals::AxisPairType" Size="C">
+	<_53594E3BB4035B8991BA3B23AF1F2258 Name="i343::PlayerControlGlobals::AxisPairType" Alt="AEA450B5DB77113E" Size="C">
 		<_2 Name="toggle axis id" Offset="0" />
 		<_2 Name="hold axis id" Offset="4" />
 		<_F Name="flags" Offset="8" StructName1="i343::PlayerControlGlobals::AxisPairTypeFlags">
@@ -147,7 +147,7 @@
 		</_F>
 		<_34 Name="generated_padecc4" Offset="9" Length="3" />
 	</_53594E3BB4035B8991BA3B23AF1F2258>
-	<_F47E4B5FD3417406D364BEAB953C7C15 Name="s_gamepad_stick_settings" Size="30">
+	<_F47E4B5FD3417406D364BEAB953C7C15 Name="s_gamepad_stick_settings" Alt="23EA6964FF59FA07" Size="30">
 		<_A Name="input shape" Offset="0" StructName1="e_gamepad_stick_remap_shape">
 			<Flag n="none" />
 			<Flag n="unit_circle" />
@@ -160,16 +160,16 @@
 		<_8 Name="peg max angular velocity" Offset="18" />
 		<_40 Name="input mapping function" Offset="1C" GUID="6AA04553AAEEBF6360373717A5DAA31B" StructName1="s_gamepad_stick_settings" Min="0" Max="1" />
 	</_F47E4B5FD3417406D364BEAB953C7C15>
-	<_6AA04553AAEEBF6360373717A5DAA31B Name="InputMappingFunctionBlock" Size="18">
+	<_6AA04553AAEEBF6360373717A5DAA31B Name="InputMappingFunctionBlock" Alt="7782B3B2D8390EC1" Size="18">
 		<_38 Name="function" Offset="0" GUID="0276481E72CB9289F56D7C189467A351" />
 	</_6AA04553AAEEBF6360373717A5DAA31B>
-	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

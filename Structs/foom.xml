@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="ForgeObjectManifest" Parents="aTag" Index="-158">
-	<_2CD44AA29E69F8DDBC05BCDDBA13CCE9 Name="ForgeEngine::ForgeObjectManifest" Size="40">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="ForgeObjectManifest" Parents="aTag" Index="-158">
+	<_2CD44AA29E69F8DDBC05BCDDBA13CCE9 Name="ForgeEngine::ForgeObjectManifest" Alt="10B326FDF00BBE03" Size="40">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Forge Object Entries" Offset="10" GUID="EC4446420A573BEEDFBA0C0200F77A69" StructName1="ForgeEngine::ForgeObjectManifest" Min="0" Max="4096" />
 		<_40 Name="Category Entries" Offset="24" GUID="06CE48546049E8A250493B498D27A187" StructName1="ForgeEngine::ForgeObjectManifest" Min="0" Max="4096" />
 		<_2 Name="Recent Objects Category ID" Offset="38" />
 		<_2 Name="Prefabs Category ID" Offset="3C" />
 	</_2CD44AA29E69F8DDBC05BCDDBA13CCE9>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_EC4446420A573BEEDFBA0C0200F77A69 Name="ForgeEngine::ForgeObjectManifestEntry" Size="60">
+	<_EC4446420A573BEEDFBA0C0200F77A69 Name="ForgeEngine::ForgeObjectManifestEntry" Alt="9E289C20D8B607B5" Size="60">
 		<_3F Name="elementID" Offset="0" />
 		<_41 Name="Forge Object" Offset="8" Allowed="food" Flags="0" />
 		<_2 Name="Name" Offset="24" />
@@ -20,18 +20,18 @@
 		<_40 Name="Object Metadata" Offset="48" GUID="BE3F4B9C27EA1F287EFA34DEA89507F9" StructName1="ForgeEngine::ForgeObjectManifestEntry" Min="0" Max="32" />
 		<_34 Name="generated_pad71da" Offset="5C" Length="4" />
 	</_EC4446420A573BEEDFBA0C0200F77A69>
-	<_06CE48546049E8A250493B498D27A187 Name="ForgeEngine::ForgeObjectCategoryEntry" Size="18">
+	<_06CE48546049E8A250493B498D27A187 Name="ForgeEngine::ForgeObjectCategoryEntry" Alt="13BC4A446BE5E926" Size="18">
 		<_3F Name="elementID" Offset="0" />
 		<_2 Name="Title" Offset="8" />
 		<_2 Name="Description" Offset="C" />
 		<_2 Name="Category ID" Offset="10" />
 		<_2 Name="Parent Category ID" Offset="14" />
 	</_06CE48546049E8A250493B498D27A187>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_BE3F4B9C27EA1F287EFA34DEA89507F9 Name="ForgeEngine::ForgeObjectMetadata" Size="10">
+	<_BE3F4B9C27EA1F287EFA34DEA89507F9 Name="ForgeEngine::ForgeObjectMetadata" Alt="A9A6CD5C6751BB99" Size="10">
 		<_3F Name="elementID" Offset="0" />
 		<_2 Name="Keyword" Offset="8" />
 		<_34 Name="generated_pad6bd0" Offset="C" Length="4" />

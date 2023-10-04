@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="HlodSystem" Parents="aTag" Index="-200">
-	<_3FD34A8F7215203308A997898FFF041D Name="HlodSystem" Size="70">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="HlodSystem" Parents="aTag" Index="-200">
+	<_3FD34A8F7215203308A997898FFF041D Name="HlodSystem" Alt="D7BF3F2B49446B7E" Size="70">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="level" Offset="10" Allowed="levl" Flags="9" />
 		<_40 Name="hlods" Offset="2C" GUID="ACF045932AA0BE2871FB03AE87FBCA9E" StructName1="HlodSystem" Min="0" Max="10240" />
@@ -9,11 +9,11 @@
 		<_3E Name="visibility group count" Offset="68" />
 		<_34 Name="generated_pad3058" Offset="6C" Length="4" />
 	</_3FD34A8F7215203308A997898FFF041D>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_ACF045932AA0BE2871FB03AE87FBCA9E Name="HlodNode" Size="118">
+	<_ACF045932AA0BE2871FB03AE87FBCA9E Name="HlodNode" Alt="BF921D1EA6B9B555" Size="118">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="switch distance" Offset="4" />
 		<_19 Name="position" Offset="8" />
@@ -28,7 +28,7 @@
 		<_40 Name="inactive streaming groups" Offset="F0" GUID="5C6047570804C475C3A0C88A877E41A6" StructName1="HlodNode" Min="0" Max="1024" />
 		<_40 Name="child hlods" Offset="104" GUID="959D42A473A87F82903C2E2284871186" StructName1="HlodNode" Min="0" Max="2048000" />
 	</_ACF045932AA0BE2871FB03AE87FBCA9E>
-	<_AB974037314F1EDC5565D90EA9C52CD1 Name="HlodBspData" Size="50">
+	<_AB974037314F1EDC5565D90EA9C52CD1 Name="HlodBspData" Alt="22A48C260A6A8DB5" Size="50">
 		<_41 Name="bsp" Offset="0" Allowed="sbsp" Flags="9" />
 		<_40 Name="placements" Offset="1C" GUID="EE5347D55E73AED68103BB5BB3463CE7" StructName1="HlodBspData" Min="0" Max="1048576" />
 		<_40 Name="hlods" Offset="30" GUID="959D42A473A87F82903C2E2284871186" StructName1="HlodBspData" Min="0" Max="2048000" />
@@ -39,21 +39,21 @@
 		<_14 Name="streaming distance" Offset="48" />
 		<_6 Name="level bsp index" Offset="4C" />
 	</_AB974037314F1EDC5565D90EA9C52CD1>
-	<_959D42A473A87F82903C2E2284871186 Name="HlodIndex" Size="4">
+	<_959D42A473A87F82903C2E2284871186 Name="HlodIndex" Alt="5E3197FE708DEF04" Size="4">
 		<_6 Name="index" Offset="0" />
 	</_959D42A473A87F82903C2E2284871186>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_5C6047570804C475C3A0C88A877E41A6 Name="HlodVisibilityGroup" Size="44">
+	<_5C6047570804C475C3A0C88A877E41A6 Name="HlodVisibilityGroup" Alt="112375E606049137" Size="44">
 		<_3E Name="visibility index" Offset="0" />
 		<_6 Name="disabling bsp" Offset="4" />
 		<_40 Name="io guids" Offset="8" GUID="959D42A473A87F82903C2E2284871186" StructName1="HlodVisibilityGroup" Min="0" Max="2048000" />
 		<_40 Name="io bsps" Offset="1C" GUID="FC5B45B592F5E99B688E96A8A594973C" StructName1="HlodVisibilityGroup" Min="0" Max="2621400" />
 		<_40 Name="streaming bsps" Offset="30" GUID="FC5B45B592F5E99B688E96A8A594973C" StructName1="HlodVisibilityGroup" Min="0" Max="2621400" />
 	</_5C6047570804C475C3A0C88A877E41A6>
-	<_EE5347D55E73AED68103BB5BB3463CE7 Name="HlodPlacement" Size="14">
+	<_EE5347D55E73AED68103BB5BB3463CE7 Name="HlodPlacement" Alt="79E88A8701914840" Size="14">
 		<_6 Name="bsp index" Offset="0" />
 		<_6 Name="placement index" Offset="4" />
 		<_C Name="geometry type" Offset="8" StructName1="StaticGeoType">
@@ -63,7 +63,7 @@
 		<_3E Name="visibility index" Offset="C" />
 		<_3E Name="hlod index" Offset="10" />
 	</_EE5347D55E73AED68103BB5BB3463CE7>
-	<_FC5B45B592F5E99B688E96A8A594973C Name="WordIndex" Size="2">
+	<_FC5B45B592F5E99B688E96A8A594973C Name="WordIndex" Alt="C203C76FECE8F9E1" Size="2">
 		<_3D Name="word" Offset="0" />
 	</_FC5B45B592F5E99B688E96A8A594973C>
 </root>

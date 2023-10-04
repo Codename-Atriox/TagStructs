@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:00 PM" Name="cheap_particle_type_library" Parents="aTag" Index="-82">
-	<_F13747142BCDE64DAD124FCF8A6A9EB7 Name="CheapParticleTypeLibrary" Size="C0">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="cheap_particle_type_library" Parents="aTag" Index="-82">
+	<_F13747142BCDE64DAD124FCF8A6A9EB7 Name="CheapParticleTypeLibrary" Alt="14C2039BC4859D56" Size="C0">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
-		<_37 Name="compile" type="ctcd" Offset="10" Float1="1.603089E+31" Max="0" Min="3.831279E+29" Float4="0" />
+		<_37 Name="compile" type="ctcd" Offset="10" Float1="0" Max="0" Min="0" Float4="0" />
 		<_40 Name="types" Offset="10" GUID="4EE149C23268D5F7E9900147AF15C140" StructName1="CheapParticleTypeLibrary" Min="0" Max="255" />
 		<_40 Name="textures" Offset="24" GUID="0FA04C2C6F5DFB08A52DBEBAB051184D" StructName1="CheapParticleTypeLibrary" Min="0" Max="63" />
 		<_41 Name="random" Offset="38" Allowed="bitm" Flags="0" />
@@ -12,11 +12,11 @@
 		<_41 Name="turbulenceTexture" Offset="A0" Allowed="bitm" Flags="0" />
 		<_34 Name="generated_pad3c2a" Offset="BC" Length="4" />
 	</_F13747142BCDE64DAD124FCF8A6A9EB7>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_4EE149C23268D5F7E9900147AF15C140 Name="CheapParticleType" Size="58">
+	<_4EE149C23268D5F7E9900147AF15C140 Name="CheapParticleType" Alt="849BAB1DC4BB76F6" Size="58">
 		<_2 Name="name" Offset="0" />
 		<_37 Name="physics" type="fgrb" Offset="4" />
 		<_14 Name="drag" Offset="4" />
@@ -46,10 +46,10 @@
 		<_14 Name="taa mask strength" Offset="54" />
 		<_37 Name="" type="fgre" Offset="58" />
 	</_4EE149C23268D5F7E9900147AF15C140>
-	<_0FA04C2C6F5DFB08A52DBEBAB051184D Name="CheapParticleTexture" Size="1C">
+	<_0FA04C2C6F5DFB08A52DBEBAB051184D Name="CheapParticleTexture" Alt="EF11792F65442EA0" Size="1C">
 		<_41 Name="bitmap" Offset="0" Allowed="bitm" Flags="0" />
 	</_0FA04C2C6F5DFB08A52DBEBAB051184D>
-	<_71CB44A797CA1A74DA0EDC238E7407F5 Name="CheapParticleTurbulenceType" Size="30">
+	<_71CB44A797CA1A74DA0EDC238E7407F5 Name="CheapParticleTurbulenceType" Alt="C03342EDF30CB707" Size="30">
 		<_2 Name="name" Offset="0" />
 		<_41 Name="turbulence" Offset="4" Allowed="bitm" Flags="0" />
 		<_14 Name="turb du dt" Offset="20" />
@@ -57,7 +57,7 @@
 		<_14 Name="turb du dp" Offset="28" />
 		<_14 Name="turb dv dp" Offset="2C" />
 	</_71CB44A797CA1A74DA0EDC238E7407F5>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>

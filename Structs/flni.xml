@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="flinch_impulse" Parents="aTag" Index="-145">
-	<_62CB4B24C3567B23C9E418AFB3513333 Name="i343::Flinch::FlinchImpulseDefinition" Size="48">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="flinch_impulse" Parents="aTag" Index="-145">
+	<_62CB4B24C3567B23C9E418AFB3513333 Name="i343::Flinch::FlinchImpulseDefinition" Alt="AD94AED5AE0806E" Size="48">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="flinch impulse" Offset="10" GUID="584542BBDB9F05B1A6010525B678D24D" />
 	</_62CB4B24C3567B23C9E418AFB3513333>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_584542BBDB9F05B1A6010525B678D24D Name="i343::Flinch::FlinchImpulseInternalDefinition" Size="38">
+	<_584542BBDB9F05B1A6010525B678D24D Name="i343::Flinch::FlinchImpulseInternalDefinition" Alt="3A6868ED79397012" Size="38">
 		<_37 Name="Gun Flinch" type="fgrb" Offset="0" />
 		<_38 Name="gun flinch" Offset="0" GUID="C1F84D026063182204066F1184F9668A" />
 		<_37 Name="" type="fgre" Offset="1C" />
@@ -16,11 +16,11 @@
 		<_38 Name="view flinch" Offset="1C" GUID="C1F84D026063182204066F1184F9668A" />
 		<_37 Name="" type="fgre" Offset="38" />
 	</_584542BBDB9F05B1A6010525B678D24D>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_C1F84D026063182204066F1184F9668A Name="i343::Flinch::FlinchImpulseSettings" Size="1C">
+	<_C1F84D026063182204066F1184F9668A Name="i343::Flinch::FlinchImpulseSettings" Alt="2AE628602CBC6198" Size="1C">
 		<_A Name="flinch direction" Offset="0" StructName1="i343::Flinch::eFlinchDirectionType">
 			<Flag n="hit direction" />
 			<Flag n="inverse hit direction" />

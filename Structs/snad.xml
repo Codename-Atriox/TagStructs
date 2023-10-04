@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="AcousticsData" Parents="aTag" Index="-388">
-	<_25CA4E991A05CEE941C6071DA975C116 Name="AcousticsTagData" Size="38">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="AcousticsData" Parents="aTag" Index="-388">
+	<_25CA4E991A05CEE941C6071DA975C116 Name="AcousticsTagData" Alt="535757EC7FB7505D" Size="38">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="voxel data" Offset="10" GUID="48D348B82A203CABF92075C4B3EED7CB" StructName1="AcousticsTagData" Min="0" Max="1048576" />
 		<_40 Name="shape data" Offset="24" GUID="C10245756062C081B7C9CBCCB092E08D" StructName1="AcousticsTagData" Min="0" Max="1048576" />
 	</_25CA4E991A05CEE941C6071DA975C116>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_48D348B82A203CABF92075C4B3EED7CB Name="AcousticsTagZoneData" Size="18">
+	<_48D348B82A203CABF92075C4B3EED7CB Name="AcousticsTagZoneData" Alt="ABA853A9E4E3C993" Size="18">
 		<_6 Name="guid" Offset="0" />
 		<_40 Name="LODs" Offset="4" GUID="56E940463AB6682C056DD21C41D1D8DE" StructName1="AcousticsTagZoneData" Min="0" Max="3" />
 	</_48D348B82A203CABF92075C4B3EED7CB>
-	<_C10245756062C081B7C9CBCCB092E08D Name="AcousticsTagPortalData" Size="28">
+	<_C10245756062C081B7C9CBCCB092E08D Name="AcousticsTagPortalData" Alt="E871CFEC783A5EBA" Size="28">
 		<_6 Name="guid" Offset="0" />
 		<_6 Name="generated front zone" Offset="4" />
 		<_6 Name="generated back zone" Offset="8" />
@@ -23,11 +23,11 @@
 		<_34 Name="generated_pad25f8" Offset="D" Length="3" />
 		<_42 Name="shape data" Offset="10" StructName1="AcousticsTagPortalData.shape data" Int1="0" Int2="0" Flags="DAC0" />
 	</_C10245756062C081B7C9CBCCB092E08D>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_56E940463AB6682C056DD21C41D1D8DE Name="AcousticsTagZoneVoxelDataLod" Size="60">
+	<_56E940463AB6682C056DD21C41D1D8DE Name="AcousticsTagZoneVoxelDataLod" Alt="CEDF6328BB3784D9" Size="60">
 		<_3F Name="x dimension" Offset="0" />
 		<_3F Name="y dimension" Offset="8" />
 		<_3F Name="z dimension" Offset="10" />

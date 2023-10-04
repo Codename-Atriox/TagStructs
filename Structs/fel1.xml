@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="AnimFrameEventsAudio" Parents="aTag" Index="-137">
-	<_4BD14BD2A2335FE9A9EA73FABF03D92A Name="AnimationFrameEventListAudio" Size="68">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="AnimFrameEventsAudio" Parents="aTag" Index="-137">
+	<_4BD14BD2A2335FE9A9EA73FABF03D92A Name="AnimationFrameEventListAudio" Alt="5ACED763E168516C" Size="68">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Library" Offset="10" Allowed="lib1" Flags="1" />
 		<_40 Name="Sounds" Offset="2C" GUID="F81D4355A98299C0DDED614FA07E982C" StructName1="AnimationFrameEventListAudio" Min="0" Max="10000000" />
 		<_40 Name="Dialogues" Offset="40" GUID="25AA437D35C9E59405EC7A74AF3A6C4C" StructName1="AnimationFrameEventListAudio" Min="0" Max="10000000" />
 		<_40 Name="Animations" Offset="54" GUID="8624495A1D04FCCF4D8D48B6A52C6C26" StructName1="AnimationFrameEventListAudio" Min="0" Max="8192" />
 	</_4BD14BD2A2335FE9A9EA73FABF03D92A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_F81D4355A98299C0DDED614FA07E982C Name="AnimationSounds" Size="1C">
+	<_F81D4355A98299C0DDED614FA07E982C Name="AnimationSounds" Alt="792DB7A66DA62501" Size="1C">
 		<_6 Name="Unique ID" Offset="0" />
 		<_2 Name="Name" Offset="4" />
 		<_40 Name="Sounds" Offset="8" GUID="E2924054D46D54EB48A1D5559E0E741F" StructName1="AnimationSounds" Min="0" Max="10000000" />
 	</_F81D4355A98299C0DDED614FA07E982C>
-	<_25AA437D35C9E59405EC7A74AF3A6C4C Name="AnimationDialogues" Size="C">
+	<_25AA437D35C9E59405EC7A74AF3A6C4C Name="AnimationDialogues" Alt="11F7CF3B91FC3A7E" Size="C">
 		<_6 Name="Unique ID" Offset="0" />
 		<_2 Name="Vocialization name" Offset="4" />
 		<_A Name="Dialogue play restrictions" Offset="8" StructName1="DialoguePlayRestriction">
@@ -26,17 +26,17 @@
 		</_A>
 		<_34 Name="generated_pad2391" Offset="9" Length="3" />
 	</_25AA437D35C9E59405EC7A74AF3A6C4C>
-	<_8624495A1D04FCCF4D8D48B6A52C6C26 Name="AudioFrameEvents" Size="30">
+	<_8624495A1D04FCCF4D8D48B6A52C6C26 Name="AudioFrameEvents" Alt="4CF548DFD646B2DD" Size="30">
 		<_2 Name="Name" Offset="0" />
 		<_6 Name="Guid" Offset="4" />
 		<_40 Name="Sound events" Offset="8" GUID="97F24A847F7624A4D6179D61A98464B8" StructName1="AudioFrameEvents" Min="0" Max="10000000" />
 		<_40 Name="Dialogue events" Offset="1C" GUID="6C0E4BA57D28589D6636D98F8E06C772" StructName1="AudioFrameEvents" Min="0" Max="512" />
 	</_8624495A1D04FCCF4D8D48B6A52C6C26>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_E2924054D46D54EB48A1D5559E0E741F Name="SoundEventEntry" Size="60">
+	<_E2924054D46D54EB48A1D5559E0E741F Name="SoundEventEntry" Alt="5EEB79DE623DBFFE" Size="60">
 		<_41 Name="Sound" Offset="0" Allowed="snd!" Flags="0" />
 		<_E Name="Key event flags" Offset="1C" StructName1="AnimationKeyEventFlags">
 			<Flag n="AllowOnPlayer" />
@@ -54,7 +54,7 @@
 		<_41 Name="Weapon reference" Offset="40" Allowed="weap" Flags="0" />
 		<_2 Name="Weapon variant" Offset="5C" />
 	</_E2924054D46D54EB48A1D5559E0E741F>
-	<_97F24A847F7624A4D6179D61A98464B8 Name="SoundEvent" Size="10">
+	<_97F24A847F7624A4D6179D61A98464B8 Name="SoundEvent" Alt="B671AEE76DE88E63" Size="10">
 		<_5 Name="Frame" Offset="0" />
 		<_34 Name="generated_pad4191" Offset="2" Length="2" />
 		<_2 Name="Marker name" Offset="4" />
@@ -62,7 +62,7 @@
 		<_2E Name="Sound" Offset="C" GUID="F81D4355A98299C0DDED614FA07E982C" StructName1="SoundEvent" Min="0" Max="10000000" />
 		<_34 Name="generated_pad27b0" Offset="E" Length="2" />
 	</_97F24A847F7624A4D6179D61A98464B8>
-	<_6C0E4BA57D28589D6636D98F8E06C772 Name="DialogEvent" Size="10">
+	<_6C0E4BA57D28589D6636D98F8E06C772 Name="DialogEvent" Alt="F6CEE31549C71FB" Size="10">
 		<_5 Name="Frame" Offset="0" />
 		<_34 Name="generated_pade448" Offset="2" Length="2" />
 		<_2 Name="Marker name" Offset="4" />

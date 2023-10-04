@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="prefab" Parents="aTag" Index="-320">
-	<_69904839E161B79D7197C39EBCB1689B Name="structure_prefab" Size="40">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="prefab" Parents="aTag" Index="-320">
+	<_69904839E161B79D7197C39EBCB1689B Name="structure_prefab" Alt="7A43D818C4B704A8" Size="40">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="bsp reference" Offset="10" Allowed="sbsp" Flags="0" />
 		<_40 Name="material overrides" Offset="2C" GUID="491341845E7D4A2FABA99985B2652E03" StructName1="structure_prefab" Min="0" Max="10240" />
 	</_69904839E161B79D7197C39EBCB1689B>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_491341845E7D4A2FABA99985B2652E03 Name="PrefabMaterialOverrideVariant" Size="18">
+	<_491341845E7D4A2FABA99985B2652E03 Name="PrefabMaterialOverrideVariant" Alt="866A9040E7FEF5B" Size="18">
 		<_2 Name="material override variant name" Offset="0" />
 		<_40 Name="material override entries" Offset="4" GUID="4563C4BC4A5F3FB324691B31A23663BD" StructName1="PrefabMaterialOverrideVariant" Min="0" Max="64" />
 	</_491341845E7D4A2FABA99985B2652E03>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_4563C4BC4A5F3FB324691B31A23663BD Name="MaterialOverrideEntry" Size="38">
+	<_4563C4BC4A5F3FB324691B31A23663BD Name="MaterialOverrideEntry" Alt="3E3CF48F7B4E4232" Size="38">
 		<_41 Name="Original material ref" Offset="0" Allowed="mat " Flags="9" />
 		<_41 Name="Override material ref" Offset="1C" Allowed="mat " Flags="9" />
 	</_4563C4BC4A5F3FB324691B31A23663BD>

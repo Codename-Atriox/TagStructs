@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="terrain_geo_inputs" Parents="aTag" Index="-420">
-	<_09FA4122F81CDDB56FEC3364945F0147 Name="i343::Physics::TerrainCollisionGeoCellInputsTag" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="terrain_geo_inputs" Parents="aTag" Index="-420">
+	<_09FA4122F81CDDB56FEC3364945F0147 Name="i343::Physics::TerrainCollisionGeoCellInputsTag" Alt="9A4220FAB44E0B3D" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Cell Inputs" Offset="10" GUID="A9714DA5FA8BD69587B75E6E815A3712" StructName1="i343::Physics::TerrainCollisionGeoCellInputsTag" Min="0" Max="4096" />
 		<_34 Name="generated_pade11b" Offset="24" Length="4" />
 	</_09FA4122F81CDDB56FEC3364945F0147>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_A9714DA5FA8BD69587B75E6E815A3712 Name="i343::Physics::TerrainCollisionGeoCellInputs" Size="3C">
+	<_A9714DA5FA8BD69587B75E6E815A3712 Name="i343::Physics::TerrainCollisionGeoCellInputs" Alt="D4099D227796ECAF" Size="3C">
 		<_19 Name="size" Offset="0" />
 		<_42 Name="pixels" Offset="C" StructName1="i343::Physics::TerrainCollisionGeoCellInputs.pixels" Int1="8" Int2="16" Flags="40000000" />
 		<_42 Name="materials" Offset="24" StructName1="i343::Physics::TerrainCollisionGeoCellInputs.materials" Int1="8" Int2="0" Flags="40000000" />
 	</_A9714DA5FA8BD69587B75E6E815A3712>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

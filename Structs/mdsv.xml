@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:12 PM" Name="model_dissolve_definition" Parents="aTag" Index="-251">
-	<_9E9A42C1B46D6344A5728CF5A96370B0 Name="ModelDissolveDefinition" Size="178">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="model_dissolve_definition" Parents="aTag" Index="-251">
+	<_9E9A42C1B46D6344A5728CF5A96370B0 Name="ModelDissolveDefinition" Alt="19AAE14209E4CEE8" Size="178">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_F Name="flags" Offset="10" StructName1="ModelDissolveDefinition::Flag">
 			<Flag n="draw backfaces on overlay" />
@@ -49,15 +49,15 @@
 		<_34 Name="generated_pada6a4" Offset="16C" Length="4" />
 		<_7 Name="m_pipelineStates" Offset="170" />
 	</_9E9A42C1B46D6344A5728CF5A96370B0>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_06FF4668F1ED5F992EF5CEE38C2EFC8F Name="ModelDissolveRegionTimeOffset" Size="8">
+	<_06FF4668F1ED5F992EF5CEE38C2EFC8F Name="ModelDissolveRegionTimeOffset" Alt="6AB5BC6F23B68067" Size="8">
 		<_2 Name="region name" Offset="0" />
 		<_14 Name="region time offset" Offset="4" />
 	</_06FF4668F1ED5F992EF5CEE38C2EFC8F>
-	<_3C15440613810D23A7F03D07AA769459 Name="Material" Size="64">
+	<_3C15440613810D23A7F03D07AA769459 Name="Material" Alt="6D63A11458EFC4E4" Size="64">
 		<_41 Name="material shader" Offset="0" Allowed="shdr, shdv, mat , ngfc" Flags="0" />
 		<_40 Name="material parameters" Offset="1C" GUID="739A40ED1B41042F195BD40DADDD1564" StructName1="Material" Min="0" Max="1335" />
 		<_40 Name="postprocess definition" Offset="30" GUID="C85241C01D50D0C3CE98F3A39E5B9057" StructName1="Material" Min="0" Max="1" />
@@ -163,11 +163,11 @@
 		<_14 Name="taa mask threshold start" Offset="5C" />
 		<_14 Name="taa mask threshold end" Offset="60" />
 	</_3C15440613810D23A7F03D07AA769459>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_739A40ED1B41042F195BD40DADDD1564 Name="ShaderParameter" Size="9C">
+	<_739A40ED1B41042F195BD40DADDD1564 Name="ShaderParameter" Alt="8E22A7BF343174EC" Size="9C">
 		<_2 Name="parameter name" Offset="0" />
 		<_C Name="parameter type" Offset="4" StructName1="MaterialParameterType">
 			<Flag n="bitmap" />
@@ -212,7 +212,7 @@
 		<_3C Name="bitmap extern index" Offset="98" />
 		<_34 Name="generated_pad50da" Offset="99" Length="3" />
 	</_739A40ED1B41042F195BD40DADDD1564>
-	<_C85241C01D50D0C3CE98F3A39E5B9057 Name="MaterialPostprocessDefinition" Size="A0">
+	<_C85241C01D50D0C3CE98F3A39E5B9057 Name="MaterialPostprocessDefinition" Alt="4E47845713C3C20A" Size="A0">
 		<_40 Name="textures" Offset="0" GUID="3CD64BE1CD9812EC0BBCA596B33BFE48" StructName1="MaterialPostprocessDefinition" Min="0" Max="32" />
 		<_6 Name="textures to clear" Offset="14" />
 		<_40 Name="functions" Offset="18" GUID="F54D44725471F0E39A007BEDAD55A516" StructName1="MaterialPostprocessDefinition" Min="0" Max="267" />
@@ -315,7 +315,7 @@
 		<_39 Name="runtime queryable properties table" Offset="94" GUID="1E1A4BB1C7C8D371BEC7DEBEBE9FC430" Count="4" StructName1="runtime queryable properties table" />
 		<_38 Name="alpha clip descriptor" Offset="98" GUID="C15A4E18708F4288F0C55808B38BD440" />
 	</_C85241C01D50D0C3CE98F3A39E5B9057>
-	<_F54D44725471F0E39A007BEDAD55A516 Name="MaterialShaderFunctionParameter" Size="30">
+	<_F54D44725471F0E39A007BEDAD55A516 Name="MaterialShaderFunctionParameter" Alt="848C063C92D87C33" Size="30">
 		<_C Name="type" Offset="0" StructName1="MaterialAnimatedParameterType">
 			<Flag n="value" />
 			<Flag n="color" />
@@ -341,7 +341,7 @@
 		<_37 Name="function" type="fned" Offset="18" />
 		<_38 Name="function" Offset="18" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_F54D44725471F0E39A007BEDAD55A516>
-	<_3CD64BE1CD9812EC0BBCA596B33BFE48 Name="MaterialPostprocessTexture" Size="38">
+	<_3CD64BE1CD9812EC0BBCA596B33BFE48 Name="MaterialPostprocessTexture" Alt="F9CF785FF3391A70" Size="38">
 		<_41 Name="bitmap reference" Offset="0" Allowed="bitm" Flags="0" />
 		<_3E Name="render phase mask" Offset="1C" />
 		<_3E Name="shader stage mask" Offset="20" />
@@ -354,14 +354,14 @@
 		<_34 Name="generated_pad0c27" Offset="2E" Length="2" />
 		<_7 Name="m_samplerStateView" Offset="30" />
 	</_3CD64BE1CD9812EC0BBCA596B33BFE48>
-	<_B81F4CBE25A1ECC080A9CFDB9F9466E2 Name="MaterialFunctionParameter" Size="8">
+	<_B81F4CBE25A1ECC080A9CFDB9F9466E2 Name="MaterialFunctionParameter" Alt="9D9BDE857ABF3E50" Size="8">
 		<_3C Name="function index" Offset="0" />
 		<_3C Name="register offset" Offset="1" />
 		<_3C Name="parameter group" Offset="2" />
 		<_34 Name="generated_padfe04" Offset="3" Length="1" />
 		<_3E Name="render phase mask" Offset="4" />
 	</_B81F4CBE25A1ECC080A9CFDB9F9466E2>
-	<_B22C4F9172118236ABE7A5BBA645DAAF Name="MaterialExternParameter" Size="C">
+	<_B22C4F9172118236ABE7A5BBA645DAAF Name="MaterialExternParameter" Alt="11D141B4B59AFBC2" Size="C">
 		<_3C Name="extern index" Offset="0" />
 		<_3C Name="extern offset" Offset="1" />
 		<_3C Name="parameter group" Offset="2" />
@@ -370,21 +370,21 @@
 		<_34 Name="generated_pad29a7" Offset="6" Length="2" />
 		<_3E Name="render phase mask" Offset="8" />
 	</_B22C4F9172118236ABE7A5BBA645DAAF>
-	<_991349C68333766C7F86FBF2AE341F87 Name="MaterialConstant" Size="10">
+	<_991349C68333766C7F86FBF2AE341F87 Name="MaterialConstant" Alt="25900AD259C85EDE" Size="10">
 		<_1A Name="register" Offset="0" />
 	</_991349C68333766C7F86FBF2AE341F87>
-	<_1E1A4BB1C7C8D371BEC7DEBEBE9FC430 Name="MaterialPostprocessDefinition::RuntimeQueryableProperty" Size="1">
+	<_1E1A4BB1C7C8D371BEC7DEBEBE9FC430 Name="MaterialPostprocessDefinition::RuntimeQueryableProperty" Alt="CBCA02AA3BE28B4E" Size="1">
 		<_3C Name="index" Offset="0" />
 	</_1E1A4BB1C7C8D371BEC7DEBEBE9FC430>
-	<_C15A4E18708F4288F0C55808B38BD440 Name="MaterialPostprocessDefinition::AlphaClipDescriptor" Size="8">
+	<_C15A4E18708F4288F0C55808B38BD440 Name="MaterialPostprocessDefinition::AlphaClipDescriptor" Alt="93395C5B55526CB5" Size="8">
 		<_3C Name="textureIndex" Offset="0" />
 		<_3C Name="textureChannel" Offset="1" />
 		<_34 Name="generated_pad14ce" Offset="2" Length="2" />
 		<_6 Name="thresholdIndex" Offset="4" />
 	</_C15A4E18708F4288F0C55808B38BD440>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

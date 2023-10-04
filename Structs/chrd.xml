@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="chroma_definition" Parents="aTag" Index="-58">
-	<_AFA68F879E102D2AB56E860EA362A40D Name="ChromaAnimationsDefinition" Size="A60">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="chroma_definition" Parents="aTag" Index="-58">
+	<_AFA68F879E102D2AB56E860EA362A40D Name="ChromaAnimationsDefinition" Alt="C8D64DE69209ED1C" Size="A60">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_39 Name="event animations" Offset="10" GUID="7A8F73A68DA6F974CEE833B0D7E18E87" Count="15" StructName1="event animations" />
 	</_AFA68F879E102D2AB56E860EA362A40D>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_7A8F73A68DA6F974CEE833B0D7E18E87 Name="ChromaEventAnimation" Size="B0">
+	<_7A8F73A68DA6F974CEE833B0D7E18E87 Name="ChromaEventAnimation" Alt="194FFF179E7A1D33" Size="B0">
 		<_B Name="event" Offset="0" StructName1="i343::ChromaSupport::EventType">
 			<Flag n="Unsc Vehicle" />
 			<Flag n="Covenant Vehicle" />
@@ -37,11 +37,11 @@
 		<_38 Name="event files" Offset="8" GUID="4227A299BEA956E477CDD080A11E5935" />
 		<_37 Name="" type="fgre" Offset="B0" />
 	</_7A8F73A68DA6F974CEE833B0D7E18E87>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_4227A299BEA956E477CDD080A11E5935 Name="ChromaEventDeviceFiles" Size="A8">
+	<_4227A299BEA956E477CDD080A11E5935 Name="ChromaEventDeviceFiles" Alt="CBA0A36FC2A24CD1" Size="A8">
 		<_41 Name="keyboard file" Offset="0" Allowed="chrm" Flags="0" />
 		<_41 Name="mouse file" Offset="1C" Allowed="chrm" Flags="0" />
 		<_41 Name="headset file" Offset="38" Allowed="chrm" Flags="0" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:22 PM" Name="weapon_globals" Parents="aTag" Index="-478">
-	<_FAD5481BBD4BC6CF9256504186FCC224 Name="i343::Weapon::WeaponGlobalsDefinition" Size="100">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:58 PM" Name="weapon_globals" Parents="aTag" Index="-478">
+	<_FAD5481BBD4BC6CF9256504186FCC224 Name="i343::Weapon::WeaponGlobalsDefinition" Alt="B304AB8BA0768F29" Size="100">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_24 Name="gunkick yaw mapping bounds" Offset="10" />
 		<_38 Name="gunkick yaw to roll" Offset="18" GUID="0276481E72CB9289F56D7C189467A351" />
@@ -22,20 +22,20 @@
 		<_14 Name="game options - weapon offset scaling factor" Offset="F8" />
 		<_34 Name="generated_padcb7b" Offset="FC" Length="4" />
 	</_FAD5481BBD4BC6CF9256504186FCC224>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_2BE44DF683614930D34CD39BAEAA8937 Name="i343::Weapon::DebugAdsReticleMovmementThreshold" Size="30">
+	<_2BE44DF683614930D34CD39BAEAA8937 Name="i343::Weapon::DebugAdsReticleMovmementThreshold" Alt="17EC29555271F11" Size="30">
 		<_0 Name="ads reticle movement threshold name" Offset="0" />
 		<_8 Name="ads reticle movement threshold angle" Offset="20" />
 		<_1F Name="ads reticle movement threshold color" Offset="24" />
 	</_2BE44DF683614930D34CD39BAEAA8937>
-	<_2BE44DF683614930E45DE50CAEAA8937 Name="i343::Weapon::FirstPersonWeaponOffsetControl" Size="30">
+	<_2BE44DF683614930E45DE50CAEAA8937 Name="i343::Weapon::FirstPersonWeaponOffsetControl" Alt="BE82C67479FFAC9E" Size="30">
 		<_B Name="First Person Weapon Group" Offset="0" StructName1="i343::Weapon::FirstPersonWeaponGroup">
 			<Flag n="Undefined" />
 			<Flag n="Melee" />
@@ -60,16 +60,16 @@
 		</_F>
 		<_34 Name="generated_pad48bb" Offset="2F" Length="1" />
 	</_2BE44DF683614930E45DE50CAEAA8937>
-	<_7AC443D92F65071E7D228F44B1109562 Name="i343::Weapon::FirstPersonWeaponOffsetControlIndex" Size="4">
+	<_7AC443D92F65071E7D228F44B1109562 Name="i343::Weapon::FirstPersonWeaponOffsetControlIndex" Alt="77B448D01E4A783B" Size="4">
 		<_6 Name="Index" Offset="0" />
 	</_7AC443D92F65071E7D228F44B1109562>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:04 PM" Name="ExportedEncounterBehaviorTreeDefinition" Parents="aTag" Index="-117">
-	<_8B75444C365B48E2E74A9F3EB48CC8E7 Name="ExportedEBTDefinition" Size="180">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="ExportedEncounterBehaviorTreeDefinition" Parents="aTag" Index="-117">
+	<_8B75444C365B48E2E74A9F3EB48CC8E7 Name="ExportedEBTDefinition" Alt="E223660FE246566E" Size="180">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Source Graph" Offset="10" Allowed="ebtc" Flags="0" />
 		<_40 Name="Links" Offset="2C" GUID="4C6D49EF82E880A8B8C4ECEB80BD3EC0" StructName1="ExportedEBTDefinition" Min="0" Max="128" />
@@ -21,31 +21,31 @@
 		<_40 Name="Trigger Volume Nodes" Offset="158" GUID="4E134988F96E94228B3B61CFB03B9AF2" StructName1="ExportedEBTDefinition" Min="0" Max="16" />
 		<_40 Name="Min Relevance Nodes" Offset="16C" GUID="EEC741AA9021AE618391354A9A26E03E" StructName1="ExportedEBTDefinition" Min="0" Max="16" />
 	</_8B75444C365B48E2E74A9F3EB48CC8E7>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_4C6D49EF82E880A8B8C4ECEB80BD3EC0 Name="EBTNodeLink" Size="10">
+	<_4C6D49EF82E880A8B8C4ECEB80BD3EC0 Name="EBTNodeLink" Alt="ACF66B6679FF1038" Size="10">
 		<_38 Name="Source Node Identifier" Offset="0" GUID="8628413344FE7AE82374BE9A8E869BAC" />
 		<_38 Name="Destination Node Identifier" Offset="8" GUID="8628413344FE7AE82374BE9A8E869BAC" />
 	</_4C6D49EF82E880A8B8C4ECEB80BD3EC0>
-	<_46D043F811B58758E2F9284D95AB1411 Name="EBTRootNode" Size="4">
+	<_46D043F811B58758E2F9284D95AB1411 Name="EBTRootNode" Alt="4CE0B021E3270F80" Size="4">
 		<_2 Name="Pretty Name" Offset="0" />
 	</_46D043F811B58758E2F9284D95AB1411>
-	<_8F5B4A6ECDFB9A844E329435BE1D699F Name="EBTInputNode" Size="4">
+	<_8F5B4A6ECDFB9A844E329435BE1D699F Name="EBTInputNode" Alt="458C642D94BE08BD" Size="4">
 		<_2 Name="Pretty Name" Offset="0" />
 	</_8F5B4A6ECDFB9A844E329435BE1D699F>
-	<_0B6E4EB3FDC1C77B470110C099B6C5BD Name="EBTFollowPlayerOrderNode" Size="8">
+	<_0B6E4EB3FDC1C77B470110C099B6C5BD Name="EBTFollowPlayerOrderNode" Alt="AF749AE740EA04AE" Size="8">
 		<_2 Name="Bounding EZ Pretty Name" Offset="0" />
 		<_14 Name="Follow Radius" Offset="4" />
 	</_0B6E4EB3FDC1C77B470110C099B6C5BD>
-	<_35584127B4EB2F6E2145DE1AB0FFAE83 Name="EBTSelectorNode" Size="4">
+	<_35584127B4EB2F6E2145DE1AB0FFAE83 Name="EBTSelectorNode" Alt="69D524550F881C2A" Size="4">
 		<_6 Name="Respects Initial Placement" Offset="0" />
 	</_35584127B4EB2F6E2145DE1AB0FFAE83>
-	<_94C345EB0EFD3F3CCD51D9C4BE53DB6E Name="EBTSequenceNode" Size="4">
+	<_94C345EB0EFD3F3CCD51D9C4BE53DB6E Name="EBTSequenceNode" Alt="DFD3C43E4FACA1CB" Size="4">
 		<_6 Name="Respects Initial Placement" Offset="0" />
 	</_94C345EB0EFD3F3CCD51D9C4BE53DB6E>
-	<_7C774A31EF6AFF3DC533D48B9325F6D6 Name="EBTBoolConditionNode" Size="C">
+	<_7C774A31EF6AFF3DC533D48B9325F6D6 Name="EBTBoolConditionNode" Alt="469D5960A537DA81" Size="C">
 		<_A Name="Bool Operation" Offset="0" StructName1="i343::AI::BoolOperator">
 			<Flag n="And" />
 			<Flag n="Or" />
@@ -58,7 +58,7 @@
 		<_34 Name="generated_padd184" Offset="1" Length="3" />
 		<_38 Name="Action Node Identifier" Offset="4" GUID="8628413344FE7AE82374BE9A8E869BAC" />
 	</_7C774A31EF6AFF3DC533D48B9325F6D6>
-	<_177040F8BD09409EB9734B9381B7A820 Name="EBTPrioritySorterNode" Size="2">
+	<_177040F8BD09409EB9734B9381B7A820 Name="EBTPrioritySorterNode" Alt="C218415D75056A16" Size="2">
 		<_A Name="Sort Property" Offset="0" StructName1="i343::AI::BehaviorTree::PropertyQueryType">
 			<Flag n="Relevance" />
 			<Flag n="Location" />
@@ -69,7 +69,7 @@
 			<Flag n="Within Range" />
 		</_A>
 	</_177040F8BD09409EB9734B9381B7A820>
-	<_315F4E7E8F9893DD5EE5B6F59E8FD20E Name="EBTAssignmentLimitNode" Size="8">
+	<_315F4E7E8F9893DD5EE5B6F59E8FD20E Name="EBTAssignmentLimitNode" Alt="2EC400AEAC104842" Size="8">
 		<_E Name="Flags" Offset="0" StructName1="i343::AI::DecoratorFlags">
 			<Flag n="Invert" />
 			<Flag n="LatchToTrue" />
@@ -78,7 +78,7 @@
 		<_34 Name="generated_pad1df7" Offset="2" Length="2" />
 		<_6 Name="Max Limit" Offset="4" />
 	</_315F4E7E8F9893DD5EE5B6F59E8FD20E>
-	<_C10D4C30AF3EA9FAFF0969DEA76B2CB2 Name="EBTBodyCountNode" Size="8">
+	<_C10D4C30AF3EA9FAFF0969DEA76B2CB2 Name="EBTBodyCountNode" Alt="ABDB1F2494D49F33" Size="8">
 		<_E Name="Flags" Offset="0" StructName1="i343::AI::DecoratorFlags">
 			<Flag n="Invert" />
 			<Flag n="LatchToTrue" />
@@ -87,7 +87,7 @@
 		<_34 Name="generated_padff86" Offset="2" Length="2" />
 		<_6 Name="Max Count" Offset="4" />
 	</_C10D4C30AF3EA9FAFF0969DEA76B2CB2>
-	<_F76241F9D2E874BDAB8CC39EA03E8A0F Name="EBTCombatStatusFilterNode" Size="6">
+	<_F76241F9D2E874BDAB8CC39EA03E8A0F Name="EBTCombatStatusFilterNode" Alt="9692F807CED9509A" Size="6">
 		<_E Name="Flags" Offset="0" StructName1="i343::AI::DecoratorFlags">
 			<Flag n="Invert" />
 			<Flag n="LatchToTrue" />
@@ -115,7 +115,7 @@
 			<Flag n="dangerous enemy" />
 		</_B>
 	</_F76241F9D2E874BDAB8CC39EA03E8A0F>
-	<_C41043DBA218C1F8A6EDABF2B578233F Name="EBTKeywordFilterNode" Size="8">
+	<_C41043DBA218C1F8A6EDABF2B578233F Name="EBTKeywordFilterNode" Alt="A607DCA8D537D899" Size="8">
 		<_E Name="Flags" Offset="0" StructName1="i343::AI::DecoratorFlags">
 			<Flag n="Invert" />
 			<Flag n="LatchToTrue" />
@@ -124,7 +124,7 @@
 		<_34 Name="generated_pad6ddc" Offset="2" Length="2" />
 		<_2 Name="Keyword" Offset="4" />
 	</_C41043DBA218C1F8A6EDABF2B578233F>
-	<_67CC48AE7EE9C4783CDB48ED54C98010 Name="EBTLivingCountNode" Size="8">
+	<_67CC48AE7EE9C4783CDB48ED54C98010 Name="EBTLivingCountNode" Alt="68B10D51AB8BD54B" Size="8">
 		<_E Name="Flags" Offset="0" StructName1="i343::AI::DecoratorFlags">
 			<Flag n="Invert" />
 			<Flag n="LatchToTrue" />
@@ -133,7 +133,7 @@
 		<_34 Name="generated_pad574b" Offset="2" Length="2" />
 		<_6 Name="Min Count" Offset="4" />
 	</_67CC48AE7EE9C4783CDB48ED54C98010>
-	<_263D4B84934260395A24F284A5A1FFA5 Name="EBTVehicleFilterNode" Size="8">
+	<_263D4B84934260395A24F284A5A1FFA5 Name="EBTVehicleFilterNode" Alt="40488C69E2BF949E" Size="8">
 		<_E Name="Flags" Offset="0" StructName1="i343::AI::DecoratorFlags">
 			<Flag n="Invert" />
 			<Flag n="LatchToTrue" />
@@ -142,7 +142,7 @@
 		<_34 Name="generated_pad41e5" Offset="2" Length="2" />
 		<_6 Name="Check Vehicle" Offset="4" />
 	</_263D4B84934260395A24F284A5A1FFA5>
-	<_2A394E48979F7E0A6590E8C7A7448A0A Name="EBTScriptTriggerNode" Size="8">
+	<_2A394E48979F7E0A6590E8C7A7448A0A Name="EBTScriptTriggerNode" Alt="63B9ABD72307F5E7" Size="8">
 		<_E Name="Flags" Offset="0" StructName1="i343::AI::DecoratorFlags">
 			<Flag n="Invert" />
 			<Flag n="LatchToTrue" />
@@ -151,7 +151,7 @@
 		<_34 Name="generated_padc36c" Offset="2" Length="2" />
 		<_2 Name="Label" Offset="4" />
 	</_2A394E48979F7E0A6590E8C7A7448A0A>
-	<_4E134988F96E94228B3B61CFB03B9AF2 Name="EBTPlayerTriggerVolumeNode" Size="8">
+	<_4E134988F96E94228B3B61CFB03B9AF2 Name="EBTPlayerTriggerVolumeNode" Alt="555C412D0778BCAB" Size="8">
 		<_E Name="Flags" Offset="0" StructName1="i343::AI::DecoratorFlags">
 			<Flag n="Invert" />
 			<Flag n="LatchToTrue" />
@@ -160,7 +160,7 @@
 		<_34 Name="generated_pad426c" Offset="2" Length="2" />
 		<_2 Name="Volume Pretty Name" Offset="4" />
 	</_4E134988F96E94228B3B61CFB03B9AF2>
-	<_EEC741AA9021AE618391354A9A26E03E Name="EBTMinRelevanceNode" Size="4">
+	<_EEC741AA9021AE618391354A9A26E03E Name="EBTMinRelevanceNode" Alt="620D923E23D74DDB" Size="4">
 		<_E Name="Flags" Offset="0" StructName1="i343::AI::DecoratorFlags">
 			<Flag n="Invert" />
 			<Flag n="LatchToTrue" />
@@ -172,11 +172,11 @@
 		</_A>
 		<_34 Name="generated_pad8fa2" Offset="3" Length="1" />
 	</_EEC741AA9021AE618391354A9A26E03E>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_8628413344FE7AE82374BE9A8E869BAC Name="EBTNodeIdentifier" Size="8">
+	<_8628413344FE7AE82374BE9A8E869BAC Name="EBTNodeIdentifier" Alt="BF6CDFF4CEAA9241" Size="8">
 		<_A Name="Type" Offset="0" StructName1="EBTNodeType">
 			<Flag n="Root" />
 			<Flag n="Input" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="physics_model" Parents="aTag" Index="-309">
-	<_C86045029626E74614F93081AC4C58B6 Name="i343::PhysicsModel::PhysicsModelDefinition" Size="260">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="physics_model" Parents="aTag" Index="-309">
+	<_C86045029626E74614F93081AC4C58B6 Name="i343::PhysicsModel::PhysicsModelDefinition" Alt="B2593CFF22D05D2" Size="260">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_D Name="flags" Offset="10" StructName1="i343::PhysicsModel::PhysicsModelFlag">
 			<Flag n="serialized havok data converted to target platform" />
@@ -48,11 +48,11 @@
 		<_40 Name="nodes" Offset="238" GUID="F5314ACA6EB5A870B2226AB19EFC24F6" StructName1="i343::PhysicsModel::PhysicsModelDefinition" Min="0" Max="1024" />
 		<_40 Name="errors" Offset="24C" GUID="CA074D833CBB78D58E13F4968994291A" StructName1="i343::PhysicsModel::PhysicsModelDefinition" Min="0" Max="512" />
 	</_C86045029626E74614F93081AC4C58B6>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_72C247279B5B74EFF614802E8DB4A81B Name="i343::PhysicsModel::DampedSpringMotor" Size="18">
+	<_72C247279B5B74EFF614802E8DB4A81B Name="i343::PhysicsModel::DampedSpringMotor" Alt="3CB8F3EEA547CAF7" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="maximum force" Offset="4" />
 		<_14 Name="minimum force" Offset="8" />
@@ -60,7 +60,7 @@
 		<_14 Name="damping" Offset="10" />
 		<_14 Name="initial position" Offset="14" />
 	</_72C247279B5B74EFF614802E8DB4A81B>
-	<_383D4CC301FA65AA085F1291A8C48FF7 Name="i343::PhysicsModel::PositionMotor" Size="20">
+	<_383D4CC301FA65AA085F1291A8C48FF7 Name="i343::PhysicsModel::PositionMotor" Alt="831BC4A61DB25793" Size="20">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="maximum force" Offset="4" />
 		<_14 Name="minimum force" Offset="8" />
@@ -70,7 +70,7 @@
 		<_14 Name="constant recover vel" Offset="18" />
 		<_14 Name="initial position" Offset="1C" />
 	</_383D4CC301FA65AA085F1291A8C48FF7>
-	<_3DF6461F4732B95BDD4DE10686EB18C0 Name="i343::PhysicsModel::PhantomType" Size="D4">
+	<_3DF6461F4732B95BDD4DE10686EB18C0 Name="i343::PhysicsModel::PhantomType" Alt="52BCA1CA99AE46C" Size="D4">
 		<_D Name="flags" Offset="0" StructName1="i343::PhysicsModel::PhysicsModelPhantomFlags">
 			<Flag n="only affects authoritative gameplay" />
 			<Flag n="use acc as force" />
@@ -157,11 +157,11 @@
 		<_2 Name="damage per second object function" Offset="CC" />
 		<_14 Name="damage per second object function threshold" Offset="D0" />
 	</_3DF6461F4732B95BDD4DE10686EB18C0>
-	<_8B9A40769D56F6859179926A8E0E150F Name="i343::PhysicsModel::PoweredChain" Size="28">
+	<_8B9A40769D56F6859179926A8E0E150F Name="i343::PhysicsModel::PoweredChain" Alt="7E267D19E22B24B0" Size="28">
 		<_40 Name="nodes" Offset="0" GUID="E29B4888C574CB19200AA3638FBE942C" StructName1="i343::PhysicsModel::PoweredChain" Min="0" Max="1024" />
 		<_40 Name="constraints" Offset="14" GUID="5BF546479FF3F43CE1110D2FA71992D7" StructName1="i343::PhysicsModel::PoweredChain" Min="0" Max="128" />
 	</_8B9A40769D56F6859179926A8E0E150F>
-	<_505640E46B58713FB15F7B8D90D74767 Name="i343::PhysicsModel::NodeConstraintEdge" Size="28">
+	<_505640E46B58713FB15F7B8D90D74767 Name="i343::PhysicsModel::NodeConstraintEdge" Alt="2CE1EEB43258B50D" Size="28">
 		<_5 Name="runtime material type a" Offset="0" />
 		<_5 Name="runtime material type b" Offset="2" />
 		<_30 Name="node a" Offset="4" GUID="F5314ACA6EB5A870B2226AB19EFC24F6" StructName1="i343::PhysicsModel::NodeConstraintEdge" Min="0" Max="1024" />
@@ -170,7 +170,7 @@
 		<_2 Name="node a material" type="sted" Offset="20" />
 		<_2 Name="node b material" type="sted" Offset="24" />
 	</_505640E46B58713FB15F7B8D90D74767>
-	<_4DBF4E767038EA649EFF1C74AA626531 Name="i343::PhysicsModel::PhysicsModelRigidBody" Size="C0">
+	<_4DBF4E767038EA649EFF1C74AA626531 Name="i343::PhysicsModel::PhysicsModelRigidBody" Alt="E824981F357DAD94" Size="C0">
 		<_30 Name="node" Offset="0" GUID="F5314ACA6EB5A870B2226AB19EFC24F6" StructName1="i343::PhysicsModel::PhysicsModelRigidBody" Min="0" Max="1024" />
 		<_30 Name="region" Offset="4" GUID="9BF64E04ED0288C0471025678B450894" StructName1="i343::PhysicsModel::PhysicsModelRigidBody" Min="0" Max="32" />
 		<_31 Name="permutation" Offset="8" />
@@ -240,7 +240,7 @@
 		</_F>
 		<_34 Name="generated_pad56e5" Offset="BE" Length="2" />
 	</_4DBF4E767038EA649EFF1C74AA626531>
-	<_135A4C5CB42CEADDFB51A913B9E76F3B Name="i343::PhysicsModel::Material" Size="18">
+	<_135A4C5CB42CEADDFB51A913B9E76F3B Name="i343::PhysicsModel::Material" Alt="24B4E8621AF2A620" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_F Name="flags" Offset="4" StructName1="i343::PhysicsModel::PhysicsModelMaterialFlag">
 			<Flag n="supresses effects" />
@@ -253,20 +253,20 @@
 		<_2 Name="collision layer" type="sted" Offset="10" />
 		<_2 Name="runtime collision layer" Offset="14" />
 	</_135A4C5CB42CEADDFB51A913B9E76F3B>
-	<_0E7C4658CDC71295DB7056DB8BF5F3F2 Name="i343::PhysicsModel::HavokSerializedShape" Size="38">
+	<_0E7C4658CDC71295DB7056DB8BF5F3F2 Name="i343::PhysicsModel::HavokSerializedShape" Alt="7A0C546611D6DF7F" Size="38">
 		<_7 Name="field pointer skip" Offset="0" />
 		<_40 Name="primitive" Offset="8" GUID="288640E7C9EC3299042CDCB19726F536" StructName1="i343::PhysicsModel::HavokSerializedShape" Min="0" Max="16384" />
 		<_42 Name="Havok Shape Data" Offset="1C" StructName1="i343::PhysicsModel::HavokSerializedShape.Havok Shape Data" Int1="32" Int2="4" Flags="A00000" />
 		<_34 Name="generated_pad9227" Offset="34" Length="4" />
 	</_0E7C4658CDC71295DB7056DB8BF5F3F2>
-	<_4EFB46CD8F6F4CEAF6C96F598C0250AD Name="i343::PhysicsModel::HavokSerializedMass" Size="20">
+	<_4EFB46CD8F6F4CEAF6C96F598C0250AD Name="i343::PhysicsModel::HavokSerializedMass" Alt="B2B656942714323E" Size="20">
 		<_7 Name="field pointer skip" Offset="0" />
 		<_42 Name="Havok Serialized Data" Offset="8" StructName1="i343::PhysicsModel::HavokSerializedMass.Havok Serialized Data" Int1="32" Int2="4" Flags="100000" />
 	</_4EFB46CD8F6F4CEAF6C96F598C0250AD>
-	<_8B3F4C4FEA9F162C5B8D2755B77EB86C Name="i343::PhysicsModel::HingeConstraint" Size="78">
+	<_8B3F4C4FEA9F162C5B8D2755B77EB86C Name="i343::PhysicsModel::HingeConstraint" Alt="477D7D82773D7025" Size="78">
 		<_38 Name="constraint bodies" Offset="0" GUID="10C142657E0BFE4DF736DC8CAE071B1E" />
 	</_8B3F4C4FEA9F162C5B8D2755B77EB86C>
-	<_B0F94685BD86EDC62C817F5EAD936986 Name="i343::PhysicsModel::RagdollConstraint" Size="94">
+	<_B0F94685BD86EDC62C817F5EAD936986 Name="i343::PhysicsModel::RagdollConstraint" Alt="6C01BFF0EA209825" Size="94">
 		<_38 Name="constraint bodies" Offset="0" GUID="10C142657E0BFE4DF736DC8CAE071B1E" />
 		<_14 Name="min twist" Offset="78" />
 		<_14 Name="max twist" Offset="7C" />
@@ -276,43 +276,43 @@
 		<_14 Name="max plane" Offset="8C" />
 		<_14 Name="max friciton torque" Offset="90" />
 	</_B0F94685BD86EDC62C817F5EAD936986>
-	<_360442F6028D62AF0464847D902DA71B Name="i343::PhysicsModel::RagdollSubgroup" Size="18">
+	<_360442F6028D62AF0464847D902DA71B Name="i343::PhysicsModel::RagdollSubgroup" Alt="11ED52482C722338" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_40 Name="nodes" Offset="4" GUID="02134034DD1AEF2519D2C92F8ED3B49E" StructName1="i343::PhysicsModel::RagdollSubgroup" Min="0" Max="512" />
 	</_360442F6028D62AF0464847D902DA71B>
-	<_AA7F443DB25D0D9592960B489EAC554A Name="i343::PhysicsModel::SelfCollisionPair" Size="2">
+	<_AA7F443DB25D0D9592960B489EAC554A Name="i343::PhysicsModel::SelfCollisionPair" Alt="85BAE20E682D4C5E" Size="2">
 		<_2C Name="nodeA" Offset="0" GUID="4DBF4E767038EA649EFF1C74AA626531" StructName1="i343::PhysicsModel::SelfCollisionPair" Min="0" Max="512" />
 		<_2C Name="nodeB" Offset="1" GUID="4DBF4E767038EA649EFF1C74AA626531" StructName1="i343::PhysicsModel::SelfCollisionPair" Min="0" Max="512" />
 	</_AA7F443DB25D0D9592960B489EAC554A>
-	<_9AF04FD0437187782DF68CC5936F102B Name="i343::PhysicsModel::PointToPathCurve" Size="1C">
+	<_9AF04FD0437187782DF68CC5936F102B Name="i343::PhysicsModel::PointToPathCurve" Alt="CBE9510E27F3A59D" Size="1C">
 		<_2 Name="name" Offset="0" />
 		<_30 Name="node index" Offset="4" GUID="F5314ACA6EB5A870B2226AB19EFC24F6" StructName1="i343::PhysicsModel::PointToPathCurve" Min="0" Max="1024" />
 		<_40 Name="points" Offset="8" GUID="36C149A891616CDC85C33438A79F6974" StructName1="i343::PhysicsModel::PointToPathCurve" Min="0" Max="1024" />
 	</_9AF04FD0437187782DF68CC5936F102B>
-	<_C6894AFC324085E755714655B92972C9 Name="i343::PhysicsModel::LimitedHingeConstraint" Size="84">
+	<_C6894AFC324085E755714655B92972C9 Name="i343::PhysicsModel::LimitedHingeConstraint" Alt="D8A507315D6EC92C" Size="84">
 		<_38 Name="constraint bodies" Offset="0" GUID="10C142657E0BFE4DF736DC8CAE071B1E" />
 		<_14 Name="limit friction" Offset="78" />
 		<_14 Name="limit min angle" Offset="7C" />
 		<_14 Name="limit max angle" Offset="80" />
 	</_C6894AFC324085E755714655B92972C9>
-	<_3AEA4FDFA091E412113A6E4B8CA78C97 Name="i343::PhysicsModel::BallAndSocketConstraint" Size="78">
+	<_3AEA4FDFA091E412113A6E4B8CA78C97 Name="i343::PhysicsModel::BallAndSocketConstraint" Alt="1A3FABE361BA6FE7" Size="78">
 		<_38 Name="constraint bodies" Offset="0" GUID="10C142657E0BFE4DF736DC8CAE071B1E" />
 	</_3AEA4FDFA091E412113A6E4B8CA78C97>
-	<_97164F5AAE05FFA06DECDFEAB2C13155 Name="i343::PhysicsModel::StiffSpringConstraint" Size="7C">
+	<_97164F5AAE05FFA06DECDFEAB2C13155 Name="i343::PhysicsModel::StiffSpringConstraint" Alt="3236680AC99A0C09" Size="7C">
 		<_38 Name="constraint bodies" Offset="0" GUID="10C142657E0BFE4DF736DC8CAE071B1E" />
 		<_14 Name="spring_length" Offset="78" />
 	</_97164F5AAE05FFA06DECDFEAB2C13155>
-	<_5541456436D9207E04882C0D8D6C9DC2 Name="i343::PhysicsModel::PrismaticConstraint" Size="84">
+	<_5541456436D9207E04882C0D8D6C9DC2 Name="i343::PhysicsModel::PrismaticConstraint" Alt="A9031DEACFD8C28D" Size="84">
 		<_38 Name="constraint bodies" Offset="0" GUID="10C142657E0BFE4DF736DC8CAE071B1E" />
 		<_14 Name="min_limit" Offset="78" />
 		<_14 Name="max_limit" Offset="7C" />
 		<_14 Name="max_friction_force" Offset="80" />
 	</_5541456436D9207E04882C0D8D6C9DC2>
-	<_9BF64E04ED0288C0471025678B450894 Name="i343::PhysicsModel::Region" Size="18">
+	<_9BF64E04ED0288C0471025678B450894 Name="i343::PhysicsModel::Region" Alt="AE78028FB422F05C" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_40 Name="permutations" Offset="4" GUID="676948DC127AFC6FEE946FD4A868A1E1" StructName1="i343::PhysicsModel::Region" Min="0" Max="1023" />
 	</_9BF64E04ED0288C0471025678B450894>
-	<_F5314ACA6EB5A870B2226AB19EFC24F6 Name="i343::PhysicsModel::Node" Size="14">
+	<_F5314ACA6EB5A870B2226AB19EFC24F6 Name="i343::PhysicsModel::Node" Alt="382F0B48A800C177" Size="14">
 		<_2 Name="name" Offset="0" />
 		<_D Name="flags" Offset="4" StructName1="i343::PhysicsModel::Node::PhysicsModelNodeFlags">
 			<Flag n="does not animate" />
@@ -321,7 +321,7 @@
 		<_30 Name="sibling" Offset="C" GUID="F5314ACA6EB5A870B2226AB19EFC24F6" StructName1="i343::PhysicsModel::Node" Min="0" Max="1024" />
 		<_30 Name="child" Offset="10" GUID="F5314ACA6EB5A870B2226AB19EFC24F6" StructName1="i343::PhysicsModel::Node" Min="0" Max="1024" />
 	</_F5314ACA6EB5A870B2226AB19EFC24F6>
-	<_CA074D833CBB78D58E13F4968994291A Name="error_report_category" Size="120">
+	<_CA074D833CBB78D58E13F4968994291A Name="error_report_category" Alt="D01ED771DC3AC05C" Size="120">
 		<_1 Name="name" Offset="0" />
 		<_A Name="report type" Offset="100" StructName1="ErrorReportTypes">
 			<Flag n="silent" />
@@ -342,14 +342,14 @@
 		<_6 Name="runtime something" Offset="108" />
 		<_40 Name="reports" Offset="10C" GUID="3227499FEE6AAB2040FCAA9E914508D6" StructName1="error_report_category" Min="0" Max="1048576" />
 	</_CA074D833CBB78D58E13F4968994291A>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_E29B4888C574CB19200AA3638FBE942C Name="i343::PhysicsModel::PhysicsModelNodeHandle" Size="4">
+	<_E29B4888C574CB19200AA3638FBE942C Name="i343::PhysicsModel::PhysicsModelNodeHandle" Alt="E5F3CB51B139F9FF" Size="4">
 		<_30 Name="node" Offset="0" GUID="F5314ACA6EB5A870B2226AB19EFC24F6" StructName1="i343::PhysicsModel::PhysicsModelNodeHandle" Min="0" Max="1024" />
 	</_E29B4888C574CB19200AA3638FBE942C>
-	<_5BF546479FF3F43CE1110D2FA71992D7 Name="i343::PhysicsModel::PoweredChainConstraint" Size="10">
+	<_5BF546479FF3F43CE1110D2FA71992D7 Name="i343::PhysicsModel::PoweredChainConstraint" Alt="4D4E0744070C558" Size="10">
 		<_B Name="constraint type" Offset="0" StructName1="i343::PhysicsModel::ePhysicsModelConstraintType">
 			<Flag n="hinge" />
 			<Flag n="limited hinge" />
@@ -364,7 +364,7 @@
 		<_38 Name="motor y" Offset="8" GUID="B899415ABD141981963D1E59B7B2D74F" />
 		<_38 Name="motor z" Offset="C" GUID="B899415ABD141981963D1E59B7B2D74F" />
 	</_5BF546479FF3F43CE1110D2FA71992D7>
-	<_79314C2DBB50635117A56933918CA79C Name="i343::PhysicsModel::NodeConstraintEdgeConstraint" Size="34">
+	<_79314C2DBB50635117A56933918CA79C Name="i343::PhysicsModel::NodeConstraintEdgeConstraint" Alt="16E12128D95F5B60" Size="34">
 		<_B Name="type" Offset="0" StructName1="i343::PhysicsModel::ePhysicsModelConstraintType">
 			<Flag n="hinge" />
 			<Flag n="limited hinge" />
@@ -385,10 +385,10 @@
 		<_40 Name="ragdoll motors" Offset="C" GUID="A2484B95F86CC531402EFDACBCCB97A7" StructName1="i343::PhysicsModel::NodeConstraintEdgeConstraint" Min="0" Max="1" />
 		<_40 Name="limited hinge motors" Offset="20" GUID="DA414A8749DA31C088B79390B7E96369" StructName1="i343::PhysicsModel::NodeConstraintEdgeConstraint" Min="0" Max="1" />
 	</_79314C2DBB50635117A56933918CA79C>
-	<_CF674DFA8F6677D6D115F875A77F0E68 Name="i343::PhysicsModel::RigidBodyBlockHandle" Size="4">
+	<_CF674DFA8F6677D6D115F875A77F0E68 Name="i343::PhysicsModel::RigidBodyBlockHandle" Alt="70EC6018CA6BB2D" Size="4">
 		<_30 Name="rigid body" Offset="0" GUID="4DBF4E767038EA649EFF1C74AA626531" StructName1="i343::PhysicsModel::RigidBodyBlockHandle" Min="0" Max="512" />
 	</_CF674DFA8F6677D6D115F875A77F0E68>
-	<_398647632141A8B57035FD9CA7CAD89F Name="i343::PhysicsModel::ShapeReference" Size="8">
+	<_398647632141A8B57035FD9CA7CAD89F Name="i343::PhysicsModel::ShapeReference" Alt="B25D5CE272FD13DC" Size="8">
 		<_C Name="shape type" Offset="0" StructName1="i343::PhysicsModel::ePhysicsShapeType">
 			<Flag n="Sphere" />
 			<Flag n="Pill" />
@@ -401,10 +401,10 @@
 		</_C>
 		<_31 Name="shape" Offset="4" />
 	</_398647632141A8B57035FD9CA7CAD89F>
-	<_2361439038026B6313F43DDEADDE0991 Name="i343::Physics::CollisionTypeName" Size="4">
+	<_2361439038026B6313F43DDEADDE0991 Name="i343::Physics::CollisionTypeName" Alt="95E36128F4204199" Size="4">
 		<_2 Name="name" Offset="0" />
 	</_2361439038026B6313F43DDEADDE0991>
-	<_288640E7C9EC3299042CDCB19726F536 Name="i343::PhysicsModel::Primitive" Size="28">
+	<_288640E7C9EC3299042CDCB19726F536 Name="i343::PhysicsModel::Primitive" Alt="CFE2C40CF63FDC58" Size="28">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="relative mass scale" Offset="4" />
 		<_15 Name="friction" Offset="8" />
@@ -423,7 +423,7 @@
 		<_36 Name="collision layer override" Offset="24" />
 		<_2 Name="collision layer" type="sted" Offset="24" />
 	</_288640E7C9EC3299042CDCB19726F536>
-	<_10C142657E0BFE4DF736DC8CAE071B1E Name="i343::PhysicsModel::ConstraintBodies" Size="78">
+	<_10C142657E0BFE4DF736DC8CAE071B1E Name="i343::PhysicsModel::ConstraintBodies" Alt="D627D07061806A76" Size="78">
 		<_2 Name="name" Offset="0" />
 		<_30 Name="node a" Offset="4" GUID="F5314ACA6EB5A870B2226AB19EFC24F6" StructName1="i343::PhysicsModel::ConstraintBodies" Min="0" Max="1024" />
 		<_30 Name="node b" Offset="8" GUID="F5314ACA6EB5A870B2226AB19EFC24F6" StructName1="i343::PhysicsModel::ConstraintBodies" Min="0" Max="1024" />
@@ -439,18 +439,18 @@
 		<_17 Name="b position" Offset="68" />
 		<_30 Name="edge index" Offset="74" GUID="505640E46B58713FB15F7B8D90D74767" StructName1="i343::PhysicsModel::ConstraintBodies" Min="0" Max="262144" />
 	</_10C142657E0BFE4DF736DC8CAE071B1E>
-	<_02134034DD1AEF2519D2C92F8ED3B49E Name="i343::PhysicsModel::RagdollSubgroupIndex" Size="4">
+	<_02134034DD1AEF2519D2C92F8ED3B49E Name="i343::PhysicsModel::RagdollSubgroupIndex" Alt="8F7842A5054EB736" Size="4">
 		<_30 Name="node" Offset="0" GUID="4DBF4E767038EA649EFF1C74AA626531" StructName1="i343::PhysicsModel::RagdollSubgroupIndex" Min="0" Max="512" />
 	</_02134034DD1AEF2519D2C92F8ED3B49E>
-	<_36C149A891616CDC85C33438A79F6974 Name="i343::PhysicsModel::PointToPathCurvePoint" Size="10">
+	<_36C149A891616CDC85C33438A79F6974 Name="i343::PhysicsModel::PointToPathCurvePoint" Alt="4C42AA98849663FC" Size="10">
 		<_17 Name="position" Offset="0" />
 		<_14 Name="t value" Offset="C" />
 	</_36C149A891616CDC85C33438A79F6974>
-	<_676948DC127AFC6FEE946FD4A868A1E1 Name="i343::PhysicsModel::Permutation" Size="18">
+	<_676948DC127AFC6FEE946FD4A868A1E1 Name="i343::PhysicsModel::Permutation" Alt="B243EB26E0E784EE" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_40 Name="rigid bodies" Offset="4" GUID="CF674DFA8F6677D6D115F875A77F0E68" StructName1="i343::PhysicsModel::Permutation" Min="0" Max="512" />
 	</_676948DC127AFC6FEE946FD4A868A1E1>
-	<_3227499FEE6AAB2040FCAA9E914508D6 Name="error_report" Size="EC">
+	<_3227499FEE6AAB2040FCAA9E914508D6 Name="error_report" Alt="C9C02189F0A030D1" Size="EC">
 		<_A Name="type" Offset="0" StructName1="ErrorReportTypes">
 			<Flag n="silent" />
 			<Flag n="comment" />
@@ -488,7 +488,7 @@
 		<_25 Name="bounds z" Offset="D4" />
 		<_20 Name="color" Offset="DC" />
 	</_3227499FEE6AAB2040FCAA9E914508D6>
-	<_B899415ABD141981963D1E59B7B2D74F Name="i343::PhysicsModel::MotorReference" Size="4">
+	<_B899415ABD141981963D1E59B7B2D74F Name="i343::PhysicsModel::MotorReference" Alt="BA7548136CEE0E30" Size="4">
 		<_B Name="motor type" Offset="0" StructName1="i343::PhysicsModel::ePhysicsModelMotorType">
 			<Flag n="none" />
 			<Flag n="damped spring" />
@@ -496,7 +496,7 @@
 		</_B>
 		<_2F Name="index" Offset="2" />
 	</_B899415ABD141981963D1E59B7B2D74F>
-	<_A2484B95F86CC531402EFDACBCCB97A7 Name="i343::PhysicsModel::RagdollMotors" Size="C">
+	<_A2484B95F86CC531402EFDACBCCB97A7 Name="i343::PhysicsModel::RagdollMotors" Alt="3F4F9F21BB7B2702" Size="C">
 		<_36 Name="twist" Offset="0" />
 		<_38 Name="twist motor" Offset="0" GUID="B899415ABD141981963D1E59B7B2D74F" />
 		<_36 Name="cone" Offset="4" />
@@ -504,55 +504,55 @@
 		<_36 Name="plane" Offset="8" />
 		<_38 Name="plane motor" Offset="8" GUID="B899415ABD141981963D1E59B7B2D74F" />
 	</_A2484B95F86CC531402EFDACBCCB97A7>
-	<_DA414A8749DA31C088B79390B7E96369 Name="i343::PhysicsModel::LimitedHingeMotors" Size="4">
+	<_DA414A8749DA31C088B79390B7E96369 Name="i343::PhysicsModel::LimitedHingeMotors" Alt="EF2197E772E20E00" Size="4">
 		<_38 Name="motor" Offset="0" GUID="B899415ABD141981963D1E59B7B2D74F" />
 	</_DA414A8749DA31C088B79390B7E96369>
-	<_A884463DB44D11D10E390450B9552513 Name="error_report_vertex" Size="34">
+	<_A884463DB44D11D10E390450B9552513 Name="error_report_vertex" Alt="65207E7980C18C96" Size="34">
 		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
 		<_20 Name="color" Offset="20" />
 		<_14 Name="screen size" Offset="30" />
 	</_A884463DB44D11D10E390450B9552513>
-	<_0B4E4E8DF617E03802745E1FAF4F86B9 Name="error_report_vector" Size="40">
+	<_0B4E4E8DF617E03802745E1FAF4F86B9 Name="error_report_vector" Alt="653D8CACF7E1CA3B" Size="40">
 		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
 		<_20 Name="color" Offset="20" />
 		<_19 Name="normal" Offset="30" />
 		<_14 Name="screen length" Offset="3C" />
 	</_0B4E4E8DF617E03802745E1FAF4F86B9>
-	<_604A43561C172D3CE0CA82848F1BDE48 Name="error_report_line" Size="50">
+	<_604A43561C172D3CE0CA82848F1BDE48 Name="error_report_line" Alt="BFC04E6F05B86FA1" Size="50">
 		<_39 Name="points" Offset="0" GUID="338142C90F4729E04888C89ABB1ABDAE" Count="2" StructName1="points" />
 		<_20 Name="color" Offset="40" />
 	</_604A43561C172D3CE0CA82848F1BDE48>
-	<_001244E3F926E7612B96347A85173116 Name="error_report_triangle" Size="70">
+	<_001244E3F926E7612B96347A85173116 Name="error_report_triangle" Alt="E97DAA6C638534CB" Size="70">
 		<_39 Name="points" Offset="0" GUID="DDD84F94D717639859AEA1898AFE9068" Count="3" StructName1="points" />
 		<_20 Name="color" Offset="60" />
 	</_001244E3F926E7612B96347A85173116>
-	<_E7D84305D1071621C52955BF8AEA9FCC Name="error_report_quad" Size="90">
+	<_E7D84305D1071621C52955BF8AEA9FCC Name="error_report_quad" Alt="2F1967264D6D55AF" Size="90">
 		<_39 Name="points" Offset="0" GUID="0A0E42FD81027CE96EB082A3AE95FE26" Count="4" StructName1="points" />
 		<_20 Name="color" Offset="80" />
 	</_E7D84305D1071621C52955BF8AEA9FCC>
-	<_DEA34617709A9566DB6DE9508AFF50B9 Name="error_report_comment" Size="48">
+	<_DEA34617709A9566DB6DE9508AFF50B9 Name="error_report_comment" Alt="E322C3E2726E34E4" Size="48">
 		<_42 Name="text" Offset="0" StructName1="error_report_comment.text" Int1="2" Int2="0" Flags="2000" />
 		<_38 Name="point" Offset="18" GUID="78534A62B6C2368CE2181EF59882F40C" />
 		<_20 Name="color" Offset="38" />
 	</_DEA34617709A9566DB6DE9508AFF50B9>
-	<_78534A62B6C2368CE2181EF59882F40C Name="error_report_point" Size="20">
+	<_78534A62B6C2368CE2181EF59882F40C Name="error_report_point" Alt="A33BDDEC96E56D7C" Size="20">
 		<_17 Name="position" Offset="0" />
 		<_39 Name="node indices" Offset="C" GUID="F4FF4938B0BC81FECE3EBDC0BA0BD7A5" Count="4" StructName1="node indices" />
 		<_39 Name="node weights" Offset="10" GUID="A37C4DC7FA12933312F05638B1050C1B" Count="4" StructName1="node weights" />
 	</_78534A62B6C2368CE2181EF59882F40C>
-	<_338142C90F4729E04888C89ABB1ABDAE Name="ErrorReportLinePoint" Size="20">
+	<_338142C90F4729E04888C89ABB1ABDAE Name="ErrorReportLinePoint" Alt="6D317007B5B794AD" Size="20">
 		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
 	</_338142C90F4729E04888C89ABB1ABDAE>
-	<_DDD84F94D717639859AEA1898AFE9068 Name="ErrorReportTrianglePoint" Size="20">
+	<_DDD84F94D717639859AEA1898AFE9068 Name="ErrorReportTrianglePoint" Alt="3B3A463DCF0C03F8" Size="20">
 		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
 	</_DDD84F94D717639859AEA1898AFE9068>
-	<_0A0E42FD81027CE96EB082A3AE95FE26 Name="ErrorReportQuadPoint" Size="20">
+	<_0A0E42FD81027CE96EB082A3AE95FE26 Name="ErrorReportQuadPoint" Alt="FA5DF29DE17DD88F" Size="20">
 		<_38 Name="point" Offset="0" GUID="78534A62B6C2368CE2181EF59882F40C" />
 	</_0A0E42FD81027CE96EB082A3AE95FE26>
-	<_F4FF4938B0BC81FECE3EBDC0BA0BD7A5 Name="ErrorReportNodeIndex" Size="1">
+	<_F4FF4938B0BC81FECE3EBDC0BA0BD7A5 Name="ErrorReportNodeIndex" Alt="33B827F7EFE678A2" Size="1">
 		<_3C Name="node index" Offset="0" />
 	</_F4FF4938B0BC81FECE3EBDC0BA0BD7A5>
-	<_A37C4DC7FA12933312F05638B1050C1B Name="ErrorReportNodeWeight" Size="4">
+	<_A37C4DC7FA12933312F05638B1050C1B Name="ErrorReportNodeWeight" Alt="538565A3DBD584DC" Size="4">
 		<_14 Name="node weight" Offset="0" />
 	</_A37C4DC7FA12933312F05638B1050C1B>
 </root>

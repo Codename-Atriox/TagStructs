@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="ai_dialogue_globals" Parents="aTag" Index="-11">
-	<_55DC4CE628A048279C6549DC95458C49 Name="ai_dialogue_definitions" Size="98">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="ai_dialogue_globals" Parents="aTag" Index="-11">
+	<_55DC4CE628A048279C6549DC95458C49 Name="ai_dialogue_definitions" Alt="2E8E027437D35B7D" Size="98">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Global timing" Offset="10" />
 		<_25 Name="strike delay bounds" Offset="10" />
@@ -38,17 +38,17 @@
 		<_40 Name="DSD tags" Offset="7C" GUID="98BC488086CB9639C67E8B7C96D7451D" StructName1="ai_dialogue_definitions" Min="0" Max="16" />
 		<_7 Name="runtime dialogue system data" Offset="90" />
 	</_55DC4CE628A048279C6549DC95458C49>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_26B849B048735579B3EE55B0B08B966D Name="DefaultStimulusSuppressorParam" Size="4">
+	<_26B849B048735579B3EE55B0B08B966D Name="DefaultStimulusSuppressorParam" Alt="602424C076E0115D" Size="4">
 		<_2 Name="stimulus" Offset="0" />
 	</_26B849B048735579B3EE55B0B08B966D>
-	<_98BC488086CB9639C67E8B7C96D7451D Name="DialogueSystemDataTagReference" Size="1C">
+	<_98BC488086CB9639C67E8B7C96D7451D Name="DialogueSystemDataTagReference" Alt="A47A51C4C49751B1" Size="1C">
 		<_41 Name="dialogue_system_data tag" Offset="0" Allowed="dsdt" Flags="0" />
 	</_98BC488086CB9639C67E8B7C96D7451D>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>

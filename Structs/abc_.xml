@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="abc" Parents="aTag" Index="-7">
-	<_5824BE17EB18C94127C09D080E0D698E Name="AbcSourceFileTag" Size="25C">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="abc" Parents="aTag" Index="-7">
+	<_5824BE17EB18C94127C09D080E0D698E Name="AbcSourceFileTag" Alt="788E80C002206A0C" Size="25C">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="ptr" Offset="10" GUID="9D3A48FB7321CE60577D2FA6979F203D" />
 		<_44 Name="dccSourcePath" Offset="118" />
@@ -12,19 +12,19 @@
 		<_40 Name="statistics" Offset="244" GUID="9D3B48FB7321C26057FD2FA697AF203D" StructName1="AbcSourceFileTag" Min="0" Max="64" />
 		<_34 Name="generated_pad18e1" Offset="258" Length="4" />
 	</_5824BE17EB18C94127C09D080E0D698E>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_9D3A48FB7321CE60577D2FA6979F203D Name="AbcArchivePointer" Size="108">
+	<_9D3A48FB7321CE60577D2FA6979F203D Name="AbcArchivePointer" Alt="E29B99843B2ABB35" Size="108">
 		<_7 Name="Archive read pointer" type="arpt" Offset="0" />
 		<_1 Name="Name" type="name" Offset="8" />
 	</_9D3A48FB7321CE60577D2FA6979F203D>
-	<_9D3B48FB7321C26057FD2FA697AF203D Name="AbcStat" Size="8">
+	<_9D3B48FB7321C26057FD2FA697AF203D Name="AbcStat" Alt="1E30C1656EC85C5" Size="8">
 		<_2 Name="Name" Offset="0" />
 		<_2 Name="Value" Offset="4" />
 	</_9D3B48FB7321C26057FD2FA697AF203D>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>

@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:11 PM" Name="light" Parents="aTag" Index="-234">
-	<_B6AF482D671EB9F2EDB665A1902D0F25 Name="DynamicLight" Size="258">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="light" Parents="aTag" Index="-234">
+	<_B6AF482D671EB9F2EDB665A1902D0F25 Name="DynamicLight" Alt="C60FB603CFFD2857" Size="258">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="Midnight_Light_Parameters" Offset="10" GUID="E0004613C74B158EE1E69DA7893D65F6" />
 	</_B6AF482D671EB9F2EDB665A1902D0F25>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_E0004613C74B158EE1E69DA7893D65F6 Name="LightDefinition" Size="248">
+	<_E0004613C74B158EE1E69DA7893D65F6 Name="LightDefinition" Alt="C1F39845AD3A49FA" Size="248">
 		<_36 Name="Dynamic/Static Shared Light Parameters" Offset="0" />
 		<_2 Name="haloLightNode" Offset="0" />
 		<_C Name="Type" Offset="4" StructName1="e_light_type">
@@ -171,11 +171,11 @@
 		<_6 Name="tick of last state update" Offset="240" />
 		<_6 Name="tick of last bounding sphere update" Offset="244" />
 	</_E0004613C74B158EE1E69DA7893D65F6>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_42B4434A26AA4A8308A920CD93ACA3CB Name="ScalarLightFunction" Size="28">
+	<_42B4434A26AA4A8308A920CD93ACA3CB Name="ScalarLightFunction" Alt="6C5BF192D9EB5A00" Size="28">
 		<_2 Name="Input Variable" type="fnin" Offset="0" />
 		<_2 Name="Range Variable" type="fnir" Offset="4" />
 		<_B Name="Output Modifier" type="fnop" Offset="8" StructName1="LightOutputModifier">
@@ -188,7 +188,7 @@
 		<_37 Name="Mapping" type="fned" Offset="10" />
 		<_38 Name="Mapping" Offset="10" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_42B4434A26AA4A8308A920CD93ACA3CB>
-	<_54F94FD03DBB8F1A297A30789D24DA91 Name="ColorLightFunction" Size="28">
+	<_54F94FD03DBB8F1A297A30789D24DA91 Name="ColorLightFunction" Alt="C2113354367541E5" Size="28">
 		<_2 Name="Input Variable" type="fnin" Offset="0" />
 		<_2 Name="Range Variable" type="fnir" Offset="4" />
 		<_B Name="Output Modifier" type="fnop" Offset="8" StructName1="LightOutputModifier">
@@ -201,9 +201,9 @@
 		<_37 Name="Mapping" type="fned" Offset="10" />
 		<_38 Name="Mapping" Offset="10" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_54F94FD03DBB8F1A297A30789D24DA91>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

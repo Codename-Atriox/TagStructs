@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="CampaignGlobalsDefinition" Parents="aTag" Index="-66">
-	<_4F05B3AD18DF4EF6A86D4C1717BAE88B Name="i343::CampaignGlobals" Size="B0">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="CampaignGlobalsDefinition" Parents="aTag" Index="-66">
+	<_4F05B3AD18DF4EF6A86D4C1717BAE88B Name="i343::CampaignGlobals" Alt="E186B3CF3EC5C194" Size="B0">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="campaign globals" Offset="10" GUID="5D9F42C7F61EC9E0C93953349A776B9E" StructName1="i343::CampaignGlobals" Min="0" Max="15" />
 		<_41 Name="Influencer default spawn settings" Offset="24" Allowed="ssdf" Flags="0" />
@@ -9,11 +9,11 @@
 		<_41 Name="Valor Rewards Definition" Offset="78" Allowed="valu" Flags="0" />
 		<_41 Name="Gameplay Menu UI Info" Offset="94" Allowed="uigm" Flags="0" />
 	</_4F05B3AD18DF4EF6A86D4C1717BAE88B>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_5D9F42C7F61EC9E0C93953349A776B9E Name="i343::s_game_globals_campaign" Size="28">
+	<_5D9F42C7F61EC9E0C93953349A776B9E Name="i343::s_game_globals_campaign" Alt="4B05C8AF0BD3B4C6" Size="28">
 		<_40 Name="maps" Offset="0" GUID="66344144087BEF9FE42FE8BD975BC70F" StructName1="i343::s_game_globals_campaign" Min="0" Max="3" />
 		<_2 Name="mission name" Offset="14" />
 		<_2 Name="mission description" Offset="18" />
@@ -21,11 +21,11 @@
 		<_2 Name="mission CMS guid" Offset="20" />
 		<_2 Name="mission team" Offset="24" />
 	</_5D9F42C7F61EC9E0C93953349A776B9E>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_66344144087BEF9FE42FE8BD975BC70F Name="i343::s_campaign_mission_map_definition" Size="8">
+	<_66344144087BEF9FE42FE8BD975BC70F Name="i343::s_campaign_mission_map_definition" Alt="161D4F1D5D78E63F" Size="8">
 		<_6 Name="map id" Offset="0" />
 		<_2 Name="map name" Offset="4" />
 	</_66344144087BEF9FE42FE8BD975BC70F>

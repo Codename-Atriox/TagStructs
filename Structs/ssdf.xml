@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="SpawnSettings" Parents="aTag" Index="-402">
-	<_F1D44565D4FD6AF4C43A50F8B4FF38A0 Name="Spawning::SpawnSettingsTagGroup" Size="D0">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="SpawnSettings" Parents="aTag" Index="-402">
+	<_F1D44565D4FD6AF4C43A50F8B4FF38A0 Name="Spawning::SpawnSettingsTagGroup" Alt="D3A2517660E0BCFD" Size="D0">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_14 Name="Minimum spawn time" Offset="10" />
 		<_36 Name="Unseen spawning settings" Offset="14" />
@@ -29,38 +29,38 @@
 		<_36 Name="Object Dispenser Influencers" Offset="BC" />
 		<_40 Name="Object dispenser influencers" Offset="BC" GUID="6B4C423C3853228C71DBFC629DDEC121" StructName1="Spawning::SpawnSettingsTagGroup" Min="0" Max="1024" />
 	</_F1D44565D4FD6AF4C43A50F8B4FF38A0>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_E4584342577C0D30F46F23D3BEA03BBF Name="Spawning::UnitOnlyInfluencerDefinition" Size="34">
+	<_E4584342577C0D30F46F23D3BEA03BBF Name="Spawning::UnitOnlyInfluencerDefinition" Alt="3F825E9D463E1525" Size="34">
 		<_D Name="Flags" Offset="0" StructName1="Spawning::UnitOnlyInfluencerFlags">
 			<Flag n="Does not stack" />
 		</_D>
 		<_38 Name="Unit Influencer" Offset="4" GUID="4098497DDA984EB269308CF1A2B81A33" />
 	</_E4584342577C0D30F46F23D3BEA03BBF>
-	<_27104B45E10D7D539154E15783628785 Name="Spawning::UnitInfluencerParam" Size="30">
+	<_27104B45E10D7D539154E15783628785 Name="Spawning::UnitInfluencerParam" Alt="39B72C9F38078659" Size="30">
 		<_38 Name="Unit Influencer" Offset="0" GUID="4098497DDA984EB269308CF1A2B81A33" />
 	</_27104B45E10D7D539154E15783628785>
-	<_1070486487D4A84558B8ED5096A1F457 Name="Spawning::WeaponInfluencerDefinition" Size="34">
+	<_1070486487D4A84558B8ED5096A1F457 Name="Spawning::WeaponInfluencerDefinition" Alt="ABAC8AE382112333" Size="34">
 		<_41 Name="Weapon" Offset="0" Allowed="weap" Flags="1" />
 		<_40 Name="Unit influencer" Offset="1C" GUID="27104B45E10D7D539154E15783628785" StructName1="Spawning::WeaponInfluencerDefinition" Min="0" Max="1024" />
 		<_14 Name="Location unseen multiplier" Offset="30" />
 	</_1070486487D4A84558B8ED5096A1F457>
-	<_32A6490664AE7B1CEBC0BE95892A75B8 Name="Spawning::VehicleInfluencerDefinition" Size="30">
+	<_32A6490664AE7B1CEBC0BE95892A75B8 Name="Spawning::VehicleInfluencerDefinition" Alt="95269A77F16E698B" Size="30">
 		<_41 Name="Vehicle" Offset="0" Allowed="vehi" Flags="1" />
 		<_40 Name="Unit influencer" Offset="1C" GUID="27104B45E10D7D539154E15783628785" StructName1="Spawning::VehicleInfluencerDefinition" Min="0" Max="1024" />
 	</_32A6490664AE7B1CEBC0BE95892A75B8>
-	<_2EB94C806E14464DB772B549A81C3654 Name="Spawning::ProjectileInfluencerDefinition" Size="44">
+	<_2EB94C806E14464DB772B549A81C3654 Name="Spawning::ProjectileInfluencerDefinition" Alt="22D050430E9F54EE" Size="44">
 		<_41 Name="Projectile" Offset="0" Allowed="proj" Flags="1" />
 		<_40 Name="Influencer" Offset="1C" GUID="642D4EC907632E4D9165B315B2A58057" StructName1="Spawning::ProjectileInfluencerDefinition" Min="0" Max="256" />
 		<_40 Name="Movement influencer" Offset="30" GUID="F09D45529FF8CEAC4FCC38FC989EA460" StructName1="Spawning::ProjectileInfluencerDefinition" Min="0" Max="256" />
 	</_2EB94C806E14464DB772B549A81C3654>
-	<_300F4A332642BDE41B904F858ABD12F8 Name="Spawning::EquipmentInfluencerDefinition" Size="30">
+	<_300F4A332642BDE41B904F858ABD12F8 Name="Spawning::EquipmentInfluencerDefinition" Alt="A929AD8FD277FE58" Size="30">
 		<_41 Name="Equipment" Offset="0" Allowed="eqip" Flags="1" />
 		<_40 Name="Influencer" Offset="1C" GUID="642D4EC907632E4D9165B315B2A58057" StructName1="Spawning::EquipmentInfluencerDefinition" Min="0" Max="256" />
 	</_300F4A332642BDE41B904F858ABD12F8>
-	<_6B4C423C3853228C71DBFC629DDEC121 Name="Spawning::ObjectDispenserInfluencerDefinition" Size="18">
+	<_6B4C423C3853228C71DBFC629DDEC121 Name="Spawning::ObjectDispenserInfluencerDefinition" Alt="A24A90226E3E20C5" Size="18">
 		<_F Name="Filter flags" Offset="0" StructName1="i343::ObjectDispenser::ObjectDispenserInfluencerFilterFlags">
 			<Flag n="None" />
 			<Flag n="Weapon Incoming" />
@@ -71,11 +71,11 @@
 		<_34 Name="generated_pad3f4d" Offset="1" Length="3" />
 		<_40 Name="Influencer" Offset="4" GUID="642D4EC907632E4D9165B315B2A58057" StructName1="Spawning::ObjectDispenserInfluencerDefinition" Min="0" Max="256" />
 	</_6B4C423C3853228C71DBFC629DDEC121>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_4098497DDA984EB269308CF1A2B81A33 Name="Spawning::UnitInfluencerDefinition" Size="30">
+	<_4098497DDA984EB269308CF1A2B81A33 Name="Spawning::UnitInfluencerDefinition" Alt="994C20BABE4A6C4" Size="30">
 		<_D Name="Filter flags" Offset="0" StructName1="Spawning::UnitInfluencerFilterFlags">
 			<Flag n="Player controlled" />
 			<Flag n="Not player controlled" />
@@ -91,18 +91,18 @@
 		<_40 Name="Influencer" Offset="8" GUID="642D4EC907632E4D9165B315B2A58057" StructName1="Spawning::UnitInfluencerDefinition" Min="0" Max="256" />
 		<_40 Name="Movement influencer" Offset="1C" GUID="F09D45529FF8CEAC4FCC38FC989EA460" StructName1="Spawning::UnitInfluencerDefinition" Min="0" Max="256" />
 	</_4098497DDA984EB269308CF1A2B81A33>
-	<_642D4EC907632E4D9165B315B2A58057 Name="Spawning::InfluencerRegion" Size="50">
+	<_642D4EC907632E4D9165B315B2A58057 Name="Spawning::InfluencerRegion" Alt="F9E4A1A96FA04CAA" Size="50">
 		<_40 Name="Sphere" Offset="0" GUID="EDF54684201B5264EC926E7CA1CC5BF1" StructName1="Spawning::InfluencerRegion" Min="0" Max="256" />
 		<_40 Name="Box" Offset="14" GUID="F27D4E618BD9C8E9C7EAC0B3A02F2958" StructName1="Spawning::InfluencerRegion" Min="0" Max="256" />
 		<_40 Name="Cylinder" Offset="28" GUID="6F374E83BB97B2728E9AE84F90CBD5AA" StructName1="Spawning::InfluencerRegion" Min="0" Max="256" />
 		<_40 Name="Cone" Offset="3C" GUID="502A4A7A39DD0A85B2DB42B8A333D0D2" StructName1="Spawning::InfluencerRegion" Min="0" Max="256" />
 	</_642D4EC907632E4D9165B315B2A58057>
-	<_F09D45529FF8CEAC4FCC38FC989EA460 Name="Spawning::MovingInfluencerRegion" Size="2C">
+	<_F09D45529FF8CEAC4FCC38FC989EA460 Name="Spawning::MovingInfluencerRegion" Alt="3CF2498FBA1BC9F3" Size="2C">
 		<_14 Name="Lead time" Offset="0" />
 		<_40 Name="Cone" Offset="4" GUID="502A4A7A39DD0A85B2DB42B8A333D0D2" StructName1="Spawning::MovingInfluencerRegion" Min="0" Max="256" />
 		<_40 Name="Pill" Offset="18" GUID="1628435C16E35856E7B7476900009B90" StructName1="Spawning::MovingInfluencerRegion" Min="0" Max="256" />
 	</_F09D45529FF8CEAC4FCC38FC989EA460>
-	<_EDF54684201B5264EC926E7CA1CC5BF1 Name="Spawning::SphereInfluencerRegion" Size="20">
+	<_EDF54684201B5264EC926E7CA1CC5BF1 Name="Spawning::SphereInfluencerRegion" Alt="30808AFE4516EC91" Size="20">
 		<_D Name="Flags" Offset="0" StructName1="Spawning::InfluencerRegionBehaviorFlags">
 			<Flag n="Reject Spawn" />
 		</_D>
@@ -110,7 +110,7 @@
 		<_14 Name="Weight" Offset="8" />
 		<_40 Name="Weight function" Offset="C" GUID="2EBB452B5CE5FE7D31838B95968018DB" StructName1="Spawning::SphereInfluencerRegion" Min="0" Max="1" />
 	</_EDF54684201B5264EC926E7CA1CC5BF1>
-	<_F27D4E618BD9C8E9C7EAC0B3A02F2958 Name="Spawning::BoxInfluencerRegion" Size="14">
+	<_F27D4E618BD9C8E9C7EAC0B3A02F2958 Name="Spawning::BoxInfluencerRegion" Alt="277C7A74B0443169" Size="14">
 		<_D Name="Flags" Offset="0" StructName1="Spawning::InfluencerRegionBehaviorFlags">
 			<Flag n="Reject Spawn" />
 		</_D>
@@ -119,7 +119,7 @@
 		<_14 Name="Height" Offset="C" />
 		<_14 Name="Weight" Offset="10" />
 	</_F27D4E618BD9C8E9C7EAC0B3A02F2958>
-	<_6F374E83BB97B2728E9AE84F90CBD5AA Name="Spawning::CylinderInfluencerRegion" Size="24">
+	<_6F374E83BB97B2728E9AE84F90CBD5AA Name="Spawning::CylinderInfluencerRegion" Alt="68DB9311D3D09831" Size="24">
 		<_D Name="Flags" Offset="0" StructName1="Spawning::InfluencerRegionBehaviorFlags">
 			<Flag n="Reject Spawn" />
 		</_D>
@@ -128,7 +128,7 @@
 		<_14 Name="Weight" Offset="C" />
 		<_40 Name="Weight function" Offset="10" GUID="2EBB452B5CE5FE7D31838B95968018DB" StructName1="Spawning::CylinderInfluencerRegion" Min="0" Max="1" />
 	</_6F374E83BB97B2728E9AE84F90CBD5AA>
-	<_502A4A7A39DD0A85B2DB42B8A333D0D2 Name="Spawning::ConeInfluencerRegion" Size="24">
+	<_502A4A7A39DD0A85B2DB42B8A333D0D2 Name="Spawning::ConeInfluencerRegion" Alt="E8906BA33E168479" Size="24">
 		<_D Name="Flags" Offset="0" StructName1="Spawning::InfluencerRegionBehaviorFlags">
 			<Flag n="Reject Spawn" />
 		</_D>
@@ -137,7 +137,7 @@
 		<_14 Name="Weight" Offset="C" />
 		<_40 Name="Weight function" Offset="10" GUID="2EBB452B5CE5FE7D31838B95968018DB" StructName1="Spawning::ConeInfluencerRegion" Min="0" Max="1" />
 	</_502A4A7A39DD0A85B2DB42B8A333D0D2>
-	<_1628435C16E35856E7B7476900009B90 Name="Spawning::PillInfluencerRegion" Size="24">
+	<_1628435C16E35856E7B7476900009B90 Name="Spawning::PillInfluencerRegion" Alt="95A9337542D0B2A4" Size="24">
 		<_D Name="Flags" Offset="0" StructName1="Spawning::InfluencerRegionBehaviorFlags">
 			<Flag n="Reject Spawn" />
 		</_D>
@@ -146,16 +146,16 @@
 		<_14 Name="Weight" Offset="C" />
 		<_40 Name="Weight function" Offset="10" GUID="2EBB452B5CE5FE7D31838B95968018DB" StructName1="Spawning::PillInfluencerRegion" Min="0" Max="1" />
 	</_1628435C16E35856E7B7476900009B90>
-	<_2EBB452B5CE5FE7D31838B95968018DB Name="Spawning::WeightFunctionParam" Size="18">
+	<_2EBB452B5CE5FE7D31838B95968018DB Name="Spawning::WeightFunctionParam" Alt="BD2C50F4C0E94C04" Size="18">
 		<_38 Name="Function" Offset="0" GUID="0276481E72CB9289F56D7C189467A351" />
 	</_2EBB452B5CE5FE7D31838B95968018DB>
-	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

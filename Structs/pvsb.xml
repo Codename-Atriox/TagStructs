@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="zoneset_baked_pvs" Parents="aTag" Index="-330">
-	<_2A814B239FA1941A5EB9CA65A2461D3C Name="i343::ScenarioZoneSetBakedPVS::BakedPVSTag" Size="48">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="zoneset_baked_pvs" Parents="aTag" Index="-330">
+	<_2A814B239FA1941A5EB9CA65A2461D3C Name="i343::ScenarioZoneSetBakedPVS::BakedPVSTag" Alt="4E892DA84A1F7EB8" Size="48">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="BSP index map" Offset="10" GUID="D9574E4110CB84FF821E2594A4708748" StructName1="i343::ScenarioZoneSetBakedPVS::BakedPVSTag" Min="0" Max="65535" />
 		<_40 Name="Per BSP data" Offset="24" GUID="6BD94BE610401E2CD5566AFAAA5D6719" StructName1="i343::ScenarioZoneSetBakedPVS::BakedPVSTag" Min="0" Max="32" />
 		<_43 Name="resource data" Offset="38" StructName1="i343::ScenarioZoneSetBakedPVS::Resource" Int1="0" GUID="963145593ED29987989CCE5E93A7CD11" />
 	</_2A814B239FA1941A5EB9CA65A2461D3C>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_D9574E4110CB84FF821E2594A4708748 Name="i343::ScenarioZoneSetBakedPVS::SubregionLongParam" Size="4">
+	<_D9574E4110CB84FF821E2594A4708748 Name="i343::ScenarioZoneSetBakedPVS::SubregionLongParam" Alt="4CC36BAC031D23A1" Size="4">
 		<_6 Name="Value" Offset="0" />
 	</_D9574E4110CB84FF821E2594A4708748>
-	<_6BD94BE610401E2CD5566AFAAA5D6719 Name="i343::ScenarioZoneSetBakedPVS::PerBSPData" Size="50">
+	<_6BD94BE610401E2CD5566AFAAA5D6719 Name="i343::ScenarioZoneSetBakedPVS::PerBSPData" Alt="B8FB8A4AB65D1A8E" Size="50">
 		<_40 Name="Subregion array" Offset="0" GUID="96EB4E168F7434E39A1C999C9746E933" StructName1="i343::ScenarioZoneSetBakedPVS::PerBSPData" Min="0" Max="65535" />
 		<_17 Name="AABB min" Offset="14" />
 		<_17 Name="AABB max" Offset="20" />
@@ -24,22 +24,22 @@
 		<_6 Name="BSP index" Offset="44" />
 		<_7 Name="Instance Postprocess Checksum" Offset="48" />
 	</_6BD94BE610401E2CD5566AFAAA5D6719>
-	<_963145593ED29987989CCE5E93A7CD11 Name="i343::ScenarioZoneSetBakedPVS::Resource" Size="28">
+	<_963145593ED29987989CCE5E93A7CD11 Name="i343::ScenarioZoneSetBakedPVS::Resource" Alt="F5CBB48671851944" Size="28">
 		<_40 Name="BSP index map" Offset="0" GUID="D9574E4110CB84FF821E2594A4708748" StructName1="i343::ScenarioZoneSetBakedPVS::Resource" Min="0" Max="65535" />
 		<_40 Name="Per BSP data" Offset="14" GUID="6BD94BE610401E2CD5566AFAAA5D6719" StructName1="i343::ScenarioZoneSetBakedPVS::Resource" Min="0" Max="32" />
 	</_963145593ED29987989CCE5E93A7CD11>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_96EB4E168F7434E39A1C999C9746E933 Name="i343::ScenarioZoneSetBakedPVS::Subregion" Size="20">
+	<_96EB4E168F7434E39A1C999C9746E933 Name="i343::ScenarioZoneSetBakedPVS::Subregion" Alt="10A272FCDAAB7357" Size="20">
 		<_40 Name="Visibility array" Offset="0" GUID="DEE94EC61DAA41DE34E8F6F79E9B798E" StructName1="i343::ScenarioZoneSetBakedPVS::Subregion" Min="0" Max="65535" />
 		<_3D Name="sx" Offset="14" />
 		<_3D Name="sy" Offset="16" />
 		<_14 Name="z min" Offset="18" />
 		<_14 Name="z max" Offset="1C" />
 	</_96EB4E168F7434E39A1C999C9746E933>
-	<_DEE94EC61DAA41DE34E8F6F79E9B798E Name="i343::ScenarioZoneSetBakedPVS::SubregionDwordParam" Size="4">
+	<_DEE94EC61DAA41DE34E8F6F79E9B798E Name="i343::ScenarioZoneSetBakedPVS::SubregionDwordParam" Alt="2E71116BEC858551" Size="4">
 		<_3E Name="Value" Offset="0" />
 	</_DEE94EC61DAA41DE34E8F6F79E9B798E>
 </root>

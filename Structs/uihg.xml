@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="user_interface_hud_globals_definition" Parents="aTag" Index="-445">
-	<_2C16428726873A9CDBD13CFCA3863666 Name="UserInterfaceHUDGlobalsDefinitions" Size="230">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="user_interface_hud_globals_definition" Parents="aTag" Index="-445">
+	<_2C16428726873A9CDBD13CFCA3863666 Name="UserInterfaceHUDGlobalsDefinitions" Alt="60DE67BAC889B780" Size="230">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="Motion Sensor" type="fgrb" Offset="10" />
 		<_36 Name="Motion sensor globals" Offset="10" />
@@ -116,25 +116,25 @@
 		<_37 Name="" type="fgre" Offset="22C" />
 		<_34 Name="generated_pad28bd" Offset="22C" Length="4" />
 	</_2C16428726873A9CDBD13CFCA3863666>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_A6FF42D42B3A1AE4D49AD4BA8BC40BBA Name="NavPointSetTagReference" Size="1C">
+	<_A6FF42D42B3A1AE4D49AD4BA8BC40BBA Name="NavPointSetTagReference" Alt="F9B1913859FAE153" Size="1C">
 		<_41 Name="reference" Offset="0" Allowed="nvps" Flags="0" />
 	</_A6FF42D42B3A1AE4D49AD4BA8BC40BBA>
-	<_E75045ADD19DE36F8598401C80EA58B1 Name="DockingPosition" Size="C">
+	<_E75045ADD19DE36F8598401C80EA58B1 Name="DockingPosition" Alt="C196A65D49739E7F" Size="C">
 		<_2 Name="Name" Offset="0" />
 		<_16 Name="Position" Offset="4" />
 	</_E75045ADD19DE36F8598401C80EA58B1>
-	<_4CA54CECF35BA8A62117E52294707022 Name="StringFileReferences" Size="1C">
+	<_4CA54CECF35BA8A62117E52294707022 Name="StringFileReferences" Alt="2B51DBB8C47CF53A" Size="1C">
 		<_41 Name="new string list" Offset="0" Allowed="uslg" Flags="0" />
 	</_4CA54CECF35BA8A62117E52294707022>
-	<_E6BA4E3449C7F1DD1EBA1DDF929FAC9A Name="Interface::StringIdOverride" Size="8">
+	<_E6BA4E3449C7F1DD1EBA1DDF929FAC9A Name="Interface::StringIdOverride" Alt="24892CF154094CD0" Size="8">
 		<_2 Name="original string id" Offset="0" />
 		<_2 Name="string id override" Offset="4" />
 	</_E6BA4E3449C7F1DD1EBA1DDF929FAC9A>
-	<_ECC94BAE272F07A65AF180C781E8DA22 Name="HUDParallaxParamsBlock" Size="58">
+	<_ECC94BAE272F07A65AF180C781E8DA22 Name="HUDParallaxParamsBlock" Alt="8A6DF0B8AB77D32A" Size="58">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="parallax falloff time" Offset="4" />
 		<_14 Name="parallax camera velocity factor" Offset="8" />
@@ -150,7 +150,7 @@
 		</_A>
 		<_34 Name="generated_pade2be" Offset="55" Length="3" />
 	</_ECC94BAE272F07A65AF180C781E8DA22>
-	<_09374470743AD28A35C85DBCB83BE0C0 Name="HUDWarpParamsBlock" Size="38">
+	<_09374470743AD28A35C85DBCB83BE0C0 Name="HUDWarpParamsBlock" Alt="81B4300DDF86BF71" Size="38">
 		<_2 Name="name" Offset="0" />
 		<_17 Name="ellipsoid scale" Offset="4" />
 		<_17 Name="ellipsoid center" Offset="10" />
@@ -163,7 +163,7 @@
 		</_F>
 		<_34 Name="generated_pad390e" Offset="35" Length="3" />
 	</_09374470743AD28A35C85DBCB83BE0C0>
-	<_9EF54C79CB32F419544E15A29A2D5824 Name="HUDChromaticAberrationParamsBlock" Size="24">
+	<_9EF54C79CB32F419544E15A29A2D5824 Name="HUDChromaticAberrationParamsBlock" Alt="8FC7703756129493" Size="24">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="base mix" Offset="4" />
 		<_16 Name="red aberration scale" Offset="8" />
@@ -174,8 +174,8 @@
 		</_F>
 		<_34 Name="generated_pad4665" Offset="21" Length="3" />
 	</_9EF54C79CB32F419544E15A29A2D5824>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

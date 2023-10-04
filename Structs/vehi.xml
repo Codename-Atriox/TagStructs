@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:20 PM" Name="vehicle" Parents="unit,obje,aTag" Index="-462" C="objects\vehicles">
-	<_09714F2BC6A4B989F69B2344BF522976 Name="VehicleDefinition" Size="1100">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="vehicle" Parents="unit,obje,aTag" Index="-462" C="objects\vehicles">
+	<_09714F2BC6A4B989F69B2344BF522976 Name="VehicleDefinition" Alt="7641DEF38B9D1679" Size="1100">
 		<_38 Name="unit" Offset="0" GUID="466A4028C8958077DB3BF1B894ACA1E3" />
 		<_37 Name="$$$ VEHICLE $$$" type="fgrb" Offset="D90" />
 		<_41 Name="parent" type="parr" Offset="D90" Allowed="vehi" Flags="1" />
@@ -175,7 +175,7 @@
 		<_37 Name="" type="fgre" Offset="10FC" />
 		<_34 Name="generated_pade54b" Offset="10FC" Length="4" />
 	</_09714F2BC6A4B989F69B2344BF522976>
-	<_466A4028C8958077DB3BF1B894ACA1E3 Name="UnitDefinition" Size="D90">
+	<_466A4028C8958077DB3BF1B894ACA1E3 Name="UnitDefinition" Alt="73C544C363725EA6" Size="D90">
 		<_38 Name="object" Offset="0" GUID="F5FC457A94A95A6C803394F088A44257" />
 		<_37 Name="$$$ UNIT $$$" type="fgrb" Offset="6C8" />
 		<_D Name="unit flags" type="dumb" Offset="6C8" StructName1="c_unit_definition_flags_schema_part1">
@@ -454,7 +454,7 @@
 		<_37 Name="" type="fgre" Offset="D74" />
 		<_41 Name="knockback collision damage override" Offset="D74" Allowed="cddf" Flags="0" />
 	</_466A4028C8958077DB3BF1B894ACA1E3>
-	<_75334227C319BCC5CFF0752A93E7A6C7 Name="s_vehicle_physics_types" Size="F0">
+	<_75334227C319BCC5CFF0752A93E7A6C7 Name="s_vehicle_physics_types" Alt="B5382F967E6A4780" Size="F0">
 		<_37 Name="" type="ifp+" Offset="0" />
 		<_40 Name="type-human_tank" Offset="0" GUID="889B48FF7AD171CFF2E74E3B9B3677D4" StructName1="s_vehicle_physics_types" Min="0" Max="1" />
 		<_40 Name="type-human_jeep" Offset="14" GUID="63C644C7E8B7F68B1AD78551BE98A235" StructName1="s_vehicle_physics_types" Min="0" Max="1" />
@@ -470,7 +470,7 @@
 		<_40 Name="type-revenant" Offset="DC" GUID="164C4A28F532AD7AD0038D15905A8AA1" StructName1="s_vehicle_physics_types" Min="0" Max="1" />
 		<_37 Name="" type="ifp-" Offset="F0" />
 	</_75334227C319BCC5CFF0752A93E7A6C7>
-	<_46F64D9F9F544FDB06CA6F61A20F91EC Name="i343::Vehicles::VehiclePhysicsDefinition" Size="9C">
+	<_46F64D9F9F544FDB06CA6F61A20F91EC Name="i343::Vehicles::VehiclePhysicsDefinition" Alt="6E86A5644E781341" Size="9C">
 		<_14 Name="gravity scale" Offset="0" />
 		<_6 Name="iteration count" Offset="4" />
 		<_40 Name="anti gravity point configurations" Offset="8" GUID="16614753C9B8118A4EE39AE391EA6BF8" StructName1="i343::Vehicles::VehiclePhysicsDefinition" Min="0" Max="80" />
@@ -485,7 +485,7 @@
 		<_36 Name="Airborne Vehicle Rotational Stabilization" Offset="90" />
 		<_19 Name="airborne angular stabilization coefficients" Offset="90" />
 	</_46F64D9F9F544FDB06CA6F61A20F91EC>
-	<_CFBA4748FD118400502DC1ECBD2876FC Name="s_unit_trick_definition" Size="24">
+	<_CFBA4748FD118400502DC1ECBD2876FC Name="s_unit_trick_definition" Alt="948849255A3581FD" Size="24">
 		<_2 Name="animation name" Offset="0" />
 		<_A Name="activation type" Offset="4" StructName1="c_unit_trick_activation_type">
 			<Flag n="trick button + left" />
@@ -556,26 +556,26 @@
 			<Flag n="OrdersWeapon" />
 		</_C>
 	</_CFBA4748FD118400502DC1ECBD2876FC>
-	<_114741776EDCFD781DD674B5B8274D64 Name="SoundRTPCBlockDefinition" Size="10">
+	<_114741776EDCFD781DD674B5B8274D64 Name="SoundRTPCBlockDefinition" Alt="2C4DA6634F800451" Size="10">
 		<_30 Name="Attachment Index" Offset="0" GUID="4775429C11097257EE75453FA775D933" StructName1="SoundRTPCBlockDefinition" Min="0" Max="48" />
 		<_2 Name="Function" type="sted" Offset="4" />
 		<_2 Name="RTPC Name" Offset="8" />
 		<_6 Name="RTPC name hash value" Offset="C" />
 	</_114741776EDCFD781DD674B5B8274D64>
-	<_7A814B2A443F16AAF7A23C5C81FB74DE Name="SoundSweetenerBlockDefinition" Size="28">
+	<_7A814B2A443F16AAF7A23C5C81FB74DE Name="SoundSweetenerBlockDefinition" Alt="8E673F2863D67D9E" Size="28">
 		<_2 Name="Function" type="sted" Offset="0" />
 		<_41 Name="sound" Offset="4" Allowed="snd!" Flags="0" />
 		<_14 Name="Switch point" Offset="20" />
 		<_6 Name="Mode" Offset="24" />
 	</_7A814B2A443F16AAF7A23C5C81FB74DE>
-	<_187E432B3A639A64BC2EC08096F3D48E Name="s_vehicleAiCruiseControl" Size="10">
+	<_187E432B3A639A64BC2EC08096F3D48E Name="s_vehicleAiCruiseControl" Alt="2F3A8C3CE6998717" Size="10">
 		<_36 Name="ai speed control" Offset="0" />
 		<_14 Name="Proportional" Offset="0" />
 		<_14 Name="Integral" Offset="4" />
 		<_14 Name="Derivative" Offset="8" />
 		<_14 Name="Slow down rate" Offset="C" />
 	</_187E432B3A639A64BC2EC08096F3D48E>
-	<_52C6472B6BB873FD804507D0909B9077 Name="Interface::UIItemInfo" Size="74">
+	<_52C6472B6BB873FD804507D0909B9077 Name="Interface::UIItemInfo" Alt="26B42BD7B0501528" Size="74">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="alt name " Offset="4" />
 		<_2 Name="description" Offset="8" />
@@ -588,7 +588,7 @@
 		<_6 Name="damage sprite index" Offset="54" />
 		<_41 Name="ui vehicle screen reference" Offset="58" Allowed="cusc" Flags="0" />
 	</_52C6472B6BB873FD804507D0909B9077>
-	<_F5FC457A94A95A6C803394F088A44257 Name="ObjectDefinition" Size="6C8">
+	<_F5FC457A94A95A6C803394F088A44257 Name="ObjectDefinition" Alt="E9D3B7114963AF53" Size="6C8">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="OBJECT" type="fgrb" Offset="10" />
 		<_5 Name="runtime object type" Offset="10" />
@@ -878,7 +878,7 @@
 		<_40 Name="Indirect Lighting Component" Offset="6B4" GUID="DC0B498741F543711B10766BA9E589C4" StructName1="ObjectDefinition" Min="0" Max="1" />
 		<_37 Name="" type="fgre" Offset="6C8" />
 	</_F5FC457A94A95A6C803394F088A44257>
-	<_CFE44D6F63D7EE667128E562BC5A8E71 Name="s_campaign_metagame_bucket" Size="6">
+	<_CFE44D6F63D7EE667128E562BC5A8E71 Name="s_campaign_metagame_bucket" Alt="E3EB8AFFCF288FD9" Size="6">
 		<_F Name="flags" Offset="0" StructName1="c_campaign_metagame_bucket_flags">
 			<Flag n="only counts with riders" />
 		</_F>
@@ -946,10 +946,10 @@
 		<_34 Name="generated_pad6695" Offset="3" Length="1" />
 		<_5 Name="point count" Offset="4" />
 	</_CFE44D6F63D7EE667128E562BC5A8E71>
-	<_EA87405BCF227E5C4AA6446C8FC0CED4 Name="s_unit_screen_effect_definition" Size="1C">
+	<_EA87405BCF227E5C4AA6446C8FC0CED4 Name="s_unit_screen_effect_definition" Alt="C118A8BF809E1F55" Size="1C">
 		<_41 Name="screen effect" Offset="0" Allowed="sefc" Flags="0" />
 	</_EA87405BCF227E5C4AA6446C8FC0CED4>
-	<_49B04550382328B41B616A069B1635F2 Name="s_unit_camera" Size="70">
+	<_49B04550382328B41B616A069B1635F2 Name="s_unit_camera" Alt="FE3D60B3529272" Size="70">
 		<_37 Name="Unit Camera" type="fgrb" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="UnitCameraFlags">
 			<Flag n="pitch bounds absolute space" />
@@ -974,14 +974,14 @@
 		<_40 Name="displacement" Offset="5C" GUID="05A548F323D5C53080F5F3F180168453" StructName1="s_unit_camera" Min="0" Max="1" />
 		<_37 Name="" type="fgre" Offset="70" />
 	</_49B04550382328B41B616A069B1635F2>
-	<_DCF54C9C35A193011EF33AE58671ED37 Name="s_unit_additional_node_names" Size="1C">
+	<_DCF54C9C35A193011EF33AE58671ED37 Name="s_unit_additional_node_names" Alt="463465484D18967B" Size="1C">
 		<_2 Name="preferred_gun_node" Offset="0" />
 		<_37 Name="" type="amkr" Offset="4" />
 		<_2 Name="preferred_grenade_marker" Offset="4" />
 		<_36 Name="Weapon Specific Markers" Offset="8" />
 		<_40 Name="weapon specific markers" Offset="8" GUID="9740432D6EDCC4BF1CA4087B85F0E1C2" StructName1="s_unit_additional_node_names" Min="0" Max="64" />
 	</_DCF54C9C35A193011EF33AE58671ED37>
-	<_D8B54A51A96C7D6D13071BCEBF99FA0C Name="UnitBoardingMeleeDefinition" Size="C4">
+	<_D8B54A51A96C7D6D13071BCEBF99FA0C Name="UnitBoardingMeleeDefinition" Alt="8F6E9B807221297F" Size="C4">
 		<_41 Name="boarding melee damage" Offset="0" Allowed="jpt!" Flags="0" />
 		<_41 Name="boarding melee response" Offset="1C" Allowed="jpt!" Flags="0" />
 		<_41 Name="eviction melee damage" Offset="38" Allowed="jpt!" Flags="0" />
@@ -990,7 +990,7 @@
 		<_41 Name="flurry melee damage" Offset="8C" Allowed="jpt!" Flags="0" />
 		<_41 Name="obstacle smash damage" Offset="A8" Allowed="jpt!" Flags="0" />
 	</_D8B54A51A96C7D6D13071BCEBF99FA0C>
-	<_7D904BD8C77670884421D1828174AD02 Name="HudUnitSoundDefinitions" Size="2C">
+	<_7D904BD8C77670884421D1828174AD02 Name="HudUnitSoundDefinitions" Alt="AB0D2713B1733BD" Size="2C">
 		<_40 Name="Hud audio cues" Offset="0" GUID="E87C4C5FDCDD571F032243B3B5FB4306" StructName1="HudUnitSoundDefinitions" Min="0" Max="16" />
 		<_37 Name="health thresholds" type="fgrb" Offset="14" />
 		<_14 Name="health minor" Offset="14" />
@@ -1003,20 +1003,20 @@
 		<_14 Name="shield critical" Offset="28" />
 		<_37 Name="" type="fgre" Offset="2C" />
 	</_7D904BD8C77670884421D1828174AD02>
-	<_4A9C4A98C954BD469AE5A33FAC562A99 Name="dialogue_variant_definition" Size="20">
+	<_4A9C4A98C954BD469AE5A33FAC562A99 Name="dialogue_variant_definition" Alt="5CEFD1691902EC69" Size="20">
 		<_5 Name="variant number" Offset="0" />
 		<_34 Name="generated_padef78" Offset="2" Length="2" />
 		<_41 Name="dialogue" Offset="4" Allowed="udlg" Flags="0" />
 	</_4A9C4A98C954BD469AE5A33FAC562A99>
-	<_DB6340E6F8D8B4A163AE2E8B97EA8CBB Name="i343::MalleableProperty::BaseFloatStructDefinition" Size="C">
+	<_DB6340E6F8D8B4A163AE2E8B97EA8CBB Name="i343::MalleableProperty::BaseFloatStructDefinition" Alt="A276DB883D38A54E" Size="C">
 		<_14 Name="Base Value" Offset="0" />
 		<_25 Name="Value Bounds" Offset="4" />
 	</_DB6340E6F8D8B4A163AE2E8B97EA8CBB>
-	<_2F5946C926FB2A20EC1BCBB6912DAE92 Name="powered_seat_definition" Size="8">
+	<_2F5946C926FB2A20EC1BCBB6912DAE92 Name="powered_seat_definition" Alt="C9B730FF4AA7371E" Size="8">
 		<_14 Name="driver powerup time" Offset="0" />
 		<_14 Name="driver powerdown time" Offset="4" />
 	</_2F5946C926FB2A20EC1BCBB6912DAE92>
-	<_14364A802B5DC512DCE951E0855CD54E Name="unit_initial_weapon" Size="D4">
+	<_14364A802B5DC512DCE951E0855CD54E Name="unit_initial_weapon" Alt="6369B2CF330F2BB4" Size="D4">
 		<_41 Name="weapon" Offset="0" Allowed="weap" Flags="0" />
 		<_2 Name="weapon name" Offset="1C" />
 		<_2 Name="variant name" Offset="20" />
@@ -1061,7 +1061,7 @@
 		<_40 Name="sentry properties" Offset="BC" GUID="77D04F5E219B49E2249343D6B773D8E3" StructName1="unit_initial_weapon" Min="0" Max="1" />
 		<_14 Name="target camouflage threshold" Offset="D0" />
 	</_14364A802B5DC512DCE951E0855CD54E>
-	<_2D9244BA5C0DCDA794D50B22940BE4EB Name="s_target_tracking_parameters" Size="60">
+	<_2D9244BA5C0DCDA794D50B22940BE4EB Name="s_target_tracking_parameters" Alt="E805C0011D303445" Size="60">
 		<_F Name="target tracking flags" Offset="0" StructName1="TargetTrackingParameterFlags">
 			<Flag n="only enable when aimed down sight" />
 			<Flag n="never lose target lock" />
@@ -1077,7 +1077,7 @@
 		<_41 Name="tracking sound" Offset="28" Allowed="lsnd, snd!" Flags="0" />
 		<_41 Name="locked sound" Offset="44" Allowed="lsnd, snd!" Flags="0" />
 	</_2D9244BA5C0DCDA794D50B22940BE4EB>
-	<_DE414AF30503B218C83836D9AED6B5FD Name="unit_seat" Size="278">
+	<_DE414AF30503B218C83836D9AED6B5FD Name="unit_seat" Alt="72200BFD495D30A" Size="278">
 		<_D Name="flags" Offset="0" StructName1="c_unit_seat_flags">
 			<Flag n="invisible" />
 			<Flag n="locked" />
@@ -1250,7 +1250,7 @@
 		<_14 Name="maximum acceleration" Offset="270" />
 		<_14 Name="maximum centrifugal force" Offset="274" />
 	</_DE414AF30503B218C83836D9AED6B5FD>
-	<_CDC842658D2CDD5A0386628B97C99B10 Name="i343::Objects::PowerComponentDefinition" Size="7C">
+	<_CDC842658D2CDD5A0386628B97C99B10 Name="i343::Objects::PowerComponentDefinition" Alt="B412586B81A3DEB2" Size="7C">
 		<_36 Name="Power Component System" Offset="0" />
 		<_40 Name="power source configurations" Offset="0" GUID="5BE94CF7C42F77B266F96900B6720E0D" StructName1="i343::Objects::PowerComponentDefinition" Min="0" Max="40" />
 		<_40 Name="power sources" Offset="14" GUID="51FF42F7BB73BE8A1C4538369FF7C18F" StructName1="i343::Objects::PowerComponentDefinition" Min="0" Max="8" />
@@ -1269,7 +1269,7 @@
 		<_2 Name="weapon power modifier id" Offset="78" />
 		<_37 Name="" type="fgre" Offset="7C" />
 	</_CDC842658D2CDD5A0386628B97C99B10>
-	<_370B402D4506D858CB94380383F08481 Name="Boost" Size="5C">
+	<_370B402D4506D858CB94380383F08481 Name="Boost" Alt="2CAAB225F0B29BB4" Size="5C">
 		<_41 Name="boost collision damage" Offset="0" Allowed="cddf" Flags="0" />
 		<_D Name="flags" Offset="1C" StructName1="Boost::BoostFlags">
 			<Flag n="pegs throttle" />
@@ -1324,21 +1324,21 @@
 			<Flag n="OrdersWeapon" />
 		</_C>
 	</_370B402D4506D858CB94380383F08481>
-	<_AF1E466B2E5A89D98B1BFE329F62F58C Name="s_unit_lipsync_scales" Size="8">
+	<_AF1E466B2E5A89D98B1BFE329F62F58C Name="s_unit_lipsync_scales" Alt="3B5D70D3DDB574E2" Size="8">
 		<_15 Name="attack weight" Offset="0" />
 		<_15 Name="decay weight" Offset="4" />
 	</_AF1E466B2E5A89D98B1BFE329F62F58C>
-	<_5A9148844B41E51F3D9912B2B4B7BB9E Name="ExitAndDetachVariant" Size="3C">
+	<_5A9148844B41E51F3D9912B2B4B7BB9E Name="ExitAndDetachVariant" Alt="87A45388354F2B77" Size="3C">
 		<_2 Name="variant name" Offset="0" />
 		<_41 Name="exit and detach weapon" Offset="4" Allowed="weap" Flags="0" />
 		<_41 Name="exit and detach damage" Offset="20" Allowed="jpt!" Flags="0" />
 	</_5A9148844B41E51F3D9912B2B4B7BB9E>
-	<_D2B344FD3810C67E965DA86197ED0AC4 Name="UnitBirthingProperties" Size="8">
+	<_D2B344FD3810C67E965DA86197ED0AC4 Name="UnitBirthingProperties" Alt="3B46688DBA142AED" Size="8">
 		<_2E Name="seat" Offset="0" GUID="DE414AF30503B218C83836D9AED6B5FD" StructName1="UnitBirthingProperties" Min="0" Max="64" />
 		<_34 Name="generated_pada2d2" Offset="2" Length="2" />
 		<_2 Name="birthing region" Offset="4" />
 	</_D2B344FD3810C67E965DA86197ED0AC4>
-	<_D1DE4BE9CF8672457EF27D17BF83E10D Name="i343::ActiveCamouflage::MalleablePropertiesDefinition" Size="40">
+	<_D1DE4BE9CF8672457EF27D17BF83E10D Name="i343::ActiveCamouflage::MalleablePropertiesDefinition" Alt="1A7391FAF10C5A21" Size="40">
 		<_A Name="camo level" Offset="0" StructName1="i343::ActiveCamouflage::Effectiveness">
 			<Flag n="poor" />
 			<Flag n="good" />
@@ -1361,7 +1361,7 @@
 		<_37 Name="maximum duration" type="mpfi" Offset="34" />
 		<_38 Name="maximum duration" Offset="34" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
 	</_D1DE4BE9CF8672457EF27D17BF83E10D>
-	<_75EF404968E7680B50AF9F3993AD7022 Name="i343::Damage::DamageMalleablePropertiesDefinition" Size="6C">
+	<_75EF404968E7680B50AF9F3993AD7022 Name="i343::Damage::DamageMalleablePropertiesDefinition" Alt="D550AF8CC5735D23" Size="6C">
 		<_36 Name="Damage scaling malleable properties" Offset="0" />
 		<_37 Name="Weapon damage scalar" type="mpfi" Offset="0" />
 		<_38 Name="Weapon damage scalar" Offset="0" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
@@ -1382,7 +1382,7 @@
 		<_37 Name="Area of effect radius scalar" type="mpfi" Offset="60" />
 		<_38 Name="Area of effect radius scalar" Offset="60" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
 	</_75EF404968E7680B50AF9F3993AD7022>
-	<_C5A2478C884DC7BB96F60C01AB21AB17 Name="i343::Units::UnitWeaponPropertiesDefinition" Size="48">
+	<_C5A2478C884DC7BB96F60C01AB21AB17 Name="i343::Units::UnitWeaponPropertiesDefinition" Alt="6525FE290C97590B" Size="48">
 		<_36 Name="Weapon trait malleable properties" Offset="0" />
 		<_37 Name="weapon switch speed scalar" type="mpfi" Offset="0" />
 		<_38 Name="weapon switch speed scalar" Offset="0" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
@@ -1397,7 +1397,7 @@
 		<_37 Name="movement speed (with turret) scalar" type="mpfi" Offset="3C" />
 		<_38 Name="movement speed (with turret) scalar" Offset="3C" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
 	</_C5A2478C884DC7BB96F60C01AB21AB17>
-	<_106E487F11C85BC3F701FB2192765A0F Name="i343::Units::EMPPropertiesDefinition" Size="34">
+	<_106E487F11C85BC3F701FB2192765A0F Name="i343::Units::EMPPropertiesDefinition" Alt="9E0606AF38B6FD74" Size="34">
 		<_36 Name="EMP malleable properties" Offset="0" />
 		<_37 Name="EMP disable duration scalar " type="mpfi" Offset="0" />
 		<_38 Name="EMP disable duration scalar " Offset="0" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
@@ -1405,7 +1405,7 @@
 		<_38 Name="EMP disable duration MP scalar " Offset="C" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
 		<_41 Name="EMP unit modifiers" Offset="18" Allowed="gmpm" Flags="0" />
 	</_106E487F11C85BC3F701FB2192765A0F>
-	<_889B48FF7AD171CFF2E74E3B9B3677D4 Name="s_vehicle_human_tank_definition" Size="B4">
+	<_889B48FF7AD171CFF2E74E3B9B3677D4 Name="s_vehicle_human_tank_definition" Alt="9B83717F92D22E5C" Size="B4">
 		<_8 Name="forward arc" Offset="0" />
 		<_8 Name="perpendicular forward arc" Offset="4" />
 		<_14 Name="flip window" Offset="8" />
@@ -1442,7 +1442,7 @@
 		<_14 Name="in motion opposing direction angle" Offset="AC" />
 		<_14 Name="in motion speed" Offset="B0" />
 	</_889B48FF7AD171CFF2E74E3B9B3677D4>
-	<_63C644C7E8B7F68B1AD78551BE98A235 Name="s_vehicle_human_jeep_definition" Size="A4">
+	<_63C644C7E8B7F68B1AD78551BE98A235 Name="s_vehicle_human_jeep_definition" Alt="26762AC7626473DA" Size="A4">
 		<_38 Name="steering control" Offset="0" GUID="040E48062B36CF5689A6F9B2AE2A1F64" />
 		<_38 Name="turning control" Offset="18" GUID="E70A47D136D7646B9B5C63F198AF489E" />
 		<_38 Name="engine" Offset="24" GUID="E80E4D79B2086F9CBA677DA481DDEB34" />
@@ -1459,7 +1459,7 @@
 		<_2E Name="back right wheel" Offset="A2" GUID="D9C9458DF9C4A53637D549CB97BB939C" StructName1="s_vehicle_human_jeep_definition" Min="0" Max="16" />
 		<_37 Name="" type="fgre" Offset="A4" />
 	</_63C644C7E8B7F68B1AD78551BE98A235>
-	<_7D8B48933F025A0A42591680BEE5EAF1 Name="s_vehicle_human_plane_definition" Size="64">
+	<_7D8B48933F025A0A42591680BEE5EAF1 Name="s_vehicle_human_plane_definition" Alt="27B96C15C500217" Size="64">
 		<_36 Name="velocity control variables" Offset="0" />
 		<_14 Name="maximum forward speed" Offset="0" />
 		<_14 Name="maximum reverse speed" Offset="4" />
@@ -1487,7 +1487,7 @@
 		<_14 Name="maximum roll" Offset="58" />
 		<_38 Name="steering animation" Offset="5C" GUID="1D3F4100A551DA1046D746629C4C60D2" />
 	</_7D8B48933F025A0A42591680BEE5EAF1>
-	<_4456422244F7199E2AE7DC1CB555F347 Name="s_vehicle_alien_scout_definition" Size="B8">
+	<_4456422244F7199E2AE7DC1CB555F347 Name="s_vehicle_alien_scout_definition" Alt="73E6CA893749887E" Size="B8">
 		<_38 Name="steering control" Offset="0" GUID="040E48062B36CF5689A6F9B2AE2A1F64" />
 		<_36 Name="velocity control variables" Offset="18" />
 		<_14 Name="maximum forward speed" Offset="18" />
@@ -1517,7 +1517,7 @@
 		<_38 Name="steering animation" Offset="84" GUID="1D3F4100A551DA1046D746629C4C60D2" />
 		<_38 Name="scout physics" Offset="8C" GUID="B0CD4525D694154E103EE9FCB6644C86" />
 	</_4456422244F7199E2AE7DC1CB555F347>
-	<_24D64BCB1F64F81EABC09BAB828FBA10 Name="s_vehicle_alien_fighter_definition" Size="90">
+	<_24D64BCB1F64F81EABC09BAB828FBA10 Name="s_vehicle_alien_fighter_definition" Alt="1F7C3C146CA29BB7" Size="90">
 		<_38 Name="steering control" Offset="0" GUID="040E48062B36CF5689A6F9B2AE2A1F64" />
 		<_38 Name="turning control" Offset="18" GUID="E70A47D136D7646B9B5C63F198AF489E" />
 		<_36 Name="velocity control variables" Offset="24" />
@@ -1553,7 +1553,7 @@
 		<_14 Name="cruising throttle" Offset="88" />
 		<_14 Name="dive speed scale" Offset="8C" />
 	</_24D64BCB1F64F81EABC09BAB828FBA10>
-	<_B2AC4121A788CE59A01A73CDA7387B57 Name="s_vehicle_turret_definition" Size="14">
+	<_B2AC4121A788CE59A01A73CDA7387B57 Name="s_vehicle_turret_definition" Alt="66D19040DFF3494" Size="14">
 		<_E Name="flags" Offset="0" StructName1="s_vehicle_turret_definition::c_flags">
 			<Flag n="powered by parent" />
 			<Flag n="idles in default position" />
@@ -1568,7 +1568,7 @@
 		<_2 Name="physical elevate node" Offset="C" />
 		<_8 Name="operating elevation angle" Offset="10" />
 	</_B2AC4121A788CE59A01A73CDA7387B57>
-	<_885445AB3FF3D8BD6D8D25EEA71E3BEE Name="s_vehicle_vtol_definition" Size="164">
+	<_885445AB3FF3D8BD6D8D25EEA71E3BEE Name="s_vehicle_vtol_definition" Alt="1815839AD2C0339F" Size="164">
 		<_38 Name="turning control" Offset="0" GUID="E70A47D136D7646B9B5C63F198AF489E" />
 		<_37 Name="" type="amkr" Offset="C" />
 		<_2 Name="left lift marker" Offset="C" />
@@ -1623,7 +1623,7 @@
 		<_36 Name="steering overdampening" Offset="14C" />
 		<_38 Name="steering control" Offset="14C" GUID="040E48062B36CF5689A6F9B2AE2A1F64" />
 	</_885445AB3FF3D8BD6D8D25EEA71E3BEE>
-	<_C84947A483DF59C4032894CC9CF064DB Name="s_vehicle_chopper_definition" Size="B0">
+	<_C84947A483DF59C4032894CC9CF064DB Name="s_vehicle_chopper_definition" Alt="76C2A59B6FA26B25" Size="B0">
 		<_38 Name="steering control" Offset="0" GUID="040E48062B36CF5689A6F9B2AE2A1F64" />
 		<_38 Name="turning control" Offset="18" GUID="E70A47D136D7646B9B5C63F198AF489E" />
 		<_38 Name="engine" Offset="24" GUID="E80E4D79B2086F9CBA677DA481DDEB34" />
@@ -1642,7 +1642,7 @@
 		<_14 Name="wheel accel" Offset="A8" />
 		<_14 Name="gyroscopic damping" Offset="AC" />
 	</_C84947A483DF59C4032894CC9CF064DB>
-	<_E34740B83A5289E7DAE40875A7CB311D Name="s_vehicle_guardian_definition" Size="40">
+	<_E34740B83A5289E7DAE40875A7CB311D Name="s_vehicle_guardian_definition" Alt="379528FFB828E8BB" Size="40">
 		<_38 Name="steering control" Offset="0" GUID="040E48062B36CF5689A6F9B2AE2A1F64" />
 		<_14 Name="maximum forward speed" Offset="18" />
 		<_14 Name="maximum reverse speed" Offset="1C" />
@@ -1655,7 +1655,7 @@
 		<_14 Name="torque scale" Offset="38" />
 		<_14 Name="anti-gravity force z-offset" Offset="3C" />
 	</_E34740B83A5289E7DAE40875A7CB311D>
-	<_12A64A226ABC199E2B13DC3CB555CB17 Name="s_vehicle_jackal_glider_definition" Size="180">
+	<_12A64A226ABC199E2B13DC3CB555CB17 Name="s_vehicle_jackal_glider_definition" Alt="9CA4ADF40EEA3735" Size="180">
 		<_38 Name="steering control" Offset="0" GUID="040E48062B36CF5689A6F9B2AE2A1F64" />
 		<_36 Name="velocity control variables" Offset="18" />
 		<_14 Name="maximum forward speed" Offset="18" />
@@ -1704,7 +1704,7 @@
 		<_36 Name="takeoff drag" Offset="174" />
 		<_38 Name="takeoff drag struct" Offset="174" GUID="1A314FABFAEAB498D7ABD2D0ACD012D9" />
 	</_12A64A226ABC199E2B13DC3CB555CB17>
-	<_027B499CCE661634EFAAA320BFBD2CC1 Name="s_vehicle_space_fighter_definition" Size="124">
+	<_027B499CCE661634EFAAA320BFBD2CC1 Name="s_vehicle_space_fighter_definition" Alt="E133D0F2039C33D7" Size="124">
 		<_38 Name="steering control" Offset="0" GUID="040E48062B36CF5689A6F9B2AE2A1F64" />
 		<_38 Name="turning control" Offset="18" GUID="E70A47D136D7646B9B5C63F198AF489E" />
 		<_36 Name="velocity control variables" Offset="24" />
@@ -1786,7 +1786,7 @@
 		<_36 Name="Safety" Offset="120" />
 		<_14 Name="dangerous trajectory prediction time" Offset="120" />
 	</_027B499CCE661634EFAAA320BFBD2CC1>
-	<_164C4A28F532AD7AD0038D15905A8AA1 Name="s_vehicle_revenant_definition" Size="10C">
+	<_164C4A28F532AD7AD0038D15905A8AA1 Name="s_vehicle_revenant_definition" Alt="C231226AE4C097BF" Size="10C">
 		<_38 Name="tank block" Offset="0" GUID="889B48FF7AD171CFF2E74E3B9B3677D4" />
 		<_36 Name="velocity control variables" Offset="B4" />
 		<_14 Name="maximum forward speed" Offset="B4" />
@@ -1802,7 +1802,7 @@
 		<_14 Name="constant deceleration" Offset="104" />
 		<_14 Name="torque scale" Offset="108" />
 	</_164C4A28F532AD7AD0038D15905A8AA1>
-	<_16614753C9B8118A4EE39AE391EA6BF8 Name="i343::Vehicles::AntiGravityPointConfiguration" Size="80">
+	<_16614753C9B8118A4EE39AE391EA6BF8 Name="i343::Vehicles::AntiGravityPointConfiguration" Alt="78F1385F77847B77" Size="80">
 		<_2 Name="name" Offset="0" />
 		<_36 Name="Operational Range- Height" Offset="4" />
 		<_14 Name="inner distance" Offset="4" />
@@ -1826,7 +1826,7 @@
 		<_41 Name="sound material effects" Offset="64" Allowed="smed" Flags="1" />
 		<_37 Name="" type="fgre" Offset="80" />
 	</_16614753C9B8118A4EE39AE391EA6BF8>
-	<_54A345DE1D62B36CFBB7291B9184572C Name="i343::Vehicles::AntiGravityPointDefinition" Size="24">
+	<_54A345DE1D62B36CFBB7291B9184572C Name="i343::Vehicles::AntiGravityPointDefinition" Alt="9C6B276BCAA5060C" Size="24">
 		<_37 Name="" type="amkr" Offset="0" />
 		<_2 Name="marker name" Offset="0" />
 		<_2 Name="region name" type="sted" Offset="4" />
@@ -1835,7 +1835,7 @@
 		<_2 Name="looping sound marker" Offset="C" />
 		<_40 Name="state configurations" Offset="10" GUID="6F2447631A7BBA8B5F588C24B4E559C1" StructName1="i343::Vehicles::AntiGravityPointDefinition" Min="0" Max="5" />
 	</_54A345DE1D62B36CFBB7291B9184572C>
-	<_E4DEA871FC72004D56F802D57256DBE6 Name="i343::Vehicles::FrictionPointConfiguration" Size="D0">
+	<_E4DEA871FC72004D56F802D57256DBE6 Name="i343::Vehicles::FrictionPointConfiguration" Alt="1A68E9A1812FF089" Size="D0">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="radius" Offset="4" />
 		<_36 Name="Normal Force Simulation" Offset="8" />
@@ -1869,7 +1869,7 @@
 			<Flag n="suspension is destroyed" />
 		</_D>
 	</_E4DEA871FC72004D56F802D57256DBE6>
-	<_D9C9458DF9C4A53637D549CB97BB939C Name="i343::Vehicles::FrictionPointDefinition" Size="38">
+	<_D9C9458DF9C4A53637D549CB97BB939C Name="i343::Vehicles::FrictionPointDefinition" Alt="C6C08F4D6644F220" Size="38">
 		<_37 Name="" type="amkr" Offset="0" />
 		<_2 Name="marker name" Offset="0" />
 		<_2 Name="region name" type="sted" Offset="4" />
@@ -1886,11 +1886,11 @@
 		<_2 Name="rolling object function" type="sted" Offset="20" />
 		<_40 Name="state configurations" Offset="24" GUID="C25D49CB30B627AED632A3B6A66B8C00" StructName1="i343::Vehicles::FrictionPointDefinition" Min="0" Max="5" />
 	</_D9C9458DF9C4A53637D549CB97BB939C>
-	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_4775429C11097257EE75453FA775D933 Name="object_attachment_definition" Size="D0">
+	<_4775429C11097257EE75453FA775D933 Name="object_attachment_definition" Alt="FBE04A7307F1E5DB" Size="D0">
 		<_2 Name="name" Offset="0" />
 		<_41 Name="type" Offset="4" Allowed="tagg, ligh, gldf, ltvl, effe, lsnd, lens, cpem, egfd, decs" Flags="1" />
 		<_41 Name="tag graph output" Offset="20" Allowed="ligh, gldf, ltvl, effe, lsnd, lens, cpem, egfd, decs" Flags="0" />
@@ -1921,11 +1921,11 @@
 		<_2 Name="primary scale" type="sted" Offset="C8" />
 		<_2 Name="secondary scale" type="sted" Offset="CC" />
 	</_4775429C11097257EE75453FA775D933>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_C7C54C3CC77709096D467EDA88C749EF Name="ImpactAudioDefinition" Size="10">
+	<_C7C54C3CC77709096D467EDA88C749EF Name="ImpactAudioDefinition" Alt="6793D5CC00E1AF7D" Size="10">
 		<_37 Name="IMPACT AUDIO" type="fgrb" Offset="0" />
 		<_14 Name="small impact minimum speed" Offset="0" />
 		<_14 Name="medium impact minimum speed" Offset="4" />
@@ -1933,13 +1933,13 @@
 		<_14 Name="large impact maximum speed" Offset="C" />
 		<_37 Name="" type="fgre" Offset="10" />
 	</_C7C54C3CC77709096D467EDA88C749EF>
-	<_0F5F42F1DD2E8F6429BD247D8D1ADF7F Name="SidecarPathDefinition" Size="100">
+	<_0F5F42F1DD2E8F6429BD247D8D1ADF7F Name="SidecarPathDefinition" Alt="1A93E0691336F1BF" Size="100">
 		<_1 Name="sidecar path" Offset="0" />
 	</_0F5F42F1DD2E8F6429BD247D8D1ADF7F>
-	<_FF87433DC31A245D49183EE68FE5BB27 Name="i343::Damage::DamageSourceDefinition" Size="4">
+	<_FF87433DC31A245D49183EE68FE5BB27 Name="i343::Damage::DamageSourceDefinition" Alt="A20F74767C5A02F8" Size="4">
 		<_2 Name="Damage Source Name" Offset="0" />
 	</_FF87433DC31A245D49183EE68FE5BB27>
-	<_AAAA48FF7AD1FFFFFFE70E3BCB3677D4 Name="s_object_early_mover_obb_definition" Size="2C">
+	<_AAAA48FF7AD1FFFFFFE70E3BCB3677D4 Name="s_object_early_mover_obb_definition" Alt="BEFE6E17030908BA" Size="2C">
 		<_2 Name="node name" Offset="0" />
 		<_6 Name="runtime node index" Offset="4" />
 		<_14 Name="x0" Offset="8" />
@@ -1950,7 +1950,7 @@
 		<_14 Name="z1" Offset="1C" />
 		<_1C Name="angles" Offset="20" />
 	</_AAAA48FF7AD1FFFFFFE70E3BCB3677D4>
-	<_712E447D26FB5335AFFD787193F77F52 Name="object_ai_properties" Size="30">
+	<_712E447D26FB5335AFFD787193F77F52 Name="object_ai_properties" Alt="7EC23CAD6C9E0548" Size="30">
 		<_D Name="ai flags" Offset="0" StructName1="ObjectAIPropertiesFlags">
 			<Flag n="detroyable cover" />
 			<Flag n="pathfinding ignore when dead" />
@@ -1995,7 +1995,7 @@
 		<_40 Name="override heat generated per round" Offset="18" GUID="7BD242FE5A19E5B08B7ED393A3A82ABF" StructName1="object_ai_properties" Min="0" Max="2" />
 		<_14 Name="Actor LOD cost" Offset="2C" />
 	</_712E447D26FB5335AFFD787193F77F52>
-	<_41EE4DC2D2EFDBE682F5BAD9805F2410 Name="s_object_function_definition" Size="58">
+	<_41EE4DC2D2EFDBE682F5BAD9805F2410 Name="s_object_function_definition" Alt="85A30805739B1366" Size="58">
 		<_D Name="flags" Offset="0" StructName1="ObjectFunctionFlags">
 			<Flag n="invert" />
 			<Flag n="mapping does not controls active" />
@@ -2024,19 +2024,19 @@
 		<_40 Name="interpolation" Offset="40" GUID="AC0D4C1C5A96873E46288D2E8A0B6541" StructName1="s_object_function_definition" Min="0" Max="2" />
 		<_30 Name="runtime interpolator index" Offset="54" GUID="4BEE4DC2A2EFDBE632F5BAD9305F2410" StructName1="s_object_function_definition" Min="0" Max="256" />
 	</_41EE4DC2D2EFDBE682F5BAD9805F2410>
-	<_4BEE4DC2A2EFDBE632F5BAD9305F2410 Name="ObjectRuntimeInterpolatorFunctionsBlock" Size="4">
+	<_4BEE4DC2A2EFDBE632F5BAD9305F2410 Name="ObjectRuntimeInterpolatorFunctionsBlock" Alt="464B080D138AB3A" Size="4">
 		<_6 Name="runtime interpolator to object function mapping" Offset="0" />
 	</_4BEE4DC2A2EFDBE632F5BAD9305F2410>
-	<_AB6642CECD9999FC1EA31C54B74F1753 Name="ObjectFunctionSwitchDefinition" Size="1C">
+	<_AB6642CECD9999FC1EA31C54B74F1753 Name="ObjectFunctionSwitchDefinition" Alt="8CBB9F25B5578968" Size="1C">
 		<_2 Name="switch function name" type="sted" Offset="0" />
 		<_2 Name="export name" Offset="4" />
 		<_40 Name="switched functions" Offset="8" GUID="650F44BF42436123D73545F793C16EC7" StructName1="ObjectFunctionSwitchDefinition" Min="0" Max="8" />
 	</_AB6642CECD9999FC1EA31C54B74F1753>
-	<_9DED41975A471C4D7ADC2E1282842F00 Name="i343::Objects::ObjectFunctionForwarding" Size="4">
+	<_9DED41975A471C4D7ADC2E1282842F00 Name="i343::Objects::ObjectFunctionForwarding" Alt="179BD904F03AC038" Size="4">
 		<_36 Name="Object Function Forwarding" Offset="0" />
 		<_2 Name="function to forward" Offset="0" />
 	</_9DED41975A471C4D7ADC2E1282842F00>
-	<_A25D4B720C87C323E3236AAE92BC0A80 Name="i343::Objects::AmmoRefillVariant" Size="8">
+	<_A25D4B720C87C323E3236AAE92BC0A80 Name="i343::Objects::AmmoRefillVariant" Alt="EC6BAE8987DB5CE0" Size="8">
 		<_2 Name="variant name" type="sted" Offset="0" />
 		<_E Name="Ammo Refill Flags" Offset="4" StructName1="i343::Munitions::AmmoRefillTypeFlags">
 			<Flag n="None" />
@@ -2051,13 +2051,13 @@
 		</_F>
 		<_34 Name="generated_pad055c" Offset="7" Length="1" />
 	</_A25D4B720C87C323E3236AAE92BC0A80>
-	<_4776429C12097557EE75A83FA775A933 Name="object_indirect_lighting_settings_definition" Size="48">
+	<_4776429C12097557EE75A83FA775A933 Name="object_indirect_lighting_settings_definition" Alt="E6740089E335184E" Size="48">
 		<_2 Name="Name" Offset="0" />
 		<_40 Name="Variant names" Offset="4" GUID="727F437E3853EE60753D9D508599809E" StructName1="object_indirect_lighting_settings_definition" Min="0" Max="64" />
 		<_41 Name="Object Lightmap" Offset="18" Allowed="stlm" Flags="0" />
 		<_40 Name="Object Cubemap set" Offset="34" GUID="D1CE481ABA187D43BE71513CBC6C9C8B" StructName1="object_indirect_lighting_settings_definition" Min="0" Max="1048576" />
 	</_4776429C12097557EE75A83FA775A933>
-	<_124B45F8201415C3A4AD5B50B7118F83 Name="s_water_physics_hull_surface_definition" Size="20">
+	<_124B45F8201415C3A4AD5B50B7118F83 Name="s_water_physics_hull_surface_definition" Alt="C128501D236A5EB1" Size="20">
 		<_E Name="flags" Offset="0" StructName1="s_water_physics_hull_surface_definition::c_flags">
 			<Flag n="works on land" />
 			<Flag n="effects only" />
@@ -2068,7 +2068,7 @@
 		<_14 Name="radius" Offset="8" />
 		<_40 Name="drag" Offset="C" GUID="236044FA520E02BAA40AF1D2A55378A7" StructName1="s_water_physics_hull_surface_definition" Min="0" Max="512" />
 	</_124B45F8201415C3A4AD5B50B7118F83>
-	<_0A224BC5C47AA87279969CAB9B77C993 Name="s_jetwash_definition" Size="24">
+	<_0A224BC5C47AA87279969CAB9B77C993 Name="s_jetwash_definition" Alt="CD920FFA5D7BA9D8" Size="24">
 		<_37 Name="" type="amkr" Offset="0" />
 		<_2 Name="marker name" Offset="0" />
 		<_14 Name="radius" Offset="4" />
@@ -2078,14 +2078,14 @@
 		<_24 Name="trace pitch angle" Offset="18" />
 		<_14 Name="particle offset" Offset="20" />
 	</_0A224BC5C47AA87279969CAB9B77C993>
-	<_A5AA466162919B1E3AC0DDAAB8317D8A Name="object_definition_widget" Size="1C">
+	<_A5AA466162919B1E3AC0DDAAB8317D8A Name="object_definition_widget" Alt="475EAF6A5E0DE397" Size="1C">
 		<_41 Name="type" Offset="0" Allowed="ant!, clwd" Flags="0" />
 	</_A5AA466162919B1E3AC0DDAAB8317D8A>
-	<_8F3241C90AB056AD9B24F6FE9EDBB26A Name="object_change_color_definition" Size="28">
+	<_8F3241C90AB056AD9B24F6FE9EDBB26A Name="object_change_color_definition" Alt="64E970E569168E31" Size="28">
 		<_40 Name="initial permutations" Offset="0" GUID="A7A64D2EFC403E79C2A06C7BAD0C6C21" StructName1="object_change_color_definition" Min="0" Max="32" />
 		<_40 Name="functions" Offset="14" GUID="BA0D4F589F69CB7CD0A89C2896CEA30C" StructName1="object_change_color_definition" Min="0" Max="4" />
 	</_8F3241C90AB056AD9B24F6FE9EDBB26A>
-	<_E97643DE027B026373AEE467B173536B Name="s_multiplayer_object_properties_definition" Size="128">
+	<_E97643DE027B026373AEE467B173536B Name="s_multiplayer_object_properties_definition" Alt="2BB1D6186D0DBAB1" Size="128">
 		<_36 Name="TYPE AND FLAGS" Offset="0" />
 		<_A Name="type" Offset="0" StructName1="c_multiplayer_object_type">
 			<Flag n="ordinary" />
@@ -2242,7 +2242,7 @@
 		</_A>
 		<_34 Name="generated_pad5143" Offset="125" Length="3" />
 	</_E97643DE027B026373AEE467B173536B>
-	<_73B5417889E8F6A5AFB087CBB90826AF Name="i343::Objects::ForgeObjectEntryDefinition" Size="54">
+	<_73B5417889E8F6A5AFB087CBB90826AF Name="i343::Objects::ForgeObjectEntryDefinition" Alt="FAEDA75C578DF52B" Size="54">
 		<_41 Name="Palette" Offset="0" Allowed="fpal" Flags="0" />
 		<_2 Name="Name" Offset="1C" />
 		<_2 Name="Description" Offset="20" />
@@ -2251,18 +2251,18 @@
 		<_41 Name="Configuration" Offset="2C" Allowed="vcdd, wcfg" Flags="0" />
 		<_19 Name="Starting yaw/pitch/roll" Offset="48" />
 	</_73B5417889E8F6A5AFB087CBB90826AF>
-	<_4BD44D30CAA36528A3A75C3292DBFEEC Name="s_object_spawn_effects" Size="38">
+	<_4BD44D30CAA36528A3A75C3292DBFEEC Name="s_object_spawn_effects" Alt="8377108A8EDC8F12" Size="38">
 		<_36 Name="Spawn Effects" Offset="0" />
 		<_41 Name="multiplayer spawn effect" Offset="0" Allowed="effe" Flags="0" />
 		<_41 Name="campaign spawn effect" Offset="1C" Allowed="effe" Flags="0" />
 	</_4BD44D30CAA36528A3A75C3292DBFEEC>
-	<_93E94F6B95694A9F96A8A3498959AD40 Name="ModelDissolveDataBlock" Size="1C">
+	<_93E94F6B95694A9F96A8A3498959AD40 Name="ModelDissolveDataBlock" Alt="8BEB5E5EA38CDD07" Size="1C">
 		<_41 Name="model dissolve data" Offset="0" Allowed="mdsv" Flags="0" />
 	</_93E94F6B95694A9F96A8A3498959AD40>
-	<_AAAE49B0D5081A5A984C1A8BA3DD5C21 Name="HsReferencesBlock" Size="1C">
+	<_AAAE49B0D5081A5A984C1A8BA3DD5C21 Name="HsReferencesBlock" Alt="CAFCDA8D5C315521" Size="1C">
 		<_41 Name="reference" Offset="0" Allowed="aTag" Flags="0" />
 	</_AAAE49B0D5081A5A984C1A8BA3DD5C21>
-	<_6EE940457F949B787FEFA28A95026EDA Name="ObjectAbandonmentDefinition" Size="C">
+	<_6EE940457F949B787FEFA28A95026EDA Name="ObjectAbandonmentDefinition" Alt="E35C3B709F31B86F" Size="C">
 		<_14 Name="Vitality Limit To Start Countdown" Offset="0" />
 		<_14 Name="Countdown Time In Seconds" Offset="4" />
 		<_F Name="flags" Offset="8" StructName1="ObjectAbandonmentDefinition::c_flags">
@@ -2271,15 +2271,15 @@
 		</_F>
 		<_34 Name="generated_pade8bf" Offset="9" Length="3" />
 	</_6EE940457F949B787FEFA28A95026EDA>
-	<_66974B5B7A236D95F43A8A409414695B Name="s_object_meta_label" Size="4">
+	<_66974B5B7A236D95F43A8A409414695B Name="s_object_meta_label" Alt="470D21C1A8F5C28C" Size="4">
 		<_2 Name="meta label" Offset="0" />
 	</_66974B5B7A236D95F43A8A409414695B>
-	<_B1C94EFF1D4D4AB4B92FF934B56766B5 Name="i343::Objects::ComputeFunctionSmoothingBlockDefinition" Size="C">
+	<_B1C94EFF1D4D4AB4B92FF934B56766B5 Name="i343::Objects::ComputeFunctionSmoothingBlockDefinition" Alt="221AA105BC9A5700" Size="C">
 		<_2 Name="id" Offset="0" />
 		<_2 Name="alias of" Offset="4" />
 		<_15 Name="smoothing factor" Offset="8" />
 	</_B1C94EFF1D4D4AB4B92FF934B56766B5>
-	<_B52A42D5C3031D37424678BCBE0FD563 Name="i343::SpartanTracking::ObjectDefinition" Size="6C">
+	<_B52A42D5C3031D37424678BCBE0FD563 Name="i343::SpartanTracking::ObjectDefinition" Alt="9F13A6891DA5AD76" Size="6C">
 		<_36 Name="Map these settings to a ping type" Offset="0" />
 		<_F Name="flags" Offset="0" StructName1="i343::SpartanTracking::ObjectDefinition::Flags">
 			<Flag n="trackable" />
@@ -2323,19 +2323,19 @@
 		<_41 Name="outline override" Offset="50" Allowed="ostd" Flags="0" />
 		<_37 Name="" type="fgre" Offset="6C" />
 	</_B52A42D5C3031D37424678BCBE0FD563>
-	<_EFFE48CE2E60A80A0CE20619AC10E461 Name="InteractionOpportunityDefinition" Size="18">
+	<_EFFE48CE2E60A80A0CE20619AC10E461 Name="InteractionOpportunityDefinition" Alt="9F461321F8771CEC" Size="18">
 		<_2 Name="Marker" Offset="0" />
 		<_40 Name="Ambient Info" Offset="4" GUID="EFFE48AE2E60A80B0CA20619AC10EA61" StructName1="InteractionOpportunityDefinition" Min="0" Max="512" />
 	</_EFFE48CE2E60A80A0CE20619AC10E461>
-	<_45604F6F524A3900029978AAB022F397 Name="ScriptedSequenceActionDefinition" Size="34">
+	<_45604F6F524A3900029978AAB022F397 Name="ScriptedSequenceActionDefinition" Alt="DAB81EA681BCD" Size="34">
 		<_0 Name="Prototype trigger lua function name" Offset="0" />
 		<_40 Name="Component Actions" Offset="20" GUID="9DD5407D832FAA5EBFC8B624AB81CED7" StructName1="ScriptedSequenceActionDefinition" Min="0" Max="8" />
 	</_45604F6F524A3900029978AAB022F397>
-	<_E35A4AF4D25B6CBD30743D9EB98C5D63 Name="AnimSetTableDefinition" Size="28">
+	<_E35A4AF4D25B6CBD30743D9EB98C5D63 Name="AnimSetTableDefinition" Alt="9ED69F24DBFF17C1" Size="28">
 		<_40 Name="channels" Offset="0" GUID="5D194D5AFB54B16AB052747FB5F249F7" StructName1="AnimSetTableDefinition" Min="0" Max="8" />
 		<_40 Name="table entries" Offset="14" GUID="CEF34383ABFD9EE2AAD9278181E4EF0A" StructName1="AnimSetTableDefinition" Min="0" Max="256" />
 	</_E35A4AF4D25B6CBD30743D9EB98C5D63>
-	<_11AE4DE2ED0A143A7C82B28C9D4395DA Name="RootBoneCorrectionSettings" Size="C">
+	<_11AE4DE2ED0A143A7C82B28C9D4395DA Name="RootBoneCorrectionSettings" Alt="DB6542066D1E002B" Size="C">
 		<_F Name="flags" Offset="0" StructName1="RootBoneCorrectionFlags">
 			<Flag n="AnimEventFunctionOverrideCorrectionType" />
 		</_F>
@@ -2352,7 +2352,7 @@
 		</_A>
 		<_34 Name="generated_padbdae" Offset="9" Length="3" />
 	</_11AE4DE2ED0A143A7C82B28C9D4395DA>
-	<_7308477FF918F0FA91660B26AD188BAB Name="LegGroundingSettings" Size="14">
+	<_7308477FF918F0FA91660B26AD188BAB Name="LegGroundingSettings" Alt="480C1E1EE05EA6AF" Size="14">
 		<_2 Name="Marker" Offset="0" />
 		<_14 Name="Planted Threshold" Offset="4" />
 		<_14 Name="Lifted Threshold" Offset="8" />
@@ -2416,7 +2416,7 @@
 		</_B>
 		<_34 Name="generated_paddc16" Offset="12" Length="2" />
 	</_7308477FF918F0FA91660B26AD188BAB>
-	<_F773409B74B26D9D525AC5EA87FC4CEA Name="i343::Objects::ObjectNodeGraphDefinition" Size="24">
+	<_F773409B74B26D9D525AC5EA87FC4CEA Name="i343::Objects::ObjectNodeGraphDefinition" Alt="3907973BD3A74A62" Size="24">
 		<_2 Name="Name" Offset="0" />
 		<_41 Name="Exported Node Graph" Offset="4" Allowed="xong" Flags="0" />
 		<_F Name="Flags" Offset="20" StructName1="ObjectNodeGraphFlags">
@@ -2431,7 +2431,7 @@
 		</_A>
 		<_34 Name="generated_pad8671" Offset="22" Length="2" />
 	</_F773409B74B26D9D525AC5EA87FC4CEA>
-	<_2C34417E630FDAE1B2E8522CAE14EF5E Name="i343::Objects::AnimationMatchingTableEntry" Size="10">
+	<_2C34417E630FDAE1B2E8522CAE14EF5E Name="i343::Objects::AnimationMatchingTableEntry" Alt="C6448A9DD895E811" Size="10">
 		<_36 Name="ANIMATION REMAPPING" Offset="0" />
 		<_2 Name="animation on parent" Offset="0" />
 		<_2 Name="animation to play on object" Offset="4" />
@@ -2442,12 +2442,12 @@
 		</_A>
 		<_34 Name="generated_pad97f6" Offset="D" Length="3" />
 	</_2C34417E630FDAE1B2E8522CAE14EF5E>
-	<_FEA74B6E34E9F8323CBD7F7196702C69 Name="i343::Objects::ModelVariantSwappingTableEntry" Size="10">
+	<_FEA74B6E34E9F8323CBD7F7196702C69 Name="i343::Objects::ModelVariantSwappingTableEntry" Alt="BA3D972421912368" Size="10">
 		<_25 Name="function result range" Offset="0" />
 		<_2 Name="required parent marker" Offset="8" />
 		<_2 Name="model variant name" type="sted" Offset="C" />
 	</_FEA74B6E34E9F8323CBD7F7196702C69>
-	<_D3D9420D2F4640FED9351CE2AAC5B030 Name="i343::Items::LocationSensorDefinition" Size="AC">
+	<_D3D9420D2F4640FED9351CE2AAC5B030 Name="i343::Items::LocationSensorDefinition" Alt="A70BE885908D2D58" Size="AC">
 		<_37 Name="Sensor Parameters" type="fgrb" Offset="0" />
 		<_D Name="sensor flags" Offset="0" StructName1="i343::Items::LocationSensorFlags">
 			<Flag n="use proximity activation" />
@@ -2486,7 +2486,7 @@
 		<_2 Name="target navpoint marker" Offset="A8" />
 		<_37 Name="" type="fgre" Offset="AC" />
 	</_D3D9420D2F4640FED9351CE2AAC5B030>
-	<_715341E94055CDAC38D93DD890D14658 Name="i343::Items::ShroudGeneratorDefinition" Size="9C">
+	<_715341E94055CDAC38D93DD890D14658 Name="i343::Items::ShroudGeneratorDefinition" Alt="5935E2535A3DDAF3" Size="9C">
 		<_14 Name="radius" Offset="0" />
 		<_2 Name="active object function name" Offset="4" />
 		<_15 Name="active threshold fraction" Offset="8" />
@@ -2497,7 +2497,7 @@
 		<_41 Name="biped inside effect" Offset="64" Allowed="effe" Flags="0" />
 		<_41 Name="biped leave effect" Offset="80" Allowed="effe" Flags="0" />
 	</_715341E94055CDAC38D93DD890D14658>
-	<_D7104E3BB95AFC0811C2230B8F558E47 Name="i343::Items::RepairFieldDefinition" Size="7C">
+	<_D7104E3BB95AFC0811C2230B8F558E47 Name="i343::Items::RepairFieldDefinition" Alt="4B91DDFCEAF21A55" Size="7C">
 		<_37 Name="Field Parameters" type="fgrb" Offset="0" />
 		<_D Name="field flags" Offset="0" StructName1="i343::Items::RepairFieldFlags">
 			<Flag n="revives participant bipeds" />
@@ -2523,19 +2523,19 @@
 		<_41 Name="biped revive effect" Offset="60" Allowed="effe" Flags="0" />
 		<_37 Name="" type="fgre" Offset="7C" />
 	</_D7104E3BB95AFC0811C2230B8F558E47>
-	<_595C4BCB6B458A19C8B900699C4E8800 Name="i343::Objects::SelfDestructHandlerDefinition" Size="14">
+	<_595C4BCB6B458A19C8B900699C4E8800 Name="i343::Objects::SelfDestructHandlerDefinition" Alt="CD249C11D4BCAF1A" Size="14">
 		<_40 Name="Self destruct sounds" Offset="0" GUID="28FD49541DA02BD2F281440CB845AEFF" StructName1="i343::Objects::SelfDestructHandlerDefinition" Min="0" Max="4" />
 	</_595C4BCB6B458A19C8B900699C4E8800>
-	<_DC0B498741F543711B10766BA9E589C4 Name="i343::Objects::IndirectLightingComponentDefinition" Size="4">
+	<_DC0B498741F543711B10766BA9E589C4 Name="i343::Objects::IndirectLightingComponentDefinition" Alt="2F95CA1A159EB30D" Size="4">
 		<_2 Name="Lightmap attachment bone" Offset="0" />
 	</_DC0B498741F543711B10766BA9E589C4>
-	<_535E45B77C803867D6F2CAFC81C122B6 Name="s_unit_camera_track" Size="40">
+	<_535E45B77C803867D6F2CAFC81C122B6 Name="s_unit_camera_track" Alt="887D6BEB825A296F" Size="40">
 		<_41 Name="track" Offset="0" Allowed="trak" Flags="0" />
 		<_41 Name="screen effect" Offset="1C" Allowed="sefc" Flags="0" />
 		<_14 Name="transition time in" Offset="38" />
 		<_14 Name="transition time out" Offset="3C" />
 	</_535E45B77C803867D6F2CAFC81C122B6>
-	<_57744B3B3A9D370F93F2A8CC863CAE2F Name="s_camera_obstruction_parameters" Size="18">
+	<_57744B3B3A9D370F93F2A8CC863CAE2F Name="s_camera_obstruction_parameters" Alt="769BCDBF223940" Size="18">
 		<_15 Name="cylinder fraction" Offset="0" />
 		<_8 Name="obstruction test angle" Offset="4" />
 		<_14 Name="obstruction max inward accel" Offset="8" />
@@ -2543,7 +2543,7 @@
 		<_14 Name="obstruction max velocity" Offset="10" />
 		<_14 Name="obstruction return delay" Offset="14" />
 	</_57744B3B3A9D370F93F2A8CC863CAE2F>
-	<_05A548F323D5C53080F5F3F180168453 Name="i343::Units::CameraDisplacementDefinition" Size="7C">
+	<_05A548F323D5C53080F5F3F180168453 Name="i343::Units::CameraDisplacementDefinition" Alt="BC64EE568D78F019" Size="7C">
 		<_14 Name="maximum camera velocity" Offset="0" />
 		<_37 Name="Forward/Back" type="fgrb" Offset="4" />
 		<_38 Name="forward/back" Offset="4" GUID="B17C4B4522A7A324D2BD1E36BBF37B84" />
@@ -2555,7 +2555,7 @@
 		<_38 Name="up/down" Offset="54" GUID="B17C4B4522A7A324D2BD1E36BBF37B84" />
 		<_37 Name="" type="fgre" Offset="7C" />
 	</_05A548F323D5C53080F5F3F180168453>
-	<_9740432D6EDCC4BF1CA4087B85F0E1C2 Name="WeaponSpecificMarkers" Size="14">
+	<_9740432D6EDCC4BF1CA4087B85F0E1C2 Name="WeaponSpecificMarkers" Alt="AE169DE1B06A139C" Size="14">
 		<_2 Name="complete weapon name" Offset="0" />
 		<_2 Name="weapon class" Offset="4" />
 		<_2 Name="weapon name" Offset="8" />
@@ -2564,7 +2564,7 @@
 		<_37 Name="" type="amkr" Offset="10" />
 		<_2 Name="left hand marker" Offset="10" />
 	</_9740432D6EDCC4BF1CA4087B85F0E1C2>
-	<_E87C4C5FDCDD571F032243B3B5FB4306 Name="HudUnitSoundCueDefinition" Size="24">
+	<_E87C4C5FDCDD571F032243B3B5FB4306 Name="HudUnitSoundCueDefinition" Alt="F9F779A5CD750879" Size="24">
 		<_41 Name="sound" Offset="0" Allowed="lsnd, snd!" Flags="0" />
 		<_D Name="latched to" Offset="1C" StructName1="HudUnitSoundCueFlags">
 			<Flag n="health recharging" />
@@ -2589,7 +2589,7 @@
 		</_D>
 		<_14 Name="scale" Offset="20" />
 	</_E87C4C5FDCDD571F032243B3B5FB4306>
-	<_77D04F5E219B49E2249343D6B773D8E3 Name="SentryProperties" Size="8C">
+	<_77D04F5E219B49E2249343D6B773D8E3 Name="SentryProperties" Alt="19E7CC6F67BF047F" Size="8C">
 		<_F Name="behavior" Offset="0" StructName1="SentryTurretBehaviorFlags">
 			<Flag n="performs yaw scanning" />
 			<Flag n="secondary barrel starts enabled" />
@@ -2619,16 +2619,16 @@
 		<_40 Name="Transition Events" Offset="78" GUID="93ED432A5C33FF183EBC7835B2E5F989" StructName1="SentryProperties" Min="0" Max="8" />
 		<_37 Name="" type="fgre" Offset="8C" />
 	</_77D04F5E219B49E2249343D6B773D8E3>
-	<_88C043A01E369AD6E3762650AA0A675A Name="TrackingTypeBlock" Size="4">
+	<_88C043A01E369AD6E3762650AA0A675A Name="TrackingTypeBlock" Alt="2D9660E7AB58BD46" Size="4">
 		<_2 Name="tracking type" Offset="0" />
 	</_88C043A01E369AD6E3762650AA0A675A>
-	<_47010A4700E5822A18B564D8B27798A0 Name="SeatModelTarget" Size="4">
+	<_47010A4700E5822A18B564D8B27798A0 Name="SeatModelTarget" Alt="47D551599C9D3374" Size="4">
 		<_2 Name="model target name" type="sted" Offset="0" />
 	</_47010A4700E5822A18B564D8B27798A0>
-	<_76F044A3355B4BFC1E8E4B6EB2456430 Name="s_boarding_seat" Size="2">
+	<_76F044A3355B4BFC1E8E4B6EB2456430 Name="s_boarding_seat" Alt="C112826F88CF75F8" Size="2">
 		<_2E Name="seat" Offset="0" GUID="DE414AF30503B218C83836D9AED6B5FD" StructName1="s_boarding_seat" Min="0" Max="64" />
 	</_76F044A3355B4BFC1E8E4B6EB2456430>
-	<_77494AB928C88B58BBAD267CB7822B5C Name="SeatSwitchingDefinition" Size="30">
+	<_77494AB928C88B58BBAD267CB7822B5C Name="SeatSwitchingDefinition" Alt="2C1DF4AB6B3C3FA9" Size="30">
 		<_37 Name="up" type="fgrb" Offset="0" />
 		<_38 Name="up" Offset="0" GUID="28AA44392D8B8B3F923E22F3AC6C3F23" />
 		<_37 Name="" type="fgre" Offset="C" />
@@ -2642,28 +2642,28 @@
 		<_38 Name="right" Offset="24" GUID="28AA44392D8B8B3F923E22F3AC6C3F23" />
 		<_37 Name="" type="fgre" Offset="30" />
 	</_77494AB928C88B58BBAD267CB7822B5C>
-	<_B7B64AC0AEA5093C2D040C34AAEE84C7 Name="SeatButtonCallout" Size="4">
+	<_B7B64AC0AEA5093C2D040C34AAEE84C7 Name="SeatButtonCallout" Alt="BB51AA6C71A727D7" Size="4">
 		<_2 Name="text" Offset="0" />
 	</_B7B64AC0AEA5093C2D040C34AAEE84C7>
-	<_5BE94CF7C42F77B266F96900B6720E0D Name="i343::Objects::PowerSourceConfiguration" Size="8">
+	<_5BE94CF7C42F77B266F96900B6720E0D Name="i343::Objects::PowerSourceConfiguration" Alt="8E89A1432082175C" Size="8">
 		<_2 Name="name" Offset="0" />
 		<_15 Name="capacity" Offset="4" />
 	</_5BE94CF7C42F77B266F96900B6720E0D>
-	<_51FF42F7BB73BE8A1C4538369FF7C18F Name="i343::Objects::PowerSourceDefinition" Size="1C">
+	<_51FF42F7BB73BE8A1C4538369FF7C18F Name="i343::Objects::PowerSourceDefinition" Alt="87C66643B86BF2E5" Size="1C">
 		<_2 Name="region name" type="sted" Offset="0" />
 		<_6 Name="runtime region index" Offset="4" />
 		<_36 Name="Model Region Damage State Configurations" Offset="8" />
 		<_40 Name="state configurations" Offset="8" GUID="CB6D43E45F5D6BE8FE2E6B1EBBC76085" StructName1="i343::Objects::PowerSourceDefinition" Min="0" Max="5" />
 	</_51FF42F7BB73BE8A1C4538369FF7C18F>
-	<_818146FFE14147A5797DC4A5A3CD1163 Name="i343::Objects::PowerSourceDefinitionReference" Size="2">
+	<_818146FFE14147A5797DC4A5A3CD1163 Name="i343::Objects::PowerSourceDefinitionReference" Alt="F3B67049AA724CD6" Size="2">
 		<_2E Name="component" Offset="0" GUID="51FF42F7BB73BE8A1C4538369FF7C18F" StructName1="i343::Objects::PowerSourceDefinitionReference" Min="0" Max="8" />
 	</_818146FFE14147A5797DC4A5A3CD1163>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
-	<_E80E4D79B2086F9CBA677DA481DDEB34 Name="s_vehicle_engine_definition" Size="50">
+	<_E80E4D79B2086F9CBA677DA481DDEB34 Name="s_vehicle_engine_definition" Alt="980006675D70F3C1" Size="50">
 		<_36 Name="engine" Offset="0" />
 		<_14 Name="engine moment" Offset="0" />
 		<_14 Name="engine min angular velocity" Offset="4" />
@@ -2672,7 +2672,7 @@
 		<_41 Name="gear shift sound" Offset="20" Allowed="snd!" Flags="0" />
 		<_40 Name="load and cruise sound" Offset="3C" GUID="E2494C329CF239754DD2464995369BF4" StructName1="s_vehicle_engine_definition" Min="0" Max="2" />
 	</_E80E4D79B2086F9CBA677DA481DDEB34>
-	<_040E48062B36CF5689A6F9B2AE2A1F64 Name="s_vehicle_steering_control_definition" Size="18">
+	<_040E48062B36CF5689A6F9B2AE2A1F64 Name="s_vehicle_steering_control_definition" Alt="1BA467F56D77CDA4" Size="18">
 		<_36 Name="steering overdampening" Offset="0" />
 		<_8 Name="overdampen cusp angle" Offset="0" />
 		<_14 Name="overdampen exponent" Offset="4" />
@@ -2683,25 +2683,25 @@
 		<_14 Name="throttle steering interpolation rate" Offset="14" />
 		<_37 Name="" type="fgre" Offset="18" />
 	</_040E48062B36CF5689A6F9B2AE2A1F64>
-	<_E70A47D136D7646B9B5C63F198AF489E Name="s_vehicle_turning_control_definition" Size="C">
+	<_E70A47D136D7646B9B5C63F198AF489E Name="s_vehicle_turning_control_definition" Alt="27FD7CF1E80D7A73" Size="C">
 		<_36 Name="turning" Offset="0" />
 		<_14 Name="maximum left turn" Offset="0" />
 		<_14 Name="maximum right turn (negative)" Offset="4" />
 		<_14 Name="turn rate" Offset="8" />
 	</_E70A47D136D7646B9B5C63F198AF489E>
-	<_1D3F4100A551DA1046D746629C4C60D2 Name="s_vehicle_steering_animation_definition" Size="8">
+	<_1D3F4100A551DA1046D746629C4C60D2 Name="s_vehicle_steering_animation_definition" Alt="3833D6EC0FF971C6" Size="8">
 		<_36 Name="steering animation and interpolation&#xA;" Offset="0" />
 		<_14 Name="interpolation scale" Offset="0" />
 		<_8 Name="max angle" Offset="4" />
 	</_1D3F4100A551DA1046D746629C4C60D2>
-	<_13E14F26FAE37480D755D2D0A1CB57D9 Name="s_engine_function_definition" Size="14">
+	<_13E14F26FAE37480D755D2D0A1CB57D9 Name="s_engine_function_definition" Alt="841C0285DA6709DD" Size="14">
 		<_2 Name="object function damage region" Offset="0" />
 		<_14 Name="min anti gravity engine speed" Offset="4" />
 		<_14 Name="max anti gravity engine speed" Offset="8" />
 		<_14 Name="engine speed acceleration" Offset="C" />
 		<_14 Name="maximum vehicle speed" Offset="10" />
 	</_13E14F26FAE37480D755D2D0A1CB57D9>
-	<_B0CD4525D694154E103EE9FCB6644C86 Name="ScoutPhysicsDefinition" Size="2C">
+	<_B0CD4525D694154E103EE9FCB6644C86 Name="ScoutPhysicsDefinition" Alt="505F1858AF1D7A99" Size="2C">
 		<_F Name="flags" Offset="0" StructName1="ScoutPhysicsDefinition::ScoutFlags">
 			<Flag n="hovercraft" />
 			<Flag n="slope scales speed" />
@@ -2720,11 +2720,11 @@
 		<_14 Name="brake airborne lift acceleration forward" Offset="24" />
 		<_14 Name="brake airborne lift acceleration up" Offset="28" />
 	</_B0CD4525D694154E103EE9FCB6644C86>
-	<_09D24B8254DB0E848EE43895A95666A4 Name="s_vtol_descent_function" Size="1C">
+	<_09D24B8254DB0E848EE43895A95666A4 Name="s_vtol_descent_function" Alt="6EEA5550ECDD5152" Size="1C">
 		<_38 Name="descent to boost" Offset="0" GUID="0276481E72CB9289F56D7C189467A351" />
 		<_14 Name="max downward speed" type="fn**" Offset="18" />
 	</_09D24B8254DB0E848EE43895A95666A4>
-	<_88B445ABAFF3D8BD2D8D25EE371E3BEE Name="s_vehicle_vtol_interpolated_parameters" Size="20">
+	<_88B445ABAFF3D8BD2D8D25EE371E3BEE Name="s_vehicle_vtol_interpolated_parameters" Alt="CFFFF08EA811D77D" Size="20">
 		<_14 Name="rotor damping" Offset="0" />
 		<_14 Name="maximum left acceleration" Offset="4" />
 		<_14 Name="maximum forward acceleration" Offset="8" />
@@ -2734,11 +2734,11 @@
 		<_14 Name="magic angular acc scale" Offset="18" />
 		<_14 Name="magic angular acc k" Offset="1C" />
 	</_88B445ABAFF3D8BD2D8D25EE371E3BEE>
-	<_2AA94534384EBA004A23EF26AD11D043 Name="ScalarFunctionNameDefaultOne" Size="18">
+	<_2AA94534384EBA004A23EF26AD11D043 Name="ScalarFunctionNameDefaultOne" Alt="3C31DA9CDFBD201" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="4C5A4A1A9019ABA511FDA1ADAD1AF034" />
 	</_2AA94534384EBA004A23EF26AD11D043>
-	<_1A314F26FAEAB480D7ABD2D0A1C012D9 Name="s_flight_surface_definition" Size="20">
+	<_1A314F26FAEAB480D7ABD2D0A1C012D9 Name="s_flight_surface_definition" Alt="2EA717887200DA0A" Size="20">
 		<_A Name="offset axis" Offset="0" StructName1="Dimensions3D">
 			<Flag n="foward" />
 			<Flag n="left" />
@@ -2768,13 +2768,13 @@
 		<_8 Name="maximum angle" Offset="18" />
 		<_14 Name="render debug radius" Offset="1C" />
 	</_1A314F26FAEAB480D7ABD2D0A1C012D9>
-	<_1A314FABFAEAB498D7ABD2D0ACD012D9 Name="s_vehicle_jackal_glider_drag_definition" Size="C">
+	<_1A314FABFAEAB498D7ABD2D0ACD012D9 Name="s_vehicle_jackal_glider_drag_definition" Alt="E71CE24757463184" Size="C">
 		<_36 Name="drag" Offset="0" />
 		<_14 Name="q" Offset="0" />
 		<_14 Name="k" Offset="4" />
 		<_14 Name="constant deceleration" Offset="8" />
 	</_1A314FABFAEAB498D7ABD2D0ACD012D9>
-	<_6F2447631A7BBA8B5F588C24B4E559C1 Name="i343::Vehicles::AntiGravityPointStateConfiguration" Size="4">
+	<_6F2447631A7BBA8B5F588C24B4E559C1 Name="i343::Vehicles::AntiGravityPointStateConfiguration" Alt="A93B77A2E8912A24" Size="4">
 		<_B Name="region state" Offset="0" StructName1="ModelStates">
 			<Flag n="default" />
 			<Flag n="minor damage" />
@@ -2784,7 +2784,7 @@
 		</_B>
 		<_2E Name="configuration" Offset="2" GUID="16614753C9B8118A4EE39AE391EA6BF8" StructName1="i343::Vehicles::AntiGravityPointStateConfiguration" Min="0" Max="80" />
 	</_6F2447631A7BBA8B5F588C24B4E559C1>
-	<_C25D49CB30B627AED632A3B6A66B8C00 Name="i343::Vehicles::FrictionPointStateConfiguration" Size="4">
+	<_C25D49CB30B627AED632A3B6A66B8C00 Name="i343::Vehicles::FrictionPointStateConfiguration" Alt="8ECC2366C7849E43" Size="4">
 		<_B Name="region state" Offset="0" StructName1="ModelStates">
 			<Flag n="default" />
 			<Flag n="minor damage" />
@@ -2794,39 +2794,39 @@
 		</_B>
 		<_2E Name="configuration" Offset="2" GUID="E4DEA871FC72004D56F802D57256DBE6" StructName1="i343::Vehicles::FrictionPointStateConfiguration" Min="0" Max="80" />
 	</_C25D49CB30B627AED632A3B6A66B8C00>
-	<_217941128AACE34BC7334D2EA8F6C67D Name="TagGraph::TagGraphFloatParam" Size="8">
+	<_217941128AACE34BC7334D2EA8F6C67D Name="TagGraph::TagGraphFloatParam" Alt="805C37B6373130C3" Size="8">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_14 Name="value" Offset="4" />
 	</_217941128AACE34BC7334D2EA8F6C67D>
-	<_80204605BFA6F4BF93CDD10F96C1C2B9 Name="TagGraph::TagGraphBoolParam" Size="8">
+	<_80204605BFA6F4BF93CDD10F96C1C2B9 Name="TagGraph::TagGraphBoolParam" Alt="146004AB2C5FEE80" Size="8">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_F Name="value" Offset="4" StructName1="TagGraph::TagGraphBoolVariableValue">
 			<Flag n="value" />
 		</_F>
 		<_34 Name="generated_pad0473" Offset="5" Length="3" />
 	</_80204605BFA6F4BF93CDD10F96C1C2B9>
-	<_AF7648E707ABAC2BFB95694D48E79C90 Name="TagGraph::TagGraphInstanceVariableString" Size="8">
+	<_AF7648E707ABAC2BFB95694D48E79C90 Name="TagGraph::TagGraphInstanceVariableString" Alt="85B0F068C5FFF7F3" Size="8">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_2 Name="value" Offset="4" />
 	</_AF7648E707ABAC2BFB95694D48E79C90>
-	<_75F34BCE26A27E545DB61B22BEC316D9 Name="TagGraph::TagGraphInstanceVariableTagRef" Size="20">
+	<_75F34BCE26A27E545DB61B22BEC316D9 Name="TagGraph::TagGraphInstanceVariableTagRef" Alt="4EFA73BE4DD7CFD0" Size="20">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_41 Name="value" Offset="4" Allowed="aTag" Flags="0" />
 	</_75F34BCE26A27E545DB61B22BEC316D9>
-	<_727F437E3853EE60753D9D508599809E Name="i343::Objects::AttachmentVariantName" Size="4">
+	<_727F437E3853EE60753D9D508599809E Name="i343::Objects::AttachmentVariantName" Alt="881C8BF1B43606D4" Size="4">
 		<_2 Name="variant name" type="sted" Offset="0" />
 	</_727F437E3853EE60753D9D508599809E>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_7BD242FE5A19E5B08B7ED393A3A82ABF Name="i343::Weapon::AIHeatGeneratedPerRoundOverrideParam" Size="10">
+	<_7BD242FE5A19E5B08B7ED393A3A82ABF Name="i343::Weapon::AIHeatGeneratedPerRoundOverrideParam" Alt="707F3443775A02AD" Size="10">
 		<_14 Name="heat generated per round override (easy)" Offset="0" />
 		<_14 Name="heat generated per round override (normal)" Offset="4" />
 		<_14 Name="heat generated per round override (heroic)" Offset="8" />
 		<_14 Name="heat generated per round override (legendary)" Offset="C" />
 	</_7BD242FE5A19E5B08B7ED393A3A82ABF>
-	<_AC0D4C1C5A96873E46288D2E8A0B6541 Name="s_object_function_interpolation_definition" Size="18">
+	<_AC0D4C1C5A96873E46288D2E8A0B6541 Name="s_object_function_interpolation_definition" Alt="ABF8EC9BCD327238" Size="18">
 		<_C Name="interpolation mode" Offset="0" StructName1="e_object_function_interpolation_mode">
 			<Flag n="constant velocity" />
 			<Flag n="linear acceleration" />
@@ -2840,11 +2840,11 @@
 		<_14 Name="spring c" Offset="10" />
 		<_14 Name="fraction" Offset="14" />
 	</_AC0D4C1C5A96873E46288D2E8A0B6541>
-	<_650F44BF42436123D73545F793C16EC7 Name="ObjectFunctionSwitchDefinition::Function" Size="C">
+	<_650F44BF42436123D73545F793C16EC7 Name="ObjectFunctionSwitchDefinition::Function" Alt="19DA04038BFBE16" Size="C">
 		<_25 Name="selection bounds" Offset="0" />
 		<_2 Name="function name" type="sted" Offset="8" />
 	</_650F44BF42436123D73545F793C16EC7>
-	<_D1CE481ABA187D43BE71513CBC6C9C8B Name="CubemapVolume" Size="120">
+	<_D1CE481ABA187D43BE71513CBC6C9C8B Name="CubemapVolume" Alt="ACE679F3120A235B" Size="120">
 		<_2 Name="Name" Offset="0" />
 		<_6 Name="Guid" Offset="4" />
 		<_D Name="Flags" Offset="8" StructName1="CubemapFlagsClass">
@@ -2898,17 +2898,17 @@
 		</_B>
 		<_14 Name="Relevancy Radius" Offset="11C" />
 	</_D1CE481ABA187D43BE71513CBC6C9C8B>
-	<_236044FA520E02BAA40AF1D2A55378A7 Name="s_water_physics_drag_override" Size="44">
+	<_236044FA520E02BAA40AF1D2A55378A7 Name="s_water_physics_drag_override" Alt="8F796C1B195C375E" Size="44">
 		<_2 Name="material" type="sted" Offset="0" />
 		<_38 Name="drag" Offset="4" GUID="3E2D4059FCE5EAF24F5683D68C4C8BC2" />
 	</_236044FA520E02BAA40AF1D2A55378A7>
-	<_A7A64D2EFC403E79C2A06C7BAD0C6C21 Name="object_change_color_initial_permutation" Size="20">
+	<_A7A64D2EFC403E79C2A06C7BAD0C6C21 Name="object_change_color_initial_permutation" Alt="BF1E43BD531818D2" Size="20">
 		<_14 Name="weight" Offset="0" />
 		<_1F Name="color lower bound" Offset="4" />
 		<_1F Name="color upper bound" Offset="10" />
 		<_2 Name="variant name" type="sted" Offset="1C" />
 	</_A7A64D2EFC403E79C2A06C7BAD0C6C21>
-	<_BA0D4F589F69CB7CD0A89C2896CEA30C Name="object_change_color_function" Size="24">
+	<_BA0D4F589F69CB7CD0A89C2896CEA30C Name="object_change_color_function" Alt="E5A4DE4521F22A05" Size="24">
 		<_D Name="scale flags" Offset="0" StructName1="RGBColorInterpolateFlag">
 			<Flag n="blend in hsv" />
 			<Flag n="...more colors" />
@@ -2918,10 +2918,10 @@
 		<_2 Name="darken by" Offset="1C" />
 		<_2 Name="scale by" Offset="20" />
 	</_BA0D4F589F69CB7CD0A89C2896CEA30C>
-	<_3D0340DE506E405F8F7516C3989E403D Name="SpawnInfluenceWeightFalloffFunctionBlock" Size="18">
+	<_3D0340DE506E405F8F7516C3989E403D Name="SpawnInfluenceWeightFalloffFunctionBlock" Alt="D1B3F8093C3DED2A" Size="18">
 		<_38 Name="function" Offset="0" GUID="0276481E72CB9289F56D7C189467A351" />
 	</_3D0340DE506E405F8F7516C3989E403D>
-	<_EFFE48AE2E60A80B0CA20619AC10EA61 Name="AmbientActionInfo" Size="7C">
+	<_EFFE48AE2E60A80B0CA20619AC10EA61 Name="AmbientActionInfo" Alt="1154EAF3403BA9B9" Size="7C">
 		<_A Name="desire type" Offset="0" StructName1="i343::InteractiveObjects::InteractiveDesire">
 			<Flag n="Scripted" />
 			<Flag n="Health" />
@@ -3022,14 +3022,14 @@
 		<_14 Name="Max Enemy Target Distance" Offset="74" />
 		<_14 Name="Max Height Difference" Offset="78" />
 	</_EFFE48AE2E60A80B0CA20619AC10EA61>
-	<_9DD5407D832FAA5EBFC8B624AB81CED7 Name="ScriptedSequenceComponentAction" Size="40">
+	<_9DD5407D832FAA5EBFC8B624AB81CED7 Name="ScriptedSequenceComponentAction" Alt="D9092697B613A16" Size="40">
 		<_0 Name="Request action lua function name" Offset="0" />
 		<_0 Name="Go to next action condition lua function name" Offset="20" />
 	</_9DD5407D832FAA5EBFC8B624AB81CED7>
-	<_5D194D5AFB54B16AB052747FB5F249F7 Name="AnimChannelEntry" Size="4">
+	<_5D194D5AFB54B16AB052747FB5F249F7 Name="AnimChannelEntry" Alt="BDB4B09696008DBB" Size="4">
 		<_2 Name="channel" Offset="0" />
 	</_5D194D5AFB54B16AB052747FB5F249F7>
-	<_CEF34383ABFD9EE2AAD9278181E4EF0A Name="AnimSetTableEntry" Size="54">
+	<_CEF34383ABFD9EE2AAD9278181E4EF0A Name="AnimSetTableEntry" Alt="FAAAE151F58D4E87" Size="54">
 		<_2 Name="token" Offset="0" />
 		<_41 Name="animset" Offset="4" Allowed="anim" Flags="1" />
 		<_41 Name="Runtime animset (used by code only)" Offset="20" Allowed="Rani" Flags="0" />
@@ -3040,12 +3040,12 @@
 		</_E>
 		<_40 Name="Variants" Offset="40" GUID="7B6740A9F70DA80ECC59EA99A45906DA" StructName1="AnimSetTableEntry" Min="0" Max="256" />
 	</_CEF34383ABFD9EE2AAD9278181E4EF0A>
-	<_28FD49541DA02BD2F281440CB845AEFF Name="i343::Objects::SelfDestructSoundBlock" Size="20">
+	<_28FD49541DA02BD2F281440CB845AEFF Name="i343::Objects::SelfDestructSoundBlock" Alt="137CC1B0BCFF117B" Size="20">
 		<_36 Name="SELF DESTRUCTION SOUNDS" Offset="0" />
 		<_6 Name="active damage section count" Offset="0" />
 		<_41 Name="sound to play" Offset="4" Allowed="snd!" Flags="0" />
 	</_28FD49541DA02BD2F281440CB845AEFF>
-	<_B17C4B4522A7A324D2BD1E36BBF37B84 Name="i343::Units::CameraDisplacementFunction" Size="28">
+	<_B17C4B4522A7A324D2BD1E36BBF37B84 Name="i343::Units::CameraDisplacementFunction" Alt="732037BB79E376E9" Size="28">
 		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="i343::Units::CameraDisplacementInput">
 			<Flag n="linear velocity" />
 			<Flag n="linear acceleration" />
@@ -3067,7 +3067,7 @@
 		<_14 Name="camera scale (perpendicular)" type="fn**" Offset="24" />
 		<_37 Name="" type="fgre" Offset="28" />
 	</_B17C4B4522A7A324D2BD1E36BBF37B84>
-	<_93ED432A5C33FF183EBC7835B2E5F989 Name="SentryTurretStateTransitionEvent" Size="C">
+	<_93ED432A5C33FF183EBC7835B2E5F989 Name="SentryTurretStateTransitionEvent" Alt="AE8B5E32A539CC47" Size="C">
 		<_C Name="From state" Offset="0" StructName1="RawSentryTurretState">
 			<Flag n="Startup" />
 			<Flag n="Idle" />
@@ -3086,12 +3086,12 @@
 		</_C>
 		<_2 Name="Event" Offset="8" />
 	</_93ED432A5C33FF183EBC7835B2E5F989>
-	<_28AA44392D8B8B3F923E22F3AC6C3F23 Name="SeatSwitchingEntryDefinition" Size="C">
+	<_28AA44392D8B8B3F923E22F3AC6C3F23 Name="SeatSwitchingEntryDefinition" Alt="FB83BCE0DDB7BA22" Size="C">
 		<_2 Name="destinationSeat" Offset="0" />
 		<_2 Name="animation" Offset="4" />
 		<_14 Name="seat switch cooldown time" Offset="8" />
 	</_28AA44392D8B8B3F923E22F3AC6C3F23>
-	<_CB6D43E45F5D6BE8FE2E6B1EBBC76085 Name="i343::Objects::PowerSourceStateConfiguration" Size="4">
+	<_CB6D43E45F5D6BE8FE2E6B1EBBC76085 Name="i343::Objects::PowerSourceStateConfiguration" Alt="DC7A0FE311377992" Size="4">
 		<_B Name="region state" Offset="0" StructName1="ModelStates">
 			<Flag n="default" />
 			<Flag n="minor damage" />
@@ -3101,7 +3101,7 @@
 		</_B>
 		<_2E Name="configuration" Offset="2" GUID="5BE94CF7C42F77B266F96900B6720E0D" StructName1="i343::Objects::PowerSourceStateConfiguration" Min="0" Max="40" />
 	</_CB6D43E45F5D6BE8FE2E6B1EBBC76085>
-	<_7A0440D743A7040429E046A5A12F738C Name="s_vehicle_gear_definition" Size="8C">
+	<_7A0440D743A7040429E046A5A12F738C Name="s_vehicle_gear_definition" Alt="D27F5A5B14FC1D07" Size="8C">
 		<_36 Name="loaded torque" Offset="0" />
 		<_38 Name="loaded torque curve" Offset="0" GUID="21864A2CA1B86A30F2DB9FC3B26E5CA6" />
 		<_36 Name="cruising torque" Offset="18" />
@@ -3119,16 +3119,16 @@
 		<_41 Name="gear shift sound - shifting up" Offset="54" Allowed="snd!" Flags="0" />
 		<_41 Name="gear shift sound - shifting down" Offset="70" Allowed="snd!" Flags="0" />
 	</_7A0440D743A7040429E046A5A12F738C>
-	<_E2494C329CF239754DD2464995369BF4 Name="s_vehicle_load_and_cruise_definition" Size="8">
+	<_E2494C329CF239754DD2464995369BF4 Name="s_vehicle_load_and_cruise_definition" Alt="99A8B7F3623D153C" Size="8">
 		<_2 Name="load cruise function" type="sted" Offset="0" />
 		<_30 Name="attachment index" Offset="4" GUID="4775429C11097257EE75453FA775D933" StructName1="s_vehicle_load_and_cruise_definition" Min="0" Max="48" />
 	</_E2494C329CF239754DD2464995369BF4>
-	<_4C5A4A1A9019ABA511FDA1ADAD1AF034 Name="FunctionDefinitionDefaultOne" Size="18">
+	<_4C5A4A1A9019ABA511FDA1ADAD1AF034 Name="FunctionDefinitionDefaultOne" Alt="E0E2BDF48D6E226A" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_4C5A4A1A9019ABA511FDA1ADAD1AF034>
-	<_B3764EDA2FF9A01B1E7F95ADB70B64FE Name="s_scenario_dumpling" Size="4C">
+	<_B3764EDA2FF9A01B1E7F95ADB70B64FE Name="s_scenario_dumpling" Alt="3DC91D8E63BB3996" Size="4C">
 		<_40 Name="inner points" Offset="0" GUID="9AAD49315B797CB13AE0B8EFA4D67F82" StructName1="s_scenario_dumpling" Min="0" Max="128" />
 		<_40 Name="outer points" Offset="14" GUID="9AAD49315B797CB13AE0B8EFA4D67F82" StructName1="s_scenario_dumpling" Min="0" Max="128" />
 		<_14 Name="height" Offset="28" />
@@ -3139,11 +3139,11 @@
 		<_14 Name="trivial cull radius squared" Offset="44" />
 		<_14 Name="bound volume" Offset="48" />
 	</_B3764EDA2FF9A01B1E7F95ADB70B64FE>
-	<_CAFD409521D5D5297D81B801A0BADD13 Name="EditorMetadata" Size="10C">
+	<_CAFD409521D5D5297D81B801A0BADD13 Name="EditorMetadata" Alt="8896C3D79F347A73" Size="10C">
 		<_1 Name="folder name" Offset="0" />
 		<_17 Name="local space pivot point position" Offset="100" />
 	</_CAFD409521D5D5297D81B801A0BADD13>
-	<_3E2D4059FCE5EAF24F5683D68C4C8BC2 Name="s_water_physics_drag_properties" Size="40">
+	<_3E2D4059FCE5EAF24F5683D68C4C8BC2 Name="s_water_physics_drag_properties" Alt="3D7DCEC43D075C52" Size="40">
 		<_37 Name="Pressure" type="fgrb" Offset="0" />
 		<_38 Name="pressure" Offset="0" GUID="AA0C4E01C5E705F144CC22DC981B4053" />
 		<_37 Name="" type="fgre" Offset="1C" />
@@ -3153,16 +3153,16 @@
 		<_14 Name="linear damping" Offset="38" />
 		<_14 Name="angular damping" Offset="3C" />
 	</_3E2D4059FCE5EAF24F5683D68C4C8BC2>
-	<_7B6740A9F70DA80ECC59EA99A45906DA Name="AnimSetTableEntryVariantID" Size="4">
+	<_7B6740A9F70DA80ECC59EA99A45906DA Name="AnimSetTableEntryVariantID" Alt="D24A736ED580A358" Size="4">
 		<_2 Name="Variant" type="sted" Offset="0" />
 	</_7B6740A9F70DA80ECC59EA99A45906DA>
-	<_21864A2CA1B86A30F2DB9FC3B26E5CA6 Name="s_toruqe_curve_definition" Size="18">
+	<_21864A2CA1B86A30F2DB9FC3B26E5CA6 Name="s_toruqe_curve_definition" Alt="7E3933140855D04" Size="18">
 		<_38 Name="function" Offset="0" GUID="0276481E72CB9289F56D7C189467A351" />
 	</_21864A2CA1B86A30F2DB9FC3B26E5CA6>
-	<_9AAD49315B797CB13AE0B8EFA4D67F82 Name="s_dumpling_sector_point" Size="C">
+	<_9AAD49315B797CB13AE0B8EFA4D67F82 Name="s_dumpling_sector_point" Alt="6A2D0015D2EC1E90" Size="C">
 		<_17 Name="position" Offset="0" />
 	</_9AAD49315B797CB13AE0B8EFA4D67F82>
-	<_AA0C4E01C5E705F144CC22DC981B4053 Name="s_physics_force_function" Size="1C">
+	<_AA0C4E01C5E705F144CC22DC981B4053 Name="s_physics_force_function" Alt="3342FDA36D992854" Size="1C">
 		<_37 Name="velocity to force" type="fned" Offset="0" />
 		<_38 Name="velocity to pressure" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 		<_14 Name="max velocity" Offset="18" />

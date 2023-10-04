@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="SuppressedIncident" Parents="aTag" Index="-378">
-	<_3F404567D30BEC71F2572EFF83A6CB68 Name="SuppressedIncidentGroupDefinition" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="SuppressedIncident" Parents="aTag" Index="-378">
+	<_3F404567D30BEC71F2572EFF83A6CB68 Name="SuppressedIncidentGroupDefinition" Alt="502F1FF81C4F01EC" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="suppressed incidents" type="slap" Offset="10" GUID="C3A1469ECB9D307233A3E3E195FAAE71" StructName1="SuppressedIncidentGroupDefinition" Min="0" Max="1000" />
 		<_34 Name="generated_padadce" Offset="24" Length="4" />
 	</_3F404567D30BEC71F2572EFF83A6CB68>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_C3A1469ECB9D307233A3E3E195FAAE71 Name="s_suppressed_incident_definition" Size="8">
+	<_C3A1469ECB9D307233A3E3E195FAAE71 Name="s_suppressed_incident_definition" Alt="9584881C3FBAED1" Size="8">
 		<_2 Name="incident name" Offset="0" />
 		<_F Name="suppression type" Offset="4" StructName1="c_suppressed_incident_flags">
 			<Flag n="suppress cause player game engine event" />
@@ -23,8 +23,8 @@
 		</_F>
 		<_34 Name="generated_padf3b1" Offset="5" Length="3" />
 	</_C3A1469ECB9D307233A3E3E195FAAE71>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

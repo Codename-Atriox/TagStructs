@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="physics_phantom_sounds" Parents="aTag" Index="-318">
-	<_F237470A267C4764BBAC89D19CA6AA53 Name="PhysicsPhantomsSoundDefinition" Size="C8">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="physics_phantom_sounds" Parents="aTag" Index="-318">
+	<_F237470A267C4764BBAC89D19CA6AA53 Name="PhysicsPhantomsSoundDefinition" Alt="205FC2FB398257AE" Size="C8">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Sound events" Offset="10" GUID="CA814C4C37A27D53F125F3A09F6295B1" StructName1="PhysicsPhantomsSoundDefinition" Min="0" Max="6" />
 		<_2 Name="Biped travel event" Offset="24" />
@@ -11,11 +11,11 @@
 		<_41 Name="Vehicle launch sound" Offset="90" Allowed="snd!" Flags="0" />
 		<_41 Name="Grenade launch sound" Offset="AC" Allowed="snd!" Flags="0" />
 	</_F237470A267C4764BBAC89D19CA6AA53>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_CA814C4C37A27D53F125F3A09F6295B1 Name="PhysicsPhantomSoundEventPair" Size="20">
+	<_CA814C4C37A27D53F125F3A09F6295B1 Name="PhysicsPhantomSoundEventPair" Alt="22B0365EB0593F8" Size="20">
 		<_A Name="Object type" Offset="0" StructName1="PhysicsPhantomObjectType">
 			<Flag n="Local player biped" />
 			<Flag n="Other biped" />
@@ -29,7 +29,7 @@
 		<_2 Name="Exit event" Offset="8" />
 		<_40 Name="Restrict to phantoms" Offset="C" GUID="6A20428D3F21D9698D60447AA89B324D" StructName1="PhysicsPhantomSoundEventPair" Min="0" Max="127" />
 	</_CA814C4C37A27D53F125F3A09F6295B1>
-	<_0FE6471FD6BF073C7A7439749B184232 Name="PhysicsPhantomSoundTagPair" Size="50">
+	<_0FE6471FD6BF073C7A7439749B184232 Name="PhysicsPhantomSoundTagPair" Alt="5F503D734E00CC54" Size="50">
 		<_A Name="Object type" Offset="0" StructName1="PhysicsPhantomObjectType">
 			<Flag n="Local player biped" />
 			<Flag n="Other biped" />
@@ -43,11 +43,11 @@
 		<_41 Name="Exit sound tag" Offset="20" Allowed="snd!" Flags="0" />
 		<_40 Name="Restrict to phantoms" Offset="3C" GUID="6A20428D3F21D9698D60447AA89B324D" StructName1="PhysicsPhantomSoundTagPair" Min="0" Max="127" />
 	</_0FE6471FD6BF073C7A7439749B184232>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_6A20428D3F21D9698D60447AA89B324D Name="PhysicsPhantomIndices" Size="1">
+	<_6A20428D3F21D9698D60447AA89B324D Name="PhysicsPhantomIndices" Alt="6559CC111B2C8DCF" Size="1">
 		<_4 Name="Phantom index" Offset="0" />
 	</_6A20428D3F21D9698D60447AA89B324D>
 </root>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:02 PM" Name="dialogue_system_data" Parents="aTag" Index="-112">
-	<_FD3C46B03C131FA662A3A8ACB3CAFFC1 Name="DialogueSystemDataTag" Size="78">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="dialogue_system_data" Parents="aTag" Index="-112">
+	<_FD3C46B03C131FA662A3A8ACB3CAFFC1 Name="DialogueSystemDataTag" Alt="9169DB4278196281" Size="78">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="vocalizations" Offset="10" GUID="3EA148E6EFA010A47FA151D5A44C41E0" StructName1="DialogueSystemDataTag" Min="0" Max="4096" />
 		<_40 Name="patterns" Offset="24" GUID="CD6C43A7D957FA41C3ECCB8C9D2BA7B7" StructName1="DialogueSystemDataTag" Min="0" Max="4096" />
@@ -9,11 +9,11 @@
 		<_40 Name="content defined events" Offset="60" GUID="6CFC924745B3A4484C3B78FFA4237429" StructName1="DialogueSystemDataTag" Min="0" Max="200" />
 		<_34 Name="generated_paddcb7" Offset="74" Length="4" />
 	</_FD3C46B03C131FA662A3A8ACB3CAFFC1>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_3EA148E6EFA010A47FA151D5A44C41E0 Name="Vocalization" Size="6C">
+	<_3EA148E6EFA010A47FA151D5A44C41E0 Name="Vocalization" Alt="7C59582F3ACFEE11" Size="6C">
 		<_2 Name="vocalization" Offset="0" />
 		<_5 Name="offset from parent" Offset="4" />
 		<_B Name="priority" Offset="6" StructName1="DialoguePriority">
@@ -143,7 +143,7 @@
 		<_2 Name="Sample line" Offset="54" />
 		<_40 Name="reponses" Offset="58" GUID="7A5844460D94F5608A08206A8346DEA4" StructName1="Vocalization" Min="0" Max="20" />
 	</_3EA148E6EFA010A47FA151D5A44C41E0>
-	<_CD6C43A7D957FA41C3ECCB8C9D2BA7B7 Name="VocalizationPattern" Size="88">
+	<_CD6C43A7D957FA41C3ECCB8C9D2BA7B7 Name="VocalizationPattern" Alt="C1C594A0E45BC97B" Size="88">
 		<_B Name="dialogue type" Offset="0" StructName1="c_dialogue_event_enum">
 			<Flag n="NONE" />
 			<Flag n="death" />
@@ -967,21 +967,21 @@
 		<_2 Name="dst expression" Offset="70" />
 		<_40 Name="dst expression tokens" Offset="74" GUID="FAB1024AB78F742AA39BC27A927B503B" StructName1="VocalizationPattern" Min="0" Max="16" />
 	</_CD6C43A7D957FA41C3ECCB8C9D2BA7B7>
-	<_169B4D90FCF21C42C4EAC71E98F06443 Name="PatternTypeLookUpData" Size="4">
+	<_169B4D90FCF21C42C4EAC71E98F06443 Name="PatternTypeLookUpData" Alt="80F9319C2C476CFA" Size="4">
 		<_5 Name="start index (postprocess)" Offset="0" />
 		<_5 Name="length (postprocess)" Offset="2" />
 	</_169B4D90FCF21C42C4EAC71E98F06443>
-	<_08024456208CDC38A73BF24086F2C9BA Name="InvoluntaryData" Size="4">
+	<_08024456208CDC38A73BF24086F2C9BA Name="InvoluntaryData" Alt="FFCD6683F245F221" Size="4">
 		<_6 Name="involuntary vocalization index" Offset="0" />
 	</_08024456208CDC38A73BF24086F2C9BA>
-	<_6CFC924745B3A4484C3B78FFA4237429 Name="CustomEventDefinition" Size="4">
+	<_6CFC924745B3A4484C3B78FFA4237429 Name="CustomEventDefinition" Alt="419A3E4D587ABD83" Size="4">
 		<_2 Name="event name" Offset="0" />
 	</_6CFC924745B3A4484C3B78FFA4237429>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_7A5844460D94F5608A08206A8346DEA4 Name="Response" Size="10">
+	<_7A5844460D94F5608A08206A8346DEA4 Name="Response" Alt="91B54E7B63C9F34D" Size="10">
 		<_2 Name="vocalization name" type="sted" Offset="0" />
 		<_5 Name="vocalization index" Offset="4" />
 		<_A Name="response type" Offset="6" StructName1="ResponseType">
@@ -1326,15 +1326,15 @@
 		<_34 Name="generated_pad7eda" Offset="B" Length="1" />
 		<_6 Name="vocalization index offset from owner" Offset="C" />
 	</_7A5844460D94F5608A08206A8346DEA4>
-	<_C2AA4096BB9B94886F1E7181806076AE Name="i343::Damage::DamageTypeReference" Size="4">
+	<_C2AA4096BB9B94886F1E7181806076AE Name="i343::Damage::DamageTypeReference" Alt="C13D4997EAA6E578" Size="4">
 		<_36 Name="NOTE" Offset="0" />
 		<_2 Name="Damage Type Name" type="sted" Offset="0" />
 	</_C2AA4096BB9B94886F1E7181806076AE>
-	<_491E4E62FB19CD2F9DA1CACD8F5B712C Name="i343::Damage::DamageSourceReference" Size="4">
+	<_491E4E62FB19CD2F9DA1CACD8F5B712C Name="i343::Damage::DamageSourceReference" Alt="5202F61B8D203D15" Size="4">
 		<_36 Name="NOTE" Offset="0" />
 		<_2 Name="Damage Source Name" type="sted" Offset="0" />
 	</_491E4E62FB19CD2F9DA1CACD8F5B712C>
-	<_FAB1024AB78F742AA39BC27A927B503B Name="DialogueStateTableExpressionToken" Size="8">
+	<_FAB1024AB78F742AA39BC27A927B503B Name="DialogueStateTableExpressionToken" Alt="2C8021D75A9618C2" Size="8">
 		<_2 Name="an expression token" Offset="0" />
 		<_6 Name="numeric constant, if applicable" Offset="4" />
 	</_FAB1024AB78F742AA39BC27A927B503B>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:58 PM" Name="lighting_settings" Parents="aTag" Index="-2">
-	<_841249828D0DD7BD5C526209805ADDDB Name="LightingSettings" Size="CA0">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="lighting_settings" Parents="aTag" Index="-2">
+	<_841249828D0DD7BD5C526209805ADDDB Name="LightingSettings" Alt="C3F2BD690CB655AD" Size="CA0">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_6 Name="Version" Offset="10" />
 		<_37 Name="GLOBAL QUALITY SETTINGS" type="fgrb" Offset="14" />
@@ -12,16 +12,16 @@
 		<_38 Name="Indirect irradiance probe settings" Offset="C54" GUID="27BD468ECFBDCFEA672CEAB1851BEB00" />
 		<_34 Name="generated_pad54e9" Offset="C9C" Length="4" />
 	</_841249828D0DD7BD5C526209805ADDDB>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_E3064186A69EDA5BD06C222594E282A7 Name="LightingSettingsGlobal" Size="4">
+	<_E3064186A69EDA5BD06C222594E282A7 Name="LightingSettingsGlobal" Alt="A7CC473821DF8B24" Size="4">
 		<_D Name="Global flags" Offset="0" StructName1="c_lightmap_global_flags">
 			<Flag n="Is Farm Burn" />
 		</_D>
 	</_E3064186A69EDA5BD06C222594E282A7>
-	<_88345A162838474E52EED8D592A64AA7 Name="LightingSettingsRuntime" Size="C3C">
+	<_88345A162838474E52EED8D592A64AA7 Name="LightingSettingsRuntime" Alt="6F64E49DA27E717D" Size="C3C">
 		<_38 Name="visual environment" Offset="0" GUID="EF6EA54D9BFB6E4D55839E9759B8D3C1" />
 		<_37 Name="Cubemaps" type="fgrb" Offset="50" />
 		<_41 Name="Cubemap Texture" Offset="50" Allowed="bitm" Flags="0" />
@@ -32,7 +32,7 @@
 		<_38 Name="floating shadow settings" Offset="7C" GUID="3F304C081F09F99AAA552F0AA8530F29" />
 		<_37 Name="" type="fgre" Offset="C3C" />
 	</_88345A162838474E52EED8D592A64AA7>
-	<_27BD468ECFBDCFEA672CEAB1851BEB00 Name="IndirectIrradianceProbeSettings" Size="48">
+	<_27BD468ECFBDCFEA672CEAB1851BEB00 Name="IndirectIrradianceProbeSettings" Alt="7B90945A704F2C17" Size="48">
 		<_A Name="Auto-load neighboring BSPs" Offset="0" StructName1="AutoLoadNeighboringBSPsInBake">
 			<Flag n="Disabled" />
 			<Flag n="Enabled" />
@@ -56,16 +56,16 @@
 		<_14 Name="LOD scale during bake" Offset="40" />
 		<_6 Name="Maximum texture size during bake" Offset="44" />
 	</_27BD468ECFBDCFEA672CEAB1851BEB00>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_EF6EA54D9BFB6E4D55839E9759B8D3C1 Name="VisualEnvironment" Size="50">
+	<_EF6EA54D9BFB6E4D55839E9759B8D3C1 Name="VisualEnvironment" Alt="CC4967D59956781B" Size="50">
 		<_41 Name="Camera Settings" Offset="0" Allowed="cfxs" Flags="0" />
 		<_41 Name="Fog Settings" Offset="1C" Allowed="fogg" Flags="0" />
 		<_38 Name="Custom Object Lighting" Offset="38" GUID="71CD349453C7719127414A7DD50E7289" />
 	</_EF6EA54D9BFB6E4D55839E9759B8D3C1>
-	<_3F304C081F09F99AAA552F0AA8530F29 Name="FloatingShadowSettings" Size="BC0">
+	<_3F304C081F09F99AAA552F0AA8530F29 Name="FloatingShadowSettings" Alt="39530158FA9ADD01" Size="BC0">
 		<_38 Name="number of cascades" Offset="0" GUID="C58E5A9788041CA7D827460BF171E0A9" />
 		<_38 Name="quality" Offset="11" GUID="FA51EA22198BCA1BA156B3AFA86915E6" />
 		<_34 Name="generated_pad30c7" Offset="15" Length="3" />
@@ -81,10 +81,10 @@
 		<_14 Name="Sun Direction Parallax Sampling Weight" Offset="BB8" />
 		<_14 Name="First-Person Additional Depth Bias" Offset="BBC" />
 	</_3F304C081F09F99AAA552F0AA8530F29>
-	<_F6134487CC07589C1CA0C9D2AF2A090A Name="LightingSettingsAdditionalBSP" Size="1C">
+	<_F6134487CC07589C1CA0C9D2AF2A090A Name="LightingSettingsAdditionalBSP" Alt="12BE537CEF0460C3" Size="1C">
 		<_41 Name="BSP reference" Offset="0" Allowed="sbsp" Flags="2" />
 	</_F6134487CC07589C1CA0C9D2AF2A090A>
-	<_DBE14B6F42FC47EE57E11F4D8DBB5A0E Name="IndirectIrradianceTODSettings" Size="C">
+	<_DBE14B6F42FC47EE57E11F4D8DBB5A0E Name="IndirectIrradianceTODSettings" Alt="CDFA4951D77D6926" Size="C">
 		<_2 Name="DWS event list to apply for baking" Offset="0" />
 		<_2 Name="DWS state to apply for baking" Offset="4" />
 		<_A Name="Lights on during bake" Offset="8" StructName1="DynamicLightsInBake">
@@ -97,7 +97,7 @@
 		</_A>
 		<_34 Name="generated_pad89a2" Offset="A" Length="2" />
 	</_DBE14B6F42FC47EE57E11F4D8DBB5A0E>
-	<_71CD349453C7719127414A7DD50E7289 Name="CustomObjectLighting" Size="18">
+	<_71CD349453C7719127414A7DD50E7289 Name="CustomObjectLighting" Alt="3CA25290D3F61447" Size="18">
 		<_36 Name="Character Lighting" Offset="0" />
 		<_40 Name="Authored Light Probes" Offset="0" GUID="5A0DE5691202400EF0D5DF9AE696EA15" StructName1="CustomObjectLighting" Min="0" Max="4" />
 		<_A Name="Is Camera-space" Offset="14" StructName1="LightBoolean">
@@ -106,7 +106,7 @@
 		</_A>
 		<_34 Name="generated_pad79fe" Offset="15" Length="3" />
 	</_71CD349453C7719127414A7DD50E7289>
-	<_C58E5A9788041CA7D827460BF171E0A9 Name="SpecControlNodeByteExact" Size="11">
+	<_C58E5A9788041CA7D827460BF171E0A9 Name="SpecControlNodeByteExact" Alt="CD135C3FA9B3B811" Size="11">
 		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
 			<Flag n="Default" />
 			<Flag n="Sync" />
@@ -139,7 +139,7 @@
 		<_38 Name="High" Offset="9" GUID="8078F92EF0D329B6F2A2714BAD87BA46" />
 		<_38 Name="Ultra" Offset="D" GUID="8078F92EF0D329B6F2A2714BAD87BA46" />
 	</_C58E5A9788041CA7D827460BF171E0A9>
-	<_FA51EA22198BCA1BA156B3AFA86915E6 Name="SpecControlNodeShadowQuality" Size="4">
+	<_FA51EA22198BCA1BA156B3AFA86915E6 Name="SpecControlNodeShadowQuality" Alt="80FD797AABEC9857" Size="4">
 		<_A Name="Low" Offset="0" StructName1="FloatingShadowQualityDefinition">
 			<Flag n="8 tap" />
 			<Flag n="12 tap" />
@@ -173,7 +173,7 @@
 			<Flag n="PCSS High Quality" />
 		</_A>
 	</_FA51EA22198BCA1BA156B3AFA86915E6>
-	<_BF404DB2B53B3A916570A7D489CA7210 Name="FloatingShadowCascadeSettings" Size="1EC">
+	<_BF404DB2B53B3A916570A7D489CA7210 Name="FloatingShadowCascadeSettings" Alt="8F9D79DE23A97895" Size="1EC">
 		<_37 Name="CASCADE" type="fgrb" Offset="0" />
 		<_38 Name="cascade half-width" Offset="0" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
 		<_14 Name="bias" Offset="44" />
@@ -199,7 +199,7 @@
 		<_38 Name="PCSS Minimum Filter Width" Offset="1A8" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
 		<_37 Name="" type="fgre" Offset="1EC" />
 	</_BF404DB2B53B3A916570A7D489CA7210>
-	<_5A0DE5691202400EF0D5DF9AE696EA15 Name="AuthoredLightProbe" Size="10C">
+	<_5A0DE5691202400EF0D5DF9AE696EA15 Name="AuthoredLightProbe" Alt="2E74ACE5BFDBA12D" Size="10C">
 		<_40 Name="Lights" Offset="0" GUID="E1B9C6ADC2EA80AD79A6A3FF667ED3BE" StructName1="AuthoredLightProbe" Min="0" Max="1" />
 		<_37 Name="Generated Air Probe Intensity Scale" type="sled" Offset="14" Float1="0" Max="1" Min="0.01" Float4="0" />
 		<_14 Name="Generated Air Probe Intensity Scale" type="sled" Offset="14" />
@@ -215,13 +215,13 @@
 		</_E>
 		<_34 Name="generated_padb28a" Offset="10A" Length="2" />
 	</_5A0DE5691202400EF0D5DF9AE696EA15>
-	<_8078F92EF0D329B6F2A2714BAD87BA46 Name="SpecControlSplitscreenValuesByte" Size="4">
+	<_8078F92EF0D329B6F2A2714BAD87BA46 Name="SpecControlSplitscreenValuesByte" Alt="2ADF1239AB865A0" Size="4">
 		<_3C Name="Single Player" Offset="0" />
 		<_3C Name="2 Player Splitscreen" Offset="1" />
 		<_3C Name="3 Player Splitscreen" Offset="2" />
 		<_3C Name="4 Player Splitscreen" Offset="3" />
 	</_8078F92EF0D329B6F2A2714BAD87BA46>
-	<_97B1869D8D63F754A21F0D593E02B7F1 Name="SpecControlNodeFloatExact" Size="44">
+	<_97B1869D8D63F754A21F0D593E02B7F1 Name="SpecControlNodeFloatExact" Alt="D73BF96980812D07" Size="44">
 		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
 			<Flag n="Default" />
 			<Flag n="Sync" />
@@ -255,7 +255,7 @@
 		<_38 Name="High" Offset="24" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
 		<_38 Name="Ultra" Offset="34" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
 	</_97B1869D8D63F754A21F0D593E02B7F1>
-	<_41265BA612365AB514265AE852165FA7 Name="SpecControlNodeFloat" Size="2C">
+	<_41265BA612365AB514265AE852165FA7 Name="SpecControlNodeFloat" Alt="FB7F5AEBE8E6E8C0" Size="2C">
 		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
 			<Flag n="Default" />
 			<Flag n="Sync" />
@@ -302,7 +302,7 @@
 		<_14 Name="3 Player Splitscreen" Offset="24" />
 		<_14 Name="4 Player Splitscreen" Offset="28" />
 	</_41265BA612365AB514265AE852165FA7>
-	<_1AC8AEE1B251D6AAACBA41E11824A15B Name="SpecControlNodeShort" Size="2C">
+	<_1AC8AEE1B251D6AAACBA41E11824A15B Name="SpecControlNodeShort" Alt="6C292515B8C3141B" Size="2C">
 		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
 			<Flag n="Default" />
 			<Flag n="Sync" />
@@ -350,7 +350,7 @@
 		<_14 Name="3 Player Splitscreen" Offset="24" />
 		<_14 Name="4 Player Splitscreen" Offset="28" />
 	</_1AC8AEE1B251D6AAACBA41E11824A15B>
-	<_9845E179FB0D9C0F04684ED9954B8BF1 Name="SpecControlNodeBoolExact" Size="11">
+	<_9845E179FB0D9C0F04684ED9954B8BF1 Name="SpecControlNodeBoolExact" Alt="2CE2DDF0F818A6A5" Size="11">
 		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
 			<Flag n="Default" />
 			<Flag n="Sync" />
@@ -383,7 +383,7 @@
 		<_38 Name="High" Offset="9" GUID="2945F447027B04468D896F1523DC6254" />
 		<_38 Name="Ultra" Offset="D" GUID="2945F447027B04468D896F1523DC6254" />
 	</_9845E179FB0D9C0F04684ED9954B8BF1>
-	<_E1B9C6ADC2EA80AD79A6A3FF667ED3BE Name="AuthoredLightProbeLights" Size="68">
+	<_E1B9C6ADC2EA80AD79A6A3FF667ED3BE Name="AuthoredLightProbeLights" Alt="4BEACE1BC4E692A7" Size="68">
 		<_37 Name="Authored Light Probe" type="aulp" Offset="0" />
 		<_37 Name="Direction 1" type="sled" Offset="0" Float1="0" Max="360" Min="1" Float4="0" />
 		<_14 Name="Direction 1" type="sled" Offset="0" />
@@ -413,16 +413,16 @@
 		<_37 Name="Generated Air Probe Intensity Scale" type="sled" Offset="64" Float1="0" Max="10" Min="0.2" Float4="0" />
 		<_14 Name="Generated Air Probe Intensity Scale" type="sled" Offset="64" />
 	</_E1B9C6ADC2EA80AD79A6A3FF667ED3BE>
-	<_E49BA421E8F859140B6D71111216AB74 Name="RGBLightprobe" Size="4">
+	<_E49BA421E8F859140B6D71111216AB74 Name="RGBLightprobe" Alt="DBA5469E2E41B73C" Size="4">
 		<_14 Name="sh data" Offset="0" />
 	</_E49BA421E8F859140B6D71111216AB74>
-	<_0B69E7FC16240A124EB051BE14E7BFC5 Name="SpecControlSplitscreenValuesFloat" Size="10">
+	<_0B69E7FC16240A124EB051BE14E7BFC5 Name="SpecControlSplitscreenValuesFloat" Alt="C3075D2D89D56356" Size="10">
 		<_14 Name="Single Player" Offset="0" />
 		<_14 Name="2 Player Splitscreen" Offset="4" />
 		<_14 Name="3 Player Splitscreen" Offset="8" />
 		<_14 Name="4 Player Splitscreen" Offset="C" />
 	</_0B69E7FC16240A124EB051BE14E7BFC5>
-	<_2945F447027B04468D896F1523DC6254 Name="SpecControlSplitscreenValuesBool" Size="4">
+	<_2945F447027B04468D896F1523DC6254 Name="SpecControlSplitscreenValuesBool" Alt="FEE10FBAE750FD21" Size="4">
 		<_F Name="Single Player" Offset="0" StructName1="SpecControlNodeBoolExactFlags">
 			<Flag n="True" />
 		</_F>

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="ComponentDefinition" Parents="aTag" Index="-169" C="ui\wpf">
-	<_DA3D44808B3B0E77F9F181BA95A4B64C Name="Interface::FastHud::ComponentDefinition" Size="368">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="ComponentDefinition" Parents="aTag" Index="-169" C="ui\wpf">
+	<_DA3D44808B3B0E77F9F181BA95A4B64C Name="Interface::FastHud::ComponentDefinition" Alt="D3627C024406F576" Size="368">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="name" Offset="10" />
 		<_0 Name="class" Offset="14" />
 		<_38 Name="resources" Offset="34" GUID="75A546A65AED957592A628A08D48A55F" />
 	</_DA3D44808B3B0E77F9F181BA95A4B64C>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_75A546A65AED957592A628A08D48A55F Name="Interface::FastHud::ComponentResourcesDefinition" Size="334">
+	<_75A546A65AED957592A628A08D48A55F Name="Interface::FastHud::ComponentResourcesDefinition" Alt="B1AC02BEBF0C8462" Size="334">
 		<_40 Name="entries" Offset="0" GUID="272249451CF6F98F39B26326AC483712" StructName1="Interface::FastHud::ComponentResourcesDefinition" Min="0" Max="1024" />
 		<_40 Name="booleans" Offset="14" GUID="0DB143BF69DFEC9BEAAAD576918C4D19" StructName1="Interface::FastHud::ComponentResourcesDefinition" Min="0" Max="1024" />
 		<_40 Name="ints" Offset="28" GUID="E32A48811D4961FA4913165C83D6576D" StructName1="Interface::FastHud::ComponentResourcesDefinition" Min="0" Max="1024" />
@@ -53,41 +53,41 @@
 		<_40 Name="highcontrastadditive" Offset="30C" GUID="C78B4CE70BEBA20D0F1EC752819B72AB" StructName1="Interface::FastHud::ComponentResourcesDefinition" Min="0" Max="1024" />
 		<_40 Name="vertexwarp" Offset="320" GUID="BC444815E3969A76637BAA1287735ED8" StructName1="Interface::FastHud::ComponentResourcesDefinition" Min="0" Max="1024" />
 	</_75A546A65AED957592A628A08D48A55F>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_272249451CF6F98F39B26326AC483712 Name="Interface::FastHud::ResourceEntryDefinition" Size="C">
+	<_272249451CF6F98F39B26326AC483712 Name="Interface::FastHud::ResourceEntryDefinition" Alt="C0159B476C3EE996" Size="C">
 		<_2 Name="name" Offset="0" />
 		<_38 Name="handle" Offset="4" GUID="552542C8301FC7C569695E89A944C2E7" />
 	</_272249451CF6F98F39B26326AC483712>
-	<_0DB143BF69DFEC9BEAAAD576918C4D19 Name="Interface::FastHud::BooleanDefinition" Size="1">
+	<_0DB143BF69DFEC9BEAAAD576918C4D19 Name="Interface::FastHud::BooleanDefinition" Alt="499F06113FA5094" Size="1">
 		<_F Name="value" Offset="0" StructName1="Interface::FastHud::BooleanFlags">
 			<Flag n="Enabled" />
 		</_F>
 	</_0DB143BF69DFEC9BEAAAD576918C4D19>
-	<_E32A48811D4961FA4913165C83D6576D Name="Interface::FastHud::IntegerDefinition" Size="4">
+	<_E32A48811D4961FA4913165C83D6576D Name="Interface::FastHud::IntegerDefinition" Alt="75479A9299819473" Size="4">
 		<_6 Name="value" Offset="0" />
 	</_E32A48811D4961FA4913165C83D6576D>
-	<_2C99495639CA8679B9C22195A0594C75 Name="Interface::FastHud::FloatDefinition" Size="4">
+	<_2C99495639CA8679B9C22195A0594C75 Name="Interface::FastHud::FloatDefinition" Alt="1B172AE0A2C5F6F1" Size="4">
 		<_14 Name="value" Offset="0" />
 	</_2C99495639CA8679B9C22195A0594C75>
-	<_730D4997D44661B9CEDF13A3A884E00F Name="Interface::FastHud::FastHudColor" Size="24">
+	<_730D4997D44661B9CEDF13A3A884E00F Name="Interface::FastHud::FastHudColor" Alt="A66CCA20660F7641" Size="24">
 		<_38 Name="value" Offset="0" GUID="B5504A9E35DDD212680E9F0D9FF658A7" />
 		<_20 Name="value old " Offset="14" />
 	</_730D4997D44661B9CEDF13A3A884E00F>
-	<_D2C2444CF753A545E99B06039A3510BE Name="Interface::FastHud::Point2FDefinition" Size="8">
+	<_D2C2444CF753A545E99B06039A3510BE Name="Interface::FastHud::Point2FDefinition" Alt="822781767880F23F" Size="8">
 		<_16 Name="value" Offset="0" />
 	</_D2C2444CF753A545E99B06039A3510BE>
-	<_4C824251BA60308EB6CCC5F9A14A99ED Name="Interface::FastHud::StringIdDefinition" Size="4">
+	<_4C824251BA60308EB6CCC5F9A14A99ED Name="Interface::FastHud::StringIdDefinition" Alt="B43FDBA9132C8AC4" Size="4">
 		<_2 Name="value" Offset="0" />
 	</_4C824251BA60308EB6CCC5F9A14A99ED>
-	<_C27140DF0D604741262C17998EBF6053 Name="Interface::FastHud::BitmapGroupReferenceDefinition" Size="20">
+	<_C27140DF0D604741262C17998EBF6053 Name="Interface::FastHud::BitmapGroupReferenceDefinition" Alt="E1DDC043D3C25546" Size="20">
 		<_41 Name="asset reference" Offset="0" Allowed="bitm" Flags="0" />
 		<_3D Name="sprite index" Offset="1C" />
 		<_34 Name="generated_padbdbe" Offset="1E" Length="2" />
 	</_C27140DF0D604741262C17998EBF6053>
-	<_CD4E4AC0EB7EFA38528EBDD4B975961A Name="Interface::FastHud::FloatAnimationDefinition" Size="1C">
+	<_CD4E4AC0EB7EFA38528EBDD4B975961A Name="Interface::FastHud::FloatAnimationDefinition" Alt="FD2D72CEC7D684D2" Size="1C">
 		<_38 Name="animation base" Offset="0" GUID="CF2844518E6B2E8DBAC9AC02A51973FD" />
 		<_F Name="flags" Offset="C" StructName1="Interface::FastHud::FloatAnimationFlags">
 			<Flag n="From valid" />
@@ -98,7 +98,7 @@
 		<_14 Name="to" Offset="14" />
 		<_14 Name="duration" Offset="18" />
 	</_CD4E4AC0EB7EFA38528EBDD4B975961A>
-	<_950A445A7394BAA0DB85BF34A753C9DE Name="Interface::FastHud::ColorAnimationDefinition" Size="5C">
+	<_950A445A7394BAA0DB85BF34A753C9DE Name="Interface::FastHud::ColorAnimationDefinition" Alt="E531224850E0AAB0" Size="5C">
 		<_38 Name="animation base" Offset="0" GUID="CF2844518E6B2E8DBAC9AC02A51973FD" />
 		<_F Name="flags" Offset="C" StructName1="Interface::FastHud::ColorAnimationFlags">
 			<Flag n="From valid" />
@@ -111,7 +111,7 @@
 		<_20 Name="to old " Offset="48" />
 		<_14 Name="duration" Offset="58" />
 	</_950A445A7394BAA0DB85BF34A753C9DE>
-	<_9C724C749042C91F227E7AC284F8BEC5 Name="Interface::FastHud::Point2FAnimationDefinition" Size="24">
+	<_9C724C749042C91F227E7AC284F8BEC5 Name="Interface::FastHud::Point2FAnimationDefinition" Alt="A251D709ACC7DED2" Size="24">
 		<_38 Name="animation base" Offset="0" GUID="CF2844518E6B2E8DBAC9AC02A51973FD" />
 		<_F Name="flags" Offset="C" StructName1="Interface::FastHud::Point2FAnimationFlags">
 			<Flag n="From valid" />
@@ -122,7 +122,7 @@
 		<_16 Name="to" Offset="18" />
 		<_14 Name="duration" Offset="20" />
 	</_9C724C749042C91F227E7AC284F8BEC5>
-	<_654E48C83013A82BC5565E2C83C4E1FA Name="Interface::FastHud::IntegerAnimationDefinition" Size="1C">
+	<_654E48C83013A82BC5565E2C83C4E1FA Name="Interface::FastHud::IntegerAnimationDefinition" Alt="30F098712EC5E0B0" Size="1C">
 		<_38 Name="animation base" Offset="0" GUID="CF2844518E6B2E8DBAC9AC02A51973FD" />
 		<_F Name="flags" Offset="C" StructName1="Interface::FastHud::IntegerAnimationFlags">
 			<Flag n="From valid" />
@@ -133,10 +133,10 @@
 		<_6 Name="to" Offset="14" />
 		<_14 Name="duration" Offset="18" />
 	</_654E48C83013A82BC5565E2C83C4E1FA>
-	<_02E14A06F5E4DB30CAB7F0289EA78728 Name="Interface::FastHud::StoryboardDefinition" Size="14">
+	<_02E14A06F5E4DB30CAB7F0289EA78728 Name="Interface::FastHud::StoryboardDefinition" Alt="233835089F65FC77" Size="14">
 		<_40 Name="timelines" Offset="0" GUID="7BD34E72424E4FA2B89EE6DEBBA16ACB" StructName1="Interface::FastHud::StoryboardDefinition" Min="0" Max="1024" />
 	</_02E14A06F5E4DB30CAB7F0289EA78728>
-	<_4D5A4E9CF183BC6645154EAAA7AC0040 Name="Interface::FastHud::NumericDisplayDefinition" Size="6C">
+	<_4D5A4E9CF183BC6645154EAAA7AC0040 Name="Interface::FastHud::NumericDisplayDefinition" Alt="39F38E1423997074" Size="6C">
 		<_0 Name="extra characters used in display in addition to 0 to 9" Offset="0" />
 		<_41 Name="asset reference" Offset="20" Allowed="bitm" Flags="0" />
 		<_38 Name="tint color of the numeric display" Offset="3C" GUID="B5504A9E35DDD212680E9F0D9FF658A7" />
@@ -152,61 +152,61 @@
 		</_F>
 		<_34 Name="generated_padc1d6" Offset="6B" Length="1" />
 	</_4D5A4E9CF183BC6645154EAAA7AC0040>
-	<_B103419961610EEF9D28617DB4C41397 Name="Interface::FastHud::VisualStateDefinition" Size="C">
+	<_B103419961610EEF9D28617DB4C41397 Name="Interface::FastHud::VisualStateDefinition" Alt="983407F7DEDC7520" Size="C">
 		<_2 Name="name" Offset="0" />
 		<_38 Name="storyboard" Offset="4" GUID="552542C8301FC7C569695E89A944C2E7" />
 	</_B103419961610EEF9D28617DB4C41397>
-	<_362F44C1CC7D572E2EBAD83A9D3984FC Name="Interface::FastHud::VisualStateGroupDefinition" Size="14">
+	<_362F44C1CC7D572E2EBAD83A9D3984FC Name="Interface::FastHud::VisualStateGroupDefinition" Alt="DFB51AA47F0F6C7B" Size="14">
 		<_40 Name="visual states" Offset="0" GUID="7BD34E72424E4FA2B89EE6DEBBA16ACB" StructName1="Interface::FastHud::VisualStateGroupDefinition" Min="0" Max="1024" />
 	</_362F44C1CC7D572E2EBAD83A9D3984FC>
-	<_AE2C40463578CBF5D202EA4EAC4D2EE2 Name="Interface::FastHud::FloatAnimationUsingKeyFramesDefinition" Size="20">
+	<_AE2C40463578CBF5D202EA4EAC4D2EE2 Name="Interface::FastHud::FloatAnimationUsingKeyFramesDefinition" Alt="EC107F650BE587A2" Size="20">
 		<_38 Name="animation base" Offset="0" GUID="CF2844518E6B2E8DBAC9AC02A51973FD" />
 		<_40 Name="key frames" Offset="C" GUID="7BD34E72424E4FA2B89EE6DEBBA16ACB" StructName1="Interface::FastHud::FloatAnimationUsingKeyFramesDefinition" Min="0" Max="1024" />
 	</_AE2C40463578CBF5D202EA4EAC4D2EE2>
-	<_228C43E9DCD3A9426A464AACA9E4D5D1 Name="Interface::FastHud::LinearFloatKeyFrameDefinition" Size="8">
+	<_228C43E9DCD3A9426A464AACA9E4D5D1 Name="Interface::FastHud::LinearFloatKeyFrameDefinition" Alt="3E989BE1BA3A02D8" Size="8">
 		<_38 Name="keyframebase" Offset="0" GUID="C6A144501B6C540310D331B3A29AC1E1" />
 	</_228C43E9DCD3A9426A464AACA9E4D5D1>
-	<_108F42D34AE20CA3154BC07B8EA8E843 Name="Interface::FastHud::DiscreteFloatKeyFrameDefinition" Size="8">
+	<_108F42D34AE20CA3154BC07B8EA8E843 Name="Interface::FastHud::DiscreteFloatKeyFrameDefinition" Alt="BD55EB58F0F95B7C" Size="8">
 		<_38 Name="keyframebase" Offset="0" GUID="C6A144501B6C540310D331B3A29AC1E1" />
 	</_108F42D34AE20CA3154BC07B8EA8E843>
-	<_586E49A302F7563A78DED821B3F98D21 Name="Interface::FastHud::ColorAnimationUsingKeyFramesDefinition" Size="20">
+	<_586E49A302F7563A78DED821B3F98D21 Name="Interface::FastHud::ColorAnimationUsingKeyFramesDefinition" Alt="8EB68956CEAD3BAC" Size="20">
 		<_38 Name="animation base" Offset="0" GUID="CF2844518E6B2E8DBAC9AC02A51973FD" />
 		<_40 Name="key frames" Offset="C" GUID="7BD34E72424E4FA2B89EE6DEBBA16ACB" StructName1="Interface::FastHud::ColorAnimationUsingKeyFramesDefinition" Min="0" Max="1024" />
 	</_586E49A302F7563A78DED821B3F98D21>
-	<_7D8442D7B33CA40314AB6A06AAC47310 Name="Interface::FastHud::LinearColorKeyFrameDefinition" Size="28">
+	<_7D8442D7B33CA40314AB6A06AAC47310 Name="Interface::FastHud::LinearColorKeyFrameDefinition" Alt="F6CE68B5C67AFE20" Size="28">
 		<_38 Name="keyframebase" Offset="0" GUID="DDB8452294EAD44E9AFFA078A17DC165" />
 	</_7D8442D7B33CA40314AB6A06AAC47310>
-	<_92C748141EC40C8233301B2EB80AFDD2 Name="Interface::FastHud::DiscreteColorKeyFrameDefinition" Size="28">
+	<_92C748141EC40C8233301B2EB80AFDD2 Name="Interface::FastHud::DiscreteColorKeyFrameDefinition" Alt="6B1320D13E87480A" Size="28">
 		<_38 Name="keyframebase" Offset="0" GUID="DDB8452294EAD44E9AFFA078A17DC165" />
 	</_92C748141EC40C8233301B2EB80AFDD2>
-	<_014345ACB2281CAC96AC1B2C9A2A1E05 Name="Interface::FastHud::BooleanAnimationUsingKeyFramesDefinition" Size="20">
+	<_014345ACB2281CAC96AC1B2C9A2A1E05 Name="Interface::FastHud::BooleanAnimationUsingKeyFramesDefinition" Alt="8F0232926EA35A16" Size="20">
 		<_38 Name="animation base" Offset="0" GUID="CF2844518E6B2E8DBAC9AC02A51973FD" />
 		<_40 Name="key frames" Offset="C" GUID="7BD34E72424E4FA2B89EE6DEBBA16ACB" StructName1="Interface::FastHud::BooleanAnimationUsingKeyFramesDefinition" Min="0" Max="1024" />
 	</_014345ACB2281CAC96AC1B2C9A2A1E05>
-	<_86524DFC93247C2473A81DFE8A52B90A Name="Interface::FastHud::DiscreteBooleanKeyFrameDefinition" Size="8">
+	<_86524DFC93247C2473A81DFE8A52B90A Name="Interface::FastHud::DiscreteBooleanKeyFrameDefinition" Alt="8B7405C6C8E82DD8" Size="8">
 		<_38 Name="keyframebase" Offset="0" GUID="31A14B045B52C6942C2586648D03E17D" />
 	</_86524DFC93247C2473A81DFE8A52B90A>
-	<_884147C0F757849934989C79B5F70F6D Name="Interface::FastHud::Point2FAnimationUsingKeyFramesDefinition" Size="20">
+	<_884147C0F757849934989C79B5F70F6D Name="Interface::FastHud::Point2FAnimationUsingKeyFramesDefinition" Alt="57AD67F63CFB6ED7" Size="20">
 		<_38 Name="animation base" Offset="0" GUID="CF2844518E6B2E8DBAC9AC02A51973FD" />
 		<_40 Name="key frames" Offset="C" GUID="7BD34E72424E4FA2B89EE6DEBBA16ACB" StructName1="Interface::FastHud::Point2FAnimationUsingKeyFramesDefinition" Min="0" Max="1024" />
 	</_884147C0F757849934989C79B5F70F6D>
-	<_F76F4A6736A4DC163CF50923B9692042 Name="Interface::FastHud::LinearPoint2FKeyFrameDefinition" Size="C">
+	<_F76F4A6736A4DC163CF50923B9692042 Name="Interface::FastHud::LinearPoint2FKeyFrameDefinition" Alt="774DBF97020864ED" Size="C">
 		<_38 Name="keyframebase" Offset="0" GUID="964F46B29A7CBB7D786B77A08CAAEB8B" />
 	</_F76F4A6736A4DC163CF50923B9692042>
-	<_63584F6D137AD475A8D8392EB88817DD Name="Interface::FastHud::DiscretePoint2FKeyFrameDefinition" Size="C">
+	<_63584F6D137AD475A8D8392EB88817DD Name="Interface::FastHud::DiscretePoint2FKeyFrameDefinition" Alt="39D47ABC91E3084A" Size="C">
 		<_38 Name="keyframebase" Offset="0" GUID="964F46B29A7CBB7D786B77A08CAAEB8B" />
 	</_63584F6D137AD475A8D8392EB88817DD>
-	<_64334CB9EBBBA21AD5714A03AD81A09D Name="Interface::FastHud::IntegerAnimationUsingKeyFramesDefinition" Size="20">
+	<_64334CB9EBBBA21AD5714A03AD81A09D Name="Interface::FastHud::IntegerAnimationUsingKeyFramesDefinition" Alt="CD998370EF2560D" Size="20">
 		<_38 Name="animation base" Offset="0" GUID="CF2844518E6B2E8DBAC9AC02A51973FD" />
 		<_40 Name="key frames" Offset="C" GUID="7BD34E72424E4FA2B89EE6DEBBA16ACB" StructName1="Interface::FastHud::IntegerAnimationUsingKeyFramesDefinition" Min="0" Max="1024" />
 	</_64334CB9EBBBA21AD5714A03AD81A09D>
-	<_063845D4A15267955396643F8D3B644A Name="Interface::FastHud::LinearIntegerKeyFrameDefinition" Size="8">
+	<_063845D4A15267955396643F8D3B644A Name="Interface::FastHud::LinearIntegerKeyFrameDefinition" Alt="3C361D9B5F811C3C" Size="8">
 		<_38 Name="keyframebase" Offset="0" GUID="BCC047DC235C218824D8CE08A612B8DB" />
 	</_063845D4A15267955396643F8D3B644A>
-	<_F1EE4DFF4E07C4575271BEE9AF622D14 Name="Interface::FastHud::DiscreteIntegerKeyFrameDefinition" Size="8">
+	<_F1EE4DFF4E07C4575271BEE9AF622D14 Name="Interface::FastHud::DiscreteIntegerKeyFrameDefinition" Alt="F3196E02A740407A" Size="8">
 		<_38 Name="keyframebase" Offset="0" GUID="BCC047DC235C218824D8CE08A612B8DB" />
 	</_F1EE4DFF4E07C4575271BEE9AF622D14>
-	<_29F3447FA1D4120EF648691B86DB40C9 Name="Interface::FastHud::RepeatBehaviorDefinition" Size="C">
+	<_29F3447FA1D4120EF648691B86DB40C9 Name="Interface::FastHud::RepeatBehaviorDefinition" Alt="358D2120FB012FBE" Size="C">
 		<_F Name="flags" Offset="0" StructName1="Interface::FastHud::RepeatBehaviorFlags">
 			<Flag n="Count valid" />
 			<Flag n="Duration valid" />
@@ -215,25 +215,25 @@
 		<_6 Name="count" Offset="4" />
 		<_14 Name="duration" Offset="8" />
 	</_29F3447FA1D4120EF648691B86DB40C9>
-	<_9CD54E054F97E55E262EE658B3DA630D Name="Interface::FastHud::SoundDefinition" Size="1C">
+	<_9CD54E054F97E55E262EE658B3DA630D Name="Interface::FastHud::SoundDefinition" Alt="EEC3BCFB2725DD7C" Size="1C">
 		<_41 Name="asset reference" Offset="0" Allowed="snd!" Flags="0" />
 	</_9CD54E054F97E55E262EE658B3DA630D>
-	<_5E204FA156E132BFC1C67971B63EF248 Name="Interface::FastHud::SoundLoopDefinition" Size="1C">
+	<_5E204FA156E132BFC1C67971B63EF248 Name="Interface::FastHud::SoundLoopDefinition" Alt="6E32E126EAFC0FA7" Size="1C">
 		<_41 Name="asset reference" Offset="0" Allowed="lsnd" Flags="0" />
 	</_5E204FA156E132BFC1C67971B63EF248>
-	<_3F5B4250501D6B54DF036C189E9C6400 Name="Interface::FastHud::NavPointLayoutReferenceDefinition" Size="1C">
+	<_3F5B4250501D6B54DF036C189E9C6400 Name="Interface::FastHud::NavPointLayoutReferenceDefinition" Alt="4BE8B09CBBB0F91A" Size="1C">
 		<_41 Name="tag reference" Offset="0" Allowed="navl" Flags="0" />
 	</_3F5B4250501D6B54DF036C189E9C6400>
-	<_01A647054F2EB06B43F57F1FA1DCAFD8 Name="Interface::FastHud::NavPointAnimationReferenceDefinition" Size="1C">
+	<_01A647054F2EB06B43F57F1FA1DCAFD8 Name="Interface::FastHud::NavPointAnimationReferenceDefinition" Alt="12D11CCF53A059EE" Size="1C">
 		<_41 Name="tag reference" Offset="0" Allowed="nava" Flags="0" />
 	</_01A647054F2EB06B43F57F1FA1DCAFD8>
-	<_D30640D33CED8FCBFA2C9801820B0A98 Name="Interface::FastHud::StringTableDefinition" Size="14">
+	<_D30640D33CED8FCBFA2C9801820B0A98 Name="Interface::FastHud::StringTableDefinition" Alt="9731B2DED3A9CB87" Size="14">
 		<_40 Name="entires" Offset="0" GUID="3B3843592085EC3B3458E58BA9EA09CF" StructName1="Interface::FastHud::StringTableDefinition" Min="0" Max="1024" />
 	</_D30640D33CED8FCBFA2C9801820B0A98>
-	<_6F9A4B80E0B4A3D7AD0DE497822077BA Name="Interface::FastHud::SubComponentDefinition" Size="1C">
+	<_6F9A4B80E0B4A3D7AD0DE497822077BA Name="Interface::FastHud::SubComponentDefinition" Alt="AC947FE7F3D4C13C" Size="1C">
 		<_41 Name="sub component reference" Offset="0" Allowed="fuic" Flags="0" />
 	</_6F9A4B80E0B4A3D7AD0DE497822077BA>
-	<_FF1B4A9CA7440290C4D383F68202A768 Name="Interface::FastHud::HudTwoToneGradientDefinition" Size="5C">
+	<_FF1B4A9CA7440290C4D383F68202A768 Name="Interface::FastHud::HudTwoToneGradientDefinition" Alt="D807D5F1508C357B" Size="5C">
 		<_38 Name="left color" Offset="0" GUID="B5504A9E35DDD212680E9F0D9FF658A7" />
 		<_20 Name="left color old " Offset="14" />
 		<_38 Name="right color" Offset="24" GUID="B5504A9E35DDD212680E9F0D9FF658A7" />
@@ -247,13 +247,13 @@
 		</_F>
 		<_34 Name="generated_pad6488" Offset="59" Length="3" />
 	</_FF1B4A9CA7440290C4D383F68202A768>
-	<_51684DC3A823950002B63FC7A4E943DF Name="Interface::FastHud::FontDefinition" Size="128">
+	<_51684DC3A823950002B63FC7A4E943DF Name="Interface::FastHud::FontDefinition" Alt="298B06662F538427" Size="128">
 		<_1 Name="font family name" Offset="0" />
 		<_38 Name="tint color" Offset="100" GUID="B5504A9E35DDD212680E9F0D9FF658A7" />
 		<_20 Name="tint color old " Offset="114" />
 		<_14 Name="font size" Offset="124" />
 	</_51684DC3A823950002B63FC7A4E943DF>
-	<_C78B4CE70BEBA20D0F1EC752819B72AB Name="Interface::FastHud::HighContrastAdditiveDefinition" Size="10">
+	<_C78B4CE70BEBA20D0F1EC752819B72AB Name="Interface::FastHud::HighContrastAdditiveDefinition" Alt="4637EAA8D5327DD0" Size="10">
 		<_14 Name="dynamic threshold min" Offset="0" />
 		<_14 Name="dynamic threshold max" Offset="4" />
 		<_14 Name="dynamic threshold clamp" Offset="8" />
@@ -262,7 +262,7 @@
 		</_F>
 		<_34 Name="generated_pad7bd5" Offset="D" Length="3" />
 	</_C78B4CE70BEBA20D0F1EC752819B72AB>
-	<_BC444815E3969A76637BAA1287735ED8 Name="Interface::FastHud::VertexWarpDefinition" Size="30">
+	<_BC444815E3969A76637BAA1287735ED8 Name="Interface::FastHud::VertexWarpDefinition" Alt="B08F61F21AB42B1E" Size="30">
 		<_17 Name="ellipsoid scale" Offset="0" />
 		<_17 Name="ellipsoid center" Offset="C" />
 		<_17 Name="output offset" Offset="18" />
@@ -273,46 +273,46 @@
 		</_F>
 		<_34 Name="generated_pad0073" Offset="2D" Length="3" />
 	</_BC444815E3969A76637BAA1287735ED8>
-	<_552542C8301FC7C569695E89A944C2E7 Name="Interface::FastHud::ResourceHandleDefinition" Size="8">
+	<_552542C8301FC7C569695E89A944C2E7 Name="Interface::FastHud::ResourceHandleDefinition" Alt="D28849AFEBD91E71" Size="8">
 		<_3E Name="resource type" Offset="0" />
 		<_6 Name="resource index" Offset="4" />
 	</_552542C8301FC7C569695E89A944C2E7>
-	<_B5504A9E35DDD212680E9F0D9FF658A7 Name="Interface::FastHud::FastHudColorActualData" Size="14">
+	<_B5504A9E35DDD212680E9F0D9FF658A7 Name="Interface::FastHud::FastHudColorActualData" Alt="5EC744B0F8D42B85" Size="14">
 		<_2 Name="name" Offset="0" />
 		<_20 Name="value" Offset="4" />
 	</_B5504A9E35DDD212680E9F0D9FF658A7>
-	<_CF2844518E6B2E8DBAC9AC02A51973FD Name="Interface::FastHud::AnimationBaseDefinition" Size="C">
+	<_CF2844518E6B2E8DBAC9AC02A51973FD Name="Interface::FastHud::AnimationBaseDefinition" Alt="8BF5E4CCB2002EF" Size="C">
 		<_2 Name="target" Offset="0" />
 		<_38 Name="repeat behavior" Offset="4" GUID="552542C8301FC7C569695E89A944C2E7" />
 	</_CF2844518E6B2E8DBAC9AC02A51973FD>
-	<_7BD34E72424E4FA2B89EE6DEBBA16ACB Name="Interface::FastHud::ResourceHandle" Size="8">
+	<_7BD34E72424E4FA2B89EE6DEBBA16ACB Name="Interface::FastHud::ResourceHandle" Alt="3F263FA88029332" Size="8">
 		<_38 Name="handle" Offset="0" GUID="552542C8301FC7C569695E89A944C2E7" />
 	</_7BD34E72424E4FA2B89EE6DEBBA16ACB>
-	<_C6A144501B6C540310D331B3A29AC1E1 Name="Interface::FastHud::FloatKeyFrameBaseDefinition" Size="8">
+	<_C6A144501B6C540310D331B3A29AC1E1 Name="Interface::FastHud::FloatKeyFrameBaseDefinition" Alt="2C4286492BFA4DB0" Size="8">
 		<_14 Name="key time" Offset="0" />
 		<_14 Name="key value" Offset="4" />
 	</_C6A144501B6C540310D331B3A29AC1E1>
-	<_DDB8452294EAD44E9AFFA078A17DC165 Name="Interface::FastHud::ColorKeyFrameBaseDefinition" Size="28">
+	<_DDB8452294EAD44E9AFFA078A17DC165 Name="Interface::FastHud::ColorKeyFrameBaseDefinition" Alt="111301D0D5B17839" Size="28">
 		<_14 Name="key time" Offset="0" />
 		<_38 Name="key value" Offset="4" GUID="B5504A9E35DDD212680E9F0D9FF658A7" />
 		<_20 Name="key value old " Offset="18" />
 	</_DDB8452294EAD44E9AFFA078A17DC165>
-	<_31A14B045B52C6942C2586648D03E17D Name="Interface::FastHud::BooleanKeyFrameBaseDefinition" Size="8">
+	<_31A14B045B52C6942C2586648D03E17D Name="Interface::FastHud::BooleanKeyFrameBaseDefinition" Alt="E1852FF52A8109C7" Size="8">
 		<_14 Name="key time" Offset="0" />
 		<_F Name="key value" Offset="4" StructName1="Interface::FastHud::BooleanFlags">
 			<Flag n="Enabled" />
 		</_F>
 		<_34 Name="generated_pad2322" Offset="5" Length="3" />
 	</_31A14B045B52C6942C2586648D03E17D>
-	<_964F46B29A7CBB7D786B77A08CAAEB8B Name="Interface::FastHud::Point2FKeyFrameBaseDefinition" Size="C">
+	<_964F46B29A7CBB7D786B77A08CAAEB8B Name="Interface::FastHud::Point2FKeyFrameBaseDefinition" Alt="B23469755F228CC5" Size="C">
 		<_14 Name="key time" Offset="0" />
 		<_16 Name="key value" Offset="4" />
 	</_964F46B29A7CBB7D786B77A08CAAEB8B>
-	<_BCC047DC235C218824D8CE08A612B8DB Name="Interface::FastHud::IntegerKeyFrameBaseDefinition" Size="8">
+	<_BCC047DC235C218824D8CE08A612B8DB Name="Interface::FastHud::IntegerKeyFrameBaseDefinition" Alt="CD10EAB4AAC3F024" Size="8">
 		<_14 Name="key time" Offset="0" />
 		<_6 Name="key value" Offset="4" />
 	</_BCC047DC235C218824D8CE08A612B8DB>
-	<_3B3843592085EC3B3458E58BA9EA09CF Name="Interface::FastHud::StringTableEntryDefinition" Size="1C">
+	<_3B3843592085EC3B3458E58BA9EA09CF Name="Interface::FastHud::StringTableEntryDefinition" Alt="E08E0470F8E5C38D" Size="1C">
 		<_41 Name="data" Offset="0" Allowed="uslg" Flags="0" />
 	</_3B3843592085EC3B3458E58BA9EA09CF>
 </root>

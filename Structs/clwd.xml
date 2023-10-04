@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="cloth" Parents="aTag" Index="-62">
-	<_1677454C6007B323CAEC6D8B86B19DA1 Name="cloth_definition" Size="C8">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="cloth" Parents="aTag" Index="-62">
+	<_1677454C6007B323CAEC6D8B86B19DA1 Name="cloth_definition" Alt="41C7A865CFF5C0AE" Size="C8">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_D Name="flags" Offset="10" StructName1="ClothFlags">
 			<Flag n="Doesn't use wind" />
@@ -24,15 +24,15 @@
 		<_40 Name="links" Offset="AC" GUID="1EE64F762A08CAD440E35AAF85A6FF91" StructName1="cloth_definition" Min="0" Max="1210" />
 		<_7 Name="m_pipelineStates" Offset="C0" />
 	</_1677454C6007B323CAEC6D8B86B19DA1>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_1EEC4C7A1168CFD440ABCDAF85A5FF51 Name="s_cloth_collision_sphere" Size="8">
+	<_1EEC4C7A1168CFD440ABCDAF85A5FF51 Name="s_cloth_collision_sphere" Alt="3C1FCF21F03F14BE" Size="8">
 		<_2 Name="object marker name" Offset="0" />
 		<_14 Name="radius" Offset="4" />
 	</_1EEC4C7A1168CFD440ABCDAF85A5FF51>
-	<_8FDB4A6D3654721A06E30928833E911B Name="cloth_properties" Size="18">
+	<_8FDB4A6D3654721A06E30928833E911B Name="cloth_properties" Alt="555C4898BFF77F0C" Size="18">
 		<_B Name="Integration type" Offset="0" StructName1="ClothIntegrationType">
 			<Flag n="verlet" />
 		</_B>
@@ -43,20 +43,20 @@
 		<_14 Name="wind_flappiness_scale" Offset="10" />
 		<_14 Name="longest_rod" Offset="14" />
 	</_8FDB4A6D3654721A06E30928833E911B>
-	<_B33945219CBFA025F791ED55BC81E2FD Name="cloth_vertex_definition" Size="14">
+	<_B33945219CBFA025F791ED55BC81E2FD Name="cloth_vertex_definition" Alt="A553C0C49FB49900" Size="14">
 		<_17 Name="initial position" Offset="0" />
 		<_18 Name="uv" Offset="C" />
 	</_B33945219CBFA025F791ED55BC81E2FD>
-	<_D2D2423537D025EE0BEACCDCA99B29D1 Name="cloth_index_definition" Size="2">
+	<_D2D2423537D025EE0BEACCDCA99B29D1 Name="cloth_index_definition" Alt="97DE4D8D726BA4E1" Size="2">
 		<_5 Name="index" Offset="0" />
 	</_D2D2423537D025EE0BEACCDCA99B29D1>
-	<_1EE64F762A08CAD440E35AAF85A6FF91 Name="cloth_link_definition" Size="10">
+	<_1EE64F762A08CAD440E35AAF85A6FF91 Name="cloth_link_definition" Alt="9A7A0ECC470B8613" Size="10">
 		<_14 Name="default_distance" Offset="0" />
 		<_6 Name="index1" Offset="4" />
 		<_6 Name="index2" Offset="8" />
 		<_34 Name="pad" Offset="C" Length="4" />
 	</_1EE64F762A08CAD440E35AAF85A6FF91>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>

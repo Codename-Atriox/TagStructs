@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="asset" Parents="aTag" Index="-26">
-	<_E36E4E5A50E3D2DB4E21E9D4BE5F8106 Name="AssetTag" Size="260">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="asset" Parents="aTag" Index="-26">
+	<_E36E4E5A50E3D2DB4E21E9D4BE5F8106 Name="AssetTag" Alt="AA5952823B117C9E" Size="260">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="Regions" type="fgrb" Offset="10" />
 		<_40 Name="Visual region names" Offset="10" GUID="4366C4BC4A3F1FB324631BE1A24365BD" StructName1="AssetTag" Min="0" Max="32" />
@@ -128,14 +128,14 @@
 		<_38 Name="Validation" Offset="248" GUID="E22E4E5A50E233DD4E2F74A4BE593E06" />
 		<_37 Name="" type="fgre" Offset="260" />
 	</_E36E4E5A50E3D2DB4E21E9D4BE5F8106>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_4366C4BC4A3F1FB324631BE1A24365BD Name="VisualRegionNameBlock" Size="4">
+	<_4366C4BC4A3F1FB324631BE1A24365BD Name="VisualRegionNameBlock" Alt="63E6C4BF3128C7A9" Size="4">
 		<_2 Name="Name" Offset="0" />
 	</_4366C4BC4A3F1FB324631BE1A24365BD>
-	<_4365C4BC4A3F1F5324631B51A24565BD Name="PropertyRegion" Size="38">
+	<_4365C4BC4A3F1F5324631B51A24565BD Name="PropertyRegion" Alt="335A061BDF43555" Size="38">
 		<_2 Name="Name" Offset="0" />
 		<_D Name="Flags" Offset="4" StructName1="PropertyRegionFlagsDefinition">
 			<Flag n="Casts shadow" />
@@ -192,30 +192,30 @@
 		<_6 Name="Emblem Layer Depth" Offset="34" />
 		<_37 Name="" type="fgre" Offset="38" />
 	</_4365C4BC4A3F1F5324631B51A24565BD>
-	<_437614BC4A3F17B321631BE7A24317BD Name="ContentTagBlock" Size="4C">
+	<_437614BC4A3F17B321631BE7A24317BD Name="ContentTagBlock" Alt="5C5FF16FEACDF986" Size="4C">
 		<_2 Name="Name" Offset="0" />
 		<_2 Name="GroupName" Offset="4" />
 		<_41 Name="Reference" Offset="8" Allowed="gtag" Flags="9" />
 		<_40 Name="Relative source paths" Offset="24" GUID="43DC74BC4ACF17B3E1C71BE1A27C15BD" StructName1="ContentTagBlock" Min="0" Max="24" />
 		<_40 Name="Damage States" Offset="38" GUID="43B614BC4A3F17C321638BE8A24327BD" StructName1="ContentTagBlock" Min="0" Max="5" />
 	</_437614BC4A3F17B321631BE7A24317BD>
-	<_437614BC4A3F17B321631BE8A24317BD Name="SkeletonBlock" Size="20">
+	<_437614BC4A3F17B321631BE8A24317BD Name="SkeletonBlock" Alt="776D547A6C8C3489" Size="20">
 		<_41 Name="Reference" Offset="0" Allowed="skel" Flags="9" />
 		<_44 Name="Alembic source path" Offset="1C" />
 	</_437614BC4A3F17B321631BE8A24317BD>
-	<_44DC74BC4ADF17B3E1E71BE1A27C18BD Name="AdditionalContentPath" Size="8">
+	<_44DC74BC4ADF17B3E1E71BE1A27C18BD Name="AdditionalContentPath" Alt="F5C1B8871B855A7F" Size="8">
 		<_2 Name="Name" Offset="0" />
 		<_44 Name="Path" Offset="4" />
 	</_44DC74BC4ADF17B3E1E71BE1A27C18BD>
-	<_2C524C3988BED9FA3BE41A5B8448FD0F Name="MarkerBlock" Size="24">
+	<_2C524C3988BED9FA3BE41A5B8448FD0F Name="MarkerBlock" Alt="E9E0C289D3106548" Size="24">
 		<_2 Name="Name" Offset="0" />
 		<_2 Name="GroupName" Offset="4" />
 		<_41 Name="Reference" Offset="8" Allowed="mrkr" Flags="9" />
 	</_2C524C3988BED9FA3BE41A5B8448FD0F>
-	<_43AC14BC4ACA11B321C31B21A2AC15BD Name="LODTransitionDistancesBlock" Size="4">
+	<_43AC14BC4ACA11B321C31B21A2AC15BD Name="LODTransitionDistancesBlock" Alt="3F5AE288BB3C2ECE" Size="4">
 		<_14 Name="Transition distance" Offset="0" />
 	</_43AC14BC4ACA11B321C31B21A2AC15BD>
-	<_4EF6C4BC4CD6EFB3296E1AF1E24695BD Name="AssetVariant" Size="E4">
+	<_4EF6C4BC4CD6EFB3296E1AF1E24695BD Name="AssetVariant" Alt="1B9460685D1BEFB0" Size="E4">
 		<_2 Name="Name" Offset="0" />
 		<_2 Name="Style" Offset="4" />
 		<_6 Name="Damage Style Index" Offset="8" />
@@ -230,7 +230,7 @@
 		<_41 Name="Reference round trip ABC tag from a render model" Offset="AC" Allowed="abc*" Flags="9" />
 		<_41 Name="Reference round trip ABC tag from a runtimegeo" Offset="C8" Allowed="abc*" Flags="9" />
 	</_4EF6C4BC4CD6EFB3296E1AF1E24695BD>
-	<_D92DB46311E7673C1E205CBB75358E48 Name="UniqueAssetGeometryVariant" Size="90">
+	<_D92DB46311E7673C1E205CBB75358E48 Name="UniqueAssetGeometryVariant" Alt="5CDBC5DD1B9E9467" Size="90">
 		<_3F Name="UUID" Offset="0" />
 		<_40 Name="Explicit visual region list" Offset="8" GUID="436334BC435F1FB323E31BE1A24765B3" StructName1="UniqueAssetGeometryVariant" Min="0" Max="32" />
 		<_41 Name="Reference to generated prefab" Offset="1C" Allowed="rtgo" Flags="9" />
@@ -239,7 +239,7 @@
 		<_41 Name="Reference to generated lightweight fixed-depth quadtree" Offset="70" Allowed="fdqt" Flags="9" />
 		<_34 Name="generated_pada40c" Offset="8C" Length="4" />
 	</_D92DB46311E7673C1E205CBB75358E48>
-	<_E22E4E5A50E233DD4E2F74A4BE593E06 Name="ContentValidationBlockData" Size="18">
+	<_E22E4E5A50E233DD4E2F74A4BE593E06 Name="ContentValidationBlockData" Alt="24D5276DCCCC1587" Size="18">
 		<_36 Name="Content validation tests" Offset="0" />
 		<_D Name="Validation status" Offset="0" StructName1="ValidationStatusFlags">
 			<Flag n="Performance (performance will be effected)" />
@@ -249,14 +249,14 @@
 		</_D>
 		<_40 Name="Validation test batteries" Offset="4" GUID="EDD94E5A50ED33DD4E8D74ADBEDD3106" StructName1="ContentValidationBlockData" Min="0" Max="2048" />
 	</_E22E4E5A50E233DD4E2F74A4BE593E06>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_43DC74BC4ACF17B3E1C71BE1A27C15BD Name="RelativeSourcePath" Size="4">
+	<_43DC74BC4ACF17B3E1C71BE1A27C15BD Name="RelativeSourcePath" Alt="51EE65D44FC2A3A2" Size="4">
 		<_44 Name="Path" Offset="0" />
 	</_43DC74BC4ACF17B3E1C71BE1A27C15BD>
-	<_43B614BC4A3F17C321638BE8A24327BD Name="DamageStateBlock" Size="C">
+	<_43B614BC4A3F17C321638BE8A24327BD Name="DamageStateBlock" Alt="C45EBCC70C8508B9" Size="C">
 		<_C Name="State" Offset="0" StructName1="AssetDamageStates">
 			<Flag n="undamaged" />
 			<Flag n="minor" />
@@ -270,15 +270,15 @@
 		</_C>
 		<_2 Name="Geometry name" type="sted" Offset="8" />
 	</_43B614BC4A3F17C321638BE8A24327BD>
-	<_436334BC435F1FB323E31BE1A24765B3 Name="VisualRegionOverrideEntry" Size="8">
+	<_436334BC435F1FB323E31BE1A24765B3 Name="VisualRegionOverrideEntry" Alt="38ED84B36E7E28DE" Size="8">
 		<_2 Name="Region name" type="sted" Offset="0" />
 		<_2 Name="Geometry name" type="sted" Offset="4" />
 	</_436334BC435F1FB323E31BE1A24765B3>
-	<_4563C4BC4A5F3FB324691B31A23663BD Name="MaterialOverrideEntry" Size="38">
+	<_4563C4BC4A5F3FB324691B31A23663BD Name="MaterialOverrideEntry" Alt="3E3CF48F7B4E4232" Size="38">
 		<_41 Name="Original material ref" Offset="0" Allowed="mat " Flags="9" />
 		<_41 Name="Override material ref" Offset="1C" Allowed="mat " Flags="9" />
 	</_4563C4BC4A5F3FB324691B31A23663BD>
-	<_5118452A6A78EF68C2DB0E798A4DED79 Name="AssetChildObject" Size="4C">
+	<_5118452A6A78EF68C2DB0E798A4DED79 Name="AssetChildObject" Alt="78991FC5530E3630" Size="4C">
 		<_2 Name="Parent marker" type="sted" Offset="0" />
 		<_2 Name="Child marker" Offset="4" />
 		<_2 Name="Child variant name" Offset="8" />
@@ -291,10 +291,10 @@
 		</_F>
 		<_34 Name="generated_padb3ad" Offset="49" Length="3" />
 	</_5118452A6A78EF68C2DB0E798A4DED79>
-	<_2C534C3988BDD9FA3BE51A5B8548FD0F Name="MutedJointEntry" Size="4">
+	<_2C534C3988BDD9FA3BE51A5B8548FD0F Name="MutedJointEntry" Alt="7CA689A072EA8600" Size="4">
 		<_2 Name="Joint name" type="sted" Offset="0" />
 	</_2C534C3988BDD9FA3BE51A5B8548FD0F>
-	<_F773409B74B26D9D525AC5EA87FC4CEA Name="i343::Objects::ObjectNodeGraphDefinition" Size="24">
+	<_F773409B74B26D9D525AC5EA87FC4CEA Name="i343::Objects::ObjectNodeGraphDefinition" Alt="3907973BD3A74A62" Size="24">
 		<_2 Name="Name" Offset="0" />
 		<_41 Name="Exported Node Graph" Offset="4" Allowed="xong" Flags="0" />
 		<_F Name="Flags" Offset="20" StructName1="ObjectNodeGraphFlags">
@@ -309,7 +309,7 @@
 		</_A>
 		<_34 Name="generated_pad8671" Offset="22" Length="2" />
 	</_F773409B74B26D9D525AC5EA87FC4CEA>
-	<_EDD94E5A50ED33DD4E8D74ADBEDD3106 Name="ContentValidationGroup" Size="11C">
+	<_EDD94E5A50ED33DD4E8D74ADBEDD3106 Name="ContentValidationGroup" Alt="B080D1EC18210C0" Size="11C">
 		<_1 Name="Group name" Offset="0" />
 		<_6 Name="Group ID" Offset="100" />
 		<_D Name="Validation status" Offset="104" StructName1="ValidationStatusFlags">
@@ -320,7 +320,7 @@
 		</_D>
 		<_40 Name="Validation Tests" Offset="108" GUID="431C14BC1ACA11B321431B21A21C15BD" StructName1="ContentValidationGroup" Min="0" Max="1024" />
 	</_EDD94E5A50ED33DD4E8D74ADBEDD3106>
-	<_431C14BC1ACA11B321431B21A21C15BD Name="Validation" Size="118">
+	<_431C14BC1ACA11B321431B21A21C15BD Name="Validation" Alt="FA09366D6455C27B" Size="118">
 		<_1 Name="Test name" Offset="0" />
 		<_D Name="Test status" Offset="100" StructName1="ValidationStatusFlags">
 			<Flag n="Performance (performance will be effected)" />
@@ -330,7 +330,7 @@
 		</_D>
 		<_40 Name="Comments" Offset="104" GUID="4E1C14BC1ECA11B32E431B21AE1C15BD" StructName1="Validation" Min="0" Max="50000" />
 	</_431C14BC1ACA11B321431B21A21C15BD>
-	<_4E1C14BC1ECA11B32E431B21AE1C15BD Name="ValidationComment" Size="104">
+	<_4E1C14BC1ECA11B32E431B21AE1C15BD Name="ValidationComment" Alt="7E82221BCE82C008" Size="104">
 		<_1 Name="Comment" Offset="0" />
 		<_D Name="Status" Offset="100" StructName1="ValidationStatusFlags">
 			<Flag n="Performance (performance will be effected)" />

@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:06 PM" Name="CameraGlobalsDefinition" Parents="aTag" Index="-177">
-	<_4CC5465C2A67A0AE2247E9F9B21B5926 Name="i343::CameraGlobals" Size="38">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="CameraGlobalsDefinition" Parents="aTag" Index="-177">
+	<_4CC5465C2A67A0AE2247E9F9B21B5926 Name="i343::CameraGlobals" Alt="C312FD5BD117C32F" Size="38">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="camera" Offset="10" GUID="F3D044765544FB066BA634E2A51F6257" StructName1="i343::CameraGlobals" Min="0" Max="1" />
 		<_40 Name="camera impulse" Offset="24" GUID="0B82456557F39345FDAD9A47A343C4B0" StructName1="i343::CameraGlobals" Min="0" Max="1" />
 	</_4CC5465C2A67A0AE2247E9F9B21B5926>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_F3D044765544FB066BA634E2A51F6257 Name="s_game_globals_camera" Size="11C">
+	<_F3D044765544FB066BA634E2A51F6257 Name="s_game_globals_camera" Alt="8A8A22DBF19EE0DF" Size="11C">
 		<_41 Name="default unit camera track" Offset="0" Allowed="trak" Flags="0" />
 		<_36 Name="SANDBOX" Offset="1C" />
 		<_38 Name="pitch to vertical offset" Offset="1C" GUID="0276481E72CB9289F56D7C189467A351" />
@@ -96,19 +96,19 @@
 		<_36 Name="EDITOR PROFILE DEFAULTS" Offset="114" />
 		<_25 Name="editor horizontal fov bounds" Offset="114" />
 	</_F3D044765544FB066BA634E2A51F6257>
-	<_0B82456557F39345FDAD9A47A343C4B0 Name="s_camera_impulse_globals" Size="18">
+	<_0B82456557F39345FDAD9A47A343C4B0 Name="s_camera_impulse_globals" Alt="68CC9F8C7D77DE35" Size="18">
 		<_37 Name="Mapping function" type="fned" Offset="0" />
 		<_38 Name="mapping" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0B82456557F39345FDAD9A47A343C4B0>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_57744B3B3A9D370F93F2A8CC863CAE2F Name="s_camera_obstruction_parameters" Size="18">
+	<_57744B3B3A9D370F93F2A8CC863CAE2F Name="s_camera_obstruction_parameters" Alt="769BCDBF223940" Size="18">
 		<_15 Name="cylinder fraction" Offset="0" />
 		<_8 Name="obstruction test angle" Offset="4" />
 		<_14 Name="obstruction max inward accel" Offset="8" />
@@ -116,9 +116,9 @@
 		<_14 Name="obstruction max velocity" Offset="10" />
 		<_14 Name="obstruction return delay" Offset="14" />
 	</_57744B3B3A9D370F93F2A8CC863CAE2F>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

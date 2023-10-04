@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="structure_meta" Parents="aTag" Index="-387">
-	<_E656432AAAF021B90BA1DF54971E39DE Name="StructureMetadata" Size="60">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="structure_meta" Parents="aTag" Index="-387">
+	<_E656432AAAF021B90BA1DF54971E39DE Name="StructureMetadata" Alt="E9EB1A78B75C6F9B" Size="60">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Effects markers" Offset="10" GUID="50534BF1025D71C325EAA551B1331C99" StructName1="StructureMetadata" Min="0" Max="1024" />
 		<_40 Name="Light Cones" Offset="24" GUID="6F2344DD549730953DC2A5F7A012514D" StructName1="StructureMetadata" Min="0" Max="1024" />
 		<_40 Name="Object Palette" Offset="38" GUID="2E6243F837D2FC4A7776BE11B235BEDE" StructName1="StructureMetadata" Min="0" Max="1024" />
 		<_40 Name="Objects" Offset="4C" GUID="FD90476F1CDF634DCC1B247F9133F1DA" StructName1="StructureMetadata" Min="0" Max="16384" />
 	</_E656432AAAF021B90BA1DF54971E39DE>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_50534BF1025D71C325EAA551B1331C99 Name="StructureFxPlacementMarker" Size="58">
+	<_50534BF1025D71C325EAA551B1331C99 Name="StructureFxPlacementMarker" Alt="72763F52178EAAFA" Size="58">
 		<_0 Name="marker name" Offset="0" />
 		<_1A Name="rotation" Offset="20" />
 		<_17 Name="position" Offset="30" />
 		<_41 Name="optional attached effect" Offset="3C" Allowed="effe, lens" Flags="0" />
 	</_50534BF1025D71C325EAA551B1331C99>
-	<_6F2344DD549730953DC2A5F7A012514D Name="StructureMetadataLightConeMarker" Size="74">
+	<_6F2344DD549730953DC2A5F7A012514D Name="StructureMetadataLightConeMarker" Alt="EC2960FC0E5A7E42" Size="74">
 		<_0 Name="marker name" Offset="0" />
 		<_1A Name="rotation" Offset="20" />
 		<_17 Name="position" Offset="30" />
@@ -27,12 +27,12 @@
 		<_20 Name="light color" Offset="48" />
 		<_41 Name="light cone tag" Offset="58" Allowed="licn" Flags="0" />
 	</_6F2344DD549730953DC2A5F7A012514D>
-	<_2E6243F837D2FC4A7776BE11B235BEDE Name="structure_environment_object_palette_entry" Size="3C">
+	<_2E6243F837D2FC4A7776BE11B235BEDE Name="structure_environment_object_palette_entry" Alt="DA578DFF3ED03DCC" Size="3C">
 		<_41 Name="definition" Offset="0" Allowed="obje" Flags="18" />
 		<_41 Name="model" Offset="1C" Allowed="mode" Flags="18" />
 		<_6 Name="GVEYN" Offset="38" />
 	</_2E6243F837D2FC4A7776BE11B235BEDE>
-	<_FD90476F1CDF634DCC1B247F9133F1DA Name="structure_environment_object" Size="54">
+	<_FD90476F1CDF634DCC1B247F9133F1DA Name="structure_environment_object" Alt="32F7EF5B9F440416" Size="54">
 		<_0 Name="name" Offset="0" />
 		<_1A Name="rotation" Offset="20" />
 		<_17 Name="translation" Offset="30" />
@@ -47,8 +47,8 @@
 		<_2 Name="scenario object name" Offset="4C" />
 		<_2 Name="variant name" Offset="50" />
 	</_FD90476F1CDF634DCC1B247F9133F1DA>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

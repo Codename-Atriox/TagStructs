@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:15 PM" Name="RenderGraph" Parents="aTag" Index="-334">
-	<_AAEE4463BDF708494E92857C8DD006A7 Name="i343::Graphics::RenderGraph::GraphDefinition" Size="88">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="RenderGraph" Parents="aTag" Index="-334">
+	<_AAEE4463BDF708494E92857C8DD006A7 Name="i343::Graphics::RenderGraph::GraphDefinition" Alt="312FAEFFF9B0D0F5" Size="88">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="Name" Offset="10" />
 		<_D Name="Flags" Offset="14" StructName1="i343::Graphics::RenderGraph::GraphFlag">
@@ -14,11 +14,11 @@
 		<_34 Name="generated_pad0e69" Offset="7C" Length="4" />
 		<_7 Name="RenderGraph" Offset="80" />
 	</_AAEE4463BDF708494E92857C8DD006A7>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_32F948029F2DCED1D1882D32BF4A0A54 Name="i343::Graphics::RenderGraph::NodeDefinition" Size="30">
+	<_32F948029F2DCED1D1882D32BF4A0A54 Name="i343::Graphics::RenderGraph::NodeDefinition" Alt="DAE9F7FEE57486EA" Size="30">
 		<_2 Name="Name" Offset="0" />
 		<_C Name="Type" Offset="4" StructName1="i343::Graphics::RenderGraph::NodeType">
 			<Flag n="ExecuteGraph" />
@@ -49,7 +49,7 @@
 		<_40 Name="Parameters" Offset="8" GUID="3E85466591856061F2A997648C4777C3" StructName1="i343::Graphics::RenderGraph::NodeDefinition" Min="0" Max="64" />
 		<_40 Name="EditorMetadata" Offset="1C" GUID="582B41C356E2D1BC2436B28389704A64" StructName1="i343::Graphics::RenderGraph::NodeDefinition" Min="0" Max="1" />
 	</_32F948029F2DCED1D1882D32BF4A0A54>
-	<_7B324D65A9B8FBC7ACC6BBBF8CBFEEFF Name="i343::Graphics::RenderGraph::ConnectionDefinition" Size="2C">
+	<_7B324D65A9B8FBC7ACC6BBBF8CBFEEFF Name="i343::Graphics::RenderGraph::ConnectionDefinition" Alt="ED2BE9C1C86F998D" Size="2C">
 		<_37 Name="From..." type="fgrb" Offset="0" />
 		<_36 Name="Connection From Port" Offset="0" />
 		<_37 Name="From Graph Input" type="fgrb" Offset="0" />
@@ -78,7 +78,7 @@
 		<_37 Name="" type="fgre" Offset="2C" />
 		<_37 Name="" type="fgre" Offset="2C" />
 	</_7B324D65A9B8FBC7ACC6BBBF8CBFEEFF>
-	<_924D425ED4BE1C00F61ABC4285718920 Name="i343::Graphics::RenderGraph::InputDefinition" Size="30">
+	<_924D425ED4BE1C00F61ABC4285718920 Name="i343::Graphics::RenderGraph::InputDefinition" Alt="9D8382C4825B70BB" Size="30">
 		<_2 Name="Name" Offset="0" />
 		<_C Name="Type" Offset="4" StructName1="i343::Graphics::RenderGraph::ParameterType">
 			<Flag n="None" />
@@ -107,7 +107,7 @@
 		<_40 Name="UI Property" Offset="8" GUID="38624FFEEB59DFEA0633C803AC5466B4" StructName1="i343::Graphics::RenderGraph::InputDefinition" Min="0" Max="1" />
 		<_40 Name="EditorMetadata" Offset="1C" GUID="582B41C356E2D1BC2436B28389704A64" StructName1="i343::Graphics::RenderGraph::InputDefinition" Min="0" Max="1" />
 	</_924D425ED4BE1C00F61ABC4285718920>
-	<_F6C4414741E7504841DCBFAE9D9F8A41 Name="i343::Graphics::RenderGraph::OutputDefinition" Size="1C">
+	<_F6C4414741E7504841DCBFAE9D9F8A41 Name="i343::Graphics::RenderGraph::OutputDefinition" Alt="4441534E48361848" Size="1C">
 		<_2 Name="Name" Offset="0" />
 		<_C Name="Type" Offset="4" StructName1="i343::Graphics::RenderGraph::ParameterType">
 			<Flag n="None" />
@@ -135,21 +135,21 @@
 		</_C>
 		<_40 Name="EditorMetadata" Offset="8" GUID="582B41C356E2D1BC2436B28389704A64" StructName1="i343::Graphics::RenderGraph::OutputDefinition" Min="0" Max="1" />
 	</_F6C4414741E7504841DCBFAE9D9F8A41>
-	<_A1F14573FA83C591D997DCF79EEA5EEF Name="i343::Graphics::RenderGraph::ConstantDefinition" Size="68">
+	<_A1F14573FA83C591D997DCF79EEA5EEF Name="i343::Graphics::RenderGraph::ConstantDefinition" Alt="AC4CF1474C3D0368" Size="68">
 		<_38 Name="Parameter" Offset="0" GUID="99F149216967F6C06615190E816B1BE0" />
 		<_40 Name="EditorMetadata" Offset="54" GUID="582B41C356E2D1BC2436B28389704A64" StructName1="i343::Graphics::RenderGraph::ConstantDefinition" Min="0" Max="1" />
 	</_A1F14573FA83C591D997DCF79EEA5EEF>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_3E85466591856061F2A997648C4777C3 Name="i343::Graphics::RenderGraph::ParameterDefinitionB" Size="54">
+	<_3E85466591856061F2A997648C4777C3 Name="i343::Graphics::RenderGraph::ParameterDefinitionB" Alt="49FDAE1ECF291A10" Size="54">
 		<_38 Name="Parameter" Offset="0" GUID="99F149216967F6C06615190E816B1BE0" />
 	</_3E85466591856061F2A997648C4777C3>
-	<_582B41C356E2D1BC2436B28389704A64 Name="i343::Graphics::RenderGraph::EditorMetadataDefinition" Size="8">
+	<_582B41C356E2D1BC2436B28389704A64 Name="i343::Graphics::RenderGraph::EditorMetadataDefinition" Alt="94B42E444065A02" Size="8">
 		<_18 Name="UI Position" Offset="0" />
 	</_582B41C356E2D1BC2436B28389704A64>
-	<_38624FFEEB59DFEA0633C803AC5466B4 Name="i343::Graphics::RenderGraph::UIPropertyDefinition" Size="1A8">
+	<_38624FFEEB59DFEA0633C803AC5466B4 Name="i343::Graphics::RenderGraph::UIPropertyDefinition" Alt="37FAEBDD50FEDBDC" Size="1A8">
 		<_D Name="Flags" Offset="0" StructName1="i343::Graphics::RenderGraph::GraphUIPropertyFlag">
 			<Flag n="Hide from UI" />
 		</_D>
@@ -195,7 +195,7 @@
 		</_C>
 		<_40 Name="Enum Values" Offset="194" GUID="65074C2F5288EDBA05F3630B92761C5B" StructName1="i343::Graphics::RenderGraph::UIPropertyDefinition" Min="0" Max="32" />
 	</_38624FFEEB59DFEA0633C803AC5466B4>
-	<_99F149216967F6C06615190E816B1BE0 Name="i343::Graphics::RenderGraph::ParameterDefinition" Size="54">
+	<_99F149216967F6C06615190E816B1BE0 Name="i343::Graphics::RenderGraph::ParameterDefinition" Alt="15C0E66B0D869CA2" Size="54">
 		<_2 Name="Name" Offset="0" />
 		<_C Name="Type" Offset="4" StructName1="i343::Graphics::RenderGraph::ParameterType">
 			<Flag n="None" />
@@ -228,7 +228,7 @@
 		<_42 Name="DataPath" Offset="38" StructName1="i343::Graphics::RenderGraph::ParameterDefinition.DataPath" Int1="34" Int2="0" Flags="104" />
 		<_2 Name="String" Offset="50" />
 	</_99F149216967F6C06615190E816B1BE0>
-	<_65074C2F5288EDBA05F3630B92761C5B Name="i343::Graphics::RenderGraph::UIEnumValueDefinition" Size="24">
+	<_65074C2F5288EDBA05F3630B92761C5B Name="i343::Graphics::RenderGraph::UIEnumValueDefinition" Alt="58666D8EFA4B4455" Size="24">
 		<_0 Name="Display Name" Offset="0" />
 		<_6 Name="Value" Offset="20" />
 	</_65074C2F5288EDBA05F3630B92761C5B>

@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:15 PM" Name="runtime_surfacing" Parents="aTag" Index="-337">
-	<_75FC4EE39C2B7A07BDEFE338A243F83C Name="i343::SurfacingRuntimeTag" Size="60">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="runtime_surfacing" Parents="aTag" Index="-337">
+	<_75FC4EE39C2B7A07BDEFE338A243F83C Name="i343::SurfacingRuntimeTag" Alt="69F1C3A59D95B9CC" Size="60">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Inputs" Offset="10" GUID="77DA4D315200A395E7FD738DB67020BB" StructName1="i343::SurfacingRuntimeTag" Min="0" Max="1024" />
 		<_40 Name="Material Layers" Offset="24" GUID="81744B69756474C5BB545108A56F0553" StructName1="i343::SurfacingRuntimeTag" Min="0" Max="1024" />
 		<_40 Name="Placement Layers" Offset="38" GUID="3DFA4C9802688D8036293D13B2E5B252" StructName1="i343::SurfacingRuntimeTag" Min="0" Max="1024" />
 		<_40 Name="Layers Bytecode" Offset="4C" GUID="4CE140C423EA797AC4B86E2696783171" StructName1="i343::SurfacingRuntimeTag" Min="0" Max="2097152" />
 	</_75FC4EE39C2B7A07BDEFE338A243F83C>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_77DA4D315200A395E7FD738DB67020BB Name="i343::SurfacingInput" Size="30">
+	<_77DA4D315200A395E7FD738DB67020BB Name="i343::SurfacingInput" Alt="43CCBC4AA00407D2" Size="30">
 		<_A Name="Type" Offset="0" StructName1="i343::SurfacingInputType">
 			<Flag n="Mask" />
 			<Flag n="Bitmap" />
@@ -22,27 +22,27 @@
 		<_41 Name="Bitmap Reference" Offset="C" Allowed="bitm" Flags="0" />
 		<_18 Name="UV Scale" Offset="28" />
 	</_77DA4D315200A395E7FD738DB67020BB>
-	<_81744B69756474C5BB545108A56F0553 Name="i343::SurfacingMaterialLayer" Size="2C">
+	<_81744B69756474C5BB545108A56F0553 Name="i343::SurfacingMaterialLayer" Alt="B65A68A132574F49" Size="2C">
 		<_2 Name="Id" Offset="0" />
 		<_6 Name="Index" Offset="4" />
 		<_6 Name="GPU Interpreter Instructions" Offset="8" />
 		<_41 Name="Material Preset" Offset="C" Allowed="matp" Flags="8" />
 		<_6 Name="PhysicsMaterialId" Offset="28" />
 	</_81744B69756474C5BB545108A56F0553>
-	<_3DFA4C9802688D8036293D13B2E5B252 Name="i343::SurfacingPlacementLayer" Size="18">
+	<_3DFA4C9802688D8036293D13B2E5B252 Name="i343::SurfacingPlacementLayer" Alt="A8FF96D874F42322" Size="18">
 		<_40 Name="Placement Descriptions" Offset="0" GUID="D47A4644F0679DDA2BAC81CBA71662D2" StructName1="i343::SurfacingPlacementLayer" Min="0" Max="32" />
 		<_14 Name="Footprint Radius" Offset="14" />
 	</_3DFA4C9802688D8036293D13B2E5B252>
-	<_4CE140C423EA797AC4B86E2696783171 Name="i343::LayerGpuInterpreterBytecode" Size="20">
+	<_4CE140C423EA797AC4B86E2696783171 Name="i343::LayerGpuInterpreterBytecode" Alt="3E1A5B2640A54BFD" Size="20">
 		<_3F Name="Hash" Offset="0" />
 		<_40 Name="GPU Interpreter Instructions" Offset="8" GUID="40B4497914578F2A795DBC2B95B9B32D" StructName1="i343::LayerGpuInterpreterBytecode" Min="0" Max="1024" />
 		<_34 Name="generated_pad5fcf" Offset="1C" Length="4" />
 	</_4CE140C423EA797AC4B86E2696783171>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_D47A4644F0679DDA2BAC81CBA71662D2 Name="i343::SurfacingPlacementDescription" Size="118">
+	<_D47A4644F0679DDA2BAC81CBA71662D2 Name="i343::SurfacingPlacementDescription" Alt="1972EC8B24CBFF8" Size="118">
 		<_2 Name="Id" Offset="0" />
 		<_6 Name="GPU Interpreter Density Instructions" Offset="4" />
 		<_6 Name="GPU Interpreter Scale Instructions" Offset="8" />
@@ -79,10 +79,10 @@
 		<_38 Name="Distance Dither Start" Offset="F8" GUID="42A51C651EBA162A521651FA165ADBAC" />
 		<_14 Name="Distance Dither Transition Width" Offset="114" />
 	</_D47A4644F0679DDA2BAC81CBA71662D2>
-	<_40B4497914578F2A795DBC2B95B9B32D Name="i343::GpuInterpreterInstruction" Size="4">
+	<_40B4497914578F2A795DBC2B95B9B32D Name="i343::GpuInterpreterInstruction" Alt="B901F90A3C5E8BF8" Size="4">
 		<_6 Name="Data" Offset="0" />
 	</_40B4497914578F2A795DBC2B95B9B32D>
-	<_42A51C651EBA162A521651FA165ADBAC Name="s_basic_spec_control_setting_float" Size="1C">
+	<_42A51C651EBA162A521651FA165ADBAC Name="s_basic_spec_control_setting_float" Alt="4702D401A97A7880" Size="1C">
 		<_14 Name="Low" Offset="0" />
 		<_14 Name="Medium" Offset="4" />
 		<_14 Name="High" Offset="8" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="ForgeTelescopingAsset" Parents="aTag" Index="-168">
-	<_E2C242B91E5CE5C0A3DFAC2DB556DCF3 Name="ForgeEngine::TelescopingAssetTag" Size="A8">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="ForgeTelescopingAsset" Parents="aTag" Index="-168">
+	<_E2C242B91E5CE5C0A3DFAC2DB556DCF3 Name="ForgeEngine::TelescopingAssetTag" Alt="D15489E90DC3134F" Size="A8">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_A Name="TelescopingSolutionType" Offset="10" StructName1="ForgeEngine::TelescopingSolutionType">
 			<Flag n="AlgebraicWithMarkup" />
@@ -34,11 +34,11 @@
 		<_41 Name="Runtime Underlying Material Palette (Static IO)" Offset="88" Allowed="rtmp" Flags="0" />
 		<_34 Name="generated_paddfec" Offset="A4" Length="4" />
 	</_E2C242B91E5CE5C0A3DFAC2DB556DCF3>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_80934AEBA26F147D594496C8AB6D738E Name="ForgeEngine::TelescopingCorner" Size="BC">
+	<_80934AEBA26F147D594496C8AB6D738E Name="ForgeEngine::TelescopingCorner" Alt="F0F3E77A1FB59287" Size="BC">
 		<_41 Name="Object" Offset="0" Allowed="aTag" Flags="1" />
 		<_19 Name="Position" Offset="1C" />
 		<_2 Name="variant" Offset="28" />
@@ -51,7 +51,7 @@
 		<_41 Name="Runtime Underlying Material Palette (Static IO)" Offset="9C" Allowed="rtmp" Flags="0" />
 		<_2 Name="Style" Offset="B8" />
 	</_80934AEBA26F147D594496C8AB6D738E>
-	<_38A945E7D02FE84E5FF678CBA3A1E542 Name="ForgeEngine::TelescopingEdge" Size="F8">
+	<_38A945E7D02FE84E5FF678CBA3A1E542 Name="ForgeEngine::TelescopingEdge" Alt="634215BC4151C1EB" Size="F8">
 		<_41 Name="Object" Offset="0" Allowed="aTag" Flags="1" />
 		<_19 Name="Position" Offset="1C" />
 		<_2 Name="variant" Offset="28" />
@@ -76,7 +76,7 @@
 		<_41 Name="Runtime Underlying Material Palette (Static IO)" Offset="D8" Allowed="rtmp" Flags="0" />
 		<_2 Name="Style" Offset="F4" />
 	</_38A945E7D02FE84E5FF678CBA3A1E542>
-	<_EA254456D852B31CE3E3D59C87DFC9B8 Name="ForgeEngine::TelescopingFace" Size="120">
+	<_EA254456D852B31CE3E3D59C87DFC9B8 Name="ForgeEngine::TelescopingFace" Alt="E785161590BF6E12" Size="120">
 		<_41 Name="Object" Offset="0" Allowed="aTag" Flags="1" />
 		<_19 Name="Position" Offset="1C" />
 		<_1A Name="Rotation" Offset="28" />
@@ -103,11 +103,11 @@
 		<_19 Name="ScaleAtMinScale" Offset="108" />
 		<_19 Name="ScaleAtMaxScale" Offset="114" />
 	</_EA254456D852B31CE3E3D59C87DFC9B8>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_83EE4CB8AE1B56CCDE81E20B846057C0 Name="ForgeEngine::TelescopingPoint" Size="C">
+	<_83EE4CB8AE1B56CCDE81E20B846057C0 Name="ForgeEngine::TelescopingPoint" Alt="10FCF2866E7D6DBA" Size="C">
 		<_19 Name="point" Offset="0" />
 	</_83EE4CB8AE1B56CCDE81E20B846057C0>
 </root>

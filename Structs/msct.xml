@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="MaterialShaderGraph" Parents="ngfc,aTag" Index="-259">
-	<_788D48F0CD784C1046F8746BB08FE539 Name="NodeGraph::Content::MaterialShaderGraphContentTag" Size="58">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="MaterialShaderGraph" Parents="ngfc,aTag" Index="-259">
+	<_788D48F0CD784C1046F8746BB08FE539 Name="NodeGraph::Content::MaterialShaderGraphContentTag" Alt="D10447F3A9EF9ED8" Size="58">
 		<_38 Name="NodeGraph" Offset="0" GUID="83E93AB87081C57D53DF1FC7C058FB9E" />
 	</_788D48F0CD784C1046F8746BB08FE539>
-	<_83E93AB87081C57D53DF1FC7C058FB9E Name="NodeGraph::Content::NodeGraphContentTag" Size="58">
+	<_83E93AB87081C57D53DF1FC7C058FB9E Name="NodeGraph::Content::NodeGraphContentTag" Alt="10CE327B1A9E7463" Size="58">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_42 Name="graphContent" Offset="10" StructName1="NodeGraph::Content::NodeGraphContentTag.graphContent" Int1="2" Int2="0" Flags="3200000" />
 		<_40 Name="Graph References" Offset="28" GUID="0E8F41F56570683E0B137A8BABA42DEF" StructName1="NodeGraph::Content::NodeGraphContentTag" Min="0" Max="1024" />
@@ -15,18 +15,18 @@
 		</_C>
 		<_34 Name="generated_padefa8" Offset="54" Length="4" />
 	</_83E93AB87081C57D53DF1FC7C058FB9E>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_0E8F41F56570683E0B137A8BABA42DEF Name="NodeGraph::Content::GraphReference" Size="1C">
+	<_0E8F41F56570683E0B137A8BABA42DEF Name="NodeGraph::Content::GraphReference" Alt="592E0F080893EF18" Size="1C">
 		<_41 Name="Graph Reference" Offset="0" Allowed="ngfc" Flags="0" />
 	</_0E8F41F56570683E0B137A8BABA42DEF>
-	<_5B624691380006F0EBFB33B885313649 Name="NodeGraph::Content::TagReferenceInGraph" Size="1C">
+	<_5B624691380006F0EBFB33B885313649 Name="NodeGraph::Content::TagReferenceInGraph" Alt="1C9AD1481F45A7F5" Size="1C">
 		<_41 Name="Tag Reference" Offset="0" Allowed="aTag" Flags="0" />
 	</_5B624691380006F0EBFB33B885313649>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

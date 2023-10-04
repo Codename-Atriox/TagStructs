@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:08 PM" Name="kit" Parents="lobj,aTag" Index="-223">
-	<_2C234129645E560BBF7AD7C5BAB98941 Name="Kit" Size="780">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="kit" Parents="lobj,aTag" Index="-223">
+	<_2C234129645E560BBF7AD7C5BAB98941 Name="Kit" Alt="91ACC1963E450479" Size="780">
 		<_38 Name="LevelObjects" Offset="0" GUID="3F0C45E42D390AA601208E3F9E95DEA2" />
 		<_41 Name="parent" type="parr" Offset="690" Allowed="kit!" Flags="9" />
 		<_41 Name="script tag" Offset="6AC" Allowed="hsc*" Flags="0" />
@@ -18,7 +18,7 @@
 		</_D>
 		<_34 Name="generated_pad4e01" Offset="77C" Length="4" />
 	</_2C234129645E560BBF7AD7C5BAB98941>
-	<_3F0C45E42D390AA601208E3F9E95DEA2 Name="LevelObjects" Size="690">
+	<_3F0C45E42D390AA601208E3F9E95DEA2 Name="LevelObjects" Alt="371C1A2C34CFA136" Size="690">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="decorators" type="fgrb" Offset="10" />
 		<_38 Name="decorators" Offset="10" GUID="DA4B412BDCA3DA7EF6507BACBED1DC74" />
@@ -108,7 +108,7 @@
 		<_40 Name="Terrain Volumes" Offset="678" GUID="FEF44019AD572E201A50C4A1AC80DB08" StructName1="LevelObjects" Min="0" Max="1048576" />
 		<_34 Name="generated_pad5914" Offset="68C" Length="4" />
 	</_3F0C45E42D390AA601208E3F9E95DEA2>
-	<_9A3E4FF2915AE3F75AE8EF15892E317F Name="s_property_collection" Size="78">
+	<_9A3E4FF2915AE3F75AE8EF15892E317F Name="s_property_collection" Alt="DAB9DE0B736F025" Size="78">
 		<_40 Name="bool properties" Offset="0" GUID="2FE7429C4EE726FBB489F288B4DD8A95" StructName1="s_property_collection" Min="0" Max="32" />
 		<_40 Name="numeric properties" Offset="14" GUID="936045522176C9FDA27104FC8512D854" StructName1="s_property_collection" Min="0" Max="32" />
 		<_40 Name="string properties" Offset="28" GUID="68024D2A459B882E2C55CE7BA4206A30" StructName1="s_property_collection" Min="0" Max="32" />
@@ -116,7 +116,7 @@
 		<_40 Name="color properties" Offset="50" GUID="1C434BAAA2EE0547067515C792E31E8C" StructName1="s_property_collection" Min="0" Max="32" />
 		<_40 Name="vector properties" Offset="64" GUID="CE834D444653F5B4FA256202B625D247" StructName1="s_property_collection" Min="0" Max="32" />
 	</_9A3E4FF2915AE3F75AE8EF15892E317F>
-	<_DA6F431EED121AA079F3F7F6B0EAA701 Name="KitPlacement" Size="60">
+	<_DA6F431EED121AA079F3F7F6B0EAA701 Name="KitPlacement" Alt="A3EC621E8A9DD293" Size="60">
 		<_2 Name="name" Offset="0" />
 		<_6 Name="guid" Offset="4" />
 		<_17 Name="position" Offset="8" />
@@ -138,7 +138,7 @@
 		</_A>
 		<_34 Name="generated_padd877" Offset="5D" Length="3" />
 	</_DA6F431EED121AA079F3F7F6B0EAA701>
-	<_285CE093936B7325BA2059B2ED8ADC8E Name="KitCollectionPlacement" Size="7C">
+	<_285CE093936B7325BA2059B2ED8ADC8E Name="KitCollectionPlacement" Alt="A8B78EED80610766" Size="7C">
 		<_2 Name="name" Offset="0" />
 		<_6 Name="guid" Offset="4" />
 		<_17 Name="position" Offset="8" />
@@ -161,14 +161,14 @@
 		<_34 Name="generated_padd877" Offset="5D" Length="3" />
 		<_41 Name="kit collection" Offset="60" Allowed="kcol" Flags="1" />
 	</_285CE093936B7325BA2059B2ED8ADC8E>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_DA4B412BDCA3DA7EF6507BACBED1DC74 Name="s_scenario_new_decorator_definition" Size="14">
+	<_DA4B412BDCA3DA7EF6507BACBED1DC74 Name="s_scenario_new_decorator_definition" Alt="41EAC69938206165" Size="14">
 		<_40 Name="sets" Offset="0" GUID="4FC747DD40576308BE229502AED99352" StructName1="s_scenario_new_decorator_definition" Min="0" Max="65536" />
 	</_DA4B412BDCA3DA7EF6507BACBED1DC74>
-	<_9F8D4BB86FEF91B0BA1A600DABF5A1D9 Name="editor_comment_definition" Size="130">
+	<_9F8D4BB86FEF91B0BA1A600DABF5A1D9 Name="editor_comment_definition" Alt="1A4EFA229A8CA823" Size="130">
 		<_17 Name="position" Offset="0" />
 		<_C Name="type" Offset="C" StructName1="e_editor_comment_type">
 			<Flag n="generic" />
@@ -176,7 +176,7 @@
 		<_0 Name="name" Offset="10" />
 		<_1 Name="comment" Offset="30" />
 	</_9F8D4BB86FEF91B0BA1A600DABF5A1D9>
-	<_DA5746C89774D6DB7815F8218435CD72 Name="ScenarioEditorAnnotation" Size="160">
+	<_DA5746C89774D6DB7815F8218435CD72 Name="ScenarioEditorAnnotation" Alt="3E0A42CBBFF61B23" Size="160">
 		<_2 Name="name" Offset="0" />
 		<_17 Name="Position" Offset="4" />
 		<_1 Name="Info" Offset="10" />
@@ -202,13 +202,13 @@
 		<_34 Name="generated_padc55c" Offset="14A" Length="2" />
 		<_40 Name="EditorMetadata" Offset="14C" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="ScenarioEditorAnnotation" Min="4" Max="1" />
 	</_DA5746C89774D6DB7815F8218435CD72>
-	<_3584428C6B05A7F7A29197DB92762448 Name="scenario_object_name" Size="C">
+	<_3584428C6B05A7F7A29197DB92762448 Name="scenario_object_name" Alt="D40638EA5BA05CD5" Size="C">
 		<_2 Name="name" Offset="0" />
 		<_5 Name="object_type" Offset="4" />
 		<_5 Name="scenario_datum_index" Offset="6" />
 		<_6 Name="runtimeObjectIndex" Offset="8" />
 	</_3584428C6B05A7F7A29197DB92762448>
-	<_0A4B4423283E4BAFC3BDCB2DAFFCC242 Name="s_scenario_scenery" Size="1CC">
+	<_0A4B4423283E4BAFC3BDCB2DAFFCC242 Name="s_scenario_scenery" Alt="9695A69C75B3CE64" Size="1CC">
 		<_6 Name="name" Offset="0" />
 		<_2 Name="object name" type="name" Offset="4" />
 		<_41 Name="asset" Offset="8" Allowed="scen" Flags="0" />
@@ -219,7 +219,7 @@
 		<_34 Name="generated_pad2908" Offset="1B6" Length="2" />
 		<_40 Name="multiplayer data" Offset="1B8" GUID="207B47B5D7949B5329AF1E1699E1EB91" StructName1="s_scenario_scenery" Min="0" Max="1" />
 	</_0A4B4423283E4BAFC3BDCB2DAFFCC242>
-	<_4EB541D4D9AC3CB5364F885EA631C1B6 Name="s_scenario_biped" Size="1CC">
+	<_4EB541D4D9AC3CB5364F885EA631C1B6 Name="s_scenario_biped" Alt="D1FED02D3CB531CB" Size="1CC">
 		<_6 Name="name" Offset="0" />
 		<_2 Name="object name" type="name" Offset="4" />
 		<_41 Name="asset" Offset="8" Allowed="bipd" Flags="0" />
@@ -229,7 +229,7 @@
 		<_38 Name="unit data" Offset="1B0" GUID="7E524E9DF7C2581397EDBB1689F06521" />
 		<_40 Name="multiplayer data" Offset="1B8" GUID="207B47B5D7949B5329AF1E1699E1EB91" StructName1="s_scenario_biped" Min="0" Max="1" />
 	</_4EB541D4D9AC3CB5364F885EA631C1B6>
-	<_DEF4497E756D14F1C9C52931A140AC68 Name="s_scenario_vehicle" Size="1EC">
+	<_DEF4497E756D14F1C9C52931A140AC68 Name="s_scenario_vehicle" Alt="59E970FFEB78B8B0" Size="1EC">
 		<_6 Name="name" Offset="0" />
 		<_2 Name="object name" type="name" Offset="4" />
 		<_41 Name="asset" Offset="8" Allowed="vehi" Flags="0" />
@@ -240,7 +240,7 @@
 		<_40 Name="multiplayer data" Offset="1B8" GUID="207B47B5D7949B5329AF1E1699E1EB91" StructName1="s_scenario_vehicle" Min="0" Max="1" />
 		<_38 Name="vehicle data" Offset="1CC" GUID="7A834CE5252FB58449D3CD60A99C3145" />
 	</_DEF4497E756D14F1C9C52931A140AC68>
-	<_0A1543A41B8D79789DF77483AA855C05 Name="s_scenario_equipment" Size="1AC">
+	<_0A1543A41B8D79789DF77483AA855C05 Name="s_scenario_equipment" Alt="C2E7B1383C1AEE04" Size="1AC">
 		<_6 Name="name" Offset="0" />
 		<_2 Name="object name" type="name" Offset="4" />
 		<_41 Name="asset" Offset="8" Allowed="eqip" Flags="0" />
@@ -249,7 +249,7 @@
 		<_38 Name="equipment data" Offset="194" GUID="8B844C5248D20C560B10F54AA0DA0D7B" />
 		<_40 Name="multiplayer data" Offset="198" GUID="207B47B5D7949B5329AF1E1699E1EB91" StructName1="s_scenario_equipment" Min="0" Max="1" />
 	</_0A1543A41B8D79789DF77483AA855C05>
-	<_9BB94DE2687A60CA24108BC6B92F066B Name="s_scenario_weapon" Size="1E8">
+	<_9BB94DE2687A60CA24108BC6B92F066B Name="s_scenario_weapon" Alt="CDA86A0B5D38CCBB" Size="1E8">
 		<_6 Name="name" Offset="0" />
 		<_2 Name="object name" type="name" Offset="4" />
 		<_41 Name="asset" Offset="8" Allowed="weap" Flags="0" />
@@ -259,7 +259,7 @@
 		<_38 Name="weapon data" Offset="1B0" GUID="C6EF42C595BC43BA50A05B6F95BA7855" />
 		<_40 Name="multiplayer data" Offset="1D4" GUID="207B47B5D7949B5329AF1E1699E1EB91" StructName1="s_scenario_weapon" Min="0" Max="1" />
 	</_9BB94DE2687A60CA24108BC6B92F066B>
-	<_1E6A4C32ACEBB8746729B33B839122F6 Name="scenario_device_group" Size="44">
+	<_1E6A4C32ACEBB8746729B33B839122F6 Name="scenario_device_group" Alt="F4E4057E531B9B00" Size="44">
 		<_0 Name="name" Offset="0" />
 		<_14 Name="initial value" Offset="20" />
 		<_D Name="flags" Offset="24" StructName1="ScenarioDeviceGroupFlags">
@@ -269,7 +269,7 @@
 		<_40 Name="EditorMetadata" Offset="2C" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="scenario_device_group" Min="4" Max="1" />
 		<_30 Name="editor folder" type="ugly" Offset="40" GUID="9A5741CB0B9D6A599F085A3DA1D7A5D1" StructName1="scenario_device_group" Min="0" Max="1048576" />
 	</_1E6A4C32ACEBB8746729B33B839122F6>
-	<_5D864949C7CF0D758F928F888F05E50B Name="s_scenario_machine" Size="1D8">
+	<_5D864949C7CF0D758F928F888F05E50B Name="s_scenario_machine" Alt="C16B5E7871AC16DD" Size="1D8">
 		<_6 Name="name" Offset="0" />
 		<_2 Name="object name" type="name" Offset="4" />
 		<_41 Name="asset" Offset="8" Allowed="mach" Flags="0" />
@@ -280,7 +280,7 @@
 		<_38 Name="machine data" Offset="1BC" GUID="A1E24E6343A76E9A83C2C762A60DD607" />
 		<_40 Name="multiplayer data" Offset="1C4" GUID="207B47B5D7949B5329AF1E1699E1EB91" StructName1="s_scenario_machine" Min="0" Max="1" />
 	</_5D864949C7CF0D758F928F888F05E50B>
-	<_CD8E4FD79BE62BD03BE7133DABCBDF23 Name="s_scenario_terminal" Size="1C0">
+	<_CD8E4FD79BE62BD03BE7133DABCBDF23 Name="s_scenario_terminal" Alt="CC176256C38F8442" Size="1C0">
 		<_6 Name="name" Offset="0" />
 		<_2 Name="object name" type="name" Offset="4" />
 		<_41 Name="asset" Offset="8" Allowed="term" Flags="0" />
@@ -290,7 +290,7 @@
 		<_38 Name="device data" Offset="1B0" GUID="93524F63F3F2B5996FD79D9EBF5BD676" />
 		<_38 Name="terminal data" Offset="1BC" GUID="8FF44C03167BF1D1F16DB71FB1C1085B" />
 	</_CD8E4FD79BE62BD03BE7133DABCBDF23>
-	<_5B3C4AB892F483D9346983EFA3EBB7C5 Name="s_scenario_control" Size="1DC">
+	<_5B3C4AB892F483D9346983EFA3EBB7C5 Name="s_scenario_control" Alt="AA094C9789C6026" Size="1DC">
 		<_6 Name="name" Offset="0" />
 		<_2 Name="object name" type="name" Offset="4" />
 		<_41 Name="asset" Offset="8" Allowed="ctrl" Flags="0" />
@@ -301,7 +301,7 @@
 		<_38 Name="control data" Offset="1BC" GUID="AB5E49084C0DFF56712465AABC8FEA48" />
 		<_40 Name="multiplayer data" Offset="1C8" GUID="207B47B5D7949B5329AF1E1699E1EB91" StructName1="s_scenario_control" Min="0" Max="1" />
 	</_5B3C4AB892F483D9346983EFA3EBB7C5>
-	<_466141C439795D3899484D07AFC2C37E Name="ScenarioDispenser" Size="1D4">
+	<_466141C439795D3899484D07AFC2C37E Name="ScenarioDispenser" Alt="D77F30399C963AC" Size="1D4">
 		<_6 Name="name" Offset="0" />
 		<_2 Name="object name" type="name" Offset="4" />
 		<_41 Name="asset" Offset="8" Allowed="dspn" Flags="0" />
@@ -313,7 +313,7 @@
 		<_34 Name="generated_padf40b" Offset="1BD" Length="3" />
 		<_40 Name="multiplayer data" Offset="1C0" GUID="207B47B5D7949B5329AF1E1699E1EB91" StructName1="ScenarioDispenser" Min="0" Max="1" />
 	</_466141C439795D3899484D07AFC2C37E>
-	<_4E5541D4D4AC3CB5364F882EA63121B6 Name="s_scenario_giant" Size="1BC">
+	<_4E5541D4D4AC3CB5364F882EA63121B6 Name="s_scenario_giant" Alt="AC2BF9275376D090" Size="1BC">
 		<_6 Name="name" Offset="0" />
 		<_2 Name="object name" type="name" Offset="4" />
 		<_41 Name="asset" Offset="8" Allowed="gint" Flags="0" />
@@ -324,7 +324,7 @@
 		<_38 Name="giant data" Offset="1B8" GUID="890C4F04894053296E648B53B9B87A12" />
 		<_34 Name="generated_padea38" Offset="1BA" Length="2" />
 	</_4E5541D4D4AC3CB5364F882EA63121B6>
-	<_252A467BAD706F17643556999484D9A5 Name="s_scenario_effect_scenery" Size="1AC">
+	<_252A467BAD706F17643556999484D9A5 Name="s_scenario_effect_scenery" Alt="BDD86028EDCCF972" Size="1AC">
 		<_6 Name="name" Offset="0" />
 		<_2 Name="object name" type="name" Offset="4" />
 		<_41 Name="asset" Offset="8" Allowed="efsc" Flags="0" />
@@ -333,7 +333,7 @@
 		<_38 Name="effect scenery data" Offset="194" GUID="C5FD4495AECBC47E2C4FAD959C908F2E" />
 		<_40 Name="multiplayer data" Offset="198" GUID="207B47B5D7949B5329AF1E1699E1EB91" StructName1="s_scenario_effect_scenery" Min="0" Max="1" />
 	</_252A467BAD706F17643556999484D9A5>
-	<_24D642E964C3990050C5FCDEAB5396A7 Name="s_scenario_crate" Size="1C8">
+	<_24D642E964C3990050C5FCDEAB5396A7 Name="s_scenario_crate" Alt="FBFBB32BB58B78E8" Size="1C8">
 		<_6 Name="name" Offset="0" />
 		<_2 Name="object name" type="name" Offset="4" />
 		<_41 Name="asset" Offset="8" Allowed="bloc" Flags="0" />
@@ -344,14 +344,14 @@
 		<_34 Name="generated_pad36b2" Offset="1B2" Length="2" />
 		<_40 Name="multiplayer data" Offset="1B4" GUID="207B47B5D7949B5329AF1E1699E1EB91" StructName1="s_scenario_crate" Min="0" Max="1" />
 	</_24D642E964C3990050C5FCDEAB5396A7>
-	<_D7B340DD09DFDC776478634698945C37 Name="s_scenario_creature" Size="194">
+	<_D7B340DD09DFDC776478634698945C37 Name="s_scenario_creature" Alt="A081BD8CFDDFFF7A" Size="194">
 		<_6 Name="name" Offset="0" />
 		<_2 Name="object name" type="name" Offset="4" />
 		<_41 Name="asset" Offset="8" Allowed="crea" Flags="0" />
 		<_38 Name="object data" Offset="24" GUID="F27A4A22B2D98DC927B43F20B6CD6942" />
 		<_40 Name="EditorMetadata" Offset="180" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="s_scenario_creature" Min="4" Max="1" />
 	</_D7B340DD09DFDC776478634698945C37>
-	<_ED21456C3AE399D4759B13E585CFC61D Name="i343::Objects::NodeGraphPlacement" Size="48">
+	<_ED21456C3AE399D4759B13E585CFC61D Name="i343::Objects::NodeGraphPlacement" Alt="B5BA46B84154CA8A" Size="48">
 		<_2 Name="name" Offset="0" />
 		<_41 Name="Object Node Graph" Offset="4" Allowed="xong" Flags="0" />
 		<_17 Name="Position" Offset="20" />
@@ -362,14 +362,14 @@
 		<_40 Name="EditorMetadata" Offset="30" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="i343::Objects::NodeGraphPlacement" Min="4" Max="1" />
 		<_38 Name="BspMapRuntimeRefCounter" Offset="44" GUID="57C44BC9E6C6794CFD4B090AA1071791" />
 	</_ED21456C3AE399D4759B13E585CFC61D>
-	<_D0DA4569D27DB1347BBA751E8DE5A088 Name="i343::Curve::SplinePlacement" Size="44">
+	<_D0DA4569D27DB1347BBA751E8DE5A088 Name="i343::Curve::SplinePlacement" Alt="5CCFBD0108DDE910" Size="44">
 		<_2 Name="name" Offset="0" />
 		<_38 Name="curve" Offset="4" GUID="019A49F49D5E2ECAED2D06FCA24C1356" />
 		<_40 Name="SplineMetadata" Offset="18" GUID="E8144BE43AD0EA8AD14EEDAB83A019E5" StructName1="i343::Curve::SplinePlacement" Min="0" Max="1" />
 		<_40 Name="EditorMetadata" Offset="2C" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="i343::Curve::SplinePlacement" Min="4" Max="1" />
 		<_6 Name="Guid" Offset="40" />
 	</_D0DA4569D27DB1347BBA751E8DE5A088>
-	<_6B6D443C109C5D4C12FAB7B2AB9ED05A Name="WarzoneObjectiveDefinition" Size="70">
+	<_6B6D443C109C5D4C12FAB7B2AB9ED05A Name="WarzoneObjectiveDefinition" Alt="9791B91706D32F5C" Size="70">
 		<_2 Name="name" Offset="0" />
 		<_0 Name="label" Offset="4" />
 		<_0 Name="user facing name" Offset="24" />
@@ -388,7 +388,7 @@
 		<_40 Name="trigger volumes" Offset="48" GUID="0BCB4E06C6DFE1E82BE7990FA7B0ADDE" StructName1="WarzoneObjectiveDefinition" Min="0" Max="16" />
 		<_40 Name="EditorMetadata" Offset="5C" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="WarzoneObjectiveDefinition" Min="4" Max="1" />
 	</_6B6D443C109C5D4C12FAB7B2AB9ED05A>
-	<_4FC44DAE1CC24BE70D3C9E07ABDDD6C1 Name="ScenarioEffectPlacement" Size="88">
+	<_4FC44DAE1CC24BE70D3C9E07ABDDD6C1 Name="ScenarioEffectPlacement" Alt="6FBB142B603BC75E" Size="88">
 		<_2 Name="name" Offset="0" />
 		<_6 Name="guid" Offset="4" />
 		<_2 Name="lighting variant" Offset="8" />
@@ -407,7 +407,7 @@
 		<_41 Name="lens flare reference" Offset="58" Allowed="lens" Flags="16" />
 		<_40 Name="EditorMetadata" Offset="74" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="ScenarioEffectPlacement" Min="4" Max="1" />
 	</_4FC44DAE1CC24BE70D3C9E07ABDDD6C1>
-	<_251942AB27DC2CA55F00B2BA992F3401 Name="ScenarioAttachedLightCone" Size="C0">
+	<_251942AB27DC2CA55F00B2BA992F3401 Name="ScenarioAttachedLightCone" Alt="6B88682E8184A3CC" Size="C0">
 		<_2 Name="name" Offset="0" />
 		<_6 Name="guid" Offset="4" />
 		<_2 Name="lighting variant" Offset="8" />
@@ -438,7 +438,7 @@
 		<_30 Name="editor folder" type="ugly" Offset="B8" GUID="9A5741CB0B9D6A599F085A3DA1D7A5D1" StructName1="ScenarioAttachedLightCone" Min="0" Max="1048576" />
 		<_2 Name="moduleId" Offset="BC" />
 	</_251942AB27DC2CA55F00B2BA992F3401>
-	<_045C457695D370711BD4B24C0BE1B0B1 Name="SoundPlacement" Size="94">
+	<_045C457695D370711BD4B24C0BE1B0B1 Name="SoundPlacement" Alt="E6DA3576E8065021" Size="94">
 		<_2 Name="name" Offset="0" />
 		<_6 Name="guid" Offset="4" />
 		<_19 Name="position" Offset="8" />
@@ -464,7 +464,7 @@
 		<_14 Name="Movement distance scaling factor" Offset="8C" />
 		<_38 Name="BspMapRuntimeRefCounter" Offset="90" GUID="57C44BC9E6C6794CFD4B090AA1071791" />
 	</_045C457695D370711BD4B24C0BE1B0B1>
-	<_50534BFF025D71C425EAA55FB1331C9A Name="EffectPlacement" Size="E4">
+	<_50534BFF025D71C425EAA55FB1331C9A Name="EffectPlacement" Alt="CA3BC3410DA95EA5" Size="E4">
 		<_2 Name="name" Offset="0" />
 		<_6 Name="guid" Offset="4" />
 		<_2 Name="lighting variant" Offset="8" />
@@ -500,7 +500,7 @@
 		<_2 Name="moduleId" Offset="DC" />
 		<_38 Name="BspMapRuntimeRefCounter" Offset="E0" GUID="57C44BC9E6C6794CFD4B090AA1071791" />
 	</_50534BFF025D71C425EAA55FB1331C9A>
-	<_FA5D41B35D4754DA8CD71C3281F1998B Name="GlobalForcePlacement" Size="4C">
+	<_FA5D41B35D4754DA8CD71C3281F1998B Name="GlobalForcePlacement" Alt="159CF7F1EE4EE1D7" Size="4C">
 		<_6 Name="force index" Offset="0" />
 		<_2 Name="name" Offset="4" />
 		<_6 Name="guid" Offset="8" />
@@ -511,7 +511,7 @@
 		<_30 Name="editor folder" type="ugly" Offset="44" GUID="9A5741CB0B9D6A599F085A3DA1D7A5D1" StructName1="GlobalForcePlacement" Min="0" Max="1048576" />
 		<_2 Name="moduleId" Offset="48" />
 	</_FA5D41B35D4754DA8CD71C3281F1998B>
-	<_5D8C4EA3DFCA8A4AA94B6500BEBA59D7 Name="HlodVolume" Size="148">
+	<_5D8C4EA3DFCA8A4AA94B6500BEBA59D7 Name="HlodVolume" Alt="459A33AE40BCF1C7" Size="148">
 		<_6 Name="Guid" Offset="0" />
 		<_2 Name="Name" Offset="4" />
 		<_41 Name="Owner BSP" Offset="8" Allowed="sbsp" Flags="9" />
@@ -564,7 +564,7 @@
 		<_41 Name="Hlod Metadata (baked with hlod asset)" Offset="128" Allowed="hlme" Flags="9" />
 		<_6 Name="VolumeColorIndex" Offset="144" />
 	</_5D8C4EA3DFCA8A4AA94B6500BEBA59D7>
-	<_CC2E4AA935E6EED2C75E6E34B0550F8F Name="i343::Wind::WindInfluencerVolume" Size="F0">
+	<_CC2E4AA935E6EED2C75E6E34B0550F8F Name="i343::Wind::WindInfluencerVolume" Alt="D0DFBBEC3AD77E5D" Size="F0">
 		<_2 Name="Name" Offset="0" />
 		<_C Name="Type" Offset="4" StructName1="i343::Wind::WindInfluencerVolumeTypeEnum">
 			<Flag n="Blocker" />
@@ -606,7 +606,7 @@
 		<_38 Name="Volume" Offset="94" GUID="5FD8458C879AF445816FD21692C3E12B" />
 		<_6 Name="Bsp index" Offset="EC" />
 	</_CC2E4AA935E6EED2C75E6E34B0550F8F>
-	<_5B1E4753332B7D7387A0E52196400E3F Name="i343::Physics::PhysicsVolume" Size="B0">
+	<_5B1E4753332B7D7387A0E52196400E3F Name="i343::Physics::PhysicsVolume" Alt="4BFAADFF58C258DE" Size="B0">
 		<_2 Name="Name" Offset="0" />
 		<_C Name="Type" Offset="4" StructName1="i343::Physics::PhysicsVolumeTypeEnumClass">
 			<Flag n="Blocking" />
@@ -619,7 +619,7 @@
 		<_41 Name="owner bsp" Offset="78" Allowed="sbsp" Flags="1" />
 		<_41 Name="Generated collision volume" Offset="94" Allowed="scgt" Flags="1" />
 	</_5B1E4753332B7D7387A0E52196400E3F>
-	<_615F46CA2A93F34F04510074AC130B4B Name="PruningVolume" Size="74">
+	<_615F46CA2A93F34F04510074AC130B4B Name="PruningVolume" Alt="BD2AFC3B450F4C79" Size="74">
 		<_2 Name="Name" Offset="0" />
 		<_38 Name="Volume" Offset="4" GUID="5FD8458C879AF445816FD21692C3E12B" />
 		<_E Name="flags" Offset="5C" StructName1="PruningVolumeTypesFlags">
@@ -635,7 +635,7 @@
 		<_34 Name="generated_padcbcb" Offset="5E" Length="2" />
 		<_40 Name="EditorMetadata" Offset="60" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="PruningVolume" Min="4" Max="1" />
 	</_615F46CA2A93F34F04510074AC130B4B>
-	<_49BF4602519502505AD4E67A832FA76B Name="i343::AI::AIMarkupVolume" Size="118">
+	<_49BF4602519502505AD4E67A832FA76B Name="i343::AI::AIMarkupVolume" Alt="34718DA43B85D624" Size="118">
 		<_2 Name="Name" Offset="0" />
 		<_38 Name="Volume" Offset="4" GUID="5FD8458C879AF445816FD21692C3E12B" />
 		<_8 Name="Fortification Direction" Offset="5C" />
@@ -688,7 +688,7 @@
 		</_E>
 		<_34 Name="generated_padc62a" Offset="116" Length="2" />
 	</_49BF4602519502505AD4E67A832FA76B>
-	<_D7DA4C6DB85B23878039C23283C3F97C Name="i343::AI::AIMarkupPoint" Size="9C">
+	<_D7DA4C6DB85B23878039C23283C3F97C Name="i343::AI::AIMarkupPoint" Alt="62B12A627565C96B" Size="9C">
 		<_2 Name="Name" Offset="0" />
 		<_17 Name="Position" Offset="4" />
 		<_1C Name="Orientation" Offset="10" />
@@ -741,7 +741,7 @@
 		<_34 Name="generated_pada708" Offset="95" Length="3" />
 		<_2 Name="Custom Animation Name" Offset="98" />
 	</_D7DA4C6DB85B23878039C23283C3F97C>
-	<_B7AA4C64B85B33878139C28C23B1F27D Name="i343::Bots::BotMarkupPoint" Size="DC">
+	<_B7AA4C64B85B33878139C28C23B1F27D Name="i343::Bots::BotMarkupPoint" Alt="78333FF4C7880BC1" Size="DC">
 		<_2 Name="Name" Offset="0" />
 		<_17 Name="Position" Offset="4" />
 		<_1C Name="Orientation" Offset="10" />
@@ -777,7 +777,7 @@
 		</_F>
 		<_34 Name="generated_padb9ae" Offset="D9" Length="3" />
 	</_B7AA4C64B85B33878139C28C23B1F27D>
-	<_766A49F33DACC5758ED6610EB4DBAB13 Name="i343::AI::EncounterZone" Size="B4">
+	<_766A49F33DACC5758ED6610EB4DBAB13 Name="i343::AI::EncounterZone" Alt="12FD113CB6E76905" Size="B4">
 		<_2 Name="Name" Offset="0" />
 		<_38 Name="Volume" Offset="4" GUID="5FD8458C879AF445816FD21692C3E12B" />
 		<_A Name="Base Relevance" Offset="5C" StructName1="i343::AI::BehaviorTree::Relevance">
@@ -811,7 +811,7 @@
 		<_34 Name="generated_pad653c" Offset="AD" Length="3" />
 		<_14 Name="Follow Range (Radius)" Offset="B0" />
 	</_766A49F33DACC5758ED6610EB4DBAB13>
-	<_423E4B6E79B6C5DD1EB9CC84A5C58F00 Name="i343::AI::EncounterTreeNode" Size="E4">
+	<_423E4B6E79B6C5DD1EB9CC84A5C58F00 Name="i343::AI::EncounterTreeNode" Alt="781C3CDF70056B7F" Size="E4">
 		<_2 Name="Name" Offset="0" />
 		<_17 Name="Position" Offset="4" />
 		<_1C Name="Orientation" Offset="10" />
@@ -901,7 +901,7 @@
 		</_E>
 		<_34 Name="generated_pada523" Offset="E2" Length="2" />
 	</_423E4B6E79B6C5DD1EB9CC84A5C58F00>
-	<_9AE741F7EF78B4AB83B75DA491FB6CC8 Name="i343::AI::EncounterBehaviorTree" Size="84">
+	<_9AE741F7EF78B4AB83B75DA491FB6CC8 Name="i343::AI::EncounterBehaviorTree" Alt="4ADA958F1EC12E99" Size="84">
 		<_2 Name="Name" Offset="0" />
 		<_17 Name="Position" Offset="4" />
 		<_1C Name="Orientation" Offset="10" />
@@ -918,12 +918,12 @@
 		</_E>
 		<_34 Name="generated_pad491e" Offset="82" Length="2" />
 	</_9AE741F7EF78B4AB83B75DA491FB6CC8>
-	<_E303441CBCACF63A8B575320B1F8806D Name="i343::AI::PlacedOrder" Size="70">
+	<_E303441CBCACF63A8B575320B1F8806D Name="i343::AI::PlacedOrder" Alt="6D3C7C974F6ADD96" Size="70">
 		<_2 Name="Name" Offset="0" />
 		<_38 Name="Volume" Offset="4" GUID="5FD8458C879AF445816FD21692C3E12B" />
 		<_40 Name="Editor Metadata" Offset="5C" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="i343::AI::PlacedOrder" Min="4" Max="1" />
 	</_E303441CBCACF63A8B575320B1F8806D>
-	<_067F4BE6F0DEBD996A79E63B94B2CF04 Name="i343::AI::SquadSpawner" Size="21C">
+	<_067F4BE6F0DEBD996A79E63B94B2CF04 Name="i343::AI::SquadSpawner" Alt="1B5E3A8CE804B635" Size="21C">
 		<_2 Name="Name" Offset="0" />
 		<_17 Name="Position" Offset="4" />
 		<_1C Name="Orientation" Offset="10" />
@@ -981,7 +981,7 @@
 		</_E>
 		<_34 Name="generated_pad2f8b" Offset="21A" Length="2" />
 	</_067F4BE6F0DEBD996A79E63B94B2CF04>
-	<_A30244F78D0480E49CF46365AA4DAC97 Name="i343::AI::ReinforcementPoint" Size="70">
+	<_A30244F78D0480E49CF46365AA4DAC97 Name="i343::AI::ReinforcementPoint" Alt="14CF03BEA25D6C8F" Size="70">
 		<_E Name="Reinforcement Point Flags" Offset="0" StructName1="i343::AI::ReinforcementPointFlags">
 			<Flag n="Subtract" />
 		</_E>
@@ -1010,7 +1010,7 @@
 		<_2 Name="moduleId" Offset="68" />
 		<_6 Name="Guid" Offset="6C" />
 	</_A30244F78D0480E49CF46365AA4DAC97>
-	<_8AD54DE96A9EE0563F798E7FBEE24354 Name="i343::ActivatableRegion::ActivatableRegion" Size="38">
+	<_8AD54DE96A9EE0563F798E7FBEE24354 Name="i343::ActivatableRegion::ActivatableRegion" Alt="6325004014B206D4" Size="38">
 		<_2 Name="Name" Offset="0" />
 		<_19 Name="Position" Offset="4" />
 		<_40 Name="Editor Metadata" Offset="10" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="i343::ActivatableRegion::ActivatableRegion" Min="4" Max="1" />
@@ -1027,7 +1027,7 @@
 		<_30 Name="editor folder" type="ugly" Offset="30" GUID="9A5741CB0B9D6A599F085A3DA1D7A5D1" StructName1="i343::ActivatableRegion::ActivatableRegion" Min="0" Max="1048576" />
 		<_2 Name="module id" Offset="34" />
 	</_8AD54DE96A9EE0563F798E7FBEE24354>
-	<_0E8043AE6B982CC46E31B60C91758359 Name="i343::ActivationVolume" Size="9C">
+	<_0E8043AE6B982CC46E31B60C91758359 Name="i343::ActivationVolume" Alt="D8D2E956F85A77C4" Size="9C">
 		<_2 Name="Name" Offset="0" />
 		<_38 Name="Volume" Offset="4" GUID="5FD8458C879AF445816FD21692C3E12B" />
 		<_F Name="Flags" Offset="5C" StructName1="i343::ActivationVolumeFlags">
@@ -1048,7 +1048,7 @@
 		<_30 Name="Editor Folder" type="ugly" Offset="94" GUID="9A5741CB0B9D6A599F085A3DA1D7A5D1" StructName1="i343::ActivationVolume" Min="0" Max="1048576" />
 		<_2 Name="Module ID" Offset="98" />
 	</_0E8043AE6B982CC46E31B60C91758359>
-	<_1CF4490A9ED7735BABB9EF438B0CD3A1 Name="i343::Narrative::Moment" Size="FC">
+	<_1CF4490A9ED7735BABB9EF438B0CD3A1 Name="i343::Narrative::Moment" Alt="61855FE9970B837" Size="FC">
 		<_2 Name="Name" Offset="0" />
 		<_38 Name="Volume" Offset="4" GUID="5FD8458C879AF445816FD21692C3E12B" />
 		<_F Name="Flags" Offset="5C" StructName1="i343::Narrative::MomentFlags">
@@ -1066,13 +1066,13 @@
 		<_2 Name="Module ID" Offset="F4" />
 		<_6 Name="Guid" Offset="F8" />
 	</_1CF4490A9ED7735BABB9EF438B0CD3A1>
-	<_C6A6466DC1E4015F8EA73B76A1AE0CD4 Name="i343::Example::Entity" Size="18">
+	<_C6A6466DC1E4015F8EA73B76A1AE0CD4 Name="i343::Example::Entity" Alt="42D5999777CB75F5" Size="18">
 		<_2 Name="Name" Offset="0" />
 		<_19 Name="Position" Offset="4" />
 		<_30 Name="editor folder" type="ugly" Offset="10" GUID="9A5741CB0B9D6A599F085A3DA1D7A5D1" StructName1="i343::Example::Entity" Min="0" Max="1048576" />
 		<_2 Name="moduleId" Offset="14" />
 	</_C6A6466DC1E4015F8EA73B76A1AE0CD4>
-	<_07994E39B256A9B184259A5890B64DA5 Name="s_scenario_soft_ceiling" Size="C">
+	<_07994E39B256A9B184259A5890B64DA5 Name="s_scenario_soft_ceiling" Alt="1AE188FCAC4EE178" Size="C">
 		<_E Name="flags" Offset="0" StructName1="ScenarioSoftCeilingFlags">
 			<Flag n="ignore bipeds" />
 			<Flag n="ignore vehicles" />
@@ -1090,7 +1090,7 @@
 		</_B>
 		<_34 Name="generated_paddf27" Offset="A" Length="2" />
 	</_07994E39B256A9B184259A5890B64DA5>
-	<_6ED940DC5AFB6481B73D1AC4855CB02A Name="scenario_starting_profile" Size="EC">
+	<_6ED940DC5AFB6481B73D1AC4855CB02A Name="scenario_starting_profile" Alt="66137DF9228D4251" Size="EC">
 		<_0 Name="name" Offset="0" />
 		<_15 Name="starting health damage" Offset="20" />
 		<_15 Name="starting shield damage" Offset="24" />
@@ -1119,7 +1119,7 @@
 		<_34 Name="generated_padc11b" Offset="D6" Length="2" />
 		<_40 Name="EditorMetadata" Offset="D8" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="scenario_starting_profile" Min="4" Max="1" />
 	</_6ED940DC5AFB6481B73D1AC4855CB02A>
-	<_45734A112C1FF0F5C24170EF891B161E Name="scenario_player_starting_location" Size="3C">
+	<_45734A112C1FF0F5C24170EF891B161E Name="scenario_player_starting_location" Alt="705E4F851A085108" Size="3C">
 		<_17 Name="position" type="aipt" Offset="0" />
 		<_6 Name="_navMeshUIDOffaceref" Offset="C" />
 		<_6 Name="_packedKeyOffaceref" Offset="10" />
@@ -1130,7 +1130,7 @@
 		<_2 Name="module id" Offset="24" />
 		<_40 Name="EditorMetadata" Offset="28" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="scenario_player_starting_location" Min="4" Max="1" />
 	</_45734A112C1FF0F5C24170EF891B161E>
-	<_9CE55E4B5CBA6AB1B30C5968A332F1B5 Name="AmbientActionPointInstance" Size="50">
+	<_9CE55E4B5CBA6AB1B30C5968A332F1B5 Name="AmbientActionPointInstance" Alt="9D00C8EB1264E931" Size="50">
 		<_2 Name="ambient action point name" Offset="0" />
 		<_19 Name="position" Offset="4" />
 		<_1B Name="yaw, pitch" Offset="10" />
@@ -1139,7 +1139,7 @@
 		<_2 Name="debug squad override (only used for debugging compositions)" Offset="38" />
 		<_40 Name="EditorMetadata" Offset="3C" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="AmbientActionPointInstance" Min="4" Max="1" />
 	</_9CE55E4B5CBA6AB1B30C5968A332F1B5>
-	<_05A9439EBF59DB68ADE31F09811C3B2F Name="scenario_trigger_volume" Size="D0">
+	<_05A9439EBF59DB68ADE31F09811C3B2F Name="scenario_trigger_volume" Alt="191B45AE462EF35C" Size="D0">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="object" type="npik" Offset="4" />
 		<_6 Name="object name" Offset="8" />
@@ -1195,7 +1195,7 @@
 		<_40 Name="EditorMetadata" Offset="B8" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="scenario_trigger_volume" Min="4" Max="1" />
 		<_6 Name="Guid" Offset="CC" />
 	</_05A9439EBF59DB68ADE31F09811C3B2F>
-	<_B2BC461636FCEA960C56D6BD83E1C36C Name="AcousticsTagZone" Size="114">
+	<_B2BC461636FCEA960C56D6BD83E1C36C Name="AcousticsTagZone" Alt="92E48B760782565C" Size="114">
 		<_6 Name="guid" Offset="0" />
 		<_2 Name="name" Offset="4" />
 		<_F Name="placement flags" Offset="8" StructName1="AcousticsTagZone::AcousticZonePlacementFlags">
@@ -1238,7 +1238,7 @@
 		<_40 Name="EditorMetadata" Offset="FC" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="AcousticsTagZone" Min="4" Max="1" />
 		<_38 Name="BspMapRuntimeRefCounter" Offset="110" GUID="57C44BC9E6C6794CFD4B090AA1071791" />
 	</_B2BC461636FCEA960C56D6BD83E1C36C>
-	<_A4E84B7ABBBF48369D99C03DB2C59A26 Name="AcousticsTagPortal" Size="128">
+	<_A4E84B7ABBBF48369D99C03DB2C59A26 Name="AcousticsTagPortal" Alt="A7C2617C74134F67" Size="128">
 		<_6 Name="guid" Offset="0" />
 		<_2 Name="name" Offset="4" />
 		<_A Name="transmissivity type" Offset="8" StructName1="AcousticsTagPortal::AcousticPortalTransmissivityType">
@@ -1281,7 +1281,7 @@
 		<_40 Name="EditorMetadata" Offset="110" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="AcousticsTagPortal" Min="4" Max="1" />
 		<_38 Name="BspMapRuntimeRefCounter" Offset="124" GUID="57C44BC9E6C6794CFD4B090AA1071791" />
 	</_A4E84B7ABBBF48369D99C03DB2C59A26>
-	<_2BC048230739519DE4550DC18A0427CB Name="recorded_animation_definition" Size="40">
+	<_2BC048230739519DE4550DC18A0427CB Name="recorded_animation_definition" Alt="48FEED0FAC0BB91B" Size="40">
 		<_0 Name="name" Offset="0" />
 		<_4 Name="version" Offset="20" />
 		<_4 Name="raw animation data" Offset="21" />
@@ -1291,7 +1291,7 @@
 		<_34 Name="generated_padc94c" Offset="26" Length="2" />
 		<_42 Name="recorded animation event stream" Offset="28" StructName1="recorded_animation_definition.recorded animation event stream" Int1="0" Int2="0" Flags="200000" />
 	</_2BC048230739519DE4550DC18A0427CB>
-	<_722045CB2F188AABA352D120BB8315AD Name="scenario_decal" Size="88">
+	<_722045CB2F188AABA352D120BB8315AD Name="scenario_decal" Alt="B7DB2F2BF7E8172" Size="88">
 		<_41 Name="asset" Offset="0" Allowed="decs" Flags="0" />
 		<_F Name="flags" Offset="1C" StructName1="scenario_decal::c_decalPlacementFlags">
 			<Flag n="force planar" />
@@ -1306,7 +1306,7 @@
 		<_14 Name="cull angle" Offset="70" />
 		<_40 Name="EditorMetadata" Offset="74" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="scenario_decal" Min="4" Max="1" />
 	</_722045CB2F188AABA352D120BB8315AD>
-	<_AAEF4A4AF14BF1E0C9FED1D0B405ED1E Name="AreaGeneratorDefinition" Size="68">
+	<_AAEF4A4AF14BF1E0C9FED1D0B405ED1E Name="AreaGeneratorDefinition" Alt="FD50AD8FB6772CF4" Size="68">
 		<_0 Name="name" Offset="0" />
 		<_40 Name="EditorMetadata" Offset="20" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="AreaGeneratorDefinition" Min="4" Max="1" />
 		<_17 Name="position" Offset="34" />
@@ -1319,7 +1319,7 @@
 		<_14 Name="area spacing" Offset="60" />
 		<_14 Name="area point count" Offset="64" />
 	</_AAEF4A4AF14BF1E0C9FED1D0B405ED1E>
-	<_87A04E62924C4B163116A14F9A767F70 Name="squad_group_definition" Size="64">
+	<_87A04E62924C4B163116A14F9A767F70 Name="squad_group_definition" Alt="C30B3377FE6F172D" Size="64">
 		<_0 Name="name" Offset="0" />
 		<_2E Name="parent" type="sqdt" Offset="20" GUID="87A04E62924C4B163116A14F9A767F70" StructName1="squad_group_definition" Min="0" Max="1048576" />
 		<_2E Name="initial objective" Offset="22" GUID="C49F426B337629EED2A66AE8B388142C" StructName1="squad_group_definition" Min="0" Max="256" />
@@ -1329,7 +1329,7 @@
 		<_34 Name="generated_pad5300" Offset="4E" Length="2" />
 		<_40 Name="EditorMetadata" Offset="50" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="squad_group_definition" Min="4" Max="1" />
 	</_87A04E62924C4B163116A14F9A767F70>
-	<_6CC847B7650EB872AC519202B11BDACA Name="s_squad_definition" Size="F8">
+	<_6CC847B7650EB872AC519202B11BDACA Name="s_squad_definition" Alt="4A3E8DBF9C6D90A" Size="F8">
 		<_0 Name="name" Offset="0" />
 		<_D Name="flags" Offset="20" StructName1="c_squad_flags">
 			<Flag n="unused" />
@@ -1380,7 +1380,7 @@
 		<_34 Name="generated_padd757" Offset="E3" Length="1" />
 		<_40 Name="EditorMetadata" Offset="E4" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="s_squad_definition" Min="4" Max="1" />
 	</_6CC847B7650EB872AC519202B11BDACA>
-	<_D7F44761661CA582147ECA8B8100E014 Name="zone_definition" Size="94">
+	<_D7F44761661CA582147ECA8B8100E014 Name="zone_definition" Alt="30D31AE68D147071" Size="94">
 		<_0 Name="name" Offset="0" />
 		<_E Name="flags" Offset="20" StructName1="AIZoneFlags">
 			<Flag n="giants zone" />
@@ -1392,7 +1392,7 @@
 		<_38 Name="disallowed attachment bsps" Offset="50" GUID="F8D84D6DE57DE86ED070CD3A987EFC12" />
 		<_40 Name="EditorMetadata" Offset="80" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="zone_definition" Min="4" Max="1" />
 	</_D7F44761661CA582147ECA8B8100E014>
-	<_675141C00E281BD7F4BFCFC2844AC8AC Name="user_hint_jump" Size="60">
+	<_675141C00E281BD7F4BFCFC2844AC8AC Name="user_hint_jump" Alt="FC80972B6A8D1E96" Size="60">
 		<_B Name="link type" Offset="0" StructName1="PathfindingHintType">
 			<Flag n="jump link" />
 			<Flag n="force walk link" />
@@ -1428,7 +1428,7 @@
 		<_38 Name="geometry" Offset="18" GUID="0D2B4C5A15170FEDC889A15E84A14BCE" />
 		<_40 Name="EditorMetadata" Offset="4C" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="user_hint_jump" Min="4" Max="1" />
 	</_675141C00E281BD7F4BFCFC2844AC8AC>
-	<_A506453851C7F11E8154A396AAAFEA9C Name="s_cookie_cutter" Size="50">
+	<_A506453851C7F11E8154A396AAAFEA9C Name="s_cookie_cutter" Alt="D6DAD124701C557F" Size="50">
 		<_2 Name="name" Offset="0" />
 		<_40 Name="points" Offset="4" GUID="126041FF33170C5B4C98464E8EBBD6A4" StructName1="s_cookie_cutter" Min="0" Max="128" />
 		<_40 Name="pointsObjectIds" Offset="18" GUID="4AB243C29B758221A09A93E09A3B5FE5" StructName1="s_cookie_cutter" Min="0" Max="128" />
@@ -1445,7 +1445,7 @@
 		<_4 Name="invalid" Offset="4C" />
 		<_34 Name="generated_pad8e8a" Offset="4D" Length="3" />
 	</_A506453851C7F11E8154A396AAAFEA9C>
-	<_EC9C446B60C6E6A6ACFE022EAC02F347 Name="NavMeshArea" Size="3C">
+	<_EC9C446B60C6E6A6ACFE022EAC02F347 Name="NavMeshArea" Alt="E11D78912156DB83" Size="3C">
 		<_40 Name="points" Offset="0" GUID="126041FF33170C5B4C98464E8EBBD6A4" StructName1="NavMeshArea" Min="0" Max="128" />
 		<_2 Name="name" Offset="14" />
 		<_14 Name="z height" Offset="18" />
@@ -1471,11 +1471,11 @@
 		<_34 Name="generated_pad7d37" Offset="25" Length="3" />
 		<_40 Name="EditorMetadata" Offset="28" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="NavMeshArea" Min="4" Max="1" />
 	</_EC9C446B60C6E6A6ACFE022EAC02F347>
-	<_1BD44824701F355FE3ED8E0D8FC1956C Name="i343::AI::NavSeedPoint" Size="10">
+	<_1BD44824701F355FE3ED8E0D8FC1956C Name="i343::AI::NavSeedPoint" Alt="55DEA7CF6C778820" Size="10">
 		<_2 Name="Name" Offset="0" />
 		<_17 Name="Position" Offset="4" />
 	</_1BD44824701F355FE3ED8E0D8FC1956C>
-	<_F1B64B54867861E7996FE923ADA0DC21 Name="OpportunityAreaData" Size="E4">
+	<_F1B64B54867861E7996FE923ADA0DC21 Name="OpportunityAreaData" Alt="6784A19E8F619FB1" Size="E4">
 		<_40 Name="points" Offset="0" GUID="126041FF33170C5B4C98464E8EBBD6A4" StructName1="OpportunityAreaData" Min="0" Max="128" />
 		<_14 Name="z height" Offset="14" />
 		<_14 Name="z sink" Offset="18" />
@@ -1528,10 +1528,10 @@
 		<_34 Name="generated_pad4337" Offset="CD" Length="3" />
 		<_40 Name="EditorMetadata" Offset="D0" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="OpportunityAreaData" Min="4" Max="1" />
 	</_F1B64B54867861E7996FE923ADA0DC21>
-	<_A53A4CE05E8624275E93FE9CB153EC6F Name="ai_recording_reference_definition" Size="20">
+	<_A53A4CE05E8624275E93FE9CB153EC6F Name="ai_recording_reference_definition" Alt="DF4494E505B06628" Size="20">
 		<_0 Name="recording name" Offset="0" />
 	</_A53A4CE05E8624275E93FE9CB153EC6F>
-	<_72DA41E9B3DF7F2E2AD627D19FA27244 Name="cs_point_set" Size="80">
+	<_72DA41E9B3DF7F2E2AD627D19FA27244 Name="cs_point_set" Alt="7E740108EA026BB9" Size="80">
 		<_0 Name="name" Offset="0" />
 		<_40 Name="points" Offset="20" GUID="C24649F62E9A621269527BF3B5738072" StructName1="cs_point_set" Min="0" Max="32" />
 		<_2E Name="bsp index" Offset="34" GUID="785C4DC222848CAF84EA38F4A1511EE6" StructName1="cs_point_set" Min="0" Max="1024" />
@@ -1553,7 +1553,7 @@
 		<_38 Name="warzone objective definition membership" Offset="5C" GUID="78F64E2F5FA93E885791937E96DB2404" />
 		<_34 Name="generated_paddcd3" Offset="7E" Length="2" />
 	</_72DA41E9B3DF7F2E2AD627D19FA27244>
-	<_69394856E5E8BB542C324EB0BCAC9DB6 Name="scenario_cutscene_flag" Size="40">
+	<_69394856E5E8BB542C324EB0BCAC9DB6 Name="scenario_cutscene_flag" Alt="75DBB4E77421AE5E" Size="40">
 		<_2 Name="name" Offset="0" />
 		<_17 Name="position" Offset="4" />
 		<_1C Name="facing" Offset="10" />
@@ -1564,7 +1564,7 @@
 		<_40 Name="EditorMetadata" Offset="28" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="scenario_cutscene_flag" Min="4" Max="1" />
 		<_6 Name="Guid" Offset="3C" />
 	</_69394856E5E8BB542C324EB0BCAC9DB6>
-	<_24BA4407C38639D4F728D8DCB58BCDD4 Name="scenario_cutscene_camera_point" Size="54">
+	<_24BA4407C38639D4F728D8DCB58BCDD4 Name="scenario_cutscene_camera_point" Alt="CFF24A2EFF062B18" Size="54">
 		<_E Name="flags" Offset="0" StructName1="ScenarioCutsceneCameraPointFlags">
 			<Flag n="edit as relative" />
 		</_E>
@@ -1582,7 +1582,7 @@
 		<_34 Name="generated_pad2c94" Offset="3E" Length="2" />
 		<_40 Name="EditorMetadata" Offset="40" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="scenario_cutscene_camera_point" Min="4" Max="1" />
 	</_24BA4407C38639D4F728D8DCB58BCDD4>
-	<_74B8410A110603E7DC0D25418C263BBC Name="s_scenario_cutscene_title" Size="54">
+	<_74B8410A110603E7DC0D25418C263BBC Name="s_scenario_cutscene_title" Alt="594101BD2B479B3E" Size="54">
 		<_2 Name="name" Offset="0" />
 		<_6 Name="guid" Offset="4" />
 		<_2 Name="objective title" Offset="8" />
@@ -1618,7 +1618,7 @@
 		<_14 Name="letter print time" Offset="3C" />
 		<_40 Name="EditorMetadata" Offset="40" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="s_scenario_cutscene_title" Min="4" Max="1" />
 	</_74B8410A110603E7DC0D25418C263BBC>
-	<_8CE54E4B5CBA5AB0B30B5958A721F105 Name="s_flock_instance" Size="174">
+	<_8CE54E4B5CBA5AB0B30B5958A721F105 Name="s_flock_instance" Alt="2B79C1B2B6F32E18" Size="174">
 		<_2 Name="Flock Name" Offset="0" />
 		<_40 Name="EditorMetadata" Offset="4" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="s_flock_instance" Min="4" Max="1" />
 		<_17 Name="Position" Offset="18" />
@@ -1821,7 +1821,7 @@
 		<_2 Name="module id" Offset="15C" />
 		<_40 Name="Flock Destinations" Offset="160" GUID="232B452BD589E46E6F72DBA3903E75E4" StructName1="s_flock_instance" Min="0" Max="10" />
 	</_8CE54E4B5CBA5AB0B30B5958A721F105>
-	<_9A5741CB0B9D6A599F085A3DA1D7A5D1 Name="s_scenario_editor_folder" Size="B4">
+	<_9A5741CB0B9D6A599F085A3DA1D7A5D1 Name="s_scenario_editor_folder" Alt="F1C6F793D252DF0B" Size="B4">
 		<_30 Name="parent folder" Offset="0" GUID="9A5741CB0B9D6A599F085A3DA1D7A5D1" StructName1="s_scenario_editor_folder" Min="0" Max="1048576" />
 		<_2 Name="name" Offset="4" />
 		<_41 Name="prototype script" Offset="8" Allowed="hsc*" Flags="0" />
@@ -1834,7 +1834,7 @@
 		</_F>
 		<_34 Name="generated_pad9b2d" Offset="B1" Length="3" />
 	</_9A5741CB0B9D6A599F085A3DA1D7A5D1>
-	<_C49F426B337629EED2A66AE8B388142C Name="s_objective" Size="64">
+	<_C49F426B337629EED2A66AE8B388142C Name="s_objective" Alt="FFB3AF802E295495" Size="64">
 		<_0 Name="name" Offset="0" />
 		<_40 Name="opposing objectives" Offset="20" GUID="862A48E5B1CF48074ACD02F3987F56BD" StructName1="s_objective" Min="0" Max="4" />
 		<_E Name="objective flags" Offset="34" StructName1="c_objective_flags">
@@ -1848,13 +1848,13 @@
 		<_40 Name="tasks" Offset="3C" GUID="ABF244420C243A66F1C57BB0826D572E" StructName1="s_objective" Min="0" Max="100" />
 		<_40 Name="EditorMetadata" Offset="50" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="s_objective" Min="4" Max="1" />
 	</_C49F426B337629EED2A66AE8B388142C>
-	<_E8234CD77D7FD8240428C991AA72C46F Name="s_scenario_cheap_particle_system" Size="1C">
+	<_E8234CD77D7FD8240428C991AA72C46F Name="s_scenario_cheap_particle_system" Alt="36225CF079CE524C" Size="1C">
 		<_2E Name="palette index" Offset="0" GUID="BB024D06826B3BF5DE9EFD739A9CC14D" StructName1="s_scenario_cheap_particle_system" Min="0" Max="20" />
 		<_34 Name="generated_pad3d05" Offset="2" Length="2" />
 		<_17 Name="position" Offset="4" />
 		<_1C Name="rotation" Offset="10" />
 	</_E8234CD77D7FD8240428C991AA72C46F>
-	<_B99C42DC309B0CA677FA45F2B1B41236 Name="ComposerShowStage" Size="13C">
+	<_B99C42DC309B0CA677FA45F2B1B41236 Name="ComposerShowStage" Alt="2324BB0AD40EFB95" Size="13C">
 		<_41 Name="Composition" Offset="0" Allowed="comp" Flags="0" />
 		<_2 Name="Instance Name" Offset="1C" />
 		<_17 Name="position" Offset="20" />
@@ -1900,14 +1900,14 @@
 		<_6 Name="Guid" Offset="124" />
 		<_38 Name="Parent Kits" Offset="128" GUID="D0A3420EC8560795BB7A5600A1C9A0DF" />
 	</_B99C42DC309B0CA677FA45F2B1B41236>
-	<_39C61C96BEA4A6B971CC5BC9E1D5146E Name="StaticDecalCache" Size="18">
+	<_39C61C96BEA4A6B971CC5BC9E1D5146E Name="StaticDecalCache" Alt="F84234FB7A9AC73D" Size="18">
 		<_6 Name="bsp number" Offset="0" />
 		<_40 Name="decal system" Offset="4" GUID="077C3FA5CA5FC812B77029658F450C29" StructName1="StaticDecalCache" Min="0" Max="32767" />
 	</_39C61C96BEA4A6B971CC5BC9E1D5146E>
-	<_943A4D9F504A94977AB2CA34BE45CF75 Name="i343::UnitRecorder::UnitRecordingReferences" Size="1C">
+	<_943A4D9F504A94977AB2CA34BE45CF75 Name="i343::UnitRecorder::UnitRecordingReferences" Alt="401CD02A82D1D085" Size="1C">
 		<_41 Name="recording" Offset="0" Allowed="urcd" Flags="0" />
 	</_943A4D9F504A94977AB2CA34BE45CF75>
-	<_157D40DD374C7C6D22FCD7CA9F36A6F8 Name="ScenarioStaticAssetPlacement" Size="11C">
+	<_157D40DD374C7C6D22FCD7CA9F36A6F8 Name="ScenarioStaticAssetPlacement" Alt="3B9E5D7683AEE5C" Size="11C">
 		<_2 Name="name" Offset="0" />
 		<_6 Name="guid" Offset="4" />
 		<_41 Name="prefab reference" Offset="8" Allowed="aset" Flags="1" />
@@ -2014,7 +2014,7 @@
 		<_36 Name="play collision layer override" Offset="118" />
 		<_2 Name="play collision layer override" type="sted" Offset="118" />
 	</_157D40DD374C7C6D22FCD7CA9F36A6F8>
-	<_C5C0147FC590C259DD11379A194860C2 Name="ScenarioAssetCollectionPlacement" Size="138">
+	<_C5C0147FC590C259DD11379A194860C2 Name="ScenarioAssetCollectionPlacement" Alt="86FE9DAAB51EE8D1" Size="138">
 		<_2 Name="name" Offset="0" />
 		<_6 Name="guid" Offset="4" />
 		<_41 Name="prefab reference" Offset="8" Allowed="aset" Flags="1" />
@@ -2122,7 +2122,7 @@
 		<_2 Name="play collision layer override" type="sted" Offset="118" />
 		<_41 Name="asset collection" Offset="11C" Allowed="acol" Flags="1" />
 	</_C5C0147FC590C259DD11379A194860C2>
-	<_A53D4BAAD6DC7F176FBC85049100A0A7 Name="FoliageAssetPlacement" Size="138">
+	<_A53D4BAAD6DC7F176FBC85049100A0A7 Name="FoliageAssetPlacement" Alt="770B491B515D7052" Size="138">
 		<_2 Name="name" Offset="0" />
 		<_6 Name="guid" Offset="4" />
 		<_41 Name="prefab reference" Offset="8" Allowed="aset" Flags="1" />
@@ -2230,14 +2230,14 @@
 		<_2 Name="play collision layer override" type="sted" Offset="118" />
 		<_41 Name="foliage asset" Offset="11C" Allowed="foat" Flags="1" />
 	</_A53D4BAAD6DC7F176FBC85049100A0A7>
-	<_4E1E418EEA9D9F9FE1E77C25BF8CDFC2 Name="i343::HexGrid::HexPlacements" Size="84">
+	<_4E1E418EEA9D9F9FE1E77C25BF8CDFC2 Name="i343::HexGrid::HexPlacements" Alt="D99DE97FAE7CC614" Size="84">
 		<_40 Name="placements" Offset="0" GUID="A0844D039281ADA2F9A8CE8FA6C46EF3" StructName1="i343::HexGrid::HexPlacements" Min="0" Max="10485760" />
 		<_41 Name="hex grid asset" Offset="14" Allowed="aset" Flags="9" />
 		<_41 Name="generatedModel" Offset="30" Allowed="rtgo" Flags="0" />
 		<_41 Name="generatedCollisionModel" Offset="4C" Allowed="scgt" Flags="0" />
 		<_41 Name="generatedMaterialPalette" Offset="68" Allowed="rtmp" Flags="0" />
 	</_4E1E418EEA9D9F9FE1E77C25BF8CDFC2>
-	<_94AF4A70D941A279DD461D71A7106027 Name="i343::HexGrid::HexRuntime" Size="70">
+	<_94AF4A70D941A279DD461D71A7106027 Name="i343::HexGrid::HexRuntime" Alt="340543E7893740FD" Size="70">
 		<_41 Name="runtime geo" Offset="0" Allowed="rtgo" Flags="0" />
 		<_41 Name="material palette" Offset="1C" Allowed="rtmp" Flags="0" />
 		<_40 Name="placements" Offset="38" GUID="860B4A5C9EE0E6A6709EB6898534F5B0" StructName1="i343::HexGrid::HexRuntime" Min="1" Max="10485760" />
@@ -2246,7 +2246,7 @@
 		<_6 Name="m_maximumVisibleSides" Offset="68" />
 		<_6 Name="m_maximumVisibleCaps" Offset="6C" />
 	</_94AF4A70D941A279DD461D71A7106027>
-	<_815E40845CAD7A73B6D14D02BEC019F8 Name="StructureLightDefinition" Size="2A8">
+	<_815E40845CAD7A73B6D14D02BEC019F8 Name="StructureLightDefinition" Alt="887388815A9D8939" Size="2A8">
 		<_6 Name="guid" Offset="0" />
 		<_17 Name="position" Offset="4" />
 		<_1C Name="facing" Offset="10" />
@@ -2264,7 +2264,7 @@
 		<_30 Name="editor folder" type="ugly" Offset="2A0" GUID="9A5741CB0B9D6A599F085A3DA1D7A5D1" StructName1="StructureLightDefinition" Min="0" Max="1048576" />
 		<_2 Name="module id" Offset="2A4" />
 	</_815E40845CAD7A73B6D14D02BEC019F8>
-	<_B9424FA0531729E8F4ED722496548BDF Name="AirProbeRegionVolume" Size="B4">
+	<_B9424FA0531729E8F4ED722496548BDF Name="AirProbeRegionVolume" Alt="ABF73EA5F11CC9E4" Size="B4">
 		<_2 Name="Name" Offset="0" />
 		<_37 Name="Volume settings" type="fgrb" Offset="4" />
 		<_38 Name="Volume" Offset="4" GUID="5FD8458C879AF445816FD21692C3E12B" />
@@ -2287,7 +2287,7 @@
 		<_14 Name="Probe offset above ground" Offset="AC" />
 		<_6 Name="Number of Z layers" Offset="B0" />
 	</_B9424FA0531729E8F4ED722496548BDF>
-	<_D1CE481ABA187D43BE71513CBC6C9C8B Name="CubemapVolume" Size="120">
+	<_D1CE481ABA187D43BE71513CBC6C9C8B Name="CubemapVolume" Alt="ACE679F3120A235B" Size="120">
 		<_2 Name="Name" Offset="0" />
 		<_6 Name="Guid" Offset="4" />
 		<_D Name="Flags" Offset="8" StructName1="CubemapFlagsClass">
@@ -2341,59 +2341,59 @@
 		</_B>
 		<_14 Name="Relevancy Radius" Offset="11C" />
 	</_D1CE481ABA187D43BE71513CBC6C9C8B>
-	<_325F428FB453622BAB5F62AAA4A3634E Name="i343::TerrainPlacement" Size="A4">
+	<_325F428FB453622BAB5F62AAA4A3634E Name="i343::TerrainPlacement" Alt="E1AE509979266E66" Size="A4">
 		<_38 Name="Terrain Definition" Offset="0" GUID="A3974D92AC7E7BE1E6D44472AA1DE4E5" />
 		<_41 Name="runtime terrain" Offset="74" Allowed="rtrn" Flags="0" />
 		<_40 Name="EditorMetadata" Offset="90" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="i343::TerrainPlacement" Min="4" Max="1" />
 	</_325F428FB453622BAB5F62AAA4A3634E>
-	<_FEF44019AD572E201A50C4A1AC80DB08 Name="i343::TerrainVolume" Size="90">
+	<_FEF44019AD572E201A50C4A1AC80DB08 Name="i343::TerrainVolume" Alt="B8473A29891AA3D" Size="90">
 		<_2 Name="Name" Offset="0" />
 		<_38 Name="Terrain Definition" Offset="4" GUID="A3974D92AC7E7BE1E6D44472AA1DE4E5" />
 		<_6 Name="Volume Composition Order" Offset="78" />
 		<_40 Name="EditorMetadata" Offset="7C" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="i343::TerrainVolume" Min="4" Max="1" />
 	</_FEF44019AD572E201A50C4A1AC80DB08>
-	<_2FE7429C4EE726FBB489F288B4DD8A95 Name="s_bool_property" Size="101">
+	<_2FE7429C4EE726FBB489F288B4DD8A95 Name="s_bool_property" Alt="3B4DC23A76A6F144" Size="101">
 		<_1 Name="name" Offset="0" />
 		<_3C Name="Value" Offset="100" />
 	</_2FE7429C4EE726FBB489F288B4DD8A95>
-	<_936045522176C9FDA27104FC8512D854 Name="s_numeric_property" Size="104">
+	<_936045522176C9FDA27104FC8512D854 Name="s_numeric_property" Alt="44DC99354D7ED716" Size="104">
 		<_1 Name="name" Offset="0" />
 		<_14 Name="Value" Offset="100" />
 	</_936045522176C9FDA27104FC8512D854>
-	<_68024D2A459B882E2C55CE7BA4206A30 Name="s_string_property" Size="200">
+	<_68024D2A459B882E2C55CE7BA4206A30 Name="s_string_property" Alt="9AB226E4E4AAFA33" Size="200">
 		<_1 Name="name" Offset="0" />
 		<_1 Name="Value" Offset="100" />
 	</_68024D2A459B882E2C55CE7BA4206A30>
-	<_96094070CEC043C032F17B8996DC13B8 Name="s_tag_property" Size="120">
+	<_96094070CEC043C032F17B8996DC13B8 Name="s_tag_property" Alt="34CADE30B893BB82" Size="120">
 		<_1 Name="name" Offset="0" />
 		<_41 Name="Value" Offset="100" Allowed="aTag" Flags="0" />
 		<_2 Name="load variant" Offset="11C" />
 	</_96094070CEC043C032F17B8996DC13B8>
-	<_1C434BAAA2EE0547067515C792E31E8C Name="s_color_property" Size="110">
+	<_1C434BAAA2EE0547067515C792E31E8C Name="s_color_property" Alt="8DC6729DE64478D2" Size="110">
 		<_1 Name="name" Offset="0" />
 		<_20 Name="Value" Offset="100" />
 	</_1C434BAAA2EE0547067515C792E31E8C>
-	<_CE834D444653F5B4FA256202B625D247 Name="s_vector_property" Size="10C">
+	<_CE834D444653F5B4FA256202B625D247 Name="s_vector_property" Alt="3DB91922FC6DB3B9" Size="10C">
 		<_1 Name="name" Offset="0" />
 		<_19 Name="Value" Offset="100" />
 	</_CE834D444653F5B4FA256202B625D247>
-	<_CAFD409521D5D5297D81B801A0BADD13 Name="EditorMetadata" Size="10C">
+	<_CAFD409521D5D5297D81B801A0BADD13 Name="EditorMetadata" Alt="8896C3D79F347A73" Size="10C">
 		<_1 Name="folder name" Offset="0" />
 		<_17 Name="local space pivot point position" Offset="100" />
 	</_CAFD409521D5D5297D81B801A0BADD13>
-	<_634D404CC67A5363B2EF36D68A34241F Name="KitPlacementLabel" Size="100">
+	<_634D404CC67A5363B2EF36D68A34241F Name="KitPlacementLabel" Alt="2E21D7A43C97C9D2" Size="100">
 		<_1 Name="value" Offset="0" />
 	</_634D404CC67A5363B2EF36D68A34241F>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_4FC747DD40576308BE229502AED99352 Name="s_decorator_scenario_set_placements" Size="4C">
+	<_4FC747DD40576308BE229502AED99352 Name="s_decorator_scenario_set_placements" Alt="E9954B807A103E2F" Size="4C">
 		<_41 Name="decorator asset" Offset="0" Allowed="dcat" Flags="1" />
 		<_40 Name="decorator placements" Offset="1C" GUID="257649DF04F0AFBFEC5FBF80916C1650" StructName1="s_decorator_scenario_set_placements" Min="0" Max="2147483647" />
 		<_41 Name="owning layer default bsp" Offset="30" Allowed="sbsp" Flags="0" />
 	</_4FC747DD40576308BE229502AED99352>
-	<_F27A4A22B2D98DC927B43F20B6CD6942 Name="s_scenario_object_datum" Size="15C">
+	<_F27A4A22B2D98DC927B43F20B6CD6942 Name="s_scenario_object_datum" Alt="1CE25627B1479786" Size="15C">
 		<_37 Name="" type="obed" Offset="0" />
 		<_D Name="placement flags" Offset="0" StructName1="c_scenario_object_placement_flags">
 			<Flag n="not automatically" />
@@ -2465,7 +2465,7 @@
 		<_34 Name="generated_pad68e7" Offset="145" Length="3" />
 		<_40 Name="associates" Offset="148" GUID="A2E346C7B71D3CA1DCF066BE9890B903" StructName1="s_scenario_object_datum" Min="0" Max="20" />
 	</_F27A4A22B2D98DC927B43F20B6CD6942>
-	<_22A7466903BD8F07096D3305A02A4C64 Name="s_scenario_object_permutation" Size="1C">
+	<_22A7466903BD8F07096D3305A02A4C64 Name="s_scenario_object_permutation" Alt="3B3176D0247FDE22" Size="1C">
 		<_2 Name="variant name" type="sted" Offset="0" />
 		<_F Name="active change colors" Offset="4" StructName1="c_object_change_color_flags">
 			<Flag n="primary" />
@@ -2480,7 +2480,7 @@
 		<_12 Name="tertiary color" Offset="14" />
 		<_12 Name="quaternary color" Offset="18" />
 	</_22A7466903BD8F07096D3305A02A4C64>
-	<_32A143B7ECD107BB0B606F2D934D8DC0 Name="s_scenario_scenery_datum" Size="6">
+	<_32A143B7ECD107BB0B606F2D934D8DC0 Name="s_scenario_scenery_datum" Alt="E34967CFBC91BBF4" Size="6">
 		<_37 Name="" type="path" Offset="0" />
 		<_B Name="Pathfinding policy" Offset="0" StructName1="ObjectPathfindingPolicy">
 			<Flag n="default" />
@@ -2490,7 +2490,7 @@
 		<_5 Name="havok mopp index" Offset="2" />
 		<_2E Name="ai spawning squad" Offset="4" GUID="6CC847B7650EB872AC519202B11BDACA" StructName1="s_scenario_scenery_datum" Min="0" Max="1048576" />
 	</_32A143B7ECD107BB0B606F2D934D8DC0>
-	<_207B47B5D7949B5329AF1E1699E1EB91 Name="s_scenario_multiplayer_object_properties" Size="EC">
+	<_207B47B5D7949B5329AF1E1699E1EB91 Name="s_scenario_multiplayer_object_properties" Alt="48AD9F0378445F1B" Size="EC">
 		<_36 Name="Multiplayer Data" Offset="0" />
 		<_2 Name="megalo label" Offset="0" />
 		<_2 Name="megalo label 2" Offset="4" />
@@ -2657,7 +2657,7 @@
 		</_F>
 		<_34 Name="generated_pad3c72" Offset="EA" Length="2" />
 	</_207B47B5D7949B5329AF1E1699E1EB91>
-	<_7E524E9DF7C2581397EDBB1689F06521 Name="s_scenario_unit_datum" Size="8">
+	<_7E524E9DF7C2581397EDBB1689F06521 Name="s_scenario_unit_datum" Alt="1435BC7E6FCD30D9" Size="8">
 		<_14 Name="body vitality" Offset="0" />
 		<_D Name="flags" Offset="4" StructName1="ScenarioUnitFlags">
 			<Flag n="dead" />
@@ -2665,7 +2665,7 @@
 			<Flag n="not enterable by player" />
 		</_D>
 	</_7E524E9DF7C2581397EDBB1689F06521>
-	<_7A834CE5252FB58449D3CD60A99C3145 Name="s_scenario_vehicle_datum" Size="20">
+	<_7A834CE5252FB58449D3CD60A99C3145 Name="s_scenario_vehicle_datum" Alt="E328EFFD928E6035" Size="20">
 		<_B Name="Pathfinding policy" Offset="0" StructName1="ObjectPathfindingPolicy">
 			<Flag n="default" />
 			<Flag n="yes" />
@@ -2674,14 +2674,14 @@
 		<_34 Name="generated_pad3f53" Offset="2" Length="2" />
 		<_41 Name="configuration" Offset="4" Allowed="vcdd" Flags="0" />
 	</_7A834CE5252FB58449D3CD60A99C3145>
-	<_8B844C5248D20C560B10F54AA0DA0D7B Name="s_scenario_equipment_datum" Size="4">
+	<_8B844C5248D20C560B10F54AA0DA0D7B Name="s_scenario_equipment_datum" Alt="E25BE35008F50FA4" Size="4">
 		<_D Name="equipment flags" Offset="0" StructName1="ScenarioEquipmentFlags">
 			<Flag n="OBSOLETE0" />
 			<Flag n="OBSOLETE1" />
 			<Flag n="does accelerate (moves due to explosions)" />
 		</_D>
 	</_8B844C5248D20C560B10F54AA0DA0D7B>
-	<_C6EF42C595BC43BA50A05B6F95BA7855 Name="s_scenario_weapon_datum" Size="24">
+	<_C6EF42C595BC43BA50A05B6F95BA7855 Name="s_scenario_weapon_datum" Alt="29DBADA000CDAA30" Size="24">
 		<_5 Name="rounds left" Offset="0" />
 		<_5 Name="rounds loaded" Offset="2" />
 		<_B Name="Does accelerate (moves due to explosions)." Offset="4" StructName1="WeaponAccelerateOverride">
@@ -2692,7 +2692,7 @@
 		<_34 Name="generated_pad5bcf" Offset="6" Length="2" />
 		<_41 Name="configuration" Offset="8" Allowed="wcfg" Flags="0" />
 	</_C6EF42C595BC43BA50A05B6F95BA7855>
-	<_93524F63F3F2B5996FD79D9EBF5BD676 Name="s_scenario_device_datum" Size="C">
+	<_93524F63F3F2B5996FD79D9EBF5BD676 Name="s_scenario_device_datum" Alt="7CC34C6C0056A59B" Size="C">
 		<_2E Name="power group" Offset="0" GUID="1E6A4C32ACEBB8746729B33B839122F6" StructName1="s_scenario_device_datum" Min="0" Max="128" />
 		<_2E Name="position group" Offset="2" GUID="1E6A4C32ACEBB8746729B33B839122F6" StructName1="s_scenario_device_datum" Min="0" Max="128" />
 		<_15 Name="initial animation position" Offset="4" />
@@ -2705,7 +2705,7 @@
 			<Flag n="closes without power" />
 		</_D>
 	</_93524F63F3F2B5996FD79D9EBF5BD676>
-	<_A1E24E6343A76E9A83C2C762A60DD607 Name="s_scenario_machine_datum" Size="8">
+	<_A1E24E6343A76E9A83C2C762A60DD607 Name="s_scenario_machine_datum" Alt="92930C054BA04815" Size="8">
 		<_D Name="flags" Offset="0" StructName1="DeviceMachineFlags">
 			<Flag n="does not operate automatically" />
 			<Flag n="one-sided" />
@@ -2723,10 +2723,10 @@
 		</_B>
 		<_34 Name="generated_padce30" Offset="6" Length="2" />
 	</_A1E24E6343A76E9A83C2C762A60DD607>
-	<_8FF44C03167BF1D1F16DB71FB1C1085B Name="s_scenario_terminal_datum" Size="4">
+	<_8FF44C03167BF1D1F16DB71FB1C1085B Name="s_scenario_terminal_datum" Alt="B257B7D768804F4F" Size="4">
 		<_6 Name="pah pah" Offset="0" />
 	</_8FF44C03167BF1D1F16DB71FB1C1085B>
-	<_AB5E49084C0DFF56712465AABC8FEA48 Name="s_scenario_control_datum" Size="C">
+	<_AB5E49084C0DFF56712465AABC8FEA48 Name="s_scenario_control_datum" Alt="50F40AAAD8118132" Size="C">
 		<_D Name="flags" Offset="0" StructName1="ScenarioControlFlags">
 			<Flag n="usable from both sides" />
 		</_D>
@@ -2739,74 +2739,74 @@
 		</_B>
 		<_34 Name="generated_padace0" Offset="A" Length="2" />
 	</_AB5E49084C0DFF56712465AABC8FEA48>
-	<_D6114C5484208927B638A761A8CE7861 Name="ScenarioDispenserDatum" Size="1">
+	<_D6114C5484208927B638A761A8CE7861 Name="ScenarioDispenserDatum" Alt="1BEC2B5B50D2A951" Size="1">
 		<_F Name="flags" Offset="0" StructName1="ScenarioDispenserFlags">
 			<Flag n="usable from front only" />
 		</_F>
 	</_D6114C5484208927B638A761A8CE7861>
-	<_890C4F04894053296E648B53B9B87A12 Name="s_scenario_giant_datum" Size="2">
+	<_890C4F04894053296E648B53B9B87A12 Name="s_scenario_giant_datum" Alt="4EB38C1AC078BA95" Size="2">
 		<_B Name="Pathfinding policy" Offset="0" StructName1="ObjectPathfindingPolicy">
 			<Flag n="default" />
 			<Flag n="yes" />
 			<Flag n="no" />
 		</_B>
 	</_890C4F04894053296E648B53B9B87A12>
-	<_C5FD4495AECBC47E2C4FAD959C908F2E Name="ScenarioEffectSceneryDatum" Size="4">
+	<_C5FD4495AECBC47E2C4FAD959C908F2E Name="ScenarioEffectSceneryDatum" Alt="29305787F5A55979" Size="4">
 		<_14 Name="effect size scale" Offset="0" />
 	</_C5FD4495AECBC47E2C4FAD959C908F2E>
-	<_D3E64C225B721C931614421CAA9B2A15 Name="s_scenario_crate_datum" Size="2">
+	<_D3E64C225B721C931614421CAA9B2A15 Name="s_scenario_crate_datum" Alt="831B1A6B066CCAF" Size="2">
 		<_B Name="Pathfinding policy" Offset="0" StructName1="ObjectPathfindingPolicy">
 			<Flag n="default" />
 			<Flag n="yes" />
 			<Flag n="no" />
 		</_B>
 	</_D3E64C225B721C931614421CAA9B2A15>
-	<_57C44BC9E6C6794CFD4B090AA1071791 Name="BspMapRuntimeRefCounter" Size="4">
+	<_57C44BC9E6C6794CFD4B090AA1071791 Name="BspMapRuntimeRefCounter" Alt="C7C917983D133810" Size="4">
 		<_5 Name="Bsp Ref Count" Offset="0" />
 		<_5 Name="Layer Ref Count" Offset="2" />
 	</_57C44BC9E6C6794CFD4B090AA1071791>
-	<_019A49F49D5E2ECAED2D06FCA24C1356 Name="i343::Curve::Curve3dDefinition" Size="14">
+	<_019A49F49D5E2ECAED2D06FCA24C1356 Name="i343::Curve::Curve3dDefinition" Alt="5B19992C38BB1500" Size="14">
 		<_40 Name="control points" Offset="0" GUID="29C547C8AC5C536494CC256697923B5C" StructName1="i343::Curve::Curve3dDefinition" Min="0" Max="1024" />
 	</_019A49F49D5E2ECAED2D06FCA24C1356>
-	<_E8144BE43AD0EA8AD14EEDAB83A019E5 Name="i343::Curve::SplinePlacementMetadata" Size="28">
+	<_E8144BE43AD0EA8AD14EEDAB83A019E5 Name="i343::Curve::SplinePlacementMetadata" Alt="57CE5D150F29CEB5" Size="28">
 		<_40 Name="spline road metadata" Offset="0" GUID="DC8F4785537D71A06BF432D2BD00AE29" StructName1="i343::Curve::SplinePlacementMetadata" Min="0" Max="1" />
 		<_40 Name="spline flight path metadata" Offset="14" GUID="3EBF46B817D776717B6F15A7AF788A47" StructName1="i343::Curve::SplinePlacementMetadata" Min="0" Max="1" />
 	</_E8144BE43AD0EA8AD14EEDAB83A019E5>
-	<_0BCB4E06C6DFE1E82BE7990FA7B0ADDE Name="WarzoneObjectiveDefinitionTriggerVolume" Size="22">
+	<_0BCB4E06C6DFE1E82BE7990FA7B0ADDE Name="WarzoneObjectiveDefinitionTriggerVolume" Alt="5AA8A13EC7FEB44C" Size="22">
 		<_0 Name="label" Offset="0" />
 		<_2E Name="trigger volume" Offset="20" GUID="05A9439EBF59DB68ADE31F09811C3B2F" StructName1="WarzoneObjectiveDefinitionTriggerVolume" Min="0" Max="8192" />
 	</_0BCB4E06C6DFE1E82BE7990FA7B0ADDE>
-	<_F8D84D6DE57DE86ED070CD3A987EFC12 Name="CompressedBspReferenceFlags" Size="30">
+	<_F8D84D6DE57DE86ED070CD3A987EFC12 Name="CompressedBspReferenceFlags" Alt="CDB1537FD5ED43E" Size="30">
 		<_40 Name="references" Offset="0" GUID="5E7649D47DDBEF56C7523C29A10F631A" StructName1="CompressedBspReferenceFlags" Min="0" Max="1024" />
 		<_42 Name="flags" type="bspf" Offset="14" StructName1="CompressedBspReferenceFlags.flags" Int1="0" Int2="0" Flags="80" />
 		<_6 Name="bsp index" type="bspf" Offset="2C" />
 	</_F8D84D6DE57DE86ED070CD3A987EFC12>
-	<_FE514F5ED09E57635C7A97F0889981BE Name="PlacementShapeOverride" Size="4">
+	<_FE514F5ED09E57635C7A97F0889981BE Name="PlacementShapeOverride" Alt="51E00641211361F4" Size="4">
 		<_14 Name="radius" Offset="0" />
 	</_FE514F5ED09E57635C7A97F0889981BE>
-	<_B52E47F1EF2C7C6BC0700342B4F33813 Name="SoundPlacementSplineControlPoint" Size="C">
+	<_B52E47F1EF2C7C6BC0700342B4F33813 Name="SoundPlacementSplineControlPoint" Alt="F927398291AC1F21" Size="C">
 		<_19 Name="position" Offset="0" />
 	</_B52E47F1EF2C7C6BC0700342B4F33813>
-	<_217941128AACE34BC7334D2EA8F6C67D Name="TagGraph::TagGraphFloatParam" Size="8">
+	<_217941128AACE34BC7334D2EA8F6C67D Name="TagGraph::TagGraphFloatParam" Alt="805C37B6373130C3" Size="8">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_14 Name="value" Offset="4" />
 	</_217941128AACE34BC7334D2EA8F6C67D>
-	<_80204605BFA6F4BF93CDD10F96C1C2B9 Name="TagGraph::TagGraphBoolParam" Size="8">
+	<_80204605BFA6F4BF93CDD10F96C1C2B9 Name="TagGraph::TagGraphBoolParam" Alt="146004AB2C5FEE80" Size="8">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_F Name="value" Offset="4" StructName1="TagGraph::TagGraphBoolVariableValue">
 			<Flag n="value" />
 		</_F>
 		<_34 Name="generated_pad0473" Offset="5" Length="3" />
 	</_80204605BFA6F4BF93CDD10F96C1C2B9>
-	<_AF7648E707ABAC2BFB95694D48E79C90 Name="TagGraph::TagGraphInstanceVariableString" Size="8">
+	<_AF7648E707ABAC2BFB95694D48E79C90 Name="TagGraph::TagGraphInstanceVariableString" Alt="85B0F068C5FFF7F3" Size="8">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_2 Name="value" Offset="4" />
 	</_AF7648E707ABAC2BFB95694D48E79C90>
-	<_75F34BCE26A27E545DB61B22BEC316D9 Name="TagGraph::TagGraphInstanceVariableTagRef" Size="20">
+	<_75F34BCE26A27E545DB61B22BEC316D9 Name="TagGraph::TagGraphInstanceVariableTagRef" Alt="4EFA73BE4DD7CFD0" Size="20">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_41 Name="value" Offset="4" Allowed="aTag" Flags="0" />
 	</_75F34BCE26A27E545DB61B22BEC316D9>
-	<_5FD8458C879AF445816FD21692C3E12B Name="GenericVolume" Size="58">
+	<_5FD8458C879AF445816FD21692C3E12B Name="GenericVolume" Alt="A69E5ED642829DD3" Size="58">
 		<_40 Name="Points" Offset="0" GUID="67E442B766DD021F47A0735CAF44B769" StructName1="GenericVolume" Min="0" Max="128" />
 		<_14 Name="height" Offset="14" />
 		<_14 Name="sink" Offset="18" />
@@ -2816,21 +2816,21 @@
 		<_17 Name="aabbExtents" Offset="38" />
 		<_40 Name="nativePoints2D" Offset="44" GUID="CE644BA64DB5B94A1D9DC3AF8C4D6C02" StructName1="GenericVolume" Min="0" Max="128" />
 	</_5FD8458C879AF445816FD21692C3E12B>
-	<_8CFD485FDF8BE1BD03355B27B4419A26 Name="NamedHlodSettings" Size="20">
+	<_8CFD485FDF8BE1BD03355B27B4419A26 Name="NamedHlodSettings" Alt="B6F87E0B991E5D67" Size="20">
 		<_41 Name="HLOD settings preset list" Offset="0" Allowed="hlpl" Flags="9" />
 		<_2 Name="HLOD settings name" type="sted" Offset="1C" />
 	</_8CFD485FDF8BE1BD03355B27B4419A26>
-	<_386611EA7BDC01C2BFB073F0A1F71831 Name="HlodSimplygonCustomSphereCameraPath" Size="10">
+	<_386611EA7BDC01C2BFB073F0A1F71831 Name="HlodSimplygonCustomSphereCameraPath" Alt="B0A0E3FA293FDA32" Size="10">
 		<_3E Name="Quality" Offset="0" />
 		<_14 Name="Semisphere Center Pitch Angle" Offset="4" />
 		<_14 Name="Semisphere Center Yaw Angle" Offset="8" />
 		<_14 Name="Sphere Coverage" Offset="C" />
 	</_386611EA7BDC01C2BFB073F0A1F71831>
-	<_0BF44E8087CC7FBB871F6336ABE33CA9 Name="WindGustingFunction" Size="18">
+	<_0BF44E8087CC7FBB871F6336ABE33CA9 Name="WindGustingFunction" Alt="321F360BC34CE8C4" Size="18">
 		<_37 Name="Mapping" type="fned" Offset="0" />
 		<_38 Name="Mapping" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0BF44E8087CC7FBB871F6336ABE33CA9>
-	<_B4ED4FCA118603D3AABC8FC29B8212AB Name="i343::AI::AIMarkupFilter" Size="2">
+	<_B4ED4FCA118603D3AABC8FC29B8212AB Name="i343::AI::AIMarkupFilter" Alt="197E45F05C3290" Size="2">
 		<_B Name="Actor Type" Offset="0" StructName1="ActorType">
 			<Flag n="none" />
 			<Flag n="player" />
@@ -2866,7 +2866,7 @@
 			<Flag n="wildlife" />
 		</_B>
 	</_B4ED4FCA118603D3AABC8FC29B8212AB>
-	<_AEE74448A98E5F068B43235CAF89F320 Name="PathingCostModifierFilter" Size="6">
+	<_AEE74448A98E5F068B43235CAF89F320 Name="PathingCostModifierFilter" Alt="9F7F5C3C23158037" Size="6">
 		<_B Name="Navigation Type" Offset="0" StructName1="NavigationType">
 			<Flag n="All" />
 			<Flag n="On Foot" />
@@ -2887,19 +2887,19 @@
 			<Flag n="immobile" />
 		</_B>
 	</_AEE74448A98E5F068B43235CAF89F320>
-	<_8BCF425953786DEC3B98632AA7AC65A0 Name="i343::AI::BotExploreNeighbor" Size="18">
+	<_8BCF425953786DEC3B98632AA7AC65A0 Name="i343::AI::BotExploreNeighbor" Alt="B87F4BCE1E26D1C9" Size="18">
 		<_38 Name="Neighbor Ref" Offset="0" GUID="F87643B7908D235027669B07968E32EE" />
 	</_8BCF425953786DEC3B98632AA7AC65A0>
-	<_B232483411E6082D1C83E8829AC49EFC Name="i343::AI::ObjectiveTarget" Size="18">
+	<_B232483411E6082D1C83E8829AC49EFC Name="i343::AI::ObjectiveTarget" Alt="2BBCF9AF23C9AE8D" Size="18">
 		<_38 Name="Target" Offset="0" GUID="F87643B7908D235027669B07968E32EE" />
 	</_B232483411E6082D1C83E8829AC49EFC>
-	<_2BCF4AC91A726DB4A99C6B2AC7BC92A1 Name="i343::Bots::ExploreNeighbor" Size="18">
+	<_2BCF4AC91A726DB4A99C6B2AC7BC92A1 Name="i343::Bots::ExploreNeighbor" Alt="4D7B0BB164B97B01" Size="18">
 		<_38 Name="Neighbor Ref" Offset="0" GUID="F87643B7908D235027669B07968E32EE" />
 	</_2BCF4AC91A726DB4A99C6B2AC7BC92A1>
-	<_DFC94494B3A41AE860D698FDA210808B Name="i343::AI::ChildEncounterElement" Size="18">
+	<_DFC94494B3A41AE860D698FDA210808B Name="i343::AI::ChildEncounterElement" Alt="44BFC9A707B4152" Size="18">
 		<_38 Name="Ref" Offset="0" GUID="F87643B7908D235027669B07968E32EE" />
 	</_DFC94494B3A41AE860D698FDA210808B>
-	<_367B404513669CA982CF73B1AF5E4B61 Name="i343::AI::EncounterZoneCondition" Size="40">
+	<_367B404513669CA982CF73B1AF5E4B61 Name="i343::AI::EncounterZoneCondition" Alt="AF7F228808C86A8C" Size="40">
 		<_A Name="Decorator Type" Offset="0" StructName1="i343::AI::DecoratorType">
 			<Flag n="Assignment Limit" />
 			<Flag n="Body Count" />
@@ -2963,21 +2963,21 @@
 		</_A>
 		<_34 Name="generated_pad0831" Offset="3D" Length="3" />
 	</_367B404513669CA982CF73B1AF5E4B61>
-	<_F87643B7908D235027669B07968E32EE Name="LevelObjectReference" Size="18">
+	<_F87643B7908D235027669B07968E32EE Name="LevelObjectReference" Alt="CBD5C26DF46DBF7A" Size="18">
 		<_40 Name="path" Offset="0" GUID="689849540174FB9326701C02A42ED2BF" StructName1="LevelObjectReference" Min="0" Max="256" />
 		<_6 Name="guid" Offset="14" />
 	</_F87643B7908D235027669B07968E32EE>
-	<_41E744343C2969C14A0F31BAA2A329DE Name="i343::AI::ChildGUID" Size="4">
+	<_41E744343C2969C14A0F31BAA2A329DE Name="i343::AI::ChildGUID" Alt="2BA078FEF65FBC22" Size="4">
 		<_6 Name="GUID" Offset="0" />
 	</_41E744343C2969C14A0F31BAA2A329DE>
-	<_8BCF416953776DEC2B98632AA7AC55A0 Name="i343::AI::CompositeChild" Size="18">
+	<_8BCF416953776DEC2B98632AA7AC55A0 Name="i343::AI::CompositeChild" Alt="A4595D6977D59962" Size="18">
 		<_38 Name="Ref" Offset="0" GUID="F87643B7908D235027669B07968E32EE" />
 	</_8BCF416953776DEC2B98632AA7AC55A0>
-	<_9F214C64ED7142FFA3CC6C74AB3FD2FA Name="i343::AI::EncounterBehaviorTreeInputReference" Size="1C">
+	<_9F214C64ED7142FFA3CC6C74AB3FD2FA Name="i343::AI::EncounterBehaviorTreeInputReference" Alt="5C2724F031EC7E3E" Size="1C">
 		<_2 Name="Label" Offset="0" />
 		<_38 Name="Ref" Offset="4" GUID="F87643B7908D235027669B07968E32EE" />
 	</_9F214C64ED7142FFA3CC6C74AB3FD2FA>
-	<_761842CFFF018201DEED2A7190C912AE Name="i343::AI::SquadFallbackCombatTetherPoint" Size="2C">
+	<_761842CFFF018201DEED2A7190C912AE Name="i343::AI::SquadFallbackCombatTetherPoint" Alt="F355308720B3C7CE" Size="2C">
 		<_38 Name="Ref" Offset="0" GUID="F87643B7908D235027669B07968E32EE" />
 		<_6 Name="Abandon Previous Tether Point Body Count Condition (Invalid if less than 1)" Offset="18" />
 		<_A Name="Squad Combat Tether Type" Offset="1C" StructName1="i343::AI::SquadCombatTetherType">
@@ -2989,10 +2989,10 @@
 		<_14 Name="Squad Abandon Tether Distance" Offset="24" />
 		<_14 Name="Squad Re-Tether Distance" Offset="28" />
 	</_761842CFFF018201DEED2A7190C912AE>
-	<_B3D340E392D6FF177795CCD18B881193 Name="i343::AI::PrecombatLink" Size="18">
+	<_B3D340E392D6FF177795CCD18B881193 Name="i343::AI::PrecombatLink" Alt="573DE24AE575A42D" Size="18">
 		<_38 Name="PrecombatRef" Offset="0" GUID="F87643B7908D235027669B07968E32EE" />
 	</_B3D340E392D6FF177795CCD18B881193>
-	<_E0B546FABADC3276AD500EA0A1127CA2 Name="i343::AI::AirDrop::SquadSpawnerAirDropSettings" Size="E8">
+	<_E0B546FABADC3276AD500EA0A1127CA2 Name="i343::AI::AirDrop::SquadSpawnerAirDropSettings" Alt="398F8DD2A797E745" Size="E8">
 		<_41 Name="Air Drop Vehicle" Offset="0" Allowed="vehi" Flags="0" />
 		<_41 Name="Drop Ship Vehicle Configuration" Offset="1C" Allowed="vcdd" Flags="0" />
 		<_41 Name="Air Drop Pilot Character" Offset="38" Allowed="char" Flags="0" />
@@ -3013,16 +3013,16 @@
 		<_38 Name="Air Drop Fly In Settings" Offset="68" GUID="96C74B564E9E58D7D8977DF194EF24CC" />
 		<_38 Name="Air Drop Fly Out Settings" Offset="A8" GUID="96C74B564E9E58D7D8977DF194EF24CC" />
 	</_E0B546FABADC3276AD500EA0A1127CA2>
-	<_154547C23B0535CB640156499B24CC39 Name="i343::AI::SquadKeyword" Size="4">
+	<_154547C23B0535CB640156499B24CC39 Name="i343::AI::SquadKeyword" Alt="6C0706EA763A8494" Size="4">
 		<_2 Name="Keyword" Offset="0" />
 	</_154547C23B0535CB640156499B24CC39>
-	<_2EDD4AA5FBC7F70434CFF06EBD0240CB Name="i343::AI::ReinforcementSquad" Size="1C">
+	<_2EDD4AA5FBC7F70434CFF06EBD0240CB Name="i343::AI::ReinforcementSquad" Alt="BC2213B06C538D2D" Size="1C">
 		<_41 Name="Squad Specification" Offset="0" Allowed="sqds, sstr" Flags="0" />
 	</_2EDD4AA5FBC7F70434CFF06EBD0240CB>
-	<_903A4509D3523E59E40B0CB2A9236E09 Name="i343::AI::SpawnPoint" Size="18">
+	<_903A4509D3523E59E40B0CB2A9236E09 Name="i343::AI::SpawnPoint" Alt="A2720C4D897A7ACC" Size="18">
 		<_38 Name="Ref" Offset="0" GUID="F87643B7908D235027669B07968E32EE" />
 	</_903A4509D3523E59E40B0CB2A9236E09>
-	<_069F4165CAB2658B1306123B9AC2D7A8 Name="s_trigger_volume_triangle" Size="70">
+	<_069F4165CAB2658B1306123B9AC2D7A8 Name="s_trigger_volume_triangle" Alt="F7AC5672891D21EC" Size="70">
 		<_1E Name="plane 0" Offset="0" />
 		<_1E Name="plane 1" Offset="10" />
 		<_1E Name="plane 2" Offset="20" />
@@ -3033,10 +3033,10 @@
 		<_16 Name="vertex 2" Offset="60" />
 		<_34 Name="pad" Offset="68" Length="8" />
 	</_069F4165CAB2658B1306123B9AC2D7A8>
-	<_3370409CBB3A7FF05E1F8499923C87D9 Name="i343::Narrative::ControlParameter" Size="4">
+	<_3370409CBB3A7FF05E1F8499923C87D9 Name="i343::Narrative::ControlParameter" Alt="38C7B27E7BB5BB20" Size="4">
 		<_2 Name="Parameter" Offset="0" />
 	</_3370409CBB3A7FF05E1F8499923C87D9>
-	<_56E14B1953CAC37C22F87DFB884FE5A4 Name="i343::Narrative::CageAttachment" Size="40">
+	<_56E14B1953CAC37C22F87DFB884FE5A4 Name="i343::Narrative::CageAttachment" Alt="8F7AE24E74CB52E" Size="40">
 		<_2 Name="Name" Offset="0" />
 		<_38 Name="Object Reference" Offset="4" GUID="F87643B7908D235027669B07968E32EE" />
 		<_A Name="Placement Type" Offset="1C" StructName1="i343::Narrative::CagePlacementType">
@@ -3047,7 +3047,7 @@
 		<_41 Name="Cage Definition" Offset="20" Allowed="cage" Flags="0" />
 		<_2 Name="Cage Center Point" Offset="3C" />
 	</_56E14B1953CAC37C22F87DFB884FE5A4>
-	<_9B414B978E207A995C4922EDA5534C4F Name="i343::Narrative::PersistenceCheckDef" Size="C">
+	<_9B414B978E207A995C4922EDA5534C4F Name="i343::Narrative::PersistenceCheckDef" Alt="E2A43472B936A1B2" Size="C">
 		<_2 Name="Persistence Key" Offset="0" />
 		<_A Name="Compare Type" Offset="4" StructName1="i343::Narrative::PersistenceCompareType">
 			<Flag n="Less Than" />
@@ -3060,7 +3060,7 @@
 		<_34 Name="generated_pad6e63" Offset="5" Length="3" />
 		<_6 Name="Value" Offset="8" />
 	</_9B414B978E207A995C4922EDA5534C4F>
-	<_BC44461B57B7EF453140C5EFBA6A36A8 Name="i343::Narrative::Beat" Size="1DC">
+	<_BC44461B57B7EF453140C5EFBA6A36A8 Name="i343::Narrative::Beat" Alt="D8783BDD34B68562" Size="1DC">
 		<_2 Name="Name" Offset="0" />
 		<_37 Name="Activation" type="fgrb" Offset="4" />
 		<_38 Name="Activation" Offset="4" GUID="984A447008C2B1DE7B2B684EEAF5A914" />
@@ -3091,14 +3091,14 @@
 		<_40 Name="Control Parameter Properties" Offset="1B4" GUID="7346494212CEA8B4D9BD9468BE3448EB" StructName1="i343::Narrative::Beat" Min="0" Max="1" />
 		<_40 Name="Transition Properties" Offset="1C8" GUID="6E8C405088288A299CCD740DB6925CED" StructName1="i343::Narrative::Beat" Min="0" Max="1" />
 	</_BC44461B57B7EF453140C5EFBA6A36A8>
-	<_069F41B2C82D658B13062FAB9F32D7A8 Name="s_real_sector_point" Size="C">
+	<_069F41B2C82D658B13062FAB9F32D7A8 Name="s_real_sector_point" Alt="E08A15B0295EF810" Size="C">
 		<_17 Name="position" Offset="0" />
 	</_069F41B2C82D658B13062FAB9F32D7A8>
-	<_F9E344D16EB3A00E0619B4C44A48EF2D Name="AcousticsTagZoneLod" Size="8">
+	<_F9E344D16EB3A00E0619B4C44A48EF2D Name="AcousticsTagZoneLod" Alt="855011FC2FDB4375" Size="8">
 		<_14 Name="voxel size" Offset="0" />
 		<_14 Name="breakpoint" Offset="4" />
 	</_F9E344D16EB3A00E0619B4C44A48EF2D>
-	<_B3764EDA2FF9A01B1E7F95ADB70B64FE Name="s_scenario_dumpling" Size="4C">
+	<_B3764EDA2FF9A01B1E7F95ADB70B64FE Name="s_scenario_dumpling" Alt="3DC91D8E63BB3996" Size="4C">
 		<_40 Name="inner points" Offset="0" GUID="9AAD49315B797CB13AE0B8EFA4D67F82" StructName1="s_scenario_dumpling" Min="0" Max="128" />
 		<_40 Name="outer points" Offset="14" GUID="9AAD49315B797CB13AE0B8EFA4D67F82" StructName1="s_scenario_dumpling" Min="0" Max="128" />
 		<_14 Name="height" Offset="28" />
@@ -3109,11 +3109,11 @@
 		<_14 Name="trivial cull radius squared" Offset="44" />
 		<_14 Name="bound volume" Offset="48" />
 	</_B3764EDA2FF9A01B1E7F95ADB70B64FE>
-	<_78F64E2F5FA93E885791937E96DB2404 Name="WarzoneObjectiveDefinitionMembership" Size="22">
+	<_78F64E2F5FA93E885791937E96DB2404 Name="WarzoneObjectiveDefinitionMembership" Alt="430B2E7E370D66D3" Size="22">
 		<_2E Name="warzone objective definition" Offset="0" GUID="6B6D443C109C5D4C12FAB7B2AB9ED05A" StructName1="WarzoneObjectiveDefinitionMembership" Min="0" Max="320" />
 		<_0 Name="warzone objective label" Offset="2" />
 	</_78F64E2F5FA93E885791937E96DB2404>
-	<_829343BDE19AC3AA54DAD4A388085421 Name="s_spawn_formation_definition" Size="5C">
+	<_829343BDE19AC3AA54DAD4A388085421 Name="s_spawn_formation_definition" Alt="5B681552EB2AAAD1" Size="5C">
 		<_38 Name="place on" Offset="0" GUID="46764415F95BF66AEFDE15CFB6C52F11" />
 		<_2 Name="name" Offset="4" />
 		<_17 Name="position" type="aipt" Offset="8" />
@@ -3144,7 +3144,7 @@
 		</_F>
 		<_34 Name="generated_pada156" Offset="59" Length="3" />
 	</_829343BDE19AC3AA54DAD4A388085421>
-	<_915E47FC2288B87415D83BA8A59792AF Name="s_spawn_point_definition" Size="120">
+	<_915E47FC2288B87415D83BA8A59792AF Name="s_spawn_point_definition" Alt="C3C0222B3043A68E" Size="120">
 		<_38 Name="place on" Offset="0" GUID="46764415F95BF66AEFDE15CFB6C52F11" />
 		<_2 Name="name" Offset="4" />
 		<_2F Name="cell" Offset="8" />
@@ -3219,10 +3219,10 @@
 		<_2E Name="vehicle body" Offset="11C" GUID="DEF4497E756D14F1C9C52931A140AC68" StructName1="s_spawn_point_definition" Min="0" Max="262144" />
 		<_34 Name="generated_pada226" Offset="11E" Length="2" />
 	</_915E47FC2288B87415D83BA8A59792AF>
-	<_B8B849EE5DA7C80999C9CDD39CE778C1 Name="s_squad_definition_internal" Size="14">
+	<_B8B849EE5DA7C80999C9CDD39CE778C1 Name="s_squad_definition_internal" Alt="3A50959D0B3C8711" Size="14">
 		<_40 Name="cells" Offset="0" GUID="E05345C93EBCDDBBABA2BEDD81A0110C" StructName1="s_squad_definition_internal" Min="0" Max="10" />
 	</_B8B849EE5DA7C80999C9CDD39CE778C1>
-	<_EEF54EC7653517162F48E3D7B16396B1 Name="area_definition" Size="74">
+	<_EEF54EC7653517162F48E3D7B16396B1 Name="area_definition" Alt="AF8EB30E4D30382A" Size="74">
 		<_0 Name="name" Offset="0" />
 		<_D Name="area flags" Offset="20" StructName1="AIAreaFlags">
 			<Flag n="vehicle area" />
@@ -3251,10 +3251,10 @@
 		<_14 Name="sink" Offset="6C" />
 		<_14 Name="air firing point density" Offset="70" />
 	</_EEF54EC7653517162F48E3D7B16396B1>
-	<_EC31496C39206AE09A3E893B8A09F9EF Name="NavMeshAttachment" Size="14">
+	<_EC31496C39206AE09A3E893B8A09F9EF Name="NavMeshAttachment" Alt="5548658786FB47A8" Size="14">
 		<_40 Name="attachments" Offset="0" GUID="4B8343052D17D937205D022E97485CEC" StructName1="NavMeshAttachment" Min="0" Max="501024" />
 	</_EC31496C39206AE09A3E893B8A09F9EF>
-	<_0D2B4C5A15170FEDC889A15E84A14BCE Name="user_hint_parallelogram" Size="34">
+	<_0D2B4C5A15170FEDC889A15E84A14BCE Name="user_hint_parallelogram" Alt="CB8550E30E520FE7" Size="34">
 		<_17 Name="Point 0" Offset="0" />
 		<_17 Name="Point 1" Offset="C" />
 		<_17 Name="Point 2" Offset="18" />
@@ -3267,19 +3267,19 @@
 		</_E>
 		<_34 Name="generated_pad733f" Offset="32" Length="2" />
 	</_0D2B4C5A15170FEDC889A15E84A14BCE>
-	<_126041FF33170C5B4C98464E8EBBD6A4 Name="AIHintSectorPoint" Size="14">
+	<_126041FF33170C5B4C98464E8EBBD6A4 Name="AIHintSectorPoint" Alt="2B9EAC48EB9BBBC4" Size="14">
 		<_17 Name="point" type="aipt" Offset="0" />
 		<_6 Name="_navMeshUIDOffaceref" Offset="C" />
 		<_6 Name="_packedKeyOffaceref" Offset="10" />
 	</_126041FF33170C5B4C98464E8EBBD6A4>
-	<_4AB243C29B758221A09A93E09A3B5FE5 Name="s_cookie_cutter::ObjectIdentifier" Size="8">
+	<_4AB243C29B758221A09A93E09A3B5FE5 Name="s_cookie_cutter::ObjectIdentifier" Alt="9033361B5E888990" Size="8">
 		<_38 Name="object ID" Offset="0" GUID="DE4B45AEA40A140199C39E7BB47F4714" />
 	</_4AB243C29B758221A09A93E09A3B5FE5>
-	<_B3BE483CD51F900F5889EDA3A0E83169 Name="OpportunityTaskLink" Size="4">
+	<_B3BE483CD51F900F5889EDA3A0E83169 Name="OpportunityTaskLink" Alt="9994BFAB9374660" Size="4">
 		<_2E Name="Objective" Offset="0" GUID="C49F426B337629EED2A66AE8B388142C" StructName1="OpportunityTaskLink" Min="0" Max="256" />
 		<_2F Name="Task" Offset="2" />
 	</_B3BE483CD51F900F5889EDA3A0E83169>
-	<_C24649F62E9A621269527BF3B5738072 Name="cs_point" Size="48">
+	<_C24649F62E9A621269527BF3B5738072 Name="cs_point" Alt="F3BE0B82F2E5B14E" Size="48">
 		<_0 Name="name" Offset="0" />
 		<_2 Name="name_id" Offset="20" />
 		<_17 Name="position" type="aipt" Offset="24" />
@@ -3289,7 +3289,7 @@
 		<_14 Name="wait time" Offset="40" />
 		<_14 Name="reached radius" Offset="44" />
 	</_C24649F62E9A621269527BF3B5738072>
-	<_785C4DC222848CAF84EA38F4A1511EE6 Name="scenario_structure_bsp_reference" Size="DC">
+	<_785C4DC222848CAF84EA38F4A1511EE6 Name="scenario_structure_bsp_reference" Alt="EA24D111D5A6844D" Size="DC">
 		<_41 Name="structure bsp" Offset="0" Allowed="sbsp" Flags="6" />
 		<_41 Name="structure metadata" Offset="1C" Allowed="smet" Flags="0" />
 		<_2 Name="load variant name" Offset="38" />
@@ -3319,7 +3319,7 @@
 		<_41 Name="hexGridCollisionRef" Offset="A4" Allowed="scgt" Flags="9" />
 		<_41 Name="hexGridMaterialPaletteRef" Offset="C0" Allowed="rtmp" Flags="9" />
 	</_785C4DC222848CAF84EA38F4A1511EE6>
-	<_C062492F78C487ACF5B75CE99628512F Name="s_scenario_zone_set" Size="458">
+	<_C062492F78C487ACF5B75CE99628512F Name="s_scenario_zone_set" Alt="16D72EA6F166513F" Size="458">
 		<_2 Name="name" Offset="0" />
 		<_1 Name="name string" Offset="4" />
 		<_30 Name="pvs index" Offset="104" GUID="94C3495A06B763E21C2128168741E85C" StructName1="s_scenario_zone_set" Min="0" Max="1057" />
@@ -3347,7 +3347,7 @@
 		<_17 Name="aabbBoundsMax" Offset="448" />
 		<_2 Name="load variant name" Offset="454" />
 	</_C062492F78C487ACF5B75CE99628512F>
-	<_9A1B49212BFCB061A74697FE890FF041 Name="s_flock_source" Size="2C">
+	<_9A1B49212BFCB061A74697FE890FF041 Name="s_flock_source" Alt="88D6433CA55FD589" Size="2C">
 		<_2 Name="name" Offset="0" />
 		<_D Name="source flags" Offset="4" StructName1="c_flock_source_flags">
 			<Flag n="ground source" />
@@ -3363,7 +3363,7 @@
 		<_2E Name="source volume" Offset="28" GUID="05A9439EBF59DB68ADE31F09811C3B2F" StructName1="s_flock_source" Min="0" Max="8192" />
 		<_2E Name="initial destination" Offset="2A" GUID="232B452BD589E46E6F72DBA3903E75E4" StructName1="s_flock_source" Min="0" Max="10" />
 	</_9A1B49212BFCB061A74697FE890FF041>
-	<_232B452BD589E46E6F72DBA3903E75E4 Name="s_flock_destination" Size="20">
+	<_232B452BD589E46E6F72DBA3903E75E4 Name="s_flock_destination" Alt="4B73B77CFB843C7D" Size="20">
 		<_2 Name="name" Offset="0" />
 		<_A Name="type" Offset="4" StructName1="e_destination_type">
 			<Flag n="sink" />
@@ -3377,10 +3377,10 @@
 		<_2E Name="destination volume" Offset="1C" GUID="05A9439EBF59DB68ADE31F09811C3B2F" StructName1="s_flock_destination" Min="0" Max="8192" />
 		<_2E Name="next destination" Offset="1E" GUID="232B452BD589E46E6F72DBA3903E75E4" StructName1="s_flock_destination" Min="0" Max="10" />
 	</_232B452BD589E46E6F72DBA3903E75E4>
-	<_862A48E5B1CF48074ACD02F3987F56BD Name="s_opposing_objective" Size="2">
+	<_862A48E5B1CF48074ACD02F3987F56BD Name="s_opposing_objective" Alt="73F146B5CCE32DF7" Size="2">
 		<_2E Name="objective" Offset="0" GUID="C49F426B337629EED2A66AE8B388142C" StructName1="s_opposing_objective" Min="0" Max="256" />
 	</_862A48E5B1CF48074ACD02F3987F56BD>
-	<_ABF244420C243A66F1C57BB0826D572E Name="s_task_definition" Size="AC">
+	<_ABF244420C243A66F1C57BB0826D572E Name="s_task_definition" Alt="AA7086A199F5279" Size="AC">
 		<_E Name="flags" Offset="0" StructName1="c_task_flags">
 			<Flag n="latch ON" />
 			<Flag n="latch OFF" />
@@ -3558,26 +3558,26 @@
 		<_14 Name="min strength" Offset="94" />
 		<_40 Name="direction" Offset="98" GUID="58824DDCFD7F6876C4D351E49EE64C67" StructName1="s_task_definition" Min="0" Max="1" />
 	</_ABF244420C243A66F1C57BB0826D572E>
-	<_BB024D06826B3BF5DE9EFD739A9CC14D Name="s_scenario_cheap_particle_emitter_palette_entry" Size="0" />
-	<_B4FC448D4C84BE4FE1570E2AA9703E4E Name="ComposerPuppetOverride" Size="3C">
+	<_BB024D06826B3BF5DE9EFD739A9CC14D Name="s_scenario_cheap_particle_emitter_palette_entry" Alt="0" Size="0" />
+	<_B4FC448D4C84BE4FE1570E2AA9703E4E Name="ComposerPuppetOverride" Alt="9CF27D558149239A" Size="3C">
 		<_2 Name="Puppet Name" Offset="0" />
 		<_38 Name="Subject" Offset="4" GUID="DB114656C96CA9B0B831C0C987618570" />
 	</_B4FC448D4C84BE4FE1570E2AA9703E4E>
-	<_D0A3420EC8560795BB7A5600A1C9A0DF Name="LevelObjectParentKitPath" Size="14">
+	<_D0A3420EC8560795BB7A5600A1C9A0DF Name="LevelObjectParentKitPath" Alt="5127BB1E88EBD078" Size="14">
 		<_40 Name="path" Offset="0" GUID="689849540174FB9326701C02A42ED2BF" StructName1="LevelObjectParentKitPath" Min="0" Max="256" />
 	</_D0A3420EC8560795BB7A5600A1C9A0DF>
-	<_077C3FA5CA5FC812B77029658F450C29 Name="CachedDecalSystem" Size="40">
+	<_077C3FA5CA5FC812B77029658F450C29 Name="CachedDecalSystem" Alt="CE77AB78209BE578" Size="40">
 		<_41 Name="definition ref" Offset="0" Allowed="decs" Flags="0" />
 		<_6 Name="component index" Offset="1C" />
 		<_40 Name="decal triangles" Offset="20" GUID="88A4027235EF5AA00E62F9C4B8B9C787" StructName1="CachedDecalSystem" Min="1" Max="32767" />
 		<_34 Name="generated_pad29ea" Offset="34" Length="4" />
 		<_7 Name="runtimeVertexBuffer" Offset="38" />
 	</_077C3FA5CA5FC812B77029658F450C29>
-	<_4563C4BC4A5F3FB324691B31A23663BD Name="MaterialOverrideEntry" Size="38">
+	<_4563C4BC4A5F3FB324691B31A23663BD Name="MaterialOverrideEntry" Alt="3E3CF48F7B4E4232" Size="38">
 		<_41 Name="Original material ref" Offset="0" Allowed="mat " Flags="9" />
 		<_41 Name="Override material ref" Offset="1C" Allowed="mat " Flags="9" />
 	</_4563C4BC4A5F3FB324691B31A23663BD>
-	<_A0844D039281ADA2F9A8CE8FA6C46EF3 Name="i343::HexGrid::Placement" Size="14">
+	<_A0844D039281ADA2F9A8CE8FA6C46EF3 Name="i343::HexGrid::Placement" Alt="8061AD97AB11CC8F" Size="14">
 		<_18 Name="position" Offset="0" />
 		<_14 Name="bottom" Offset="8" />
 		<_14 Name="top" Offset="C" />
@@ -3593,18 +3593,18 @@
 		</_F>
 		<_34 Name="generated_pad5e99" Offset="11" Length="3" />
 	</_A0844D039281ADA2F9A8CE8FA6C46EF3>
-	<_860B4A5C9EE0E6A6709EB6898534F5B0 Name="i343::HexGrid::RuntimePlacement" Size="10">
+	<_860B4A5C9EE0E6A6709EB6898534F5B0 Name="i343::HexGrid::RuntimePlacement" Alt="FEDF0B25743FBADA" Size="10">
 		<_19 Name="position" Offset="0" />
 		<_3D Name="height" Offset="C" />
 		<_3D Name="hideMask" Offset="E" />
 	</_860B4A5C9EE0E6A6709EB6898534F5B0>
-	<_73284ADD3CD1D8ABDA2669DE8042FD52 Name="i343::HexGrid::QuadTreeNode" Size="20">
+	<_73284ADD3CD1D8ABDA2669DE8042FD52 Name="i343::HexGrid::QuadTreeNode" Alt="68634017E4FB86A6" Size="20">
 		<_19 Name="aabb min" Offset="0" />
 		<_3E Name="start index" Offset="C" />
 		<_19 Name="aabb max" Offset="10" />
 		<_3E Name="count" Offset="1C" />
 	</_73284ADD3CD1D8ABDA2669DE8042FD52>
-	<_E0004613C74B158EE1E69DA7893D65F6 Name="LightDefinition" Size="248">
+	<_E0004613C74B158EE1E69DA7893D65F6 Name="LightDefinition" Alt="C1F39845AD3A49FA" Size="248">
 		<_36 Name="Dynamic/Static Shared Light Parameters" Offset="0" />
 		<_2 Name="haloLightNode" Offset="0" />
 		<_C Name="Type" Offset="4" StructName1="e_light_type">
@@ -3767,11 +3767,11 @@
 		<_6 Name="tick of last state update" Offset="240" />
 		<_6 Name="tick of last bounding sphere update" Offset="244" />
 	</_E0004613C74B158EE1E69DA7893D65F6>
-	<_A3974D92AC7E7BE1E6D44472AA1DE4E5 Name="i343::TerrainDefinition" Size="74">
+	<_A3974D92AC7E7BE1E6D44472AA1DE4E5 Name="i343::TerrainDefinition" Alt="D9FF2125BDCA00A0" Size="74">
 		<_41 Name="terrain system" Offset="0" Allowed="trrn" Flags="26" />
 		<_38 Name="Volume" Offset="1C" GUID="5FD8458C879AF445816FD21692C3E12B" />
 	</_A3974D92AC7E7BE1E6D44472AA1DE4E5>
-	<_257649DF04F0AFBFEC5FBF80916C1650 Name="s_decorator_placement" Size="50">
+	<_257649DF04F0AFBFEC5FBF80916C1650 Name="s_decorator_placement" Alt="BDF33CD757A259ED" Size="50">
 		<_17 Name="position" Offset="0" />
 		<_3C Name="type index" Offset="C" />
 		<_3C Name="motion scale" Offset="D" />
@@ -3790,7 +3790,7 @@
 		<_3D Name="placement surface albedo" Offset="4C" />
 		<_3D Name="placement surface normal" Offset="4E" />
 	</_257649DF04F0AFBFEC5FBF80916C1650>
-	<_DE4B45AEA40A140199C39E7BB47F4714 Name="c_object_identifier" Size="8">
+	<_DE4B45AEA40A140199C39E7BB47F4714 Name="c_object_identifier" Alt="F1701FCC896E7D83" Size="8">
 		<_6 Name="unique id" type="obj#" Offset="0" />
 		<_5 Name="origin bsp index" type="obj#" Offset="4" />
 		<_A Name="type" type="obj#" Offset="6" StructName1="ScenarioObjectTypeEnum">
@@ -3818,19 +3818,19 @@
 			<Flag n="parent" />
 		</_A>
 	</_DE4B45AEA40A140199C39E7BB47F4714>
-	<_C0AA4656C16E1FE341BB4DF495075B5F Name="s_scenario_object_parent" Size="10">
+	<_C0AA4656C16E1FE341BB4DF495075B5F Name="s_scenario_object_parent" Alt="A82DD09C0480F451" Size="10">
 		<_6 Name="parent object" Offset="0" />
 		<_2 Name="parent name" type="npik" Offset="4" />
 		<_2 Name="parent marker" Offset="8" />
 		<_37 Name="" type="amkr" Offset="C" />
 		<_2 Name="connection marker" Offset="C" />
 	</_C0AA4656C16E1FE341BB4DF495075B5F>
-	<_82944FC6D0BA0CFE893A664A90315DDD Name="i343::Physics::ManCannonBallisticArcData" Size="14">
+	<_82944FC6D0BA0CFE893A664A90315DDD Name="i343::Physics::ManCannonBallisticArcData" Alt="33A2983AC203810F" Size="14">
 		<_17 Name="Man Cannon End Point" Offset="0" />
 		<_14 Name="Man Cannon Apex Height" Offset="C" />
 		<_6 Name="Man Cannon Phantom Index" Offset="10" />
 	</_82944FC6D0BA0CFE893A664A90315DDD>
-	<_B52A42D5C3031D37424678BCBE0FD563 Name="i343::SpartanTracking::ObjectDefinition" Size="6C">
+	<_B52A42D5C3031D37424678BCBE0FD563 Name="i343::SpartanTracking::ObjectDefinition" Alt="9F13A6891DA5AD76" Size="6C">
 		<_36 Name="Map these settings to a ping type" Offset="0" />
 		<_F Name="flags" Offset="0" StructName1="i343::SpartanTracking::ObjectDefinition::Flags">
 			<Flag n="trackable" />
@@ -3874,7 +3874,7 @@
 		<_41 Name="outline override" Offset="50" Allowed="ostd" Flags="0" />
 		<_37 Name="" type="fgre" Offset="6C" />
 	</_B52A42D5C3031D37424678BCBE0FD563>
-	<_A2E346C7B71D3CA1DCF066BE9890B903 Name="i343::Objects::Association" Size="14">
+	<_A2E346C7B71D3CA1DCF066BE9890B903 Name="i343::Objects::Association" Alt="AF32052616A6003A" Size="14">
 		<_E Name="association types" Offset="0" StructName1="i343::Objects::AssociationFlags">
 			<Flag n="aerial vehicle spawn point" />
 			<Flag n="ground vehicle spawn point" />
@@ -3886,21 +3886,21 @@
 		<_37 Name="" type="amkr" Offset="10" />
 		<_2 Name="source marker name" Offset="10" />
 	</_A2E346C7B71D3CA1DCF066BE9890B903>
-	<_881B429955F6D9F8167E3852B87C3FE8 Name="SplineNode" Size="1C">
+	<_881B429955F6D9F8167E3852B87C3FE8 Name="SplineNode" Alt="AE6AE5A69F90FF70" Size="1C">
 		<_17 Name="position" Offset="0" />
 		<_1C Name="rotation" Offset="C" />
 		<_14 Name="scale" Offset="18" />
 	</_881B429955F6D9F8167E3852B87C3FE8>
-	<_E7A645B16F5361207F3CFFCF8AD96C31 Name="SpawnPointMultiplayerProperties" Size="1">
+	<_E7A645B16F5361207F3CFFCF8AD96C31 Name="SpawnPointMultiplayerProperties" Alt="8A825BC87E10548B" Size="1">
 		<_F Name="Spawn Point Flags" Offset="0" StructName1="SpawnPointFlags">
 			<Flag n="Never Spawn In Vehicle" />
 		</_F>
 	</_E7A645B16F5361207F3CFFCF8AD96C31>
-	<_4734415694CFD34A29893B2EAFFE0110 Name="TerminalRedeemableObjectDefinition" Size="20">
+	<_4734415694CFD34A29893B2EAFFE0110 Name="TerminalRedeemableObjectDefinition" Alt="AA86F44D1725D160" Size="20">
 		<_41 Name="redeemable object" Offset="0" Allowed="obje" Flags="0" />
 		<_6 Name="level requirement" Offset="1C" />
 	</_4734415694CFD34A29893B2EAFFE0110>
-	<_29C547C8AC5C536494CC256697923B5C Name="i343::Curve::Curve3dControlPoint" Size="44">
+	<_29C547C8AC5C536494CC256697923B5C Name="i343::Curve::Curve3dControlPoint" Alt="7B8DECD202BF8DE2" Size="44">
 		<_19 Name="value" Offset="0" />
 		<_19 Name="tangent in" Offset="C" />
 		<_19 Name="tangent out" Offset="18" />
@@ -3941,7 +3941,7 @@
 		<_34 Name="generated_pad30cd" Offset="2E" Length="2" />
 		<_40 Name="pointMetadata" Offset="30" GUID="890146DC86C3D79B3F6D2AF7BE9C4A02" StructName1="i343::Curve::Curve3dControlPoint" Min="0" Max="1" />
 	</_29C547C8AC5C536494CC256697923B5C>
-	<_DC8F4785537D71A06BF432D2BD00AE29 Name="i343::Curve::SplineRoadMetadata" Size="48">
+	<_DC8F4785537D71A06BF432D2BD00AE29 Name="i343::Curve::SplineRoadMetadata" Alt="BDC4449434EBF45F" Size="48">
 		<_14 Name="width" Offset="0" />
 		<_14 Name="opacity" Offset="4" />
 		<_14 Name="falloffLeft" Offset="8" />
@@ -3952,30 +3952,30 @@
 		<_40 Name="Road Decal Metadata" Offset="18" GUID="8F334C8BA6D16E9BC34243C08DF5818B" StructName1="i343::Curve::SplineRoadMetadata" Min="0" Max="1" />
 		<_41 Name="terrain system" Offset="2C" Allowed="trrn" Flags="26" />
 	</_DC8F4785537D71A06BF432D2BD00AE29>
-	<_3EBF46B817D776717B6F15A7AF788A47 Name="i343::Curve::SplineFlightPathMetadata" Size="8">
+	<_3EBF46B817D776717B6F15A7AF788A47 Name="i343::Curve::SplineFlightPathMetadata" Alt="BD110CD5E90713BE" Size="8">
 		<_15 Name="Preference" Offset="0" />
 		<_3C Name="Lines per spline segment" Offset="4" />
 		<_34 Name="generated_padfb3b" Offset="5" Length="3" />
 	</_3EBF46B817D776717B6F15A7AF788A47>
-	<_5E7649D47DDBEF56C7523C29A10F631A Name="ScenarioBspReference" Size="1C">
+	<_5E7649D47DDBEF56C7523C29A10F631A Name="ScenarioBspReference" Alt="6F3C3AE5BB163102" Size="1C">
 		<_41 Name="structure bsp" Offset="0" Allowed="sbsp" Flags="1" />
 	</_5E7649D47DDBEF56C7523C29A10F631A>
-	<_67E442B766DD021F47A0735CAF44B769 Name="s_real_sector_point_generic_volume" Size="C">
+	<_67E442B766DD021F47A0735CAF44B769 Name="s_real_sector_point_generic_volume" Alt="277F13536B1E6225" Size="C">
 		<_17 Name="position" Offset="0" />
 	</_67E442B766DD021F47A0735CAF44B769>
-	<_CE644BA64DB5B94A1D9DC3AF8C4D6C02 Name="GenericVolumeNativePoint2D" Size="8">
+	<_CE644BA64DB5B94A1D9DC3AF8C4D6C02 Name="GenericVolumeNativePoint2D" Alt="B1A36E18AA05860" Size="8">
 		<_16 Name="point" Offset="0" />
 	</_CE644BA64DB5B94A1D9DC3AF8C4D6C02>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
-	<_689849540174FB9326701C02A42ED2BF Name="LevelObjectReferenceElement" Size="8">
+	<_689849540174FB9326701C02A42ED2BF Name="LevelObjectReferenceElement" Alt="FC332D7EE90075A8" Size="8">
 		<_6 Name="guid" Offset="0" />
 		<_2 Name="name" Offset="4" />
 	</_689849540174FB9326701C02A42ED2BF>
-	<_96C74B564E9E58D7D8977DF194EF24CC Name="i343::AI::AirDrop::SquadSpawnerFlightPathSettings" Size="40">
+	<_96C74B564E9E58D7D8977DF194EF24CC Name="i343::AI::AirDrop::SquadSpawnerFlightPathSettings" Alt="A06098E10FBF4C24" Size="40">
 		<_A Name="Travel Type" Offset="0" StructName1="i343::AI::AirDrop::FlightTravelType">
 			<Flag n="Immediate" />
 			<Flag n="Fast" />
@@ -3995,7 +3995,7 @@
 		<_41 Name="Flight Path Kit" Offset="10" Allowed="kit!" Flags="0" />
 		<_40 Name="Flight Path Splines" Offset="2C" GUID="B35F433FE93A2FF1BCD658D5AAFC10EE" StructName1="i343::AI::AirDrop::SquadSpawnerFlightPathSettings" Min="0" Max="8" />
 	</_96C74B564E9E58D7D8977DF194EF24CC>
-	<_984A447008C2B1DE7B2B684EEAF5A914 Name="i343::Narrative::BeatActivation" Size="5C">
+	<_984A447008C2B1DE7B2B684EEAF5A914 Name="i343::Narrative::BeatActivation" Alt="984B069B9AD3A739" Size="5C">
 		<_F Name="Flags" Offset="0" StructName1="i343::Narrative::BeatActivationFlags">
 			<Flag n="Initially Active" />
 			<Flag n="Is NOT In Vehicle" />
@@ -4017,7 +4017,7 @@
 		<_30 Name="Move to Finished" Offset="54" GUID="BC44461B57B7EF453140C5EFBA6A36A8" StructName1="i343::Narrative::BeatActivation" Min="0" Max="32" />
 		<_30 Name="HUD Off Finished" Offset="58" GUID="BC44461B57B7EF453140C5EFBA6A36A8" StructName1="i343::Narrative::BeatActivation" Min="0" Max="32" />
 	</_984A447008C2B1DE7B2B684EEAF5A914>
-	<_57D0454FC2BC4EBB3FE605C985A4030F Name="i343::Narrative::BeatDeactivation" Size="60">
+	<_57D0454FC2BC4EBB3FE605C985A4030F Name="i343::Narrative::BeatDeactivation" Alt="14D9C53712404ABF" Size="60">
 		<_F Name="Flags" Offset="0" StructName1="i343::Narrative::BeatDeactivationFlags">
 			<Flag n="Compositions Finished" />
 			<Flag n="Narrative Sequences Finished" />
@@ -4042,7 +4042,7 @@
 		<_30 Name="Move to Finished" Offset="58" GUID="BC44461B57B7EF453140C5EFBA6A36A8" StructName1="i343::Narrative::BeatDeactivation" Min="0" Max="32" />
 		<_30 Name="HUD Off Finished" Offset="5C" GUID="BC44461B57B7EF453140C5EFBA6A36A8" StructName1="i343::Narrative::BeatDeactivation" Min="0" Max="32" />
 	</_57D0454FC2BC4EBB3FE605C985A4030F>
-	<_10B74D79754A9B98E86F16508260D9AA Name="i343::Narrative::BeatNewCameraProperties" Size="2F4">
+	<_10B74D79754A9B98E86F16508260D9AA Name="i343::Narrative::BeatNewCameraProperties" Alt="231E3AB786908EA2" Size="2F4">
 		<_F Name="Flags" Offset="0" StructName1="i343::Narrative::CageBeatFlags">
 			<Flag n="Return to Gameplay" />
 			<Flag n="Clone Blend-In Properties" />
@@ -4078,13 +4078,13 @@
 		<_40 Name="Zoom Settings" Offset="2E0" GUID="C8AA4CB5068678340113C0C78CC2E41A" StructName1="i343::Narrative::BeatNewCameraProperties" Min="0" Max="1" />
 		<_37 Name="" type="fgre" Offset="2F4" />
 	</_10B74D79754A9B98E86F16508260D9AA>
-	<_EDA1419B68667A97525EB6B990AED424 Name="i343::Narrative::BeatCameraProperties" Size="314">
+	<_EDA1419B68667A97525EB6B990AED424 Name="i343::Narrative::BeatCameraProperties" Alt="904A87522129770" Size="314">
 		<_38 Name="Blend-In Properties" Offset="0" GUID="4C3C4CA1159F87E3275B6ADF923E4122" />
 		<_40 Name="Blend-In Proximity" Offset="100" GUID="8D6B47F32F6E74C30BA881E5AC2FD738" StructName1="i343::Narrative::BeatCameraProperties" Min="0" Max="1" />
 		<_38 Name="Blend-Out Properties" Offset="114" GUID="4C3C4CA1159F87E3275B6ADF923E4122" />
 		<_38 Name="Blend-From Properties" Offset="214" GUID="4C3C4CA1159F87E3275B6ADF923E4122" />
 	</_EDA1419B68667A97525EB6B990AED424>
-	<_08C14036895C78A9BCE5A782A6F2F53E Name="i343::Narrative::BeatCompositionProperties" Size="48">
+	<_08C14036895C78A9BCE5A782A6F2F53E Name="i343::Narrative::BeatCompositionProperties" Alt="69ADF4938701D48" Size="48">
 		<_38 Name="Placed Composition" Offset="0" GUID="F87643B7908D235027669B07968E32EE" />
 		<_41 Name="Composition" Offset="18" Allowed="comp" Flags="0" />
 		<_38 Name="Anchor Point" Offset="34" GUID="6C154C4723A122779F9A9354B933FB04" />
@@ -4098,11 +4098,11 @@
 		<_14 Name="Cage Blend-In Time" Offset="40" />
 		<_14 Name="Cage Blend-Out Time" Offset="44" />
 	</_08C14036895C78A9BCE5A782A6F2F53E>
-	<_E7444ACCA45CC9F104CB07841945F800 Name="i343::Narrative::BeatNarrativeSequence" Size="114">
+	<_E7444ACCA45CC9F104CB07841945F800 Name="i343::Narrative::BeatNarrativeSequence" Alt="3AD26927E6DEE75" Size="114">
 		<_1 Name="Sequence Name" Offset="0" />
 		<_40 Name="Associated Objects" Offset="100" GUID="EAC042ABEE259DA5DEB84E8C8FC932BE" StructName1="i343::Narrative::BeatNarrativeSequence" Min="0" Max="8" />
 	</_E7444ACCA45CC9F104CB07841945F800>
-	<_C47C448C101C21400E128D8AA059EFCC Name="i343::Narrative::BeatAiControlProperties" Size="1">
+	<_C47C448C101C21400E128D8AA059EFCC Name="i343::Narrative::BeatAiControlProperties" Alt="44A964732AAF795C" Size="1">
 		<_F Name="Flags" Offset="0" StructName1="i343::Narrative::BeatAiControlFlags">
 			<Flag n="Inactive" />
 			<Flag n="Brain Dead" />
@@ -4110,7 +4110,7 @@
 			<Flag n="Play Fighting" />
 		</_F>
 	</_C47C448C101C21400E128D8AA059EFCC>
-	<_0C66445DB79CDD2B433E253BBB918B33 Name="i343::Narrative::BeatNewPlayerControlProperties" Size="88">
+	<_0C66445DB79CDD2B433E253BBB918B33 Name="i343::Narrative::BeatNewPlayerControlProperties" Alt="94EDB51FFD411A2" Size="88">
 		<_40 Name="Malleable Properties" Offset="0" GUID="97914B6A8FBCAA1C2CA212BAB8D2AE92" StructName1="i343::Narrative::BeatNewPlayerControlProperties" Min="0" Max="8" />
 		<_40 Name="Weapon Disable" Offset="14" GUID="F7FF413C4A62E6D73A24FE76BB2F495E" StructName1="i343::Narrative::BeatNewPlayerControlProperties" Min="0" Max="1" />
 		<_40 Name="Grenade Disable" Offset="28" GUID="F7FF413C4A62E6D73A24FE76BB2F495E" StructName1="i343::Narrative::BeatNewPlayerControlProperties" Min="0" Max="1" />
@@ -4134,7 +4134,7 @@
 		<_37 Name="" type="fgre" Offset="74" />
 		<_40 Name="Move To Component" Offset="74" GUID="DEA641A660F5550EB0C3DB3CBFFB73A4" StructName1="i343::Narrative::BeatNewPlayerControlProperties" Min="0" Max="1" />
 	</_0C66445DB79CDD2B433E253BBB918B33>
-	<_2AB043887EE9DBB9399087A88DDF3CED Name="i343::Narrative::BeatPlayerControlProperties" Size="34">
+	<_2AB043887EE9DBB9399087A88DDF3CED Name="i343::Narrative::BeatPlayerControlProperties" Alt="6B2AE5E11CA7DBDE" Size="34">
 		<_D Name="Flags" Offset="0" StructName1="i343::Narrative::BeatPlayerControlFlags">
 			<Flag n="Alter Player Movement Speed" />
 			<Flag n="Modify Animation Mode" />
@@ -4180,7 +4180,7 @@
 		<_34 Name="generated_padf784" Offset="1D" Length="3" />
 		<_40 Name="Move To Component" Offset="20" GUID="DCE74117963BE43B768C94DB899B619B" StructName1="i343::Narrative::BeatPlayerControlProperties" Min="0" Max="1" />
 	</_2AB043887EE9DBB9399087A88DDF3CED>
-	<_762E4B7AAE458E43C86FDA8684228758 Name="i343::Narrative::BeatPlayerHUDProperties" Size="14">
+	<_762E4B7AAE458E43C86FDA8684228758 Name="i343::Narrative::BeatPlayerHUDProperties" Alt="FEDF0D4EA47ADE3E" Size="14">
 		<_D Name="Flags" Offset="0" StructName1="i343::Narrative::BeatPlayerHUDFlags">
 			<Flag n="Disable ALL HUD" />
 			<Flag n="Disable Messages" />
@@ -4209,24 +4209,24 @@
 		<_2 Name="Broadcast Deactivation Event Name" Offset="C" />
 		<_14 Name="Broadcast Deactivation Event Delay" Offset="10" />
 	</_762E4B7AAE458E43C86FDA8684228758>
-	<_986D473B3C56C5988C727FA9BED0FD71 Name="i343::Narrative::BeatPersistenceChanges" Size="28">
+	<_986D473B3C56C5988C727FA9BED0FD71 Name="i343::Narrative::BeatPersistenceChanges" Alt="164CF6437AEB8988" Size="28">
 		<_40 Name="At Activation" Offset="0" GUID="1D224AEA385036372EBDB61696D93BDA" StructName1="i343::Narrative::BeatPersistenceChanges" Min="0" Max="5" />
 		<_40 Name="At Deactivation" Offset="14" GUID="1D224AEA385036372EBDB61696D93BDA" StructName1="i343::Narrative::BeatPersistenceChanges" Min="0" Max="5" />
 	</_986D473B3C56C5988C727FA9BED0FD71>
-	<_7EF54EA4EACB27EFE4DAD178BB2DE009 Name="i343::Narrative::BeatLightProperties" Size="18C">
+	<_7EF54EA4EACB27EFE4DAD178BB2DE009 Name="i343::Narrative::BeatLightProperties" Alt="78B0DE156A77D96E" Size="18C">
 		<_41 Name="Light Tag" Offset="0" Allowed="ligh" Flags="0" />
 		<_38 Name="Light Transform" Offset="1C" GUID="4F1F441DC18500DFA77135118F0EB744" />
 		<_38 Name="Activate Transition" Offset="C4" GUID="B963416810787A0D28F822698E539A59" />
 		<_38 Name="Proximity" Offset="104" GUID="4DC1457DD77EA55CCC0C842CB53319C5" />
 		<_40 Name="Proximity Advanced Lighting" Offset="178" GUID="4F1F441DC18500DFA77135118F0EB744" StructName1="i343::Narrative::BeatLightProperties" Min="0" Max="1" />
 	</_7EF54EA4EACB27EFE4DAD178BB2DE009>
-	<_7346494212CEA8B4D9BD9468BE3448EB Name="i343::Narrative::BeatControlParameterProperties" Size="10">
+	<_7346494212CEA8B4D9BD9468BE3448EB Name="i343::Narrative::BeatControlParameterProperties" Alt="64C16A33A78ADC1B" Size="10">
 		<_30 Name="Set On Activate" Offset="0" GUID="3370409CBB3A7FF05E1F8499923C87D9" StructName1="i343::Narrative::BeatControlParameterProperties" Min="0" Max="64" />
 		<_30 Name="Unset On Activate" Offset="4" GUID="3370409CBB3A7FF05E1F8499923C87D9" StructName1="i343::Narrative::BeatControlParameterProperties" Min="0" Max="64" />
 		<_30 Name="Set On Deactivate" Offset="8" GUID="3370409CBB3A7FF05E1F8499923C87D9" StructName1="i343::Narrative::BeatControlParameterProperties" Min="0" Max="64" />
 		<_30 Name="Unset On Deactivate" Offset="C" GUID="3370409CBB3A7FF05E1F8499923C87D9" StructName1="i343::Narrative::BeatControlParameterProperties" Min="0" Max="64" />
 	</_7346494212CEA8B4D9BD9468BE3448EB>
-	<_6E8C405088288A299CCD740DB6925CED Name="i343::Narrative::BeatTransitionProperties" Size="6C">
+	<_6E8C405088288A299CCD740DB6925CED Name="i343::Narrative::BeatTransitionProperties" Alt="2D664B6B9743B131" Size="6C">
 		<_D Name="Flags" Offset="0" StructName1="i343::Narrative::TransitionBeatFlags">
 			<Flag n="Move To Keyframed with Velocity" />
 			<Flag n="Move To Keyframed with Time" />
@@ -4322,10 +4322,10 @@
 		</_A>
 		<_34 Name="generated_pad0e2d" Offset="6A" Length="2" />
 	</_6E8C405088288A299CCD740DB6925CED>
-	<_9AAD49315B797CB13AE0B8EFA4D67F82 Name="s_dumpling_sector_point" Size="C">
+	<_9AAD49315B797CB13AE0B8EFA4D67F82 Name="s_dumpling_sector_point" Alt="6A2D0015D2EC1E90" Size="C">
 		<_17 Name="position" Offset="0" />
 	</_9AAD49315B797CB13AE0B8EFA4D67F82>
-	<_46764415F95BF66AEFDE15CFB6C52F11 Name="s_ai_spawn_conditions" Size="4">
+	<_46764415F95BF66AEFDE15CFB6C52F11 Name="s_ai_spawn_conditions" Alt="1368001094C57129" Size="4">
 		<_E Name="difficulty flags" Offset="0" StructName1="GameDifficultyFlags">
 			<Flag n="easy" />
 			<Flag n="normal" />
@@ -4334,7 +4334,7 @@
 		</_E>
 		<_34 Name="pad0" Offset="2" Length="2" />
 	</_46764415F95BF66AEFDE15CFB6C52F11>
-	<_97634244C516E1B088B435C180F25696 Name="s_patrol_point" Size="14">
+	<_97634244C516E1B088B435C180F25696 Name="s_patrol_point" Alt="4AE0775FB73B3910" Size="14">
 		<_2F Name="point" Offset="0" />
 		<_E Name="flags" Offset="2" StructName1="c_patrol_point_flags">
 			<Flag n="single use" />
@@ -4344,7 +4344,7 @@
 		<_2 Name="activity name" type="sted" Offset="C" />
 		<_2 Name="command script" Offset="10" />
 	</_97634244C516E1B088B435C180F25696>
-	<_E05345C93EBCDDBBABA2BEDD81A0110C Name="s_cell_definition" Size="A4">
+	<_E05345C93EBCDDBBABA2BEDD81A0110C Name="s_cell_definition" Alt="75D15B9B9895ACAF" Size="A4">
 		<_36 Name="Character Build" Offset="0" />
 		<_2 Name="name" Offset="0" />
 		<_38 Name="place on" Offset="4" GUID="46764415F95BF66AEFDE15CFB6C52F11" />
@@ -4383,15 +4383,15 @@
 		</_B>
 		<_40 Name="points" Offset="90" GUID="97634244C516E1B088B435C180F25696" StructName1="s_cell_definition" Min="0" Max="32" />
 	</_E05345C93EBCDDBBABA2BEDD81A0110C>
-	<_F0C94F3540B3B9F793918A26B1D416B3 Name="s_ai_sector_point" Size="14">
+	<_F0C94F3540B3B9F793918A26B1D416B3 Name="s_ai_sector_point" Alt="8169B3A7D80DD21" Size="14">
 		<_17 Name="point" type="aipt" Offset="0" />
 		<_6 Name="_navMeshUIDOffaceref" Offset="C" />
 		<_6 Name="_packedKeyOffaceref" Offset="10" />
 	</_F0C94F3540B3B9F793918A26B1D416B3>
-	<_4B8343052D17D937205D022E97485CEC Name="NavMeshAttachment::NavMeshAttachmentId" Size="4">
+	<_4B8343052D17D937205D022E97485CEC Name="NavMeshAttachment::NavMeshAttachmentId" Alt="D0A56F8B090F330F" Size="4">
 		<_3E Name="navMeshUID" Offset="0" />
 	</_4B8343052D17D937205D022E97485CEC>
-	<_AE9264AEA40912308917E0122573361C Name="LightingVariant" Size="7C">
+	<_AE9264AEA40912308917E0122573361C Name="LightingVariant" Alt="104F269C5F74CCDC" Size="7C">
 		<_2 Name="variant name" Offset="0" />
 		<_41 Name="structure lightmap" Offset="4" Allowed="stlm" Flags="6" />
 		<_41 Name="lighting settings" Offset="20" Allowed="LigS" Flags="0" />
@@ -4401,7 +4401,7 @@
 		<_2E Name="sky reference" Offset="78" GUID="0E1A48CEA768C8BF031F6420AD61B0D6" StructName1="LightingVariant" Min="0" Max="32" />
 		<_34 Name="generated_pad17c3" Offset="7A" Length="2" />
 	</_AE9264AEA40912308917E0122573361C>
-	<_BE3F4CA8BA227682BD5EB349A9B94C22 Name="scenario_layer_reference" Size="120">
+	<_BE3F4CA8BA227682BD5EB349A9B94C22 Name="scenario_layer_reference" Alt="2B975D72D6B262CB" Size="120">
 		<_41 Name="tag" Offset="0" Allowed="layr" Flags="2" />
 		<_1 Name="Editor Display Name" Offset="1C" />
 		<_F Name="Layer Usage Flags" Offset="11C" StructName1="LayerUsageFlags">
@@ -4409,26 +4409,26 @@
 		</_F>
 		<_34 Name="generated_pad26e0" Offset="11D" Length="3" />
 	</_BE3F4CA8BA227682BD5EB349A9B94C22>
-	<_94C3495A06B763E21C2128168741E85C Name="s_scenario_zone_set_pvs" Size="94">
+	<_94C3495A06B763E21C2128168741E85C Name="s_scenario_zone_set_pvs" Alt="E3B50D07D0B81679" Size="94">
 		<_39 Name="structure bsp mask" Offset="0" GUID="87FD4CE81A136D9B02194E04BFE40D38" Count="32" StructName1="structure bsp mask" />
 		<_40 Name="structure bsp pvs" Offset="80" GUID="A9F04229FF83875CE36AB1A8A769E3B0" StructName1="s_scenario_zone_set_pvs" Min="0" Max="1024" />
 	</_94C3495A06B763E21C2128168741E85C>
-	<_B46A4BD19EBE11CD24186750A8D3B2C8 Name="BspReferenceFlags" Size="94">
+	<_B46A4BD19EBE11CD24186750A8D3B2C8 Name="BspReferenceFlags" Alt="E51DABBABE4AA2AC" Size="94">
 		<_37 Name="bsp flags" type="mbsp" Offset="0" />
 		<_40 Name="references" Offset="0" GUID="5E7649D47DDBEF56C7523C29A10F631A" StructName1="BspReferenceFlags" Min="0" Max="1024" />
 		<_39 Name="flags" Offset="14" GUID="87FD4CE81A136D9B02194E04BFE40D38" Count="32" StructName1="flags" />
 	</_B46A4BD19EBE11CD24186750A8D3B2C8>
-	<_0DCB4E74A069B9371A34AFD3901E1A33 Name="StructureDesignReferenceFlags" Size="94">
+	<_0DCB4E74A069B9371A34AFD3901E1A33 Name="StructureDesignReferenceFlags" Alt="1B9C108D9DC1085" Size="94">
 		<_40 Name="references" Offset="0" GUID="D648406DD00E478ACF3D563C8F7F0C13" StructName1="StructureDesignReferenceFlags" Min="0" Max="1024" />
 		<_39 Name="flags" Offset="14" GUID="B0A54BAB3BDB6535C720E49EA6BBF259" Count="32" StructName1="flags" />
 	</_0DCB4E74A069B9371A34AFD3901E1A33>
-	<_87FD4CE81A136D9B02194E04BFE40D38 Name="BspFlagStorageArray" Size="4">
+	<_87FD4CE81A136D9B02194E04BFE40D38 Name="BspFlagStorageArray" Alt="FA80AF993BE5C9B5" Size="4">
 		<_3E Name="flag data" Offset="0" />
 	</_87FD4CE81A136D9B02194E04BFE40D38>
-	<_B0A54BAB3BDB6535C720E49EA6BBF259 Name="StructureDesignFlagStorageArray" Size="4">
+	<_B0A54BAB3BDB6535C720E49EA6BBF259 Name="StructureDesignFlagStorageArray" Alt="1F2F6A728C53C10F" Size="4">
 		<_3E Name="flag data" Offset="0" />
 	</_B0A54BAB3BDB6535C720E49EA6BBF259>
-	<_4E2A483E73FDA6A6AD242965A308C3B1 Name="s_game_audibility" Size="9C">
+	<_4E2A483E73FDA6A6AD242965A308C3B1 Name="s_game_audibility" Alt="7C26109A643E4627" Size="9C">
 		<_6 Name="door portal count" Offset="0" />
 		<_6 Name="room count" Offset="4" />
 		<_25 Name="room distance bounds" Offset="8" />
@@ -4440,16 +4440,16 @@
 		<_40 Name="bsp cluster to room bounds" Offset="74" GUID="BF8E4C35ABDDE0597AB91ED6B3B79A93" StructName1="s_game_audibility" Min="0" Max="1024" />
 		<_40 Name="bsp cluster to room indices" Offset="88" GUID="DEEA451B06A9CB1C362F4EB689E0296C" StructName1="s_game_audibility" Min="0" Max="1024" />
 	</_4E2A483E73FDA6A6AD242965A308C3B1>
-	<_E0C846D1038751F20966DF8D8F567F0E Name="ScenarioZoneSetBudgetOverride" Size="10">
+	<_E0C846D1038751F20966DF8D8F567F0E Name="ScenarioZoneSetBudgetOverride" Alt="7F480CBCDAF00B5E" Size="10">
 		<_6 Name="env bitmap" Offset="0" />
 		<_6 Name="env object bitmap" Offset="4" />
 		<_6 Name="env geometry" Offset="8" />
 		<_6 Name="env object geometry" Offset="C" />
 	</_E0C846D1038751F20966DF8D8F567F0E>
-	<_FD7543600F76E7108CBE3BE798E09719 Name="ScenarioZoneSetLipsyncBlock" Size="1C">
+	<_FD7543600F76E7108CBE3BE798E09719 Name="ScenarioZoneSetLipsyncBlock" Alt="2C8B0CFDF13053F4" Size="1C">
 		<_41 Name="dummy" Offset="0" Allowed="snd!" Flags="9" />
 	</_FD7543600F76E7108CBE3BE798E09719>
-	<_40034CC8F805BB85C5D6C669A7CED22B Name="s_area_reference" Size="1C">
+	<_40034CC8F805BB85C5D6C669A7CED22B Name="s_area_reference" Alt="CB7BFF21BBA1E05D" Size="1C">
 		<_B Name="area type" Offset="0" StructName1="c_zone_set_type">
 			<Flag n="normal" />
 			<Flag n="search" />
@@ -4468,14 +4468,14 @@
 		<_6 Name="connection flags 2" Offset="14" />
 		<_6 Name="connection flags 3" Offset="18" />
 	</_40034CC8F805BB85C5D6C669A7CED22B>
-	<_1D254941BE3330E461A61F94949273FC Name="s_script_fragment" Size="104">
+	<_1D254941BE3330E461A61F94949273FC Name="s_script_fragment" Alt="4991BD4194BAB388" Size="104">
 		<_6 Name="script name" Offset="0" />
 		<_1 Name="script source" type="maeo" Offset="4" />
 	</_1D254941BE3330E461A61F94949273FC>
-	<_58824DDCFD7F6876C4D351E49EE64C67 Name="s_task_direction" Size="14">
+	<_58824DDCFD7F6876C4D351E49EE64C67 Name="s_task_direction" Alt="C4E6F504D6DDDE48" Size="14">
 		<_40 Name="points" Offset="0" GUID="72574833E85253E6BFF2A0EDAFA188B9" StructName1="s_task_direction" Min="0" Max="8" />
 	</_58824DDCFD7F6876C4D351E49EE64C67>
-	<_DB114656C96CA9B0B831C0C987618570 Name="ComposerSubject" Size="38">
+	<_DB114656C96CA9B0B831C0C987618570 Name="ComposerSubject" Alt="E0107737C04BDCAA" Size="38">
 		<_2 Name="Object Name" Offset="0" />
 		<_42 Name="Raw Object Name" Offset="4" StructName1="ComposerSubject.Raw Object Name" Int1="2" Int2="0" Flags="200" />
 		<_38 Name="Object" Offset="1C" GUID="F87643B7908D235027669B07968E32EE" />
@@ -4491,12 +4491,12 @@
 		</_A>
 		<_34 Name="generated_padc9c6" Offset="35" Length="3" />
 	</_DB114656C96CA9B0B831C0C987618570>
-	<_88A4027235EF5AA00E62F9C4B8B9C787 Name="i343::Graphics::Decals::DecalTriangle" Size="60">
+	<_88A4027235EF5AA00E62F9C4B8B9C787 Name="i343::Graphics::Decals::DecalTriangle" Alt="DE18C8706465D27B" Size="60">
 		<_38 Name="vertex 0" Offset="0" GUID="0920AEBB2B24BB9A645DAAFFBDC023A1" />
 		<_38 Name="vertex 1" Offset="20" GUID="0920AEBB2B24BB9A645DAAFFBDC023A1" />
 		<_38 Name="vertex 2" Offset="40" GUID="0920AEBB2B24BB9A645DAAFFBDC023A1" />
 	</_88A4027235EF5AA00E62F9C4B8B9C787>
-	<_42B4434A26AA4A8308A920CD93ACA3CB Name="ScalarLightFunction" Size="28">
+	<_42B4434A26AA4A8308A920CD93ACA3CB Name="ScalarLightFunction" Alt="6C5BF192D9EB5A00" Size="28">
 		<_2 Name="Input Variable" type="fnin" Offset="0" />
 		<_2 Name="Range Variable" type="fnir" Offset="4" />
 		<_B Name="Output Modifier" type="fnop" Offset="8" StructName1="LightOutputModifier">
@@ -4509,7 +4509,7 @@
 		<_37 Name="Mapping" type="fned" Offset="10" />
 		<_38 Name="Mapping" Offset="10" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_42B4434A26AA4A8308A920CD93ACA3CB>
-	<_54F94FD03DBB8F1A297A30789D24DA91 Name="ColorLightFunction" Size="28">
+	<_54F94FD03DBB8F1A297A30789D24DA91 Name="ColorLightFunction" Alt="C2113354367541E5" Size="28">
 		<_2 Name="Input Variable" type="fnin" Offset="0" />
 		<_2 Name="Range Variable" type="fnir" Offset="4" />
 		<_B Name="Output Modifier" type="fnop" Offset="8" StructName1="LightOutputModifier">
@@ -4522,12 +4522,12 @@
 		<_37 Name="Mapping" type="fned" Offset="10" />
 		<_38 Name="Mapping" Offset="10" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_54F94FD03DBB8F1A297A30789D24DA91>
-	<_890146DC86C3D79B3F6D2AF7BE9C4A02 Name="i343::Curve::CurveControlPointMetadata" Size="3C">
+	<_890146DC86C3D79B3F6D2AF7BE9C4A02 Name="i343::Curve::CurveControlPointMetadata" Alt="CCD9A37676A71CA5" Size="3C">
 		<_40 Name="spline road metadata" Offset="0" GUID="781B4DEB48B4EEDDE67B060C86194139" StructName1="i343::Curve::CurveControlPointMetadata" Min="0" Max="1" />
 		<_40 Name="road decal metadata" Offset="14" GUID="3F0A493018D98594F83880CABBB76829" StructName1="i343::Curve::CurveControlPointMetadata" Min="0" Max="1" />
 		<_40 Name="animated spline metadata" Offset="28" GUID="B83E4A756AA20FB6536D5B2CB680453F" StructName1="i343::Curve::CurveControlPointMetadata" Min="0" Max="1" />
 	</_890146DC86C3D79B3F6D2AF7BE9C4A02>
-	<_8F334C8BA6D16E9BC34243C08DF5818B Name="i343::Curve::RoadDecalMetadata" Size="40">
+	<_8F334C8BA6D16E9BC34243C08DF5818B Name="i343::Curve::RoadDecalMetadata" Alt="EBCB6B0F32FBE6A3" Size="40">
 		<_40 Name="Road Decal Textures" Offset="0" GUID="BB484B70CB48EF7259B8DDA794BD5E5F" StructName1="i343::Curve::RoadDecalMetadata" Min="0" Max="32" />
 		<_18 Name="Road Decal Scale" Offset="14" />
 		<_18 Name="Road Decal Offset" Offset="1C" />
@@ -4539,7 +4539,7 @@
 		<_14 Name="Road Decal Edge Fade" Offset="38" />
 		<_6 Name="Road Decal Random Seed" Offset="3C" />
 	</_8F334C8BA6D16E9BC34243C08DF5818B>
-	<_165C4932E81B33533CAC2EE39ADC043D Name="i343::AI::AirDrop::FlightTransitionData" Size="8">
+	<_165C4932E81B33533CAC2EE39ADC043D Name="i343::AI::AirDrop::FlightTransitionData" Alt="5DA16BAFD86A4151" Size="8">
 		<_A Name="Transition Type" Offset="0" StructName1="i343::AI::AirDrop::FlightTransitionType">
 			<Flag n="None" />
 			<Flag n="Warp" />
@@ -4548,10 +4548,10 @@
 		<_34 Name="generated_pad94e3" Offset="1" Length="3" />
 		<_14 Name="Transition Time" Offset="4" />
 	</_165C4932E81B33533CAC2EE39ADC043D>
-	<_B35F433FE93A2FF1BCD658D5AAFC10EE Name="i343::AI::AirDrop::FlightPathSpline" Size="18">
+	<_B35F433FE93A2FF1BCD658D5AAFC10EE Name="i343::AI::AirDrop::FlightPathSpline" Alt="6FD2CF7B3BC30FB2" Size="18">
 		<_38 Name="Spline Ref" Offset="0" GUID="F87643B7908D235027669B07968E32EE" />
 	</_B35F433FE93A2FF1BCD658D5AAFC10EE>
-	<_6FF54C91188C266743F4AC1091E7D6A5 Name="i343::Narrative::CageCameraTransformProperties" Size="160">
+	<_6FF54C91188C266743F4AC1091E7D6A5 Name="i343::Narrative::CageCameraTransformProperties" Alt="4B3F365433A9A25C" Size="160">
 		<_F Name="Flags" Offset="0" StructName1="i343::Narrative::CageTransformFlags">
 			<Flag n="Gaze is Look-At Target" />
 			<Flag n="Gaze Lock Pitch" />
@@ -4569,7 +4569,7 @@
 		<_38 Name="Composition Reference" Offset="138" GUID="44BC4DE1D94733B8BAB588D295EB3CD1" />
 		<_37 Name="" type="fgre" Offset="160" />
 	</_6FF54C91188C266743F4AC1091E7D6A5>
-	<_BA704854A67FBB31AFDD3854AAF4BF0D Name="i343::Curve::CurveReference" Size="24">
+	<_BA704854A67FBB31AFDD3854AAF4BF0D Name="i343::Curve::CurveReference" Alt="9AFCB842E994AA2" Size="24">
 		<_A Name="Curve Type" Offset="0" StructName1="i343::Curve::CurveBuiltIn">
 			<Flag n="None" />
 			<Flag n="Linear" />
@@ -4603,7 +4603,7 @@
 		<_41 Name="Curve Definition" Offset="4" Allowed="curv" Flags="0" />
 		<_2 Name="Curve Name" Offset="20" />
 	</_BA704854A67FBB31AFDD3854AAF4BF0D>
-	<_2E7640D98046AB38C2B8C2E5A620B732 Name="i343::CageSystem::CageTransitionCurve" Size="44">
+	<_2E7640D98046AB38C2B8C2E5A620B732 Name="i343::CageSystem::CageTransitionCurve" Alt="3363452FE326F29F" Size="44">
 		<_41 Name="Animation Curve" Offset="0" Allowed="curv" Flags="0" />
 		<_2 Name="Transform Curve Name" Offset="1C" />
 		<_2 Name="Focal Length Curve Name" Offset="20" />
@@ -4616,7 +4616,7 @@
 		<_14 Name="Animation Time" Offset="3C" />
 		<_14 Name="Animation Playback Scalar" Offset="40" />
 	</_2E7640D98046AB38C2B8C2E5A620B732>
-	<_F46A44B04D14E49D0802BA30ABFB3DE0 Name="i343::Narrative::CageCameraProximityProperties" Size="80">
+	<_F46A44B04D14E49D0802BA30ABFB3DE0 Name="i343::Narrative::CageCameraProximityProperties" Alt="79DDCA25B8ADEF35" Size="80">
 		<_F Name="Flags" Offset="0" StructName1="i343::Narrative::CageBlendProximityFlags">
 			<Flag n="Ignore horizontal differences" />
 			<Flag n="Ignore vertical differences" />
@@ -4647,12 +4647,12 @@
 		<_2 Name="Destination Cage Point" Offset="7C" />
 		<_37 Name="" type="fgre" Offset="80" />
 	</_F46A44B04D14E49D0802BA30ABFB3DE0>
-	<_C8AA4CB5068678340113C0C78CC2E41A Name="i343::Narrative::CageCameraZoomSettings" Size="3C">
+	<_C8AA4CB5068678340113C0C78CC2E41A Name="i343::Narrative::CageCameraZoomSettings" Alt="52DC4653F41E49BB" Size="3C">
 		<_41 Name="Curve Definition" Offset="0" Allowed="curv" Flags="0" />
 		<_38 Name="Positional Curve Adjustments" Offset="1C" GUID="A84F4568E09F9B71A572B4259829AFF1" />
 		<_38 Name="Focal Length Curve Adjustments" Offset="2C" GUID="A84F4568E09F9B71A572B4259829AFF1" />
 	</_C8AA4CB5068678340113C0C78CC2E41A>
-	<_4C3C4CA1159F87E3275B6ADF923E4122 Name="i343::Narrative::CageCameraProperties" Size="100">
+	<_4C3C4CA1159F87E3275B6ADF923E4122 Name="i343::Narrative::CageCameraProperties" Alt="43D7E1FE4308BA3B" Size="100">
 		<_E Name="Flags" Offset="0" StructName1="i343::Narrative::CageFlags">
 			<Flag n="Return to Gameplay" />
 			<Flag n="Clone Blend-In Properties" />
@@ -4680,7 +4680,7 @@
 		<_14 Name="Focus Distance" Offset="F8" />
 		<_14 Name="F-Stop" Offset="FC" />
 	</_4C3C4CA1159F87E3275B6ADF923E4122>
-	<_8D6B47F32F6E74C30BA881E5AC2FD738 Name="i343::Narrative::CageBlendProximity" Size="11C">
+	<_8D6B47F32F6E74C30BA881E5AC2FD738 Name="i343::Narrative::CageBlendProximity" Alt="3A6FECCED7CFAD83" Size="11C">
 		<_38 Name="Source" Offset="0" GUID="6C154C4723A122779F9A9354B933FB04" />
 		<_38 Name="Destination" Offset="8" GUID="6C154C4723A122779F9A9354B933FB04" />
 		<_38 Name="Camera Properties at Destination" Offset="10" GUID="4C3C4CA1159F87E3275B6ADF923E4122" />
@@ -4692,22 +4692,22 @@
 		<_14 Name="Outer Edge" Offset="114" />
 		<_14 Name="Inner Edge" Offset="118" />
 	</_8D6B47F32F6E74C30BA881E5AC2FD738>
-	<_6C154C4723A122779F9A9354B933FB04 Name="i343::Narrative::CagePointProperties" Size="8">
+	<_6C154C4723A122779F9A9354B933FB04 Name="i343::Narrative::CagePointProperties" Alt="B7D7098B2069D2" Size="8">
 		<_30 Name="Cage Attachment" Offset="0" GUID="56E14B1953CAC37C22F87DFB884FE5A4" StructName1="i343::Narrative::CagePointProperties" Min="0" Max="64" />
 		<_2 Name="Cage Point" Offset="4" />
 	</_6C154C4723A122779F9A9354B933FB04>
-	<_EAC042ABEE259DA5DEB84E8C8FC932BE Name="i343::Narrative::NarrativeSequenceAssociatedObject" Size="18">
+	<_EAC042ABEE259DA5DEB84E8C8FC932BE Name="i343::Narrative::NarrativeSequenceAssociatedObject" Alt="3F5B9779286F514D" Size="18">
 		<_38 Name="Associated Object" Offset="0" GUID="F87643B7908D235027669B07968E32EE" />
 	</_EAC042ABEE259DA5DEB84E8C8FC932BE>
-	<_97914B6A8FBCAA1C2CA212BAB8D2AE92 Name="i343::Narrative::MalleablePropertyDataBlockDef" Size="1C">
+	<_97914B6A8FBCAA1C2CA212BAB8D2AE92 Name="i343::Narrative::MalleablePropertyDataBlockDef" Alt="ABE332E1BDDADEA8" Size="1C">
 		<_41 Name="Data" Offset="0" Allowed="nmpd" Flags="0" />
 	</_97914B6A8FBCAA1C2CA212BAB8D2AE92>
-	<_F7FF413C4A62E6D73A24FE76BB2F495E Name="i343::Narrative::ActivationCurveDefAndNamesDef" Size="24">
+	<_F7FF413C4A62E6D73A24FE76BB2F495E Name="i343::Narrative::ActivationCurveDefAndNamesDef" Alt="25BE5D43FD921450" Size="24">
 		<_41 Name="Curve Definition" Offset="0" Allowed="curv" Flags="0" />
 		<_2 Name="Activate Curve Name" Offset="1C" />
 		<_2 Name="Deactivate Curve Name" Offset="20" />
 	</_F7FF413C4A62E6D73A24FE76BB2F495E>
-	<_DEA641A660F5550EB0C3DB3CBFFB73A4 Name="i343::Narrative::NewPlayerControlMoveToComponent" Size="50">
+	<_DEA641A660F5550EB0C3DB3CBFFB73A4 Name="i343::Narrative::NewPlayerControlMoveToComponent" Alt="AB06AEB814EAD4BD" Size="50">
 		<_F Name="Flags" Offset="0" StructName1="i343::Narrative::MoveToFlags">
 			<Flag n="Keyframed with Velocity" />
 			<Flag n="Keyframed with Time" />
@@ -4725,7 +4725,7 @@
 		<_2 Name="Composition Track Name" Offset="38" />
 		<_40 Name="Activation Curves" Offset="3C" GUID="F7FF413C4A62E6D73A24FE76BB2F495E" StructName1="i343::Narrative::NewPlayerControlMoveToComponent" Min="0" Max="1" />
 	</_DEA641A660F5550EB0C3DB3CBFFB73A4>
-	<_DCE74117963BE43B768C94DB899B619B Name="i343::Narrative::PlayerControlMoveToComponent" Size="3C">
+	<_DCE74117963BE43B768C94DB899B619B Name="i343::Narrative::PlayerControlMoveToComponent" Alt="8E8301637CED3573" Size="3C">
 		<_F Name="Flags" Offset="0" StructName1="i343::Narrative::MoveToFlags">
 			<Flag n="Keyframed with Velocity" />
 			<Flag n="Keyframed with Time" />
@@ -4742,7 +4742,7 @@
 		<_6 Name="Composition Index" Offset="34" />
 		<_2 Name="Composition Track Name" Offset="38" />
 	</_DCE74117963BE43B768C94DB899B619B>
-	<_1D224AEA385036372EBDB61696D93BDA Name="i343::Narrative::BeatPersistenceChange" Size="C">
+	<_1D224AEA385036372EBDB61696D93BDA Name="i343::Narrative::BeatPersistenceChange" Alt="A5C01E1AEEABE205" Size="C">
 		<_A Name="Change Type" Offset="0" StructName1="i343::Narrative::BeatPersistenceChangeType">
 			<Flag n="Set" />
 			<Flag n="Increment" />
@@ -4752,7 +4752,7 @@
 		<_2 Name="Persistence Key" Offset="4" />
 		<_6 Name="Change Value" Offset="8" />
 	</_1D224AEA385036372EBDB61696D93BDA>
-	<_4F1F441DC18500DFA77135118F0EB744 Name="i343::Narrative::CageLightTransformProperties" Size="A8">
+	<_4F1F441DC18500DFA77135118F0EB744 Name="i343::Narrative::CageLightTransformProperties" Alt="3228935C140760AC" Size="A8">
 		<_F Name="Flags" Offset="0" StructName1="i343::Narrative::LightFlags">
 			<Flag n="Orient Towards Player Camera" />
 			<Flag n="Orient No Pitch" />
@@ -4768,7 +4768,7 @@
 		<_38 Name="Position Point" Offset="14" GUID="6C154C4723A122779F9A9354B933FB04" />
 		<_38 Name="Gaze" Offset="1C" GUID="1A13414A75D96D66A6E30F30B629F38E" />
 	</_4F1F441DC18500DFA77135118F0EB744>
-	<_B963416810787A0D28F822698E539A59 Name="i343::Narrative::CageLightTransition" Size="40">
+	<_B963416810787A0D28F822698E539A59 Name="i343::Narrative::CageLightTransition" Alt="4181B64CF0A0D759" Size="40">
 		<_41 Name="Animation Curve" Offset="0" Allowed="curv" Flags="0" />
 		<_2 Name="Transform Curve Name" Offset="1C" />
 		<_2 Name="Dimmer Curve Name" Offset="20" />
@@ -4780,7 +4780,7 @@
 		<_2 Name="Outer Cone Angle Curve Name" Offset="38" />
 		<_14 Name="Animation Time" Offset="3C" />
 	</_B963416810787A0D28F822698E539A59>
-	<_4DC1457DD77EA55CCC0C842CB53319C5 Name="i343::Narrative::CageLightProximityProperties" Size="74">
+	<_4DC1457DD77EA55CCC0C842CB53319C5 Name="i343::Narrative::CageLightProximityProperties" Alt="164051166AF8A4B9" Size="74">
 		<_F Name="Flags" Offset="0" StructName1="i343::Narrative::CageBlendProximityFlags">
 			<Flag n="Ignore horizontal differences" />
 			<Flag n="Ignore vertical differences" />
@@ -4808,69 +4808,69 @@
 		<_2 Name="Destination Cage Point" Offset="70" />
 		<_37 Name="" type="fgre" Offset="74" />
 	</_4DC1457DD77EA55CCC0C842CB53319C5>
-	<_5B094D5AFB44A16AA050747FA5F349F7 Name="AICharacterChoice" Size="24">
+	<_5B094D5AFB44A16AA050747FA5F349F7 Name="AICharacterChoice" Alt="EFCE5E4888BCC426" Size="24">
 		<_38 Name="place on" Offset="0" GUID="46764415F95BF66AEFDE15CFB6C52F11" />
 		<_41 Name="character type" Offset="4" Allowed="char" Flags="0" />
 		<_5 Name="chance" Offset="20" />
 		<_34 Name="generated_padc8d2" Offset="22" Length="2" />
 	</_5B094D5AFB44A16AA050747FA5F349F7>
-	<_33CE47963F4964746603610AA2DF3E45 Name="AIWeaponChoice" Size="24">
+	<_33CE47963F4964746603610AA2DF3E45 Name="AIWeaponChoice" Alt="E82EFC99863F3CDF" Size="24">
 		<_38 Name="place on" Offset="0" GUID="46764415F95BF66AEFDE15CFB6C52F11" />
 		<_41 Name="weapon type" Offset="4" Allowed="weap" Flags="0" />
 		<_5 Name="chance" Offset="20" />
 		<_34 Name="generated_pada3bd" Offset="22" Length="2" />
 	</_33CE47963F4964746603610AA2DF3E45>
-	<_8618413EA97BE0E62D86F75CA966B9BD Name="AIEquipmentChoice" Size="24">
+	<_8618413EA97BE0E62D86F75CA966B9BD Name="AIEquipmentChoice" Alt="7DFBD1F282989E93" Size="24">
 		<_38 Name="place on" Offset="0" GUID="46764415F95BF66AEFDE15CFB6C52F11" />
 		<_41 Name="equipment type" Offset="4" Allowed="eqip" Flags="0" />
 		<_5 Name="chance" Offset="20" />
 		<_34 Name="generated_pada94b" Offset="22" Length="2" />
 	</_8618413EA97BE0E62D86F75CA966B9BD>
-	<_2AC943FF19DB86FCD2287E09A9F2EB31 Name="LightingObjectsIndex" Size="2">
+	<_2AC943FF19DB86FCD2287E09A9F2EB31 Name="LightingObjectsIndex" Alt="63149F5DA3C900C3" Size="2">
 		<_5 Name="index" Offset="0" />
 	</_2AC943FF19DB86FCD2287E09A9F2EB31>
-	<_0E1A48CEA768C8BF031F6420AD61B0D6 Name="s_scenario_sky_reference" Size="A4">
+	<_0E1A48CEA768C8BF031F6420AD61B0D6 Name="s_scenario_sky_reference" Alt="C897C31CF593F7F6" Size="A4">
 		<_41 Name="sky" Offset="0" Allowed="scen" Flags="0" />
 		<_2E Name="name" Offset="1C" GUID="3584428C6B05A7F7A29197DB92762448" StructName1="s_scenario_sky_reference" Min="0" Max="1048576" />
 		<_34 Name="generated_pad4092" Offset="1E" Length="2" />
 		<_2 Name="sky name" type="name" Offset="20" />
 		<_39 Name="active on bsps" Offset="24" GUID="87FD4CE81A136D9B02194E04BFE40D38" Count="32" StructName1="active on bsps" />
 	</_0E1A48CEA768C8BF031F6420AD61B0D6>
-	<_A9F04229FF83875CE36AB1A8A769E3B0 Name="s_scenario_zone_set_structure_bsp_pvs" Size="14">
+	<_A9F04229FF83875CE36AB1A8A769E3B0 Name="s_scenario_zone_set_structure_bsp_pvs" Alt="1167228A617702E5" Size="14">
 		<_40 Name="bsp cluster mapings" Offset="0" GUID="A9F0C2A9ABA3875CA31AB1A8A7A453B0" StructName1="s_scenario_zone_set_structure_bsp_pvs" Min="0" Max="256" />
 	</_A9F04229FF83875CE36AB1A8A769E3B0>
-	<_D648406DD00E478ACF3D563C8F7F0C13 Name="StructureDesignReference" Size="1C">
+	<_D648406DD00E478ACF3D563C8F7F0C13 Name="StructureDesignReference" Alt="EF695C7CC08AAFAC" Size="1C">
 		<_41 Name="structure design" Offset="0" Allowed="sddt" Flags="1" />
 	</_D648406DD00E478ACF3D563C8F7F0C13>
-	<_355B42441FE14003025CD1919C611D68 Name="DoorEncodedPasBlock" Size="4">
+	<_355B42441FE14003025CD1919C611D68 Name="DoorEncodedPasBlock" Alt="DF4CBB430DDADEFF" Size="4">
 		<_6 Name="encoded data" Offset="0" />
 	</_355B42441FE14003025CD1919C611D68>
-	<_C34F4FFE79C4010740627A21A9B0E0BA Name="RoomDoorPortalEncodedPasBlock" Size="4">
+	<_C34F4FFE79C4010740627A21A9B0E0BA Name="RoomDoorPortalEncodedPasBlock" Alt="40729A922DD781FB" Size="4">
 		<_6 Name="encoded data" Offset="0" />
 	</_C34F4FFE79C4010740627A21A9B0E0BA>
-	<_07484AF98229AF1AE928E357B927F592 Name="AiDeafeningEncodedPasBlock" Size="4">
+	<_07484AF98229AF1AE928E357B927F592 Name="AiDeafeningEncodedPasBlock" Alt="7B446F16C3A6F697" Size="4">
 		<_6 Name="encoded data" Offset="0" />
 	</_07484AF98229AF1AE928E357B927F592>
-	<_71A0441D079EE95D6865EE9B9947D8E4 Name="EncodedRoomDistancesBlock" Size="1">
+	<_71A0441D079EE95D6865EE9B9947D8E4 Name="EncodedRoomDistancesBlock" Alt="564A00A59DDC493E" Size="1">
 		<_4 Name="encoded data" Offset="0" />
 	</_71A0441D079EE95D6865EE9B9947D8E4>
-	<_574E4545D969E829755A88B99AEAA8B4 Name="s_game_audibility_bsp_game_portal_mapping" Size="8">
+	<_574E4545D969E829755A88B99AEAA8B4 Name="s_game_audibility_bsp_game_portal_mapping" Alt="2681AA670AFC9215" Size="8">
 		<_6 Name="first door occluder index" Offset="0" />
 		<_6 Name="door occluder count" Offset="4" />
 	</_574E4545D969E829755A88B99AEAA8B4>
-	<_BF8E4C35ABDDE0597AB91ED6B3B79A93 Name="s_game_audibility_bsp_mapping" Size="8">
+	<_BF8E4C35ABDDE0597AB91ED6B3B79A93 Name="s_game_audibility_bsp_mapping" Alt="C6A6F259BBF49C71" Size="8">
 		<_6 Name="first room index" Offset="0" />
 		<_6 Name="room index count" Offset="4" />
 	</_BF8E4C35ABDDE0597AB91ED6B3B79A93>
-	<_DEEA451B06A9CB1C362F4EB689E0296C Name="BspClusterToRoomIndices" Size="2">
+	<_DEEA451B06A9CB1C362F4EB689E0296C Name="BspClusterToRoomIndices" Alt="AAFD729AAC543B28" Size="2">
 		<_5 Name="room index" Offset="0" />
 	</_DEEA451B06A9CB1C362F4EB689E0296C>
-	<_72574833E85253E6BFF2A0EDAFA188B9 Name="s_task_direction_point" Size="14">
+	<_72574833E85253E6BFF2A0EDAFA188B9 Name="s_task_direction_point" Alt="481246EC7A9BA3A5" Size="14">
 		<_17 Name="point0" type="aipt" Offset="0" />
 		<_6 Name="_navMeshUIDOffaceref" Offset="C" />
 		<_6 Name="_packedKeyOffaceref" Offset="10" />
 	</_72574833E85253E6BFF2A0EDAFA188B9>
-	<_0920AEBB2B24BB9A645DAAFFBDC023A1 Name="i343::Graphics::Decals::DecalVertex" Size="20">
+	<_0920AEBB2B24BB9A645DAAFFBDC023A1 Name="i343::Graphics::Decals::DecalVertex" Alt="46061E521AA28EB9" Size="20">
 		<_19 Name="position" Offset="0" />
 		<_14 Name="position w component" Offset="C" />
 		<_6 Name="texcoord" Offset="10" />
@@ -4881,14 +4881,14 @@
 		<_4 Name="array index" Offset="1B" />
 		<_3E Name="rayIndex" Offset="1C" />
 	</_0920AEBB2B24BB9A645DAAFFBDC023A1>
-	<_781B4DEB48B4EEDDE67B060C86194139 Name="i343::Curve::RoadCurveControlPointMetadata" Size="14">
+	<_781B4DEB48B4EEDDE67B060C86194139 Name="i343::Curve::RoadCurveControlPointMetadata" Alt="655BD84A6547E60" Size="14">
 		<_14 Name="width" Offset="0" />
 		<_14 Name="opacity" Offset="4" />
 		<_14 Name="falloffLeft" Offset="8" />
 		<_14 Name="falloffRight" Offset="C" />
 		<_14 Name="bank" Offset="10" />
 	</_781B4DEB48B4EEDDE67B060C86194139>
-	<_3F0A493018D98594F83880CABBB76829 Name="i343::Curve::RoadDecalControlPointMetadata" Size="40">
+	<_3F0A493018D98594F83880CABBB76829 Name="i343::Curve::RoadDecalControlPointMetadata" Alt="C94C968F40398AA0" Size="40">
 		<_40 Name="Road Decal Textures" Offset="0" GUID="BB484B70CB48EF7259B8DDA794BD5E5F" StructName1="i343::Curve::RoadDecalControlPointMetadata" Min="0" Max="32" />
 		<_18 Name="Road Decal Scale" Offset="14" />
 		<_18 Name="Road Decal Offset" Offset="1C" />
@@ -4900,13 +4900,13 @@
 		<_14 Name="Road Decal Edge Fade" Offset="38" />
 		<_6 Name="Road Decal Random Seed" Offset="3C" />
 	</_3F0A493018D98594F83880CABBB76829>
-	<_B83E4A756AA20FB6536D5B2CB680453F Name="i343::Curve::AnimatedSplineControlPointMetadata" Size="4">
+	<_B83E4A756AA20FB6536D5B2CB680453F Name="i343::Curve::AnimatedSplineControlPointMetadata" Alt="57023B898CD5EE6C" Size="4">
 		<_14 Name="Time" Offset="0" />
 	</_B83E4A756AA20FB6536D5B2CB680453F>
-	<_BB484B70CB48EF7259B8DDA794BD5E5F Name="i343::Curve::RoadDecalBitmapReference" Size="1C">
+	<_BB484B70CB48EF7259B8DDA794BD5E5F Name="i343::Curve::RoadDecalBitmapReference" Alt="3DC59A7DEF559F64" Size="1C">
 		<_41 Name="Reference" Offset="0" Allowed="bitm" Flags="0" />
 	</_BB484B70CB48EF7259B8DDA794BD5E5F>
-	<_69804F44DBE20A67639D16AE97058D1C Name="i343::Narrative::CageDampingProperties" Size="10">
+	<_69804F44DBE20A67639D16AE97058D1C Name="i343::Narrative::CageDampingProperties" Alt="5612C2CE7E18ACA5" Size="10">
 		<_3C Name="Position Dampen Percentage" Offset="0" />
 		<_34 Name="generated_pad6a9e" Offset="1" Length="3" />
 		<_14 Name="Position Dampen Time" Offset="4" />
@@ -4914,7 +4914,7 @@
 		<_34 Name="generated_padb753" Offset="9" Length="3" />
 		<_14 Name="Rotation Dampen Time" Offset="C" />
 	</_69804F44DBE20A67639D16AE97058D1C>
-	<_1A13414A75D96D66A6E30F30B629F38E Name="i343::Narrative::CageGazeProperties" Size="8C">
+	<_1A13414A75D96D66A6E30F30B629F38E Name="i343::Narrative::CageGazeProperties" Alt="B7AAC35760134ED" Size="8C">
 		<_14 Name="Distance" Offset="0" />
 		<_8 Name="Outer Angle" Offset="4" />
 		<_8 Name="Inner Angle" Offset="8" />
@@ -4933,7 +4933,7 @@
 		<_37 Name="" type="fgre" Offset="78" />
 		<_40 Name="Gazes" Offset="78" GUID="3B4442E63F7214BE9D977DA09285920B" StructName1="i343::Narrative::CageGazeProperties" Min="0" Max="5" />
 	</_1A13414A75D96D66A6E30F30B629F38E>
-	<_A8964476ED9D0FD26C6CBFABA8E1929A Name="i343::Narrative::CageShakeProperties" Size="90">
+	<_A8964476ED9D0FD26C6CBFABA8E1929A Name="i343::Narrative::CageShakeProperties" Alt="5B93E0898312FFE" Size="90">
 		<_38 Name="Scale Damping" Offset="0" GUID="69804F44DBE20A67639D16AE97058D1C" />
 		<_37 Name="Position" type="fgrb" Offset="10" />
 		<_19 Name="Position Sample Values" Offset="10" />
@@ -4952,14 +4952,14 @@
 		<_18 Name="Rotation Time Velocity Scale" Offset="88" />
 		<_37 Name="" type="fgre" Offset="90" />
 	</_A8964476ED9D0FD26C6CBFABA8E1929A>
-	<_44BC4DE1D94733B8BAB588D295EB3CD1 Name="i343::Narrative::CageCompositionReference" Size="28">
+	<_44BC4DE1D94733B8BAB588D295EB3CD1 Name="i343::Narrative::CageCompositionReference" Alt="296F1DF738695529" Size="28">
 		<_38 Name="Composition Placement" Offset="0" GUID="F87643B7908D235027669B07968E32EE" />
 		<_30 Name="Composition Beat" Offset="18" GUID="BC44461B57B7EF453140C5EFBA6A36A8" StructName1="i343::Narrative::CageCompositionReference" Min="0" Max="32" />
 		<_6 Name="Composition Index" Offset="1C" />
 		<_2 Name="Composition Camera Track Name" Offset="20" />
 		<_2 Name="Composition Puppet Track Name" Offset="24" />
 	</_44BC4DE1D94733B8BAB588D295EB3CD1>
-	<_A84F4568E09F9B71A572B4259829AFF1 Name="i343::Narrative::StringAndSpring" Size="10">
+	<_A84F4568E09F9B71A572B4259829AFF1 Name="i343::Narrative::StringAndSpring" Alt="74B4BA16656110AA" Size="10">
 		<_A Name="Curve Type" Offset="0" StructName1="i343::Curve::CurveBuiltIn">
 			<Flag n="None" />
 			<Flag n="Linear" />
@@ -4995,12 +4995,12 @@
 		<_34 Name="generated_pad128f" Offset="9" Length="3" />
 		<_14 Name="Dampen Time" Offset="C" />
 	</_A84F4568E09F9B71A572B4259829AFF1>
-	<_A9F0C2A9ABA3875CA31AB1A8A7A453B0 Name="s_scenario_zone_set_cluster_seam_cluster_mappings" Size="3C">
+	<_A9F0C2A9ABA3875CA31AB1A8A7A453B0 Name="s_scenario_zone_set_cluster_seam_cluster_mappings" Alt="F190338C7D34523F" Size="3C">
 		<_40 Name="root clusters" Offset="0" GUID="A9F0CA19ABBC875CA31AB176A7A434B0" StructName1="s_scenario_zone_set_cluster_seam_cluster_mappings" Min="0" Max="262144" />
 		<_40 Name="attached clusters" Offset="14" GUID="A9F0CA19ABBC875CA31AB176A7A434B0" StructName1="s_scenario_zone_set_cluster_seam_cluster_mappings" Min="0" Max="262144" />
 		<_40 Name="connected clusters" Offset="28" GUID="A9F0CA19ABBC875CA31AB176A7A434B0" StructName1="s_scenario_zone_set_cluster_seam_cluster_mappings" Min="0" Max="262144" />
 	</_A9F0C2A9ABA3875CA31AB1A8A7A453B0>
-	<_3B4442E63F7214BE9D977DA09285920B Name="i343::Narrative::CagePointPropertiesWithWeight" Size="24">
+	<_3B4442E63F7214BE9D977DA09285920B Name="i343::Narrative::CagePointPropertiesWithWeight" Alt="F61E8674A72870BE" Size="24">
 		<_38 Name="Object Reference" Offset="0" GUID="F87643B7908D235027669B07968E32EE" />
 		<_14 Name="Weight" Offset="18" />
 		<_37 Name="Advanced" type="fgrb" Offset="1C" />
@@ -5008,7 +5008,7 @@
 		<_2 Name="Cage Point" Offset="20" />
 		<_37 Name="" type="fgre" Offset="24" />
 	</_3B4442E63F7214BE9D977DA09285920B>
-	<_A9F0CA19ABBC875CA31AB176A7A434B0 Name="BspClusterReference" Size="4">
+	<_A9F0CA19ABBC875CA31AB176A7A434B0 Name="BspClusterReference" Alt="84E0F975854654F2" Size="4">
 		<_5 Name="bsp index" Offset="0" />
 		<_5 Name="cluster index" Offset="2" />
 	</_A9F0CA19ABBC875CA31AB176A7A434B0>

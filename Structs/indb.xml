@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="InputDeviceBindings" Parents="aTag" Index="-214">
-	<_3E0C46081D2201C015DF6EA9A0FE3C17 Name="InputDeviceBindings" Size="50">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="InputDeviceBindings" Parents="aTag" Index="-214">
+	<_3E0C46081D2201C015DF6EA9A0FE3C17 Name="InputDeviceBindings" Alt="45ED735FD9439483" Size="50">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Initial Bindings Defaults" Offset="10" />
 		<_40 Name="bindings" Offset="10" GUID="854049CEF6357C20B50CC4A5BE9256AF" StructName1="InputDeviceBindings" Min="0" Max="255" />
@@ -10,11 +10,11 @@
 		<_3C Name="latestBindingsVersion" Offset="4C" />
 		<_34 Name="generated_padd63c" Offset="4D" Length="3" />
 	</_3E0C46081D2201C015DF6EA9A0FE3C17>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_854049CEF6357C20B50CC4A5BE9256AF Name="InputDeviceBindingEntry" Size="C">
+	<_854049CEF6357C20B50CC4A5BE9256AF Name="InputDeviceBindingEntry" Alt="DC0F2A0378927ACC" Size="C">
 		<_B Name="device" Offset="0" StructName1="InputDeviceElement">
 			<Flag n="Unassigned" />
 			<Flag n="Gamepad Left Stick Horizontal" />
@@ -238,13 +238,13 @@
 		</_F>
 		<_34 Name="generated_pada7ce" Offset="9" Length="3" />
 	</_854049CEF6357C20B50CC4A5BE9256AF>
-	<_A7E546939A56730B11A064989A94F7B1 Name="InputBindingsUpdate" Size="18">
+	<_A7E546939A56730B11A064989A94F7B1 Name="InputBindingsUpdate" Alt="EC13192584B88447" Size="18">
 		<_3C Name="version" Offset="0" />
 		<_34 Name="generated_pad04b9" Offset="1" Length="3" />
 		<_40 Name="bindings" Offset="4" GUID="854049CEF6357C20B50CC4A5BE9256AF" StructName1="InputBindingsUpdate" Min="0" Max="255" />
 	</_A7E546939A56730B11A064989A94F7B1>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

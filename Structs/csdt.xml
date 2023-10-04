@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="camera_shake" Parents="aTag" Index="-84">
-	<_7C1249A585B81D32A7052723863CDDB2 Name="s_camera_shake_definition" Size="98">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="camera_shake" Parents="aTag" Index="-84">
+	<_7C1249A585B81D32A7052723863CDDB2 Name="s_camera_shake_definition" Alt="D557EBCF7136FA5C" Size="98">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="camera impulse" Offset="10" />
 		<_38 Name="camera impulse" Offset="10" GUID="22484F82E55AD1CCE60B4CDFAAEE9A87" />
@@ -8,11 +8,11 @@
 		<_38 Name="camera shake" Offset="3C" GUID="6E214B802143294944AC9FAE8BD2D31B" />
 		<_34 Name="generated_padd4ac" Offset="94" Length="4" />
 	</_7C1249A585B81D32A7052723863CDDB2>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_22484F82E55AD1CCE60B4CDFAAEE9A87 Name="s_camera_impulse" Size="2C">
+	<_22484F82E55AD1CCE60B4CDFAAEE9A87 Name="s_camera_impulse" Alt="F63230807BEAFCA1" Size="2C">
 		<_14 Name="impulse duration" Offset="0" />
 		<_37 Name="Mapping function" type="fned" Offset="4" />
 		<_38 Name="mapping" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
@@ -20,7 +20,7 @@
 		<_14 Name="pushback" Offset="20" />
 		<_25 Name="jitter" Offset="24" />
 	</_22484F82E55AD1CCE60B4CDFAAEE9A87>
-	<_6E214B802143294944AC9FAE8BD2D31B Name="s_camera_shake" Size="58">
+	<_6E214B802143294944AC9FAE8BD2D31B Name="s_camera_shake" Alt="CEDFD9A35906472F" Size="58">
 		<_14 Name="shake duration" Offset="0" />
 		<_36 Name="procedural camera shake" Offset="4" />
 		<_37 Name="Mapping function" type="fned" Offset="4" />
@@ -57,13 +57,13 @@
 		<_14 Name="zoom penalty linear " Offset="50" />
 		<_14 Name="zoom penalty squareroot " Offset="54" />
 	</_6E214B802143294944AC9FAE8BD2D31B>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

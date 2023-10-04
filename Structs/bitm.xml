@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="bitmap" Parents="aTag" Index="-38" C="shaders\default_bitmaps">
-	<_C24A42682335AB52D36D192394728F7D Name="BitmapGroup" Size="E8">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="bitmap" Parents="aTag" Index="-38" C="shaders\default_bitmaps">
+	<_C24A42682335AB52D36D192394728F7D Name="BitmapGroup" Alt="158FC006504BE37D" Size="E8">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="show bitmap" type="bshw" Offset="10" />
 		<_36 Name="IMPORT SETTINGS" Offset="10" />
@@ -123,11 +123,11 @@
 		<_40 Name="sequences" Offset="C0" GUID="9E8B45CE15026732557C9320B853499B" StructName1="BitmapGroup" Min="0" Max="256" />
 		<_40 Name="bitmaps" Offset="D4" GUID="021C4498DEB0516AC294AA699941C6CD" StructName1="BitmapGroup" Min="0" Max="1048576" />
 	</_C24A42682335AB52D36D192394728F7D>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_64F444D809E0AE900BDCBD57AFC0FAB5 Name="BitmapUsage" Size="30">
+	<_64F444D809E0AE900BDCBD57AFC0FAB5 Name="BitmapUsage" Alt="BB58D3E1FCDD47B9" Size="30">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="editor group" Offset="4" />
 		<_14 Name="source gamma" Offset="8" />
@@ -372,17 +372,17 @@
 			<Flag n="Rec2020" />
 		</_A>
 	</_64F444D809E0AE900BDCBD57AFC0FAB5>
-	<_9E8B45CE15026732557C9320B853499B Name="BitmapGroupSequence" Size="38">
+	<_9E8B45CE15026732557C9320B853499B Name="BitmapGroupSequence" Alt="5682619195CAD600" Size="38">
 		<_0 Name="name" Offset="0" />
 		<_5 Name="first bitmap index" Offset="20" />
 		<_5 Name="bitmap count" Offset="22" />
 		<_40 Name="sprites" Offset="24" GUID="F00A42DCBBF4F819289D9752A731202E" StructName1="BitmapGroupSequence" Min="0" Max="512" />
 	</_9E8B45CE15026732557C9320B853499B>
-	<_0F5F42F1DD2E8F3429CD247D8D1ADD7F Name="SourcePaths" Size="18">
+	<_0F5F42F1DD2E8F3429CD247D8D1ADD7F Name="SourcePaths" Alt="E1D52C8A47D08FF8" Size="18">
 		<_44 Name="source path" Offset="0" />
 		<_40 Name="intermediate paths" Offset="4" GUID="0F5F42F1DD2E8F5429BD247D8D1ADF7F" StructName1="SourcePaths" Min="0" Max="4096" />
 	</_0F5F42F1DD2E8F3429CD247D8D1ADD7F>
-	<_021C4498DEB0516AC294AA699941C6CD Name="BitmapData" Size="28">
+	<_021C4498DEB0516AC294AA699941C6CD Name="BitmapData" Alt="CFA61638935D862F" Size="28">
 		<_5 Name="width" Offset="0" />
 		<_5 Name="height" Offset="2" />
 		<_3D Name="depth" Offset="4" />
@@ -470,11 +470,11 @@
 		<_5 Name="sourceHeight" Offset="16" />
 		<_43 Name="bitmap resource handle" Offset="18" StructName1="BitmapDataResource" Int1="0" GUID="F60A416B8AEB802A2336554D970C709C" />
 	</_021C4498DEB0516AC294AA699941C6CD>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_F00A42DCBBF4F819289D9752A731202E Name="BitmapGroupSprite" Size="1C">
+	<_F00A42DCBBF4F819289D9752A731202E Name="BitmapGroupSprite" Alt="A20DBBF274A61132" Size="1C">
 		<_5 Name="bitmap index" Offset="0" />
 		<_34 Name="generated_pad2095" Offset="2" Length="2" />
 		<_14 Name="left" Offset="4" />
@@ -483,10 +483,10 @@
 		<_14 Name="bottom" Offset="10" />
 		<_16 Name="registration point" Offset="14" />
 	</_F00A42DCBBF4F819289D9752A731202E>
-	<_0F5F42F1DD2E8F5429BD247D8D1ADF7F Name="BitmapSourceFile" Size="4">
+	<_0F5F42F1DD2E8F5429BD247D8D1ADF7F Name="BitmapSourceFile" Alt="19E6A973F7986EFA" Size="4">
 		<_44 Name="path" Offset="0" />
 	</_0F5F42F1DD2E8F5429BD247D8D1ADF7F>
-	<_F60A416B8AEB802A2336554D970C709C Name="BitmapDataResource" Size="48">
+	<_F60A416B8AEB802A2336554D970C709C Name="BitmapDataResource" Alt="14D39E50C50BE183" Size="48">
 		<_42 Name="pixels" Offset="0" StructName1="BitmapDataResource.pixels" Int1="264" Int2="16" Flags="40000000" />
 		<_6 Name="hardware format" type="nuke" Offset="18" />
 		<_4 Name="tileMode" Offset="1C" />
@@ -505,7 +505,7 @@
 		<_40 Name="streamingData" Offset="30" GUID="BDFC48DCD1202C39B0E8AF93812BDE49" StructName1="BitmapDataResource" Min="0" Max="512" />
 		<_34 Name="generated_padb266" Offset="44" Length="4" />
 	</_F60A416B8AEB802A2336554D970C709C>
-	<_BDFC48DCD1202C39B0E8AF93812BDE49 Name="StreamingBitmapData" Size="10">
+	<_BDFC48DCD1202C39B0E8AF93812BDE49 Name="StreamingBitmapData" Alt="ADCFF82739BF5CF5" Size="10">
 		<_6 Name="offset" Offset="0" />
 		<_6 Name="size" Offset="4" />
 		<_6 Name="chunkInfo" Offset="8" />

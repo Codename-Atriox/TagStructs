@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:16 PM" Name="rtmp" Parents="aTag" Index="-340">
-	<_5A3075254F0084D08A731CA2FF2ACE3D Name="RuntimeMaterialPaletteTag" Size="30">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="rtmp" Parents="aTag" Index="-340">
+	<_5A3075254F0084D08A731CA2FF2ACE3D Name="RuntimeMaterialPaletteTag" Alt="7EF4BFD851787502" Size="30">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Palette" Offset="10" GUID="34A54DC5B1135973B0B5E57399901631" StructName1="RuntimeMaterialPaletteTag" Min="0" Max="10240" />
 		<_2 Name="Style id" Offset="24" />
 		<_6 Name="Damage style index" Offset="28" />
 		<_34 Name="generated_pad0d48" Offset="2C" Length="4" />
 	</_5A3075254F0084D08A731CA2FF2ACE3D>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_34A54DC5B1135973B0B5E57399901631 Name="geometry_material" Size="1C">
+	<_34A54DC5B1135973B0B5E57399901631 Name="geometry_material" Alt="FF635372D3E57725" Size="1C">
 		<_41 Name="material" Offset="0" Allowed="mat " Flags="0" />
 	</_34A54DC5B1135973B0B5E57399901631>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

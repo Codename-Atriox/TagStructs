@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:08 PM" Name="damage_effect" Parents="aTag" Index="-220">
-	<_22D24D90902C71FE36E0739394283954 Name="s_damage_effect_definition" Size="3A8">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="damage_effect" Parents="aTag" Index="-220">
+	<_22D24D90902C71FE36E0739394283954 Name="s_damage_effect_definition" Alt="8EC90C4CCD0EB26E" Size="3A8">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="parent" type="parr" Offset="10" Allowed="jpt!" Flags="1" />
 		<_25 Name="radius" Offset="2C" />
@@ -183,14 +183,14 @@
 		<_14 Name="visual damage intensity" Offset="3A0" />
 		<_34 Name="generated_pad4b2e" Offset="3A4" Length="4" />
 	</_22D24D90902C71FE36E0739394283954>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_89514F3F92AB3D7856E0F6C28949DE8C Name="i343::Damage::DamageTypeDefinition" Size="4">
+	<_89514F3F92AB3D7856E0F6C28949DE8C Name="i343::Damage::DamageTypeDefinition" Alt="C98F136885F73319" Size="4">
 		<_2 Name="Damage Type Name" Offset="0" />
 	</_89514F3F92AB3D7856E0F6C28949DE8C>
-	<_70C74A509C7EB805EAD942F5B1033B73 Name="DamageDissolveData" Size="2">
+	<_70C74A509C7EB805EAD942F5B1033B73 Name="DamageDissolveData" Alt="378FA5C84C2ED11E" Size="2">
 		<_A Name="dissolve type" Offset="0" StructName1="DissolveType">
 			<Flag n="incineration" />
 			<Flag n="telefrag" />
@@ -201,14 +201,14 @@
 			<Flag n="causes dissolve effect to dead units" />
 		</_F>
 	</_70C74A509C7EB805EAD942F5B1033B73>
-	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_5EF1403B728A16DCC741A9F2873B7F44 Name="DamageOuterConeAngle" Size="4">
+	<_5EF1403B728A16DCC741A9F2873B7F44 Name="DamageOuterConeAngle" Alt="F04ADBF5AE0DDF30" Size="4">
 		<_8 Name="dmg outer cone angle" Offset="0" />
 	</_5EF1403B728A16DCC741A9F2873B7F44>
-	<_8EF44BEB158301A70A647B3223AD1035 Name="i343::Damage::VampirismParameters" Size="28">
+	<_8EF44BEB158301A70A647B3223AD1035 Name="i343::Damage::VampirismParameters" Alt="E4FD58EAA7C35D8D" Size="28">
 		<_F Name="flags" Offset="0" StructName1="i343::Damage::VampirismFlags">
 			<Flag n="recovers health" />
 			<Flag n="recovers shields" />
@@ -219,10 +219,10 @@
 		<_14 Name="max overshield" Offset="8" />
 		<_41 Name="overshield malleable properties" Offset="C" Allowed="gmpm" Flags="0" />
 	</_8EF44BEB158301A70A647B3223AD1035>
-	<_E58B40F226EA92BDE8A8295691D334D4 Name="CustomDamageResponseLabelParam" Size="4">
+	<_E58B40F226EA92BDE8A8295691D334D4 Name="CustomDamageResponseLabelParam" Alt="B88ABC6C87A40259" Size="4">
 		<_2 Name="custom label" Offset="0" />
 	</_E58B40F226EA92BDE8A8295691D334D4>
-	<_66FD4A1398E2919168160A3FBD131534 Name="s_damage_effect_sound" Size="20">
+	<_66FD4A1398E2919168160A3FBD131534 Name="s_damage_effect_sound" Alt="53C62619031B1768" Size="20">
 		<_41 Name="sound" Offset="0" Allowed="snd!" Flags="0" />
 		<_E Name="damage types" Offset="1C" StructName1="DamageEffectSoundTypes">
 			<Flag n="none" />
@@ -247,7 +247,7 @@
 			<Flag n="effect_scenery" />
 		</_E>
 	</_66FD4A1398E2919168160A3FBD131534>
-	<_19984BEFB3F8389FC2DE9124B530B6CD Name="i343::Damage::PlayerAdditiveSoundDealDamageDefinition" Size="C4">
+	<_19984BEFB3F8389FC2DE9124B530B6CD Name="i343::Damage::PlayerAdditiveSoundDealDamageDefinition" Alt="1F0AA15EB112BA05" Size="C4">
 		<_41 Name="player additive sound deal damage regular" Offset="0" Allowed="snd!" Flags="0" />
 		<_41 Name="player additive sound deal damage aoe" Offset="1C" Allowed="snd!" Flags="0" />
 		<_41 Name="player additive sound deal damage friendly fire" Offset="38" Allowed="snd!" Flags="0" />
@@ -256,13 +256,13 @@
 		<_41 Name="player additive sound deal damage kill" Offset="8C" Allowed="snd!" Flags="0" />
 		<_41 Name="player additive sound deal damage headshot kill" Offset="A8" Allowed="snd!" Flags="0" />
 	</_19984BEFB3F8389FC2DE9124B530B6CD>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

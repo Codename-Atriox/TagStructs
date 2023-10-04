@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="NarrativeGlobals" Parents="aTag" Index="-269">
-	<_90FF467E36763B334247C615B6AE9A3F Name="i343::Narrative::NarrativeGlobalsTag" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="NarrativeGlobals" Parents="aTag" Index="-269">
+	<_90FF467E36763B334247C615B6AE9A3F Name="i343::Narrative::NarrativeGlobalsTag" Alt="640B4B666653CF49" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="First to First Transitions" Offset="10" GUID="BBC24D7527F12C4586BA8DA2B75EAAE5" StructName1="i343::Narrative::NarrativeGlobalsTag" Min="0" Max="16" />
 		<_34 Name="generated_pad40b9" Offset="24" Length="4" />
 	</_90FF467E36763B334247C615B6AE9A3F>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_BBC24D7527F12C4586BA8DA2B75EAAE5 Name="i343::Narrative::NarrativeFirstToFirstTransitionPreset" Size="64">
+	<_BBC24D7527F12C4586BA8DA2B75EAAE5 Name="i343::Narrative::NarrativeFirstToFirstTransitionPreset" Alt="FF75366E7AE9690B" Size="64">
 		<_2 Name="Name" Offset="0" />
 		<_14 Name="Camera Blend-In Time" Offset="4" />
 		<_A Name="Camera Blend In Curve" Offset="8" StructName1="i343::Curve::CurveBuiltIn">
@@ -75,11 +75,11 @@
 		<_34 Name="generated_padbb51" Offset="11" Length="3" />
 		<_38 Name="Transition Data" Offset="14" GUID="D1724CC5459608C83A0C905F8B4EAB20" />
 	</_BBC24D7527F12C4586BA8DA2B75EAAE5>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_D1724CC5459608C83A0C905F8B4EAB20 Name="ComposerFirstToFirstTransition" Size="50">
+	<_D1724CC5459608C83A0C905F8B4EAB20 Name="ComposerFirstToFirstTransition" Alt="CAB1828E1D34956B" Size="50">
 		<_2 Name="Preset" Offset="0" />
 		<_E Name="Override Flags" Offset="4" StructName1="ComposerCageTransitionOverrideFlags">
 			<Flag n="Override Flags" />

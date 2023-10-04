@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="typeface" Parents="aTag" Index="-150">
-	<_B3064BC2A3C8319868E555A889AD3922 Name="TypefaceDefinition" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="typeface" Parents="aTag" Index="-150">
+	<_B3064BC2A3C8319868E555A889AD3922 Name="TypefaceDefinition" Alt="FDF7BDC628B39ADF" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="typefaces" Offset="10" GUID="A67248C6187F31EB6C1B111088656137" StructName1="TypefaceDefinition" Min="0" Max="512" />
 		<_34 Name="generated_padb4d2" Offset="24" Length="4" />
 	</_B3064BC2A3C8319868E555A889AD3922>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_A67248C6187F31EB6C1B111088656137 Name="LocTypeface" Size="120">
+	<_A67248C6187F31EB6C1B111088656137 Name="LocTypeface" Alt="66F4064879DB47A7" Size="120">
 		<_2 Name="Typeface name" Offset="0" />
 		<_38 Name="Default typeface" Offset="4" GUID="14F3451233353A03F171CD329ECBEAEA" />
 		<_40 Name="Language-specific typefaces" Offset="10C" GUID="401B4EACFC1D57F013402F658AE0CCDF" StructName1="LocTypeface" Min="0" Max="32" />
 	</_A67248C6187F31EB6C1B111088656137>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_14F3451233353A03F171CD329ECBEAEA Name="Typeface" Size="108">
+	<_14F3451233353A03F171CD329ECBEAEA Name="Typeface" Alt="7D0DAFDA3D7BE311" Size="108">
 		<_1 Name="font name" Offset="0" />
 		<_C Name="font weight" Offset="100" StructName1="FontWeight">
 			<Flag n="ExtraLight (200)" />
@@ -38,7 +38,7 @@
 		</_E>
 		<_34 Name="generated_pad6635" Offset="106" Length="2" />
 	</_14F3451233353A03F171CD329ECBEAEA>
-	<_401B4EACFC1D57F013402F658AE0CCDF Name="LanguageTypeface" Size="10C">
+	<_401B4EACFC1D57F013402F658AE0CCDF Name="LanguageTypeface" Alt="6498F1C1B1987527" Size="10C">
 		<_C Name="Language" Offset="0" StructName1="e_language">
 			<Flag n="English" />
 			<Flag n="Japanese" />

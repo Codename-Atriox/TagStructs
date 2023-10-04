@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="particle_physics" Parents="aTag" Index="-316" C="fx\physics_olympus">
-	<_EB9C4A4FC86CD2D648A5287096C423E9 Name="ParticleMovementDefinitionTag" Size="68">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="particle_physics" Parents="aTag" Index="-316" C="fx\physics_olympus">
+	<_EB9C4A4FC86CD2D648A5287096C423E9 Name="ParticleMovementDefinitionTag" Alt="73A7B0B960A96379" Size="68">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="template" Offset="10" Allowed="pmov" Flags="0" />
 		<_E Name="flags" Offset="2C" StructName1="c_particle_movement_definition::Flags">
@@ -26,11 +26,11 @@
 		<_41 Name="turbulence texture" Offset="48" Allowed="bitm" Flags="0" />
 		<_34 Name="generated_padedf3" Offset="64" Length="4" />
 	</_EB9C4A4FC86CD2D648A5287096C423E9>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_E003416FFFDF1EEAA06AFA10BBE85C7F Name="c_particle_controller" Size="20">
+	<_E003416FFFDF1EEAA06AFA10BBE85C7F Name="c_particle_controller" Alt="817B435170C4C304" Size="20">
 		<_B Name="type" Offset="0" StructName1="c_particle_movement_definition::ControllerType">
 			<Flag n="physics" />
 			<Flag n="collider" />
@@ -47,15 +47,15 @@
 		<_3E Name="runtime m_constant_parameters" Offset="18" />
 		<_3E Name="runtime m_used_particle_states" Offset="1C" />
 	</_E003416FFFDF1EEAA06AFA10BBE85C7F>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_7FCF4CE1AC90ED639C137F95ADDEA140 Name="c_particle_controller_parameter" Size="28">
+	<_7FCF4CE1AC90ED639C137F95ADDEA140 Name="c_particle_controller_parameter" Alt="CCC07D089648783C" Size="28">
 		<_6 Name="parameter id" Offset="0" />
 		<_38 Name="property" Offset="4" GUID="E8084E37646072529411483C8447409D" />
 	</_7FCF4CE1AC90ED639C137F95ADDEA140>
-	<_E8084E37646072529411483C8447409D Name="ParticlePropertyScalar" Size="24">
+	<_E8084E37646072529411483C8447409D Name="ParticlePropertyScalar" Alt="84E60C282D17A027" Size="24">
 		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="c_particle_state_list::e_particle_state_input">
 			<Flag n="particle age" />
 			<Flag n="system age" />
@@ -139,9 +139,9 @@
 		</_F>
 		<_34 Name="generated_pad859b" Offset="23" Length="1" />
 	</_E8084E37646072529411483C8447409D>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

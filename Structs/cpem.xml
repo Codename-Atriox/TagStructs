@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:00 PM" Name="cheap_particle_emitter" Parents="aTag" Index="-80">
-	<_E31FA29B03578EF200E427CA53BAF43A Name="CheapParticleEmitter" Size="148">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="cheap_particle_emitter" Parents="aTag" Index="-80">
+	<_E31FA29B03578EF200E427CA53BAF43A Name="CheapParticleEmitter" Alt="D97D6B2F2B750753" Size="148">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_E Name="flags" Offset="10" StructName1="CheapParticleEmitter::Flags">
 			<Flag n="correlate position and velocity" />
@@ -53,23 +53,23 @@
 		<_41 Name="global type library" Offset="128" Allowed="cptl" Flags="0" />
 		<_34 Name="generated_pad1e19" Offset="144" Length="4" />
 	</_E31FA29B03578EF200E427CA53BAF43A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_ED024F7FE439295B393D4F18BA3D7B94 Name="CheapParticleScalarFunction" Size="20">
+	<_ED024F7FE439295B393D4F18BA3D7B94 Name="CheapParticleScalarFunction" Alt="DDA9982FB1C769C3" Size="20">
 		<_2 Name="Input Variable" type="fnin" Offset="0" />
 		<_2 Name="Range Variable" type="fnir" Offset="4" />
 		<_37 Name="Mapping" type="fned" Offset="8" />
 		<_38 Name="Mapping" Offset="8" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_ED024F7FE439295B393D4F18BA3D7B94>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

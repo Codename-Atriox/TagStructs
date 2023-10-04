@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="decorator_asset" Parents="aTag" Index="-92">
-	<_C59744B1FE72584876504B06AFFF6741 Name="DecoratorAssetTag" Size="158">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="decorator_asset" Parents="aTag" Index="-92">
+	<_C59744B1FE72584876504B06AFFF6741 Name="DecoratorAssetTag" Alt="40F62F8486A43E8D" Size="158">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="General" type="fgrb" Offset="10" />
 		<_41 Name="Asset" Offset="10" Allowed="aset" Flags="1" />
@@ -44,15 +44,15 @@
 		<_41 Name="Reference to generated decorator" Offset="138" Allowed="dcrt" Flags="0" />
 		<_6 Name="LoadError" Offset="154" />
 	</_C59744B1FE72584876504B06AFFF6741>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_437614BB4A3F17B221631BE7A24317BC Name="LODParameters" Size="18">
+	<_437614BB4A3F17B221631BE7A24317BC Name="LODParameters" Alt="17E1D36231EC4D50" Size="18">
 		<_40 Name="LOD Transitions" Offset="0" GUID="43AC14BB4ACA11B221C31B20A2AC15BC" StructName1="LODParameters" Min="0" Max="16" />
 		<_14 Name="Max Shadow Distance" Offset="14" />
 	</_437614BB4A3F17B221631BE7A24317BC>
-	<_42A51C651EBA162A521651FA165ADBAC Name="s_basic_spec_control_setting_float" Size="1C">
+	<_42A51C651EBA162A521651FA165ADBAC Name="s_basic_spec_control_setting_float" Alt="4702D401A97A7880" Size="1C">
 		<_14 Name="Low" Offset="0" />
 		<_14 Name="Medium" Offset="4" />
 		<_14 Name="High" Offset="8" />
@@ -61,7 +61,7 @@
 		<_14 Name="3 Player Splitscreen" Offset="14" />
 		<_14 Name="4 Player Splitscreen" Offset="18" />
 	</_42A51C651EBA162A521651FA165ADBAC>
-	<_43AB14BD4ACB11B521B31B27A2BC15B3 Name="DecoratorVariant" Size="4C">
+	<_43AB14BD4ACB11B521B31B27A2BC15B3 Name="DecoratorVariant" Alt="588571DCD585D3E5" Size="4C">
 		<_2 Name="Visual Region name" type="sted" Offset="0" />
 		<_2 Name="Geometry name" type="sted" Offset="4" />
 		<_2 Name="Preset name" type="sted" Offset="8" />
@@ -88,15 +88,15 @@
 		<_37 Name="" type="fgre" Offset="38" />
 		<_40 Name="Parameter Overrides" Offset="38" GUID="43AC14BE4ACA11B521C31B28A2AC15B4" StructName1="DecoratorVariant" Min="0" Max="4096" />
 	</_43AB14BD4ACB11B521B31B27A2BC15B3>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_43AC14BB4ACA11B221C31B20A2AC15BC Name="LODTransition" Size="8">
+	<_43AC14BB4ACA11B221C31B20A2AC15BC Name="LODTransition" Alt="5EDD476DFF6F7F76" Size="8">
 		<_14 Name="Transition start" Offset="0" />
 		<_14 Name="Transition end" Offset="4" />
 	</_43AC14BB4ACA11B221C31B20A2AC15BC>
-	<_43AC14BE4ACA11B521C31B28A2AC15B4 Name="ParameterOverride" Size="8">
+	<_43AC14BE4ACA11B521C31B28A2AC15B4 Name="ParameterOverride" Alt="95E41CE9F7A04324" Size="8">
 		<_C Name="Name" Offset="0" StructName1="OverrideNames">
 			<Flag n="Placement Weight" />
 			<Flag n="Separation Min" />

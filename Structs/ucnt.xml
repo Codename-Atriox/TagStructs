@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="ucn_authority_trust_settings" Parents="aTag" Index="-441" C="globals\ucn_authority_trust_settings">
-	<_C58D4DADD7455FB6E26298CEBAD3DC5A Name="i343::Simulation::UCNAuthorityTrustSettings" Size="68">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="ucn_authority_trust_settings" Parents="aTag" Index="-441" C="globals\ucn_authority_trust_settings">
+	<_C58D4DADD7455FB6E26298CEBAD3DC5A Name="i343::Simulation::UCNAuthorityTrustSettings" Alt="A3D9750E44D8D65A" Size="68">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="UCN AUTHORITY TRUST SETTINGS" Offset="10" />
 		<_25 Name="velocity interpolation range" Offset="10" />
@@ -14,17 +14,17 @@
 		<_40 Name="credulous overrides" Offset="50" GUID="BEBC406F801F68B955814A4E9BD6D4DF" StructName1="i343::Simulation::UCNAuthorityTrustSettings" Min="0" Max="4" />
 		<_34 Name="generated_pad799c" Offset="64" Length="4" />
 	</_C58D4DADD7455FB6E26298CEBAD3DC5A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_F1A8476605EB859FB5E729C4BA1E04B8 Name="i343::Simulation::UCNAuthorityTrustInterpolatedSettings" Size="10">
+	<_F1A8476605EB859FB5E729C4BA1E04B8 Name="i343::Simulation::UCNAuthorityTrustInterpolatedSettings" Alt="1C44211072E37CDF" Size="10">
 		<_14 Name="position delta max" Offset="0" />
 		<_8 Name="rotation delta max" Offset="4" />
 		<_14 Name="linear velocity delta max" Offset="8" />
 		<_8 Name="angular velocity delta max" Offset="C" />
 	</_F1A8476605EB859FB5E729C4BA1E04B8>
-	<_BEBC406F801F68B955814A4E9BD6D4DF Name="i343::Simulation::UCNAuthorityTrustInterpolatedSettingsOverride" Size="28">
+	<_BEBC406F801F68B955814A4E9BD6D4DF Name="i343::Simulation::UCNAuthorityTrustInterpolatedSettingsOverride" Alt="64FA6C30D936F871" Size="28">
 		<_A Name="Situation" Offset="0" StructName1="i343::Simulation::SituationalOverrideType">
 			<Flag n="Player near physics volume" />
 			<Flag n="Melee lunge" />
@@ -38,8 +38,8 @@
 		<_36 Name="Highest velocity values" Offset="18" />
 		<_38 Name="Override interpolation max values" Offset="18" GUID="F1A8476605EB859FB5E729C4BA1E04B8" />
 	</_BEBC406F801F68B955814A4E9BD6D4DF>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

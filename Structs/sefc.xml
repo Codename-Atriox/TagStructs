@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="area_screen_effect" Parents="aTag" Index="-365">
-	<_57E84346E25095D48088091EAA15B7AB Name="s_area_screen_effect_definition" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="area_screen_effect" Parents="aTag" Index="-365">
+	<_57E84346E25095D48088091EAA15B7AB Name="s_area_screen_effect_definition" Alt="12D24C5836FF1DA" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_E Name="global flags" Offset="10" StructName1="s_area_screen_effect_definition::Flags">
 			<Flag n="play sequentially - ignore delay settings" />
@@ -16,11 +16,11 @@
 		</_E>
 		<_40 Name="screen effects" Offset="14" GUID="4E3546A72E559B3690AA239FA1AE1E29" StructName1="s_area_screen_effect_definition" Min="0" Max="8" />
 	</_57E84346E25095D48088091EAA15B7AB>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_4E3546A72E559B3690AA239FA1AE1E29 Name="s_single_screen_effect_definition" Size="168">
+	<_4E3546A72E559B3690AA239FA1AE1E29 Name="s_single_screen_effect_definition" Alt="D803C9B3B19412EF" Size="168">
 		<_2 Name="name" Offset="0" />
 		<_E Name="flags" Offset="4" StructName1="s_single_screen_effect_definition::c_single_screen_effect_flags">
 			<Flag n="debug disable" />
@@ -106,23 +106,23 @@
 		<_34 Name="generated_pad6f0e" Offset="15C" Length="4" />
 		<_7 Name="m_pipelineState" Offset="160" />
 	</_4E3546A72E559B3690AA239FA1AE1E29>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_A3D24359D2D2C2B87EB7F3D88D127DD8 Name="AreaScreenEffectScalarFunction" Size="18">
+	<_A3D24359D2D2C2B87EB7F3D88D127DD8 Name="AreaScreenEffectScalarFunction" Alt="9AD64B554ABF6BC7" Size="18">
 		<_37 Name="Mapping" type="fned" Offset="0" />
 		<_38 Name="Mapping" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_A3D24359D2D2C2B87EB7F3D88D127DD8>
-	<_4B42466592C128E6CE6CDB1D80E1707B Name="ScreenEffectFunctionDefinitionWithInputs" Size="20">
+	<_4B42466592C128E6CE6CDB1D80E1707B Name="ScreenEffectFunctionDefinitionWithInputs" Alt="D260843021DC5155" Size="20">
 		<_2 Name="Input Variable" type="fnin" Offset="0" />
 		<_2 Name="Range Variable" type="fnir" Offset="4" />
 		<_37 Name="Mapping" type="fned" Offset="8" />
 		<_38 Name="Mapping" Offset="8" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_4B42466592C128E6CE6CDB1D80E1707B>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

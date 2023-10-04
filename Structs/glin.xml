@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="InterfaceGlobalsDefinition" Parents="aTag" Index="-187">
-	<_8416403BEAFE1C1BF70A27D0AAF2BB8D Name="i343::InterfaceGlobals" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="InterfaceGlobalsDefinition" Parents="aTag" Index="-187">
+	<_8416403BEAFE1C1BF70A27D0AAF2BB8D Name="i343::InterfaceGlobals" Alt="D8C01CE4E980C6FD" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="interface tags" Offset="10" GUID="27264DFBEAFCBD42928B0D3C9C2624C1" StructName1="i343::InterfaceGlobals" Min="0" Max="1" />
 		<_34 Name="generated_padaaba" Offset="24" Length="4" />
 	</_8416403BEAFE1C1BF70A27D0AAF2BB8D>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_27264DFBEAFCBD42928B0D3C9C2624C1 Name="s_game_globals_interface_tag_references" Size="320">
+	<_27264DFBEAFCBD42928B0D3C9C2624C1 Name="s_game_globals_interface_tag_references" Alt="B5139C94323373BF" Size="320">
 		<_36 Name="Mode-Specific Tags" Offset="0" />
 		<_41 Name="shared globals" Offset="0" Allowed="wigl" Flags="0" />
 		<_41 Name="mainmenu ui globals" Offset="1C" Allowed="wgtz" Flags="4" />
@@ -46,11 +46,11 @@
 		<_41 Name="Inspect Data" Offset="2E8" Allowed="uiin" Flags="0" />
 		<_41 Name="Season Data" Offset="304" Allowed="uisd" Flags="0" />
 	</_27264DFBEAFCBD42928B0D3C9C2624C1>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_D797AD11C73BBDC8CAB2188BCC81A4C1 Name="Interface::Customization::UIRTTRegionData" Size="74">
+	<_D797AD11C73BBDC8CAB2188BCC81A4C1 Name="Interface::Customization::UIRTTRegionData" Alt="A80750E2356F507E" Size="74">
 		<_2 Name="UI Display String" Offset="0" />
 		<_2 Name="UI Description String" Offset="4" />
 		<_6 Name="CMS Customization Item Type" Offset="8" />
@@ -125,20 +125,20 @@
 		<_2 Name="To Idle Animation" Offset="6C" />
 		<_2 Name="From Idle Animation" Offset="70" />
 	</_D797AD11C73BBDC8CAB2188BCC81A4C1>
-	<_3A954FCF126C3FF3AE7B2F239070185D Name="Interface::Customization::UIComposerCustomizationData" Size="4C">
+	<_3A954FCF126C3FF3AE7B2F239070185D Name="Interface::Customization::UIComposerCustomizationData" Alt="827B32DAC63F18D9" Size="4C">
 		<_2 Name="Composer Scene Name" Offset="0" />
 		<_40 Name="Camera Points" Offset="4" GUID="4A484317F7C0AA283019AE36AFDC0C41" StructName1="Interface::Customization::UIComposerCustomizationData" Min="0" Max="16" />
 		<_40 Name="Camera Point Layout Block" Offset="18" GUID="8B34488068EFBCB46A08054A91DED871" StructName1="Interface::Customization::UIComposerCustomizationData" Min="0" Max="1" />
 		<_14 Name="Camera Point move time" Offset="2C" />
 		<_41 Name="Composer Definition" Offset="30" Allowed="comp" Flags="4" />
 	</_3A954FCF126C3FF3AE7B2F239070185D>
-	<_7479476F8EA615B2F57699F38D8CB2F7 Name="Interface::Customization::LandingSceneData" Size="20">
+	<_7479476F8EA615B2F57699F38D8CB2F7 Name="Interface::Customization::LandingSceneData" Alt="3D52D5270C7DE287" Size="20">
 		<_6 Name="Composer Scene Time" Offset="0" />
 		<_6 Name="Fodeout Star Time" Offset="4" />
 		<_6 Name="Fodeout End Time" Offset="8" />
 		<_40 Name="Composer Scenes" Offset="C" GUID="39464D5835EC4B2583D4EC1AA77B5301" StructName1="Interface::Customization::LandingSceneData" Min="0" Max="19" />
 	</_7479476F8EA615B2F57699F38D8CB2F7>
-	<_1A1047E06D9BBA67A95F1331A4665079 Name="Interface::Customization::CoreTypeItem" Size="2">
+	<_1A1047E06D9BBA67A95F1331A4665079 Name="Interface::Customization::CoreTypeItem" Alt="D4DB09B1C4AF1627" Size="2">
 		<_B Name="Core Type" Offset="0" StructName1="Interface::Customization::CoreType">
 			<Flag n="Unknown" />
 			<Flag n="Armor" />
@@ -161,10 +161,10 @@
 			<Flag n="VehicleRockethog" />
 		</_B>
 	</_1A1047E06D9BBA67A95F1331A4665079>
-	<_D3D14DEBA19A9629357ED22C926B9C5D Name="Interface::Customization::ComposerSceneNames" Size="4">
+	<_D3D14DEBA19A9629357ED22C926B9C5D Name="Interface::Customization::ComposerSceneNames" Alt="C78E7B3A331B13A7" Size="4">
 		<_2 Name="Composer Scene Name" Offset="0" />
 	</_D3D14DEBA19A9629357ED22C926B9C5D>
-	<_9EE5423BF672890A8560DEFAB444B6D8 Name="Interface::Customization::UICameraPositionOffset" Size="30">
+	<_9EE5423BF672890A8560DEFAB444B6D8 Name="Interface::Customization::UICameraPositionOffset" Alt="2884431986592614" Size="30">
 		<_B Name="Camera Position Type" Offset="0" StructName1="Interface::Customization::ItemInspectionPosition">
 			<Flag n="Default" />
 			<Flag n="Custom" />
@@ -184,10 +184,10 @@
 		<_14 Name="DOF Focal Distance" Offset="28" />
 		<_14 Name="DOF FStop" Offset="2C" />
 	</_9EE5423BF672890A8560DEFAB444B6D8>
-	<_4A484317F7C0AA283019AE36AFDC0C41 Name="Interface::Customization::CameraPointName" Size="20">
+	<_4A484317F7C0AA283019AE36AFDC0C41 Name="Interface::Customization::CameraPointName" Alt="F9CCB045CA781B4E" Size="20">
 		<_0 Name="CameraPoint" Offset="0" />
 	</_4A484317F7C0AA283019AE36AFDC0C41>
-	<_8B34488068EFBCB46A08054A91DED871 Name="Interface::Customization::CameraPointLayoutBlock" Size="140">
+	<_8B34488068EFBCB46A08054A91DED871 Name="Interface::Customization::CameraPointLayoutBlock" Alt="2BEF97628AC1F34E" Size="140">
 		<_37 Name="Single camera point properties" type="fgrb" Offset="0" />
 		<_0 Name="Layout one first postion" Offset="0" />
 		<_37 Name="" type="fgre" Offset="20" />
@@ -207,7 +207,7 @@
 		<_0 Name="Layout four fourth position" Offset="120" />
 		<_37 Name="" type="fgre" Offset="140" />
 	</_8B34488068EFBCB46A08054A91DED871>
-	<_39464D5835EC4B2583D4EC1AA77B5301 Name="Interface::Customization::LandingSceneCompositionData" Size="8">
+	<_39464D5835EC4B2583D4EC1AA77B5301 Name="Interface::Customization::LandingSceneCompositionData" Alt="419DB6F68E4F83B0" Size="8">
 		<_2 Name="Composer Scene Name" Offset="0" />
 		<_B Name="Core Type" Offset="4" StructName1="Interface::Customization::CoreType">
 			<Flag n="Unknown" />

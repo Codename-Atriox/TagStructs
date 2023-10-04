@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:58 PM" Name="gobo_setting" Parents="aTag" Index="-1">
-	<_09DFC126094EA42109DF01EE09DFCADE Name="GoboSetting" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="gobo_setting" Parents="aTag" Index="-1">
+	<_09DFC126094EA42109DF01EE09DFCADE Name="GoboSetting" Alt="672AD16439C75977" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Gobos" Offset="10" />
 		<_40 Name="Gobos" Offset="10" GUID="09DBC126094EA2E109DF99EE09CACADE" StructName1="GoboSetting" Min="0" Max="4" />
 		<_6 Name="Resolution" Offset="24" />
 	</_09DFC126094EA42109DF01EE09DFCADE>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_09DBC126094EA2E109DF99EE09CACADE Name="GoboDefinition" Size="64">
+	<_09DBC126094EA2E109DF99EE09CACADE Name="GoboDefinition" Alt="E104424DFD2A439A" Size="64">
 		<_A Name="bitmap address mode" Offset="0" StructName1="eSamplerAddressMode">
 			<Flag n="wrap" />
 			<Flag n="clamp" />
@@ -33,11 +33,11 @@
 		<_41 Name="Displacement Bitmap" Offset="34" Allowed="bitm" Flags="64" />
 		<_40 Name="displacement animation parameters" Offset="50" GUID="7E12EE710295746E7999C36BBABC0CDE" StructName1="GoboDefinition" Min="0" Max="32767" />
 	</_09DBC126094EA2E109DF99EE09CACADE>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_7E12EE710295746E7999C36BBABC0CDE Name="GoboAnimationParameter" Size="34">
+	<_7E12EE710295746E7999C36BBABC0CDE Name="GoboAnimationParameter" Alt="3436D7C9C59BC5B6" Size="34">
 		<_C Name="type" Offset="0" StructName1="GoboAnimationParameterType">
 			<Flag n="offset u" />
 			<Flag n="offset v" />
@@ -50,7 +50,7 @@
 		<_14 Name="origin y" type="fn**" Offset="8" />
 		<_38 Name="function" Offset="C" GUID="42B44BBA26AA4A9408A931CD93ACA3DB" />
 	</_7E12EE710295746E7999C36BBABC0CDE>
-	<_42B44BBA26AA4A9408A931CD93ACA3DB Name="GoboScalarFunction" Size="28">
+	<_42B44BBA26AA4A9408A931CD93ACA3DB Name="GoboScalarFunction" Alt="A8699A46F16AD170" Size="28">
 		<_36 Name="Gobo Parameters" Offset="0" />
 		<_2 Name="Input Variable" type="fnin" Offset="0" />
 		<_2 Name="Range Variable" type="fnir" Offset="4" />
@@ -64,7 +64,7 @@
 		<_37 Name="Mapping" type="fned" Offset="10" />
 		<_38 Name="Mapping" Offset="10" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_42B44BBA26AA4A9408A931CD93ACA3DB>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
 		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="camera_fx_settings" Parents="aTag" Index="-56">
-	<_03134945C7122CD8BFBE70FEAAB3E3DA Name="c_camera_fx_settings" Size="530">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="camera_fx_settings" Parents="aTag" Index="-56">
+	<_03134945C7122CD8BFBE70FEAAB3E3DA Name="c_camera_fx_settings" Alt="7B48D1B61A5C07A1" Size="530">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="" type="ifp+" Offset="10" />
 		<_38 Name="exposure" Offset="10" GUID="38C74B701FBECC293C5FD67BAF139847" />
@@ -25,11 +25,11 @@
 		<_38 Name="contact shadows local lights" Offset="3C8" GUID="FFDAC0963F82D9CB0DE347C502F2B95F" />
 		<_37 Name="" type="ifp-" Offset="530" />
 	</_03134945C7122CD8BFBE70FEAAB3E3DA>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_38C74B701FBECC293C5FD67BAF139847 Name="camera_fx_settings::s_real_exposure_parameter" Size="28">
+	<_38C74B701FBECC293C5FD67BAF139847 Name="camera_fx_settings::s_real_exposure_parameter" Alt="F0FFD2B4925D2429" Size="28">
 		<_37 Name="" type="ifp+" Offset="0" />
 		<_36 Name="EXPOSURE" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterAutoAdjustFlags">
@@ -55,7 +55,7 @@
 		<_14 Name="prevent fluctuation time range" Offset="24" />
 		<_37 Name="" type="ifp-" Offset="28" />
 	</_38C74B701FBECC293C5FD67BAF139847>
-	<_80E54585B2285D8B5A2A16B5A4116DDE Name="camera_fx_settings::CameraFXExposureSensitivity" Size="8">
+	<_80E54585B2285D8B5A2A16B5A4116DDE Name="camera_fx_settings::CameraFXExposureSensitivity" Alt="349FA40AB9692377" Size="8">
 		<_36 Name="AUTO EXPOSURE SENSITIVITY" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
 			<Flag n="use default (ignore these values)" />
@@ -69,7 +69,7 @@
 		<_34 Name="generated_padf2eb" Offset="2" Length="2" />
 		<_14 Name="sensitivity (0-1)" Offset="4" />
 	</_80E54585B2285D8B5A2A16B5A4116DDE>
-	<_4DC044CC2971E5C91248E7AC9BFDB9B7 Name="camera_fx_settings::CameraFXExposurePitchInfluence" Size="1C">
+	<_4DC044CC2971E5C91248E7AC9BFDB9B7 Name="camera_fx_settings::CameraFXExposurePitchInfluence" Alt="10A6CE3416A300E4" Size="1C">
 		<_36 Name="EXPOSURE PITCH INFLUENCE" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
 			<Flag n="use default (ignore these values)" />
@@ -85,7 +85,7 @@
 		<_37 Name="function" type="fned" Offset="4" />
 		<_38 Name="function" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_4DC044CC2971E5C91248E7AC9BFDB9B7>
-	<_C66E4F27FCFBA2316DFBB394ABA45FCA Name="camera_fx_settings::CameraFXExposureCompensation" Size="1C">
+	<_C66E4F27FCFBA2316DFBB394ABA45FCA Name="camera_fx_settings::CameraFXExposureCompensation" Alt="868D1C023372A471" Size="1C">
 		<_36 Name="EXPOSURE COMPENSATION" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
 			<Flag n="use default (ignore these values)" />
@@ -101,7 +101,7 @@
 		<_37 Name="function" type="fned" Offset="4" />
 		<_38 Name="function" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_C66E4F27FCFBA2316DFBB394ABA45FCA>
-	<_7AA741365C28BDB2477781EA95D02E4D Name="camera_fx_settings::CameraFXBloomHighlight" Size="10">
+	<_7AA741365C28BDB2477781EA95D02E4D Name="camera_fx_settings::CameraFXBloomHighlight" Alt="D0EEF7FC6CAD3084" Size="10">
 		<_36 Name="HIGHLIGHT BLOOM" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
 			<Flag n="use default (ignore these values)" />
@@ -117,7 +117,7 @@
 		<_14 Name="maximum change" Offset="8" />
 		<_14 Name="blend speed (0-1)" Offset="C" />
 	</_7AA741365C28BDB2477781EA95D02E4D>
-	<_7AA741375C28BDB3477781EB95D02E4E Name="camera_fx_settings::CameraFXBloomHighlightThreshold" Size="10">
+	<_7AA741375C28BDB3477781EB95D02E4E Name="camera_fx_settings::CameraFXBloomHighlightThreshold" Alt="2FD49C4EF147B705" Size="10">
 		<_36 Name="HIGHLIGHT BLOOM THRESHOLD" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
 			<Flag n="use default (ignore these values)" />
@@ -133,7 +133,7 @@
 		<_14 Name="maximum change" Offset="8" />
 		<_14 Name="blend speed (0-1)" Offset="C" />
 	</_7AA741375C28BDB3477781EB95D02E4E>
-	<_A56D48C81889C93201DCD5F7B0B3D7D4 Name="camera_fx_settings::CameraFXBloomInherent" Size="10">
+	<_A56D48C81889C93201DCD5F7B0B3D7D4 Name="camera_fx_settings::CameraFXBloomInherent" Alt="F6ACF0B8AC86EC7" Size="10">
 		<_36 Name="AMBIENT BLOOM" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
 			<Flag n="use default (ignore these values)" />
@@ -149,7 +149,7 @@
 		<_14 Name="maximum change" Offset="8" />
 		<_14 Name="blend speed (0-1)" Offset="C" />
 	</_A56D48C81889C93201DCD5F7B0B3D7D4>
-	<_F5B240F3A87763D2F5DFD719A22524B0 Name="camera_fx_settings::CameraFXBloomIntensity" Size="10">
+	<_F5B240F3A87763D2F5DFD719A22524B0 Name="camera_fx_settings::CameraFXBloomIntensity" Alt="3F91918DDC419C74" Size="10">
 		<_36 Name="BLOOM INTENSITY" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
 			<Flag n="use default (ignore these values)" />
@@ -165,7 +165,7 @@
 		<_14 Name="maximum change" Offset="8" />
 		<_14 Name="blend speed (0-1)" Offset="C" />
 	</_F5B240F3A87763D2F5DFD719A22524B0>
-	<_F5B240F4A87763D3F5DFD71AA22524B1 Name="camera_fx_settings::CameraFXBloomLayerIntensity" Size="18">
+	<_F5B240F4A87763D3F5DFD71AA22524B1 Name="camera_fx_settings::CameraFXBloomLayerIntensity" Alt="AD3C165CE5E4399E" Size="18">
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
 			<Flag n="use default (ignore these values)" />
 			<Flag n="maximum change is relative" />
@@ -182,7 +182,7 @@
 		<_14 Name="maximum change" Offset="10" />
 		<_14 Name="blend speed (0-1)" Offset="14" />
 	</_F5B240F4A87763D3F5DFD71AA22524B1>
-	<_02EC4CD53318D9F00292B6B5ADE89517 Name="camera_fx_settings::CameraFXBloomTintColor" Size="10">
+	<_02EC4CD53318D9F00292B6B5ADE89517 Name="camera_fx_settings::CameraFXBloomTintColor" Alt="4C046628B99AB1FE" Size="10">
 		<_36 Name="BLOOM TINT COLOR" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
 			<Flag n="use default (ignore these values)" />
@@ -196,7 +196,7 @@
 		<_34 Name="generated_pad8bf4" Offset="2" Length="2" />
 		<_1F Name="tint color" Offset="4" />
 	</_02EC4CD53318D9F00292B6B5ADE89517>
-	<_C6D54D23E684AD74C011911B996036C6 Name="camera_fx_settings::CameraFXSelfIllumExposureSettings" Size="10">
+	<_C6D54D23E684AD74C011911B996036C6 Name="camera_fx_settings::CameraFXSelfIllumExposureSettings" Alt="25C2510472756F24" Size="10">
 		<_36 Name="SELF ILLUM EXPOSURE" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
 			<Flag n="use default (ignore these values)" />
@@ -212,7 +212,7 @@
 		<_14 Name="maximum change" Offset="8" />
 		<_14 Name="blend speed (0-1)" Offset="C" />
 	</_C6D54D23E684AD74C011911B996036C6>
-	<_22624FE44545C7001696B87BB9FDE3E7 Name="camera_fx_settings::CameraFXSelfIllumScale" Size="10">
+	<_22624FE44545C7001696B87BB9FDE3E7 Name="camera_fx_settings::CameraFXSelfIllumScale" Alt="6181FC40E7AC0AF1" Size="10">
 		<_36 Name="SELF ILLUM CHANGE" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
 			<Flag n="use default (ignore these values)" />
@@ -228,7 +228,7 @@
 		<_14 Name="maximum change" Offset="8" />
 		<_14 Name="blend speed (0-1)" Offset="C" />
 	</_22624FE44545C7001696B87BB9FDE3E7>
-	<_88C0460320D7EB2342178565BEB7FEF8 Name="camera_fx_settings::s_color_grading_parameter" Size="40">
+	<_88C0460320D7EB2342178565BEB7FEF8 Name="camera_fx_settings::s_color_grading_parameter" Alt="EB78901DEAFCE17B" Size="40">
 		<_36 Name="Color Grading" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterNoAutoAdjustFlags">
 			<Flag n="use default (ignore these values)" />
@@ -244,7 +244,7 @@
 		<_41 Name="hdr color grading texture" Offset="20" Allowed="bitm" Flags="0" />
 		<_14 Name="blend time" Offset="3C" />
 	</_88C0460320D7EB2342178565BEB7FEF8>
-	<_A444C1CF0877319BBEE40C6E617D4FDD Name="camera_fx_settings::s_ssao_parameter" Size="3C">
+	<_A444C1CF0877319BBEE40C6E617D4FDD Name="camera_fx_settings::s_ssao_parameter" Alt="BAB1CA2E427DA581" Size="3C">
 		<_36 Name="SSAO settings" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterEnabledFlags">
 			<Flag n="use default (ignore these values)" />
@@ -274,7 +274,7 @@
 		<_14 Name="Spot Light AO" Offset="34" />
 		<_14 Name="Omni Light AO" Offset="38" />
 	</_A444C1CF0877319BBEE40C6E617D4FDD>
-	<_797145775B4D834DF5CD1EB485DCF4C8 Name="camera_fx_settings::DeferredReflectionsParameter" Size="A0">
+	<_797145775B4D834DF5CD1EB485DCF4C8 Name="camera_fx_settings::DeferredReflectionsParameter" Alt="24F811991CBB6D16" Size="A0">
 		<_36 Name="Deferred Reflections settings" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterEnabledFlags">
 			<Flag n="use default (ignore these values)" />
@@ -306,7 +306,7 @@
 		<_38 Name="SSR Enabled" Offset="8C" GUID="9845E179FB0D9C0F04684ED9954B8BF1" />
 		<_34 Name="generated_pad2316" Offset="9D" Length="3" />
 	</_797145775B4D834DF5CD1EB485DCF4C8>
-	<_7CE5AB8A07A2FBE1F42D282BE5BC3F20 Name="camera_fx_settings::s_camera_lens_dirt_parameter" Size="28">
+	<_7CE5AB8A07A2FBE1F42D282BE5BC3F20 Name="camera_fx_settings::s_camera_lens_dirt_parameter" Alt="F91DC0FB82A5A077" Size="28">
 		<_36 Name="Camera Lens Dirt Settings" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterEnabledFlags">
 			<Flag n="use default (ignore these values)" />
@@ -326,7 +326,7 @@
 		</_A>
 		<_34 Name="generated_pad409c" Offset="25" Length="3" />
 	</_7CE5AB8A07A2FBE1F42D282BE5BC3F20>
-	<_FFDAC0963F82D9CB0DE347C502F2B95F Name="camera_fx_settings::ContactShadowsParameter" Size="168">
+	<_FFDAC0963F82D9CB0DE347C502F2B95F Name="camera_fx_settings::ContactShadowsParameter" Alt="14254768FF671E26" Size="168">
 		<_36 Name="Sun Contact Shadow Settings" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterEnabledFlags">
 			<Flag n="use default (ignore these values)" />
@@ -368,16 +368,16 @@
 		<_14 Name="FOV Slope Near Bias Scalar" Offset="120" />
 		<_38 Name="Per-Spec Near Bias Scalar" Offset="124" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
 	</_FFDAC0963F82D9CB0DE347C502F2B95F>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
 		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
-	<_4161EF12A16E262114ABE16421C61BE3 Name="SpecControlNodeInt" Size="2C">
+	<_4161EF12A16E262114ABE16421C61BE3 Name="SpecControlNodeInt" Alt="80B9ABC205E9372" Size="2C">
 		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
 			<Flag n="Default" />
 			<Flag n="Sync" />
@@ -424,7 +424,7 @@
 		<_14 Name="3 Player Splitscreen" Offset="24" />
 		<_14 Name="4 Player Splitscreen" Offset="28" />
 	</_4161EF12A16E262114ABE16421C61BE3>
-	<_41265BA612365AB514265AE852165FA7 Name="SpecControlNodeFloat" Size="2C">
+	<_41265BA612365AB514265AE852165FA7 Name="SpecControlNodeFloat" Alt="FB7F5AEBE8E6E8C0" Size="2C">
 		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
 			<Flag n="Default" />
 			<Flag n="Sync" />
@@ -471,7 +471,7 @@
 		<_14 Name="3 Player Splitscreen" Offset="24" />
 		<_14 Name="4 Player Splitscreen" Offset="28" />
 	</_41265BA612365AB514265AE852165FA7>
-	<_9845E179FB0D9C0F04684ED9954B8BF1 Name="SpecControlNodeBoolExact" Size="11">
+	<_9845E179FB0D9C0F04684ED9954B8BF1 Name="SpecControlNodeBoolExact" Alt="2CE2DDF0F818A6A5" Size="11">
 		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
 			<Flag n="Default" />
 			<Flag n="Sync" />
@@ -504,7 +504,7 @@
 		<_38 Name="High" Offset="9" GUID="2945F447027B04468D896F1523DC6254" />
 		<_38 Name="Ultra" Offset="D" GUID="2945F447027B04468D896F1523DC6254" />
 	</_9845E179FB0D9C0F04684ED9954B8BF1>
-	<_1A211F2315AC21BE1A35D15931FA5EB1 Name="SpecControlNodeBool" Size="4">
+	<_1A211F2315AC21BE1A35D15931FA5EB1 Name="SpecControlNodeBool" Alt="F87DDF44F8CF09E2" Size="4">
 		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
 			<Flag n="Default" />
 			<Flag n="Sync" />
@@ -540,7 +540,7 @@
 			<Flag n="Ultra" />
 		</_E>
 	</_1A211F2315AC21BE1A35D15931FA5EB1>
-	<_97B1869D8D63F754A21F0D593E02B7F1 Name="SpecControlNodeFloatExact" Size="44">
+	<_97B1869D8D63F754A21F0D593E02B7F1 Name="SpecControlNodeFloatExact" Alt="D73BF96980812D07" Size="44">
 		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
 			<Flag n="Default" />
 			<Flag n="Sync" />
@@ -574,7 +574,7 @@
 		<_38 Name="High" Offset="24" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
 		<_38 Name="Ultra" Offset="34" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
 	</_97B1869D8D63F754A21F0D593E02B7F1>
-	<_2945F447027B04468D896F1523DC6254 Name="SpecControlSplitscreenValuesBool" Size="4">
+	<_2945F447027B04468D896F1523DC6254 Name="SpecControlSplitscreenValuesBool" Alt="FEE10FBAE750FD21" Size="4">
 		<_F Name="Single Player" Offset="0" StructName1="SpecControlNodeBoolExactFlags">
 			<Flag n="True" />
 		</_F>
@@ -588,7 +588,7 @@
 			<Flag n="True" />
 		</_F>
 	</_2945F447027B04468D896F1523DC6254>
-	<_0B69E7FC16240A124EB051BE14E7BFC5 Name="SpecControlSplitscreenValuesFloat" Size="10">
+	<_0B69E7FC16240A124EB051BE14E7BFC5 Name="SpecControlSplitscreenValuesFloat" Alt="C3075D2D89D56356" Size="10">
 		<_14 Name="Single Player" Offset="0" />
 		<_14 Name="2 Player Splitscreen" Offset="4" />
 		<_14 Name="3 Player Splitscreen" Offset="8" />

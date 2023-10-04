@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="terrain_seed_for_module" Parents="aTag" Index="-437">
-	<_15704C8C6D053FFC8A205D1E806520AF Name="i343::TerrainSeedForModuleTag" Size="40">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="terrain_seed_for_module" Parents="aTag" Index="-437">
+	<_15704C8C6D053FFC8A205D1E806520AF Name="i343::TerrainSeedForModuleTag" Alt="20EA0DD319EC71DD" Size="40">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Source Level" Offset="10" Allowed="levl" Flags="1" />
 		<_40 Name="runtime terrain seeds" Offset="2C" GUID="38674A3078FF0BCE6440F51E0953CA3A" StructName1="i343::TerrainSeedForModuleTag" Min="0" Max="1048576" />
 	</_15704C8C6D053FFC8A205D1E806520AF>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_38674A3078FF0BCE6440F51E0953CA3A Name="i343::TerrainSeedRuntime" Size="1C">
+	<_38674A3078FF0BCE6440F51E0953CA3A Name="i343::TerrainSeedRuntime" Alt="771F8A67B38B714D" Size="1C">
 		<_41 Name="runtime terrain" Offset="0" Allowed="rtrn" Flags="0" />
 	</_38674A3078FF0BCE6440F51E0953CA3A>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

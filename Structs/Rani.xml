@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="RuntimeAnimSet" Parents="aTag" Index="-3">
-	<_A41882F90AD3DBCDFDA622B75F67227A Name="RuntimeAnimSetTag" Size="48">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="RuntimeAnimSet" Parents="aTag" Index="-3">
+	<_A41882F90AD3DBCDFDA622B75F67227A Name="RuntimeAnimSetTag" Alt="3A6739764A9252DA" Size="48">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="m_channel" Offset="10" />
 		<_41 Name="m_parent" Offset="14" Allowed="Rani" Flags="0" />
 		<_40 Name="m_animEntryLists" Offset="30" GUID="28D83D3AAD9CE02ED9716E4A0650FCD1" StructName1="RuntimeAnimSetTag" Min="0" Max="4096" />
 		<_34 Name="generated_pad402f" Offset="44" Length="4" />
 	</_A41882F90AD3DBCDFDA622B75F67227A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_28D83D3AAD9CE02ED9716E4A0650FCD1 Name="RuntimeAnimEntryList" Size="1C">
+	<_28D83D3AAD9CE02ED9716E4A0650FCD1 Name="RuntimeAnimEntryList" Alt="151EDDA01B66AA71" Size="1C">
 		<_2 Name="m_token" Offset="0" />
 		<_40 Name="m_animations" Offset="4" GUID="8EA3F034AF7085597F9945338688FD26" StructName1="RuntimeAnimEntryList" Min="0" Max="4096" />
 		<_F Name="Flags" Offset="18" StructName1="RuntimeAnimEntryListFlags">
@@ -19,11 +19,11 @@
 		</_F>
 		<_34 Name="generated_padec23" Offset="19" Length="3" />
 	</_28D83D3AAD9CE02ED9716E4A0650FCD1>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_8EA3F034AF7085597F9945338688FD26 Name="RuntimeAnimEntry" Size="40">
+	<_8EA3F034AF7085597F9945338688FD26 Name="RuntimeAnimEntry" Alt="A49BB197C321642C" Size="40">
 		<_41 Name="m_generatedModelAnimation" Offset="0" Allowed="jmad" Flags="0" />
 		<_6 Name="m_animationId" Offset="1C" />
 		<_14 Name="m_weight" Offset="20" />

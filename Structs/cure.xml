@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="cui_resources" Parents="aTag" Index="-86" C="ui\cui">
-	<_E5F746CEB258DFA937B4B335B02F9207 Name="CuiResourcesDefinition" Size="B0">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="cui_resources" Parents="aTag" Index="-86" C="ui\cui">
+	<_E5F746CEB258DFA937B4B335B02F9207 Name="CuiResourcesDefinition" Alt="470093E2808217AF" Size="B0">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="resource values" Offset="10" GUID="BC3D439EB1A7EC45A30957AFA6D9F1A4" />
 	</_E5F746CEB258DFA937B4B335B02F9207>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_BC3D439EB1A7EC45A30957AFA6D9F1A4 Name="s_cui_properties_definition" Size="A0">
+	<_BC3D439EB1A7EC45A30957AFA6D9F1A4 Name="s_cui_properties_definition" Alt="4FFF721040885789" Size="A0">
 		<_40 Name="long properties" Offset="0" GUID="D1F14D1463DD28298FCC1FFC96387952" StructName1="s_cui_properties_definition" Min="0" Max="4096" />
 		<_40 Name="real properties" Offset="14" GUID="59124090758DA8A4D2453C69A1FB5462" StructName1="s_cui_properties_definition" Min="0" Max="4096" />
 		<_40 Name="string_id properties" Offset="28" GUID="0FAF4EA963CAF970A47C0015B3FEB12C" StructName1="s_cui_properties_definition" Min="0" Max="4096" />
@@ -18,48 +18,48 @@
 		<_40 Name="argb color properties" Offset="78" GUID="478A4BACA86FC89BC3099AB897ED6B44" StructName1="s_cui_properties_definition" Min="0" Max="4096" />
 		<_40 Name="event handlers" Offset="8C" GUID="F7484A9C10DB8734DE2C42CFBCFC6830" StructName1="s_cui_properties_definition" Min="0" Max="4096" />
 	</_BC3D439EB1A7EC45A30957AFA6D9F1A4>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_D1F14D1463DD28298FCC1FFC96387952 Name="s_cui_property_value_long_definition" Size="C">
+	<_D1F14D1463DD28298FCC1FFC96387952 Name="s_cui_property_value_long_definition" Alt="F191C9F884A0DB4C" Size="C">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="resourceName" Offset="4" />
 		<_6 Name="value" Offset="8" />
 	</_D1F14D1463DD28298FCC1FFC96387952>
-	<_59124090758DA8A4D2453C69A1FB5462 Name="s_cui_property_value_real_definition" Size="C">
+	<_59124090758DA8A4D2453C69A1FB5462 Name="s_cui_property_value_real_definition" Alt="6CA9F525B897B11F" Size="C">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="resourceName" Offset="4" />
 		<_14 Name="value" Offset="8" />
 	</_59124090758DA8A4D2453C69A1FB5462>
-	<_0FAF4EA963CAF970A47C0015B3FEB12C Name="s_cui_property_value_string_id_definition" Size="C">
+	<_0FAF4EA963CAF970A47C0015B3FEB12C Name="s_cui_property_value_string_id_definition" Alt="C9F52458BACCE6EE" Size="C">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="resourceName" Offset="4" />
 		<_2 Name="value" Offset="8" />
 	</_0FAF4EA963CAF970A47C0015B3FEB12C>
-	<_9FE444AFB824C8C9970B0EB6A4AA330E Name="CuiPropertyValueComponentPtrDefinition" Size="18">
+	<_9FE444AFB824C8C9970B0EB6A4AA330E Name="CuiPropertyValueComponentPtrDefinition" Alt="8E5DE8E2E45DD195" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="resourceName" Offset="4" />
 		<_3F Name="component id" Offset="8" />
 		<_2 Name="value" Offset="10" />
 		<_34 Name="generated_padccc5" Offset="14" Length="4" />
 	</_9FE444AFB824C8C9970B0EB6A4AA330E>
-	<_9B1245B5CAA80A14FFA44C2EA53A40F5 Name="s_cui_property_value_tag_reference_definition" Size="24">
+	<_9B1245B5CAA80A14FFA44C2EA53A40F5 Name="s_cui_property_value_tag_reference_definition" Alt="4002241F85803621" Size="24">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="resourceName" Offset="4" />
 		<_41 Name="value" Offset="8" Allowed="" Flags="0" />
 	</_9B1245B5CAA80A14FFA44C2EA53A40F5>
-	<_D0F84F469B80DCD397549DDAAF7A6043 Name="s_cui_property_value_text_definition" Size="108">
+	<_D0F84F469B80DCD397549DDAAF7A6043 Name="s_cui_property_value_text_definition" Alt="E10DD2701C0E9AFD" Size="108">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="resourceName" Offset="4" />
 		<_1 Name="value" Offset="8" />
 	</_D0F84F469B80DCD397549DDAAF7A6043>
-	<_478A4BACA86FC89BC3099AB897ED6B44 Name="s_cui_property_value_argb_color_definition" Size="18">
+	<_478A4BACA86FC89BC3099AB897ED6B44 Name="s_cui_property_value_argb_color_definition" Alt="5AD912EA1E29F576" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="resourceName" Offset="4" />
 		<_20 Name="value" Offset="8" />
 	</_478A4BACA86FC89BC3099AB897ED6B44>
-	<_F7484A9C10DB8734DE2C42CFBCFC6830 Name="CuiEventHandlerDefinition" Size="10C">
+	<_F7484A9C10DB8734DE2C42CFBCFC6830 Name="CuiEventHandlerDefinition" Alt="1A9FC0A5B6C4378B" Size="10C">
 		<_2 Name="event" Offset="0" />
 		<_2 Name="filter" Offset="4" />
 		<_2 Name="name" Offset="8" />

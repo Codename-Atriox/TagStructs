@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:11 PM" Name="loadout_globals_definition" Parents="aTag" Index="-230">
-	<_326642CF5693EB4347BA7EC39E14B116 Name="s_loadout_globals_tag_definition" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="loadout_globals_definition" Parents="aTag" Index="-230">
+	<_326642CF5693EB4347BA7EC39E14B116 Name="s_loadout_globals_tag_definition" Alt="5617EAE77E6C6710" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="default custom loadouts" Offset="10" GUID="32674BAA5C0C246C7F5607D69C95C60D" StructName1="s_loadout_globals_tag_definition" Min="0" Max="5" />
 		<_34 Name="generated_pad2bd8" Offset="24" Length="4" />
 	</_326642CF5693EB4347BA7EC39E14B116>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_32674BAA5C0C246C7F5607D69C95C60D Name="s_static_loadout_tag_definition" Size="18">
+	<_32674BAA5C0C246C7F5607D69C95C60D Name="s_static_loadout_tag_definition" Alt="C338A7E28F0CAEE5" Size="18">
 		<_2 Name="loadout name" Offset="0" />
 		<_2 Name="initial primary weapon" Offset="4" />
 		<_2 Name="initial primary weapon variant name" Offset="8" />
@@ -17,8 +17,8 @@
 		<_2 Name="initial secondary weapon variant name" Offset="10" />
 		<_2 Name="initial equipment" Offset="14" />
 	</_32674BAA5C0C246C7F5607D69C95C60D>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

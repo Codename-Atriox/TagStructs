@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="sound_category" Parents="aTag" Index="-390">
-	<_233D46A26307592A88D960E389FAC64F Name="SoundCategoryTag" Size="88">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="sound_category" Parents="aTag" Index="-390">
+	<_233D46A26307592A88D960E389FAC64F Name="SoundCategoryTag" Alt="1B379C470A24356E" Size="88">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="parent" type="parr" Offset="10" Allowed="sndc" Flags="1" />
 		<_D Name="flags" Offset="2C" StructName1="SoundCategoryTagFlags">
@@ -36,11 +36,11 @@
 		<_14 Name="Occlusion from Obstruction Scalar" Offset="80" />
 		<_34 Name="generated_padc935" Offset="84" Length="4" />
 	</_233D46A26307592A88D960E389FAC64F>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_3A48407D44A48C164C7E8F308CADD41B Name="ImpulseTimerParams" Size="14">
+	<_3A48407D44A48C164C7E8F308CADD41B Name="ImpulseTimerParams" Alt="6A919868D3C1C6D4" Size="14">
 		<_F Name="Impulse Timer Flags" Offset="0" StructName1="ImpulseTimerParamFlags">
 			<Flag n="Enable Impulse Timer" />
 		</_F>
@@ -50,20 +50,20 @@
 		<_14 Name="minthreshold" Offset="C" />
 		<_14 Name="distthreshold" Offset="10" />
 	</_3A48407D44A48C164C7E8F308CADD41B>
-	<_C253421944A47A1CB129D30E824A2BD6 Name="FocusTagStruct" Size="14">
+	<_C253421944A47A1CB129D30E824A2BD6 Name="FocusTagStruct" Alt="766334DEFF63FF50" Size="14">
 		<_14 Name="Focus Inner Radius" Offset="0" />
 		<_14 Name="Focus Outer Radius" Offset="4" />
 		<_14 Name="Focus Inner Cone Angle" Offset="8" />
 		<_14 Name="Focus Outer Cone Angle" Offset="C" />
 		<_14 Name="Focus Elevation Scale" Offset="10" />
 	</_C253421944A47A1CB129D30E824A2BD6>
-	<_36724EECEF31EEF50036ACE99FF3C895 Name="ClusterSettings" Size="C">
+	<_36724EECEF31EEF50036ACE99FF3C895 Name="ClusterSettings" Alt="FC54745876A2CDB3" Size="C">
 		<_14 Name="Cluster Distance" Offset="0" />
 		<_14 Name="Cluster Smoothing Speed" Offset="4" />
 		<_14 Name="Cluster Timeout" Offset="8" />
 	</_36724EECEF31EEF50036ACE99FF3C895>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

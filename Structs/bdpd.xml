@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="death_program_selector" Parents="aTag" Index="-32">
-	<_78A848E84017D7F363AE0A5B90B37B9F Name="s_death_program_selector" Size="40">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="death_program_selector" Parents="aTag" Index="-32">
+	<_78A848E84017D7F363AE0A5B90B37B9F Name="s_death_program_selector" Alt="3C2B654242A954B9" Size="40">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="Explanation" type="fgrb" Offset="10" />
 		<_36 Name="Death Program Selection" Offset="10" />
@@ -8,11 +8,11 @@
 		<_41 Name="parent" Offset="10" Allowed="bdpd" Flags="0" />
 		<_40 Name="Cause of Death" Offset="2C" GUID="1351472407A798808C25AAA7BF5DA9E5" StructName1="s_death_program_selector" Min="0" Max="5" />
 	</_78A848E84017D7F363AE0A5B90B37B9F>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_1351472407A798808C25AAA7BF5DA9E5 Name="s_death_program_selector_cause" Size="18">
+	<_1351472407A798808C25AAA7BF5DA9E5 Name="s_death_program_selector_cause" Alt="9779896307F72BE0" Size="18">
 		<_C Name="Cause of Death" Offset="0" StructName1="ObjectDamageAftermathCauseOfDeath">
 			<Flag n="default" />
 			<Flag n="headshot" />
@@ -22,21 +22,21 @@
 		</_C>
 		<_40 Name="damage type" Offset="4" GUID="6F034AF62411CA09012D9482906679AF" StructName1="s_death_program_selector_cause" Min="0" Max="64" />
 	</_1351472407A798808C25AAA7BF5DA9E5>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_6F034AF62411CA09012D9482906679AF Name="s_death_program_selector_damage_type" Size="2C">
+	<_6F034AF62411CA09012D9482906679AF Name="s_death_program_selector_damage_type" Alt="5E68C78FE1F1159A" Size="2C">
 		<_36 Name="Triggering Damage Source" Offset="0" />
 		<_38 Name="damageSource" Offset="0" GUID="FF87433DC31A245D49183EE68FE5BB27" />
 		<_36 Name="Damaged Regions" Offset="4" />
 		<_40 Name="damage regions" Offset="4" GUID="977A442082489F886C17A091BCBF3ACC" StructName1="s_death_program_selector_damage_type" Min="0" Max="11" />
 		<_40 Name="velocity" Offset="18" GUID="00044EBB500A180D9EBAFD18B940AA79" StructName1="s_death_program_selector_damage_type" Min="0" Max="10" />
 	</_6F034AF62411CA09012D9482906679AF>
-	<_FF87433DC31A245D49183EE68FE5BB27 Name="i343::Damage::DamageSourceDefinition" Size="4">
+	<_FF87433DC31A245D49183EE68FE5BB27 Name="i343::Damage::DamageSourceDefinition" Alt="A20F74767C5A02F8" Size="4">
 		<_2 Name="Damage Source Name" Offset="0" />
 	</_FF87433DC31A245D49183EE68FE5BB27>
-	<_977A442082489F886C17A091BCBF3ACC Name="DeathDamageRegion" Size="1">
+	<_977A442082489F886C17A091BCBF3ACC Name="DeathDamageRegion" Alt="2897D66EE26B2ACC" Size="1">
 		<_A Name="Damaged Region" Offset="0" StructName1="DamagePart">
 			<Flag n="gut" />
 			<Flag n="chest" />
@@ -51,7 +51,7 @@
 			<Flag n="right foot" />
 		</_A>
 	</_977A442082489F886C17A091BCBF3ACC>
-	<_00044EBB500A180D9EBAFD18B940AA79 Name="s_death_program_selector_velocity_gate" Size="68">
+	<_00044EBB500A180D9EBAFD18B940AA79 Name="s_death_program_selector_velocity_gate" Alt="D022809181771839" Size="68">
 		<_14 Name="minimum velocity" Offset="0" />
 		<_A Name="locomotion direction" Offset="4" StructName1="eLocomotionDirection">
 			<Flag n="No specific direction" />
@@ -103,7 +103,7 @@
 		<_38 Name="explosion impulse curve" Offset="50" GUID="0276481E72CB9289F56D7C189467A351" />
 		<_37 Name="" type="fgre" Offset="68" />
 	</_00044EBB500A180D9EBAFD18B940AA79>
-	<_EA074FDC6140562432B325908954B4EB Name="RagdollDeathBlendFunction" Size="24">
+	<_EA074FDC6140562432B325908954B4EB Name="RagdollDeathBlendFunction" Alt="1BE197E89B9A30C4" Size="24">
 		<_2 Name="name" Offset="0" />
 		<_F Name="flags" Offset="4" StructName1="PoweredRagdollBlendFlags">
 			<Flag n="affects translation" />
@@ -113,11 +113,11 @@
 		<_38 Name="blend function" Offset="8" GUID="0276481E72CB9289F56D7C189467A351" />
 		<_2 Name="ragdoll subgroup" Offset="20" />
 	</_EA074FDC6140562432B325908954B4EB>
-	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
 		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />

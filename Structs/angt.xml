@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="XAnimNodeGraph" Parents="aTag" Index="-20">
-	<_DC3F4ED978E1F117E702DB29AC1C8E30 Name="ExportedAnimNodeGraph" Size="4D8">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="XAnimNodeGraph" Parents="aTag" Index="-20">
+	<_DC3F4ED978E1F117E702DB29AC1C8E30 Name="ExportedAnimNodeGraph" Alt="FCDD53D4AFB15858" Size="4D8">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Source Graph" Offset="10" Allowed="agct" Flags="1" />
 		<_40 Name="Anim Node Subgraphs" Offset="2C" GUID="97634F3D6C666E05AD23FE6BBC70A7CD" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
@@ -123,24 +123,24 @@
 		<_6 Name="Use Native Graph" Offset="4D0" />
 		<_6 Name="Code Generation Hash" Offset="4D4" />
 	</_DC3F4ED978E1F117E702DB29AC1C8E30>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_97634F3D6C666E05AD23FE6BBC70A7CD Name="SubgraphReferenceExportedAnimNodeGraph" Size="1C">
+	<_97634F3D6C666E05AD23FE6BBC70A7CD Name="SubgraphReferenceExportedAnimNodeGraph" Alt="88A06031301FA072" Size="1C">
 		<_41 Name="Anim Subgraph" Offset="0" Allowed="angt" Flags="0" />
 	</_97634F3D6C666E05AD23FE6BBC70A7CD>
-	<_DAA742E8322A87B138A2A907A50F5EF2 Name="SubgraphReferenceAnimStateGraph" Size="1C">
+	<_DAA742E8322A87B138A2A907A50F5EF2 Name="SubgraphReferenceAnimStateGraph" Alt="5C55EF622B2B011A" Size="1C">
 		<_41 Name="State Subgraph" Offset="0" Allowed="ansm" Flags="0" />
 	</_DAA742E8322A87B138A2A907A50F5EF2>
-	<_34AA4B1F8B8FCEC136FD9BF7824584BC Name="i343::Animation::LocalControlParametersDefinition" Size="64">
+	<_34AA4B1F8B8FCEC136FD9BF7824584BC Name="i343::Animation::LocalControlParametersDefinition" Alt="20C789003BF1D5B1" Size="64">
 		<_40 Name="Int Control Parameters" Offset="0" GUID="4C5C4EA5505585531AAE400CA778D338" StructName1="i343::Animation::LocalControlParametersDefinition" Min="0" Max="128" />
 		<_40 Name="Float Control Parameters" Offset="14" GUID="4C5C4EA5505585531AAE400CA778D338" StructName1="i343::Animation::LocalControlParametersDefinition" Min="0" Max="128" />
 		<_40 Name="Vector Control Parameters" Offset="28" GUID="4C5C4EA5505585531AAE400CA778D338" StructName1="i343::Animation::LocalControlParametersDefinition" Min="0" Max="128" />
 		<_40 Name="Bool Control Parameters" Offset="3C" GUID="4C5C4EA5505585531AAE400CA778D338" StructName1="i343::Animation::LocalControlParametersDefinition" Min="0" Max="128" />
 		<_40 Name="String Control Parameters" Offset="50" GUID="4C5C4EA5505585531AAE400CA778D338" StructName1="i343::Animation::LocalControlParametersDefinition" Min="0" Max="128" />
 	</_34AA4B1F8B8FCEC136FD9BF7824584BC>
-	<_EB6046ED99E45B97FA048DA698FB6E3C Name="BlackboardEntryDescriptor" Size="8">
+	<_EB6046ED99E45B97FA048DA698FB6E3C Name="BlackboardEntryDescriptor" Alt="88298035ECBE56B6" Size="8">
 		<_C Name="Data Type" Offset="0" StructName1="BlackboardDataType">
 			<Flag n="Bool" />
 			<Flag n="Float" />
@@ -149,7 +149,7 @@
 		</_C>
 		<_2 Name="Blackboard Id" Offset="4" />
 	</_EB6046ED99E45B97FA048DA698FB6E3C>
-	<_960A407C207D4883597FCE0E91E6238A Name="AnimGraphConnection" Size="18">
+	<_960A407C207D4883597FCE0E91E6238A Name="AnimGraphConnection" Alt="FD25800F517C4722" Size="18">
 		<_C Name="Source Node Type" Offset="0" StructName1="AnimGraphNodeType">
 			<Flag n="Animation Token" />
 			<Flag n="Animation Extract" />
@@ -269,7 +269,7 @@
 		<_6 Name="Destination Node Index" Offset="10" />
 		<_6 Name="Destination Pin Index" Offset="14" />
 	</_960A407C207D4883597FCE0E91E6238A>
-	<_1B554BB8BF79989F7ECC207DBE7639AB Name="AnimationTokenNode" Size="18">
+	<_1B554BB8BF79989F7ECC207DBE7639AB Name="AnimationTokenNode" Alt="32497BD9754668E" Size="18">
 		<_2 Name="Animation Name" Offset="0" />
 		<_2 Name="Group Name" Offset="4" />
 		<_C Name="Mode" Offset="8" StructName1="AnimationMode">
@@ -288,19 +288,19 @@
 		</_E>
 		<_34 Name="generated_pad4403" Offset="16" Length="2" />
 	</_1B554BB8BF79989F7ECC207DBE7639AB>
-	<_AECE47576D488436D9AFD3A1976CCCB7 Name="AnimationExistsNode" Size="C">
+	<_AECE47576D488436D9AFD3A1976CCCB7 Name="AnimationExistsNode" Alt="A15021866CA8A384" Size="C">
 		<_2 Name="Anim Set Name" Offset="0" />
 		<_2 Name="Animation Name" Offset="4" />
 		<_6 Name="Variation Index" Offset="8" />
 	</_AECE47576D488436D9AFD3A1976CCCB7>
-	<_C6204D50A9E52E9CB4BBD77CA8360A8B Name="AnimSetExistsNode" Size="4">
+	<_C6204D50A9E52E9CB4BBD77CA8360A8B Name="AnimSetExistsNode" Alt="271B5D60E327DCE4" Size="4">
 		<_2 Name="Anim Set Name" Offset="0" />
 	</_C6204D50A9E52E9CB4BBD77CA8360A8B>
-	<_E0C547DF08D92F9B0796AF9DA828CCA6 Name="PoseNode" Size="8">
+	<_E0C547DF08D92F9B0796AF9DA828CCA6 Name="PoseNode" Alt="CE5F6567001AB266" Size="8">
 		<_2 Name="Animation Name" Offset="0" />
 		<_6 Name="Frame" Offset="4" />
 	</_E0C547DF08D92F9B0796AF9DA828CCA6>
-	<_EBD048DF50B8B53AE78AB1BD8D9B8526 Name="SelectionNode" Size="1C">
+	<_EBD048DF50B8B53AE78AB1BD8D9B8526 Name="SelectionNode" Alt="FF7749F92050E037" Size="1C">
 		<_6 Name="Default Selection" Offset="0" />
 		<_E Name="Selection Node Flags" Offset="4" StructName1="SelectionNodeFlags">
 			<Flag n="Evaluate On Relevant" />
@@ -308,10 +308,10 @@
 		<_34 Name="generated_pad6efe" Offset="6" Length="2" />
 		<_40 Name="Pose Connections" Offset="8" GUID="C78B4DC0FC0C48A66BC59A04ACE3526B" StructName1="SelectionNode" Min="0" Max="128" />
 	</_EBD048DF50B8B53AE78AB1BD8D9B8526>
-	<_40E6BA0DE96BBA89E77D9E47D5205609 Name="LayerNode" Size="14">
+	<_40E6BA0DE96BBA89E77D9E47D5205609 Name="LayerNode" Alt="6A9C3D16EFC4E33B" Size="14">
 		<_40 Name="Layers" Offset="0" GUID="13A64C28877296B615D675F19F094A01" StructName1="LayerNode" Min="0" Max="128" />
 	</_40E6BA0DE96BBA89E77D9E47D5205609>
-	<_86314EBFB798C5C925A5F6AAAB707F1C Name="BlendSpaceNode" Size="78">
+	<_86314EBFB798C5C925A5F6AAAB707F1C Name="BlendSpaceNode" Alt="E953731BD265A984" Size="78">
 		<_C Name="Blend Type" Offset="0" StructName1="AnimBlendNodeType">
 			<Flag n="Blend1d" />
 			<Flag n="Blend2d" />
@@ -345,10 +345,10 @@
 		<_2 Name="channel_3" type="sted" Offset="70" />
 		<_14 Name="Input Smoothing Traversal Time" Offset="74" />
 	</_86314EBFB798C5C925A5F6AAAB707F1C>
-	<_1DC8408840138070648C6A1C9E51E04F Name="StateMachineNode" Size="1C">
+	<_1DC8408840138070648C6A1C9E51E04F Name="StateMachineNode" Alt="630B9835D7EFA48E" Size="1C">
 		<_41 Name="Animation State Machine" Offset="0" Allowed="ansm" Flags="0" />
 	</_1DC8408840138070648C6A1C9E51E04F>
-	<_999C42EE885B714C77D58168BC17C55A Name="ControlParameterNode" Size="8">
+	<_999C42EE885B714C77D58168BC17C55A Name="ControlParameterNode" Alt="F5F53B0A838CF2B3" Size="8">
 		<_2 Name="Parameter Name" type="sted" Offset="0" />
 		<_C Name="Type" Offset="4" StructName1="ControlParameterType">
 			<Flag n="Int" />
@@ -358,10 +358,10 @@
 			<Flag n="Vector" />
 		</_C>
 	</_999C42EE885B714C77D58168BC17C55A>
-	<_951C422E8321BE95C21A862CBA2521A8 Name="SubAnimGraphNode" Size="1C">
+	<_951C422E8321BE95C21A862CBA2521A8 Name="SubAnimGraphNode" Alt="C7AC99483D016A85" Size="1C">
 		<_41 Name="Animation Graph" Offset="0" Allowed="angt" Flags="1" />
 	</_951C422E8321BE95C21A862CBA2521A8>
-	<_07CE424D3AF51F49272175B39FCC09A6 Name="TransitionDataNode" Size="4">
+	<_07CE424D3AF51F49272175B39FCC09A6 Name="TransitionDataNode" Alt="D7A0B5EA6E815C76" Size="4">
 		<_C Name="Data Type" Offset="0" StructName1="TransitionDataType">
 			<Flag n="Source Pose" />
 			<Flag n="Destination Pose" />
@@ -370,16 +370,16 @@
 			<Flag n="Transition Duration" />
 		</_C>
 	</_07CE424D3AF51F49272175B39FCC09A6>
-	<_5EE6465B7A10B3A1707E2FDCA82A14BC Name="TransitionDataPoseNode" Size="4">
+	<_5EE6465B7A10B3A1707E2FDCA82A14BC Name="TransitionDataPoseNode" Alt="1FBEA454B7B3E049" Size="4">
 		<_C Name="Data Type" Offset="0" StructName1="TransitionDataPoseType">
 			<Flag n="Source Pose" />
 			<Flag n="Destination Pose" />
 		</_C>
 	</_5EE6465B7A10B3A1707E2FDCA82A14BC>
-	<_946E4A4D19CAF524FFD645938B6B3B28 Name="ObjectFunctionNode" Size="4">
+	<_946E4A4D19CAF524FFD645938B6B3B28 Name="ObjectFunctionNode" Alt="62FF56113889C426" Size="4">
 		<_2 Name="Function Name" Offset="0" />
 	</_946E4A4D19CAF524FFD645938B6B3B28>
-	<_B8A34E0FF672234CFA90DE38B87BCFD5 Name="EditableNumberNode" Size="28">
+	<_B8A34E0FF672234CFA90DE38B87BCFD5 Name="EditableNumberNode" Alt="7BB261BD097715D5" Size="28">
 		<_2 Name="Property Name" Offset="0" />
 		<_C Name="Data Type" Offset="4" StructName1="EditableNumberType">
 			<Flag n="Float" />
@@ -394,7 +394,7 @@
 		<_6 Name="Bool Value" Offset="18" />
 		<_19 Name="Vector Value" Offset="1C" />
 	</_B8A34E0FF672234CFA90DE38B87BCFD5>
-	<_D7554AE09D5D351AB7A4978BB208FE4B Name="BooleanLogicNode" Size="4">
+	<_D7554AE09D5D351AB7A4978BB208FE4B Name="BooleanLogicNode" Alt="3BBD9B1D048EEE98" Size="4">
 		<_C Name="Operation Type" Offset="0" StructName1="BooleanLogicType">
 			<Flag n="And" />
 			<Flag n="Or" />
@@ -406,14 +406,14 @@
 			<Flag n="Invert" />
 		</_C>
 	</_D7554AE09D5D351AB7A4978BB208FE4B>
-	<_181F4A8DD4F3674804BE7764A1B6964D Name="StringLogicNode" Size="4">
+	<_181F4A8DD4F3674804BE7764A1B6964D Name="StringLogicNode" Alt="E063F2F22B3D2" Size="4">
 		<_C Name="Operation Type" Offset="0" StructName1="StringLogicType">
 			<Flag n="Equal" />
 			<Flag n="Not Equal" />
 			<Flag n="Is Empty" />
 		</_C>
 	</_181F4A8DD4F3674804BE7764A1B6964D>
-	<_B0A24AD2C7A8BD7350BC7D7681985214 Name="FloatLogicNode" Size="4">
+	<_B0A24AD2C7A8BD7350BC7D7681985214 Name="FloatLogicNode" Alt="8B7768CEC9CABB97" Size="4">
 		<_C Name="Condition" Offset="0" StructName1="FloatLogicType">
 			<Flag n="LessThan" />
 			<Flag n="LessThanOrEqual" />
@@ -423,7 +423,7 @@
 			<Flag n="Not Equal" />
 		</_C>
 	</_B0A24AD2C7A8BD7350BC7D7681985214>
-	<_D9984E03796AB6CAA9E19A7B963331A2 Name="FloatOperatorNode" Size="4">
+	<_D9984E03796AB6CAA9E19A7B963331A2 Name="FloatOperatorNode" Alt="A754E9FA5D91AB32" Size="4">
 		<_C Name="Operation Type" Offset="0" StructName1="FloatOperatorType">
 			<Flag n="Modulo" />
 			<Flag n="Absolute" />
@@ -452,7 +452,7 @@
 			<Flag n="Division" />
 		</_C>
 	</_D9984E03796AB6CAA9E19A7B963331A2>
-	<_684E497F66AADF457B639824A13E4FC1 Name="IntLogicNode" Size="4">
+	<_684E497F66AADF457B639824A13E4FC1 Name="IntLogicNode" Alt="6A3D6923A6B9BB04" Size="4">
 		<_C Name="Condition" Offset="0" StructName1="IntLogicType">
 			<Flag n="LessThan" />
 			<Flag n="LessThanOrEqual" />
@@ -462,7 +462,7 @@
 			<Flag n="Not Equal" />
 		</_C>
 	</_684E497F66AADF457B639824A13E4FC1>
-	<_C76646CFC508A065B77B2EE191F8CEE7 Name="IntOperatorNode" Size="4">
+	<_C76646CFC508A065B77B2EE191F8CEE7 Name="IntOperatorNode" Alt="4C6A891B04F5E42E" Size="4">
 		<_C Name="Operation Type" Offset="0" StructName1="IntOperatorType">
 			<Flag n="Addition" />
 			<Flag n="Subtraction" />
@@ -470,7 +470,7 @@
 			<Flag n="Division" />
 		</_C>
 	</_C76646CFC508A065B77B2EE191F8CEE7>
-	<_72F44CB940BC6467536C3FF9A2FB14B4 Name="TrigNode" Size="4">
+	<_72F44CB940BC6467536C3FF9A2FB14B4 Name="TrigNode" Alt="9E4319A2F237CCE4" Size="4">
 		<_C Name="Operation Type" Offset="0" StructName1="TrigType">
 			<Flag n="AcosInDegrees" />
 			<Flag n="AcosInRadians" />
@@ -492,14 +492,14 @@
 			<Flag n="TanInRadians" />
 		</_C>
 	</_72F44CB940BC6467536C3FF9A2FB14B4>
-	<_934E485F18C933472D78FDAB9E7263FD Name="BlackboardNode" Size="C">
+	<_934E485F18C933472D78FDAB9E7263FD Name="BlackboardNode" Alt="33C538D0F369FACA" Size="C">
 		<_C Name="Operation Type" Offset="0" StructName1="BlackboardOperationType">
 			<Flag n="Getter" />
 			<Flag n="Setter" />
 		</_C>
 		<_38 Name="Blackboard Entry Descriptor" Offset="4" GUID="EB6046ED99E45B97FA048DA698FB6E3C" />
 	</_934E485F18C933472D78FDAB9E7263FD>
-	<_E6A44C5727779CF1F7C53BF3ACDBDEBA Name="ValueConversionNode" Size="4">
+	<_E6A44C5727779CF1F7C53BF3ACDBDEBA Name="ValueConversionNode" Alt="42701240EB237190" Size="4">
 		<_C Name="Conversion Type" Offset="0" StructName1="ValueConversionType">
 			<Flag n="Int to Bool" />
 			<Flag n="Int to Float" />
@@ -509,7 +509,7 @@
 			<Flag n="Bool to Float" />
 		</_C>
 	</_E6A44C5727779CF1F7C53BF3ACDBDEBA>
-	<_B0F44E5D226245702B9A9C2A81DAFD0C Name="InterpolationNode" Size="4">
+	<_B0F44E5D226245702B9A9C2A81DAFD0C Name="InterpolationNode" Alt="AF516D42DE660FAB" Size="4">
 		<_C Name="interpolation Type" Offset="0" StructName1="InterpolationType">
 			<Flag n="Float Linear Acceleration" />
 			<Flag n="Float Constant Velocity" />
@@ -529,27 +529,27 @@
 			<Flag n="Vector3 Damped Spring" />
 		</_C>
 	</_B0F44E5D226245702B9A9C2A81DAFD0C>
-	<_22B04D37275F088BA0EDA9F2AA88A9A6 Name="ConstantFloatNode" Size="4">
+	<_22B04D37275F088BA0EDA9F2AA88A9A6 Name="ConstantFloatNode" Alt="B7D06172950E8CDD" Size="4">
 		<_14 Name="Value" Offset="0" />
 	</_22B04D37275F088BA0EDA9F2AA88A9A6>
-	<_E9E342725287BE67B8BDF980A4B3A1B0 Name="ConstantIntNode" Size="4">
+	<_E9E342725287BE67B8BDF980A4B3A1B0 Name="ConstantIntNode" Alt="E4D7312388D767F" Size="4">
 		<_6 Name="Value" Offset="0" />
 	</_E9E342725287BE67B8BDF980A4B3A1B0>
-	<_3A564BAA1FC36A9F6AE851F8841170F6 Name="ConstantInt64Node" Size="8">
+	<_3A564BAA1FC36A9F6AE851F8841170F6 Name="ConstantInt64Node" Alt="BB443D0B23475A7" Size="8">
 		<_6 Name="Value" Offset="0" />
 		<_34 Name="generated_pad8671" Offset="4" Length="4" />
 	</_3A564BAA1FC36A9F6AE851F8841170F6>
-	<_C05144F163239CE6419AB6C180379C81 Name="ConstantUInt64Node" Size="8">
+	<_C05144F163239CE6419AB6C180379C81 Name="ConstantUInt64Node" Alt="50E43736276F9D07" Size="8">
 		<_6 Name="Value" Offset="0" />
 		<_34 Name="generated_pad75b8" Offset="4" Length="4" />
 	</_C05144F163239CE6419AB6C180379C81>
-	<_BB9A4BFEFDE92C5040E96753ADE1370C Name="ConstantStringNode" Size="100">
+	<_BB9A4BFEFDE92C5040E96753ADE1370C Name="ConstantStringNode" Alt="78BE1AE45CFEB9E0" Size="100">
 		<_1 Name="Value" Offset="0" />
 	</_BB9A4BFEFDE92C5040E96753ADE1370C>
-	<_030C4AE8DEF0D8725C7FC1A698F760FA Name="ConstantBoolNode" Size="4">
+	<_030C4AE8DEF0D8725C7FC1A698F760FA Name="ConstantBoolNode" Alt="E35D2E38D20B86CB" Size="4">
 		<_6 Name="Value" Offset="0" />
 	</_030C4AE8DEF0D8725C7FC1A698F760FA>
-	<_BB534FA6DD8FACCC5E4E2B9FBCC0678D Name="EndOfAnimationNode" Size="C">
+	<_BB534FA6DD8FACCC5E4E2B9FBCC0678D Name="EndOfAnimationNode" Alt="5A36DB7CA1E146E7" Size="C">
 		<_A Name="Node Type" Offset="0" StructName1="EndOfAnimationEventType">
 			<Flag n="End Of Animation" />
 			<Flag n="End Of Loop" />
@@ -558,7 +558,7 @@
 		<_2 Name="Group Name" Offset="4" />
 		<_14 Name="Offset Time" Offset="8" />
 	</_BB534FA6DD8FACCC5E4E2B9FBCC0678D>
-	<_7B7F4624EA564A4C3D23FB28571482AD Name="MaskNode" Size="8">
+	<_7B7F4624EA564A4C3D23FB28571482AD Name="MaskNode" Alt="FE462D511E81483" Size="8">
 		<_2 Name="Mask ID" Offset="0" />
 		<_A Name="Mask Node Type" Offset="4" StructName1="MaskType">
 			<Flag n="Bone Mask" />
@@ -566,7 +566,7 @@
 		</_A>
 		<_34 Name="generated_pad238e" Offset="5" Length="3" />
 	</_7B7F4624EA564A4C3D23FB28571482AD>
-	<_E2A1433C9434F35527347A8192A8B7C8 Name="IKNodeTag" Size="20">
+	<_E2A1433C9434F35527347A8192A8B7C8 Name="IKNodeTag" Alt="C030836E3061894D" Size="20">
 		<_14 Name="Weight" Offset="0" />
 		<_2 Name="Source Marker Name" Offset="4" />
 		<_2 Name="Target Marker Name" Offset="8" />
@@ -591,14 +591,14 @@
 		</_F>
 		<_34 Name="generated_pad1cf9" Offset="1D" Length="3" />
 	</_E2A1433C9434F35527347A8192A8B7C8>
-	<_2B624E4FCF40553426A51DC5BE571D61 Name="GroundIKNodeTag" Size="14">
+	<_2B624E4FCF40553426A51DC5BE571D61 Name="GroundIKNodeTag" Alt="6F4EA8EB1582D6DD" Size="14">
 		<_14 Name="Weight" Offset="0" />
 		<_2 Name="Source Marker Name" Offset="4" />
 		<_2 Name="Preferred IK Chain Name" Offset="8" />
 		<_14 Name="Blend Rate" Offset="C" />
 		<_14 Name="Priority" Offset="10" />
 	</_2B624E4FCF40553426A51DC5BE571D61>
-	<_6CDF4517FC4ADC0C0D4285599BDB3B9D Name="LookIKNodeTag" Size="34">
+	<_6CDF4517FC4ADC0C0D4285599BDB3B9D Name="LookIKNodeTag" Alt="DD109FD62B2E764C" Size="34">
 		<_14 Name="Weight" Offset="0" />
 		<_14 Name="Blend Rate" Offset="4" />
 		<_14 Name="Priority" Offset="8" />
@@ -617,10 +617,10 @@
 		</_A>
 		<_34 Name="generated_pad9f7b" Offset="31" Length="3" />
 	</_6CDF4517FC4ADC0C0D4285599BDB3B9D>
-	<_4BAA4427E61E36909D5A3DEF8CF7C897 Name="ConcatenateNode" Size="14">
+	<_4BAA4427E61E36909D5A3DEF8CF7C897 Name="ConcatenateNode" Alt="6F767B12AC03018D" Size="14">
 		<_40 Name="Strings" Offset="0" GUID="42A3498AA3EB7EFE3290F4CC8AA82C64" StructName1="ConcatenateNode" Min="0" Max="16" />
 	</_4BAA4427E61E36909D5A3DEF8CF7C897>
-	<_514A401049233104C3C088EC9636F360 Name="AnimSetPushNode" Size="108">
+	<_514A401049233104C3C088EC9636F360 Name="AnimSetPushNode" Alt="1125C43395198DB1" Size="108">
 		<_A Name="Type" Offset="0" StructName1="PushNodeType">
 			<Flag n="Conditional" />
 			<Flag n="Constant" />
@@ -629,15 +629,15 @@
 		<_34 Name="generated_pada121" Offset="101" Length="3" />
 		<_6 Name="Push Order" Offset="104" />
 	</_514A401049233104C3C088EC9636F360>
-	<_60B844831B6AD9654D4864C699A93941 Name="SwitchNode" Size="2C">
+	<_60B844831B6AD9654D4864C699A93941 Name="SwitchNode" Alt="ED724621A05392BF" Size="2C">
 		<_40 Name="Int Input Values" Offset="0" GUID="BC66489C5BD6C0516805B809B8D0C91B" StructName1="SwitchNode" Min="0" Max="12" />
 		<_40 Name="String Input Values" Offset="14" GUID="F6E3482692A0979A6D8C3EF597ECCDDA" StructName1="SwitchNode" Min="0" Max="12" />
 		<_6 Name="Default Pin Index" Offset="28" />
 	</_60B844831B6AD9654D4864C699A93941>
-	<_B88F46C3A3A6931AC32C3C22BD526950 Name="SwitchOnAssetNode" Size="14">
+	<_B88F46C3A3A6931AC32C3C22BD526950 Name="SwitchOnAssetNode" Alt="B98DD2307228C98C" Size="14">
 		<_40 Name="Inputs" Offset="0" GUID="5A4241F14BA919B1F25244D483029F5A" StructName1="SwitchOnAssetNode" Min="0" Max="12" />
 	</_B88F46C3A3A6931AC32C3C22BD526950>
-	<_D842442547B818B7C17958F0A2BA875C Name="AimScreenNode" Size="48">
+	<_D842442547B818B7C17958F0A2BA875C Name="AimScreenNode" Alt="D05B5FA753FA2618" Size="48">
 		<_14 Name="Yaw" Offset="0" />
 		<_14 Name="Pitch" Offset="4" />
 		<_38 Name="Yaw Connection" Offset="8" GUID="960A407C207D4883597FCE0E91E6238A" />
@@ -650,14 +650,14 @@
 		<_34 Name="generated_pad6467" Offset="42" Length="2" />
 		<_14 Name="Input Smoothing Traversal Time" Offset="44" />
 	</_D842442547B818B7C17958F0A2BA875C>
-	<_45ED49B60D2CF8F68FD0A61BBDFEB0FE Name="AccSpaceNode" Size="4">
+	<_45ED49B60D2CF8F68FD0A61BBDFEB0FE Name="AccSpaceNode" Alt="D6972A6AB364AAAB" Size="4">
 		<_2 Name="Acceleration Animation Name" Offset="0" />
 	</_45ED49B60D2CF8F68FD0A61BBDFEB0FE>
-	<_271B42E5F54DF205A98419BC922516D2 Name="AnimationExtractNode" Size="1C">
+	<_271B42E5F54DF205A98419BC922516D2 Name="AnimationExtractNode" Alt="7614F360CC1B6E31" Size="1C">
 		<_38 Name="Pose Connection" Offset="0" GUID="960A407C207D4883597FCE0E91E6238A" />
 		<_2 Name="Joint Name" Offset="18" />
 	</_271B42E5F54DF205A98419BC922516D2>
-	<_E34643D5D69C15D95B1A3C41A79B7B20 Name="AnimationGetLocalOffsetNode" Size="C">
+	<_E34643D5D69C15D95B1A3C41A79B7B20 Name="AnimationGetLocalOffsetNode" Alt="CE2703B84D78B2B0" Size="C">
 		<_2 Name="Joint Name 1" Offset="0" />
 		<_2 Name="Joint Name 2" Offset="4" />
 		<_E Name="Animation Get Local Offset Flags" Offset="8" StructName1="AnimationGetLocalOffsetFlags">
@@ -666,7 +666,7 @@
 		</_E>
 		<_34 Name="generated_padb27a" Offset="A" Length="2" />
 	</_E34643D5D69C15D95B1A3C41A79B7B20>
-	<_A505435DE4A5C0C237CA1E2982C54E75 Name="AnimationGetValuesNode" Size="20">
+	<_A505435DE4A5C0C237CA1E2982C54E75 Name="AnimationGetValuesNode" Alt="291876C78A5EECB4" Size="20">
 		<_38 Name="Pose Connection" Offset="0" GUID="960A407C207D4883597FCE0E91E6238A" />
 		<_2 Name="Joint Name" Offset="18" />
 		<_E Name="Animation Get Values Node Flags" Offset="1C" StructName1="AnimationGetValuesFlags">
@@ -674,7 +674,7 @@
 		</_E>
 		<_34 Name="generated_pad70a2" Offset="1E" Length="2" />
 	</_A505435DE4A5C0C237CA1E2982C54E75>
-	<_C5214E1CC6888447A1E9818F9D7C74B4 Name="AnimationFKNode" Size="94">
+	<_C5214E1CC6888447A1E9818F9D7C74B4 Name="AnimationFKNode" Alt="4BD96431B3AF17E0" Size="94">
 		<_38 Name="Pose Connection" Offset="0" GUID="960A407C207D4883597FCE0E91E6238A" />
 		<_40 Name="Joint Names" Offset="18" GUID="1DBF4746CBD8D9A4F1C06E689DDE3F47" StructName1="AnimationFKNode" Min="0" Max="32" />
 		<_38 Name="Translation" Offset="2C" GUID="960A407C207D4883597FCE0E91E6238A" />
@@ -691,7 +691,7 @@
 		<_38 Name="Pivot Pose Connection" Offset="78" GUID="960A407C207D4883597FCE0E91E6238A" />
 		<_2 Name="Pivot Joint Name" Offset="90" />
 	</_C5214E1CC6888447A1E9818F9D7C74B4>
-	<_574E46785094A9FE360000AD905E4073 Name="AnimationConstraintNode" Size="10">
+	<_574E46785094A9FE360000AD905E4073 Name="AnimationConstraintNode" Alt="A50AACEBC3D481B5" Size="10">
 		<_2 Name="Joint Name" Offset="0" />
 		<_2 Name="Target Joint Name" Offset="4" />
 		<_2 Name="Offset Joint Name" Offset="8" />
@@ -702,12 +702,12 @@
 		</_E>
 		<_34 Name="generated_pade4e3" Offset="E" Length="2" />
 	</_574E46785094A9FE360000AD905E4073>
-	<_D89C4652C3111B199447224995827645 Name="VoiceoverAnimationNode" Size="4">
+	<_D89C4652C3111B199447224995827645 Name="VoiceoverAnimationNode" Alt="38C0A1E2C852BFE" Size="4">
 		<_C Name="Voiceover Animation Data Types" Offset="0" StructName1="VoiceOverAnimationDataTypes">
 			<Flag n="VoiceOverSoundData" />
 		</_C>
 	</_D89C4652C3111B199447224995827645>
-	<_315B4C9CA4E16BDDC317FC3797304D41 Name="NativeExpressionNode" Size="C">
+	<_315B4C9CA4E16BDDC317FC3797304D41 Name="NativeExpressionNode" Alt="79898BA813A40A65" Size="C">
 		<_C Name="Type" Offset="0" StructName1="NativeExpressionType">
 			<Flag n="Int" />
 			<Flag n="Float" />
@@ -718,21 +718,21 @@
 		<_2 Name="Native Graph Name" Offset="4" />
 		<_6 Name="Use Native Graph" Offset="8" />
 	</_315B4C9CA4E16BDDC317FC3797304D41>
-	<_1F634C201D8FE8FBCF5A79C49AD2A74B Name="NativePoseNode" Size="8">
+	<_1F634C201D8FE8FBCF5A79C49AD2A74B Name="NativePoseNode" Alt="28DBAE64FA854B00" Size="8">
 		<_2 Name="Native Graph Name" Offset="0" />
 		<_6 Name="Use Native Graph" Offset="4" />
 	</_1F634C201D8FE8FBCF5A79C49AD2A74B>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_4C5C4EA5505585531AAE400CA778D338 Name="i343::Animation::ControlParameter" Size="4">
+	<_4C5C4EA5505585531AAE400CA778D338 Name="i343::Animation::ControlParameter" Alt="263221ED40A3D01B" Size="4">
 		<_2 Name="Name" Offset="0" />
 	</_4C5C4EA5505585531AAE400CA778D338>
-	<_C78B4DC0FC0C48A66BC59A04ACE3526B Name="SelectionNodePose" Size="18">
+	<_C78B4DC0FC0C48A66BC59A04ACE3526B Name="SelectionNodePose" Alt="7BE8C6C262F8AE2" Size="18">
 		<_38 Name="Pose Connection" Offset="0" GUID="960A407C207D4883597FCE0E91E6238A" />
 	</_C78B4DC0FC0C48A66BC59A04ACE3526B>
-	<_13A64C28877296B615D675F19F094A01 Name="LayerNodeLayer" Size="5C">
+	<_13A64C28877296B615D675F19F094A01 Name="LayerNodeLayer" Alt="1F84CAE9A1DF68ED" Size="5C">
 		<_6 Name="Index" Offset="0" />
 		<_C Name="Mode" Offset="4" StructName1="LayerNodeMode">
 			<Flag n="Ignored" />
@@ -749,22 +749,22 @@
 		<_2 Name="Correction Pose Bone" Offset="40" />
 		<_38 Name="Replacement Anim Correction Pose Connection" Offset="44" GUID="960A407C207D4883597FCE0E91E6238A" />
 	</_13A64C28877296B615D675F19F094A01>
-	<_5F8A49456A81EF8ECB23969AA6385571 Name="AutoSpeedToken" Size="24">
+	<_5F8A49456A81EF8ECB23969AA6385571 Name="AutoSpeedToken" Alt="EE907DAD953E2010" Size="24">
 		<_2 Name="Animation Token" Offset="0" />
 		<_14 Name="Weight" Offset="4" />
 		<_38 Name="Subgraph Reference" Offset="8" GUID="97634F3D6C666E05AD23FE6BBC70A7CD" />
 	</_5F8A49456A81EF8ECB23969AA6385571>
-	<_42A3498AA3EB7EFE3290F4CC8AA82C64 Name="ConcatenateString" Size="104">
+	<_42A3498AA3EB7EFE3290F4CC8AA82C64 Name="ConcatenateString" Alt="5FE746A92451CE35" Size="104">
 		<_6 Name="Index" Offset="0" />
 		<_1 Name="String" Offset="4" />
 	</_42A3498AA3EB7EFE3290F4CC8AA82C64>
-	<_BC66489C5BD6C0516805B809B8D0C91B Name="SwitchIntInputValue" Size="4">
+	<_BC66489C5BD6C0516805B809B8D0C91B Name="SwitchIntInputValue" Alt="B057949A926D7E03" Size="4">
 		<_6 Name="Int Value" Offset="0" />
 	</_BC66489C5BD6C0516805B809B8D0C91B>
-	<_F6E3482692A0979A6D8C3EF597ECCDDA Name="SwitchStringInputValue" Size="4">
+	<_F6E3482692A0979A6D8C3EF597ECCDDA Name="SwitchStringInputValue" Alt="3C0B8E263895B83A" Size="4">
 		<_2 Name="String Value" Offset="0" />
 	</_F6E3482692A0979A6D8C3EF597ECCDDA>
-	<_5A4241F14BA919B1F25244D483029F5A Name="SwitchOnAssetInputValue" Size="20">
+	<_5A4241F14BA919B1F25244D483029F5A Name="SwitchOnAssetInputValue" Alt="9ED08A6A998B1325" Size="20">
 		<_41 Name="Asset Reference" Offset="0" Allowed="aTag" Flags="1" />
 		<_A Name="Is Asset Category" Offset="1C" StructName1="SwitchableAssetInputType">
 			<Flag n="Asset" />
@@ -772,7 +772,7 @@
 		</_A>
 		<_34 Name="generated_pade0fe" Offset="1D" Length="3" />
 	</_5A4241F14BA919B1F25244D483029F5A>
-	<_1DBF4746CBD8D9A4F1C06E689DDE3F47 Name="AnimationFKJointNames" Size="4">
+	<_1DBF4746CBD8D9A4F1C06E689DDE3F47 Name="AnimationFKJointNames" Alt="1DD9F28733FBD2D4" Size="4">
 		<_2 Name="Joint Name" Offset="0" />
 	</_1DBF4746CBD8D9A4F1C06E689DDE3F47>
 </root>

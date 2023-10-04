@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="hlodsettings" Parents="aTag" Index="-205">
-	<_34EE11E9FADE9A6CBFB073F0AD821831 Name="HlodSettings" Size="150">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="hlodsettings" Parents="aTag" Index="-205">
+	<_34EE11E9FADE9A6CBFB073F0AD821831 Name="HlodSettings" Alt="E1B282B5F2DFE7B6" Size="150">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_B Name="HlodGenerationPass" Offset="10" StructName1="eHlodGenerationPassStageComplex">
 			<Flag n="AggregationReduction" />
@@ -37,11 +37,11 @@
 		<_40 Name="HLOD Materials to put the geo directly into the HLOD, bypassing simplygon" Offset="120" GUID="032048272C202B977D30DABE766C5AD4" StructName1="HlodSettings" Min="0" Max="1024000" />
 		<_41 Name="Reference to a list of HLOD Materials to cut off mesh parts" Offset="134" Allowed="hlml" Flags="0" />
 	</_34EE11E9FADE9A6CBFB073F0AD821831>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_497A11E9DDB843F4BFB073F0B5A61831 Name="HlodSimplygonReductionSettings" Size="5C">
+	<_497A11E9DDB843F4BFB073F0B5A61831 Name="HlodSimplygonReductionSettings" Alt="C136BAC783E97808" Size="5C">
 		<_38 Name="RepairSettings" Offset="0" GUID="4A4411E9C42EC626BFB073F082121831" />
 		<_D Name="RepairStates" Offset="C" StructName1="HlodSimplygonRepairStates">
 			<Flag n="UseWelding" />
@@ -83,7 +83,7 @@
 		</_D>
 		<_38 Name="WeldingSettings" Offset="54" GUID="4F4E458AEC8DCA4BB393593386FFF3F7" />
 	</_497A11E9DDB843F4BFB073F0B5A61831>
-	<_230E427BDFF743728756B6109656B613 Name="HlodSimplygonRemeshingSettings" Size="40">
+	<_230E427BDFF743728756B6109656B613 Name="HlodSimplygonRemeshingSettings" Alt="7F501D006B1D69DE" Size="40">
 		<_6 Name="RemeshingOnScreenSize" Offset="0" />
 		<_14 Name="Derive From Distance Scale" Offset="4" />
 		<_3E Name="MaxTriangleSize" Offset="8" />
@@ -110,7 +110,7 @@
 			<Flag n="ChartAggregatorLockUVRotation" />
 		</_D>
 	</_230E427BDFF743728756B6109656B613>
-	<_497A11E9F6EF90FEBFB073F0999F1831 Name="HlodSimplygonAggregationSettings" Size="30">
+	<_497A11E9F6EF90FEBFB073F0999F1831 Name="HlodSimplygonAggregationSettings" Alt="AC0699E77DB2B022" Size="30">
 		<_38 Name="MappingImageSettings" Offset="0" GUID="4A4011E927B08198BFB073F0AB961831" />
 		<_D Name="MappingImageStates" Offset="20" StructName1="HlodSimplygonMappingImageStates">
 			<Flag n="GenerateMappingImage" />
@@ -130,11 +130,11 @@
 		<_34 Name="generated_pad1668" Offset="25" Length="3" />
 		<_38 Name="WeldingSettings" Offset="28" GUID="4F4E458AEC8DCA4BB393593386FFF3F7" />
 	</_497A11E9F6EF90FEBFB073F0999F1831>
-	<_E347135190420C658C8EA7B14B677461 Name="HlodShadowSettings" Size="8">
+	<_E347135190420C658C8EA7B14B677461 Name="HlodShadowSettings" Alt="8170960BAB44E1C3" Size="8">
 		<_6 Name="Assumed shadow map resolution" Offset="0" />
 		<_14 Name="Assumed shadow cascade transition distance" Offset="4" />
 	</_E347135190420C658C8EA7B14B677461>
-	<_1CC311EA897925C0BFB073F081CB1831 Name="HlodVisibilitySettings" Size="10">
+	<_1CC311EA897925C0BFB073F081CB1831 Name="HlodVisibilitySettings" Alt="81F3881FF0648E2D" Size="10">
 		<_B Name="ComputeVisibilityMode" Offset="0" StructName1="HlodSimplygonComputeVisibilityMode">
 			<Flag n="DirectX" />
 			<Flag n="Software" />
@@ -150,7 +150,7 @@
 			<Flag n="ConservativeMode" />
 		</_D>
 	</_1CC311EA897925C0BFB073F081CB1831>
-	<_1CC711EA1DBC70E1BFB073F0913B1831 Name="HlodSimplygonGlobalSettings" Size="4">
+	<_1CC711EA1DBC70E1BFB073F0913B1831 Name="HlodSimplygonGlobalSettings" Alt="4B6340538013F251" Size="4">
 		<_F Name="States" Offset="0" StructName1="HlodSimplygonGlobalStates">
 			<Flag n="ValidateProcessing" />
 			<Flag n="ValidateProcessingAssertOnError" />
@@ -164,22 +164,22 @@
 			<Flag n="High" />
 		</_B>
 	</_1CC711EA1DBC70E1BFB073F0913B1831>
-	<_032048272C202B977D30DABE766C5AD4 Name="HlodMaterialCutOffMeshParts" Size="1C">
+	<_032048272C202B977D30DABE766C5AD4 Name="HlodMaterialCutOffMeshParts" Alt="1B315E02051AAD86" Size="1C">
 		<_41 Name="Cut off mesh parts by this material" Offset="0" Allowed="shdr, shdv, mat , ngfc" Flags="9" />
 	</_032048272C202B977D30DABE766C5AD4>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_4A4411E9C42EC626BFB073F082121831 Name="HlodSimplygonRepairSettings" Size="C">
+	<_4A4411E9C42EC626BFB073F082121831 Name="HlodSimplygonRepairSettings" Alt="8EDCC5D661D96823" Size="C">
 		<_14 Name="TjuncDist" Offset="0" />
 		<_14 Name="WeldDist" Offset="4" />
 		<_3E Name="ProgressivePasses" Offset="8" />
 	</_4A4411E9C42EC626BFB073F082121831>
-	<_4A4511E91C53A880BFB073F0A8111831 Name="HlodSimplygonNormalSettings" Size="4">
+	<_4A4511E91C53A880BFB073F0A8111831 Name="HlodSimplygonNormalSettings" Alt="7E11AAF7B89DCF94" Size="4">
 		<_14 Name="HardEdgeAngleInRadians" Offset="0" />
 	</_4A4511E91C53A880BFB073F0A8111831>
-	<_4A4011E927B08198BFB073F0AB961831 Name="HlodSimplygonMappingImageSettings" Size="20">
+	<_4A4011E927B08198BFB073F0AB961831 Name="HlodSimplygonMappingImageSettings" Alt="3DCD215F73D3DBFA" Size="20">
 		<_14 Name="ParameterizerMaxStretch" Offset="0" />
 		<_14 Name="ParameterizerLargeChartsImportance" Offset="4" />
 		<_3E Name="GutterSpace" Offset="8" />
@@ -204,7 +204,7 @@
 			<Flag n="Control" />
 		</_B>
 	</_4A4011E927B08198BFB073F0AB961831>
-	<_4F4E458AEC8DCA4BB393593386FFF3F7 Name="HlodSimplygonWeldingSettings" Size="8">
+	<_4F4E458AEC8DCA4BB393593386FFF3F7 Name="HlodSimplygonWeldingSettings" Alt="972E48B22A8B3C83" Size="8">
 		<_D Name="UseWelding" Offset="0" StructName1="HlodSimplygonWeld">
 			<Flag n="UseWelding" />
 		</_D>

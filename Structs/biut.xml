@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="bitmap_usage_table" Parents="aTag" Index="-39">
-	<_668548DB57A56651B7F7F17DAC6990A5 Name="BitmapUsageTable" Size="50">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="bitmap_usage_table" Parents="aTag" Index="-39">
+	<_668548DB57A56651B7F7F17DAC6990A5 Name="BitmapUsageTable" Alt="18D2B00DA1DA5D94" Size="50">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Bitmap usage definitions" Offset="10" />
 		<_40 Name="bitmap usage definitions" Offset="10" GUID="64F444D809E0AE900BDCBD57AFC0FAB5" StructName1="BitmapUsageTable" Min="0" Max="1024" />
@@ -9,11 +9,11 @@
 		<_40 Name="usage backcompat" Offset="38" GUID="BE904B1137F91EF7CB65EFDEACD62A17" StructName1="BitmapUsageTable" Min="0" Max="256" />
 		<_34 Name="generated_pad2824" Offset="4C" Length="4" />
 	</_668548DB57A56651B7F7F17DAC6990A5>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_64F444D809E0AE900BDCBD57AFC0FAB5 Name="BitmapUsage" Size="30">
+	<_64F444D809E0AE900BDCBD57AFC0FAB5 Name="BitmapUsage" Alt="BB58D3E1FCDD47B9" Size="30">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="editor group" Offset="4" />
 		<_14 Name="source gamma" Offset="8" />
@@ -258,11 +258,11 @@
 			<Flag n="Rec2020" />
 		</_A>
 	</_64F444D809E0AE900BDCBD57AFC0FAB5>
-	<_CAF5474261C642B1877AE362B611367C Name="BitmapUsageTable::BitmapSuffixes" Size="8">
+	<_CAF5474261C642B1877AE362B611367C Name="BitmapUsageTable::BitmapSuffixes" Alt="BB36AB34B404417B" Size="8">
 		<_2 Name="suffix" Offset="0" />
 		<_2 Name="usage" type="sted" Offset="4" />
 	</_CAF5474261C642B1877AE362B611367C>
-	<_BE904B1137F91EF7CB65EFDEACD62A17 Name="BitmapUsageTable::BackcompatUsage" Size="8">
+	<_BE904B1137F91EF7CB65EFDEACD62A17 Name="BitmapUsageTable::BackcompatUsage" Alt="5BA0159506872DCD" Size="8">
 		<_C Name="Usage Enum" Offset="0" StructName1="GlobalBitmapUsage">
 			<Flag n="Diffuse Map" />
 			<Flag n="Linear Control Map" />
@@ -331,7 +331,7 @@
 		</_C>
 		<_2 Name="usage" type="sted" Offset="4" />
 	</_BE904B1137F91EF7CB65EFDEACD62A17>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>

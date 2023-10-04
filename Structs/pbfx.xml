@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="PropertyBasedEffectsTag" Parents="aTag" Index="-303">
-	<_E01E46976E27483FB194E2A0B205A3F0 Name="i343::PropertyBasedEffects::TagDefinition" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="PropertyBasedEffectsTag" Parents="aTag" Index="-303">
+	<_E01E46976E27483FB194E2A0B205A3F0 Name="i343::PropertyBasedEffects::TagDefinition" Alt="7F099D1DF9388E7C" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="The following data pairs boolean malleable properties with full body effect tags.  It also assigns a priority to each pair. " Offset="10" />
 		<_40 Name="Full Body Effects" Offset="10" GUID="EF274E62793B8D9202515395B8C617AA" StructName1="i343::PropertyBasedEffects::TagDefinition" Min="0" Max="16" />
 		<_34 Name="generated_padb4c4" Offset="24" Length="4" />
 	</_E01E46976E27483FB194E2A0B205A3F0>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_EF274E62793B8D9202515395B8C617AA Name="i343::PropertyBasedEffects::KeyedEffectData" Size="24">
+	<_EF274E62793B8D9202515395B8C617AA Name="i343::PropertyBasedEffects::KeyedEffectData" Alt="4BE11B85DB9CEEA0" Size="24">
 		<_2 Name="Id" Offset="0" />
 		<_14 Name="Priority" Offset="4" />
 		<_41 Name="Effect" Offset="8" Allowed="effe" Flags="0" />
 	</_EF274E62793B8D9202515395B8C617AA>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="CoatingSwatch" Parents="aTag" Index="-70">
-	<_F05C40B7AD696130CFFEC2559B813788 Name="CoatingSwatchPODTag" Size="D8">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="CoatingSwatch" Parents="aTag" Index="-70">
+	<_F05C40B7AD696130CFFEC2559B813788 Name="CoatingSwatchPODTag" Alt="72D12878FDE9734C" Size="D8">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Parent" type="parr" Offset="10" Allowed="cmsw" Flags="1" />
 		<_37 Name="Base" type="fgrb" Offset="2C" />
@@ -33,11 +33,11 @@
 		<_14 Name="emissiveAmount" Offset="D4" />
 		<_37 Name="" type="fgre" Offset="D8" />
 	</_F05C40B7AD696130CFFEC2559B813788>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="FrameDefinition" Parents="aTag" Index="-394">
-	<_474F414930EBA88C09124B658C84A24E Name="i343::Objects::FrameDefinition" Size="58">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="FrameDefinition" Parents="aTag" Index="-394">
+	<_474F414930EBA88C09124B658C84A24E Name="i343::Objects::FrameDefinition" Alt="EC810205BBB5F884" Size="58">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="name" Offset="10" />
 		<_40 Name="limits" Offset="14" GUID="E7AB40ABE71ADDCEF198716EB12B3048" StructName1="i343::Objects::FrameDefinition" Min="0" Max="8" />
@@ -100,11 +100,11 @@
 		</_C>
 		<_34 Name="generated_pad0c49" Offset="54" Length="4" />
 	</_474F414930EBA88C09124B658C84A24E>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_E7AB40ABE71ADDCEF198716EB12B3048 Name="i343::Objects::FrameLimitEntry" Size="8">
+	<_E7AB40ABE71ADDCEF198716EB12B3048 Name="i343::Objects::FrameLimitEntry" Alt="A4638853EDBF148C" Size="8">
 		<_2 Name="type" Offset="0" />
 		<_3C Name="max" Offset="4" />
 		<_F Name="flags" Offset="5" StructName1="i343::Objects::FrameLimitEntryFlags">
@@ -114,7 +114,7 @@
 		</_F>
 		<_34 Name="generated_pad2c79" Offset="6" Length="2" />
 	</_E7AB40ABE71ADDCEF198716EB12B3048>
-	<_527141BBA146EEDDA8604AE890A7B07F Name="i343::Objects::FrameAttachmentEntry" Size="20">
+	<_527141BBA146EEDDA8604AE890A7B07F Name="i343::Objects::FrameAttachmentEntry" Alt="F88AEB469E59632D" Size="20">
 		<_41 Name="frame attachment" Offset="0" Allowed="sofa" Flags="0" />
 		<_A Name="set" Offset="1C" StructName1="i343::Objects::FrameAttachmentSet">
 			<Flag n="normal" />
@@ -129,7 +129,7 @@
 		</_A>
 		<_34 Name="generated_pad5209" Offset="1E" Length="2" />
 	</_527141BBA146EEDDA8604AE890A7B07F>
-	<_52C6472B6BB873FD804507D0909B9077 Name="Interface::UIItemInfo" Size="74">
+	<_52C6472B6BB873FD804507D0909B9077 Name="Interface::UIItemInfo" Alt="26B42BD7B0501528" Size="74">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="alt name " Offset="4" />
 		<_2 Name="description" Offset="8" />
@@ -142,8 +142,8 @@
 		<_6 Name="damage sprite index" Offset="54" />
 		<_41 Name="ui vehicle screen reference" Offset="58" Allowed="cusc" Flags="0" />
 	</_52C6472B6BB873FD804507D0909B9077>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

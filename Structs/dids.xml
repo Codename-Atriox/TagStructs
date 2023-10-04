@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="DialogDescriptions" Parents="aTag" Index="-100">
-	<_53C242AD91120580943DF7BAA5F29C3D Name="DialogDescriptionTag" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="DialogDescriptions" Parents="aTag" Index="-100">
+	<_53C242AD91120580943DF7BAA5F29C3D Name="DialogDescriptionTag" Alt="6F7CF2555EFF7E77" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Dialogs" Offset="10" />
 		<_40 Name="descriptions" Offset="10" GUID="94744F387C5393A4299DFBF48CC51E2D" StructName1="DialogDescriptionTag" Min="0" Max="256" />
 		<_34 Name="generated_padf92c" Offset="24" Length="4" />
 	</_53C242AD91120580943DF7BAA5F29C3D>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_94744F387C5393A4299DFBF48CC51E2D Name="s_gui_dialog_description" Size="28">
+	<_94744F387C5393A4299DFBF48CC51E2D Name="s_gui_dialog_description" Alt="5FE695B787221BCC" Size="28">
 		<_2 Name="dialog name" Offset="0" />
 		<_E Name="flags" Offset="4" StructName1="c_gui_dialog_description_flags">
 			<Flag n="unused" />
@@ -38,7 +38,7 @@
 			<Flag n="fourth item activates" />
 		</_B>
 	</_94744F387C5393A4299DFBF48CC51E2D>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>

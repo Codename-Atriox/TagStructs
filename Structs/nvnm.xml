@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="NavPointAnimationGroup" Parents="aTag" Index="-278">
-	<_AFF943578B2DBC87D983EBFC8A3E28BE Name="Interface::NavPoint::NavPointAnimationGroupTag" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="NavPointAnimationGroup" Parents="aTag" Index="-278">
+	<_AFF943578B2DBC87D983EBFC8A3E28BE Name="Interface::NavPoint::NavPointAnimationGroupTag" Alt="8B2B68F93B1A912" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Animations" Offset="10" GUID="C3664A5A08DB1A68A9CC2C0DB6B31FE4" StructName1="Interface::NavPoint::NavPointAnimationGroupTag" Min="0" Max="64" />
 		<_34 Name="generated_pad3780" Offset="24" Length="4" />
 	</_AFF943578B2DBC87D983EBFC8A3E28BE>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_C3664A5A08DB1A68A9CC2C0DB6B31FE4 Name="Interface::NavPoint::AnimationTag" Size="94">
+	<_C3664A5A08DB1A68A9CC2C0DB6B31FE4 Name="Interface::NavPoint::AnimationTag" Alt="3111B0EE33EFA3D2" Size="94">
 		<_2 Name="Animation Name" Offset="0" />
 		<_41 Name="Template Animation Group" Offset="4" Allowed="nvnm" Flags="0" />
 		<_2 Name="Template Animation Name" Offset="20" />
@@ -29,39 +29,39 @@
 		<_40 Name="Flipbook Tracks" Offset="6C" GUID="4DFC48787136DC727CA1471F9CF7A96C" StructName1="Interface::NavPoint::AnimationTag" Min="0" Max="4" />
 		<_40 Name="StringId Tracks" Offset="80" GUID="22AB44F06BDA64D6058799CFBC3434E0" StructName1="Interface::NavPoint::AnimationTag" Min="0" Max="4" />
 	</_C3664A5A08DB1A68A9CC2C0DB6B31FE4>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_58B14CA791AAE9E29A73D9D593F82658 Name="Interface::NavPoint::ColorTrackTag" Size="20">
+	<_58B14CA791AAE9E29A73D9D593F82658 Name="Interface::NavPoint::ColorTrackTag" Alt="E99CB377D961D63A" Size="20">
 		<_2 Name="Track Name" Offset="0" />
 		<_38 Name="Function" Offset="4" GUID="0276481E72CB9289F56D7C189467A351" />
 		<_2 Name="Destination Value" type="sted" Offset="1C" />
 	</_58B14CA791AAE9E29A73D9D593F82658>
-	<_D45441633D859ABEB0348615999354D1 Name="Interface::NavPoint::FloatTrackTag" Size="20">
+	<_D45441633D859ABEB0348615999354D1 Name="Interface::NavPoint::FloatTrackTag" Alt="54608E9587600C87" Size="20">
 		<_2 Name="Track Name" Offset="0" />
 		<_38 Name="Function" Offset="4" GUID="0276481E72CB9289F56D7C189467A351" />
 		<_14 Name="Destination Value" Offset="1C" />
 	</_D45441633D859ABEB0348615999354D1>
-	<_17C74E1A9E50ACF170E6177FBAFEFC31 Name="Interface::NavPoint::ImageTrackTag" Size="8">
+	<_17C74E1A9E50ACF170E6177FBAFEFC31 Name="Interface::NavPoint::ImageTrackTag" Alt="467807A1767DDB4D" Size="8">
 		<_2 Name="Track Name" Offset="0" />
 		<_6 Name="Destination Frame Index" Offset="4" />
 	</_17C74E1A9E50ACF170E6177FBAFEFC31>
-	<_4DFC48787136DC727CA1471F9CF7A96C Name="Interface::NavPoint::FlipbookTrackTag" Size="8">
+	<_4DFC48787136DC727CA1471F9CF7A96C Name="Interface::NavPoint::FlipbookTrackTag" Alt="4F7F78B641A74E5C" Size="8">
 		<_2 Name="Track Name" Offset="0" />
 		<_14 Name="Speed" Offset="4" />
 	</_4DFC48787136DC727CA1471F9CF7A96C>
-	<_22AB44F06BDA64D6058799CFBC3434E0 Name="Interface::NavPoint::StringIdTrackTag" Size="8">
+	<_22AB44F06BDA64D6058799CFBC3434E0 Name="Interface::NavPoint::StringIdTrackTag" Alt="916F32F798D058BB" Size="8">
 		<_2 Name="Track Name" Offset="0" />
 		<_2 Name="Destination StringId" Offset="4" />
 	</_22AB44F06BDA64D6058799CFBC3434E0>
-	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

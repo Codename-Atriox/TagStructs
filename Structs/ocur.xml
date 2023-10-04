@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="customizationthemeconfiguration" Parents="aTag" Index="-290">
-	<_11984C6FB4AAE66DB602FD0EB848DFA7 Name="i343::ObjectCustomization::ThemeConfiguration" Size="90">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="customizationthemeconfiguration" Parents="aTag" Index="-290">
+	<_11984C6FB4AAE66DB602FD0EB848DFA7 Name="i343::ObjectCustomization::ThemeConfiguration" Alt="1E41480F38F0736E" Size="90">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Regions" Offset="10" GUID="81794B092EC55B9956A488B3A2DFCA33" StructName1="i343::ObjectCustomization::ThemeConfiguration" Min="0" Max="256" />
 		<_40 Name="Attachments" Offset="24" GUID="A1624E16B157EBAB30BC573C8F85FADC" StructName1="i343::ObjectCustomization::ThemeConfiguration" Min="0" Max="128" />
@@ -9,46 +9,46 @@
 		<_40 Name="Emblems" Offset="60" GUID="EBDE4002CABEF73BFE7D7B3FAF4F7A08" StructName1="i343::ObjectCustomization::ThemeConfiguration" Min="0" Max="1" />
 		<_41 Name="Coating Styles" Offset="74" Allowed="cosm, rucs" Flags="1" />
 	</_11984C6FB4AAE66DB602FD0EB848DFA7>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_81794B092EC55B9956A488B3A2DFCA33 Name="i343::ObjectCustomization::Region" Size="2C">
+	<_81794B092EC55B9956A488B3A2DFCA33 Name="i343::ObjectCustomization::Region" Alt="5EB29BEF7D269E3A" Size="2C">
 		<_2 Name="Region Name" Offset="0" />
 		<_40 Name="Permutation Regions" Offset="4" GUID="933B4D0284D75DDF46917D0F99668D8C" StructName1="i343::ObjectCustomization::Region" Min="0" Max="16" />
 		<_40 Name="Permutation Settings" Offset="18" GUID="D9EE4AC768CB1B0AD7BFE6DB850E104A" StructName1="i343::ObjectCustomization::Region" Min="0" Max="256" />
 	</_81794B092EC55B9956A488B3A2DFCA33>
-	<_A1624E16B157EBAB30BC573C8F85FADC Name="i343::ObjectCustomization::Attachment" Size="1C">
+	<_A1624E16B157EBAB30BC573C8F85FADC Name="i343::ObjectCustomization::Attachment" Alt="83D888F48EC2FCBA" Size="1C">
 		<_41 Name="Attachment" Offset="0" Allowed="ocad" Flags="4" />
 	</_A1624E16B157EBAB30BC573C8F85FADC>
-	<_A6E444548C04C3FD7B508F5791595F90 Name="i343::ObjectCustomization::Meshes" Size="2C">
+	<_A6E444548C04C3FD7B508F5791595F90 Name="i343::ObjectCustomization::Meshes" Alt="D92023752DB27B91" Size="2C">
 		<_2 Name="Name" Offset="0" />
 		<_40 Name="Permutation Regions" Offset="4" GUID="933B4D0284D75DDF46917D0F99668D8C" StructName1="i343::ObjectCustomization::Meshes" Min="0" Max="16" />
 		<_40 Name="Permutation Settings" Offset="18" GUID="D9EE4AC768CB1B0AD7BFE6DB850E104A" StructName1="i343::ObjectCustomization::Meshes" Min="0" Max="256" />
 	</_A6E444548C04C3FD7B508F5791595F90>
-	<_EBDE4002CABEF73BFE7D7B3FAF4F7A08 Name="i343::ObjectCustomization::EmblemConfiguration" Size="3C">
+	<_EBDE4002CABEF73BFE7D7B3FAF4F7A08 Name="i343::ObjectCustomization::EmblemConfiguration" Alt="F26EBFD6B8345491" Size="3C">
 		<_40 Name="Theme Ids" Offset="0" GUID="BC814A093C466860D7399F7A8F796FAD" StructName1="i343::ObjectCustomization::EmblemConfiguration" Min="0" Max="1024" />
 		<_40 Name="Markers" Offset="14" GUID="F1E411E9B09FDEE6E2DBCCE4A7132A2A" StructName1="i343::ObjectCustomization::EmblemConfiguration" Min="0" Max="256" />
 		<_40 Name="BigEmblems" Offset="28" GUID="183841DF8A139DACC060C1CA9088A4B1" StructName1="i343::ObjectCustomization::EmblemConfiguration" Min="0" Max="100" />
 	</_EBDE4002CABEF73BFE7D7B3FAF4F7A08>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_933B4D0284D75DDF46917D0F99668D8C Name="i343::ObjectCustomization::PermutationRegions" Size="4">
+	<_933B4D0284D75DDF46917D0F99668D8C Name="i343::ObjectCustomization::PermutationRegions" Alt="117533128E183FDC" Size="4">
 		<_2 Name="Permutation Region" Offset="0" />
 	</_933B4D0284D75DDF46917D0F99668D8C>
-	<_D9EE4AC768CB1B0AD7BFE6DB850E104A Name="i343::ObjectCustomization::PermutationSettings" Size="20">
+	<_D9EE4AC768CB1B0AD7BFE6DB850E104A Name="i343::ObjectCustomization::PermutationSettings" Alt="BF8980B0376DD041" Size="20">
 		<_2 Name="Permutation Name" Offset="0" />
 		<_41 Name="Material Style" Offset="4" Allowed="mwsy" Flags="0" />
 	</_D9EE4AC768CB1B0AD7BFE6DB850E104A>
-	<_BC814A093C466860D7399F7A8F796FAD Name="Interface::EmblemElementName" Size="4">
+	<_BC814A093C466860D7399F7A8F796FAD Name="Interface::EmblemElementName" Alt="3F581C41986725A9" Size="4">
 		<_2 Name="id" Offset="0" />
 	</_BC814A093C466860D7399F7A8F796FAD>
-	<_F1E411E9B09FDEE6E2DBCCE4A7132A2A Name="i343::ObjectCustomization::EmblemMarker" Size="4">
+	<_F1E411E9B09FDEE6E2DBCCE4A7132A2A Name="i343::ObjectCustomization::EmblemMarker" Alt="ABC945FC3681D12A" Size="4">
 		<_2 Name="Marker" type="sted" Offset="0" />
 	</_F1E411E9B09FDEE6E2DBCCE4A7132A2A>
-	<_183841DF8A139DACC060C1CA9088A4B1 Name="i343::ObjectCustomization::BigEmblemConfiguration" Size="8">
+	<_183841DF8A139DACC060C1CA9088A4B1 Name="i343::ObjectCustomization::BigEmblemConfiguration" Alt="9244D9159A8D9518" Size="8">
 		<_2 Name="Theme Id" Offset="0" />
 		<_2 Name="Marker" type="sted" Offset="4" />
 	</_183841DF8A139DACC060C1CA9088A4B1>

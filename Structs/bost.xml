@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="UnitBoostDefinition" Parents="aTag" Index="-44">
-	<_8455498F8BF7296652CA9004B855B802 Name="i343::Units::BoostDefinition" Size="70">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="UnitBoostDefinition" Parents="aTag" Index="-44">
+	<_8455498F8BF7296652CA9004B855B802 Name="i343::Units::BoostDefinition" Alt="183503394BDE3272" Size="70">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="boost" Offset="10" GUID="370B402D4506D858CB94380383F08481" />
 		<_34 Name="generated_pada510" Offset="6C" Length="4" />
 	</_8455498F8BF7296652CA9004B855B802>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_370B402D4506D858CB94380383F08481 Name="Boost" Size="5C">
+	<_370B402D4506D858CB94380383F08481 Name="Boost" Alt="2CAAB225F0B29BB4" Size="5C">
 		<_41 Name="boost collision damage" Offset="0" Allowed="cddf" Flags="0" />
 		<_D Name="flags" Offset="1C" StructName1="Boost::BoostFlags">
 			<Flag n="pegs throttle" />
@@ -64,11 +64,11 @@
 			<Flag n="OrdersWeapon" />
 		</_C>
 	</_370B402D4506D858CB94380383F08481>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
 		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />

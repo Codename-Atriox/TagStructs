@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="marker" Parents="aTag" Index="-258">
-	<_7FAF4D213F39EFC29CBEF557A42C1E7A Name="MarkerTag" Size="60">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="marker" Parents="aTag" Index="-258">
+	<_7FAF4D213F39EFC29CBEF557A42C1E7A Name="MarkerTag" Alt="BBD8C812EA32A327" Size="60">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Marker Groups" Offset="10" GUID="D30342DC171A17B0DB7B5AC98229CF60" StructName1="MarkerTag" Min="0" Max="1024" />
 		<_40 Name="Hint Marker Groups" Offset="24" GUID="BA23452A72B6EDB5EE336ADA9A72E394" StructName1="MarkerTag" Min="0" Max="1024" />
 		<_40 Name="Pathfinding Markers" Offset="38" GUID="F2304241C099761EB5B07CE7AB14FD08" StructName1="MarkerTag" Min="0" Max="2048" />
 		<_40 Name="Target Marker Groups" Offset="4C" GUID="322145BD117F5EE27CCEF3DFACCEB6B0" StructName1="MarkerTag" Min="0" Max="1024" />
 	</_7FAF4D213F39EFC29CBEF557A42C1E7A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_D30342DC171A17B0DB7B5AC98229CF60 Name="MarkerGroupBlockWithHiddenVisualRegion" Size="18">
+	<_D30342DC171A17B0DB7B5AC98229CF60 Name="MarkerGroupBlockWithHiddenVisualRegion" Alt="1F0CDEA2315C1091" Size="18">
 		<_2 Name="Group" Offset="0" />
 		<_40 Name="Markers" Offset="4" GUID="BF8947C3E7C3FC2DC18193F2949C9914" StructName1="MarkerGroupBlockWithHiddenVisualRegion" Min="0" Max="2048" />
 	</_D30342DC171A17B0DB7B5AC98229CF60>
-	<_BA23452A72B6EDB5EE336ADA9A72E394 Name="HintMarkerGroupBlockWithHiddenVisualRegion" Size="18">
+	<_BA23452A72B6EDB5EE336ADA9A72E394 Name="HintMarkerGroupBlockWithHiddenVisualRegion" Alt="BB8C13ED13F3284" Size="18">
 		<_C Name="Hint Type" Offset="0" StructName1="HintMarkerType">
 			<Flag n="Bunker" />
 			<Flag n="Corner Left" />
@@ -27,7 +27,7 @@
 		</_C>
 		<_40 Name="Hint Markers" Offset="4" GUID="0CAA4395C6A94198641E9EC6A0CC39D1" StructName1="HintMarkerGroupBlockWithHiddenVisualRegion" Min="0" Max="2048" />
 	</_BA23452A72B6EDB5EE336ADA9A72E394>
-	<_F2304241C099761EB5B07CE7AB14FD08 Name="PathfindingMarkerBlock" Size="1C">
+	<_F2304241C099761EB5B07CE7AB14FD08 Name="PathfindingMarkerBlock" Alt="CD186DC686635F92" Size="1C">
 		<_2 Name="Name" Offset="0" />
 		<_2 Name="Parent" Offset="4" />
 		<_17 Name="Position" Offset="8" />
@@ -37,15 +37,15 @@
 			<Flag n="Remains When Open" />
 		</_D>
 	</_F2304241C099761EB5B07CE7AB14FD08>
-	<_322145BD117F5EE27CCEF3DFACCEB6B0 Name="TargetMarkerGroupBlockWithHiddenVisualRegion" Size="18">
+	<_322145BD117F5EE27CCEF3DFACCEB6B0 Name="TargetMarkerGroupBlockWithHiddenVisualRegion" Alt="3DC4CECB1E0315B9" Size="18">
 		<_2 Name="Group" Offset="0" />
 		<_40 Name="Target Markers" Offset="4" GUID="25D74D9AE9EF7B76519189AA94D54421" StructName1="TargetMarkerGroupBlockWithHiddenVisualRegion" Min="0" Max="2" />
 	</_322145BD117F5EE27CCEF3DFACCEB6B0>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_BF8947C3E7C3FC2DC18193F2949C9914 Name="ModelMarkerBlockWithHiddenVisualRegion" Size="3C">
+	<_BF8947C3E7C3FC2DC18193F2949C9914 Name="ModelMarkerBlockWithHiddenVisualRegion" Alt="33D4CE964209CCB4" Size="3C">
 		<_2 Name="Visual region name" Offset="0" />
 		<_2 Name="Name" Offset="4" />
 		<_2 Name="Parent" Offset="8" />
@@ -54,7 +54,7 @@
 		<_19 Name="Scale" Offset="24" />
 		<_19 Name="Direction" Offset="30" />
 	</_BF8947C3E7C3FC2DC18193F2949C9914>
-	<_0CAA4395C6A94198641E9EC6A0CC39D1 Name="HintMarkerBlockWithHiddenVisualRegion" Size="34">
+	<_0CAA4395C6A94198641E9EC6A0CC39D1 Name="HintMarkerBlockWithHiddenVisualRegion" Alt="2DA528813DF6C4D" Size="34">
 		<_2 Name="Visual region name" Offset="0" />
 		<_2 Name="Name" Offset="4" />
 		<_2 Name="Parent" Offset="8" />
@@ -63,7 +63,7 @@
 		<_19 Name="Scale" Offset="24" />
 		<_14 Name="Length" Offset="30" />
 	</_0CAA4395C6A94198641E9EC6A0CC39D1>
-	<_25D74D9AE9EF7B76519189AA94D54421 Name="TargetMarkerBlockWithHiddenVisualRegion" Size="1C">
+	<_25D74D9AE9EF7B76519189AA94D54421 Name="TargetMarkerBlockWithHiddenVisualRegion" Alt="3A2249F3422B8308" Size="1C">
 		<_2 Name="Visual region name" Offset="0" />
 		<_2 Name="Name" Offset="4" />
 		<_2 Name="Parent" Offset="8" />

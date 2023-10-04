@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="item" Parents="obje,aTag" Index="-218">
-	<_AD94443E21CDF7E38CFBEBBFAE80968D Name="ItemDefinition" Size="860">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="item" Parents="obje,aTag" Index="-218">
+	<_AD94443E21CDF7E38CFBEBBFAE80968D Name="ItemDefinition" Alt="71D67AAC6A41CB44" Size="860">
 		<_38 Name="object" Offset="0" GUID="F5FC457A94A95A6C803394F088A44257" />
 		<_37 Name="$$$ ITEM $$$" type="fgrb" Offset="6C8" />
 		<_D Name="item flags" Offset="6C8" StructName1="c_item_definition_flags">
@@ -79,7 +79,7 @@
 		<_37 Name="" type="fgre" Offset="860" />
 		<_37 Name="" type="fgre" Offset="860" />
 	</_AD94443E21CDF7E38CFBEBBFAE80968D>
-	<_F5FC457A94A95A6C803394F088A44257 Name="ObjectDefinition" Size="6C8">
+	<_F5FC457A94A95A6C803394F088A44257 Name="ObjectDefinition" Alt="E9D3B7114963AF53" Size="6C8">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="OBJECT" type="fgrb" Offset="10" />
 		<_5 Name="runtime object type" Offset="10" />
@@ -369,7 +369,7 @@
 		<_40 Name="Indirect Lighting Component" Offset="6B4" GUID="DC0B498741F543711B10766BA9E589C4" StructName1="ObjectDefinition" Min="0" Max="1" />
 		<_37 Name="" type="fgre" Offset="6C8" />
 	</_F5FC457A94A95A6C803394F088A44257>
-	<_74284819E62CC2A97C9DF7B1A1500139 Name="i343::Items::VariantHUDMessages" Size="3C">
+	<_74284819E62CC2A97C9DF7B1A1500139 Name="i343::Items::VariantHUDMessages" Alt="ABFFC3B51E82CF6D" Size="3C">
 		<_2 Name="variant name" type="sted" Offset="0" />
 		<_36 Name="Overrides" Offset="4" />
 		<_2 Name="Pickup" Offset="4" />
@@ -387,14 +387,14 @@
 		<_2 Name="Heat Warning" Offset="34" />
 		<_6 Name="damage sprite index" Offset="38" />
 	</_74284819E62CC2A97C9DF7B1A1500139>
-	<_479F42187A456E830736B520BEF99B2A Name="PredictedBitmapsBlock" Size="1C">
+	<_479F42187A456E830736B520BEF99B2A Name="PredictedBitmapsBlock" Alt="24F5423A41677ABD" Size="1C">
 		<_41 Name="bitmap" Offset="0" Allowed="bitm" Flags="0" />
 	</_479F42187A456E830736B520BEF99B2A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_C7C54C3CC77709096D467EDA88C749EF Name="ImpactAudioDefinition" Size="10">
+	<_C7C54C3CC77709096D467EDA88C749EF Name="ImpactAudioDefinition" Alt="6793D5CC00E1AF7D" Size="10">
 		<_37 Name="IMPACT AUDIO" type="fgrb" Offset="0" />
 		<_14 Name="small impact minimum speed" Offset="0" />
 		<_14 Name="medium impact minimum speed" Offset="4" />
@@ -402,13 +402,13 @@
 		<_14 Name="large impact maximum speed" Offset="C" />
 		<_37 Name="" type="fgre" Offset="10" />
 	</_C7C54C3CC77709096D467EDA88C749EF>
-	<_0F5F42F1DD2E8F6429BD247D8D1ADF7F Name="SidecarPathDefinition" Size="100">
+	<_0F5F42F1DD2E8F6429BD247D8D1ADF7F Name="SidecarPathDefinition" Alt="1A93E0691336F1BF" Size="100">
 		<_1 Name="sidecar path" Offset="0" />
 	</_0F5F42F1DD2E8F6429BD247D8D1ADF7F>
-	<_FF87433DC31A245D49183EE68FE5BB27 Name="i343::Damage::DamageSourceDefinition" Size="4">
+	<_FF87433DC31A245D49183EE68FE5BB27 Name="i343::Damage::DamageSourceDefinition" Alt="A20F74767C5A02F8" Size="4">
 		<_2 Name="Damage Source Name" Offset="0" />
 	</_FF87433DC31A245D49183EE68FE5BB27>
-	<_AAAA48FF7AD1FFFFFFE70E3BCB3677D4 Name="s_object_early_mover_obb_definition" Size="2C">
+	<_AAAA48FF7AD1FFFFFFE70E3BCB3677D4 Name="s_object_early_mover_obb_definition" Alt="BEFE6E17030908BA" Size="2C">
 		<_2 Name="node name" Offset="0" />
 		<_6 Name="runtime node index" Offset="4" />
 		<_14 Name="x0" Offset="8" />
@@ -419,7 +419,7 @@
 		<_14 Name="z1" Offset="1C" />
 		<_1C Name="angles" Offset="20" />
 	</_AAAA48FF7AD1FFFFFFE70E3BCB3677D4>
-	<_712E447D26FB5335AFFD787193F77F52 Name="object_ai_properties" Size="30">
+	<_712E447D26FB5335AFFD787193F77F52 Name="object_ai_properties" Alt="7EC23CAD6C9E0548" Size="30">
 		<_D Name="ai flags" Offset="0" StructName1="ObjectAIPropertiesFlags">
 			<Flag n="detroyable cover" />
 			<Flag n="pathfinding ignore when dead" />
@@ -464,7 +464,7 @@
 		<_40 Name="override heat generated per round" Offset="18" GUID="7BD242FE5A19E5B08B7ED393A3A82ABF" StructName1="object_ai_properties" Min="0" Max="2" />
 		<_14 Name="Actor LOD cost" Offset="2C" />
 	</_712E447D26FB5335AFFD787193F77F52>
-	<_41EE4DC2D2EFDBE682F5BAD9805F2410 Name="s_object_function_definition" Size="58">
+	<_41EE4DC2D2EFDBE682F5BAD9805F2410 Name="s_object_function_definition" Alt="85A30805739B1366" Size="58">
 		<_D Name="flags" Offset="0" StructName1="ObjectFunctionFlags">
 			<Flag n="invert" />
 			<Flag n="mapping does not controls active" />
@@ -493,19 +493,19 @@
 		<_40 Name="interpolation" Offset="40" GUID="AC0D4C1C5A96873E46288D2E8A0B6541" StructName1="s_object_function_definition" Min="0" Max="2" />
 		<_30 Name="runtime interpolator index" Offset="54" GUID="4BEE4DC2A2EFDBE632F5BAD9305F2410" StructName1="s_object_function_definition" Min="0" Max="256" />
 	</_41EE4DC2D2EFDBE682F5BAD9805F2410>
-	<_4BEE4DC2A2EFDBE632F5BAD9305F2410 Name="ObjectRuntimeInterpolatorFunctionsBlock" Size="4">
+	<_4BEE4DC2A2EFDBE632F5BAD9305F2410 Name="ObjectRuntimeInterpolatorFunctionsBlock" Alt="464B080D138AB3A" Size="4">
 		<_6 Name="runtime interpolator to object function mapping" Offset="0" />
 	</_4BEE4DC2A2EFDBE632F5BAD9305F2410>
-	<_AB6642CECD9999FC1EA31C54B74F1753 Name="ObjectFunctionSwitchDefinition" Size="1C">
+	<_AB6642CECD9999FC1EA31C54B74F1753 Name="ObjectFunctionSwitchDefinition" Alt="8CBB9F25B5578968" Size="1C">
 		<_2 Name="switch function name" type="sted" Offset="0" />
 		<_2 Name="export name" Offset="4" />
 		<_40 Name="switched functions" Offset="8" GUID="650F44BF42436123D73545F793C16EC7" StructName1="ObjectFunctionSwitchDefinition" Min="0" Max="8" />
 	</_AB6642CECD9999FC1EA31C54B74F1753>
-	<_9DED41975A471C4D7ADC2E1282842F00 Name="i343::Objects::ObjectFunctionForwarding" Size="4">
+	<_9DED41975A471C4D7ADC2E1282842F00 Name="i343::Objects::ObjectFunctionForwarding" Alt="179BD904F03AC038" Size="4">
 		<_36 Name="Object Function Forwarding" Offset="0" />
 		<_2 Name="function to forward" Offset="0" />
 	</_9DED41975A471C4D7ADC2E1282842F00>
-	<_A25D4B720C87C323E3236AAE92BC0A80 Name="i343::Objects::AmmoRefillVariant" Size="8">
+	<_A25D4B720C87C323E3236AAE92BC0A80 Name="i343::Objects::AmmoRefillVariant" Alt="EC6BAE8987DB5CE0" Size="8">
 		<_2 Name="variant name" type="sted" Offset="0" />
 		<_E Name="Ammo Refill Flags" Offset="4" StructName1="i343::Munitions::AmmoRefillTypeFlags">
 			<Flag n="None" />
@@ -520,7 +520,7 @@
 		</_F>
 		<_34 Name="generated_pad055c" Offset="7" Length="1" />
 	</_A25D4B720C87C323E3236AAE92BC0A80>
-	<_4775429C11097257EE75453FA775D933 Name="object_attachment_definition" Size="D0">
+	<_4775429C11097257EE75453FA775D933 Name="object_attachment_definition" Alt="FBE04A7307F1E5DB" Size="D0">
 		<_2 Name="name" Offset="0" />
 		<_41 Name="type" Offset="4" Allowed="tagg, ligh, gldf, ltvl, effe, lsnd, lens, cpem, egfd, decs" Flags="1" />
 		<_41 Name="tag graph output" Offset="20" Allowed="ligh, gldf, ltvl, effe, lsnd, lens, cpem, egfd, decs" Flags="0" />
@@ -551,13 +551,13 @@
 		<_2 Name="primary scale" type="sted" Offset="C8" />
 		<_2 Name="secondary scale" type="sted" Offset="CC" />
 	</_4775429C11097257EE75453FA775D933>
-	<_4776429C12097557EE75A83FA775A933 Name="object_indirect_lighting_settings_definition" Size="48">
+	<_4776429C12097557EE75A83FA775A933 Name="object_indirect_lighting_settings_definition" Alt="E6740089E335184E" Size="48">
 		<_2 Name="Name" Offset="0" />
 		<_40 Name="Variant names" Offset="4" GUID="727F437E3853EE60753D9D508599809E" StructName1="object_indirect_lighting_settings_definition" Min="0" Max="64" />
 		<_41 Name="Object Lightmap" Offset="18" Allowed="stlm" Flags="0" />
 		<_40 Name="Object Cubemap set" Offset="34" GUID="D1CE481ABA187D43BE71513CBC6C9C8B" StructName1="object_indirect_lighting_settings_definition" Min="0" Max="1048576" />
 	</_4776429C12097557EE75A83FA775A933>
-	<_124B45F8201415C3A4AD5B50B7118F83 Name="s_water_physics_hull_surface_definition" Size="20">
+	<_124B45F8201415C3A4AD5B50B7118F83 Name="s_water_physics_hull_surface_definition" Alt="C128501D236A5EB1" Size="20">
 		<_E Name="flags" Offset="0" StructName1="s_water_physics_hull_surface_definition::c_flags">
 			<Flag n="works on land" />
 			<Flag n="effects only" />
@@ -568,7 +568,7 @@
 		<_14 Name="radius" Offset="8" />
 		<_40 Name="drag" Offset="C" GUID="236044FA520E02BAA40AF1D2A55378A7" StructName1="s_water_physics_hull_surface_definition" Min="0" Max="512" />
 	</_124B45F8201415C3A4AD5B50B7118F83>
-	<_0A224BC5C47AA87279969CAB9B77C993 Name="s_jetwash_definition" Size="24">
+	<_0A224BC5C47AA87279969CAB9B77C993 Name="s_jetwash_definition" Alt="CD920FFA5D7BA9D8" Size="24">
 		<_37 Name="" type="amkr" Offset="0" />
 		<_2 Name="marker name" Offset="0" />
 		<_14 Name="radius" Offset="4" />
@@ -578,14 +578,14 @@
 		<_24 Name="trace pitch angle" Offset="18" />
 		<_14 Name="particle offset" Offset="20" />
 	</_0A224BC5C47AA87279969CAB9B77C993>
-	<_A5AA466162919B1E3AC0DDAAB8317D8A Name="object_definition_widget" Size="1C">
+	<_A5AA466162919B1E3AC0DDAAB8317D8A Name="object_definition_widget" Alt="475EAF6A5E0DE397" Size="1C">
 		<_41 Name="type" Offset="0" Allowed="ant!, clwd" Flags="0" />
 	</_A5AA466162919B1E3AC0DDAAB8317D8A>
-	<_8F3241C90AB056AD9B24F6FE9EDBB26A Name="object_change_color_definition" Size="28">
+	<_8F3241C90AB056AD9B24F6FE9EDBB26A Name="object_change_color_definition" Alt="64E970E569168E31" Size="28">
 		<_40 Name="initial permutations" Offset="0" GUID="A7A64D2EFC403E79C2A06C7BAD0C6C21" StructName1="object_change_color_definition" Min="0" Max="32" />
 		<_40 Name="functions" Offset="14" GUID="BA0D4F589F69CB7CD0A89C2896CEA30C" StructName1="object_change_color_definition" Min="0" Max="4" />
 	</_8F3241C90AB056AD9B24F6FE9EDBB26A>
-	<_E97643DE027B026373AEE467B173536B Name="s_multiplayer_object_properties_definition" Size="128">
+	<_E97643DE027B026373AEE467B173536B Name="s_multiplayer_object_properties_definition" Alt="2BB1D6186D0DBAB1" Size="128">
 		<_36 Name="TYPE AND FLAGS" Offset="0" />
 		<_A Name="type" Offset="0" StructName1="c_multiplayer_object_type">
 			<Flag n="ordinary" />
@@ -742,7 +742,7 @@
 		</_A>
 		<_34 Name="generated_pad5143" Offset="125" Length="3" />
 	</_E97643DE027B026373AEE467B173536B>
-	<_73B5417889E8F6A5AFB087CBB90826AF Name="i343::Objects::ForgeObjectEntryDefinition" Size="54">
+	<_73B5417889E8F6A5AFB087CBB90826AF Name="i343::Objects::ForgeObjectEntryDefinition" Alt="FAEDA75C578DF52B" Size="54">
 		<_41 Name="Palette" Offset="0" Allowed="fpal" Flags="0" />
 		<_2 Name="Name" Offset="1C" />
 		<_2 Name="Description" Offset="20" />
@@ -751,18 +751,18 @@
 		<_41 Name="Configuration" Offset="2C" Allowed="vcdd, wcfg" Flags="0" />
 		<_19 Name="Starting yaw/pitch/roll" Offset="48" />
 	</_73B5417889E8F6A5AFB087CBB90826AF>
-	<_4BD44D30CAA36528A3A75C3292DBFEEC Name="s_object_spawn_effects" Size="38">
+	<_4BD44D30CAA36528A3A75C3292DBFEEC Name="s_object_spawn_effects" Alt="8377108A8EDC8F12" Size="38">
 		<_36 Name="Spawn Effects" Offset="0" />
 		<_41 Name="multiplayer spawn effect" Offset="0" Allowed="effe" Flags="0" />
 		<_41 Name="campaign spawn effect" Offset="1C" Allowed="effe" Flags="0" />
 	</_4BD44D30CAA36528A3A75C3292DBFEEC>
-	<_93E94F6B95694A9F96A8A3498959AD40 Name="ModelDissolveDataBlock" Size="1C">
+	<_93E94F6B95694A9F96A8A3498959AD40 Name="ModelDissolveDataBlock" Alt="8BEB5E5EA38CDD07" Size="1C">
 		<_41 Name="model dissolve data" Offset="0" Allowed="mdsv" Flags="0" />
 	</_93E94F6B95694A9F96A8A3498959AD40>
-	<_AAAE49B0D5081A5A984C1A8BA3DD5C21 Name="HsReferencesBlock" Size="1C">
+	<_AAAE49B0D5081A5A984C1A8BA3DD5C21 Name="HsReferencesBlock" Alt="CAFCDA8D5C315521" Size="1C">
 		<_41 Name="reference" Offset="0" Allowed="aTag" Flags="0" />
 	</_AAAE49B0D5081A5A984C1A8BA3DD5C21>
-	<_6EE940457F949B787FEFA28A95026EDA Name="ObjectAbandonmentDefinition" Size="C">
+	<_6EE940457F949B787FEFA28A95026EDA Name="ObjectAbandonmentDefinition" Alt="E35C3B709F31B86F" Size="C">
 		<_14 Name="Vitality Limit To Start Countdown" Offset="0" />
 		<_14 Name="Countdown Time In Seconds" Offset="4" />
 		<_F Name="flags" Offset="8" StructName1="ObjectAbandonmentDefinition::c_flags">
@@ -771,27 +771,27 @@
 		</_F>
 		<_34 Name="generated_pade8bf" Offset="9" Length="3" />
 	</_6EE940457F949B787FEFA28A95026EDA>
-	<_66974B5B7A236D95F43A8A409414695B Name="s_object_meta_label" Size="4">
+	<_66974B5B7A236D95F43A8A409414695B Name="s_object_meta_label" Alt="470D21C1A8F5C28C" Size="4">
 		<_2 Name="meta label" Offset="0" />
 	</_66974B5B7A236D95F43A8A409414695B>
-	<_114741776EDCFD781DD674B5B8274D64 Name="SoundRTPCBlockDefinition" Size="10">
+	<_114741776EDCFD781DD674B5B8274D64 Name="SoundRTPCBlockDefinition" Alt="2C4DA6634F800451" Size="10">
 		<_30 Name="Attachment Index" Offset="0" GUID="4775429C11097257EE75453FA775D933" StructName1="SoundRTPCBlockDefinition" Min="0" Max="48" />
 		<_2 Name="Function" type="sted" Offset="4" />
 		<_2 Name="RTPC Name" Offset="8" />
 		<_6 Name="RTPC name hash value" Offset="C" />
 	</_114741776EDCFD781DD674B5B8274D64>
-	<_7A814B2A443F16AAF7A23C5C81FB74DE Name="SoundSweetenerBlockDefinition" Size="28">
+	<_7A814B2A443F16AAF7A23C5C81FB74DE Name="SoundSweetenerBlockDefinition" Alt="8E673F2863D67D9E" Size="28">
 		<_2 Name="Function" type="sted" Offset="0" />
 		<_41 Name="sound" Offset="4" Allowed="snd!" Flags="0" />
 		<_14 Name="Switch point" Offset="20" />
 		<_6 Name="Mode" Offset="24" />
 	</_7A814B2A443F16AAF7A23C5C81FB74DE>
-	<_B1C94EFF1D4D4AB4B92FF934B56766B5 Name="i343::Objects::ComputeFunctionSmoothingBlockDefinition" Size="C">
+	<_B1C94EFF1D4D4AB4B92FF934B56766B5 Name="i343::Objects::ComputeFunctionSmoothingBlockDefinition" Alt="221AA105BC9A5700" Size="C">
 		<_2 Name="id" Offset="0" />
 		<_2 Name="alias of" Offset="4" />
 		<_15 Name="smoothing factor" Offset="8" />
 	</_B1C94EFF1D4D4AB4B92FF934B56766B5>
-	<_B52A42D5C3031D37424678BCBE0FD563 Name="i343::SpartanTracking::ObjectDefinition" Size="6C">
+	<_B52A42D5C3031D37424678BCBE0FD563 Name="i343::SpartanTracking::ObjectDefinition" Alt="9F13A6891DA5AD76" Size="6C">
 		<_36 Name="Map these settings to a ping type" Offset="0" />
 		<_F Name="flags" Offset="0" StructName1="i343::SpartanTracking::ObjectDefinition::Flags">
 			<Flag n="trackable" />
@@ -835,19 +835,19 @@
 		<_41 Name="outline override" Offset="50" Allowed="ostd" Flags="0" />
 		<_37 Name="" type="fgre" Offset="6C" />
 	</_B52A42D5C3031D37424678BCBE0FD563>
-	<_EFFE48CE2E60A80A0CE20619AC10E461 Name="InteractionOpportunityDefinition" Size="18">
+	<_EFFE48CE2E60A80A0CE20619AC10E461 Name="InteractionOpportunityDefinition" Alt="9F461321F8771CEC" Size="18">
 		<_2 Name="Marker" Offset="0" />
 		<_40 Name="Ambient Info" Offset="4" GUID="EFFE48AE2E60A80B0CA20619AC10EA61" StructName1="InteractionOpportunityDefinition" Min="0" Max="512" />
 	</_EFFE48CE2E60A80A0CE20619AC10E461>
-	<_45604F6F524A3900029978AAB022F397 Name="ScriptedSequenceActionDefinition" Size="34">
+	<_45604F6F524A3900029978AAB022F397 Name="ScriptedSequenceActionDefinition" Alt="DAB81EA681BCD" Size="34">
 		<_0 Name="Prototype trigger lua function name" Offset="0" />
 		<_40 Name="Component Actions" Offset="20" GUID="9DD5407D832FAA5EBFC8B624AB81CED7" StructName1="ScriptedSequenceActionDefinition" Min="0" Max="8" />
 	</_45604F6F524A3900029978AAB022F397>
-	<_E35A4AF4D25B6CBD30743D9EB98C5D63 Name="AnimSetTableDefinition" Size="28">
+	<_E35A4AF4D25B6CBD30743D9EB98C5D63 Name="AnimSetTableDefinition" Alt="9ED69F24DBFF17C1" Size="28">
 		<_40 Name="channels" Offset="0" GUID="5D194D5AFB54B16AB052747FB5F249F7" StructName1="AnimSetTableDefinition" Min="0" Max="8" />
 		<_40 Name="table entries" Offset="14" GUID="CEF34383ABFD9EE2AAD9278181E4EF0A" StructName1="AnimSetTableDefinition" Min="0" Max="256" />
 	</_E35A4AF4D25B6CBD30743D9EB98C5D63>
-	<_11AE4DE2ED0A143A7C82B28C9D4395DA Name="RootBoneCorrectionSettings" Size="C">
+	<_11AE4DE2ED0A143A7C82B28C9D4395DA Name="RootBoneCorrectionSettings" Alt="DB6542066D1E002B" Size="C">
 		<_F Name="flags" Offset="0" StructName1="RootBoneCorrectionFlags">
 			<Flag n="AnimEventFunctionOverrideCorrectionType" />
 		</_F>
@@ -864,7 +864,7 @@
 		</_A>
 		<_34 Name="generated_padbdae" Offset="9" Length="3" />
 	</_11AE4DE2ED0A143A7C82B28C9D4395DA>
-	<_7308477FF918F0FA91660B26AD188BAB Name="LegGroundingSettings" Size="14">
+	<_7308477FF918F0FA91660B26AD188BAB Name="LegGroundingSettings" Alt="480C1E1EE05EA6AF" Size="14">
 		<_2 Name="Marker" Offset="0" />
 		<_14 Name="Planted Threshold" Offset="4" />
 		<_14 Name="Lifted Threshold" Offset="8" />
@@ -928,7 +928,7 @@
 		</_B>
 		<_34 Name="generated_paddc16" Offset="12" Length="2" />
 	</_7308477FF918F0FA91660B26AD188BAB>
-	<_F773409B74B26D9D525AC5EA87FC4CEA Name="i343::Objects::ObjectNodeGraphDefinition" Size="24">
+	<_F773409B74B26D9D525AC5EA87FC4CEA Name="i343::Objects::ObjectNodeGraphDefinition" Alt="3907973BD3A74A62" Size="24">
 		<_2 Name="Name" Offset="0" />
 		<_41 Name="Exported Node Graph" Offset="4" Allowed="xong" Flags="0" />
 		<_F Name="Flags" Offset="20" StructName1="ObjectNodeGraphFlags">
@@ -943,7 +943,7 @@
 		</_A>
 		<_34 Name="generated_pad8671" Offset="22" Length="2" />
 	</_F773409B74B26D9D525AC5EA87FC4CEA>
-	<_2C34417E630FDAE1B2E8522CAE14EF5E Name="i343::Objects::AnimationMatchingTableEntry" Size="10">
+	<_2C34417E630FDAE1B2E8522CAE14EF5E Name="i343::Objects::AnimationMatchingTableEntry" Alt="C6448A9DD895E811" Size="10">
 		<_36 Name="ANIMATION REMAPPING" Offset="0" />
 		<_2 Name="animation on parent" Offset="0" />
 		<_2 Name="animation to play on object" Offset="4" />
@@ -954,12 +954,12 @@
 		</_A>
 		<_34 Name="generated_pad97f6" Offset="D" Length="3" />
 	</_2C34417E630FDAE1B2E8522CAE14EF5E>
-	<_FEA74B6E34E9F8323CBD7F7196702C69 Name="i343::Objects::ModelVariantSwappingTableEntry" Size="10">
+	<_FEA74B6E34E9F8323CBD7F7196702C69 Name="i343::Objects::ModelVariantSwappingTableEntry" Alt="BA3D972421912368" Size="10">
 		<_25 Name="function result range" Offset="0" />
 		<_2 Name="required parent marker" Offset="8" />
 		<_2 Name="model variant name" type="sted" Offset="C" />
 	</_FEA74B6E34E9F8323CBD7F7196702C69>
-	<_D3D9420D2F4640FED9351CE2AAC5B030 Name="i343::Items::LocationSensorDefinition" Size="AC">
+	<_D3D9420D2F4640FED9351CE2AAC5B030 Name="i343::Items::LocationSensorDefinition" Alt="A70BE885908D2D58" Size="AC">
 		<_37 Name="Sensor Parameters" type="fgrb" Offset="0" />
 		<_D Name="sensor flags" Offset="0" StructName1="i343::Items::LocationSensorFlags">
 			<Flag n="use proximity activation" />
@@ -998,7 +998,7 @@
 		<_2 Name="target navpoint marker" Offset="A8" />
 		<_37 Name="" type="fgre" Offset="AC" />
 	</_D3D9420D2F4640FED9351CE2AAC5B030>
-	<_715341E94055CDAC38D93DD890D14658 Name="i343::Items::ShroudGeneratorDefinition" Size="9C">
+	<_715341E94055CDAC38D93DD890D14658 Name="i343::Items::ShroudGeneratorDefinition" Alt="5935E2535A3DDAF3" Size="9C">
 		<_14 Name="radius" Offset="0" />
 		<_2 Name="active object function name" Offset="4" />
 		<_15 Name="active threshold fraction" Offset="8" />
@@ -1009,7 +1009,7 @@
 		<_41 Name="biped inside effect" Offset="64" Allowed="effe" Flags="0" />
 		<_41 Name="biped leave effect" Offset="80" Allowed="effe" Flags="0" />
 	</_715341E94055CDAC38D93DD890D14658>
-	<_D7104E3BB95AFC0811C2230B8F558E47 Name="i343::Items::RepairFieldDefinition" Size="7C">
+	<_D7104E3BB95AFC0811C2230B8F558E47 Name="i343::Items::RepairFieldDefinition" Alt="4B91DDFCEAF21A55" Size="7C">
 		<_37 Name="Field Parameters" type="fgrb" Offset="0" />
 		<_D Name="field flags" Offset="0" StructName1="i343::Items::RepairFieldFlags">
 			<Flag n="revives participant bipeds" />
@@ -1035,7 +1035,7 @@
 		<_41 Name="biped revive effect" Offset="60" Allowed="effe" Flags="0" />
 		<_37 Name="" type="fgre" Offset="7C" />
 	</_D7104E3BB95AFC0811C2230B8F558E47>
-	<_CDC842658D2CDD5A0386628B97C99B10 Name="i343::Objects::PowerComponentDefinition" Size="7C">
+	<_CDC842658D2CDD5A0386628B97C99B10 Name="i343::Objects::PowerComponentDefinition" Alt="B412586B81A3DEB2" Size="7C">
 		<_36 Name="Power Component System" Offset="0" />
 		<_40 Name="power source configurations" Offset="0" GUID="5BE94CF7C42F77B266F96900B6720E0D" StructName1="i343::Objects::PowerComponentDefinition" Min="0" Max="40" />
 		<_40 Name="power sources" Offset="14" GUID="51FF42F7BB73BE8A1C4538369FF7C18F" StructName1="i343::Objects::PowerComponentDefinition" Min="0" Max="8" />
@@ -1054,28 +1054,28 @@
 		<_2 Name="weapon power modifier id" Offset="78" />
 		<_37 Name="" type="fgre" Offset="7C" />
 	</_CDC842658D2CDD5A0386628B97C99B10>
-	<_595C4BCB6B458A19C8B900699C4E8800 Name="i343::Objects::SelfDestructHandlerDefinition" Size="14">
+	<_595C4BCB6B458A19C8B900699C4E8800 Name="i343::Objects::SelfDestructHandlerDefinition" Alt="CD249C11D4BCAF1A" Size="14">
 		<_40 Name="Self destruct sounds" Offset="0" GUID="28FD49541DA02BD2F281440CB845AEFF" StructName1="i343::Objects::SelfDestructHandlerDefinition" Min="0" Max="4" />
 	</_595C4BCB6B458A19C8B900699C4E8800>
-	<_DC0B498741F543711B10766BA9E589C4 Name="i343::Objects::IndirectLightingComponentDefinition" Size="4">
+	<_DC0B498741F543711B10766BA9E589C4 Name="i343::Objects::IndirectLightingComponentDefinition" Alt="2F95CA1A159EB30D" Size="4">
 		<_2 Name="Lightmap attachment bone" Offset="0" />
 	</_DC0B498741F543711B10766BA9E589C4>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_7BD242FE5A19E5B08B7ED393A3A82ABF Name="i343::Weapon::AIHeatGeneratedPerRoundOverrideParam" Size="10">
+	<_7BD242FE5A19E5B08B7ED393A3A82ABF Name="i343::Weapon::AIHeatGeneratedPerRoundOverrideParam" Alt="707F3443775A02AD" Size="10">
 		<_14 Name="heat generated per round override (easy)" Offset="0" />
 		<_14 Name="heat generated per round override (normal)" Offset="4" />
 		<_14 Name="heat generated per round override (heroic)" Offset="8" />
 		<_14 Name="heat generated per round override (legendary)" Offset="C" />
 	</_7BD242FE5A19E5B08B7ED393A3A82ABF>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
-	<_AC0D4C1C5A96873E46288D2E8A0B6541 Name="s_object_function_interpolation_definition" Size="18">
+	<_AC0D4C1C5A96873E46288D2E8A0B6541 Name="s_object_function_interpolation_definition" Alt="ABF8EC9BCD327238" Size="18">
 		<_C Name="interpolation mode" Offset="0" StructName1="e_object_function_interpolation_mode">
 			<Flag n="constant velocity" />
 			<Flag n="linear acceleration" />
@@ -1089,33 +1089,33 @@
 		<_14 Name="spring c" Offset="10" />
 		<_14 Name="fraction" Offset="14" />
 	</_AC0D4C1C5A96873E46288D2E8A0B6541>
-	<_650F44BF42436123D73545F793C16EC7 Name="ObjectFunctionSwitchDefinition::Function" Size="C">
+	<_650F44BF42436123D73545F793C16EC7 Name="ObjectFunctionSwitchDefinition::Function" Alt="19DA04038BFBE16" Size="C">
 		<_25 Name="selection bounds" Offset="0" />
 		<_2 Name="function name" type="sted" Offset="8" />
 	</_650F44BF42436123D73545F793C16EC7>
-	<_217941128AACE34BC7334D2EA8F6C67D Name="TagGraph::TagGraphFloatParam" Size="8">
+	<_217941128AACE34BC7334D2EA8F6C67D Name="TagGraph::TagGraphFloatParam" Alt="805C37B6373130C3" Size="8">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_14 Name="value" Offset="4" />
 	</_217941128AACE34BC7334D2EA8F6C67D>
-	<_80204605BFA6F4BF93CDD10F96C1C2B9 Name="TagGraph::TagGraphBoolParam" Size="8">
+	<_80204605BFA6F4BF93CDD10F96C1C2B9 Name="TagGraph::TagGraphBoolParam" Alt="146004AB2C5FEE80" Size="8">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_F Name="value" Offset="4" StructName1="TagGraph::TagGraphBoolVariableValue">
 			<Flag n="value" />
 		</_F>
 		<_34 Name="generated_pad0473" Offset="5" Length="3" />
 	</_80204605BFA6F4BF93CDD10F96C1C2B9>
-	<_AF7648E707ABAC2BFB95694D48E79C90 Name="TagGraph::TagGraphInstanceVariableString" Size="8">
+	<_AF7648E707ABAC2BFB95694D48E79C90 Name="TagGraph::TagGraphInstanceVariableString" Alt="85B0F068C5FFF7F3" Size="8">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_2 Name="value" Offset="4" />
 	</_AF7648E707ABAC2BFB95694D48E79C90>
-	<_75F34BCE26A27E545DB61B22BEC316D9 Name="TagGraph::TagGraphInstanceVariableTagRef" Size="20">
+	<_75F34BCE26A27E545DB61B22BEC316D9 Name="TagGraph::TagGraphInstanceVariableTagRef" Alt="4EFA73BE4DD7CFD0" Size="20">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_41 Name="value" Offset="4" Allowed="aTag" Flags="0" />
 	</_75F34BCE26A27E545DB61B22BEC316D9>
-	<_727F437E3853EE60753D9D508599809E Name="i343::Objects::AttachmentVariantName" Size="4">
+	<_727F437E3853EE60753D9D508599809E Name="i343::Objects::AttachmentVariantName" Alt="881C8BF1B43606D4" Size="4">
 		<_2 Name="variant name" type="sted" Offset="0" />
 	</_727F437E3853EE60753D9D508599809E>
-	<_D1CE481ABA187D43BE71513CBC6C9C8B Name="CubemapVolume" Size="120">
+	<_D1CE481ABA187D43BE71513CBC6C9C8B Name="CubemapVolume" Alt="ACE679F3120A235B" Size="120">
 		<_2 Name="Name" Offset="0" />
 		<_6 Name="Guid" Offset="4" />
 		<_D Name="Flags" Offset="8" StructName1="CubemapFlagsClass">
@@ -1169,17 +1169,17 @@
 		</_B>
 		<_14 Name="Relevancy Radius" Offset="11C" />
 	</_D1CE481ABA187D43BE71513CBC6C9C8B>
-	<_236044FA520E02BAA40AF1D2A55378A7 Name="s_water_physics_drag_override" Size="44">
+	<_236044FA520E02BAA40AF1D2A55378A7 Name="s_water_physics_drag_override" Alt="8F796C1B195C375E" Size="44">
 		<_2 Name="material" type="sted" Offset="0" />
 		<_38 Name="drag" Offset="4" GUID="3E2D4059FCE5EAF24F5683D68C4C8BC2" />
 	</_236044FA520E02BAA40AF1D2A55378A7>
-	<_A7A64D2EFC403E79C2A06C7BAD0C6C21 Name="object_change_color_initial_permutation" Size="20">
+	<_A7A64D2EFC403E79C2A06C7BAD0C6C21 Name="object_change_color_initial_permutation" Alt="BF1E43BD531818D2" Size="20">
 		<_14 Name="weight" Offset="0" />
 		<_1F Name="color lower bound" Offset="4" />
 		<_1F Name="color upper bound" Offset="10" />
 		<_2 Name="variant name" type="sted" Offset="1C" />
 	</_A7A64D2EFC403E79C2A06C7BAD0C6C21>
-	<_BA0D4F589F69CB7CD0A89C2896CEA30C Name="object_change_color_function" Size="24">
+	<_BA0D4F589F69CB7CD0A89C2896CEA30C Name="object_change_color_function" Alt="E5A4DE4521F22A05" Size="24">
 		<_D Name="scale flags" Offset="0" StructName1="RGBColorInterpolateFlag">
 			<Flag n="blend in hsv" />
 			<Flag n="...more colors" />
@@ -1189,10 +1189,10 @@
 		<_2 Name="darken by" Offset="1C" />
 		<_2 Name="scale by" Offset="20" />
 	</_BA0D4F589F69CB7CD0A89C2896CEA30C>
-	<_3D0340DE506E405F8F7516C3989E403D Name="SpawnInfluenceWeightFalloffFunctionBlock" Size="18">
+	<_3D0340DE506E405F8F7516C3989E403D Name="SpawnInfluenceWeightFalloffFunctionBlock" Alt="D1B3F8093C3DED2A" Size="18">
 		<_38 Name="function" Offset="0" GUID="0276481E72CB9289F56D7C189467A351" />
 	</_3D0340DE506E405F8F7516C3989E403D>
-	<_EFFE48AE2E60A80B0CA20619AC10EA61 Name="AmbientActionInfo" Size="7C">
+	<_EFFE48AE2E60A80B0CA20619AC10EA61 Name="AmbientActionInfo" Alt="1154EAF3403BA9B9" Size="7C">
 		<_A Name="desire type" Offset="0" StructName1="i343::InteractiveObjects::InteractiveDesire">
 			<Flag n="Scripted" />
 			<Flag n="Health" />
@@ -1293,14 +1293,14 @@
 		<_14 Name="Max Enemy Target Distance" Offset="74" />
 		<_14 Name="Max Height Difference" Offset="78" />
 	</_EFFE48AE2E60A80B0CA20619AC10EA61>
-	<_9DD5407D832FAA5EBFC8B624AB81CED7 Name="ScriptedSequenceComponentAction" Size="40">
+	<_9DD5407D832FAA5EBFC8B624AB81CED7 Name="ScriptedSequenceComponentAction" Alt="D9092697B613A16" Size="40">
 		<_0 Name="Request action lua function name" Offset="0" />
 		<_0 Name="Go to next action condition lua function name" Offset="20" />
 	</_9DD5407D832FAA5EBFC8B624AB81CED7>
-	<_5D194D5AFB54B16AB052747FB5F249F7 Name="AnimChannelEntry" Size="4">
+	<_5D194D5AFB54B16AB052747FB5F249F7 Name="AnimChannelEntry" Alt="BDB4B09696008DBB" Size="4">
 		<_2 Name="channel" Offset="0" />
 	</_5D194D5AFB54B16AB052747FB5F249F7>
-	<_CEF34383ABFD9EE2AAD9278181E4EF0A Name="AnimSetTableEntry" Size="54">
+	<_CEF34383ABFD9EE2AAD9278181E4EF0A Name="AnimSetTableEntry" Alt="FAAAE151F58D4E87" Size="54">
 		<_2 Name="token" Offset="0" />
 		<_41 Name="animset" Offset="4" Allowed="anim" Flags="1" />
 		<_41 Name="Runtime animset (used by code only)" Offset="20" Allowed="Rani" Flags="0" />
@@ -1311,29 +1311,29 @@
 		</_E>
 		<_40 Name="Variants" Offset="40" GUID="7B6740A9F70DA80ECC59EA99A45906DA" StructName1="AnimSetTableEntry" Min="0" Max="256" />
 	</_CEF34383ABFD9EE2AAD9278181E4EF0A>
-	<_5BE94CF7C42F77B266F96900B6720E0D Name="i343::Objects::PowerSourceConfiguration" Size="8">
+	<_5BE94CF7C42F77B266F96900B6720E0D Name="i343::Objects::PowerSourceConfiguration" Alt="8E89A1432082175C" Size="8">
 		<_2 Name="name" Offset="0" />
 		<_15 Name="capacity" Offset="4" />
 	</_5BE94CF7C42F77B266F96900B6720E0D>
-	<_51FF42F7BB73BE8A1C4538369FF7C18F Name="i343::Objects::PowerSourceDefinition" Size="1C">
+	<_51FF42F7BB73BE8A1C4538369FF7C18F Name="i343::Objects::PowerSourceDefinition" Alt="87C66643B86BF2E5" Size="1C">
 		<_2 Name="region name" type="sted" Offset="0" />
 		<_6 Name="runtime region index" Offset="4" />
 		<_36 Name="Model Region Damage State Configurations" Offset="8" />
 		<_40 Name="state configurations" Offset="8" GUID="CB6D43E45F5D6BE8FE2E6B1EBBC76085" StructName1="i343::Objects::PowerSourceDefinition" Min="0" Max="5" />
 	</_51FF42F7BB73BE8A1C4538369FF7C18F>
-	<_818146FFE14147A5797DC4A5A3CD1163 Name="i343::Objects::PowerSourceDefinitionReference" Size="2">
+	<_818146FFE14147A5797DC4A5A3CD1163 Name="i343::Objects::PowerSourceDefinitionReference" Alt="F3B67049AA724CD6" Size="2">
 		<_2E Name="component" Offset="0" GUID="51FF42F7BB73BE8A1C4538369FF7C18F" StructName1="i343::Objects::PowerSourceDefinitionReference" Min="0" Max="8" />
 	</_818146FFE14147A5797DC4A5A3CD1163>
-	<_DB6340E6F8D8B4A163AE2E8B97EA8CBB Name="i343::MalleableProperty::BaseFloatStructDefinition" Size="C">
+	<_DB6340E6F8D8B4A163AE2E8B97EA8CBB Name="i343::MalleableProperty::BaseFloatStructDefinition" Alt="A276DB883D38A54E" Size="C">
 		<_14 Name="Base Value" Offset="0" />
 		<_25 Name="Value Bounds" Offset="4" />
 	</_DB6340E6F8D8B4A163AE2E8B97EA8CBB>
-	<_28FD49541DA02BD2F281440CB845AEFF Name="i343::Objects::SelfDestructSoundBlock" Size="20">
+	<_28FD49541DA02BD2F281440CB845AEFF Name="i343::Objects::SelfDestructSoundBlock" Alt="137CC1B0BCFF117B" Size="20">
 		<_36 Name="SELF DESTRUCTION SOUNDS" Offset="0" />
 		<_6 Name="active damage section count" Offset="0" />
 		<_41 Name="sound to play" Offset="4" Allowed="snd!" Flags="0" />
 	</_28FD49541DA02BD2F281440CB845AEFF>
-	<_B3764EDA2FF9A01B1E7F95ADB70B64FE Name="s_scenario_dumpling" Size="4C">
+	<_B3764EDA2FF9A01B1E7F95ADB70B64FE Name="s_scenario_dumpling" Alt="3DC91D8E63BB3996" Size="4C">
 		<_40 Name="inner points" Offset="0" GUID="9AAD49315B797CB13AE0B8EFA4D67F82" StructName1="s_scenario_dumpling" Min="0" Max="128" />
 		<_40 Name="outer points" Offset="14" GUID="9AAD49315B797CB13AE0B8EFA4D67F82" StructName1="s_scenario_dumpling" Min="0" Max="128" />
 		<_14 Name="height" Offset="28" />
@@ -1344,11 +1344,11 @@
 		<_14 Name="trivial cull radius squared" Offset="44" />
 		<_14 Name="bound volume" Offset="48" />
 	</_B3764EDA2FF9A01B1E7F95ADB70B64FE>
-	<_CAFD409521D5D5297D81B801A0BADD13 Name="EditorMetadata" Size="10C">
+	<_CAFD409521D5D5297D81B801A0BADD13 Name="EditorMetadata" Alt="8896C3D79F347A73" Size="10C">
 		<_1 Name="folder name" Offset="0" />
 		<_17 Name="local space pivot point position" Offset="100" />
 	</_CAFD409521D5D5297D81B801A0BADD13>
-	<_3E2D4059FCE5EAF24F5683D68C4C8BC2 Name="s_water_physics_drag_properties" Size="40">
+	<_3E2D4059FCE5EAF24F5683D68C4C8BC2 Name="s_water_physics_drag_properties" Alt="3D7DCEC43D075C52" Size="40">
 		<_37 Name="Pressure" type="fgrb" Offset="0" />
 		<_38 Name="pressure" Offset="0" GUID="AA0C4E01C5E705F144CC22DC981B4053" />
 		<_37 Name="" type="fgre" Offset="1C" />
@@ -1358,14 +1358,14 @@
 		<_14 Name="linear damping" Offset="38" />
 		<_14 Name="angular damping" Offset="3C" />
 	</_3E2D4059FCE5EAF24F5683D68C4C8BC2>
-	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_7B6740A9F70DA80ECC59EA99A45906DA Name="AnimSetTableEntryVariantID" Size="4">
+	<_7B6740A9F70DA80ECC59EA99A45906DA Name="AnimSetTableEntryVariantID" Alt="D24A736ED580A358" Size="4">
 		<_2 Name="Variant" type="sted" Offset="0" />
 	</_7B6740A9F70DA80ECC59EA99A45906DA>
-	<_CB6D43E45F5D6BE8FE2E6B1EBBC76085 Name="i343::Objects::PowerSourceStateConfiguration" Size="4">
+	<_CB6D43E45F5D6BE8FE2E6B1EBBC76085 Name="i343::Objects::PowerSourceStateConfiguration" Alt="DC7A0FE311377992" Size="4">
 		<_B Name="region state" Offset="0" StructName1="ModelStates">
 			<Flag n="default" />
 			<Flag n="minor damage" />
@@ -1375,10 +1375,10 @@
 		</_B>
 		<_2E Name="configuration" Offset="2" GUID="5BE94CF7C42F77B266F96900B6720E0D" StructName1="i343::Objects::PowerSourceStateConfiguration" Min="0" Max="40" />
 	</_CB6D43E45F5D6BE8FE2E6B1EBBC76085>
-	<_9AAD49315B797CB13AE0B8EFA4D67F82 Name="s_dumpling_sector_point" Size="C">
+	<_9AAD49315B797CB13AE0B8EFA4D67F82 Name="s_dumpling_sector_point" Alt="6A2D0015D2EC1E90" Size="C">
 		<_17 Name="position" Offset="0" />
 	</_9AAD49315B797CB13AE0B8EFA4D67F82>
-	<_AA0C4E01C5E705F144CC22DC981B4053 Name="s_physics_force_function" Size="1C">
+	<_AA0C4E01C5E705F144CC22DC981B4053 Name="s_physics_force_function" Alt="3342FDA36D992854" Size="1C">
 		<_37 Name="velocity to force" type="fned" Offset="0" />
 		<_38 Name="velocity to pressure" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 		<_14 Name="max velocity" Offset="18" />

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:21 PM" Name="weapon_attachment_heat" Parents="aTag" Index="-470">
-	<_8D9845F0D72F98F7AD5939271D16D8F5 Name="i343::Weapon::AttachmentHeatDefinition" Size="148">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:58 PM" Name="weapon_attachment_heat" Parents="aTag" Index="-470">
+	<_8D9845F0D72F98F7AD5939271D16D8F5 Name="i343::Weapon::AttachmentHeatDefinition" Alt="3E23E1ECD27E7603" Size="148">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="weapon attachment component" Offset="10" GUID="89184EDE128B8F41C1F5C4D699007385" />
 		<_38 Name="weapon attachment heat component" Offset="128" GUID="7B9E3703112DE33A241C1A87B471144B" />
 		<_34 Name="generated_padaac3" Offset="144" Length="4" />
 	</_8D9845F0D72F98F7AD5939271D16D8F5>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_89184EDE128B8F41C1F5C4D699007385 Name="i343::Weapon::AttachmentComponentDefinition" Size="118">
+	<_89184EDE128B8F41C1F5C4D699007385 Name="i343::Weapon::AttachmentComponentDefinition" Alt="BCCEC8F94CB5FA4C" Size="118">
 		<_37 Name="Weapon Attachment" type="fgrb" Offset="0" />
 		<_2 Name="variant region name" Offset="0" />
 		<_2 Name="variant permutation name" Offset="4" />
@@ -31,20 +31,20 @@
 		<_40 Name="UI display info" Offset="104" GUID="52C6472B6BB873FD804507D0909B9077" StructName1="i343::Weapon::AttachmentComponentDefinition" Min="0" Max="1" />
 		<_37 Name="" type="fgre" Offset="118" />
 	</_89184EDE128B8F41C1F5C4D699007385>
-	<_7B9E3703112DE33A241C1A87B471144B Name="i343::Weapon::AttachmentHeatComponentDefinition" Size="1C">
+	<_7B9E3703112DE33A241C1A87B471144B Name="i343::Weapon::AttachmentHeatComponentDefinition" Alt="3DDFC65E481D757C" Size="1C">
 		<_37 Name="Weapon Heat" type="fgrb" Offset="0" />
 		<_41 Name="overheated" Offset="0" Allowed="effe" Flags="0" />
 		<_37 Name="" type="fgre" Offset="1C" />
 	</_7B9E3703112DE33A241C1A87B471144B>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_EB864527F5DE3409AAD17E47A7C2911B Name="i343::Weapon::AttachmentRegionPermutationDefinition" Size="8">
+	<_EB864527F5DE3409AAD17E47A7C2911B Name="i343::Weapon::AttachmentRegionPermutationDefinition" Alt="54731020B62108CD" Size="8">
 		<_2 Name="region name" Offset="0" />
 		<_2 Name="permutation name" Offset="4" />
 	</_EB864527F5DE3409AAD17E47A7C2911B>
-	<_4775429C11097257EE75453FA775D933 Name="object_attachment_definition" Size="D0">
+	<_4775429C11097257EE75453FA775D933 Name="object_attachment_definition" Alt="FBE04A7307F1E5DB" Size="D0">
 		<_2 Name="name" Offset="0" />
 		<_41 Name="type" Offset="4" Allowed="tagg, ligh, gldf, ltvl, effe, lsnd, lens, cpem, egfd, decs" Flags="1" />
 		<_41 Name="tag graph output" Offset="20" Allowed="ligh, gldf, ltvl, effe, lsnd, lens, cpem, egfd, decs" Flags="0" />
@@ -75,27 +75,27 @@
 		<_2 Name="primary scale" type="sted" Offset="C8" />
 		<_2 Name="secondary scale" type="sted" Offset="CC" />
 	</_4775429C11097257EE75453FA775D933>
-	<_60FC40907166D96B7D15F0919CBF2E1C Name="i343::Damage::AttachmentNameDefinition" Size="4">
+	<_60FC40907166D96B7D15F0919CBF2E1C Name="i343::Damage::AttachmentNameDefinition" Alt="B6534A24A08DEF8" Size="4">
 		<_2 Name="Attachment Name" Offset="0" />
 	</_60FC40907166D96B7D15F0919CBF2E1C>
-	<_977C4A1869A0D8182A8D785C9C2CC52E Name="i343::Weapon::AttachmentObjectComponentDefinition" Size="24">
+	<_977C4A1869A0D8182A8D785C9C2CC52E Name="i343::Weapon::AttachmentObjectComponentDefinition" Alt="DF47A75E756CFB0A" Size="24">
 		<_41 Name="object" Offset="0" Allowed="obje" Flags="0" />
 		<_2 Name="weapon marker" Offset="1C" />
 		<_2 Name="attachment marker" Offset="20" />
 	</_977C4A1869A0D8182A8D785C9C2CC52E>
-	<_4ED54A0FDA8879984F1548408F3C1279 Name="i343::Weapon::AccuracyPropertyModifiersDefinition" Size="4">
+	<_4ED54A0FDA8879984F1548408F3C1279 Name="i343::Weapon::AccuracyPropertyModifiersDefinition" Alt="2CA3FB859E1D132A" Size="4">
 		<_14 Name="accuracy spread" Offset="0" />
 	</_4ED54A0FDA8879984F1548408F3C1279>
-	<_313B462480940841968E582D8E656F54 Name="i343::Weapon::PrecisionAimPropertyModifiersDefinition" Size="8">
+	<_313B462480940841968E582D8E656F54 Name="i343::Weapon::PrecisionAimPropertyModifiersDefinition" Alt="1DACB39B4B8E67F1" Size="8">
 		<_14 Name="precision transition in time modifier" Offset="0" />
 		<_14 Name="precision transition out time modifier" Offset="4" />
 	</_313B462480940841968E582D8E656F54>
-	<_9FFE4926C17F9F4075A7D92A8E7BB7BB Name="i343::Weapon::UnitPropertyModifiersDefinition" Size="C">
+	<_9FFE4926C17F9F4075A7D92A8E7BB7BB Name="i343::Weapon::UnitPropertyModifiersDefinition" Alt="649CC306B7572B34" Size="C">
 		<_14 Name="move speed scale modifier" Offset="0" />
 		<_14 Name="turn rate scale modifier" Offset="4" />
 		<_14 Name="simulated input scale modifier" Offset="8" />
 	</_9FFE4926C17F9F4075A7D92A8E7BB7BB>
-	<_28A048142CB7BA74318118C4932A7D0D Name="i343::Weapon::AimAssistPropertyModifiersDefinition" Size="28">
+	<_28A048142CB7BA74318118C4932A7D0D Name="i343::Weapon::AimAssistPropertyModifiersDefinition" Alt="40A9AEFF7BF88F53" Size="28">
 		<_14 Name="autoaim angle" Offset="0" />
 		<_14 Name="prioritization angle" Offset="4" />
 		<_14 Name="autoaim range" Offset="8" />
@@ -107,26 +107,26 @@
 		<_14 Name="magnetism near falloff range" Offset="20" />
 		<_14 Name="deviation angle" Offset="24" />
 	</_28A048142CB7BA74318118C4932A7D0D>
-	<_09B745EE867B6CEBB6000AB4940C8734 Name="i343::Weapon::RecoilViewKickPropertyModifiersDefinition" Size="8">
+	<_09B745EE867B6CEBB6000AB4940C8734 Name="i343::Weapon::RecoilViewKickPropertyModifiersDefinition" Alt="B003AC55278F741C" Size="8">
 		<_14 Name="view kick deceleration modifier" Offset="0" />
 		<_14 Name="view kick return to center modifier" Offset="4" />
 	</_09B745EE867B6CEBB6000AB4940C8734>
-	<_0B164408C0B6345AA19436C088DE6B98 Name="i343::Weapon::RecoilGunkickPropertyModifiersDefinition" Size="4">
+	<_0B164408C0B6345AA19436C088DE6B98 Name="i343::Weapon::RecoilGunkickPropertyModifiersDefinition" Alt="597F318198C73BB2" Size="4">
 		<_14 Name="gunkick spring constant modifier" Offset="0" />
 	</_0B164408C0B6345AA19436C088DE6B98>
-	<_B5F64356F921D36C6B56B174AEEFB15B Name="i343::Weapon::AnimationPropertyModifiersDefinition" Size="14">
+	<_B5F64356F921D36C6B56B174AEEFB15B Name="i343::Weapon::AnimationPropertyModifiersDefinition" Alt="A4B719E6C28F6576" Size="14">
 		<_14 Name="ready playback speed modifier" Offset="0" />
 		<_14 Name="ready initial playback modifier" Offset="4" />
 		<_14 Name="put away playback speed modifier" Offset="8" />
 		<_14 Name="reload playback speed modifier" Offset="C" />
 		<_14 Name="reload while empty playback speed modifier" Offset="10" />
 	</_B5F64356F921D36C6B56B174AEEFB15B>
-	<_B8B1469C4A20A34AC05E9733A66AB0BD Name="i343::Weapon::HeatPropertyModifiersDefinition" Size="C">
+	<_B8B1469C4A20A34AC05E9733A66AB0BD Name="i343::Weapon::HeatPropertyModifiersDefinition" Alt="53AD9C548D83E432" Size="C">
 		<_14 Name="heat loss per second modifier" Offset="0" />
 		<_14 Name="overheated heat loss per second modifier" Offset="4" />
 		<_14 Name="heat generated per round modifier" Offset="8" />
 	</_B8B1469C4A20A34AC05E9733A66AB0BD>
-	<_52C6472B6BB873FD804507D0909B9077 Name="Interface::UIItemInfo" Size="74">
+	<_52C6472B6BB873FD804507D0909B9077 Name="Interface::UIItemInfo" Alt="26B42BD7B0501528" Size="74">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="alt name " Offset="4" />
 		<_2 Name="description" Offset="8" />
@@ -139,26 +139,26 @@
 		<_6 Name="damage sprite index" Offset="54" />
 		<_41 Name="ui vehicle screen reference" Offset="58" Allowed="cusc" Flags="0" />
 	</_52C6472B6BB873FD804507D0909B9077>
-	<_217941128AACE34BC7334D2EA8F6C67D Name="TagGraph::TagGraphFloatParam" Size="8">
+	<_217941128AACE34BC7334D2EA8F6C67D Name="TagGraph::TagGraphFloatParam" Alt="805C37B6373130C3" Size="8">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_14 Name="value" Offset="4" />
 	</_217941128AACE34BC7334D2EA8F6C67D>
-	<_80204605BFA6F4BF93CDD10F96C1C2B9 Name="TagGraph::TagGraphBoolParam" Size="8">
+	<_80204605BFA6F4BF93CDD10F96C1C2B9 Name="TagGraph::TagGraphBoolParam" Alt="146004AB2C5FEE80" Size="8">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_F Name="value" Offset="4" StructName1="TagGraph::TagGraphBoolVariableValue">
 			<Flag n="value" />
 		</_F>
 		<_34 Name="generated_pad0473" Offset="5" Length="3" />
 	</_80204605BFA6F4BF93CDD10F96C1C2B9>
-	<_AF7648E707ABAC2BFB95694D48E79C90 Name="TagGraph::TagGraphInstanceVariableString" Size="8">
+	<_AF7648E707ABAC2BFB95694D48E79C90 Name="TagGraph::TagGraphInstanceVariableString" Alt="85B0F068C5FFF7F3" Size="8">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_2 Name="value" Offset="4" />
 	</_AF7648E707ABAC2BFB95694D48E79C90>
-	<_75F34BCE26A27E545DB61B22BEC316D9 Name="TagGraph::TagGraphInstanceVariableTagRef" Size="20">
+	<_75F34BCE26A27E545DB61B22BEC316D9 Name="TagGraph::TagGraphInstanceVariableTagRef" Alt="4EFA73BE4DD7CFD0" Size="20">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_41 Name="value" Offset="4" Allowed="aTag" Flags="0" />
 	</_75F34BCE26A27E545DB61B22BEC316D9>
-	<_727F437E3853EE60753D9D508599809E Name="i343::Objects::AttachmentVariantName" Size="4">
+	<_727F437E3853EE60753D9D508599809E Name="i343::Objects::AttachmentVariantName" Alt="881C8BF1B43606D4" Size="4">
 		<_2 Name="variant name" type="sted" Offset="0" />
 	</_727F437E3853EE60753D9D508599809E>
 </root>

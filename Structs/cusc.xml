@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="cui_screen" Parents="aTag" Index="-88" C="ui\cui">
-	<_87E842E47139CC112A19EAA894C5ED2B Name="CuiScreenDefinition" Size="1B0">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="cui_screen" Parents="aTag" Index="-88" C="ui\cui">
+	<_87E842E47139CC112A19EAA894C5ED2B Name="CuiScreenDefinition" Alt="EB3500C120CA0E9D" Size="1B0">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="string references" Offset="10" GUID="4CA54CECF35BA8A62117E52294707022" StructName1="CuiScreenDefinition" Min="0" Max="64" />
 		<_40 Name="resource references" Offset="24" GUID="668B46A043D460B72301F51A835FDD47" StructName1="CuiScreenDefinition" Min="0" Max="64" />
@@ -14,17 +14,17 @@
 		</_F>
 		<_34 Name="generated_padbb46" Offset="1AD" Length="3" />
 	</_87E842E47139CC112A19EAA894C5ED2B>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_4CA54CECF35BA8A62117E52294707022 Name="StringFileReferences" Size="1C">
+	<_4CA54CECF35BA8A62117E52294707022 Name="StringFileReferences" Alt="2B51DBB8C47CF53A" Size="1C">
 		<_41 Name="new string list" Offset="0" Allowed="uslg" Flags="0" />
 	</_4CA54CECF35BA8A62117E52294707022>
-	<_668B46A043D460B72301F51A835FDD47 Name="ResourceFileReferences" Size="1C">
+	<_668B46A043D460B72301F51A835FDD47 Name="ResourceFileReferences" Alt="AE7EDE8464ED3318" Size="1C">
 		<_41 Name="resources list" Offset="0" Allowed="cure" Flags="0" />
 	</_668B46A043D460B72301F51A835FDD47>
-	<_FE154F87923E721C2CE0E8E58C081FF3 Name="CuiSystemDefinition" Size="150">
+	<_FE154F87923E721C2CE0E8E58C081FF3 Name="CuiSystemDefinition" Alt="5DB1884151CBB0B8" Size="150">
 		<_40 Name="template instantiations" Offset="0" GUID="BEE943BB147959FC8E81088FBBE561E4" StructName1="CuiSystemDefinition" Min="0" Max="4096" />
 		<_40 Name="components" Offset="14" GUID="13294A69BD11BC6F095132FAA305D2C5" StructName1="CuiSystemDefinition" Min="0" Max="4096" />
 		<_40 Name="component indices" Offset="28" GUID="50744188A6D04B81CD29119E85E92731" StructName1="CuiSystemDefinition" Min="0" Max="4096" />
@@ -47,11 +47,11 @@
 		</_A>
 		<_34 Name="generated_pad6c61" Offset="14E" Length="2" />
 	</_FE154F87923E721C2CE0E8E58C081FF3>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_BEE943BB147959FC8E81088FBBE561E4 Name="CuiTemplateInstantiationDefinition" Size="48">
+	<_BEE943BB147959FC8E81088FBBE561E4 Name="CuiTemplateInstantiationDefinition" Alt="DB13FD5F59A73FB0" Size="48">
 		<_3F Name="template instance id" Offset="0" />
 		<_41 Name="screen reference" Offset="8" Allowed="cusc" Flags="0" />
 		<_2 Name="parent" Offset="24" />
@@ -59,7 +59,7 @@
 		<_6 Name="child order" Offset="30" />
 		<_40 Name="components" Offset="34" GUID="06984FBCD903C84AAABC88F1B2ED9B80" StructName1="CuiTemplateInstantiationDefinition" Min="0" Max="4096" />
 	</_BEE943BB147959FC8E81088FBBE561E4>
-	<_13294A69BD11BC6F095132FAA305D2C5 Name="s_cui_component_definition" Size="28">
+	<_13294A69BD11BC6F095132FAA305D2C5 Name="s_cui_component_definition" Alt="9111BB899D8D61BE" Size="28">
 		<_3F Name="component id" Offset="0" />
 		<_2 Name="type" Offset="8" />
 		<_2 Name="name" Offset="C" />
@@ -72,23 +72,23 @@
 		</_E>
 		<_34 Name="generated_pada046" Offset="26" Length="2" />
 	</_13294A69BD11BC6F095132FAA305D2C5>
-	<_50744188A6D04B81CD29119E85E92731 Name="s_cui_component_index_definition" Size="10">
+	<_50744188A6D04B81CD29119E85E92731 Name="s_cui_component_index_definition" Alt="3BFDCBEA3038D2E6" Size="10">
 		<_3F Name="component id" Offset="0" />
 		<_2 Name="name" Offset="8" />
 		<_2E Name="component definition index" Offset="C" GUID="13294A69BD11BC6F095132FAA305D2C5" StructName1="s_cui_component_index_definition" Min="0" Max="4096" />
 		<_34 Name="generated_pad855c" Offset="E" Length="2" />
 	</_50744188A6D04B81CD29119E85E92731>
-	<_B10444A83F7FC7EB6DC20509B26CA635 Name="CuiDoNotCreateComponentDefinition" Size="8">
+	<_B10444A83F7FC7EB6DC20509B26CA635 Name="CuiDoNotCreateComponentDefinition" Alt="8D811D356165883F" Size="8">
 		<_3F Name="component id" Offset="0" />
 	</_B10444A83F7FC7EB6DC20509B26CA635>
-	<_4A6A6F0A8836D58B9BCB5AF966733DA3 Name="s_cui_overlay_definition" Size="44">
+	<_4A6A6F0A8836D58B9BCB5AF966733DA3 Name="s_cui_overlay_definition" Alt="A9F3178C19782995" Size="44">
 		<_2 Name="resolution" Offset="0" />
 		<_2 Name="theme" Offset="4" />
 		<_40 Name="components" Offset="8" GUID="438C8C238420F7CFF4E1FEF7FAC7919C" StructName1="s_cui_overlay_definition" Min="0" Max="4096" />
 		<_40 Name="animations" Offset="1C" GUID="4818394028C2D94619C0A45028327897" StructName1="s_cui_overlay_definition" Min="0" Max="4096" />
 		<_40 Name="animated component lookup" Offset="30" GUID="F103433F09AAAF73912CBADFBC21D662" StructName1="s_cui_overlay_definition" Min="0" Max="4096" />
 	</_4A6A6F0A8836D58B9BCB5AF966733DA3>
-	<_46783E11E972B73FC2D1B8975D16EAAB Name="s_cui_overlay_editor_only_definition" Size="34">
+	<_46783E11E972B73FC2D1B8975D16EAAB Name="s_cui_overlay_editor_only_definition" Alt="5B10CBFA159C2121" Size="34">
 		<_2 Name="resolution" Offset="0" />
 		<_2 Name="theme" Offset="4" />
 		<_F Name="flags" Offset="8" StructName1="f_cui_editor_overlay_info_flags">
@@ -98,7 +98,7 @@
 		<_40 Name="components editor only" Offset="C" GUID="4AB6A37E6F53BEF345DEED38F0C815BF" StructName1="s_cui_overlay_editor_only_definition" Min="0" Max="4096" />
 		<_40 Name="animations editor only" Offset="20" GUID="4C9065D3C40BEC369CAE89F66192C5BE" StructName1="s_cui_overlay_editor_only_definition" Min="0" Max="4096" />
 	</_46783E11E972B73FC2D1B8975D16EAAB>
-	<_F2EF410F4888CD37D9F1582EB0BBC0C9 Name="s_cui_property_binding_definition" Size="40">
+	<_F2EF410F4888CD37D9F1582EB0BBC0C9 Name="s_cui_property_binding_definition" Alt="14ACA3C3B173FC1A" Size="40">
 		<_E Name="flags" Offset="0" StructName1="c_cui_property_binding_definition_flags">
 			<Flag n="source is data context" />
 		</_E>
@@ -117,19 +117,19 @@
 		<_40 Name="binding conversion long comparison" Offset="28" GUID="13D046D76D6E5043D5C4E390B40DF853" StructName1="s_cui_property_binding_definition" Min="0" Max="1" />
 		<_34 Name="generated_padd9a1" Offset="3C" Length="4" />
 	</_F2EF410F4888CD37D9F1582EB0BBC0C9>
-	<_125E4C655F2AD34AD3E618719E9134E6 Name="s_cui_static_data_definition" Size="38">
+	<_125E4C655F2AD34AD3E618719E9134E6 Name="s_cui_static_data_definition" Alt="43DD1357312D0E9F" Size="38">
 		<_3F Name="definition id" Offset="0" />
 		<_2 Name="name" Offset="8" />
 		<_2 Name="mock data for component" Offset="C" />
 		<_38 Name="static data" Offset="10" GUID="8FF9442B2618E51290B8121F9F93FFB2" />
 	</_125E4C655F2AD34AD3E618719E9134E6>
-	<_9D744CDDF090B1871D6BE8998C3A7A52 Name="s_cui_expression_definition" Size="120">
+	<_9D744CDDF090B1871D6BE8998C3A7A52 Name="s_cui_expression_definition" Alt="C4D983D4DBD95E0A" Size="120">
 		<_3F Name="expression id" Offset="0" />
 		<_2 Name="name" Offset="8" />
 		<_1 Name="expression text" Offset="C" />
 		<_40 Name="steps" Offset="10C" GUID="9A254A83CC3B2DB9F92E432B8CA2994F" StructName1="s_cui_expression_definition" Min="0" Max="64" />
 	</_9D744CDDF090B1871D6BE8998C3A7A52>
-	<_32E9431E20EED9DE500AB06AAB293749 Name="s_cuiVisualStateGroupDefinition" Size="30">
+	<_32E9431E20EED9DE500AB06AAB293749 Name="s_cuiVisualStateGroupDefinition" Alt="A74D615D338E0CAB" Size="30">
 		<_2 Name="name" Offset="0" />
 		<_34 Name="generated_pada5a8" Offset="4" Length="4" />
 		<_3F Name="visual state group id" Offset="8" />
@@ -137,7 +137,7 @@
 		<_40 Name="visual states" Offset="18" GUID="5B6E46C5872D4866D92BCB038464FE4E" StructName1="s_cuiVisualStateGroupDefinition" Min="0" Max="128" />
 		<_34 Name="generated_padbf89" Offset="2C" Length="4" />
 	</_32E9431E20EED9DE500AB06AAB293749>
-	<_74464F60580C818828F09A1B857A169A Name="CuiPinnedAnimationDefinition" Size="28">
+	<_74464F60580C818828F09A1B857A169A Name="CuiPinnedAnimationDefinition" Alt="D9A7379D4E311519" Size="28">
 		<_2 Name="animation name" Offset="0" />
 		<_34 Name="generated_pad44ca" Offset="4" Length="4" />
 		<_3F Name="visual state group id" Offset="8" />
@@ -146,28 +146,28 @@
 		<_14 Name="pin time" Offset="20" />
 		<_34 Name="generated_pad917f" Offset="24" Length="4" />
 	</_74464F60580C818828F09A1B857A169A>
-	<_F103433F09AAAF73912CBADFBC21D662 Name="CuiAnimatedComponentLookup" Size="8">
+	<_F103433F09AAAF73912CBADFBC21D662 Name="CuiAnimatedComponentLookup" Alt="3CF8A2C223947F2D" Size="8">
 		<_3F Name="component id" Offset="0" />
 	</_F103433F09AAAF73912CBADFBC21D662>
-	<_520C4B2BCD8C061A96EA6F2BAF3138D7 Name="TelemetryBlock" Size="41">
+	<_520C4B2BCD8C061A96EA6F2BAF3138D7 Name="TelemetryBlock" Alt="91FA8C75A2CDCB10" Size="41">
 		<_F Name="Should Track Telemetry" Offset="0" StructName1="EnableTelemetry">
 			<Flag n="enabled" />
 		</_F>
 		<_0 Name="Telemetry Category Name" Offset="1" />
 		<_0 Name="Telemetry Sub Category Name" Offset="21" />
 	</_520C4B2BCD8C061A96EA6F2BAF3138D7>
-	<_06984FBCD903C84AAABC88F1B2ED9B80 Name="CuiTemplateComponentDefinition" Size="10">
+	<_06984FBCD903C84AAABC88F1B2ED9B80 Name="CuiTemplateComponentDefinition" Alt="9E0D4B45FEE3C99F" Size="10">
 		<_3F Name="component id" Offset="0" />
 		<_2 Name="original name" Offset="8" />
 		<_2 Name="name" Offset="C" />
 	</_06984FBCD903C84AAABC88F1B2ED9B80>
-	<_438C8C238420F7CFF4E1FEF7FAC7919C Name="s_cui_component_properties_definition" Size="B0">
+	<_438C8C238420F7CFF4E1FEF7FAC7919C Name="s_cui_component_properties_definition" Alt="3A01B6EB43AFEF8A" Size="B0">
 		<_3F Name="component id" Offset="0" />
 		<_2 Name="name" Offset="8" />
 		<_38 Name="property values" Offset="C" GUID="BC3D439EB1A7EC45A30957AFA6D9F1A4" />
 		<_34 Name="generated_pad00cf" Offset="AC" Length="4" />
 	</_438C8C238420F7CFF4E1FEF7FAC7919C>
-	<_4818394028C2D94619C0A45028327897 Name="s_cui_animation_definition" Size="24">
+	<_4818394028C2D94619C0A45028327897 Name="s_cui_animation_definition" Alt="58F99D33CAB00B86" Size="24">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="time base offset" Offset="4" />
 		<_14 Name="time exponential offset" Offset="8" />
@@ -178,16 +178,16 @@
 		<_34 Name="generated_pad21f2" Offset="D" Length="3" />
 		<_40 Name="components" Offset="10" GUID="45B1B91637944A2FBE8226393E72528B" StructName1="s_cui_animation_definition" Min="0" Max="4096" />
 	</_4818394028C2D94619C0A45028327897>
-	<_4AB6A37E6F53BEF345DEED38F0C815BF Name="s_cui_component_editor_only_definition" Size="20">
+	<_4AB6A37E6F53BEF345DEED38F0C815BF Name="s_cui_component_editor_only_definition" Alt="E8AE650D1307C461" Size="20">
 		<_3F Name="component id" Offset="0" />
 		<_2 Name="name" Offset="8" />
 		<_40 Name="properties editor only" Offset="C" GUID="45CE002A4F28B89CC080DDDEE2FCC3A9" StructName1="s_cui_component_editor_only_definition" Min="0" Max="4096" />
 	</_4AB6A37E6F53BEF345DEED38F0C815BF>
-	<_4C9065D3C40BEC369CAE89F66192C5BE Name="s_cui_animation_editor_only_definition" Size="18">
+	<_4C9065D3C40BEC369CAE89F66192C5BE Name="s_cui_animation_editor_only_definition" Alt="469DC3074BE8CC38" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_40 Name="components editor only" Offset="4" GUID="4AB6A37E6F53BEF345DEED38F0C815BF" StructName1="s_cui_animation_editor_only_definition" Min="0" Max="4096" />
 	</_4C9065D3C40BEC369CAE89F66192C5BE>
-	<_13D046D76D6E5043D5C4E390B40DF853 Name="s_cui_binding_conversion_long_comparison_definition" Size="8">
+	<_13D046D76D6E5043D5C4E390B40DF853 Name="s_cui_binding_conversion_long_comparison_definition" Alt="5593D84F59F65EDF" Size="8">
 		<_A Name="comparison operator" Offset="0" StructName1="e_cui_binding_conversion_comparison_operator">
 			<Flag n="equality" />
 			<Flag n="inequality" />
@@ -199,11 +199,11 @@
 		<_34 Name="generated_pad0669" Offset="1" Length="3" />
 		<_6 Name="comparison value" Offset="4" />
 	</_13D046D76D6E5043D5C4E390B40DF853>
-	<_8FF9442B2618E51290B8121F9F93FFB2 Name="s_cui_static_data" Size="28">
+	<_8FF9442B2618E51290B8121F9F93FFB2 Name="s_cui_static_data" Alt="48F054613CEC415C" Size="28">
 		<_40 Name="columns" Offset="0" GUID="CFB944091FC0B04105894CD1BEB29306" StructName1="s_cui_static_data" Min="0" Max="128" />
 		<_40 Name="rows" Offset="14" GUID="BC3D439EB1A7EC45A30957AFA6D9F1A4" StructName1="s_cui_static_data" Min="0" Max="256" />
 	</_8FF9442B2618E51290B8121F9F93FFB2>
-	<_9A254A83CC3B2DB9F92E432B8CA2994F Name="s_cui_expression_step_definition" Size="C">
+	<_9A254A83CC3B2DB9F92E432B8CA2994F Name="s_cui_expression_step_definition" Alt="C3818AF79A474D30" Size="C">
 		<_A Name="step type" Offset="0" StructName1="e_cui_expression_step_type">
 			<Flag n="operator" />
 			<Flag n="variable" />
@@ -241,7 +241,7 @@
 		<_14 Name="value" Offset="4" />
 		<_2 Name="string id value" Offset="8" />
 	</_9A254A83CC3B2DB9F92E432B8CA2994F>
-	<_5B6E46C5872D4866D92BCB038464FE4E Name="s_cuiVisualStateDefinition" Size="70">
+	<_5B6E46C5872D4866D92BCB038464FE4E Name="s_cuiVisualStateDefinition" Alt="DDBAD0B34BFB8852" Size="70">
 		<_3F Name="visual state id" Offset="0" />
 		<_36 Name="Trigger Binding" Offset="8" />
 		<_38 Name="Trigger Binding" Offset="8" GUID="F2EF410F4888CD37D9F1582EB0BBC0C9" />
@@ -249,7 +249,7 @@
 		<_38 Name="Animation" Offset="48" GUID="4818394028C2D94619C0A45028327897" />
 		<_34 Name="generated_pad3137" Offset="6C" Length="4" />
 	</_5B6E46C5872D4866D92BCB038464FE4E>
-	<_BC3D439EB1A7EC45A30957AFA6D9F1A4 Name="s_cui_properties_definition" Size="A0">
+	<_BC3D439EB1A7EC45A30957AFA6D9F1A4 Name="s_cui_properties_definition" Alt="4FFF721040885789" Size="A0">
 		<_40 Name="long properties" Offset="0" GUID="D1F14D1463DD28298FCC1FFC96387952" StructName1="s_cui_properties_definition" Min="0" Max="4096" />
 		<_40 Name="real properties" Offset="14" GUID="59124090758DA8A4D2453C69A1FB5462" StructName1="s_cui_properties_definition" Min="0" Max="4096" />
 		<_40 Name="string_id properties" Offset="28" GUID="0FAF4EA963CAF970A47C0015B3FEB12C" StructName1="s_cui_properties_definition" Min="0" Max="4096" />
@@ -259,7 +259,7 @@
 		<_40 Name="argb color properties" Offset="78" GUID="478A4BACA86FC89BC3099AB897ED6B44" StructName1="s_cui_properties_definition" Min="0" Max="4096" />
 		<_40 Name="event handlers" Offset="8C" GUID="F7484A9C10DB8734DE2C42CFBCFC6830" StructName1="s_cui_properties_definition" Min="0" Max="4096" />
 	</_BC3D439EB1A7EC45A30957AFA6D9F1A4>
-	<_45B1B91637944A2FBE8226393E72528B Name="s_cui_animation_component_definition" Size="50">
+	<_45B1B91637944A2FBE8226393E72528B Name="s_cui_animation_component_definition" Alt="8342D4F7BC310EDB" Size="50">
 		<_3F Name="component id" Offset="0" />
 		<_2 Name="name" Offset="8" />
 		<_6 Name="total milliseconds" Offset="C" />
@@ -268,14 +268,14 @@
 		<_40 Name="stringId properties" Offset="38" GUID="7FFA424069FEEB023F25047B8E7D6E79" StructName1="s_cui_animation_component_definition" Min="0" Max="4096" />
 		<_34 Name="generated_pad9eda" Offset="4C" Length="4" />
 	</_45B1B91637944A2FBE8226393E72528B>
-	<_45CE002A4F28B89CC080DDDEE2FCC3A9 Name="s_cui_property_editor_only_definition" Size="8">
+	<_45CE002A4F28B89CC080DDDEE2FCC3A9 Name="s_cui_property_editor_only_definition" Alt="DDCAD4846F8DF65C" Size="8">
 		<_2 Name="name" Offset="0" />
 		<_F Name="flags" Offset="4" StructName1="f_cui_editor_property_info_flags">
 			<Flag n="default value" />
 		</_F>
 		<_34 Name="generated_padd370" Offset="5" Length="3" />
 	</_45CE002A4F28B89CC080DDDEE2FCC3A9>
-	<_CFB944091FC0B04105894CD1BEB29306 Name="s_cui_static_data_column_definition" Size="8">
+	<_CFB944091FC0B04105894CD1BEB29306 Name="s_cui_static_data_column_definition" Alt="88EB8500C34AE4DC" Size="8">
 		<_2 Name="name" Offset="0" />
 		<_B Name="type" Offset="4" StructName1="e_cui_property_type">
 			<Flag n="boolean" />
@@ -290,50 +290,50 @@
 		</_B>
 		<_34 Name="generated_pad3684" Offset="6" Length="2" />
 	</_CFB944091FC0B04105894CD1BEB29306>
-	<_D1F14D1463DD28298FCC1FFC96387952 Name="s_cui_property_value_long_definition" Size="C">
+	<_D1F14D1463DD28298FCC1FFC96387952 Name="s_cui_property_value_long_definition" Alt="F191C9F884A0DB4C" Size="C">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="resourceName" Offset="4" />
 		<_6 Name="value" Offset="8" />
 	</_D1F14D1463DD28298FCC1FFC96387952>
-	<_59124090758DA8A4D2453C69A1FB5462 Name="s_cui_property_value_real_definition" Size="C">
+	<_59124090758DA8A4D2453C69A1FB5462 Name="s_cui_property_value_real_definition" Alt="6CA9F525B897B11F" Size="C">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="resourceName" Offset="4" />
 		<_14 Name="value" Offset="8" />
 	</_59124090758DA8A4D2453C69A1FB5462>
-	<_0FAF4EA963CAF970A47C0015B3FEB12C Name="s_cui_property_value_string_id_definition" Size="C">
+	<_0FAF4EA963CAF970A47C0015B3FEB12C Name="s_cui_property_value_string_id_definition" Alt="C9F52458BACCE6EE" Size="C">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="resourceName" Offset="4" />
 		<_2 Name="value" Offset="8" />
 	</_0FAF4EA963CAF970A47C0015B3FEB12C>
-	<_9FE444AFB824C8C9970B0EB6A4AA330E Name="CuiPropertyValueComponentPtrDefinition" Size="18">
+	<_9FE444AFB824C8C9970B0EB6A4AA330E Name="CuiPropertyValueComponentPtrDefinition" Alt="8E5DE8E2E45DD195" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="resourceName" Offset="4" />
 		<_3F Name="component id" Offset="8" />
 		<_2 Name="value" Offset="10" />
 		<_34 Name="generated_padccc5" Offset="14" Length="4" />
 	</_9FE444AFB824C8C9970B0EB6A4AA330E>
-	<_9B1245B5CAA80A14FFA44C2EA53A40F5 Name="s_cui_property_value_tag_reference_definition" Size="24">
+	<_9B1245B5CAA80A14FFA44C2EA53A40F5 Name="s_cui_property_value_tag_reference_definition" Alt="4002241F85803621" Size="24">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="resourceName" Offset="4" />
 		<_41 Name="value" Offset="8" Allowed="" Flags="0" />
 	</_9B1245B5CAA80A14FFA44C2EA53A40F5>
-	<_D0F84F469B80DCD397549DDAAF7A6043 Name="s_cui_property_value_text_definition" Size="108">
+	<_D0F84F469B80DCD397549DDAAF7A6043 Name="s_cui_property_value_text_definition" Alt="E10DD2701C0E9AFD" Size="108">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="resourceName" Offset="4" />
 		<_1 Name="value" Offset="8" />
 	</_D0F84F469B80DCD397549DDAAF7A6043>
-	<_478A4BACA86FC89BC3099AB897ED6B44 Name="s_cui_property_value_argb_color_definition" Size="18">
+	<_478A4BACA86FC89BC3099AB897ED6B44 Name="s_cui_property_value_argb_color_definition" Alt="5AD912EA1E29F576" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="resourceName" Offset="4" />
 		<_20 Name="value" Offset="8" />
 	</_478A4BACA86FC89BC3099AB897ED6B44>
-	<_F7484A9C10DB8734DE2C42CFBCFC6830 Name="CuiEventHandlerDefinition" Size="10C">
+	<_F7484A9C10DB8734DE2C42CFBCFC6830 Name="CuiEventHandlerDefinition" Alt="1A9FC0A5B6C4378B" Size="10C">
 		<_2 Name="event" Offset="0" />
 		<_2 Name="filter" Offset="4" />
 		<_2 Name="name" Offset="8" />
 		<_1 Name="action" Offset="C" />
 	</_F7484A9C10DB8734DE2C42CFBCFC6830>
-	<_433F6A19AD69E8115FDA1B89387DC3A8 Name="s_cui_animation_component_property_real_definition" Size="24">
+	<_433F6A19AD69E8115FDA1B89387DC3A8 Name="s_cui_animation_component_property_real_definition" Alt="31E73FA0B7B2A516" Size="24">
 		<_2 Name="name" Offset="0" />
 		<_B Name="composition" Offset="4" StructName1="e_cui_animation_property_composition_type">
 			<Flag n="relative to current" />
@@ -349,7 +349,7 @@
 		<_6 Name="total milliseconds" Offset="C" />
 		<_40 Name="real keyframes" Offset="10" GUID="47B406C2B06074993D147AFEB23AF68C" StructName1="s_cui_animation_component_property_real_definition" Min="0" Max="4096" />
 	</_433F6A19AD69E8115FDA1B89387DC3A8>
-	<_400115B4F78AE30CE11A81EC80F685AF Name="s_cui_animation_component_property_argb_color_definition" Size="24">
+	<_400115B4F78AE30CE11A81EC80F685AF Name="s_cui_animation_component_property_argb_color_definition" Alt="82CE9CDC6636865F" Size="24">
 		<_2 Name="name" Offset="0" />
 		<_B Name="composition" Offset="4" StructName1="e_cui_animation_property_composition_type">
 			<Flag n="relative to current" />
@@ -365,7 +365,7 @@
 		<_6 Name="total milliseconds" Offset="C" />
 		<_40 Name="argb color keyframes" Offset="10" GUID="455A54EAF1EB20440ECC1161853771B2" StructName1="s_cui_animation_component_property_argb_color_definition" Min="0" Max="4096" />
 	</_400115B4F78AE30CE11A81EC80F685AF>
-	<_7FFA424069FEEB023F25047B8E7D6E79 Name="CuiAnimationComponentPropertyStringIdDefinition" Size="24">
+	<_7FFA424069FEEB023F25047B8E7D6E79 Name="CuiAnimationComponentPropertyStringIdDefinition" Alt="C24B84D6DA752CF3" Size="24">
 		<_2 Name="name" Offset="0" />
 		<_B Name="composition" Offset="4" StructName1="e_cui_animation_property_composition_type">
 			<Flag n="relative to current" />
@@ -381,30 +381,30 @@
 		<_6 Name="total milliseconds" Offset="C" />
 		<_40 Name="stringId keyframes" Offset="10" GUID="D70F46954E5412CB83B111338132D82F" StructName1="CuiAnimationComponentPropertyStringIdDefinition" Min="0" Max="4096" />
 	</_7FFA424069FEEB023F25047B8E7D6E79>
-	<_47B406C2B06074993D147AFEB23AF68C Name="s_cui_animation_property_keyframe_value_real_definition" Size="24">
+	<_47B406C2B06074993D147AFEB23AF68C Name="s_cui_animation_property_keyframe_value_real_definition" Alt="3F2BC1E4CBF5F21B" Size="24">
 		<_6 Name="duration" Offset="0" />
 		<_2 Name="resourceName" Offset="4" />
 		<_14 Name="value" Offset="8" />
 		<_38 Name="transition function" Offset="C" GUID="416A168893DF7492C3D187EE609C91AE" />
 	</_47B406C2B06074993D147AFEB23AF68C>
-	<_455A54EAF1EB20440ECC1161853771B2 Name="s_cui_animation_property_keyframe_value_argb_color_definition" Size="30">
+	<_455A54EAF1EB20440ECC1161853771B2 Name="s_cui_animation_property_keyframe_value_argb_color_definition" Alt="AD9319025377E7AA" Size="30">
 		<_6 Name="duration" Offset="0" />
 		<_2 Name="resourceName" Offset="4" />
 		<_20 Name="color" Offset="8" />
 		<_38 Name="transition function" Offset="18" GUID="416A168893DF7492C3D187EE609C91AE" />
 	</_455A54EAF1EB20440ECC1161853771B2>
-	<_D70F46954E5412CB83B111338132D82F Name="CuiAnimationPropertyKeyframeValueStringIdDefinition" Size="C">
+	<_D70F46954E5412CB83B111338132D82F Name="CuiAnimationPropertyKeyframeValueStringIdDefinition" Alt="46E994984DB0DA8F" Size="C">
 		<_6 Name="duration" Offset="0" />
 		<_2 Name="resourceName" Offset="4" />
 		<_2 Name="stringId" Offset="8" />
 	</_D70F46954E5412CB83B111338132D82F>
-	<_416A168893DF7492C3D187EE609C91AE Name="s_cui_animation_scalar_function" Size="18">
+	<_416A168893DF7492C3D187EE609C91AE Name="s_cui_animation_scalar_function" Alt="99ECD1C8DB68B6E5" Size="18">
 		<_37 Name="scalar function" type="fned" Offset="0" />
 		<_38 Name="scalar function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_416A168893DF7492C3D187EE609C91AE>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

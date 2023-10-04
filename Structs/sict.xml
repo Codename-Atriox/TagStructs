@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="self_illumination" Parents="aTag" Index="-376">
-	<_ED7A442952AD50EFF2771A3489800F3D Name="SelfIlluminationDefinition" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="self_illumination" Parents="aTag" Index="-376">
+	<_ED7A442952AD50EFF2771A3489800F3D Name="SelfIlluminationDefinition" Alt="5E9028A74F076F6E" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="States" Offset="10" GUID="6ECA4A14A95F3671C5A9F4FA8732394F" StructName1="SelfIlluminationDefinition" Min="0" Max="16" />
 		<_34 Name="generated_pad01b6" Offset="24" Length="4" />
 	</_ED7A442952AD50EFF2771A3489800F3D>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_6ECA4A14A95F3671C5A9F4FA8732394F Name="SelfIlluminationState" Size="58">
+	<_6ECA4A14A95F3671C5A9F4FA8732394F Name="SelfIlluminationState" Alt="C88BBB6731723054" Size="58">
 		<_36 Name="Self-Illumination State" Offset="0" />
 		<_2 Name="Name" Offset="0" />
 		<_D Name="Flags" Offset="4" StructName1="SelfIlluminationState::StateFlag">
@@ -24,17 +24,17 @@
 		<_38 Name="Color " Offset="28" GUID="0276481E72CB9289F56D7C189467A351" />
 		<_38 Name="Activation " Offset="40" GUID="0276481E72CB9289F56D7C189467A351" />
 	</_6ECA4A14A95F3671C5A9F4FA8732394F>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

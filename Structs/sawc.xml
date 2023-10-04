@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:16 PM" Name="WallClingDefinitionTag" Parents="aTag" Index="-355">
-	<_0AC0434BFCE354B18FBD97B0A16C87D9 Name="i343::SpartanAbilities::WallClingDefinitionTag" Size="C8">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="WallClingDefinitionTag" Parents="aTag" Index="-355">
+	<_0AC0434BFCE354B18FBD97B0A16C87D9 Name="i343::SpartanAbilities::WallClingDefinitionTag" Alt="7DE28C1A831A41C6" Size="C8">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="wallcling" Offset="10" GUID="9C1A4D41FF1CD0B26ECB75A8BD93BAD8" />
 	</_0AC0434BFCE354B18FBD97B0A16C87D9>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_9C1A4D41FF1CD0B26ECB75A8BD93BAD8 Name="i343::SpartanAbilities::WallClingDefinition" Size="B8">
+	<_9C1A4D41FF1CD0B26ECB75A8BD93BAD8 Name="i343::SpartanAbilities::WallClingDefinition" Alt="994D659B81DBC355" Size="B8">
 		<_38 Name="common ability parameters" Offset="0" GUID="D954483CA0B1EFF4F0B4EBCD88F17DD4" />
 		<_D Name="flags" Offset="78" StructName1="i343::SpartanAbilities::WallClingDefinitionFlags">
 			<Flag n="Must land again after activating" />
@@ -39,11 +39,11 @@
 		<_8 Name="jump pitch" Offset="B0" />
 		<_14 Name="jump velocity" Offset="B4" />
 	</_9C1A4D41FF1CD0B26ECB75A8BD93BAD8>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_D954483CA0B1EFF4F0B4EBCD88F17DD4 Name="i343::SpartanAbilities::SpartanAbilityCommonParameters" Size="78">
+	<_D954483CA0B1EFF4F0B4EBCD88F17DD4 Name="i343::SpartanAbilities::SpartanAbilityCommonParameters" Alt="B5A0C4B5B8408D6C" Size="78">
 		<_37 Name="common ability parameters" type="fgrb" Offset="0" />
 		<_C Name="input" Offset="0" StructName1="i343::Units::ArmorInput">
 			<Flag n="Default" />

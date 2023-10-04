@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:20 PM" Name="VectorArt" Parents="aTag" Index="-459">
-	<_7FAF2D313D49EFC29DBEF557A42C1E8B Name="i343::Graphics::VectorArtTag" Size="70">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="VectorArt" Parents="aTag" Index="-459">
+	<_7FAF2D313D49EFC29DBEF557A42C1E8B Name="i343::Graphics::VectorArtTag" Alt="85265E47719F393E" Size="70">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="m_vectorVertices" Offset="10" GUID="3C15440613810D41A7F13D07AA769459" StructName1="i343::Graphics::VectorArtTag" Min="1" Max="20000" />
 		<_40 Name="m_vectorIndices" Offset="24" GUID="3C15440713810D42A7F13D08AA769460" StructName1="i343::Graphics::VectorArtTag" Min="1" Max="60000" />
@@ -13,27 +13,27 @@
 		<_6 Name="m_validDrawInformationCount" Offset="68" />
 		<_34 Name="generated_pad0d5b" Offset="6C" Length="4" />
 	</_7FAF2D313D49EFC29DBEF557A42C1E8B>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_3C15440613810D41A7F13D07AA769459 Name="i343::Graphics::VectorVertex" Size="1C">
+	<_3C15440613810D41A7F13D07AA769459 Name="i343::Graphics::VectorVertex" Alt="3447BAFA32D6AB7F" Size="1C">
 		<_16 Name="position" Offset="0" />
 		<_6 Name="region index" Offset="8" />
 		<_17 Name="texcoord" Offset="C" />
 		<_6 Name="render type" Offset="18" />
 	</_3C15440613810D41A7F13D07AA769459>
-	<_3C15440713810D42A7F13D08AA769460 Name="i343::Graphics::VectorIndex" Size="2">
+	<_3C15440713810D42A7F13D08AA769460 Name="i343::Graphics::VectorIndex" Alt="9BF06718E5608B35" Size="2">
 		<_3D Name="index" Offset="0" />
 	</_3C15440713810D42A7F13D08AA769460>
-	<_3C15440613812D41A7C23D07AA762359 Name="i343::Graphics::VectorDrawInformation" Size="8">
+	<_3C15440613812D41A7C23D07AA762359 Name="i343::Graphics::VectorDrawInformation" Alt="4DB0A3AC6BF27E7F" Size="8">
 		<_3D Name="entry point" Offset="0" />
 		<_3D Name="vertex start" Offset="2" />
 		<_3D Name="index start" Offset="4" />
 		<_3D Name="index count" Offset="6" />
 	</_3C15440613812D41A7C23D07AA762359>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

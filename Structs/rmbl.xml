@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:15 PM" Name="rumble" Parents="aTag" Index="-335">
-	<_D7044788A87A0F82C4B87FD18CCC9E6E Name="s_rumble_definition" Size="88">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="rumble" Parents="aTag" Index="-335">
+	<_D7044788A87A0F82C4B87FD18CCC9E6E Name="s_rumble_definition" Alt="D9A64BA5F9CFF141" Size="88">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="rumble" Offset="10" GUID="0B7B46B3F1DC7B29767187CFBF03AEBC" />
 		<_34 Name="generated_padf313" Offset="84" Length="4" />
 	</_D7044788A87A0F82C4B87FD18CCC9E6E>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_0B7B46B3F1DC7B29767187CFBF03AEBC Name="s_rumble_definition_dummy" Size="74">
+	<_0B7B46B3F1DC7B29767187CFBF03AEBC Name="s_rumble_definition_dummy" Alt="9BB7BB27AE3CBDDC" Size="74">
 		<_F Name="rumble flags" Offset="0" StructName1="RumbleFlags">
 			<Flag n="Continuous looping rumble" />
 		</_F>
@@ -23,18 +23,18 @@
 		<_36 Name="secondary trigger rumble" Offset="58" />
 		<_38 Name="secondary trigger rumble" Offset="58" GUID="FDA541EDEA65C648C70E97CC98C4CA63" />
 	</_0B7B46B3F1DC7B29767187CFBF03AEBC>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_FDA541EDEA65C648C70E97CC98C4CA63 Name="s_rumble_frequency_definition" Size="1C">
+	<_FDA541EDEA65C648C70E97CC98C4CA63 Name="s_rumble_frequency_definition" Alt="AE2D4C09D82B3EE3" Size="1C">
 		<_14 Name="duration" Offset="0" />
 		<_37 Name="Mapping function" type="fned" Offset="4" />
 		<_38 Name="Mapping" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_FDA541EDEA65C648C70E97CC98C4CA63>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

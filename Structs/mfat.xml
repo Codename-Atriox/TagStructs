@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="MeleeFrameAttachment" Parents="aTag" Index="-253">
-	<_98224B7F2BA666FE4B09BA3792FF26ED Name="i343::Melee::MeleeFrameAttachmentTag" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="MeleeFrameAttachment" Parents="aTag" Index="-253">
+	<_98224B7F2BA666FE4B09BA3792FF26ED Name="i343::Melee::MeleeFrameAttachmentTag" Alt="22605EC04A22F9E6" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Damage Parameters" Offset="10" GUID="E895A76CB9EBA02E409CC1A5AB8BEA74" StructName1="i343::Melee::MeleeFrameAttachmentTag" Min="0" Max="2" />
 		<_2 Name="Animation Set" Offset="24" />
 	</_98224B7F2BA666FE4B09BA3792FF26ED>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_E895A76CB9EBA02E409CC1A5AB8BEA74 Name="s_melee_damage_parameters" Size="188">
+	<_E895A76CB9EBA02E409CC1A5AB8BEA74 Name="s_melee_damage_parameters" Alt="ACCB0E9BADE6498B" Size="188">
 		<_36 Name="melee damage parameters" Offset="0" />
 		<_1B Name="damage pyramid angles" Offset="0" />
 		<_14 Name="damage pyramid depth" Offset="8" />
@@ -31,8 +31,8 @@
 		<_41 Name="melee attack effect" Offset="150" Allowed="effe" Flags="0" />
 		<_41 Name="biped melee hit effect" Offset="16C" Allowed="effe" Flags="0" />
 	</_E895A76CB9EBA02E409CC1A5AB8BEA74>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

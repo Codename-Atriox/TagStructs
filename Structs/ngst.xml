@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="node_graph_stack" Parents="aTag" Index="-274">
-	<_F6964F1F9C9A59E5C2FDF1DBB2845EDC Name="Interface::NodeGraph::NodeGraphStackDefinition" Size="40">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="node_graph_stack" Parents="aTag" Index="-274">
+	<_F6964F1F9C9A59E5C2FDF1DBB2845EDC Name="Interface::NodeGraph::NodeGraphStackDefinition" Alt="EECFEC7E66D08FE6" Size="40">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="name" Offset="10" />
 		<_C Name="transform method" Offset="14" StructName1="Interface::NodeGraph::eTransformMethodType">
@@ -28,20 +28,20 @@
 		</_C>
 		<_40 Name="node graphs" Offset="2C" GUID="5AA84748F2BFB070A861D88F8BC9AFC7" StructName1="Interface::NodeGraph::NodeGraphStackDefinition" Min="0" Max="128" />
 	</_F6964F1F9C9A59E5C2FDF1DBB2845EDC>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_5AA84748F2BFB070A861D88F8BC9AFC7 Name="Interface::NodeGraph::NodeGraphDefinition" Size="1C">
+	<_5AA84748F2BFB070A861D88F8BC9AFC7 Name="Interface::NodeGraph::NodeGraphDefinition" Alt="D98DA09E5E946671" Size="1C">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="initial node" Offset="4" />
 		<_40 Name="nodes" type="gnvb" Offset="8" GUID="F9B643B157C87F0CC3C4136AA2938057" StructName1="Interface::NodeGraph::NodeGraphDefinition" Min="0" Max="128" />
 	</_5AA84748F2BFB070A861D88F8BC9AFC7>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_F9B643B157C87F0CC3C4136AA2938057 Name="Interface::NodeGraph::NodeDefinition" Size="8C">
+	<_F9B643B157C87F0CC3C4136AA2938057 Name="Interface::NodeGraph::NodeDefinition" Alt="1CDA4732A7E49147" Size="8C">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="Placement Node name" Offset="4" />
 		<_40 Name="transitions" Offset="8" GUID="F1AF4F18232B0CA97227B4698E5B3012" StructName1="Interface::NodeGraph::NodeDefinition" Min="0" Max="64" />
@@ -89,7 +89,7 @@
 			<Flag n="diamond" />
 		</_C>
 	</_F9B643B157C87F0CC3C4136AA2938057>
-	<_F1AF4F18232B0CA97227B4698E5B3012 Name="Interface::NodeGraph::TransitionDefinition" Size="22C">
+	<_F1AF4F18232B0CA97227B4698E5B3012 Name="Interface::NodeGraph::TransitionDefinition" Alt="B756AC21BD87D23E" Size="22C">
 		<_2 Name="event" Offset="0" />
 		<_2 Name="target node" Offset="4" />
 		<_1 Name="out animation name" Offset="8" />
@@ -106,7 +106,7 @@
 		<_14 Name="editor caption x" Offset="224" />
 		<_14 Name="editor caption y" Offset="228" />
 	</_F1AF4F18232B0CA97227B4698E5B3012>
-	<_AE1E45D08833880E59015CEC82FC4C50 Name="Interface::NodeGraph::NodeGraphStackReferenceDefinition" Size="1C">
+	<_AE1E45D08833880E59015CEC82FC4C50 Name="Interface::NodeGraph::NodeGraphStackReferenceDefinition" Alt="9CD1D8EA235FC589" Size="1C">
 		<_41 Name="child stack reference" Offset="0" Allowed="ngst" Flags="0" />
 	</_AE1E45D08833880E59015CEC82FC4C50>
 </root>

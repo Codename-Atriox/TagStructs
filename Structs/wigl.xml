@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:22 PM" Name="user_interface_shared_globals_definition" Parents="aTag" Index="-480">
-	<_3ABC40F7520DAD1BB6D09BC7A25DED9A Name="s_user_interface_shared_globals" Size="3E8">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:58 PM" Name="user_interface_shared_globals_definition" Parents="aTag" Index="-480">
+	<_3ABC40F7520DAD1BB6D09BC7A25DED9A Name="s_user_interface_shared_globals" Alt="CBDE12F9CDC9CBD5" Size="3E8">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Global Text Strings" Offset="10" />
 		<_41 Name="String list tag" Offset="10" Allowed="uslg" Flags="0" />
@@ -79,42 +79,42 @@
 		<_41 Name="Skip UI tag" Offset="3B0" Allowed="cusc" Flags="0" />
 		<_41 Name="mission thumbnail bitmap dictionary" Offset="3CC" Allowed="bitd" Flags="0" />
 	</_3ABC40F7520DAD1BB6D09BC7A25DED9A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_668B46A043D460B72301F51A835FDD47 Name="ResourceFileReferences" Size="1C">
+	<_668B46A043D460B72301F51A835FDD47 Name="ResourceFileReferences" Alt="AE7EDE8464ED3318" Size="1C">
 		<_41 Name="resources list" Offset="0" Allowed="cure" Flags="0" />
 	</_668B46A043D460B72301F51A835FDD47>
-	<_2251412E26B5A8360039DCDEA23E454A Name="s_color_preset" Size="14">
+	<_2251412E26B5A8360039DCDEA23E454A Name="s_color_preset" Alt="713C54C5F3F483C8" Size="14">
 		<_2 Name="name" Offset="0" />
 		<_20 Name="color" Offset="4" />
 	</_2251412E26B5A8360039DCDEA23E454A>
-	<_800046A260C481EEAC51C3728304DA08 Name="s_tint_colors" Size="28">
+	<_800046A260C481EEAC51C3728304DA08 Name="s_tint_colors" Alt="CD989457D91516C2" Size="28">
 		<_40 Name="text team" Offset="0" GUID="C6A24A780F5F62C7F47B91CDBCCFBB7A" StructName1="s_tint_colors" Min="0" Max="63" />
 		<_40 Name="bitmap team" Offset="14" GUID="C6A24A780F5F62C7F47B91CDBCCFBB7A" StructName1="s_tint_colors" Min="0" Max="63" />
 	</_800046A260C481EEAC51C3728304DA08>
-	<_576B4AE92127D0369C68E4D695775617 Name="AlertDescriptionTagReference" Size="1C">
+	<_576B4AE92127D0369C68E4D695775617 Name="AlertDescriptionTagReference" Alt="3838F5270F680AB3" Size="1C">
 		<_41 Name="Reference" Offset="0" Allowed="alds" Flags="0" />
 	</_576B4AE92127D0369C68E4D695775617>
-	<_A4F7441632A07E8E5BD8391195249727 Name="DialogDescriptionTagReference" Size="1C">
+	<_A4F7441632A07E8E5BD8391195249727 Name="DialogDescriptionTagReference" Alt="EF282878576A368F" Size="1C">
 		<_41 Name="Reference" Offset="0" Allowed="dids" Flags="0" />
 	</_A4F7441632A07E8E5BD8391195249727>
-	<_737041B838464D85B3CB9F7594612A80 Name="s_luaUserLibrary" Size="1C">
+	<_737041B838464D85B3CB9F7594612A80 Name="s_luaUserLibrary" Alt="CAA938FDB113F6B6" Size="1C">
 		<_41 Name="lua library" Offset="0" Allowed="luas" Flags="0" />
 	</_737041B838464D85B3CB9F7594612A80>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
-	<_F3DA4AD239753FD6DF40B1E19C599FC8 Name="FontSetReferenceBlockDefinition" Size="1C">
+	<_F3DA4AD239753FD6DF40B1E19C599FC8 Name="FontSetReferenceBlockDefinition" Alt="A1E9381011506F3F" Size="1C">
 		<_41 Name="wpf font set tag" Offset="0" Allowed="fnts" Flags="0" />
 	</_F3DA4AD239753FD6DF40B1E19C599FC8>
-	<_D3C94148CD4A6B7F45C7C7F08708E91E Name="BitmapDictionaryReferenceBlockDefinition" Size="1C">
+	<_D3C94148CD4A6B7F45C7C7F08708E91E Name="BitmapDictionaryReferenceBlockDefinition" Alt="702384C9403C7EFC" Size="1C">
 		<_41 Name="bitmap dictionary" Offset="0" Allowed="bitd" Flags="0" />
 	</_D3C94148CD4A6B7F45C7C7F08708E91E>
-	<_EF6F44F84F8A1693AB0C74209FAA28AF Name="KeyboardLayoutBitmapDictionaryReference" Size="24">
+	<_EF6F44F84F8A1693AB0C74209FAA28AF Name="KeyboardLayoutBitmapDictionaryReference" Alt="1AF2C0122BCD498D" Size="24">
 		<_3E Name="Keyboard Layout ID" Offset="0" />
 		<_F Name="flags" Offset="4" StructName1="KeyboardLayoutBitmapDictionaryReference::KeyboardLayoutBitmapDictionaryReferenceFlags">
 			<Flag n="Right Alt is Alt Gr?" />
@@ -122,7 +122,7 @@
 		<_34 Name="generated_pad603b" Offset="5" Length="3" />
 		<_41 Name="layoutBitmaps" Offset="8" Allowed="bitd" Flags="0" />
 	</_EF6F44F84F8A1693AB0C74209FAA28AF>
-	<_310245581BC1FC991CD096F38E8A44B1 Name="LocalizedFunctionKeyBitmapDictionaryReference" Size="20">
+	<_310245581BC1FC991CD096F38E8A44B1 Name="LocalizedFunctionKeyBitmapDictionaryReference" Alt="EE8A8A508262ADE5" Size="20">
 		<_C Name="Language ID" Offset="0" StructName1="e_language">
 			<Flag n="English" />
 			<Flag n="Japanese" />
@@ -145,7 +145,7 @@
 		</_C>
 		<_41 Name="function key label image overrides" Offset="4" Allowed="bitd" Flags="0" />
 	</_310245581BC1FC991CD096F38E8A44B1>
-	<_F8E34BE18C826A951FAC0956B680C7B0 Name="LoadingScreenSettings" Size="3C">
+	<_F8E34BE18C826A951FAC0956B680C7B0 Name="LoadingScreenSettings" Alt="C21077744A95F5A9" Size="3C">
 		<_A Name="Loading Screen Category" Offset="0" StructName1="e_LoadingScreenCategory">
 			<Flag n="Generic" />
 			<Flag n="Campaign" />
@@ -162,14 +162,14 @@
 		<_14 Name="Loading Screen Image Flip Time" Offset="34" />
 		<_14 Name="Loading Screen Tooltip Flip Time" Offset="38" />
 	</_F8E34BE18C826A951FAC0956B680C7B0>
-	<_8F0E4B0AB71451EA25889100BF65EF47 Name="ReticleOverPlayerDefinition" Size="14">
+	<_8F0E4B0AB71451EA25889100BF65EF47 Name="ReticleOverPlayerDefinition" Alt="D538F0E01AF36F7" Size="14">
 		<_14 Name="firstTierAngle" Offset="0" />
 		<_14 Name="firstTierDistance" Offset="4" />
 		<_14 Name="secondTierAngle" Offset="8" />
 		<_14 Name="secondTierDistance" Offset="C" />
 		<_14 Name="vehicleDistanceScalar" Offset="10" />
 	</_8F0E4B0AB71451EA25889100BF65EF47>
-	<_3DEF4A26126F79EB83E217ADB589585B Name="LocalizedFontMappingSetDefinition" Size="18">
+	<_3DEF4A26126F79EB83E217ADB589585B Name="LocalizedFontMappingSetDefinition" Alt="FBA32EDB303E1DEC" Size="18">
 		<_C Name="language" Offset="0" StructName1="e_language">
 			<Flag n="English" />
 			<Flag n="Japanese" />
@@ -192,37 +192,37 @@
 		</_C>
 		<_40 Name="mappings" Offset="4" GUID="948E4E8FBB96CDA10C9FFD39A3E42696" StructName1="LocalizedFontMappingSetDefinition" Min="0" Max="32" />
 	</_3DEF4A26126F79EB83E217ADB589585B>
-	<_459E43E467EDA3CE740A4E04A0438BEB Name="DropShadowParameters" Size="14">
+	<_459E43E467EDA3CE740A4E04A0438BEB Name="DropShadowParameters" Alt="8CCEEE214EC29A7" Size="14">
 		<_2 Name="Name" Offset="0" />
 		<_16 Name="Offset" Offset="4" />
 		<_2 Name="Color" Offset="C" />
 		<_6 Name="Sample Size" Offset="10" />
 	</_459E43E467EDA3CE740A4E04A0438BEB>
-	<_0A484152FCD01C742F63FBF2BC3149E6 Name="FontSizeScaleValues" Size="10">
+	<_0A484152FCD01C742F63FBF2BC3149E6 Name="FontSizeScaleValues" Alt="721B9F0A68CEE58A" Size="10">
 		<_6 Name="Range Min" Offset="0" />
 		<_6 Name="Range Max" Offset="4" />
 		<_6 Name="Large Font Value" Offset="8" />
 		<_6 Name="Extra Large Font Value" Offset="C" />
 	</_0A484152FCD01C742F63FBF2BC3149E6>
-	<_9B865C76019DF9DA8E05569F14B90CAF Name="SettingsMenuSliderSettings" Size="14">
+	<_9B865C76019DF9DA8E05569F14B90CAF Name="SettingsMenuSliderSettings" Alt="FDC0398C73D751C3" Size="14">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="Min Value" Offset="4" />
 		<_14 Name="Max Value" Offset="8" />
 		<_14 Name="Step Size" Offset="C" />
 		<_14 Name="Scaling Factor" Offset="10" />
 	</_9B865C76019DF9DA8E05569F14B90CAF>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_C6A24A780F5F62C7F47B91CDBCCFBB7A Name="RealARGBColorBlock" Size="10">
+	<_C6A24A780F5F62C7F47B91CDBCCFBB7A Name="RealARGBColorBlock" Alt="556B2369F5226776" Size="10">
 		<_20 Name="color" Offset="0" />
 	</_C6A24A780F5F62C7F47B91CDBCCFBB7A>
-	<_22264AEC2AC49909227CC63BB1B5B432 Name="LoadingScreenCategoryTooltipStrings" Size="8">
+	<_22264AEC2AC49909227CC63BB1B5B432 Name="LoadingScreenCategoryTooltipStrings" Alt="2FB30C2EB1926181" Size="8">
 		<_2 Name="Header Text" Offset="0" />
 		<_2 Name="Description Text" Offset="4" />
 	</_22264AEC2AC49909227CC63BB1B5B432>
-	<_948E4E8FBB96CDA10C9FFD39A3E42696 Name="FontMappingDefinition" Size="200">
+	<_948E4E8FBB96CDA10C9FFD39A3E42696 Name="FontMappingDefinition" Alt="E724A38BF896D018" Size="200">
 		<_1 Name="original name" Offset="0" />
 		<_1 Name="remapped name" Offset="100" />
 	</_948E4E8FBB96CDA10C9FFD39A3E42696>

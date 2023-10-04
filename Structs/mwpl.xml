@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="MaterialPalette" Parents="aTag" Index="-264">
-	<_7FBF4D213D59EFC24CBEF557A43C1E7A Name="MaterialPaletteTag" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="MaterialPalette" Parents="aTag" Index="-264">
+	<_7FBF4D213D59EFC24CBEF557A43C1E7A Name="MaterialPaletteTag" Alt="9E1FA2325BF41F8F" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="swatches" Offset="10" GUID="322145BD118D4EE27CCEF3DFACCEB6B0" StructName1="MaterialPaletteTag" Min="0" Max="2048" />
 		<_5 Name="Empty Swatch Index" Offset="24" />
 		<_34 Name="generated_pad0d32" Offset="26" Length="2" />
 	</_7FBF4D213D59EFC24CBEF557A43C1E7A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_322145BD118D4EE27CCEF3DFACCEB6B0 Name="MaterialSwatchEntry" Size="38">
+	<_322145BD118D4EE27CCEF3DFACCEB6B0 Name="MaterialSwatchEntry" Alt="F931662C4E33F623" Size="38">
 		<_2 Name="name" Offset="0" />
 		<_41 Name="swatch" Offset="4" Allowed="mwsw" Flags="4" />
 		<_2 Name="color" type="sted" Offset="20" />
@@ -33,8 +33,8 @@
 		<_2 Name="notes" Offset="30" />
 		<_2 Name="groupName" Offset="34" />
 	</_322145BD118D4EE27CCEF3DFACCEB6B0>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:16 PM" Name="EvadeDefinitionTag" Parents="aTag" Index="-347">
-	<_578247F8BC287A8351E296C59623EFE9 Name="i343::SpartanAbilities::EvadeDefinitionTag" Size="190">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="EvadeDefinitionTag" Parents="aTag" Index="-347">
+	<_578247F8BC287A8351E296C59623EFE9 Name="i343::SpartanAbilities::EvadeDefinitionTag" Alt="2F2853896F6908A" Size="190">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="data" Offset="10" GUID="37DF4AC387D9002E87BF286BB6469655" />
 	</_578247F8BC287A8351E296C59623EFE9>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_37DF4AC387D9002E87BF286BB6469655 Name="i343::SpartanAbilities::EvadeDefinition" Size="180">
+	<_37DF4AC387D9002E87BF286BB6469655 Name="i343::SpartanAbilities::EvadeDefinition" Alt="454576B1496512B3" Size="180">
 		<_38 Name="common ability parameters" Offset="0" GUID="D954483CA0B1EFF4F0B4EBCD88F17DD4" />
 		<_D Name="evade flags" Offset="78" StructName1="i343::SpartanAbilities::EvadeDefinitionFlags">
 			<Flag n="Must be grounded to activate" />
@@ -58,11 +58,11 @@
 		<_14 Name="maximum vertical impulse" Offset="178" />
 		<_14 Name="maximum vertical impulse speed threshold" Offset="17C" />
 	</_37DF4AC387D9002E87BF286BB6469655>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_D954483CA0B1EFF4F0B4EBCD88F17DD4 Name="i343::SpartanAbilities::SpartanAbilityCommonParameters" Size="78">
+	<_D954483CA0B1EFF4F0B4EBCD88F17DD4 Name="i343::SpartanAbilities::SpartanAbilityCommonParameters" Alt="B5A0C4B5B8408D6C" Size="78">
 		<_37 Name="common ability parameters" type="fgrb" Offset="0" />
 		<_C Name="input" Offset="0" StructName1="i343::Units::ArmorInput">
 			<Flag n="Default" />
@@ -107,12 +107,12 @@
 		<_41 Name="timed malleable property modifiers" Offset="5C" Allowed="gmpm" Flags="0" />
 		<_37 Name="" type="fgre" Offset="78" />
 	</_D954483CA0B1EFF4F0B4EBCD88F17DD4>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
-	<_DB6340E6F8D8B4A163AE2E8B97EA8CBB Name="i343::MalleableProperty::BaseFloatStructDefinition" Size="C">
+	<_DB6340E6F8D8B4A163AE2E8B97EA8CBB Name="i343::MalleableProperty::BaseFloatStructDefinition" Alt="A276DB883D38A54E" Size="C">
 		<_14 Name="Base Value" Offset="0" />
 		<_25 Name="Value Bounds" Offset="4" />
 	</_DB6340E6F8D8B4A163AE2E8B97EA8CBB>

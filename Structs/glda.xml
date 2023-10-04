@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="DamageGlobalsDefinition" Parents="aTag" Index="-182">
-	<_793942CBE3C4C1D60D14416DAAD36E5A Name="i343::DamageGlobals" Size="38">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="DamageGlobalsDefinition" Parents="aTag" Index="-182">
+	<_793942CBE3C4C1D60D14416DAAD36E5A Name="i343::DamageGlobals" Alt="BC7EA93F71EA0C1E" Size="38">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="damage table" Offset="10" GUID="58964FDC5E6087987302D300BCD062B5" StructName1="i343::DamageGlobals" Min="0" Max="2" />
 		<_40 Name="damage" Offset="24" GUID="C9FD41842B7CE12A6D515D0AA5B5C911" StructName1="i343::DamageGlobals" Min="0" Max="1" />
 	</_793942CBE3C4C1D60D14416DAAD36E5A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_58964FDC5E6087987302D300BCD062B5 Name="s_damage_globals_definition" Size="14">
+	<_58964FDC5E6087987302D300BCD062B5 Name="s_damage_globals_definition" Alt="FD814872D204C09C" Size="14">
 		<_40 Name="damage groups" Offset="0" GUID="3110409D34945DAA4B1BFD04A4F3330D" StructName1="s_damage_globals_definition" Min="0" Max="512" />
 	</_58964FDC5E6087987302D300BCD062B5>
-	<_C9FD41842B7CE12A6D515D0AA5B5C911 Name="s_game_globals_damage" Size="3C8">
+	<_C9FD41842B7CE12A6D515D0AA5B5C911 Name="s_game_globals_damage" Alt="3429AFAA9B838FC1" Size="3C8">
 		<_36 Name="Guardians Damage Source" Offset="0" />
 		<_38 Name="guardiansDamageSource" Offset="0" GUID="FF87433DC31A245D49183EE68FE5BB27" />
 		<_36 Name="Unknown Damage Type" Offset="4" />
@@ -72,28 +72,28 @@
 		<_41 Name="player died from AOE damage sound" Offset="3AC" Allowed="snd!" Flags="0" />
 		<_37 Name="" type="fgre" Offset="3C8" />
 	</_C9FD41842B7CE12A6D515D0AA5B5C911>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_3110409D34945DAA4B1BFD04A4F3330D Name="s_damage_group_definition" Size="18">
+	<_3110409D34945DAA4B1BFD04A4F3330D Name="s_damage_group_definition" Alt="520E20610E047FA2" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_40 Name="armor modifiers" Offset="4" GUID="0AB145C01D0D482B3FDE838A86B6EF80" StructName1="s_damage_group_definition" Min="0" Max="512" />
 	</_3110409D34945DAA4B1BFD04A4F3330D>
-	<_FF87433DC31A245D49183EE68FE5BB27 Name="i343::Damage::DamageSourceDefinition" Size="4">
+	<_FF87433DC31A245D49183EE68FE5BB27 Name="i343::Damage::DamageSourceDefinition" Alt="A20F74767C5A02F8" Size="4">
 		<_2 Name="Damage Source Name" Offset="0" />
 	</_FF87433DC31A245D49183EE68FE5BB27>
-	<_89514F3F92AB3D7856E0F6C28949DE8C Name="i343::Damage::DamageTypeDefinition" Size="4">
+	<_89514F3F92AB3D7856E0F6C28949DE8C Name="i343::Damage::DamageTypeDefinition" Alt="C98F136885F73319" Size="4">
 		<_2 Name="Damage Type Name" Offset="0" />
 	</_89514F3F92AB3D7856E0F6C28949DE8C>
-	<_2E6449351C1E23432B143905A2CE1C35 Name="s_damage_decay" Size="14">
+	<_2E6449351C1E23432B143905A2CE1C35 Name="s_damage_decay" Alt="F840E35BD1370A8C" Size="14">
 		<_14 Name="current damage decay delay" Offset="0" />
 		<_14 Name="current damage decay time" Offset="4" />
 		<_14 Name="current damage decay rate" Offset="8" />
 		<_14 Name="recent damage decay delay" Offset="C" />
 		<_14 Name="recent damage decay time" Offset="10" />
 	</_2E6449351C1E23432B143905A2CE1C35>
-	<_19984BEFB3F8389FC2DE9124B530B6CD Name="i343::Damage::PlayerAdditiveSoundDealDamageDefinition" Size="C4">
+	<_19984BEFB3F8389FC2DE9124B530B6CD Name="i343::Damage::PlayerAdditiveSoundDealDamageDefinition" Alt="1F0AA15EB112BA05" Size="C4">
 		<_41 Name="player additive sound deal damage regular" Offset="0" Allowed="snd!" Flags="0" />
 		<_41 Name="player additive sound deal damage aoe" Offset="1C" Allowed="snd!" Flags="0" />
 		<_41 Name="player additive sound deal damage friendly fire" Offset="38" Allowed="snd!" Flags="0" />
@@ -102,7 +102,7 @@
 		<_41 Name="player additive sound deal damage kill" Offset="8C" Allowed="snd!" Flags="0" />
 		<_41 Name="player additive sound deal damage headshot kill" Offset="A8" Allowed="snd!" Flags="0" />
 	</_19984BEFB3F8389FC2DE9124B530B6CD>
-	<_0AB145C01D0D482B3FDE838A86B6EF80 Name="s_armor_modifier_definition" Size="8">
+	<_0AB145C01D0D482B3FDE838A86B6EF80 Name="s_armor_modifier_definition" Alt="19F7CC39DB1DC3B6" Size="8">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="damage multiplier" Offset="4" />
 	</_0AB145C01D0D482B3FDE838A86B6EF80>

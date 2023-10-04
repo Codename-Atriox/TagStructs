@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="InputBundle" Parents="aTag" Index="-213">
-	<_E3E3457DE41C07CED05060938A79C997 Name="InputBundle" Size="78">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="InputBundle" Parents="aTag" Index="-213">
+	<_E3E3457DE41C07CED05060938A79C997 Name="InputBundle" Alt="EE1334209864830F" Size="78">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="axes" Offset="10" GUID="A34E46445D08E5F0D92E77A399AE12AC" StructName1="InputBundle" Min="0" Max="127" />
 		<_40 Name="bindings" Offset="24" GUID="F72949A7D0A940174818E9378A47FC2D" StructName1="InputBundle" Min="0" Max="255" />
@@ -9,11 +9,11 @@
 		<_40 Name="constants" Offset="60" GUID="B87A464510CD8C8B236F41D5911A8B7F" StructName1="InputBundle" Min="0" Max="127" />
 		<_34 Name="generated_pad8744" Offset="74" Length="4" />
 	</_E3E3457DE41C07CED05060938A79C997>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_A34E46445D08E5F0D92E77A399AE12AC Name="InputAxis" Size="C">
+	<_A34E46445D08E5F0D92E77A399AE12AC Name="InputAxis" Alt="72E98EAA275F8698" Size="C">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="default value" Offset="4" />
 		<_A Name="behavior" Offset="8" StructName1="InputAxisBehavior">
@@ -23,7 +23,7 @@
 		</_A>
 		<_34 Name="generated_pada3ff" Offset="9" Length="3" />
 	</_A34E46445D08E5F0D92E77A399AE12AC>
-	<_F72949A7D0A940174818E9378A47FC2D Name="InputDeviceBinding" Size="4">
+	<_F72949A7D0A940174818E9378A47FC2D Name="InputDeviceBinding" Alt="A2481609E71F8225" Size="4">
 		<_B Name="device" Offset="0" StructName1="InputDeviceElement">
 			<Flag n="Unassigned" />
 			<Flag n="Gamepad Left Stick Horizontal" />
@@ -243,7 +243,7 @@
 		<_2C Name="output" Offset="2" GUID="A34E46445D08E5F0D92E77A399AE12AC" StructName1="InputDeviceBinding" Min="0" Max="127" />
 		<_34 Name="generated_padc197" Offset="3" Length="1" />
 	</_F72949A7D0A940174818E9378A47FC2D>
-	<_567E4D621D4D7DEBA45DF313B3DDF477 Name="InputAxisConnection" Size="28">
+	<_567E4D621D4D7DEBA45DF313B3DDF477 Name="InputAxisConnection" Alt="5C10709E3C3910E1" Size="28">
 		<_38 Name="external" Offset="0" GUID="1D0241F336904DB84EF2A4E783CA13D9" />
 		<_2C Name="internal" Offset="24" GUID="A34E46445D08E5F0D92E77A399AE12AC" StructName1="InputAxisConnection" Min="0" Max="127" />
 		<_F Name="flags" Offset="25" StructName1="InputAxisConnection::Flags">
@@ -251,7 +251,7 @@
 		</_F>
 		<_34 Name="generated_pad3cef" Offset="26" Length="2" />
 	</_567E4D621D4D7DEBA45DF313B3DDF477>
-	<_5DDD448F92BFDFC105CD43DDBF8C4066 Name="InputAxisMap" Size="C">
+	<_5DDD448F92BFDFC105CD43DDBF8C4066 Name="InputAxisMap" Alt="9DB970BAC0D8FEF5" Size="C">
 		<_2C Name="input0" Offset="0" GUID="A34E46445D08E5F0D92E77A399AE12AC" StructName1="InputAxisMap" Min="0" Max="127" />
 		<_2C Name="input1" Offset="1" GUID="A34E46445D08E5F0D92E77A399AE12AC" StructName1="InputAxisMap" Min="0" Max="127" />
 		<_2C Name="output" Offset="2" GUID="A34E46445D08E5F0D92E77A399AE12AC" StructName1="InputAxisMap" Min="0" Max="127" />
@@ -292,14 +292,14 @@
 		<_14 Name="minimum" Offset="4" />
 		<_14 Name="maximum" Offset="8" />
 	</_5DDD448F92BFDFC105CD43DDBF8C4066>
-	<_B87A464510CD8C8B236F41D5911A8B7F Name="InputAxisIndex" Size="1">
+	<_B87A464510CD8C8B236F41D5911A8B7F Name="InputAxisIndex" Alt="BAC4CE8CD078C498" Size="1">
 		<_3C Name="axisIndex" Offset="0" />
 	</_B87A464510CD8C8B236F41D5911A8B7F>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_1D0241F336904DB84EF2A4E783CA13D9 Name="InputAxisRef" Size="24">
+	<_1D0241F336904DB84EF2A4E783CA13D9 Name="InputAxisRef" Alt="C1ECB8A2CA84E3B5" Size="24">
 		<_41 Name="bundle" Offset="0" Allowed="inbu" Flags="0" />
 		<_2 Name="axis" Offset="1C" />
 		<_3C Name="axisIndex" Offset="20" />

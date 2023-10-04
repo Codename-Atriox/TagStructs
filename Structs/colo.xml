@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="color_table" Parents="aTag" Index="-76">
-	<_019F497DD54F00C727691AFAA02B0FD4 Name="color_table" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="color_table" Parents="aTag" Index="-76">
+	<_019F497DD54F00C727691AFAA02B0FD4 Name="color_table" Alt="482136ADD5A5F2AB" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="colors" Offset="10" GUID="3C76413C68FBD3A866145DD18C564268" StructName1="color_table" Min="0" Max="512" />
 		<_34 Name="generated_pad9dec" Offset="24" Length="4" />
 	</_019F497DD54F00C727691AFAA02B0FD4>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_3C76413C68FBD3A866145DD18C564268 Name="color_table_color" Size="30">
+	<_3C76413C68FBD3A866145DD18C564268 Name="color_table_color" Alt="4D22198D0D597478" Size="30">
 		<_0 Name="name" Offset="0" />
 		<_20 Name="color" Offset="20" />
 	</_3C76413C68FBD3A866145DD18C564268>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>

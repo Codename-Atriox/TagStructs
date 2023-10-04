@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:22 PM" Name="XObjectNodeGraph" Parents="aTag" Index="-485">
-	<_387748AA19372ED89DB10371805F53D7 Name="ExportedObjectNodeGraph" Size="4D8">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:58 PM" Name="XObjectNodeGraph" Parents="aTag" Index="-485">
+	<_387748AA19372ED89DB10371805F53D7 Name="ExportedObjectNodeGraph" Alt="AE0B9B96B6447ADA" Size="4D8">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Source Graph" Offset="10" Allowed="ongc" Flags="0" />
 		<_14 Name="Max Update Rate" Offset="2C" />
@@ -84,15 +84,15 @@
 		<_40 Name="Set Graph Update Mode Nodes" Offset="4B0" GUID="D5C440601A06ADFA6DD5BCCFA0AD3063" StructName1="ExportedObjectNodeGraph" Min="0" Max="2048" />
 		<_40 Name="Wind Speed Nodes" Offset="4C4" GUID="29D041F4751D0E485DE6B721BC4A2DBF" StructName1="ExportedObjectNodeGraph" Min="0" Max="2048" />
 	</_387748AA19372ED89DB10371805F53D7>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_3AF84299510A37C4823BD19E9553247A Name="ObjectGraphConnection" Size="28">
+	<_3AF84299510A37C4823BD19E9553247A Name="ObjectGraphConnection" Alt="157A179621F80B07" Size="28">
 		<_40 Name="Source" Offset="0" GUID="09734776DC4910BF97F708D98E32C40B" StructName1="ObjectGraphConnection" Min="0" Max="1" />
 		<_40 Name="Destination" Offset="14" GUID="09734776DC4910BF97F708D98E32C40B" StructName1="ObjectGraphConnection" Min="0" Max="1" />
 	</_3AF84299510A37C4823BD19E9553247A>
-	<_D7554AE09D5D351AB7A4978BB208FE4B Name="BooleanLogicNode" Size="4">
+	<_D7554AE09D5D351AB7A4978BB208FE4B Name="BooleanLogicNode" Alt="3BBD9B1D048EEE98" Size="4">
 		<_C Name="Operation Type" Offset="0" StructName1="BooleanLogicType">
 			<Flag n="And" />
 			<Flag n="Or" />
@@ -104,71 +104,71 @@
 			<Flag n="Invert" />
 		</_C>
 	</_D7554AE09D5D351AB7A4978BB208FE4B>
-	<_5E954FB856DEF12C701A35FDAE56995B Name="BoolToggleNodeData" Size="2">
+	<_5E954FB856DEF12C701A35FDAE56995B Name="BoolToggleNodeData" Alt="E863F3251024BC8" Size="2">
 		<_E Name="Flags" Offset="0" StructName1="BoolToggleNodeFlags">
 			<Flag n="Initial" />
 		</_E>
 	</_5E954FB856DEF12C701A35FDAE56995B>
-	<_629F47EDC6529ADF3F744A979160A0AD Name="BoolToEventNodeData" Size="1">
+	<_629F47EDC6529ADF3F744A979160A0AD Name="BoolToEventNodeData" Alt="62756ED0EB22BF62" Size="1">
 		<_4 Name="dummy data" Offset="0" />
 	</_629F47EDC6529ADF3F744A979160A0AD>
-	<_EC7A4100FE516609EA1DD587A6E9AD14 Name="BranchNodeData" Size="1">
+	<_EC7A4100FE516609EA1DD587A6E9AD14 Name="BranchNodeData" Alt="BC4595BCF77E9E35" Size="1">
 		<_4 Name="dummy data" Offset="0" />
 	</_EC7A4100FE516609EA1DD587A6E9AD14>
-	<_903F43A6F294959A30727374B264EE64 Name="BranchEventNodeData" Size="2">
+	<_903F43A6F294959A30727374B264EE64 Name="BranchEventNodeData" Alt="D31E6B42896A5F2D" Size="2">
 		<_E Name="Flags" Offset="0" StructName1="BranchEventNodeFlags">
 			<Flag n="Output Select" />
 		</_E>
 	</_903F43A6F294959A30727374B264EE64>
-	<_F51841597257227E53844D06969048AC Name="CheckLightingVariantNodeData" Size="4">
+	<_F51841597257227E53844D06969048AC Name="CheckLightingVariantNodeData" Alt="3968B13BD6754405" Size="4">
 		<_2 Name="Lighting Variant Name Id" Offset="0" />
 	</_F51841597257227E53844D06969048AC>
-	<_7E4146DBCF32D5986D30E0DB954C5E43 Name="ClampNodeData" Size="8">
+	<_7E4146DBCF32D5986D30E0DB954C5E43 Name="ClampNodeData" Alt="8FDDB2580146BF15" Size="8">
 		<_14 Name="Minimum" Offset="0" />
 		<_14 Name="Maximum" Offset="4" />
 	</_7E4146DBCF32D5986D30E0DB954C5E43>
-	<_EF0A425649C880D537E41CE89A7A0EFA Name="CompareFloatNodeData" Size="1">
+	<_EF0A425649C880D537E41CE89A7A0EFA Name="CompareFloatNodeData" Alt="36633484EF455049" Size="1">
 		<_4 Name="dummy data" Offset="0" />
 	</_EF0A425649C880D537E41CE89A7A0EFA>
-	<_22B04D37275F088BA0EDA9F2AA88A9A6 Name="ConstantFloatNode" Size="4">
+	<_22B04D37275F088BA0EDA9F2AA88A9A6 Name="ConstantFloatNode" Alt="B7D06172950E8CDD" Size="4">
 		<_14 Name="Value" Offset="0" />
 	</_22B04D37275F088BA0EDA9F2AA88A9A6>
-	<_E9E342725287BE67B8BDF980A4B3A1B0 Name="ConstantIntNode" Size="4">
+	<_E9E342725287BE67B8BDF980A4B3A1B0 Name="ConstantIntNode" Alt="E4D7312388D767F" Size="4">
 		<_6 Name="Value" Offset="0" />
 	</_E9E342725287BE67B8BDF980A4B3A1B0>
-	<_3A564BAA1FC36A9F6AE851F8841170F6 Name="ConstantInt64Node" Size="8">
+	<_3A564BAA1FC36A9F6AE851F8841170F6 Name="ConstantInt64Node" Alt="BB443D0B23475A7" Size="8">
 		<_6 Name="Value" Offset="0" />
 		<_34 Name="generated_pad8671" Offset="4" Length="4" />
 	</_3A564BAA1FC36A9F6AE851F8841170F6>
-	<_C05144F163239CE6419AB6C180379C81 Name="ConstantUInt64Node" Size="8">
+	<_C05144F163239CE6419AB6C180379C81 Name="ConstantUInt64Node" Alt="50E43736276F9D07" Size="8">
 		<_6 Name="Value" Offset="0" />
 		<_34 Name="generated_pad75b8" Offset="4" Length="4" />
 	</_C05144F163239CE6419AB6C180379C81>
-	<_BB9A4BFEFDE92C5040E96753ADE1370C Name="ConstantStringNode" Size="100">
+	<_BB9A4BFEFDE92C5040E96753ADE1370C Name="ConstantStringNode" Alt="78BE1AE45CFEB9E0" Size="100">
 		<_1 Name="Value" Offset="0" />
 	</_BB9A4BFEFDE92C5040E96753ADE1370C>
-	<_BE8B48E4E50B795026849905984B0184 Name="ConstantVector3Node" Size="C">
+	<_BE8B48E4E50B795026849905984B0184 Name="ConstantVector3Node" Alt="3A81F8C983957C8F" Size="C">
 		<_19 Name="Value" Offset="0" />
 	</_BE8B48E4E50B795026849905984B0184>
-	<_030C4AE8DEF0D8725C7FC1A698F760FA Name="ConstantBoolNode" Size="4">
+	<_030C4AE8DEF0D8725C7FC1A698F760FA Name="ConstantBoolNode" Alt="E35D2E38D20B86CB" Size="4">
 		<_6 Name="Value" Offset="0" />
 	</_030C4AE8DEF0D8725C7FC1A698F760FA>
-	<_16BD48325D0ECE9FA1B6C25AB9AC2CF0 Name="DebugPrintNodeData" Size="104">
+	<_16BD48325D0ECE9FA1B6C25AB9AC2CF0 Name="DebugPrintNodeData" Alt="5F52EB5B3E08EFB8" Size="104">
 		<_6 Name="Message Length" Offset="0" />
 		<_1 Name="Message" Offset="4" />
 	</_16BD48325D0ECE9FA1B6C25AB9AC2CF0>
-	<_69CD48968A79C591EB1DF36D94F9F13D Name="EnvelopeNodeData" Size="C">
+	<_69CD48968A79C591EB1DF36D94F9F13D Name="EnvelopeNodeData" Alt="2BD539CBAD4F0464" Size="C">
 		<_14 Name="Attack" Offset="0" />
 		<_14 Name="Hold" Offset="4" />
 		<_14 Name="Release" Offset="8" />
 	</_69CD48968A79C591EB1DF36D94F9F13D>
-	<_6B494CE52AAB4B015D1BD6C8B3837A97 Name="EventRouterNodeData" Size="1">
+	<_6B494CE52AAB4B015D1BD6C8B3837A97 Name="EventRouterNodeData" Alt="84202A44C3115CBA" Size="1">
 		<_4 Name="dummy data" Offset="0" />
 	</_6B494CE52AAB4B015D1BD6C8B3837A97>
-	<_525C4B45AACB43881A1C8336AE66F9E0 Name="FloatSnapshotNodeData" Size="1">
+	<_525C4B45AACB43881A1C8336AE66F9E0 Name="FloatSnapshotNodeData" Alt="7B73A768598E6A7F" Size="1">
 		<_4 Name="dummy data" Offset="0" />
 	</_525C4B45AACB43881A1C8336AE66F9E0>
-	<_B0A24AD2C7A8BD7350BC7D7681985214 Name="FloatLogicNode" Size="4">
+	<_B0A24AD2C7A8BD7350BC7D7681985214 Name="FloatLogicNode" Alt="8B7768CEC9CABB97" Size="4">
 		<_C Name="Condition" Offset="0" StructName1="FloatLogicType">
 			<Flag n="LessThan" />
 			<Flag n="LessThanOrEqual" />
@@ -178,7 +178,7 @@
 			<Flag n="Not Equal" />
 		</_C>
 	</_B0A24AD2C7A8BD7350BC7D7681985214>
-	<_D9984E03796AB6CAA9E19A7B963331A2 Name="FloatOperatorNode" Size="4">
+	<_D9984E03796AB6CAA9E19A7B963331A2 Name="FloatOperatorNode" Alt="A754E9FA5D91AB32" Size="4">
 		<_C Name="Operation Type" Offset="0" StructName1="FloatOperatorType">
 			<Flag n="Modulo" />
 			<Flag n="Absolute" />
@@ -207,13 +207,13 @@
 			<Flag n="Division" />
 		</_C>
 	</_D9984E03796AB6CAA9E19A7B963331A2>
-	<_2C3A4B20545A489AC330A8529DE3CD38 Name="GetGameFloatValueNodeData" Size="4">
+	<_2C3A4B20545A489AC330A8529DE3CD38 Name="GetGameFloatValueNodeData" Alt="89433037701C0072" Size="4">
 		<_2 Name="Value Name" Offset="0" />
 	</_2C3A4B20545A489AC330A8529DE3CD38>
-	<_12274678B968239C5B4F896DB5045ECD Name="FloatSwitchNodeData" Size="1">
+	<_12274678B968239C5B4F896DB5045ECD Name="FloatSwitchNodeData" Alt="6BFCC6969B8D74D1" Size="1">
 		<_4 Name="dummy data" Offset="0" />
 	</_12274678B968239C5B4F896DB5045ECD>
-	<_84EF4C4BEF8C183E76E4909F81AA04C9 Name="GetGameEventNodeData" Size="108">
+	<_84EF4C4BEF8C183E76E4909F81AA04C9 Name="GetGameEventNodeData" Alt="4741DB7344D348C3" Size="108">
 		<_6 Name="Event Name Length" Offset="0" />
 		<_1 Name="Event Name" Offset="4" />
 		<_E Name="Event Flags" Offset="104" StructName1="GetGameEventNodeFlags">
@@ -221,30 +221,30 @@
 		</_E>
 		<_34 Name="generated_pad9308" Offset="106" Length="2" />
 	</_84EF4C4BEF8C183E76E4909F81AA04C9>
-	<_25754F1958F7BD7AEB6368FB882EAB77 Name="LoopingSoundNodeData" Size="20">
+	<_25754F1958F7BD7AEB6368FB882EAB77 Name="LoopingSoundNodeData" Alt="B867A9BEF4DD9A81" Size="20">
 		<_41 Name="Sound Tag" Offset="0" Allowed="lsnd" Flags="0" />
 		<_2 Name="Marker" Offset="1C" />
 	</_25754F1958F7BD7AEB6368FB882EAB77>
-	<_156A4EAB3CA44B8CBAB3F8B586D7D08E Name="LoopingSoundReferenceNodeData" Size="1C">
+	<_156A4EAB3CA44B8CBAB3F8B586D7D08E Name="LoopingSoundReferenceNodeData" Alt="443DB8900FA7A6CA" Size="1C">
 		<_41 Name="Sound Tag" Offset="0" Allowed="lsnd" Flags="0" />
 	</_156A4EAB3CA44B8CBAB3F8B586D7D08E>
-	<_744941228A23DDA0E008A815A9FEED62 Name="ObjectFunctionNodeData" Size="4">
+	<_744941228A23DDA0E008A815A9FEED62 Name="ObjectFunctionNodeData" Alt="212F11DB5F254F6F" Size="4">
 		<_2 Name="Function Name" Offset="0" />
 	</_744941228A23DDA0E008A815A9FEED62>
-	<_F3244BAEA364AD869246F5F7A5C16212 Name="OneShotSoundNodeData" Size="20">
+	<_F3244BAEA364AD869246F5F7A5C16212 Name="OneShotSoundNodeData" Alt="E2BFDB5EA83ED1BF" Size="20">
 		<_41 Name="Sound Tag" Offset="0" Allowed="snd!" Flags="0" />
 		<_2 Name="Marker" Offset="1C" />
 	</_F3244BAEA364AD869246F5F7A5C16212>
-	<_60A647B1D9C72142E83F5587982A9A68 Name="OneShotSoundReferenceNodeData" Size="1C">
+	<_60A647B1D9C72142E83F5587982A9A68 Name="OneShotSoundReferenceNodeData" Alt="124277E1ECF4AF32" Size="1C">
 		<_41 Name="Sound Tag" Offset="0" Allowed="snd!" Flags="0" />
 	</_60A647B1D9C72142E83F5587982A9A68>
-	<_FDA041537C5BE2FBFB12D0EFA0BC4308 Name="PersistentRandomFloatNodeData" Size="1">
+	<_FDA041537C5BE2FBFB12D0EFA0BC4308 Name="PersistentRandomFloatNodeData" Alt="E85539F9A486E7BB" Size="1">
 		<_4 Name="dummy data" Offset="0" />
 	</_FDA041537C5BE2FBFB12D0EFA0BC4308>
-	<_DA91453183A3949F9F186557B62C8569 Name="ProbabilityEventNodeData" Size="1">
+	<_DA91453183A3949F9F186557B62C8569 Name="ProbabilityEventNodeData" Alt="7A94FC0969E42356" Size="1">
 		<_4 Name="dummy data" Offset="0" />
 	</_DA91453183A3949F9F186557B62C8569>
-	<_4C1D4992BAC8ACBF6691E443B5FEAA41 Name="PiecewiseFunctionNodeData" Size="1C">
+	<_4C1D4992BAC8ACBF6691E443B5FEAA41 Name="PiecewiseFunctionNodeData" Alt="26CBC1BAE665E34A" Size="1C">
 		<_42 Name="Point Data" Offset="0" StructName1="PiecewiseFunctionNodeData.Point Data" Int1="32" Int2="0" Flags="80" />
 		<_A Name="FunctionType" Offset="18" StructName1="PiecewiseFunctionType">
 			<Flag n="Linear" />
@@ -252,7 +252,7 @@
 		</_A>
 		<_34 Name="generated_pada36a" Offset="19" Length="3" />
 	</_4C1D4992BAC8ACBF6691E443B5FEAA41>
-	<_F66C4197405C4EADE75FD2ED9067EC7D Name="RandomNode" Size="1">
+	<_F66C4197405C4EADE75FD2ED9067EC7D Name="RandomNode" Alt="A8798B6236A81A62" Size="1">
 		<_A Name="Random Type" Offset="0" StructName1="RandomType">
 			<Flag n="Bool" />
 			<Flag n="Float" />
@@ -263,33 +263,33 @@
 			<Flag n="Rotator" />
 		</_A>
 	</_F66C4197405C4EADE75FD2ED9067EC7D>
-	<_687E4DE5405F26DB15970F7FAB418F2D Name="RandomPlacementCollectionPositionNodeData" Size="1">
+	<_687E4DE5405F26DB15970F7FAB418F2D Name="RandomPlacementCollectionPositionNodeData" Alt="13B42C95476A9D81" Size="1">
 		<_4 Name="dummy data" Offset="0" />
 	</_687E4DE5405F26DB15970F7FAB418F2D>
-	<_11AC4D0BA49478C0CAFC794DA0EE1D46 Name="RateOfChangeNodeData" Size="4">
+	<_11AC4D0BA49478C0CAFC794DA0EE1D46 Name="RateOfChangeNodeData" Alt="305931A315C45FA3" Size="4">
 		<_14 Name="Time Span" Offset="0" />
 	</_11AC4D0BA49478C0CAFC794DA0EE1D46>
-	<_899C4DCB578FE483EA48D232AF770162 Name="RegisterEventNodeData" Size="104">
+	<_899C4DCB578FE483EA48D232AF770162 Name="RegisterEventNodeData" Alt="663A0AC1ABFEEF93" Size="104">
 		<_6 Name="Event Name Length" Offset="0" />
 		<_1 Name="Event Name" Offset="4" />
 	</_899C4DCB578FE483EA48D232AF770162>
-	<_5BDE4FEEFA7738806C651464BC00DAAD Name="SetRtpcNodeData" Size="4">
+	<_5BDE4FEEFA7738806C651464BC00DAAD Name="SetRtpcNodeData" Alt="648441F24CD7E445" Size="4">
 		<_2 Name="RTPC Name" Offset="0" />
 	</_5BDE4FEEFA7738806C651464BC00DAAD>
-	<_4B564A55E15252ADF65A8A67BDBFEB08 Name="SmoothingNodeData" Size="4">
+	<_4B564A55E15252ADF65A8A67BDBFEB08 Name="SmoothingNodeData" Alt="113560BAD54435D" Size="4">
 		<_14 Name="Window Length" Offset="0" />
 	</_4B564A55E15252ADF65A8A67BDBFEB08>
-	<_7DBA4521667E27E8559E9051A298E7FF Name="StateBrokerBoolNodeData" Size="4">
+	<_7DBA4521667E27E8559E9051A298E7FF Name="StateBrokerBoolNodeData" Alt="AE002D9B998DB9C9" Size="4">
 		<_2 Name="State Name" Offset="0" />
 	</_7DBA4521667E27E8559E9051A298E7FF>
-	<_98EF41194649E93E8F3B967F9B90CCED Name="StateBrokerIntNodeData" Size="4">
+	<_98EF41194649E93E8F3B967F9B90CCED Name="StateBrokerIntNodeData" Alt="1546E2F26C6168E7" Size="4">
 		<_2 Name="State Name" Offset="0" />
 	</_98EF41194649E93E8F3B967F9B90CCED>
-	<_79B046223D57378F35FCE3C3A18D6802 Name="SpringNodeData" Size="8">
+	<_79B046223D57378F35FCE3C3A18D6802 Name="SpringNodeData" Alt="CBD96B0A3262554A" Size="8">
 		<_14 Name="Frequency" Offset="0" />
 		<_14 Name="Damping" Offset="4" />
 	</_79B046223D57378F35FCE3C3A18D6802>
-	<_466F459E11E2C40F88E17305BA9051B7 Name="ThresholdGateNodeData" Size="C">
+	<_466F459E11E2C40F88E17305BA9051B7 Name="ThresholdGateNodeData" Alt="33D1539358388766" Size="C">
 		<_14 Name="Rising Input Threshold" Offset="0" />
 		<_14 Name="Falling Input Threshold" Offset="4" />
 		<_F Name="Flags" Offset="8" StructName1="ThresholdGateNodeFlags">
@@ -297,30 +297,30 @@
 		</_F>
 		<_34 Name="generated_pad9c34" Offset="9" Length="3" />
 	</_466F459E11E2C40F88E17305BA9051B7>
-	<_DA024BC3FDF3F856E3DEECC799FEC830 Name="TimerNodeData" Size="2">
+	<_DA024BC3FDF3F856E3DEECC799FEC830 Name="TimerNodeData" Alt="38E942E2BE1B7D8" Size="2">
 		<_E Name="Timer Flags" Offset="0" StructName1="TimerNodeFlags">
 			<Flag n="Looping" />
 			<Flag n="Active" />
 			<Flag n="FinishedEventOnLoop" />
 		</_E>
 	</_DA024BC3FDF3F856E3DEECC799FEC830>
-	<_B2B9F196521BE4D0C3B549616D2436E6 Name="CreateEffectNodeData" Size="20">
+	<_B2B9F196521BE4D0C3B549616D2436E6 Name="CreateEffectNodeData" Alt="570B914AB08AB9F0" Size="20">
 		<_41 Name="Effect Tag" Offset="0" Allowed="effe" Flags="0" />
 		<_2 Name="Marker Name" Offset="1C" />
 	</_B2B9F196521BE4D0C3B549616D2436E6>
-	<_8D0645D4E4AE15832031CE288E461205 Name="CreateBeamEffectNodeData" Size="24">
+	<_8D0645D4E4AE15832031CE288E461205 Name="CreateBeamEffectNodeData" Alt="5CE3D9944CCB68B2" Size="24">
 		<_41 Name="Effect Tag" Offset="0" Allowed="effe" Flags="0" />
 		<_2 Name="Start Marker" Offset="1C" />
 		<_2 Name="End Marker" Offset="20" />
 	</_8D0645D4E4AE15832031CE288E461205>
-	<_6B67441832134DC5EDD5A68E83253272 Name="StopEffectNodeData" Size="20">
+	<_6B67441832134DC5EDD5A68E83253272 Name="StopEffectNodeData" Alt="852F8128C261B0E8" Size="20">
 		<_41 Name="Effect Tag" Offset="0" Allowed="effe" Flags="0" />
 		<_2 Name="Marker Name" Offset="1C" />
 	</_6B67441832134DC5EDD5A68E83253272>
-	<_EE5A45BAA92FECEE672637BC917C9380 Name="SetObjectFunctionNodeData" Size="4">
+	<_EE5A45BAA92FECEE672637BC917C9380 Name="SetObjectFunctionNodeData" Alt="C886072574A202C4" Size="4">
 		<_2 Name="Function Name" Offset="0" />
 	</_EE5A45BAA92FECEE672637BC917C9380>
-	<_E6A44C5727779CF1F7C53BF3ACDBDEBA Name="ValueConversionNode" Size="4">
+	<_E6A44C5727779CF1F7C53BF3ACDBDEBA Name="ValueConversionNode" Alt="42701240EB237190" Size="4">
 		<_C Name="Conversion Type" Offset="0" StructName1="ValueConversionType">
 			<Flag n="Int to Bool" />
 			<Flag n="Int to Float" />
@@ -330,7 +330,7 @@
 			<Flag n="Bool to Float" />
 		</_C>
 	</_E6A44C5727779CF1F7C53BF3ACDBDEBA>
-	<_EFD546C6D82C19E267ADDADAA4A60846 Name="ObjectGraphOutput" Size="C">
+	<_EFD546C6D82C19E267ADDADAA4A60846 Name="ObjectGraphOutput" Alt="F1D21E462DDB568A" Size="C">
 		<_A Name="Node Type" Offset="0" StructName1="ObjectGraphNodeType">
 			<Flag n="Boolean Logic" />
 			<Flag n="Bool Toggle" />
@@ -400,47 +400,47 @@
 		<_6 Name="Node Index" Offset="4" />
 		<_6 Name="Pin Index" Offset="8" />
 	</_EFD546C6D82C19E267ADDADAA4A60846>
-	<_75944545BA129F30BB65B9F2B65443FE Name="DWSPopStateNodeData" Size="108">
+	<_75944545BA129F30BB65B9F2B65443FE Name="DWSPopStateNodeData" Alt="BB42EACEFC37B3F3" Size="108">
 		<_1 Name="State Name" Offset="0" />
 		<_6 Name="State GUID" Offset="100" />
 		<_34 Name="generated_pad7e46" Offset="104" Length="4" />
 	</_75944545BA129F30BB65B9F2B65443FE>
-	<_07F248655751BA0A7AFC020DB24C0E78 Name="DWSPushStateNodeData" Size="108">
+	<_07F248655751BA0A7AFC020DB24C0E78 Name="DWSPushStateNodeData" Alt="8DB5AE3C0C4B814A" Size="108">
 		<_1 Name="State Name" Offset="0" />
 		<_6 Name="State GUID" Offset="100" />
 		<_34 Name="generated_padabaf" Offset="104" Length="4" />
 	</_07F248655751BA0A7AFC020DB24C0E78>
-	<_2AB84D4BAD3C6E6A827C01529E914D2F Name="DWSEnableTOverrideNodeData" Size="1">
+	<_2AB84D4BAD3C6E6A827C01529E914D2F Name="DWSEnableTOverrideNodeData" Alt="4783764E20ADA30A" Size="1">
 		<_4 Name="dummy data" Offset="0" />
 	</_2AB84D4BAD3C6E6A827C01529E914D2F>
-	<_29D644CC3DFDF5521E2DF0D48787B874 Name="DWSSetTOverrideNodeData" Size="4">
+	<_29D644CC3DFDF5521E2DF0D48787B874 Name="DWSSetTOverrideNodeData" Alt="AABFDF9CF5193C5" Size="4">
 		<_14 Name="T Override" Offset="0" />
 	</_29D644CC3DFDF5521E2DF0D48787B874>
-	<_947F42D502E8908E56660DCFA201E2E2 Name="SetLightSourceEnergyNodeData" Size="C">
+	<_947F42D502E8908E56660DCFA201E2E2 Name="SetLightSourceEnergyNodeData" Alt="E4D9C1F127294197" Size="C">
 		<_6 Name="Light GUID" Offset="0" />
 		<_6 Name="kit GUID" Offset="4" />
 		<_14 Name="energy" Offset="8" />
 	</_947F42D502E8908E56660DCFA201E2E2>
-	<_9ED64E4539D0293FCDEFEF5898037818 Name="SetLightDimmerNodeData" Size="C">
+	<_9ED64E4539D0293FCDEFEF5898037818 Name="SetLightDimmerNodeData" Alt="76FB4BC75D00A526" Size="C">
 		<_6 Name="Light GUID" Offset="0" />
 		<_6 Name="kit GUID" Offset="4" />
 		<_14 Name="dimmer" Offset="8" />
 	</_9ED64E4539D0293FCDEFEF5898037818>
-	<_D5C440601A06ADFA6DD5BCCFA0AD3063 Name="SetGraphUpdateModeData" Size="1">
+	<_D5C440601A06ADFA6DD5BCCFA0AD3063 Name="SetGraphUpdateModeData" Alt="73114B6BDC722474" Size="1">
 		<_A Name="Graph Update Mode" Offset="0" StructName1="ObjectGraphUpdateMode">
 			<Flag n="UpdateWhenObjectAwake" />
 			<Flag n="AlwaysUpdate" />
 			<Flag n="NeverUpdate" />
 		</_A>
 	</_D5C440601A06ADFA6DD5BCCFA0AD3063>
-	<_29D041F4751D0E485DE6B721BC4A2DBF Name="WindSpeedNodeData" Size="1">
+	<_29D041F4751D0E485DE6B721BC4A2DBF Name="WindSpeedNodeData" Alt="AA8073911B001519" Size="1">
 		<_4 Name="dummy data" Offset="0" />
 	</_29D041F4751D0E485DE6B721BC4A2DBF>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_09734776DC4910BF97F708D98E32C40B Name="ObjectGraphConnectionEndpoint" Size="C">
+	<_09734776DC4910BF97F708D98E32C40B Name="ObjectGraphConnectionEndpoint" Alt="7A53BEEC8CA1E90C" Size="C">
 		<_A Name="Node Type" Offset="0" StructName1="ObjectGraphNodeType">
 			<Flag n="Boolean Logic" />
 			<Flag n="Bool Toggle" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="DarkRoomAssetSpec" Parents="aTag" Index="-102">
-	<_7B8E4B7D04071AFE867632EFA27EC9BE Name="i343::DarkRoom::AssetSpecDefinition" Size="B0">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="DarkRoomAssetSpec" Parents="aTag" Index="-102">
+	<_7B8E4B7D04071AFE867632EFA27EC9BE Name="i343::DarkRoom::AssetSpecDefinition" Alt="DB6CBF4A854EB0" Size="B0">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_D Name="AssetSpecFlags" Offset="10" StructName1="i343::DarkRoom::AssetSpecFlags">
 			<Flag n="CanEquipWeapon" />
@@ -19,11 +19,11 @@
 		<_14 Name="Scale" Offset="A8" />
 		<_34 Name="generated_pad7450" Offset="AC" Length="4" />
 	</_7B8E4B7D04071AFE867632EFA27EC9BE>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>

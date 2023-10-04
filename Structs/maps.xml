@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:12 PM" Name="InGameMapSettings" Parents="aTag" Index="-247">
-	<_510143DD0707965BDE1EDB1EA193CFBE Name="InGameMapSettingsTag" Size="558">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="InGameMapSettings" Parents="aTag" Index="-247">
+	<_510143DD0707965BDE1EDB1EA193CFBE Name="InGameMapSettingsTag" Alt="408B3675A98C19A4" Size="558">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Map lights" Offset="10" GUID="E53143A000EA2867441937AEBADEB64E" StructName1="InGameMapSettingsTag" Min="0" Max="256" />
 		<_40 Name="Map light placements" Offset="24" GUID="6B7449E128375872E2BE3FBA83E1C722" StructName1="InGameMapSettingsTag" Min="0" Max="256" />
@@ -75,19 +75,19 @@
 		</_F>
 		<_34 Name="generated_padbfcb" Offset="551" Length="7" />
 	</_510143DD0707965BDE1EDB1EA193CFBE>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_E53143A000EA2867441937AEBADEB64E Name="InGameMapLightReference" Size="1C">
+	<_E53143A000EA2867441937AEBADEB64E Name="InGameMapLightReference" Alt="E9DB030A2AD9EA31" Size="1C">
 		<_41 Name="Reference" Offset="0" Allowed="ligh" Flags="0" />
 	</_E53143A000EA2867441937AEBADEB64E>
-	<_6B7449E128375872E2BE3FBA83E1C722 Name="InGameMapLightPlacement" Size="24">
+	<_6B7449E128375872E2BE3FBA83E1C722 Name="InGameMapLightPlacement" Alt="531BCDB2E755E6B7" Size="24">
 		<_17 Name="position" Offset="0" />
 		<_17 Name="direction" Offset="C" />
 		<_17 Name="up" Offset="18" />
 	</_6B7449E128375872E2BE3FBA83E1C722>
-	<_1C7544821415A15B83F7D2F8A111C244 Name="InGameMapAnimationSettings" Size="6C">
+	<_1C7544821415A15B83F7D2F8A111C244 Name="InGameMapAnimationSettings" Alt="896421B8541BFCB9" Size="6C">
 		<_B Name="verticalTranslationMode" Offset="0" StructName1="InGameMapAnimationMode">
 			<Flag n="Loop" />
 			<Flag n="Mirror" />
@@ -116,7 +116,7 @@
 		<_14 Name="scaleCooldownDuration" Offset="50" />
 		<_38 Name="scaleFunction" Offset="54" GUID="4C0543E1483112B5AC4316FD8350E8C2" />
 	</_1C7544821415A15B83F7D2F8A111C244>
-	<_78A54C9E2125246AA827C5E69DA7DAFA Name="i343::InGameMaps::LODSettings" Size="24">
+	<_78A54C9E2125246AA827C5E69DA7DAFA Name="i343::InGameMaps::LODSettings" Alt="552EB9F0BDAB2C2D" Size="24">
 		<_B Name="lodMode" Offset="0" StructName1="i343::InGameMaps::LODMode">
 			<Flag n="Object Distance to Camera" />
 			<Flag n="Camera Height" />
@@ -126,7 +126,7 @@
 		<_14 Name="spotlightRadiusScale" Offset="C" />
 		<_40 Name="Per-tier settings for POIs" Offset="10" GUID="525549605E160D767BCA2C5791EA8A4F" StructName1="i343::InGameMaps::LODSettings" Min="0" Max="32" />
 	</_78A54C9E2125246AA827C5E69DA7DAFA>
-	<_A45D4058A2134C29D16C190DB104BE2D Name="i343::InGameMaps::IconSettings" Size="D0">
+	<_A45D4058A2134C29D16C190DB104BE2D Name="i343::InGameMaps::IconSettings" Alt="F0F37C1EF6EBDA8D" Size="D0">
 		<_41 Name="fullIcons" Offset="0" Allowed="bitd" Flags="0" />
 		<_41 Name="smallIcons" Offset="1C" Allowed="bitd" Flags="0" />
 		<_41 Name="detailIcons" Offset="38" Allowed="bitd" Flags="0" />
@@ -136,7 +136,7 @@
 		<_40 Name="markerColors" Offset="A8" GUID="39D44DDB90AA32DE624E1399B2E4572E" StructName1="i343::InGameMaps::IconSettings" Min="0" Max="48" />
 		<_40 Name="markerVisibilitySettings" Offset="BC" GUID="9AD54A2AFA92CCB291D5DDB2889324FF" StructName1="i343::InGameMaps::IconSettings" Min="0" Max="35" />
 	</_A45D4058A2134C29D16C190DB104BE2D>
-	<_2699402C2FAD01DCD14D33F18A57204C Name="i343::InGameMaps::CameraSettings" Size="E0">
+	<_2699402C2FAD01DCD14D33F18A57204C Name="i343::InGameMaps::CameraSettings" Alt="36CC9E32EAE9B5EE" Size="E0">
 		<_F Name="Flags" Offset="0" StructName1="i343::InGameMaps::CameraSettingsFlags">
 			<Flag n="DOF Enabled" />
 		</_F>
@@ -197,7 +197,7 @@
 		<_14 Name="Edge Pan Start Delay" Offset="D8" />
 		<_14 Name="Back Menu Tab Bar Height" Offset="DC" />
 	</_2699402C2FAD01DCD14D33F18A57204C>
-	<_0CFE4509BE3C862D5A6A141EB00ECA0D Name="i343::InGameMaps::MarkerSettings" Size="40">
+	<_0CFE4509BE3C862D5A6A141EB00ECA0D Name="i343::InGameMaps::MarkerSettings" Alt="E64BB7F9017AD9E4" Size="40">
 		<_B Name="markerType" Offset="0" StructName1="i343::InGameMaps::CampaignMapMarkerType">
 			<Flag n="Invalid" />
 			<Flag n="Critical Path" />
@@ -210,7 +210,7 @@
 		<_41 Name="bitmap" Offset="20" Allowed="bitm" Flags="0" />
 		<_14 Name="bitmapCorrectiveScale" Offset="3C" />
 	</_0CFE4509BE3C862D5A6A141EB00ECA0D>
-	<_F03246D6350A0D2B8D92D15AB1B16D95 Name="InGameMapDisplayAssetDefinition" Size="40">
+	<_F03246D6350A0D2B8D92D15AB1B16D95 Name="InGameMapDisplayAssetDefinition" Alt="677C8172DADC417" Size="40">
 		<_2 Name="Name" Offset="0" />
 		<_41 Name="Model" Offset="4" Allowed="bloc" Flags="4" />
 		<_17 Name="Rotation" Offset="20" />
@@ -222,7 +222,7 @@
 		</_F>
 		<_34 Name="generated_pad21a6" Offset="3D" Length="3" />
 	</_F03246D6350A0D2B8D92D15AB1B16D95>
-	<_11EE4712E9F48B5F409FF3CBA3C6ECAE Name="i343::InGameMaps::CollectibleSettings" Size="C">
+	<_11EE4712E9F48B5F409FF3CBA3C6ECAE Name="i343::InGameMaps::CollectibleSettings" Alt="AA9F0401FCA1577A" Size="C">
 		<_2 Name="name" Offset="0" />
 		<_A Name="type" Offset="4" StructName1="i343::Collectibles::CollectibleType">
 			<Flag n="None" />
@@ -276,22 +276,22 @@
 		</_B>
 		<_6 Name="spriteIndex" Offset="8" />
 	</_11EE4712E9F48B5F409FF3CBA3C6ECAE>
-	<_D7F1494EB44D11E9B64D44C5BC0AC07F Name="i343::InGameMaps::RegionSettings" Size="18">
+	<_D7F1494EB44D11E9B64D44C5BC0AC07F Name="i343::InGameMaps::RegionSettings" Alt="5B7C0BB03FC12E05" Size="18">
 		<_2 Name="name" Offset="0" />
 		<_40 Name="Region Polygons" Offset="4" GUID="969B456C706099205917EA4791AD16A4" StructName1="i343::InGameMaps::RegionSettings" Min="0" Max="10" />
 	</_D7F1494EB44D11E9B64D44C5BC0AC07F>
-	<_A29F427E9AB28ACC1236D352BDE03E3E Name="i343::InGameMaps::VignetteSettings" Size="1C">
+	<_A29F427E9AB28ACC1236D352BDE03E3E Name="i343::InGameMaps::VignetteSettings" Alt="467770E94689F8F8" Size="1C">
 		<_1F Name="color" Offset="0" />
 		<_14 Name="opacity" Offset="C" />
 		<_14 Name="innerRadius" Offset="10" />
 		<_14 Name="outerRadius" Offset="14" />
 		<_14 Name="darkenRatio" Offset="18" />
 	</_A29F427E9AB28ACC1236D352BDE03E3E>
-	<_FDD34392F614BAB2D1D7BC1C88E4AAF9 Name="InGameMapModelLookup" Size="20">
+	<_FDD34392F614BAB2D1D7BC1C88E4AAF9 Name="InGameMapModelLookup" Alt="668FCACA6F754747" Size="20">
 		<_2 Name="Name" Offset="0" />
 		<_41 Name="Model" Offset="4" Allowed="bloc" Flags="4" />
 	</_FDD34392F614BAB2D1D7BC1C88E4AAF9>
-	<_D6424D49DCBE5D9167E97586AD3299AA Name="InGameMapTransitionSettings" Size="18">
+	<_D6424D49DCBE5D9167E97586AD3299AA Name="InGameMapTransitionSettings" Alt="684A163FC9A2CD5" Size="18">
 		<_14 Name="IntroMinLoadTime" Offset="0" />
 		<_14 Name="IntroTotalTransitionTime" Offset="4" />
 		<_14 Name="MissionDataUpdateMaxDelayTime" Offset="8" />
@@ -299,7 +299,7 @@
 		<_14 Name="OuttroMinUnloadTime" Offset="10" />
 		<_14 Name="OuttroGameplayTransitionTime" Offset="14" />
 	</_D6424D49DCBE5D9167E97586AD3299AA>
-	<_7FF4BC4111F83073D073F41FA4FFE792 Name="InGameMapPOIVisualSettings" Size="3C">
+	<_7FF4BC4111F83073D073F41FA4FFE792 Name="InGameMapPOIVisualSettings" Alt="34F5AF9A9DC7E5E6" Size="3C">
 		<_14 Name="Captured Collectible Opacity" Offset="0" />
 		<_14 Name="Default Collectible Opacity" Offset="4" />
 		<_1F Name="Text Tint Color" Offset="8" />
@@ -310,7 +310,7 @@
 		<_14 Name="Default Waypoint Offset" Offset="34" />
 		<_14 Name="Safe Region Bounds" Offset="38" />
 	</_7FF4BC4111F83073D073F41FA4FFE792>
-	<_625C4B10BA099CDB6E5F2FF8827A9924 Name="InGameMapGakSettings" Size="4C">
+	<_625C4B10BA099CDB6E5F2FF8827A9924 Name="InGameMapGakSettings" Alt="57141E76C49EE595" Size="4C">
 		<_14 Name="Gak POI Spawn Frequency" Offset="0" />
 		<_14 Name="Gak POI Spawn Chance" Offset="4" />
 		<_6 Name="Gak Max POI Count" Offset="8" />
@@ -327,18 +327,18 @@
 		<_14 Name="Gak Tile Margin" Offset="34" />
 		<_40 Name="Gak Invalid Tiles" Offset="38" GUID="01A6454597DC98F53A27E2E5BD8DDA81" StructName1="InGameMapGakSettings" Min="0" Max="64" />
 	</_625C4B10BA099CDB6E5F2FF8827A9924>
-	<_665D47BA5002600D0DE7E6E99D04D13E Name="i343::InGameMaps::PlayerPositionOverrideSettings" Size="14">
+	<_665D47BA5002600D0DE7E6E99D04D13E Name="i343::InGameMaps::PlayerPositionOverrideSettings" Alt="5C9A6BCF9C2ED160" Size="14">
 		<_40 Name="Zone Set Settings" Offset="0" GUID="FDEA44914351C79428038392B02C0E1F" StructName1="i343::InGameMaps::PlayerPositionOverrideSettings" Min="0" Max="32" />
 	</_665D47BA5002600D0DE7E6E99D04D13E>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_4C0543E1483112B5AC4316FD8350E8C2 Name="InGameMapFunction" Size="18">
+	<_4C0543E1483112B5AC4316FD8350E8C2 Name="InGameMapFunction" Alt="CDA38216B289FFFC" Size="18">
 		<_37 Name="Mapping" type="fned" Offset="0" />
 		<_38 Name="Mapping" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_4C0543E1483112B5AC4316FD8350E8C2>
-	<_B5BD4A6F74A7EB8D09C31346A1DC2A3B Name="i343::InGameMaps::LODCollisionResolution" Size="8">
+	<_B5BD4A6F74A7EB8D09C31346A1DC2A3B Name="i343::InGameMaps::LODCollisionResolution" Alt="702ECBBA087E8B18" Size="8">
 		<_B Name="resolutionMode" Offset="0" StructName1="i343::InGameMaps::LODCollisionResolutionMode">
 			<Flag n="Hide Lower Tier" />
 			<Flag n="No Collision Resolution" />
@@ -346,12 +346,12 @@
 		<_34 Name="generated_pad21e2" Offset="2" Length="2" />
 		<_14 Name="collisionNormalizedScreenDistance" Offset="4" />
 	</_B5BD4A6F74A7EB8D09C31346A1DC2A3B>
-	<_525549605E160D767BCA2C5791EA8A4F Name="i343::InGameMaps::LODTier" Size="8">
+	<_525549605E160D767BCA2C5791EA8A4F Name="i343::InGameMaps::LODTier" Alt="1C0D4139117A1F52" Size="8">
 		<_14 Name="fullIconAndLabelWithModelFadeStart" Offset="0" />
 		<_36 Name="3D Model Fading" Offset="4" />
 		<_14 Name="fullIconAndLabelFadeStart" Offset="4" />
 	</_525549605E160D767BCA2C5791EA8A4F>
-	<_39D44DDB90AA32DE624E1399B2E4572E Name="i343::InGameMaps::MarkerColor" Size="10">
+	<_39D44DDB90AA32DE624E1399B2E4572E Name="i343::InGameMaps::MarkerColor" Alt="CE56D73101EE8A7A" Size="10">
 		<_B Name="markerType" Offset="0" StructName1="i343::InGameMaps::CampaignMapMarkerType">
 			<Flag n="Invalid" />
 			<Flag n="Critical Path" />
@@ -398,7 +398,7 @@
 		</_B>
 		<_1F Name="color" Offset="4" />
 	</_39D44DDB90AA32DE624E1399B2E4572E>
-	<_9AD54A2AFA92CCB291D5DDB2889324FF Name="i343::InGameMaps::MarkerVisibilitySettings" Size="18">
+	<_9AD54A2AFA92CCB291D5DDB2889324FF Name="i343::InGameMaps::MarkerVisibilitySettings" Alt="B3F4084A977B8B3D" Size="18">
 		<_B Name="missionType" Offset="0" StructName1="i343::InGameMaps::CampaignMapMissionType">
 			<Flag n="Invalid" />
 			<Flag n="Spire" />
@@ -443,23 +443,23 @@
 		<_14 Name="poiSnapHitTestRangeMinZoom" Offset="10" />
 		<_14 Name="poiSnapHitTestRangeMaxZoom" Offset="14" />
 	</_9AD54A2AFA92CCB291D5DDB2889324FF>
-	<_969B456C706099205917EA4791AD16A4 Name="i343::InGameMaps::RegionPolygon" Size="14">
+	<_969B456C706099205917EA4791AD16A4 Name="i343::InGameMaps::RegionPolygon" Alt="B6CCFAD497FF9505" Size="14">
 		<_40 Name="Region Polygon" Offset="0" GUID="90DA4F7B0469752962F2F415B2F7A1CC" StructName1="i343::InGameMaps::RegionPolygon" Min="0" Max="128" />
 	</_969B456C706099205917EA4791AD16A4>
-	<_01A6454597DC98F53A27E2E5BD8DDA81 Name="GakTileIndex" Size="8">
+	<_01A6454597DC98F53A27E2E5BD8DDA81 Name="GakTileIndex" Alt="CFADBD702902D4AE" Size="8">
 		<_6 Name="X" Offset="0" />
 		<_6 Name="Y" Offset="4" />
 	</_01A6454597DC98F53A27E2E5BD8DDA81>
-	<_FDEA44914351C79428038392B02C0E1F Name="i343::InGameMaps::ZoneSetSettings" Size="8">
+	<_FDEA44914351C79428038392B02C0E1F Name="i343::InGameMaps::ZoneSetSettings" Alt="DF21BCF0D9DE5FCD" Size="8">
 		<_2 Name="Zoneset Name" Offset="0" />
 		<_2 Name="Point of Interest Name" Offset="4" />
 	</_FDEA44914351C79428038392B02C0E1F>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
-	<_90DA4F7B0469752962F2F415B2F7A1CC Name="i343::InGameMaps::RegionPoint" Size="C">
+	<_90DA4F7B0469752962F2F415B2F7A1CC Name="i343::InGameMaps::RegionPoint" Alt="7F4304D163F6962B" Size="C">
 		<_17 Name="Region Point" Offset="0" />
 	</_90DA4F7B0469752962F2F415B2F7A1CC>
 </root>

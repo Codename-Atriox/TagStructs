@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="MeleeGlobals" Parents="aTag" Index="-255">
-	<_C980482A7D6556259827722E9794481F Name="i343::Melee::MeleeGlobalsDefinition" Size="90">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="MeleeGlobals" Parents="aTag" Index="-255">
+	<_C980482A7D6556259827722E9794481F Name="i343::Melee::MeleeGlobalsDefinition" Alt="B6AB91270F06F8B1" Size="90">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_D Name="flags" Offset="10" StructName1="i343::Melee::MeleeGlobalsDefinitionFlags">
 			<Flag n="clang save both if both died" />
@@ -40,11 +40,11 @@
 		<_37 Name="" type="fgre" Offset="8C" />
 		<_34 Name="generated_pad39eb" Offset="8C" Length="4" />
 	</_C980482A7D6556259827722E9794481F>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_8CFF430E5AE3C88AB9CA63ABB363C2AE Name="i343::Melee::TargetingDefinition" Size="38">
+	<_8CFF430E5AE3C88AB9CA63ABB363C2AE Name="i343::Melee::TargetingDefinition" Alt="AC9A1B16BD4BA846" Size="38">
 		<_37 Name="targeting" type="fgrb" Offset="0" />
 		<_24 Name="yaw angles" Offset="0" />
 		<_24 Name="yaw angles lunging" Offset="8" />
@@ -59,7 +59,7 @@
 		<_8 Name="aim bend yaw pitch down max" Offset="34" />
 		<_37 Name="" type="fgre" Offset="38" />
 	</_8CFF430E5AE3C88AB9CA63ABB363C2AE>
-	<_72B34BCD60D7025701A1EC4C89A79AC0 Name="i343::Melee::PhysicsDefinition" Size="10">
+	<_72B34BCD60D7025701A1EC4C89A79AC0 Name="i343::Melee::PhysicsDefinition" Alt="A90559E3BFE17227" Size="10">
 		<_37 Name="physics" type="fgrb" Offset="0" />
 		<_14 Name="lunge maximum speed" Offset="0" />
 		<_14 Name="uber lunge maximum speed" Offset="4" />
@@ -67,7 +67,7 @@
 		<_14 Name="lunge deceleration time" Offset="C" />
 		<_37 Name="" type="fgre" Offset="10" />
 	</_72B34BCD60D7025701A1EC4C89A79AC0>
-	<_E895A76CB9EBA02E409CC1A5AB8BEA74 Name="s_melee_damage_parameters" Size="188">
+	<_E895A76CB9EBA02E409CC1A5AB8BEA74 Name="s_melee_damage_parameters" Alt="ACCB0E9BADE6498B" Size="188">
 		<_36 Name="melee damage parameters" Offset="0" />
 		<_1B Name="damage pyramid angles" Offset="0" />
 		<_14 Name="damage pyramid depth" Offset="8" />
@@ -89,8 +89,8 @@
 		<_41 Name="melee attack effect" Offset="150" Allowed="effe" Flags="0" />
 		<_41 Name="biped melee hit effect" Offset="16C" Allowed="effe" Flags="0" />
 	</_E895A76CB9EBA02E409CC1A5AB8BEA74>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

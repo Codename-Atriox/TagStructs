@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="CoatingMaterialSet" Parents="aTag" Index="-90">
-	<_BE34DED759766103815565024B598190 Name="CoatingMaterialSetTag" Size="40">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="CoatingMaterialSet" Parents="aTag" Index="-90">
+	<_BE34DED759766103815565024B598190 Name="CoatingMaterialSetTag" Alt="698DA7855CDFFDDE" Size="40">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="defaultMaterial" Offset="10" GUID="322545BD118D54F2ADDEF3DFABCEB6B0" StructName1="CoatingMaterialSetTag" Min="0" Max="1024" />
 		<_40 Name="perLayerEmissiveMaterial" Offset="24" GUID="322545BD118D54F2ADDEF3DFABCEB6B0" StructName1="CoatingMaterialSetTag" Min="0" Max="1024" />
 		<_7 Name="m_pipelineStates" Offset="38" />
 	</_BE34DED759766103815565024B598190>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_322545BD118D54F2ADDEF3DFABCEB6B0 Name="CoatingMaterialTemplateReference" Size="34">
+	<_322545BD118D54F2ADDEF3DFABCEB6B0 Name="CoatingMaterialTemplateReference" Alt="B2DF352E3FE5EC3D" Size="34">
 		<_41 Name="coatingMaterialTemplate" Offset="0" Allowed="mat " Flags="0" />
 		<_E Name="Supported Coating Features Flags" Offset="1C" StructName1="CoatingTemplateOptionFlags">
 			<Flag n="Supports 4 Layers" />
@@ -25,11 +25,11 @@
 		<_34 Name="generated_pad410b" Offset="1E" Length="2" />
 		<_40 Name="parameterRegisterInfo" Offset="20" GUID="AD997B72B5F410679233482F0A3FF5AD" StructName1="CoatingMaterialTemplateReference" Min="0" Max="255" />
 	</_322545BD118D54F2ADDEF3DFABCEB6B0>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_AD997B72B5F410679233482F0A3FF5AD Name="CoatingParameterRegisterInfo" Size="4">
+	<_AD997B72B5F410679233482F0A3FF5AD Name="CoatingParameterRegisterInfo" Alt="5E0B89459EEFA578" Size="4">
 		<_3D Name="Register Offset" Offset="0" />
 		<_3D Name="Register Size" Offset="2" />
 	</_AD997B72B5F410679233482F0A3FF5AD>

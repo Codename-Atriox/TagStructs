@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="composer_spawning_pattern" Parents="aTag" Index="-65">
-	<_A70944B74FD029083F51F3B691E1F8AC Name="ComposerSpawningPattern" Size="88">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="composer_spawning_pattern" Parents="aTag" Index="-65">
+	<_A70944B74FD029083F51F3B691E1F8AC Name="ComposerSpawningPattern" Alt="508A81032D35537" Size="88">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="Two Player Game, Player Two" type="fgrb" Offset="10" />
 		<_38 Name="2P, P2" Offset="10" GUID="4B654D78CEE362083EE94D1EB80B79F9" />
@@ -21,15 +21,15 @@
 		<_38 Name="4P, P4" Offset="74" GUID="4B654D78CEE362083EE94D1EB80B79F9" />
 		<_37 Name="" type="fgre" Offset="88" />
 	</_A70944B74FD029083F51F3B691E1F8AC>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_4B654D78CEE362083EE94D1EB80B79F9 Name="ComposerSpawningPatternElement" Size="14">
+	<_4B654D78CEE362083EE94D1EB80B79F9 Name="ComposerSpawningPatternElement" Alt="79EA70C9B8BD6BC4" Size="14">
 		<_17 Name="Offset" Offset="0" />
 		<_1B Name="Offset Facing" Offset="C" />
 	</_4B654D78CEE362083EE94D1EB80B79F9>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="CageCameraDefinition" Parents="cage,aTag" Index="-49">
-	<_ABD44190CCE3DC94F15C58F68DBF3E97 Name="i343::CageSystem::CageCameraDefinitionTag" Size="40">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="CageCameraDefinition" Parents="cage,aTag" Index="-49">
+	<_ABD44190CCE3DC94F15C58F68DBF3E97 Name="i343::CageSystem::CageCameraDefinitionTag" Alt="A4D792A32BCD1E84" Size="40">
 		<_38 Name="CageDefinition" Offset="0" GUID="B0224A2E2114B783A82596FF9252412D" />
 		<_40 Name="Camera Data" Offset="28" GUID="15104C55E4D7D35C4E5679228EE7D70B" StructName1="i343::CageSystem::CageCameraDefinitionTag" Min="0" Max="128" />
 		<_34 Name="generated_pad7d32" Offset="3C" Length="4" />
 	</_ABD44190CCE3DC94F15C58F68DBF3E97>
-	<_B0224A2E2114B783A82596FF9252412D Name="i343::CageSystem::CageDefinitionTag" Size="28">
+	<_B0224A2E2114B783A82596FF9252412D Name="i343::CageSystem::CageDefinitionTag" Alt="CC0F69025BF38B93" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Points" Offset="10" GUID="BE8F401AC139960BFEBB5F67A178C1DD" StructName1="i343::CageSystem::CageDefinitionTag" Min="0" Max="128" />
 		<_34 Name="generated_pad90a9" Offset="24" Length="4" />
 	</_B0224A2E2114B783A82596FF9252412D>
-	<_15104C55E4D7D35C4E5679228EE7D70B Name="i343::CageSystem::CageCameraData" Size="40">
+	<_15104C55E4D7D35C4E5679228EE7D70B Name="i343::CageSystem::CageCameraData" Alt="3E1CDF845B222917" Size="40">
 		<_F Name="Flags" Offset="0" StructName1="i343::CageSystem::CageCameraFlags">
 			<Flag n="Adjust FOV with Aspect Ratio" />
 		</_F>
@@ -54,11 +54,11 @@
 		<_41 Name="Blend Curve Tag" Offset="20" Allowed="curv" Flags="0" />
 		<_14 Name="Blend Time" Offset="3C" />
 	</_15104C55E4D7D35C4E5679228EE7D70B>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_BE8F401AC139960BFEBB5F67A178C1DD Name="i343::CageSystem::CagePoint" Size="2C">
+	<_BE8F401AC139960BFEBB5F67A178C1DD Name="i343::CageSystem::CagePoint" Alt="E5BB472B0EC62B8" Size="2C">
 		<_E Name="Flags" Offset="0" StructName1="i343::CageSystem::CagePointFlags">
 			<Flag n="Ignore X" />
 			<Flag n="Ignore Y" />
@@ -92,7 +92,7 @@
 		<_34 Name="generated_pad138c" Offset="25" Length="3" />
 		<_2 Name="locationName" Offset="28" />
 	</_BE8F401AC139960BFEBB5F67A178C1DD>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>

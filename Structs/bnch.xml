@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="BenchmarkDefinition" Parents="aTag" Index="-42">
-	<_5FE49E42A6D6895EF68FA80E47753CAB Name="i343::Benchmark::BenchmarkDefinition" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="BenchmarkDefinition" Parents="aTag" Index="-42">
+	<_5FE49E42A6D6895EF68FA80E47753CAB Name="i343::Benchmark::BenchmarkDefinition" Alt="47A5215B295571D3" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Benchmarks" Offset="10" GUID="5FE49E42A6D6895E179AB91F47753CAB" StructName1="i343::Benchmark::BenchmarkDefinition" Min="0" Max="32" />
 		<_34 Name="generated_pad1294" Offset="24" Length="4" />
 	</_5FE49E42A6D6895EF68FA80E47753CAB>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_5FE49E42A6D6895E179AB91F47753CAB Name="i343::Benchmark::BenchmarkMap" Size="114">
+	<_5FE49E42A6D6895E179AB91F47753CAB Name="i343::Benchmark::BenchmarkMap" Alt="6D9E18B5DCD758FF" Size="114">
 		<_1 Name="Map" Offset="0" />
 		<_40 Name="Benchmark Compositions" Offset="100" GUID="5FE49E42A6D6895E280BC02A47753CAB" StructName1="i343::Benchmark::BenchmarkMap" Min="0" Max="32" />
 	</_5FE49E42A6D6895E179AB91F47753CAB>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_5FE49E42A6D6895E280BC02A47753CAB Name="i343::Benchmark::BenchmarkCompositionInfo" Size="108">
+	<_5FE49E42A6D6895E280BC02A47753CAB Name="i343::Benchmark::BenchmarkCompositionInfo" Alt="BC3363BB45DA5A4E" Size="108">
 		<_1 Name="Display Name" Offset="0" />
 		<_2 Name="Composition ID" Offset="100" />
 		<_F Name="Flags" Offset="104" StructName1="i343::Benchmark::BenchmarkCompositionFlags">

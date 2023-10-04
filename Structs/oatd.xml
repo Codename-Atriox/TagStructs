@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="objectattachmentsdefinition" Parents="aTag" Index="-281">
-	<_B34A4B63305D8E929755BF26A5415B1C Name="i343::Objects::ObjectAttachments" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="objectattachmentsdefinition" Parents="aTag" Index="-281">
+	<_B34A4B63305D8E929755BF26A5415B1C Name="i343::Objects::ObjectAttachments" Alt="4B9EF6D0C47358D9" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Attachments" Offset="10" GUID="4775429C11097257EE75453FA775D933" StructName1="i343::Objects::ObjectAttachments" Min="0" Max="48" />
 		<_34 Name="generated_pad85d0" Offset="24" Length="4" />
 	</_B34A4B63305D8E929755BF26A5415B1C>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_4775429C11097257EE75453FA775D933 Name="object_attachment_definition" Size="D0">
+	<_4775429C11097257EE75453FA775D933 Name="object_attachment_definition" Alt="FBE04A7307F1E5DB" Size="D0">
 		<_2 Name="name" Offset="0" />
 		<_41 Name="type" Offset="4" Allowed="tagg, ligh, gldf, ltvl, effe, lsnd, lens, cpem, egfd, decs" Flags="1" />
 		<_41 Name="tag graph output" Offset="20" Allowed="ligh, gldf, ltvl, effe, lsnd, lens, cpem, egfd, decs" Flags="0" />
@@ -40,30 +40,30 @@
 		<_2 Name="primary scale" type="sted" Offset="C8" />
 		<_2 Name="secondary scale" type="sted" Offset="CC" />
 	</_4775429C11097257EE75453FA775D933>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_217941128AACE34BC7334D2EA8F6C67D Name="TagGraph::TagGraphFloatParam" Size="8">
+	<_217941128AACE34BC7334D2EA8F6C67D Name="TagGraph::TagGraphFloatParam" Alt="805C37B6373130C3" Size="8">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_14 Name="value" Offset="4" />
 	</_217941128AACE34BC7334D2EA8F6C67D>
-	<_80204605BFA6F4BF93CDD10F96C1C2B9 Name="TagGraph::TagGraphBoolParam" Size="8">
+	<_80204605BFA6F4BF93CDD10F96C1C2B9 Name="TagGraph::TagGraphBoolParam" Alt="146004AB2C5FEE80" Size="8">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_F Name="value" Offset="4" StructName1="TagGraph::TagGraphBoolVariableValue">
 			<Flag n="value" />
 		</_F>
 		<_34 Name="generated_pad0473" Offset="5" Length="3" />
 	</_80204605BFA6F4BF93CDD10F96C1C2B9>
-	<_AF7648E707ABAC2BFB95694D48E79C90 Name="TagGraph::TagGraphInstanceVariableString" Size="8">
+	<_AF7648E707ABAC2BFB95694D48E79C90 Name="TagGraph::TagGraphInstanceVariableString" Alt="85B0F068C5FFF7F3" Size="8">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_2 Name="value" Offset="4" />
 	</_AF7648E707ABAC2BFB95694D48E79C90>
-	<_75F34BCE26A27E545DB61B22BEC316D9 Name="TagGraph::TagGraphInstanceVariableTagRef" Size="20">
+	<_75F34BCE26A27E545DB61B22BEC316D9 Name="TagGraph::TagGraphInstanceVariableTagRef" Alt="4EFA73BE4DD7CFD0" Size="20">
 		<_2 Name="name" type="sted" Offset="0" />
 		<_41 Name="value" Offset="4" Allowed="aTag" Flags="0" />
 	</_75F34BCE26A27E545DB61B22BEC316D9>
-	<_727F437E3853EE60753D9D508599809E Name="i343::Objects::AttachmentVariantName" Size="4">
+	<_727F437E3853EE60753D9D508599809E Name="i343::Objects::AttachmentVariantName" Alt="881C8BF1B43606D4" Size="4">
 		<_2 Name="variant name" type="sted" Offset="0" />
 	</_727F437E3853EE60753D9D508599809E>
 </root>

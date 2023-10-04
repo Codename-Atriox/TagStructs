@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="UIObjectCustomization" Parents="aTag" Index="-283">
-	<_7BF54496EE64450AC516E23187B14FEA Name="Interface::Customization::UIObjectCustomizationDataTag" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="UIObjectCustomization" Parents="aTag" Index="-283">
+	<_7BF54496EE64450AC516E23187B14FEA Name="Interface::Customization::UIObjectCustomizationDataTag" Alt="46AD05C2BA79CCAB" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Customization Data" Offset="10" GUID="A4B94A390BA15BC6027E0A3A84204BF1" StructName1="Interface::Customization::UIObjectCustomizationDataTag" Min="0" Max="1" />
 		<_34 Name="generated_pad77ac" Offset="24" Length="4" />
 	</_7BF54496EE64450AC516E23187B14FEA>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_A4B94A390BA15BC6027E0A3A84204BF1 Name="Interface::Customization::UIObjectCustomizationData" Size="F4">
+	<_A4B94A390BA15BC6027E0A3A84204BF1 Name="Interface::Customization::UIObjectCustomizationData" Alt="C37B69E50C1B7FE8" Size="F4">
 		<_0 Name="Camera Point" Offset="0" />
 		<_2 Name="Default Idle Animation" Offset="20" />
 		<_2 Name="Idle Animation" Offset="24" />
@@ -35,11 +35,11 @@
 		<_40 Name="Inspect" Offset="CC" GUID="C4B14AC89A082271A4F058069A17D5B3" StructName1="Interface::Customization::UIObjectCustomizationData" Min="0" Max="19" />
 		<_40 Name="Battle Pass Reward" Offset="E0" GUID="C4B14AC89A082271A4F058069A17D5B3" StructName1="Interface::Customization::UIObjectCustomizationData" Min="0" Max="19" />
 	</_A4B94A390BA15BC6027E0A3A84204BF1>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_9E70442C611268F2A7EE1EE1B385532A Name="Interface::Customization::UICameraSettings" Size="2C">
+	<_9E70442C611268F2A7EE1EE1B385532A Name="Interface::Customization::UICameraSettings" Alt="2DE373F2B4F66747" Size="2C">
 		<_B Name="Core Focus Mode" Offset="0" StructName1="Interface::Customization::CoreFocusMode">
 			<Flag n="Default" />
 			<Flag n="CoreFocused" />
@@ -75,7 +75,7 @@
 		<_14 Name="Camera Transition" Offset="1C" />
 		<_1C Name="Orientation" Offset="20" />
 	</_9E70442C611268F2A7EE1EE1B385532A>
-	<_C202488A34995D12CC93B4CDBD31BDC2 Name="Interface::Customization::UIRegionData" Size="60">
+	<_C202488A34995D12CC93B4CDBD31BDC2 Name="Interface::Customization::UIRegionData" Alt="697F4997F8A467AD" Size="60">
 		<_2 Name="UI Display String" Offset="0" />
 		<_2 Name="UI Description String" Offset="4" />
 		<_6 Name="CMS Customization Item Type" Offset="8" />
@@ -140,7 +140,7 @@
 		<_2 Name="To Idle Animation" Offset="58" />
 		<_2 Name="From Idle Animation" Offset="5C" />
 	</_C202488A34995D12CC93B4CDBD31BDC2>
-	<_D797AD11C73BBDC8CAB2188BCC81A4C1 Name="Interface::Customization::UIRTTRegionData" Size="74">
+	<_D797AD11C73BBDC8CAB2188BCC81A4C1 Name="Interface::Customization::UIRTTRegionData" Alt="A80750E2356F507E" Size="74">
 		<_2 Name="UI Display String" Offset="0" />
 		<_2 Name="UI Description String" Offset="4" />
 		<_6 Name="CMS Customization Item Type" Offset="8" />
@@ -215,14 +215,14 @@
 		<_2 Name="To Idle Animation" Offset="6C" />
 		<_2 Name="From Idle Animation" Offset="70" />
 	</_D797AD11C73BBDC8CAB2188BCC81A4C1>
-	<_F9E24DA96A730BE0D3772FE3826FD32B Name="Interface::Customization::UICustomizationOrientationLimits" Size="14">
+	<_F9E24DA96A730BE0D3772FE3826FD32B Name="Interface::Customization::UICustomizationOrientationLimits" Alt="AA6F1E03B6C60146" Size="14">
 		<_2 Name="Name" Offset="0" />
 		<_14 Name="Minimum Yaw" Offset="4" />
 		<_14 Name="Maximum Yaw" Offset="8" />
 		<_14 Name="Minimum Roll" Offset="C" />
 		<_14 Name="Maximum Roll" Offset="10" />
 	</_F9E24DA96A730BE0D3772FE3826FD32B>
-	<_C4B14AC89A082271A4F058069A17D5B3 Name="Interface::Customization::UICustomizationCageData" Size="20">
+	<_C4B14AC89A082271A4F058069A17D5B3 Name="Interface::Customization::UICustomizationCageData" Alt="410676FE5A493934" Size="20">
 		<_B Name="Core Type" Offset="0" StructName1="Interface::Customization::CoreType">
 			<Flag n="Unknown" />
 			<Flag n="Armor" />
@@ -247,7 +247,7 @@
 		<_34 Name="generated_padb16d" Offset="2" Length="2" />
 		<_41 Name="Cage Camera Definition Tag" Offset="4" Allowed="cagc" Flags="0" />
 	</_C4B14AC89A082271A4F058069A17D5B3>
-	<_9EE5423BF672890A8560DEFAB444B6D8 Name="Interface::Customization::UICameraPositionOffset" Size="30">
+	<_9EE5423BF672890A8560DEFAB444B6D8 Name="Interface::Customization::UICameraPositionOffset" Alt="2884431986592614" Size="30">
 		<_B Name="Camera Position Type" Offset="0" StructName1="Interface::Customization::ItemInspectionPosition">
 			<Flag n="Default" />
 			<Flag n="Custom" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:15 PM" Name="RebindingGlobals" Parents="aTag" Index="-333">
-	<_6A0E4B807682F06EC3ABC781973F81B1 Name="RebindingGlobalsTag" Size="F0">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="RebindingGlobals" Parents="aTag" Index="-333">
+	<_6A0E4B807682F06EC3ABC781973F81B1 Name="RebindingGlobalsTag" Alt="99930670670625EF" Size="F0">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Rebinding Params" Offset="10" />
 		<_40 Name="keyboard rebinding axes" Offset="10" GUID="353B43541A9633C7F83F77FAADD2E014" StructName1="RebindingGlobalsTag" Min="0" Max="256" />
@@ -16,11 +16,11 @@
 		<_40 Name="Input copy mapping" Offset="D8" GUID="E35349EDFBB46F79658CA819B1EB85D7" StructName1="RebindingGlobalsTag" Min="0" Max="16" />
 		<_34 Name="generated_pad06ea" Offset="EC" Length="4" />
 	</_6A0E4B807682F06EC3ABC781973F81B1>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_353B43541A9633C7F83F77FAADD2E014 Name="RebindingAxisCategorySettings" Size="23C">
+	<_353B43541A9633C7F83F77FAADD2E014 Name="RebindingAxisCategorySettings" Alt="4E2DCDA2F4E3EB17" Size="23C">
 		<_1 Name="Axis Name" Offset="0" />
 		<_2 Name="Axis Description" Offset="100" />
 		<_C Name="Display Category" Offset="104" StructName1="RebindingAxisCategorySettings::RebindingSettingCategory">
@@ -65,11 +65,11 @@
 		<_36 Name="Dropdown Settings" Offset="228" />
 		<_40 Name="Dropdown List" Offset="228" GUID="BD034568847849CAC62CF4D4907B2F35" StructName1="RebindingAxisCategorySettings" Min="0" Max="32" />
 	</_353B43541A9633C7F83F77FAADD2E014>
-	<_8F7849B0623B247CFBD56F9B9186BBEB Name="AxisAltNamePair" Size="8">
+	<_8F7849B0623B247CFBD56F9B9186BBEB Name="AxisAltNamePair" Alt="C20E535F125E12BB" Size="8">
 		<_2 Name="Axis Name" Offset="0" />
 		<_2 Name="Alt Name" Offset="4" />
 	</_8F7849B0623B247CFBD56F9B9186BBEB>
-	<_98B6457945A2D1723A633FA0BD99D214 Name="UnbindableInputDeviceElementsList" Size="2">
+	<_98B6457945A2D1723A633FA0BD99D214 Name="UnbindableInputDeviceElementsList" Alt="308E73AD96484C09" Size="2">
 		<_B Name="unbindable input" Offset="0" StructName1="InputDeviceElement">
 			<Flag n="Unassigned" />
 			<Flag n="Gamepad Left Stick Horizontal" />
@@ -287,22 +287,22 @@
 			<Flag n="Mouse Extra Button 1" />
 		</_B>
 	</_98B6457945A2D1723A633FA0BD99D214>
-	<_E90582B3C4127423FFD7D9534E8B49F6 Name="UnbindableAxisToInputDeviceElementsList" Size="18">
+	<_E90582B3C4127423FFD7D9534E8B49F6 Name="UnbindableAxisToInputDeviceElementsList" Alt="BD41B386B9292E78" Size="18">
 		<_2 Name="Axis Name" Offset="0" />
 		<_40 Name="Unbindable input list for axis" Offset="4" GUID="98B6457945A2D1723A633FA0BD99D214" StructName1="UnbindableAxisToInputDeviceElementsList" Min="0" Max="64" />
 	</_E90582B3C4127423FFD7D9534E8B49F6>
-	<_9B7B4E13528574E9B933BEF6A9A3155B Name="SwapperInput" Size="4">
+	<_9B7B4E13528574E9B933BEF6A9A3155B Name="SwapperInput" Alt="53F7DF3553587A10" Size="4">
 		<_2 Name="Axis" Offset="0" />
 	</_9B7B4E13528574E9B933BEF6A9A3155B>
-	<_E35349EDFBB46F79658CA819B1EB85D7 Name="CopyBindingPair" Size="8">
+	<_E35349EDFBB46F79658CA819B1EB85D7 Name="CopyBindingPair" Alt="C1C4A83F536BFD76" Size="8">
 		<_2 Name="Original Axis" Offset="0" />
 		<_2 Name="Copy Axis" Offset="4" />
 	</_E35349EDFBB46F79658CA819B1EB85D7>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_00B14B42F4415114B32C5A5BAF1685E1 Name="RebindingSliderSettings" Size="14">
+	<_00B14B42F4415114B32C5A5BAF1685E1 Name="RebindingSliderSettings" Alt="7E4CBC132832DE79" Size="14">
 		<_F Name="Flags" Offset="0" StructName1="RebindingSliderSettings::RebindingSliderFlags">
 			<Flag n="Uses percentage units" />
 		</_F>
@@ -312,7 +312,7 @@
 		<_14 Name="Increment Value" Offset="C" />
 		<_14 Name="Scaling Value" Offset="10" />
 	</_00B14B42F4415114B32C5A5BAF1685E1>
-	<_BD034568847849CAC62CF4D4907B2F35 Name="RebindingDropdownList" Size="4">
+	<_BD034568847849CAC62CF4D4907B2F35 Name="RebindingDropdownList" Alt="A24B73CCF8E39CB5" Size="4">
 		<_2 Name="Label" Offset="0" />
 	</_BD034568847849CAC62CF4D4907B2F35>
 </root>

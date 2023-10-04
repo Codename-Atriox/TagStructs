@@ -1,59 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:02 PM" Name="DamageReportingDisplayGlobals" Parents="aTag" Index="-110">
-	<_7C404C155DCA9C5052E1474E9CAC8E9A Name="Interface::DamageReportingDisplayGlobals" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="DamageReportingDisplayGlobals" Parents="aTag" Index="-110">
+	<_7C404C155DCA9C5052E1474E9CAC8E9A Name="Interface::DamageReportingDisplayGlobals" Alt="5CDB745D78743F14" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Damage Reporting Display Map" Offset="10" />
 		<_40 Name="damageDisplayMap" Offset="10" GUID="EE8F455785B2E221CF6D1580BDF746B4" StructName1="Interface::DamageReportingDisplayGlobals" Min="0" Max="1024" />
 		<_34 Name="generated_padfae4" Offset="24" Length="4" />
 	</_7C404C155DCA9C5052E1474E9CAC8E9A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_EE8F455785B2E221CF6D1580BDF746B4 Name="Interface::DamageDisplayByDamageSource" Size="18">
+	<_EE8F455785B2E221CF6D1580BDF746B4 Name="Interface::DamageDisplayByDamageSource" Alt="C34FB8C65B14EBE6" Size="18">
 		<_37 Name="Damage Source" type="fgrb" Offset="0" />
 		<_36 Name="Explanation" Offset="0" />
 		<_38 Name="damageSource" Offset="0" GUID="491E4E62FB19CD2F9DA1CACD8F5B712C" />
 		<_37 Name="" type="fgre" Offset="4" />
 		<_40 Name="displayByAttachmentList" Offset="4" GUID="4CF8482D086BB4FE45FBE9F8AC102AA1" StructName1="Interface::DamageDisplayByDamageSource" Min="0" Max="50" />
 	</_EE8F455785B2E221CF6D1580BDF746B4>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_491E4E62FB19CD2F9DA1CACD8F5B712C Name="i343::Damage::DamageSourceReference" Size="4">
+	<_491E4E62FB19CD2F9DA1CACD8F5B712C Name="i343::Damage::DamageSourceReference" Alt="5202F61B8D203D15" Size="4">
 		<_36 Name="NOTE" Offset="0" />
 		<_2 Name="Damage Source Name" type="sted" Offset="0" />
 	</_491E4E62FB19CD2F9DA1CACD8F5B712C>
-	<_4CF8482D086BB4FE45FBE9F8AC102AA1 Name="Interface::DamageDisplayByAttachmentList" Size="28">
+	<_4CF8482D086BB4FE45FBE9F8AC102AA1 Name="Interface::DamageDisplayByAttachmentList" Alt="110FDE1632C88FCC" Size="28">
 		<_37 Name="Attachment List" type="fgrb" Offset="0" />
 		<_36 Name="Explanation" Offset="0" />
 		<_40 Name="attachmentList" Offset="0" GUID="E81442B588131FD87F28D517BE7E6E25" StructName1="Interface::DamageDisplayByAttachmentList" Min="0" Max="9" />
 		<_37 Name="" type="fgre" Offset="14" />
 		<_40 Name="displayByDamageType" Offset="14" GUID="93DD4DBE97C40A67BC247D50BCFFF7A9" StructName1="Interface::DamageDisplayByAttachmentList" Min="0" Max="10" />
 	</_4CF8482D086BB4FE45FBE9F8AC102AA1>
-	<_E81442B588131FD87F28D517BE7E6E25 Name="i343::Damage::AttachmentNameReferenceParam" Size="4">
+	<_E81442B588131FD87F28D517BE7E6E25 Name="i343::Damage::AttachmentNameReferenceParam" Alt="41E33C70D979BFCB" Size="4">
 		<_37 Name="Attachment Name" type="fgrb" Offset="0" />
 		<_36 Name="Explanation" Offset="0" />
 		<_38 Name="attachmentName" Offset="0" GUID="D12C49B6AA24F8D755996714B8798253" />
 		<_37 Name="" type="fgre" Offset="4" />
 	</_E81442B588131FD87F28D517BE7E6E25>
-	<_93DD4DBE97C40A67BC247D50BCFFF7A9 Name="Interface::DamageDisplayByDamageType" Size="28">
+	<_93DD4DBE97C40A67BC247D50BCFFF7A9 Name="Interface::DamageDisplayByDamageType" Alt="19C68B5BB23F13A1" Size="28">
 		<_37 Name="Damage Type" type="fgrb" Offset="0" />
 		<_36 Name="Explanation" Offset="0" />
 		<_38 Name="damageType" Offset="0" GUID="C2AA4096BB9B94886F1E7181806076AE" />
 		<_37 Name="" type="fgre" Offset="4" />
 		<_38 Name="displayDefinition" Offset="4" GUID="041B4524038EC4E841F2BE9598B08D32" />
 	</_93DD4DBE97C40A67BC247D50BCFFF7A9>
-	<_D12C49B6AA24F8D755996714B8798253 Name="i343::Damage::AttachmentNameReference" Size="4">
+	<_D12C49B6AA24F8D755996714B8798253 Name="i343::Damage::AttachmentNameReference" Alt="69584414471AECEE" Size="4">
 		<_36 Name="NOTE" Offset="0" />
 		<_2 Name="Attachment Name" type="sted" Offset="0" />
 	</_D12C49B6AA24F8D755996714B8798253>
-	<_C2AA4096BB9B94886F1E7181806076AE Name="i343::Damage::DamageTypeReference" Size="4">
+	<_C2AA4096BB9B94886F1E7181806076AE Name="i343::Damage::DamageTypeReference" Alt="C13D4997EAA6E578" Size="4">
 		<_36 Name="NOTE" Offset="0" />
 		<_2 Name="Damage Type Name" type="sted" Offset="0" />
 	</_C2AA4096BB9B94886F1E7181806076AE>
-	<_041B4524038EC4E841F2BE9598B08D32 Name="Interface::DamageDisplayDefinition" Size="24">
+	<_041B4524038EC4E841F2BE9598B08D32 Name="Interface::DamageDisplayDefinition" Alt="8A4C7987AB779574" Size="24">
 		<_2 Name="display name" Offset="0" />
 		<_41 Name="sprite sheet" Offset="4" Allowed="bitm" Flags="0" />
 		<_6 Name="sprite index" Offset="20" />

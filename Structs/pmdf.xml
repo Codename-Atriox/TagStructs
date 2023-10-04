@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:14 PM" Name="particle_model" Parents="aTag" Index="-315">
-	<_ADA64FF1C4C7FDE0F1D59F659CDCC3BE Name="c_particle_model_definition" Size="178">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="particle_model" Parents="aTag" Index="-315">
+	<_ADA64FF1C4C7FDE0F1D59F659CDCC3BE Name="c_particle_model_definition" Alt="EEE1567879DBD781" Size="178">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="render geometry" Offset="10" GUID="8FB042BA97D423E43A363C6CB0E025A9" />
 		<_38 Name="m_gpu_data" Offset="160" GUID="7CD04586F0F224FF7E98B7159698B35C" />
 		<_34 Name="generated_pad910e" Offset="174" Length="4" />
 	</_ADA64FF1C4C7FDE0F1D59F659CDCC3BE>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_8FB042BA97D423E43A363C6CB0E025A9 Name="s_render_geometry" Size="150">
+	<_8FB042BA97D423E43A363C6CB0E025A9 Name="s_render_geometry" Alt="67659B474E18E701" Size="150">
 		<_D Name="runtime flags" Offset="0" StructName1="RenderGeometryFlags">
 			<Flag n="processed" />
 			<Flag n="available" />
@@ -39,21 +39,21 @@
 		<_4 Name="target platformization" Offset="148" />
 		<_34 Name="generated_padc54c" Offset="149" Length="7" />
 	</_8FB042BA97D423E43A363C6CB0E025A9>
-	<_7CD04586F0F224FF7E98B7159698B35C Name="c_particle_model_definition::s_gpu_data" Size="14">
+	<_7CD04586F0F224FF7E98B7159698B35C Name="c_particle_model_definition::s_gpu_data" Alt="1B73EE0DF89CE2BA" Size="14">
 		<_40 Name="m_variants" Offset="0" GUID="022840F47820CC6F818DBD9793225BE7" StructName1="c_particle_model_definition::s_gpu_data" Min="0" Max="16" />
 	</_7CD04586F0F224FF7E98B7159698B35C>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_883D4E7D67FAC4968DFF93F7B794F7A2 Name="MeshImportInfo" Size="2C">
+	<_883D4E7D67FAC4968DFF93F7B794F7A2 Name="MeshImportInfo" Alt="C27F1CE949D49B93" Size="2C">
 		<_3E Name="CRC" Offset="0" />
 		<_17 Name="position bounds 0" Offset="4" />
 		<_17 Name="position bounds 1" Offset="10" />
 		<_16 Name="texcoord bounds 0" Offset="1C" />
 		<_16 Name="texcoord bounds 1" Offset="24" />
 	</_883D4E7D67FAC4968DFF93F7B794F7A2>
-	<_A7C04CC8EBB348BBA5A99C7DA6E51515 Name="s_mesh" Size="3C">
+	<_A7C04CC8EBB348BBA5A99C7DA6E51515 Name="s_mesh" Alt="400AE9556DFD4232" Size="3C">
 		<_40 Name="LOD render data" Offset="0" GUID="883D4E7D67FAC4978DFF93F8B794F7A2" StructName1="s_mesh" Min="0" Max="16" />
 		<_E Name="mesh flags" Offset="14" StructName1="MeshFlags">
 			<Flag n="mesh has vertex color" />
@@ -120,10 +120,10 @@
 		<_34 Name="generated_pad8fb3" Offset="36" Length="2" />
 		<_6 Name="lod state cache slot" Offset="38" />
 	</_A7C04CC8EBB348BBA5A99C7DA6E51515>
-	<_1F274D1647C61323CCA9FFA597CD4802 Name="PCAMeshIndex" Size="4">
+	<_1F274D1647C61323CCA9FFA597CD4802 Name="PCAMeshIndex" Alt="E35BCEBA1301FA2E" Size="4">
 		<_30 Name="mesh index" Offset="0" GUID="A7C04CC8EBB348BBA5A99C7DA6E51515" StructName1="PCAMeshIndex" Min="0" Max="8191" />
 	</_1F274D1647C61323CCA9FFA597CD4802>
-	<_62FF4778FE51FDACA023A96CA8C33054 Name="s_compression_info" Size="54">
+	<_62FF4778FE51FDACA023A96CA8C33054 Name="s_compression_info" Alt="2A4E323DA5974A91" Size="54">
 		<_E Name="compression flags" Offset="0" StructName1="CompressionFlags">
 			<Flag n="compressed position" />
 			<Flag n="compressed texcoord" />
@@ -142,19 +142,19 @@
 		<_14 Name="unused0" Offset="4C" />
 		<_14 Name="unused1" Offset="50" />
 	</_62FF4778FE51FDACA023A96CA8C33054>
-	<_2AA6450CC23B20036C50810F8B2497D9 Name="s_per_mesh_node_map" Size="14">
+	<_2AA6450CC23B20036C50810F8B2497D9 Name="s_per_mesh_node_map" Alt="7B180ADB6548E321" Size="14">
 		<_40 Name="node map" Offset="0" GUID="0EC6490D77DB2A4A3026F880822EA727" StructName1="s_per_mesh_node_map" Min="0" Max="255" />
 	</_2AA6450CC23B20036C50810F8B2497D9>
-	<_1CBD4D7EF74AC124B2C4E377BB4B2E2D Name="RenderGeometryAnimatedMeshRef" Size="20">
+	<_1CBD4D7EF74AC124B2C4E377BB4B2E2D Name="RenderGeometryAnimatedMeshRef" Alt="E1894CC51D574B8A" Size="20">
 		<_41 Name="Animated mesh tag reference" Offset="0" Allowed="ames" Flags="0" />
 		<_2 Name="Name" Offset="1C" />
 	</_1CBD4D7EF74AC124B2C4E377BB4B2E2D>
-	<_54E84536D7CC9A5EA18919C9AF913B97 Name="s_render_geometry_lod_volume" Size="2C">
+	<_54E84536D7CC9A5EA18919C9AF913B97 Name="s_render_geometry_lod_volume" Alt="902E008D84D54DD7" Size="2C">
 		<_17 Name="position bounds 0" Offset="0" />
 		<_17 Name="position bounds 1" Offset="C" />
 		<_40 Name="position data" Offset="18" GUID="B52E4111684EF46DEEFB1C9E8E20FEFB" StructName1="s_render_geometry_lod_volume" Min="0" Max="65535" />
 	</_54E84536D7CC9A5EA18919C9AF913B97>
-	<_78F044A88BBCA247625FBE28BDE44CC0 Name="RenderGeometryMeshPackage" Size="5C">
+	<_78F044A88BBCA247625FBE28BDE44CC0 Name="RenderGeometryMeshPackage" Alt="7439BDA4320D0D19" Size="5C">
 		<_3D Name="flags" Offset="0" />
 		<_B Name="mesh resource packing policy" Offset="2" StructName1="RenderGeometryMeshPackage::Policy">
 			<Flag n="Single Resource" />
@@ -169,28 +169,28 @@
 		<_40 Name="vertex resource look up" Offset="34" GUID="05754FE2B12CFDD4480A4799BAE034FB" StructName1="RenderGeometryMeshPackage" Min="0" Max="16384" />
 		<_40 Name="raytracing resource look up" Offset="48" GUID="05754FE2B12CFDD4480A4799BAE034FB" StructName1="RenderGeometryMeshPackage" Min="0" Max="16384" />
 	</_78F044A88BBCA247625FBE28BDE44CC0>
-	<_9AF7420FB700DE5AEE5229CD868B4AF3 Name="s_blendshape_compression_info" Size="44">
+	<_9AF7420FB700DE5AEE5229CD868B4AF3 Name="s_blendshape_compression_info" Alt="9F076335AB33FBD0" Size="44">
 		<_17 Name="position scale" Offset="0" />
 		<_17 Name="position offset" Offset="C" />
 		<_17 Name="normal scale" Offset="18" />
 		<_17 Name="normal offset" Offset="24" />
 		<_40 Name="raw target hash name" Offset="30" GUID="5EA5497873514B8E39E1C24C8AAA440D" StructName1="s_blendshape_compression_info" Min="0" Max="67108864" />
 	</_9AF7420FB700DE5AEE5229CD868B4AF3>
-	<_F7BA4A0745F051EBF08F18E1890B36E2 Name="RenderGeometryProceduralDeformation" Size="18">
+	<_F7BA4A0745F051EBF08F18E1890B36E2 Name="RenderGeometryProceduralDeformation" Alt="3655EC64F7A1B69F" Size="18">
 		<_40 Name="parameter list" Offset="0" GUID="B8624F3F50829B5859DBA60E9808AA62" StructName1="RenderGeometryProceduralDeformation" Min="0" Max="65535" />
 		<_2 Name="Procedural deformation function name" Offset="14" />
 	</_F7BA4A0745F051EBF08F18E1890B36E2>
-	<_FB6245162643567C58DDA664BD71CC11 Name="RenderGeometryProceduralRemapTable" Size="14">
+	<_FB6245162643567C58DDA664BD71CC11 Name="RenderGeometryProceduralRemapTable" Alt="5068728A08BE873F" Size="14">
 		<_40 Name="Procedural Remap Table" Offset="0" GUID="FC5B45B592F5E99B688E96A8A594973C" StructName1="RenderGeometryProceduralRemapTable" Min="0" Max="2621400" />
 	</_FB6245162643567C58DDA664BD71CC11>
-	<_43624166A05BCB61E1B36FB1BA76CDE2 Name="DeformationParameterDefaultValue" Size="8">
+	<_43624166A05BCB61E1B36FB1BA76CDE2 Name="DeformationParameterDefaultValue" Alt="C8A5AF3F138EBAE0" Size="8">
 		<_2 Name="parameter name" Offset="0" />
 		<_14 Name="parameter default value" Offset="4" />
 	</_43624166A05BCB61E1B36FB1BA76CDE2>
-	<_022840F47820CC6F818DBD9793225BE7 Name="c_particle_model_definition::s_gpu_data::s_variant" Size="10">
+	<_022840F47820CC6F818DBD9793225BE7 Name="c_particle_model_definition::s_gpu_data::s_variant" Alt="F360A13FFB6D0B1" Size="10">
 		<_39 Name="runtime m_count" Offset="0" GUID="58564257A2794AE97319E3F2A6A57292" Count="4" StructName1="runtime m_count" />
 	</_022840F47820CC6F818DBD9793225BE7>
-	<_883D4E7D67FAC4978DFF93F8B794F7A2 Name="LODRenderData" Size="94">
+	<_883D4E7D67FAC4978DFF93F8B794F7A2 Name="LODRenderData" Alt="B39EEC960C75EA72" Size="94">
 		<_40 Name="per mesh temporary" Offset="0" GUID="23054B6452900AB02CC95C01BA861C13" StructName1="LODRenderData" Min="0" Max="8191" />
 		<_40 Name="part sorting position" Offset="14" GUID="B52E4111684EF46DEEFB1C9E8E20FEFB" StructName1="LODRenderData" Min="0" Max="65535" />
 		<_40 Name="parts" Offset="28" GUID="FBEE42B44A81849DE6530F18A3C956AC" StructName1="LODRenderData" Min="0" Max="255" />
@@ -222,43 +222,43 @@
 		<_3D Name="raytracing metadata index" Offset="90" />
 		<_34 Name="generated_paddaed" Offset="92" Length="2" />
 	</_883D4E7D67FAC4978DFF93F8B794F7A2>
-	<_570F4E4EDAD1C118860BB1E0AF86840B Name="MeshVertexKey" Size="8">
+	<_570F4E4EDAD1C118860BB1E0AF86840B Name="MeshVertexKey" Alt="B6D6D7B26821E4A9" Size="8">
 		<_6 Name="key1" Offset="0" />
 		<_6 Name="key2" Offset="4" />
 	</_570F4E4EDAD1C118860BB1E0AF86840B>
-	<_0EC6490D77DB2A4A3026F880822EA727 Name="NodeIndexStruct" Size="2">
+	<_0EC6490D77DB2A4A3026F880822EA727 Name="NodeIndexStruct" Alt="9C17F2D9AB110595" Size="2">
 		<_3D Name="node index" Offset="0" />
 	</_0EC6490D77DB2A4A3026F880822EA727>
-	<_B52E4111684EF46DEEFB1C9E8E20FEFB Name="s_positioning" Size="44">
+	<_B52E4111684EF46DEEFB1C9E8E20FEFB Name="s_positioning" Alt="FBA2DC4DF2FECB91" Size="44">
 		<_1E Name="plane" Offset="0" />
 		<_17 Name="position" Offset="10" />
 		<_14 Name="radius" Offset="1C" />
 		<_39 Name="node indices" Offset="20" GUID="7D854A1A96D9B8773D993ECB94447B36" Count="8" StructName1="node indices" />
 		<_39 Name="node weights" Offset="28" GUID="93AA40C8688AC37688C1B821B49A447E" Count="7" StructName1="node weights" />
 	</_B52E4111684EF46DEEFB1C9E8E20FEFB>
-	<_41C34C98211C66F6E044689C99478E8C Name="RenderGeometryMeshPackageResourceGroup" Size="10">
+	<_41C34C98211C66F6E044689C99478E8C Name="RenderGeometryMeshPackageResourceGroup" Alt="F185386EFEEE7612" Size="10">
 		<_43 Name="mesh resource" Offset="0" StructName1="s_render_geometry_api_resource" Int1="0" GUID="F60A41648AEB802123365545970C7091" />
 	</_41C34C98211C66F6E044689C99478E8C>
-	<_05754FE2B12CFDD4480A4799BAE034FB Name="RenderGeometryMeshPackage::ResourceLookup" Size="4">
+	<_05754FE2B12CFDD4480A4799BAE034FB Name="RenderGeometryMeshPackage::ResourceLookup" Alt="7CBC8F9ABEEFA6BE" Size="4">
 		<_5 Name="resource group index" Offset="0" />
 		<_5 Name="group item index" Offset="2" />
 	</_05754FE2B12CFDD4480A4799BAE034FB>
-	<_5EA5497873514B8E39E1C24C8AAA440D Name="DwordIndex" Size="4">
+	<_5EA5497873514B8E39E1C24C8AAA440D Name="DwordIndex" Alt="4B8691C965A91B59" Size="4">
 		<_3E Name="dword" Offset="0" />
 	</_5EA5497873514B8E39E1C24C8AAA440D>
-	<_B8624F3F50829B5859DBA60E9808AA62 Name="RenderGeometryDeformationParameter" Size="C">
+	<_B8624F3F50829B5859DBA60E9808AA62 Name="RenderGeometryDeformationParameter" Alt="30C30B09A96B0C60" Size="C">
 		<_2 Name="parameter name" Offset="0" />
 		<_3C Name="parameter mode" Offset="4" />
 		<_34 Name="generated_pad8065" Offset="5" Length="3" />
 		<_14 Name="constant input" Offset="8" />
 	</_B8624F3F50829B5859DBA60E9808AA62>
-	<_FC5B45B592F5E99B688E96A8A594973C Name="WordIndex" Size="2">
+	<_FC5B45B592F5E99B688E96A8A594973C Name="WordIndex" Alt="C203C76FECE8F9E1" Size="2">
 		<_3D Name="word" Offset="0" />
 	</_FC5B45B592F5E99B688E96A8A594973C>
-	<_58564257A2794AE97319E3F2A6A57292 Name="ParticleDefinitionGpuData::GpuConstantRegister" Size="4">
+	<_58564257A2794AE97319E3F2A6A57292 Name="ParticleDefinitionGpuData::GpuConstantRegister" Alt="5057DE107BE1115" Size="4">
 		<_14 Name="runtime gpu_real" Offset="0" />
 	</_58564257A2794AE97319E3F2A6A57292>
-	<_23054B6452900AB02CC95C01BA861C13 Name="s_per_mesh_raw_data" Size="CC">
+	<_23054B6452900AB02CC95C01BA861C13 Name="s_per_mesh_raw_data" Alt="6174D165FDA3618" Size="CC">
 		<_40 Name="raw vertices" Offset="0" GUID="CD9343C598F6C83605BDBA77BA313188" StructName1="s_per_mesh_raw_data" Min="0" Max="16777214" />
 		<_40 Name="raw indices" Offset="14" GUID="FC5B45B592F5E99B688E96A8A594973C" StructName1="s_per_mesh_raw_data" Min="0" Max="2621400" />
 		<_40 Name="raw indices32" Offset="28" GUID="5EA5497873514B8E39E1C24C8AAA440D" StructName1="s_per_mesh_raw_data" Min="0" Max="67108864" />
@@ -275,7 +275,7 @@
 		</_D>
 		<_40 Name="level breakdown data" Offset="B8" GUID="F7F849F56DBDC6997B768A8198C9A0EC" StructName1="s_per_mesh_raw_data" Min="0" Max="1" />
 	</_23054B6452900AB02CC95C01BA861C13>
-	<_FBEE42B44A81849DE6530F18A3C956AC Name="s_part" Size="18">
+	<_FBEE42B44A81849DE6530F18A3C956AC Name="s_part" Alt="C8AB99FF6129A1CF" Size="18">
 		<_2E Name="material index" Offset="0" GUID="34A54DC5B1135973B0B5E57399901631" StructName1="s_part" Min="0" Max="10240" />
 		<_2E Name="transparent sorting index" Offset="2" GUID="B52E4111684EF46DEEFB1C9E8E20FEFB" StructName1="s_part" Min="0" Max="65535" />
 		<_6 Name="index start" Offset="4" />
@@ -294,26 +294,26 @@
 		<_3D Name="budget vertex count" Offset="14" />
 		<_34 Name="generated_pad0f9e" Offset="16" Length="2" />
 	</_FBEE42B44A81849DE6530F18A3C956AC>
-	<_9C27436F09109A33B6971BAEB438BFBA Name="s_subpart" Size="C">
+	<_9C27436F09109A33B6971BAEB438BFBA Name="s_subpart" Alt="A53A3359372C619C" Size="C">
 		<_6 Name="index start" Offset="0" />
 		<_6 Name="index count" Offset="4" />
 		<_2E Name="part index" Offset="8" GUID="FBEE42B44A81849DE6530F18A3C956AC" StructName1="s_subpart" Min="0" Max="255" />
 		<_3D Name="budget vertex count" Offset="A" />
 	</_9C27436F09109A33B6971BAEB438BFBA>
-	<_ECD54CCA474555496ADFBA56B9D76429 Name="MaterialStreamingScale" Size="8">
+	<_ECD54CCA474555496ADFBA56B9D76429 Name="MaterialStreamingScale" Alt="CE584236F5BB26D9" Size="8">
 		<_6 Name="material index" Offset="0" />
 		<_14 Name="material scale" Offset="4" />
 	</_ECD54CCA474555496ADFBA56B9D76429>
-	<_376042765E95A6C952D11A96BD4EEEA3 Name="LODRenderDataVertexBufferIndex" Size="2">
+	<_376042765E95A6C952D11A96BD4EEEA3 Name="LODRenderDataVertexBufferIndex" Alt="E14D334FC1B0287F" Size="2">
 		<_3D Name="vertex buffer index" Offset="0" />
 	</_376042765E95A6C952D11A96BD4EEEA3>
-	<_7D854A1A96D9B8773D993ECB94447B36 Name="GeometryNodeIndex" Size="1">
+	<_7D854A1A96D9B8773D993ECB94447B36 Name="GeometryNodeIndex" Alt="652E202B88343DC8" Size="1">
 		<_3C Name="node index" Offset="0" />
 	</_7D854A1A96D9B8773D993ECB94447B36>
-	<_93AA40C8688AC37688C1B821B49A447E Name="PositioningNodeWeight" Size="4">
+	<_93AA40C8688AC37688C1B821B49A447E Name="PositioningNodeWeight" Alt="8D39801BF79B00E2" Size="4">
 		<_14 Name="node weight" Offset="0" />
 	</_93AA40C8688AC37688C1B821B49A447E>
-	<_F60A41648AEB802123365545970C7091 Name="s_render_geometry_api_resource" Size="138">
+	<_F60A41648AEB802123365545970C7091 Name="s_render_geometry_api_resource" Alt="EDC1EBE0F916BD1C" Size="138">
 		<_40 Name="pc vertex buffers" Offset="0" GUID="E07F488010DD7329253227EEBC8BB79A" StructName1="s_render_geometry_api_resource" Min="0" Max="65535" />
 		<_40 Name="pc index buffers" Offset="14" GUID="88D1483BC747C29EF00BDD099336EC15" StructName1="s_render_geometry_api_resource" Min="0" Max="8191" />
 		<_40 Name="raytracing metadata" Offset="28" GUID="E03F4D15B98AA29BC7FFCE68871C3B54" StructName1="s_render_geometry_api_resource" Min="0" Max="131056" />
@@ -325,7 +325,7 @@
 		<_39 Name="m_sharedDXResourceTypedViews" type="nuke" Offset="88" GUID="C9A74D928B59ABF6747AF7E4B185B6CE" Count="21" StructName1="m_sharedDXResourceTypedViews" />
 		<_7 Name="Runtime Data" type="nuke" Offset="130" />
 	</_F60A41648AEB802123365545970C7091>
-	<_CD9343C598F6C83605BDBA77BA313188 Name="RawVertex" Size="A4">
+	<_CD9343C598F6C83605BDBA77BA313188 Name="RawVertex" Alt="8975F659461E9448" Size="A4">
 		<_17 Name="position" Offset="0" />
 		<_16 Name="texcoord" Offset="C" />
 		<_17 Name="normal" Offset="14" />
@@ -342,26 +342,26 @@
 		<_16 Name="texcoord2" Offset="90" />
 		<_17 Name="tangent UV3" Offset="98" />
 	</_CD9343C598F6C83605BDBA77BA313188>
-	<_93ED4F124F09C6446E7054C7A9D754E1 Name="s_raw_water_data" Size="28">
+	<_93ED4F124F09C6446E7054C7A9D754E1 Name="s_raw_water_data" Alt="7CFCEA38CF4DB28B" Size="28">
 		<_40 Name="raw water indices" Offset="0" GUID="FC5B45B592F5E99B688E96A8A594973C" StructName1="s_raw_water_data" Min="0" Max="2621400" />
 		<_40 Name="raw water vertices" Offset="14" GUID="C99A41B1B6F830855AE2008EB7F454A8" StructName1="s_raw_water_data" Min="0" Max="65535" />
 	</_93ED4F124F09C6446E7054C7A9D754E1>
-	<_F97E4DB97D5E559372EC5CE98E97BC00 Name="RawBlendshapeVertex" Size="2C">
+	<_F97E4DB97D5E559372EC5CE98E97BC00 Name="RawBlendshapeVertex" Alt="EF053D4B35B4A4C4" Size="2C">
 		<_19 Name="position" Offset="0" />
 		<_19 Name="normal" Offset="C" />
 		<_20 Name="tension and ambient occlusion" Offset="18" />
 		<_3E Name="target Id" Offset="28" />
 	</_F97E4DB97D5E559372EC5CE98E97BC00>
-	<_7FD2498E44A4D456145DDA1495F79DA7 Name="RawTensionEdge" Size="C">
+	<_7FD2498E44A4D456145DDA1495F79DA7 Name="RawTensionEdge" Alt="4ACCFCF7B2591A87" Size="C">
 		<_3E Name="start vertex index" Offset="0" />
 		<_3E Name="end vertex index" Offset="4" />
 		<_14 Name="edge rest length" Offset="8" />
 	</_7FD2498E44A4D456145DDA1495F79DA7>
-	<_5F2D4E16AAFDA4300C08366E84256C0F Name="RawTriangleEdgeIndexInfo" Size="8">
+	<_5F2D4E16AAFDA4300C08366E84256C0F Name="RawTriangleEdgeIndexInfo" Alt="8B37F597AB8CAEA4" Size="8">
 		<_3E Name="triangle and edge index pos" Offset="0" />
 		<_3E Name="encoded triangle and edge size" Offset="4" />
 	</_5F2D4E16AAFDA4300C08366E84256C0F>
-	<_F7F849F56DBDC6997B768A8198C9A0EC Name="i343::LevelBreakdown::RuntimeGeoLevelBreakdownData" Size="58">
+	<_F7F849F56DBDC6997B768A8198C9A0EC Name="i343::LevelBreakdown::RuntimeGeoLevelBreakdownData" Alt="609327081123EDD8" Size="58">
 		<_41 Name="Asset tag" Offset="0" Allowed="aset" Flags="9" />
 		<_2 Name="Default variant name" Offset="1C" />
 		<_41 Name="LOD settings tag" Offset="20" Allowed="lods" Flags="9" />
@@ -369,10 +369,10 @@
 		<_6 Name="Convert Collision to Shadow Geometry" Offset="40" />
 		<_40 Name="Asset variants" Offset="44" GUID="E5C04865750CB47DC9F25EA09D4D86AE" StructName1="i343::LevelBreakdown::RuntimeGeoLevelBreakdownData" Min="0" Max="2048" />
 	</_F7F849F56DBDC6997B768A8198C9A0EC>
-	<_34A54DC5B1135973B0B5E57399901631 Name="geometry_material" Size="1C">
+	<_34A54DC5B1135973B0B5E57399901631 Name="geometry_material" Alt="FF635372D3E57725" Size="1C">
 		<_41 Name="material" Offset="0" Allowed="mat " Flags="0" />
 	</_34A54DC5B1135973B0B5E57399901631>
-	<_E07F488010DD7329253227EEBC8BB79A Name="RasterizerVertexBuffer" Size="50">
+	<_E07F488010DD7329253227EEBC8BB79A Name="RasterizerVertexBuffer" Alt="D092B3078F904C7E" Size="50">
 		<_C Name="usage" Offset="0" StructName1="eVertexBufferUsage">
 			<Flag n="Position" />
 			<Flag n="UV0" />
@@ -426,7 +426,7 @@
 		<_7 Name="m_resource" Offset="40" />
 		<_7 Name="m_resourceView" Offset="48" />
 	</_E07F488010DD7329253227EEBC8BB79A>
-	<_88D1483BC747C29EF00BDD099336EC15 Name="RasterizerIndexBuffer" Size="48">
+	<_88D1483BC747C29EF00BDD099336EC15 Name="RasterizerIndexBuffer" Alt="C7D993922B57F818" Size="48">
 		<_3C Name="declaration type" Offset="0" />
 		<_3C Name="stride" Offset="1" />
 		<_3C Name="ownsD3DResource" type="nuke" Offset="2" />
@@ -437,7 +437,7 @@
 		<_7 Name="m_resource" Offset="38" />
 		<_7 Name="m_resourceView" Offset="40" />
 	</_88D1483BC747C29EF00BDD099336EC15>
-	<_E03F4D15B98AA29BC7FFCE68871C3B54 Name="RaytracingMetaData" Size="70">
+	<_E03F4D15B98AA29BC7FFCE68871C3B54 Name="RaytracingMetaData" Alt="D4DF3C4DB27CBE9A" Size="70">
 		<_3D Name="index buffer index" Offset="0" />
 		<_3D Name="vertex buffer index" Offset="2" />
 		<_C Name="vertex format" Offset="4" StructName1="eRasterizerVertexFormat">
@@ -506,39 +506,39 @@
 		<_34 Name="generated_pade946" Offset="3A" Length="6" />
 		<_38 Name="blas offline data" Offset="40" GUID="9E5746289CB282E82B490C0C87CE22DD" />
 	</_E03F4D15B98AA29BC7FFCE68871C3B54>
-	<_BF91471CD187ADACAD0A6F3DB1221ED0 Name="StreamingGeometryMesh" Size="34">
+	<_BF91471CD187ADACAD0A6F3DB1221ED0 Name="StreamingGeometryMesh" Alt="43EDA0F029DBB163" Size="34">
 		<_6 Name="lod state cache slot" Offset="0" />
 		<_4 Name="required lod" Offset="4" />
 		<_34 Name="generated_pad413f" Offset="5" Length="3" />
 		<_42 Name="lod raytracing meta data" Offset="8" StructName1="StreamingGeometryMesh.lod raytracing meta data" Int1="0" Int2="0" Flags="20" />
 		<_40 Name="mesh lod chunks" Offset="20" GUID="EF4442568081AD34602D9DD0B563A894" StructName1="StreamingGeometryMesh" Min="0" Max="16" />
 	</_BF91471CD187ADACAD0A6F3DB1221ED0>
-	<_65FE439F850DD75065AC45B18672391E Name="StreamingGeometryChunk" Size="C">
+	<_65FE439F850DD75065AC45B18672391E Name="StreamingGeometryChunk" Alt="C911D89B5F53428B" Size="C">
 		<_3D Name="buffer index" Offset="0" />
 		<_3D Name="allocation priority" Offset="2" />
 		<_3E Name="buffer start" Offset="4" />
 		<_3E Name="buffer end" Offset="8" />
 	</_65FE439F850DD75065AC45B18672391E>
-	<_F8F248923C60BDCF3C432E0F85CE17ED Name="StreamingGeometryBuffer" Size="20">
+	<_F8F248923C60BDCF3C432E0F85CE17ED Name="StreamingGeometryBuffer" Alt="5EF088A11AD0B407" Size="20">
 		<_3E Name="buffer size" Offset="0" />
 		<_3E Name="bind flags" Offset="4" />
 		<_42 Name="Temp buffer for pipeline" Offset="8" StructName1="StreamingGeometryBuffer.Temp buffer for pipeline" Int1="0" Int2="0" Flags="3E800000" />
 	</_F8F248923C60BDCF3C432E0F85CE17ED>
-	<_C9A74D928B59ABF6747AF7E4B185B6CE Name="IResourceViewPointer" Size="8">
+	<_C9A74D928B59ABF6747AF7E4B185B6CE Name="IResourceViewPointer" Alt="684DE9009BC4BDD2" Size="8">
 		<_7 Name="IResourceView" Offset="0" />
 	</_C9A74D928B59ABF6747AF7E4B185B6CE>
-	<_935C482493F6CB70199C0BA7AFBCAA80 Name="GeometryNodeWeight" Size="4">
+	<_935C482493F6CB70199C0BA7AFBCAA80 Name="GeometryNodeWeight" Alt="E6ABB16AC8B00A71" Size="4">
 		<_14 Name="node weight" Offset="0" />
 	</_935C482493F6CB70199C0BA7AFBCAA80>
-	<_C99A41B1B6F830855AE2008EB7F454A8 Name="s_raw_water_append" Size="8">
+	<_C99A41B1B6F830855AE2008EB7F454A8 Name="s_raw_water_append" Alt="F0B7C1737C1703EB" Size="8">
 		<_16 Name="base texcoord" Offset="0" />
 	</_C99A41B1B6F830855AE2008EB7F454A8>
-	<_E5C04865750CB47DC9F25EA09D4D86AE Name="i343::LevelBreakdown::AssetVariantLevelBreakdownData" Size="3C">
+	<_E5C04865750CB47DC9F25EA09D4D86AE Name="i343::LevelBreakdown::AssetVariantLevelBreakdownData" Alt="FDC46137CA9DC95A" Size="3C">
 		<_2 Name="Variant name" Offset="0" />
 		<_41 Name="Runtime Geo" Offset="4" Allowed="rtgo" Flags="9" />
 		<_41 Name="Static Collision Geo" Offset="20" Allowed="scgt" Flags="9" />
 	</_E5C04865750CB47DC9F25EA09D4D86AE>
-	<_E3E04E6E298CB894B11817718E961916 Name="D3DBufferData" Size="2C">
+	<_E3E04E6E298CB894B11817718E961916 Name="D3DBufferData" Alt="13DB6F03B7B267B5" Size="2C">
 		<_3E Name="byte width" Offset="0" />
 		<_3E Name="bind flags" Offset="4" />
 		<_3E Name="misc flags" Offset="8" />
@@ -547,13 +547,13 @@
 		<_3D Name="usage" Offset="28" />
 		<_3D Name="cpu flags" Offset="2A" />
 	</_E3E04E6E298CB894B11817718E961916>
-	<_2A8243165F4F96B2FC3C653099BE3C67 Name="MeshPartRaytracingMetaData" Size="C">
+	<_2A8243165F4F96B2FC3C653099BE3C67 Name="MeshPartRaytracingMetaData" Alt="862A3815EAE5D43F" Size="C">
 		<_3E Name="index count" Offset="0" />
 		<_3E Name="index offset" Offset="4" />
 		<_3C Name="geo type" Offset="8" />
 		<_34 Name="generated_padf9a7" Offset="9" Length="3" />
 	</_2A8243165F4F96B2FC3C653099BE3C67>
-	<_9E5746289CB282E82B490C0C87CE22DD Name="BLASOfflineData" Size="30">
+	<_9E5746289CB282E82B490C0C87CE22DD Name="BLASOfflineData" Alt="F9DB7A47BAEDFC7D" Size="30">
 		<_42 Name="Temp BLAS buffer" Offset="0" StructName1="BLASOfflineData.Temp BLAS buffer" Int1="0" Int2="8" Flags="40000000" />
 		<_6 Name="PostbuildCurrentSize" Offset="18" />
 		<_6 Name="PostbuildSerializedSize" Offset="1C" />
@@ -561,7 +561,7 @@
 		<_34 Name="generated_pad707f" Offset="24" Length="4" />
 		<_7 Name="m_resource" Offset="28" />
 	</_9E5746289CB282E82B490C0C87CE22DD>
-	<_EF4442568081AD34602D9DD0B563A894 Name="StreamingChunkList" Size="18">
+	<_EF4442568081AD34602D9DD0B563A894 Name="StreamingChunkList" Alt="B6C862EE8BF87E9C" Size="18">
 		<_42 Name="chunks" Offset="0" StructName1="StreamingChunkList.chunks" Int1="0" Int2="0" Flags="4000" />
 	</_EF4442568081AD34602D9DD0B563A894>
 </root>

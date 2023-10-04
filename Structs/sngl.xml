@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="sound_globals" Parents="aTag" Index="-392">
-	<_4199836C18BDFC063F9C6B2B836C272C Name="AudioGameGlobalSettingsTag" Size="470">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="sound_globals" Parents="aTag" Index="-392">
+	<_4199836C18BDFC063F9C6B2B836C272C Name="AudioGameGlobalSettingsTag" Alt="A0561AB6798C3A2" Size="470">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="Live theater scrub begin event" Offset="10" />
 		<_2 Name="Live theater scrub end event" Offset="14" />
@@ -29,18 +29,18 @@
 		<_14 Name="Pause delay time (seconds)" Offset="450" />
 		<_41 Name="Positional chat looping sound tag reference" Offset="454" Allowed="lsnd" Flags="0" />
 	</_4199836C18BDFC063F9C6B2B836C272C>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_06194EB41A2A3AA4FDFBDF32B4C71EC6 Name="SoundBankRefBlockDefinition" Size="1C">
+	<_06194EB41A2A3AA4FDFBDF32B4C71EC6 Name="SoundBankRefBlockDefinition" Alt="717DEF8C44B1C0B5" Size="1C">
 		<_41 Name="Sound bank" Offset="0" Allowed="sbnk" Flags="0" />
 	</_06194EB41A2A3AA4FDFBDF32B4C71EC6>
-	<_8A5F4F883F995D316D01F18785BE51F0 Name="i343::Sound::VehicleSurfaceSoundData" Size="8">
+	<_8A5F4F883F995D316D01F18785BE51F0 Name="i343::Sound::VehicleSurfaceSoundData" Alt="D2D94F600AB736F5" Size="8">
 		<_2 Name="RTPC name" Offset="0" />
 		<_14 Name="Sweetener threshold" Offset="4" />
 	</_8A5F4F883F995D316D01F18785BE51F0>
-	<_C325409E4C68E86A0A493CDF99DA04C3 Name="AudioQualityPresetsTagStruct" Size="78">
+	<_C325409E4C68E86A0A493CDF99DA04C3 Name="AudioQualityPresetsTagStruct" Alt="14CFCB8766E64CD1" Size="78">
 		<_37 Name="XBoxOne" type="fgrb" Offset="0" />
 		<_38 Name="XBoxOne" Offset="0" GUID="67C04978E6E14AB6EA8296C4B4B30A6F" />
 		<_37 Name="" type="fgre" Offset="28" />
@@ -51,14 +51,14 @@
 		<_38 Name="PC" Offset="50" GUID="67C04978E6E14AB6EA8296C4B4B30A6F" />
 		<_37 Name="" type="fgre" Offset="78" />
 	</_C325409E4C68E86A0A493CDF99DA04C3>
-	<_00CF4B1F41F2A914E4213433A419C50C Name="Audio::Game::GameplayStateTransitionEvents" Size="4">
+	<_00CF4B1F41F2A914E4213433A419C50C Name="Audio::Game::GameplayStateTransitionEvents" Alt="569BEB73BFFAC1EB" Size="4">
 		<_2 Name="EventId" Offset="0" />
 	</_00CF4B1F41F2A914E4213433A419C50C>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_67C04978E6E14AB6EA8296C4B4B30A6F Name="AudioQualityPresetTagStruct" Size="28">
+	<_67C04978E6E14AB6EA8296C4B4B30A6F Name="AudioQualityPresetTagStruct" Alt="E4E11CE254845CFC" Size="28">
 		<_37 Name="Acoustics" type="fgrb" Offset="0" />
 		<_38 Name="Acoustics" Offset="0" GUID="4F0341F8268A8BF33DCA0BBCAD1B9F0C" />
 		<_37 Name="" type="fgre" Offset="18" />
@@ -66,7 +66,7 @@
 		<_38 Name="Prioritizer" Offset="18" GUID="EEF947E581ED72FBFD9E56F89AB8E80F" />
 		<_37 Name="" type="fgre" Offset="28" />
 	</_67C04978E6E14AB6EA8296C4B4B30A6F>
-	<_4F0341F8268A8BF33DCA0BBCAD1B9F0C Name="AudioGameAcousticsQualityPresetTagStruct" Size="18">
+	<_4F0341F8268A8BF33DCA0BBCAD1B9F0C Name="AudioGameAcousticsQualityPresetTagStruct" Alt="2AD135443CAABFC" Size="18">
 		<_F Name="Audio Flags" Offset="0" StructName1="AudioGameAcousticsQualityPresetTagStruct::Flag">
 			<Flag n="Acoustics Disable Voxel Pathfinding" />
 			<Flag n="Acoustics Disable Dynamic Object Obstruction" />
@@ -82,7 +82,7 @@
 		<_14 Name="Acoustics LOD Distance Multiplier" Offset="10" />
 		<_6 Name="Max Listener Count To Enable Voxel Obstruction" Offset="14" />
 	</_4F0341F8268A8BF33DCA0BBCAD1B9F0C>
-	<_EEF947E581ED72FBFD9E56F89AB8E80F Name="AudioGamePrioritizerQualityPresetTagStruct" Size="10">
+	<_EEF947E581ED72FBFD9E56F89AB8E80F Name="AudioGamePrioritizerQualityPresetTagStruct" Alt="BEFD97E635CE3E0D" Size="10">
 		<_6 Name="Max Events 1 Player" Offset="0" />
 		<_6 Name="Max Events 2 Player" Offset="4" />
 		<_6 Name="Max Events 3 Player" Offset="8" />

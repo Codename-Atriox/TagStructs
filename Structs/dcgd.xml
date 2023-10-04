@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="dispositionColors" Parents="aTag" Index="-93">
-	<_CE659CC0EBA32E6834681C5DE8A037DB Name="DispositionColorGroupDefinition" Size="190">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="dispositionColors" Parents="aTag" Index="-93">
+	<_CE659CC0EBA32E6834681C5DE8A037DB Name="DispositionColorGroupDefinition" Alt="663E40EE5A1E4F67" Size="190">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Enemy Colors" Offset="10" GUID="16C6AB269562E98491EADDAF073DDAA2" StructName1="DispositionColorGroupDefinition" Min="0" Max="16" />
 		<_40 Name="Friendly Colors" Offset="24" GUID="16C6AB269562E98491EADDAF073DDAA2" StructName1="DispositionColorGroupDefinition" Min="0" Max="16" />
@@ -15,11 +15,11 @@
 		<_40 Name="Infected Colors" Offset="168" GUID="16C6AB269562E98491EADDAF073DDAA2" StructName1="DispositionColorGroupDefinition" Min="0" Max="16" />
 		<_40 Name="Survivor Colors" Offset="17C" GUID="16C6AB269562E98491EADDAF073DDAA2" StructName1="DispositionColorGroupDefinition" Min="0" Max="16" />
 	</_CE659CC0EBA32E6834681C5DE8A037DB>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_16C6AB269562E98491EADDAF073DDAA2 Name="DispositionColorEntry" Size="84">
+	<_16C6AB269562E98491EADDAF073DDAA2 Name="DispositionColorEntry" Alt="C9D492EB91CED39A" Size="84">
 		<_2 Name="name" Offset="0" />
 		<_36 Name="sRGB Colors" Offset="4" />
 		<_20 Name="in world color" Offset="4" />
@@ -32,7 +32,7 @@
 		<_20 Name="text color" Offset="64" />
 		<_20 Name="navpoint color" Offset="74" />
 	</_16C6AB269562E98491EADDAF073DDAA2>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>

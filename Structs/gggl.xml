@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:06 PM" Name="game_globals_grenade_list" Parents="aTag" Index="-174">
-	<_BE4A445D6AFD354890F4AA84AA007E0A Name="GameGlobalsGrenadeList" Size="30">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="game_globals_grenade_list" Parents="aTag" Index="-174">
+	<_BE4A445D6AFD354890F4AA84AA007E0A Name="GameGlobalsGrenadeList" Alt="C71596215F9D2273" Size="30">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Maximum Grenade Count" Offset="10" />
 		<_37 Name="maximum count" type="mpsh" Offset="10" />
@@ -10,15 +10,15 @@
 		<_38 Name="slot count" Offset="16" GUID="77C34C8278009AB8E434C1A581502A26" />
 		<_40 Name="grenades" Offset="1C" GUID="BBEF469A2D626A3AAED9DFECAD167308" StructName1="GameGlobalsGrenadeList" Min="0" Max="6" />
 	</_BE4A445D6AFD354890F4AA84AA007E0A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_77C34C8278009AB8E434C1A581502A26 Name="i343::MalleableProperty::BaseShortStructDefinition" Size="6">
+	<_77C34C8278009AB8E434C1A581502A26 Name="i343::MalleableProperty::BaseShortStructDefinition" Alt="B098303B11B65DB4" Size="6">
 		<_5 Name="Base Value" Offset="0" />
 		<_23 Name="Value Bounds" Offset="2" />
 	</_77C34C8278009AB8E434C1A581502A26>
-	<_BBEF469A2D626A3AAED9DFECAD167308 Name="GameGlobalsGrenade" Size="D0">
+	<_BBEF469A2D626A3AAED9DFECAD167308 Name="GameGlobalsGrenade" Alt="D06006CA21481320" Size="D0">
 		<_36 Name="UI" Offset="0" />
 		<_2 Name="Display Text StringID" Offset="0" />
 		<_2 Name="Description Text StringID" Offset="4" />
@@ -35,11 +35,11 @@
 		<_41 Name="projectile (PvE)" Offset="A0" Allowed="proj" Flags="0" />
 		<_40 Name="UI display info" Offset="BC" GUID="52C6472B6BB873FD804507D0909B9077" StructName1="GameGlobalsGrenade" Min="0" Max="1" />
 	</_BBEF469A2D626A3AAED9DFECAD167308>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_52C6472B6BB873FD804507D0909B9077 Name="Interface::UIItemInfo" Size="74">
+	<_52C6472B6BB873FD804507D0909B9077 Name="Interface::UIItemInfo" Alt="26B42BD7B0501528" Size="74">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="alt name " Offset="4" />
 		<_2 Name="description" Offset="8" />

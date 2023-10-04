@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:16 PM" Name="soundbank" Parents="aTag" Index="-358">
-	<_7A464815FE440A1B382E3380B3D5F22E Name="SoundBankTag" Size="58">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="soundbank" Parents="aTag" Index="-358">
+	<_7A464815FE440A1B382E3380B3D5F22E Name="SoundBankTag" Alt="8AF3FED2B999C3FA" Size="58">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_D Name="flags" Offset="10" StructName1="SoundBankTagFlag">
 			<Flag n="Delay load" />
@@ -12,14 +12,14 @@
 		<_6 Name="Bank unique ID" Offset="50" />
 		<_34 Name="generated_pad437b" Offset="54" Length="4" />
 	</_7A464815FE440A1B382E3380B3D5F22E>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_F2B240C5BA6C3A666129DCB68DB3E00A Name="SoundBankBlockDefinition" Size="4">
+	<_F2B240C5BA6C3A666129DCB68DB3E00A Name="SoundBankBlockDefinition" Alt="A4D277EA304157D6" Size="4">
 		<_2 Name="Sound bank name" Offset="0" />
 	</_F2B240C5BA6C3A666129DCB68DB3E00A>
-	<_53EB4FC81E99089E0CFD9506AB738F16 Name="SoundBankDataResource" Size="38">
+	<_53EB4FC81E99089E0CFD9506AB738F16 Name="SoundBankDataResource" Alt="124B63551E78A475" Size="38">
 		<_5 Name="Language index" Offset="0" />
 		<_34 Name="generated_padda9f" Offset="2" Length="2" />
 		<_42 Name="Sound bank data" Offset="4" StructName1="SoundBankDataResource.Sound bank data" Int1="0" Int2="0" Flags="3000000" />
@@ -30,11 +30,11 @@
 		<_6 Name="Sound bank id" Offset="30" />
 		<_34 Name="generated_pad4135" Offset="34" Length="4" />
 	</_53EB4FC81E99089E0CFD9506AB738F16>
-	<_70934614F7DD69E0B6D9FFE0A859E44B Name="SoundBankResourceBlockDefinition" Size="10">
+	<_70934614F7DD69E0B6D9FFE0A859E44B Name="SoundBankResourceBlockDefinition" Alt="59CE7C3F94E56291" Size="10">
 		<_43 Name="Sound bank resource" Offset="0" StructName1="SoundBankDataResource" Int1="0" GUID="53EB4FC81E99089E0CFD9506AB738F16" />
 	</_70934614F7DD69E0B6D9FFE0A859E44B>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

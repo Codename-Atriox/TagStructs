@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="AutoHlodSettings" Parents="aTag" Index="-14">
-	<_CB894B9DAD1139FCF630954290D1D040 Name="AutoHlodSettings" Size="98">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="AutoHlodSettings" Parents="aTag" Index="-14">
+	<_CB894B9DAD1139FCF630954290D1D040 Name="AutoHlodSettings" Alt="84C6065709105F4F" Size="98">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="HLOD Auto-Generation Parameters" Offset="10" />
 		<_37 Name="BSP Cells" type="fgrb" Offset="10" />
@@ -21,11 +21,11 @@
 		<_37 Name="" type="fgre" Offset="94" />
 		<_34 Name="generated_padd9ad" Offset="94" Length="4" />
 	</_CB894B9DAD1139FCF630954290D1D040>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_303D4134CB8917C9985C6ED385C381F4 Name="AutoHlodLevelSettings" Size="28">
+	<_303D4134CB8917C9985C6ED385C381F4 Name="AutoHlodLevelSettings" Alt="EDBCD82D3D75D819" Size="28">
 		<_38 Name="Hlod Settings" Offset="0" GUID="8CFD485FDF8BE1BD03355B27B4419A26" />
 		<_14 Name="Switch Distance" Offset="20" />
 		<_B Name="Maximum LOD" Offset="24" StructName1="eTargetLOD">
@@ -49,11 +49,11 @@
 		</_B>
 		<_34 Name="generated_padd86d" Offset="26" Length="2" />
 	</_303D4134CB8917C9985C6ED385C381F4>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_8CFD485FDF8BE1BD03355B27B4419A26 Name="NamedHlodSettings" Size="20">
+	<_8CFD485FDF8BE1BD03355B27B4419A26 Name="NamedHlodSettings" Alt="B6F87E0B991E5D67" Size="20">
 		<_41 Name="HLOD settings preset list" Offset="0" Allowed="hlpl" Flags="9" />
 		<_2 Name="HLOD settings name" type="sted" Offset="1C" />
 	</_8CFD485FDF8BE1BD03355B27B4419A26>

@@ -1,54 +1,54 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="CurveDefinition" Parents="aTag" Index="-87">
-	<_EE604231BC09A399ED5B83F1B5C34525 Name="i343::Curve::CurveDefinitionTag" Size="60">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="CurveDefinition" Parents="aTag" Index="-87">
+	<_EE604231BC09A399ED5B83F1B5C34525 Name="i343::Curve::CurveDefinitionTag" Alt="4A6BB6DC74E48022" Size="60">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Curves 1D" Offset="10" GUID="23884D9045BDC6AEA251E57A8AFF48AE" StructName1="i343::Curve::CurveDefinitionTag" Min="0" Max="128" />
 		<_40 Name="Curves 2D" Offset="24" GUID="311D42D486B35DD87E6E35BBB2B0CC56" StructName1="i343::Curve::CurveDefinitionTag" Min="0" Max="128" />
 		<_40 Name="Curves 3D" Offset="38" GUID="DF58497F42EEC180B6D6550EB1D3E28B" StructName1="i343::Curve::CurveDefinitionTag" Min="0" Max="128" />
 		<_40 Name="Curves Transform" Offset="4C" GUID="A96E48E2CD0D288A9D9C3CC28368E05E" StructName1="i343::Curve::CurveDefinitionTag" Min="0" Max="128" />
 	</_EE604231BC09A399ED5B83F1B5C34525>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_23884D9045BDC6AEA251E57A8AFF48AE Name="i343::Curve::Named1dCurve" Size="2C">
+	<_23884D9045BDC6AEA251E57A8AFF48AE Name="i343::Curve::Named1dCurve" Alt="2D3F260E20640733" Size="2C">
 		<_2 Name="Name" Offset="0" />
 		<_38 Name="Definition" Offset="4" GUID="0F9747AA89121CCE609267FD9685FC92" />
 		<_40 Name="Metadata" Offset="18" GUID="E7C54CA1C6E9A95FF1E5C24F86602843" StructName1="i343::Curve::Named1dCurve" Min="0" Max="128" />
 	</_23884D9045BDC6AEA251E57A8AFF48AE>
-	<_311D42D486B35DD87E6E35BBB2B0CC56 Name="i343::Curve::Named2dCurve" Size="2C">
+	<_311D42D486B35DD87E6E35BBB2B0CC56 Name="i343::Curve::Named2dCurve" Alt="9B50647FF7952DFE" Size="2C">
 		<_2 Name="Name" Offset="0" />
 		<_38 Name="Definition" Offset="4" GUID="6E2F48EB646C923BD28E8C6BA226CEB3" />
 		<_40 Name="Metadata" Offset="18" GUID="E7C54CA1C6E9A95FF1E5C24F86602843" StructName1="i343::Curve::Named2dCurve" Min="0" Max="128" />
 	</_311D42D486B35DD87E6E35BBB2B0CC56>
-	<_DF58497F42EEC180B6D6550EB1D3E28B Name="i343::Curve::Named3dCurve" Size="2C">
+	<_DF58497F42EEC180B6D6550EB1D3E28B Name="i343::Curve::Named3dCurve" Alt="A0348D1C7A25551D" Size="2C">
 		<_2 Name="Name" Offset="0" />
 		<_38 Name="Definition" Offset="4" GUID="019A49F49D5E2ECAED2D06FCA24C1356" />
 		<_40 Name="Metadata" Offset="18" GUID="E7C54CA1C6E9A95FF1E5C24F86602843" StructName1="i343::Curve::Named3dCurve" Min="0" Max="128" />
 	</_DF58497F42EEC180B6D6550EB1D3E28B>
-	<_A96E48E2CD0D288A9D9C3CC28368E05E Name="i343::Curve::NamedTransformCurve" Size="40">
+	<_A96E48E2CD0D288A9D9C3CC28368E05E Name="i343::Curve::NamedTransformCurve" Alt="1F532F8B51B8ED9D" Size="40">
 		<_2 Name="Name" Offset="0" />
 		<_38 Name="Position Definition" Offset="4" GUID="019A49F49D5E2ECAED2D06FCA24C1356" />
 		<_38 Name="Orientation Definition" Offset="18" GUID="019A49F49D5E2ECAED2D06FCA24C1356" />
 		<_40 Name="Metadata" Offset="2C" GUID="E7C54CA1C6E9A95FF1E5C24F86602843" StructName1="i343::Curve::NamedTransformCurve" Min="0" Max="128" />
 	</_A96E48E2CD0D288A9D9C3CC28368E05E>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_0F9747AA89121CCE609267FD9685FC92 Name="i343::Curve::Curve1dDefinition" Size="14">
+	<_0F9747AA89121CCE609267FD9685FC92 Name="i343::Curve::Curve1dDefinition" Alt="5C5AFE65904470D9" Size="14">
 		<_40 Name="control points" Offset="0" GUID="F01E43007DADE047C5A8963E807C1A31" StructName1="i343::Curve::Curve1dDefinition" Min="0" Max="1024" />
 	</_0F9747AA89121CCE609267FD9685FC92>
-	<_E7C54CA1C6E9A95FF1E5C24F86602843 Name="i343::Curve::CurveDefinitionTagMetadata" Size="4">
+	<_E7C54CA1C6E9A95FF1E5C24F86602843 Name="i343::Curve::CurveDefinitionTagMetadata" Alt="BB4F67883E220585" Size="4">
 		<_14 Name="input" Offset="0" />
 	</_E7C54CA1C6E9A95FF1E5C24F86602843>
-	<_6E2F48EB646C923BD28E8C6BA226CEB3 Name="i343::Curve::Curve2dDefinition" Size="14">
+	<_6E2F48EB646C923BD28E8C6BA226CEB3 Name="i343::Curve::Curve2dDefinition" Alt="20B840BA5CE9C907" Size="14">
 		<_40 Name="control points" Offset="0" GUID="7EC743402A79404C8298A95EA81462E7" StructName1="i343::Curve::Curve2dDefinition" Min="0" Max="1024" />
 	</_6E2F48EB646C923BD28E8C6BA226CEB3>
-	<_019A49F49D5E2ECAED2D06FCA24C1356 Name="i343::Curve::Curve3dDefinition" Size="14">
+	<_019A49F49D5E2ECAED2D06FCA24C1356 Name="i343::Curve::Curve3dDefinition" Alt="5B19992C38BB1500" Size="14">
 		<_40 Name="control points" Offset="0" GUID="29C547C8AC5C536494CC256697923B5C" StructName1="i343::Curve::Curve3dDefinition" Min="0" Max="1024" />
 	</_019A49F49D5E2ECAED2D06FCA24C1356>
-	<_F01E43007DADE047C5A8963E807C1A31 Name="i343::Curve::Curve1dControlPoint" Size="14">
+	<_F01E43007DADE047C5A8963E807C1A31 Name="i343::Curve::Curve1dControlPoint" Alt="CE8B44396F2F6534" Size="14">
 		<_14 Name="value" Offset="0" />
 		<_14 Name="tangent in" Offset="4" />
 		<_14 Name="tangent out" Offset="8" />
@@ -66,7 +66,7 @@
 		</_A>
 		<_34 Name="generated_pad7103" Offset="12" Length="2" />
 	</_F01E43007DADE047C5A8963E807C1A31>
-	<_7EC743402A79404C8298A95EA81462E7 Name="i343::Curve::Curve2dControlPoint" Size="20">
+	<_7EC743402A79404C8298A95EA81462E7 Name="i343::Curve::Curve2dControlPoint" Alt="B9F54F765B84694A" Size="20">
 		<_18 Name="value" Offset="0" />
 		<_18 Name="tangent in" Offset="8" />
 		<_18 Name="tangent out" Offset="10" />
@@ -94,7 +94,7 @@
 			<Flag n="UserBroken" />
 		</_A>
 	</_7EC743402A79404C8298A95EA81462E7>
-	<_29C547C8AC5C536494CC256697923B5C Name="i343::Curve::Curve3dControlPoint" Size="44">
+	<_29C547C8AC5C536494CC256697923B5C Name="i343::Curve::Curve3dControlPoint" Alt="7B8DECD202BF8DE2" Size="44">
 		<_19 Name="value" Offset="0" />
 		<_19 Name="tangent in" Offset="C" />
 		<_19 Name="tangent out" Offset="18" />
@@ -135,19 +135,19 @@
 		<_34 Name="generated_pad30cd" Offset="2E" Length="2" />
 		<_40 Name="pointMetadata" Offset="30" GUID="890146DC86C3D79B3F6D2AF7BE9C4A02" StructName1="i343::Curve::Curve3dControlPoint" Min="0" Max="1" />
 	</_29C547C8AC5C536494CC256697923B5C>
-	<_890146DC86C3D79B3F6D2AF7BE9C4A02 Name="i343::Curve::CurveControlPointMetadata" Size="3C">
+	<_890146DC86C3D79B3F6D2AF7BE9C4A02 Name="i343::Curve::CurveControlPointMetadata" Alt="CCD9A37676A71CA5" Size="3C">
 		<_40 Name="spline road metadata" Offset="0" GUID="781B4DEB48B4EEDDE67B060C86194139" StructName1="i343::Curve::CurveControlPointMetadata" Min="0" Max="1" />
 		<_40 Name="road decal metadata" Offset="14" GUID="3F0A493018D98594F83880CABBB76829" StructName1="i343::Curve::CurveControlPointMetadata" Min="0" Max="1" />
 		<_40 Name="animated spline metadata" Offset="28" GUID="B83E4A756AA20FB6536D5B2CB680453F" StructName1="i343::Curve::CurveControlPointMetadata" Min="0" Max="1" />
 	</_890146DC86C3D79B3F6D2AF7BE9C4A02>
-	<_781B4DEB48B4EEDDE67B060C86194139 Name="i343::Curve::RoadCurveControlPointMetadata" Size="14">
+	<_781B4DEB48B4EEDDE67B060C86194139 Name="i343::Curve::RoadCurveControlPointMetadata" Alt="655BD84A6547E60" Size="14">
 		<_14 Name="width" Offset="0" />
 		<_14 Name="opacity" Offset="4" />
 		<_14 Name="falloffLeft" Offset="8" />
 		<_14 Name="falloffRight" Offset="C" />
 		<_14 Name="bank" Offset="10" />
 	</_781B4DEB48B4EEDDE67B060C86194139>
-	<_3F0A493018D98594F83880CABBB76829 Name="i343::Curve::RoadDecalControlPointMetadata" Size="40">
+	<_3F0A493018D98594F83880CABBB76829 Name="i343::Curve::RoadDecalControlPointMetadata" Alt="C94C968F40398AA0" Size="40">
 		<_40 Name="Road Decal Textures" Offset="0" GUID="BB484B70CB48EF7259B8DDA794BD5E5F" StructName1="i343::Curve::RoadDecalControlPointMetadata" Min="0" Max="32" />
 		<_18 Name="Road Decal Scale" Offset="14" />
 		<_18 Name="Road Decal Offset" Offset="1C" />
@@ -159,10 +159,10 @@
 		<_14 Name="Road Decal Edge Fade" Offset="38" />
 		<_6 Name="Road Decal Random Seed" Offset="3C" />
 	</_3F0A493018D98594F83880CABBB76829>
-	<_B83E4A756AA20FB6536D5B2CB680453F Name="i343::Curve::AnimatedSplineControlPointMetadata" Size="4">
+	<_B83E4A756AA20FB6536D5B2CB680453F Name="i343::Curve::AnimatedSplineControlPointMetadata" Alt="57023B898CD5EE6C" Size="4">
 		<_14 Name="Time" Offset="0" />
 	</_B83E4A756AA20FB6536D5B2CB680453F>
-	<_BB484B70CB48EF7259B8DDA794BD5E5F Name="i343::Curve::RoadDecalBitmapReference" Size="1C">
+	<_BB484B70CB48EF7259B8DDA794BD5E5F Name="i343::Curve::RoadDecalBitmapReference" Alt="3DC59A7DEF559F64" Size="1C">
 		<_41 Name="Reference" Offset="0" Allowed="bitm" Flags="0" />
 	</_BB484B70CB48EF7259B8DDA794BD5E5F>
 </root>

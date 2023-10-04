@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="ActionPriorityDataDefinitionTag" Parents="aTag" Index="-24">
-	<_F6744B3A0C0CBA3FC89AC2BA250A3811 Name="i343::ActionSystem::ActionPriorityDataDefinition" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="ActionPriorityDataDefinitionTag" Parents="aTag" Index="-24">
+	<_F6744B3A0C0CBA3FC89AC2BA250A3811 Name="i343::ActionSystem::ActionPriorityDataDefinition" Alt="5E8C9809E6B991AF" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="incoming actions" Offset="10" GUID="7ABD09329CF2B119B5E2073F8CE606BC" StructName1="i343::ActionSystem::ActionPriorityDataDefinition" Min="0" Max="128" />
 		<_34 Name="generated_pade8f1" Offset="24" Length="4" />
 	</_F6744B3A0C0CBA3FC89AC2BA250A3811>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_7ABD09329CF2B119B5E2073F8CE606BC Name="i343::ActionSystem::ActionPriorityDataDefinitionIncomingEntry" Size="18">
+	<_7ABD09329CF2B119B5E2073F8CE606BC Name="i343::ActionSystem::ActionPriorityDataDefinitionIncomingEntry" Alt="84D70A2F0AA471AF" Size="18">
 		<_C Name="this action" Offset="0" StructName1="i343::ActionSystem::ActionType">
 			<Flag n="Base (Do not use)" />
 			<Flag n="Ground" />
@@ -87,11 +87,11 @@
 		</_C>
 		<_40 Name="existing actions" Offset="4" GUID="7AB049320CF2B016B5E2573F8CE636BC" StructName1="i343::ActionSystem::ActionPriorityDataDefinitionIncomingEntry" Min="0" Max="128" />
 	</_7ABD09329CF2B119B5E2073F8CE606BC>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_7AB049320CF2B016B5E2573F8CE636BC Name="i343::ActionSystem::ActionPriorityDataDefinitionExistingEntry" Size="8">
+	<_7AB049320CF2B016B5E2573F8CE636BC Name="i343::ActionSystem::ActionPriorityDataDefinitionExistingEntry" Alt="B78D2214510E3EF7" Size="8">
 		<_C Name="this action" Offset="0" StructName1="i343::ActionSystem::ActionType">
 			<Flag n="Base (Do not use)" />
 			<Flag n="Ground" />

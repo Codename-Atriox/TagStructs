@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="flinch_system" Parents="aTag" Index="-146">
-	<_B8EB47EE51541D8BEA58B0FCAF64DDF6 Name="i343::Flinch::FlinchSystemDefinition" Size="80">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="flinch_system" Parents="aTag" Index="-146">
+	<_B8EB47EE51541D8BEA58B0FCAF64DDF6 Name="i343::Flinch::FlinchSystemDefinition" Alt="8259067B8BD47E88" Size="80">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="flinch system" Offset="10" GUID="7EC443B1BA2E5E8501DC68C19CFEAC36" />
 	</_B8EB47EE51541D8BEA58B0FCAF64DDF6>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_7EC443B1BA2E5E8501DC68C19CFEAC36 Name="i343::Flinch::FlinchSystemInternalDefinition" Size="70">
+	<_7EC443B1BA2E5E8501DC68C19CFEAC36 Name="i343::Flinch::FlinchSystemInternalDefinition" Alt="77A8D809474A0533" Size="70">
 		<_37 Name="Gun Flinch" type="fgrb" Offset="0" />
 		<_38 Name="gun flinch" Offset="0" GUID="8C9E49F7CD2ED6D0F4CC2A5283C652FF" />
 		<_37 Name="" type="fgre" Offset="38" />
@@ -16,27 +16,27 @@
 		<_38 Name="view flinch" Offset="38" GUID="8C9E49F7CD2ED6D0F4CC2A5283C652FF" />
 		<_37 Name="" type="fgre" Offset="70" />
 	</_7EC443B1BA2E5E8501DC68C19CFEAC36>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_8C9E49F7CD2ED6D0F4CC2A5283C652FF Name="i343::Flinch::FlinchSystemSettings" Size="38">
+	<_8C9E49F7CD2ED6D0F4CC2A5283C652FF Name="i343::Flinch::FlinchSystemSettings" Alt="E4190F4112CDD68E" Size="38">
 		<_24 Name="yaw bounds" Offset="0" />
 		<_24 Name="pitch bounds" Offset="8" />
 		<_40 Name="recoil" Offset="10" GUID="60314CF65FB40F693BB93DCAAD30F6DE" StructName1="i343::Flinch::FlinchSystemSettings" Min="0" Max="2" />
 		<_40 Name="spring damper" Offset="24" GUID="4D374B3143CC9EEAFBA97F64A48B65B6" StructName1="i343::Flinch::FlinchSystemSettings" Min="0" Max="2" />
 	</_8C9E49F7CD2ED6D0F4CC2A5283C652FF>
-	<_60314CF65FB40F693BB93DCAAD30F6DE Name="i343::Flinch::FlinchRecoilBlock" Size="8">
+	<_60314CF65FB40F693BB93DCAAD30F6DE Name="i343::Flinch::FlinchRecoilBlock" Alt="8256D1EFB27F4A5" Size="8">
 		<_38 Name="recoil return" Offset="0" GUID="9E014189D58E8176D745D4EFB547B204" />
 	</_60314CF65FB40F693BB93DCAAD30F6DE>
-	<_4D374B3143CC9EEAFBA97F64A48B65B6 Name="i343::Flinch::FlinchSpringDamperBlock" Size="C">
+	<_4D374B3143CC9EEAFBA97F64A48B65B6 Name="i343::Flinch::FlinchSpringDamperBlock" Alt="B2243ECCE92433DB" Size="C">
 		<_38 Name="spring damper" Offset="0" GUID="115C40E0B5C1A9B631727A40AEC9E586" />
 	</_4D374B3143CC9EEAFBA97F64A48B65B6>
-	<_9E014189D58E8176D745D4EFB547B204 Name="i343::ProceduralMotion::RecoilAngularDefinition" Size="8">
+	<_9E014189D58E8176D745D4EFB547B204 Name="i343::ProceduralMotion::RecoilAngularDefinition" Alt="DF41BCA7BD693934" Size="8">
 		<_8 Name="deceleration away from center" Offset="0" />
 		<_8 Name="acceleration to center" Offset="4" />
 	</_9E014189D58E8176D745D4EFB547B204>
-	<_115C40E0B5C1A9B631727A40AEC9E586 Name="i343::ProceduralMotion::SpringDamperAngularDefinition" Size="C">
+	<_115C40E0B5C1A9B631727A40AEC9E586 Name="i343::ProceduralMotion::SpringDamperAngularDefinition" Alt="28C13B2C026E4972" Size="C">
 		<_14 Name="spring constant" Offset="0" />
 		<_14 Name="damping ratio" Offset="4" />
 		<_14 Name="runtime damping constant" Offset="8" />

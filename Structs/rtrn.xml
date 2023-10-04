@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:16 PM" Name="runtime_terrain" Parents="aTag" Index="-341">
-	<_4BAF4A91C4844C5A1B5F4C4AB292CA6F Name="i343::TerrainRuntimeTag" Size="208">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="runtime_terrain" Parents="aTag" Index="-341">
+	<_4BAF4A91C4844C5A1B5F4C4AB292CA6F Name="i343::TerrainRuntimeTag" Alt="413456722CDDD86E" Size="208">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Bitmap" Offset="10" Allowed="bitm" Flags="8" />
 		<_40 Name="TerrainCollisionGeoTag Cells" Offset="2C" GUID="66294E1CB3A52A6DC057BBD0B5C91133" StructName1="i343::TerrainRuntimeTag" Min="0" Max="4096" />
@@ -33,14 +33,14 @@
 		<_7 Name="Runtime Terrain System" Offset="1F8" />
 		<_7 Name="m_pipelineStates" Offset="200" />
 	</_4BAF4A91C4844C5A1B5F4C4AB292CA6F>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_66294E1CB3A52A6DC057BBD0B5C91133 Name="i343::Physics::TerrainCollisionGeoEntry" Size="1C">
+	<_66294E1CB3A52A6DC057BBD0B5C91133 Name="i343::Physics::TerrainCollisionGeoEntry" Alt="52F8A51263B57884" Size="1C">
 		<_41 Name="TerrainCollisionCellGeoTag" Offset="0" Allowed="tccg" Flags="4" />
 	</_66294E1CB3A52A6DC057BBD0B5C91133>
-	<_DEE047EEDEAF71EDAC08CB16A4759CF0 Name="i343::TerrainQuadTreeNodeData" Size="70">
+	<_DEE047EEDEAF71EDAC08CB16A4759CF0 Name="i343::TerrainQuadTreeNodeData" Alt="94FDA88489F0D8CC" Size="70">
 		<_40 Name="Material Layers Indices" Offset="0" GUID="96064A2ED7C912C20ED54AADB403F589" StructName1="i343::TerrainQuadTreeNodeData" Min="0" Max="256" />
 		<_40 Name="Placement Layers Indices" Offset="14" GUID="96064A2ED7C912C20ED54AADB403F589" StructName1="i343::TerrainQuadTreeNodeData" Min="0" Max="256" />
 		<_40 Name="Texture Remap Info" Offset="28" GUID="CEB34F2BAC88DAA86733073998D9B914" StructName1="i343::TerrainQuadTreeNodeData" Min="0" Max="256" />
@@ -50,35 +50,35 @@
 		<_40 Name="Input Texture Data" Offset="58" GUID="0B0442905F4BDE680C906D67BF9AB346" StructName1="i343::TerrainQuadTreeNodeData" Min="0" Max="87381" />
 		<_6 Name="Unoptimized Instructions Count" Offset="6C" />
 	</_DEE047EEDEAF71EDAC08CB16A4759CF0>
-	<_711245B37D0E1C269254103196504690 Name="i343::TerrainGeneratedOutputReference" Size="28">
+	<_711245B37D0E1C269254103196504690 Name="i343::TerrainGeneratedOutputReference" Alt="25B9F7E5ABF9DB25" Size="28">
 		<_2 Name="Id" Offset="0" />
 		<_39 Name="Output Bitmap References" Offset="4" GUID="143C4860FB35478925566618BF7776EA" Count="3" StructName1="Output Bitmap References" />
 	</_711245B37D0E1C269254103196504690>
-	<_D7514E1A8F1CE1DC60956AC185E783B7 Name="i343::GpuMaterialLayerBitmapReference" Size="20">
+	<_D7514E1A8F1CE1DC60956AC185E783B7 Name="i343::GpuMaterialLayerBitmapReference" Alt="EDFB156A54C04F19" Size="20">
 		<_6 Name="Offset In Bytes" Offset="0" />
 		<_41 Name="Bitmap Reference" Offset="4" Allowed="bitm" Flags="0" />
 	</_D7514E1A8F1CE1DC60956AC185E783B7>
-	<_D9614F518AB1AD0DD190AB1FB119AB68 Name="i343::SharedGpuInterpreterBitmapReference" Size="24">
+	<_D9614F518AB1AD0DD190AB1FB119AB68 Name="i343::SharedGpuInterpreterBitmapReference" Alt="DCDE4119FDDDF9E4" Size="24">
 		<_41 Name="Bitmap Reference" Offset="0" Allowed="bitm" Flags="0" />
 		<_18 Name="UV Scale" Offset="1C" />
 	</_D9614F518AB1AD0DD190AB1FB119AB68>
-	<_4CE140C423EA797AC4B86E2696783171 Name="i343::LayerGpuInterpreterBytecode" Size="20">
+	<_4CE140C423EA797AC4B86E2696783171 Name="i343::LayerGpuInterpreterBytecode" Alt="3E1A5B2640A54BFD" Size="20">
 		<_3F Name="Hash" Offset="0" />
 		<_40 Name="GPU Interpreter Instructions" Offset="8" GUID="40B4497914578F2A795DBC2B95B9B32D" StructName1="i343::LayerGpuInterpreterBytecode" Min="0" Max="1024" />
 		<_34 Name="generated_pad5fcf" Offset="1C" Length="4" />
 	</_4CE140C423EA797AC4B86E2696783171>
-	<_81744B69756474C5BB545108A56F0553 Name="i343::SurfacingMaterialLayer" Size="2C">
+	<_81744B69756474C5BB545108A56F0553 Name="i343::SurfacingMaterialLayer" Alt="B65A68A132574F49" Size="2C">
 		<_2 Name="Id" Offset="0" />
 		<_6 Name="Index" Offset="4" />
 		<_6 Name="GPU Interpreter Instructions" Offset="8" />
 		<_41 Name="Material Preset" Offset="C" Allowed="matp" Flags="8" />
 		<_6 Name="PhysicsMaterialId" Offset="28" />
 	</_81744B69756474C5BB545108A56F0553>
-	<_3DFA4C9802688D8036293D13B2E5B252 Name="i343::SurfacingPlacementLayer" Size="18">
+	<_3DFA4C9802688D8036293D13B2E5B252 Name="i343::SurfacingPlacementLayer" Alt="A8FF96D874F42322" Size="18">
 		<_40 Name="Placement Descriptions" Offset="0" GUID="D47A4644F0679DDA2BAC81CBA71662D2" StructName1="i343::SurfacingPlacementLayer" Min="0" Max="32" />
 		<_14 Name="Footprint Radius" Offset="14" />
 	</_3DFA4C9802688D8036293D13B2E5B252>
-	<_DD0A4D59ABB101C1A97400168EF8841E Name="s_splitscreen_spec_control_setting_float" Size="40">
+	<_DD0A4D59ABB101C1A97400168EF8841E Name="s_splitscreen_spec_control_setting_float" Alt="2BF1124867B166C1" Size="40">
 		<_37 Name="Single Player" type="fgrb" Offset="0" />
 		<_38 Name="Single Player" Offset="0" GUID="4F624FA2E02C056B51BB16EF860CDF99" />
 		<_37 Name="" type="fgre" Offset="10" />
@@ -92,7 +92,7 @@
 		<_38 Name="4 Player Splitscreen" Offset="30" GUID="4F624FA2E02C056B51BB16EF860CDF99" />
 		<_37 Name="" type="fgre" Offset="40" />
 	</_DD0A4D59ABB101C1A97400168EF8841E>
-	<_D5A456AA566FC2EA11B8AE8756453DBA Name="s_basic_spec_control_setting_int" Size="1C">
+	<_D5A456AA566FC2EA11B8AE8756453DBA Name="s_basic_spec_control_setting_int" Alt="137671D01D1C0C06" Size="1C">
 		<_6 Name="Low" Offset="0" />
 		<_6 Name="Medium" Offset="4" />
 		<_6 Name="High" Offset="8" />
@@ -101,22 +101,22 @@
 		<_14 Name="3 Player Splitscreen" Offset="14" />
 		<_14 Name="4 Player Splitscreen" Offset="18" />
 	</_D5A456AA566FC2EA11B8AE8756453DBA>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_96064A2ED7C912C20ED54AADB403F589 Name="i343::TerrainNodeLayerIndex" Size="4">
+	<_96064A2ED7C912C20ED54AADB403F589 Name="i343::TerrainNodeLayerIndex" Alt="4140C6B2D61937A5" Size="4">
 		<_6 Name="Node Shared Index" Offset="0" />
 	</_96064A2ED7C912C20ED54AADB403F589>
-	<_CEB34F2BAC88DAA86733073998D9B914 Name="i343::TerrainQuadTreeNodeBitmapRemapInfo" Size="8">
+	<_CEB34F2BAC88DAA86733073998D9B914 Name="i343::TerrainQuadTreeNodeBitmapRemapInfo" Alt="9E3EFD69F01C8FD7" Size="8">
 		<_3D Name="Texture Index" Offset="0" />
 		<_5 Name="Channel Masks" Offset="2" />
 		<_14 Name="Solid Color" Offset="4" />
 	</_CEB34F2BAC88DAA86733073998D9B914>
-	<_487140BED88D8DE3B994EA568B7339D0 Name="i343::TerrainNodeBitmapIndex" Size="4">
+	<_487140BED88D8DE3B994EA568B7339D0 Name="i343::TerrainNodeBitmapIndex" Alt="72C2E31074DAA4DB" Size="4">
 		<_3E Name="Index" Offset="0" />
 	</_487140BED88D8DE3B994EA568B7339D0>
-	<_0B0442905F4BDE680C906D67BF9AB346 Name="i343::SurfacingTextureData" Size="18">
+	<_0B0442905F4BDE680C906D67BF9AB346 Name="i343::SurfacingTextureData" Alt="F0A217DF8C0B85E7" Size="18">
 		<_6 Name="Output Id" Offset="0" />
 		<_6 Name="Bitmap Index" Offset="4" />
 		<_2 Name="Red channel" Offset="8" />
@@ -124,14 +124,14 @@
 		<_2 Name="Blue channel" Offset="10" />
 		<_2 Name="Alpha channel" Offset="14" />
 	</_0B0442905F4BDE680C906D67BF9AB346>
-	<_143C4860FB35478925566618BF7776EA Name="i343::TerrainGeneratedOutputBitmapDescription" Size="C">
+	<_143C4860FB35478925566618BF7776EA Name="i343::TerrainGeneratedOutputBitmapDescription" Alt="24AAFA7AE7E786D6" Size="C">
 		<_6 Name="Bitmap Reference Index" Offset="0" />
 		<_18 Name="Scale of the UV transform" Offset="4" />
 	</_143C4860FB35478925566618BF7776EA>
-	<_40B4497914578F2A795DBC2B95B9B32D Name="i343::GpuInterpreterInstruction" Size="4">
+	<_40B4497914578F2A795DBC2B95B9B32D Name="i343::GpuInterpreterInstruction" Alt="B901F90A3C5E8BF8" Size="4">
 		<_6 Name="Data" Offset="0" />
 	</_40B4497914578F2A795DBC2B95B9B32D>
-	<_D47A4644F0679DDA2BAC81CBA71662D2 Name="i343::SurfacingPlacementDescription" Size="118">
+	<_D47A4644F0679DDA2BAC81CBA71662D2 Name="i343::SurfacingPlacementDescription" Alt="1972EC8B24CBFF8" Size="118">
 		<_2 Name="Id" Offset="0" />
 		<_6 Name="GPU Interpreter Density Instructions" Offset="4" />
 		<_6 Name="GPU Interpreter Scale Instructions" Offset="8" />
@@ -168,13 +168,13 @@
 		<_38 Name="Distance Dither Start" Offset="F8" GUID="42A51C651EBA162A521651FA165ADBAC" />
 		<_14 Name="Distance Dither Transition Width" Offset="114" />
 	</_D47A4644F0679DDA2BAC81CBA71662D2>
-	<_4F624FA2E02C056B51BB16EF860CDF99 Name="s_core_spec_control_setting_float" Size="10">
+	<_4F624FA2E02C056B51BB16EF860CDF99 Name="s_core_spec_control_setting_float" Alt="8733F2CEF389586C" Size="10">
 		<_14 Name="Low" Offset="0" />
 		<_14 Name="Medium" Offset="4" />
 		<_14 Name="High" Offset="8" />
 		<_14 Name="Ultra" Offset="C" />
 	</_4F624FA2E02C056B51BB16EF860CDF99>
-	<_42A51C651EBA162A521651FA165ADBAC Name="s_basic_spec_control_setting_float" Size="1C">
+	<_42A51C651EBA162A521651FA165ADBAC Name="s_basic_spec_control_setting_float" Alt="4702D401A97A7880" Size="1C">
 		<_14 Name="Low" Offset="0" />
 		<_14 Name="Medium" Offset="4" />
 		<_14 Name="High" Offset="8" />

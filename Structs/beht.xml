@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="BehaviorTree" Parents="aTag" Index="-33">
-	<_2CB740440A596FC73976450FBCB4045A Name="BehaviorTreeDefinition" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="BehaviorTree" Parents="aTag" Index="-33">
+	<_2CB740440A596FC73976450FBCB4045A Name="BehaviorTreeDefinition" Alt="4A647D4C1FCC5ECD" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Nodes" Offset="10" GUID="5B98C3445EBEAE3CD4024462A2BBB202" StructName1="BehaviorTreeDefinition" Min="0" Max="256" />
 		<_34 Name="generated_padd2e7" Offset="24" Length="4" />
 	</_2CB740440A596FC73976450FBCB4045A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_5B98C3445EBEAE3CD4024462A2BBB202 Name="BehaviorNodeDefinition" Size="4C">
+	<_5B98C3445EBEAE3CD4024462A2BBB202 Name="BehaviorNodeDefinition" Alt="D3DC394B26E089A1" Size="4C">
 		<_41 Name="Sub Tree" Offset="0" Allowed="beht" Flags="0" />
 		<_37 Name="Settings" type="fgrb" Offset="1C" />
 		<_38 Name="Settings" Offset="1C" GUID="4127824A84FE34D661E402B8BABE2417" />
 		<_37 Name="" type="fgre" Offset="38" />
 		<_40 Name="Children" Offset="38" GUID="605A1D4FDD894865B24D46E399726FE3" StructName1="BehaviorNodeDefinition" Min="0" Max="256" />
 	</_5B98C3445EBEAE3CD4024462A2BBB202>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_4127824A84FE34D661E402B8BABE2417 Name="BehaviorNodeSettings" Size="1C">
+	<_4127824A84FE34D661E402B8BABE2417 Name="BehaviorNodeSettings" Alt="EA325B97814A3228" Size="1C">
 		<_B Name="Behavior" Offset="0" StructName1="BehaviorIndex">
 			<Flag n="" />
 			<Flag n="root" />
@@ -507,7 +507,7 @@
 		<_14 Name="Real 0" Offset="18" />
 		<_37 Name="" type="fgre" Offset="1C" />
 	</_4127824A84FE34D661E402B8BABE2417>
-	<_605A1D4FDD894865B24D46E399726FE3 Name="BehaviorNodeChildIndex" Size="2">
+	<_605A1D4FDD894865B24D46E399726FE3 Name="BehaviorNodeChildIndex" Alt="EB9BF70E6868F654" Size="2">
 		<_2E Name="Child" Offset="0" GUID="5B98C3445EBEAE3CD4024462A2BBB202" StructName1="BehaviorNodeChildIndex" Min="0" Max="256" />
 	</_605A1D4FDD894865B24D46E399726FE3>
 </root>

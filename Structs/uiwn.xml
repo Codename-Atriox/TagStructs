@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:18 PM" Name="ui_ads_weapon_node_definition" Parents="aTag" Index="-452">
-	<_C65A48D4D059AFC2FD116CB5A0D0C1E0 Name="Interface::NodeGraph::UIADSWeaponNodeDefinition" Size="88">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="ui_ads_weapon_node_definition" Parents="aTag" Index="-452">
+	<_C65A48D4D059AFC2FD116CB5A0D0C1E0 Name="Interface::NodeGraph::UIADSWeaponNodeDefinition" Alt="EE9843AF38E70905" Size="88">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="hip fire reticle default screen reference" Offset="10" Allowed="cusc" Flags="0" />
 		<_41 Name="reticle default screen reference" Offset="2C" Allowed="cusc" Flags="0" />
@@ -9,12 +9,12 @@
 		<_14 Name="scale" Offset="80" />
 		<_34 Name="generated_padbede" Offset="84" Length="4" />
 	</_C65A48D4D059AFC2FD116CB5A0D0C1E0>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

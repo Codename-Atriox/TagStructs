@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:49:59 PM" Name="AudioThreatGlobals" Parents="aTag" Index="-31">
-	<_989D26A6F553BD224F599AAD1F82E730 Name="Audio::Game::AudioThreatGlobalsDefinition" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="AudioThreatGlobals" Parents="aTag" Index="-31">
+	<_989D26A6F553BD224F599AAD1F82E730 Name="Audio::Game::AudioThreatGlobalsDefinition" Alt="6CA31DCC2F391E05" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="Audio Threat Globals" type="fgrb" Offset="10" />
 		<_36 Name="Audio Threat System Global Settings" Offset="10" />
@@ -8,11 +8,11 @@
 		<_37 Name="" type="fgre" Offset="24" />
 		<_34 Name="generated_pad25d5" Offset="24" Length="4" />
 	</_989D26A6F553BD224F599AAD1F82E730>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_345D40A9222735EEA90A099DB3C7E236 Name="Audio::Game::ThreatLogicInstance" Size="A0">
+	<_345D40A9222735EEA90A099DB3C7E236 Name="Audio::Game::ThreatLogicInstance" Alt="99596F205587EBA8" Size="A0">
 		<_2 Name="RTPC Name" Offset="0" />
 		<_2 Name="Multiplayer RTPC Name" Offset="4" />
 		<_2 Name="BTB RTPC Name" Offset="8" />
@@ -29,16 +29,16 @@
 		<_3C Name="default bucket" Offset="9C" />
 		<_34 Name="generated_pad688d" Offset="9D" Length="3" />
 	</_345D40A9222735EEA90A099DB3C7E236>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_5F9E06AC68AC8A6783096642497BA297 Name="Audio::Game::BucketThreatSetup" Size="8">
+	<_5F9E06AC68AC8A6783096642497BA297 Name="Audio::Game::BucketThreatSetup" Alt="97261E63BFC2D323" Size="8">
 		<_14 Name="min threat value" Offset="0" />
 		<_5 Name="character count" Offset="4" />
 		<_34 Name="generated_pad482f" Offset="6" Length="2" />
 	</_5F9E06AC68AC8A6783096642497BA297>
-	<_36C152FD0C3D00E664516E23280FC1A9 Name="Audio::Game::ContextualThreatSetup" Size="14">
+	<_36C152FD0C3D00E664516E23280FC1A9 Name="Audio::Game::ContextualThreatSetup" Alt="2D304F375BCDD338" Size="14">
 		<_14 Name="min" Offset="0" />
 		<_14 Name="max" Offset="4" />
 		<_15 Name="weight" Offset="8" />

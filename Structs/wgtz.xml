@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:22 PM" Name="user_interface_globals_definition" Parents="aTag" Index="-479">
-	<_C3CE4535FF5E470331D62CBEBBBF413E Name="s_user_interface_tag_globals" Size="1D0">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:58 PM" Name="user_interface_globals_definition" Parents="aTag" Index="-479">
+	<_C3CE4535FF5E470331D62CBEBBBF413E Name="s_user_interface_tag_globals" Alt="3B371F045FC58B50" Size="1D0">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Screen Widgets" Offset="10" />
 		<_40 Name="node graphs" Offset="10" GUID="3A4D430D064AE50C78664370816BD9C4" StructName1="s_user_interface_tag_globals" Min="0" Max="256" />
@@ -29,24 +29,24 @@
 		<_41 Name="In-Game Map Settings Tag" Offset="1B0" Allowed="maps" Flags="0" />
 		<_34 Name="generated_pad86bd" Offset="1CC" Length="4" />
 	</_C3CE4535FF5E470331D62CBEBBBF413E>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_3A4D430D064AE50C78664370816BD9C4 Name="NodeGraphReferenceBlockDefinition" Size="1C">
+	<_3A4D430D064AE50C78664370816BD9C4 Name="NodeGraphReferenceBlockDefinition" Alt="6213BA2C43530F4E" Size="1C">
 		<_41 Name="node graph tag" Offset="0" Allowed="ngst" Flags="0" />
 	</_3A4D430D064AE50C78664370816BD9C4>
-	<_D3C94148CD4A6B7F45C7C7F08708E91E Name="BitmapDictionaryReferenceBlockDefinition" Size="1C">
+	<_D3C94148CD4A6B7F45C7C7F08708E91E Name="BitmapDictionaryReferenceBlockDefinition" Alt="702384C9403C7EFC" Size="1C">
 		<_41 Name="bitmap dictionary" Offset="0" Allowed="bitd" Flags="0" />
 	</_D3C94148CD4A6B7F45C7C7F08708E91E>
-	<_737041B838464D85B3CB9F7594612A80 Name="s_luaUserLibrary" Size="1C">
+	<_737041B838464D85B3CB9F7594612A80 Name="s_luaUserLibrary" Alt="CAA938FDB113F6B6" Size="1C">
 		<_41 Name="lua library" Offset="0" Allowed="luas" Flags="0" />
 	</_737041B838464D85B3CB9F7594612A80>
-	<_4C3B47695760E7A07B28874286F13D78 Name="s_cui_component_screen_reference" Size="20">
+	<_4C3B47695760E7A07B28874286F13D78 Name="s_cui_component_screen_reference" Alt="2B658A84856AAA6" Size="20">
 		<_2 Name="name" Offset="0" />
 		<_41 Name="cui screen tag" Offset="4" Allowed="cusc" Flags="0" />
 	</_4C3B47695760E7A07B28874286F13D78>
-	<_054D418E83781BD0955626E08894CE59 Name="s_cui_overlay_camera_definition" Size="18">
+	<_054D418E83781BD0955626E08894CE59 Name="s_cui_overlay_camera_definition" Alt="52B3DFEC831C09D5" Size="18">
 		<_2 Name="resolution name" Offset="0" />
 		<_A Name="pivot corner" Offset="4" StructName1="e_cui_camera_pivot_corner">
 			<Flag n="top left" />
@@ -60,7 +60,7 @@
 		<_14 Name="X angle degrees" Offset="10" />
 		<_14 Name="Y angle degrees" Offset="14" />
 	</_054D418E83781BD0955626E08894CE59>
-	<_A4944DE5790FA35052620CA4837B32AD Name="UserInterfaceGameScreenSequenceStep" Size="78">
+	<_A4944DE5790FA35052620CA4837B32AD Name="UserInterfaceGameScreenSequenceStep" Alt="AC1BF258FD6D9A45" Size="78">
 		<_F Name="flags" Offset="0" StructName1="i343::NetProtocol::Set&lt;i343::NetProtocol::GameOptions::ScreenSequenceStepFlags&gt;">
 			<Flag n="show loadout menu" />
 			<Flag n="loadout menu close ends sequence" />
@@ -83,8 +83,8 @@
 		<_14 Name="startTime" Offset="70" />
 		<_14 Name="endTime" Offset="74" />
 	</_A4944DE5790FA35052620CA4837B32AD>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

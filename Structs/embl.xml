@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:04 PM" Name="emblem" Parents="aTag" Index="-126">
-	<_3DE31FFA345F6ADAAAD15D4612EE6F32 Name="i343::EmblemDefinitions::Emblem" Size="60">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="emblem" Parents="aTag" Index="-126">
+	<_3DE31FFA345F6ADAAAD15D4612EE6F32 Name="i343::EmblemDefinitions::Emblem" Alt="7580A28B6439CAF6" Size="60">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Child Emblem Tags" Offset="10" GUID="927EF1002BFC63CAB2CF0F2530EA9C8F" StructName1="i343::EmblemDefinitions::Emblem" Min="0" Max="1024" />
 		<_40 Name="Emblems" Offset="24" GUID="E55F2C8A52AA0F44E0FA59C93D71A1B0" StructName1="i343::EmblemDefinitions::Emblem" Min="0" Max="8192" />
 		<_40 Name="Shaders" Offset="38" GUID="343FA91C618286522BE5141D0AB84E6F" StructName1="i343::EmblemDefinitions::Emblem" Min="0" Max="256" />
 		<_40 Name="Coatings" Offset="4C" GUID="9AE3DF8A351FAD41E4FA63D112EE19F4" StructName1="i343::EmblemDefinitions::Emblem" Min="0" Max="4096" />
 	</_3DE31FFA345F6ADAAAD15D4612EE6F32>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_927EF1002BFC63CAB2CF0F2530EA9C8F Name="i343::EmblemDefinitions::EmblemChild" Size="1C">
+	<_927EF1002BFC63CAB2CF0F2530EA9C8F Name="i343::EmblemDefinitions::EmblemChild" Alt="C2432D5D74147209" Size="1C">
 		<_41 Name="Emblem" Offset="0" Allowed="embl" Flags="0" />
 	</_927EF1002BFC63CAB2CF0F2530EA9C8F>
-	<_E55F2C8A52AA0F44E0FA59C93D71A1B0 Name="i343::EmblemDefinitions::EmblemSVG" Size="5C">
+	<_E55F2C8A52AA0F44E0FA59C93D71A1B0 Name="i343::EmblemDefinitions::EmblemSVG" Alt="1FC879EF994783FF" Size="5C">
 		<_2 Name="Name" Offset="0" />
 		<_41 Name="SVG" Offset="4" Allowed="svg*" Flags="9" />
 		<_41 Name="SVG Geometry" Offset="20" Allowed="aset" Flags="9" />
 		<_41 Name="SVGOutput" Offset="3C" Allowed="vart" Flags="4" />
 		<_14 Name="Pixel Tolerance for de-duplication" Offset="58" />
 	</_E55F2C8A52AA0F44E0FA59C93D71A1B0>
-	<_343FA91C618286522BE5141D0AB84E6F Name="i343::EmblemDefinitions::EmblemShader" Size="20">
+	<_343FA91C618286522BE5141D0AB84E6F Name="i343::EmblemDefinitions::EmblemShader" Alt="BE6DBAD43527BF23" Size="20">
 		<_2 Name="Name" Offset="0" />
 		<_41 Name="Shader" Offset="4" Allowed="shdr" Flags="0" />
 	</_343FA91C618286522BE5141D0AB84E6F>
-	<_9AE3DF8A351FAD41E4FA63D112EE19F4 Name="i343::EmblemDefinitions::EmblemCoating" Size="28">
+	<_9AE3DF8A351FAD41E4FA63D112EE19F4 Name="i343::EmblemDefinitions::EmblemCoating" Alt="B845AD7E9834071" Size="28">
 		<_2 Name="Name" Offset="0" />
 		<_2E Name="Shader" Offset="4" GUID="343FA91C618286522BE5141D0AB84E6F" StructName1="i343::EmblemDefinitions::EmblemCoating" Min="0" Max="256" />
 		<_34 Name="generated_pad0e9c" Offset="6" Length="2" />
 		<_1F Name="Text Color" Offset="8" />
 		<_40 Name="Swatches" Offset="14" GUID="927EE1002BFC53CAB1CF0F2530EF9C8F" StructName1="i343::EmblemDefinitions::EmblemCoating" Min="0" Max="256" />
 	</_9AE3DF8A351FAD41E4FA63D112EE19F4>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_927EE1002BFC53CAB1CF0F2530EF9C8F Name="i343::EmblemDefinitions::EmblemCoatingSwatch" Size="34">
+	<_927EE1002BFC53CAB1CF0F2530EF9C8F Name="i343::EmblemDefinitions::EmblemCoatingSwatch" Alt="7CABECD6AEE7B357" Size="34">
 		<_41 Name="Swatch" Offset="0" Allowed="mwsw" Flags="0" />
 		<_2 Name="Color" Offset="1C" />
 		<_A Name="Roughness" Offset="20" StructName1="MaterialRoughnessOverride">

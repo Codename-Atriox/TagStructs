@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:13 PM" Name="NavPointAnimationDefinition" Parents="aTag" Index="-270">
-	<_6E064A759CDB91A35E9822DA932D2983 Name="Interface::NavPoint::NavPointAnimationDefinition" Size="1C0">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="NavPointAnimationDefinition" Parents="aTag" Index="-270">
+	<_6E064A759CDB91A35E9822DA932D2983 Name="Interface::NavPoint::NavPointAnimationDefinition" Alt="811276175C83A3D" Size="1C0">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_C Name="loop type" Offset="10" StructName1="Interface::NavPoint::eLooping">
 			<Flag n="LoopForward" />
@@ -39,15 +39,15 @@
 		<_38 Name="yaw sprite" Offset="19C" GUID="2A884CD9B72D9F5B1B8F3F328E8C9160" />
 		<_34 Name="generated_pada240" Offset="1BC" Length="4" />
 	</_6E064A759CDB91A35E9822DA932D2983>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Size="18">
+	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_2A884CD9B72D9F5B1B8F3F328E8C9160 Name="Interface::NavPoint::SpriteKeyframe" Size="20">
+	<_2A884CD9B72D9F5B1B8F3F328E8C9160 Name="Interface::NavPoint::SpriteKeyframe" Alt="31CF929960898177" Size="20">
 		<_D Name="flags" Offset="0" StructName1="Interface::NavPoint::SpriteKeyframeFlags">
 			<Flag n="SequenceIndexValid" />
 			<Flag n="WidthValid" />
@@ -127,7 +127,7 @@
 		<_1F Name="color" Offset="10" />
 		<_14 Name="alpha" Offset="1C" />
 	</_2A884CD9B72D9F5B1B8F3F328E8C9160>
-	<_4AD64E660436D649858016C191B83398 Name="Interface::NavPoint::TwoColorKeyframe" Size="28">
+	<_4AD64E660436D649858016C191B83398 Name="Interface::NavPoint::TwoColorKeyframe" Alt="9D31432CA8A0DC45" Size="28">
 		<_D Name="flags" Offset="0" StructName1="Interface::NavPoint::TwoColorKeyframeFlags">
 			<Flag n="WidthValid" />
 			<Flag n="HeightValid" />
@@ -140,7 +140,7 @@
 		<_1F Name="right color" Offset="18" />
 		<_14 Name="alpha" Offset="24" />
 	</_4AD64E660436D649858016C191B83398>
-	<_42C94E159B2A901DD32AB04983BAA47A Name="Interface::NavPoint::Keyframe" Size="1C">
+	<_42C94E159B2A901DD32AB04983BAA47A Name="Interface::NavPoint::Keyframe" Alt="3DEF862046F20A8" Size="1C">
 		<_D Name="flags" Offset="0" StructName1="Interface::NavPoint::KeyframeFlags">
 			<Flag n="WidthValid" />
 			<Flag n="HeightValid" />
@@ -151,13 +151,13 @@
 		<_1F Name="color" Offset="C" />
 		<_14 Name="alpha" Offset="18" />
 	</_42C94E159B2A901DD32AB04983BAA47A>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Size="18">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

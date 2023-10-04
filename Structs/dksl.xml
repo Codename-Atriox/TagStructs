@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:01 PM" Name="DarkRoomShotList" Parents="aTag" Index="-107">
-	<_88FF4FB6F12F7418C23114A08A75C3A9 Name="i343::DarkRoom::ShotListDefinition" Size="30">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="DarkRoomShotList" Parents="aTag" Index="-107">
+	<_88FF4FB6F12F7418C23114A08A75C3A9 Name="i343::DarkRoom::ShotListDefinition" Alt="62AC1C91E08605DD" Size="30">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Shot List" Offset="10" GUID="4CA94A12C186900315749BF9A3FA1843" StructName1="i343::DarkRoom::ShotListDefinition" Min="0" Max="32" />
 		<_D Name="Screenshot Flags" Offset="24" StructName1="i343::DarkRoom::ShotListFlags">
@@ -10,14 +10,14 @@
 		<_14 Name="Shot Pause Time" Offset="28" />
 		<_34 Name="generated_pad702b" Offset="2C" Length="4" />
 	</_88FF4FB6F12F7418C23114A08A75C3A9>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_4CA94A12C186900315749BF9A3FA1843 Name="i343::DarkRoom::AssemblyReferenceDefinition" Size="1C">
+	<_4CA94A12C186900315749BF9A3FA1843 Name="i343::DarkRoom::AssemblyReferenceDefinition" Alt="F12E1098A93AFFB7" Size="1C">
 		<_41 Name="Assembly" Offset="0" Allowed="dkam" Flags="0" />
 	</_4CA94A12C186900315749BF9A3FA1843>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>

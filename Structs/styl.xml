@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:17 PM" Name="style" Parents="aTag" Index="-411" C="ai">
-	<_455644C8AC59B7DE8B74CD549268F008 Name="style_definition" Size="A0">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="style" Parents="aTag" Index="-411" C="ai">
+	<_455644C8AC59B7DE8B74CD549268F008 Name="style_definition" Alt="DB23D01DE7FCDB0D" Size="A0">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_0 Name="name" Offset="10" />
 		<_36 Name="Combat status decay options" Offset="30" />
@@ -416,11 +416,11 @@
 		<_40 Name="Special movement" Offset="78" GUID="E49D42AB5AF312958B6B49C3A49A9DBC" StructName1="style_definition" Min="0" Max="1" />
 		<_40 Name="Behavior list" Offset="8C" GUID="71BE41353B1809CC42358E50A509EB0E" StructName1="style_definition" Min="0" Max="512" />
 	</_455644C8AC59B7DE8B74CD549268F008>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_E49D42AB5AF312958B6B49C3A49A9DBC Name="special_movement_definition" Size="4">
+	<_E49D42AB5AF312958B6B49C3A49A9DBC Name="special_movement_definition" Alt="DBE494383DA82E9B" Size="4">
 		<_D Name="Special movement 1" Offset="0" StructName1="SpecialMovementFlags">
 			<Flag n="jump link" />
 			<Flag n="force walk link" />
@@ -429,11 +429,11 @@
 			<Flag n="crouch link" />
 		</_D>
 	</_E49D42AB5AF312958B6B49C3A49A9DBC>
-	<_71BE41353B1809CC42358E50A509EB0E Name="style_behavior_name" Size="20">
+	<_71BE41353B1809CC42358E50A509EB0E Name="style_behavior_name" Alt="E6E9A3766FCA28DB" Size="20">
 		<_0 Name="behavior name" Offset="0" />
 	</_71BE41353B1809CC42358E50A509EB0E>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

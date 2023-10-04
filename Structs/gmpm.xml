@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:07 PM" Name="GenericModifierDefinitionTag" Parents="aTag" Index="-195">
-	<_F6354F284158FA076BADBC5190668140 Name="i343::MalleableProperty::GenericModifierDefinitionTag" Size="50">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="GenericModifierDefinitionTag" Parents="aTag" Index="-195">
+	<_F6354F284158FA076BADBC5190668140 Name="i343::MalleableProperty::GenericModifierDefinitionTag" Alt="4C0B79C78307FAF3" Size="50">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="modifiers" Offset="10" GUID="035647FFBDB8BC9598A9F76E8740AEE6" />
 		<_34 Name="generated_pad3c2c" Offset="4C" Length="4" />
 	</_F6354F284158FA076BADBC5190668140>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_035647FFBDB8BC9598A9F76E8740AEE6 Name="i343::MalleableProperty::GenericModifierDefinitionBlock" Size="3C">
+	<_035647FFBDB8BC9598A9F76E8740AEE6 Name="i343::MalleableProperty::GenericModifierDefinitionBlock" Alt="55F67A56BFB41221" Size="3C">
 		<_40 Name="modifiers float" Offset="0" GUID="3A0B4710C3CFF96C7AF4A9D4928D8F7F" StructName1="i343::MalleableProperty::GenericModifierDefinitionBlock" Min="0" Max="32" />
 		<_40 Name="modifiers int" Offset="14" GUID="C7034331C6FFE4BD6B7FF63FBA22F506" StructName1="i343::MalleableProperty::GenericModifierDefinitionBlock" Min="0" Max="32" />
 		<_40 Name="modifiers bool" Offset="28" GUID="6D304D21E157ED276EF127FBA4666BDC" StructName1="i343::MalleableProperty::GenericModifierDefinitionBlock" Min="0" Max="32" />
 	</_035647FFBDB8BC9598A9F76E8740AEE6>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_3A0B4710C3CFF96C7AF4A9D4928D8F7F Name="i343::MalleableProperty::GenericModifierDefinitionFloatParam" Size="10">
+	<_3A0B4710C3CFF96C7AF4A9D4928D8F7F Name="i343::MalleableProperty::GenericModifierDefinitionFloatParam" Alt="AEC97A64A5980120" Size="10">
 		<_38 Name="modifier float" Offset="0" GUID="1BBC4F1C7C092E8A277F152885F9418C" />
 	</_3A0B4710C3CFF96C7AF4A9D4928D8F7F>
-	<_C7034331C6FFE4BD6B7FF63FBA22F506 Name="i343::MalleableProperty::GenericModifierDefinitionIntParam" Size="10">
+	<_C7034331C6FFE4BD6B7FF63FBA22F506 Name="i343::MalleableProperty::GenericModifierDefinitionIntParam" Alt="CD5D73E383AE184A" Size="10">
 		<_38 Name="modifier int" Offset="0" GUID="504F42E8C3A8A762276B906F92E5300B" />
 	</_C7034331C6FFE4BD6B7FF63FBA22F506>
-	<_6D304D21E157ED276EF127FBA4666BDC Name="i343::MalleableProperty::GenericModifierDefinitionBoolParam" Size="10">
+	<_6D304D21E157ED276EF127FBA4666BDC Name="i343::MalleableProperty::GenericModifierDefinitionBoolParam" Alt="C5D4051CB3D447B" Size="10">
 		<_38 Name="modifier bool" Offset="0" GUID="37604954271F35FFC9AA43CCA51B8763" />
 	</_6D304D21E157ED276EF127FBA4666BDC>
-	<_1BBC4F1C7C092E8A277F152885F9418C Name="i343::MalleableProperty::GenericModifierDefinitionFloat" Size="10">
+	<_1BBC4F1C7C092E8A277F152885F9418C Name="i343::MalleableProperty::GenericModifierDefinitionFloat" Alt="8486EA307F59CFEB" Size="10">
 		<_2 Name="property" Offset="0" />
 		<_A Name="scope" Offset="4" StructName1="i343::MalleableProperty::ScopeEnum">
 			<Flag n="global" />
@@ -40,7 +40,7 @@
 		<_14 Name="duration" Offset="8" />
 		<_14 Name="modifier" Offset="C" />
 	</_1BBC4F1C7C092E8A277F152885F9418C>
-	<_504F42E8C3A8A762276B906F92E5300B Name="i343::MalleableProperty::GenericModifierDefinitionInt" Size="10">
+	<_504F42E8C3A8A762276B906F92E5300B Name="i343::MalleableProperty::GenericModifierDefinitionInt" Alt="68F29775E537F999" Size="10">
 		<_2 Name="property" Offset="0" />
 		<_A Name="scope" Offset="4" StructName1="i343::MalleableProperty::ScopeEnum">
 			<Flag n="global" />
@@ -53,7 +53,7 @@
 		<_14 Name="duration" Offset="8" />
 		<_6 Name="modifier" Offset="C" />
 	</_504F42E8C3A8A762276B906F92E5300B>
-	<_37604954271F35FFC9AA43CCA51B8763 Name="i343::MalleableProperty::GenericModifierDefinitionBool" Size="10">
+	<_37604954271F35FFC9AA43CCA51B8763 Name="i343::MalleableProperty::GenericModifierDefinitionBool" Alt="DB303764007EAFA8" Size="10">
 		<_2 Name="property" Offset="0" />
 		<_A Name="scope" Offset="4" StructName1="i343::MalleableProperty::ScopeEnum">
 			<Flag n="global" />

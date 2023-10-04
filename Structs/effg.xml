@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:04 PM" Name="effect_globals" Parents="aTag" Index="-120">
-	<_03B84418A7E2A2044797476FA6A9A385 Name="EffectGlobalsDefinition" Size="70">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="effect_globals" Parents="aTag" Index="-120">
+	<_03B84418A7E2A2044797476FA6A9A385 Name="EffectGlobalsDefinition" Alt="32CEB9EE1ECC6A4E" Size="70">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="grunt birthday effect" Offset="10" Allowed="effe" Flags="0" />
 		<_41 Name="material effects globals" Offset="2C" Allowed="mfxg" Flags="0" />
@@ -8,18 +8,18 @@
 		<_40 Name="multiplayer" Offset="48" GUID="178A4ED643548FDCC0B02BBE88EA2BD1" StructName1="EffectGlobalsDefinition" Min="0" Max="1" />
 		<_40 Name="campaign" Offset="5C" GUID="178A4ED643548FDCC0B02BBE88EA2BD1" StructName1="EffectGlobalsDefinition" Min="0" Max="1" />
 	</_03B84418A7E2A2044797476FA6A9A385>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_178A4ED643548FDCC0B02BBE88EA2BD1 Name="GlobalSpawnEffects" Size="70">
+	<_178A4ED643548FDCC0B02BBE88EA2BD1 Name="GlobalSpawnEffects" Alt="67DFD4D8FB81EE2B" Size="70">
 		<_41 Name="biped spawn effect" Offset="0" Allowed="effe" Flags="0" />
 		<_41 Name="vehicle spawn effect" Offset="1C" Allowed="effe" Flags="0" />
 		<_41 Name="weapon spawn effect" Offset="38" Allowed="effe" Flags="0" />
 		<_41 Name="first person player spawn effect" Offset="54" Allowed="effe" Flags="0" />
 	</_178A4ED643548FDCC0B02BBE88EA2BD1>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="20/09/2023 -&gt; 5:50:05 PM" Name="wpf_font_set" Parents="aTag" Index="-152">
-	<_2FB540E9954BE8262EE4DF8E968D78EF Name="WPFFontSetDefinition" Size="28">
+<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="wpf_font_set" Parents="aTag" Index="-152">
+	<_2FB540E9954BE8262EE4DF8E968D78EF Name="WPFFontSetDefinition" Alt="5EE195AE575BDDD0" Size="28">
 		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="font references" Offset="10" GUID="BFC34183BFCEC7C460E804BE94781D24" StructName1="WPFFontSetDefinition" Min="0" Max="512" />
 		<_34 Name="generated_padab5f" Offset="24" Length="4" />
 	</_2FB540E9954BE8262EE4DF8E968D78EF>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Size="10">
-		<_7 Name="" type="nuke" Offset="0" />
-		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="vtable space" type="nuke" Offset="0" />
+		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_BFC34183BFCEC7C460E804BE94781D24 Name="WPFFontSetReferencesDefinition" Size="2C">
+	<_BFC34183BFCEC7C460E804BE94781D24 Name="WPFFontSetReferencesDefinition" Alt="FEB9E69F03A69362" Size="2C">
 		<_41 Name="font" Offset="0" Allowed="font" Flags="0" />
 		<_D Name="WPF All Languages" Offset="1C" StructName1="WPFFontSetReferencesDefinition::AllLanagugesEnabled">
 			<Flag n="All" />
@@ -58,8 +58,8 @@
 			<Flag n="Brazilian-Portuguese" />
 		</_D>
 	</_BFC34183BFCEC7C460E804BE94781D24>
-	<_181F479C151D014633BC439086EC7039 Name="" Size="8">
-		<_6 Name="" Offset="0" />
-		<_34 Name="" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="global tag ID" Offset="0" />
+		<_34 Name="local tag handle" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>
