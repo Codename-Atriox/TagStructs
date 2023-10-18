@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="ExportedEncounterBehaviorTreeDefinition" Parents="aTag" Index="-117">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="ExportedEncounterBehaviorTreeDefinition" Parents="aTag" Index="-117">
 	<_8B75444C365B48E2E74A9F3EB48CC8E7 Name="ExportedEBTDefinition" Alt="E223660FE246566E" Size="180">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Source Graph" Offset="10" Allowed="ebtc" Flags="0" />
 		<_40 Name="Links" Offset="2C" GUID="4C6D49EF82E880A8B8C4ECEB80BD3EC0" StructName1="ExportedEBTDefinition" Min="0" Max="128" />
 		<_40 Name="Root Nodes" Offset="40" GUID="46D043F811B58758E2F9284D95AB1411" StructName1="ExportedEBTDefinition" Min="0" Max="1" />
@@ -21,9 +21,9 @@
 		<_40 Name="Trigger Volume Nodes" Offset="158" GUID="4E134988F96E94228B3B61CFB03B9AF2" StructName1="ExportedEBTDefinition" Min="0" Max="16" />
 		<_40 Name="Min Relevance Nodes" Offset="16C" GUID="EEC741AA9021AE618391354A9A26E03E" StructName1="ExportedEBTDefinition" Min="0" Max="16" />
 	</_8B75444C365B48E2E74A9F3EB48CC8E7>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_4C6D49EF82E880A8B8C4ECEB80BD3EC0 Name="EBTNodeLink" Alt="ACF66B6679FF1038" Size="10">
 		<_38 Name="Source Node Identifier" Offset="0" GUID="8628413344FE7AE82374BE9A8E869BAC" />
@@ -172,9 +172,9 @@
 		</_A>
 		<_34 Name="generated_pad8fa2" Offset="3" Length="1" />
 	</_EEC741AA9021AE618391354A9A26E03E>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_8628413344FE7AE82374BE9A8E869BAC Name="EBTNodeIdentifier" Alt="BF6CDFF4CEAA9241" Size="8">
 		<_A Name="Type" Offset="0" StructName1="EBTNodeType">

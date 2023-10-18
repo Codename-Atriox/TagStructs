@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="InterfaceGlobalsDefinition" Parents="aTag" Index="-187">
-	<_8416403BEAFE1C1BF70A27D0AAF2BB8D Name="i343::InterfaceGlobals" Alt="D8C01CE4E980C6FD" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="InterfaceGlobalsDefinition" Parents="aTag" Index="-187">
+	<_8416403BEAFE1C1BF70A27D0AAF2BB8D Name="i343::InterfaceGlobals" Alt="E1725EE4F9525B9E" Size="28">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="interface tags" Offset="10" GUID="27264DFBEAFCBD42928B0D3C9C2624C1" StructName1="i343::InterfaceGlobals" Min="0" Max="1" />
 		<_34 Name="generated_padaaba" Offset="24" Length="4" />
 	</_8416403BEAFE1C1BF70A27D0AAF2BB8D>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_27264DFBEAFCBD42928B0D3C9C2624C1 Name="s_game_globals_interface_tag_references" Alt="B5139C94323373BF" Size="320">
+	<_27264DFBEAFCBD42928B0D3C9C2624C1 Name="s_game_globals_interface_tag_references" Alt="1551362D5AA7E916" Size="33C">
 		<_36 Name="Mode-Specific Tags" Offset="0" />
 		<_41 Name="shared globals" Offset="0" Allowed="wigl" Flags="0" />
 		<_41 Name="mainmenu ui globals" Offset="1C" Allowed="wgtz" Flags="4" />
@@ -36,19 +36,20 @@
 		<_41 Name="Inspect Customization" Offset="200" Allowed="obcu" Flags="0" />
 		<_41 Name="Inspect Player Customization" Offset="21C" Allowed="obcu" Flags="0" />
 		<_41 Name="PGCR" Offset="238" Allowed="obcu" Flags="0" />
-		<_41 Name="RTT Forward Fast Lighting Presets" Offset="254" Allowed="fafl" Flags="0" />
-		<_40 Name="RTT Camera Scenes" Offset="270" GUID="D797AD11C73BBDC8CAB2188BCC81A4C1" StructName1="s_game_globals_interface_tag_references" Min="0" Max="256" />
-		<_40 Name="Composer Scenes" Offset="284" GUID="3A954FCF126C3FF3AE7B2F239070185D" StructName1="s_game_globals_interface_tag_references" Min="0" Max="256" />
-		<_40 Name="Landing Scene Data" Offset="298" GUID="7479476F8EA615B2F57699F38D8CB2F7" StructName1="s_game_globals_interface_tag_references" Min="0" Max="1" />
-		<_40 Name="CoreType order" Offset="2AC" GUID="1A1047E06D9BBA67A95F1331A4665079" StructName1="s_game_globals_interface_tag_references" Min="0" Max="19" />
-		<_40 Name="MythicFx Composer Names" Offset="2C0" GUID="D3D14DEBA19A9629357ED22C926B9C5D" StructName1="s_game_globals_interface_tag_references" Min="0" Max="32" />
-		<_40 Name="Weapon Death Composer Names" Offset="2D4" GUID="D3D14DEBA19A9629357ED22C926B9C5D" StructName1="s_game_globals_interface_tag_references" Min="0" Max="32" />
-		<_41 Name="Inspect Data" Offset="2E8" Allowed="uiin" Flags="0" />
-		<_41 Name="Season Data" Offset="304" Allowed="uisd" Flags="0" />
+		<_41 Name="MainMenu" Offset="254" Allowed="obcu" Flags="0" />
+		<_41 Name="RTT Forward Fast Lighting Presets" Offset="270" Allowed="fafl" Flags="0" />
+		<_40 Name="RTT Camera Scenes" Offset="28C" GUID="D797AD11C73BBDC8CAB2188BCC81A4C1" StructName1="s_game_globals_interface_tag_references" Min="0" Max="256" />
+		<_40 Name="Composer Scenes" Offset="2A0" GUID="3A954FCF126C3FF3AE7B2F239070185D" StructName1="s_game_globals_interface_tag_references" Min="0" Max="256" />
+		<_40 Name="Landing Scene Data" Offset="2B4" GUID="7479476F8EA615B2F57699F38D8CB2F7" StructName1="s_game_globals_interface_tag_references" Min="0" Max="1" />
+		<_40 Name="CoreType order" Offset="2C8" GUID="1A1047E06D9BBA67A95F1331A4665079" StructName1="s_game_globals_interface_tag_references" Min="0" Max="19" />
+		<_40 Name="MythicFx Composer Names" Offset="2DC" GUID="D3D14DEBA19A9629357ED22C926B9C5D" StructName1="s_game_globals_interface_tag_references" Min="0" Max="32" />
+		<_40 Name="Weapon Death Composer Names" Offset="2F0" GUID="D3D14DEBA19A9629357ED22C926B9C5D" StructName1="s_game_globals_interface_tag_references" Min="0" Max="32" />
+		<_41 Name="Inspect Data" Offset="304" Allowed="uiin" Flags="0" />
+		<_41 Name="Season Data" Offset="320" Allowed="uisd" Flags="0" />
 	</_27264DFBEAFCBD42928B0D3C9C2624C1>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_D797AD11C73BBDC8CAB2188BCC81A4C1 Name="Interface::Customization::UIRTTRegionData" Alt="A80750E2356F507E" Size="74">
 		<_2 Name="UI Display String" Offset="0" />

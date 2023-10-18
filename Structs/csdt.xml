@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="camera_shake" Parents="aTag" Index="-84">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="camera_shake" Parents="aTag" Index="-84">
 	<_7C1249A585B81D32A7052723863CDDB2 Name="s_camera_shake_definition" Alt="D557EBCF7136FA5C" Size="98">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="camera impulse" Offset="10" />
 		<_38 Name="camera impulse" Offset="10" GUID="22484F82E55AD1CCE60B4CDFAAEE9A87" />
 		<_36 Name="camera shake" Offset="3C" />
@@ -63,7 +63,7 @@
 	</_181F479C151D014633BC439086EC7039>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

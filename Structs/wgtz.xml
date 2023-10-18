@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:58 PM" Name="user_interface_globals_definition" Parents="aTag" Index="-479">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="user_interface_globals_definition" Parents="aTag" Index="-478">
 	<_C3CE4535FF5E470331D62CBEBBBF413E Name="s_user_interface_tag_globals" Alt="3B371F045FC58B50" Size="1D0">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Screen Widgets" Offset="10" />
 		<_40 Name="node graphs" Offset="10" GUID="3A4D430D064AE50C78664370816BD9C4" StructName1="s_user_interface_tag_globals" Min="0" Max="256" />
 		<_40 Name="bitmap dictionaries" Offset="24" GUID="D3C94148CD4A6B7F45C7C7F08708E91E" StructName1="s_user_interface_tag_globals" Min="0" Max="256" />
@@ -29,9 +29,9 @@
 		<_41 Name="In-Game Map Settings Tag" Offset="1B0" Allowed="maps" Flags="0" />
 		<_34 Name="generated_pad86bd" Offset="1CC" Length="4" />
 	</_C3CE4535FF5E470331D62CBEBBBF413E>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_3A4D430D064AE50C78664370816BD9C4 Name="NodeGraphReferenceBlockDefinition" Alt="6213BA2C43530F4E" Size="1C">
 		<_41 Name="node graph tag" Offset="0" Allowed="ngst" Flags="0" />
@@ -83,8 +83,8 @@
 		<_14 Name="startTime" Offset="70" />
 		<_14 Name="endTime" Offset="74" />
 	</_A4944DE5790FA35052620CA4837B32AD>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

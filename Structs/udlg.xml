@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="dialogue" Parents="aTag" Index="-442">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="dialogue" Parents="aTag" Index="-442">
 	<_E8A4480CAA0A2CFC20BCFEF8AFF53536 Name="s_dialogue_definition" Alt="8226AE505B849BA2" Size="38">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_D Name="flags" Offset="10" StructName1="DialogueFlags">
 			<Flag n="female" />
 		</_D>
@@ -10,9 +10,9 @@
 		<_34 Name="generated_pada3f0" Offset="2C" Length="4" />
 		<_7 Name="vocalizationLookUp" Offset="30" />
 	</_E8A4480CAA0A2CFC20BCFEF8AFF53536>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_AF5143486751BC8068DB8F16886AF0F0 Name="s_vocalization_sound" Alt="59AEF81221014BF5" Size="1C">
 		<_2 Name="vocalization" Offset="0" />
@@ -22,9 +22,9 @@
 		<_34 Name="generated_pad3ad5" Offset="6" Length="2" />
 		<_40 Name="stimuli" type="grid" Offset="8" GUID="E73C4EE88EA8B87CB6EF9EC68C95D4FE" StructName1="s_vocalization_sound" Min="0" Max="6" />
 	</_AF5143486751BC8068DB8F16886AF0F0>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_E73C4EE88EA8B87CB6EF9EC68C95D4FE Name="s_vocalization_stimulus" Alt="E021207F23B52871" Size="24">
 		<_E Name="flags" Offset="0" StructName1="c_dialog_definition_stimulus_flags">

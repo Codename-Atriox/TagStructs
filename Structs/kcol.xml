@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="KitCollection" Parents="aTag" Index="-222">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:16 PM" Name="KitCollection" Parents="aTag" Index="-222">
 	<_7C7F537F83BB45844CF4880B5F3DF715 Name="KitCollectionTag" Alt="8C3A9085577F9DB7" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Kits" Offset="10" GUID="CFFEEAF577DF1E15FD22FF2C42CE272F" StructName1="KitCollectionTag" Min="0" Max="4096" />
 		<_34 Name="generated_pad5f56" Offset="24" Length="4" />
 	</_7C7F537F83BB45844CF4880B5F3DF715>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_CFFEEAF577DF1E15FD22FF2C42CE272F Name="KitCollectionEntry" Alt="595A5E9C8EE61867" Size="1C">
 		<_41 Name="Kit" Offset="0" Allowed="kit!" Flags="1" />
 	</_CFFEEAF577DF1E15FD22FF2C42CE272F>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

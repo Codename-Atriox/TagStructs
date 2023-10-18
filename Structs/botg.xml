@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="BotGlobalsTag" Parents="aTag" Index="-45">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="BotGlobalsTag" Parents="aTag" Index="-45">
 	<_2BA29914A3EBB8D82E6CCC29816C2719 Name="BotGlobals" Alt="7F2EC9506C48C968" Size="60">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="Bot Backfill" Offset="10" GUID="22C95E80A0E0D79F1F1B18A853E1EBD3" />
 		<_40 Name="Difficulty Specific Tuning" Offset="20" GUID="32EA6D23D5EFDCE91D6ABC10815A1621" StructName1="BotGlobals" Min="0" Max="10" />
 		<_40 Name="Approved Bot Equipment" Offset="34" GUID="1DC24E76BA18E2F571100C80AF8EA634" StructName1="BotGlobals" Min="0" Max="64" />

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="chroma_definition" Parents="aTag" Index="-58">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="chroma_definition" Parents="aTag" Index="-58">
 	<_AFA68F879E102D2AB56E860EA362A40D Name="ChromaAnimationsDefinition" Alt="C8D64DE69209ED1C" Size="A60">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_39 Name="event animations" Offset="10" GUID="7A8F73A68DA6F974CEE833B0D7E18E87" Count="15" StructName1="event animations" />
 	</_AFA68F879E102D2AB56E860EA362A40D>
 	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">

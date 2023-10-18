@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="animglobals" Parents="aTag" Index="-19">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="animglobals" Parents="aTag" Index="-19">
 	<_CC0D4F85692C95BFC010D26AAA379FFE Name="AnimGlobals" Alt="405B4ED8C5955F33" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Physics Unsafe Object Functions" Offset="10" GUID="229546C573DF59B2446D769FB716F17E" StructName1="AnimGlobals" Min="0" Max="2048" />
 		<_34 Name="generated_pad2e3d" Offset="24" Length="4" />
 	</_CC0D4F85692C95BFC010D26AAA379FFE>

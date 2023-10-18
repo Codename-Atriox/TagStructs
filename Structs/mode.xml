@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="render_model" Parents="aTag" Index="-256">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="render_model" Parents="aTag" Index="-256">
 	<_07F94EB669FF7DC3BBF9621CA4788DFF Name="render_model_definition" Alt="5D5052DF88D87DD7" Size="298">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="name" Offset="10" />
 		<_E Name="flags" Offset="14" StructName1="RenderModelFlags">
 			<Flag n="is hologram" />
@@ -47,9 +47,9 @@
 		<_34 Name="generated_pad21f3" Offset="28C" Length="4" />
 		<_7 Name="m_instanceGroupPipelineStateCache" Offset="290" />
 	</_07F94EB669FF7DC3BBF9621CA4788DFF>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_B76B42D75F23BC111DEE5813A38C6C46 Name="region" Name2="render_model_region" Alt="EED968F6FE7B8705" Size="18">
 		<_2 Name="name" Offset="0" />
@@ -273,9 +273,9 @@
 		</_F>
 		<_34 Name="generated_pad67cc" Offset="1E" Length="2" />
 	</_8BADC0F61C6CF51AF0653C2A07DB8082>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_064B40BE7900DDE2878B35EB8F806330 Name="permutation" Name2="render_model_permutation" Alt="7BAB54E2F3FD5851" Size="C">
 		<_2 Name="name" Offset="0" />

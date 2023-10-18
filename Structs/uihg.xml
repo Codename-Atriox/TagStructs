@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="user_interface_hud_globals_definition" Parents="aTag" Index="-445">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="user_interface_hud_globals_definition" Parents="aTag" Index="-445">
 	<_2C16428726873A9CDBD13CFCA3863666 Name="UserInterfaceHUDGlobalsDefinitions" Alt="60DE67BAC889B780" Size="230">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="Motion Sensor" type="fgrb" Offset="10" />
 		<_36 Name="Motion sensor globals" Offset="10" />
 		<_F Name="flags" Offset="10" StructName1="HUDMotionSensorGlobals::HUDMotionSensorGlobalsFlags">
@@ -116,9 +116,9 @@
 		<_37 Name="" type="fgre" Offset="22C" />
 		<_34 Name="generated_pad28bd" Offset="22C" Length="4" />
 	</_2C16428726873A9CDBD13CFCA3863666>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_A6FF42D42B3A1AE4D49AD4BA8BC40BBA Name="NavPointSetTagReference" Alt="F9B1913859FAE153" Size="1C">
 		<_41 Name="reference" Offset="0" Allowed="nvps" Flags="0" />
@@ -174,8 +174,8 @@
 		</_F>
 		<_34 Name="generated_pad4665" Offset="21" Length="3" />
 	</_9EF54C79CB32F419544E15A29A2D5824>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

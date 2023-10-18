@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="particle" Parents="aTag" Index="-325" C="fx\particles">
-	<_9F9E4A9D9ED6237651E76D259DE72B9D Name="c_particle_definition_tag" Alt="20C1AC26A35D0999" Size="E0">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="particle" Parents="aTag" Index="-325" C="fx\particles">
+	<_9F9E4A9D9ED6237651E76D259DE72B9D Name="c_particle_definition_tag" Alt="75EB0A54C573C158" Size="E0">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_D Name="appearance flags" Offset="10" StructName1="c_particle_definition::ParticleAppearanceFlags">
 			<Flag n="double-sided" />
 			<Flag n="disable depth test" />
@@ -21,11 +21,11 @@
 		<_34 Name="generated_pad8af4" Offset="D4" Length="4" />
 		<_7 Name="m_pipelineStates" Offset="D8" />
 	</_9F9E4A9D9ED6237651E76D259DE72B9D>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_3C15440613810D23A7F03D07AA769459 Name="Material" Alt="6D63A11458EFC4E4" Size="64">
+	<_3C15440613810D23A7F03D07AA769459 Name="Material" Alt="2035327946DE6B51" Size="64">
 		<_41 Name="material shader" Offset="0" Allowed="shdr, shdv, mat , ngfc" Flags="0" />
 		<_40 Name="material parameters" Offset="1C" GUID="739A40ED1B41042F195BD40DADDD1564" StructName1="Material" Min="0" Max="1335" />
 		<_40 Name="postprocess definition" Offset="30" GUID="C85241C01D50D0C3CE98F3A39E5B9057" StructName1="Material" Min="0" Max="1" />
@@ -134,9 +134,9 @@
 	<_9725493B62F911D60608FC7B8FFDB178 Name="ParticleDefinitionGpuData" Alt="94F5C048CEA85D37" Size="14">
 		<_40 Name="runtime m_sprite" Offset="0" GUID="95844863821F9C907AB8E8DD9425371D" StructName1="ParticleDefinitionGpuData" Min="0" Max="1" />
 	</_9725493B62F911D60608FC7B8FFDB178>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_739A40ED1B41042F195BD40DADDD1564 Name="ShaderParameter" Alt="8E22A7BF343174EC" Size="9C">
 		<_2 Name="parameter name" Offset="0" />
@@ -183,7 +183,7 @@
 		<_3C Name="bitmap extern index" Offset="98" />
 		<_34 Name="generated_pad50da" Offset="99" Length="3" />
 	</_739A40ED1B41042F195BD40DADDD1564>
-	<_C85241C01D50D0C3CE98F3A39E5B9057 Name="MaterialPostprocessDefinition" Alt="4E47845713C3C20A" Size="A0">
+	<_C85241C01D50D0C3CE98F3A39E5B9057 Name="MaterialPostprocessDefinition" Alt="F4E1371F8736D451" Size="A0">
 		<_40 Name="textures" Offset="0" GUID="3CD64BE1CD9812EC0BBCA596B33BFE48" StructName1="MaterialPostprocessDefinition" Min="0" Max="32" />
 		<_6 Name="textures to clear" Offset="14" />
 		<_40 Name="functions" Offset="18" GUID="F54D44725471F0E39A007BEDAD55A516" StructName1="MaterialPostprocessDefinition" Min="0" Max="267" />
@@ -361,7 +361,7 @@
 	</_58564257A2794AE97319E3F2A6A57292>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

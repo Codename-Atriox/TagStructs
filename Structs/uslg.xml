@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="stringList" Parents="aTag" Index="-456">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="stringList" Parents="aTag" Index="-455">
 	<_5329CD749FC93C5206D4895098257C52 Name="UnicodeStringListGroup" Alt="33001C30E509DD30" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="import - directory" type="tcwd" Offset="10" Float1="1.831937E+25" Max="0" Min="0" Float4="0" />
 		<_37 Name="import - single file" type="ctcd" Offset="10" Float1="0" Max="0" Min="0" Float4="0" />
 		<_40 Name="language references" Offset="10" GUID="B873A40F70A597AEC11A813BA35936B0" StructName1="UnicodeStringListGroup" Min="0" Max="18" />
 		<_34 Name="generated_pad95a9" Offset="24" Length="4" />
 	</_5329CD749FC93C5206D4895098257C52>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_B873A40F70A597AEC11A813BA35936B0 Name="LanguageReference" Alt="13269F34AEB90A23" Size="14">
 		<_C Name="language" Offset="0" StructName1="e_language">
@@ -34,9 +34,9 @@
 		</_C>
 		<_43 Name="string list resource" Offset="4" StructName1="UnicodeStringListResource" Int1="0" GUID="45706B3B582737CA49DE40659030D637" />
 	</_B873A40F70A597AEC11A813BA35936B0>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_45706B3B582737CA49DE40659030D637 Name="UnicodeStringListResource" Alt="B8FC7524B2B0F551" Size="40">
 		<_40 Name="string lookup info" Offset="0" GUID="672B17D5FDD644EEBCDB40D14523CABA" StructName1="UnicodeStringListResource" Min="0" Max="2048" />

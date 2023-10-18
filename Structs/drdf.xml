@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="damage_response_definition" Parents="aTag" Index="-109">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="damage_response_definition" Parents="aTag" Index="-109">
 	<_81F9487594C849C254CD47EF8B4DD2B0 Name="s_damage_response_definition" Alt="2A201F2012A44A14" Size="38">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="classes" Offset="10" GUID="E7E44E9F4B0239EBA660F69B9A3C8635" StructName1="s_damage_response_definition" Min="0" Max="2" />
 		<_40 Name="area control" type="slap" Offset="24" GUID="26384F67865D9C15E28A73DE8F336B17" StructName1="s_damage_response_definition" Min="0" Max="1" />
 	</_81F9487594C849C254CD47EF8B4DD2B0>
@@ -109,7 +109,7 @@
 	</_F93C46573D2F4F4107413F8EA70770A2>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

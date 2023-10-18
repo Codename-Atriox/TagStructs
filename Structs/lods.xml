@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="lodsettings" Parents="aTag" Index="-238">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:16 PM" Name="lodsettings" Parents="aTag" Index="-238">
 	<_330344F53E50AA6C1F606C1F8615C50A Name="LODSettingsTag" Alt="2F2EEC5E520AF325" Size="38">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Settings" Offset="10" GUID="A40A4E7D347466C3FA90AC8695555C86" StructName1="LODSettingsTag" Min="0" Max="4096" />
 		<_40 Name="Transitions" Offset="24" GUID="760E4CBA84E9D29BACE38EA4AF8F3552" StructName1="LODSettingsTag" Min="0" Max="4096" />
 	</_330344F53E50AA6C1F606C1F8615C50A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_A40A4E7D347466C3FA90AC8695555C86 Name="LODSettings" Alt="9E5095C60E666452" Size="20">
 		<_2 Name="Name" Offset="0" />
@@ -17,9 +17,9 @@
 		<_14 Name="Reference bounding sphere radius" Offset="0" />
 		<_40 Name="Screen space LOD reduction" Offset="4" GUID="A40A3E7D347463C3FA30AC8695355C86" StructName1="LODTransitions" Min="0" Max="256" />
 	</_760E4CBA84E9D29BACE38EA4AF8F3552>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_A40A3E7D347463C3FA30AC8695355C86 Name="LODSettingsTransitionDistanceParam" Alt="F65CC8635F6EAFDA" Size="4">
 		<_14 Name="Screen Space size" Offset="0" />

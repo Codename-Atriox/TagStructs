@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="UIObjectCustomization" Parents="aTag" Index="-283">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="UIObjectCustomization" Parents="aTag" Index="-283">
 	<_7BF54496EE64450AC516E23187B14FEA Name="Interface::Customization::UIObjectCustomizationDataTag" Alt="46AD05C2BA79CCAB" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Customization Data" Offset="10" GUID="A4B94A390BA15BC6027E0A3A84204BF1" StructName1="Interface::Customization::UIObjectCustomizationDataTag" Min="0" Max="1" />
 		<_34 Name="generated_pad77ac" Offset="24" Length="4" />
 	</_7BF54496EE64450AC516E23187B14FEA>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_A4B94A390BA15BC6027E0A3A84204BF1 Name="Interface::Customization::UIObjectCustomizationData" Alt="C37B69E50C1B7FE8" Size="F4">
 		<_0 Name="Camera Point" Offset="0" />
@@ -35,9 +35,9 @@
 		<_40 Name="Inspect" Offset="CC" GUID="C4B14AC89A082271A4F058069A17D5B3" StructName1="Interface::Customization::UIObjectCustomizationData" Min="0" Max="19" />
 		<_40 Name="Battle Pass Reward" Offset="E0" GUID="C4B14AC89A082271A4F058069A17D5B3" StructName1="Interface::Customization::UIObjectCustomizationData" Min="0" Max="19" />
 	</_A4B94A390BA15BC6027E0A3A84204BF1>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_9E70442C611268F2A7EE1EE1B385532A Name="Interface::Customization::UICameraSettings" Alt="2DE373F2B4F66747" Size="2C">
 		<_B Name="Core Focus Mode" Offset="0" StructName1="Interface::Customization::CoreFocusMode">

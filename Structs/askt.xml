@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="animation_skeleton" Parents="aTag" Index="-27">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="animation_skeleton" Parents="aTag" Index="-27">
 	<_EDA94B56B90D53822F169BD488C7EE6D Name="animation_skeleton" Alt="90E0B832176A68E2" Size="108">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="skeleton" Offset="10" GUID="A1C14C0FF8D51E5947473E49937F3EB8" />
 		<_38 Name="ik" Offset="78" GUID="F4D540A557E6624B421EFA46A53BEC0C" />
 		<_34 Name="generated_pad26fa" Offset="104" Length="4" />

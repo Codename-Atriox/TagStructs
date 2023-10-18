@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="cheap_particle_type_library" Parents="aTag" Index="-82">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="cheap_particle_type_library" Parents="aTag" Index="-82">
 	<_F13747142BCDE64DAD124FCF8A6A9EB7 Name="CheapParticleTypeLibrary" Alt="14C2039BC4859D56" Size="C0">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="compile" type="ctcd" Offset="10" Float1="0" Max="0" Min="0" Float4="0" />
 		<_40 Name="types" Offset="10" GUID="4EE149C23268D5F7E9900147AF15C140" StructName1="CheapParticleTypeLibrary" Min="0" Max="255" />
 		<_40 Name="textures" Offset="24" GUID="0FA04C2C6F5DFB08A52DBEBAB051184D" StructName1="CheapParticleTypeLibrary" Min="0" Max="63" />

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="bsp_lighting_volumes" Parents="aTag" Index="-41">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="bsp_lighting_volumes" Parents="aTag" Index="-41">
 	<_23224FD7B2942B3BE676C04591C5505C Name="BspLightingVolumes" Alt="C39118F088408190" Size="38">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Air Probe Region Volumes" Offset="10" GUID="B9424FA0531729E8F4ED722496548BDF" StructName1="BspLightingVolumes" Min="0" Max="1048576" />
 		<_40 Name="Cubemap Volumes" Offset="24" GUID="D1CE481ABA187D43BE71513CBC6C9C8B" StructName1="BspLightingVolumes" Min="0" Max="1048576" />
 	</_23224FD7B2942B3BE676C04591C5505C>

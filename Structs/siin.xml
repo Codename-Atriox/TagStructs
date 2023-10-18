@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="simulation_interpolation" Parents="aTag" Index="-379" C="globals\simulation_interpolation">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="simulation_interpolation" Parents="aTag" Index="-379" C="globals\simulation_interpolation">
 	<_5C3B4A322FACCEF0349A3F4A8DF1C551 Name="s_simulation_interpolation_definition" Alt="D9FD0CE7FE885C0B" Size="150">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="SIMULATION INTERPOLATION" Offset="10" />
 		<_37 Name="High level settings" type="fgrb" Offset="10" />
 		<_14 Name="position_client_ignore_tolerance" Offset="10" />
@@ -31,9 +31,9 @@
 		<_37 Name="" type="fgre" Offset="14C" />
 		<_34 Name="generated_padaa60" Offset="14C" Length="4" />
 	</_5C3B4A322FACCEF0349A3F4A8DF1C551>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_782542A7E844485C3EC8A1C7B852650A Name="s_simulation_single_domain_interpolation_configuration" Alt="7785314706F3295D" Size="3C">
 		<_36 Name="SINGLE DOMAIN INTERPOLATION" Offset="0" />
@@ -47,9 +47,9 @@
 		<_38 Name="blending" Offset="24" GUID="65AB4EBE47E921D4224410B18A71EF41" />
 		<_37 Name="" type="fgre" Offset="3C" />
 	</_782542A7E844485C3EC8A1C7B852650A>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_4AC44923E01ED32B8598722BA38213D0 Name="s_simulation_single_domain_velocity_bumps_configuration" Alt="3965B47245934B99" Size="18">
 		<_36 Name="SINGLE DOMAIN VELOCITY BUMPS" Offset="0" />

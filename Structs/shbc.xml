@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="shader_bytecode" Parents="aTag" Index="-368">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="shader_bytecode" Parents="aTag" Index="-368">
 	<_D0FF4560788326B0C497F3C2A248E93A Name="ShaderBytecode" Alt="6F6BF3282FE036C9" Size="50">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_42 Name="shaderBytecodeData" Offset="10" StructName1="ShaderBytecode.shaderBytecodeData" Int1="8" Int2="0" Flags="1400000" />
 		<_40 Name="IA parameters" Offset="28" GUID="73CF452D2490DE4A659CA6D0B78A784B" StructName1="ShaderBytecode" Min="0" Max="32" />
 		<_34 Name="generated_padbcac" Offset="3C" Length="4" />
@@ -10,16 +10,16 @@
 		<_3D Name="instruction count" Offset="4C" />
 		<_3D Name="texture reads" Offset="4E" />
 	</_D0FF4560788326B0C497F3C2A248E93A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_73CF452D2490DE4A659CA6D0B78A784B Name="ShaderInputAssemblyParameter" Alt="8ACBAAB6B0A2ACD3" Size="22">
 		<_0 Name="semantic name" Offset="0" />
 		<_3D Name="semantic index" Offset="20" />
 	</_73CF452D2490DE4A659CA6D0B78A784B>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

@@ -1,32 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="musketeer_toe_definition_tag" Parents="aTag" Index="-261">
-	<_F6DA48BF4B154B7D78A5FA698A5AC8BB Name="MusketeerTOEDefinition" Alt="374075B582CEDE6E" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="musketeer_toe_definition_tag" Parents="aTag" Index="-261">
+	<_F6DA48BF4B154B7D78A5FA698A5AC8BB Name="MusketeerTOEDefinition" Alt="79E1E7B698E0E1D2" Size="28">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Musketeer Teams" Offset="10" GUID="C6FC4AD66A244837FCA036AFA4B7BD72" StructName1="MusketeerTOEDefinition" Min="0" Max="32" />
 		<_34 Name="generated_pad4122" Offset="24" Length="4" />
 	</_F6DA48BF4B154B7D78A5FA698A5AC8BB>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_C6FC4AD66A244837FCA036AFA4B7BD72 Name="MusketeerTeamDefinition" Alt="6F21912FA99BCD8B" Size="28">
+	<_C6FC4AD66A244837FCA036AFA4B7BD72 Name="MusketeerTeamDefinition" Alt="3D0D83BEBCC5851B" Size="28">
 		<_40 Name="Musketeer" Offset="0" GUID="D75D41AFACC36AAE3F765CCE8D769CD2" StructName1="MusketeerTeamDefinition" Min="0" Max="32" />
 		<_40 Name="Difficulty Tunings" Offset="14" GUID="7B6C49A4CCA1607FCDC4B42FBDBF24F0" StructName1="MusketeerTeamDefinition" Min="0" Max="1" />
 	</_C6FC4AD66A244837FCA036AFA4B7BD72>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_D75D41AFACC36AAE3F765CCE8D769CD2 Name="MusketeerDefinition" Alt="57313A7CB1267087" Size="1C">
 		<_41 Name="character" Offset="0" Allowed="char" Flags="0" />
 	</_D75D41AFACC36AAE3F765CCE8D769CD2>
-	<_7B6C49A4CCA1607FCDC4B42FBDBF24F0 Name="i343::Musketeer::Difficulty::Tunings" Alt="1FEEB49AF6B0D253" Size="1C">
+	<_7B6C49A4CCA1607FCDC4B42FBDBF24F0 Name="i343::Musketeer::Difficulty::Tunings" Alt="A18545E961ECCF59" Size="1C">
 		<_40 Name="Tuning Sets" Offset="0" GUID="0C3C4003E07B541D6762EAA589013817" StructName1="i343::Musketeer::Difficulty::Tunings" Min="0" Max="10" />
 		<_36 Name="clamps" Offset="14" />
 		<_14 Name="minimum value for starting accuracy" Offset="14" />
 		<_14 Name="minimum value for ending accuracy" Offset="18" />
 	</_7B6C49A4CCA1607FCDC4B42FBDBF24F0>
-	<_0C3C4003E07B541D6762EAA589013817 Name="i343::Musketeer::Difficulty::TuningSet" Alt="1B018900498B766B" Size="18C">
+	<_0C3C4003E07B541D6762EAA589013817 Name="i343::Musketeer::Difficulty::TuningSet" Alt="B31BBD37BC7C5BEE" Size="19C">
 		<_C Name="Type" Offset="0" StructName1="i343::Musketeer::Difficulty::TuningSetType">
 			<Flag n="Target visible to any player" />
 			<Flag n="Actor gunning for any player" />
@@ -133,16 +133,20 @@
 		<_36 Name="grenade tokens" Offset="164" />
 		<_14 Name="SCALE max grenade tokens" Offset="164" />
 		<_14 Name="MIN max grenade tokens" Offset="168" />
-		<_14 Name="SCALE grenade token cooldown" Offset="16C" />
-		<_14 Name="MIN grenade token cooldown" Offset="170" />
-		<_36 Name="effectiveness tokens" Offset="174" />
-		<_14 Name="SCALE max effectiveness tokens" Offset="174" />
-		<_14 Name="MIN max effectiveness tokens" Offset="178" />
-		<_36 Name="weapon fidget" Offset="17C" />
-		<_14 Name="SCALE weapon fidget chance per second" Offset="17C" />
-		<_14 Name="MIN weapon fidget chance per second" Offset="180" />
-		<_36 Name="Damage Scaling" Offset="184" />
-		<_14 Name="SCALE Damage received from enemy AI" Offset="184" />
-		<_14 Name="MIN Damage received from enemy AI" Offset="188" />
+		<_14 Name="SCALE min grenade tokens" Offset="16C" />
+		<_14 Name="MIN min grenade tokens" Offset="170" />
+		<_14 Name="SCALE grenade token threshold" Offset="174" />
+		<_14 Name="MIN grenade token threshold" Offset="178" />
+		<_14 Name="SCALE grenade token cooldown" Offset="17C" />
+		<_14 Name="MIN grenade token cooldown" Offset="180" />
+		<_36 Name="effectiveness tokens" Offset="184" />
+		<_14 Name="SCALE max effectiveness tokens" Offset="184" />
+		<_14 Name="MIN max effectiveness tokens" Offset="188" />
+		<_36 Name="weapon fidget" Offset="18C" />
+		<_14 Name="SCALE weapon fidget chance per second" Offset="18C" />
+		<_14 Name="MIN weapon fidget chance per second" Offset="190" />
+		<_36 Name="Damage Scaling" Offset="194" />
+		<_14 Name="SCALE Damage received from enemy AI" Offset="194" />
+		<_14 Name="MIN Damage received from enemy AI" Offset="198" />
 	</_0C3C4003E07B541D6762EAA589013817>
 </root>

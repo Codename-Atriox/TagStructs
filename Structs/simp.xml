@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="simplygonsettings" Parents="aTag" Index="-380">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="simplygonsettings" Parents="aTag" Index="-380">
 	<_2701269A4819DD0BF30E6C6CF0985C2C Name="SimplygonSettingsTag" Alt="107407124CAFE02F" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_C Name="Allow DirectX" Offset="10" StructName1="SimplygonAllowDirectXEnum">
 			<Flag n="Default" />
 			<Flag n="Hardware" />
@@ -9,9 +9,9 @@
 		</_C>
 		<_40 Name="Per LOD settings" Offset="14" GUID="D687DB34BED46F709384115FBACAD494" StructName1="SimplygonSettingsTag" Min="0" Max="16" />
 	</_2701269A4819DD0BF30E6C6CF0985C2C>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_D687DB34BED46F709384115FBACAD494 Name="LODLevelSettings" Alt="285EA652AD5858A" Size="8C">
 		<_C Name="Cascade Geometry" Offset="0" StructName1="SimplygonSettingsEnum">
@@ -190,8 +190,8 @@
 		<_14 Name="T junction removal distance" Offset="88" />
 		<_37 Name="" type="fgre" Offset="8C" />
 	</_D687DB34BED46F709384115FBACAD494>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

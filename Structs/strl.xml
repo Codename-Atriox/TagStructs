@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="structure_lights" Parents="aTag" Index="-409">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="structure_lights" Parents="aTag" Index="-409">
 	<_28349DEFB390DCD9109D8CB8ABC938C9 Name="StructureLights" Alt="D9C010C4CE977617" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="generic light definitions" Offset="10" GUID="815E40845CAD7A73B6D14D02BEC019F8" StructName1="StructureLights" Min="0" Max="1048576" />
 		<_34 Name="generated_pad4470" Offset="24" Length="4" />
 	</_28349DEFB390DCD9109D8CB8ABC938C9>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_815E40845CAD7A73B6D14D02BEC019F8 Name="StructureLightDefinition" Alt="887388815A9D8939" Size="2A8">
 		<_6 Name="guid" Offset="0" />
@@ -27,9 +27,9 @@
 		<_30 Name="editor folder" type="ugly" Offset="2A0" GUID="9A5741CB0B9D6A599F085A3DA1D7A5D1" StructName1="StructureLightDefinition" Min="0" Max="1048576" />
 		<_2 Name="module id" Offset="2A4" />
 	</_815E40845CAD7A73B6D14D02BEC019F8>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_E0004613C74B158EE1E69DA7893D65F6 Name="LightDefinition" Alt="C1F39845AD3A49FA" Size="248">
 		<_36 Name="Dynamic/Static Shared Light Parameters" Offset="0" />
@@ -247,7 +247,7 @@
 	</_9A3E4FF2915AE3F75AE8EF15892E317F>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 	<_2FE7429C4EE726FBB489F288B4DD8A95 Name="s_bool_property" Alt="3B4DC23A76A6F144" Size="101">

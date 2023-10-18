@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="AnimFrameEvents" Parents="aTag" Index="-136">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="AnimFrameEvents" Parents="aTag" Index="-136">
 	<_8216450231A9DF353526B9878286C9F1 Name="AnimationFrameEventList" Alt="1BE04B4A006CAE43" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Animations" Offset="10" GUID="FA5B4D397C0262331E8153A1909C6EDF" StructName1="AnimationFrameEventList" Min="0" Max="8192" />
 		<_34 Name="generated_padfeff" Offset="24" Length="4" />
 	</_8216450231A9DF353526B9878286C9F1>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_FA5B4D397C0262331E8153A1909C6EDF Name="AnimFrameEvents" Alt="B95A3C883072C0AB" Size="30">
 		<_2 Name="Name" Offset="0" />
@@ -15,9 +15,9 @@
 		<_40 Name="Frame events" Offset="8" GUID="2BC8424EF967DB3F0A770D6A9F4E37B3" StructName1="AnimFrameEvents" Min="0" Max="512" />
 		<_40 Name="Functions" Offset="1C" GUID="281B41E969A3A216954B24669C1722A9" StructName1="AnimFrameEvents" Min="0" Max="255" />
 	</_FA5B4D397C0262331E8153A1909C6EDF>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_2BC8424EF967DB3F0A770D6A9F4E37B3 Name="AnimFrameEvent" Alt="5061ECAD47241337" Size="8">
 		<_5 Name="Frame" Offset="0" />

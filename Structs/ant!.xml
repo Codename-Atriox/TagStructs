@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="antenna" Parents="aTag" Index="-23">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="antenna" Parents="aTag" Index="-23">
 	<_EF274B86B3BE1D39E030C9EE866479C8 Name="antenna_definition" Alt="AAFD31187280ABED" Size="80">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="attachment marker name" Offset="10" />
 		<_41 Name="bitmaps" Offset="14" Allowed="bitm" Flags="0" />
 		<_41 Name="physics" Offset="30" Allowed="pphy" Flags="0" />

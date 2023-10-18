@@ -1,26 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="lighting_settings" Parents="aTag" Index="-2">
-	<_841249828D0DD7BD5C526209805ADDDB Name="LightingSettings" Alt="C3F2BD690CB655AD" Size="CA0">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:12 PM" Name="lighting_settings" Parents="aTag" Index="-2">
+	<_841249828D0DD7BD5C526209805ADDDB Name="LightingSettings" Alt="6C54F5D8AB1F7EB" Size="C98">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_6 Name="Version" Offset="10" />
-		<_37 Name="GLOBAL QUALITY SETTINGS" type="fgrb" Offset="14" />
-		<_38 Name="Global lightmapper settings" Offset="14" GUID="E3064186A69EDA5BD06C222594E282A7" />
-		<_37 Name="" type="fgre" Offset="18" />
-		<_37 Name="RUNTIME SETTINGS" type="fgrb" Offset="18" />
-		<_38 Name="Runtime settings" Offset="18" GUID="88345A162838474E52EED8D592A64AA7" />
-		<_37 Name="" type="fgre" Offset="C54" />
-		<_38 Name="Indirect irradiance probe settings" Offset="C54" GUID="27BD468ECFBDCFEA672CEAB1851BEB00" />
-		<_34 Name="generated_pad54e9" Offset="C9C" Length="4" />
+		<_37 Name="RUNTIME SETTINGS" type="fgrb" Offset="14" />
+		<_38 Name="Runtime settings" Offset="14" GUID="88345A162838474E52EED8D592A64AA7" />
+		<_37 Name="" type="fgre" Offset="C50" />
+		<_38 Name="Indirect irradiance probe settings" Offset="C50" GUID="27BD468ECFBDCFEA672CEAB1851BEB00" />
 	</_841249828D0DD7BD5C526209805ADDDB>
 	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_E3064186A69EDA5BD06C222594E282A7 Name="LightingSettingsGlobal" Alt="A7CC473821DF8B24" Size="4">
-		<_D Name="Global flags" Offset="0" StructName1="c_lightmap_global_flags">
-			<Flag n="Is Farm Burn" />
-		</_D>
-	</_E3064186A69EDA5BD06C222594E282A7>
 	<_88345A162838474E52EED8D592A64AA7 Name="LightingSettingsRuntime" Alt="6F64E49DA27E717D" Size="C3C">
 		<_38 Name="visual environment" Offset="0" GUID="EF6EA54D9BFB6E4D55839E9759B8D3C1" />
 		<_37 Name="Cubemaps" type="fgrb" Offset="50" />

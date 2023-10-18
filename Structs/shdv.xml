@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="shadervariant" Parents="aTag" Index="-373" C="shaders">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="shadervariant" Parents="aTag" Index="-373" C="shaders">
 	<_27A64A516BD417082830A68884411692 Name="ShaderVariant" Alt="13985130D92C4B98" Size="A8">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_D Name="flags" Offset="10" StructName1="ShaderFlags">
 			<Flag n="is_distortion" />
 			<Flag n="is_decal" />
@@ -53,9 +53,9 @@
 		<_34 Name="pad" Offset="A0" Length="4" />
 		<_34 Name="generated_pad60a3" Offset="A4" Length="4" />
 	</_27A64A516BD417082830A68884411692>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_3ACB4DB2BBCFC76C17D58BCE8FBBFBFF Name="ShaderGroup" Alt="625ACEAF3E9A0EBE" Size="48">
 		<_40 Name="shaders" Offset="0" GUID="D14F4AEA88D70D3A26D703418C0017E3" StructName1="ShaderGroup" Min="0" Max="255" />
@@ -117,9 +117,9 @@
 	<_A88440717CB844E0C95259049078EE82 Name="ShaderGPUPropertyName" Alt="2F13BAA46245D007" Size="4">
 		<_2 Name="name" Offset="0" />
 	</_A88440717CB844E0C95259049078EE82>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_D14F4AEA88D70D3A26D703418C0017E3 Name="ShaderReference" Alt="43EB8AED9753DBF2" Size="1C">
 		<_41 Name="shader bytecode" Offset="0" Allowed="shbc" Flags="2" />
@@ -152,7 +152,7 @@
 	</_F54D44725471F0E39A007BEDAD55A516>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

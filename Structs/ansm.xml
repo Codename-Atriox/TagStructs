@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="XAnimStateGraph" Parents="aTag" Index="-22">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="XAnimStateGraph" Parents="aTag" Index="-22">
 	<_9D04479D7340606B6EB76B348C492820 Name="AnimStateGraph" Alt="92D406AE0E65DC3C" Size="B0">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Source Graph" Offset="10" Allowed="asct" Flags="1" />
 		<_40 Name="Anim Node Subgraphs" Offset="2C" GUID="97634F3D6C666E05AD23FE6BBC70A7CD" StructName1="AnimStateGraph" Min="0" Max="2048" />
 		<_40 Name="Transition Logic Subgraphs" Offset="40" GUID="FFD54AFAD8961A486692E1B59BD9963D" StructName1="AnimStateGraph" Min="0" Max="2048" />

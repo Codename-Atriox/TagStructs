@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="character" Parents="aTag" Index="-57" C="objects\characters">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="character" Parents="aTag" Index="-57" C="objects\characters">
 	<_831E43A2CE98F60C2D0DA2E297556737 Name="character_definition" Alt="921F44D5DE1BC1CD" Size="8C8">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_D Name="Character flags" Offset="10" StructName1="CharacterFlags">
 			<Flag n="Flag1" />
 			<Flag n="Disable Velocity/Throttle Alignment" />
@@ -1838,7 +1838,7 @@
 	</_3DF54E170179C04A232E950C82454233>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 	<_BBD048D72171E4A2A65A559880519BC3 Name="s_active_camo_perception_properties" Alt="63403EF0564B0CF6" Size="10">

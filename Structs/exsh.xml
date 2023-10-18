@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="explicitshader" Parents="aTag" Index="-129">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="explicitshader" Parents="aTag" Index="-129">
 	<_3D50460AB5D67205262CA4F3890992CC Name="ExplicitShader" Alt="D7929DE132DF15D9" Size="48">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="shader" Offset="10" Allowed="mat , shdr" Flags="2" />
 		<_6 Name="explicit shader index" Offset="2C" />
 		<_F Name="explicit shader flags" Offset="30" StructName1="ExplicitShaderFlags">
@@ -13,12 +13,12 @@
 		<_3E Name="countPSOs" type="nuke" Offset="40" />
 		<_34 Name="generated_padab78" Offset="44" Length="4" />
 	</_3D50460AB5D67205262CA4F3890992CC>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

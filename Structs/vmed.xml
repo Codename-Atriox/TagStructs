@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:58 PM" Name="VisualMaterialEffectsDefinition" Parents="aTag" Index="-464">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="VisualMaterialEffectsDefinition" Parents="aTag" Index="-463">
 	<_7E6442B80EA89D204697EC0AA1201A4A Name="i343::Effects::VisualMaterialEffectsDefinition" Alt="42DCEC3A58D787C4" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="effects" Offset="10" GUID="EF074CB28BD88217ACA68AFDAB3F87AD" StructName1="i343::Effects::VisualMaterialEffectsDefinition" Min="0" Max="34" />
 		<_34 Name="generated_pad4a67" Offset="24" Length="4" />
 	</_7E6442B80EA89D204697EC0AA1201A4A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_EF074CB28BD88217ACA68AFDAB3F87AD Name="i343::Effects::VisualMaterialEffectsBlock" Alt="54B1C6E95AC6D0D5" Size="14">
 		<_40 Name="effects" Offset="0" GUID="945C435C8FCE6765DC8ED8879241DE33" StructName1="i343::Effects::VisualMaterialEffectsBlock" Min="0" Max="500" />
 	</_EF074CB28BD88217ACA68AFDAB3F87AD>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_945C435C8FCE6765DC8ED8879241DE33 Name="s_material_effect_material" Alt="7E408D9D98E2656A" Size="48">
 		<_41 Name="tag (effect or sound)" Offset="0" Allowed="lsnd, snd!, effe" Flags="0" />

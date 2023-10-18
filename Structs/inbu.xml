@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="InputBundle" Parents="aTag" Index="-213">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="InputBundle" Parents="aTag" Index="-213">
 	<_E3E3457DE41C07CED05060938A79C997 Name="InputBundle" Alt="EE1334209864830F" Size="78">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="axes" Offset="10" GUID="A34E46445D08E5F0D92E77A399AE12AC" StructName1="InputBundle" Min="0" Max="127" />
 		<_40 Name="bindings" Offset="24" GUID="F72949A7D0A940174818E9378A47FC2D" StructName1="InputBundle" Min="0" Max="255" />
 		<_40 Name="connections" Offset="38" GUID="567E4D621D4D7DEBA45DF313B3DDF477" StructName1="InputBundle" Min="0" Max="127" />
@@ -9,9 +9,9 @@
 		<_40 Name="constants" Offset="60" GUID="B87A464510CD8C8B236F41D5911A8B7F" StructName1="InputBundle" Min="0" Max="127" />
 		<_34 Name="generated_pad8744" Offset="74" Length="4" />
 	</_E3E3457DE41C07CED05060938A79C997>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_A34E46445D08E5F0D92E77A399AE12AC Name="InputAxis" Alt="72E98EAA275F8698" Size="C">
 		<_2 Name="name" Offset="0" />
@@ -295,9 +295,9 @@
 	<_B87A464510CD8C8B236F41D5911A8B7F Name="InputAxisIndex" Alt="BAC4CE8CD078C498" Size="1">
 		<_3C Name="axisIndex" Offset="0" />
 	</_B87A464510CD8C8B236F41D5911A8B7F>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_1D0241F336904DB84EF2A4E783CA13D9 Name="InputAxisRef" Alt="C1ECB8A2CA84E3B5" Size="24">
 		<_41 Name="bundle" Offset="0" Allowed="inbu" Flags="0" />

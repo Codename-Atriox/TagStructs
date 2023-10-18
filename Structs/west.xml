@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:58 PM" Name="weapon_attachment_sight" Parents="aTag" Index="-475">
-	<_56D54091C683CDDE2B9443628319A778 Name="i343::Weapon::AttachmentSightDefinition" Alt="2926BDEAE480DF0F" Size="280">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="weapon_attachment_sight" Parents="aTag" Index="-474">
+	<_56D54091C683CDDE2B9443628319A778 Name="i343::Weapon::AttachmentSightDefinition" Alt="F1B4312577B2514B" Size="280">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="weapon attachment component" Offset="10" GUID="89184EDE128B8F41C1F5C4D699007385" />
 		<_38 Name="weapon sight component" Offset="128" GUID="260D49F73A53E6DDFCDAFC05B404BE4A" />
 		<_38 Name="weapon zoom" Offset="26C" GUID="01D24BE7FE38D76818CCA99CB0B886DE" />
 	</_56D54091C683CDDE2B9443628319A778>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_89184EDE128B8F41C1F5C4D699007385 Name="i343::Weapon::AttachmentComponentDefinition" Alt="BCCEC8F94CB5FA4C" Size="118">
 		<_37 Name="Weapon Attachment" type="fgrb" Offset="0" />
@@ -75,14 +75,14 @@
 		<_15 Name="ads scope swap transition fraction" Offset="140" />
 		<_37 Name="" type="fgre" Offset="144" />
 	</_260D49F73A53E6DDFCDAFC05B404BE4A>
-	<_01D24BE7FE38D76818CCA99CB0B886DE Name="i343::Weapon::ZoomComponentDefinition" Alt="3334360C4095DE4D" Size="14">
+	<_01D24BE7FE38D76818CCA99CB0B886DE Name="i343::Weapon::ZoomComponentDefinition" Alt="3BD0AF21170A9A94" Size="14">
 		<_37 Name="Weapon Zoom" type="fgrb" Offset="0" />
 		<_40 Name="zoom" Offset="0" GUID="FEC54230350ABDAAB62B96139E17C064" StructName1="i343::Weapon::ZoomComponentDefinition" Min="0" Max="3" />
 		<_37 Name="" type="fgre" Offset="14" />
 	</_01D24BE7FE38D76818CCA99CB0B886DE>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_EB864527F5DE3409AAD17E47A7C2911B Name="i343::Weapon::AttachmentRegionPermutationDefinition" Alt="54731020B62108CD" Size="8">
 		<_2 Name="region name" Offset="0" />
@@ -191,11 +191,12 @@
 		<_37 Name="function" type="fned" Offset="0" />
 		<_38 Name="function" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_0276481E72CB9289F56D7C189467A351>
-	<_FEC54230350ABDAAB62B96139E17C064 Name="i343::Weapon::ZoomLevelDefinition" Alt="D8EE9DB783FC2C75" Size="104">
+	<_FEC54230350ABDAAB62B96139E17C064 Name="i343::Weapon::ZoomLevelDefinition" Alt="5587E56D592C5954" Size="104">
 		<_14 Name="magnification" Offset="0" />
 		<_A Name="magnification profile setting" Offset="4" StructName1="i343::Weapon::ZoomMagnificationProfileSetting">
 			<Flag n="None" />
 			<Flag n="x1_4" />
+			<Flag n="x1_6" />
 			<Flag n="x2_5" />
 			<Flag n="x3_0" />
 			<Flag n="x5_0" />
@@ -244,7 +245,7 @@
 	</_727F437E3853EE60753D9D508599809E>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

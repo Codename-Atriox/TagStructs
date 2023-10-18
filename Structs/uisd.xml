@@ -1,62 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="UISeasonData" Parents="aTag" Index="-447">
-	<_56D34F5E5EFF4F49DBA8EDEAA36032DD Name="Interface::Customization::UISeasonTag" Alt="DCE84D740582DFA2" Size="38">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="UISeasonData" Parents="aTag" Index="-447">
+	<_56D34F5E5EFF4F49DBA8EDEAA36032DD Name="Interface::Customization::UISeasonTag" Alt="C3647D4F91C2859C" Size="38">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Seasons" Offset="10" GUID="87ED46A8697293E1CE573C05A0BEE5A4" StructName1="Interface::Customization::UISeasonTag" Min="0" Max="200" />
 		<_40 Name="Seasonal Event Cinematic Data" Offset="24" GUID="F483459B6A9D906E045CDE6DB7FC199E" StructName1="Interface::Customization::UISeasonTag" Min="0" Max="20" />
 	</_56D34F5E5EFF4F49DBA8EDEAA36032DD>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_87ED46A8697293E1CE573C05A0BEE5A4 Name="Interface::Customization::UISeasonData" Alt="382A752AFCA604FD" Size="274">
+	<_87ED46A8697293E1CE573C05A0BEE5A4 Name="Interface::Customization::UISeasonData" Alt="57AA925FA31D20A8" Size="28">
 		<_6 Name="SeasonNumber" Offset="0" />
-		<_2 Name="SeasonIntroCompositionIdPre" Offset="4" />
-		<_2 Name="SeasonIntroCompositionIdPost" Offset="8" />
-		<_0 Name="Game Recap Cinematic Name" Offset="C" />
-		<_B Name="Game Recap Cinematic Type" Offset="2C" StructName1="Interface::Customization::ProgressionCinematicType">
-			<Flag n="Narrative Sequence" />
-			<Flag n="Composition" />
-		</_B>
-		<_0 Name="Seasonal Pre Cinematic Name" Offset="2E" />
-		<_B Name="Seasonal Pre Cinematic Type" Offset="4E" StructName1="Interface::Customization::ProgressionCinematicType">
-			<Flag n="Narrative Sequence" />
-			<Flag n="Composition" />
-		</_B>
-		<_1 Name="Seasonal Cinematic Map AssetId" Offset="50" />
-		<_1 Name="Seasonal Cinematic Game AssetId" Offset="150" />
-		<_2 Name="LoadingBarStringId" Offset="250" />
-		<_2 Name="Prerendered Composition Name" Offset="254" />
-		<_2 Name="LevelCompositionName" Offset="258" />
-		<_2 Name="Default MP Composition Variant" Offset="25C" />
-		<_40 Name="NarrativeEventData" Offset="260" GUID="F483459B6A9D906E045CDE6DB7FC199E" StructName1="Interface::Customization::UISeasonData" Min="0" Max="20" />
+		<_2 Name="LoadingBarStringId" Offset="4" />
+		<_2 Name="Default MainMenu Variant" Offset="8" />
+		<_2 Name="Default MP Variant" Offset="C" />
+		<_2 Name="Default PGCR Variant" Offset="10" />
+		<_40 Name="OperationData" Offset="14" GUID="F483459B6A9D906E045CDE6DB7FC199E" StructName1="Interface::Customization::UISeasonData" Min="0" Max="20" />
 	</_87ED46A8697293E1CE573C05A0BEE5A4>
-	<_F483459B6A9D906E045CDE6DB7FC199E Name="Interface::Customization::UISeasonEventData" Alt="F138D5B95481A1CC" Size="378">
+	<_F483459B6A9D906E045CDE6DB7FC199E Name="Interface::Customization::UISeasonEventData" Alt="DE87FABAC54580D1" Size="114">
 		<_1 Name="TrackId" Offset="0" />
-		<_0 Name="Seasonal Pre Event Cinematic Name" Offset="100" />
-		<_0 Name="Seasonal Post Event Cinematic Name" Offset="120" />
-		<_2 Name="Seasonal Post Event MP Composition Variant" Offset="140" />
-		<_2 Name="Seasonal Post Event PGCR Composition Variant" Offset="144" />
-		<_1 Name="Seasonal Cinematic Map AssetId" Offset="148" />
-		<_1 Name="Seasonal Cinematic Game AssetId" Offset="248" />
-		<_2 Name="LoadingBarStringIdPre" Offset="348" />
-		<_2 Name="LoadingBarStringIdPost" Offset="34C" />
-		<_40 Name="IntroNarrativeData" Offset="350" GUID="1922451A3B4CD4529E5D348AA0437704" StructName1="Interface::Customization::UISeasonEventData" Min="0" Max="1" />
-		<_40 Name="OutroNarrativeData" Offset="364" GUID="1922451A3B4CD4529E5D348AA0437704" StructName1="Interface::Customization::UISeasonEventData" Min="0" Max="1" />
+		<_2 Name="MainMenu Operation Variant" Offset="100" />
+		<_2 Name="MP Operation Variant" Offset="104" />
+		<_2 Name="PGCR Operation Variant" Offset="108" />
+		<_2 Name="LoadingBarStringIdPre" Offset="10C" />
+		<_2 Name="LoadingBarStringIdPost" Offset="110" />
 	</_F483459B6A9D906E045CDE6DB7FC199E>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_1922451A3B4CD4529E5D348AA0437704 Name="Interface::Customization::UINarrativeData" Alt="EAD27D720B0B0CC4" Size="110">
-		<_2 Name="UICinematicName" Offset="0" />
-		<_2 Name="UICinematicDescription" Offset="4" />
-		<_2 Name="LevelCompositionName" Offset="8" />
-		<_1 Name="Cinematic Name" Offset="C" />
-		<_B Name="Game Recap Cinematic Type" Offset="10C" StructName1="Interface::Customization::ProgressionCinematicType">
-			<Flag n="Narrative Sequence" />
-			<Flag n="Composition" />
-		</_B>
-		<_34 Name="generated_padff7c" Offset="10E" Length="2" />
-	</_1922451A3B4CD4529E5D348AA0437704>
 </root>

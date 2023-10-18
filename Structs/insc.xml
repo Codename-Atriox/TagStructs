@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="InputScope" Parents="aTag" Index="-216">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="InputScope" Parents="aTag" Index="-216">
 	<_C0504F247469E342EA63F26DABAC62CD Name="InputScopeTag" Alt="4E3087EA4D8948FE" Size="50">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="name" type="sted" Offset="10" />
 		<_40 Name="axisEndpoints" Offset="14" GUID="EC23489AD83B2D9783D7D40B95F288F3" StructName1="InputScopeTag" Min="0" Max="256" />
 		<_40 Name="bundleEndpoints" Offset="28" GUID="282C4572E797C59213CF082DB846B584" StructName1="InputScopeTag" Min="0" Max="64" />
 		<_40 Name="modeEndpoints" Offset="3C" GUID="71B74D73E6FC1F9706A526C0970C39B9" StructName1="InputScopeTag" Min="0" Max="64" />
 	</_C0504F247469E342EA63F26DABAC62CD>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_EC23489AD83B2D9783D7D40B95F288F3 Name="InputAxisEndpointSource" Alt="EA784B8D11F97E0C" Size="28">
 		<_2 Name="name" type="sted" Offset="0" />
@@ -23,9 +23,9 @@
 		<_2 Name="name" type="sted" Offset="0" />
 		<_41 Name="mode" Offset="4" Allowed="inmo" Flags="0" />
 	</_71B74D73E6FC1F9706A526C0970C39B9>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_1D0241F336904DB84EF2A4E783CA13D9 Name="InputAxisRef" Alt="C1ECB8A2CA84E3B5" Size="24">
 		<_41 Name="bundle" Offset="0" Allowed="inbu" Flags="0" />

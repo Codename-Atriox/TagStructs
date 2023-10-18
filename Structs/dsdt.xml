@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="dialogue_system_data" Parents="aTag" Index="-112">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="dialogue_system_data" Parents="aTag" Index="-112">
 	<_FD3C46B03C131FA662A3A8ACB3CAFFC1 Name="DialogueSystemDataTag" Alt="9169DB4278196281" Size="78">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="vocalizations" Offset="10" GUID="3EA148E6EFA010A47FA151D5A44C41E0" StructName1="DialogueSystemDataTag" Min="0" Max="4096" />
 		<_40 Name="patterns" Offset="24" GUID="CD6C43A7D957FA41C3ECCB8C9D2BA7B7" StructName1="DialogueSystemDataTag" Min="0" Max="4096" />
 		<_40 Name="pattern type look up data" Offset="38" GUID="169B4D90FCF21C42C4EAC71E98F06443" StructName1="DialogueSystemDataTag" Min="0" Max="523" />

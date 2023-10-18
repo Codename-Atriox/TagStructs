@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="damage" Parents="aTag" Index="-91">
-	<_9CD3480D702CD927326C4CF995C1A838 Name="DamageTag" Alt="73CDED062ECA489D" Size="68">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="damage" Parents="aTag" Index="-91">
+	<_9CD3480D702CD927326C4CF995C1A838 Name="DamageTag" Alt="7F31B1BA303634D3" Size="68">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="Damage Info" Offset="10" GUID="7FD84CFF16B5D328BBF7DDFEB0601A20" />
 		<_40 Name="Model Targets" Offset="54" GUID="8C6141B54D79271FBBDD2210B66A72FD" StructName1="DamageTag" Min="0" Max="32" />
 	</_9CD3480D702CD927326C4CF995C1A838>
@@ -9,7 +9,7 @@
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_7FD84CFF16B5D328BBF7DDFEB0601A20 Name="i343::ContentTags::DamageInfo" Alt="270152A1BA5C4D9A" Size="44">
+	<_7FD84CFF16B5D328BBF7DDFEB0601A20 Name="i343::ContentTags::DamageInfo" Alt="3306ED011BA56672" Size="44">
 		<_14 Name="Body vitality TEMP" Offset="0" />
 		<_37 Name="Max overshield scalar" type="mpfi" Offset="4" />
 		<_38 Name="Max overshield scalar" Offset="4" GUID="DB6340E6F8D8B4A163AE2E8B97EA8CBB" />
@@ -71,7 +71,7 @@
 		<_14 Name="Base Value" Offset="0" />
 		<_25 Name="Value Bounds" Offset="4" />
 	</_DB6340E6F8D8B4A163AE2E8B97EA8CBB>
-	<_F1DB4A04A9B9F894C2A706509EC9125F Name="i343::ContentTags::DamageSection" Alt="9CF1B180FA39DB5C" Size="134">
+	<_F1DB4A04A9B9F894C2A706509EC9125F Name="i343::ContentTags::DamageSection" Alt="593F5DC45F595215" Size="134">
 		<_2 Name="Name" Offset="0" />
 		<_D Name="Flags" Offset="4" StructName1="i343::ContentTags::DamageSectionFlags">
 			<Flag n="Starts inactive" />
@@ -155,7 +155,7 @@
 	<_CCE842FAAA65394A2A2C8F2CA2410C8E Name="i343::ContentTags::SegmentedRechargeFraction" Alt="EB2B946176459F5D" Size="4">
 		<_15 Name="Vitality percentage" Offset="0" />
 	</_CCE842FAAA65394A2A2C8F2CA2410C8E>
-	<_FB7A48F4F2755EC6438ED1E3ADB5158E Name="i343::ContentTags::InstantResponse" Alt="E6F453FD95166217" Size="190">
+	<_FB7A48F4F2755EC6438ED1E3ADB5158E Name="i343::ContentTags::InstantResponse" Alt="32D9499E6EA268B6" Size="1B0">
 		<_2 Name="Label" Offset="0" />
 		<_D Name="Flags" Offset="4" StructName1="i343::ContentTags::DamageResponsePart1Flags">
 			<Flag n="Kills object" />
@@ -208,43 +208,45 @@
 		<_41 Name="Damage effect" Offset="84" Allowed="jpt!" Flags="0" />
 		<_2 Name="Damage effect marker name" Offset="A0" />
 		<_41 Name="Looping effect" Offset="A4" Allowed="effe" Flags="0" />
-		<_37 Name="Contextual Effects" type="fgrb" Offset="C0" />
-		<_36 Name="Contextual Transition Effects" Offset="C0" />
-		<_2 Name="Ray cast marker" Offset="C0" />
-		<_14 Name="Ray cast length" Offset="C4" />
-		<_41 Name="Visual material effects" Offset="C8" Allowed="vmed" Flags="1" />
-		<_41 Name="Sound material effects" Offset="E4" Allowed="smed" Flags="1" />
-		<_41 Name="Fallback effect" Offset="100" Allowed="effe" Flags="0" />
-		<_2 Name="Fallback effect marker" Offset="11C" />
-		<_37 Name="" type="fgre" Offset="120" />
-		<_40 Name="Region transitions" Offset="120" GUID="0E9D4E42D21C95FAB375E72395572B12" StructName1="i343::ContentTags::InstantResponse" Min="0" Max="16" />
-		<_40 Name="Response damage transfers" Offset="134" GUID="4D2B4330F52673C763DE1FB299F5689C" StructName1="i343::ContentTags::InstantResponse" Min="0" Max="32" />
-		<_37 Name="Custom response" type="fgrb" Offset="148" />
-		<_B Name="Custom response behavior" Offset="148" StructName1="i343::ContentTags::DamageResponseCustomResponseBehaviorType">
+		<_41 Name="Generic healing effect" Offset="C0" Allowed="effe" Flags="0" />
+		<_2 Name="Generic healing effect marker name" Offset="DC" />
+		<_37 Name="Contextual Effects" type="fgrb" Offset="E0" />
+		<_36 Name="Contextual Transition Effects" Offset="E0" />
+		<_2 Name="Ray cast marker" Offset="E0" />
+		<_14 Name="Ray cast length" Offset="E4" />
+		<_41 Name="Visual material effects" Offset="E8" Allowed="vmed" Flags="1" />
+		<_41 Name="Sound material effects" Offset="104" Allowed="smed" Flags="1" />
+		<_41 Name="Fallback effect" Offset="120" Allowed="effe" Flags="0" />
+		<_2 Name="Fallback effect marker" Offset="13C" />
+		<_37 Name="" type="fgre" Offset="140" />
+		<_40 Name="Region transitions" Offset="140" GUID="0E9D4E42D21C95FAB375E72395572B12" StructName1="i343::ContentTags::InstantResponse" Min="0" Max="16" />
+		<_40 Name="Response damage transfers" Offset="154" GUID="4D2B4330F52673C763DE1FB299F5689C" StructName1="i343::ContentTags::InstantResponse" Min="0" Max="32" />
+		<_37 Name="Custom response" type="fgrb" Offset="168" />
+		<_B Name="Custom response behavior" Offset="168" StructName1="i343::ContentTags::DamageResponseCustomResponseBehaviorType">
 			<Flag n="Plays always" />
 			<Flag n="Plays if labels match" />
 			<Flag n="Plays if labels differ" />
 		</_B>
-		<_34 Name="generated_paddbdf" Offset="14A" Length="2" />
-		<_2 Name="Custom response label" Offset="14C" />
-		<_14 Name="Response delay" Offset="150" />
-		<_41 Name="Delay effect" Offset="154" Allowed="effe" Flags="0" />
-		<_37 Name="" type="fgre" Offset="170" />
-		<_2 Name="Constraint or group name" type="sted" Offset="170" />
-		<_B Name="Constraint damage type" Offset="174" StructName1="i343::ContentTags::DamageResponseConstraintDamageType">
+		<_34 Name="generated_paddbdf" Offset="16A" Length="2" />
+		<_2 Name="Custom response label" Offset="16C" />
+		<_14 Name="Response delay" Offset="170" />
+		<_41 Name="Delay effect" Offset="174" Allowed="effe" Flags="0" />
+		<_37 Name="" type="fgre" Offset="190" />
+		<_2 Name="Constraint or group name" type="sted" Offset="190" />
+		<_B Name="Constraint damage type" Offset="194" StructName1="i343::ContentTags::DamageResponseConstraintDamageType">
 			<Flag n="none" />
 			<Flag n="Destroy one of group" />
 			<Flag n="Destroy entire group" />
 			<Flag n="Loosen one of group" />
 			<Flag n="Loosen entire group" />
 		</_B>
-		<_34 Name="generated_pad8f2a" Offset="176" Length="2" />
-		<_C Name="AI dialog event" Offset="178" StructName1="i343::ContentTags::DamageResponseAiDialogueEventType">
+		<_34 Name="generated_pad8f2a" Offset="196" Length="2" />
+		<_C Name="AI dialog event" Offset="198" StructName1="i343::ContentTags::DamageResponseAiDialogueEventType">
 			<Flag n="None" />
 			<Flag n="Armor broken" />
 			<Flag n="Vehicle damage state worsens" />
 		</_C>
-		<_40 Name="Ejection seats" Offset="17C" GUID="FB7A48F4438ED1E3ADB5158EF2755EC6" StructName1="i343::ContentTags::InstantResponse" Min="0" Max="8" />
+		<_40 Name="Ejection seats" Offset="19C" GUID="FB7A48F4438ED1E3ADB5158EF2755EC6" StructName1="i343::ContentTags::InstantResponse" Min="0" Max="8" />
 	</_FB7A48F4F2755EC6438ED1E3ADB5158E>
 	<_4D2B4330F52673C763DE1FB299F5689C Name="i343::ContentTags::DamageTransfer" Alt="703BB42D04633077" Size="10">
 		<_D Name="Flags" Offset="0" StructName1="i343::ContentTags::DamageTransferFlags">
@@ -267,7 +269,7 @@
 	</_4D2B4330F52673C763DE1FB299F5689C>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 	<_76B84561BE85C76739A504DEB00FE397 Name="i343::ContentTags::VariantSpecification" Alt="F6C0760C0D0F2E56" Size="4">

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="LowCeilingControlTag" Parents="aTag" Index="-313">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="LowCeilingControlTag" Parents="aTag" Index="-313">
 	<_31974C41397532A9705D33018A330ECC Name="i343::Physics::LowCeilingControlTag" Alt="DE97282EAEFAAE18" Size="20">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="lowceiling" Offset="10" GUID="30D2415B3619359BDB6AEC31A65528D2" />
 	</_31974C41397532A9705D33018A330ECC>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_30D2415B3619359BDB6AEC31A65528D2 Name="i343::Physics::LowCeilingControl" Alt="A13EEBA06F8D0A40" Size="10">
 		<_14 Name="cast length" Offset="0" />
@@ -14,8 +14,8 @@
 		<_15 Name="ceiling normal max z" Offset="8" />
 		<_14 Name="acceleration max" Offset="C" />
 	</_30D2415B3619359BDB6AEC31A65528D2>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

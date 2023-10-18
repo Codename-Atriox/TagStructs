@@ -1,24 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="decal_system" Parents="aTag" Index="-97">
-	<_8CB3411C570BB9317FE4EEE5B0466FBE Name="c_decal_system_definition" Alt="54B441D4E528910" Size="40">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="decal_system" Parents="aTag" Index="-97">
+	<_8CB3411C570BB9317FE4EEE5B0466FBE Name="c_decal_system_definition" Alt="76315FB50839AA34" Size="58">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_D Name="flags" Offset="10" StructName1="c_decal_system_definition::DecalSystemFlags">
 			<Flag n="random rotation" />
 			<Flag n="force planar" />
 		</_D>
 		<_14 Name="material shader fade time" Offset="14" />
-		<_36 Name="Decal bucket sharing" Offset="18" />
-		<_23 Name="random sprite index bounds" Offset="18" />
-		<_40 Name="decals" Offset="1C" GUID="33A44FBF05E5AE1BAC15FDB883F60D66" StructName1="c_decal_system_definition" Min="0" Max="16" />
-		<_14 Name="runtime max radius" Offset="30" />
-		<_34 Name="generated_pad2745" Offset="34" Length="4" />
-		<_7 Name="decalDefinitionConstants" Offset="38" />
+		<_36 Name="alpha fade out curve over time" Offset="18" />
+		<_37 Name="alpha fade out curve over time" type="fned" Offset="18" />
+		<_38 Name="alpha fade out curve over time" Offset="18" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_36 Name="Decal bucket sharing" Offset="30" />
+		<_23 Name="random sprite index bounds" Offset="30" />
+		<_40 Name="decals" Offset="34" GUID="33A44FBF05E5AE1BAC15FDB883F60D66" StructName1="c_decal_system_definition" Min="0" Max="16" />
+		<_14 Name="runtime max radius" Offset="48" />
+		<_34 Name="generated_pad2745" Offset="4C" Length="4" />
+		<_7 Name="decalDefinitionConstants" Offset="50" />
 	</_8CB3411C570BB9317FE4EEE5B0466FBE>
 	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_33A44FBF05E5AE1BAC15FDB883F60D66 Name="c_decal_definition" Alt="119D36761EF4069C" Size="100">
+	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
+		<_37 Name="" type="hide" Offset="0" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
+		<_37 Name="" type="edih" Offset="18" />
+	</_53FA44845A14A98F0AF1459E801068D4>
+	<_33A44FBF05E5AE1BAC15FDB883F60D66 Name="c_decal_definition" Alt="969FD36F12A1E9D" Size="108">
 		<_41 Name="albedo bitmap reference" Offset="0" Allowed="bitm" Flags="0" />
 		<_41 Name="normal bitmap reference" Offset="1C" Allowed="bitm" Flags="0" />
 		<_41 Name="control bitmap reference" Offset="38" Allowed="bitm" Flags="0" />
@@ -33,18 +41,20 @@
 		<_38 Name="actual material?" Offset="78" GUID="3C15440613810D23A7F03D07AA769459" />
 		<_37 Name="" type="edih" Offset="DC" />
 		<_25 Name="radius" Offset="DC" />
-		<_14 Name="clamp angle" Offset="E4" />
-		<_14 Name="cull angle" Offset="E8" />
-		<_14 Name="depth bias" Offset="EC" />
-		<_14 Name="runtime bitmap aspect" Offset="F0" />
-		<_34 Name="generated_padf6b1" Offset="F4" Length="4" />
-		<_7 Name="m_pipelineStates" Offset="F8" />
+		<_14 Name="head on parallax depth" Offset="E4" />
+		<_14 Name="glancing parallax depth" Offset="E8" />
+		<_14 Name="parallax fresnel exponent" Offset="EC" />
+		<_14 Name="clamp angle" Offset="F0" />
+		<_14 Name="cull angle" Offset="F4" />
+		<_14 Name="depth bias" Offset="F8" />
+		<_14 Name="runtime bitmap aspect" Offset="FC" />
+		<_7 Name="m_pipelineStates" Offset="100" />
 	</_33A44FBF05E5AE1BAC15FDB883F60D66>
 	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />
 		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_3C15440613810D23A7F03D07AA769459 Name="Material" Alt="6D63A11458EFC4E4" Size="64">
+	<_3C15440613810D23A7F03D07AA769459 Name="Material" Alt="2035327946DE6B51" Size="64">
 		<_41 Name="material shader" Offset="0" Allowed="shdr, shdv, mat , ngfc" Flags="0" />
 		<_40 Name="material parameters" Offset="1C" GUID="739A40ED1B41042F195BD40DADDD1564" StructName1="Material" Min="0" Max="1335" />
 		<_40 Name="postprocess definition" Offset="30" GUID="C85241C01D50D0C3CE98F3A39E5B9057" StructName1="Material" Min="0" Max="1" />
@@ -195,7 +205,7 @@
 		<_3C Name="bitmap extern index" Offset="98" />
 		<_34 Name="generated_pad50da" Offset="99" Length="3" />
 	</_739A40ED1B41042F195BD40DADDD1564>
-	<_C85241C01D50D0C3CE98F3A39E5B9057 Name="MaterialPostprocessDefinition" Alt="4E47845713C3C20A" Size="A0">
+	<_C85241C01D50D0C3CE98F3A39E5B9057 Name="MaterialPostprocessDefinition" Alt="F4E1371F8736D451" Size="A0">
 		<_40 Name="textures" Offset="0" GUID="3CD64BE1CD9812EC0BBCA596B33BFE48" StructName1="MaterialPostprocessDefinition" Min="0" Max="32" />
 		<_6 Name="textures to clear" Offset="14" />
 		<_40 Name="functions" Offset="18" GUID="F54D44725471F0E39A007BEDAD55A516" StructName1="MaterialPostprocessDefinition" Min="0" Max="267" />
@@ -365,9 +375,4 @@
 		<_34 Name="generated_pad14ce" Offset="2" Length="2" />
 		<_6 Name="thresholdIndex" Offset="4" />
 	</_C15A4E18708F4288F0C55808B38BD440>
-	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
-		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
-		<_37 Name="" type="edih" Offset="18" />
-	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

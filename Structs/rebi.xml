@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="RebindingGlobals" Parents="aTag" Index="-333">
-	<_6A0E4B807682F06EC3ABC781973F81B1 Name="RebindingGlobalsTag" Alt="99930670670625EF" Size="F0">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="RebindingGlobals" Parents="aTag" Index="-333">
+	<_6A0E4B807682F06EC3ABC781973F81B1 Name="RebindingGlobalsTag" Alt="57964C7F2259DED3" Size="100">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Rebinding Params" Offset="10" />
 		<_40 Name="keyboard rebinding axes" Offset="10" GUID="353B43541A9633C7F83F77FAADD2E014" StructName1="RebindingGlobalsTag" Min="0" Max="256" />
 		<_40 Name="controller rebinding options axes" Offset="24" GUID="353B43541A9633C7F83F77FAADD2E014" StructName1="RebindingGlobalsTag" Min="0" Max="256" />
 		<_40 Name="controller rebinding axes" Offset="38" GUID="353B43541A9633C7F83F77FAADD2E014" StructName1="RebindingGlobalsTag" Min="0" Max="256" />
 		<_40 Name="axis alt names" Offset="4C" GUID="8F7849B0623B247CFBD56F9B9186BBEB" StructName1="RebindingGlobalsTag" Min="0" Max="256" />
-		<_40 Name="unbindable input list" Offset="60" GUID="98B6457945A2D1723A633FA0BD99D214" StructName1="RebindingGlobalsTag" Min="0" Max="64" />
-		<_40 Name="unbindable input list for UI/special controls" Offset="74" GUID="E90582B3C4127423FFD7D9534E8B49F6" StructName1="RebindingGlobalsTag" Min="0" Max="64" />
-		<_40 Name="equipment swapper open inputs" Offset="88" GUID="9B7B4E13528574E9B933BEF6A9A3155B" StructName1="RebindingGlobalsTag" Min="0" Max="16" />
-		<_40 Name="grenade swapper open inputs" Offset="9C" GUID="9B7B4E13528574E9B933BEF6A9A3155B" StructName1="RebindingGlobalsTag" Min="0" Max="16" />
-		<_40 Name="equipment swapper selection inputs" Offset="B0" GUID="9B7B4E13528574E9B933BEF6A9A3155B" StructName1="RebindingGlobalsTag" Min="0" Max="16" />
-		<_40 Name="grenade swapper selection inputs" Offset="C4" GUID="9B7B4E13528574E9B933BEF6A9A3155B" StructName1="RebindingGlobalsTag" Min="0" Max="16" />
-		<_40 Name="Input copy mapping" Offset="D8" GUID="E35349EDFBB46F79658CA819B1EB85D7" StructName1="RebindingGlobalsTag" Min="0" Max="16" />
-		<_34 Name="generated_pad06ea" Offset="EC" Length="4" />
+		<_40 Name="unbindable inputs - global" Offset="60" GUID="98B6457945A2D1723A633FA0BD99D214" StructName1="RebindingGlobalsTag" Min="0" Max="64" />
+		<_40 Name="unbindable inputs - per settings category" Offset="74" GUID="D42449D226930B9B2B581EC3989685C1" StructName1="RebindingGlobalsTag" Min="0" Max="64" />
+		<_40 Name="unbindable inputs - per input axis" Offset="88" GUID="E90582B3C4127423FFD7D9534E8B49F6" StructName1="RebindingGlobalsTag" Min="0" Max="64" />
+		<_40 Name="equipment swapper open inputs" Offset="9C" GUID="9B7B4E13528574E9B933BEF6A9A3155B" StructName1="RebindingGlobalsTag" Min="0" Max="16" />
+		<_40 Name="grenade swapper open inputs" Offset="B0" GUID="9B7B4E13528574E9B933BEF6A9A3155B" StructName1="RebindingGlobalsTag" Min="0" Max="16" />
+		<_40 Name="equipment swapper selection inputs" Offset="C4" GUID="9B7B4E13528574E9B933BEF6A9A3155B" StructName1="RebindingGlobalsTag" Min="0" Max="16" />
+		<_40 Name="grenade swapper selection inputs" Offset="D8" GUID="9B7B4E13528574E9B933BEF6A9A3155B" StructName1="RebindingGlobalsTag" Min="0" Max="16" />
+		<_40 Name="Input copy mapping" Offset="EC" GUID="E35349EDFBB46F79658CA819B1EB85D7" StructName1="RebindingGlobalsTag" Min="0" Max="16" />
 	</_6A0E4B807682F06EC3ABC781973F81B1>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_353B43541A9633C7F83F77FAADD2E014 Name="RebindingAxisCategorySettings" Alt="4E2DCDA2F4E3EB17" Size="23C">
 		<_1 Name="Axis Name" Offset="0" />
@@ -287,6 +287,32 @@
 			<Flag n="Mouse Extra Button 1" />
 		</_B>
 	</_98B6457945A2D1723A633FA0BD99D214>
+	<_D42449D226930B9B2B581EC3989685C1 Name="UnbindableCategoryToInputDeviceElementsList" Alt="3F5520D655E21A32" Size="18">
+		<_C Name="Category" Offset="0" StructName1="RebindingAxisCategorySettings::RebindingSettingCategory">
+			<Flag n="None" />
+			<Flag n="Input" />
+			<Flag n="MovementAiming" />
+			<Flag n="Sensitivity" />
+			<Flag n="ZoomedSensitivity" />
+			<Flag n="InputAcceleration" />
+			<Flag n="TriggerDeadzone" />
+			<Flag n="MoveDeadzone" />
+			<Flag n="LookDeadzone" />
+			<Flag n="Player" />
+			<Flag n="Scoreboard" />
+			<Flag n="Vehicle" />
+			<Flag n="Communication" />
+			<Flag n="Observer" />
+			<Flag n="ForgeMovement" />
+			<Flag n="ForgeActions" />
+			<Flag n="Miscellaneous" />
+			<Flag n="EquipmentSwapper" />
+			<Flag n="GrenadeSwapper" />
+			<Flag n="Theater" />
+			<Flag n="TacMap" />
+		</_C>
+		<_40 Name="Unbindable inputs for this category" Offset="4" GUID="98B6457945A2D1723A633FA0BD99D214" StructName1="UnbindableCategoryToInputDeviceElementsList" Min="0" Max="64" />
+	</_D42449D226930B9B2B581EC3989685C1>
 	<_E90582B3C4127423FFD7D9534E8B49F6 Name="UnbindableAxisToInputDeviceElementsList" Alt="BD41B386B9292E78" Size="18">
 		<_2 Name="Axis Name" Offset="0" />
 		<_40 Name="Unbindable input list for axis" Offset="4" GUID="98B6457945A2D1723A633FA0BD99D214" StructName1="UnbindableAxisToInputDeviceElementsList" Min="0" Max="64" />
@@ -298,9 +324,9 @@
 		<_2 Name="Original Axis" Offset="0" />
 		<_2 Name="Copy Axis" Offset="4" />
 	</_E35349EDFBB46F79658CA819B1EB85D7>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_00B14B42F4415114B32C5A5BAF1685E1 Name="RebindingSliderSettings" Alt="7E4CBC132832DE79" Size="14">
 		<_F Name="Flags" Offset="0" StructName1="RebindingSliderSettings::RebindingSliderFlags">

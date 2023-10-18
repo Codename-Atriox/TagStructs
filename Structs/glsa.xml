@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="SkillRankingGlobalsDefinition" Parents="aTag" Index="-190">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="SkillRankingGlobalsDefinition" Parents="aTag" Index="-190">
 	<_B1594E0134CFFFA82BC7B8D4BE771CDC Name="i343::SkillRankingGlobals" Alt="FEA263813728B821" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_6 Name="number of games to qualify for CSR" Offset="10" />
 		<_40 Name="skill ranking globals" Offset="14" GUID="8F7147BA84E6FB3810026D5C80678800" StructName1="i343::SkillRankingGlobals" Min="0" Max="10" />
 	</_B1594E0134CFFFA82BC7B8D4BE771CDC>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_8F7147BA84E6FB3810026D5C80678800 Name="i343::SkillRankingDefinition" Alt="69B4DAA3612F81B" Size="1C">
 		<_2 Name="display_name" Offset="0" />
 		<_6 Name="icon_index" Offset="4" />
 		<_40 Name="tier" Offset="8" GUID="204E42AA4C1DFA8F7C67E2A5AD9B851B" StructName1="i343::SkillRankingDefinition" Min="0" Max="10" />
 	</_8F7147BA84E6FB3810026D5C80678800>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_204E42AA4C1DFA8F7C67E2A5AD9B851B Name="i343::SkillRankingTierDefinition" Alt="6520439EA39FE6F9" Size="8">
 		<_2 Name="display_name " Offset="0" />

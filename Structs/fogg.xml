@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="atmosphere_fog" Parents="aTag" Index="-154">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="atmosphere_fog" Parents="aTag" Index="-154">
 	<_40A7425CA4C4E5E93F7926B183DB142D Name="s_atmosphere_definition" Alt="B3BFB09593CF309B" Size="1B0">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="Depth Fog" type="fgrb" Offset="10" />
 		<_37 Name="Master Depth Fog Start" type="fgrb" Offset="10" />
 		<_36 Name="Start Bias" Offset="10" />
@@ -63,9 +63,9 @@
 		<_38 Name="crepuscular ray" Offset="16C" GUID="6B3F4AA814A1E18FFDB12600B6E95BA8" />
 		<_37 Name="" type="fgre" Offset="1B0" />
 	</_40A7425CA4C4E5E93F7926B183DB142D>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_09244999D82AB11524F24948857CA149 Name="s_solo_fog_parameters" Alt="68027FA040FF573A" Size="38">
 		<_D Name="flags" Offset="0" StructName1="SoloFogFlags">
@@ -124,9 +124,9 @@
 		<_14 Name="sample density" Offset="3C" />
 		<_14 Name="minimum caster distance" Offset="40" />
 	</_6B3F4AA814A1E18FFDB12600B6E95BA8>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_9B06D3E1D1F9D5293631AF50D509793C Name="s_soloFogFunction" Alt="CF21307D9620A75C" Size="18">
 		<_37 Name="fog function" type="fned" Offset="0" />
@@ -134,7 +134,7 @@
 	</_9B06D3E1D1F9D5293631AF50D509793C>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

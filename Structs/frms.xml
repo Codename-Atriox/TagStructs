@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="frame_event_list" Parents="aTag" Index="-165">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="frame_event_list" Parents="aTag" Index="-165">
 	<_6CF7474065EB9164337EB6829EAEF341 Name="c_animation_frame_event_list" Alt="A8E6E7D583B4525A" Size="98">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="IMPORTANT TAG NOTES" Offset="10" />
 		<_40 Name="sound references" type="slap" Offset="10" GUID="62BA4FBF44FF5AD9CACD391D8BB4DB29" StructName1="c_animation_frame_event_list" Min="0" Max="4096" />
 		<_40 Name="dialogue references" type="slap" Offset="24" GUID="153AB5047E2418A6970CB5DAA6E98612" StructName1="c_animation_frame_event_list" Min="0" Max="4096" />
@@ -10,9 +10,9 @@
 		<_41 Name="Audio Frame Events Tag" Offset="60" Allowed="fela" Flags="0" />
 		<_41 Name="Effect Frame Events Tag" Offset="7C" Allowed="fele" Flags="0" />
 	</_6CF7474065EB9164337EB6829EAEF341>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_62BA4FBF44FF5AD9CACD391D8BB4DB29 Name="SoundEventReferenceSet" Alt="1EEA5E8BC8A11245" Size="18">
 		<_2 Name="name" Offset="0" />
@@ -39,9 +39,9 @@
 		<_40 Name="effect events" Offset="30" GUID="73CF40558ED7D41D9C9C10B5A152950D" StructName1="s_import_animation_event" Min="0" Max="512" />
 		<_40 Name="dialogue events" Offset="44" GUID="29134CBC649B1755624F5E32BCF06814" StructName1="s_import_animation_event" Min="0" Max="512" />
 	</_A0014A1F2AA3BA59745D90578DEF04DD>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_0ED046283B0B92F2A8A93A27A1DBB76E Name="SoundEventReference" Alt="C8FCCC4F8EB080E" Size="60">
 		<_41 Name="sound" Offset="0" Allowed="snd!" Flags="0" />

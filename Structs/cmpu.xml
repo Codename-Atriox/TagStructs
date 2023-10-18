@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="CampaignUpgrades" Parents="aTag" Index="-69">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="CampaignUpgrades" Parents="aTag" Index="-69">
 	<_839993A2C678F60E2D9DA2E297996737 Name="i343::EquipmentUpgrade::CampaignUpgrades" Alt="8FE3A04E05C01206" Size="50">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Equipment Paths" Offset="10" GUID="839993A2C678F60B2D9DA2E297996737" StructName1="i343::EquipmentUpgrade::CampaignUpgrades" Min="0" Max="100" />
 		<_40 Name="Equipment Points" Offset="24" GUID="839993A2C678F60C2D9DA2E297996737" StructName1="i343::EquipmentUpgrade::CampaignUpgrades" Min="0" Max="100" />
 		<_40 Name="Shield Upgrades" Offset="38" GUID="839993A2C678F60D2D9DA2E297996737" StructName1="i343::EquipmentUpgrade::CampaignUpgrades" Min="0" Max="100" />

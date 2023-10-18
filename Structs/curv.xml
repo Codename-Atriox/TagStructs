@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="CurveDefinition" Parents="aTag" Index="-87">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="CurveDefinition" Parents="aTag" Index="-87">
 	<_EE604231BC09A399ED5B83F1B5C34525 Name="i343::Curve::CurveDefinitionTag" Alt="4A6BB6DC74E48022" Size="60">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Curves 1D" Offset="10" GUID="23884D9045BDC6AEA251E57A8AFF48AE" StructName1="i343::Curve::CurveDefinitionTag" Min="0" Max="128" />
 		<_40 Name="Curves 2D" Offset="24" GUID="311D42D486B35DD87E6E35BBB2B0CC56" StructName1="i343::Curve::CurveDefinitionTag" Min="0" Max="128" />
 		<_40 Name="Curves 3D" Offset="38" GUID="DF58497F42EEC180B6D6550EB1D3E28B" StructName1="i343::Curve::CurveDefinitionTag" Min="0" Max="128" />

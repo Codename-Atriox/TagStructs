@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="DifficultyGlobalsDefinition" Parents="aTag" Index="-184">
-	<_C0094B1A1A07D2361C81ACB788A5F356 Name="i343::DifficultyGlobals" Alt="E24CFAC3B5FEC050" Size="38">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="DifficultyGlobalsDefinition" Parents="aTag" Index="-184">
+	<_C0094B1A1A07D2361C81ACB788A5F356 Name="i343::DifficultyGlobals" Alt="23290FB91091F627" Size="38">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="difficulty" Offset="10" GUID="A3CF40B59C84698CABD1016BB4736069" StructName1="i343::DifficultyGlobals" Min="0" Max="1" />
 		<_40 Name="co-op difficulty" Offset="24" GUID="CA614F7C77C24405889180459192D3BD" StructName1="i343::DifficultyGlobals" Min="0" Max="1" />
 	</_C0094B1A1A07D2361C81ACB788A5F356>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_A3CF40B59C84698CABD1016BB4736069 Name="s_game_globals_difficulty_information" Alt="1D3B74A872F0553E" Size="300">
+	<_A3CF40B59C84698CABD1016BB4736069 Name="s_game_globals_difficulty_information" Alt="53B6EC3C51249096" Size="320">
 		<_36 Name="health" Offset="0" />
 		<_14 Name="easy enemy damage" Offset="0" />
 		<_14 Name="normal enemy damage" Offset="4" />
@@ -187,19 +187,27 @@
 		<_14 Name="normal max grenade tokens" Offset="2C4" />
 		<_14 Name="hard max grenade tokens" Offset="2C8" />
 		<_14 Name="imposs. max grenade tokens" Offset="2CC" />
-		<_14 Name="easy grenade token cooldown" Offset="2D0" />
-		<_14 Name="normal grenade token cooldown" Offset="2D4" />
-		<_14 Name="hard grenade token cooldown" Offset="2D8" />
-		<_14 Name="imposs. grenade token cooldown" Offset="2DC" />
-		<_36 Name="effectiveness tokens" Offset="2E0" />
-		<_14 Name="easy max effectiveness tokens" Offset="2E0" />
-		<_14 Name="normal max effectiveness tokens" Offset="2E4" />
-		<_14 Name="hard max effectiveness tokens" Offset="2E8" />
-		<_14 Name="imposs. max effectiveness tokens" Offset="2EC" />
-		<_14 Name="easy weapon fidget chance per second" Offset="2F0" />
-		<_14 Name="normal weapon fidget chance per second" Offset="2F4" />
-		<_14 Name="hard weapon fidget chance per second" Offset="2F8" />
-		<_14 Name="imposs. weapon fidget chance per second" Offset="2FC" />
+		<_14 Name="easy min grenade tokens" Offset="2D0" />
+		<_14 Name="normal min grenade tokens" Offset="2D4" />
+		<_14 Name="hard min grenade tokens" Offset="2D8" />
+		<_14 Name="imposs. min grenade tokens" Offset="2DC" />
+		<_14 Name="easy grenade clump theshold" Offset="2E0" />
+		<_14 Name="normal grenade clump theshold" Offset="2E4" />
+		<_14 Name="hard grenade clump theshold" Offset="2E8" />
+		<_14 Name="imposs. grenade clump theshold" Offset="2EC" />
+		<_14 Name="easy grenade token cooldown" Offset="2F0" />
+		<_14 Name="normal grenade token cooldown" Offset="2F4" />
+		<_14 Name="hard grenade token cooldown" Offset="2F8" />
+		<_14 Name="imposs. grenade token cooldown" Offset="2FC" />
+		<_36 Name="effectiveness tokens" Offset="300" />
+		<_14 Name="easy max effectiveness tokens" Offset="300" />
+		<_14 Name="normal max effectiveness tokens" Offset="304" />
+		<_14 Name="hard max effectiveness tokens" Offset="308" />
+		<_14 Name="imposs. max effectiveness tokens" Offset="30C" />
+		<_14 Name="easy weapon fidget chance per second" Offset="310" />
+		<_14 Name="normal weapon fidget chance per second" Offset="314" />
+		<_14 Name="hard weapon fidget chance per second" Offset="318" />
+		<_14 Name="imposs. weapon fidget chance per second" Offset="31C" />
 	</_A3CF40B59C84698CABD1016BB4736069>
 	<_CA614F7C77C24405889180459192D3BD Name="s_game_globals_coop_difficulty_information" Alt="483859E93275DA50" Size="CC">
 		<_36 Name="vitality" Offset="0" />
@@ -261,8 +269,8 @@
 		<_14 Name="four-player AI upgrade additional chance" Offset="C4" />
 		<_14 Name="Warzone AI upgrade additional chance" Offset="C8" />
 	</_CA614F7C77C24405889180459192D3BD>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

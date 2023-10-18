@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="effect" Parents="aTag" Index="-119" C="fx">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="effect" Parents="aTag" Index="-119" C="fx">
 	<_31EA4E8B6C1AEA4ABD1D9033B019756D Name="effect_definition" Alt="CB2152C262C9B9FC" Size="88">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Annotations" Offset="10" GUID="900B44F6781130FFDE1CD6679F763D19" StructName1="effect_definition" Min="0" Max="8" />
 		<_D Name="flags" Offset="24" StructName1="effect_definition::EffectDefinitionFlags">
 			<Flag n="deleted when attachment deactivates" />
@@ -57,9 +57,9 @@
 		<_40 Name="sounds" Offset="70" GUID="90C645FF7B58E873B5E8B9919EDB96EA" StructName1="effect_definition" Min="0" Max="8" />
 		<_34 Name="generated_pad94b0" Offset="84" Length="4" />
 	</_31EA4E8B6C1AEA4ABD1D9033B019756D>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_900B44F6781130FFDE1CD6679F763D19 Name="effect_definition::Annotation" Alt="16104E3E0040D463" Size="1C">
 		<_2 Name="Name" Offset="0" />
@@ -95,9 +95,9 @@
 		<_2 Name="marker name" Offset="54" />
 		<_40 Name="events" Offset="58" GUID="F2934AEB36A0815E34FF38539A2954BF" StructName1="effect_sound_definition" Min="0" Max="32" />
 	</_90C645FF7B58E873B5E8B9919EDB96EA>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_2AA94534384EBA004A23EF26AD11D043 Name="ScalarFunctionNameDefaultOne" Alt="3C31DA9CDFBD201" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
@@ -148,7 +148,7 @@
 	</_F2934AEB36A0815E34FF38539A2954BF>
 	<_4C5A4A1A9019ABA511FDA1ADAD1AF034 Name="FunctionDefinitionDefaultOne" Alt="E0E2BDF48D6E226A" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_4C5A4A1A9019ABA511FDA1ADAD1AF034>
 	<_E63D42D710814B9B6CF277F8945DD824 Name="effect_part_definition" Alt="C4F5C0F52353943E" Size="8C">
@@ -1031,7 +1031,7 @@
 	</_0C16431977A26FFB69DC374981E4C4D3>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 	<_769F4B02395EDDAE1D58C7E1BF35082B Name="EffectGlobalForceDefinition" Alt="5039F55F1A1DEBEE" Size="28">

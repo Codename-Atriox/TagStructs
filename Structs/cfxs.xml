@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="camera_fx_settings" Parents="aTag" Index="-56">
-	<_03134945C7122CD8BFBE70FEAAB3E3DA Name="c_camera_fx_settings" Alt="7B48D1B61A5C07A1" Size="530">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="camera_fx_settings" Parents="aTag" Index="-56">
+	<_03134945C7122CD8BFBE70FEAAB3E3DA Name="c_camera_fx_settings" Alt="5F0EB9B577A4D95A" Size="508">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="" type="ifp+" Offset="10" />
 		<_38 Name="exposure" Offset="10" GUID="38C74B701FBECC293C5FD67BAF139847" />
 		<_38 Name="auto_exposure_sensitivity" Offset="38" GUID="80E54585B2285D8B5A2A16B5A4116DDE" />
@@ -19,11 +19,11 @@
 		<_41 Name="effect exposure override" Offset="100" Allowed="efex" Flags="0" />
 		<_38 Name="color_grading" Offset="11C" GUID="88C0460320D7EB2342178565BEB7FEF8" />
 		<_38 Name="ssao_settings" Offset="15C" GUID="A444C1CF0877319BBEE40C6E617D4FDD" />
-		<_38 Name="deferred_reflections_settings" Offset="198" GUID="797145775B4D834DF5CD1EB485DCF4C8" />
-		<_38 Name="camera lens dirt" Offset="238" GUID="7CE5AB8A07A2FBE1F42D282BE5BC3F20" />
-		<_38 Name="contact shadows" Offset="260" GUID="FFDAC0963F82D9CB0DE347C502F2B95F" />
-		<_38 Name="contact shadows local lights" Offset="3C8" GUID="FFDAC0963F82D9CB0DE347C502F2B95F" />
-		<_37 Name="" type="ifp-" Offset="530" />
+		<_38 Name="deferred_reflections_settings" Offset="170" GUID="797145775B4D834DF5CD1EB485DCF4C8" />
+		<_38 Name="camera lens dirt" Offset="210" GUID="7CE5AB8A07A2FBE1F42D282BE5BC3F20" />
+		<_38 Name="contact shadows" Offset="238" GUID="FFDAC0963F82D9CB0DE347C502F2B95F" />
+		<_38 Name="contact shadows local lights" Offset="3A0" GUID="FFDAC0963F82D9CB0DE347C502F2B95F" />
+		<_37 Name="" type="ifp-" Offset="508" />
 	</_03134945C7122CD8BFBE70FEAAB3E3DA>
 	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
@@ -244,8 +244,8 @@
 		<_41 Name="hdr color grading texture" Offset="20" Allowed="bitm" Flags="0" />
 		<_14 Name="blend time" Offset="3C" />
 	</_88C0460320D7EB2342178565BEB7FEF8>
-	<_A444C1CF0877319BBEE40C6E617D4FDD Name="camera_fx_settings::s_ssao_parameter" Alt="BAB1CA2E427DA581" Size="3C">
-		<_36 Name="SSAO settings" Offset="0" />
+	<_A444C1CF0877319BBEE40C6E617D4FDD Name="camera_fx_settings::s_ao_parameter" Alt="1350B149D0140158" Size="14">
+		<_36 Name="ambient occlusion settings" Offset="0" />
 		<_E Name="flags" Offset="0" StructName1="CameraFXParameterEnabledFlags">
 			<Flag n="use default (ignore these values)" />
 			<Flag n="maximum change is relative" />
@@ -255,24 +255,11 @@
 			<Flag n="enabled" />
 			<Flag n="fixed2" />
 		</_E>
-		<_34 Name="generated_pad4870" Offset="2" Length="2" />
-		<_E Name="ssao flags" Offset="4" StructName1="CameraFXSSAOFlags">
-			<Flag n="SSAO enabled" />
-		</_E>
-		<_34 Name="generated_padf382" Offset="6" Length="2" />
-		<_14 Name="Radius" Offset="8" />
-		<_3E Name="Step size" Offset="C" />
-		<_14 Name="Angle bias" Offset="10" />
-		<_14 Name="Strength" Offset="14" />
-		<_14 Name="Power exponent" Offset="18" />
-		<_3E Name="Blur radius" Offset="1C" />
-		<_14 Name="Blur sharpness" Offset="20" />
-		<_14 Name="Decorator apply darkening scaler" Offset="24" />
-		<_14 Name="Hemi rejection falloff" Offset="28" />
-		<_14 Name="GTAO Intensity" Offset="2C" />
-		<_14 Name="Sun AO" Offset="30" />
-		<_14 Name="Spot Light AO" Offset="34" />
-		<_14 Name="Omni Light AO" Offset="38" />
+		<_34 Name="generated_pad3fae" Offset="2" Length="2" />
+		<_14 Name="GTAO Intensity" Offset="4" />
+		<_14 Name="Sun AO" Offset="8" />
+		<_14 Name="Spot Light AO" Offset="C" />
+		<_14 Name="Omni Light AO" Offset="10" />
 	</_A444C1CF0877319BBEE40C6E617D4FDD>
 	<_797145775B4D834DF5CD1EB485DCF4C8 Name="camera_fx_settings::DeferredReflectionsParameter" Alt="24F811991CBB6D16" Size="A0">
 		<_36 Name="Deferred Reflections settings" Offset="0" />
@@ -374,7 +361,7 @@
 	</_181F479C151D014633BC439086EC7039>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 	<_4161EF12A16E262114ABE16421C61BE3 Name="SpecControlNodeInt" Alt="80B9ABC205E9372" Size="2C">

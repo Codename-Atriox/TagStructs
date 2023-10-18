@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="geometry" Parents="aTag" Index="-198">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="geometry" Parents="aTag" Index="-198">
 	<_E36F4E5A50F3D2DD4E21F9D4BB5F8106 Name="GeometryTag" Alt="3EE245EFEE7FD275" Size="E8">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Geometry" Offset="10" GUID="12534540125DEFDC1282C05912E6E245" StructName1="GeometryTag" Min="0" Max="4096" />
 		<_40 Name="Materials" Offset="24" GUID="17E6C7BC1CD712E329874BE1A274E5BD" StructName1="GeometryTag" Min="0" Max="4096" />
 		<_7 Name="Joints checksum" Offset="38" />
@@ -17,9 +17,9 @@
 		<_38 Name="Validation" Offset="CC" GUID="E22E4E5A50E233DD4E2F74A4BE593E06" />
 		<_34 Name="generated_pad6734" Offset="E4" Length="4" />
 	</_E36F4E5A50F3D2DD4E21F9D4BB5F8106>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_12534540125DEFDC1282C05912E6E245 Name="GeometryMesh" Alt="318B817D0CD8087B" Size="4C">
 		<_2 Name="Visual region name" Offset="0" />
@@ -133,9 +133,9 @@
 		</_D>
 		<_40 Name="Validation test batteries" Offset="4" GUID="EDD94E5A50ED33DD4E8D74ADBEDD3106" StructName1="ContentValidationBlockData" Min="0" Max="2048" />
 	</_E22E4E5A50E233DD4E2F74A4BE593E06>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_422AC78C1CDA22332A1E4EB1A2E68A6D Name="GeometryMeshPart" Alt="FEA1A168EDF72132" Size="288">
 		<_40 Name="Vertices" Offset="0" GUID="1234C78C13D21233231E1EB1A2E6136D" StructName1="GeometryMeshPart" Min="0" Max="2097152" />

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="RuntimeLayer" Parents="lobj,aTag" Index="-339">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="RuntimeLayer" Parents="lobj,aTag" Index="-339">
 	<_63444F4B05C5DC15A953D7F6844ECF8E Name="RuntimeLayerTag" Alt="2CFB7F6307AF2305" Size="6A8">
 		<_38 Name="LevelObjects" Offset="0" GUID="3F0C45E42D390AA601208E3F9E95DEA2" />
 		<_40 Name="child layers" Offset="690" GUID="BE3F4CA8BA227682BD5EB349A9B94C22" StructName1="RuntimeLayerTag" Min="0" Max="1024" />
 		<_34 Name="generated_pad8b11" Offset="6A4" Length="4" />
 	</_63444F4B05C5DC15A953D7F6844ECF8E>
 	<_3F0C45E42D390AA601208E3F9E95DEA2 Name="LevelObjects" Alt="371C1A2C34CFA136" Size="690">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="decorators" type="fgrb" Offset="10" />
 		<_38 Name="decorators" Offset="10" GUID="DA4B412BDCA3DA7EF6507BACBED1DC74" />
 		<_37 Name="" type="fgre" Offset="24" />
@@ -103,9 +103,9 @@
 		</_F>
 		<_34 Name="generated_pad26e0" Offset="11D" Length="3" />
 	</_BE3F4CA8BA227682BD5EB349A9B94C22>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_DA4B412BDCA3DA7EF6507BACBED1DC74 Name="s_scenario_new_decorator_definition" Alt="41EAC69938206165" Size="14">
 		<_40 Name="sets" Offset="0" GUID="4FC747DD40576308BE229502AED99352" StructName1="s_scenario_new_decorator_definition" Min="0" Max="65536" />
@@ -2294,9 +2294,9 @@
 		<_6 Name="Volume Composition Order" Offset="78" />
 		<_40 Name="EditorMetadata" Offset="7C" GUID="CAFD409521D5D5297D81B801A0BADD13" StructName1="i343::TerrainVolume" Min="4" Max="1" />
 	</_FEF44019AD572E201A50C4A1AC80DB08>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_4FC747DD40576308BE229502AED99352 Name="s_decorator_scenario_set_placements" Alt="E9954B807A103E2F" Size="4C">
 		<_41 Name="decorator asset" Offset="0" Allowed="dcat" Flags="1" />
@@ -3890,7 +3890,7 @@
 	</_CE644BA64DB5B94A1D9DC3AF8C4D6C02>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 	<_689849540174FB9326701C02A42ED2BF Name="LevelObjectReferenceElement" Alt="FC332D7EE90075A8" Size="8">

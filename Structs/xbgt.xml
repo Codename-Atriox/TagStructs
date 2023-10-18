@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:58 PM" Name="XAnimBlendGraphNG" Parents="aTag" Index="-483">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="XAnimBlendGraphNG" Parents="aTag" Index="-482">
 	<_54164230F62D6D816E248B42A46D1EC7 Name="ExportedBlendGraphTag" Alt="CE6E6ADB5FD1D8F5" Size="70">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Source Graph" Offset="10" Allowed="ngfc" Flags="1" />
 		<_C Name="Blend Type" Offset="2C" StructName1="AnimBlendNodeType">
 			<Flag n="Blend1d" />
@@ -19,9 +19,9 @@
 		<_6 Name="Partition Count" Offset="68" />
 		<_34 Name="generated_pad9fc6" Offset="6C" Length="4" />
 	</_54164230F62D6D816E248B42A46D1EC7>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_2B0F47834232ECCCEDD4D4E8BD902634 Name="BlendAnimationTokenNode" Alt="A8CB5501E06377AA" Size="1C">
 		<_2 Name="Animation Name" Offset="0" />
@@ -49,9 +49,9 @@
 		<_14 Name="Beta" Offset="8" />
 		<_38 Name="Subgraph Reference" Offset="C" GUID="97634F3D6C666E05AD23FE6BBC70A7CD" />
 	</_8DFB458AAF74DF08BFE2B7099DB6D966>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_97634F3D6C666E05AD23FE6BBC70A7CD Name="SubgraphReferenceExportedAnimNodeGraph" Alt="88A06031301FA072" Size="1C">
 		<_41 Name="Anim Subgraph" Offset="0" Allowed="angt" Flags="0" />

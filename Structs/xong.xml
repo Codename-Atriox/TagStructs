@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:58 PM" Name="XObjectNodeGraph" Parents="aTag" Index="-485">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="XObjectNodeGraph" Parents="aTag" Index="-484">
 	<_387748AA19372ED89DB10371805F53D7 Name="ExportedObjectNodeGraph" Alt="AE0B9B96B6447ADA" Size="4D8">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Source Graph" Offset="10" Allowed="ongc" Flags="0" />
 		<_14 Name="Max Update Rate" Offset="2C" />
 		<_14 Name="Max Update Rate Cull Modifier" Offset="30" />
@@ -84,9 +84,9 @@
 		<_40 Name="Set Graph Update Mode Nodes" Offset="4B0" GUID="D5C440601A06ADFA6DD5BCCFA0AD3063" StructName1="ExportedObjectNodeGraph" Min="0" Max="2048" />
 		<_40 Name="Wind Speed Nodes" Offset="4C4" GUID="29D041F4751D0E485DE6B721BC4A2DBF" StructName1="ExportedObjectNodeGraph" Min="0" Max="2048" />
 	</_387748AA19372ED89DB10371805F53D7>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_3AF84299510A37C4823BD19E9553247A Name="ObjectGraphConnection" Alt="157A179621F80B07" Size="28">
 		<_40 Name="Source" Offset="0" GUID="09734776DC4910BF97F708D98E32C40B" StructName1="ObjectGraphConnection" Min="0" Max="1" />
@@ -436,9 +436,9 @@
 	<_29D041F4751D0E485DE6B721BC4A2DBF Name="WindSpeedNodeData" Alt="AA8073911B001519" Size="1">
 		<_4 Name="dummy data" Offset="0" />
 	</_29D041F4751D0E485DE6B721BC4A2DBF>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_09734776DC4910BF97F708D98E32C40B Name="ObjectGraphConnectionEndpoint" Alt="7A53BEEC8CA1E90C" Size="C">
 		<_A Name="Node Type" Offset="0" StructName1="ObjectGraphNodeType">

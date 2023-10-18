@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:58 PM" Name="user_interface_shared_globals_definition" Parents="aTag" Index="-480">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="user_interface_shared_globals_definition" Parents="aTag" Index="-479">
 	<_3ABC40F7520DAD1BB6D09BC7A25DED9A Name="s_user_interface_shared_globals" Alt="CBDE12F9CDC9CBD5" Size="3E8">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Global Text Strings" Offset="10" />
 		<_41 Name="String list tag" Offset="10" Allowed="uslg" Flags="0" />
 		<_36 Name="Global Narration String" Offset="2C" />
@@ -79,9 +79,9 @@
 		<_41 Name="Skip UI tag" Offset="3B0" Allowed="cusc" Flags="0" />
 		<_41 Name="mission thumbnail bitmap dictionary" Offset="3CC" Allowed="bitd" Flags="0" />
 	</_3ABC40F7520DAD1BB6D09BC7A25DED9A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_668B46A043D460B72301F51A835FDD47 Name="ResourceFileReferences" Alt="AE7EDE8464ED3318" Size="1C">
 		<_41 Name="resources list" Offset="0" Allowed="cure" Flags="0" />
@@ -105,7 +105,7 @@
 	</_737041B838464D85B3CB9F7594612A80>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 	<_F3DA4AD239753FD6DF40B1E19C599FC8 Name="FontSetReferenceBlockDefinition" Alt="A1E9381011506F3F" Size="1C">
@@ -211,9 +211,9 @@
 		<_14 Name="Step Size" Offset="C" />
 		<_14 Name="Scaling Factor" Offset="10" />
 	</_9B865C76019DF9DA8E05569F14B90CAF>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_C6A24A780F5F62C7F47B91CDBCCFBB7A Name="RealARGBColorBlock" Alt="556B2369F5226776" Size="10">
 		<_20 Name="color" Offset="0" />

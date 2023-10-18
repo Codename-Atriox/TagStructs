@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="NavPointLayoutDefinition" Parents="aTag" Index="-271">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="NavPointLayoutDefinition" Parents="aTag" Index="-271">
 	<_0A3943BACB14AC5A87DAA8B4AD3C44CC Name="Interface::NavPoint::NavPointLayoutDefinition" Alt="941A775B754E83B9" Size="B8">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_14 Name="morph fraction" Offset="10" />
 		<_16 Name="anchor offset" Offset="14" />
 		<_16 Name="center box width height" Offset="1C" />
@@ -30,9 +30,9 @@
 		<_36 Name="yaw sprite" Offset="A8" />
 		<_38 Name="yaw sprite" Offset="A8" GUID="5DEC43CB9A36508D63C26F26B9E88735" />
 	</_0A3943BACB14AC5A87DAA8B4AD3C44CC>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_08B7456DFEDABD31175694DD85861C61 Name="Interface::NavPoint::GenericLayout" Alt="1B57FD49A4C884B" Size="C">
 		<_16 Name="width and height" Offset="0" />
@@ -43,8 +43,8 @@
 		<_14 Name="alpha" Offset="8" />
 		<_14 Name="pivot offset" Offset="C" />
 	</_5DEC43CB9A36508D63C26F26B9E88735>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

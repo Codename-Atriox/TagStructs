@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="GarbageCollectionGlobalsDefinition" Parents="aTag" Index="-185">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="GarbageCollectionGlobalsDefinition" Parents="aTag" Index="-185">
 	<_5DCA4D70BE2F2A51CBB8CAFB82183083 Name="i343::GarbageCollectionGlobals" Alt="A735B51EED7131FB" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="garbage collection" type="slap" Offset="10" GUID="863C484749B147E06BC92D7EBE1348AA" StructName1="i343::GarbageCollectionGlobals" Min="0" Max="1" />
 		<_34 Name="generated_pad2c4e" Offset="24" Length="4" />
 	</_5DCA4D70BE2F2A51CBB8CAFB82183083>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_863C484749B147E06BC92D7EBE1348AA Name="GarbageCollectionGlobalVariables" Alt="B1FEFB86A1DD7396" Size="20">
 		<_36 Name="Garbage Times" Offset="0" />
@@ -20,8 +20,8 @@
 		<_14 Name="Dead MP Player overloaded" Offset="18" />
 		<_6 Name="Max dead body count " Offset="1C" />
 	</_863C484749B147E06BC92D7EBE1348AA>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="customizationglobalsdefinition" Parents="aTag" Index="-289">
-	<_BD434F30545665A478D1DA2E92E8659A Name="i343::ObjectCustomization::Globals" Alt="7FC70D47278CB570" Size="1A0">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="customizationglobalsdefinition" Parents="aTag" Index="-289">
+	<_BD434F30545665A478D1DA2E92E8659A Name="i343::ObjectCustomization::Globals" Alt="ADBBEC96EED104C3" Size="1A0">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="Armor properties" type="fgrb" Offset="10" />
 		<_40 Name="Themes" Offset="10" GUID="DEC644EADD56180A35285AD4A543CB5F" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="100" />
 		<_40 Name="Shared Armor Emblems" Offset="24" GUID="EBDE4002CABEF73BFE7D7B3FAF4F7A08" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="1" />
@@ -34,11 +34,11 @@
 		<_40 Name="VirtualCurrency" Offset="188" GUID="FF8749A947A0E29722E9FB0183819C95" StructName1="i343::ObjectCustomization::Globals" Min="0" Max="16" />
 		<_34 Name="generated_pad3f21" Offset="19C" Length="4" />
 	</_BD434F30545665A478D1DA2E92E8659A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_DEC644EADD56180A35285AD4A543CB5F Name="i343::ObjectCustomization::Theme" Alt="FF8B79E18D77B5EA" Size="50">
+	<_DEC644EADD56180A35285AD4A543CB5F Name="i343::ObjectCustomization::Theme" Alt="6EE0ADDFC14B24A8" Size="50">
 		<_2 Name="Asset Name" Offset="0" />
 		<_41 Name="Model" Offset="4" Allowed="mode" Flags="1" />
 		<_41 Name="Object Reference" Offset="20" Allowed="obje" Flags="4" />
@@ -55,7 +55,7 @@
 	<_7D7A4CE72ECFB7C692F4124D83576EF2 Name="i343::ObjectCustomization::ObjectAttachmentCustomization" Alt="586CA25EACC07FEF" Size="1C">
 		<_41 Name="Attachments" Offset="0" Allowed="oatd" Flags="4" />
 	</_7D7A4CE72ECFB7C692F4124D83576EF2>
-	<_9B19422F874575A7DF5840729864167F Name="i343::ObjectCustomization::WeaponTheme" Alt="5330F3DBC02DC502" Size="50">
+	<_9B19422F874575A7DF5840729864167F Name="i343::ObjectCustomization::WeaponTheme" Alt="3E771D6476014C28" Size="50">
 		<_2 Name="Asset Name" Offset="0" />
 		<_41 Name="Model" Offset="4" Allowed="mode" Flags="1" />
 		<_41 Name="Object Reference" Offset="20" Allowed="obje" Flags="4" />
@@ -68,7 +68,7 @@
 	<_3F0B4EEACFB6771D292D3C629D7D6B43 Name="i343::ObjectCustomization::Charm" Alt="54EA3BF6C8A13083" Size="1C">
 		<_41 Name="Charm" Offset="0" Allowed="ocad" Flags="4" />
 	</_3F0B4EEACFB6771D292D3C629D7D6B43>
-	<_695B4DEEF83A6FD22DE5D90AA8120F25 Name="i343::ObjectCustomization::VehicleTheme" Alt="D59C877F7BED2FBD" Size="50">
+	<_695B4DEEF83A6FD22DE5D90AA8120F25 Name="i343::ObjectCustomization::VehicleTheme" Alt="DDA74C1CB3333402" Size="50">
 		<_2 Name="Asset Name" Offset="0" />
 		<_41 Name="Model" Offset="4" Allowed="mode" Flags="1" />
 		<_41 Name="Object Reference" Offset="20" Allowed="obje" Flags="4" />
@@ -82,11 +82,11 @@
 	<_FF8749A947A0E29722E9FB0183819C95 Name="i343::ObjectCustomization::ConsumableObjects" Alt="9BB3E4C4EF0A7DE5" Size="1C">
 		<_41 Name="Object Reference" Offset="0" Allowed="obje" Flags="4" />
 	</_FF8749A947A0E29722E9FB0183819C95>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_486449606055B1509A34ADB5A1EFC3CB Name="i343::ObjectCustomization::ThemeConfigs" Alt="8F2E795863D4C6B6" Size="38">
+	<_486449606055B1509A34ADB5A1EFC3CB Name="i343::ObjectCustomization::ThemeConfigs" Alt="153528E8766DCBF8" Size="38">
 		<_2 Name="Theme Name" Offset="0" />
 		<_2 Name="Theme Variant Name" Offset="4" />
 		<_41 Name="Theme Configs" Offset="8" Allowed="ocur" Flags="4" />
@@ -102,22 +102,35 @@
 		<_2 Name="Theme Id" Offset="0" />
 		<_2 Name="Marker" type="sted" Offset="4" />
 	</_183841DF8A139DACC060C1CA9088A4B1>
-	<_BDC74B583560A28274E02123B003F772 Name="i343::ObjectCustomization::WeaponThemeConfigs" Alt="F351B162B887DA8A" Size="54">
+	<_BDC74B583560A28274E02123B003F772 Name="i343::ObjectCustomization::WeaponThemeConfigs" Alt="4EF4917E43C7BB5C" Size="54">
 		<_2 Name="Theme Name" Offset="0" />
 		<_2 Name="Theme Variant Name" Offset="4" />
 		<_41 Name="Object Configuration" Offset="8" Allowed="aTag" Flags="4" />
 		<_41 Name="Theme Configs" Offset="24" Allowed="ocuw" Flags="4" />
 		<_40 Name="Kit Configurations" Offset="40" GUID="8418431214724F060FFA5C66816D0B3E" StructName1="i343::ObjectCustomization::WeaponThemeConfigs" Min="0" Max="256" />
 	</_BDC74B583560A28274E02123B003F772>
-	<_4E1541379CB9FFB51F34ACA0BB854DF0 Name="i343::ObjectCustomization::VehicleThemeConfigs" Alt="4D95F86E1ADC9ADB" Size="54">
+	<_4E1541379CB9FFB51F34ACA0BB854DF0 Name="i343::ObjectCustomization::VehicleThemeConfigs" Alt="870F1ED9BDACA94F" Size="54">
 		<_2 Name="Theme Name" Offset="0" />
 		<_2 Name="Theme Variant Name" Offset="4" />
 		<_41 Name="Object Configuration" Offset="8" Allowed="aTag" Flags="4" />
 		<_41 Name="Theme Configs" Offset="24" Allowed="ocuv" Flags="4" />
 		<_40 Name="Kit Configurations" Offset="40" GUID="8418431214724F060FFA5C66816D0B3E" StructName1="i343::ObjectCustomization::VehicleThemeConfigs" Min="0" Max="256" />
 	</_4E1541379CB9FFB51F34ACA0BB854DF0>
-	<_8418431214724F060FFA5C66816D0B3E Name="i343::ObjectCustomization::BaseThemeConfig" Alt="DE7FC83ED2D6CAA7" Size="8">
+	<_8418431214724F060FFA5C66816D0B3E Name="i343::ObjectCustomization::KitThemeConfig" Alt="65CB218AA6EAD5EF" Size="1C">
 		<_2 Name="Theme Name" Offset="0" />
 		<_2 Name="Theme Variant Name" Offset="4" />
+		<_40 Name="Kit Base Regions" Offset="8" GUID="81794B092EC55B9956A488B3A2DFCA33" StructName1="i343::ObjectCustomization::KitThemeConfig" Min="0" Max="256" />
 	</_8418431214724F060FFA5C66816D0B3E>
+	<_81794B092EC55B9956A488B3A2DFCA33 Name="i343::ObjectCustomization::Region" Alt="5EB29BEF7D269E3A" Size="2C">
+		<_2 Name="Region Name" Offset="0" />
+		<_40 Name="Permutation Regions" Offset="4" GUID="933B4D0284D75DDF46917D0F99668D8C" StructName1="i343::ObjectCustomization::Region" Min="0" Max="16" />
+		<_40 Name="Permutation Settings" Offset="18" GUID="D9EE4AC768CB1B0AD7BFE6DB850E104A" StructName1="i343::ObjectCustomization::Region" Min="0" Max="256" />
+	</_81794B092EC55B9956A488B3A2DFCA33>
+	<_933B4D0284D75DDF46917D0F99668D8C Name="i343::ObjectCustomization::PermutationRegions" Alt="117533128E183FDC" Size="4">
+		<_2 Name="Permutation Region" Offset="0" />
+	</_933B4D0284D75DDF46917D0F99668D8C>
+	<_D9EE4AC768CB1B0AD7BFE6DB850E104A Name="i343::ObjectCustomization::PermutationSettings" Alt="BF8980B0376DD041" Size="20">
+		<_2 Name="Permutation Name" Offset="0" />
+		<_41 Name="Material Style" Offset="4" Allowed="mwsy" Flags="0" />
+	</_D9EE4AC768CB1B0AD7BFE6DB850E104A>
 </root>

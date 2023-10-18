@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="decorator_palette" Parents="aTag" Index="-94">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="decorator_palette" Parents="aTag" Index="-94">
 	<_D5B94B392F29902950DBFBB780C30E2F Name="i343::Decorators::DecoratorPaletteTag" Alt="BF2487122312FFB8" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="palettes" Offset="10" GUID="993A4C49B15B5E7D33FEE94F8132A025" StructName1="i343::Decorators::DecoratorPaletteTag" Min="0" Max="256" />
 		<_34 Name="generated_pade45f" Offset="24" Length="4" />
 	</_D5B94B392F29902950DBFBB780C30E2F>

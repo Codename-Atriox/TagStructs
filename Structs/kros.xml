@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="knockbackresponseoverrideset" Parents="aTag" Index="-224">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:16 PM" Name="knockbackresponseoverrideset" Parents="aTag" Index="-224">
 	<_8F0B48BD356B6E3C331BADD4A707C588 Name="i343::Equipment::KnockbackResponseOverrideSet" Alt="A4BD6460119F7EF0" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="knockback response overrides" Offset="10" />
 		<_40 Name="overrides" Offset="10" GUID="CE0741E128F5C0A630856787A8189B5B" StructName1="i343::Equipment::KnockbackResponseOverrideSet" Min="0" Max="8" />
 		<_34 Name="generated_pad9a3d" Offset="24" Length="4" />
 	</_8F0B48BD356B6E3C331BADD4A707C588>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_CE0741E128F5C0A630856787A8189B5B Name="i343::Equipment::KnockbackResponseOverride" Alt="7308FE0F1314F662" Size="20">
 		<_41 Name="for object" Offset="0" Allowed="obje" Flags="0" />
 		<_14 Name="impulse scalar" Offset="1C" />
 	</_CE0741E128F5C0A630856787A8189B5B>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

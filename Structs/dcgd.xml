@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="dispositionColors" Parents="aTag" Index="-93">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="dispositionColors" Parents="aTag" Index="-93">
 	<_CE659CC0EBA32E6834681C5DE8A037DB Name="DispositionColorGroupDefinition" Alt="663E40EE5A1E4F67" Size="190">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Enemy Colors" Offset="10" GUID="16C6AB269562E98491EADDAF073DDAA2" StructName1="DispositionColorGroupDefinition" Min="0" Max="16" />
 		<_40 Name="Friendly Colors" Offset="24" GUID="16C6AB269562E98491EADDAF073DDAA2" StructName1="DispositionColorGroupDefinition" Min="0" Max="16" />
 		<_40 Name="Fireteam Colors" Offset="38" GUID="16C6AB269562E98491EADDAF073DDAA2" StructName1="DispositionColorGroupDefinition" Min="0" Max="16" />

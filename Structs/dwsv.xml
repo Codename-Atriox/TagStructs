@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="DynamicWorldStatePerViewGlobals" Parents="aTag" Index="-115">
-	<_1399B320DC909D0807124F67325C2F05 Name="DynamicWorldStatePerViewGlobals" Alt="1F38DFEEC862372" Size="88">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="DynamicWorldStatePerViewGlobals" Parents="aTag" Index="-115">
+	<_1399B320DC909D0807124F67325C2F05 Name="DynamicWorldStatePerViewGlobals" Alt="3DA8248279289E64" Size="88">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_D Name="State Flags" Offset="10" StructName1="StateFlagsDefinition">
 			<Flag n="Override Sun" />
 			<Flag n="Has Multiple Suns" />
@@ -69,8 +69,6 @@
 			<Flag n="Override Master Scalar Near Distance" />
 			<Flag n="Override Master Scalar Far" />
 			<Flag n="Override Master Scalar Far Distance" />
-			<Flag n="Override Probe Region Fade Max Angle" />
-			<Flag n="Override Probe Region Fade Min Angle" />
 		</_D>
 		<_F Name="Dynamic Probe Flags" Offset="20" StructName1="DynamicProbeOverrideFlagsDefinition">
 			<Flag n="Override Probe Scalar" />
@@ -189,8 +187,6 @@
 		</_E>
 		<_F Name="SSAO Flags" Offset="3A" StructName1="SSAOOverrideFlagsDefinition">
 			<Flag n="Override Flags" />
-			<Flag n="Override Enable Flags" />
-			<Flag n="Override Hemi Rejection Falloff" />
 			<Flag n="Override GTAO Intensity" />
 			<Flag n="Override Sun AO" />
 			<Flag n="Override Spot Light AO" />
@@ -404,58 +400,46 @@
 			<Flag n="Override Coverage Scale" />
 			<Flag n="Override Coverage Offset" />
 			<Flag n="Override Coverage Scroll Speed" />
-			<Flag n="Override Coverage Strength" />
-			<Flag n="Override Horizon Distance" />
-			<Flag n="Override Atmosphere Start Height" />
-			<Flag n="Override Atmosphere End Height" />
-			<Flag n="Override LOD Distance" />
 			<Flag n="Override Global Wind Interpolation" />
 			<Flag n="Override Wind Direction" />
-			<Flag n="Override HighF Noise Animation Speed" />
-			<Flag n="Override LowF Noise Animation Speed" />
-			<Flag n="Override Raymarch Step Scale" />
-			<Flag n="Override Depth Threshold" />
-			<Flag n="Override Max Depth" />
-			<Flag n="Override Min Distance Horizon Clouds" />
-			<Flag n="Override Min Distance Horizon Fade Start" />
-			<Flag n="Override Max Distance Center Fade Start" />
-			<Flag n="Override Max Distance Center Fade End" />
-			<Flag n="Override Center Fade Position" />
 			<Flag n="Override Cloud Shape Settings" />
 			<Flag n="Override Cloud Lighting Settings" />
 			<Flag n="Override Cloud Shadow Settings" />
-			<Flag n="Override Clouds V2 Settings" />
 		</_D>
 		<_E Name="Cloud Shape Flags" Offset="70" StructName1="CloudShapeFlagsDefinition">
-			<Flag n="Override Low Frequency Noise Scale" />
-			<Flag n="Override Low Frequency Noise Strength" />
-			<Flag n="Override Low Frequency Noise Axis Scale" />
-			<Flag n="Override High Frequency Noise Scale" />
-			<Flag n="Override High Frequency Noise Strength" />
 			<Flag n="Override Curl Noise Scale" />
 			<Flag n="Override Curl Noise Strength" />
-			<Flag n="Override Bottom Erosion Strength" />
-			<Flag n="Override Top Erosion Strength" />
-			<Flag n="Override Top Offset" />
+			<Flag n="Override Volume Start" />
+			<Flag n="Override Volume Height" />
+			<Flag n="Override Base Noise Scale" />
+			<Flag n="Override Detail Noise Scale" />
+			<Flag n="Override Detail Strength" />
+			<Flag n="Override Coverage Strength" />
+			<Flag n="Override Coverage Threshold" />
+			<Flag n="Override Lod Dist Scale" />
 		</_E>
-		<_E Name="Cloud Lighting Flags" Offset="72" StructName1="CloudLightingFlagsDefinition">
-			<Flag n="Override Beer Strength" />
-			<Flag n="Override Powder Strength" />
-			<Flag n="Override Cornette Shanks Strength" />
-			<Flag n="Override Cornette Shanks Spread" />
-			<Flag n="Override Bottom Light" />
-			<Flag n="Override Clouds Fog Scale" />
-			<Flag n="Override Clouds Fog Intensity" />
-			<Flag n="Override Clouds Mie Intensity" />
-			<Flag n="Override Sunlight Intensity" />
+		<_34 Name="generated_pad7b72" Offset="72" Length="2" />
+		<_D Name="Cloud Lighting Flags" Offset="74" StructName1="CloudLightingFlagsDefinition">
 			<Flag n="Override Sunlight Color Tint" />
-			<Flag n="Override Skylight Intensity" />
-			<Flag n="Override Skylight Color Tint" />
-			<Flag n="Override Skylight Top Intensity" />
-			<Flag n="Override Skylight Top Color Tint" />
-			<Flag n="Override Global Alpha" />
-		</_E>
-		<_E Name="Cloud Shadows Flags" Offset="74" StructName1="CloudShadowsFlagsDefinition">
+			<Flag n="Override Density Scale" />
+			<Flag n="Override Scattering Factor" />
+			<Flag n="Override Extinction Factor" />
+			<Flag n="Override Phase Constant" />
+			<Flag n="Override Powder Strength" />
+			<Flag n="Override Direct Sun Intensity" />
+			<Flag n="Override Direct Sun Intensity Phase 0" />
+			<Flag n="Override Ambient Intensity Sky" />
+			<Flag n="Override Ambient Color Sky" />
+			<Flag n="Override Ambient Intensity Ground" />
+			<Flag n="Override Ambient Color Ground" />
+			<Flag n="Override Ray March Step Size" />
+			<Flag n="Override Sun March Dist Scale" />
+			<Flag n="Override Horizon Fade Start" />
+			<Flag n="Override Dither Amount" />
+			<Flag n="Override Atmospheric Scattering Intensity Start" />
+			<Flag n="Override Atmospheric Scattering Intensity End" />
+		</_D>
+		<_E Name="Cloud Shadows Flags" Offset="78" StructName1="CloudShadowsFlagsDefinition">
 			<Flag n="Override Minimum Strength" />
 			<Flag n="Override Gradient" />
 			<Flag n="Override Maximum Strength" />
@@ -465,38 +449,7 @@
 			<Flag n="Override Panning Clouds Shadows Scalar" />
 			<Flag n="Override Panning Clouds Shadows Tilt" />
 		</_E>
-		<_34 Name="generated_pad7b72" Offset="76" Length="2" />
-		<_D Name="Cloud V2 Flags" Offset="78" StructName1="CloudsV2FlagsDefinition">
-			<Flag n="Override Density Scale" />
-			<Flag n="Override Scattering Factor" />
-			<Flag n="Override Extinction Factor" />
-			<Flag n="Override Phase Constant" />
-			<Flag n="Override Powder Strength" />
-			<Flag n="Override Direct Sun Intensity" />
-			<Flag n="Override Ambient Intensity Sun Angle" />
-			<Flag n="Override Ambient Intensity Sky" />
-			<Flag n="Override Ambient Color Sky" />
-			<Flag n="Override Ambient Intensity Ground" />
-			<Flag n="Override Ambient Color Ground" />
-			<Flag n="Override Ray March Step Size" />
-			<Flag n="Override Max Step Count" />
-			<Flag n="Override Sun March Dist Scale" />
-			<Flag n="Override Sun Marching Steps" />
-			<Flag n="Override Horizon Fade Start" />
-			<Flag n="Override Dither Amount" />
-			<Flag n="Override Atmospheric Scattering Intensity Start" />
-			<Flag n="Override Atmospheric Scattering Intensity End" />
-			<Flag n="Override Volume Start" />
-			<Flag n="Override Volume Height" />
-			<Flag n="Override Base Noise Scale" />
-			<Flag n="Override Base Noise Dilation" />
-			<Flag n="Override Detail Noise Scale" />
-			<Flag n="Override Detail Strength" />
-			<Flag n="Override Coverage Strength" />
-			<Flag n="Override Curl Noise Scale" />
-			<Flag n="Override Curl Noise Strength" />
-			<Flag n="Override Coverage Threshold" />
-		</_D>
+		<_34 Name="generated_padc827" Offset="7A" Length="2" />
 		<_D Name="CVW Light Controls Flags" Offset="7C" StructName1="CVWLightsOverrideFlagsDefinition">
 			<Flag n="Enable light controls" />
 			<Flag n="Enable CVW For First Person Objects" />
@@ -538,12 +491,12 @@
 			<Flag n="Override Input" />
 		</_D>
 	</_1399B320DC909D0807124F67325C2F05>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

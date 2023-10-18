@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="terrain_collision_geo" Parents="aTag" Index="-431">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="terrain_collision_geo" Parents="aTag" Index="-431">
 	<_EBE5433152FD500B3D7B6659A21D65A7 Name="i343::Physics::TerrainCollisionGeoTag" Alt="EAAB55065386E905" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Terrain Collision geometry" Offset="10" GUID="D90143BF6D3374D144253F6593842B20" StructName1="i343::Physics::TerrainCollisionGeoTag" Min="0" Max="4096" />
 		<_34 Name="generated_pad85ae" Offset="24" Length="4" />
 	</_EBE5433152FD500B3D7B6659A21D65A7>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_D90143BF6D3374D144253F6593842B20 Name="i343::Physics::TerrainCollisionGeoResource" Alt="608EE857108D465" Size="10">
 		<_43 Name="TerrainCollisionGeoData resource" Offset="0" StructName1="i343::Physics::TerrainCollisionGeoData" Int1="0" GUID="D1BF431937C53386F1A8BB0E8FF8771E" />
 	</_D90143BF6D3374D144253F6593842B20>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_D1BF431937C53386F1A8BB0E8FF8771E Name="i343::Physics::TerrainCollisionGeoData" Alt="5C01BBD3A1165401" Size="14">
 		<_40 Name="Serialized Havok Geometry" Offset="0" GUID="843540FFA589197A6DDC8828B21C8708" StructName1="i343::Physics::TerrainCollisionGeoData" Min="0" Max="4" />

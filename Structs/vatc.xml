@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="VehicleAttachment" Parents="aTag" Index="-460">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="VehicleAttachment" Parents="aTag" Index="-459">
 	<_73D24CF159D081ADEDD4FD7F93959994 Name="i343::Vehicle::VehicleAttachment" Alt="D82F20126177A796" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="properties" Offset="10" GUID="50744BB899C9F0709B980C02AD3936B2" />
 		<_36 Name="Attachment Name" Offset="24" />
 		<_38 Name="attachmentName" Offset="24" GUID="60FC40907166D96B7D15F0919CBF2E1C" />
 	</_73D24CF159D081ADEDD4FD7F93959994>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_50744BB899C9F0709B980C02AD3936B2 Name="i343::Vehicle::VehicleModifiers" Alt="8C8CDF55AEC63471" Size="14">
 		<_37 Name="Vehicle Attachment" type="fgrb" Offset="0" />
@@ -18,9 +18,9 @@
 	<_60FC40907166D96B7D15F0919CBF2E1C Name="i343::Damage::AttachmentNameDefinition" Alt="B6534A24A08DEF8" Size="4">
 		<_2 Name="Attachment Name" Offset="0" />
 	</_60FC40907166D96B7D15F0919CBF2E1C>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_22B7492A72FAD036FE0A20E9809A7A13 Name="i343::Vehicle::VehicleVitalityPropertyModifiersDefinition" Alt="EB7278F695AD819B" Size="4">
 		<_14 Name="health scalar" Offset="0" />

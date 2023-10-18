@@ -1,24 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="forge_characters" Parents="aTag" Index="-133">
-	<_EE6D4A6EE568AF6EEFCC54FDA2C55120 Name="ForgeAICharacterDefinitionList" Alt="583125A024D4D3FD" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
-		<_40 Name="Character definitions" Offset="10" GUID="8A7B41F30B33000DEF5F88F48058189A" StructName1="ForgeAICharacterDefinitionList" Min="0" Max="32" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="forge_characters" Parents="aTag" Index="-133">
+	<_EE6D4A6EE568AF6EEFCC54FDA2C55120 Name="ForgeAICharacterDefinitionList" Alt="748FDE903771DEE" Size="28">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_40 Name="Character definitions" Offset="10" GUID="8A7B41F30B33000DEF5F88F48058189A" StructName1="ForgeAICharacterDefinitionList" Min="0" Max="64" />
 		<_34 Name="generated_padc661" Offset="24" Length="4" />
 	</_EE6D4A6EE568AF6EEFCC54FDA2C55120>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_8A7B41F30B33000DEF5F88F48058189A Name="ForgeAICharacterDefinition" Alt="4751EED89E1EE82E" Size="34">
+	<_8A7B41F30B33000DEF5F88F48058189A Name="ForgeAICharacterDefinition" Alt="A792CB1679692F22" Size="48">
 		<_2 Name="Name" Offset="0" />
 		<_41 Name="Spawned Character" Offset="4" Allowed="char" Flags="4" />
 		<_40 Name="Available weapons" Offset="20" GUID="8A3B41F30B330004FF5F88F48053189A" StructName1="ForgeAICharacterDefinition" Min="0" Max="32" />
+		<_40 Name="Usable vehicles" Offset="34" GUID="8A3B41F60B330012FF5F88F48053189A" StructName1="ForgeAICharacterDefinition" Min="0" Max="32" />
 	</_8A7B41F30B33000DEF5F88F48058189A>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_8A3B41F30B330004FF5F88F48053189A Name="ForgeAIWeaponDefinition" Alt="1137C87C7F002319" Size="1C">
-		<_41 Name="Available weapons" Offset="0" Allowed="weap" Flags="4" />
+	<_8A3B41F30B330004FF5F88F48053189A Name="ForgeAIWeaponDefinition" Alt="30E73B7DC70B650C" Size="20">
+		<_2 Name="Name" Offset="0" />
+		<_41 Name="Weapon" Offset="4" Allowed="weap" Flags="4" />
 	</_8A3B41F30B330004FF5F88F48053189A>
+	<_8A3B41F60B330012FF5F88F48053189A Name="ForgeAIVehicleDefinition" Alt="22F717F606AEDE32" Size="4">
+		<_2 Name="Name" Offset="0" />
+	</_8A3B41F60B330012FF5F88F48053189A>
 </root>

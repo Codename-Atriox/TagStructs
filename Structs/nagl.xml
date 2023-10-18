@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="NavigationGlobals" Parents="aTag" Index="-268">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="NavigationGlobals" Parents="aTag" Index="-268">
 	<_457AEF067FB00A2BE8AA7B9CE0E194DF Name="NavigationGlobalsDefinition" Alt="3C2076432CC991D1" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="data" Offset="10" GUID="BA45FE908A5DE6CEA644F9E15201FB02" StructName1="NavigationGlobalsDefinition" Min="0" Max="1" />
 		<_34 Name="generated_padddbd" Offset="24" Length="4" />
 	</_457AEF067FB00A2BE8AA7B9CE0E194DF>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_BA45FE908A5DE6CEA644F9E15201FB02 Name="NavigationGlobalsData" Alt="858E5CF303C7D377" Size="1C">
 		<_F Name="Clearance Flags" Offset="0" StructName1="i343::Navigation::ClearanceFlags">
@@ -23,8 +23,8 @@
 		<_14 Name="Smash path cost" Offset="14" />
 		<_14 Name="Destroy path cost" Offset="18" />
 	</_BA45FE908A5DE6CEA644F9E15201FB02>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

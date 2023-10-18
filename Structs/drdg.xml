@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="DamageReportingDisplayGlobals" Parents="aTag" Index="-110">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="DamageReportingDisplayGlobals" Parents="aTag" Index="-110">
 	<_7C404C155DCA9C5052E1474E9CAC8E9A Name="Interface::DamageReportingDisplayGlobals" Alt="5CDB745D78743F14" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Damage Reporting Display Map" Offset="10" />
 		<_40 Name="damageDisplayMap" Offset="10" GUID="EE8F455785B2E221CF6D1580BDF746B4" StructName1="Interface::DamageReportingDisplayGlobals" Min="0" Max="1024" />
 		<_34 Name="generated_padfae4" Offset="24" Length="4" />

@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="multiplayer_globals" Parents="aTag" Index="-262">
-	<_EE20468C5DEE8F012D409CC3A3EE7C18 Name="s_multiplayer_globals_definition" Alt="7AE1415E8B88834B" Size="38">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="multiplayer_globals" Parents="aTag" Index="-262">
+	<_EE20468C5DEE8F012D409CC3A3EE7C18 Name="s_multiplayer_globals_definition" Alt="EF4644FF70156A51" Size="38">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="universal" Offset="10" GUID="345F45B72F00F8900A5D9AEC879F73D4" StructName1="s_multiplayer_globals_definition" Min="0" Max="1" />
 		<_40 Name="runtime" Offset="24" GUID="48564D056F17154D93F87F54B362026A" StructName1="s_multiplayer_globals_definition" Min="0" Max="1" />
 	</_EE20468C5DEE8F012D409CC3A3EE7C18>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_345F45B72F00F8900A5D9AEC879F73D4 Name="s_multiplayer_universal_globals_definition" Alt="50DB286C7E072391" Size="9C">
+	<_345F45B72F00F8900A5D9AEC879F73D4 Name="s_multiplayer_universal_globals_definition" Alt="DE3EE28F6D54C316" Size="9C">
 		<_40 Name="teams" Offset="0" GUID="3B5D4AE4C47567441A348142943588C8" StructName1="s_multiplayer_universal_globals_definition" Min="0" Max="32" />
 		<_40 Name="player starting profile" Offset="14" GUID="6ED940DC5AFB6481B73D1AC4855CB02A" StructName1="s_multiplayer_universal_globals_definition" Min="0" Max="1048576" />
 		<_41 Name="random player names v2" Offset="28" Allowed="uslg" Flags="0" />
@@ -42,20 +42,19 @@
 		<_41 Name="Spotting Service Globals" Offset="180" Allowed="ssgd" Flags="0" />
 		<_41 Name="Unarmed Weapon Reference" Offset="19C" Allowed="weap" Flags="4" />
 	</_48564D056F17154D93F87F54B362026A>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_3B5D4AE4C47567441A348142943588C8 Name="TeamDefinition" Alt="94981C88D4F9EDAF" Size="2C">
+	<_3B5D4AE4C47567441A348142943588C8 Name="TeamDefinition" Alt="8120FD0F1ADE1DC2" Size="28">
 		<_2 Name="name" Offset="0" />
 		<_1F Name="primary color" Offset="4" />
 		<_1F Name="secondary color" Offset="10" />
 		<_37 Name="- Emblem Data" type="fgrb" Offset="1C" />
 		<_2 Name="themeName" Offset="1C" />
-		<_2 Name="emblemShaderName" Offset="20" />
-		<_2 Name="coatingName" Offset="24" />
-		<_2 Name="markerName" Offset="28" />
-		<_37 Name="" type="fgre" Offset="2C" />
+		<_2 Name="coatingName" Offset="20" />
+		<_2 Name="markerName" Offset="24" />
+		<_37 Name="" type="fgre" Offset="28" />
 	</_3B5D4AE4C47567441A348142943588C8>
 	<_6ED940DC5AFB6481B73D1AC4855CB02A Name="scenario_starting_profile" Alt="66137DF9228D4251" Size="EC">
 		<_0 Name="name" Offset="0" />

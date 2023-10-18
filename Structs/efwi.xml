@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="effect_wind" Parents="aTag" Index="-123">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="effect_wind" Parents="aTag" Index="-123">
 	<_75614B62358B28A2C53B6AC58D1410E6 Name="i343::Effects::EffectWindMotor" Alt="9D316FD605B3CF23" Size="90">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_C Name="Type" Offset="10" StructName1="i343::Wind::WindInfluencerVolumeTypeEnum">
 			<Flag n="Blocker" />
 			<Flag n="Directional Emitter" />
@@ -13,9 +13,9 @@
 		<_38 Name="Scale Y" Offset="58" GUID="33014967E0B2D627F99B8D5DA11D8CF2" />
 		<_38 Name="Scale Z" Offset="74" GUID="33014967E0B2D627F99B8D5DA11D8CF2" />
 	</_75614B62358B28A2C53B6AC58D1410E6>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_33014967E0B2D627F99B8D5DA11D8CF2 Name="i343::Effects::EffectWindFunction" Alt="B0522E26F1F81AF8" Size="1C">
 		<_A Name="Input Variable" type="fnin" Offset="0" StructName1="i343::Effects::WindFunctionInputs">
@@ -41,13 +41,13 @@
 		<_37 Name="Mapping" type="fned" Offset="4" />
 		<_38 Name="Mapping" Offset="4" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_33014967E0B2D627F99B8D5DA11D8CF2>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

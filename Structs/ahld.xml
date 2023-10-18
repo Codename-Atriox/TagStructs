@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="AutoHlodSettings" Parents="aTag" Index="-14">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:12 PM" Name="AutoHlodSettings" Parents="aTag" Index="-14">
 	<_CB894B9DAD1139FCF630954290D1D040 Name="AutoHlodSettings" Alt="84C6065709105F4F" Size="98">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="HLOD Auto-Generation Parameters" Offset="10" />
 		<_37 Name="BSP Cells" type="fgrb" Offset="10" />
 		<_6 Name="X Splits" Offset="10" />

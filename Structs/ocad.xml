@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="customizationattachmentconfiguration" Parents="aTag" Index="-286">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="customizationattachmentconfiguration" Parents="aTag" Index="-286">
 	<_94664AE2D3278AD6DFB9EF1CB7E90FB6 Name="i343::ObjectCustomization::AttachmentConfiguration" Alt="DF16B87F615CE05B" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Model Attachments" Offset="10" GUID="73F64FE0A49A90A78413E4D1B912E0E9" StructName1="i343::ObjectCustomization::AttachmentConfiguration" Min="0" Max="16" />
 		<_34 Name="generated_pad5112" Offset="24" Length="4" />
 	</_94664AE2D3278AD6DFB9EF1CB7E90FB6>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_73F64FE0A49A90A78413E4D1B912E0E9 Name="i343::ObjectCustomization::ModelAttachment" Alt="72DF36CEC39C3F7F" Size="38">
 		<_41 Name="Attachment Model" Offset="0" Allowed="aTag" Flags="0" />
@@ -32,9 +32,9 @@
 			<Flag n="Bottom" />
 		</_B>
 	</_73F64FE0A49A90A78413E4D1B912E0E9>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_3CC8475FD63B9819524421FF93E1E409 Name="i343::ObjectCustomization::Markers" Alt="2CB9628D9979B729" Size="28">
 		<_2 Name="Marker Name" type="sted" Offset="0" />

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="GraphicsPresetDefinitions" Parents="aTag" Index="-173">
-	<_48167FAFEEBBDD8081C0E9C54C2EBDCC Name="PresetDefinitionsTag" Alt="6A13C4AC5D400DC7" Size="258">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="GraphicsPresetDefinitions" Parents="aTag" Index="-173">
+	<_48167FAFEEBBDD8081C0E9C54C2EBDCC Name="PresetDefinitionsTag" Alt="1B9A806ABB761CE3" Size="258">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Basic Presets" Offset="10" GUID="96294688F3647F16244C6F75100C655B" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
 		<_37 Name="Preset Details" type="fgrb" Offset="24" />
 		<_40 Name="Reflection Presets" Offset="24" GUID="DBBC39AC6581E7D05E385AEDD5A23FEE" StructName1="PresetDefinitionsTag" Min="0" Max="32" />
@@ -35,9 +35,9 @@
 		<_37 Name="" type="fgre" Offset="254" />
 		<_34 Name="generated_pad3e85" Offset="254" Length="4" />
 	</_48167FAFEEBBDD8081C0E9C54C2EBDCC>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_96294688F3647F16244C6F75100C655B Name="BasicPresetDefinition" Alt="F31111F8C4A420A6" Size="40">
 		<_0 Name="Preset" Offset="0" />
@@ -255,7 +255,7 @@
 		<_38 Name="vram" Offset="98" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="A0" />
 	</_439E505B90DA05B916ED8B428738A756>
-	<_E919C2A2A3A09761DE22C5A25BF3FC36 Name="SkyQualityPresetDefinition" Alt="4285E57A55A2723C" Size="12C">
+	<_E919C2A2A3A09761DE22C5A25BF3FC36 Name="SkyQualityPresetDefinition" Alt="B3F661FE4FC569E0" Size="DC">
 		<_0 Name="Preset" Offset="0" />
 		<_F Name="Volumetric Clouds Enable Flag" Offset="20" StructName1="SkyQualityPresetDefinition::EnableVolumetricCloudsFlag">
 			<Flag n="Enabled" />
@@ -267,27 +267,23 @@
 		<_6 Name="Perlin Worley Noise Resolution" Offset="30" />
 		<_6 Name="Worley Noise Resolution" Offset="34" />
 		<_6 Name="Curl Noise Resolution" Offset="38" />
-		<_6 Name="Volumetric Clouds Shape Ray Steps" Offset="3C" />
-		<_6 Name="Volumetric Clouds Lighting Ray Steps" Offset="40" />
-		<_14 Name="Volumetric Clouds Beer Scale" Offset="44" />
-		<_14 Name="Volumetric Clouds Cornette Scale" Offset="48" />
-		<_14 Name="Volumetric Clouds Coverage Strength" Offset="4C" />
-		<_6 Name="Volumetric Clouds Perf Tier" Offset="50" />
-		<_37 Name="Single Screen" type="fgrb" Offset="54" />
-		<_38 Name="Single Screen Preset" Offset="54" GUID="15064E7F964671209EF5ECB0680E242A" />
-		<_37 Name="" type="fgre" Offset="88" />
-		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="88" />
-		<_38 Name="2 Player Splitscreen Preset" Offset="88" GUID="15064E7F964671209EF5ECB0680E242A" />
-		<_37 Name="" type="fgre" Offset="BC" />
-		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="BC" />
-		<_38 Name="3 Player Splitscreen Preset" Offset="BC" GUID="15064E7F964671209EF5ECB0680E242A" />
-		<_37 Name="" type="fgre" Offset="F0" />
-		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="F0" />
-		<_38 Name="4 Player Splitscreen Preset" Offset="F0" GUID="15064E7F964671209EF5ECB0680E242A" />
-		<_37 Name="" type="fgre" Offset="124" />
-		<_37 Name="VRAM" type="fgrb" Offset="124" />
-		<_38 Name="vram" Offset="124" GUID="80CBCBAC42C3290A222918B339A97396" />
-		<_37 Name="" type="fgre" Offset="12C" />
+		<_6 Name="Volumetric Clouds Lighting Ray Steps" Offset="3C" />
+		<_6 Name="Volumetric Clouds Max Step Count" Offset="40" />
+		<_37 Name="Single Screen" type="fgrb" Offset="44" />
+		<_38 Name="Single Screen Preset" Offset="44" GUID="15064E7F964671209EF5ECB0680E242A" />
+		<_37 Name="" type="fgre" Offset="68" />
+		<_37 Name="2 Player Splitscreen" type="fgrb" Offset="68" />
+		<_38 Name="2 Player Splitscreen Preset" Offset="68" GUID="15064E7F964671209EF5ECB0680E242A" />
+		<_37 Name="" type="fgre" Offset="8C" />
+		<_37 Name="3 Player Splitscreen" type="fgrb" Offset="8C" />
+		<_38 Name="3 Player Splitscreen Preset" Offset="8C" GUID="15064E7F964671209EF5ECB0680E242A" />
+		<_37 Name="" type="fgre" Offset="B0" />
+		<_37 Name="4 Player Splitscreen" type="fgrb" Offset="B0" />
+		<_38 Name="4 Player Splitscreen Preset" Offset="B0" GUID="15064E7F964671209EF5ECB0680E242A" />
+		<_37 Name="" type="fgre" Offset="D4" />
+		<_37 Name="VRAM" type="fgrb" Offset="D4" />
+		<_38 Name="vram" Offset="D4" GUID="80CBCBAC42C3290A222918B339A97396" />
+		<_37 Name="" type="fgre" Offset="DC" />
 	</_E919C2A2A3A09761DE22C5A25BF3FC36>
 	<_AE215BB8A74EC18B1091B2EFC096C861 Name="TemporalAAPresetDefinition" Alt="23BC85D8BAD454DF" Size="50">
 		<_0 Name="Preset" Offset="0" />
@@ -751,9 +747,9 @@
 		<_38 Name="vram" Offset="4C" GUID="80CBCBAC42C3290A222918B339A97396" />
 		<_37 Name="" type="fgre" Offset="54" />
 	</_A5E6462F48E3E42B44F48D21B08677F5>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_80CBCBAC42C3290A222918B339A97396 Name="SpecControlVramSettings" Alt="CC1BC47848AD3D3A" Size="8">
 		<_6 Name="Initial VRAM usage" Offset="0" />
@@ -795,7 +791,7 @@
 		<_34 Name="generated_padf8ff" Offset="11" Length="3" />
 		<_14 Name="Local Lights Shadow Sampling Falloff" Offset="14" />
 	</_E63D07E47E15EDB7B2E15AEA91D3BBFF>
-	<_15064E7F964671209EF5ECB0680E242A Name="SkyQualityPresetDefinition::SplitscreenPreset" Alt="DEEBB8AA7CC6BA98" Size="34">
+	<_15064E7F964671209EF5ECB0680E242A Name="SkyQualityPresetDefinition::SplitscreenPreset" Alt="AB595CC93F844DB1" Size="24">
 		<_F Name="Volumetric Clouds Enable Flag" Offset="0" StructName1="SkyQualityPresetDefinition::EnableVolumetricCloudsFlag">
 			<Flag n="Enabled" />
 		</_F>
@@ -806,12 +802,8 @@
 		<_6 Name="Perlin Worley Noise Resolution" Offset="10" />
 		<_6 Name="Worley Noise Resolution" Offset="14" />
 		<_6 Name="Curl Noise Resolution" Offset="18" />
-		<_6 Name="Volumetric Clouds Shape Ray Steps" Offset="1C" />
-		<_6 Name="Volumetric Clouds Lighting Ray Steps" Offset="20" />
-		<_14 Name="Volumetric Clouds Beer Scale" Offset="24" />
-		<_14 Name="Volumetric Clouds Cornette Scale" Offset="28" />
-		<_14 Name="Volumetric Clouds Coverage Strength" Offset="2C" />
-		<_6 Name="Volumetric Clouds Perf Tier" Offset="30" />
+		<_6 Name="Volumetric Clouds Lighting Ray Steps" Offset="1C" />
+		<_6 Name="Volumetric Clouds Max Step Count" Offset="20" />
 	</_15064E7F964671209EF5ECB0680E242A>
 	<_582643DAC05A6C7D8E25835083416E24 Name="TemporalAAPresetDefinition::SplitscreenPreset" Alt="407BF3E7D7FA96D" Size="8">
 		<_F Name="Enable Flag" Offset="0" StructName1="TemporalAAPresetDefinition::EnableTemporalAAFlag">

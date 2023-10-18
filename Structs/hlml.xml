@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="hlodcutoffmateriallist" Parents="aTag" Index="-202">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="hlodcutoffmateriallist" Parents="aTag" Index="-202">
 	<_34EE11E8FADE9A68BFB073F8AD821838 Name="HlodMaterialCutOffList" Alt="943E6E77DB57E03" Size="38">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="HLOD Materials to cut off mesh parts" Offset="10" GUID="032048272C202B977D30DABE766C5AD4" StructName1="HlodMaterialCutOffList" Min="0" Max="1024000" />
 		<_40 Name="HLOD Materials to put the geo directly into the HLOD, bypassing simplygon" Offset="24" GUID="032048272C202B977D30DABE766C5AD4" StructName1="HlodMaterialCutOffList" Min="0" Max="1024000" />
 	</_34EE11E8FADE9A68BFB073F8AD821838>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_032048272C202B977D30DABE766C5AD4 Name="HlodMaterialCutOffMeshParts" Alt="1B315E02051AAD86" Size="1C">
 		<_41 Name="Cut off mesh parts by this material" Offset="0" Allowed="shdr, shdv, mat , ngfc" Flags="9" />
 	</_032048272C202B977D30DABE766C5AD4>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

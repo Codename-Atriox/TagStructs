@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="DarkRoomAssembly" Parents="aTag" Index="-101">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="DarkRoomAssembly" Parents="aTag" Index="-101">
 	<_F0FB4BC65BACEE3DD3D4B205AE0716B7 Name="i343::DarkRoom::DarkRoomAssemblyDefinition" Alt="18B7F0A12F922C2D" Size="88">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Lighting Specs" Offset="10" GUID="C94B490EB5B082A3D6FF36ED87214B58" StructName1="i343::DarkRoom::DarkRoomAssemblyDefinition" Min="0" Max="32" />
 		<_40 Name="Asset Specs" Offset="24" GUID="733048EFE1E63C7AB6488DA48FE017CD" StructName1="i343::DarkRoom::DarkRoomAssemblyDefinition" Min="0" Max="4096" />
 		<_40 Name="Camera Specs" Offset="38" GUID="73D94D7CA2DA92E4D6E7F1A2B2003614" StructName1="i343::DarkRoom::DarkRoomAssemblyDefinition" Min="0" Max="128" />

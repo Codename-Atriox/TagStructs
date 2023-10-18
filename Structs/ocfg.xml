@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="object_configuration" Parents="aTag" Index="-288">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="object_configuration" Parents="aTag" Index="-288">
 	<_711A480E14570B20600962CB9E627350 Name="i343::Objects::ObjectConfigurationDefinition" Alt="C3D9C043246EC83B" Size="58">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="OBJECT" type="fgrb" Offset="10" />
 		<_38 Name="object" Offset="10" GUID="0AA94B73A4C01631576DD6B5B301E444" />
 		<_37 Name="" type="fgre" Offset="54" />
 		<_34 Name="generated_pad01af" Offset="54" Length="4" />
 	</_711A480E14570B20600962CB9E627350>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_0AA94B73A4C01631576DD6B5B301E444 Name="i343::Objects::ObjectConfigurationDefinitionInternal" Alt="936DFCFB0DD06DC4" Size="44">
 		<_41 Name="Object Definition" Offset="0" Allowed="obje" Flags="0" />
@@ -20,8 +20,8 @@
 		<_2 Name="customization set override" Offset="40" />
 		<_37 Name="" type="fgre" Offset="44" />
 	</_0AA94B73A4C01631576DD6B5B301E444>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

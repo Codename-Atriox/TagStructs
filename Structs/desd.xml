@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="damage_effect_sounds" Parents="aTag" Index="-98">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="damage_effect_sounds" Parents="aTag" Index="-98">
 	<_832144BC98B571FB0B3025E7831B6B7F Name="i343::Damage::DamageEffectSoundsDefinition" Alt="4605AABD62B07953" Size="348">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_14 Name="dealt cooldown" Offset="10" />
 		<_14 Name="received cooldown" Offset="14" />
 		<_37 Name="Player Dealt Damage" type="fgrb" Offset="18" />

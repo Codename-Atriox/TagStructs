@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="CageCameraDefinition" Parents="cage,aTag" Index="-49">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="CageCameraDefinition" Parents="cage,aTag" Index="-49">
 	<_ABD44190CCE3DC94F15C58F68DBF3E97 Name="i343::CageSystem::CageCameraDefinitionTag" Alt="A4D792A32BCD1E84" Size="40">
 		<_38 Name="CageDefinition" Offset="0" GUID="B0224A2E2114B783A82596FF9252412D" />
 		<_40 Name="Camera Data" Offset="28" GUID="15104C55E4D7D35C4E5679228EE7D70B" StructName1="i343::CageSystem::CageCameraDefinitionTag" Min="0" Max="128" />
 		<_34 Name="generated_pad7d32" Offset="3C" Length="4" />
 	</_ABD44190CCE3DC94F15C58F68DBF3E97>
 	<_B0224A2E2114B783A82596FF9252412D Name="i343::CageSystem::CageDefinitionTag" Alt="CC0F69025BF38B93" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Points" Offset="10" GUID="BE8F401AC139960BFEBB5F67A178C1DD" StructName1="i343::CageSystem::CageDefinitionTag" Min="0" Max="128" />
 		<_34 Name="generated_pad90a9" Offset="24" Length="4" />
 	</_B0224A2E2114B783A82596FF9252412D>

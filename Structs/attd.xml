@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="AudioThreatGlobals" Parents="aTag" Index="-31">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="AudioThreatGlobals" Parents="aTag" Index="-31">
 	<_989D26A6F553BD224F599AAD1F82E730 Name="Audio::Game::AudioThreatGlobalsDefinition" Alt="6CA31DCC2F391E05" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="Audio Threat Globals" type="fgrb" Offset="10" />
 		<_36 Name="Audio Threat System Global Settings" Offset="10" />
 		<_40 Name="Audio Threats" Offset="10" GUID="345D40A9222735EEA90A099DB3C7E236" StructName1="Audio::Game::AudioThreatGlobalsDefinition" Min="0" Max="8" />

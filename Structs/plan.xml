@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="UIPlatformAnimations" Parents="aTag" Index="-312">
-	<_D72D4AF06B2141E5A681E727A8EE358F Name="Interface::Customization::UIPlatformAnimationsTag" Alt="E3273B474E80EDEC" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="UIPlatformAnimations" Parents="aTag" Index="-312">
+	<_D72D4AF06B2141E5A681E727A8EE358F Name="Interface::Customization::UIPlatformAnimationsTag" Alt="3A63DAEBF9C58BF9" Size="28">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Customization Platform Animation Settings" Offset="10" GUID="E0304006013F9574FC0886F88EDA9D7C" StructName1="Interface::Customization::UIPlatformAnimationsTag" Min="0" Max="20" />
 		<_34 Name="generated_padd22a" Offset="24" Length="4" />
 	</_D72D4AF06B2141E5A681E727A8EE358F>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_E0304006013F9574FC0886F88EDA9D7C Name="Interface::Customization::UIPlatformAnimationSettings" Alt="4B2F95A8321D0AD6" Size="4C">
+	<_E0304006013F9574FC0886F88EDA9D7C Name="Interface::Customization::UIPlatformAnimationSettings" Alt="DD3A0D210A983936" Size="4C">
 		<_2 Name="Platfrom Name" Offset="0" />
 		<_B Name="Platform type" Offset="4" StructName1="Interface::Customization::Platforms">
 			<Flag n="SpartanPlatform0" />
@@ -20,6 +20,10 @@
 			<Flag n="SpartanPlatform5" />
 			<Flag n="SpartanPlatform6" />
 			<Flag n="SpartanPlatform7" />
+			<Flag n="SpartanPlatform8" />
+			<Flag n="SpartanPlatform9" />
+			<Flag n="SpartanPlatform10" />
+			<Flag n="SpartanPlatform11" />
 			<Flag n="SpartanPlatformsCount" />
 			<Flag n="VehiclePlatform" />
 		</_B>
@@ -57,8 +61,8 @@
 		<_1C Name="Default Orientation" Offset="20" />
 		<_0 Name="Platform Camera Point" Offset="2C" />
 	</_E0304006013F9574FC0886F88EDA9D7C>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

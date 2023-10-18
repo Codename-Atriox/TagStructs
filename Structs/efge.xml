@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="generator_system" Parents="aTag" Index="-121">
-	<_B5E84D1310DFE095F36467228B0A8348 Name="i343::Effects::GeneratorSystemDefinition" Alt="EB8CE026832FF8D9" Size="50">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="generator_system" Parents="aTag" Index="-121">
+	<_B5E84D1310DFE095F36467228B0A8348 Name="i343::Effects::GeneratorSystemDefinition" Alt="70B4293162E14AF2" Size="50">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="parent" type="parr" Offset="10" Allowed="efge" Flags="1" />
 		<_D Name="Generator system flags" Offset="2C" StructName1="i343::Effects::GeneratorSystemDefinitionFlags">
 			<Flag n="Draw in first person" />
@@ -20,11 +20,11 @@
 		<_40 Name="Generators" Offset="38" GUID="C5BB49A7A002CA15A37E74A3833D406B" StructName1="i343::Effects::GeneratorSystemDefinition" Min="0" Max="8" />
 		<_34 Name="generated_pad1988" Offset="4C" Length="4" />
 	</_B5E84D1310DFE095F36467228B0A8348>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_C5BB49A7A002CA15A37E74A3833D406B Name="i343::Effects::GeneratorDefinition" Alt="9117E88847D72651" Size="148">
+	<_C5BB49A7A002CA15A37E74A3833D406B Name="i343::Effects::GeneratorDefinition" Alt="E4C22183E5BF5889" Size="148">
 		<_2 Name="name" Offset="0" />
 		<_D Name="Generator flags" Offset="4" StructName1="i343::Effects::GeneratorDefinitionFlags">
 			<Flag n="Disabled for debugging" />
@@ -58,11 +58,11 @@
 		<_7 Name="m_simulatorPipelineState" Offset="138" />
 		<_7 Name="m_rendererPipelineStates" Offset="140" />
 	</_C5BB49A7A002CA15A37E74A3833D406B>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
-	<_3C15440613810D23A7F03D07AA769459 Name="Material" Alt="6D63A11458EFC4E4" Size="64">
+	<_3C15440613810D23A7F03D07AA769459 Name="Material" Alt="2035327946DE6B51" Size="64">
 		<_41 Name="material shader" Offset="0" Allowed="shdr, shdv, mat , ngfc" Flags="0" />
 		<_40 Name="material parameters" Offset="1C" GUID="739A40ED1B41042F195BD40DADDD1564" StructName1="Material" Min="0" Max="1335" />
 		<_40 Name="postprocess definition" Offset="30" GUID="C85241C01D50D0C3CE98F3A39E5B9057" StructName1="Material" Min="0" Max="1" />
@@ -213,7 +213,7 @@
 		<_3C Name="bitmap extern index" Offset="98" />
 		<_34 Name="generated_pad50da" Offset="99" Length="3" />
 	</_739A40ED1B41042F195BD40DADDD1564>
-	<_C85241C01D50D0C3CE98F3A39E5B9057 Name="MaterialPostprocessDefinition" Alt="4E47845713C3C20A" Size="A0">
+	<_C85241C01D50D0C3CE98F3A39E5B9057 Name="MaterialPostprocessDefinition" Alt="F4E1371F8736D451" Size="A0">
 		<_40 Name="textures" Offset="0" GUID="3CD64BE1CD9812EC0BBCA596B33BFE48" StructName1="MaterialPostprocessDefinition" Min="0" Max="32" />
 		<_6 Name="textures to clear" Offset="14" />
 		<_40 Name="functions" Offset="18" GUID="F54D44725471F0E39A007BEDAD55A516" StructName1="MaterialPostprocessDefinition" Min="0" Max="267" />
@@ -385,7 +385,7 @@
 	</_C15A4E18708F4288F0C55808B38BD440>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

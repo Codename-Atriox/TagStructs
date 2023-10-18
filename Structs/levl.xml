@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="level" Parents="lobj,aTag" Index="-228">
-	<_68474AC1DF6E6B71E8D1DC158EC25833 Name="Level" Alt="2AE9970D838A7B3C" Size="C90">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:16 PM" Name="level" Parents="lobj,aTag" Index="-228">
+	<_68474AC1DF6E6B71E8D1DC158EC25833 Name="Level" Alt="4F0B42E0D4CE419B" Size="C70">
 		<_38 Name="LevelObjects" Offset="0" GUID="3F0C45E42D390AA601208E3F9E95DEA2" />
 		<_40 Name="child scenarios" Offset="690" GUID="BE3F4CA8BA227682BD5EB349A9B94C22" StructName1="Level" Min="0" Max="1024" />
 		<_B Name="type" Offset="6A4" StructName1="e_scenario_type">
@@ -126,51 +126,49 @@
 		<_38 Name="HLODs Switch Distance Multipliers" Offset="BB8" GUID="42A51C651EBA162A521651FA165ADBAC" />
 		<_37 Name="" type="fgre" Offset="BD4" />
 		<_41 Name="Auto-Generated HLODs settings" Offset="BD4" Allowed="ahld" Flags="0" />
-		<_41 Name="Unprocessed level" Offset="BF0" Allowed="ulvl" Flags="9" />
-		<_37 Name="" type="fgre" Offset="C0C" />
-		<_F Name="Dynamic Wind" Offset="C0C" StructName1="EnableDynamicWindFlag">
+		<_37 Name="" type="fgre" Offset="BF0" />
+		<_F Name="Dynamic Wind" Offset="BF0" StructName1="EnableDynamicWindFlag">
 			<Flag n="Enabled" />
 		</_F>
-		<_F Name="Push bending" Offset="C0D" StructName1="EnableInteractionFlag">
+		<_F Name="Push bending" Offset="BF1" StructName1="EnableInteractionFlag">
 			<Flag n="Enabled" />
 		</_F>
-		<_34 Name="generated_padbbd4" Offset="C0E" Length="2" />
-		<_40 Name="Placement Bsp Map" Offset="C10" GUID="D7594C0AF745E71580AA70AC874226E0" StructName1="Level" Min="0" Max="1024" />
-		<_2 Name="Audio level state id" Offset="C24" />
-		<_17 Name="Safe Region Extents Override Min" Offset="C28" />
-		<_17 Name="Safe Region Extents Override Max" Offset="C34" />
-		<_40 Name="Preimported Animation Node Graphs" Offset="C40" GUID="921C4B38703B225935D8489EB5D00A42" StructName1="Level" Min="0" Max="256" />
-		<_40 Name="Sorted Module Lookup Table" Offset="C54" GUID="F91C40ED614B49916E3640898E41AB2B" StructName1="Level" Min="0" Max="1048576" />
-		<_36 Name="Lua User Libraries" Offset="C68" />
-		<_40 Name="Lua User Libraries" Offset="C68" GUID="737041B838464D85B3CB9F7594612A80" StructName1="Level" Min="0" Max="32" />
-		<_D Name="Decorators Enabled Low Spec" Offset="C7C" StructName1="SpecControlSettingsMatrixBool::Flags">
+		<_34 Name="generated_padbbd4" Offset="BF2" Length="2" />
+		<_40 Name="Placement Bsp Map" Offset="BF4" GUID="D7594C0AF745E71580AA70AC874226E0" StructName1="Level" Min="0" Max="1024" />
+		<_2 Name="Audio level state id" Offset="C08" />
+		<_17 Name="Safe Region Extents Override Min" Offset="C0C" />
+		<_17 Name="Safe Region Extents Override Max" Offset="C18" />
+		<_40 Name="Preimported Animation Node Graphs" Offset="C24" GUID="921C4B38703B225935D8489EB5D00A42" StructName1="Level" Min="0" Max="256" />
+		<_40 Name="Sorted Module Lookup Table" Offset="C38" GUID="F91C40ED614B49916E3640898E41AB2B" StructName1="Level" Min="0" Max="1048576" />
+		<_36 Name="Lua User Libraries" Offset="C4C" />
+		<_40 Name="Lua User Libraries" Offset="C4C" GUID="737041B838464D85B3CB9F7594612A80" StructName1="Level" Min="0" Max="32" />
+		<_D Name="Decorators Enabled Low Spec" Offset="C60" StructName1="SpecControlSettingsMatrixBool::Flags">
 			<Flag n="1 Player" />
 			<Flag n="2 Players" />
 			<Flag n="3 Players" />
 			<Flag n="4 Players" />
 		</_D>
-		<_D Name="Decorators Enabled Medium Spec" Offset="C80" StructName1="SpecControlSettingsMatrixBool::Flags">
+		<_D Name="Decorators Enabled Medium Spec" Offset="C64" StructName1="SpecControlSettingsMatrixBool::Flags">
 			<Flag n="1 Player" />
 			<Flag n="2 Players" />
 			<Flag n="3 Players" />
 			<Flag n="4 Players" />
 		</_D>
-		<_D Name="Decorators Enabled High Spec" Offset="C84" StructName1="SpecControlSettingsMatrixBool::Flags">
+		<_D Name="Decorators Enabled High Spec" Offset="C68" StructName1="SpecControlSettingsMatrixBool::Flags">
 			<Flag n="1 Player" />
 			<Flag n="2 Players" />
 			<Flag n="3 Players" />
 			<Flag n="4 Players" />
 		</_D>
-		<_D Name="Decorators Enabled Ultra Spec" Offset="C88" StructName1="SpecControlSettingsMatrixBool::Flags">
+		<_D Name="Decorators Enabled Ultra Spec" Offset="C6C" StructName1="SpecControlSettingsMatrixBool::Flags">
 			<Flag n="1 Player" />
 			<Flag n="2 Players" />
 			<Flag n="3 Players" />
 			<Flag n="4 Players" />
 		</_D>
-		<_34 Name="generated_pad0889" Offset="C8C" Length="4" />
 	</_68474AC1DF6E6B71E8D1DC158EC25833>
 	<_3F0C45E42D390AA601208E3F9E95DEA2 Name="LevelObjects" Alt="371C1A2C34CFA136" Size="690">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="decorators" type="fgrb" Offset="10" />
 		<_38 Name="decorators" Offset="10" GUID="DA4B412BDCA3DA7EF6507BACBED1DC74" />
 		<_37 Name="" type="fgre" Offset="24" />
@@ -429,7 +427,7 @@
 		<_41 Name="tag" Offset="0" Allowed="rtlt" Flags="4" />
 		<_1 Name="Editor Display Name" Offset="1C" />
 	</_2F2C4CC5AC8C71C3805B88B8A7D241AA>
-	<_88D8441BC9E1F611A2A46707962629DF Name="RuntimeLayerData" Alt="D131C51EFD84314C" Size="BC">
+	<_88D8441BC9E1F611A2A46707962629DF Name="RuntimeLayerData" Alt="33B3B101475B96C2" Size="BC">
 		<_2 Name="Name" Offset="0" />
 		<_2 Name="LayerTagName" Offset="4" />
 		<_D Name="Flags" Offset="8" StructName1="RuntimeLayerFlags">
@@ -505,9 +503,9 @@
 	<_737041B838464D85B3CB9F7594612A80 Name="s_luaUserLibrary" Alt="CAA938FDB113F6B6" Size="1C">
 		<_41 Name="lua library" Offset="0" Allowed="luas" Flags="0" />
 	</_737041B838464D85B3CB9F7594612A80>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_DA4B412BDCA3DA7EF6507BACBED1DC74 Name="s_scenario_new_decorator_definition" Alt="41EAC69938206165" Size="14">
 		<_40 Name="sets" Offset="0" GUID="4FC747DD40576308BE229502AED99352" StructName1="s_scenario_new_decorator_definition" Min="0" Max="65536" />
@@ -2772,7 +2770,7 @@
 		<_3E Name="Begin" Offset="0" />
 		<_3E Name="End" Offset="4" />
 	</_DCA74CD4322516A532410920A0CD1759>
-	<_4212460D6B401378847AA26885E0311B Name="ModuleComponentLookupTable" Alt="55CD5CC6AE9BEFF7" Size="14">
+	<_4212460D6B401378847AA26885E0311B Name="ModuleComponentLookupTable" Alt="3A13BBF0D147E6DC" Size="14">
 		<_40 Name="Component Table" Offset="0" GUID="1313468AF4C99496A4652945B836ED37" StructName1="ModuleComponentLookupTable" Min="0" Max="262144" />
 	</_4212460D6B401378847AA26885E0311B>
 	<_44314B57D35A765CE394E400A265D6A0 Name="PlacementIndexData" Alt="43C5F5A0AE843A45" Size="4">
@@ -2793,9 +2791,9 @@
 	<_D22A4BBAABC195916F574C6FA1E6CC20 Name="AcousticPortalPlacementMapEntry" Alt="CA2C6A6CE851311" Size="4">
 		<_6 Name="acoustic portal placement reference" Offset="0" />
 	</_D22A4BBAABC195916F574C6FA1E6CC20>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_4FC747DD40576308BE229502AED99352 Name="s_decorator_scenario_set_placements" Alt="E9954B807A103E2F" Size="4C">
 		<_41 Name="decorator asset" Offset="0" Allowed="dcat" Flags="1" />
@@ -4158,7 +4156,7 @@
 		<_40 Name="in use masks" Offset="54" GUID="3A2344490C33AABCA9870D8A1EAB1083" StructName1="s_collision_kd_hierarchy_static" Min="0" Max="2048" />
 		<_40 Name="cluster table" Offset="68" GUID="1A23C4491CABDABC19A70D8AAEABD083" StructName1="s_collision_kd_hierarchy_static" Min="0" Max="32767" />
 	</_1F934BF39AC5DB454C76F360902C2890>
-	<_1313468AF4C99496A4652945B836ED37 Name="ModuleComponentLookupEntry" Alt="B2A66146201BEFA9" Size="18">
+	<_1313468AF4C99496A4652945B836ED37 Name="ModuleComponentLookupEntry" Alt="AC149991CFEFB676" Size="18">
 		<_3F Name="Hash" Offset="0" />
 		<_3D Name="HS Type" Offset="8" />
 		<_34 Name="generated_paddf9f" Offset="A" Length="2" />
@@ -4360,7 +4358,7 @@
 	</_CE644BA64DB5B94A1D9DC3AF8C4D6C02>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 	<_689849540174FB9326701C02A42ED2BF Name="LevelObjectReferenceElement" Alt="FC332D7EE90075A8" Size="8">

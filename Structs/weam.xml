@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:58 PM" Name="weapon_attachment_magazine" Parents="aTag" Index="-471">
-	<_A6CD4E642C8E13604D29FF1896B0165D Name="i343::Weapon::AttachmentMagazineDefinition" Alt="A43EF606A722F559" Size="150">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="weapon_attachment_magazine" Parents="aTag" Index="-470">
+	<_A6CD4E642C8E13604D29FF1896B0165D Name="i343::Weapon::AttachmentMagazineDefinition" Alt="3979A50D22B9CC64" Size="150">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="weapon attachment component" Offset="10" GUID="89184EDE128B8F41C1F5C4D699007385" />
 		<_38 Name="weapon attachment magazine component" Offset="128" GUID="8B3840525CFE8417EBBF134E8FB54D56" />
 	</_A6CD4E642C8E13604D29FF1896B0165D>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_89184EDE128B8F41C1F5C4D699007385 Name="i343::Weapon::AttachmentComponentDefinition" Alt="BCCEC8F94CB5FA4C" Size="118">
 		<_37 Name="Weapon Attachment" type="fgrb" Offset="0" />
@@ -30,15 +30,15 @@
 		<_40 Name="UI display info" Offset="104" GUID="52C6472B6BB873FD804507D0909B9077" StructName1="i343::Weapon::AttachmentComponentDefinition" Min="0" Max="1" />
 		<_37 Name="" type="fgre" Offset="118" />
 	</_89184EDE128B8F41C1F5C4D699007385>
-	<_8B3840525CFE8417EBBF134E8FB54D56 Name="i343::Weapon::AttachmentMagazineComponentDefinition" Alt="8AB622EE376A6E54" Size="28">
+	<_8B3840525CFE8417EBBF134E8FB54D56 Name="i343::Weapon::AttachmentMagazineComponentDefinition" Alt="20C8B9A90D6EACC6" Size="28">
 		<_37 Name="Weapon Magazine" type="fgrb" Offset="0" />
 		<_40 Name="primary magazine override" Offset="0" GUID="3DD0479C9BF284F2CCEC97FDA9A53E36" StructName1="i343::Weapon::AttachmentMagazineComponentDefinition" Min="0" Max="1" />
 		<_40 Name="secondary magazine override" Offset="14" GUID="3DD0479C9BF284F2CCEC97FDA9A53E36" StructName1="i343::Weapon::AttachmentMagazineComponentDefinition" Min="0" Max="1" />
 		<_37 Name="" type="fgre" Offset="28" />
 	</_8B3840525CFE8417EBBF134E8FB54D56>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_EB864527F5DE3409AAD17E47A7C2911B Name="i343::Weapon::AttachmentRegionPermutationDefinition" Alt="54731020B62108CD" Size="8">
 		<_2 Name="region name" Offset="0" />
@@ -139,13 +139,14 @@
 		<_6 Name="damage sprite index" Offset="54" />
 		<_41 Name="ui vehicle screen reference" Offset="58" Allowed="cusc" Flags="0" />
 	</_52C6472B6BB873FD804507D0909B9077>
-	<_3DD0479C9BF284F2CCEC97FDA9A53E36 Name="i343::Weapon::MagazineOverrideDefinition" Alt="99A4991B1B3F8B8D" Size="C">
+	<_3DD0479C9BF284F2CCEC97FDA9A53E36 Name="i343::Weapon::MagazineOverrideDefinition" Alt="97ED1A2CEAB50694" Size="E">
 		<_5 Name="rounds total initial" Offset="0" />
 		<_5 Name="rounds total maximum" Offset="2" />
 		<_5 Name="rounds loaded maximum" Offset="4" />
-		<_5 Name="rounds inventory maximum" Offset="6" />
-		<_5 Name="rounds reloaded" Offset="8" />
-		<_B Name="ammo refill type" Offset="A" StructName1="i343::Munitions::eAmmoRefillType">
+		<_5 Name="magazine partitions" Offset="6" />
+		<_5 Name="rounds inventory maximum" Offset="8" />
+		<_5 Name="rounds reloaded" Offset="A" />
+		<_B Name="ammo refill type" Offset="C" StructName1="i343::Munitions::eAmmoRefillType">
 			<Flag n="None" />
 			<Flag n="Kinetic" />
 			<Flag n="Plasma" />

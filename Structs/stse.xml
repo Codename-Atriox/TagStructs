@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="structure_seams" Parents="aTag" Index="-410">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="structure_seams" Parents="aTag" Index="-410">
 	<_3D9447BB1073D9E030BD63B189E0B4FF Name="s_structure_seams" Alt="7CD77A3F97C01711" Size="98">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="structure manifest" Offset="10" GUID="DF8B82BFDA667371BC6D99ECAC8C4004" />
 		<_36 Name="This tag defines the geometry between seam connected structures bsp." Offset="54" />
 		<_6 Name="version" Offset="54" />
@@ -10,9 +10,9 @@
 		<_40 Name="seam triangle mopp code block" Offset="80" GUID="8AD14E98EE2BC898635CF676B64351E5" StructName1="s_structure_seams" Min="0" Max="32767" />
 		<_34 Name="generated_padf765" Offset="94" Length="4" />
 	</_3D9447BB1073D9E030BD63B189E0B4FF>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_DF8B82BFDA667371BC6D99ECAC8C4004 Name="s_structure_manifest_definition" Alt="48CBA43DB6E7AA39" Size="44">
 		<_36 Name="build identifer" Offset="0" />
@@ -74,9 +74,9 @@
 		<_34 Name="pad2_1" Offset="66" Length="2" />
 		<_34 Name="generated_pad27be" Offset="68" Length="8" />
 	</_8AD14E98EE2BC898635CF676B64351E5>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_DA4642BFDDFB3371BCB969ECCD893004 Name="s_structure_manifest_build_identifier_definition" Alt="46DFB934A37D9909" Size="18">
 		<_6 Name="manifest_id0" Offset="0" />

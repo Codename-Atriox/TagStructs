@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:58 PM" Name="WeaponComponentAltFire" Parents="aTag" Index="-465">
-	<_52F5425C6569776ADF77A83C9FC150A9 Name="i343::Weapon::AltFireComponentDefinition" Alt="34EDB3C9B7D3517B" Size="118">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="WeaponComponentAltFire" Parents="aTag" Index="-464">
+	<_52F5425C6569776ADF77A83C9FC150A9 Name="i343::Weapon::AltFireComponentDefinition" Alt="979959764CE00EB8" Size="118">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_F Name="alt-fire flags" Offset="10" StructName1="i343::Weapon::AltFireFlags">
 			<Flag n="outline locked targets" />
+			<Flag n="transition animation uses motor action" />
 		</_F>
 		<_34 Name="generated_pada038" Offset="11" Length="3" />
 		<_41 Name="target tracking outline" Offset="14" Allowed="ostd" Flags="0" />
@@ -24,9 +25,9 @@
 		<_41 Name="deactivate sound" Offset="F8" Allowed="snd!" Flags="0" />
 		<_34 Name="generated_padba19" Offset="114" Length="4" />
 	</_52F5425C6569776ADF77A83C9FC150A9>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_0276481E72CB9289F56D7C189467A351 Name="ScalarFunctionName" Alt="327A5D105D7CD750" Size="18">
 		<_37 Name="function" type="fned" Offset="0" />
@@ -64,13 +65,13 @@
 		<_14 Name="turn rate scale modifier" Offset="4" />
 		<_14 Name="simulated input scale modifier" Offset="8" />
 	</_9FFE4926C17F9F4075A7D92A8E7BB7BB>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

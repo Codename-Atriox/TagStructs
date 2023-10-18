@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="cui_resources" Parents="aTag" Index="-86" C="ui\cui">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="cui_resources" Parents="aTag" Index="-86" C="ui\cui">
 	<_E5F746CEB258DFA937B4B335B02F9207 Name="CuiResourcesDefinition" Alt="470093E2808217AF" Size="B0">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="resource values" Offset="10" GUID="BC3D439EB1A7EC45A30957AFA6D9F1A4" />
 	</_E5F746CEB258DFA937B4B335B02F9207>
 	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">

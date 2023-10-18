@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="multiplayer_object_type_list" Parents="aTag" Index="-257">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="multiplayer_object_type_list" Parents="aTag" Index="-257">
 	<_26F4481285887EB351B63FC981B36A2A Name="s_multiplayer_object_type_list" Alt="C2755252AD21C507" Size="88">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="object types" Offset="10" GUID="FCB54E3E817E82BA9EDA7B3881A64345" StructName1="s_multiplayer_object_type_list" Min="0" Max="2048" />
 		<_40 Name="weapons" Offset="24" GUID="14FD4020929B2F5E54A4F35387A0C0BE" StructName1="s_multiplayer_object_type_list" Min="0" Max="64" />
 		<_40 Name="vehicles" Offset="38" GUID="14FD4020929B2F5E54A4F35387A0C0BE" StructName1="s_multiplayer_object_type_list" Min="0" Max="64" />
@@ -13,9 +13,9 @@
 		<_2 Name="random equipment icon string id" Offset="80" />
 		<_34 Name="generated_pad97b8" Offset="84" Length="4" />
 	</_26F4481285887EB351B63FC981B36A2A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_FCB54E3E817E82BA9EDA7B3881A64345 Name="s_multiplayer_object_type" Alt="167A38AABB0BBD67" Size="20">
 		<_36 Name="WARNING" Offset="0" />
@@ -26,8 +26,8 @@
 		<_30 Name="object type" Offset="0" GUID="FCB54E3E817E82BA9EDA7B3881A64345" StructName1="s_multiplayer_object_collection_entry" Min="0" Max="2048" />
 		<_14 Name="random weight" Offset="4" />
 	</_14FD4020929B2F5E54A4F35387A0C0BE>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

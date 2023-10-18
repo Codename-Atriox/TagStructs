@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="device_terminal" Parents="devi,obje,aTag" Index="-422">
-	<_595A418299043D50F8D1EEE7BC0E31FE Name="terminal_definition" Alt="46A156973C5825DA" Size="868">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="device_terminal" Parents="devi,obje,aTag" Index="-422">
+	<_595A418299043D50F8D1EEE7BC0E31FE Name="terminal_definition" Alt="30FE541D447BBDD6" Size="888">
 		<_38 Name="device" Offset="0" GUID="74CF4590B2FE944EB1BF6B949FE30CED" />
-		<_36 Name="$$$ TERMINAL $$$" Offset="7F0" />
-		<_3E Name="bah bah" Offset="7F0" />
-		<_2 Name="action string" Offset="7F4" />
-		<_2 Name="name" Offset="7F8" />
-		<_41 Name="activation sound" Offset="7FC" Allowed="snd!" Flags="0" />
-		<_41 Name="bitmap" Offset="818" Allowed="bitm" Flags="0" />
-		<_41 Name="strings" Offset="834" Allowed="uslg" Flags="0" />
-		<_40 Name="pages" Offset="850" GUID="13E643C26C0F30C8514728F08CE33CDA" StructName1="terminal_definition" Min="0" Max="32" />
-		<_34 Name="generated_padfd24" Offset="864" Length="4" />
+		<_36 Name="$$$ TERMINAL $$$" Offset="810" />
+		<_3E Name="bah bah" Offset="810" />
+		<_2 Name="action string" Offset="814" />
+		<_2 Name="name" Offset="818" />
+		<_41 Name="activation sound" Offset="81C" Allowed="snd!" Flags="0" />
+		<_41 Name="bitmap" Offset="838" Allowed="bitm" Flags="0" />
+		<_41 Name="strings" Offset="854" Allowed="uslg" Flags="0" />
+		<_40 Name="pages" Offset="870" GUID="13E643C26C0F30C8514728F08CE33CDA" StructName1="terminal_definition" Min="0" Max="32" />
+		<_34 Name="generated_padfd24" Offset="884" Length="4" />
 	</_595A418299043D50F8D1EEE7BC0E31FE>
-	<_74CF4590B2FE944EB1BF6B949FE30CED Name="device_definition" Alt="920A5B3174764503" Size="7F0">
+	<_74CF4590B2FE944EB1BF6B949FE30CED Name="device_definition" Alt="F7F35E27EF01A552" Size="810">
 		<_38 Name="object" Offset="0" GUID="F5FC457A94A95A6C803394F088A44257" />
 		<_37 Name="$$$ DEVICE $$$" type="fgrb" Offset="6C8" />
 		<_D Name="device flags" Offset="6C8" StructName1="DeviceVariableFlag">
@@ -24,9 +24,10 @@
 			<Flag n="requires line of sight for interaction" />
 			<Flag n="only active when parent is hostile" />
 			<Flag n="is targetable" />
-			<Flag n="Ignore important work just for VS" />
 			<Flag n="huge device" />
 			<Flag n="interactor can't move" />
+			<Flag n="interactor must crouch" />
+			<Flag n="is conversion" />
 			<Flag n="Disable Weapon Down/Up Animations on Interact" />
 			<Flag n="Enable Unit Interaction Animations" />
 			<Flag n="high priority interaction device" />
@@ -62,15 +63,17 @@
 		<_14 Name="max targetable position threshold" Offset="7CC" />
 		<_15 Name="initial animation position" Offset="7D0" />
 		<_38 Name="device components" Offset="7D4" GUID="D639495E547EF27CD04100089AAB9811" />
-		<_37 Name="" type="fgre" Offset="7F0" />
+		<_41 Name="on-use malleable property modifiers" Offset="7F0" Allowed="gmpm" Flags="0" />
+		<_37 Name="" type="fgre" Offset="80C" />
+		<_34 Name="generated_pad7d12" Offset="80C" Length="4" />
 	</_74CF4590B2FE944EB1BF6B949FE30CED>
 	<_13E643C26C0F30C8514728F08CE33CDA Name="s_terminal_page_definition" Alt="1824DBE522CEAAFA" Size="8">
 		<_5 Name="bitmap sequence index" Offset="0" />
 		<_5 Name="bitmap sprite index" Offset="2" />
 		<_2 Name="text" Offset="4" />
 	</_13E643C26C0F30C8514728F08CE33CDA>
-	<_F5FC457A94A95A6C803394F088A44257 Name="ObjectDefinition" Alt="E9D3B7114963AF53" Size="6C8">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+	<_F5FC457A94A95A6C803394F088A44257 Name="ObjectDefinition" Alt="4E343F6072CB47F0" Size="6C8">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="OBJECT" type="fgrb" Offset="10" />
 		<_5 Name="runtime object type" Offset="10" />
 		<_A Name="Nav Mesh Cutting" Offset="12" StructName1="NavMeshCuttingOverride">
@@ -364,9 +367,9 @@
 		<_41 Name="object dispenser component" Offset="0" Allowed="odis" Flags="0" />
 		<_37 Name="" type="fgre" Offset="1C" />
 	</_D639495E547EF27CD04100089AAB9811>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_C7C54C3CC77709096D467EDA88C749EF Name="ImpactAudioDefinition" Alt="6793D5CC00E1AF7D" Size="10">
 		<_37 Name="IMPACT AUDIO" type="fgrb" Offset="0" />
@@ -559,7 +562,7 @@
 		<_40 Name="initial permutations" Offset="0" GUID="A7A64D2EFC403E79C2A06C7BAD0C6C21" StructName1="object_change_color_definition" Min="0" Max="32" />
 		<_40 Name="functions" Offset="14" GUID="BA0D4F589F69CB7CD0A89C2896CEA30C" StructName1="object_change_color_definition" Min="0" Max="4" />
 	</_8F3241C90AB056AD9B24F6FE9EDBB26A>
-	<_E97643DE027B026373AEE467B173536B Name="s_multiplayer_object_properties_definition" Alt="2BB1D6186D0DBAB1" Size="128">
+	<_E97643DE027B026373AEE467B173536B Name="s_multiplayer_object_properties_definition" Alt="AE4F49A3B9668B6E" Size="128">
 		<_36 Name="TYPE AND FLAGS" Offset="0" />
 		<_A Name="type" Offset="0" StructName1="c_multiplayer_object_type">
 			<Flag n="ordinary" />
@@ -603,6 +606,8 @@
 			<Flag n="light probe volume" />
 			<Flag n="AI spawn point" />
 			<Flag n="AI zone" />
+			<Flag n="AI phantom spawn point" />
+			<Flag n="AI droppod spawn point" />
 		</_A>
 		<_F Name="teleporter passability" Offset="1" StructName1="c_teleporter_passability">
 			<Flag n="disallow players" />
@@ -687,6 +692,7 @@
 			<Flag n="Normal" />
 			<Flag n="Fixed" />
 			<Flag n="Phased" />
+			<Flag n="ProjectileOnly" />
 		</_A>
 		<_34 Name="generated_pad6b24" Offset="DB" Length="1" />
 		<_2 Name="Default Primary Color" Offset="DC" />
@@ -714,7 +720,11 @@
 			<Flag n="Vehicle" />
 			<Flag n="Crouch" />
 		</_A>
-		<_34 Name="generated_pad5143" Offset="125" Length="3" />
+		<_A Name="Script Brain Type" Offset="125" StructName1="i343::NetProtocol::BondEnumHelper&lt;i343::NetProtocol::MapVariant::ScriptBrainType&gt;::Enum">
+			<Flag n="Map Script Brain" />
+			<Flag n="Mode Script Brain" />
+		</_A>
+		<_34 Name="generated_pad5143" Offset="126" Length="2" />
 	</_E97643DE027B026373AEE467B173536B>
 	<_73B5417889E8F6A5AFB087CBB90826AF Name="i343::Objects::ForgeObjectEntryDefinition" Alt="FAEDA75C578DF52B" Size="54">
 		<_41 Name="Palette" Offset="0" Allowed="fpal" Flags="0" />
@@ -983,7 +993,7 @@
 		<_41 Name="biped inside effect" Offset="64" Allowed="effe" Flags="0" />
 		<_41 Name="biped leave effect" Offset="80" Allowed="effe" Flags="0" />
 	</_715341E94055CDAC38D93DD890D14658>
-	<_D7104E3BB95AFC0811C2230B8F558E47 Name="i343::Items::RepairFieldDefinition" Alt="4B91DDFCEAF21A55" Size="7C">
+	<_D7104E3BB95AFC0811C2230B8F558E47 Name="i343::Items::RepairFieldDefinition" Alt="5C6DB28B37A8DF92" Size="A0">
 		<_37 Name="Field Parameters" type="fgrb" Offset="0" />
 		<_D Name="field flags" Offset="0" StructName1="i343::Items::RepairFieldFlags">
 			<Flag n="revives participant bipeds" />
@@ -994,20 +1004,28 @@
 		<_14 Name="arming time" Offset="24" />
 		<_37 Name="" type="fgre" Offset="28" />
 		<_37 Name="Regen Parameters" type="fgrb" Offset="28" />
-		<_14 Name="regen radius" Offset="28" />
-		<_14 Name="regen rate" Offset="2C" />
-		<_14 Name="biped regen amount" Offset="30" />
-		<_14 Name="vehicle regen amount" Offset="34" />
-		<_37 Name="" type="fgre" Offset="38" />
-		<_37 Name="Biped Revive Parameters" type="fgrb" Offset="38" />
-		<_14 Name="revive monitor rate" Offset="38" />
-		<_14 Name="revive delay" Offset="3C" />
-		<_37 Name="" type="fgre" Offset="40" />
-		<_37 Name="Biped Healing VFX" type="fgrb" Offset="40" />
-		<_2 Name="biped healing effect marker" Offset="40" />
-		<_41 Name="biped healing effect" Offset="44" Allowed="effe" Flags="0" />
-		<_41 Name="biped revive effect" Offset="60" Allowed="effe" Flags="0" />
-		<_37 Name="" type="fgre" Offset="7C" />
+		<_D Name="regen flags" Offset="28" StructName1="i343::Items::RepairFieldRegenFlags">
+			<Flag n="enable health repair" />
+			<Flag n="enable shield repair" />
+		</_D>
+		<_14 Name="regen radius" Offset="2C" />
+		<_14 Name="regen rate" Offset="30" />
+		<_14 Name="biped regen amount" Offset="34" />
+		<_14 Name="vehicle regen amount" Offset="38" />
+		<_37 Name="" type="fgre" Offset="3C" />
+		<_37 Name="Biped Revive Parameters" type="fgrb" Offset="3C" />
+		<_14 Name="revive monitor rate" Offset="3C" />
+		<_14 Name="revive delay" Offset="40" />
+		<_37 Name="" type="fgre" Offset="44" />
+		<_37 Name="Biped Healing VFX" type="fgrb" Offset="44" />
+		<_2 Name="biped healing effect marker" Offset="44" />
+		<_41 Name="biped healing effect" Offset="48" Allowed="effe" Flags="0" />
+		<_41 Name="biped revive effect" Offset="64" Allowed="effe" Flags="0" />
+		<_37 Name="" type="fgre" Offset="80" />
+		<_37 Name="Vehicle Healing VFX" type="fgrb" Offset="80" />
+		<_2 Name="vehicle healing effect marker" Offset="80" />
+		<_41 Name="vehicle healing effect" Offset="84" Allowed="effe" Flags="0" />
+		<_37 Name="" type="fgre" Offset="A0" />
 	</_D7104E3BB95AFC0811C2230B8F558E47>
 	<_CDC842658D2CDD5A0386628B97C99B10 Name="i343::Objects::PowerComponentDefinition" Alt="B412586B81A3DEB2" Size="7C">
 		<_36 Name="Power Component System" Offset="0" />
@@ -1034,9 +1052,9 @@
 	<_DC0B498741F543711B10766BA9E589C4 Name="i343::Objects::IndirectLightingComponentDefinition" Alt="2F95CA1A159EB30D" Size="4">
 		<_2 Name="Lightmap attachment bone" Offset="0" />
 	</_DC0B498741F543711B10766BA9E589C4>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_7BD242FE5A19E5B08B7ED393A3A82ABF Name="i343::Weapon::AIHeatGeneratedPerRoundOverrideParam" Alt="707F3443775A02AD" Size="10">
 		<_14 Name="heat generated per round override (easy)" Offset="0" />
@@ -1046,7 +1064,7 @@
 	</_7BD242FE5A19E5B08B7ED393A3A82ABF>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 	<_AC0D4C1C5A96873E46288D2E8A0B6541 Name="s_object_function_interpolation_definition" Alt="ABF8EC9BCD327238" Size="18">

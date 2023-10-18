@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="HighlightEventsGlobals" Parents="aTag" Index="-175">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="HighlightEventsGlobals" Parents="aTag" Index="-175">
 	<_51AB00715F0C3CDAC8E75BABB634857F Name="HighlightEventsGlobals" Alt="904D9222D4EED63" Size="38">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="tiers" Offset="10" GUID="AAD0CC0A9E064F3F9B07ADD1C1D2D40E" StructName1="HighlightEventsGlobals" Min="0" Max="5" />
 		<_40 Name="personal score highlight events" Offset="24" GUID="51AB00515F0C5CDAC8E45BABB634853F" StructName1="HighlightEventsGlobals" Min="0" Max="512" />
 	</_51AB00715F0C3CDAC8E75BABB634857F>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_AAD0CC0A9E064F3F9B07ADD1C1D2D40E Name="PersonalScoreHighlightEventTierDefinition" Alt="9E23D5B5D37CBB8A" Size="8">
 		<_2 Name="name" Offset="0" />
@@ -19,8 +19,8 @@
 		<_3C Name="medal weight" Offset="6" />
 		<_3C Name="tier index" Offset="7" />
 	</_51AB00515F0C5CDAC8E45BABB634853F>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

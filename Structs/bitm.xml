@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="bitmap" Parents="aTag" Index="-38" C="shaders\default_bitmaps">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="bitmap" Parents="aTag" Index="-38" C="shaders\default_bitmaps">
 	<_C24A42682335AB52D36D192394728F7D Name="BitmapGroup" Alt="158FC006504BE37D" Size="E8">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="show bitmap" type="bshw" Offset="10" />
 		<_36 Name="IMPORT SETTINGS" Offset="10" />
 		<_3E Name="Usage" Offset="10" />

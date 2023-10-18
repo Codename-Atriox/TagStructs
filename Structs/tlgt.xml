@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="XTransitionLogicGraph" Parents="angt,aTag" Index="-427">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="XTransitionLogicGraph" Parents="angt,aTag" Index="-427">
 	<_7FA94271D2B6C69070E9E5CE9BB3A36E Name="TransitionLogicGraphTag" Alt="F505A67D703172F2" Size="4D8">
 		<_38 Name="XAnimNodeGraph" Offset="0" GUID="DC3F4ED978E1F117E702DB29AC1C8E30" />
 	</_7FA94271D2B6C69070E9E5CE9BB3A36E>
 	<_DC3F4ED978E1F117E702DB29AC1C8E30 Name="ExportedAnimNodeGraph" Alt="FCDD53D4AFB15858" Size="4D8">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Source Graph" Offset="10" Allowed="agct" Flags="1" />
 		<_40 Name="Anim Node Subgraphs" Offset="2C" GUID="97634F3D6C666E05AD23FE6BBC70A7CD" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
 		<_40 Name="Anim State Subgraphs" Offset="40" GUID="DAA742E8322A87B138A2A907A50F5EF2" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
@@ -126,9 +126,9 @@
 		<_6 Name="Use Native Graph" Offset="4D0" />
 		<_6 Name="Code Generation Hash" Offset="4D4" />
 	</_DC3F4ED978E1F117E702DB29AC1C8E30>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_97634F3D6C666E05AD23FE6BBC70A7CD Name="SubgraphReferenceExportedAnimNodeGraph" Alt="88A06031301FA072" Size="1C">
 		<_41 Name="Anim Subgraph" Offset="0" Allowed="angt" Flags="0" />
@@ -725,9 +725,9 @@
 		<_2 Name="Native Graph Name" Offset="0" />
 		<_6 Name="Use Native Graph" Offset="4" />
 	</_1F634C201D8FE8FBCF5A79C49AD2A74B>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_4C5C4EA5505585531AAE400CA778D338 Name="i343::Animation::ControlParameter" Alt="263221ED40A3D01B" Size="4">
 		<_2 Name="Name" Offset="0" />

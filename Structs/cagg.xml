@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="CageGlobalsDefinition" Parents="aTag" Index="-51">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="CageGlobalsDefinition" Parents="aTag" Index="-51">
 	<_5BAB461762D35001B23B696F84D1D42D Name="i343::CageSystem::CageGlobalsDefinitionTag" Alt="542218B8EE4CA0ED" Size="168">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Global Default Cage Points" Offset="10" GUID="DD774E762FFD3B5F8086D9C7A86016E1" StructName1="i343::CageSystem::CageGlobalsDefinitionTag" Min="0" Max="64" />
 		<_41 Name="Default Cage Definition" Offset="24" Allowed="cage" Flags="0" />
 		<_2 Name="Default Position Point" Offset="40" />

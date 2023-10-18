@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="UIVehicleDisplayInfoDefinition" Parents="aTag" Index="-449">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="UIVehicleDisplayInfoDefinition" Parents="aTag" Index="-449">
 	<_662D4A93763EA9D98C5A596D96789733 Name="Interface::UIVehicleDisplayInfo" Alt="66783C1B3403C067" Size="48">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="name" Offset="10" />
 		<_2 Name="Vehicle Flip String" Offset="14" />
 		<_2 Name="Tint Color" Offset="18" />
@@ -9,9 +9,9 @@
 		<_40 Name="Seats" Offset="30" GUID="C8D842C2AEC19F99F1298605B62A1E21" StructName1="Interface::UIVehicleDisplayInfo" Min="0" Max="8" />
 		<_34 Name="generated_pad1d69" Offset="44" Length="4" />
 	</_662D4A93763EA9D98C5A596D96789733>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_52C6472B6BB873FD804507D0909B9077 Name="Interface::UIItemInfo" Alt="26B42BD7B0501528" Size="74">
 		<_2 Name="name" Offset="0" />
@@ -33,8 +33,8 @@
 		<_2 Name="In Seat String" Offset="C" />
 		<_2 Name="Enter Seat String" Offset="10" />
 	</_C8D842C2AEC19F99F1298605B62A1E21>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

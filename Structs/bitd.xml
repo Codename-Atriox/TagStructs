@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="bitmap_dictionary" Parents="aTag" Index="-37">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="bitmap_dictionary" Parents="aTag" Index="-37">
 	<_F45141374B6C61454EBD7B8CB5C9C221 Name="BitmapDictionaryDefinition" Alt="3EA86507FCDDD4E3" Size="50">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="entries" Offset="10" GUID="1E714F35C72FA9BC841B2AD9A240999C" StructName1="BitmapDictionaryDefinition" Min="0" Max="512" />
 		<_40 Name="multi actions" Offset="24" GUID="E377446FE8EDC44B6B3296F7887C44F1" StructName1="BitmapDictionaryDefinition" Min="0" Max="512" />
 		<_40 Name="combined bitmaps" Offset="38" GUID="A10B42DAEFA679C23D1443A2903E5755" StructName1="BitmapDictionaryDefinition" Min="0" Max="512" />

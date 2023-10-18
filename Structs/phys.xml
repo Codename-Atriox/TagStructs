@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="asset_physics" Parents="aTag" Index="-311">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="asset_physics" Parents="aTag" Index="-311">
 	<_B56E4370060C9B94B3B67740B5BE45BA Name="AssetPhysicsTag" Alt="75C2F2396485B7F6" Size="B0">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_F Name="Flags" Offset="10" StructName1="i343::AssetPhysics::AssetPhysicsFlags">
 			<Flag n="Make physical children keyframed" />
 			<Flag n="Use physics for collision" />
@@ -24,9 +24,9 @@
 		<_37 Name="" type="fgre" Offset="AC" />
 		<_34 Name="generated_pad5b54" Offset="AC" Length="4" />
 	</_B56E4370060C9B94B3B67740B5BE45BA>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_2C504F3274CF3874C4B66316ADD9AA62 Name="i343::AssetPhysics::PhysicsMaterial" Alt="22D515AC8464697F" Size="10">
 		<_2 Name="Property region" Offset="0" />
@@ -227,9 +227,9 @@
 		<_14 Name="Constant recover velocity" Offset="18" />
 		<_14 Name="Initial position" Offset="1C" />
 	</_626D43BFCA7AA30B55DF983C952AAB8D>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_621E4B928C3C995352883BF283C8417F Name="i343::AssetPhysics::HavokData" Alt="3D083CC0358384F6" Size="20">
 		<_F Name="Flags" Offset="0" StructName1="i343::AssetPhysics::HavokDataFlags">

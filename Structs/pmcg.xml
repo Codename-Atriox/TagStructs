@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="player_model_customization_globals" Parents="aTag" Index="-314">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="player_model_customization_globals" Parents="aTag" Index="-314">
 	<_7B4242AC3E8116B0888057ACA0790D22 Name="s_player_model_customization_globals_definition" Alt="EDCB1F2C351CDB98" Size="160">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="spartan render model" Offset="10" Allowed="mode" Flags="1" />
 		<_41 Name="elite render model" Offset="2C" Allowed="mode" Flags="1" />
 		<_40 Name="helmet selections" Offset="48" GUID="039B4B242C0583974E96C6D493A3E75D" StructName1="s_player_model_customization_globals_definition" Min="0" Max="96" />
@@ -19,9 +19,9 @@
 		<_40 Name="spartan model defaults" Offset="138" GUID="F0444260903BE80D13BD8847B47A1536" StructName1="s_player_model_customization_globals_definition" Min="0" Max="1" />
 		<_40 Name="elite model defaults" Offset="14C" GUID="B8F24CE53AAA47EC05DF23E28B427992" StructName1="s_player_model_customization_globals_definition" Min="0" Max="32" />
 	</_7B4242AC3E8116B0888057ACA0790D22>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_039B4B242C0583974E96C6D493A3E75D Name="s_model_customization_selection" Alt="487312F6F53CD9FA" Size="18">
 		<_2 Name="selection name" Offset="0" />
@@ -46,9 +46,9 @@
 		<_1 Name="CMS Id" Offset="30" />
 		<_40 Name="Permutation Regions" Offset="130" GUID="A6D64841EE8219F2C7AE937EAB1B8790" StructName1="i343::ObjectCustomization::DefaultCoreData" Min="0" Max="256" />
 	</_F0444260903BE80D13BD8847B47A1536>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_A6D64841EE8219F2C7AE937EAB1B8790 Name="i343::ObjectCustomization::DefaultRegionData" Alt="C96DFC74F674A1AC" Size="120">
 		<_2 Name="Title" Offset="0" />

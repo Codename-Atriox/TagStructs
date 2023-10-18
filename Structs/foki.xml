@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="forgekit" Parents="aTag" Index="-155">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="forgekit" Parents="aTag" Index="-155">
 	<_0A8A6E5CAA95F6001D863CA137A1E19C Name="ForgeEngine::ForgeKitDefinition" Alt="6572BAACA3E57828" Size="60">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Original Kit" Offset="10" Allowed="kit!" Flags="1" />
 		<_40 Name="Kit Groups" Offset="2C" GUID="0DEA3B9DB11B32543ED2AACD4E4BB78A" StructName1="ForgeEngine::ForgeKitDefinition" Min="0" Max="32" />
 		<_6 Name="Child Object Count" Offset="40" />
 		<_41 Name="Menu Item Definitions" Offset="44" Allowed="fosp" Flags="0" />
 	</_0A8A6E5CAA95F6001D863CA137A1E19C>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_0DEA3B9DB11B32543ED2AACD4E4BB78A Name="ForgeEngine::ForgeKitGroup" Alt="A53F4DC8542D4670" Size="CC">
 		<_2 Name="Name" Offset="0" />
@@ -21,9 +21,9 @@
 		<_40 Name="Objects" Offset="A4" GUID="CF57651DF94165C92CFECD80BF9FB8B1" StructName1="ForgeEngine::ForgeKitGroup" Min="0" Max="64" />
 		<_40 Name="Sound Placements" Offset="B8" GUID="045C457695D370711BD4B24C0BE1B0B1" StructName1="ForgeEngine::ForgeKitGroup" Min="0" Max="1048576" />
 	</_0DEA3B9DB11B32543ED2AACD4E4BB78A>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_9A3E4FF2915AE3F75AE8EF15892E317F Name="s_property_collection" Alt="DAB9DE0B736F025" Size="78">
 		<_40 Name="bool properties" Offset="0" GUID="2FE7429C4EE726FBB489F288B4DD8A95" StructName1="s_property_collection" Min="0" Max="32" />

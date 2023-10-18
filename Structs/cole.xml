@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="CollectiblesDefinition" Parents="aTag" Index="-74">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="CollectiblesDefinition" Parents="aTag" Index="-74">
 	<_9C9F482DF721EBB9C4535763979D7E0D Name="i343::Collectibles::CollectiblesDefinition" Alt="1F6F0221A2E7D6FD" Size="68">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Collectible Entry" Offset="10" GUID="BDBE412D07808F10926A4AD2829521E1" StructName1="i343::Collectibles::CollectiblesDefinition" Min="0" Max="512" />
 		<_40 Name="Codex Category Info" Offset="24" GUID="783048EB55C964048344B45A8306FD76" StructName1="i343::Collectibles::CollectiblesDefinition" Min="0" Max="5" />
 		<_40 Name="Per Collectible Data" Offset="38" GUID="A9B2417BB6C7C4F26D968CAA8794817A" StructName1="i343::Collectibles::CollectiblesDefinition" Min="0" Max="10" />

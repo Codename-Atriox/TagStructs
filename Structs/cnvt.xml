@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="ConversationTypes" Parents="aTag" Index="-72" C="narrative">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="ConversationTypes" Parents="aTag" Index="-72" C="narrative">
 	<_AAF74530AC647FBC7C84F8F8AF1A41E2 Name="i343::Narrative::ConversationTypesTag" Alt="564701194440E927" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Type Items" Offset="10" GUID="D69F42F265FDE124320375FEA7C59C74" StructName1="i343::Narrative::ConversationTypesTag" Min="0" Max="12" />
 		<_34 Name="generated_pad0e0f" Offset="24" Length="4" />
 	</_AAF74530AC647FBC7C84F8F8AF1A41E2>

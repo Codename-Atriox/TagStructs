@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="TeleportEffectsDefinitionTag" Parents="aTag" Index="-285">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="TeleportEffectsDefinitionTag" Parents="aTag" Index="-285">
 	<_569F42219E96AE1EBB276798BA1CE659 Name="i343::Objects::TeleportEffectsDefinitionTag" Alt="F2CCEEB1AEC6DB87" Size="40">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="teleport effects" Offset="10" GUID="F5CF41E59BD5F2A05F4DB2BD81CD5F6B" />
 		<_34 Name="generated_pad97e7" Offset="3C" Length="4" />
 	</_569F42219E96AE1EBB276798BA1CE659>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_F5CF41E59BD5F2A05F4DB2BD81CD5F6B Name="i343::Objects::TeleportEffectsDefinition" Alt="BC07752CA6C23A43" Size="2C">
 		<_36 Name="Target Effects" Offset="0" />
@@ -16,9 +16,9 @@
 		<_36 Name="Nodegraph Events" Offset="18" />
 		<_40 Name="nodegraph events" Offset="18" GUID="F7C54D32D741CECA7C8021AC97B595C2" StructName1="i343::Objects::TeleportEffectsDefinition" Min="0" Max="64" />
 	</_F5CF41E59BD5F2A05F4DB2BD81CD5F6B>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_263149586261A25F78F03E1BAC970D2A Name="i343::Objects::TeleportTargetEffects" Alt="F9F3D90A766DA2E8" Size="3C">
 		<_14 Name="radius" Offset="0" />

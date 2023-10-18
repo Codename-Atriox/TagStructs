@@ -1,97 +1,105 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="forge_globals" Parents="aTag" Index="-161">
-	<_93F311E19480BF0CBAE59B18A5A3AFAF Name="ForgeGlobalsDefinition" Alt="D7E56B087D44441A" Size="590">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="forge_globals" Parents="aTag" Index="-161">
+	<_93F311E19480BF0CBAE59B18A5A3AFAF Name="ForgeGlobalsDefinition" Alt="41CA6E05DF518439" Size="5D8">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="forge colors" Offset="10" GUID="93F611E15F309018BAE59B1897D1F9B1" StructName1="ForgeGlobalsDefinition" Min="0" Max="253" />
 		<_40 Name="Forge Colors Lighting" Offset="24" GUID="93F611E15F309018BAE59B1897D1F9B1" StructName1="ForgeGlobalsDefinition" Min="0" Max="253" />
-		<_36 Name="Magnets" Offset="38" />
-		<_41 Name="magnet effect scenery" Offset="38" Allowed="efsc" Flags="4" />
-		<_2 Name="parent magnet marker name" Offset="54" />
-		<_2 Name="child magnet marker name" Offset="58" />
-		<_15 Name="deprecated, delete me when systems team says it's okay (1)" Offset="5C" />
-		<_14 Name="deprecated, delete me when systems team says it's okay (2)" Offset="60" />
-		<_14 Name="deprecated, delete me when systems team says it's okay (3)" Offset="64" />
-		<_14 Name="deprecated, delete me when systems team says it's okay (4)" Offset="68" />
-		<_14 Name="deprecated, delete me when systems team says it's okay (5)" Offset="6C" />
-		<_14 Name="deprecated, delete me when systems team says it's okay (6)" Offset="70" />
-		<_14 Name="deprecated, delete me when systems team says it's okay (7)" Offset="74" />
-		<_15 Name="deprecated, delete me when systems team says it's okay (8)" Offset="78" />
-		<_36 Name="Forge Camera Manipulation" Offset="7C" />
-		<_14 Name="max object grab range" Offset="7C" />
-		<_14 Name="default grab distance mult" Offset="80" />
-		<_25 Name="min-max grab distance mult" Offset="84" />
-		<_25 Name="minimum grab distance threshold" Offset="8C" />
-		<_25 Name="maximum grab distance threshold" Offset="94" />
-		<_14 Name="lock-on time" Offset="9C" />
-		<_14 Name="grab-cam soft ceiling movement speed" Offset="A0" />
-		<_14 Name="grab-cam inward spring constant" Offset="A4" />
-		<_14 Name="grab-cam outward spring constant" Offset="A8" />
-		<_14 Name="camera-object distance threshold" Offset="AC" />
-		<_40 Name="monitor speed multipliers" Offset="B0" GUID="98894242F5F194BAE457895DBADC85B9" StructName1="ForgeGlobalsDefinition" Min="0" Max="8" />
-		<_2 Name="monitor boost name" Offset="C4" />
-		<_14 Name="monitor boost translation speed" Offset="C8" />
-		<_14 Name="monitor boost rotation speed" Offset="CC" />
-		<_14 Name="monitor boost scale speed" Offset="D0" />
-		<_40 Name="jumbotron UI element" Offset="D4" GUID="ED91458DF35E9924A9E7CA4D8793B44B" StructName1="ForgeGlobalsDefinition" Min="0" Max="4" />
-		<_38 Name="Forge DWS Constants" Offset="E8" GUID="B0524FE8E7F281FCD199A46B8BCBA286" />
-		<_40 Name="forge gobo definitions" Offset="150" GUID="EEA8C7C9F74CBE7E164F9FD2EC78BB81" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
-		<_40 Name="forge light intensity function definitions" Offset="164" GUID="457231F23C749B1DCC2037381264B8D2" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
-		<_40 Name="forge area screen effect definitions" Offset="178" GUID="10CFA4BDA5E33AC92032DA8801F3DC78" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
-		<_40 Name="forge weather effect definitions" Offset="18C" GUID="0BA06CEF6653922196F4D2EFE0754059" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
-		<_40 Name="forge cloud bitmaps" Offset="1A0" GUID="26FD11B1DE4249B806988A3DD7B2BDFC" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
-		<_40 Name="forge lens flares" Offset="1B4" GUID="5D8D6850B7FE2C67D7CF6CBEB78AD9DF" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
-		<_40 Name="forge light cones" Offset="1C8" GUID="49521DAAE650E52C290584A32CB129ED" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
-		<_40 Name="scale snap values" Offset="1DC" GUID="FBB54650275C2D125A9669BE89D5BD38" StructName1="ForgeGlobalsDefinition" Min="0" Max="16" />
-		<_40 Name="rotation snap values" Offset="1F0" GUID="0B164CF28C03276228549146B604E7E0" StructName1="ForgeGlobalsDefinition" Min="0" Max="16" />
-		<_40 Name="translation snap values" Offset="204" GUID="A06F4310151D8C26F855A495A5839CF4" StructName1="ForgeGlobalsDefinition" Min="0" Max="16" />
-		<_41 Name="rotation handle shader" Offset="218" Allowed="mat " Flags="4" />
-		<_41 Name="magnet marker shader" Offset="234" Allowed="mat " Flags="4" />
-		<_41 Name="path preview shader" Offset="250" Allowed="mat " Flags="4" />
-		<_41 Name="ai navmesh shader" Offset="26C" Allowed="mat " Flags="4" />
-		<_40 Name="global label values" Offset="288" GUID="B2054D0EE1EB3BC1ADCBBC9FB195977D" StructName1="ForgeGlobalsDefinition" Min="0" Max="256" />
-		<_40 Name="outline type definitions" Offset="29C" GUID="103A4693D8801B1F93E9E77B82FFD120" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
-		<_2 Name="Forge Intro Composition Name" Offset="2B0" />
-		<_40 Name="Forge Intro Compositions" Offset="2B4" GUID="33FD44A672139956140A012DB2DDE4EC" StructName1="ForgeGlobalsDefinition" Min="0" Max="16" />
-		<_41 Name="Forge Outro Composition Template" Offset="2C8" Allowed="comp" Flags="4" />
-		<_41 Name="Forge Static View Composition Template" Offset="2E4" Allowed="comp" Flags="4" />
-		<_40 Name="Game Type Cinematic Names" Offset="300" GUID="D6394C77D692FE0D3235162FAF00E029" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
-		<_40 Name="Cinematic Player Animations" Offset="314" GUID="BBFE420A29488D2190B8A8A7AD11AB16" StructName1="ForgeGlobalsDefinition" Min="0" Max="64" />
-		<_41 Name="Default Boundary Shader" Offset="328" Allowed="mat " Flags="4" />
-		<_40 Name="styleShaders" Offset="344" GUID="03C54305F44E9C7064202A7ABC34AD4E" StructName1="ForgeGlobalsDefinition" Min="0" Max="256" />
-		<_40 Name="Forge Enabled Shaders" Offset="358" GUID="56FF4F6AA50998B6643FEA8638609B0E" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
-		<_34 Name="generated_padd2ca" Offset="36C" Length="4" />
-		<_7 Name="rotationHandlePipelineState" Offset="370" />
-		<_7 Name="pathPreviewPipelineState" Offset="378" />
-		<_7 Name="defaultBoundaryPipelineState" Offset="380" />
-		<_7 Name="handleWithDepthTestState" Offset="388" />
-		<_7 Name="aiNavMeshPipelineState" Offset="390" />
-		<_7 Name="aiPathPipelineState" Offset="398" />
-		<_41 Name="Forge Object Manifest" Offset="3A0" Allowed="foom" Flags="1" />
-		<_41 Name="Forge Named Tag Lists" Offset="3BC" Allowed="fntl" Flags="0" />
-		<_40 Name="Forge NodeGraph Schema" Offset="3D8" GUID="9267498E2EF15AA9058C470AB87E6335" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
-		<_40 Name="Forge NodeGraph Schema Tags" Offset="3EC" GUID="B9BA4DC591C31F97A9F65CA088AB642B" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
-		<_41 Name="Forge Script Brain Tag Reference" Offset="400" Allowed="food" Flags="4" />
-		<_41 Name="Forge Bot Navigation Marker Tag Reference" Offset="41C" Allowed="food" Flags="4" />
-		<_41 Name="Forge Sound Tag Reference" Offset="438" Allowed="fora" Flags="4" />
-		<_38 Name="Forge Ambient Sounds" Offset="454" GUID="F57046D7B44C56C076BE7CBCA2E1D058" />
-		<_38 Name="Forge Game Mode Sounds" Offset="4A8" GUID="DA074314BCDF57D4A79BD46F8F6FF05F" />
-		<_41 Name="Forge Looping Sound Categories" Offset="4BC" Allowed="flsc" Flags="0" />
-		<_38 Name="Forge Looping Sound Property IDs" Offset="4D8" GUID="44B14B9B411AB06F51A121D6B37F5BBB" />
-		<_41 Name="Forge Sound Response Sounds" Offset="4E8" Allowed="fsrs" Flags="0" />
-		<_41 Name="Forge Nav Mesh Seed Tag Reference" Offset="504" Allowed="food" Flags="4" />
-		<_41 Name="Forge Baking Overlay screen reference" Offset="520" Allowed="cusc" Flags="4" />
-		<_41 Name="forge required resources" Offset="53C" Allowed="sdzg" Flags="4" />
-		<_41 Name="Forgeable Character definitions" Offset="558" Allowed="fcdl" Flags="0" />
-		<_41 Name="Forge Dimensional Widgets Parameters Tag Reference" Offset="574" Allowed="fdwp" Flags="0" />
+		<_40 Name="Global Swatch Group Allow List" Offset="38" GUID="F85AE41DED9A7F10944818363ACC8310" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
+		<_36 Name="Magnets" Offset="4C" />
+		<_41 Name="magnet effect scenery" Offset="4C" Allowed="efsc" Flags="4" />
+		<_2 Name="parent magnet marker name" Offset="68" />
+		<_2 Name="child magnet marker name" Offset="6C" />
+		<_15 Name="deprecated, delete me when systems team says it's okay (1)" Offset="70" />
+		<_14 Name="deprecated, delete me when systems team says it's okay (2)" Offset="74" />
+		<_14 Name="deprecated, delete me when systems team says it's okay (3)" Offset="78" />
+		<_14 Name="deprecated, delete me when systems team says it's okay (4)" Offset="7C" />
+		<_14 Name="deprecated, delete me when systems team says it's okay (5)" Offset="80" />
+		<_14 Name="deprecated, delete me when systems team says it's okay (6)" Offset="84" />
+		<_14 Name="deprecated, delete me when systems team says it's okay (7)" Offset="88" />
+		<_15 Name="deprecated, delete me when systems team says it's okay (8)" Offset="8C" />
+		<_36 Name="Forge Camera Manipulation" Offset="90" />
+		<_14 Name="max object grab range" Offset="90" />
+		<_14 Name="default grab distance mult" Offset="94" />
+		<_25 Name="min-max grab distance mult" Offset="98" />
+		<_25 Name="minimum grab distance threshold" Offset="A0" />
+		<_25 Name="maximum grab distance threshold" Offset="A8" />
+		<_14 Name="lock-on time" Offset="B0" />
+		<_14 Name="grab-cam soft ceiling movement speed" Offset="B4" />
+		<_14 Name="grab-cam inward spring constant" Offset="B8" />
+		<_14 Name="grab-cam outward spring constant" Offset="BC" />
+		<_14 Name="camera-object distance threshold" Offset="C0" />
+		<_40 Name="monitor speed multipliers" Offset="C4" GUID="98894242F5F194BAE457895DBADC85B9" StructName1="ForgeGlobalsDefinition" Min="0" Max="8" />
+		<_2 Name="monitor boost name" Offset="D8" />
+		<_14 Name="monitor boost translation speed" Offset="DC" />
+		<_14 Name="monitor boost rotation speed" Offset="E0" />
+		<_14 Name="monitor boost scale speed" Offset="E4" />
+		<_40 Name="jumbotron UI element" Offset="E8" GUID="ED91458DF35E9924A9E7CA4D8793B44B" StructName1="ForgeGlobalsDefinition" Min="0" Max="4" />
+		<_38 Name="Forge DWS Constants" Offset="FC" GUID="B0524FE8E7F281FCD199A46B8BCBA286" />
+		<_40 Name="forge gobo definitions" Offset="164" GUID="EEA8C7C9F74CBE7E164F9FD2EC78BB81" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
+		<_40 Name="forge light intensity function definitions" Offset="178" GUID="457231F23C749B1DCC2037381264B8D2" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
+		<_40 Name="forge area screen effect definitions" Offset="18C" GUID="10CFA4BDA5E33AC92032DA8801F3DC78" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
+		<_40 Name="forge weather effect definitions" Offset="1A0" GUID="0BA06CEF6653922196F4D2EFE0754059" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
+		<_40 Name="forge cloud bitmaps" Offset="1B4" GUID="26FD11B1DE4249B806988A3DD7B2BDFC" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
+		<_40 Name="forge lens flares" Offset="1C8" GUID="5D8D6850B7FE2C67D7CF6CBEB78AD9DF" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
+		<_40 Name="forge light cones" Offset="1DC" GUID="49521DAAE650E52C290584A32CB129ED" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
+		<_40 Name="forge light groups" Offset="1F0" GUID="F5734F995BB6D848B1F940989CF0B4A0" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
+		<_40 Name="scale snap values" Offset="204" GUID="FBB54650275C2D125A9669BE89D5BD38" StructName1="ForgeGlobalsDefinition" Min="0" Max="16" />
+		<_40 Name="rotation snap values" Offset="218" GUID="0B164CF28C03276228549146B604E7E0" StructName1="ForgeGlobalsDefinition" Min="0" Max="16" />
+		<_40 Name="translation snap values" Offset="22C" GUID="A06F4310151D8C26F855A495A5839CF4" StructName1="ForgeGlobalsDefinition" Min="0" Max="16" />
+		<_41 Name="rotation handle shader" Offset="240" Allowed="mat " Flags="4" />
+		<_41 Name="magnet marker shader" Offset="25C" Allowed="mat " Flags="4" />
+		<_41 Name="path preview shader" Offset="278" Allowed="mat " Flags="4" />
+		<_41 Name="ai navmesh shader" Offset="294" Allowed="mat " Flags="4" />
+		<_40 Name="global label values" Offset="2B0" GUID="B2054D0EE1EB3BC1ADCBBC9FB195977D" StructName1="ForgeGlobalsDefinition" Min="0" Max="256" />
+		<_40 Name="outline type definitions" Offset="2C4" GUID="103A4693D8801B1F93E9E77B82FFD120" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
+		<_2 Name="Forge Intro Composition Name" Offset="2D8" />
+		<_40 Name="Forge Intro Compositions" Offset="2DC" GUID="33FD44A672139956140A012DB2DDE4EC" StructName1="ForgeGlobalsDefinition" Min="0" Max="16" />
+		<_41 Name="Forge Outro Composition Template" Offset="2F0" Allowed="comp" Flags="4" />
+		<_41 Name="Forge Static View Composition Template" Offset="30C" Allowed="comp" Flags="4" />
+		<_40 Name="Game Type Cinematic Names" Offset="328" GUID="D6394C77D692FE0D3235162FAF00E029" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
+		<_40 Name="Cinematic Player Animations" Offset="33C" GUID="BBFE420A29488D2190B8A8A7AD11AB16" StructName1="ForgeGlobalsDefinition" Min="0" Max="64" />
+		<_41 Name="Default Boundary Shader" Offset="350" Allowed="mat " Flags="4" />
+		<_40 Name="styleShaders" Offset="36C" GUID="03C54305F44E9C7064202A7ABC34AD4E" StructName1="ForgeGlobalsDefinition" Min="0" Max="256" />
+		<_40 Name="Forge Enabled Shaders" Offset="380" GUID="56FF4F6AA50998B6643FEA8638609B0E" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
+		<_34 Name="generated_padd2ca" Offset="394" Length="4" />
+		<_7 Name="rotationHandlePipelineState" Offset="398" />
+		<_7 Name="pathPreviewPipelineState" Offset="3A0" />
+		<_7 Name="defaultBoundaryPipelineState" Offset="3A8" />
+		<_7 Name="handleWithDepthTestState" Offset="3B0" />
+		<_7 Name="aiNavMeshPipelineState" Offset="3B8" />
+		<_7 Name="aiPathPipelineState" Offset="3C0" />
+		<_41 Name="Forge Object Manifest" Offset="3C8" Allowed="foom" Flags="1" />
+		<_41 Name="Forge Named Tag Lists" Offset="3E4" Allowed="fntl" Flags="0" />
+		<_40 Name="Forge NodeGraph Schema" Offset="400" GUID="9267498E2EF15AA9058C470AB87E6335" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
+		<_40 Name="Forge NodeGraph Schema Tags" Offset="414" GUID="B9BA4DC591C31F97A9F65CA088AB642B" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
+		<_41 Name="Forge Script Brain Tag Reference" Offset="428" Allowed="food" Flags="4" />
+		<_40 Name="Forge Nodes To Exclude From Mode Script Brain" Offset="444" GUID="C6830090F764B9BF7FDF21BEF250B90D" StructName1="ForgeGlobalsDefinition" Min="0" Max="32" />
+		<_41 Name="Forge Bot Navigation Marker Tag Reference" Offset="458" Allowed="food" Flags="4" />
+		<_41 Name="Forge Sound Tag Reference" Offset="474" Allowed="fora" Flags="4" />
+		<_38 Name="Forge Ambient Sounds" Offset="490" GUID="F57046D7B44C56C076BE7CBCA2E1D058" />
+		<_38 Name="Forge Game Mode Sounds" Offset="4E4" GUID="DA074314BCDF57D4A79BD46F8F6FF05F" />
+		<_41 Name="Forge Looping Sound Categories" Offset="4F8" Allowed="flsc" Flags="0" />
+		<_38 Name="Forge Looping Sound Property IDs" Offset="514" GUID="44B14B9B411AB06F51A121D6B37F5BBB" />
+		<_41 Name="Forge Sound Response Sounds" Offset="524" Allowed="fsrs" Flags="0" />
+		<_41 Name="Forge Nav Mesh Seed Tag Reference" Offset="540" Allowed="food" Flags="4" />
+		<_41 Name="Forge Baking Overlay screen reference" Offset="55C" Allowed="cusc" Flags="4" />
+		<_41 Name="forge required resources" Offset="578" Allowed="sdzg" Flags="4" />
+		<_41 Name="Forgeable Character definitions" Offset="594" Allowed="fcdl" Flags="0" />
+		<_41 Name="Forge Dimensional Widgets Parameters Tag Reference" Offset="5B0" Allowed="fdwp" Flags="0" />
+		<_34 Name="generated_pad1f7f" Offset="5CC" Length="4" />
+		<_7 Name="m_labelCache" Offset="5D0" />
 	</_93F311E19480BF0CBAE59B18A5A3AFAF>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_93F611E15F309018BAE59B1897D1F9B1 Name="s_named_rgb_color" Alt="9636931E443EEF67" Size="10">
 		<_2 Name="name" Offset="0" />
 		<_1F Name="color" Offset="4" />
 	</_93F611E15F309018BAE59B1897D1F9B1>
+	<_F85AE41DED9A7F10944818363ACC8310 Name="GlobalSwatchGroupName" Alt="263503F9698DDE18" Size="4">
+		<_2 Name="Global Swatch Group Name" Offset="0" />
+	</_F85AE41DED9A7F10944818363ACC8310>
 	<_98894242F5F194BAE457895DBADC85B9 Name="ForgeEngine::MonitorMoveSpeed" Alt="76CC160147EE60D6" Size="10">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="translation speed" Offset="4" />
@@ -158,6 +166,10 @@
 		<_41 Name="light cone" Offset="0" Allowed="licn" Flags="4" />
 		<_2 Name="name" Offset="1C" />
 	</_49521DAAE650E52C290584A32CB129ED>
+	<_F5734F995BB6D848B1F940989CF0B4A0 Name="ForgeLightGroupDefinition" Alt="17398D618F53D0AE" Size="20">
+		<_41 Name="light group" Offset="0" Allowed="ligr" Flags="4" />
+		<_2 Name="name" Offset="1C" />
+	</_F5734F995BB6D848B1F940989CF0B4A0>
 	<_FBB54650275C2D125A9669BE89D5BD38 Name="ScaleSnapDefinition" Alt="E3BE6070102F33D6" Size="8">
 		<_2 Name="name" Offset="0" />
 		<_14 Name="scale snap amount (relative to default size)" Offset="4" />
@@ -235,6 +247,9 @@
 	<_B9BA4DC591C31F97A9F65CA088AB642B Name="JsonSourceFileTag" Alt="151BE7ABFD29E0D3" Size="1C">
 		<_41 Name="Json Source File Tag" Offset="0" Allowed="jssc" Flags="0" />
 	</_B9BA4DC591C31F97A9F65CA088AB642B>
+	<_C6830090F764B9BF7FDF21BEF250B90D Name="NodeToExcludeFromModeScriptBrainDefinition" Alt="BF45A9AA5244F8A" Size="100">
+		<_1 Name="Node Name" Offset="0" />
+	</_C6830090F764B9BF7FDF21BEF250B90D>
 	<_F57046D7B44C56C076BE7CBCA2E1D058 Name="ForgeAmbientSounds" Alt="B176C006759F4F05" Size="54">
 		<_37 Name="Forge Ambient Sounds" type="fgrb" Offset="0" />
 		<_40 Name="Base Air Sounds" Offset="0" GUID="664A443E26A1689A58905B61A0579DAE" StructName1="ForgeAmbientSounds" Min="0" Max="32" />
@@ -253,9 +268,9 @@
 		<_2 Name="Friendly Name Property ID" Offset="8" />
 		<_2 Name="Enemy Name Property ID" Offset="C" />
 	</_44B14B9B411AB06F51A121D6B37F5BBB>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_42B4434A26AA4A8308A920CD93ACA3CB Name="ScalarLightFunction" Alt="6C5BF192D9EB5A00" Size="28">
 		<_2 Name="Input Variable" type="fnin" Offset="0" />
@@ -288,7 +303,7 @@
 	</_D89542C7482D33BB79B9DF698EA81E57>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

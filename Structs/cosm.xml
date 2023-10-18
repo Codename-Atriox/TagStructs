@@ -1,17 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="CoatingStylesManifest" Parents="aTag" Index="-79">
-	<_002E4D6593541F3B13269DF28D88BAF8 Name="CoatingStylesTag" Alt="2BC93EE28CA1B405" Size="78">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
-		<_40 Name="Regions" Offset="10" GUID="08E442953B2F611CD7FAA7519024046B" StructName1="CoatingStylesTag" Min="0" Max="2048" />
-		<_40 Name="Styles" Offset="24" GUID="7AEC40AD66221CF37D7AB216ACA431F5" StructName1="CoatingStylesTag" Min="0" Max="2048" />
-		<_41 Name="Visor Swatch" Offset="38" Allowed="mwvs" Flags="0" />
-		<_A Name="Preload Swatch Options" Offset="54" StructName1="PreloadStyleOption">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="CoatingStylesManifest" Parents="aTag" Index="-79">
+	<_002E4D6593541F3B13269DF28D88BAF8 Name="CoatingStylesTag" Alt="F3B97523AB480458" Size="98">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_41 Name="Parent" type="parr" Offset="10" Allowed="cosm" Flags="1" />
+		<_40 Name="Regions" Offset="2C" GUID="08E442953B2F611CD7FAA7519024046B" StructName1="CoatingStylesTag" Min="0" Max="2048" />
+		<_2 Name="Default Style Name" type="sted" Offset="40" />
+		<_40 Name="Styles" Offset="44" GUID="7AEC40AD66221CF37D7AB216ACA431F5" StructName1="CoatingStylesTag" Min="0" Max="2048" />
+		<_41 Name="Visor Swatch" Offset="58" Allowed="mwvs" Flags="0" />
+		<_A Name="Preload Swatch Options" Offset="74" StructName1="PreloadStyleOption">
 			<Flag n="Do Not Preload Styles" />
 			<Flag n="Force Preload All Styles" />
 		</_A>
-		<_34 Name="generated_paddbdd" Offset="55" Length="3" />
-		<_41 Name="Generated Runtime Styles" Offset="58" Allowed="rucs" Flags="9" />
-		<_34 Name="generated_padc1fc" Offset="74" Length="4" />
+		<_34 Name="generated_paddbdd" Offset="75" Length="3" />
+		<_41 Name="Generated Runtime Styles Reference" Offset="78" Allowed="rucs" Flags="9" />
+		<_34 Name="generated_padc1fc" Offset="94" Length="4" />
 	</_002E4D6593541F3B13269DF28D88BAF8>
 	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
@@ -20,10 +22,10 @@
 	<_08E442953B2F611CD7FAA7519024046B Name="CoatingRegion" Alt="94D376E1E2E4EA51" Size="4">
 		<_2 Name="Name" Offset="0" />
 	</_08E442953B2F611CD7FAA7519024046B>
-	<_7AEC40AD66221CF37D7AB216ACA431F5 Name="CoatingStyleRef" Alt="11EB44F7C098F70C" Size="3C">
+	<_7AEC40AD66221CF37D7AB216ACA431F5 Name="CoatingStyleRef" Alt="61A9C7DFE375D1E9" Size="3C">
 		<_2 Name="Name" Offset="0" />
 		<_41 Name="Style" Offset="4" Allowed="cmas" Flags="9" />
-		<_41 Name="Generated Runtime Style" Offset="20" Allowed="rucy" Flags="9" />
+		<_41 Name="Generated Runtime Style Reference" Offset="20" Allowed="rucy" Flags="9" />
 	</_7AEC40AD66221CF37D7AB216ACA431F5>
 	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
 		<_6 Name="" Offset="0" />

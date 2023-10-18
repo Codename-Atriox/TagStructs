@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="formation" Parents="aTag" Index="-162" C="ai">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="formation" Parents="aTag" Index="-162" C="ai">
 	<_900F4DC85D813D705A2BA3109167C364 Name="s_formation_definition" Alt="AB388F15A0ACDC8B" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="name" Offset="10" />
 		<_40 Name="primitives" Offset="14" GUID="B9F34F888FA0D708CCCA213385458122" StructName1="s_formation_definition" Min="0" Max="4" />
 	</_900F4DC85D813D705A2BA3109167C364>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_B9F34F888FA0D708CCCA213385458122 Name="s_formation_primitive" Alt="6DA690679B274392" Size="2C">
 		<_36 Name="" Offset="0" />
@@ -24,9 +24,9 @@
 		<_14 Name="file spacing" Offset="14" />
 		<_40 Name="points" Offset="18" GUID="A504407E23ABAAB1827B6483A02EA842" StructName1="s_formation_primitive" Min="0" Max="8" />
 	</_B9F34F888FA0D708CCCA213385458122>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_A504407E23ABAAB1827B6483A02EA842 Name="s_formation_point" Alt="A7A8583FEA5C29A1" Size="8">
 		<_36 Name="" Offset="0" />

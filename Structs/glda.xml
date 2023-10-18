@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="DamageGlobalsDefinition" Parents="aTag" Index="-182">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="DamageGlobalsDefinition" Parents="aTag" Index="-182">
 	<_793942CBE3C4C1D60D14416DAAD36E5A Name="i343::DamageGlobals" Alt="BC7EA93F71EA0C1E" Size="38">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="damage table" Offset="10" GUID="58964FDC5E6087987302D300BCD062B5" StructName1="i343::DamageGlobals" Min="0" Max="2" />
 		<_40 Name="damage" Offset="24" GUID="C9FD41842B7CE12A6D515D0AA5B5C911" StructName1="i343::DamageGlobals" Min="0" Max="1" />
 	</_793942CBE3C4C1D60D14416DAAD36E5A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_58964FDC5E6087987302D300BCD062B5 Name="s_damage_globals_definition" Alt="FD814872D204C09C" Size="14">
 		<_40 Name="damage groups" Offset="0" GUID="3110409D34945DAA4B1BFD04A4F3330D" StructName1="s_damage_globals_definition" Min="0" Max="512" />
@@ -72,9 +72,9 @@
 		<_41 Name="player died from AOE damage sound" Offset="3AC" Allowed="snd!" Flags="0" />
 		<_37 Name="" type="fgre" Offset="3C8" />
 	</_C9FD41842B7CE12A6D515D0AA5B5C911>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_3110409D34945DAA4B1BFD04A4F3330D Name="s_damage_group_definition" Alt="520E20610E047FA2" Size="18">
 		<_2 Name="name" Offset="0" />

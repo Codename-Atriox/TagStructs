@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="ControlGlobalsDefinition" Parents="aTag" Index="-180">
-	<_777743AC66978BD5448B1FCA86A22206 Name="i343::ControlGlobals" Alt="33CF27A95322F497" Size="50">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="ControlGlobalsDefinition" Parents="aTag" Index="-180">
+	<_777743AC66978BD5448B1FCA86A22206 Name="i343::ControlGlobals" Alt="99C60A2414464963" Size="50">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="controller input" Offset="10" GUID="BD194D1C056079C5D8A4D2ADB7544182" StructName1="i343::ControlGlobals" Min="0" Max="1" />
 		<_40 Name="player control" Offset="24" GUID="08FE4A96AFAD741439C2EEFC94E4BCF6" StructName1="i343::ControlGlobals" Min="0" Max="1" />
 		<_40 Name="input abstraction globals" Offset="38" GUID="6B934FB9DE4FA123FC086CAD97A35E72" StructName1="i343::ControlGlobals" Min="0" Max="32" />
 		<_34 Name="generated_pad0ea8" Offset="4C" Length="4" />
 	</_777743AC66978BD5448B1FCA86A22206>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_BD194D1C056079C5D8A4D2ADB7544182 Name="s_game_globals_input_abstraction" Alt="89617223AA566360" Size="8">
 		<_14 Name="axial dead zone" Offset="0" />
 		<_14 Name="radial dead zone" Offset="4" />
 	</_BD194D1C056079C5D8A4D2ADB7544182>
-	<_08FE4A96AFAD741439C2EEFC94E4BCF6 Name="s_game_globals_player_control" Alt="4F2D20C3CC3FCAA1" Size="200">
+	<_08FE4A96AFAD741439C2EEFC94E4BCF6 Name="s_game_globals_player_control" Alt="2F4A7E8A5C321A65" Size="204">
 		<_36 Name="controller bindings" Offset="0" />
 		<_40 Name="controller button mappings" Offset="0" GUID="921C4C4E6D1C4D66EC6AACBFB2A0F6C3" StructName1="s_game_globals_player_control" Min="0" Max="16" />
 		<_2 Name="default binding" Offset="14" />
@@ -72,66 +72,69 @@
 		<_37 Name="1.4x" type="fgrb" Offset="154" />
 		<_14 Name="1.4x" Offset="154" />
 		<_37 Name="" type="fgre" Offset="158" />
-		<_37 Name="2.5x" type="fgrb" Offset="158" />
-		<_14 Name="2.5x" Offset="158" />
+		<_37 Name="1.6x" type="fgrb" Offset="158" />
+		<_14 Name="1.6x" Offset="158" />
 		<_37 Name="" type="fgre" Offset="15C" />
-		<_37 Name="3.0x" type="fgrb" Offset="15C" />
-		<_14 Name="3.0x" Offset="15C" />
+		<_37 Name="2.5x" type="fgrb" Offset="15C" />
+		<_14 Name="2.5x" Offset="15C" />
 		<_37 Name="" type="fgre" Offset="160" />
-		<_37 Name="5.0x" type="fgrb" Offset="160" />
-		<_14 Name="5.0x" Offset="160" />
+		<_37 Name="3.0x" type="fgrb" Offset="160" />
+		<_14 Name="3.0x" Offset="160" />
 		<_37 Name="" type="fgre" Offset="164" />
-		<_37 Name="6.0x" type="fgrb" Offset="164" />
-		<_14 Name="6.0x" Offset="164" />
+		<_37 Name="5.0x" type="fgrb" Offset="164" />
+		<_14 Name="5.0x" Offset="164" />
 		<_37 Name="" type="fgre" Offset="168" />
-		<_37 Name="10.0x" type="fgrb" Offset="168" />
-		<_14 Name="10.0x" Offset="168" />
+		<_37 Name="6.0x" type="fgrb" Offset="168" />
+		<_14 Name="6.0x" Offset="168" />
 		<_37 Name="" type="fgre" Offset="16C" />
-		<_37 Name="" type="fgre" Offset="16C" />
-		<_14 Name="active look input type detection time" Offset="16C" />
-		<_36 Name="double/triple jump" Offset="170" />
-		<_14 Name="minimum vertical velocity" Offset="170" />
-		<_14 Name="cooldown time" Offset="174" />
-		<_18 Name="double jump velocity" Offset="178" />
-		<_18 Name="triple jump velocity" Offset="180" />
-		<_36 Name="tricks" Offset="188" />
-		<_14 Name="flick peg jump max time" Offset="188" />
-		<_14 Name="double tap interval time" Offset="18C" />
-		<_14 Name="jump_forward_horizontal_speed_0" Offset="190" />
-		<_14 Name="jump_forward_horizontal_speed_1" Offset="194" />
-		<_14 Name="jump_forward_horizontal_speed_2" Offset="198" />
-		<_14 Name="jump_forward_gravity_0" Offset="19C" />
-		<_14 Name="jump_forward_gravity_1" Offset="1A0" />
-		<_14 Name="jump_forward_gravity_2" Offset="1A4" />
-		<_14 Name="jump_forward_height" Offset="1A8" />
-		<_14 Name="jump_lateral_horizontal_speed_0" Offset="1AC" />
-		<_14 Name="jump_lateral_horizontal_speed_1" Offset="1B0" />
-		<_14 Name="jump_lateral_horizontal_speed_2" Offset="1B4" />
-		<_14 Name="jump_lateral_gravity_0" Offset="1B8" />
-		<_14 Name="jump_lateral_gravity_1" Offset="1BC" />
-		<_14 Name="jump_lateral_gravity_2" Offset="1C0" />
-		<_14 Name="jump_lateral_height" Offset="1C4" />
-		<_14 Name="jump_reverse_horizontal_speed_0" Offset="1C8" />
-		<_14 Name="jump_reverse_horizontal_speed_1" Offset="1CC" />
-		<_14 Name="jump_reverse_horizontal_speed_2" Offset="1D0" />
-		<_14 Name="jump_reverse_gravity_0" Offset="1D4" />
-		<_14 Name="jump_reverse_gravity_1" Offset="1D8" />
-		<_14 Name="jump_reverse_gravity_2" Offset="1DC" />
-		<_14 Name="jump_reverse_height" Offset="1E0" />
-		<_14 Name="jump_stationary_horizontal_speed_0" Offset="1E4" />
-		<_14 Name="jump_stationary_horizontal_speed_1" Offset="1E8" />
-		<_14 Name="jump_stationary_horizontal_speed_2" Offset="1EC" />
-		<_14 Name="jump_stationary_gravity_0" Offset="1F0" />
-		<_14 Name="jump_stationary_gravity_1" Offset="1F4" />
-		<_14 Name="jump_stationary_gravity_2" Offset="1F8" />
-		<_14 Name="jump_stationary_height" Offset="1FC" />
+		<_37 Name="10.0x" type="fgrb" Offset="16C" />
+		<_14 Name="10.0x" Offset="16C" />
+		<_37 Name="" type="fgre" Offset="170" />
+		<_37 Name="" type="fgre" Offset="170" />
+		<_14 Name="active look input type detection time" Offset="170" />
+		<_36 Name="double/triple jump" Offset="174" />
+		<_14 Name="minimum vertical velocity" Offset="174" />
+		<_14 Name="cooldown time" Offset="178" />
+		<_18 Name="double jump velocity" Offset="17C" />
+		<_18 Name="triple jump velocity" Offset="184" />
+		<_36 Name="tricks" Offset="18C" />
+		<_14 Name="flick peg jump max time" Offset="18C" />
+		<_14 Name="double tap interval time" Offset="190" />
+		<_14 Name="jump_forward_horizontal_speed_0" Offset="194" />
+		<_14 Name="jump_forward_horizontal_speed_1" Offset="198" />
+		<_14 Name="jump_forward_horizontal_speed_2" Offset="19C" />
+		<_14 Name="jump_forward_gravity_0" Offset="1A0" />
+		<_14 Name="jump_forward_gravity_1" Offset="1A4" />
+		<_14 Name="jump_forward_gravity_2" Offset="1A8" />
+		<_14 Name="jump_forward_height" Offset="1AC" />
+		<_14 Name="jump_lateral_horizontal_speed_0" Offset="1B0" />
+		<_14 Name="jump_lateral_horizontal_speed_1" Offset="1B4" />
+		<_14 Name="jump_lateral_horizontal_speed_2" Offset="1B8" />
+		<_14 Name="jump_lateral_gravity_0" Offset="1BC" />
+		<_14 Name="jump_lateral_gravity_1" Offset="1C0" />
+		<_14 Name="jump_lateral_gravity_2" Offset="1C4" />
+		<_14 Name="jump_lateral_height" Offset="1C8" />
+		<_14 Name="jump_reverse_horizontal_speed_0" Offset="1CC" />
+		<_14 Name="jump_reverse_horizontal_speed_1" Offset="1D0" />
+		<_14 Name="jump_reverse_horizontal_speed_2" Offset="1D4" />
+		<_14 Name="jump_reverse_gravity_0" Offset="1D8" />
+		<_14 Name="jump_reverse_gravity_1" Offset="1DC" />
+		<_14 Name="jump_reverse_gravity_2" Offset="1E0" />
+		<_14 Name="jump_reverse_height" Offset="1E4" />
+		<_14 Name="jump_stationary_horizontal_speed_0" Offset="1E8" />
+		<_14 Name="jump_stationary_horizontal_speed_1" Offset="1EC" />
+		<_14 Name="jump_stationary_horizontal_speed_2" Offset="1F0" />
+		<_14 Name="jump_stationary_gravity_0" Offset="1F4" />
+		<_14 Name="jump_stationary_gravity_1" Offset="1F8" />
+		<_14 Name="jump_stationary_gravity_2" Offset="1FC" />
+		<_14 Name="jump_stationary_height" Offset="200" />
 	</_08FE4A96AFAD741439C2EEFC94E4BCF6>
 	<_6B934FB9DE4FA123FC086CAD97A35E72 Name="InputScopeTagRef" Alt="C816F86A6BA4DA59" Size="1C">
 		<_41 Name="scope" Offset="0" Allowed="insc" Flags="0" />
 	</_6B934FB9DE4FA123FC086CAD97A35E72>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_921C4C4E6D1C4D66EC6AACBFB2A0F6C3 Name="s_controller_mapping_reference" Alt="ACC72B5797C3358F" Size="28">
 		<_2 Name="Default Binding Preset Name" Offset="0" />
@@ -169,7 +172,7 @@
 	</_0276481E72CB9289F56D7C189467A351>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

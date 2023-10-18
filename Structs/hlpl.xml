@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="hlodpresets" Parents="aTag" Index="-204">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="hlodpresets" Parents="aTag" Index="-204">
 	<_988E4311D719A239E4901D7A815B7511 Name="HlodSettingsPresetList" Alt="BE1AD7191E241185" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Settings presets" Offset="10" GUID="4EB346E69012DE23753C1E87AA4AF5EB" StructName1="HlodSettingsPresetList" Min="0" Max="100" />
 		<_34 Name="generated_pad5f89" Offset="24" Length="4" />
 	</_988E4311D719A239E4901D7A815B7511>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_4EB346E69012DE23753C1E87AA4AF5EB Name="HlodSettingsPreset" Alt="2C16DEE71A53BABB" Size="20">
 		<_2 Name="Name" Offset="0" />
 		<_41 Name="HlodSettings" Offset="4" Allowed="hlst" Flags="9" />
 	</_4EB346E69012DE23753C1E87AA4AF5EB>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

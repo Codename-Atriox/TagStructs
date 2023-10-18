@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="raw_geo" Parents="rtgo,aTag" Index="-332">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="raw_geo" Parents="rtgo,aTag" Index="-332">
 	<_1A1F4C2B20E2C9327FCEBE8FBAC6E14C Name="RawGeoTag" Alt="6F13AB29934AA8A1" Size="198">
 		<_38 Name="runtime_geo" Offset="0" GUID="A63F407D76259AA2E69CD0D9F0E48B78" />
 	</_1A1F4C2B20E2C9327FCEBE8FBAC6E14C>
 	<_A63F407D76259AA2E69CD0D9F0E48B78 Name="RuntimeGeoTag" Alt="ECF067A72D871722" Size="198">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Per Mesh Data" Offset="10" GUID="AB6B46D0E69CD0D93C513078E405A344" StructName1="RuntimeGeoTag" Min="0" Max="4096" />
 		<_34 Name="generated_pad8ff5" Offset="24" Length="4" />
 		<_38 Name="render geometry" Offset="28" GUID="8FB042BA97D423E43A363C6CB0E025A9" />
@@ -13,9 +13,9 @@
 		<_6 Name="asset category index" Offset="190" />
 		<_6 Name="Number of LODS to make required" Offset="194" />
 	</_A63F407D76259AA2E69CD0D9F0E48B78>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_AB6B46D0E69CD0D93C513078E405A344 Name="RuntimeGeoPerMeshData" Alt="92520BFC8919689C" Size="90">
 		<_2 Name="Name" Offset="0" />
@@ -72,9 +72,9 @@
 		<_2 Name="name" Offset="0" />
 		<_40 Name="markers" Offset="4" GUID="EF1644B0825C5D079B89F75F9D49583B" StructName1="StaticGeoMarkerGroup" Min="0" Max="4096" />
 	</_2CC24E896BC08D3B819A923DA7B3771E>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_1F374D1647361323C3A9FFA497C34802 Name="LODTransitionDistanceBlock" Alt="730E14104A1A8097" Size="4">
 		<_14 Name="lodTransitionDistance" Offset="0" />

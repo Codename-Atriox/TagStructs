@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="bink" Parents="aTag" Index="-35">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="bink" Parents="aTag" Index="-35">
 	<_63FF4A674F2A6045CF491D3A81F2A8BD Name="s_bink_definition" Alt="9D04BFEC45A2A79B" Size="18">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_6 Name="frame count" Offset="10" />
 		<_34 Name="generated_pad3c54" Offset="14" Length="4" />
 	</_63FF4A674F2A6045CF491D3A81F2A8BD>

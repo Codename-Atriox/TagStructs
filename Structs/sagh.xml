@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="GrappleHookDefinitionTag" Parents="aTag" Index="-348">
-	<_CDF84D5D69304CC7250C6DEBA567F36D Name="i343::SpartanAbilities::GrappleHookDefinitionTag" Alt="7B6E515F3A021F3E" Size="4E0">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="GrappleHookDefinitionTag" Parents="aTag" Index="-348">
+	<_CDF84D5D69304CC7250C6DEBA567F36D Name="i343::SpartanAbilities::GrappleHookDefinitionTag" Alt="A92DBF7B21CB2EC0" Size="4E0">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="data" Offset="10" GUID="E9C34DFF6731C606043497ED9B09586C" />
-		<_34 Name="generated_pad6d7d" Offset="4DC" Length="4" />
 	</_CDF84D5D69304CC7250C6DEBA567F36D>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_E9C34DFF6731C606043497ED9B09586C Name="i343::SpartanAbilities::GrappleHookDefinition" Alt="11634C4C59C92BCE" Size="4CC">
+	<_E9C34DFF6731C606043497ED9B09586C Name="i343::SpartanAbilities::GrappleHookDefinition" Alt="2EA3C373C34909A3" Size="4D0">
 		<_38 Name="common ability parameters" Offset="0" GUID="D954483CA0B1EFF4F0B4EBCD88F17DD4" />
 		<_D Name="grapple hook flags" Offset="78" StructName1="i343::SpartanAbilities::GrappleHookDefinitionFlags">
 			<Flag n="allow mount passenger to activate" />
@@ -68,166 +67,168 @@
 		<_14 Name="pull detach damage threshold" Offset="180" />
 		<_14 Name="pull stuck timeout" Offset="184" />
 		<_14 Name="pull min progress per update" Offset="188" />
-		<_14 Name="pull post crouch suppression wait time" Offset="18C" />
-		<_14 Name="pull collision rejection post completion duration" Offset="190" />
-		<_14 Name="pull collision rejection threshold target velocity" Offset="194" />
-		<_14 Name="pull collision damage immunity delay" Offset="198" />
-		<_14 Name="pull collision damage immunity minimum velocity" Offset="19C" />
-		<_14 Name="pull collision damage immunity post completion duration" Offset="1A0" />
-		<_25 Name="pull close range definition" Offset="1A4" />
-		<_14 Name="pull physics pill offset scalar grounded" Offset="1AC" />
-		<_14 Name="pull physics pill offset scalar airborne" Offset="1B0" />
-		<_37 Name="" type="fgre" Offset="1B4" />
-		<_37 Name="pull velocity control" type="fgrb" Offset="1B4" />
-		<_14 Name="pull launch vertical impulse" Offset="1B4" />
-		<_14 Name="pull launch aim impulse" Offset="1B8" />
-		<_14 Name="pull launch decay duration" Offset="1BC" />
-		<_14 Name="pull acceleration phase duration" Offset="1C0" />
-		<_14 Name="pull base target velocity" Offset="1C4" />
-		<_14 Name="pull exit max velocity" Offset="1C8" />
-		<_36 Name="base pull acceleration function" Offset="1CC" />
-		<_37 Name="base pull acceleration function" type="fned" Offset="1CC" />
-		<_38 Name="base pull acceleration function" Offset="1CC" GUID="53FA44845A14A98F0AF1459E801068D4" />
-		<_36 Name="launch impulse decay function" Offset="1E4" />
-		<_37 Name="launch impulse decay function" type="fned" Offset="1E4" />
-		<_38 Name="launch impulse decay function" Offset="1E4" GUID="53FA44845A14A98F0AF1459E801068D4" />
-		<_36 Name="pull target movement filtering" Offset="1FC" />
-		<_14 Name="pull target velocity filter fraction" Offset="1FC" />
-		<_37 Name="" type="fgre" Offset="200" />
-		<_37 Name="pull aim influence" type="fgrb" Offset="200" />
-		<_36 Name="pull velocity aim influence" Offset="200" />
-		<_14 Name="pull aim vector influence (level geo)" Offset="200" />
-		<_14 Name="pull aim vector influence (bipeds)" Offset="204" />
-		<_14 Name="pull aim vector influence (vehicles)" Offset="208" />
-		<_8 Name="pull aim vector influence falloff inner angle" Offset="20C" />
-		<_8 Name="pull aim vector influence falloff outer angle" Offset="210" />
-		<_14 Name="pull aim vector influence accumulation rate" Offset="214" />
-		<_14 Name="pull aim vector influence accumulation starting scalar" Offset="218" />
-		<_36 Name="pull aim vector influence falloff function" Offset="21C" />
-		<_37 Name="pull aim vector influence falloff function" type="fned" Offset="21C" />
-		<_38 Name="pull aim vector influence falloff function" Offset="21C" GUID="53FA44845A14A98F0AF1459E801068D4" />
-		<_36 Name="pull aim vector influence scale function" Offset="234" />
-		<_37 Name="pull aim vector influence falloff function" type="fned" Offset="234" />
-		<_38 Name="pull aim vector influence scale function" Offset="234" GUID="53FA44845A14A98F0AF1459E801068D4" />
-		<_37 Name="" type="fgre" Offset="24C" />
-		<_37 Name="pull air control" type="fgrb" Offset="24C" />
-		<_36 Name="pull velocity aim influence" Offset="24C" />
-		<_14 Name="pull air control scalar (level geo)" Offset="24C" />
-		<_14 Name="pull air control scalar (forward and back, level geo)" Offset="250" />
-		<_14 Name="pull air control scalar (left and right, level geo)" Offset="254" />
-		<_14 Name="pull air control scalar (bipeds)" Offset="258" />
-		<_14 Name="pull air control scalar (forward and back, bipeds)" Offset="25C" />
-		<_14 Name="pull air control scalar (left and right, bipeds)" Offset="260" />
-		<_14 Name="pull air control scalar (vehicles)" Offset="264" />
-		<_14 Name="pull air control scalar (forward and back, vehicles)" Offset="268" />
-		<_14 Name="pull air control scalar (left and right, vehicles)" Offset="26C" />
-		<_14 Name="pull air control accumulation rate" Offset="270" />
-		<_14 Name="pull air control accumulation starting scalar" Offset="274" />
-		<_37 Name="" type="fgre" Offset="278" />
-		<_37 Name="pull completion" type="fgrb" Offset="278" />
-		<_36 Name="pull completion" Offset="278" />
-		<_14 Name="pull completion distance (level geo)" Offset="278" />
-		<_14 Name="pull completion distance (level geo, ceilings)" Offset="27C" />
-		<_14 Name="pull completion distance (level geo, floors)" Offset="280" />
-		<_14 Name="pull completion distance (bipeds)" Offset="284" />
-		<_14 Name="pull completion distance (vehicles)" Offset="288" />
-		<_14 Name="pull vehicle interaction distance" Offset="28C" />
-		<_14 Name="pull vehicle interaction time" Offset="290" />
-		<_8 Name="pull biped automelee max angle" Offset="294" />
-		<_8 Name="max allowed angle deviation (ceiling)" Offset="298" />
-		<_8 Name="max allowed angle deviation (floor)" Offset="29C" />
-		<_14 Name="pull line of sight break time" Offset="2A0" />
-		<_37 Name="" type="fgre" Offset="2A4" />
-		<_37 Name="pull aftermath stage" type="fgrb" Offset="2A4" />
-		<_36 Name="pull aftermath stage" Offset="2A4" />
-		<_14 Name="pull aftermath duration" Offset="2A4" />
-		<_14 Name="pull aftermath velocity (peak)" Offset="2A8" />
-		<_36 Name="pull aftermath velocity scale function" Offset="2AC" />
-		<_37 Name="pull aftermath velocity scale function" type="fned" Offset="2AC" />
-		<_38 Name="pull aftermath velocity scale function" Offset="2AC" GUID="53FA44845A14A98F0AF1459E801068D4" />
-		<_2 Name="pull aftermath animation name" Offset="2C4" />
-		<_41 Name="pull aftermath impact effect" Offset="2C8" Allowed="effe" Flags="0" />
-		<_37 Name="" type="fgre" Offset="2E4" />
-		<_37 Name="reel in stage" type="fgrb" Offset="2E4" />
-		<_14 Name="reel in acceleration phase duration" Offset="2E4" />
-		<_14 Name="reel in base target velocity" Offset="2E8" />
-		<_8 Name="reel in launch grounded slope" Offset="2EC" />
-		<_14 Name="reel in launch vertical impulse duration" Offset="2F0" />
-		<_14 Name="reel in launch vertical impulse grounded" Offset="2F4" />
-		<_14 Name="reel in launch vertical impulse airborne" Offset="2F8" />
-		<_25 Name="reel in launch roll impulse airborne" Offset="2FC" />
-		<_25 Name="reel in launch roll rotation impulse grounded" Offset="304" />
-		<_25 Name="reel in launch pitch impulse airborne" Offset="30C" />
-		<_25 Name="reel in launch pitch rotation impulse grounded" Offset="314" />
-		<_14 Name="reel in exit velocity" Offset="31C" />
-		<_14 Name="reel in grab distance" Offset="320" />
-		<_14 Name="reel in grab vertical offset" Offset="324" />
-		<_14 Name="reel in time to detach allowed" Offset="328" />
-		<_14 Name="reel in detach damage threshold" Offset="32C" />
-		<_14 Name="reel in line of sight break time" Offset="330" />
-		<_14 Name="reel in min acceleration percentage to break" Offset="334" />
-		<_25 Name="reel in close range definition" Offset="338" />
-		<_2 Name="reel in animation" Offset="340" />
-		<_36 Name="reel in acceleration function" Offset="344" />
-		<_37 Name="reel in acceleration function" type="fned" Offset="344" />
-		<_38 Name="reel in acceleration function" Offset="344" GUID="53FA44845A14A98F0AF1459E801068D4" />
-		<_36 Name="reel in tangential velocity damping function" Offset="35C" />
-		<_37 Name="reel in tangential velocity damping function" type="fned" Offset="35C" />
-		<_38 Name="reel in tangential velocity damping function" Offset="35C" GUID="53FA44845A14A98F0AF1459E801068D4" />
-		<_37 Name="" type="fgre" Offset="374" />
-		<_37 Name="bash stage" type="fgrb" Offset="374" />
-		<_36 Name="grapple bash" Offset="374" />
-		<_14 Name="bash activation input hold time" Offset="374" />
-		<_8 Name="bash activation max aim angle" Offset="378" />
-		<_14 Name="bash max aim lock rate of change" Offset="37C" />
-		<_14 Name="bash peak velocity" Offset="380" />
-		<_14 Name="bash charge up duration" Offset="384" />
-		<_36 Name="bash charge up velocity scale function" Offset="388" />
-		<_37 Name="bash charge up velocity scale function" type="fned" Offset="388" />
-		<_38 Name="bash charge up velocity scale function" Offset="388" GUID="53FA44845A14A98F0AF1459E801068D4" />
-		<_14 Name="bash acceleration duration" Offset="3A0" />
-		<_36 Name="bash acceleration velocity scale function" Offset="3A4" />
-		<_37 Name="bash acceleration velocity scale function" type="fned" Offset="3A4" />
-		<_38 Name="bash acceleration velocity scale function" Offset="3A4" GUID="53FA44845A14A98F0AF1459E801068D4" />
-		<_14 Name="bash stuck timeout" Offset="3BC" />
-		<_14 Name="bash aftermath duration" Offset="3C0" />
-		<_14 Name="bash aftermath recoil peak velocity" Offset="3C4" />
-		<_36 Name="bash recoil velocity scale function" Offset="3C8" />
-		<_37 Name="bash recoil velocity scale function" type="fned" Offset="3C8" />
-		<_38 Name="bash recoil velocity scale function" Offset="3C8" GUID="53FA44845A14A98F0AF1459E801068D4" />
-		<_2 Name="bash charge up animation" Offset="3E0" />
-		<_2 Name="bash flight animation" Offset="3E4" />
-		<_2 Name="bash finish grounded animation" Offset="3E8" />
-		<_2 Name="bash finish airborne animation" Offset="3EC" />
-		<_8 Name="bash finish animation vertical angle tolerance" Offset="3F0" />
-		<_41 Name="bash charge up effect" Offset="3F4" Allowed="effe" Flags="0" />
-		<_41 Name="bash launch effect" Offset="410" Allowed="effe" Flags="0" />
-		<_41 Name="bash active effect" Offset="42C" Allowed="effe" Flags="0" />
-		<_41 Name="bash completion effect" Offset="448" Allowed="effe" Flags="0" />
-		<_41 Name="bash owner damage" Offset="464" Allowed="jpt!" Flags="0" />
-		<_41 Name="bash pound aoe damage" Offset="480" Allowed="jpt!" Flags="0" />
-		<_14 Name="bash pound aoe epicenter walkback distance" Offset="49C" />
-		<_37 Name="" type="fgre" Offset="4A0" />
-		<_37 Name="exit stage" type="fgrb" Offset="4A0" />
-		<_2 Name="retract animation" Offset="4A0" />
-		<_14 Name="exit animation speed scalar" Offset="4A4" />
-		<_14 Name="miss cooldown delay" Offset="4A8" />
-		<_37 Name="" type="fgre" Offset="4AC" />
-		<_37 Name="aim assist" type="fgrb" Offset="4AC" />
-		<_36 Name="AIM ASSIST" Offset="4AC" />
-		<_14 Name="aim assist range" Offset="4AC" />
-		<_8 Name="aim assist cone angle at projectile launch" Offset="4B0" />
-		<_8 Name="aim assist cone angle while projectile flying" Offset="4B4" />
-		<_14 Name="aim assist weight (angle)" Offset="4B8" />
-		<_14 Name="aim assist weight (distance)" Offset="4BC" />
-		<_14 Name="aim assist weight (biped)" Offset="4C0" />
-		<_14 Name="aim assist weight (vehicle)" Offset="4C4" />
-		<_14 Name="aim assist weight (weapon)" Offset="4C8" />
-		<_37 Name="" type="fgre" Offset="4CC" />
+		<_36 Name="pull progress to target filtering" Offset="18C" />
+		<_15 Name="pull progress to target filter fraction" Offset="18C" />
+		<_14 Name="pull post crouch suppression wait time" Offset="190" />
+		<_14 Name="pull collision rejection post completion duration" Offset="194" />
+		<_14 Name="pull collision rejection threshold target velocity" Offset="198" />
+		<_14 Name="pull collision damage immunity delay" Offset="19C" />
+		<_14 Name="pull collision damage immunity minimum velocity" Offset="1A0" />
+		<_14 Name="pull collision damage immunity post completion duration" Offset="1A4" />
+		<_25 Name="pull close range definition" Offset="1A8" />
+		<_14 Name="pull physics pill offset scalar grounded" Offset="1B0" />
+		<_14 Name="pull physics pill offset scalar airborne" Offset="1B4" />
+		<_37 Name="" type="fgre" Offset="1B8" />
+		<_37 Name="pull velocity control" type="fgrb" Offset="1B8" />
+		<_14 Name="pull launch vertical impulse" Offset="1B8" />
+		<_14 Name="pull launch aim impulse" Offset="1BC" />
+		<_14 Name="pull launch decay duration" Offset="1C0" />
+		<_14 Name="pull acceleration phase duration" Offset="1C4" />
+		<_14 Name="pull base target velocity" Offset="1C8" />
+		<_14 Name="pull exit max velocity" Offset="1CC" />
+		<_36 Name="base pull acceleration function" Offset="1D0" />
+		<_37 Name="base pull acceleration function" type="fned" Offset="1D0" />
+		<_38 Name="base pull acceleration function" Offset="1D0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_36 Name="launch impulse decay function" Offset="1E8" />
+		<_37 Name="launch impulse decay function" type="fned" Offset="1E8" />
+		<_38 Name="launch impulse decay function" Offset="1E8" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_36 Name="pull target movement filtering" Offset="200" />
+		<_14 Name="pull target velocity filter fraction" Offset="200" />
+		<_37 Name="" type="fgre" Offset="204" />
+		<_37 Name="pull aim influence" type="fgrb" Offset="204" />
+		<_36 Name="pull velocity aim influence" Offset="204" />
+		<_14 Name="pull aim vector influence (level geo)" Offset="204" />
+		<_14 Name="pull aim vector influence (bipeds)" Offset="208" />
+		<_14 Name="pull aim vector influence (vehicles)" Offset="20C" />
+		<_8 Name="pull aim vector influence falloff inner angle" Offset="210" />
+		<_8 Name="pull aim vector influence falloff outer angle" Offset="214" />
+		<_14 Name="pull aim vector influence accumulation rate" Offset="218" />
+		<_14 Name="pull aim vector influence accumulation starting scalar" Offset="21C" />
+		<_36 Name="pull aim vector influence falloff function" Offset="220" />
+		<_37 Name="pull aim vector influence falloff function" type="fned" Offset="220" />
+		<_38 Name="pull aim vector influence falloff function" Offset="220" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_36 Name="pull aim vector influence scale function" Offset="238" />
+		<_37 Name="pull aim vector influence falloff function" type="fned" Offset="238" />
+		<_38 Name="pull aim vector influence scale function" Offset="238" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_37 Name="" type="fgre" Offset="250" />
+		<_37 Name="pull air control" type="fgrb" Offset="250" />
+		<_36 Name="pull velocity aim influence" Offset="250" />
+		<_14 Name="pull air control scalar (level geo)" Offset="250" />
+		<_14 Name="pull air control scalar (forward and back, level geo)" Offset="254" />
+		<_14 Name="pull air control scalar (left and right, level geo)" Offset="258" />
+		<_14 Name="pull air control scalar (bipeds)" Offset="25C" />
+		<_14 Name="pull air control scalar (forward and back, bipeds)" Offset="260" />
+		<_14 Name="pull air control scalar (left and right, bipeds)" Offset="264" />
+		<_14 Name="pull air control scalar (vehicles)" Offset="268" />
+		<_14 Name="pull air control scalar (forward and back, vehicles)" Offset="26C" />
+		<_14 Name="pull air control scalar (left and right, vehicles)" Offset="270" />
+		<_14 Name="pull air control accumulation rate" Offset="274" />
+		<_14 Name="pull air control accumulation starting scalar" Offset="278" />
+		<_37 Name="" type="fgre" Offset="27C" />
+		<_37 Name="pull completion" type="fgrb" Offset="27C" />
+		<_36 Name="pull completion" Offset="27C" />
+		<_14 Name="pull completion distance (level geo)" Offset="27C" />
+		<_14 Name="pull completion distance (level geo, ceilings)" Offset="280" />
+		<_14 Name="pull completion distance (level geo, floors)" Offset="284" />
+		<_14 Name="pull completion distance (bipeds)" Offset="288" />
+		<_14 Name="pull completion distance (vehicles)" Offset="28C" />
+		<_14 Name="pull vehicle interaction distance" Offset="290" />
+		<_14 Name="pull vehicle interaction time" Offset="294" />
+		<_8 Name="pull biped automelee max angle" Offset="298" />
+		<_8 Name="max allowed angle deviation (ceiling)" Offset="29C" />
+		<_8 Name="max allowed angle deviation (floor)" Offset="2A0" />
+		<_14 Name="pull line of sight break time" Offset="2A4" />
+		<_37 Name="" type="fgre" Offset="2A8" />
+		<_37 Name="pull aftermath stage" type="fgrb" Offset="2A8" />
+		<_36 Name="pull aftermath stage" Offset="2A8" />
+		<_14 Name="pull aftermath duration" Offset="2A8" />
+		<_14 Name="pull aftermath velocity (peak)" Offset="2AC" />
+		<_36 Name="pull aftermath velocity scale function" Offset="2B0" />
+		<_37 Name="pull aftermath velocity scale function" type="fned" Offset="2B0" />
+		<_38 Name="pull aftermath velocity scale function" Offset="2B0" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_2 Name="pull aftermath animation name" Offset="2C8" />
+		<_41 Name="pull aftermath impact effect" Offset="2CC" Allowed="effe" Flags="0" />
+		<_37 Name="" type="fgre" Offset="2E8" />
+		<_37 Name="reel in stage" type="fgrb" Offset="2E8" />
+		<_14 Name="reel in acceleration phase duration" Offset="2E8" />
+		<_14 Name="reel in base target velocity" Offset="2EC" />
+		<_8 Name="reel in launch grounded slope" Offset="2F0" />
+		<_14 Name="reel in launch vertical impulse duration" Offset="2F4" />
+		<_14 Name="reel in launch vertical impulse grounded" Offset="2F8" />
+		<_14 Name="reel in launch vertical impulse airborne" Offset="2FC" />
+		<_25 Name="reel in launch roll impulse airborne" Offset="300" />
+		<_25 Name="reel in launch roll rotation impulse grounded" Offset="308" />
+		<_25 Name="reel in launch pitch impulse airborne" Offset="310" />
+		<_25 Name="reel in launch pitch rotation impulse grounded" Offset="318" />
+		<_14 Name="reel in exit velocity" Offset="320" />
+		<_14 Name="reel in grab distance" Offset="324" />
+		<_14 Name="reel in grab vertical offset" Offset="328" />
+		<_14 Name="reel in time to detach allowed" Offset="32C" />
+		<_14 Name="reel in detach damage threshold" Offset="330" />
+		<_14 Name="reel in line of sight break time" Offset="334" />
+		<_14 Name="reel in min acceleration percentage to break" Offset="338" />
+		<_25 Name="reel in close range definition" Offset="33C" />
+		<_2 Name="reel in animation" Offset="344" />
+		<_36 Name="reel in acceleration function" Offset="348" />
+		<_37 Name="reel in acceleration function" type="fned" Offset="348" />
+		<_38 Name="reel in acceleration function" Offset="348" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_36 Name="reel in tangential velocity damping function" Offset="360" />
+		<_37 Name="reel in tangential velocity damping function" type="fned" Offset="360" />
+		<_38 Name="reel in tangential velocity damping function" Offset="360" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_37 Name="" type="fgre" Offset="378" />
+		<_37 Name="bash stage" type="fgrb" Offset="378" />
+		<_36 Name="grapple bash" Offset="378" />
+		<_14 Name="bash activation input hold time" Offset="378" />
+		<_8 Name="bash activation max aim angle" Offset="37C" />
+		<_14 Name="bash max aim lock rate of change" Offset="380" />
+		<_14 Name="bash peak velocity" Offset="384" />
+		<_14 Name="bash charge up duration" Offset="388" />
+		<_36 Name="bash charge up velocity scale function" Offset="38C" />
+		<_37 Name="bash charge up velocity scale function" type="fned" Offset="38C" />
+		<_38 Name="bash charge up velocity scale function" Offset="38C" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_14 Name="bash acceleration duration" Offset="3A4" />
+		<_36 Name="bash acceleration velocity scale function" Offset="3A8" />
+		<_37 Name="bash acceleration velocity scale function" type="fned" Offset="3A8" />
+		<_38 Name="bash acceleration velocity scale function" Offset="3A8" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_14 Name="bash stuck timeout" Offset="3C0" />
+		<_14 Name="bash aftermath duration" Offset="3C4" />
+		<_14 Name="bash aftermath recoil peak velocity" Offset="3C8" />
+		<_36 Name="bash recoil velocity scale function" Offset="3CC" />
+		<_37 Name="bash recoil velocity scale function" type="fned" Offset="3CC" />
+		<_38 Name="bash recoil velocity scale function" Offset="3CC" GUID="53FA44845A14A98F0AF1459E801068D4" />
+		<_2 Name="bash charge up animation" Offset="3E4" />
+		<_2 Name="bash flight animation" Offset="3E8" />
+		<_2 Name="bash finish grounded animation" Offset="3EC" />
+		<_2 Name="bash finish airborne animation" Offset="3F0" />
+		<_8 Name="bash finish animation vertical angle tolerance" Offset="3F4" />
+		<_41 Name="bash charge up effect" Offset="3F8" Allowed="effe" Flags="0" />
+		<_41 Name="bash launch effect" Offset="414" Allowed="effe" Flags="0" />
+		<_41 Name="bash active effect" Offset="430" Allowed="effe" Flags="0" />
+		<_41 Name="bash completion effect" Offset="44C" Allowed="effe" Flags="0" />
+		<_41 Name="bash owner damage" Offset="468" Allowed="jpt!" Flags="0" />
+		<_41 Name="bash pound aoe damage" Offset="484" Allowed="jpt!" Flags="0" />
+		<_14 Name="bash pound aoe epicenter walkback distance" Offset="4A0" />
+		<_37 Name="" type="fgre" Offset="4A4" />
+		<_37 Name="exit stage" type="fgrb" Offset="4A4" />
+		<_2 Name="retract animation" Offset="4A4" />
+		<_14 Name="exit animation speed scalar" Offset="4A8" />
+		<_14 Name="miss cooldown delay" Offset="4AC" />
+		<_37 Name="" type="fgre" Offset="4B0" />
+		<_37 Name="aim assist" type="fgrb" Offset="4B0" />
+		<_36 Name="AIM ASSIST" Offset="4B0" />
+		<_14 Name="aim assist range" Offset="4B0" />
+		<_8 Name="aim assist cone angle at projectile launch" Offset="4B4" />
+		<_8 Name="aim assist cone angle while projectile flying" Offset="4B8" />
+		<_14 Name="aim assist weight (angle)" Offset="4BC" />
+		<_14 Name="aim assist weight (distance)" Offset="4C0" />
+		<_14 Name="aim assist weight (biped)" Offset="4C4" />
+		<_14 Name="aim assist weight (vehicle)" Offset="4C8" />
+		<_14 Name="aim assist weight (weapon)" Offset="4CC" />
+		<_37 Name="" type="fgre" Offset="4D0" />
 	</_E9C34DFF6731C606043497ED9B09586C>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_D954483CA0B1EFF4F0B4EBCD88F17DD4 Name="i343::SpartanAbilities::SpartanAbilityCommonParameters" Alt="B5A0C4B5B8408D6C" Size="78">
 		<_37 Name="common ability parameters" type="fgrb" Offset="0" />
@@ -276,7 +277,7 @@
 	</_D954483CA0B1EFF4F0B4EBCD88F17DD4>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

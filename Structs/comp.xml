@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="composition" Parents="aTag" Index="-78">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="composition" Parents="aTag" Index="-78">
 	<_641048E9483088ED01A57565B172ABFC Name="CompositionDefinition" Alt="F9A1424CD8ED4B85" Size="550">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="Scenario" type="fgrb" Offset="10" />
 		<_38 Name="Scenario" Offset="10" GUID="54DE43E9FCA79D6FC0F7EC8BBDD8EB96" />
 		<_37 Name="" type="fgre" Offset="2C" />
@@ -1743,12 +1743,12 @@
 	</_DBF64500377A35B8A8879E748EA2450E>
 	<_4C5A4A1A9019ABA511FDA1ADAD1AF034 Name="FunctionDefinitionDefaultOne" Alt="E0E2BDF48D6E226A" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_4C5A4A1A9019ABA511FDA1ADAD1AF034>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 	<_94144B360D5BC689E3349147AF518ED1 Name="i343::Curve::AnimatedCurve" Alt="8ACA9260F82F1950" Size="2C">

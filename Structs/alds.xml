@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="AlertDescriptions" Parents="aTag" Index="-16">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:12 PM" Name="AlertDescriptions" Parents="aTag" Index="-16">
 	<_4F2F4942C6462C3D2CF891FF92D1A282 Name="AlertDescriptionTag" Alt="E47C853B08B83440" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Alerts" Offset="10" />
 		<_40 Name="descriptions" Offset="10" GUID="7F2B4774BE222E191E293D778343FCDB" StructName1="AlertDescriptionTag" Min="0" Max="512" />
 		<_34 Name="generated_pad8bc4" Offset="24" Length="4" />

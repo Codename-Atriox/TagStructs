@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="physics_model" Parents="aTag" Index="-309">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="physics_model" Parents="aTag" Index="-309">
 	<_C86045029626E74614F93081AC4C58B6 Name="i343::PhysicsModel::PhysicsModelDefinition" Alt="B2593CFF22D05D2" Size="260">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_D Name="flags" Offset="10" StructName1="i343::PhysicsModel::PhysicsModelFlag">
 			<Flag n="serialized havok data converted to target platform" />
 			<Flag n="make physical children keyframed" />
@@ -48,9 +48,9 @@
 		<_40 Name="nodes" Offset="238" GUID="F5314ACA6EB5A870B2226AB19EFC24F6" StructName1="i343::PhysicsModel::PhysicsModelDefinition" Min="0" Max="1024" />
 		<_40 Name="errors" Offset="24C" GUID="CA074D833CBB78D58E13F4968994291A" StructName1="i343::PhysicsModel::PhysicsModelDefinition" Min="0" Max="512" />
 	</_C86045029626E74614F93081AC4C58B6>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_72C247279B5B74EFF614802E8DB4A81B Name="i343::PhysicsModel::DampedSpringMotor" Alt="3CB8F3EEA547CAF7" Size="18">
 		<_2 Name="name" Offset="0" />
@@ -342,9 +342,9 @@
 		<_6 Name="runtime something" Offset="108" />
 		<_40 Name="reports" Offset="10C" GUID="3227499FEE6AAB2040FCAA9E914508D6" StructName1="error_report_category" Min="0" Max="1048576" />
 	</_CA074D833CBB78D58E13F4968994291A>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_E29B4888C574CB19200AA3638FBE942C Name="i343::PhysicsModel::PhysicsModelNodeHandle" Alt="E5F3CB51B139F9FF" Size="4">
 		<_30 Name="node" Offset="0" GUID="F5314ACA6EB5A870B2226AB19EFC24F6" StructName1="i343::PhysicsModel::PhysicsModelNodeHandle" Min="0" Max="1024" />

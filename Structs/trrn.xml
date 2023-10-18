@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="terrain_system" Parents="aTag" Index="-434">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="terrain_system" Parents="aTag" Index="-434">
 	<_40C641858F09F35ED1CE3590BF468135 Name="i343::TerrainSystemTag" Alt="2EAF30CDB8E336F4" Size="2A8">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_1 Name="name" Offset="10" />
 		<_19 Name="position" Offset="110" />
 		<_18 Name="terrain size" Offset="11C" />
@@ -29,9 +29,9 @@
 		</_D>
 		<_34 Name="generated_pad544d" Offset="2A4" Length="4" />
 	</_40C641858F09F35ED1CE3590BF468135>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_EEA34CABDD28036DDE31565CADF285E9 Name="i343::TerrainTileReference" Alt="72D534374EFE6C4C" Size="1C">
 		<_41 Name="Tile" Offset="0" Allowed="trtl" Flags="0" />
@@ -70,9 +70,9 @@
 		<_14 Name="3 Player Splitscreen" Offset="14" />
 		<_14 Name="4 Player Splitscreen" Offset="18" />
 	</_D5A456AA566FC2EA11B8AE8756453DBA>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_99F149216967F6C06615190E816B1BE0 Name="i343::Graphics::RenderGraph::ParameterDefinition" Alt="15C0E66B0D869CA2" Size="54">
 		<_2 Name="Name" Offset="0" />

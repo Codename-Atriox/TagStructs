@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="ComposerGlobalsDefinition" Parents="aTag" Index="-179">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="ComposerGlobalsDefinition" Parents="aTag" Index="-179">
 	<_32C74006658215A8AE110CDDB13FDEC9 Name="i343::ComposerGlobals" Alt="FA489FF5DD97D3DF" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="composer globals" Offset="10" GUID="52DF4FB03B2F2A5B30D069D7A68FFF8B" StructName1="i343::ComposerGlobals" Min="0" Max="1" />
 		<_34 Name="generated_pada30b" Offset="24" Length="4" />
 	</_32C74006658215A8AE110CDDB13FDEC9>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_52DF4FB03B2F2A5B30D069D7A68FFF8B Name="ComposerGlobalsDefinition" Alt="CA99F8E6649462B" Size="254">
 		<_14 Name="cinematic film aperture" Offset="0" />
@@ -40,9 +40,9 @@
 		<_14 Name="Default Spawning Pattern Probe Start Height Offset" Offset="24C" />
 		<_6 Name="Fade Start Frames Adjustment" Offset="250" />
 	</_52DF4FB03B2F2A5B30D069D7A68FFF8B>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_9C0D436D385EADFDA6697D2C8E8AE86D Name="ComposerScript" Alt="A2885E59DD81B39" Size="5C">
 		<_F Name="Flags" Offset="0" StructName1="ComposerScriptFlags">

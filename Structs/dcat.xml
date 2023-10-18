@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="decorator_asset" Parents="aTag" Index="-92">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="decorator_asset" Parents="aTag" Index="-92">
 	<_C59744B1FE72584876504B06AFFF6741 Name="DecoratorAssetTag" Alt="40F62F8486A43E8D" Size="158">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="General" type="fgrb" Offset="10" />
 		<_41 Name="Asset" Offset="10" Allowed="aset" Flags="1" />
 		<_41 Name="Settings" Offset="2C" Allowed="dcst" Flags="0" />

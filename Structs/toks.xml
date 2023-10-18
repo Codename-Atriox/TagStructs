@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="TokenSystemGlobalsDefinition" Parents="aTag" Index="-428">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="TokenSystemGlobalsDefinition" Parents="aTag" Index="-428">
 	<_3388EC4A94046522928131FEEACE96B6 Name="i343::AI::TokenSystem::TokenSystemGlobalsDefinition" Alt="E2A8C2DDAACA8DD5" Size="88">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Threat Token Globals" Offset="10" GUID="FA4691A4FB28DDCD29101D6B6421F11E" StructName1="i343::AI::TokenSystem::TokenSystemGlobalsDefinition" Min="0" Max="1" />
 		<_40 Name="Grenade Token Globals" Offset="24" GUID="868B488F2AA8C64910A0FACFB77C8F00" StructName1="i343::AI::TokenSystem::TokenSystemGlobalsDefinition" Min="0" Max="1" />
 		<_37 Name="Effectiveness Token Globals" type="fgrb" Offset="38" />
@@ -44,9 +44,9 @@
 		<_37 Name="" type="fgre" Offset="84" />
 		<_34 Name="generated_pada628" Offset="84" Length="4" />
 	</_3388EC4A94046522928131FEEACE96B6>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_FA4691A4FB28DDCD29101D6B6421F11E Name="i343::AI::TokenSystem::ThreatTokenDefinition" Alt="2D3778CBF187D9B5" Size="34">
 		<_36 Name="Threat Token Tuning Globals" Offset="0" />
@@ -81,9 +81,9 @@
 		<_5 Name="High Priority Behavior Score Modifier" Offset="10" />
 		<_34 Name="generated_pad5db4" Offset="12" Length="2" />
 	</_868B488F2AA8C64910A0FACFB77C8F00>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_385C3CAE44D8D0E50FA40C54BF85C773 Name="i343::AI::TokenSystem::ThreatTokenCharacterLimit" Alt="C6705BC5EEA181CB" Size="4">
 		<_B Name="Character Type" Offset="0" StructName1="ActorType">

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="PassengerCellEntryTag" Parents="actc,aTag" Index="-327">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="PassengerCellEntryTag" Parents="actc,aTag" Index="-327">
 	<_83904E8080562AEE9DDC19C98B5CD676 Name="i343::AI::SquadConstruction::PassengerCellEntry" Alt="6D08B3F32A786C16" Size="70">
 		<_38 Name="ActorCellEntryTag" Offset="0" GUID="FAD049212C632A6D9143E2C89AB86FD3" />
 		<_B Name="Seat Preference" Offset="68" StructName1="AISeatPreference">
@@ -15,18 +15,18 @@
 		<_34 Name="generated_pade676" Offset="6A" Length="6" />
 	</_83904E8080562AEE9DDC19C98B5CD676>
 	<_FAD049212C632A6D9143E2C89AB86FD3 Name="i343::AI::SquadConstruction::ActorCellEntry" Alt="7A9C0DB4DC4A6C1B" Size="68">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Character" Offset="10" Allowed="char" Flags="0" />
 		<_41 Name="Primary Weapon" Offset="2C" Allowed="weap" Flags="0" />
 		<_41 Name="Secondary Weapon" Offset="48" Allowed="weap" Flags="0" />
 		<_34 Name="generated_padbb57" Offset="64" Length="4" />
 	</_FAD049212C632A6D9143E2C89AB86FD3>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

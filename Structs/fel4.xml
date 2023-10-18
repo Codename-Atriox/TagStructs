@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="AnimFrameEventsFx_v0" Parents="aTag" Index="-140">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="AnimFrameEventsFx_v0" Parents="aTag" Index="-140">
 	<_F10B436AD609D80EA26F62999CEA5507 Name="AnimationFrameEventListEffects_v0" Alt="4255ADF9B3832C2E" Size="58">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Library" Offset="10" Allowed="lib2" Flags="1" />
 		<_40 Name="Effects" Offset="2C" GUID="FAC54010BFCD1C01A2882FF1A8E85FDF" StructName1="AnimationFrameEventListEffects_v0" Min="0" Max="10000000" />
 		<_40 Name="Animations" Offset="40" GUID="26694062F8160D6F068824648B48F974" StructName1="AnimationFrameEventListEffects_v0" Min="0" Max="8192" />
 		<_34 Name="generated_pad10f8" Offset="54" Length="4" />
 	</_F10B436AD609D80EA26F62999CEA5507>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_FAC54010BFCD1C01A2882FF1A8E85FDF Name="AnimationEffects" Alt="BACD039FE266024F" Size="1C">
 		<_6 Name="Unique ID" Offset="0" />
@@ -21,9 +21,9 @@
 		<_6 Name="Guid" Offset="4" />
 		<_40 Name="Effect events" Offset="8" GUID="BCDA4E9ECB2A811B8DAE4285BA6ED928" StructName1="EffectFrameEvents" Min="0" Max="10000000" />
 	</_26694062F8160D6F068824648B48F974>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_162E4ACFD82FE45D9CE28340B6B471E5 Name="EffectDefinition" Alt="1B4C793C8A22A3B5" Size="60">
 		<_41 Name="Effect" Offset="0" Allowed="effe" Flags="0" />

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="cui_static_data" Parents="aTag" Index="-89" C="ui\cui">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="cui_static_data" Parents="aTag" Index="-89" C="ui\cui">
 	<_3F3E4E98A95922614F381A53B9AA7A18 Name="s_cui_static_data_group_definition" Alt="76EC178D651D2799" Size="38">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="static data" Offset="10" GUID="8FF9442B2618E51290B8121F9F93FFB2" />
 	</_3F3E4E98A95922614F381A53B9AA7A18>
 	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">

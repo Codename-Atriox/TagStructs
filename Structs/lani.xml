@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="LegacyAnimSet" Parents="aTag" Index="-225">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:16 PM" Name="LegacyAnimSet" Parents="aTag" Index="-225">
 	<_83D428AD206DC8AA82AE18CC125DC185 Name="LegacyAnimSetTag" Alt="292272822082FDAD" Size="158">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Anim sets" Offset="10" GUID="047A2B778E5E565A0BC63FC358833942" StructName1="LegacyAnimSetTag" Min="0" Max="4096" />
 		<_40 Name="Animations" Offset="24" GUID="6F054B6F27C7CA463D05C73CA4DE3958" StructName1="LegacyAnimSetTag" Min="0" Max="4096" />
 		<_5 Name="Maximum inheritance depth" Offset="38" />
@@ -30,9 +30,9 @@
 		<_37 Name="Special Case Animations" type="fgre" Offset="154" />
 		<_34 Name="generated_padc3b9" Offset="154" Length="4" />
 	</_83D428AD206DC8AA82AE18CC125DC185>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_047A2B778E5E565A0BC63FC358833942 Name="AnimSetRef" Alt="A7ABC2228EE37C8D" Size="1C">
 		<_41 Name="Anim set reference" Offset="0" Allowed="anim" Flags="9" />
@@ -313,9 +313,9 @@
 		<_34 Name="generated_pade41c" Offset="A" Length="2" />
 		<_2 Name="Function" type="sted" Offset="C" />
 	</_F7624C2CD26786EA7209BC41837953E2>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_30CD3ACF0FFB799B0E155CF490F666FB Name="JointNameBlock" Alt="76C44A36B7AF5A5E" Size="4">
 		<_2 Name="Joint name" type="sted" Offset="0" />
@@ -361,7 +361,7 @@
 	</_D3BF44895CF8ECC5D976F245889D269E>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 	<_E66A44A8CE4190CF6F511E82AA7370C2 Name="ModeTreeWeaponType" Alt="F445532844C5B58A" Size="20">

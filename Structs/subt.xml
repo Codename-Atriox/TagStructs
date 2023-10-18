@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="composer_subtracks" Parents="aTag" Index="-412">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="composer_subtracks" Parents="aTag" Index="-412">
 	<_7DB64A98BEC2C9F626AB05FB968F3262 Name="SubTracksDefinition" Alt="A0D50D3A62DDEA69" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="SubTracks" type="slap" Offset="10" GUID="7F1C4780264DF9BB71FF6F5FA7DB2794" StructName1="SubTracksDefinition" Min="0" Max="1000" />
 		<_34 Name="generated_pad99a5" Offset="24" Length="4" />
 	</_7DB64A98BEC2C9F626AB05FB968F3262>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_7F1C4780264DF9BB71FF6F5FA7DB2794 Name="ComposerSubTrack" Alt="30DBE0F9676A92D4" Size="304">
 		<_2 Name="Name" Offset="0" />
@@ -58,9 +58,9 @@
 		<_40 Name="Camera Shake SubActions" type="slap" Offset="2DC" GUID="F8924C649CF20F6FF398D15DA3990584" StructName1="ComposerSubTrack" Min="0" Max="512" />
 		<_40 Name="Weapon Action SubActions" type="slap" Offset="2F0" GUID="AAFB482F4C83DED1C1D8BF6E87F92198" StructName1="ComposerSubTrack" Min="0" Max="512" />
 	</_7F1C4780264DF9BB71FF6F5FA7DB2794>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_E81D442CDC2099935EBF54F8926F9C86 Name="ComposerSubAction" Alt="10041A7C53F11160" Size="D4">
 		<_C Name="Type" Offset="0" StructName1="ComposerSubActionTypeEnum">
@@ -732,7 +732,7 @@
 	</_DBF64500377A35B8A8879E748EA2450E>
 	<_4C5A4A1A9019ABA511FDA1ADAD1AF034 Name="FunctionDefinitionDefaultOne" Alt="E0E2BDF48D6E226A" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_4C5A4A1A9019ABA511FDA1ADAD1AF034>
 	<_0F9747AA89121CCE609267FD9685FC92 Name="i343::Curve::Curve1dDefinition" Alt="5C5AFE65904470D9" Size="14">
@@ -747,7 +747,7 @@
 	</_7E334986D2CF3A61A27890EAA945BBF5>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 	<_94144B360D5BC689E3349147AF518ED1 Name="i343::Curve::AnimatedCurve" Alt="8ACA9260F82F1950" Size="2C">

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="DarkRoomShotList" Parents="aTag" Index="-107">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="DarkRoomShotList" Parents="aTag" Index="-107">
 	<_88FF4FB6F12F7418C23114A08A75C3A9 Name="i343::DarkRoom::ShotListDefinition" Alt="62AC1C91E08605DD" Size="30">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Shot List" Offset="10" GUID="4CA94A12C186900315749BF9A3FA1843" StructName1="i343::DarkRoom::ShotListDefinition" Min="0" Max="32" />
 		<_D Name="Screenshot Flags" Offset="24" StructName1="i343::DarkRoom::ShotListFlags">
 			<Flag n="Preview Mode" />

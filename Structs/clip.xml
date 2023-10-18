@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="animclip" Parents="aTag" Index="-61">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="animclip" Parents="aTag" Index="-61">
 	<_A8B2919894A618C92C99D84AD600A1E2 Name="AnimClipTag" Alt="BAC27EAD6CC9791D" Size="C0">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_6 Name="frameCount" Offset="10" />
 		<_14 Name="fps" Offset="14" />
 		<_40 Name="joints" Offset="18" GUID="42B5B7D05A708909A6E36F8CCED41B8B" StructName1="AnimClipTag" Min="0" Max="1024" />

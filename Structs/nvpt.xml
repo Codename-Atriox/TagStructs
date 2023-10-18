@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="NavPointPresentation" Parents="aTag" Index="-280">
-	<_06EE402C9CBBAC6999D3B5809F1D7FD3 Name="Interface::NavPoint::NavPointPresentationTag" Alt="C3FD4DA74CDBF29" Size="D0">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="NavPointPresentation" Parents="aTag" Index="-280">
+	<_06EE402C9CBBAC6999D3B5809F1D7FD3 Name="Interface::NavPoint::NavPointPresentationTag" Alt="B01CE30B19428D8A" Size="D0">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Template Navpoint" Offset="10" Allowed="nvpt" Flags="0" />
 		<_14 Name="Alpha" Offset="2C" />
 		<_14 Name="Anchor Offset X" Offset="30" />
@@ -13,15 +13,15 @@
 		<_40 Name="State Groups" Offset="58" GUID="CA374A669B4AD0DD85F1A3F8A29CD724" StructName1="Interface::NavPoint::NavPointPresentationTag" Min="0" Max="32" />
 		<_40 Name="External Events" Offset="6C" GUID="267C4DC2720E8D37259247299B8D0D4F" StructName1="Interface::NavPoint::NavPointPresentationTag" Min="0" Max="64" />
 		<_40 Name="Show and Hide Events" Offset="80" GUID="267C4DC2720E8D37259247299B8D0D4F" StructName1="Interface::NavPoint::NavPointPresentationTag" Min="0" Max="64" />
-		<_40 Name="Sample data floats" Offset="94" GUID="5A434BD3B30F3CE0B24F16B39AD43B87" StructName1="Interface::NavPoint::NavPointPresentationTag" Min="0" Max="4" />
-		<_40 Name="Sample data string ids" Offset="A8" GUID="EE894989E22880811DEC3766BFF607B4" StructName1="Interface::NavPoint::NavPointPresentationTag" Min="0" Max="4" />
-		<_40 Name="Sample data strings" Offset="BC" GUID="3A2743B3FAA4AFD7069E2C1B8B0E78CF" StructName1="Interface::NavPoint::NavPointPresentationTag" Min="0" Max="4" />
+		<_40 Name="Sample data floats" Offset="94" GUID="5A434BD3B30F3CE0B24F16B39AD43B87" StructName1="Interface::NavPoint::NavPointPresentationTag" Min="0" Max="8" />
+		<_40 Name="Sample data string ids" Offset="A8" GUID="EE894989E22880811DEC3766BFF607B4" StructName1="Interface::NavPoint::NavPointPresentationTag" Min="0" Max="8" />
+		<_40 Name="Sample data strings" Offset="BC" GUID="3A2743B3FAA4AFD7069E2C1B8B0E78CF" StructName1="Interface::NavPoint::NavPointPresentationTag" Min="0" Max="8" />
 	</_06EE402C9CBBAC6999D3B5809F1D7FD3>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_70164FF21B0C556C30C002779377B77E Name="Interface::NavPoint::ElementGroupTag" Alt="EED3C51C5F7B0BF8" Size="A8">
+	<_70164FF21B0C556C30C002779377B77E Name="Interface::NavPoint::ElementGroupTag" Alt="FC4F79B0A77A73D2" Size="A8">
 		<_2 Name="Group Name" Offset="0" />
 		<_2 Name="Tint Color" type="sted" Offset="4" />
 		<_14 Name="Alpha" Offset="8" />
@@ -59,12 +59,12 @@
 			<Flag n=" " />
 		</_F>
 		<_34 Name="generated_pad4787" Offset="2D" Length="3" />
-		<_40 Name="Label Elements" Offset="30" GUID="C3184CC176B5C9B2FF1E37B5888957C3" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="4" />
-		<_40 Name="Number Elements" Offset="44" GUID="382B4A390940CEC7C1D76F37AB11A2A7" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="4" />
-		<_40 Name="Image Elements" Offset="58" GUID="4FDE43CEBA134955A9EBCC6D903AE4F6" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="4" />
-		<_40 Name="Rotated Image Elements" Offset="6C" GUID="8AAF49D7D29FA474348ED198A34F4533" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="4" />
-		<_40 Name="Gradient Meter Elements" Offset="80" GUID="C068414D6C342779A5504F1B9B8BFD96" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="4" />
-		<_40 Name="Radial Meter Elements" Offset="94" GUID="C068414D6C342779A5504F1B9B8BFD96" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="4" />
+		<_40 Name="Label Elements" Offset="30" GUID="C3184CC176B5C9B2FF1E37B5888957C3" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="8" />
+		<_40 Name="Number Elements" Offset="44" GUID="382B4A390940CEC7C1D76F37AB11A2A7" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="8" />
+		<_40 Name="Image Elements" Offset="58" GUID="4FDE43CEBA134955A9EBCC6D903AE4F6" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="8" />
+		<_40 Name="Rotated Image Elements" Offset="6C" GUID="8AAF49D7D29FA474348ED198A34F4533" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="8" />
+		<_40 Name="Gradient Meter Elements" Offset="80" GUID="C068414D6C342779A5504F1B9B8BFD96" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="8" />
+		<_40 Name="Radial Meter Elements" Offset="94" GUID="C068414D6C342779A5504F1B9B8BFD96" StructName1="Interface::NavPoint::ElementGroupTag" Min="0" Max="8" />
 	</_70164FF21B0C556C30C002779377B77E>
 	<_CA374A669B4AD0DD85F1A3F8A29CD724 Name="Interface::NavPoint::VisualStateGroupTag" Alt="BADBCE2A62B91B1D" Size="18">
 		<_2 Name="Visual State Group Name" Offset="0" />
@@ -89,9 +89,9 @@
 		<_2 Name="Variable name" Offset="0" />
 		<_1 Name="Value" Offset="4" />
 	</_3A2743B3FAA4AFD7069E2C1B8B0E78CF>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_C3184CC176B5C9B2FF1E37B5888957C3 Name="Interface::NavPoint::LabelElementTag" Alt="DC2822D16A8B1F66" Size="58">
 		<_2 Name="Element Name" Offset="0" />
@@ -141,7 +141,7 @@
 		<_34 Name="generated_pad54de" Offset="51" Length="3" />
 		<_14 Name="Tracking Horizontal" Offset="54" />
 	</_C3184CC176B5C9B2FF1E37B5888957C3>
-	<_382B4A390940CEC7C1D76F37AB11A2A7 Name="Interface::NavPoint::NumberElementTag" Alt="5C551D5F4F79AFBB" Size="5C">
+	<_382B4A390940CEC7C1D76F37AB11A2A7 Name="Interface::NavPoint::NumberElementTag" Alt="B9E51BCEFF2B513F" Size="5C">
 		<_2 Name="Element Name" Offset="0" />
 		<_2 Name="Draw Flags Name" Offset="4" />
 		<_D Name="Draw Flags" Offset="8" StructName1="Interface::NavPoint::DrawWhenFlags">
@@ -192,6 +192,7 @@
 			<Flag n="Timer" />
 			<Flag n="Distance" />
 			<Flag n="Integer" />
+			<Flag n="Percentage" />
 		</_C>
 	</_382B4A390940CEC7C1D76F37AB11A2A7>
 	<_4FDE43CEBA134955A9EBCC6D903AE4F6 Name="Interface::NavPoint::ImageElementTag" Alt="22B61842C6D6FEF4" Size="5C">

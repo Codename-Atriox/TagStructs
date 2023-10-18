@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="particle_model" Parents="aTag" Index="-315">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="particle_model" Parents="aTag" Index="-315">
 	<_ADA64FF1C4C7FDE0F1D59F659CDCC3BE Name="c_particle_model_definition" Alt="EEE1567879DBD781" Size="178">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="render geometry" Offset="10" GUID="8FB042BA97D423E43A363C6CB0E025A9" />
 		<_38 Name="m_gpu_data" Offset="160" GUID="7CD04586F0F224FF7E98B7159698B35C" />
 		<_34 Name="generated_pad910e" Offset="174" Length="4" />
 	</_ADA64FF1C4C7FDE0F1D59F659CDCC3BE>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_8FB042BA97D423E43A363C6CB0E025A9 Name="s_render_geometry" Alt="67659B474E18E701" Size="150">
 		<_D Name="runtime flags" Offset="0" StructName1="RenderGeometryFlags">
@@ -42,9 +42,9 @@
 	<_7CD04586F0F224FF7E98B7159698B35C Name="c_particle_model_definition::s_gpu_data" Alt="1B73EE0DF89CE2BA" Size="14">
 		<_40 Name="m_variants" Offset="0" GUID="022840F47820CC6F818DBD9793225BE7" StructName1="c_particle_model_definition::s_gpu_data" Min="0" Max="16" />
 	</_7CD04586F0F224FF7E98B7159698B35C>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_883D4E7D67FAC4968DFF93F7B794F7A2 Name="MeshImportInfo" Alt="C27F1CE949D49B93" Size="2C">
 		<_3E Name="CRC" Offset="0" />

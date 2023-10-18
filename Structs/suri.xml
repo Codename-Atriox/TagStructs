@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="uri_lookup_table" Parents="aTag" Index="-414">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="uri_lookup_table" Parents="aTag" Index="-414">
 	<_4BDC4FD207E6F8736972929395A742D1 Name="Interface::SLAMS::UriLookupTableDefinition" Alt="4AD209A6AD4D3CC9" Size="40">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="root screen reference" Offset="10" Allowed="cusc, fuis" Flags="0" />
 		<_40 Name="uri entries" Offset="2C" GUID="2B2E4B6E8337B79EBBE2F6D68197683A" StructName1="Interface::SLAMS::UriLookupTableDefinition" Min="0" Max="500" />
 	</_4BDC4FD207E6F8736972929395A742D1>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_2B2E4B6E8337B79EBBE2F6D68197683A Name="Interface::SLAMS::UriEntryDefinition" Alt="8B6F180557C25D1E" Size="20">
 		<_2 Name="uri" Offset="0" />
 		<_41 Name="screen reference" Offset="4" Allowed="cusc, fuis" Flags="0" />
 	</_2B2E4B6E8337B79EBBE2F6D68197683A>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="ai_dialogue_globals" Parents="aTag" Index="-11">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:12 PM" Name="ai_dialogue_globals" Parents="aTag" Index="-11">
 	<_55DC4CE628A048279C6549DC95458C49 Name="ai_dialogue_definitions" Alt="2E8E027437D35B7D" Size="98">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Global timing" Offset="10" />
 		<_25 Name="strike delay bounds" Offset="10" />
 		<_14 Name="remind delay" Offset="18" />

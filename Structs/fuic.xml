@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="ComponentDefinition" Parents="aTag" Index="-169" C="ui\wpf">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="ComponentDefinition" Parents="aTag" Index="-169" C="ui\wpf">
 	<_DA3D44808B3B0E77F9F181BA95A4B64C Name="Interface::FastHud::ComponentDefinition" Alt="D3627C024406F576" Size="368">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="name" Offset="10" />
 		<_0 Name="class" Offset="14" />
 		<_38 Name="resources" Offset="34" GUID="75A546A65AED957592A628A08D48A55F" />
 	</_DA3D44808B3B0E77F9F181BA95A4B64C>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_75A546A65AED957592A628A08D48A55F Name="Interface::FastHud::ComponentResourcesDefinition" Alt="B1AC02BEBF0C8462" Size="334">
 		<_40 Name="entries" Offset="0" GUID="272249451CF6F98F39B26326AC483712" StructName1="Interface::FastHud::ComponentResourcesDefinition" Min="0" Max="1024" />
@@ -53,9 +53,9 @@
 		<_40 Name="highcontrastadditive" Offset="30C" GUID="C78B4CE70BEBA20D0F1EC752819B72AB" StructName1="Interface::FastHud::ComponentResourcesDefinition" Min="0" Max="1024" />
 		<_40 Name="vertexwarp" Offset="320" GUID="BC444815E3969A76637BAA1287735ED8" StructName1="Interface::FastHud::ComponentResourcesDefinition" Min="0" Max="1024" />
 	</_75A546A65AED957592A628A08D48A55F>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_272249451CF6F98F39B26326AC483712 Name="Interface::FastHud::ResourceEntryDefinition" Alt="C0159B476C3EE996" Size="C">
 		<_2 Name="name" Offset="0" />

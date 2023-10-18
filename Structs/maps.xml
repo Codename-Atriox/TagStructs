@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="InGameMapSettings" Parents="aTag" Index="-247">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:16 PM" Name="InGameMapSettings" Parents="aTag" Index="-247">
 	<_510143DD0707965BDE1EDB1EA193CFBE Name="InGameMapSettingsTag" Alt="408B3675A98C19A4" Size="558">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Map lights" Offset="10" GUID="E53143A000EA2867441937AEBADEB64E" StructName1="InGameMapSettingsTag" Min="0" Max="256" />
 		<_40 Name="Map light placements" Offset="24" GUID="6B7449E128375872E2BE3FBA83E1C722" StructName1="InGameMapSettingsTag" Min="0" Max="256" />
 		<_41 Name="Lightmap" Offset="38" Allowed="stlm" Flags="0" />
@@ -75,9 +75,9 @@
 		</_F>
 		<_34 Name="generated_padbfcb" Offset="551" Length="7" />
 	</_510143DD0707965BDE1EDB1EA193CFBE>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_E53143A000EA2867441937AEBADEB64E Name="InGameMapLightReference" Alt="E9DB030A2AD9EA31" Size="1C">
 		<_41 Name="Reference" Offset="0" Allowed="ligh" Flags="0" />
@@ -330,9 +330,9 @@
 	<_665D47BA5002600D0DE7E6E99D04D13E Name="i343::InGameMaps::PlayerPositionOverrideSettings" Alt="5C9A6BCF9C2ED160" Size="14">
 		<_40 Name="Zone Set Settings" Offset="0" GUID="FDEA44914351C79428038392B02C0E1F" StructName1="i343::InGameMaps::PlayerPositionOverrideSettings" Min="0" Max="32" />
 	</_665D47BA5002600D0DE7E6E99D04D13E>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_4C0543E1483112B5AC4316FD8350E8C2 Name="InGameMapFunction" Alt="CDA38216B289FFFC" Size="18">
 		<_37 Name="Mapping" type="fned" Offset="0" />
@@ -456,7 +456,7 @@
 	</_FDEA44914351C79428038392B02C0E1F>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 	<_90DA4F7B0469752962F2F415B2F7A1CC Name="i343::InGameMaps::RegionPoint" Alt="7F4304D163F6962B" Size="C">

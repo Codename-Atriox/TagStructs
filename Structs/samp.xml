@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="ui_sample_data" Parents="luas,aTag" Index="-350">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="ui_sample_data" Parents="luas,aTag" Index="-350">
 	<_FE2B4DC878962E054B76E0348F62B695 Name="SampleDataLuaScriptTagDefinition" Alt="27296C26116727B" Size="140">
 		<_38 Name="lua_script" Offset="0" GUID="4719414D0E1D1A1AC8DB9B6EB2C3E595" />
 	</_FE2B4DC878962E054B76E0348F62B695>
 	<_4719414D0E1D1A1AC8DB9B6EB2C3E595 Name="LuaScriptTagDefinition" Alt="7513F65F9482DD01" Size="140">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="luaFileName" Offset="10" />
 		<_42 Name="luaFileData" Offset="14" StructName1="LuaScriptTagDefinition.luaFileData" Int1="8" Int2="0" Flags="10000" />
 		<_1 Name="luaFileNameString" Offset="2C" />
 		<_40 Name="referencedTags" Offset="12C" GUID="EFA3450311D0AD82698E63CAADE6579D" StructName1="LuaScriptTagDefinition" Min="0" Max="8192" />
 	</_4719414D0E1D1A1AC8DB9B6EB2C3E595>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_EFA3450311D0AD82698E63CAADE6579D Name="LuaReferencedTagContainer" Alt="952616DC42446DC" Size="1C">
 		<_41 Name="tagReference" Offset="0" Allowed="aTag" Flags="0" />
 	</_EFA3450311D0AD82698E63CAADE6579D>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

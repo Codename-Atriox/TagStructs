@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="damage_effect" Parents="aTag" Index="-220">
-	<_22D24D90902C71FE36E0739394283954 Name="s_damage_effect_definition" Alt="8EC90C4CCD0EB26E" Size="3A8">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:16 PM" Name="damage_effect" Parents="aTag" Index="-220">
+	<_22D24D90902C71FE36E0739394283954 Name="s_damage_effect_definition" Alt="CEDFFECBDB435394" Size="3A8">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="parent" type="parr" Offset="10" Allowed="jpt!" Flags="1" />
 		<_25 Name="radius" Offset="2C" />
 		<_15 Name="cutoff scale" Offset="34" />
@@ -113,79 +113,84 @@
 		<_14 Name="damage lower bound" Offset="90" />
 		<_25 Name="damage upper bound" Offset="94" />
 		<_38 Name="damage falloff function" Offset="9C" GUID="0276481E72CB9289F56D7C189467A351" />
-		<_8 Name="dmg inner cone angle" Offset="B4" />
-		<_38 Name="blah" Offset="B8" GUID="5EF1403B728A16DCC741A9F2873B7F44" />
-		<_14 Name="active camouflage damage" Offset="BC" />
-		<_26 Name="active camouflage damage range" Offset="C0" />
-		<_15 Name="movement stun" Offset="C8" />
-		<_15 Name="maximum movement stun" Offset="CC" />
-		<_15 Name="turn stun" Offset="D0" />
-		<_15 Name="maximum turn stun" Offset="D4" />
-		<_14 Name="stun time" Offset="D8" />
-		<_6 Name="damage stun" Offset="DC" />
-		<_14 Name="instantaneous acceleration" Offset="E0" />
-		<_14 Name="alt instantaneous acceleration" Offset="E4" />
-		<_14 Name="prop instantaneous acceleration" Offset="E8" />
-		<_14 Name="acceleration cap" Offset="EC" />
-		<_36 Name="AI Stun Parameters" Offset="F0" />
-		<_14 Name="ai stun time" Offset="F0" />
-		<_14 Name="ai stun magnitude" Offset="F4" />
-		<_36 Name="Impalement parameters" Offset="F8" />
-		<_14 Name="impale initial velocity" Offset="F8" />
-		<_14 Name="impale drag acceleration" Offset="FC" />
-		<_14 Name="impale gravity acceleration" Offset="100" />
-		<_14 Name="impale minimum velocity" Offset="104" />
-		<_8 Name="impale maximum angle" Offset="108" />
-		<_14 Name="impale effect duration" Offset="10C" />
-		<_15 Name="soft ping pain screen scale" Offset="110" />
-		<_2 Name="general_damage" Offset="114" />
-		<_2 Name="specific_damage" Offset="118" />
-		<_36 Name="vampirism" Offset="11C" />
-		<_38 Name="vampirism" Offset="11C" GUID="8EF44BEB158301A70A647B3223AD1035" />
-		<_40 Name="custom response labels" Offset="144" GUID="E58B40F226EA92BDE8A8295691D334D4" StructName1="s_damage_effect_definition" Min="0" Max="8" />
-		<_14 Name="ping reaction delay" Offset="158" />
-		<_14 Name="AI stun radius" Offset="15C" />
-		<_25 Name="AI stun bounds" Offset="160" />
-		<_B Name="aiNoiseVolume" Offset="168" StructName1="i343::AI::SoundVolume">
+		<_A Name="damage cone hit resolution behavior" Offset="B4" StructName1="i343::Damage::ConeAoeResolutionBehavior">
+			<Flag n="outer cone only" />
+			<Flag n="approximate outer cone" />
+			<Flag n="test both cones" />
+		</_A>
+		<_34 Name="generated_pad17b5" Offset="B5" Length="3" />
+		<_8 Name="dmg inner cone angle" Offset="B8" />
+		<_38 Name="blah" Offset="BC" GUID="5EF1403B728A16DCC741A9F2873B7F44" />
+		<_14 Name="active camouflage damage" Offset="C0" />
+		<_26 Name="active camouflage damage range" Offset="C4" />
+		<_15 Name="movement stun" Offset="CC" />
+		<_15 Name="maximum movement stun" Offset="D0" />
+		<_15 Name="turn stun" Offset="D4" />
+		<_15 Name="maximum turn stun" Offset="D8" />
+		<_14 Name="stun time" Offset="DC" />
+		<_6 Name="damage stun" Offset="E0" />
+		<_14 Name="instantaneous acceleration" Offset="E4" />
+		<_14 Name="alt instantaneous acceleration" Offset="E8" />
+		<_14 Name="prop instantaneous acceleration" Offset="EC" />
+		<_14 Name="acceleration cap" Offset="F0" />
+		<_36 Name="AI Stun Parameters" Offset="F4" />
+		<_14 Name="ai stun time" Offset="F4" />
+		<_14 Name="ai stun magnitude" Offset="F8" />
+		<_36 Name="Impalement parameters" Offset="FC" />
+		<_14 Name="impale initial velocity" Offset="FC" />
+		<_14 Name="impale drag acceleration" Offset="100" />
+		<_14 Name="impale gravity acceleration" Offset="104" />
+		<_14 Name="impale minimum velocity" Offset="108" />
+		<_8 Name="impale maximum angle" Offset="10C" />
+		<_14 Name="impale effect duration" Offset="110" />
+		<_15 Name="soft ping pain screen scale" Offset="114" />
+		<_2 Name="general_damage" Offset="118" />
+		<_2 Name="specific_damage" Offset="11C" />
+		<_36 Name="vampirism" Offset="120" />
+		<_38 Name="vampirism" Offset="120" GUID="8EF44BEB158301A70A647B3223AD1035" />
+		<_40 Name="custom response labels" Offset="148" GUID="E58B40F226EA92BDE8A8295691D334D4" StructName1="s_damage_effect_definition" Min="0" Max="8" />
+		<_14 Name="ping reaction delay" Offset="15C" />
+		<_14 Name="AI stun radius" Offset="160" />
+		<_25 Name="AI stun bounds" Offset="164" />
+		<_B Name="aiNoiseVolume" Offset="16C" StructName1="i343::AI::SoundVolume">
 			<Flag n="silent" />
 			<Flag n="quiet" />
 			<Flag n="medium" />
 			<Flag n="shout" />
 			<Flag n="loud" />
 		</_B>
-		<_34 Name="generated_pad97e3" Offset="16A" Length="2" />
-		<_14 Name="shake radius" Offset="16C" />
-		<_14 Name="EMP radius" Offset="170" />
-		<_14 Name="EMP duration scalar" Offset="174" />
-		<_14 Name="aoe spike radius" Offset="178" />
-		<_14 Name="aoe spike damage bump" Offset="17C" />
-		<_14 Name="shield render effects scale" Offset="180" />
-		<_14 Name="equipment hack time" Offset="184" />
-		<_36 Name="damage response" Offset="188" />
-		<_41 Name="damage response" Offset="188" Allowed="drdf" Flags="0" />
-		<_40 Name="damage sounds" Offset="1A4" GUID="66FD4A1398E2919168160A3FBD131534" StructName1="s_damage_effect_definition" Min="0" Max="4" />
-		<_14 Name="Damage dealt SFX cooldown time" Offset="1B8" />
-		<_14 Name="Damage received SFX cooldown time" Offset="1BC" />
-		<_37 Name="player damage additive sounds" type="fgrb" Offset="1C0" />
-		<_41 Name="deprecated player dealt damage additive sound" Offset="1C0" Allowed="snd!" Flags="0" />
-		<_41 Name="deprecated player dealt AOE damage additive sound" Offset="1DC" Allowed="snd!" Flags="0" />
-		<_41 Name="deprecated player dealt friendly fire additive sound" Offset="1F8" Allowed="snd!" Flags="0" />
-		<_38 Name="player additive sound deal damage" Offset="214" GUID="19984BEFB3F8389FC2DE9124B530B6CD" />
-		<_41 Name="player received damage additive sound (default)" Offset="2D8" Allowed="snd!" Flags="0" />
-		<_41 Name="player received damage additive sound (third person)" Offset="2F4" Allowed="snd!" Flags="0" />
-		<_41 Name="player received damage additive sound (in vehicle)" Offset="310" Allowed="snd!" Flags="0" />
-		<_41 Name="player received AOE damage additive sound (default)" Offset="32C" Allowed="snd!" Flags="0" />
-		<_41 Name="player received AOE damage additive sound (third person)" Offset="348" Allowed="snd!" Flags="0" />
-		<_41 Name="player received AOE damage additive sound (in vehicle)" Offset="364" Allowed="snd!" Flags="0" />
-		<_37 Name="" type="fgre" Offset="380" />
-		<_41 Name="damage effect sounds" Offset="380" Allowed="desd" Flags="0" />
-		<_14 Name="visual damage radius" Offset="39C" />
-		<_14 Name="visual damage intensity" Offset="3A0" />
-		<_34 Name="generated_pad4b2e" Offset="3A4" Length="4" />
+		<_34 Name="generated_pad97e3" Offset="16E" Length="2" />
+		<_14 Name="shake radius" Offset="170" />
+		<_14 Name="EMP radius" Offset="174" />
+		<_14 Name="EMP duration scalar" Offset="178" />
+		<_14 Name="aoe spike radius" Offset="17C" />
+		<_14 Name="aoe spike damage bump" Offset="180" />
+		<_14 Name="shield render effects scale" Offset="184" />
+		<_14 Name="equipment hack time" Offset="188" />
+		<_36 Name="damage response" Offset="18C" />
+		<_41 Name="damage response" Offset="18C" Allowed="drdf" Flags="0" />
+		<_40 Name="damage sounds" Offset="1A8" GUID="66FD4A1398E2919168160A3FBD131534" StructName1="s_damage_effect_definition" Min="0" Max="4" />
+		<_14 Name="Damage dealt SFX cooldown time" Offset="1BC" />
+		<_14 Name="Damage received SFX cooldown time" Offset="1C0" />
+		<_37 Name="player damage additive sounds" type="fgrb" Offset="1C4" />
+		<_41 Name="deprecated player dealt damage additive sound" Offset="1C4" Allowed="snd!" Flags="0" />
+		<_41 Name="deprecated player dealt AOE damage additive sound" Offset="1E0" Allowed="snd!" Flags="0" />
+		<_41 Name="deprecated player dealt friendly fire additive sound" Offset="1FC" Allowed="snd!" Flags="0" />
+		<_38 Name="player additive sound deal damage" Offset="218" GUID="19984BEFB3F8389FC2DE9124B530B6CD" />
+		<_41 Name="player received damage additive sound (default)" Offset="2DC" Allowed="snd!" Flags="0" />
+		<_41 Name="player received damage additive sound (third person)" Offset="2F8" Allowed="snd!" Flags="0" />
+		<_41 Name="player received damage additive sound (in vehicle)" Offset="314" Allowed="snd!" Flags="0" />
+		<_41 Name="player received AOE damage additive sound (default)" Offset="330" Allowed="snd!" Flags="0" />
+		<_41 Name="player received AOE damage additive sound (third person)" Offset="34C" Allowed="snd!" Flags="0" />
+		<_41 Name="player received AOE damage additive sound (in vehicle)" Offset="368" Allowed="snd!" Flags="0" />
+		<_37 Name="" type="fgre" Offset="384" />
+		<_41 Name="damage effect sounds" Offset="384" Allowed="desd" Flags="0" />
+		<_14 Name="visual damage radius" Offset="3A0" />
+		<_14 Name="visual damage intensity" Offset="3A4" />
 	</_22D24D90902C71FE36E0739394283954>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_89514F3F92AB3D7856E0F6C28949DE8C Name="i343::Damage::DamageTypeDefinition" Alt="C98F136885F73319" Size="4">
 		<_2 Name="Damage Type Name" Offset="0" />
@@ -256,13 +261,13 @@
 		<_41 Name="player additive sound deal damage kill" Offset="8C" Allowed="snd!" Flags="0" />
 		<_41 Name="player additive sound deal damage headshot kill" Offset="A8" Allowed="snd!" Flags="0" />
 	</_19984BEFB3F8389FC2DE9124B530B6CD>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

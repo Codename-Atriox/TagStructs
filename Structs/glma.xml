@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="MaterialGlobalsDefinition" Parents="aTag" Index="-188">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="MaterialGlobalsDefinition" Parents="aTag" Index="-188">
 	<_8AA145EFD856583C35392B689FE0A76F Name="i343::MaterialGlobals" Alt="7E16E399C3F7F7F0" Size="48">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="global material types" Offset="10" />
 		<_2 Name="global water material" type="sted" Offset="10" />
 		<_2 Name="global air material" type="sted" Offset="14" />
@@ -11,9 +11,9 @@
 		<_40 Name="runtime materials" Offset="20" GUID="00B947A34D5F9153C56F065CBCAF406F" StructName1="i343::MaterialGlobals" Min="0" Max="512" />
 		<_40 Name="materials" type="sort" Offset="34" GUID="00B947A34D5F9153C56F065CBCAF406F" StructName1="i343::MaterialGlobals" Min="0" Max="256" />
 	</_8AA145EFD856583C35392B689FE0A76F>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_00B947A34D5F9153C56F065CBCAF406F Name="s_global_material_definition" Alt="B47B6E1756D112CC" Size="29C">
 		<_2 Name="name" Offset="0" />
@@ -40,9 +40,9 @@
 		<_41 Name="material effects" Offset="26C" Allowed="foot" Flags="0" />
 		<_40 Name="underwater proxies" Offset="288" GUID="A0B9C7A3AD5F9353C16F2653BAA0406F" StructName1="s_global_material_definition" Min="0" Max="512" />
 	</_00B947A34D5F9153C56F065CBCAF406F>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_4CCB4EF35354A7DF531D9FED9B8F2FC9 Name="s_material_physics_properties" Alt="3C92B120F64FBCB2" Size="68">
 		<_3E Name="flags" Offset="0" />

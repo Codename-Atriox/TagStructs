@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="bitmap_package_settings" Parents="aTag" Index="-46">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="bitmap_package_settings" Parents="aTag" Index="-46">
 	<_217A4C15A1EF563F70DA4035AEC48D79 Name="BitmapPackageSettingsTable" Alt="FD3B4B505482461C" Size="38">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="settings" Offset="10" GUID="C128495360D66DDCBFE796B8A0B591E8" StructName1="BitmapPackageSettingsTable" Min="0" Max="1024" />
 		<_36 Name="TEXTURE GROUPS" Offset="24" />
 		<_40 Name="texture groups" Offset="24" GUID="F0E24308F612453A60F17DB2ADF4E08F" StructName1="BitmapPackageSettingsTable" Min="0" Max="1024" />

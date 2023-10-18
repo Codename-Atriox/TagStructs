@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="FixedDepthQuadTree" Parents="aTag" Index="-134">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="FixedDepthQuadTree" Parents="aTag" Index="-134">
 	<_045E48829583C954987D3D8C988C4798 Name="FixedDepthQuadTree" Alt="19C6033C7A1AD3F1" Size="40">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_6 Name="Max Depth" Offset="10" />
 		<_40 Name="Node List" Offset="14" GUID="FF9546406A4FCF5C909A89E1B1B0ADD4" StructName1="FixedDepthQuadTree" Min="0" Max="512" />
 		<_40 Name="Geo" Offset="28" GUID="67C74A7F269BBFAA3E4427ED9F7F43E6" StructName1="FixedDepthQuadTree" Min="0" Max="512" />
 		<_34 Name="generated_pad38b2" Offset="3C" Length="4" />
 	</_045E48829583C954987D3D8C988C4798>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_FF9546406A4FCF5C909A89E1B1B0ADD4 Name="FixedDepthQuadTreeNode" Alt="ECCEEB0EE9DB7ECD" Size="18">
 		<_14 Name="x0" Offset="0" />
@@ -22,9 +22,9 @@
 	<_67C74A7F269BBFAA3E4427ED9F7F43E6 Name="FixedDepthQuadTreeGeo" Alt="7824C43125BA0A2D" Size="14">
 		<_40 Name="Raw Vertices" Offset="0" GUID="614742A08C142E68974557ECB4F6A4FD" StructName1="FixedDepthQuadTreeGeo" Min="0" Max="4096" />
 	</_67C74A7F269BBFAA3E4427ED9F7F43E6>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_614742A08C142E68974557ECB4F6A4FD Name="FixedDepthQuadTreeTri" Alt="E14C4C9F8BC2C6A0" Size="24">
 		<_17 Name="v0" Offset="0" />

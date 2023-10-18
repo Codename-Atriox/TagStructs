@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="skeleton" Parents="aTag" Index="-383">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="skeleton" Parents="aTag" Index="-383">
 	<_31EA4E8C6C1AEA4BBD1D9034B019756E Name="SkeletonTag" Alt="F20E322BAFF45CB3" Size="158">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Imported data" Offset="10" GUID="BBF8141B979B6F6112CCF19B6BF80C04" StructName1="SkeletonTag" Min="0" Max="1" />
 		<_40 Name="Joint usage" Offset="24" GUID="86F1A2179BA152F4E4C42B194F13C19C" StructName1="SkeletonTag" Min="0" Max="1024" />
 		<_40 Name="Nav joint" Offset="38" GUID="68756566705EB00D257606846A2AE904" StructName1="SkeletonTag" Min="0" Max="1024" />
@@ -29,9 +29,9 @@
 		<_40 Name="Shell Radius Overrides" Offset="144" GUID="7B0F412D47DA1701A55316D983903CBE" StructName1="SkeletonTag" Min="0" Max="32" />
 		<_37 Name="" type="fgre" Offset="158" />
 	</_31EA4E8C6C1AEA4BBD1D9034B019756E>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_BBF8141B979B6F6112CCF19B6BF80C04 Name="SkeletonTagImportedData" Alt="1EEFE569BA44A5B2" Size="2C">
 		<_40 Name="Joints" Offset="0" GUID="17E6C7BC1CD712E329874BE2A274E5BE" StructName1="SkeletonTagImportedData" Min="0" Max="1024" />
@@ -208,9 +208,9 @@
 		<_2 Name="Name" type="sted" Offset="0" />
 		<_14 Name="Shell Radius" Offset="4" />
 	</_7B0F412D47DA1701A55316D983903CBE>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_17E6C7BC1CD712E329874BE2A274E5BE Name="SkeletonJoint" Alt="83E4EFC39CC8B7D9" Size="2C">
 		<_2 Name="name" Offset="0" />

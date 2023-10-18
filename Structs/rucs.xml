@@ -1,21 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="RuntimeCoatingStyles" Parents="aTag" Index="-342">
-	<_DD55447C8F67CEA1DCA4B0DF97862C0B Name="RuntimeCoatingStylesTag" Alt="C7FD8DDA5A792161" Size="40">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="RuntimeCoatingStyles" Parents="aTag" Index="-342">
+	<_DD55447C8F67CEA1DCA4B0DF97862C0B Name="RuntimeCoatingStylesTag" Alt="5438B14053D20EA8" Size="48">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="styles" Offset="10" GUID="AA37458476A5799CB97BAD83AFFDAE5D" StructName1="RuntimeCoatingStylesTag" Min="0" Max="2048" />
 		<_41 Name="visorSwatch" Offset="24" Allowed="mwvs" Flags="0" />
+		<_6 Name="defaultStyleIndex" Offset="40" />
+		<_34 Name="generated_pad23c7" Offset="44" Length="4" />
 	</_DD55447C8F67CEA1DCA4B0DF97862C0B>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_AA37458476A5799CB97BAD83AFFDAE5D Name="RuntimeCoatingStyleRef" Alt="4649EBFC6E39F3D2" Size="24">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="variantName" Offset="4" />
 		<_41 Name="styleRef" Offset="8" Allowed="rucy" Flags="0" />
 	</_AA37458476A5799CB97BAD83AFFDAE5D>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

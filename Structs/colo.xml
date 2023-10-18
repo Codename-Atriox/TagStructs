@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="color_table" Parents="aTag" Index="-76">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="color_table" Parents="aTag" Index="-76">
 	<_019F497DD54F00C727691AFAA02B0FD4 Name="color_table" Alt="482136ADD5A5F2AB" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="colors" Offset="10" GUID="3C76413C68FBD3A866145DD18C564268" StructName1="color_table" Min="0" Max="512" />
 		<_34 Name="generated_pad9dec" Offset="24" Length="4" />
 	</_019F497DD54F00C727691AFAA02B0FD4>

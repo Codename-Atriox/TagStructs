@@ -1,22 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="DynamicWorldStateGlobals" Parents="aTag" Index="-114">
-	<_C71540A8CA62C5A5EB6C61B186D3D1E0 Name="DynamicWorldStateGlobals" Alt="68607FF9C8B20B7C" Size="1B68">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="DynamicWorldStateGlobals" Parents="aTag" Index="-114">
+	<_C71540A8CA62C5A5EB6C61B186D3D1E0 Name="DynamicWorldStateGlobals" Alt="87786453DD1C5D3E" Size="1888">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Per View Globals" Offset="10" Allowed="dwsv" Flags="0" />
 		<_38 Name="Resources" Offset="2C" GUID="2B4D498D5FB429AEEF276FCC88A8AE69" />
 		<_38 Name="Global State" Offset="48" GUID="10384E90F6B58463655C7F05946CF786" />
-		<_40 Name="Event Lists" Offset="1B40" GUID="2F8F421781891D7017B6D93080F35325" StructName1="DynamicWorldStateGlobals" Min="0" Max="256" />
-		<_40 Name="Event List Mappings" Offset="1B54" GUID="9CA54AAE0535F5A0051D3685870605A7" StructName1="DynamicWorldStateGlobals" Min="0" Max="32" />
+		<_40 Name="Event Lists" Offset="185C" GUID="2F8F421781891D7017B6D93080F35325" StructName1="DynamicWorldStateGlobals" Min="0" Max="256" />
+		<_40 Name="Event List Mappings" Offset="1870" GUID="9CA54AAE0535F5A0051D3685870605A7" StructName1="DynamicWorldStateGlobals" Min="0" Max="32" />
+		<_34 Name="generated_paddc42" Offset="1884" Length="4" />
 	</_C71540A8CA62C5A5EB6C61B186D3D1E0>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_2B4D498D5FB429AEEF276FCC88A8AE69 Name="DwsResourcesDefinition" Alt="EB159854D96549FE" Size="1C">
 		<_38 Name="Suns Resources" Offset="0" GUID="6A3D4DCCA840C0564EF062E3833885D1" />
 		<_14 Name="Volume Poll Time" Offset="18" />
 	</_2B4D498D5FB429AEEF276FCC88A8AE69>
-	<_10384E90F6B58463655C7F05946CF786 Name="StateDefinition" Alt="7CA474D2E240CB0C" Size="1AF8">
+	<_10384E90F6B58463655C7F05946CF786 Name="StateDefinition" Alt="AB7E3A95A25D7B14" Size="1814">
 		<_D Name="Flags" Offset="0" StructName1="StateFlagsDefinition">
 			<Flag n="Override Sun" />
 			<Flag n="Has Multiple Suns" />
@@ -40,21 +41,21 @@
 		<_14 Name="Interpolation Time" Offset="8" />
 		<_40 Name="Dynamic Suns" Offset="C" GUID="1EB94A0F75C2B258F0FC78828C2CB3E3" StructName1="StateDefinition" Min="0" Max="2" />
 		<_38 Name="Dynamic Sky" Offset="20" GUID="B0C24F8138F86D3848000CBEB4EC38E3" />
-		<_38 Name="Dynamic Atmosphere" Offset="10C" GUID="27F04675B3A796D68411FDDEBE3EF15B" />
-		<_38 Name="Dynamic Cubemap Tinting" Offset="1A4" GUID="E9CD4ADEA8A2358CE657AE4E832C238D" />
-		<_38 Name="Dynamic Cubemap Transition" Offset="1B8" GUID="975F488C13B9FEA3F5DDA8D78FA0B75E" />
-		<_38 Name="Dynamic Camera FX" Offset="1C4" GUID="C2D146300F57D64F634CF62CBA57A25B" />
-		<_38 Name="Dynamic Fog" Offset="740" GUID="A73C93F2F7A0F9F190FA21388AC3CB93" />
-		<_38 Name="Dynamic Wind" Offset="9B0" GUID="900CEF4FDB2295D36DE2485ABA356660" />
-		<_38 Name="Dynamic Volumetric Clouds" Offset="9C4" GUID="36623D8D8A1159C9FE15DA8BA0A9DE6F" />
-		<_38 Name="Dynamic Sun Shadow" Offset="E58" GUID="2C9D44EFEEB2A60A14B89F2A81FFDD29" />
-		<_38 Name="Global Cubemap" Offset="1A2C" GUID="321F4A50B6ACD1C264E6678986522421" />
-		<_38 Name="CVW Light Controls" Offset="1A4C" GUID="F4AC4522CB7815ECEB253A1FBFD39939" />
-		<_38 Name="Dynamic Vista" Offset="1AA8" GUID="A8354724F942BCFA456FDA60BABF6A44" />
-		<_38 Name="UI" Offset="1ADC" GUID="8181A863741888356B68020BDB3F705B" />
-		<_38 Name="Dynamic Waterfall" Offset="1AE4" GUID="6FDA494555AAC6CDDB23DF4B8EF266BE" />
+		<_38 Name="Dynamic Atmosphere" Offset="104" GUID="27F04675B3A796D68411FDDEBE3EF15B" />
+		<_38 Name="Dynamic Cubemap Tinting" Offset="19C" GUID="E9CD4ADEA8A2358CE657AE4E832C238D" />
+		<_38 Name="Dynamic Cubemap Transition" Offset="1B0" GUID="975F488C13B9FEA3F5DDA8D78FA0B75E" />
+		<_38 Name="Dynamic Camera FX" Offset="1BC" GUID="C2D146300F57D64F634CF62CBA57A25B" />
+		<_38 Name="Dynamic Fog" Offset="730" GUID="A73C93F2F7A0F9F190FA21388AC3CB93" />
+		<_38 Name="Dynamic Wind" Offset="9A0" GUID="900CEF4FDB2295D36DE2485ABA356660" />
+		<_38 Name="Dynamic Volumetric Clouds" Offset="9B4" GUID="36623D8D8A1159C9FE15DA8BA0A9DE6F" />
+		<_38 Name="Dynamic Sun Shadow" Offset="B74" GUID="2C9D44EFEEB2A60A14B89F2A81FFDD29" />
+		<_38 Name="Global Cubemap" Offset="1748" GUID="321F4A50B6ACD1C264E6678986522421" />
+		<_38 Name="CVW Light Controls" Offset="1768" GUID="F4AC4522CB7815ECEB253A1FBFD39939" />
+		<_38 Name="Dynamic Vista" Offset="17C4" GUID="A8354724F942BCFA456FDA60BABF6A44" />
+		<_38 Name="UI" Offset="17F8" GUID="8181A863741888356B68020BDB3F705B" />
+		<_38 Name="Dynamic Waterfall" Offset="1800" GUID="6FDA494555AAC6CDDB23DF4B8EF266BE" />
 	</_10384E90F6B58463655C7F05946CF786>
-	<_2F8F421781891D7017B6D93080F35325 Name="EventListDefinition" Alt="590EB43EA68FFF4F" Size="2C">
+	<_2F8F421781891D7017B6D93080F35325 Name="EventListDefinition" Alt="62F240177B97A1A1" Size="2C">
 		<_2 Name="Name" Offset="0" />
 		<_A Name="Execution Type" Offset="4" StructName1="EventListExecutionDirectionEnumDefinition">
 			<Flag n="Front to Back" />
@@ -90,9 +91,9 @@
 		</_A>
 		<_34 Name="generated_pad4488" Offset="5" Length="3" />
 	</_9CA54AAE0535F5A0051D3685870605A7>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_6A3D4DCCA840C0564EF062E3833885D1 Name="SunResourcesDefinition" Alt="907C9669DA8DA9BA" Size="18">
 		<_38 Name="Primary Sun Resource" Offset="0" GUID="679543B07F133FD10F820D9AB6058471" />
@@ -124,7 +125,7 @@
 		<_14 Name="Season Modifier" Offset="2C" />
 		<_14 Name="Size" Offset="30" />
 	</_1EB94A0F75C2B258F0FC78828C2CB3E3>
-	<_B0C24F8138F86D3848000CBEB4EC38E3 Name="DynamicSkyDefinition" Alt="507CEAEFA85504C0" Size="EC">
+	<_B0C24F8138F86D3848000CBEB4EC38E3 Name="DynamicSkyDefinition" Alt="FEB0AB36FA0A93" Size="E4">
 		<_D Name="Flags" Offset="0" StructName1="DynamicSkyOverrideFlagsDefinition">
 			<Flag n="Override Sky Color" />
 			<Flag n="Override Sky Intensity" />
@@ -148,8 +149,6 @@
 			<Flag n="Override Master Scalar Near Distance" />
 			<Flag n="Override Master Scalar Far" />
 			<Flag n="Override Master Scalar Far Distance" />
-			<Flag n="Override Probe Region Fade Max Angle" />
-			<Flag n="Override Probe Region Fade Min Angle" />
 		</_D>
 		<_1F Name="Static Tint" Offset="4" />
 		<_14 Name="Static Tint Intensity" Offset="10" />
@@ -173,12 +172,10 @@
 		<_14 Name="Indirect Lighting Master Scalar Near Distance" Offset="88" />
 		<_14 Name="Indirect Lighting Master Scalar Far" Offset="8C" />
 		<_14 Name="Indirect Lighting Master Scalar Far Distance" Offset="90" />
-		<_14 Name="Probe Region Fade Min Angle" Offset="94" />
-		<_14 Name="Probe Region Fade Max Angle" Offset="98" />
-		<_38 Name="Probe Set 0" Offset="9C" GUID="E2F140EC09A16370CBBBD99C85F03DE8" />
-		<_38 Name="Probe Set 1" Offset="B0" GUID="E2F140EC09A16370CBBBD99C85F03DE8" />
-		<_38 Name="Probe Set 2" Offset="C4" GUID="E2F140EC09A16370CBBBD99C85F03DE8" />
-		<_38 Name="Probe Set 3" Offset="D8" GUID="E2F140EC09A16370CBBBD99C85F03DE8" />
+		<_38 Name="Probe Set 0" Offset="94" GUID="E2F140EC09A16370CBBBD99C85F03DE8" />
+		<_38 Name="Probe Set 1" Offset="A8" GUID="E2F140EC09A16370CBBBD99C85F03DE8" />
+		<_38 Name="Probe Set 2" Offset="BC" GUID="E2F140EC09A16370CBBBD99C85F03DE8" />
+		<_38 Name="Probe Set 3" Offset="D0" GUID="E2F140EC09A16370CBBBD99C85F03DE8" />
 	</_B0C24F8138F86D3848000CBEB4EC38E3>
 	<_27F04675B3A796D68411FDDEBE3EF15B Name="DynamicAtmosphereDefinition" Alt="14278439A3AFAA3F" Size="98">
 		<_D Name="Flags" Offset="0" StructName1="DynamicAtmosphereOverrideFlagsDefinition">
@@ -248,7 +245,7 @@
 		<_14 Name="Cubemap Transition Far" Offset="4" />
 		<_14 Name="Cubemap Transition Near" Offset="8" />
 	</_975F488C13B9FEA3F5DDA8D78FA0B75E>
-	<_C2D146300F57D64F634CF62CBA57A25B Name="DynamicCameraFXDefinition" Alt="B8557A1A5E53C672" Size="57C">
+	<_C2D146300F57D64F634CF62CBA57A25B Name="DynamicCameraFXDefinition" Alt="476D35832048EA5C" Size="574">
 		<_E Name="Flags" Offset="0" StructName1="DynamicCameraFXOverrideFlagsDefinition">
 			<Flag n="Override Camera Exposure" />
 			<Flag n="Override Bloom" />
@@ -268,10 +265,10 @@
 		<_38 Name="Color Grading" Offset="124" GUID="9B0D42523C44CC8EFB0061A79CD0384F" />
 		<_38 Name="Deferred Reflections" Offset="1AC" GUID="62064354675DB699A171FC3A988F7865" />
 		<_38 Name="SSAO" Offset="250" GUID="506B4ED727AA01D44DF09C3BA22E07E1" />
-		<_38 Name="Lens Dirt" Offset="26C" GUID="9ADB4E79AB2E2204DE30B3428382C7F7" />
-		<_38 Name="Contact Shadows" Offset="298" GUID="EF48A6C11D2B810DC2964EF7B327885B" />
-		<_38 Name="Contact Shadows Local Lights" Offset="404" GUID="EF48A6C11D2B810DC2964EF7B327885B" />
-		<_38 Name="Chromatic Aberration" Offset="570" GUID="94864AE7122725D223E134ECAA9B2E26" />
+		<_38 Name="Lens Dirt" Offset="264" GUID="9ADB4E79AB2E2204DE30B3428382C7F7" />
+		<_38 Name="Contact Shadows" Offset="290" GUID="EF48A6C11D2B810DC2964EF7B327885B" />
+		<_38 Name="Contact Shadows Local Lights" Offset="3FC" GUID="EF48A6C11D2B810DC2964EF7B327885B" />
+		<_38 Name="Chromatic Aberration" Offset="568" GUID="94864AE7122725D223E134ECAA9B2E26" />
 	</_C2D146300F57D64F634CF62CBA57A25B>
 	<_A73C93F2F7A0F9F190FA21388AC3CB93 Name="DynamicFogDefinition" Alt="6C3244EDC5284942" Size="270">
 		<_E Name="Flags" Offset="0" StructName1="DynamicFogOverrideFlagsDefinition">
@@ -307,59 +304,27 @@
 		<_19 Name="Wind Direction" Offset="4" />
 		<_14 Name="Wind Speed" Offset="10" />
 	</_900CEF4FDB2295D36DE2485ABA356660>
-	<_36623D8D8A1159C9FE15DA8BA0A9DE6F Name="DynamicVolumetricCloudsDefinition" Alt="3CBC208C3CA62226" Size="494">
+	<_36623D8D8A1159C9FE15DA8BA0A9DE6F Name="DynamicVolumetricCloudsDefinition" Alt="8AEC9A222E73D18A" Size="1C0">
 		<_D Name="Flags" Offset="0" StructName1="DynamicVolumetricCloudsFlagsDefinition">
 			<Flag n="Override Coverage Texture" />
 			<Flag n="Override Coverage Scale" />
 			<Flag n="Override Coverage Offset" />
 			<Flag n="Override Coverage Scroll Speed" />
-			<Flag n="Override Coverage Strength" />
-			<Flag n="Override Horizon Distance" />
-			<Flag n="Override Atmosphere Start Height" />
-			<Flag n="Override Atmosphere End Height" />
-			<Flag n="Override LOD Distance" />
 			<Flag n="Override Global Wind Interpolation" />
 			<Flag n="Override Wind Direction" />
-			<Flag n="Override HighF Noise Animation Speed" />
-			<Flag n="Override LowF Noise Animation Speed" />
-			<Flag n="Override Raymarch Step Scale" />
-			<Flag n="Override Depth Threshold" />
-			<Flag n="Override Max Depth" />
-			<Flag n="Override Min Distance Horizon Clouds" />
-			<Flag n="Override Min Distance Horizon Fade Start" />
-			<Flag n="Override Max Distance Center Fade Start" />
-			<Flag n="Override Max Distance Center Fade End" />
-			<Flag n="Override Center Fade Position" />
 			<Flag n="Override Cloud Shape Settings" />
 			<Flag n="Override Cloud Lighting Settings" />
 			<Flag n="Override Cloud Shadow Settings" />
-			<Flag n="Override Clouds V2 Settings" />
 		</_D>
 		<_41 Name="Coverage Texture" Offset="4" Allowed="bitm" Flags="0" />
 		<_14 Name="Coverage Scale" Offset="20" />
 		<_18 Name="Coverage Offset" Offset="24" />
 		<_18 Name="Coverage Scroll Speed" Offset="2C" />
-		<_38 Name="Coverage Strength" Offset="34" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
-		<_14 Name="Horizon Distance" Offset="78" />
-		<_14 Name="Atmosphere Start Height" Offset="7C" />
-		<_38 Name="Atmosphere End Height" Offset="80" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
-		<_14 Name="LOD Distance" Offset="C4" />
-		<_14 Name="Global Wind Interpolation" Offset="C8" />
-		<_19 Name="Wind Direction" Offset="CC" />
-		<_19 Name="HighF Noise Animation Speed" Offset="D8" />
-		<_19 Name="LowF Noise Animation Speed" Offset="E4" />
-		<_14 Name="Raymarch Step Scale" Offset="F0" />
-		<_14 Name="Depth Threshold" Offset="F4" />
-		<_14 Name="Max Depth" Offset="F8" />
-		<_14 Name="Min Distance Horizon Clouds" Offset="FC" />
-		<_14 Name="Min Distance Horizon Fade Start" Offset="100" />
-		<_14 Name="Max Distance Center Fade Start" Offset="104" />
-		<_14 Name="Max Distance Center Fade End" Offset="108" />
-		<_18 Name="Center Fade Position" Offset="10C" />
-		<_38 Name="Cloud Shape" Offset="114" GUID="4B294F82BADCA6286C22C27EB765C179" />
-		<_38 Name="Cloud Lighting" Offset="248" GUID="707B405E45544687FB63EAF38C2586AC" />
-		<_38 Name="Cloud Shadows" Offset="3E0" GUID="3F2B47036D74779B0FDE560CA1B74244" />
-		<_38 Name="Clouds V2" Offset="404" GUID="08B74BC1C73F304E2ED53CD5B68C1030" />
+		<_14 Name="Global Wind Interpolation" Offset="34" />
+		<_19 Name="Wind Direction" Offset="38" />
+		<_38 Name="Cloud Shape" Offset="44" GUID="4B294F82BADCA6286C22C27EB765C179" />
+		<_38 Name="Cloud Lighting" Offset="138" GUID="707B405E45544687FB63EAF38C2586AC" />
+		<_38 Name="Cloud Shadows" Offset="19C" GUID="3F2B47036D74779B0FDE560CA1B74244" />
 	</_36623D8D8A1159C9FE15DA8BA0A9DE6F>
 	<_2C9D44EFEEB2A60A14B89F2A81FFDD29 Name="DynamicSunShadowDefinition" Alt="32712EA889C2E9F1" Size="BD4">
 		<_D Name="Flags" Offset="0" StructName1="DynamicSunShadowFlagsDefinition">
@@ -484,12 +449,12 @@
 		<_1F Name="Waterfall Color Map Tint" Offset="4" />
 		<_14 Name="Waterfall Color Map Intensity" Offset="10" />
 	</_6FDA494555AAC6CDDB23DF4B8EF266BE>
-	<_2C424F198AED11EA248A793BAE37DBC7 Name="LocalStateDefinition" Alt="6E3FF5D969A0EE7E" Size="1B04">
+	<_2C424F198AED11EA248A793BAE37DBC7 Name="LocalStateDefinition" Alt="DCDE766A61D4972D" Size="1820">
 		<_6 Name="Guid" Offset="0" />
 		<_2 Name="Name" Offset="4" />
 		<_38 Name="State" Offset="8" GUID="10384E90F6B58463655C7F05946CF786" />
-		<_2E Name="Volume Index" Offset="1B00" GUID="05A9439EBF59DB68ADE31F09811C3B2F" StructName1="LocalStateDefinition" Min="0" Max="8192" />
-		<_34 Name="generated_pad87f5" Offset="1B02" Length="2" />
+		<_2E Name="Volume Index" Offset="181C" GUID="05A9439EBF59DB68ADE31F09811C3B2F" StructName1="LocalStateDefinition" Min="0" Max="8192" />
+		<_34 Name="generated_pad87f5" Offset="181E" Length="2" />
 	</_2C424F198AED11EA248A793BAE37DBC7>
 	<_679543B07F133FD10F820D9AB6058471 Name="PrimarySunResourceDefinition" Alt="A59F316B962204F9" Size="4">
 		<_6 Name="Lens Flare GUID" Offset="0" />
@@ -638,11 +603,9 @@
 		</_D>
 		<_38 Name="Parameters" Offset="4" GUID="797145775B4D834DF5CD1EB485DCF4C8" />
 	</_62064354675DB699A171FC3A988F7865>
-	<_506B4ED727AA01D44DF09C3BA22E07E1 Name="SSAOParameterDefinition" Alt="5093D4F1FA905AC7" Size="1C">
+	<_506B4ED727AA01D44DF09C3BA22E07E1 Name="SSAOParameterDefinition" Alt="B97D092CEF8DDFFD" Size="14">
 		<_F Name="Flags" Offset="0" StructName1="SSAOOverrideFlagsDefinition">
 			<Flag n="Override Flags" />
-			<Flag n="Override Enable Flags" />
-			<Flag n="Override Hemi Rejection Falloff" />
 			<Flag n="Override GTAO Intensity" />
 			<Flag n="Override Sun AO" />
 			<Flag n="Override Spot Light AO" />
@@ -658,15 +621,10 @@
 			<Flag n="enabled" />
 			<Flag n="fixed2" />
 		</_E>
-		<_E Name="Enable Flags" Offset="4" StructName1="CameraFXSSAOFlags">
-			<Flag n="SSAO enabled" />
-		</_E>
-		<_34 Name="generated_pad1fbd" Offset="6" Length="2" />
-		<_14 Name="Hemi Rejection Falloff" Offset="8" />
-		<_14 Name="GTAO Intensity" Offset="C" />
-		<_14 Name="Sun AO" Offset="10" />
-		<_14 Name="Spot Light AO" Offset="14" />
-		<_14 Name="Omni Light AO" Offset="18" />
+		<_14 Name="GTAO Intensity" Offset="4" />
+		<_14 Name="Sun AO" Offset="8" />
+		<_14 Name="Spot Light AO" Offset="C" />
+		<_14 Name="Omni Light AO" Offset="10" />
 	</_506B4ED727AA01D44DF09C3BA22E07E1>
 	<_9ADB4E79AB2E2204DE30B3428382C7F7 Name="LensDirtParameterDefinition" Alt="926A07DF4BE0780B" Size="2C">
 		<_F Name="Flags" Offset="0" StructName1="LensDirtOverrideFlagsDefinition">
@@ -919,99 +877,70 @@
 		<_34 Name="generated_pada717" Offset="2" Length="2" />
 		<_38 Name="Parameters" Offset="4" GUID="6B3F4AA814A1E18FFDB12600B6E95BA8" />
 	</_F6824F3275F24063912FDC87B8071B9F>
-	<_97B1869D8D63F754A21F0D593E02B7F1 Name="SpecControlNodeFloatExact" Alt="D73BF96980812D07" Size="44">
-		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
-			<Flag n="Default" />
-			<Flag n="Sync" />
-			<Flag n="HDR" />
-			<Flag n="Reflections" />
-			<Flag n="VolumetricFog" />
-			<Flag n="Shadows" />
-			<Flag n="Sky" />
-			<Flag n="TAA" />
-			<Flag n="Ambient Occlusion" />
-			<Flag n="DOF" />
-			<Flag n="Aniso" />
-			<Flag n="Terrain" />
-			<Flag n="Tesselation" />
-			<Flag n="Lighting" />
-			<Flag n="Decorators" />
-			<Flag n="Asset Category" />
-			<Flag n="Dynamic Wind" />
-			<Flag n="Push Bending" />
-			<Flag n="Hlod" />
-			<Flag n="Visual Damage" />
-			<Flag n="Virtual Texturing" />
-			<Flag n="Effects" />
-			<Flag n="Emblem Quality" />
-			<Flag n="Texture Quality" />
-			<Flag n="Decals" />
-		</_A>
-		<_34 Name="generated_pad4417" Offset="1" Length="3" />
-		<_38 Name="Low" Offset="4" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
-		<_38 Name="Medium" Offset="14" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
-		<_38 Name="High" Offset="24" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
-		<_38 Name="Ultra" Offset="34" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
-	</_97B1869D8D63F754A21F0D593E02B7F1>
-	<_4B294F82BADCA6286C22C27EB765C179 Name="CloudShapeDefinition" Alt="9056CC683EC98680" Size="134">
+	<_4B294F82BADCA6286C22C27EB765C179 Name="CloudShapeDefinition" Alt="D5184B3FD86B47FA" Size="F4">
 		<_E Name="Flags" Offset="0" StructName1="CloudShapeFlagsDefinition">
-			<Flag n="Override Low Frequency Noise Scale" />
-			<Flag n="Override Low Frequency Noise Strength" />
-			<Flag n="Override Low Frequency Noise Axis Scale" />
-			<Flag n="Override High Frequency Noise Scale" />
-			<Flag n="Override High Frequency Noise Strength" />
 			<Flag n="Override Curl Noise Scale" />
 			<Flag n="Override Curl Noise Strength" />
-			<Flag n="Override Bottom Erosion Strength" />
-			<Flag n="Override Top Erosion Strength" />
-			<Flag n="Override Top Offset" />
+			<Flag n="Override Volume Start" />
+			<Flag n="Override Volume Height" />
+			<Flag n="Override Base Noise Scale" />
+			<Flag n="Override Detail Noise Scale" />
+			<Flag n="Override Detail Strength" />
+			<Flag n="Override Coverage Strength" />
+			<Flag n="Override Coverage Threshold" />
+			<Flag n="Override Lod Dist Scale" />
 		</_E>
 		<_34 Name="generated_padeb47" Offset="2" Length="2" />
-		<_38 Name="Low Frequency Noise Scale" Offset="4" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
-		<_14 Name="Low Frequency Noise Strength" Offset="48" />
-		<_19 Name="Low Frequency Noise Axis Scale" Offset="4C" />
-		<_38 Name="High Frequency Noise Scale" Offset="58" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
-		<_14 Name="High Frequency Noise Strength" Offset="9C" />
-		<_14 Name="Curl Noise Scale" Offset="A0" />
-		<_14 Name="Curl Noise Strength" Offset="A4" />
-		<_38 Name="Bottom Erosion Strength" Offset="A8" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
-		<_38 Name="Top Erosion Strength" Offset="EC" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
-		<_14 Name="Top Offset" Offset="130" />
+		<_14 Name="Curl Noise Scale" Offset="4" />
+		<_14 Name="Curl Noise Strength" Offset="8" />
+		<_14 Name="Volume Start" Offset="C" />
+		<_38 Name="Volume Height" Offset="10" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
+		<_19 Name="Base Noise Scale" Offset="54" />
+		<_14 Name="Detail Noise Scale" Offset="60" />
+		<_38 Name="Detail Strength" Offset="64" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
+		<_14 Name="Coverage Strength" Offset="A8" />
+		<_38 Name="Coverage Threshold" Offset="AC" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
+		<_14 Name="Lod Dist Scale" Offset="F0" />
 	</_4B294F82BADCA6286C22C27EB765C179>
-	<_707B405E45544687FB63EAF38C2586AC Name="CloudLightingDefinition" Alt="4A0824AC7A8D77E6" Size="198">
-		<_E Name="Flags" Offset="0" StructName1="CloudLightingFlagsDefinition">
-			<Flag n="Override Beer Strength" />
-			<Flag n="Override Powder Strength" />
-			<Flag n="Override Cornette Shanks Strength" />
-			<Flag n="Override Cornette Shanks Spread" />
-			<Flag n="Override Bottom Light" />
-			<Flag n="Override Clouds Fog Scale" />
-			<Flag n="Override Clouds Fog Intensity" />
-			<Flag n="Override Clouds Mie Intensity" />
-			<Flag n="Override Sunlight Intensity" />
+	<_707B405E45544687FB63EAF38C2586AC Name="CloudLightingDefinition" Alt="1A18526561A57D79" Size="64">
+		<_D Name="Flags" Offset="0" StructName1="CloudLightingFlagsDefinition">
 			<Flag n="Override Sunlight Color Tint" />
-			<Flag n="Override Skylight Intensity" />
-			<Flag n="Override Skylight Color Tint" />
-			<Flag n="Override Skylight Top Intensity" />
-			<Flag n="Override Skylight Top Color Tint" />
-			<Flag n="Override Global Alpha" />
-		</_E>
-		<_34 Name="generated_padf4f8" Offset="2" Length="2" />
-		<_38 Name="Beer Strength" Offset="4" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
-		<_38 Name="Powder Strength" Offset="48" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
-		<_38 Name="Cornette Shanks Strength" Offset="8C" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
-		<_14 Name="Cornette Shanks Spread" Offset="D0" />
-		<_14 Name="Bottom Light" Offset="D4" />
-		<_14 Name="Clouds Fog Scale" Offset="D8" />
-		<_38 Name="Clouds Fog Intensity" Offset="DC" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
-		<_14 Name="Clouds Mie Intensity" Offset="120" />
-		<_38 Name="Sunlight Intensity" Offset="124" GUID="97B1869D8D63F754A21F0D593E02B7F1" />
-		<_1F Name="Sunlight Color Tint" Offset="168" />
-		<_14 Name="Skylight Intensity" Offset="174" />
-		<_1F Name="Skylight Color Tint" Offset="178" />
-		<_14 Name="Skylight Top Intensity" Offset="184" />
-		<_1F Name="Skylight Top Color Tint" Offset="188" />
-		<_14 Name="Global Alpha" Offset="194" />
+			<Flag n="Override Density Scale" />
+			<Flag n="Override Scattering Factor" />
+			<Flag n="Override Extinction Factor" />
+			<Flag n="Override Phase Constant" />
+			<Flag n="Override Powder Strength" />
+			<Flag n="Override Direct Sun Intensity" />
+			<Flag n="Override Direct Sun Intensity Phase 0" />
+			<Flag n="Override Ambient Intensity Sky" />
+			<Flag n="Override Ambient Color Sky" />
+			<Flag n="Override Ambient Intensity Ground" />
+			<Flag n="Override Ambient Color Ground" />
+			<Flag n="Override Ray March Step Size" />
+			<Flag n="Override Sun March Dist Scale" />
+			<Flag n="Override Horizon Fade Start" />
+			<Flag n="Override Dither Amount" />
+			<Flag n="Override Atmospheric Scattering Intensity Start" />
+			<Flag n="Override Atmospheric Scattering Intensity End" />
+		</_D>
+		<_1F Name="Sunlight Color Tint" Offset="4" />
+		<_14 Name="Density Scale" Offset="10" />
+		<_14 Name="Scattering Factor" Offset="14" />
+		<_14 Name="Extinction Factor" Offset="18" />
+		<_14 Name="Phase Constant" Offset="1C" />
+		<_14 Name="Powder Strength" Offset="20" />
+		<_14 Name="Direct Sun Intensity" Offset="24" />
+		<_14 Name="Direct Sun Intensity Phase 0" Offset="28" />
+		<_14 Name="Ambient Intensity Sky" Offset="2C" />
+		<_1F Name="Ambient Color Sky" Offset="30" />
+		<_14 Name="Ambient Intensity Ground" Offset="3C" />
+		<_1F Name="Ambient Color Ground" Offset="40" />
+		<_14 Name="Ray March Step Size" Offset="4C" />
+		<_14 Name="Sun March Dist Scale" Offset="50" />
+		<_14 Name="Horizon Fade Start" Offset="54" />
+		<_14 Name="Dither Amount" Offset="58" />
+		<_14 Name="Atmospheric Scattering Intensity Start" Offset="5C" />
+		<_14 Name="Atmospheric Scattering Intensity End" Offset="60" />
 	</_707B405E45544687FB63EAF38C2586AC>
 	<_3F2B47036D74779B0FDE560CA1B74244 Name="CloudShadowsDefinition" Alt="D737F200578CD776" Size="24">
 		<_E Name="Flags" Offset="0" StructName1="CloudShadowsFlagsDefinition">
@@ -1034,68 +963,6 @@
 		<_14 Name="Panning Clouds Shadows Scalar" Offset="1C" />
 		<_14 Name="Panning Clouds Shadows Tilt" Offset="20" />
 	</_3F2B47036D74779B0FDE560CA1B74244>
-	<_08B74BC1C73F304E2ED53CD5B68C1030 Name="CloudsV2Definition" Alt="9D84B8644F465BAE" Size="90">
-		<_D Name="Flags" Offset="0" StructName1="CloudsV2FlagsDefinition">
-			<Flag n="Override Density Scale" />
-			<Flag n="Override Scattering Factor" />
-			<Flag n="Override Extinction Factor" />
-			<Flag n="Override Phase Constant" />
-			<Flag n="Override Powder Strength" />
-			<Flag n="Override Direct Sun Intensity" />
-			<Flag n="Override Ambient Intensity Sun Angle" />
-			<Flag n="Override Ambient Intensity Sky" />
-			<Flag n="Override Ambient Color Sky" />
-			<Flag n="Override Ambient Intensity Ground" />
-			<Flag n="Override Ambient Color Ground" />
-			<Flag n="Override Ray March Step Size" />
-			<Flag n="Override Max Step Count" />
-			<Flag n="Override Sun March Dist Scale" />
-			<Flag n="Override Sun Marching Steps" />
-			<Flag n="Override Horizon Fade Start" />
-			<Flag n="Override Dither Amount" />
-			<Flag n="Override Atmospheric Scattering Intensity Start" />
-			<Flag n="Override Atmospheric Scattering Intensity End" />
-			<Flag n="Override Volume Start" />
-			<Flag n="Override Volume Height" />
-			<Flag n="Override Base Noise Scale" />
-			<Flag n="Override Base Noise Dilation" />
-			<Flag n="Override Detail Noise Scale" />
-			<Flag n="Override Detail Strength" />
-			<Flag n="Override Coverage Strength" />
-			<Flag n="Override Curl Noise Scale" />
-			<Flag n="Override Curl Noise Strength" />
-			<Flag n="Override Coverage Threshold" />
-		</_D>
-		<_14 Name="Density Scale" Offset="4" />
-		<_14 Name="Scattering Factor" Offset="8" />
-		<_14 Name="Extinction Factor" Offset="C" />
-		<_14 Name="Phase Constant" Offset="10" />
-		<_14 Name="Powder Strength" Offset="14" />
-		<_14 Name="Direct Sun Intensity" Offset="18" />
-		<_14 Name="Ambient Intensity Sun Angle" Offset="1C" />
-		<_14 Name="Ambient Intensity Sky" Offset="20" />
-		<_1F Name="Ambient Color Sky" Offset="24" />
-		<_14 Name="Ambient Intensity Ground" Offset="30" />
-		<_1F Name="Ambient Color Ground" Offset="34" />
-		<_14 Name="Ray March Step Size" Offset="40" />
-		<_6 Name="Max Step Count" Offset="44" />
-		<_14 Name="Sun March Dist Scale" Offset="48" />
-		<_6 Name="Sun Marching Steps" Offset="4C" />
-		<_14 Name="Horizon Fade Start" Offset="50" />
-		<_14 Name="Dither Amount" Offset="54" />
-		<_14 Name="Atmospheric Scattering Intensity Start" Offset="58" />
-		<_14 Name="Atmospheric Scattering Intensity End" Offset="5C" />
-		<_14 Name="Volume Start" Offset="60" />
-		<_14 Name="Volume Height" Offset="64" />
-		<_19 Name="Base Noise Scale" Offset="68" />
-		<_14 Name="Base Noise Dilation" Offset="74" />
-		<_14 Name="Detail Noise Scale" Offset="78" />
-		<_14 Name="Detail Strength" Offset="7C" />
-		<_14 Name="Coverage Strength" Offset="80" />
-		<_14 Name="Curl Noise Scale" Offset="84" />
-		<_14 Name="Curl Noise Strength" Offset="88" />
-		<_14 Name="Coverage Threshold" Offset="8C" />
-	</_08B74BC1C73F304E2ED53CD5B68C1030>
 	<_FA51EA22198BCA1BA156B3AFA86915E6 Name="SpecControlNodeShadowQuality" Alt="80FD797AABEC9857" Size="4">
 		<_A Name="Low" Offset="0" StructName1="FloatingShadowQualityDefinition">
 			<Flag n="8 tap" />
@@ -1590,6 +1457,40 @@
 		<_14 Name="fog color intensity" Offset="20" />
 		<_40 Name="Function" Offset="24" GUID="9B06D3E1D1F9D5293631AF50D509793C" StructName1="s_solo_fog_parameters" Min="0" Max="1" />
 	</_09244999D82AB11524F24948857CA149>
+	<_97B1869D8D63F754A21F0D593E02B7F1 Name="SpecControlNodeFloatExact" Alt="D73BF96980812D07" Size="44">
+		<_A Name="Type" Offset="0" StructName1="i343::SpecControl::GraphicsOptions">
+			<Flag n="Default" />
+			<Flag n="Sync" />
+			<Flag n="HDR" />
+			<Flag n="Reflections" />
+			<Flag n="VolumetricFog" />
+			<Flag n="Shadows" />
+			<Flag n="Sky" />
+			<Flag n="TAA" />
+			<Flag n="Ambient Occlusion" />
+			<Flag n="DOF" />
+			<Flag n="Aniso" />
+			<Flag n="Terrain" />
+			<Flag n="Tesselation" />
+			<Flag n="Lighting" />
+			<Flag n="Decorators" />
+			<Flag n="Asset Category" />
+			<Flag n="Dynamic Wind" />
+			<Flag n="Push Bending" />
+			<Flag n="Hlod" />
+			<Flag n="Visual Damage" />
+			<Flag n="Virtual Texturing" />
+			<Flag n="Effects" />
+			<Flag n="Emblem Quality" />
+			<Flag n="Texture Quality" />
+			<Flag n="Decals" />
+		</_A>
+		<_34 Name="generated_pad4417" Offset="1" Length="3" />
+		<_38 Name="Low" Offset="4" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
+		<_38 Name="Medium" Offset="14" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
+		<_38 Name="High" Offset="24" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
+		<_38 Name="Ultra" Offset="34" GUID="0B69E7FC16240A124EB051BE14E7BFC5" />
+	</_97B1869D8D63F754A21F0D593E02B7F1>
 	<_23EB43DB2EA4F2097F716CDA96CF125A Name="s_fog_light_parameters" Alt="9D65C209C867B77B" Size="2C">
 		<_D Name="flags" Offset="0" StructName1="FogLightFlags">
 			<Flag n="Enabled" />
@@ -1623,12 +1524,6 @@
 		<_14 Name="sample density" Offset="3C" />
 		<_14 Name="minimum caster distance" Offset="40" />
 	</_6B3F4AA814A1E18FFDB12600B6E95BA8>
-	<_0B69E7FC16240A124EB051BE14E7BFC5 Name="SpecControlSplitscreenValuesFloat" Alt="C3075D2D89D56356" Size="10">
-		<_14 Name="Single Player" Offset="0" />
-		<_14 Name="2 Player Splitscreen" Offset="4" />
-		<_14 Name="3 Player Splitscreen" Offset="8" />
-		<_14 Name="4 Player Splitscreen" Offset="C" />
-	</_0B69E7FC16240A124EB051BE14E7BFC5>
 	<_8078F92EF0D329B6F2A2714BAD87BA46 Name="SpecControlSplitscreenValuesByte" Alt="2ADF1239AB865A0" Size="4">
 		<_3C Name="Single Player" Offset="0" />
 		<_3C Name="2 Player Splitscreen" Offset="1" />
@@ -1796,7 +1691,7 @@
 	</_CAFD409521D5D5297D81B801A0BADD13>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 	<_4161EF12A16E262114ABE16421C61BE3 Name="SpecControlNodeInt" Alt="80B9ABC205E9372" Size="2C">
@@ -1886,6 +1781,12 @@
 		<_37 Name="fog function" type="fned" Offset="0" />
 		<_38 Name="mapping" Offset="0" GUID="53FA44845A14A98F0AF1459E801068D4" />
 	</_9B06D3E1D1F9D5293631AF50D509793C>
+	<_0B69E7FC16240A124EB051BE14E7BFC5 Name="SpecControlSplitscreenValuesFloat" Alt="C3075D2D89D56356" Size="10">
+		<_14 Name="Single Player" Offset="0" />
+		<_14 Name="2 Player Splitscreen" Offset="4" />
+		<_14 Name="3 Player Splitscreen" Offset="8" />
+		<_14 Name="4 Player Splitscreen" Offset="C" />
+	</_0B69E7FC16240A124EB051BE14E7BFC5>
 	<_2945F447027B04468D896F1523DC6254 Name="SpecControlSplitscreenValuesBool" Alt="FEE10FBAE750FD21" Size="4">
 		<_F Name="Single Player" Offset="0" StructName1="SpecControlNodeBoolExactFlags">
 			<Flag n="True" />

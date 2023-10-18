@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="DarkRoomScreenshotSettingsSpec" Parents="aTag" Index="-108">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="DarkRoomScreenshotSettingsSpec" Parents="aTag" Index="-108">
 	<_EE944A18A8B79BC5866BBB5DBECE0FDD Name="i343::DarkRoom::ScreenshotSettingsSpecDefinition" Alt="68D4ABA6C9A5A640" Size="128">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_5 Name="UpRezFactor" Offset="10" />
 		<_1 Name="OutputDirectory" Offset="12" />
 		<_34 Name="generated_padd5ed" Offset="112" Length="2" />

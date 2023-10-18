@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="ValorUnlocks" Parents="aTag" Index="-458">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="ValorUnlocks" Parents="aTag" Index="-457">
 	<_839993A3C678F6032D9DA2E397996738 Name="i343::ValorRewards::ValorUnlocks" Alt="AD186AAB80E83695" Size="60">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Valor Rewards" Offset="10" GUID="839993A2C678F6022D9DA2E297996737" StructName1="i343::ValorRewards::ValorUnlocks" Min="0" Max="512" />
 		<_40 Name="Valor Points" Offset="24" GUID="839993A4C678F6042D9DA2E497996739" StructName1="i343::ValorRewards::ValorUnlocks" Min="0" Max="512" />
 		<_40 Name="Icons" Offset="38" GUID="839993A2C678F6022D9DA2E497996737" StructName1="i343::ValorRewards::ValorUnlocks" Min="0" Max="8" />
 		<_40 Name="Backgrounds" Offset="4C" GUID="839993A2C678F6022D9DA2E397996737" StructName1="i343::ValorRewards::ValorUnlocks" Min="0" Max="8" />
 	</_839993A3C678F6032D9DA2E397996738>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_839993A2C678F6022D9DA2E297996737 Name="i343::ValorRewards::Reward" Alt="6893F6FDC37A51C5" Size="68">
 		<_2 Name="Reward Name" Offset="0" />
@@ -42,8 +42,8 @@
 		<_2 Name="Name" Offset="0" />
 		<_41 Name="Sprite" Offset="4" Allowed="bitm" Flags="0" />
 	</_839993A2C678F6022D9DA2E397996737>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

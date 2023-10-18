@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="frame_event_list_anim" Parents="aTag" Index="-142">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="frame_event_list_anim" Parents="aTag" Index="-142">
 	<_B69642F67C0ED6D7095738BEB9DFE5CB Name="c_animation_frame_event_list_anim" Alt="74FD2DB9E2E337BE" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="frame event containers" Offset="10" GUID="5740411C3A3E3A26DDAD1050ADBDDA2E" StructName1="c_animation_frame_event_list_anim" Min="0" Max="8192" />
 		<_34 Name="generated_pad33c2" Offset="24" Length="4" />
 	</_B69642F67C0ED6D7095738BEB9DFE5CB>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_5740411C3A3E3A26DDAD1050ADBDDA2E Name="AnimFrameEventContainer" Alt="7DDFECBD3B5B02F4" Size="18">
 		<_2 Name="animation name" Offset="0" />
 		<_40 Name="anim events" Offset="4" GUID="B350466B8E149F88915F40A7BFEE4309" StructName1="AnimFrameEventContainer" Min="0" Max="512" />
 	</_5740411C3A3E3A26DDAD1050ADBDDA2E>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_B350466B8E149F88915F40A7BFEE4309 Name="AnimFrameEventDescriptor" Alt="59197204DE54D776" Size="C">
 		<_2 Name="linked frame event id" Offset="0" />

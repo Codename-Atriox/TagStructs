@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="AirDropSystemGlobalsDefinition" Parents="aTag" Index="-12">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:12 PM" Name="AirDropSystemGlobalsDefinition" Parents="aTag" Index="-12">
 	<_A0F748542AE1F7A09B375A3DBD4793D6 Name="i343::AI::AirDrop::AirDropSystemGlobalsDefinition" Alt="8B7939E9FF774025" Size="30">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Default flight path kit" Offset="10" Allowed="kit!" Flags="0" />
 		<_34 Name="generated_padfc5f" Offset="2C" Length="4" />
 	</_A0F748542AE1F7A09B375A3DBD4793D6>

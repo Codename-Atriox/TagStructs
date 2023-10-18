@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="lua" Parents="aTag" Index="-207">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="lua" Parents="aTag" Index="-207">
 	<_A5C94E61D48B9C35A88C73A7B477C707 Name="HsSourceFileTag" Alt="8EC70AF4D13B911A" Size="2D8">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_7 Name="hash" Offset="10" />
 		<_F Name="sourceDirectiveFlags" Offset="18" StructName1="HsSourceDirectiveFlags">
 			<Flag n="Pre Process" />
@@ -20,9 +20,9 @@
 		<_43 Name="m_debugResource" Offset="2C4" StructName1="HsDebugResource" Int1="0" GUID="17F94EAED460B2EFCED865DA96E913E5" />
 		<_34 Name="generated_pad2f27" Offset="2D4" Length="4" />
 	</_A5C94E61D48B9C35A88C73A7B477C707>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_45CA4441CE387689919B07278D8624B0 Name="ObjectScriptDefinition" Alt="76C0E80FF1F82BF1" Size="200">
 		<_1 Name="className" Offset="0" />
@@ -57,9 +57,9 @@
 		<_38 Name="hsSource" Offset="30" GUID="451243C16125D116802CDC57A6897DB5" />
 		<_38 Name="hsSymbol" Offset="48" GUID="C1324C18F04208A491400174B43E4F5A" />
 	</_17F94EAED460B2EFCED865DA96E913E5>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_5B114AC1D652D7894467B1DC8EECF66C Name="HStructFieldBlock" Alt="E7BCFA157DFA8E8C" Size="63C">
 		<_1 Name="name" Offset="0" />

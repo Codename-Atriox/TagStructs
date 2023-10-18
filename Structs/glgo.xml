@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="GameplayObjectGlobalsDefinition" Parents="aTag" Index="-186">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="GameplayObjectGlobalsDefinition" Parents="aTag" Index="-186">
 	<_254E406135C662BD1504DEB18C0EA2EA Name="i343::GameplayObjectGlobals" Alt="53D3F6AEF24C6AC1" Size="60">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Hologram Lighting" Offset="10" GUID="9FD147458E264B3B9FBB73AC83BCD78E" StructName1="i343::GameplayObjectGlobals" Min="0" Max="1" />
 		<_40 Name="active camo" Offset="24" GUID="39D84C2D4034FF5E0C7983BC916CA4FB" StructName1="i343::GameplayObjectGlobals" Min="0" Max="1" />
 		<_40 Name="shield boost" Offset="38" GUID="830F49E4C8A4D40E1FDC8F7C90962271" StructName1="i343::GameplayObjectGlobals" Min="0" Max="1" />
 		<_40 Name="Item Toss" Offset="4C" GUID="019A4E9C4F14BA9DE45DAADB8C0A48F5" StructName1="i343::GameplayObjectGlobals" Min="0" Max="1" />
 	</_254E406135C662BD1504DEB18C0EA2EA>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_9FD147458E264B3B9FBB73AC83BCD78E Name="HologramLightingGlobals" Alt="5780B712D96D57D2" Size="34">
 		<_37 Name="HOLOGRAM FUNCTIONS" type="fgrb" Offset="0" />
@@ -59,9 +59,9 @@
 		<_25 Name="Speed" Offset="8" />
 		<_37 Name="" type="fgre" Offset="10" />
 	</_019A4E9C4F14BA9DE45DAADB8C0A48F5>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_AA5542A48A2592760A50BEB18927B452 Name="HologramLightFunctions" Alt="7A1E7A0F808EFFE" Size="10">
 		<_2 Name="Intensity" Offset="0" />
@@ -93,7 +93,7 @@
 	</_D17B46FFE283DEAAF186E3778002F669>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

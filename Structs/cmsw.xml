@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="CoatingSwatch" Parents="aTag" Index="-70">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="CoatingSwatch" Parents="aTag" Index="-70">
 	<_F05C40B7AD696130CFFEC2559B813788 Name="CoatingSwatchPODTag" Alt="72D12878FDE9734C" Size="D8">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Parent" type="parr" Offset="10" Allowed="cmsw" Flags="1" />
 		<_37 Name="Base" type="fgrb" Offset="2C" />
 		<_18 Name="colorAndRoughnessTextureTransform" Offset="2C" />

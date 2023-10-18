@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="XAnimNodeGraph" Parents="aTag" Index="-20">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="XAnimNodeGraph" Parents="aTag" Index="-20">
 	<_DC3F4ED978E1F117E702DB29AC1C8E30 Name="ExportedAnimNodeGraph" Alt="FCDD53D4AFB15858" Size="4D8">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Source Graph" Offset="10" Allowed="agct" Flags="1" />
 		<_40 Name="Anim Node Subgraphs" Offset="2C" GUID="97634F3D6C666E05AD23FE6BBC70A7CD" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />
 		<_40 Name="Anim State Subgraphs" Offset="40" GUID="DAA742E8322A87B138A2A907A50F5EF2" StructName1="ExportedAnimNodeGraph" Min="0" Max="2048" />

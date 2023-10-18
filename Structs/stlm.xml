@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="structure_lightmap" Parents="aTag" Index="-408">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="structure_lightmap" Parents="aTag" Index="-408">
 	<_7BDE33E3B8D930EE23E9BC0987D6EBDD Name="StructureLightmap" Alt="2BC21FE4D4D371F3" Size="70">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Probe regions" Offset="10" GUID="3CFF4508B8333396D7358105BFDCC1BF" StructName1="StructureLightmap" Min="0" Max="16" />
 		<_41 Name="Probe bitmaps" Offset="24" Allowed="bitm" Flags="0" />
 		<_6 Name="Number of baked TOD states" Offset="40" />
@@ -11,9 +11,9 @@
 		<_43 Name="Baked DWS Irradiance Data" Offset="5C" StructName1="BakedDWSIrradianceResource" Int1="0" GUID="FC87467A2A52409D28D5CCC19C1FDA09" />
 		<_34 Name="generated_pad7764" Offset="6C" Length="4" />
 	</_7BDE33E3B8D930EE23E9BC0987D6EBDD>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_3CFF4508B8333396D7358105BFDCC1BF Name="IndirectLightProbeRegion" Alt="460AAD7214B074E4" Size="5C">
 		<_2 Name="Name" Offset="0" />
@@ -53,9 +53,9 @@
 		<_40 Name="Regions" Offset="0" GUID="07544F49FF636CC981BEB83F97908873" StructName1="BakedDWSIrradianceResource" Min="0" Max="16777215" />
 		<_40 Name="TOD states" Offset="14" GUID="88CD4158768028D2935F809C9B737813" StructName1="BakedDWSIrradianceResource" Min="0" Max="8" />
 	</_FC87467A2A52409D28D5CCC19C1FDA09>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_E0004613C74B158EE1E69DA7893D65F6 Name="LightDefinition" Alt="C1F39845AD3A49FA" Size="248">
 		<_36 Name="Dynamic/Static Shared Light Parameters" Offset="0" />
@@ -292,7 +292,7 @@
 	</_AFBE43EF1A0929B94D004AC5B4710D04>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 	<_2FE7429C4EE726FBB489F288B4DD8A95 Name="s_bool_property" Alt="3B4DC23A76A6F144" Size="101">

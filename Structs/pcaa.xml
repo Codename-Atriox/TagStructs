@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="pca_animation" Parents="aTag" Index="-304">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="pca_animation" Parents="aTag" Index="-304">
 	<_89A441317CDBDEA2D31DFAA38B74D5FD Name="PcaAnimationTag" Alt="49B553ACCD9BE329" Size="90">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_36 Name="Links" Offset="10" />
 		<_41 Name="RenderModel" Offset="10" Allowed="mode" Flags="0" />
 		<_41 Name="AnimationGraph" Offset="2C" Allowed="jmad" Flags="0" />
@@ -19,9 +19,9 @@
 		<_43 Name="api resource" Offset="7C" StructName1="s_render_geometry_api_resource" Int1="0" GUID="F60A41648AEB802123365545970C7091" />
 		<_34 Name="generated_pad7a1a" Offset="8C" Length="4" />
 	</_89A441317CDBDEA2D31DFAA38B74D5FD>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_06554F48E5333434556FB3B5821AF6F8 Name="PCAImportedFrameDataElement" Alt="A267FE8AEC896A33" Size="18">
 		<_42 Name="Coefficients" Offset="0" StructName1="PCAImportedFrameDataElement.Coefficients" Int1="0" Int2="0" Flags="4000000" />
@@ -56,9 +56,9 @@
 		<_39 Name="m_sharedDXResourceTypedViews" type="nuke" Offset="88" GUID="C9A74D928B59ABF6747AF7E4B185B6CE" Count="21" StructName1="m_sharedDXResourceTypedViews" />
 		<_7 Name="Runtime Data" type="nuke" Offset="130" />
 	</_F60A41648AEB802123365545970C7091>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_BBC14296959FD2F8128A561CADCD7D1C Name="PCAImportedAnimationData" Alt="D3F892F140E75148" Size="24">
 		<_2 Name="Name" Offset="0" />

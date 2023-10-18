@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:58 PM" Name="video" Parents="aTag" Index="-463" C="videos\default_videos">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="video" Parents="aTag" Index="-462" C="videos\default_videos">
 	<_83D549CED7C50340EDF72551A7526B17 Name="VideoGroup" Alt="FDEE4744DA487A89" Size="38">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Video Source Paths" Offset="10" GUID="84584BB3279D540D496E51BB849A2EE3" StructName1="VideoGroup" Min="0" Max="12" />
 		<_40 Name="Videos" Offset="24" GUID="0CAC4D129CE84A5B1EB3200D81092B4D" StructName1="VideoGroup" Min="0" Max="12" />
 	</_83D549CED7C50340EDF72551A7526B17>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_84584BB3279D540D496E51BB849A2EE3 Name="i343::Graphics::Video::SourcePath" Alt="2DB35CFE6B5EC08D" Size="4">
 		<_44 Name="Path" Offset="0" />
@@ -39,9 +39,9 @@
 		<_34 Name="generated_pad0bfe" Offset="19" Length="3" />
 		<_43 Name="Video Resource" Offset="1C" StructName1="i343::Graphics::Video::VideoResource" Int1="0" GUID="11F946C9DCC94950228DC859B919529D" />
 	</_0CAC4D129CE84A5B1EB3200D81092B4D>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_11F946C9DCC94950228DC859B919529D Name="i343::Graphics::Video::VideoResource" Alt="DA652E93DFBD7D1E" Size="2C">
 		<_A Name="Resolution Level" Offset="0" StructName1="i343::Graphics::Video::VideoResolutionLevel">

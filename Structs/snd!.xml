@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="sound" Parents="aTag" Index="-389" C="sound">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="sound" Parents="aTag" Index="-389" C="sound">
 	<_E64446ED9F72CF909767C27C823380DF Name="OneShotSoundTag" Alt="32DEDF752E90267B" Size="E8">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_D Name="flags" Offset="10" StructName1="OneShotSoundTagFlag">
 			<Flag n="trigger cell event when played" />
 		</_D>
@@ -24,9 +24,9 @@
 		<_34 Name="generated_padf447" Offset="C9" Length="3" />
 		<_41 Name="Unicode Subtitles Tag" Offset="CC" Allowed="uslg" Flags="0" />
 	</_E64446ED9F72CF909767C27C823380DF>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_62FE4BBA0E0134DDE72E07D882D9858D Name="soundVOEventInfo" Alt="D16CDEDAA04008D3" Size="50">
 		<_2 Name="Event Name" Offset="0" />
@@ -38,9 +38,9 @@
 		<_40 Name="AI Dialogue Info" Offset="28" GUID="F8524194B62C04EDA9B749459E8FCC6F" StructName1="soundVOEventInfo" Min="0" Max="1" />
 		<_40 Name="facial animation resource languages" Offset="3C" GUID="A2804A455280F0A032312FB4B6512D45" StructName1="soundVOEventInfo" Min="0" Max="18" />
 	</_62FE4BBA0E0134DDE72E07D882D9858D>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_10F2497D1108C4920E4D821D89A30DF7 Name="narrativeReferenceInfo" Alt="586C5B5DB114265A" Size="16C">
 		<_0 Name="Character name" Offset="0" />
@@ -684,7 +684,7 @@
 	</_6B0241138DD55035B2B7B7B5831A13DB>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 	<_3BDA48B109439BE6A12806119947AD2E Name="c_model_animation_tag_animation_group_resource" Alt="AB87ADC42DA3A521" Size="14">

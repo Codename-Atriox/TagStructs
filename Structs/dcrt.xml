@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="runtime_dec" Parents="aTag" Index="-95">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="runtime_dec" Parents="aTag" Index="-95">
 	<_71BC4CF408FA02BB4821B116A3C43E7E Name="i343::Decorators::DecoratorRuntimeTag" Alt="B2EECAF940754EEF" Size="288">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="LOD Settings and Transitions Ranges" type="fgrb" Offset="10" />
 		<_14 Name="First LOD fadeout factor" Offset="10" />
 		<_14 Name="Last LOD fadeout factor" Offset="14" />

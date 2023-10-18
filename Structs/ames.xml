@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="AnimatedMesh" Parents="aTag" Index="-18">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:12 PM" Name="AnimatedMesh" Parents="aTag" Index="-18">
 	<_A92146D4859188FF0BA979DC9C57792F Name="AnimatedMesh" Alt="9A1C6D247DA583CA" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_3E Name="Flags" Offset="10" />
 		<_3C Name="Version" Offset="14" />
 		<_3C Name="Authored FPS" Offset="15" />

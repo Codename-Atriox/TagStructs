@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:58 PM" Name="weapon_attachment_target_tracking" Parents="aTag" Index="-477">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="weapon_attachment_target_tracking" Parents="aTag" Index="-476">
 	<_73F54979FFEA44A67EA65F6BAEAF8E35 Name="i343::Weapon::AttachmentTargetTrackingDefinition" Alt="63B967990F8DF784" Size="158">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="weapon attachment component" Offset="10" GUID="89184EDE128B8F41C1F5C4D699007385" />
 		<_38 Name="weapon target tracking component" Offset="128" GUID="053F4E1A5ED9BA83BF52208DB41B8E0B" />
 	</_73F54979FFEA44A67EA65F6BAEAF8E35>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_89184EDE128B8F41C1F5C4D699007385 Name="i343::Weapon::AttachmentComponentDefinition" Alt="BCCEC8F94CB5FA4C" Size="118">
 		<_37 Name="Weapon Attachment" type="fgrb" Offset="0" />
@@ -40,9 +40,9 @@
 		<_2 Name="locking reticle screen name" Offset="28" />
 		<_2 Name="locked on reticle screen name" Offset="2C" />
 	</_053F4E1A5ED9BA83BF52208DB41B8E0B>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_EB864527F5DE3409AAD17E47A7C2911B Name="i343::Weapon::AttachmentRegionPermutationDefinition" Alt="54731020B62108CD" Size="8">
 		<_2 Name="region name" Offset="0" />

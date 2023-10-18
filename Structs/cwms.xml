@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="CoatingMaterialSet" Parents="aTag" Index="-90">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="CoatingMaterialSet" Parents="aTag" Index="-90">
 	<_BE34DED759766103815565024B598190 Name="CoatingMaterialSetTag" Alt="698DA7855CDFFDDE" Size="40">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="defaultMaterial" Offset="10" GUID="322545BD118D54F2ADDEF3DFABCEB6B0" StructName1="CoatingMaterialSetTag" Min="0" Max="1024" />
 		<_40 Name="perLayerEmissiveMaterial" Offset="24" GUID="322545BD118D54F2ADDEF3DFABCEB6B0" StructName1="CoatingMaterialSetTag" Min="0" Max="1024" />
 		<_7 Name="m_pipelineStates" Offset="38" />

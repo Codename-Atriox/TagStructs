@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:57 PM" Name="squad_template" Parents="aTag" Index="-400" C="ai">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:18 PM" Name="squad_template" Parents="aTag" Index="-400" C="ai">
 	<_E85F4CB81CFEC4FF0784E278814D3264 Name="s_squad_template_definition" Alt="48E7C0FF3B06BD1E" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="name" Offset="10" />
 		<_40 Name="cell templates" Offset="14" GUID="2BD14D6284753568BE899C68B1F8C1FD" StructName1="s_squad_template_definition" Min="0" Max="10" />
 	</_E85F4CB81CFEC4FF0784E278814D3264>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_2BD14D6284753568BE899C68B1F8C1FD Name="s_cell_template_definition" Alt="F35BA6D15A551236" Size="84">
 		<_2 Name="name" Offset="0" />
@@ -39,9 +39,9 @@
 		<_2 Name="vehicle variant" Offset="7C" />
 		<_2 Name="activity name" type="sted" Offset="80" />
 	</_2BD14D6284753568BE899C68B1F8C1FD>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_46764415F95BF66AEFDE15CFB6C52F11 Name="s_ai_spawn_conditions" Alt="1368001094C57129" Size="4">
 		<_E Name="difficulty flags" Offset="0" StructName1="GameDifficultyFlags">

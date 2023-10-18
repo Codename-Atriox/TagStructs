@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:56 PM" Name="pathfinding" Parents="aTag" Index="-307">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:17 PM" Name="pathfinding" Parents="aTag" Index="-307">
 	<_CE734B9DF210336B354F357BBB5DC546 Name="ai_pathfinding" Alt="896A4F8B2DB38F48" Size="60">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="navMeshes" Offset="10" GUID="FA834172977133BCE182DF3380410E60" StructName1="ai_pathfinding" Min="0" Max="1024" />
 		<_40 Name="mobileNavMeshes" Offset="24" GUID="4FE14FA5606F09F57BCCEF4CA83D39ED" StructName1="ai_pathfinding" Min="0" Max="500000" />
 		<_40 Name="navVolumes" Offset="38" GUID="9F7E4A96D7A90FFE0C6D4157B6DA8F1F" StructName1="ai_pathfinding" Min="0" Max="256" />
 		<_40 Name="hints" Offset="4C" GUID="A5224EB78C8EEEF8C4CC53509DFEA695" StructName1="ai_pathfinding" Min="0" Max="1" />
 	</_CE734B9DF210336B354F357BBB5DC546>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_FA834172977133BCE182DF3380410E60 Name="NavMeshData" Alt="AA3A086C0A9CFD5C" Size="18">
 		<_43 Name="resource data" Offset="0" StructName1="NavMeshResource" Int1="0" GUID="B6CC40E08B666F964EC359A9A46484AA" />
@@ -42,9 +42,9 @@
 		<_40 Name="cookie cutters" Offset="14" GUID="A506453851C7F11E8154A396AAAFEA9C" StructName1="user_hint_data" Min="0" Max="1048576" />
 		<_40 Name="navmesh areas" Offset="28" GUID="EC9C446B60C6E6A6ACFE022EAC02F347" StructName1="user_hint_data" Min="0" Max="1048576" />
 	</_A5224EB78C8EEEF8C4CC53509DFEA695>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_B6CC40E08B666F964EC359A9A46484AA Name="NavMeshResource" Alt="AB2ADA767CE36F86" Size="A4">
 		<_42 Name="navGraphData" Offset="0" StructName1="NavMeshResource.navGraphData" Int1="32" Int2="4" Flags="400000" />

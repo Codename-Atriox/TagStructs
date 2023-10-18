@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="PlayerGlobalsDefinition" Parents="aTag" Index="-189">
-	<_B38A47DC89AF47DDAF1947529D296814 Name="i343::PlayerGlobals" Alt="E0CDC4D08BEF802A" Size="D8">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="PlayerGlobalsDefinition" Parents="aTag" Index="-189">
+	<_B38A47DC89AF47DDAF1947529D296814 Name="i343::PlayerGlobals" Alt="2FC02D176F640E27" Size="D8">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="Default representation" Offset="10" />
 		<_37 Name="Player Representations" type="fgrb" Offset="14" />
 		<_36 Name="Notes" Offset="14" />
@@ -16,11 +16,11 @@
 		<_38 Name="interaction priorities" Offset="C1" GUID="73B34AD748633C2DCA7484019C07E526" />
 		<_34 Name="generated_pad9d6c" Offset="D3" Length="5" />
 	</_B38A47DC89AF47DDAF1947529D296814>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_9D3049E347CBA42076B77226A3EB3FEE Name="i343::Player::Representation" Alt="627AE1F61F54FD5C" Size="264">
+	<_9D3049E347CBA42076B77226A3EB3FEE Name="i343::Player::Representation" Alt="FEFA9F354E42BF3D" Size="29C">
 		<_2 Name="name" Offset="0" />
 		<_2 Name="first person interface name" Offset="4" />
 		<_2 Name="customization set" Offset="8" />
@@ -54,8 +54,10 @@
 		<_41 Name="outline to use for friendly" Offset="1D8" Allowed="ostd" Flags="0" />
 		<_41 Name="outline to use for friendly near reticle" Offset="1F4" Allowed="ostd" Flags="0" />
 		<_41 Name="non-occluded outline to use for friendly" Offset="210" Allowed="ostd" Flags="0" />
-		<_41 Name="outline to use when viewed by spectators" Offset="22C" Allowed="ostd" Flags="0" />
-		<_41 Name="non-occluded outline to use when viewed by spectators" Offset="248" Allowed="ostd" Flags="0" />
+		<_41 Name="occluded outline to use for friendly AI" Offset="22C" Allowed="ostd" Flags="0" />
+		<_41 Name="non-occluded outline to use for friendly AI" Offset="248" Allowed="ostd" Flags="0" />
+		<_41 Name="outline to use when viewed by spectators" Offset="264" Allowed="ostd" Flags="0" />
+		<_41 Name="non-occluded outline to use when viewed by spectators" Offset="280" Allowed="ostd" Flags="0" />
 	</_9D3049E347CBA42076B77226A3EB3FEE>
 	<_4D24477D45AF4745E5CAEBE7A205702C Name="s_game_globals_player_information" Alt="BF4E716855DCADD6" Size="74">
 		<_2 Name="name" Offset="0" />
@@ -148,9 +150,9 @@
 		<_3C Name="HighPriorityDevice" Offset="10" />
 		<_3C Name="LookingAt" Offset="11" />
 	</_73B34AD748633C2DCA7484019C07E526>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_1163427C00BCA946F8FBC3CB998C7662 Name="i343::Player::Variant" Alt="3C0633F1FF1C7C1C" Size="4">
 		<_2 Name="Variant" Offset="0" />
@@ -181,7 +183,7 @@
 	</_DB6340E6F8D8B4A163AE2E8B97EA8CBB>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 </root>

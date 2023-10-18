@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="wpf_font" Parents="aTag" Index="-156">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="wpf_font" Parents="aTag" Index="-156">
 	<_6B7C4102A961C1161F376609A156ABED Name="WPFFontDefinition" Alt="968D3549A7EE760" Size="138">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="import" type="ctcd" Offset="10" Float1="0" Max="0" Min="0" Float4="0" />
 		<_1 Name="font name" Offset="10" />
 		<_C Name="render mode" Offset="110" StructName1="eFontRenderMode">
@@ -13,9 +13,9 @@
 		<_43 Name="font file resource" Offset="124" StructName1="WPFFontFileData" Int1="0" GUID="E66945894567AF26170B4E17AF28275C" />
 		<_34 Name="generated_padbe8d" Offset="134" Length="4" />
 	</_6B7C4102A961C1161F376609A156ABED>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_A27E46A6DC1D4AE667F7CDCD955CBC54 Name="AntiAliasData" Alt="5BE88F4ABB41B639" Size="4">
 		<_14 Name="antiAliasData" Offset="0" />
@@ -23,8 +23,8 @@
 	<_E66945894567AF26170B4E17AF28275C Name="WPFFontFileData" Alt="A2EF9ABECC4EEB7D" Size="18">
 		<_42 Name="font file data" Offset="0" StructName1="WPFFontFileData.font file data" Int1="8" Int2="0" Flags="3200000" />
 	</_E66945894567AF26170B4E17AF28275C>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

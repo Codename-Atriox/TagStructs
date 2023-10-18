@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="asset" Parents="aTag" Index="-26">
-	<_E36E4E5A50E3D2DB4E21E9D4BE5F8106 Name="AssetTag" Alt="AA5952823B117C9E" Size="260">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="asset" Parents="aTag" Index="-26">
+	<_E36E4E5A50E3D2DB4E21E9D4BE5F8106 Name="AssetTag" Alt="14B3047B4FEF4DE0" Size="260">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_37 Name="Regions" type="fgrb" Offset="10" />
 		<_40 Name="Visual region names" Offset="10" GUID="4366C4BC4A3F1FB324631BE1A24365BD" StructName1="AssetTag" Min="0" Max="32" />
 		<_40 Name="Property regions" Offset="24" GUID="4365C4BC4A3F1F5324631B51A24565BD" StructName1="AssetTag" Min="0" Max="32" />
@@ -116,11 +116,12 @@
 		</_C>
 		<_37 Name="" type="fgre" Offset="1A0" />
 		<_37 Name="Generated Tags" type="fgrb" Offset="1A0" />
-		<_41 Name="Model tag" Offset="1A0" Allowed="hlmt" Flags="9" />
-		<_41 Name="Render model tag" Offset="1BC" Allowed="mode" Flags="9" />
-		<_41 Name="Physics model tag" Offset="1D8" Allowed="phmo" Flags="9" />
-		<_41 Name="Collision model tag" Offset="1F4" Allowed="coll" Flags="9" />
-		<_41 Name="Legacy model animation graph tag" Offset="210" Allowed="jmad" Flags="9" />
+		<_41 Name="Generate Model Tag Reference" Offset="1A0" Allowed="hlmt" Flags="9" />
+		<_41 Name="Generated Render Model Reference" Offset="1BC" Allowed="mode" Flags="9" />
+		<_41 Name="Generated Physics Model Reference" Offset="1D8" Allowed="phmo" Flags="9" />
+		<_41 Name="Generated Collision Model Reference" Offset="1F4" Allowed="coll" Flags="9" />
+		<_41 Name="Generated Legacy Mag Reference" Offset="210" Allowed="jmad" Flags="9" />
+		<_37 Name="" type="fgre" Offset="22C" />
 		<_37 Name="Impostor" type="fgrb" Offset="22C" />
 		<_41 Name="Impostor tag" Offset="22C" Allowed="impr" Flags="9" />
 		<_37 Name="" type="fgre" Offset="248" />
@@ -215,7 +216,7 @@
 	<_43AC14BC4ACA11B321C31B21A2AC15BD Name="LODTransitionDistancesBlock" Alt="3F5AE288BB3C2ECE" Size="4">
 		<_14 Name="Transition distance" Offset="0" />
 	</_43AC14BC4ACA11B321C31B21A2AC15BD>
-	<_4EF6C4BC4CD6EFB3296E1AF1E24695BD Name="AssetVariant" Alt="1B9460685D1BEFB0" Size="E4">
+	<_4EF6C4BC4CD6EFB3296E1AF1E24695BD Name="AssetVariant" Alt="78A693051CA75E0" Size="E4">
 		<_2 Name="Name" Offset="0" />
 		<_2 Name="Style" Offset="4" />
 		<_6 Name="Damage Style Index" Offset="8" />
@@ -225,18 +226,18 @@
 		<_40 Name="Child objects" Offset="38" GUID="5118452A6A78EF68C2DB0E798A4DED79" StructName1="AssetVariant" Min="0" Max="31" />
 		<_40 Name="Muted joints" Offset="4C" GUID="2C534C3988BDD9FA3BE51A5B8548FD0F" StructName1="AssetVariant" Min="0" Max="31" />
 		<_40 Name="Object Node Graphs Overrides" Offset="60" GUID="F773409B74B26D9D525AC5EA87FC4CEA" StructName1="AssetVariant" Min="0" Max="32" />
-		<_41 Name="Reference to material palette tag" Offset="74" Allowed="rtmp" Flags="9" />
-		<_41 Name="Reference to generated vector art" Offset="90" Allowed="vart" Flags="9" />
-		<_41 Name="Reference round trip ABC tag from a render model" Offset="AC" Allowed="abc*" Flags="9" />
-		<_41 Name="Reference round trip ABC tag from a runtimegeo" Offset="C8" Allowed="abc*" Flags="9" />
+		<_41 Name="Generated Runtime Material Palette Reference" Offset="74" Allowed="rtmp" Flags="9" />
+		<_41 Name="Generated Vector Art Reference" Offset="90" Allowed="vart" Flags="9" />
+		<_41 Name="Generated Round Trip Abc From Render Model Reference" Offset="AC" Allowed="abc*" Flags="9" />
+		<_41 Name="Generated Round Trip Abc From RuntimeGeo Reference" Offset="C8" Allowed="abc*" Flags="9" />
 	</_4EF6C4BC4CD6EFB3296E1AF1E24695BD>
-	<_D92DB46311E7673C1E205CBB75358E48 Name="UniqueAssetGeometryVariant" Alt="5CDBC5DD1B9E9467" Size="90">
+	<_D92DB46311E7673C1E205CBB75358E48 Name="UniqueAssetGeometryVariant" Alt="50015F3458D401BD" Size="90">
 		<_3F Name="UUID" Offset="0" />
 		<_40 Name="Explicit visual region list" Offset="8" GUID="436334BC435F1FB323E31BE1A24765B3" StructName1="UniqueAssetGeometryVariant" Min="0" Max="32" />
-		<_41 Name="Reference to generated prefab" Offset="1C" Allowed="rtgo" Flags="9" />
-		<_41 Name="Reference to raw triangle data" Offset="38" Allowed="rawg" Flags="9" />
-		<_41 Name="Reference to generated static collision geometry" Offset="54" Allowed="scgt" Flags="9" />
-		<_41 Name="Reference to generated lightweight fixed-depth quadtree" Offset="70" Allowed="fdqt" Flags="9" />
+		<_41 Name="Generated Static Asset Reference" Offset="1C" Allowed="rtgo" Flags="9" />
+		<_41 Name="Generated Raw Geo Reference" Offset="38" Allowed="rawg" Flags="9" />
+		<_41 Name="Generated Static Collision Geo Reference" Offset="54" Allowed="scgt" Flags="9" />
+		<_41 Name="Generated Fixed Depth Quad Tree Reference" Offset="70" Allowed="fdqt" Flags="9" />
 		<_34 Name="generated_pada40c" Offset="8C" Length="4" />
 	</_D92DB46311E7673C1E205CBB75358E48>
 	<_E22E4E5A50E233DD4E2F74A4BE593E06 Name="ContentValidationBlockData" Alt="24D5276DCCCC1587" Size="18">

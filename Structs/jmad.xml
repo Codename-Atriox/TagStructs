@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:55 PM" Name="model_animation_graph" Parents="aTag" Index="-219">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:16 PM" Name="model_animation_graph" Parents="aTag" Index="-219">
 	<_CC9140F547CD5B92F15D10108388F80F Name="c_model_animation_graph" Alt="B0F90E2B07483903" Size="488">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_38 Name="content" Offset="10" GUID="BF4D4757397B3F13CAEB6DDCBCAE2F88" />
 		<_37 Name="Runtime Data" type="fgrb" Offset="30C" />
 		<_38 Name="run time data" Offset="30C" GUID="FC474475B1091BBF2FAF2F3085A2D6A5" />
@@ -11,9 +11,9 @@
 		<_37 Name="" type="fgre" Offset="484" />
 		<_34 Name="generated_pad6f43" Offset="484" Length="4" />
 	</_CC9140F547CD5B92F15D10108388F80F>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_BF4D4757397B3F13CAEB6DDCBCAE2F88 Name="AnimationGraphContents" Alt="B7DE049E293AF456" Size="2FC">
 		<_37 Name="Links and Settings" type="fgrb" Offset="0" />
@@ -77,9 +77,9 @@
 		<_36 Name="CODEC-SPECIFIC DATA" Offset="0" />
 		<_38 Name="shared_static_codec" Offset="0" GUID="2ADD4D4D76EB40D762F2704AB535E99D" />
 	</_10A34D1EA5200D6D08252592BDB5A4C5>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_844B43CFFD503C234E40FB9AA4FE2453 Name="AnimationGraphExternalReferences" Alt="D03999356A6C1D22" Size="88">
 		<_37 Name="Links" type="fgrb" Offset="0" />
@@ -993,7 +993,7 @@
 	</_FAD949D9FB3CC58F357D10858879258F>
 	<_53FA44845A14A98F0AF1459E801068D4 Name="FunctionDefinition" Alt="BD8AA7CDD7F2930B" Size="18">
 		<_37 Name="" type="hide" Offset="0" />
-		<_42 Name="data" Offset="0" StructName1="function_definition_data" Int1="4" Int2="2" Flags="368" Function="k_maxFunctionSize" />
+		<_42 Name="data" Offset="0" StructName1="" Int1="4" Int2="2" Flags="368" Function="" />
 		<_37 Name="" type="edih" Offset="18" />
 	</_53FA44845A14A98F0AF1459E801068D4>
 	<_57964DFD8238C4F449275A4A95379F24 Name="c_weapon_type" Alt="1A7819D406EFA88E" Size="1C">

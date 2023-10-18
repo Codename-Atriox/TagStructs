@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="CoatingStyle" Parents="aTag" Index="-63">
-	<_35C94279083E272B1C16864D819AE17D Name="CoatingStyleTag" Alt="AA0CCA9EE8F1BC72" Size="70">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:14 PM" Name="CoatingStyle" Parents="aTag" Index="-63">
+	<_35C94279083E272B1C16864D819AE17D Name="CoatingStyleTag" Alt="4C945D798EBFEC6D" Size="70">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_41 Name="Parent" type="parr" Offset="10" Allowed="cmas" Flags="1" />
 		<_40 Name="Swatch Palette" Offset="2C" GUID="DA124CD3B1E94BCAD22F3A20B5107F13" StructName1="CoatingStyleTag" Min="0" Max="2048" />
 		<_40 Name="Region Groups" Offset="40" GUID="9B064E6610D050A7486790E598C55C22" StructName1="CoatingStyleTag" Min="0" Max="2048" />
@@ -20,7 +20,7 @@
 		<_7 Name="" type="nuke" Offset="0" />
 		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
-	<_DA124CD3B1E94BCAD22F3A20B5107F13 Name="CoatingPaletteInfo" Alt="CA87E80C93E23F30" Size="80">
+	<_DA124CD3B1E94BCAD22F3A20B5107F13 Name="CoatingPaletteInfo" Alt="9AAA2552A2451103" Size="80">
 		<_3F Name="elementID" Offset="0" />
 		<_2 Name="Description" Offset="8" />
 		<_41 Name="Swatch" Offset="C" Allowed="cmsw" Flags="4" />
@@ -56,29 +56,40 @@
 			<Flag n="disabled" />
 			<Flag n="enabled" />
 		</_A>
-		<_A Name="Use Subsurface Scattering?" Offset="75" StructName1="UseSSSEnum">
+		<_34 Name="generated_pad8179" Offset="75" Length="1" />
+		<_B Name="Use Subsurface Scattering?" Offset="76" StructName1="UseSSSEnum">
 			<Flag n="Do Not Use Subsurface" />
 			<Flag n="Use Subsurface" />
 			<Flag n="Use Subsurface (gummy)" />
-		</_A>
-		<_A Name="Hero Reveal" Offset="76" StructName1="MaterialState">
+			<Flag n="Use Subsurface (alien skin)" />
+			<Flag n="Use Subsurface (brute skin)" />
+			<Flag n="Use Subsurface (human skin post)" />
+			<Flag n="Use Subsurface (human skin pre)" />
+			<Flag n="Use Subsurface (inquisitor skin)" />
+			<Flag n="Use Subsurface (marble)" />
+			<Flag n="Use Subsurface (plastic)" />
+			<Flag n="Use Subsurface (preintegrated)" />
+			<Flag n="Use Subsurface (snow)" />
+			<Flag n="Use Subsurface (flood)" />
+		</_B>
+		<_A Name="Hero Reveal" Offset="78" StructName1="MaterialState">
 			<Flag n="disabled" />
 			<Flag n="enabled" />
 		</_A>
-		<_A Name="Color Blend" Offset="77" StructName1="MaterialState">
+		<_A Name="Color Blend" Offset="79" StructName1="MaterialState">
 			<Flag n="disabled" />
 			<Flag n="enabled" />
 		</_A>
-		<_A Name="Normal Blend" Offset="78" StructName1="MaterialState">
+		<_A Name="Normal Blend" Offset="7A" StructName1="MaterialState">
 			<Flag n="disabled" />
 			<Flag n="enabled" />
 		</_A>
-		<_A Name="Ignore Texel Density Scalar" Offset="79" StructName1="MaterialState">
+		<_A Name="Ignore Texel Density Scalar" Offset="7B" StructName1="MaterialState">
 			<Flag n="disabled" />
 			<Flag n="enabled" />
 		</_A>
-		<_37 Name="" type="fgre" Offset="7A" />
-		<_34 Name="generated_pad8179" Offset="7A" Length="6" />
+		<_37 Name="" type="fgre" Offset="7C" />
+		<_34 Name="generated_padce2e" Offset="7C" Length="4" />
 	</_DA124CD3B1E94BCAD22F3A20B5107F13>
 	<_9B064E6610D050A7486790E598C55C22 Name="CoatingStyleRegion" Alt="2574A7895FE04319" Size="50">
 		<_3F Name="elementID" Offset="0" />

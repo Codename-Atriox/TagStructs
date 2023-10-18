@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="emblem_theme_globals" Parents="aTag" Index="-127">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="emblem_theme_globals" Parents="aTag" Index="-127">
 	<_951049D13D7B8D7700966F9F86F2593F Name="Interface::EmblemThemeGlobals" Alt="4744D236189C7837" Size="40">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="global default emblem coating" Offset="10" />
 		<_40 Name="coating groups" Offset="14" GUID="0E8F4A1143BF8B519DC258F3A364296D" StructName1="Interface::EmblemThemeGlobals" Min="0" Max="1024" />
 		<_36 Name="Themes" Offset="28" />
 		<_40 Name="emblem themes" Offset="28" GUID="E4B94DA868ECE073AF1B4498B1CAEA7C" StructName1="Interface::EmblemThemeGlobals" Min="0" Max="1024" />
 		<_34 Name="generated_padf606" Offset="3C" Length="4" />
 	</_951049D13D7B8D7700966F9F86F2593F>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_0E8F4A1143BF8B519DC258F3A364296D Name="Interface::EmblemElementGroup" Alt="AE61FF07F15F4AB1" Size="18">
 		<_2 Name="id" Offset="0" />
@@ -28,9 +28,9 @@
 		<_2 Name="default coating" Offset="38" />
 		<_2 Name="initial coating" Offset="3C" />
 	</_E4B94DA868ECE073AF1B4498B1CAEA7C>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_BC814A093C466860D7399F7A8F796FAD Name="Interface::EmblemElementName" Alt="3F581C41986725A9" Size="4">
 		<_2 Name="id" Offset="0" />

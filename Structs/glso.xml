@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="SoftCeilingGlobalsDefinition" Parents="aTag" Index="-192">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="SoftCeilingGlobalsDefinition" Parents="aTag" Index="-192">
 	<_9A4D43EB9C62D3094BE6C702AE76FB3A Name="i343::SoftCeilingGlobals" Alt="92FDF931E78F94A7" Size="28">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="soft ceilings" Offset="10" GUID="36734BA764E57956DA4FEAED83B6CF77" StructName1="i343::SoftCeilingGlobals" Min="0" Max="1" />
 		<_34 Name="generated_pad71fe" Offset="24" Length="4" />
 	</_9A4D43EB9C62D3094BE6C702AE76FB3A>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_36734BA764E57956DA4FEAED83B6CF77 Name="s_game_globals_soft_ceiling" Alt="FAEFF545BED16102" Size="1C">
 		<_14 Name="biped spring constant" Offset="0" />
@@ -18,8 +18,8 @@
 		<_14 Name="vehicle normal damping" Offset="14" />
 		<_14 Name="vehicle tangent damping" Offset="18" />
 	</_36734BA764E57956DA4FEAED83B6CF77>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 </root>

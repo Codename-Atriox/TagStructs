@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:54 PM" Name="ColorGlobalsDefinition" Parents="aTag" Index="-181">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:15 PM" Name="ColorGlobalsDefinition" Parents="aTag" Index="-181">
 	<_F0E7432B6100210B691C657D9CB567BF Name="i343::ColorGlobals" Alt="2ED824F8FE8B122C" Size="68">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="profile colors" Offset="10" GUID="F0E248660A6C9756C9C41962A708F3E9" StructName1="i343::ColorGlobals" Min="0" Max="63" />
 		<_40 Name="emblem colors" Offset="24" GUID="E3D9DB4347AFA95732793CFEB81B5B53" StructName1="i343::ColorGlobals" Min="0" Max="33" />
 		<_40 Name="visor colors" Offset="38" GUID="84F247BD91C73AC226DB133B933B0BAD" StructName1="i343::ColorGlobals" Min="0" Max="63" />
 		<_38 Name="elite specular color" Offset="4C" GUID="61AC41D01935844426C63A1B8B134E19" />
 		<_34 Name="generated_padc5d6" Offset="64" Length="4" />
 	</_F0E7432B6100210B691C657D9CB567BF>
-	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="AnyTag_struct_definition" Alt="7BD5F40502F6531F" Size="10">
-		<_7 Name="vtable space" type="nuke" Offset="0" />
-		<_38 Name="internal struct" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
+	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
+		<_7 Name="" type="nuke" Offset="0" />
+		<_38 Name="" Offset="8" GUID="181F479C151D014633BC439086EC7039" />
 	</_A9634A3E9D8CBAE5C06E4524ACDCE531>
 	<_F0E248660A6C9756C9C41962A708F3E9 Name="multiplayer_color" Alt="9C921F381419D33E" Size="C">
 		<_1F Name="color" Offset="0" />
@@ -28,9 +28,9 @@
 		<_1F Name="tertiary color" Offset="0" />
 		<_1F Name="quaternary color" Offset="C" />
 	</_61AC41D01935844426C63A1B8B134E19>
-	<_181F479C151D014633BC439086EC7039 Name="s_anyTagGuts" Alt="1BC41FF46F32F85C" Size="8">
-		<_6 Name="global tag ID" Offset="0" />
-		<_34 Name="local tag handle" Offset="4" Length="4" />
+	<_181F479C151D014633BC439086EC7039 Name="" Alt="1BC41FF46F32F85C" Size="8">
+		<_6 Name="" Offset="0" />
+		<_34 Name="" Offset="4" Length="4" />
 	</_181F479C151D014633BC439086EC7039>
 	<_51AB00415F0C6CDAC8E42BABB634843F Name="i343::EmblemHarmony" Alt="F1DAB51610BE6673" Size="28">
 		<_2 Name="harmony name" Offset="0" />

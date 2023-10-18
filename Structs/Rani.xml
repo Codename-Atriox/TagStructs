@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="RuntimeAnimSet" Parents="aTag" Index="-3">
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:12 PM" Name="RuntimeAnimSet" Parents="aTag" Index="-3">
 	<_A41882F90AD3DBCDFDA622B75F67227A Name="RuntimeAnimSetTag" Alt="3A6739764A9252DA" Size="48">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_2 Name="m_channel" Offset="10" />
 		<_41 Name="m_parent" Offset="14" Allowed="Rani" Flags="0" />
 		<_40 Name="m_animEntryLists" Offset="30" GUID="28D83D3AAD9CE02ED9716E4A0650FCD1" StructName1="RuntimeAnimSetTag" Min="0" Max="4096" />

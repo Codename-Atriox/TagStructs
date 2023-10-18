@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<root GameVersion="6.10024.17792.0" Timestamp="04/10/2023 -&gt; 11:28:53 PM" Name="UICameraPresets" Parents="aTag" Index="-53">
-	<_E372452C5E03CA5DB2701157BABD4F0D Name="Interface::Customization::UICameraPresetsTag" Alt="951F5D2C8118DF50" Size="38">
-		<_38 Name="AnyTag" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
+<root GameVersion="6.10025.10367.0" Timestamp="18/10/2023 -&gt; 10:46:13 PM" Name="UICameraPresets" Parents="aTag" Index="-53">
+	<_E372452C5E03CA5DB2701157BABD4F0D Name="Interface::Customization::UICameraPresetsTag" Alt="135FDFA21415A65" Size="38">
+		<_38 Name="" Offset="0" GUID="A9634A3E9D8CBAE5C06E4524ACDCE531" />
 		<_40 Name="Camera Presets Settings" Offset="10" GUID="3CA7420EA286A3BD13BB2A2BAAD6E021" StructName1="Interface::Customization::UICameraPresetsTag" Min="0" Max="200" />
-		<_40 Name="Camera Scene Presets Settings" Offset="24" GUID="AE41486E8CDAED5CC205BD249806D14A" StructName1="Interface::Customization::UICameraPresetsTag" Min="0" Max="9" />
+		<_40 Name="Camera Scene Presets Settings" Offset="24" GUID="AE41486E8CDAED5CC205BD249806D14A" StructName1="Interface::Customization::UICameraPresetsTag" Min="0" Max="10" />
 	</_E372452C5E03CA5DB2701157BABD4F0D>
 	<_A9634A3E9D8CBAE5C06E4524ACDCE531 Name="" Alt="7BD5F40502F6531F" Size="10">
 		<_7 Name="" type="nuke" Offset="0" />
@@ -88,7 +88,7 @@
 		</_B>
 		<_40 Name="Camera Settings" Offset="8" GUID="EC8183B01BC3440D1AB724ABDA7AE82D" StructName1="Interface::Customization::UICameraPreset" Min="0" Max="100" />
 	</_3CA7420EA286A3BD13BB2A2BAAD6E021>
-	<_AE41486E8CDAED5CC205BD249806D14A Name="Interface::Customization::UICameraScenePreset" Alt="2AE60CF9B884FFCB" Size="18">
+	<_AE41486E8CDAED5CC205BD249806D14A Name="Interface::Customization::UICameraScenePreset" Alt="BE4BAF9E83BA7CED" Size="18">
 		<_B Name="Scene type" Offset="0" StructName1="Interface::Customization::SpartanCustomizationSceneTypes">
 			<Flag n="SpartanArmor" />
 			<Flag n="Weapons" />
@@ -99,6 +99,7 @@
 			<Flag n="Inspect" />
 			<Flag n="InspectPlayer" />
 			<Flag n="PGCR" />
+			<Flag n="MainMenu" />
 		</_B>
 		<_34 Name="generated_pad0124" Offset="2" Length="2" />
 		<_40 Name="Camera Presets Settings" Offset="4" GUID="3CA7420EA286A3BD13BB2A2BAAD6E021" StructName1="Interface::Customization::UICameraScenePreset" Min="0" Max="200" />
